@@ -1,0 +1,2207 @@
+{
+  "result": {
+    "tools": [
+      {
+        "name": "search_stocks",
+        "title": "Search Indian Stocks",
+        "description": "Search ~8,200 Indian stocks by name, symbol, BSE code, or ISIN. Also matches common/brand names and post-rename aliases (e.g. 'Zomato'\u2192ETERNAL, 'Infosys'\u2192INFY). Listed companies rank first, then by match (exact symbol/code > prefix > word > contains), larger companies first within each; queries of 4+ characters tolerate typos. Each result's `symbol` is what the per-stock tools take as input.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "query": {
+              "type": "string",
+              "description": "REQUIRED. The search text \u2014 a company name, symbol, BSE code, or ISIN. Example: \"reliance\" or \"TCS\"."
+            },
+            "sector": {
+              "type": "string",
+              "description": "Filter by sector (e.g. 'Information Technology')"
+            },
+            "industry": {
+              "type": "string",
+              "description": "Filter by industry (e.g. 'Private Bank')"
+            },
+            "limit": {
+              "type": "number",
+              "default": 10,
+              "description": "Max results (default 10, max 50)"
+            }
+          },
+          "additionalProperties": false,
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        },
+        "annotations": {
+          "title": "Search Indian Stocks",
+          "readOnlyHint": true,
+          "destructiveHint": false,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        }
+      },
+      {
+        "name": "get_company_profile",
+        "title": "Company Profile",
+        "description": "Get detailed company overview \u2014 sector, about, pros/cons, fundamentals (PE, PB, market cap, ROE, ROCE, debt/equity), growth metrics, and current quote. Default response is ~3KB.\n\nUse the 'include' param to add optional sections via parallel API calls:\n- \"technicals\": RSI, SMA, EMA, MACD, Bollinger Bands, ATR, ADX (~20 indicators)\n- \"ratings\": Analyst buy/hold/sell consensus with counts and percentages\n- \"peers\": Comparable-company table \u2014 the stock's published peer cohort with price, day change, market cap, P/E, P/B, dividend yield, ROE, ROCE, ROA, OPM, debt/equity, TTM sales and net profit, and promoter holding, plus a per-column median across the cohort. The stock itself is included and flagged `is_self`, so it can be ranked against its own peers on any column. A `null` metric means the figure is not published for that company \u2014 never treat it as 0.\n\nExample: include [\"technicals\", \"ratings\"] for a full analysis view.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "symbol": {
+              "type": "string",
+              "description": "REQUIRED. The stock symbol, e.g. \"RELIANCE\", \"TCS\", or \"HDFCBANK\"."
+            },
+            "include": {
+              "anyOf": [
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                {
+                  "type": "string"
+                }
+              ],
+              "description": "Optional extra sections, a list of: technicals, ratings, peers. Fundamentals, growth and pros/cons are already in the base profile; statements are get_financials."
+            },
+            "ticker": {
+              "type": "string",
+              "description": "Alias for `symbol`."
+            },
+            "identifier": {
+              "type": "string",
+              "description": "Alias for `symbol`."
+            }
+          },
+          "additionalProperties": false,
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        },
+        "annotations": {
+          "title": "Company Profile",
+          "readOnlyHint": true,
+          "destructiveHint": false,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        }
+      },
+      {
+        "name": "get_stock_events",
+        "title": "Stock Events",
+        "description": "Get stock events \u2014 news, corporate actions, or company filings. Filter by type to get only what you need.\n\nTypes:\n- \"news\": Sentiment-tagged news (positive/negative/neutral) with category and source URL\n- \"corporate_actions\": Dividends, stock splits, bonuses, AGMs, rights issues with ex-date and LTP\n- \"filings\": Quarterly results, investor presentations, concall transcripts/audio, annual reports, credit ratings, regulatory announcements. Doc types include 'result', 'investor_presentation', 'concall_transcript', 'concall_audio', 'concall' (legacy), 'annual_report', 'announcement', 'credit_rating'. Combines two filing catalogues, so the latest quarter and exact filing dates are covered.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "symbol": {
+              "type": "string",
+              "description": "REQUIRED. The stock symbol, e.g. \"RELIANCE\" or \"TCS\"."
+            },
+            "type": {
+              "type": "string",
+              "enum": [
+                "news",
+                "corporate_actions",
+                "filings"
+              ],
+              "default": "news",
+              "description": "Event type to fetch. Defaults to \"news\" when omitted."
+            },
+            "limit": {
+              "type": "number",
+              "default": 20,
+              "description": "Max results (default 20, max 50)"
+            },
+            "ticker": {
+              "type": "string",
+              "description": "Alias for `symbol`."
+            },
+            "identifier": {
+              "type": "string",
+              "description": "Alias for `symbol`."
+            }
+          },
+          "additionalProperties": false,
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        },
+        "annotations": {
+          "title": "Stock Events",
+          "readOnlyHint": true,
+          "destructiveHint": false,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        }
+      },
+      {
+        "name": "get_stock_ownership",
+        "title": "Stock Ownership",
+        "description": "Get ownership data for a stock \u2014 yearly dividend totals and mutual fund holdings. `dividends` is one row per year: {Year, Div (dividend per share in \u20b9 for that year), yield (%), exch}. There is NO ex-date and NO interim/final split here; for dated individual dividends use get_stock_events with type \"corporate_actions\". `dividends` is an empty string or null when none is on file. `mf_holdings` is a list of positional arrays, one per scheme: [scheme_id, scheme_name, amc_id, scheme_isin, shares_held, pct_of_scheme_aum, share_change_mom, pct_of_aum_change_mom (percentage points), an unlabelled change figure (do not interpret), months, slug]. shares_held, pct_of_scheme_aum and months are '|'-joined monthly series, newest first, aligned by position (e.g. months \"2026-09|2026-08|\u2026\"). Empty string or null when no holdings are on file.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "symbol": {
+              "type": "string",
+              "description": "REQUIRED. The stock symbol, e.g. \"RELIANCE\" or \"TCS\"."
+            },
+            "ticker": {
+              "type": "string",
+              "description": "Alias for `symbol`."
+            },
+            "identifier": {
+              "type": "string",
+              "description": "Alias for `symbol`."
+            }
+          },
+          "additionalProperties": false,
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        },
+        "annotations": {
+          "title": "Stock Ownership",
+          "readOnlyHint": true,
+          "destructiveHint": false,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        }
+      },
+      {
+        "name": "get_stock_quote",
+        "title": "Stock Quote",
+        "description": "Get the current/latest stock price quote \u2014 LTP, change, change %, volume, market cap, PE, PB, 52-week high/low. For multiple stocks, use get_batch_quotes instead.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "symbol": {
+              "type": "string",
+              "description": "REQUIRED. The stock symbol to quote, e.g. \"RELIANCE\" or \"TCS\"."
+            },
+            "ticker": {
+              "type": "string",
+              "description": "Alias for `symbol`."
+            },
+            "identifier": {
+              "type": "string",
+              "description": "Alias for `symbol`."
+            }
+          },
+          "additionalProperties": false,
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        },
+        "annotations": {
+          "title": "Stock Quote",
+          "readOnlyHint": true,
+          "destructiveHint": false,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        }
+      },
+      {
+        "name": "get_batch_quotes",
+        "title": "Batch Stock Quotes",
+        "description": "Get current price quotes for multiple stocks at once. Max 20 symbols per request. More efficient than calling get_stock_quote repeatedly.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "symbols": {
+              "anyOf": [
+                {
+                  "type": "array"
+                },
+                {
+                  "type": "string"
+                }
+              ],
+              "description": "REQUIRED. Array of up to 20 stock symbols, e.g. [\"RELIANCE\",\"TCS\",\"HDFCBANK\"]. Over 20, split across calls."
+            }
+          },
+          "additionalProperties": false,
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        },
+        "annotations": {
+          "title": "Batch Stock Quotes",
+          "readOnlyHint": true,
+          "destructiveHint": false,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        }
+      },
+      {
+        "name": "get_price_history",
+        "title": "Price History (OHLCV)",
+        "description": "Get OHLCV price history as row-per-day format \u2014 date, open, high, low, close, volume, delivery %. Supports configurable lookback days and daily/weekly aggregation. Default 365 days (max 2000). Use this for price analysis, trend detection, and technical calculations. IMPORTANT: `days` is CAPPED at 2000, so a longer request is silently shortened unless you read `meta.window`. Always check `meta.window.truncated` before treating the series as the full requested history \u2014 when it is true, `meta.window.requested_days` tells you what you asked for and `meta.window.next_cursor` gives the `end_date` to pass on a follow-up call to page further back. For a full multi-year series, page with `end_date` until `truncated` is false.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "symbol": {
+              "type": "string",
+              "description": "REQUIRED. The stock symbol, e.g. \"RELIANCE\" or \"TCS\"."
+            },
+            "days": {
+              "type": "number",
+              "default": 365,
+              "description": "Number of days to look back (default 365, max 2000 \u2014 larger values are capped, see meta.window.truncated)"
+            },
+            "interval": {
+              "type": "string",
+              "default": "daily",
+              "description": "Bar size: \"daily\" (default) or \"weekly\" \u2014 the AGGREGATION of each row, NOT the length of the window. Use `days` for the window (e.g. days:5 for the last 5 sessions). Only end-of-day bars exist: intraday values like \"1m\"/\"5m\"/\"15m\"/\"1h\" and \"monthly\" are NOT supported and return an explanatory error."
+            },
+            "end_date": {
+              "type": "string",
+              "description": "Optional YYYY-MM-DD upper bound (inclusive) for the window \u2014 the cursor for paging further back through history. Pass the `meta.window.next_cursor` from a truncated response to fetch the preceding page. Omit for the most recent window."
+            },
+            "ticker": {
+              "type": "string",
+              "description": "Alias for `symbol`."
+            },
+            "identifier": {
+              "type": "string",
+              "description": "Alias for `symbol`."
+            }
+          },
+          "additionalProperties": false,
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        },
+        "annotations": {
+          "title": "Price History (OHLCV)",
+          "readOnlyHint": true,
+          "destructiveHint": false,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        },
+        "_meta": {
+          "ui": {
+            "resourceUri": "ui://tapetide/price-history.html"
+          }
+        }
+      },
+      {
+        "name": "get_financials",
+        "title": "Financial Statements",
+        "description": "Get financial statements for one company. Sections: `quarterly` (quarterly P&L, ~13 quarters), `profit_loss` (annual P&L), `balance_sheet`, `cash_flow`, `ratios` (all annual). Pass `section` for one statement with every period we hold; omit it to get all sections trimmed to the latest 5 periods each (use `periods` to widen, e.g. {\"symbol\":\"TCS\",\"section\":\"quarterly\",\"periods\":12}). Each section carries `periods` (oldest first), `data` {row: {period: value}}, `pct_changes`, `row_order`, and an `availability` array giving the point-in-time `available_from` date per period (the real result-declaration date where known, `basis:\\\"reported\\\"`, otherwise a regulatory-lag estimate, `basis:\\\"estimated\\\"`). Use `available_from` for backtests to avoid look-ahead bias. NOTE: `available_from` reflects original declaration timing only; the values are the latest reported figures and may include later restatements. One symbol per call; for many companies call once per symbol (get_batch_quotes is prices only). ETFs, index funds and bonds have no financial statements.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "symbol": {
+              "type": "string",
+              "description": "REQUIRED. The stock symbol, e.g. \"RELIANCE\" or \"TCS\"."
+            },
+            "section": {
+              "type": "string",
+              "description": "One of: quarterly, profit_loss, balance_sheet, cash_flow, ratios. `quarterly` is the quarterly P&L; the other four are annual. Omit for all sections."
+            },
+            "periods": {
+              "type": [
+                "number",
+                "string"
+              ],
+              "description": "Latest N periods per section (max 40). Default: all periods when a section is named, 5 per section when it is not."
+            },
+            "quarters": {
+              "type": [
+                "number",
+                "string"
+              ],
+              "description": "Alias for `periods`."
+            },
+            "ticker": {
+              "type": "string",
+              "description": "Alias for `symbol`."
+            },
+            "identifier": {
+              "type": "string",
+              "description": "Alias for `symbol`."
+            }
+          },
+          "additionalProperties": false,
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        },
+        "annotations": {
+          "title": "Financial Statements",
+          "readOnlyHint": true,
+          "destructiveHint": false,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        }
+      },
+      {
+        "name": "get_shareholding",
+        "title": "Shareholding Pattern",
+        "description": "Get shareholding pattern \u2014 promoter, FII, DII, public holdings over time. Track institutional buying/selling trends quarter over quarter. Useful for understanding ownership changes.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "symbol": {
+              "type": "string",
+              "description": "REQUIRED. The stock symbol, e.g. \"RELIANCE\" or \"TCS\"."
+            },
+            "type": {
+              "type": "string",
+              "enum": [
+                "quarterly",
+                "annual"
+              ],
+              "description": "Period type. Omit for all."
+            },
+            "ticker": {
+              "type": "string",
+              "description": "Alias for `symbol`."
+            },
+            "identifier": {
+              "type": "string",
+              "description": "Alias for `symbol`."
+            }
+          },
+          "additionalProperties": false,
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        },
+        "annotations": {
+          "title": "Shareholding Pattern",
+          "readOnlyHint": true,
+          "destructiveHint": false,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        }
+      },
+      {
+        "name": "get_forecasts",
+        "title": "Analyst Forecasts",
+        "description": "Get analyst forecasts \u2014 EPS, revenue, EBITDA, net income, ROA, ROE, and price estimates. Both quarterly and annual periods with actuals vs estimates comparison, and each estimate's analyst range in `bands` (low/high). EPS actuals are restated for splits and bonuses; `meta.eps_adjustments` lists what was rescaled. Useful for understanding market expectations and earnings surprises.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "symbol": {
+              "type": "string",
+              "description": "REQUIRED. The stock symbol, e.g. \"RELIANCE\" or \"TCS\"."
+            },
+            "ticker": {
+              "type": "string",
+              "description": "Alias for `symbol`."
+            },
+            "identifier": {
+              "type": "string",
+              "description": "Alias for `symbol`."
+            }
+          },
+          "additionalProperties": false,
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        },
+        "annotations": {
+          "title": "Analyst Forecasts",
+          "readOnlyHint": true,
+          "destructiveHint": false,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        }
+      },
+      {
+        "name": "get_market_pulse",
+        "title": "Market Pulse",
+        "description": "Get today's market snapshot \u2014 FII/DII net flows (buy/sell/net in crores), Nifty 50 valuations (PE/PB/DY), and the India VIX volatility gauge. This is the quick daily-overview tool. For the technical signal scanner (52-week highs/lows, RSI extremes, MACD, volume spikes) use get_market_data with dataset: \"signals\"; for top gainers/losers/most-active use get_trending_stocks.",
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {}
+        },
+        "annotations": {
+          "title": "Market Pulse",
+          "readOnlyHint": true,
+          "destructiveHint": false,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        }
+      },
+      {
+        "name": "get_fii_dii_detail",
+        "title": "FII/DII Institutional Flows",
+        "description": "Get detailed FII/DII institutional flow data:\n- Daily cash market flows for last 30 trading days (buy/sell/net in crores)\n- F&O participant positioning (FII/DII/Pro/Client long/short OI)\n- Weekly, monthly, yearly aggregates\n- Buy/sell streaks and 5d/30d/1yr cumulative net flows\n- Optional: cumulative flow chart data with interval param\n\nEssential for understanding institutional money flow in Indian markets.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "chart_interval": {
+              "type": "string",
+              "enum": [
+                "1m",
+                "3m",
+                "6m",
+                "1y",
+                "5y"
+              ],
+              "description": "Include cumulative flow chart data for this interval"
+            }
+          },
+          "additionalProperties": false,
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        },
+        "annotations": {
+          "title": "FII/DII Institutional Flows",
+          "readOnlyHint": true,
+          "destructiveHint": false,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        }
+      },
+      {
+        "name": "get_fii_dii_flows",
+        "title": "FII/DII Flows (alias for get_fii_dii_detail)",
+        "description": "Alias for get_fii_dii_detail. Get detailed FII/DII institutional flow data \u2014 daily cash market flows, F&O positioning, weekly/monthly/yearly aggregates, buy/sell streaks.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "chart_interval": {
+              "type": "string",
+              "enum": [
+                "1m",
+                "3m",
+                "6m",
+                "1y",
+                "5y"
+              ],
+              "description": "Include cumulative flow chart data for this interval"
+            }
+          },
+          "additionalProperties": false,
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        },
+        "annotations": {
+          "title": "FII/DII Flows (alias for get_fii_dii_detail)",
+          "readOnlyHint": true,
+          "destructiveHint": false,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        }
+      },
+      {
+        "name": "get_fpi_sectors",
+        "title": "FPI Sector-wise Flows",
+        "description": "Get FPI (Foreign Portfolio Investor) sector-wise investment data. Returns AUM share per sector, fortnight change, 1-year cumulative flow, and sparkline data. Sorted three ways: by AUM, by fortnight change, and by 1Y flow. Useful for understanding which sectors foreign investors are buying/selling.",
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {}
+        },
+        "annotations": {
+          "title": "FPI Sector-wise Flows",
+          "readOnlyHint": true,
+          "destructiveHint": false,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        }
+      },
+      {
+        "name": "get_market_news",
+        "title": "Market News",
+        "description": "Get latest market-wide news across all categories. Returns sentiment-tagged articles (positive/negative/neutral) with category, source URL, and related stock symbols.\n\nCategories include: companies, global, markets, ipo, government-policy-and-regulation, debt-markets, equity-markets, investment-ideas, technology, real-estate, infrastructure.\n\nUse this for broad market news. For stock-specific news, use get_stock_events with type \"news\" instead.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "limit": {
+              "type": "number",
+              "default": 20,
+              "description": "Max results (default 20, max 50)"
+            },
+            "category": {
+              "type": "string",
+              "description": "Filter by category (e.g. 'global', 'markets', 'ipo', 'companies')"
+            },
+            "sentiment": {
+              "type": "string",
+              "enum": [
+                "positive",
+                "negative",
+                "neutral"
+              ],
+              "description": "Filter by sentiment"
+            }
+          },
+          "additionalProperties": false,
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        },
+        "annotations": {
+          "title": "Market News",
+          "readOnlyHint": true,
+          "destructiveHint": false,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        }
+      },
+      {
+        "name": "get_market_data",
+        "title": "Market Data Feeds",
+        "description": "Get one of today's market-wide data feeds. Pass `dataset` to choose:\n- deals \u2014 bulk & block deals for the last 7 days (symbol, name, client, buy/sell, qty, price, value), newest and largest first.\n- fno_ban \u2014 F&O ban list: stocks at or above 80% of MWPL, with mwpl_pct and status (in_ban from the exchange's published ban list, else near_ban).\n- deliveries \u2014 latest session's highest delivery-% stocks (>=50%, traded value >= Rs 1 Cr), indicating genuine buying over speculation.\n- ipo \u2014 current and upcoming IPOs: dates, price band, issue size, and subscription by category.\n- mtf \u2014 Margin Trading Facility: most-funded stocks with funded qty/value in Rs crore and change vs the previous session (market-wide book not available).\n- slbm \u2014 Stock Lending & Borrowing: lent stocks with lending yield and traded qty. High yield = strong short-selling demand.\n- signals \u2014 technical signals from the latest session: 52-week highs/lows, RSI extremes, MACD, volume spikes, 200-day trend.\nFor index PE/PB valuation history use market_valuations; for an index's constituent heatmap use market_heatmap; for a single stock's own deal history use get_stock_deals.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "dataset": {
+              "type": "string",
+              "enum": [
+                "deals",
+                "fno_ban",
+                "deliveries",
+                "ipo",
+                "mtf",
+                "slbm",
+                "signals"
+              ],
+              "description": "REQUIRED. Which feed to fetch: deals, fno_ban, deliveries, ipo, mtf, slbm, signals."
+            }
+          },
+          "additionalProperties": false,
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        },
+        "annotations": {
+          "title": "Market Data Feeds",
+          "readOnlyHint": true,
+          "destructiveHint": false,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        }
+      },
+      {
+        "name": "market_valuations",
+        "title": "Market Valuations",
+        "description": "Get index valuation metrics (PE, PB, Dividend Yield) over time. Default: Nifty 50, weekly data, 5 years. Useful for assessing whether the market is overvalued or undervalued relative to historical averages.\n\nindex_code accepts EITHER a slug (recommended, like market_heatmap) or a raw numeric code:\n  nifty-50 (13), nifty-500 (19), nifty-bank (25), nifty-midcap-50 (51), nifty-it (27), nifty-next-50 (53).",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "index_code": {
+              "type": [
+                "string",
+                "number"
+              ],
+              "default": "nifty-50",
+              "description": "Index as a slug (\"nifty-50\", \"nifty-bank\", \"nifty-it\", \"nifty-500\", \"nifty-midcap-50\", \"nifty-next-50\") or its numeric code. Default \"nifty-50\"."
+            },
+            "years": {
+              "type": "number",
+              "default": 5,
+              "description": "Years of history (default 5, max 20)"
+            }
+          },
+          "additionalProperties": false,
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        },
+        "annotations": {
+          "title": "Market Valuations",
+          "readOnlyHint": true,
+          "destructiveHint": false,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        }
+      },
+      {
+        "name": "market_heatmap",
+        "title": "Stock Heatmap",
+        "description": "Get a stock heatmap for an index \u2014 all constituent stocks with market cap, PE, PB, price changes (1d/1w/1m/3m/6m/1y/5y), volume, and sector.\n\nAvailable indices: see the index parameter (Nifty broad, size and sector indices plus Sensex).",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "index": {
+              "type": "string",
+              "description": "Index slug (default nifty-50). One of: nifty-50, sensex, nifty-next-50, nifty-100, nifty-200, nifty-500, nifty-midcap-50, nifty-midcap-100, nifty-midcap-150, nifty-midcap-select, nifty-total-market, nifty-smallcap-50, nifty-smallcap-100, nifty-smallcap-250, nifty-microcap-250, nifty-midsmallcap-400, nifty-auto, nifty-bank, nifty-financial, nifty-fmcg, nifty-healthcare, nifty-it, nifty-media, nifty-metal, nifty-pharma, nifty-private-bank, nifty-psu-bank, nifty-realty, nifty-consumer-durables, nifty-commodities, nifty-cpse, nifty-energy, nifty-infra, nifty-mnc, nifty-pse, nifty-services."
+            }
+          },
+          "additionalProperties": false,
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        },
+        "annotations": {
+          "title": "Stock Heatmap",
+          "readOnlyHint": true,
+          "destructiveHint": false,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        },
+        "_meta": {
+          "ui": {
+            "resourceUri": "ui://tapetide/market-heatmap.html"
+          }
+        }
+      },
+      {
+        "name": "screen_stocks",
+        "title": "Stock Screener (Fundamental)",
+        "description": "Screen Indian stocks by fundamental criteria using 325 financial ratios (valuation, profitability, growth, balance sheet, cash flow, shareholding, with 3Y/5Y/10Y history).\nFor technical screens (RSI, MACD, moving averages), use screen_stocks_technical instead.\n\nQUERY SYNTAX: {Ratio Name} {operator} {value}[%]\n  Operators: >, <, =, >=, <=   Connectors: AND, OR (each on its own line)\n  Cross-field comparison is allowed: Current price > DMA 200\n  Max length 1500 characters. Ratio names must be EXACT (case-insensitive); an invalid query is an error naming the bad token.\n\nCOMMON RATIO NAMES: Market Capitalization, Current price, Price to Earning, Price to book value, Dividend yield, Return on equity, Return on capital employed, OPM, EPS, Net profit, Sales, Sales growth 3Years, Profit growth 3Years, Debt to equity, Current ratio, Promoter holding, FII holding, Pledged percentage, DMA 50, DMA 200, RSI, Piotroski score, Altman Z Score, Number of equity shares.\nCall get_screener_ratios (searchable, full 325-ratio catalog) for anything not listed \u2014 do not guess a name.\n\nEXAMPLE: \"Market Capitalization > 5000 AND\\nPrice to Earning < 15 AND\\nReturn on capital employed > 22\"\n\nNote: \"last year\" in a ratio name means the most recent annual result. To identify an unknown stock from partial financials, call read_me for the disambiguation procedure.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "query": {
+              "type": "string",
+              "maxLength": 1500,
+              "description": "REQUIRED. Screener query using ratio names, operators, and AND/OR connectors. Example: \"Market Capitalization > 5000 AND Return on capital employed > 22\"."
+            },
+            "sort": {
+              "type": "string",
+              "description": "Sort by ratio name (e.g., 'Market Capitalization')"
+            },
+            "order": {
+              "type": "string",
+              "enum": [
+                "asc",
+                "desc"
+              ],
+              "description": "Sort direction"
+            },
+            "limit": {
+              "type": "number",
+              "minimum": 1,
+              "default": 25,
+              "description": "Results per page (default 25, max 50 \u2014 higher values are clamped)"
+            },
+            "page": {
+              "type": "number",
+              "minimum": 1,
+              "default": 1,
+              "description": "Page number"
+            },
+            "latest": {
+              "type": "boolean",
+              "description": "Only companies with latest quarter results"
+            }
+          },
+          "additionalProperties": false,
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        },
+        "annotations": {
+          "title": "Stock Screener (Fundamental)",
+          "readOnlyHint": true,
+          "destructiveHint": false,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        },
+        "_meta": {
+          "ui": {
+            "resourceUri": "ui://tapetide/screen-stocks.html"
+          }
+        }
+      },
+      {
+        "name": "screen_stocks_technical",
+        "title": "Stock Screener (Technical)",
+        "description": "Screen Indian stocks by technical indicators (RSI, MACD, moving averages, crossovers, volume, momentum) on real-time data.\nFor fundamental screening (PE, ROCE, Sales, Growth), use screen_stocks instead.\n\nEach filter is { left: field, operation, right: number | field }.\nOperations: \"greater\", \"less\", \"equal\", \"in_range\" (right is [min,max]), \"crosses_above\", \"crosses_below\" (crossover today).\n\nFIELDS: close, open, high, low, volume, change, change_abs, market_cap_basic | SMA5/10/20/50/100/200, EMA5/10/20/50/100/200 | RSI, RSI[1], MACD.macd, MACD.signal, Stoch.K, Stoch.D, CCI20, ADX, AO, Mom, ATR | BB.upper, BB.lower | Pivot.M.Classic.R1/R2/S1/S2 | Recommend.All (-1..1), Recommend.MA, Recommend.Other | Perf.W, Perf.1M, Perf.3M, Perf.6M, Perf.Y, Perf.YTD | average_volume_10d_calc, average_volume_30d_calc, relative_volume_10d_calc | price_earnings_ttm, price_book_fq, dividend_yield_recent\n\n\u26a0\ufe0f market_cap_basic is absolute \u20b9, NOT Cr (1 Cr = 10,000,000), so 5000 Cr = 50000000000.\n\nEXAMPLE \u2014 oversold large-caps: [{\"left\":\"RSI\",\"operation\":\"less\",\"right\":30},{\"left\":\"market_cap_basic\",\"operation\":\"greater\",\"right\":50000000000}]",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "filters": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "left": {
+                    "type": "string",
+                    "description": "Field name"
+                  },
+                  "operation": {
+                    "type": "string",
+                    "description": "Comparison operation"
+                  },
+                  "right": {
+                    "description": "Value or field name"
+                  }
+                },
+                "required": [
+                  "left",
+                  "operation"
+                ],
+                "additionalProperties": false
+              },
+              "description": "REQUIRED. Filter conditions (AND logic). Example: [{\"left\":\"RSI\",\"operation\":\"less\",\"right\":30}]"
+            },
+            "columns": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "description": "Fields to return"
+            },
+            "sort_by": {
+              "type": "string",
+              "default": "market_cap_basic",
+              "description": "Sort field"
+            },
+            "sort_order": {
+              "type": "string",
+              "enum": [
+                "asc",
+                "desc"
+              ],
+              "default": "desc"
+            },
+            "limit": {
+              "type": "number",
+              "minimum": 1,
+              "maximum": 100,
+              "default": 20,
+              "description": "Max results"
+            }
+          },
+          "additionalProperties": false,
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        },
+        "annotations": {
+          "title": "Stock Screener (Technical)",
+          "readOnlyHint": true,
+          "destructiveHint": false,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        }
+      },
+      {
+        "name": "get_screener_ratios",
+        "title": "Screener Ratio Lookup",
+        "description": "Search or list available financial ratios for the screen_stocks tool. Pass a keyword to search (e.g., 'cash flow', 'debt', 'promoter') or omit for the full catalog of 325 ratios. Returns the exact ratio names that screen_stocks queries accept.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "q": {
+              "type": "string",
+              "description": "Search keyword (e.g., 'cash', 'debt', 'growth'). Omit for full catalog."
+            }
+          },
+          "additionalProperties": false,
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        },
+        "annotations": {
+          "title": "Screener Ratio Lookup",
+          "readOnlyHint": true,
+          "destructiveHint": false,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        }
+      },
+      {
+        "name": "get_trending_stocks",
+        "title": "Trending Stocks",
+        "description": "Get trending stock summary \u2014 top gainers, losers, and high-volume stocks from Nifty 500. Quick snapshot of market movers today.",
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {}
+        },
+        "annotations": {
+          "title": "Trending Stocks",
+          "readOnlyHint": true,
+          "destructiveHint": false,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        }
+      },
+      {
+        "name": "get_options_analytics",
+        "title": "Options & Derivatives Analytics",
+        "description": "Get derivatives analytics for a stock \u2014 implied volatility (ATM IV, IV rank, IV percentile), realized volatility, put-call ratio (OI and volume), max pain strike, 25-delta skew, and call/put open interest, broken down per expiry. Use for options strategy, volatility analysis, and gauging derivatives-market positioning.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "symbol": {
+              "type": "string",
+              "description": "REQUIRED. Stock symbol, e.g. \"RELIANCE\" or \"TCS\"."
+            },
+            "ticker": {
+              "type": "string",
+              "description": "Alias for `symbol`."
+            },
+            "identifier": {
+              "type": "string",
+              "description": "Alias for `symbol`."
+            }
+          },
+          "additionalProperties": false,
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        },
+        "annotations": {
+          "title": "Options & Derivatives Analytics",
+          "readOnlyHint": true,
+          "destructiveHint": false,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        }
+      },
+      {
+        "name": "get_stock_deals",
+        "title": "Bulk, Block & Insider Deals",
+        "description": "Get large-trade history for a stock \u2014 bulk deals, block deals, insider (designated-person) trades, and SAST (substantial acquisition) disclosures, with the counterparty name, buy/sell side, quantity, price, and value. Answers 'who has been buying or selling X?'. Optionally filter by deal type.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "symbol": {
+              "type": "string",
+              "description": "REQUIRED. Stock symbol, e.g. \"RELIANCE\" or \"TCS\"."
+            },
+            "type": {
+              "type": "string",
+              "enum": [
+                "bulk",
+                "block",
+                "insider",
+                "sast"
+              ],
+              "description": "Filter to a single deal type. Omit for all types."
+            },
+            "limit": {
+              "type": "number",
+              "default": 25,
+              "description": "Max deals (default 25, max 100)"
+            },
+            "ticker": {
+              "type": "string",
+              "description": "Alias for `symbol`."
+            },
+            "identifier": {
+              "type": "string",
+              "description": "Alias for `symbol`."
+            }
+          },
+          "additionalProperties": false,
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        },
+        "annotations": {
+          "title": "Bulk, Block & Insider Deals",
+          "readOnlyHint": true,
+          "destructiveHint": false,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        }
+      },
+      {
+        "name": "get_promoter_pledge",
+        "title": "Promoter Share Pledge",
+        "description": "Get the promoter share-pledge history for a stock \u2014 the percentage of promoter holding pledged over recent quarters plus recent pledge creation/release events. High or rising pledge levels are a classic governance red flag. Use to assess promoter financial stress and risk.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "symbol": {
+              "type": "string",
+              "description": "REQUIRED. Stock symbol, e.g. \"RELIANCE\" or \"TCS\"."
+            },
+            "ticker": {
+              "type": "string",
+              "description": "Alias for `symbol`."
+            },
+            "identifier": {
+              "type": "string",
+              "description": "Alias for `symbol`."
+            }
+          },
+          "additionalProperties": false,
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        },
+        "annotations": {
+          "title": "Promoter Share Pledge",
+          "readOnlyHint": true,
+          "destructiveHint": false,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        }
+      },
+      {
+        "name": "get_credit_ratings",
+        "title": "Credit Ratings",
+        "description": "Get credit-rating actions for a company \u2014 agency, rating, action (upgrade/downgrade/reaffirm), and outlook over time. A rating change is a forward-looking signal on credit/solvency risk. Use for risk assessment and debt-investor research.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "symbol": {
+              "type": "string",
+              "description": "REQUIRED. Stock symbol, e.g. \"RELIANCE\" or \"TCS\"."
+            },
+            "ticker": {
+              "type": "string",
+              "description": "Alias for `symbol`."
+            },
+            "identifier": {
+              "type": "string",
+              "description": "Alias for `symbol`."
+            }
+          },
+          "additionalProperties": false,
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        },
+        "annotations": {
+          "title": "Credit Ratings",
+          "readOnlyHint": true,
+          "destructiveHint": false,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        }
+      },
+      {
+        "name": "get_earnings_call_summary",
+        "title": "Earnings Call Summary",
+        "description": "Get AI-generated investor digests of a company's recent earnings (concall) transcripts and investor presentations \u2014 a structured summary plus key highlights, risks, management guidance, and headline metrics, grounded in the company's own filings. Use for qualitative fundamental research beyond the numbers.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "symbol": {
+              "type": "string",
+              "description": "REQUIRED. Stock symbol, e.g. \"RELIANCE\" or \"TCS\"."
+            },
+            "limit": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 5,
+              "default": 2,
+              "description": "Number of recent summaries (default 2, max 5)"
+            },
+            "ticker": {
+              "type": "string",
+              "description": "Alias for `symbol`."
+            },
+            "identifier": {
+              "type": "string",
+              "description": "Alias for `symbol`."
+            }
+          },
+          "additionalProperties": false,
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        },
+        "annotations": {
+          "title": "Earnings Call Summary",
+          "readOnlyHint": true,
+          "destructiveHint": false,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        }
+      },
+      {
+        "name": "get_india_vix",
+        "title": "India VIX (Volatility Index)",
+        "description": "Get the India VIX \u2014 the market's expected near-term volatility (the 'fear gauge'). Returns the latest value, daily change, and recent history. Rising VIX = rising fear/uncertainty; falling VIX = calm. Use for market-timing and risk context.",
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {}
+        },
+        "annotations": {
+          "title": "India VIX (Volatility Index)",
+          "readOnlyHint": true,
+          "destructiveHint": false,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        }
+      },
+      {
+        "name": "list_company_documents",
+        "title": "List Company Documents",
+        "description": "Index of a company's filings parsed to text (concall transcripts, annual reports, presentations, IPO documents): doc_id, type, period, date, num_pages, flags, and per-document links (raw PDF, full Markdown, summary Markdown). No prose. The doc_id is the input get_document_summary and read_document take; the links let the user open or download the document. Newest first.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "symbol": {
+              "type": "string",
+              "description": "REQUIRED. Stock symbol, e.g. \"RELIANCE\"."
+            },
+            "doc_types": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "concall",
+                  "annual_report",
+                  "presentation",
+                  "drhp",
+                  "rhp"
+                ]
+              },
+              "description": "Restrict to these types (default all)."
+            },
+            "since": {
+              "type": "string",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+              "description": "Only filings on/after YYYY-MM-DD."
+            },
+            "limit": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 50,
+              "default": 20
+            },
+            "ticker": {
+              "type": "string",
+              "description": "Alias for `symbol`."
+            },
+            "identifier": {
+              "type": "string",
+              "description": "Alias for `symbol`."
+            }
+          },
+          "additionalProperties": false,
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        },
+        "annotations": {
+          "title": "List Company Documents",
+          "readOnlyHint": true,
+          "destructiveHint": false,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        }
+      },
+      {
+        "name": "get_document_summary",
+        "title": "Document Summary",
+        "description": "Investor digest of ONE parsed filing: summary, highlights, risks, guidance, key metrics, plus links to the PDF and full Markdown. Pass doc_id from list_company_documents, or doc_type for the newest of that type. For the text itself use read_document or download links.markdown_url.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "symbol": {
+              "type": "string",
+              "description": "Stock symbol, e.g. \"RELIANCE\". Required unless doc_id is given (a doc_id names its company)."
+            },
+            "doc_id": {
+              "type": "integer",
+              "description": "From list_company_documents. Sufficient on its own."
+            },
+            "doc_type": {
+              "type": "string",
+              "enum": [
+                "concall",
+                "annual_report",
+                "presentation",
+                "drhp",
+                "rhp"
+              ],
+              "description": "Newest of this type when doc_id is omitted."
+            },
+            "ticker": {
+              "type": "string",
+              "description": "Alias for `symbol`."
+            },
+            "identifier": {
+              "type": "string",
+              "description": "Alias for `symbol`."
+            }
+          },
+          "additionalProperties": false,
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        },
+        "annotations": {
+          "title": "Document Summary",
+          "readOnlyHint": true,
+          "destructiveHint": false,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        }
+      },
+      {
+        "name": "read_document",
+        "title": "Read Document Text",
+        "description": "Markdown text of a parsed filing by doc_id and page range, with <!-- page N --> markers to cite. Max 12 pages / 24000 chars per call (max_chars up to 60000); the result states pages_returned, next_pages, and links to the full Markdown and PDF. Annual reports run 100-400 pages: read the sections you need, or download links.markdown_url to search the whole file.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "symbol": {
+              "type": "string",
+              "description": "Stock symbol, e.g. \"RELIANCE\". Optional: doc_id alone identifies the company."
+            },
+            "doc_id": {
+              "type": "integer",
+              "description": "From list_company_documents."
+            },
+            "pages": {
+              "type": "string",
+              "pattern": "^\\s*\\d+\\s*(-\\s*\\d*)?\\s*$",
+              "description": "1-based inclusive range: \"1-8\", \"12\", \"40-\". Default \"1-12\"."
+            },
+            "max_chars": {
+              "type": "integer",
+              "minimum": 2000,
+              "maximum": 60000
+            },
+            "ticker": {
+              "type": "string",
+              "description": "Alias for `symbol`."
+            },
+            "identifier": {
+              "type": "string",
+              "description": "Alias for `symbol`."
+            }
+          },
+          "required": [
+            "doc_id"
+          ],
+          "additionalProperties": false,
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        },
+        "annotations": {
+          "title": "Read Document Text",
+          "readOnlyHint": true,
+          "destructiveHint": false,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        }
+      },
+      {
+        "name": "get_tapetide_score",
+        "title": "Tapetide Score (one stock)",
+        "description": "Get the Tapetide Score for ONE stock: a deterministic, non-LLM 0-100 composite from the latest complete scoring run, with the six pillar sub-scores and their weights, the percentile within that run (base: `percentile_universe`), confidence, coverage, and `governance` caps and red flags. There is no band field: band = Strong 66+, Good 55-65, Average 45-54, Weak 37-44, Poor <37 (as in screen_tapetide_scores). USE THIS for 'what is Tapetide's score for X', 'why is X rated Y', or as the rating input to a write-up. HOW TO READ IT: (1) the band matters more than the number: the distribution is narrow and a 1-3 point gap is noise; (2) a `null` pillar means the data is unavailable, NOT a zero: never average over it or call the company weak on it; (3) `status: \"insufficient_data\"` means no publishable score: say so, never substitute a number; (4) `governance.caps_applied` / `red_flags` mean an overlay limited the score, worth saying; (5) there is deliberately NO category label: describe the pillar numbers in your own words. Decision-support only. The Tapetide Score is data analysis, not investment advice. Tapetide is not a SEBI-registered research analyst or investment adviser. Bands are intentionally coarse; small point differences may not be meaningful.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "symbol": {
+              "type": "string",
+              "description": "REQUIRED. The stock symbol, e.g. \"RELIANCE\" or \"NATIONALUM\"."
+            },
+            "ticker": {
+              "type": "string",
+              "description": "Alias for `symbol`."
+            },
+            "identifier": {
+              "type": "string",
+              "description": "Alias for `symbol`."
+            }
+          },
+          "additionalProperties": false,
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        },
+        "annotations": {
+          "title": "Tapetide Score (one stock)",
+          "readOnlyHint": true,
+          "destructiveHint": false,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        }
+      },
+      {
+        "name": "screen_tapetide_scores",
+        "title": "Screen & Rank by Tapetide Score",
+        "description": "List and rank stocks by the Tapetide Score, filtered by size bucket, band, score window, sector, minimum data-confidence and symbol/name search. Rows come back in the server's final order with score, band, pillars, sector, size, market cap and a next-page cursor. USE THIS for 'which large caps score highest', 'show me Strong-band pharma stocks', or any rank/filter-by-Tapetide-Score question \u2014 same data and ordering as the tapetide.com ranking page. IMPORTANT, or you will describe the results wrongly: (1) present rows by BAND, never as an ordinal '#1, #2, #3' leaderboard \u2014 nothing has ever scored above 77 and neighbouring scores are not meaningfully different; (2) the DEFAULT view is large+mid cap at confidence >= 75, a filtered slice and not the whole market, so state the active filters (`meta.counts`) alongside any ranking; (3) sizes:[\"all\"] adds small/micro caps \u2014 flag their liquidity risk (market cap is a size proxy, not liquidity); (4) quote `meta.snapshot.score_date` and reuse `next_cursor` to stay on that run. These are stocks matching the given Tapetide Score criteria, NOT investment recommendations. Decision-support only. The Tapetide Score is data analysis, not investment advice. Tapetide is not a SEBI-registered research analyst or investment adviser. Bands are intentionally coarse; small point differences may not be meaningful.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "sizes": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "large",
+                  "mid",
+                  "small",
+                  "micro",
+                  "all"
+                ]
+              },
+              "description": "Size buckets. Default [\"large\",\"mid\"]. Use [\"all\"] for the full scored universe (dominated by micro caps by count \u2014 mention the liquidity caveat if you do)."
+            },
+            "bands": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "66-plus",
+                  "55-65",
+                  "45-54",
+                  "37-44",
+                  "below-37",
+                  "70-plus",
+                  "60-69",
+                  "50-59",
+                  "30-49",
+                  "below-30"
+                ]
+              },
+              "description": "Score bands to include: \"66-plus\" (Strong), \"55-65\" (Good), \"45-54\" (Average), \"37-44\" (Weak), \"below-37\" (Poor) \u2014 the keys rows carry in `band`. Omit for all bands. The older keys \"70-plus\", \"60-69\", \"50-59\", \"30-49\", \"below-30\" still work and select the same tier by position (70-plus = Strong, i.e. 66+). There is no 80+ band."
+            },
+            "sectors": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "description": "Sector names as returned in `meta.facets.sectors` (e.g. \"Metals & Mining\"). Omit for all sectors."
+            },
+            "min_score": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 100,
+              "description": "Minimum composite score."
+            },
+            "max_score": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 100,
+              "description": "Maximum composite score."
+            },
+            "min_confidence": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 100,
+              "description": "Minimum data-confidence, default 75. Lowering it admits stocks with thinner data; the response reports how many the bar excluded."
+            },
+            "q": {
+              "type": "string",
+              "description": "Substring search on symbol or company name."
+            },
+            "sort": {
+              "type": "string",
+              "enum": [
+                "band",
+                "score",
+                "confidence",
+                "market_cap",
+                "name"
+              ],
+              "description": "Sort key, default \"band\" (coarse tiers first \u2014 the honest default). \"score\" is exact composite order; also confidence, market_cap, name."
+            },
+            "order": {
+              "type": "string",
+              "enum": [
+                "asc",
+                "desc"
+              ],
+              "description": "Direction, default \"desc\"."
+            },
+            "limit": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 100,
+              "description": "Rows per page (default 50, max 100)."
+            },
+            "cursor": {
+              "type": "string",
+              "description": "Pass `meta.next_cursor` from the previous response to get the next page. The run date is embedded in it, so paging stays pinned to one scoring run."
+            }
+          },
+          "additionalProperties": false,
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        },
+        "annotations": {
+          "title": "Screen & Rank by Tapetide Score",
+          "readOnlyHint": true,
+          "destructiveHint": false,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        }
+      },
+      {
+        "name": "get_option_chain",
+        "title": "Index Option Chain (IV, Greeks, OI by strike)",
+        "description": "Get the INDEX OPTION CHAIN with implied volatility, Greeks, bid/ask and open interest by strike. Use for any option-chain, IV, Greeks, open-interest, PCR or max-pain question \u2014 'show me the NIFTY option chain', 'what is the ATM IV', 'where is max pain', 'put-call ratio', 'OI by strike'. Covers NIFTY, BANKNIFTY, FINNIFTY, MIDCPNIFTY ONLY \u2014 we do not collect a chain for individual stocks, so for a stock-option question say the chain covers index options only rather than implying we have no options data at all; get_option_iv_history DOES cover ~556 underlyings including stocks. IMPORTANT: this is an END-OF-DAY STAMPED snapshot, not a streaming live tick. Read `snapshot_ts` and state it (e.g. 'as of the 7 Aug close') \u2014 never imply an intraday real-time quote. `iv_pct` and `atm_iv_pct` are PERCENT (10.87 means 10.87%); `atm_iv_change` is percentage POINTS vs the prior session. NULLS ARE UNAVAILABLE, NEVER ZERO: a leg flagged `iv_unsolved` has null IV and Greeks (reason in `iv_status`), `illiquid` means no OI/volume so its premium is indicative only, and `pcr_undefined` means the put/call ratio cannot be computed. Render these as '\u2014'; never state a 0% IV, a 0 delta or a PCR of 0. Also read `atm_offset` (strike steps from ATM) and `available_expiries`. Present the chain as data: report the numbers and what they describe. Do NOT recommend a strike, a strategy, or a direction to trade.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "symbol": {
+              "type": "string",
+              "description": "REQUIRED. Index underlying: NIFTY | BANKNIFTY | FINNIFTY | MIDCPNIFTY (index options only)."
+            },
+            "expiry": {
+              "type": "string",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+              "description": "Expiry as YYYY-MM-DD. Omit for the nearest expiry in the snapshot."
+            },
+            "strikes": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 25,
+              "description": "Strikes to return EACH SIDE of ATM (default 11, max 25)"
+            },
+            "ticker": {
+              "type": "string",
+              "description": "Alias for `symbol`."
+            },
+            "identifier": {
+              "type": "string",
+              "description": "Alias for `symbol`."
+            }
+          },
+          "additionalProperties": false,
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        },
+        "annotations": {
+          "title": "Index Option Chain (IV, Greeks, OI by strike)",
+          "readOnlyHint": true,
+          "destructiveHint": false,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        }
+      },
+      {
+        "name": "get_option_iv_history",
+        "title": "Option IV History (ATM IV, IV rank, PCR series)",
+        "description": "Get the HISTORICAL option-analytics time series for an underlying \u2014 ATM implied volatility, IV rank, IV percentile, realised vol, put-call ratio (OI and volume), max pain and 25-delta skew, one point per session. Use for 'is IV high right now', 'IV rank of RELIANCE', 'has volatility been rising', or any volatility-regime / IV-vs-realised comparison. Covers ~556 underlyings INCLUDING individual stocks (unlike get_option_chain, which is index-only). UNITS: every IV field is a PERCENT (10.55 means 10.55% annualised) \u2014 never multiply by 100 again. `iv_rank_pct` and `iv_percentile_pct` are percents too, not 0-1 scores, and they are DIFFERENT measures: rank is position in the trailing high-low band, percentile is the share of sessions below the current reading. Read `bar_interval` \u2014 ranges of 2y+ are rolled up WEEKLY, so counting points as trading days will be wrong; one call returns at most the 400 most recent bars, so quote the `from_date`/`to_date` returned rather than assuming full history. The response also states its own `coverage` and flags `spot_is_proxy` \u2014 respect both. Report the numbers and what they describe. Do NOT recommend a trade, a strike, or a volatility position.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "symbol": {
+              "type": "string",
+              "description": "REQUIRED. Underlying symbol \u2014 a stock like \"RELIANCE\" or an index like \"NIFTY\"."
+            },
+            "range": {
+              "type": "string",
+              "enum": [
+                "1m",
+                "3m",
+                "6m",
+                "1y",
+                "2y",
+                "5y",
+                "max"
+              ],
+              "description": "Lookback window (default 1y). 2y and longer return WEEKLY bars \u2014 read `bar_interval`."
+            },
+            "ticker": {
+              "type": "string",
+              "description": "Alias for `symbol`."
+            },
+            "identifier": {
+              "type": "string",
+              "description": "Alias for `symbol`."
+            }
+          },
+          "additionalProperties": false,
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        },
+        "annotations": {
+          "title": "Option IV History (ATM IV, IV rank, PCR series)",
+          "readOnlyHint": true,
+          "destructiveHint": false,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        }
+      },
+      {
+        "name": "get_index_performance",
+        "title": "Index Performance Ranking",
+        "description": "Rank NSE indices by RETURN over recent completed weeks or months, using official NSE index closing levels. Returns per-period % plus cumulative % for each index, sorted best-to-worst. Covers ~140 indices: all sectoral (IT, Bank, Auto, Pharma, FMCG, Metal, Realty, Energy, Oil & Gas, PSU Bank, Private Bank, Media, Healthcare, Consumer Durables, Power, Insurance, Telecom, Chemicals, Cement, Capital Goods, NBFC, Retail and more), plus broad market/size, thematic and strategy/factor indices. USE THIS for 'rank sectoral indices by 3-week return', 'which sector performed best last month', 'top gaining sectors', or weekly close-to-close index returns \u2014 do NOT compute a sector return from its constituents, which is only an approximation. Only COMPLETED periods are counted; the in-progress week/month is excluded.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "periods": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 12,
+              "default": 3,
+              "description": "How many COMPLETED periods to measure (1-12, e.g. 3 = last 3 completed weeks)"
+            },
+            "granularity": {
+              "type": "string",
+              "enum": [
+                "week",
+                "month"
+              ],
+              "default": "week",
+              "description": "Period length: 'week' = weekly close-to-close, 'month' = monthly"
+            },
+            "category": {
+              "type": "string",
+              "enum": [
+                "sectoral",
+                "broad",
+                "thematic",
+                "strategy",
+                "volatility"
+              ],
+              "description": "Restrict to one index family. Use 'sectoral' for sector rankings \u2014 that is almost always what a 'which sector' question means. Omit for all indices."
+            },
+            "index_names": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "description": "Explicit index names, e.g. ['Nifty IT','Nifty Bank']. Overrides category. Matched case-insensitively against the catalog."
+            },
+            "limit": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 50,
+              "default": 10,
+              "description": "Max indices to return after ranking (1-50)"
+            },
+            "order": {
+              "type": "string",
+              "enum": [
+                "gainers",
+                "losers"
+              ],
+              "default": "gainers",
+              "description": "'gainers' = best cumulative first, 'losers' = worst first"
+            }
+          },
+          "additionalProperties": false,
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        },
+        "annotations": {
+          "title": "Index Performance Ranking",
+          "readOnlyHint": true,
+          "destructiveHint": false,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        }
+      },
+      {
+        "name": "get_index_history",
+        "title": "Index Level History",
+        "description": "Get the historical LEVEL series (OHLC + PE/PB/dividend yield) for a single NSE INDEX \u2014 Nifty 50, Nifty Bank, Nifty IT, Nifty Oil & Gas, India VIX, and ~140 more. Official NSE index data. Use for 'what did Nifty IT close at on <date>', 'Nifty Bank level history', 'India VIX over the last month', or index valuation trend. This is the INDEX counterpart of get_price_history (which handles individual stocks only). To rank or compare MULTIPLE indices by return, use get_index_performance instead.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "index_name": {
+              "type": "string",
+              "description": "REQUIRED. Index name, e.g. 'Nifty 50', 'Nifty IT', 'Nifty Oil & Gas'"
+            },
+            "index": {
+              "type": "string",
+              "description": "Alias for `index_name`."
+            },
+            "symbol": {
+              "type": "string",
+              "description": "Alias for `index_name`."
+            },
+            "interval": {
+              "type": "string",
+              "description": "LOOKBACK window, one of 1m, 3m, 6m, 1y, 2y, max (default 3m). Bars are daily up to 1y, weekly for 2y/max. Not a bar size: intraday is not served."
+            },
+            "range": {
+              "type": "string",
+              "description": "Alias for `interval`."
+            },
+            "days": {
+              "type": [
+                "number",
+                "string"
+              ],
+              "description": "Alias for `interval`: a lookback in calendar days, mapped to the smallest served window that covers it."
+            }
+          },
+          "additionalProperties": false,
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        },
+        "annotations": {
+          "title": "Index Level History",
+          "readOnlyHint": true,
+          "destructiveHint": false,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        }
+      },
+      {
+        "name": "get_adjustment_factors",
+        "title": "Price Adjustment Factors",
+        "description": "Get the split/bonus adjustment-factor timeline for a stock, so a raw (unadjusted) price series can be reconstructed from the adjusted one. Returns per-event factor and cumulative factor with ex-dates, plus the reconstruction formula in meta. USE THIS when a price move looks impossibly large and you need to know whether it was a corporate action rather than a real return, or when the user asks for raw/unadjusted prices, or asks how to adjust for splits and bonuses. CRITICAL: the response also carries `unquantified_events` \u2014 rights issues and demergers that are KNOWN but have NO reliable numeric factor (a rights adjustment needs the subscription price; a demerger is not a single number). Never invent a factor for those; tell the user those ex-dates should be excluded or treated with caution. NOTE: factors cover splits and bonuses only. The adjusted series is PRICE-return, not total-return \u2014 dividends are not included.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "symbol": {
+              "type": "string",
+              "description": "REQUIRED. The stock symbol, e.g. \"RELIANCE\" or \"TRENT\"."
+            },
+            "ticker": {
+              "type": "string",
+              "description": "Alias for `symbol`."
+            },
+            "identifier": {
+              "type": "string",
+              "description": "Alias for `symbol`."
+            }
+          },
+          "additionalProperties": false,
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        },
+        "annotations": {
+          "title": "Price Adjustment Factors",
+          "readOnlyHint": true,
+          "destructiveHint": false,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        }
+      },
+      {
+        "name": "get_observation_status",
+        "title": "Per-Day Observation Status",
+        "description": "For every CALENDAR day in a lookback window, get why a price is or is not present: `traded`, `weekend`, `holiday`, `pre_listing`, `delisted`, or `no_print`. USE THIS when a price series has gaps and the user needs to know whether a missing day was a market holiday, a suspension, a pre-listing date, or genuinely missing data \u2014 and ESPECIALLY before computing returns over a gappy series. A missing price is NOT a zero return: `no_print` means a listed trading day with no print and should be treated as not-a-return (carry forward or mask), never as 0%. HONESTY LIMITS in the response's `classification_limits`: `no_print` deliberately does NOT distinguish an illiquid no-trade from a suspension from missing data (no per-day suspension feed exists, so a specific reason would be fabricated), and `pre_listing` can only be asserted where a listing date is known \u2014 its absence is not evidence the stock was trading.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "symbol": {
+              "type": "string",
+              "description": "REQUIRED. The stock symbol, e.g. \"TRENT\"."
+            },
+            "days": {
+              "type": "number",
+              "default": 365,
+              "description": "Calendar days to look back (default 365, max 10000)"
+            },
+            "ticker": {
+              "type": "string",
+              "description": "Alias for `symbol`."
+            },
+            "identifier": {
+              "type": "string",
+              "description": "Alias for `symbol`."
+            }
+          },
+          "additionalProperties": false,
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        },
+        "annotations": {
+          "title": "Per-Day Observation Status",
+          "readOnlyHint": true,
+          "destructiveHint": false,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        }
+      },
+      {
+        "name": "get_index_membership_asof",
+        "title": "Index Membership As-Of a Date",
+        "description": "Was a stock a constituent of an index on a specific historical date? Returns a FOUR-STATE answer, never a bare yes/no: `present` (proven in range), `uncertain` (inside an unobserved bracket around a join/leave \u2014 plausible but NOT proven), `absent` (proven not a member, within coverage), or `out_of_coverage` (outside the observed window \u2014 we cannot answer). USE THIS for any 'was X in the Nifty 50/500 on <date>' question, and for point-in-time universe construction or survivorship-bias-aware backtests. Do NOT infer historical membership from today's constituent list \u2014 that is exactly the survivorship bias this tool exists to avoid. REPORT UNCERTAINTY HONESTLY: treat `uncertain` and `out_of_coverage` as NOT tradeable signal and say so; never silently collapse either into `absent`. The response states its own `meta.coverage` window plus `meta.freshness.lag_days` \u2014 trust answers only up to `coverage.answerable_through`.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "index": {
+              "type": "string",
+              "description": "REQUIRED. Index name, e.g. \"Nifty 50\", \"Nifty 500\", \"Nifty Midcap 150\"."
+            },
+            "symbol": {
+              "type": "string",
+              "description": "REQUIRED. The stock symbol, e.g. \"TRENT\"."
+            },
+            "date": {
+              "type": "string",
+              "description": "As-of date, YYYY-MM-DD. Defaults to today (IST) when omitted."
+            },
+            "ticker": {
+              "type": "string",
+              "description": "Alias for `symbol`."
+            },
+            "identifier": {
+              "type": "string",
+              "description": "Alias for `symbol`."
+            }
+          },
+          "additionalProperties": false,
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        },
+        "annotations": {
+          "title": "Index Membership As-Of a Date",
+          "readOnlyHint": true,
+          "destructiveHint": false,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        }
+      },
+      {
+        "name": "resolve_identifier_asof",
+        "title": "Resolve a Symbol/ISIN As-Of a Date",
+        "description": "Resolve a historical symbol or ISIN to the company that held it ON a given date. USE THIS when working with old data whose ticker may since have been renamed, reused, or reassigned \u2014 e.g. a 2018 holdings file, an old research note, or a backtest that must not treat one company as two securities (or worse, merge two different companies because a ticker was recycled after a delisting). Returns `present` | `uncertain` | `not_found` | `out_of_coverage` with certainty ranges; each match names the company by its latest known `symbol` and `isin`, which the other stock tools take. `uncertain` means the date falls in an open bracket around a rename/ISIN change \u2014 quarantine it rather than asserting the mapping. The response states its own coverage window; a date outside it returns `out_of_coverage` and must not be reported as 'no such symbol'.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "value": {
+              "type": "string",
+              "description": "REQUIRED. The identifier value, e.g. \"TRENT\" or \"INE849A01020\"."
+            },
+            "kind": {
+              "type": "string",
+              "enum": [
+                "nse_symbol",
+                "isin"
+              ],
+              "default": "nse_symbol",
+              "description": "Which identifier kind `value` is (default nse_symbol)"
+            },
+            "date": {
+              "type": "string",
+              "description": "As-of date, YYYY-MM-DD. Defaults to today (IST) when omitted."
+            }
+          },
+          "additionalProperties": false,
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        },
+        "annotations": {
+          "title": "Resolve a Symbol/ISIN As-Of a Date",
+          "readOnlyHint": true,
+          "destructiveHint": false,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        }
+      },
+      {
+        "name": "get_identifiers_asof",
+        "title": "Identifiers Held By a Stock As-Of a Date",
+        "description": "The REVERSE of resolve_identifier_asof: given a company's `symbol` and a date, return which symbol and ISIN that company held at that time. USE THIS to label historical output correctly \u2014 e.g. reporting a 2019 backtest position under the ticker it actually traded as then, rather than its current name. Also useful for explaining a rename to a user who is confused why a symbol they remember no longer resolves. Pass the symbol the company trades as today (resolve_identifier_asof maps an old ticker to it). Coverage bounds are stated in the response \u2014 outside them the answer is `out_of_coverage`, not 'no identifiers'.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "symbol": {
+              "type": "string",
+              "description": "REQUIRED. The company's current stock symbol, e.g. \"TRENT\"."
+            },
+            "stock_id": {
+              "type": "integer",
+              "description": "Deprecated. Use `symbol`."
+            },
+            "date": {
+              "type": "string",
+              "description": "As-of date, YYYY-MM-DD. Defaults to today (IST) when omitted."
+            },
+            "ticker": {
+              "type": "string",
+              "description": "Alias for `symbol`."
+            },
+            "identifier": {
+              "type": "string",
+              "description": "Alias for `symbol`."
+            }
+          },
+          "additionalProperties": false,
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        },
+        "annotations": {
+          "title": "Identifiers Held By a Stock As-Of a Date",
+          "readOnlyHint": true,
+          "destructiveHint": false,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        }
+      },
+      {
+        "name": "read_me",
+        "title": "Tapetide MCP Guide",
+        "description": "Returns the complete guide to this server \u2014 all tools organised by category, the SEBI disclaimer requirement, and usage patterns for common research tasks.",
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {}
+        },
+        "annotations": {
+          "title": "Tapetide MCP Guide",
+          "readOnlyHint": true,
+          "destructiveHint": false,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        }
+      },
+      {
+        "name": "scan_movers",
+        "title": "Market Movers (alias)",
+        "description": "Alias for get_trending_stocks. Top gainers, losers, and most-active stocks today.",
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {}
+        },
+        "annotations": {
+          "title": "Market Movers (alias)",
+          "readOnlyHint": true,
+          "destructiveHint": false,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        }
+      },
+      {
+        "name": "get_live_quote",
+        "title": "Live Quote (alias)",
+        "description": "Alias for get_stock_quote. Latest price for one symbol. Example: {\"symbol\":\"RELIANCE\"}.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "symbol": {
+              "type": "string",
+              "description": "REQUIRED. The stock symbol, e.g. \"RELIANCE\" or \"TCS\"."
+            },
+            "ticker": {
+              "type": "string",
+              "description": "Alias for `symbol`."
+            },
+            "identifier": {
+              "type": "string",
+              "description": "Alias for `symbol`."
+            }
+          },
+          "additionalProperties": false,
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        },
+        "annotations": {
+          "title": "Live Quote (alias)",
+          "readOnlyHint": true,
+          "destructiveHint": false,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        }
+      },
+      {
+        "name": "get_stock_news",
+        "title": "Stock News (alias)",
+        "description": "Alias for get_stock_events with type:\"news\". Sentiment-tagged news for one stock. Example: {\"symbol\":\"TCS\"}.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "symbol": {
+              "type": "string",
+              "description": "REQUIRED. The stock symbol, e.g. \"RELIANCE\" or \"TCS\"."
+            },
+            "limit": {
+              "type": "number",
+              "default": 20,
+              "description": "Max results (default 20, max 50)"
+            },
+            "ticker": {
+              "type": "string",
+              "description": "Alias for `symbol`."
+            },
+            "identifier": {
+              "type": "string",
+              "description": "Alias for `symbol`."
+            }
+          },
+          "additionalProperties": false,
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        },
+        "annotations": {
+          "title": "Stock News (alias)",
+          "readOnlyHint": true,
+          "destructiveHint": false,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        }
+      },
+      {
+        "name": "get_corporate_actions",
+        "title": "Corporate Actions (alias)",
+        "description": "Alias for get_stock_events with type:\"corporate_actions\". Dividends, splits, bonuses, AGMs for one stock. Example: {\"symbol\":\"ITC\"}.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "symbol": {
+              "type": "string",
+              "description": "REQUIRED. The stock symbol, e.g. \"RELIANCE\" or \"TCS\"."
+            },
+            "limit": {
+              "type": "number",
+              "default": 20,
+              "description": "Max results (default 20, max 50)"
+            },
+            "ticker": {
+              "type": "string",
+              "description": "Alias for `symbol`."
+            },
+            "identifier": {
+              "type": "string",
+              "description": "Alias for `symbol`."
+            }
+          },
+          "additionalProperties": false,
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        },
+        "annotations": {
+          "title": "Corporate Actions (alias)",
+          "readOnlyHint": true,
+          "destructiveHint": false,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        }
+      },
+      {
+        "name": "run_preset_screen",
+        "title": "Find the right screening tool",
+        "description": "Not a standalone tool. For ready-made movers use get_trending_stocks; for custom fundamental screens use screen_stocks; for technical screens use screen_stocks_technical.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "preset": {
+              "type": "string",
+              "description": "Ignored \u2014 see the redirect message."
+            }
+          },
+          "additionalProperties": false,
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        },
+        "annotations": {
+          "title": "Find the right screening tool",
+          "readOnlyHint": true,
+          "destructiveHint": false,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        }
+      },
+      {
+        "name": "get_user_portfolio",
+        "title": "User Portfolio Holdings",
+        "description": "Get the authenticated user's current stock portfolio with live prices. Returns each holding's symbol, company name, quantity, average buy price, current market price, P&L (absolute + %), invested value, portfolio weight %, sector, industry, market cap, PE ratio, dividend yield, and company classification (large/mid/small cap), plus portfolio-level totals.\n\nReturns an empty list when the user has not added any holdings. Holdings can be added with add_portfolio_stocks, including from a pasted broker CSV export.",
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {}
+        },
+        "annotations": {
+          "title": "User Portfolio Holdings",
+          "readOnlyHint": true,
+          "destructiveHint": false,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        }
+      },
+      {
+        "name": "add_portfolio_stocks",
+        "title": "Add Stocks to Portfolio",
+        "description": "Add one or more stocks to the user's portfolio, merging duplicates by weighted-average price. Accepts a single add, a bulk list, or holdings the user pasted from a broker CSV/table (parse it into the holdings array yourself). Example: \"Add RELIANCE 10 shares at \u20b91,350\" \u2192 holdings:[{symbol:\"RELIANCE\",quantity:10,avg_price:1350}]. STRIP exchange suffixes before calling \u2014 -EQ, -BE, -SM, -ST, -BZ, -BL, -RE, -IV, -RR, .NS, .BO \u2014 and pass plain NSE symbols (APS-SM \u2192 APS; SME stocks are supported). When the user has stated symbol, quantity and price, add them directly. When you PARSED or inferred the holdings (broker CSV, a pasted table, a screenshot), show the parsed rows for confirmation first, and ask rather than guess a missing or ambiguous field. Use search_stocks if a symbol does not resolve. Call read_me for the full broker-CSV procedure.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "holdings": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "symbol": {
+                    "type": "string",
+                    "description": "Stock symbol (e.g. RELIANCE, TCS, HDFCBANK)"
+                  },
+                  "quantity": {
+                    "type": "number",
+                    "exclusiveMinimum": 0,
+                    "description": "Number of shares"
+                  },
+                  "avg_price": {
+                    "type": "number",
+                    "exclusiveMinimum": 0,
+                    "description": "Average buy price per share in \u20b9"
+                  }
+                },
+                "required": [
+                  "symbol",
+                  "quantity",
+                  "avg_price"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 1,
+              "maxItems": 100,
+              "description": "Array of stocks to add (1-100 items)"
+            }
+          },
+          "required": [
+            "holdings"
+          ],
+          "additionalProperties": false,
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        },
+        "annotations": {
+          "title": "Add Stocks to Portfolio",
+          "readOnlyHint": false,
+          "destructiveHint": true,
+          "idempotentHint": false,
+          "openWorldHint": false
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        }
+      },
+      {
+        "name": "update_portfolio_stock",
+        "title": "Update Portfolio Stock",
+        "description": "Update the quantity and/or average price of an existing stock in the user's portfolio.\n\nUse cases:\n\u2022 User says \"I bought 10 more RELIANCE at \u20b91,400\" \u2192 you must calculate the new total qty and weighted avg price, then call this tool\n\u2022 User says \"Change my TCS quantity to 50\" \u2192 direct update\n\u2022 User says \"I sold 5 shares of INFY\" \u2192 reduce quantity (calculate new qty = old - 5)\n\nIMPORTANT workflow for additional purchases:\n1. First call get_user_portfolio to get current quantity and avg_price\n2. Calculate: new_qty = old_qty + additional_qty\n3. Calculate: new_avg = (old_qty \u00d7 old_avg + additional_qty \u00d7 purchase_price) / new_qty\n4. Call this tool with the NEW total quantity and NEW weighted average price\n\nFor partial sells:\n1. new_qty = old_qty - sold_qty (avg_price stays the same)\n2. If new_qty = 0, use remove_portfolio_stocks instead\n\nBoth quantity and avg_price are required \u2014 always provide the final values.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "symbol": {
+              "type": "string",
+              "description": "Stock symbol to update (e.g. RELIANCE)"
+            },
+            "quantity": {
+              "type": "number",
+              "exclusiveMinimum": 0,
+              "description": "New TOTAL quantity (not the additional amount)"
+            },
+            "avg_price": {
+              "type": "number",
+              "exclusiveMinimum": 0,
+              "description": "New average buy price per share in \u20b9"
+            }
+          },
+          "required": [
+            "symbol",
+            "quantity",
+            "avg_price"
+          ],
+          "additionalProperties": false,
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        },
+        "annotations": {
+          "title": "Update Portfolio Stock",
+          "readOnlyHint": false,
+          "destructiveHint": true,
+          "idempotentHint": false,
+          "openWorldHint": false
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        }
+      },
+      {
+        "name": "remove_portfolio_stocks",
+        "title": "Remove Stocks from Portfolio",
+        "description": "Remove one or more stocks from the user's portfolio entirely.\n\nUse cases:\n\u2022 User says \"Remove INFY from my portfolio\" \u2192 single delete\n\u2022 User says \"Remove all IT stocks\" \u2192 you identify the symbols from get_user_portfolio, then delete them\n\u2022 User says \"Clear my portfolio\" \u2192 remove all symbols\n\nIMPORTANT: Always confirm with the user before removing stocks. This action cannot be undone.\nFor partial sells (reducing quantity), use update_portfolio_stock instead.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "symbols": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "minItems": 1,
+              "maxItems": 200,
+              "description": "Array of stock symbols to remove (e.g. ['INFY', 'TCS'])"
+            }
+          },
+          "required": [
+            "symbols"
+          ],
+          "additionalProperties": false,
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        },
+        "annotations": {
+          "title": "Remove Stocks from Portfolio",
+          "readOnlyHint": false,
+          "destructiveHint": true,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        }
+      },
+      {
+        "name": "get_watchlist",
+        "title": "User Watchlist",
+        "description": "Get the user's stock watchlist \u2014 the stocks they are following, newest first. Returns symbol, company name, sector, industry and the live quote (price, change, change %, previous close; null when unpriced) for each stock, plus a gainers/losers/unchanged tally of the whole list in `movers`. Paged: up to 50 stocks per call; when `has_more` is true, call again with `offset: next_offset` to get the rest (do this before acting on \"all\" of a long watchlist).",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "offset": {
+              "type": "number",
+              "description": "Start position for paging (default 0). Pass `next_offset` from the previous page."
+            },
+            "limit": {
+              "type": "number",
+              "description": "Stocks per page (default and max 50; larger values are clamped)."
+            }
+          },
+          "additionalProperties": false,
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        },
+        "annotations": {
+          "title": "User Watchlist",
+          "readOnlyHint": true,
+          "destructiveHint": false,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        }
+      },
+      {
+        "name": "add_to_watchlist",
+        "title": "Add Stocks to Watchlist",
+        "description": "Add one or more stocks to the user's watchlist. Idempotent \u2014 adding a stock that's already followed is a no-op.\n\nUse cases:\n\u2022 User says \"Watch RELIANCE\" \u2192 single add\n\u2022 User says \"Add all Nifty IT stocks to my watchlist\" \u2192 you look up the symbols, then add them\n\u2022 User says \"Track TCS, INFY, WIPRO\" \u2192 bulk add",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "symbols": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "minItems": 1,
+              "maxItems": 100,
+              "description": "Stock symbols to add to watchlist (e.g. ['RELIANCE', 'TCS'])"
+            }
+          },
+          "required": [
+            "symbols"
+          ],
+          "additionalProperties": false,
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        },
+        "annotations": {
+          "title": "Add Stocks to Watchlist",
+          "readOnlyHint": false,
+          "destructiveHint": false,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        }
+      },
+      {
+        "name": "remove_from_watchlist",
+        "title": "Remove Stocks from Watchlist",
+        "description": "Remove one or more stocks from the user's watchlist.\n\nUse cases:\n\u2022 User says \"Stop watching INFY\" \u2192 single remove\n\u2022 User says \"Clear my watchlist\" \u2192 remove all (get watchlist first, paging with next_offset until has_more is false, then remove all symbols)",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "symbols": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "minItems": 1,
+              "maxItems": 200,
+              "description": "Stock symbols to remove from watchlist (e.g. ['INFY', 'TCS'])"
+            }
+          },
+          "required": [
+            "symbols"
+          ],
+          "additionalProperties": false,
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        },
+        "annotations": {
+          "title": "Remove Stocks from Watchlist",
+          "readOnlyHint": false,
+          "destructiveHint": true,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "execution": {
+          "taskSupport": "forbidden"
+        }
+      }
+    ]
+  },
+  "jsonrpc": "2.0",
+  "id": 2
+}

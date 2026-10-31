@@ -1,0 +1,58 @@
+{
+  "source_url": "https://www.nseindia.com/api/fiidiiTradeReact",
+  "payload": [
+    {
+      "buyValue": "19232.31",
+      "category": "DII",
+      "date": "23-Oct-2026",
+      "netValue": "3235.36",
+      "sellValue": "15996.95"
+    },
+    {
+      "buyValue": "14445.54",
+      "category": "FII/FPI",
+      "date": "23-Oct-2026",
+      "netValue": "887.65",
+      "sellValue": "13557.89"
+    }
+  ],
+  "observed_at": "2026-10-24T17:29:16.971897+00:00",
+  "column_schema": {
+    "columns": [
+      {
+        "name": "category",
+        "heading": "Category",
+        "subHead": "",
+        "width": "5%"
+      },
+      {
+        "name": "date",
+        "heading": "Date",
+        "subHead": "",
+        "width": "10%"
+      },
+      {
+        "name": "buyValue",
+        "heading": "Buy Value",
+        "subHead": "(\u20b9 Crores)",
+        "width": "20%",
+        "format": "number",
+        "sort": true
+      },
+      {
+        "name": "sellValue",
+        "heading": "Sell Value",
+        "subHead": "(\u20b9 Crores)",
+        "width": "30%",
+        "format": "number"
+      },
+      {
+        "name": "netValue",
+        "heading": "Net Value",
+        "subHead": "(\u20b9 Crores)",
+        "width": "10%",
+        "format": "number"
+      }
+    ]
+  }
+}

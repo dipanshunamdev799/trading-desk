@@ -1,0 +1,5200 @@
+{
+  "source": "https://api.tapetide.com/v1/openapi.json",
+  "verified_on": "2026-10-24",
+  "endpoints": {
+    "search_stocks": {
+      "path": "/v1/stocks",
+      "summary": "Search stocks",
+      "parameters": [
+        {
+          "name": "q",
+          "in": "query",
+          "required": true,
+          "schema": {
+            "type": "string"
+          }
+        },
+        {
+          "name": "sector",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string"
+          }
+        },
+        {
+          "name": "industry",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string"
+          }
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 50
+          }
+        }
+      ]
+    },
+    "get_stock_profile": {
+      "path": "/v1/stocks/{symbol}",
+      "summary": "Company profile",
+      "parameters": [
+        {
+          "name": "symbol",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "string",
+            "maxLength": 64
+          }
+        },
+        {
+          "name": "include",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "description": "Comma-separated list.",
+            "x-max-items": 3
+          }
+        }
+      ]
+    },
+    "get_stock_quote": {
+      "path": "/v1/stocks/{symbol}/quote",
+      "summary": "Latest quote",
+      "parameters": [
+        {
+          "name": "symbol",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "string",
+            "maxLength": 64
+          }
+        }
+      ]
+    },
+    "get_financials": {
+      "path": "/v1/stocks/{symbol}/financials",
+      "summary": "Financial statements",
+      "parameters": [
+        {
+          "name": "symbol",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "string",
+            "maxLength": 64
+          }
+        },
+        {
+          "name": "section",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string"
+          }
+        },
+        {
+          "name": "periods",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 40
+          }
+        }
+      ]
+    },
+    "get_price_history": {
+      "path": "/v1/stocks/{symbol}/price",
+      "summary": "Price history (OHLCV)",
+      "parameters": [
+        {
+          "name": "symbol",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "string",
+            "maxLength": 64
+          }
+        },
+        {
+          "name": "days",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 2000
+          }
+        },
+        {
+          "name": "interval",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "daily",
+              "weekly"
+            ]
+          }
+        },
+        {
+          "name": "end_date",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "format": "date",
+            "x-min": "1900-01-01",
+            "x-max": "2100-12-31"
+          }
+        }
+      ]
+    },
+    "get_shareholding": {
+      "path": "/v1/stocks/{symbol}/shareholding",
+      "summary": "Shareholding pattern",
+      "parameters": [
+        {
+          "name": "symbol",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "string",
+            "maxLength": 64
+          }
+        }
+      ]
+    },
+    "get_forecasts": {
+      "path": "/v1/stocks/{symbol}/forecasts",
+      "summary": "Analyst forecasts",
+      "parameters": [
+        {
+          "name": "symbol",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "string",
+            "maxLength": 64
+          }
+        }
+      ]
+    },
+    "get_stock_events": {
+      "path": "/v1/stocks/{symbol}/events",
+      "summary": "News, corporate actions or filings",
+      "parameters": [
+        {
+          "name": "symbol",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "string",
+            "maxLength": 64
+          }
+        },
+        {
+          "name": "type",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "news",
+              "corporate_actions",
+              "filings"
+            ]
+          }
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 50
+          }
+        }
+      ]
+    },
+    "get_stock_deals": {
+      "path": "/v1/stocks/{symbol}/deals",
+      "summary": "Bulk, block, insider and SAST deals",
+      "parameters": [
+        {
+          "name": "symbol",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "string",
+            "maxLength": 64
+          }
+        },
+        {
+          "name": "type",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "bulk",
+              "block",
+              "insider",
+              "sast"
+            ]
+          }
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 100
+          }
+        }
+      ]
+    },
+    "get_promoter_pledge": {
+      "path": "/v1/stocks/{symbol}/pledge",
+      "summary": "Promoter share pledge",
+      "parameters": [
+        {
+          "name": "symbol",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "string",
+            "maxLength": 64
+          }
+        }
+      ]
+    },
+    "get_credit_ratings": {
+      "path": "/v1/stocks/{symbol}/ratings",
+      "summary": "Credit ratings",
+      "parameters": [
+        {
+          "name": "symbol",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "string",
+            "maxLength": 64
+          }
+        }
+      ]
+    },
+    "get_options_analytics": {
+      "path": "/v1/stocks/{symbol}/options",
+      "summary": "Options analytics per expiry",
+      "parameters": [
+        {
+          "name": "symbol",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "string",
+            "maxLength": 64
+          }
+        }
+      ]
+    },
+    "get_earnings_call_summary": {
+      "path": "/v1/stocks/{symbol}/earnings-calls",
+      "summary": "Earnings call summaries",
+      "parameters": [
+        {
+          "name": "symbol",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "string",
+            "maxLength": 64
+          }
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 5
+          }
+        }
+      ]
+    },
+    "list_company_documents": {
+      "path": "/v1/stocks/{symbol}/documents",
+      "summary": "List parsed filings",
+      "parameters": [
+        {
+          "name": "symbol",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "string",
+            "maxLength": 64
+          }
+        },
+        {
+          "name": "doc_types",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "description": "Comma-separated list; each item one of: concall, annual_report, presentation, drhp, rhp.",
+            "x-max-items": 5,
+            "x-item-enum": [
+              "concall",
+              "annual_report",
+              "presentation",
+              "drhp",
+              "rhp"
+            ]
+          }
+        },
+        {
+          "name": "since",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "format": "date",
+            "x-min": "1900-01-01",
+            "x-max": "2100-12-31"
+          }
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 50
+          }
+        }
+      ]
+    },
+    "get_document_summary": {
+      "path": "/v1/stocks/{symbol}/documents/summary",
+      "summary": "Document investor digest",
+      "parameters": [
+        {
+          "name": "symbol",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "string",
+            "maxLength": 64
+          }
+        },
+        {
+          "name": "doc_id",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 2147483647
+          }
+        },
+        {
+          "name": "doc_type",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "concall",
+              "annual_report",
+              "presentation",
+              "drhp",
+              "rhp"
+            ]
+          }
+        }
+      ]
+    },
+    "read_document": {
+      "path": "/v1/stocks/{symbol}/documents/read",
+      "summary": "Read filing text by page range",
+      "parameters": [
+        {
+          "name": "symbol",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "string",
+            "maxLength": 64
+          }
+        },
+        {
+          "name": "doc_id",
+          "in": "query",
+          "required": true,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 2147483647
+          }
+        },
+        {
+          "name": "pages",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string"
+          }
+        },
+        {
+          "name": "max_chars",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 2000,
+            "maximum": 60000
+          }
+        }
+      ]
+    },
+    "get_document_summary_by_id": {
+      "path": "/v1/documents/{doc_id}/summary",
+      "summary": "Document investor digest by doc_id",
+      "parameters": [
+        {
+          "name": "doc_id",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 2147483647
+          }
+        }
+      ]
+    },
+    "read_document_by_id": {
+      "path": "/v1/documents/{doc_id}/read",
+      "summary": "Read filing text by doc_id",
+      "parameters": [
+        {
+          "name": "doc_id",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 2147483647
+          }
+        },
+        {
+          "name": "pages",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string"
+          }
+        },
+        {
+          "name": "max_chars",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 2000,
+            "maximum": 60000
+          }
+        }
+      ]
+    },
+    "get_stock_ownership": {
+      "path": "/v1/stocks/{symbol}/ownership",
+      "summary": "Dividend yield history and mutual fund positions",
+      "parameters": [
+        {
+          "name": "symbol",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "string",
+            "maxLength": 64
+          }
+        }
+      ]
+    },
+    "get_adjustment_factors": {
+      "path": "/v1/stocks/{symbol}/adjustment-factors",
+      "summary": "Split/bonus adjustment factors with unquantified events",
+      "parameters": [
+        {
+          "name": "symbol",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "string",
+            "maxLength": 64
+          }
+        }
+      ]
+    },
+    "get_observation_status": {
+      "path": "/v1/stocks/{symbol}/observation-status",
+      "summary": "Per-day observation status",
+      "parameters": [
+        {
+          "name": "symbol",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "string",
+            "maxLength": 64
+          }
+        },
+        {
+          "name": "days",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 10000
+          }
+        }
+      ]
+    },
+    "get_identifiers_as_of": {
+      "path": "/v1/stocks/{symbol}/identifiers",
+      "summary": "Symbol and ISIN held on a date",
+      "parameters": [
+        {
+          "name": "symbol",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "string",
+            "maxLength": 64
+          }
+        },
+        {
+          "name": "date",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "format": "date",
+            "x-min": "1900-01-01",
+            "x-max": "2100-12-31"
+          }
+        }
+      ]
+    },
+    "resolve_identifier": {
+      "path": "/v1/reference/resolve",
+      "summary": "Resolve a symbol or ISIN as of a date",
+      "parameters": [
+        {
+          "name": "value",
+          "in": "query",
+          "required": true,
+          "schema": {
+            "type": "string"
+          }
+        },
+        {
+          "name": "kind",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "nse_symbol",
+              "isin"
+            ]
+          }
+        },
+        {
+          "name": "date",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "format": "date",
+            "x-min": "1900-01-01",
+            "x-max": "2100-12-31"
+          }
+        }
+      ]
+    },
+    "get_batch_quotes": {
+      "path": "/v1/quotes",
+      "summary": "Batch quotes",
+      "parameters": [
+        {
+          "name": "symbols",
+          "in": "query",
+          "required": true,
+          "schema": {
+            "type": "string",
+            "description": "Comma-separated list.",
+            "x-max-items": 20
+          }
+        }
+      ]
+    },
+    "get_market_pulse": {
+      "path": "/v1/market/pulse",
+      "summary": "Market pulse",
+      "parameters": []
+    },
+    "get_fii_dii": {
+      "path": "/v1/market/fii-dii",
+      "summary": "FII/DII institutional flows",
+      "parameters": [
+        {
+          "name": "chart_interval",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "1m",
+              "3m",
+              "6m",
+              "1y",
+              "5y"
+            ]
+          }
+        }
+      ]
+    },
+    "get_india_vix": {
+      "path": "/v1/market/vix",
+      "summary": "India VIX",
+      "parameters": []
+    },
+    "get_fpi_sectors": {
+      "path": "/v1/market/fpi-sectors",
+      "summary": "FPI sector flows",
+      "parameters": []
+    },
+    "get_market_news": {
+      "path": "/v1/market/news",
+      "summary": "Market news",
+      "parameters": [
+        {
+          "name": "limit",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 50
+          }
+        },
+        {
+          "name": "category",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string"
+          }
+        },
+        {
+          "name": "sentiment",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "positive",
+              "negative",
+              "neutral"
+            ]
+          }
+        }
+      ]
+    },
+    "get_trending_stocks": {
+      "path": "/v1/market/trending",
+      "summary": "Trending stocks by signal",
+      "parameters": []
+    },
+    "get_market_valuations": {
+      "path": "/v1/market/valuations",
+      "summary": "Index valuations",
+      "parameters": [
+        {
+          "name": "index",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string"
+          }
+        },
+        {
+          "name": "years",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 20
+          }
+        }
+      ]
+    },
+    "get_index_performance": {
+      "path": "/v1/indices",
+      "summary": "Rank indices by return",
+      "parameters": [
+        {
+          "name": "periods",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 12
+          }
+        },
+        {
+          "name": "granularity",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "week",
+              "month"
+            ]
+          }
+        },
+        {
+          "name": "category",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string"
+          }
+        },
+        {
+          "name": "names",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "description": "Comma-separated list.",
+            "x-max-items": 30
+          }
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 50
+          }
+        },
+        {
+          "name": "order",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "gainers",
+              "losers"
+            ]
+          }
+        }
+      ]
+    },
+    "get_index_history": {
+      "path": "/v1/indices/{name}/history",
+      "summary": "Index level history",
+      "parameters": [
+        {
+          "name": "name",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "string",
+            "maxLength": 64
+          }
+        },
+        {
+          "name": "interval",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "1m",
+              "3m",
+              "6m",
+              "1y",
+              "2y",
+              "max"
+            ]
+          }
+        }
+      ]
+    },
+    "get_index_membership_as_of": {
+      "path": "/v1/indices/{name}/membership/{symbol}",
+      "summary": "Was a stock in an index on a date",
+      "parameters": [
+        {
+          "name": "name",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "string",
+            "maxLength": 64
+          }
+        },
+        {
+          "name": "symbol",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "string",
+            "maxLength": 64
+          }
+        },
+        {
+          "name": "date",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "format": "date",
+            "x-min": "1900-01-01",
+            "x-max": "2100-12-31"
+          }
+        }
+      ]
+    },
+    "get_option_chain": {
+      "path": "/v1/options/{symbol}/chain",
+      "summary": "Index option chain",
+      "parameters": [
+        {
+          "name": "symbol",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "string",
+            "maxLength": 64
+          }
+        },
+        {
+          "name": "expiry",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "format": "date",
+            "x-min": "1900-01-01",
+            "x-max": "2100-12-31"
+          }
+        },
+        {
+          "name": "strikes",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 25
+          }
+        }
+      ]
+    },
+    "get_option_iv_history": {
+      "path": "/v1/options/{symbol}/iv-history",
+      "summary": "Option IV history",
+      "parameters": [
+        {
+          "name": "symbol",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "string",
+            "maxLength": 64
+          }
+        },
+        {
+          "name": "range",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "1m",
+              "3m",
+              "6m",
+              "1y",
+              "2y",
+              "5y",
+              "max"
+            ]
+          }
+        }
+      ]
+    },
+    "list_market_holidays": {
+      "path": "/v1/market/holidays",
+      "summary": "Market holidays",
+      "parameters": [
+        {
+          "name": "from",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "to",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "order",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "asc",
+              "desc"
+            ],
+            "default": "asc"
+          }
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 500,
+            "default": 100
+          }
+        },
+        {
+          "name": "cursor",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "list_stock_fundamentals": {
+      "path": "/v1/stocks/{symbol}/fundamentals",
+      "summary": "Point-in-time fundamentals",
+      "parameters": [
+        {
+          "name": "symbol",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 64,
+            "description": "Stock symbol, e.g. \"RELIANCE\". Percent-encode \"&\" (M%26M)."
+          }
+        },
+        {
+          "name": "metrics",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": [
+                "revenue",
+                "operating_expenses",
+                "operating_profit",
+                "operating_margin_pct",
+                "other_income",
+                "interest_expense",
+                "depreciation",
+                "profit_before_tax",
+                "tax_rate_pct",
+                "net_profit",
+                "eps",
+                "dividend_payout_pct",
+                "share_capital",
+                "reserves",
+                "borrowings",
+                "other_liabilities",
+                "total_liabilities",
+                "fixed_assets",
+                "capital_work_in_progress",
+                "investments",
+                "other_assets",
+                "total_assets",
+                "cash_from_operations",
+                "cash_from_investing",
+                "cash_from_financing",
+                "net_cash_flow",
+                "free_cash_flow",
+                "cash_from_operations_to_operating_profit_pct",
+                "roce_pct",
+                "debtor_days",
+                "inventory_days",
+                "payable_days",
+                "cash_conversion_cycle_days",
+                "working_capital_days"
+              ]
+            },
+            "minItems": 1,
+            "maxItems": 34
+          }
+        },
+        {
+          "name": "period_type",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "quarter",
+              "annual"
+            ]
+          }
+        },
+        {
+          "name": "basis",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "preferred",
+              "consolidated",
+              "standalone"
+            ],
+            "default": "preferred"
+          }
+        },
+        {
+          "name": "from",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "to",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "as_of",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "order",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "asc",
+              "desc"
+            ],
+            "default": "asc"
+          }
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 1000,
+            "default": 200
+          }
+        },
+        {
+          "name": "cursor",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "list_fundamental_metrics": {
+      "path": "/v1/fundamentals/metrics",
+      "summary": "Fundamentals metric catalogue",
+      "parameters": [
+        {
+          "name": "statement",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "income_statement",
+              "balance_sheet",
+              "cash_flow",
+              "ratios"
+            ]
+          }
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 100,
+            "default": 100
+          }
+        },
+        {
+          "name": "cursor",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "list_reference_stocks": {
+      "path": "/v1/reference/stocks",
+      "summary": "Stock master list",
+      "parameters": [
+        {
+          "name": "sector",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 100
+          }
+        },
+        {
+          "name": "industry",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 100
+          }
+        },
+        {
+          "name": "status",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "active",
+              "delisted",
+              "inactive"
+            ]
+          }
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 1000,
+            "default": 500
+          }
+        },
+        {
+          "name": "cursor",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "get_symbol_history": {
+      "path": "/v1/reference/symbol-history/{symbol}",
+      "summary": "Symbol and ISIN history",
+      "parameters": [
+        {
+          "name": "symbol",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 64,
+            "description": "Stock symbol, e.g. \"RELIANCE\". Percent-encode \"&\" (M%26M)."
+          }
+        }
+      ]
+    },
+    "list_stock_daily_prices": {
+      "path": "/v1/stocks/{symbol}/prices/daily",
+      "summary": "Daily price bars",
+      "parameters": [
+        {
+          "name": "symbol",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 64,
+            "description": "Stock symbol, e.g. \"RELIANCE\". Percent-encode \"&\" (M%26M)."
+          }
+        },
+        {
+          "name": "from",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "to",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "order",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "asc",
+              "desc"
+            ],
+            "default": "asc"
+          }
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 5000,
+            "default": 250
+          }
+        },
+        {
+          "name": "cursor",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "list_stock_intraday_prices": {
+      "path": "/v1/stocks/{symbol}/prices/intraday",
+      "summary": "Intraday price bars",
+      "parameters": [
+        {
+          "name": "symbol",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 64,
+            "description": "Stock symbol, e.g. \"RELIANCE\". Percent-encode \"&\" (M%26M)."
+          }
+        },
+        {
+          "name": "date",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "from",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "to",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "interval",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "1",
+              "5",
+              "15"
+            ],
+            "default": "1"
+          }
+        },
+        {
+          "name": "order",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "asc",
+              "desc"
+            ],
+            "default": "asc"
+          }
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 2000,
+            "default": 375
+          }
+        },
+        {
+          "name": "cursor",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "list_stock_market_cap": {
+      "path": "/v1/stocks/{symbol}/market-cap",
+      "summary": "Daily market capitalisation",
+      "parameters": [
+        {
+          "name": "symbol",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 64,
+            "description": "Stock symbol, e.g. \"RELIANCE\". Percent-encode \"&\" (M%26M)."
+          }
+        },
+        {
+          "name": "from",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "to",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "order",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "asc",
+              "desc"
+            ],
+            "default": "asc"
+          }
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 5000,
+            "default": 250
+          }
+        },
+        {
+          "name": "cursor",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "list_stock_corporate_adjustments": {
+      "path": "/v1/stocks/{symbol}/corporate-adjustments",
+      "summary": "Split and bonus adjustment factors",
+      "parameters": [
+        {
+          "name": "symbol",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 64,
+            "description": "Stock symbol, e.g. \"RELIANCE\". Percent-encode \"&\" (M%26M)."
+          }
+        },
+        {
+          "name": "order",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "asc",
+              "desc"
+            ],
+            "default": "asc"
+          }
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 500,
+            "default": 100
+          }
+        },
+        {
+          "name": "cursor",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "list_stock_insider_trades": {
+      "path": "/v1/stocks/{symbol}/insider-trades",
+      "summary": "Insider trades",
+      "parameters": [
+        {
+          "name": "symbol",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 64,
+            "description": "Stock symbol, e.g. \"RELIANCE\". Percent-encode \"&\" (M%26M)."
+          }
+        },
+        {
+          "name": "from",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "to",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "transaction_type",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "buy",
+              "sell",
+              "pledge",
+              "pledge_release",
+              "pledge_invocation",
+              "esop"
+            ]
+          }
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 200,
+            "default": 50
+          }
+        },
+        {
+          "name": "cursor",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "list_stock_bulk_block_deals": {
+      "path": "/v1/stocks/{symbol}/bulk-block-deals",
+      "summary": "Bulk and block deals",
+      "parameters": [
+        {
+          "name": "symbol",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 64,
+            "description": "Stock symbol, e.g. \"RELIANCE\". Percent-encode \"&\" (M%26M)."
+          }
+        },
+        {
+          "name": "type",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "bulk",
+              "block"
+            ]
+          }
+        },
+        {
+          "name": "from",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "to",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 200,
+            "default": 50
+          }
+        },
+        {
+          "name": "cursor",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "list_stock_sast_disclosures": {
+      "path": "/v1/stocks/{symbol}/sast-disclosures",
+      "summary": "Substantial acquisition disclosures",
+      "parameters": [
+        {
+          "name": "symbol",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 64,
+            "description": "Stock symbol, e.g. \"RELIANCE\". Percent-encode \"&\" (M%26M)."
+          }
+        },
+        {
+          "name": "from",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "to",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 200,
+            "default": 50
+          }
+        },
+        {
+          "name": "cursor",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "list_stock_promoter_pledge": {
+      "path": "/v1/stocks/{symbol}/promoter-pledge",
+      "summary": "Promoter pledge by quarter",
+      "parameters": [
+        {
+          "name": "symbol",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 64,
+            "description": "Stock symbol, e.g. \"RELIANCE\". Percent-encode \"&\" (M%26M)."
+          }
+        },
+        {
+          "name": "order",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "asc",
+              "desc"
+            ],
+            "default": "asc"
+          }
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 100,
+            "default": 20
+          }
+        },
+        {
+          "name": "cursor",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "list_stock_promoter_pledge_events": {
+      "path": "/v1/stocks/{symbol}/promoter-pledge/events",
+      "summary": "Promoter pledge events",
+      "parameters": [
+        {
+          "name": "symbol",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 64,
+            "description": "Stock symbol, e.g. \"RELIANCE\". Percent-encode \"&\" (M%26M)."
+          }
+        },
+        {
+          "name": "from",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "to",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "event_type",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "creation",
+              "release",
+              "invocation"
+            ]
+          }
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 200,
+            "default": 50
+          }
+        },
+        {
+          "name": "cursor",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "list_stock_corporate_actions": {
+      "path": "/v1/stocks/{symbol}/corporate-actions",
+      "summary": "Corporate actions",
+      "parameters": [
+        {
+          "name": "symbol",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 64,
+            "description": "Stock symbol, e.g. \"RELIANCE\". Percent-encode \"&\" (M%26M)."
+          }
+        },
+        {
+          "name": "type",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "dividend",
+              "bonus",
+              "split",
+              "rights",
+              "buyback",
+              "demerger",
+              "merger",
+              "agm",
+              "egm",
+              "other"
+            ]
+          }
+        },
+        {
+          "name": "from",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "to",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "order",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "asc",
+              "desc"
+            ],
+            "default": "asc"
+          }
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 200,
+            "default": 50
+          }
+        },
+        {
+          "name": "cursor",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "list_market_corporate_actions": {
+      "path": "/v1/market/corporate-actions",
+      "summary": "Corporate action calendar",
+      "parameters": [
+        {
+          "name": "from",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "to",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "type",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "dividend",
+              "bonus",
+              "split",
+              "rights",
+              "buyback",
+              "demerger",
+              "merger",
+              "agm",
+              "egm",
+              "other"
+            ]
+          }
+        },
+        {
+          "name": "order",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "asc",
+              "desc"
+            ],
+            "default": "asc"
+          }
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 500,
+            "default": 100
+          }
+        },
+        {
+          "name": "cursor",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "list_stock_mutual_fund_holdings": {
+      "path": "/v1/stocks/{symbol}/mutual-fund-holdings",
+      "summary": "Mutual fund holdings",
+      "parameters": [
+        {
+          "name": "symbol",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 64,
+            "description": "Stock symbol, e.g. \"RELIANCE\". Percent-encode \"&\" (M%26M)."
+          }
+        },
+        {
+          "name": "month",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-(0[1-9]|1[0-2])$"
+          }
+        },
+        {
+          "name": "include_exits",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "boolean",
+            "default": false
+          }
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 200,
+            "default": 50
+          }
+        },
+        {
+          "name": "cursor",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "list_stock_credit_ratings": {
+      "path": "/v1/stocks/{symbol}/credit-ratings",
+      "summary": "Credit ratings",
+      "parameters": [
+        {
+          "name": "symbol",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 64,
+            "description": "Stock symbol, e.g. \"RELIANCE\". Percent-encode \"&\" (M%26M)."
+          }
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 200,
+            "default": 50
+          }
+        },
+        {
+          "name": "cursor",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "list_stock_filings": {
+      "path": "/v1/stocks/{symbol}/filings",
+      "summary": "Exchange filings",
+      "parameters": [
+        {
+          "name": "symbol",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 64,
+            "description": "Stock symbol, e.g. \"RELIANCE\". Percent-encode \"&\" (M%26M)."
+          }
+        },
+        {
+          "name": "category",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "financial_results",
+              "board_meeting",
+              "shareholder_meeting",
+              "earnings_call",
+              "investor_presentation",
+              "press_release",
+              "annual_report",
+              "credit_rating",
+              "dividend",
+              "corporate_action",
+              "capital_raise",
+              "acquisition",
+              "orders_contracts",
+              "management_change",
+              "insider_takeover",
+              "trading_window",
+              "insolvency",
+              "compliance",
+              "newspaper_publication",
+              "clarification",
+              "other"
+            ]
+          }
+        },
+        {
+          "name": "from",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "to",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 200,
+            "default": 50
+          }
+        },
+        {
+          "name": "cursor",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "list_stock_news": {
+      "path": "/v1/stocks/{symbol}/news",
+      "summary": "Company news",
+      "parameters": [
+        {
+          "name": "symbol",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 64,
+            "description": "Stock symbol, e.g. \"RELIANCE\". Percent-encode \"&\" (M%26M)."
+          }
+        },
+        {
+          "name": "category",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "companies",
+              "results",
+              "markets",
+              "economy",
+              "policy",
+              "global",
+              "ipo",
+              "commodities",
+              "currencies",
+              "crypto",
+              "banking",
+              "technology",
+              "real_estate",
+              "infrastructure",
+              "funds",
+              "personal_finance",
+              "investment_ideas",
+              "debt",
+              "startups"
+            ]
+          }
+        },
+        {
+          "name": "sentiment",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "positive",
+              "negative",
+              "neutral",
+              "mixed"
+            ]
+          }
+        },
+        {
+          "name": "from",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "to",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 100,
+            "default": 20
+          }
+        },
+        {
+          "name": "cursor",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "list_market_news_articles": {
+      "path": "/v1/market/news/articles",
+      "summary": "Market news",
+      "parameters": [
+        {
+          "name": "category",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "companies",
+              "results",
+              "markets",
+              "economy",
+              "policy",
+              "global",
+              "ipo",
+              "commodities",
+              "currencies",
+              "crypto",
+              "banking",
+              "technology",
+              "real_estate",
+              "infrastructure",
+              "funds",
+              "personal_finance",
+              "investment_ideas",
+              "debt",
+              "startups"
+            ]
+          }
+        },
+        {
+          "name": "sentiment",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "positive",
+              "negative",
+              "neutral",
+              "mixed"
+            ]
+          }
+        },
+        {
+          "name": "from",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "to",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 100,
+            "default": 20
+          }
+        },
+        {
+          "name": "cursor",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "list_ipos": {
+      "path": "/v1/ipos",
+      "summary": "IPOs",
+      "parameters": [
+        {
+          "name": "status",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "upcoming",
+              "open",
+              "closed",
+              "listed",
+              "announced"
+            ]
+          }
+        },
+        {
+          "name": "board",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "mainboard",
+              "sme"
+            ]
+          }
+        },
+        {
+          "name": "from",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "to",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 200,
+            "default": 50
+          }
+        },
+        {
+          "name": "cursor",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "get_ipo": {
+      "path": "/v1/ipos/{ipo_slug}",
+      "summary": "IPO detail",
+      "parameters": [
+        {
+          "name": "ipo_slug",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 120,
+            "description": "Slug from `/v1/ipos`, e.g. tonbo-imaging-2026."
+          }
+        }
+      ]
+    },
+    "list_scores": {
+      "path": "/v1/scores",
+      "summary": "Tapetide Score ranking",
+      "parameters": [
+        {
+          "name": "band",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": [
+                "strong",
+                "good",
+                "average",
+                "weak",
+                "poor"
+              ]
+            },
+            "minItems": 1,
+            "maxItems": 5
+          }
+        },
+        {
+          "name": "size",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": [
+                "large",
+                "mid",
+                "small",
+                "micro",
+                "all"
+              ]
+            },
+            "minItems": 1,
+            "maxItems": 5
+          }
+        },
+        {
+          "name": "sector",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 120
+            },
+            "minItems": 1,
+            "maxItems": 20
+          }
+        },
+        {
+          "name": "min_score",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 100
+          }
+        },
+        {
+          "name": "max_score",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 100
+          }
+        },
+        {
+          "name": "min_confidence",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 100,
+            "default": 75
+          }
+        },
+        {
+          "name": "q",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 100
+          }
+        },
+        {
+          "name": "sort",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "band",
+              "score",
+              "confidence",
+              "market_cap",
+              "name"
+            ],
+            "default": "band"
+          }
+        },
+        {
+          "name": "order",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "asc",
+              "desc"
+            ],
+            "default": "desc"
+          }
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 200,
+            "default": 50
+          }
+        },
+        {
+          "name": "cursor",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "get_stock_score": {
+      "path": "/v1/stocks/{symbol}/score",
+      "summary": "Tapetide Score",
+      "parameters": [
+        {
+          "name": "symbol",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 64,
+            "description": "Stock symbol, e.g. \"RELIANCE\". Percent-encode \"&\" (M%26M)."
+          }
+        }
+      ]
+    },
+    "list_stock_score_history": {
+      "path": "/v1/stocks/{symbol}/score/history",
+      "summary": "Tapetide Score history",
+      "parameters": [
+        {
+          "name": "symbol",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 64,
+            "description": "Stock symbol, e.g. \"RELIANCE\". Percent-encode \"&\" (M%26M)."
+          }
+        },
+        {
+          "name": "from",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "to",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "order",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "asc",
+              "desc"
+            ],
+            "default": "desc"
+          }
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 500,
+            "default": 90
+          }
+        },
+        {
+          "name": "cursor",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "list_stock_earnings_call_digests": {
+      "path": "/v1/stocks/{symbol}/earnings-calls/digests",
+      "summary": "Earnings-call digests",
+      "parameters": [
+        {
+          "name": "symbol",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 64,
+            "description": "Stock symbol, e.g. \"RELIANCE\". Percent-encode \"&\" (M%26M)."
+          }
+        },
+        {
+          "name": "summary",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "boolean",
+            "default": true
+          }
+        },
+        {
+          "name": "from",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "to",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 20,
+            "default": 4
+          }
+        },
+        {
+          "name": "cursor",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "list_market_surveillance": {
+      "path": "/v1/market/surveillance",
+      "summary": "Surveillance lists",
+      "parameters": [
+        {
+          "name": "framework",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "asm",
+              "esm",
+              "gsm"
+            ]
+          }
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 1000,
+            "default": 100
+          }
+        },
+        {
+          "name": "cursor",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "list_indices": {
+      "path": "/v1/reference/indices",
+      "summary": "Index catalogue",
+      "parameters": [
+        {
+          "name": "category",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "broad",
+              "sectoral",
+              "thematic",
+              "strategy",
+              "volatility"
+            ]
+          }
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 200,
+            "default": 200
+          }
+        },
+        {
+          "name": "cursor",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "list_index_levels": {
+      "path": "/v1/indices/{slug}/levels",
+      "summary": "Index daily levels",
+      "parameters": [
+        {
+          "name": "slug",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 80,
+            "pattern": "^[a-z0-9-]+$",
+            "description": "Index slug from `/v1/reference/indices`, e.g. \"nifty-50\", \"nifty-bank\", \"india-vix\"."
+          }
+        },
+        {
+          "name": "from",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "to",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "order",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "asc",
+              "desc"
+            ],
+            "default": "asc"
+          }
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 1000,
+            "default": 250
+          }
+        },
+        {
+          "name": "cursor",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "list_index_constituents": {
+      "path": "/v1/indices/{slug}/constituents",
+      "summary": "Index constituents on a date",
+      "parameters": [
+        {
+          "name": "slug",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 80,
+            "pattern": "^[a-z0-9-]+$",
+            "description": "Index slug from `/v1/reference/indices`, e.g. \"nifty-50\", \"nifty-bank\", \"india-vix\"."
+          }
+        },
+        {
+          "name": "date",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "include_uncertain",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "boolean",
+            "default": false
+          }
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 1000,
+            "default": 100
+          }
+        },
+        {
+          "name": "cursor",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "list_stock_index_memberships": {
+      "path": "/v1/stocks/{symbol}/index-memberships",
+      "summary": "Index memberships of a stock",
+      "parameters": [
+        {
+          "name": "symbol",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 64,
+            "description": "Stock symbol, e.g. \"RELIANCE\". Percent-encode \"&\" (M%26M)."
+          }
+        },
+        {
+          "name": "date",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "include_uncertain",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "boolean",
+            "default": false
+          }
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 500,
+            "default": 100
+          }
+        },
+        {
+          "name": "cursor",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "list_vix_history": {
+      "path": "/v1/market/vix/history",
+      "summary": "India VIX daily history",
+      "parameters": [
+        {
+          "name": "from",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "to",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "order",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "asc",
+              "desc"
+            ],
+            "default": "asc"
+          }
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 1000,
+            "default": 250
+          }
+        },
+        {
+          "name": "cursor",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "list_institutional_flows": {
+      "path": "/v1/market/institutional-flows",
+      "summary": "FII/DII cash-market flows",
+      "parameters": [
+        {
+          "name": "from",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "to",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "order",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "asc",
+              "desc"
+            ],
+            "default": "asc"
+          }
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 1000,
+            "default": 100
+          }
+        },
+        {
+          "name": "cursor",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "list_participant_open_interest": {
+      "path": "/v1/market/institutional-flows/derivatives",
+      "summary": "Participant-wise F&O open interest",
+      "parameters": [
+        {
+          "name": "participant",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "fii",
+              "dii",
+              "pro",
+              "client"
+            ]
+          }
+        },
+        {
+          "name": "from",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "to",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "order",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "asc",
+              "desc"
+            ],
+            "default": "asc"
+          }
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 1000,
+            "default": 100
+          }
+        },
+        {
+          "name": "cursor",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "list_fpi_flows": {
+      "path": "/v1/market/fpi-flows",
+      "summary": "FPI daily investment flows",
+      "parameters": [
+        {
+          "name": "asset_class",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "equity",
+              "debt",
+              "debt_general_limit",
+              "debt_vrr",
+              "debt_far",
+              "hybrid",
+              "aifs",
+              "mutual_funds"
+            ]
+          }
+        },
+        {
+          "name": "channel",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 40,
+            "pattern": "^[a-z_]+$"
+          }
+        },
+        {
+          "name": "from",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "to",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "order",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "asc",
+              "desc"
+            ],
+            "default": "asc"
+          }
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 1000,
+            "default": 200
+          }
+        },
+        {
+          "name": "cursor",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "list_fpi_derivatives": {
+      "path": "/v1/market/fpi-flows/derivatives",
+      "summary": "FPI daily derivatives activity",
+      "parameters": [
+        {
+          "name": "product",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "index_futures",
+              "index_options",
+              "stock_futures",
+              "stock_options",
+              "interest_rate_futures",
+              "currency_futures",
+              "currency_options",
+              "commodity_futures",
+              "commodity_options"
+            ]
+          }
+        },
+        {
+          "name": "from",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "to",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "order",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "asc",
+              "desc"
+            ],
+            "default": "asc"
+          }
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 1000,
+            "default": 100
+          }
+        },
+        {
+          "name": "cursor",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "list_fpi_sector_holdings": {
+      "path": "/v1/market/fpi-flows/sectors",
+      "summary": "FPI holdings and flows by sector",
+      "parameters": [
+        {
+          "name": "measure",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "assets_under_custody",
+              "net_investment"
+            ]
+          }
+        },
+        {
+          "name": "sector",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 120
+          }
+        },
+        {
+          "name": "from",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "to",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "order",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "asc",
+              "desc"
+            ],
+            "default": "asc"
+          }
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 1000,
+            "default": 100
+          }
+        },
+        {
+          "name": "cursor",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "list_fund_category_flows": {
+      "path": "/v1/funds/category-flows",
+      "summary": "Mutual fund category flows",
+      "parameters": [
+        {
+          "name": "group",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "debt",
+              "equity",
+              "hybrid",
+              "solution_oriented",
+              "other",
+              "index_funds",
+              "etfs",
+              "overseas_fund_of_funds"
+            ]
+          }
+        },
+        {
+          "name": "from",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "to",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "order",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "asc",
+              "desc"
+            ],
+            "default": "asc"
+          }
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 1000,
+            "default": 100
+          }
+        },
+        {
+          "name": "cursor",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "list_macro_series": {
+      "path": "/v1/macro/series",
+      "summary": "Macro series catalogue",
+      "parameters": [
+        {
+          "name": "frequency",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "daily",
+              "weekly",
+              "fortnightly",
+              "monthly",
+              "quarterly"
+            ]
+          }
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 100,
+            "default": 100
+          }
+        },
+        {
+          "name": "cursor",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "list_macro_observations": {
+      "path": "/v1/macro/series/{series_id}/observations",
+      "summary": "Macro series observations",
+      "parameters": [
+        {
+          "name": "series_id",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 64,
+            "pattern": "^[a-z0-9_]+$",
+            "description": "Series id, e.g. \"repo_rate\", \"cpi_combined_yoy\", \"usd_inr\"."
+          }
+        },
+        {
+          "name": "from",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "to",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "order",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "asc",
+              "desc"
+            ],
+            "default": "asc"
+          }
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 5000,
+            "default": 500
+          }
+        },
+        {
+          "name": "cursor",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "list_commodity_prices": {
+      "path": "/v1/macro/commodities",
+      "summary": "Commodity prices",
+      "parameters": [
+        {
+          "name": "commodity",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "gold",
+              "silver",
+              "platinum",
+              "crudeoil",
+              "brentcrude",
+              "naturalgas",
+              "copper",
+              "aluminium",
+              "zinc",
+              "lead",
+              "nickel"
+            ]
+          }
+        },
+        {
+          "name": "from",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "to",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "order",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "asc",
+              "desc"
+            ],
+            "default": "asc"
+          }
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 1000,
+            "default": 100
+          }
+        },
+        {
+          "name": "cursor",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "list_derivative_contracts": {
+      "path": "/v1/derivatives/contracts",
+      "summary": "Derivative contracts",
+      "parameters": [
+        {
+          "name": "underlying",
+          "in": "query",
+          "required": true,
+          "schema": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 24
+          }
+        },
+        {
+          "name": "expiry",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "from_expiry",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "to_expiry",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "instrument",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "future",
+              "option"
+            ]
+          }
+        },
+        {
+          "name": "exchange",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "NSE",
+              "BSE"
+            ]
+          }
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 1000,
+            "default": 200
+          }
+        },
+        {
+          "name": "cursor",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "list_derivative_expiries": {
+      "path": "/v1/derivatives/{underlying}/expiries",
+      "summary": "Derivative expiries",
+      "parameters": [
+        {
+          "name": "underlying",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 24,
+            "description": "Underlying symbol as listed for derivatives, e.g. \"NIFTY\", \"BANKNIFTY\", \"SENSEX\", \"RELIANCE\". Percent-encode \"&\" (M%26M)."
+          }
+        },
+        {
+          "name": "from_expiry",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "to_expiry",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "exchange",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "NSE",
+              "BSE"
+            ]
+          }
+        },
+        {
+          "name": "order",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "asc",
+              "desc"
+            ],
+            "default": "asc"
+          }
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 500,
+            "default": 50
+          }
+        },
+        {
+          "name": "cursor",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "list_derivative_daily_bars": {
+      "path": "/v1/derivatives/{underlying}/bars/daily",
+      "summary": "Derivative daily bars",
+      "parameters": [
+        {
+          "name": "underlying",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 24,
+            "description": "Underlying symbol as listed for derivatives, e.g. \"NIFTY\", \"BANKNIFTY\", \"SENSEX\", \"RELIANCE\". Percent-encode \"&\" (M%26M)."
+          }
+        },
+        {
+          "name": "expiry",
+          "in": "query",
+          "required": true,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "instrument",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "future",
+              "option"
+            ]
+          }
+        },
+        {
+          "name": "strike",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          }
+        },
+        {
+          "name": "option_type",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "CE",
+              "PE"
+            ]
+          }
+        },
+        {
+          "name": "exchange",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "NSE",
+              "BSE"
+            ]
+          }
+        },
+        {
+          "name": "from",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "to",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 1000,
+            "default": 200
+          }
+        },
+        {
+          "name": "cursor",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "list_derivative_option_analytics": {
+      "path": "/v1/derivatives/{underlying}/option-analytics",
+      "summary": "Option IV and Greeks by strike",
+      "parameters": [
+        {
+          "name": "underlying",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 24,
+            "description": "Underlying symbol as listed for derivatives, e.g. \"NIFTY\", \"BANKNIFTY\", \"SENSEX\", \"RELIANCE\". Percent-encode \"&\" (M%26M)."
+          }
+        },
+        {
+          "name": "date",
+          "in": "query",
+          "required": true,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "expiry",
+          "in": "query",
+          "required": true,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "option_type",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "CE",
+              "PE"
+            ]
+          }
+        },
+        {
+          "name": "min_strike",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "number",
+            "minimum": 0
+          }
+        },
+        {
+          "name": "max_strike",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          }
+        },
+        {
+          "name": "exchange",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "NSE",
+              "BSE"
+            ]
+          }
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 1000,
+            "default": 200
+          }
+        },
+        {
+          "name": "cursor",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "list_derivative_volatility": {
+      "path": "/v1/derivatives/{underlying}/volatility",
+      "summary": "Option volatility summary by expiry",
+      "parameters": [
+        {
+          "name": "underlying",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 24,
+            "description": "Underlying symbol as listed for derivatives, e.g. \"NIFTY\", \"BANKNIFTY\", \"SENSEX\", \"RELIANCE\". Percent-encode \"&\" (M%26M)."
+          }
+        },
+        {
+          "name": "expiry",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "from",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "to",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "order",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "asc",
+              "desc"
+            ],
+            "default": "desc"
+          }
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 1000,
+            "default": 100
+          }
+        },
+        {
+          "name": "cursor",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "list_derivative_intraday_bars": {
+      "path": "/v1/derivatives/{underlying}/bars/intraday",
+      "summary": "Derivative 1-minute bars",
+      "parameters": [
+        {
+          "name": "underlying",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 24,
+            "description": "Underlying symbol as listed for derivatives, e.g. \"NIFTY\", \"BANKNIFTY\", \"SENSEX\", \"RELIANCE\". Percent-encode \"&\" (M%26M)."
+          }
+        },
+        {
+          "name": "date",
+          "in": "query",
+          "required": true,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "expiry",
+          "in": "query",
+          "required": true,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "instrument",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "future",
+              "option"
+            ],
+            "default": "option"
+          }
+        },
+        {
+          "name": "strike",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          }
+        },
+        {
+          "name": "option_type",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "CE",
+              "PE"
+            ]
+          }
+        },
+        {
+          "name": "exchange",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "NSE",
+              "BSE"
+            ]
+          }
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 1000,
+            "default": 500
+          }
+        },
+        {
+          "name": "cursor",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "list_derivative_position_limits": {
+      "path": "/v1/derivatives/{underlying}/position-limits",
+      "summary": "Market-wide position limit utilisation",
+      "parameters": [
+        {
+          "name": "underlying",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 24,
+            "description": "Underlying symbol as listed for derivatives, e.g. \"NIFTY\", \"BANKNIFTY\", \"SENSEX\", \"RELIANCE\". Percent-encode \"&\" (M%26M)."
+          }
+        },
+        {
+          "name": "from",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "to",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "order",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "asc",
+              "desc"
+            ],
+            "default": "desc"
+          }
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 1000,
+            "default": 100
+          }
+        },
+        {
+          "name": "cursor",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "list_derivative_ban_list": {
+      "path": "/v1/derivatives/ban-list",
+      "summary": "F&O ban list derived from position limits",
+      "parameters": [
+        {
+          "name": "date",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 500,
+            "default": 100
+          }
+        },
+        {
+          "name": "cursor",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "list_derivative_exchange_volatility": {
+      "path": "/v1/derivatives/{underlying}/exchange-volatility",
+      "summary": "Exchange-published daily volatility",
+      "parameters": [
+        {
+          "name": "underlying",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 24,
+            "description": "Underlying symbol as listed for derivatives, e.g. \"NIFTY\", \"BANKNIFTY\", \"SENSEX\", \"RELIANCE\". Percent-encode \"&\" (M%26M)."
+          }
+        },
+        {
+          "name": "from",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "to",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "order",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "asc",
+              "desc"
+            ],
+            "default": "desc"
+          }
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 1000,
+            "default": 100
+          }
+        },
+        {
+          "name": "cursor",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "list_live_quotes": {
+      "path": "/v1/quotes/live",
+      "summary": "Live quotes for up to 50 stocks",
+      "parameters": [
+        {
+          "name": "symbols",
+          "in": "query",
+          "required": true,
+          "schema": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 50,
+            "default": 50
+          }
+        },
+        {
+          "name": "cursor",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "get_live_quote": {
+      "path": "/v1/stocks/{symbol}/quote/live",
+      "summary": "Live quote",
+      "parameters": [
+        {
+          "name": "symbol",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 64,
+            "description": "Stock symbol, e.g. \"RELIANCE\". Percent-encode \"&\" (M%26M)."
+          }
+        }
+      ]
+    },
+    "get_market_status": {
+      "path": "/v1/market/status",
+      "summary": "Market status",
+      "parameters": []
+    },
+    "list_heatmap_indices": {
+      "path": "/v1/market/heatmap",
+      "summary": "Indices with constituent data",
+      "parameters": [
+        {
+          "name": "limit",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 50,
+            "default": 50
+          }
+        },
+        {
+          "name": "cursor",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "get_index_heatmap": {
+      "path": "/v1/market/heatmap/{index_slug}",
+      "summary": "Index constituents with live returns",
+      "parameters": [
+        {
+          "name": "index_slug",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "string",
+            "description": "Index slug, e.g. nifty-50. See /v1/market/heatmap."
+          }
+        },
+        {
+          "name": "sort",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "market_cap",
+              "change_pct",
+              "volume",
+              "traded_value",
+              "change_pct_1w",
+              "change_pct_1m",
+              "change_pct_1y"
+            ],
+            "default": "market_cap"
+          }
+        },
+        {
+          "name": "order",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "asc",
+              "desc"
+            ],
+            "default": "desc"
+          }
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 500,
+            "default": 50
+          }
+        },
+        {
+          "name": "cursor",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "list_market_movers": {
+      "path": "/v1/market/movers",
+      "summary": "Top gainers, losers and most active",
+      "parameters": [
+        {
+          "name": "type",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "gainers",
+              "losers",
+              "active"
+            ],
+            "default": "gainers"
+          }
+        },
+        {
+          "name": "universe",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "default": "nifty-500"
+          }
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 100,
+            "default": 20
+          }
+        },
+        {
+          "name": "cursor",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "screen_fundamental": {
+      "path": "/v1/screens/fundamental",
+      "summary": "Fundamental stock screen",
+      "parameters": [
+        {
+          "name": "query",
+          "in": "query",
+          "required": true,
+          "schema": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 1500
+          }
+        },
+        {
+          "name": "sort",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "maxLength": 80
+          }
+        },
+        {
+          "name": "order",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "asc",
+              "desc"
+            ],
+            "default": "desc"
+          }
+        },
+        {
+          "name": "latest",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "boolean"
+          }
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 50,
+            "default": 25
+          }
+        },
+        {
+          "name": "cursor",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "list_fundamental_screen_fields": {
+      "path": "/v1/screens/fundamental/fields",
+      "summary": "Fundamental screen ratio catalogue",
+      "parameters": [
+        {
+          "name": "q",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "maxLength": 60
+          }
+        },
+        {
+          "name": "category",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "maxLength": 60
+          }
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 400,
+            "default": 100
+          }
+        },
+        {
+          "name": "cursor",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "screen_technical": {
+      "path": "/v1/screens/technical",
+      "summary": "Technical stock screen",
+      "parameters": [
+        {
+          "name": "filter",
+          "in": "query",
+          "required": true,
+          "schema": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "maxLength": 120
+            },
+            "minItems": 1,
+            "maxItems": 20
+          }
+        },
+        {
+          "name": "sort",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "close",
+              "open",
+              "high",
+              "low",
+              "volume",
+              "change_pct",
+              "change",
+              "market_cap_cr",
+              "sma_5",
+              "sma_10",
+              "sma_20",
+              "sma_50",
+              "sma_100",
+              "sma_200",
+              "ema_5",
+              "ema_10",
+              "ema_20",
+              "ema_50",
+              "ema_100",
+              "ema_200",
+              "rsi_14",
+              "rsi_14_prev",
+              "macd",
+              "macd_signal",
+              "stoch_k",
+              "stoch_d",
+              "cci_20",
+              "adx",
+              "awesome_oscillator",
+              "momentum_10",
+              "atr_14",
+              "bb_upper",
+              "bb_lower",
+              "pivot_r1",
+              "pivot_r2",
+              "pivot_s1",
+              "pivot_s2",
+              "perf_1w_pct",
+              "perf_1m_pct",
+              "perf_3m_pct",
+              "perf_6m_pct",
+              "perf_1y_pct",
+              "perf_ytd_pct",
+              "avg_volume_10d",
+              "avg_volume_30d",
+              "relative_volume_10d",
+              "pe_ttm",
+              "pb",
+              "dividend_yield_pct",
+              "high_52w",
+              "low_52w",
+              "rating_overall",
+              "rating_moving_averages",
+              "rating_oscillators"
+            ],
+            "default": "market_cap_cr"
+          }
+        },
+        {
+          "name": "order",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "asc",
+              "desc"
+            ],
+            "default": "desc"
+          }
+        },
+        {
+          "name": "fields",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "maxLength": 40
+            },
+            "minItems": 1,
+            "maxItems": 40
+          }
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 100,
+            "default": 20
+          }
+        },
+        {
+          "name": "cursor",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "list_technical_screen_fields": {
+      "path": "/v1/screens/technical/fields",
+      "summary": "Technical screen field catalogue",
+      "parameters": [
+        {
+          "name": "limit",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 100,
+            "default": 100
+          }
+        },
+        {
+          "name": "cursor",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "list_market_deals": {
+      "path": "/v1/market/deals",
+      "summary": "Bulk and block deals, market-wide",
+      "parameters": [
+        {
+          "name": "from",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "to",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        {
+          "name": "type",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "bulk",
+              "block"
+            ]
+          }
+        },
+        {
+          "name": "side",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "buy",
+              "sell"
+            ]
+          }
+        },
+        {
+          "name": "exchange",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "NSE",
+              "BSE"
+            ]
+          }
+        },
+        {
+          "name": "symbol",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "maxLength": 32
+          }
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 500,
+            "default": 100
+          }
+        },
+        {
+          "name": "cursor",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "list_fno_ban": {
+      "path": "/v1/market/fno-ban",
+      "summary": "F&O securities in ban and near it",
+      "parameters": [
+        {
+          "name": "limit",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 200,
+            "default": 100
+          }
+        },
+        {
+          "name": "cursor",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "list_top_deliveries": {
+      "path": "/v1/market/deliveries",
+      "summary": "Highest delivery-percentage stocks",
+      "parameters": [
+        {
+          "name": "min_delivery_pct",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 100,
+            "default": 50
+          }
+        },
+        {
+          "name": "min_traded_value_cr",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "number",
+            "minimum": 0,
+            "default": 1
+          }
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 200,
+            "default": 50
+          }
+        },
+        {
+          "name": "cursor",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "list_margin_funding": {
+      "path": "/v1/market/mtf",
+      "summary": "Most-funded stocks under margin trading",
+      "parameters": [
+        {
+          "name": "limit",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 100,
+            "default": 50
+          }
+        },
+        {
+          "name": "cursor",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "list_securities_lending": {
+      "path": "/v1/market/slbm",
+      "summary": "Securities lending and borrowing activity",
+      "parameters": [
+        {
+          "name": "sort",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string",
+            "enum": [
+              "yield",
+              "quantity"
+            ],
+            "default": "yield"
+          }
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 500,
+            "default": 100
+          }
+        },
+        {
+          "name": "cursor",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "list_market_signals": {
+      "path": "/v1/market/signals",
+      "summary": "End-of-day technical signals",
+      "parameters": [
+        {
+          "name": "signal",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": [
+                "near_52w_high",
+                "near_52w_low",
+                "rsi_overbought",
+                "rsi_oversold",
+                "macd_bullish",
+                "volume_spike",
+                "above_200_sma",
+                "below_200_sma"
+              ]
+            }
+          }
+        },
+        {
+          "name": "category",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": [
+                "breakout",
+                "momentum",
+                "volume",
+                "trend"
+              ]
+            }
+          }
+        },
+        {
+          "name": "min_market_cap_cr",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "number",
+            "minimum": 0,
+            "default": 500
+          }
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 500,
+            "default": 50
+          }
+        },
+        {
+          "name": "cursor",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "list_signal_definitions": {
+      "path": "/v1/market/signals/definitions",
+      "summary": "Signal definitions",
+      "parameters": [
+        {
+          "name": "limit",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 20,
+            "default": 20
+          }
+        },
+        {
+          "name": "cursor",
+          "in": "query",
+          "required": false,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ]
+    }
+  }
+}

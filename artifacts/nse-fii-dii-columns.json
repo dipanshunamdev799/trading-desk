@@ -1,0 +1,38 @@
+{
+  "columns": [
+    {
+      "name": "category",
+      "heading": "Category",
+      "subHead": "",
+      "width": "5%"
+    },
+    {
+      "name": "date",
+      "heading": "Date",
+      "subHead": "",
+      "width": "10%"
+    },
+    {
+      "name": "buyValue",
+      "heading": "Buy Value",
+      "subHead": "(\u20b9 Crores)",
+      "width": "20%",
+      "format": "number",
+      "sort": true
+    },
+    {
+      "name": "sellValue",
+      "heading": "Sell Value",
+      "subHead": "(\u20b9 Crores)",
+      "width": "30%",
+      "format": "number"
+    },
+    {
+      "name": "netValue",
+      "heading": "Net Value",
+      "subHead": "(\u20b9 Crores)",
+      "width": "10%",
+      "format": "number"
+    }
+  ]
+}

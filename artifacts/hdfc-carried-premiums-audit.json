@@ -1,0 +1,98 @@
+{
+  "checks": [
+    {
+      "request": 1,
+      "elapsed_seconds": 0.09,
+      "coverage": {
+        "basis": "last_available_close",
+        "date": "2026-10-23",
+        "source": "stored_option_daily_candles",
+        "exact": 46,
+        "carried_forward": 2,
+        "carried": [
+          {
+            "strike": 620.0,
+            "side": "CE",
+            "close": 99.05,
+            "price_date": "2026-10-14",
+            "age_days": 9,
+            "carried_forward": true
+          },
+          {
+            "strike": 630.0,
+            "side": "CE",
+            "close": 67.05,
+            "price_date": "2026-10-22",
+            "age_days": 1,
+            "carried_forward": true
+          }
+        ],
+        "required": 48,
+        "available": 48,
+        "missing": [],
+        "complete": true
+      },
+      "has_pnl": true
+    },
+    {
+      "request": 2,
+      "elapsed_seconds": 0.087,
+      "coverage": {
+        "basis": "last_available_close",
+        "date": "2026-10-23",
+        "source": "stored_option_daily_candles",
+        "exact": 46,
+        "carried_forward": 2,
+        "carried": [
+          {
+            "strike": 620.0,
+            "side": "CE",
+            "close": 99.05,
+            "price_date": "2026-10-14",
+            "age_days": 9,
+            "carried_forward": true
+          },
+          {
+            "strike": 630.0,
+            "side": "CE",
+            "close": 67.05,
+            "price_date": "2026-10-22",
+            "age_days": 1,
+            "carried_forward": true
+          }
+        ],
+        "required": 48,
+        "available": 48,
+        "missing": [],
+        "complete": true
+      },
+      "has_pnl": true
+    }
+  ],
+  "upstream_calls_during_both": 0,
+  "pnl_assumption": "Hypothetical short-option portfolio; entry premium = latest traded option daily close on or before 2026-10-23; 2 prices carried forward with original trade dates. Not actual market-wide P&L. OI does not identify sellers.",
+  "carried_strikes": [
+    {
+      "strike": 620.0,
+      "call_oi": 650.0,
+      "put_oi": 440050.0,
+      "call_prev_oi": null,
+      "put_prev_oi": null,
+      "call_ltp": 99.05,
+      "put_ltp": 0.1,
+      "call_premium_date": "2026-10-14",
+      "put_premium_date": "2026-10-23"
+    },
+    {
+      "strike": 630.0,
+      "call_oi": 7150.0,
+      "put_oi": 1451450.0,
+      "call_prev_oi": null,
+      "put_prev_oi": null,
+      "call_ltp": 67.05,
+      "put_ltp": 0.05,
+      "call_premium_date": "2026-10-22",
+      "put_premium_date": "2026-10-23"
+    }
+  ]
+}

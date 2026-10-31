@@ -1,0 +1,48 @@
+[
+  {
+    "as_of": "2026-10-23",
+    "max_pain_available": true,
+    "greeks": {
+      "instrument_key": "NSE_INDEX|Nifty 50",
+      "expiry": "2026-10-27",
+      "as_of": "2026-10-23",
+      "source": "Upstox option chain",
+      "source_url": "https://upstox.com/developer/api-documentation/get-pc-option-chain/",
+      "reported_at": null,
+      "observed_at": null,
+      "status": "unavailable",
+      "data_available": false,
+      "required": 0,
+      "available": 0,
+      "complete_legs": 0,
+      "complete": false,
+      "rows": [],
+      "spot": null,
+      "hint": "No option Greeks snapshot was saved for 2026-10-23, expiry 2026-10-27. Dated OI and daily closing premiums do not contain Greeks.",
+      "basis": "Per-option provider values; no lot or OI scaling. IV is the chain endpoint's percentage value. Capture time is not an exchange timestamp."
+    }
+  },
+  {
+    "as_of": "2026-10-25",
+    "max_pain_available": false,
+    "greeks": {
+      "instrument_key": "NSE_INDEX|Nifty 50",
+      "expiry": "2026-10-27",
+      "as_of": "2026-10-25",
+      "source": "Upstox option chain",
+      "source_url": "https://upstox.com/developer/api-documentation/get-pc-option-chain/",
+      "reported_at": null,
+      "observed_at": null,
+      "status": "unavailable",
+      "data_available": false,
+      "required": 0,
+      "available": 0,
+      "complete_legs": 0,
+      "complete": false,
+      "rows": [],
+      "spot": null,
+      "hint": "No NSE trading session scheduled for 2026-10-25 (IST).",
+      "basis": "Per-option provider values; no lot or OI scaling. IV is the chain endpoint's percentage value. Capture time is not an exchange timestamp."
+    }
+  }
+]

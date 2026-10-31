@@ -1,0 +1,77 @@
+{
+  "observations_saved": 2,
+  "observations": [
+    {
+      "factor_id": "dii_cash",
+      "value": 3235.36,
+      "previous_value": null,
+      "change": null,
+      "change_pct": null,
+      "unit": "₹ crore",
+      "source": "NSE provisional cash report",
+      "source_url": "https://www.nseindia.com/reports/fii-dii",
+      "reported_at": "2026-10-23T00:00:00+05:30",
+      "observed_at": "2026-10-24T17:33:39.536781+00:00",
+      "reporting_date": "2026-10-23",
+      "cadence": "daily after close",
+      "quality": "exchange_report",
+      "context": {
+        "session_date": "2026-10-23",
+        "gross_buy_cr": 19232.31,
+        "gross_sell_cr": 15996.95,
+        "net_cr": 3235.36,
+        "provisional": true,
+        "unit_status": "verified",
+        "unit_source_url": "https://www.nseindia.com/json/reports/fii-dii.json",
+        "data_source_url": "https://www.nseindia.com/api/fiidiiTradeReact",
+        "market_scope": "NSE, BSE and MSEI capital market segment",
+        "timestamp_basis": "Reporting date only; the exchange does not supply a release clock time",
+        "upstox_verification": {
+          "matched": true,
+          "reported_at": "2026-10-22T18:30:00+00:00",
+          "source_url": "https://upstox.com/developer/api-documentation/get-dii-data/",
+          "provider_documented_unit": "INR",
+          "verified_raw_unit": "₹ crore",
+          "note": "Both gross legs match NSE for the same reporting date"
+        }
+      },
+      "basis": "NSE provisional report; buy minus sell in explicitly labelled rupees crore. Timestamp is a reporting-date anchor, not publication time."
+    },
+    {
+      "factor_id": "fii_cash",
+      "value": 887.65,
+      "previous_value": null,
+      "change": null,
+      "change_pct": null,
+      "unit": "₹ crore",
+      "source": "NSE provisional cash report",
+      "source_url": "https://www.nseindia.com/reports/fii-dii",
+      "reported_at": "2026-10-23T00:00:00+05:30",
+      "observed_at": "2026-10-24T17:33:39.536781+00:00",
+      "reporting_date": "2026-10-23",
+      "cadence": "daily after close",
+      "quality": "exchange_report",
+      "context": {
+        "session_date": "2026-10-23",
+        "gross_buy_cr": 14445.54,
+        "gross_sell_cr": 13557.89,
+        "net_cr": 887.65,
+        "provisional": true,
+        "unit_status": "verified",
+        "unit_source_url": "https://www.nseindia.com/json/reports/fii-dii.json",
+        "data_source_url": "https://www.nseindia.com/api/fiidiiTradeReact",
+        "market_scope": "NSE, BSE and MSEI capital market segment",
+        "timestamp_basis": "Reporting date only; the exchange does not supply a release clock time",
+        "upstox_verification": {
+          "matched": true,
+          "reported_at": "2026-10-22T18:30:00+00:00",
+          "source_url": "https://upstox.com/developer/api-documentation/get-fii-data/",
+          "provider_documented_unit": "INR",
+          "verified_raw_unit": "₹ crore",
+          "note": "Both gross legs match NSE for the same reporting date"
+        }
+      },
+      "basis": "NSE provisional report; buy minus sell in explicitly labelled rupees crore. Timestamp is a reporting-date anchor, not publication time."
+    }
+  ]
+}

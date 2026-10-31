@@ -1,0 +1,42 @@
+{
+  "simulated_upstox_outage": {
+    "provider": "tapetide",
+    "price": 1190,
+    "source_timestamp": "2026-10-23T10:29:41+00:00"
+  },
+  "upstox_recovery": {
+    "provider": "upstox",
+    "price": 1190.0
+  },
+  "equity_fallback": {
+    "provider": "tapetide",
+    "bars": 2,
+    "last_close": 1190,
+    "canonical_writes": 0
+  },
+  "index_fallback": {
+    "provider": "tapetide",
+    "bars": 326,
+    "last_close": 22600,
+    "canonical_writes": 0
+  },
+  "dated_pcr_fallback": {
+    "provider": "tapetide",
+    "value": 0.7392,
+    "grain": "eod",
+    "intraday_points": 0
+  },
+  "catalog": {
+    "primary": "upstox",
+    "fallback": "tapetide",
+    "public_endpoints": 104
+  },
+  "validation": {
+    "tests_run": 184,
+    "tests_passed": 184,
+    "database_tests_enabled": true,
+    "api_reloaded": true,
+    "api_health": true,
+    "database": "ok"
+  }
+}

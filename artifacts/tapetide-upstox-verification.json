@@ -1,0 +1,53 @@
+{
+  "upstox_token_configured": true,
+  "tapetide_token_configured": false,
+  "checks": {
+    "tapetide_initialize": {
+      "status": 401,
+      "body": "{\"error\":\"authentication_required\",\"error_description\":\"Bearer token required\"}"
+    },
+    "upstox_nifty_daily": {
+      "candles": [
+        [
+          "2026-10-19T00:00:00+05:30",
+          23150.85,
+          23175.25,
+          22845.0,
+          22888.95,
+          0.0,
+          0.0
+        ],
+        [
+          "2026-10-21T00:00:00+05:30",
+          23016.0,
+          23120.9,
+          22649.9,
+          22811.35,
+          0.0,
+          0.0
+        ],
+        [
+          "2026-10-22T00:00:00+05:30",
+          22687.75,
+          22785.0,
+          22554.85,
+          22687.65,
+          0.0,
+          0.0
+        ],
+        [
+          "2026-10-23T00:00:00+05:30",
+          22742.2,
+          22787.25,
+          22372.0,
+          22600.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "_source": "db",
+      "_written": 0,
+      "_partial": false
+    }
+  }
+}

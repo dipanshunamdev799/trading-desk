@@ -1,0 +1,32 @@
+[
+  {
+    "factor": "fii_cash",
+    "value": 887.65,
+    "status": "available",
+    "session": "2026-10-23",
+    "source": "NSE provisional cash report",
+    "verification": {
+      "note": "Both gross legs match NSE for the same reporting date",
+      "matched": true,
+      "source_url": "https://upstox.com/developer/api-documentation/get-fii-data/",
+      "reported_at": "2026-10-22T18:30:00+00:00",
+      "verified_raw_unit": "\u20b9 crore",
+      "provider_documented_unit": "INR"
+    }
+  },
+  {
+    "factor": "dii_cash",
+    "value": 3235.36,
+    "status": "available",
+    "session": "2026-10-23",
+    "source": "NSE provisional cash report",
+    "verification": {
+      "note": "Both gross legs match NSE for the same reporting date",
+      "matched": true,
+      "source_url": "https://upstox.com/developer/api-documentation/get-dii-data/",
+      "reported_at": "2026-10-22T18:30:00+00:00",
+      "verified_raw_unit": "\u20b9 crore",
+      "provider_documented_unit": "INR"
+    }
+  }
+]

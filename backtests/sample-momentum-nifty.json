@@ -1,0 +1,90 @@
+{
+  "slug": "sample-momentum-nifty",
+  "name": "Sample Momentum Nifty",
+  "strategy": "momentum_sma_cross",
+  "instrument_key": "NSE_INDEX|Nifty 50",
+  "interval": "1day",
+  "start_date": "2023-01-01",
+  "end_date": "2024-12-31",
+  "metrics": {
+    "total_return": 0.184,
+    "cagr": 0.09,
+    "sharpe": 1.12,
+    "max_drawdown": -0.083,
+    "win_rate": 0.54,
+    "trades": 42,
+    "profit_factor": 1.41
+  },
+  "equity": [
+    {"ts": "2023-01-02", "equity": 100000, "drawdown": 0},
+    {"ts": "2023-03-01", "equity": 103200, "drawdown": 0},
+    {"ts": "2023-05-01", "equity": 101400, "drawdown": -0.017},
+    {"ts": "2023-07-03", "equity": 108500, "drawdown": 0},
+    {"ts": "2023-09-01", "equity": 106900, "drawdown": -0.015},
+    {"ts": "2023-11-01", "equity": 112400, "drawdown": 0},
+    {"ts": "2024-01-02", "equity": 115100, "drawdown": 0},
+    {"ts": "2024-03-01", "equity": 111800, "drawdown": -0.029},
+    {"ts": "2024-05-01", "equity": 118600, "drawdown": 0},
+    {"ts": "2024-07-01", "equity": 121200, "drawdown": 0},
+    {"ts": "2024-09-02", "equity": 117900, "drawdown": -0.027},
+    {"ts": "2024-11-01", "equity": 124300, "drawdown": 0},
+    {"ts": "2024-12-31", "equity": 118400, "drawdown": -0.047}
+  ],
+  "trades": [
+    {
+      "entry_ts": "2023-01-10",
+      "exit_ts": "2023-02-14",
+      "side": "BUY",
+      "instrument_key": "NSE_INDEX|Nifty 50",
+      "qty": 50,
+      "entry_price": 18120.4,
+      "exit_price": 18455.1,
+      "pnl": 16735,
+      "fees": 120
+    },
+    {
+      "entry_ts": "2023-03-22",
+      "exit_ts": "2023-04-18",
+      "side": "BUY",
+      "instrument_key": "NSE_INDEX|Nifty 50",
+      "qty": 50,
+      "entry_price": 17080.2,
+      "exit_price": 17310.0,
+      "pnl": 11490,
+      "fees": 115
+    },
+    {
+      "entry_ts": "2023-06-05",
+      "exit_ts": "2023-06-28",
+      "side": "BUY",
+      "instrument_key": "NSE_INDEX|Nifty 50",
+      "qty": 45,
+      "entry_price": 18740.0,
+      "exit_price": 18590.5,
+      "pnl": -6727.5,
+      "fees": 110
+    },
+    {
+      "entry_ts": "2024-02-01",
+      "exit_ts": "2024-03-12",
+      "side": "BUY",
+      "instrument_key": "NSE_INDEX|Nifty 50",
+      "qty": 40,
+      "entry_price": 21750.0,
+      "exit_price": 22480.0,
+      "pnl": 29200,
+      "fees": 130
+    },
+    {
+      "entry_ts": "2024-08-15",
+      "exit_ts": "2024-09-20",
+      "side": "BUY",
+      "instrument_key": "NSE_INDEX|Nifty 50",
+      "qty": 35,
+      "entry_price": 24510.0,
+      "exit_price": 24210.0,
+      "pnl": -10500,
+      "fees": 125
+    }
+  ]
+}

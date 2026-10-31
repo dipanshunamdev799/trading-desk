@@ -1,0 +1,16 @@
+{
+  "verified": [
+    "NIFTY 50 daily: 247 bars",
+    "Bank NIFTY daily: 247 bars",
+    "HDFC BANK found through instrument search",
+    "HDFCBANK one-minute: 1500 bars",
+    "Candlestick, line and area render",
+    "Maximize fills viewport without hiding canvas",
+    "Escape restores panel",
+    "Restore button restores panel",
+    "Controls remain usable while maximized",
+    "IST axis and crosshair formatter regression passes"
+  ],
+  "frontend_build": "passed",
+  "chart_regressions": 5
+}

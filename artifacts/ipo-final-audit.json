@@ -1,0 +1,525 @@
+{
+  "catalogue_count": 64,
+  "counts": {
+    "upcoming": 9,
+    "open": 1,
+    "announced": 22,
+    "closed": 2,
+    "listed": 30
+  },
+  "checks": [
+    {
+      "id": "core4-engineers-limited-ipo",
+      "name": "Core4 Engineers IPO",
+      "stage": "open",
+      "coverage": 20,
+      "observations": 84,
+      "source_errors": [],
+      "factors": {
+        "qib": {
+          "value": 0.0,
+          "status": "available",
+          "source": "IPOWatch (public)",
+          "source_url": "https://ipowatch.in/ipo-subscription-status-today/",
+          "fetched_at": "2026-10-24T15:49:20.450541+00:00",
+          "reported_at": null,
+          "period": null,
+          "note": "QIB bids can build late in the bidding window; compare at the same bidding day and time.",
+          "id": "qib",
+          "number": 1,
+          "label": "QIB subscription",
+          "group": "Demand",
+          "unit": "x"
+        },
+        "total": {
+          "value": 0.08,
+          "status": "available",
+          "source": "Upstox",
+          "source_url": "https://upstox.com/developer/api-documentation/get-ipo-details/",
+          "fetched_at": "2026-10-24T15:49:21.606733+00:00",
+          "reported_at": null,
+          "period": null,
+          "note": null,
+          "id": "total",
+          "number": 4,
+          "label": "Overall subscription",
+          "group": "Demand",
+          "unit": "x"
+        },
+        "gmp": {
+          "value": {
+            "rupees": 0.0,
+            "percent": 0.0
+          },
+          "status": "available",
+          "source": "InvestorGain (public)",
+          "source_url": "https://www.investorgain.com/gmp/core4-engineers-ipo/2229/",
+          "fetched_at": "2026-10-24T15:47:00.239327+00:00",
+          "reported_at": "2026-10-24T20:32:00+05:30",
+          "period": null,
+          "note": "Unofficial grey-market indication; not an executable quote or a listing-price forecast.",
+          "id": "gmp",
+          "number": 6,
+          "label": "Grey market premium",
+          "group": "Demand",
+          "unit": "gmp"
+        },
+        "fresh_ofs": {
+          "value": {
+            "fresh_cr": 48.12,
+            "ofs_cr": null,
+            "fresh_pct": 87.77818314483764,
+            "ofs_pct": null
+          },
+          "status": "available",
+          "source": "InvestorGain (public)",
+          "source_url": "https://www.investorgain.com/ipo/core4-engineers-ipo/2229/",
+          "fetched_at": "2026-10-24T15:36:05.493869+00:00",
+          "reported_at": null,
+          "period": null,
+          "note": "Percentages use the same source's total; unknown amounts remain blank. An undisclosed remainder is not assumed to be OFS. This source separately reports \u20b96.7 Cr reserved for the market maker; verify gross/net fresh-issue definitions in the RHP.",
+          "id": "fresh_ofs",
+          "number": 9,
+          "label": "Fresh issue vs OFS",
+          "group": "Structure",
+          "unit": "structure"
+        },
+        "ofs_sellers": {
+          "value": null,
+          "status": "unavailable",
+          "source": "InvestorGain (public)",
+          "source_url": "https://www.investorgain.com/ipo/core4-engineers-ipo/2229/",
+          "fetched_at": "2026-10-24T15:36:05.493869+00:00",
+          "reported_at": null,
+          "period": null,
+          "note": "Verify seller identities and promoter / financial-investor classification in the RHP.",
+          "id": "ofs_sellers",
+          "number": 10,
+          "label": "OFS selling shareholders",
+          "group": "Structure",
+          "unit": "text"
+        }
+      }
+    },
+    {
+      "id": "eaaa-india-alternatives-limited-ipo",
+      "name": "EAAA India Alternatives IPO",
+      "stage": "upcoming",
+      "coverage": 14,
+      "observations": 6,
+      "source_errors": [],
+      "factors": {
+        "qib": {
+          "value": null,
+          "status": "pending",
+          "source": "IPOWatch (public)",
+          "source_url": null,
+          "fetched_at": "2026-10-24T15:49:19.088317+00:00",
+          "reported_at": null,
+          "period": null,
+          "note": "QIB bids can build late in the bidding window; compare at the same bidding day and time.",
+          "id": "qib",
+          "number": 1,
+          "label": "QIB subscription",
+          "group": "Demand",
+          "unit": "x"
+        },
+        "total": {
+          "value": null,
+          "status": "pending",
+          "source": "IPOWatch (public)",
+          "source_url": null,
+          "fetched_at": "2026-10-24T15:49:19.088317+00:00",
+          "reported_at": null,
+          "period": null,
+          "note": null,
+          "id": "total",
+          "number": 4,
+          "label": "Overall subscription",
+          "group": "Demand",
+          "unit": "x"
+        },
+        "gmp": {
+          "value": {
+            "rupees": 45.0,
+            "percent": 2.7027027027027026
+          },
+          "status": "available",
+          "source": "InvestorGain (public)",
+          "source_url": "https://www.investorgain.com/gmp/eaaa-india-alternatives-ipo/1635/",
+          "fetched_at": "2026-10-24T15:47:12.913633+00:00",
+          "reported_at": "2026-10-24T21:02:00+05:30",
+          "period": null,
+          "note": "Unofficial grey-market indication; not an executable quote or a listing-price forecast.",
+          "id": "gmp",
+          "number": 6,
+          "label": "Grey market premium",
+          "group": "Demand",
+          "unit": "gmp"
+        },
+        "fresh_ofs": {
+          "value": {
+            "fresh_cr": 0.0,
+            "ofs_cr": 1200.0,
+            "fresh_pct": 0.0,
+            "ofs_pct": 100.0
+          },
+          "status": "available",
+          "source": "InvestorGain (public)",
+          "source_url": "https://www.investorgain.com/ipo/eaaa-india-alternatives-ipo/1635/",
+          "fetched_at": "2026-10-24T15:36:06.368063+00:00",
+          "reported_at": null,
+          "period": null,
+          "note": "Percentages use the same source's total; unknown amounts remain blank. An undisclosed remainder is not assumed to be OFS.",
+          "id": "fresh_ofs",
+          "number": 9,
+          "label": "Fresh issue vs OFS",
+          "group": "Structure",
+          "unit": "structure"
+        },
+        "ofs_sellers": {
+          "value": null,
+          "status": "unavailable",
+          "source": "InvestorGain (public)",
+          "source_url": "https://www.investorgain.com/ipo/eaaa-india-alternatives-ipo/1635/",
+          "fetched_at": "2026-10-24T15:36:06.368063+00:00",
+          "reported_at": null,
+          "period": null,
+          "note": "Verify seller identities and promoter / financial-investor classification in the RHP.",
+          "id": "ofs_sellers",
+          "number": 10,
+          "label": "OFS selling shareholders",
+          "group": "Structure",
+          "unit": "text"
+        }
+      }
+    },
+    {
+      "id": "bls-polymers-limited-ipo",
+      "name": "BLS Polymers IPO",
+      "stage": "upcoming",
+      "coverage": 16,
+      "observations": 6,
+      "source_errors": [],
+      "factors": {
+        "qib": {
+          "value": null,
+          "status": "pending",
+          "source": "IPOWatch (public)",
+          "source_url": null,
+          "fetched_at": "2026-10-24T15:49:19.088317+00:00",
+          "reported_at": null,
+          "period": null,
+          "note": "QIB bids can build late in the bidding window; compare at the same bidding day and time.",
+          "id": "qib",
+          "number": 1,
+          "label": "QIB subscription",
+          "group": "Demand",
+          "unit": "x"
+        },
+        "total": {
+          "value": null,
+          "status": "pending",
+          "source": "IPOWatch (public)",
+          "source_url": null,
+          "fetched_at": "2026-10-24T15:49:19.088317+00:00",
+          "reported_at": null,
+          "period": null,
+          "note": null,
+          "id": "total",
+          "number": 4,
+          "label": "Overall subscription",
+          "group": "Demand",
+          "unit": "x"
+        },
+        "gmp": {
+          "value": {
+            "rupees": 40.0,
+            "percent": 26.666666666666668
+          },
+          "status": "available",
+          "source": "InvestorGain (public)",
+          "source_url": "https://www.investorgain.com/gmp/bls-polymers-ipo/1849/",
+          "fetched_at": "2026-10-24T15:47:13.322480+00:00",
+          "reported_at": "2026-10-24T21:02:00+05:30",
+          "period": null,
+          "note": "Unofficial grey-market indication; not an executable quote or a listing-price forecast.",
+          "id": "gmp",
+          "number": 6,
+          "label": "Grey market premium",
+          "group": "Demand",
+          "unit": "gmp"
+        },
+        "fresh_ofs": {
+          "value": {
+            "fresh_cr": 255.0,
+            "ofs_cr": 0.0,
+            "fresh_pct": 100.0,
+            "ofs_pct": 0.0
+          },
+          "status": "available",
+          "source": "InvestorGain (public)",
+          "source_url": "https://www.investorgain.com/ipo/bls-polymers-ipo/1849/",
+          "fetched_at": "2026-10-24T15:36:08.160936+00:00",
+          "reported_at": null,
+          "period": null,
+          "note": "Percentages use the same source's total; unknown amounts remain blank. An undisclosed remainder is not assumed to be OFS.",
+          "id": "fresh_ofs",
+          "number": 9,
+          "label": "Fresh issue vs OFS",
+          "group": "Structure",
+          "unit": "structure"
+        },
+        "ofs_sellers": {
+          "value": "Not applicable \u00b7 all-fresh issue",
+          "status": "available",
+          "source": "InvestorGain (public)",
+          "source_url": "https://www.investorgain.com/ipo/bls-polymers-ipo/1849/",
+          "fetched_at": "2026-10-24T15:36:08.160936+00:00",
+          "reported_at": null,
+          "period": null,
+          "note": "No OFS in the disclosed all-fresh issue.",
+          "id": "ofs_sellers",
+          "number": 10,
+          "label": "OFS selling shareholders",
+          "group": "Structure",
+          "unit": "text"
+        }
+      }
+    }
+  ],
+  "before": {
+    "path": [
+      "memory_cache",
+      "postgresql",
+      "upstox"
+    ],
+    "hypertables": [
+      "candles",
+      "market_responses",
+      "max_pain_points",
+      "ipo_observations"
+    ],
+    "retention": "No automatic deletion of market data",
+    "counts": {
+      "candle_rows": 157379,
+      "option_candle_rows": 669,
+      "option_contracts": 2164,
+      "max_pain_points": 11580,
+      "archived_responses": 1221,
+      "covered_days": 1043,
+      "ipo_companies": 64,
+      "ipo_research_records": 165,
+      "ipo_observations": 1520
+    },
+    "process_metrics": {
+      "db_hits": 180,
+      "misses": 4,
+      "ipo_public_source_fetches": 4,
+      "cache_hits": 21
+    },
+    "datasets": [
+      {
+        "method": "get_full_market_quotes_v3",
+        "requests": 1,
+        "with_data": 1,
+        "latest_fetch": "2026-10-24T11:56:42.333022Z"
+      },
+      {
+        "method": "get_ipo_details",
+        "requests": 66,
+        "with_data": 66,
+        "latest_fetch": "2026-10-24T15:49:21.606733Z"
+      },
+      {
+        "method": "get_ipos",
+        "requests": 7,
+        "with_data": 7,
+        "latest_fetch": "2026-10-24T15:49:19.088317Z"
+      },
+      {
+        "method": "get_ltp_quotes_v3",
+        "requests": 1,
+        "with_data": 1,
+        "latest_fetch": "2026-10-24T11:40:41.138709Z"
+      },
+      {
+        "method": "get_market_timings",
+        "requests": 1,
+        "with_data": 0,
+        "latest_fetch": "2026-10-24T12:45:39.242747Z"
+      },
+      {
+        "method": "get_max_pain",
+        "requests": 69,
+        "with_data": 30,
+        "latest_fetch": "2026-10-24T13:10:28.275959Z"
+      },
+      {
+        "method": "get_oi_data",
+        "requests": 10,
+        "with_data": 5,
+        "latest_fetch": "2026-10-24T13:10:03.565232Z"
+      },
+      {
+        "method": "get_option_contracts",
+        "requests": 4,
+        "with_data": 4,
+        "latest_fetch": "2026-10-24T13:10:02.579634Z"
+      },
+      {
+        "method": "ipo_public_fundamentals",
+        "requests": 27,
+        "with_data": 27,
+        "latest_fetch": "2026-10-24T15:36:17.861669Z"
+      },
+      {
+        "method": "ipo_public_gmp",
+        "requests": 29,
+        "with_data": 29,
+        "latest_fetch": "2026-10-24T15:47:16.015352Z"
+      },
+      {
+        "method": "ipo_public_index",
+        "requests": 1,
+        "with_data": 1,
+        "latest_fetch": "2026-10-24T15:47:00.945906Z"
+      },
+      {
+        "method": "ipo_public_recommendations",
+        "requests": 27,
+        "with_data": 27,
+        "latest_fetch": "2026-10-24T15:36:18.883343Z"
+      },
+      {
+        "method": "ipo_public_subscription_detail",
+        "requests": 29,
+        "with_data": 29,
+        "latest_fetch": "2026-10-24T15:36:18.384178Z"
+      },
+      {
+        "method": "ipo_public_subscriptions",
+        "requests": 1,
+        "with_data": 1,
+        "latest_fetch": "2026-10-24T15:49:20.450541Z"
+      }
+    ]
+  },
+  "after": {
+    "path": [
+      "memory_cache",
+      "postgresql",
+      "upstox"
+    ],
+    "hypertables": [
+      "candles",
+      "market_responses",
+      "max_pain_points",
+      "ipo_observations"
+    ],
+    "retention": "No automatic deletion of market data",
+    "counts": {
+      "candle_rows": 157379,
+      "option_candle_rows": 669,
+      "option_contracts": 2164,
+      "max_pain_points": 11580,
+      "archived_responses": 1221,
+      "covered_days": 1043,
+      "ipo_companies": 64,
+      "ipo_research_records": 165,
+      "ipo_observations": 1520
+    },
+    "process_metrics": {
+      "db_hits": 180,
+      "misses": 4,
+      "ipo_public_source_fetches": 4,
+      "cache_hits": 36
+    },
+    "datasets": [
+      {
+        "method": "get_full_market_quotes_v3",
+        "requests": 1,
+        "with_data": 1,
+        "latest_fetch": "2026-10-24T11:56:42.333022Z"
+      },
+      {
+        "method": "get_ipo_details",
+        "requests": 66,
+        "with_data": 66,
+        "latest_fetch": "2026-10-24T15:49:21.606733Z"
+      },
+      {
+        "method": "get_ipos",
+        "requests": 7,
+        "with_data": 7,
+        "latest_fetch": "2026-10-24T15:49:19.088317Z"
+      },
+      {
+        "method": "get_ltp_quotes_v3",
+        "requests": 1,
+        "with_data": 1,
+        "latest_fetch": "2026-10-24T11:40:41.138709Z"
+      },
+      {
+        "method": "get_market_timings",
+        "requests": 1,
+        "with_data": 0,
+        "latest_fetch": "2026-10-24T12:45:39.242747Z"
+      },
+      {
+        "method": "get_max_pain",
+        "requests": 69,
+        "with_data": 30,
+        "latest_fetch": "2026-10-24T13:10:28.275959Z"
+      },
+      {
+        "method": "get_oi_data",
+        "requests": 10,
+        "with_data": 5,
+        "latest_fetch": "2026-10-24T13:10:03.565232Z"
+      },
+      {
+        "method": "get_option_contracts",
+        "requests": 4,
+        "with_data": 4,
+        "latest_fetch": "2026-10-24T13:10:02.579634Z"
+      },
+      {
+        "method": "ipo_public_fundamentals",
+        "requests": 27,
+        "with_data": 27,
+        "latest_fetch": "2026-10-24T15:36:17.861669Z"
+      },
+      {
+        "method": "ipo_public_gmp",
+        "requests": 29,
+        "with_data": 29,
+        "latest_fetch": "2026-10-24T15:47:16.015352Z"
+      },
+      {
+        "method": "ipo_public_index",
+        "requests": 1,
+        "with_data": 1,
+        "latest_fetch": "2026-10-24T15:47:00.945906Z"
+      },
+      {
+        "method": "ipo_public_recommendations",
+        "requests": 27,
+        "with_data": 27,
+        "latest_fetch": "2026-10-24T15:36:18.883343Z"
+      },
+      {
+        "method": "ipo_public_subscription_detail",
+        "requests": 29,
+        "with_data": 29,
+        "latest_fetch": "2026-10-24T15:36:18.384178Z"
+      },
+      {
+        "method": "ipo_public_subscriptions",
+        "requests": 1,
+        "with_data": 1,
+        "latest_fetch": "2026-10-24T15:49:20.450541Z"
+      }
+    ]
+  }
+}

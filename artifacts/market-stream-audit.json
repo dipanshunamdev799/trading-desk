@@ -1,0 +1,38 @@
+{
+  "live": {
+    "stream": {
+      "enabled": true,
+      "connected": false,
+      "active_instruments": 0,
+      "watched_instruments": 351,
+      "last_frame_at": null,
+      "error": null,
+      "fresh": false,
+      "mode": "rest",
+      "queued_frames": 0
+    },
+    "session": {
+      "instrument_key": "NSE_INDEX|Nifty 50",
+      "exchange": "NSE",
+      "segment": "NSE",
+      "market_status": "CLOSING_END",
+      "active": false,
+      "phase": "closed",
+      "session_date": "2026-10-23",
+      "last_trade_at": "2026-10-23T10:30:00+00:00",
+      "status_updated_at": "2026-10-23T10:30:00.024000+00:00",
+      "checked_at": "2026-10-25T03:09:49.779847+00:00",
+      "timestamp_basis": "Last trade time",
+      "source": "Upstox exchange status, session calendar and quote",
+      "errors": []
+    }
+  },
+  "tables": [
+    "market_stream_ticks",
+    "market_stream_chains"
+  ],
+  "stream_counts": {
+    "market_stream_ticks": 0,
+    "market_stream_chains": 0
+  }
+}

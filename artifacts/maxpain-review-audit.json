@@ -1,0 +1,149 @@
+{
+  "checks": [
+    {
+      "request": 1,
+      "seconds": 0.227,
+      "oi_unit": "underlying_units",
+      "premiums": {
+        "basis": "last_available_close",
+        "date": "2026-10-23",
+        "source": "stored_option_daily_candles",
+        "exact": 46,
+        "carried_forward": 2,
+        "carried": [
+          {
+            "strike": 620.0,
+            "side": "CE",
+            "close": 99.05,
+            "price_date": "2026-10-14",
+            "age_days": 9,
+            "carried_forward": true
+          },
+          {
+            "strike": 630.0,
+            "side": "CE",
+            "close": 67.05,
+            "price_date": "2026-10-22",
+            "age_days": 1,
+            "carried_forward": true
+          }
+        ],
+        "required": 48,
+        "available": 48,
+        "missing": [],
+        "complete": true
+      },
+      "minimum_payout_rupees": 1129635000.0,
+      "pnl_at_max_pain_rupees": 705112622.5,
+      "maximum_formula_error_rupees": 0
+    },
+    {
+      "request": 2,
+      "seconds": 0.058,
+      "oi_unit": "underlying_units",
+      "premiums": {
+        "basis": "last_available_close",
+        "date": "2026-10-23",
+        "source": "stored_option_daily_candles",
+        "exact": 46,
+        "carried_forward": 2,
+        "carried": [
+          {
+            "strike": 620.0,
+            "side": "CE",
+            "close": 99.05,
+            "price_date": "2026-10-14",
+            "age_days": 9,
+            "carried_forward": true
+          },
+          {
+            "strike": 630.0,
+            "side": "CE",
+            "close": 67.05,
+            "price_date": "2026-10-22",
+            "age_days": 1,
+            "carried_forward": true
+          }
+        ],
+        "required": 48,
+        "available": 48,
+        "missing": [],
+        "complete": true
+      },
+      "minimum_payout_rupees": 1129635000.0,
+      "pnl_at_max_pain_rupees": 705112622.5,
+      "maximum_formula_error_rupees": 0
+    }
+  ],
+  "hdfc_expiries": [
+    {
+      "expiry": "2026-10-27",
+      "weekly": false,
+      "lot_size": 650,
+      "n_contracts": 52,
+      "past": false,
+      "verified": true,
+      "available": true,
+      "cycle": "monthly"
+    },
+    {
+      "expiry": "2026-11-23",
+      "weekly": false,
+      "lot_size": 650,
+      "n_contracts": 43,
+      "past": false,
+      "verified": true,
+      "available": false,
+      "cycle": "monthly"
+    },
+    {
+      "expiry": "2026-12-29",
+      "weekly": false,
+      "lot_size": 650,
+      "n_contracts": 26,
+      "past": false,
+      "verified": true,
+      "available": false,
+      "cycle": "monthly"
+    }
+  ],
+  "weekend_has_data": false,
+  "future_has_data": false,
+  "session_checks": [
+    {
+      "as_of": "2026-10-23",
+      "has_data": true,
+      "hint": null,
+      "upstream_calls": 0
+    },
+    {
+      "as_of": "2026-10-24",
+      "has_data": false,
+      "hint": "No NSE trading session scheduled for 2026-10-24 (IST).",
+      "upstream_calls": 1
+    },
+    {
+      "as_of": "2026-10-24",
+      "has_data": false,
+      "hint": "No NSE trading session scheduled for 2026-10-24 (IST).",
+      "upstream_calls": 0
+    },
+    {
+      "as_of": "2026-10-25",
+      "has_data": false,
+      "hint": "No data for 2026-10-25: this date is in the future (IST).",
+      "upstream_calls": 0
+    }
+  ],
+  "upstream_calls_before_calendar_fix": 2,
+  "validation": {
+    "backend_tests_passed": 66,
+    "frontend_checks_passed": 20,
+    "typescript": "passed",
+    "browser_errors": [],
+    "historical_formula_error_rupees": 0
+  },
+  "external_limitations": [
+    "Upstox returned HTTP 401 / UDAPI1149 for expired-instrument downloads: Upstox Plus is required on this account. Retained database history remains usable."
+  ]
+}

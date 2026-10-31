@@ -1,0 +1,35 @@
+{
+  "summary": {
+    "total": 127,
+    "available": 46,
+    "stale": 12,
+    "missing": 69,
+    "drivers": 66,
+    "indicators": 50
+  },
+  "sections": 10,
+  "daily_bars": 305,
+  "expiries": 18,
+  "option_strikes": 144,
+  "option_expiry": "2026-10-27",
+  "cash_quality": "unverified_units, converted values withheld",
+  "correlation": {
+    "factor_id": "sp500",
+    "source": "Yahoo Finance (unofficial)",
+    "unit": "points",
+    "coefficient": 0.14192511199010796,
+    "sample_count": 79,
+    "min_samples": 20,
+    "method": "Pearson correlation of daily matched close-to-close simple returns",
+    "note": "Identical start/end local dates only; no forward filling. Non-synchronous market closes may affect comparison. Correlation does not establish causation or predict direction.",
+    "from_date": "2026-06-16",
+    "to_date": "2026-10-23"
+  },
+  "source_errors": [
+    {
+      "error": "Provider request timed out",
+      "source": "FRED US 2-year yield"
+    }
+  ],
+  "http_checks": "dashboard/catalog/history/correlation/unknown-factor/import-validation/events-validation/frontend/legacy-redirect passed"
+}

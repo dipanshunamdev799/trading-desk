@@ -1,0 +1,41 @@
+{
+  "checks": [
+    {
+      "request": 1,
+      "elapsed_seconds": 0.724,
+      "spot": 22600.0,
+      "max_pain": 22700.0,
+      "premium_available": 236,
+      "premium_required": 286,
+      "full_pnl_available": false
+    },
+    {
+      "request": 2,
+      "elapsed_seconds": 0.021,
+      "spot": 22600.0,
+      "max_pain": 22700.0,
+      "premium_available": 236,
+      "premium_required": 286,
+      "full_pnl_available": false
+    }
+  ],
+  "upstream_calls_for_both_requests": 0,
+  "process_metrics": {
+    "db_hits": 290,
+    "cache_hits": 292
+  },
+  "hypertables": [
+    "candles",
+    "market_responses",
+    "max_pain_points"
+  ],
+  "stored_counts": {
+    "candle_rows": 157184,
+    "option_candle_rows": 495,
+    "option_contracts": 1828,
+    "max_pain_points": 3860,
+    "archived_responses": 619,
+    "covered_days": 634
+  },
+  "coverage_endpoint_items": 266
+}
