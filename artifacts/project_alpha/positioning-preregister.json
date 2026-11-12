@@ -1,0 +1,43 @@
+{
+  "hypothesis_id": "ALPHA-OI-001",
+  "created_research_date": "2026-11-09",
+  "hypothesis": "Prior-completed-session positioning may improve frozen price-rule opportunity selection. Report both trend and contrarian PCR orientation.",
+  "mechanism": "Inventory/hedging constraints and disagreement can condition next-session movement; OI does not identify trader direction or guarantee support/resistance.",
+  "falsification": "No repeatable incremental net index expectancy versus identical covered price-only opportunities; unstable expiry/regime transfer or wide uncertainty rejects promotion.",
+  "parameters": {
+    "families": [
+      "ema_trend",
+      "donchian",
+      "pullback"
+    ],
+    "expiry_buckets": [
+      "nearest_nonexpiry_day",
+      "month_end_proxy"
+    ],
+    "filters": [
+      "pcr_level_align",
+      "pcr_level_contrarian",
+      "pcr_change_align",
+      "volume_pcr_align",
+      "avoid_near_oi_wall",
+      "maxpain_direction_align"
+    ],
+    "pcr_neutral": 1,
+    "oi_wall_distance": "one signal-time ATR",
+    "maxpain": "same-side distance to exact prior-chain payout minimum"
+  },
+  "source_hashes": {
+    "artifacts\\directional_research_phase2\\option-nse-retained-eod.json": "745bb636b43cca1f9f9d7a7f667fc1b6b03d47a3e73497662ea78b719d3ea216",
+    "artifacts\\directional_research\\lab-selected-trades.csv": "9d60b36c8b4cff7bbc5bb27c5f0a011097042e6f698cf522f2274ccac1077f03",
+    "artifacts\\directional_research\\nifty-upstox-1day.json": "faafc7764dc4e1de23f9e8f7f1b1c84aabcb4cb1eb7a98b7bc6a75ceff72023a",
+    "artifacts\\directional_research\\nifty-upstox-5minute.json": "edebba307ecadd0945649baf6110a48e6706f393c4f95d3c208f46efffb4e3dd"
+  },
+  "script_sha256": "7e02d2e8b80f1a2c5e1bcc71fefafcf174437da3b0f697467d7ed57dcecbf64a",
+  "feature_dependency_sha256": "731b1d6fafac2f7298b4a7be6bc932643d175703ed3b332ce320ee333e4c390e",
+  "availability": "Use exactly previous observed NIFTY daily session only. EOD publication before next session is assumed; archived release times absent. No same-day or stale chain carry.",
+  "pcr_change": "Same expiry, matched identical token/strike/type/lot across the immediately preceding two archived NIFTY sessions, never cross-expiry rolling change.",
+  "volume_pcr": "Sum reported put volume / call volume, distinct from OI PCR; neither reveals whether options were bought or written.",
+  "selection": "No new strategy/filter winner; all outcomes disclosed. Fixed opportunity subsets keep phase-one entries/exits. Index units only.",
+  "multiplicity": "72 fixed conditional contrasts:3families x2expirybuckets x6filters x(net2,improvement). 20000 pairedfive-sessionblock bootstrap; approximate Bonferroni intervals, not correction of earlier strategy search.",
+  "futures": "Prior daily same-contract price/OI classifications only where existing raw archives support consecutive observations; no fabricated continuous intraday futures."
+}

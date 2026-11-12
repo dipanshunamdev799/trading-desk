@@ -1,0 +1,24 @@
+[
+  {
+    "side": "CE",
+    "expiry": "2026-11-17",
+    "strike": 25000.0,
+    "bars": 1002,
+    "sessions": 15,
+    "first": "2026-10-19 09:15:00+05:30",
+    "last": "2026-11-08 15:05:00+05:30",
+    "positive_volume_bars": 664,
+    "lot_size": 65
+  },
+  {
+    "side": "PE",
+    "expiry": "2026-11-17",
+    "strike": 25000.0,
+    "bars": 356,
+    "sessions": 7,
+    "first": "2026-10-26 11:00:00+05:30",
+    "last": "2026-11-08 15:05:00+05:30",
+    "positive_volume_bars": 185,
+    "lot_size": 65
+  }
+]

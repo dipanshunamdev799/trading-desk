@@ -207,3 +207,38 @@
 .expandable-chart-panel.is-maximized:has(.price-study-controls) > .panel-body { min-height: 180px !important; }
 .expandable-chart-panel.is-maximized:has(.price-study-controls) { overflow-y: auto; }
 @media (max-width: 600px) { .price-study-checklist { grid-template-columns: 1fr; } .price-study-event { grid-template-columns: 42px 1fr; } .price-study-event span { grid-column: 2; } .price-study-settings { gap: 6px; } }
+
+/* The first visit presents price and a few useful next questions. */
+.nifty-view-bar { display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; padding-bottom: 4px; }
+.nifty-view-bar > span { color: var(--muted); font-size: 12px; }
+.nifty-view-toggle { display: inline-flex; gap: 4px; padding: 4px; background: #0e151d; border: 1px solid var(--border); border-radius: 8px; }
+.nifty-view-toggle button { border: 1px solid transparent; background: transparent; color: var(--muted); min-height: 40px; padding: 8px 20px; font-size: 12px; }
+.nifty-view-toggle button[aria-pressed="true"] { background: #17302a; color: #a0eed9; border-color: #2b5d50; }
+.nifty-first-look { padding: 18px 22px; border-left: 2px solid var(--accent); background: #101b1d; border-radius: 0 8px 8px 0; }
+.nifty-first-look h2 { margin: 7px 0 6px; font-size: 19px; font-weight: 500; letter-spacing: -.02em; }
+.nifty-first-look p { margin: 0; max-width: 850px; color: #a1b3c0; font-size: 13px; line-height: 1.7; }
+.nifty-go-deeper { padding-top: 14px; }
+.nifty-go-deeper h2 { margin: 7px 0; font-size: 22px; font-weight: 500; letter-spacing: -.025em; }
+.nifty-go-deeper p { color: var(--muted); margin-bottom: 20px; font-size: 13px; }
+.nifty-deeper-links { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+.nifty-deeper-links > button { position: relative; text-align: left; display: flex; flex-direction: column; align-items: flex-start; gap: 9px; background: var(--surface); border-radius: 8px; padding: 22px; min-height: 156px; transition: transform .18s ease, border-color .18s ease; }
+.nifty-deeper-links > button:hover { transform: translateY(-2px); border-color: #3b746a; }
+.nifty-deeper-links > button > span { font: 11px var(--mono); color: var(--accent); }
+.nifty-deeper-links strong { font-size: 14px; font-weight: 500; padding-right: 14px; }
+.nifty-deeper-links small { color: var(--muted); line-height: 1.6; font-size: 12px; }
+.nifty-deeper-links b { position: absolute; right: 18px; top: 20px; color: var(--muted); font-weight: 400; }
+.nifty-tools-link { background: transparent; border-color: transparent; padding: 12px 0; color: #94c7ba; margin-top: 10px; min-height: 44px; font-size: 12px; text-align: left; }
+.nifty-tools-link:hover { border-color: transparent; color: var(--accent); text-decoration: underline; }
+#nifty-research { scroll-margin-top: 24px; }
+.nifty-page [tabindex="-1"]:focus { outline-offset: 7px; }
+@media (max-width: 850px) {
+  .nifty-deeper-links { grid-template-columns: minmax(0, 1fr); }
+  .nifty-deeper-links > button { min-height: auto; padding: 20px; }
+  .nifty-view-bar { align-items: flex-start; flex-direction: column; gap: 9px; }
+  .nifty-first-look { padding: 17px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .nifty-working .dot { animation: none; }
+  .nifty-deeper-links > button { transition: none; }
+  .nifty-deeper-links > button:hover { transform: none; }
+}

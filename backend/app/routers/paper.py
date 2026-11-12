@@ -2,7 +2,7 @@ from __future__ import annotations
 
 from typing import Any
 
-from fastapi import APIRouter, Depends
+from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from ..db import get_db
@@ -19,7 +19,10 @@ async def list_orders(db: AsyncSession = Depends(get_db)):
 
 @router.post("/orders", response_model=PaperOrderOut)
 async def place_order(payload: PaperOrderIn, db: AsyncSession = Depends(get_db)):
-    return await paper_service.place_order(db, payload)
+    try:
+        return await paper_service.place_order(db, payload)
+    except ValueError as exc:
+        raise HTTPException(status_code=400, detail=str(exc)) from exc
 
 
 @router.get("/positions", response_model=list[PaperPositionOut])

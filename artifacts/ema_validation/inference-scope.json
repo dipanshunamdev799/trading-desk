@@ -1,0 +1,5 @@
+{
+  "randomization": "Conditional placebo ranks over1000 fixed seeds, not a correction for discovery, an exchangeability proof or independent market history.",
+  "bootstrap": "3000 shared circular10session market-date blocks. Random controls use equal-initial-capital mean NAV acrossseedaccounts, not mean dailyreturn. Fixed-path returns resampled; no re-execution/cash constraints within each draw. Seven contrast intervals adjusted simultaneously by bootstrap max absolute standardized error; three primary randomization tests Holm-adjusted per horizon.",
+  "event_limit": "Only four pooled volatility events; day blocks may understate uncertainty across genuinely independent episodes. No positive temporalOOS claim."
+}

@@ -1,0 +1,87 @@
+[
+  {
+    "index": "NIFTY AUTO",
+    "endpoint": "https://www.niftyindices.com/BackPage/getTotalReturnIndexString",
+    "rows": 2690,
+    "first": "2016-01-01",
+    "last": "2026-11-09",
+    "sha256": "141f9acedb81d32aad12b2285f61ecc7c10cbec883f936c5c1fad4033650e68b"
+  },
+  {
+    "index": "NIFTY FMCG",
+    "endpoint": "https://www.niftyindices.com/BackPage/getTotalReturnIndexString",
+    "rows": 2690,
+    "first": "2016-01-01",
+    "last": "2026-11-09",
+    "sha256": "a12cb39a7c7968123710ad5a7e2f641f3781f62843c1e187b85d58e698e3032b"
+  },
+  {
+    "index": "NIFTY METAL",
+    "endpoint": "https://www.niftyindices.com/BackPage/getTotalReturnIndexString",
+    "rows": 2690,
+    "first": "2016-01-01",
+    "last": "2026-11-09",
+    "sha256": "95aece69a5fc8078340b4f49af537c8b1f38f2d932f9eef35c8f193690436e1f"
+  },
+  {
+    "index": "NIFTY REALTY",
+    "endpoint": "https://www.niftyindices.com/BackPage/getTotalReturnIndexString",
+    "rows": 2690,
+    "first": "2016-01-01",
+    "last": "2026-11-09",
+    "sha256": "6c839e0a233d021f5275319aaad12f9d30d668b2f0bd3d67118cd99722f42826"
+  },
+  {
+    "index": "NIFTY ENERGY",
+    "endpoint": "https://www.niftyindices.com/BackPage/getTotalReturnIndexString",
+    "rows": 2690,
+    "first": "2016-01-01",
+    "last": "2026-11-09",
+    "sha256": "e6cf2d79bb5a6fab083c4c1d4fe57ca5a98f3ecccf526ba6b7ff107116078b5e"
+  },
+  {
+    "index": "NIFTY FINANCIAL SERVICES",
+    "endpoint": "https://www.niftyindices.com/BackPage/getTotalReturnIndexString",
+    "rows": 2690,
+    "first": "2016-01-01",
+    "last": "2026-11-09",
+    "sha256": "af36d6c93b425bf76d7d954348b95604d6cd37ed48e7b8743b56331bfe761b12"
+  },
+  {
+    "index": "NIFTY PSU BANK",
+    "endpoint": "https://www.niftyindices.com/BackPage/getTotalReturnIndexString",
+    "rows": 2690,
+    "first": "2016-01-01",
+    "last": "2026-11-09",
+    "sha256": "4b6a39ebb7fd1fd496f6c630cb6abfe753412fb87db31c2065169e0c7da99cb1"
+  },
+  {
+    "index": "NIFTY MEDIA",
+    "endpoint": "https://www.niftyindices.com/BackPage/getTotalReturnIndexString",
+    "rows": 2690,
+    "first": "2016-01-01",
+    "last": "2026-11-09",
+    "sha256": "8ee7a31f95a8fe4d06cfa635ba057232c3da612f7203f3ca5b713b65391e3325"
+  },
+  {
+    "index": "NIFTY CONSUMER DURABLES",
+    "endpoint": "https://www.niftyindices.com/BackPage/getTotalReturnIndexString",
+    "rows": 2690,
+    "first": "2016-01-01",
+    "last": "2026-11-09",
+    "sha256": "9fdf8c9398583a19c5c2722618c1dab7eee98612445f216dfee739dee351b3c1"
+  },
+  {
+    "index": "NIFTY OIL & GAS",
+    "endpoint": "https://www.niftyindices.com/BackPage/getTotalReturnIndexString",
+    "rows": 2690,
+    "first": "2016-01-01",
+    "last": "2026-11-09",
+    "sha256": "b220a1224f1473c5a88b6e562bbd7291ecb32790ad4b87d51dbbca85f5cc5479"
+  },
+  {
+    "index": "NIFTY HEALTHCARE INDEX",
+    "endpoint": "https://www.niftyindices.com/BackPage/getTotalReturnIndexString",
+    "error": "AssertionError"
+  }
+]

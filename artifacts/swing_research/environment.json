@@ -1,0 +1,18 @@
+{
+  "python": "3.15.0 (tags/v3.15.0:d220409, Oct  9 2026, 11:55:56) [MSC v.1951 64 bit (AMD64)]",
+  "pandas": "3.1.0",
+  "numpy": "2.5.4",
+  "source_sha256": {
+    "research\\swing\\data.py": "2d8067ba66c46dd386d44955598ae856a0d61361827235e3e0b06b170d0105ab",
+    "research\\swing\\engine.py": "cb745ecfd035072bbcd97d5d55e7fcecbcba1ba05a9b587c284b405626b6c75a",
+    "research\\swing\\finalize.py": "541cdb0635b4df34fb84be0c3be3ab28a8aa910923e520be630d860d309be992",
+    "research\\swing\\reporting.py": "181d6a5561c6287d518ae9db44e83b708c3d4f8577fcfb9540b4254f20927586",
+    "research\\swing\\signals.py": "0c9f9132c1302891109e6fbf2073c87cad1b9bd88d3e03b1c512cfad501225cc",
+    "research\\swing\\test_data.py": "005c4e6b34063ca94a76da916426eff6cdcc2c0f12973fa56e58653294b56c8a",
+    "research\\swing\\validation.py": "4b6c9b4cfc86a23605348b077e5155fb7f1601e15526a203ce0f5acb75c522d4",
+    "research\\swing\\__init__.py": "bad9ef5bfc2efaa1da447273b2dce3ff20421c5a5674d9d5dd057df9c3fef569",
+    "scripts\\run_swing_research.py": "76a9249249033eac7f488278f09d51112b29960a51ee3501c5d24488a43d04d6",
+    "scripts\\extend_swing_evidence.py": "5441931137897cf0cc6bec8cd6437fee1ca3bb7ff1918318f7b4cf4821ae9eaa"
+  },
+  "statistical_calendar": "Regular and special execution sessions plus every observed trade-exit date; local IST dates"
+}

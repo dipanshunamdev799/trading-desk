@@ -1,0 +1,38 @@
+{
+  "seed": 20261109,
+  "configuration_count": 3600,
+  "families": [
+    "compression_breakout",
+    "donchian",
+    "ema_reversion",
+    "ema_trend",
+    "failed_breakout",
+    "gap_fade",
+    "gap_follow",
+    "momentum",
+    "orb",
+    "pullback",
+    "rsi_reversion"
+  ],
+  "splits": {
+    "development": {
+      "first": "2026-01-01",
+      "last": "2026-07-03",
+      "sessions": 123
+    },
+    "validation": {
+      "first": "2026-07-06",
+      "last": "2026-08-31",
+      "sessions": 41
+    },
+    "holdout": {
+      "first": "2026-09-01",
+      "last": "2026-10-30",
+      "sessions": 41
+    }
+  },
+  "entry": "Next bar open after signal close",
+  "exit": "Close after 15/30/60 minutes, <=15:10 IST",
+  "costs": "0,2,5 INDEX points round trip; not option costs",
+  "selection": "Best per family by min(development net2_mean, validation net2_mean). Eligibility: dev>=100 trades, val>=30, positive dev/val net2 means. No holdout use."
+}

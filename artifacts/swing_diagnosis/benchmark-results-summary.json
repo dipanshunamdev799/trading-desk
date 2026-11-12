@@ -1,0 +1,50 @@
+{
+  "passed": true,
+  "checks": {
+    "original_control_runs_176": true,
+    "corrected_control_runs_44": true,
+    "twenty_random_seeds": true,
+    "unique_runs": true,
+    "all_cash_NAV_positive": true,
+    "official_tri_rows20": true,
+    "buyhold_original_reproduced": true
+  },
+  "new_control_definitions": 22,
+  "original_execution_runs": 176,
+  "corrected_execution_runs": 44,
+  "corrected_random_comparison": [
+    {
+      "stage": "final",
+      "random_seeds": 20,
+      "random_mean_return_pct": -0.08418153822155161,
+      "random_q05_return_pct": -0.1132982469568794,
+      "random_q95_return_pct": -0.037661072540951517,
+      "random_min_return_pct": -0.12319464294845428,
+      "random_max_return_pct": -0.026523600739936093,
+      "random_positive_seeds": 0,
+      "random_mean_stockday_exposure_pct": 13.271569777182108,
+      "random_mean_trades": 965.15,
+      "frozen48_mean_return_pct": -0.08159654767816785,
+      "frozen48_median_return_pct": -0.0480295043090162,
+      "frozen48_mean_stockday_exposure_pct": 12.448553638242027,
+      "frozen48_mean_trades": 844.9375
+    },
+    {
+      "stage": "two_year",
+      "random_seeds": 20,
+      "random_mean_return_pct": -0.34634907718750113,
+      "random_q05_return_pct": -0.4252563926976116,
+      "random_q95_return_pct": -0.25756127612448887,
+      "random_min_return_pct": -0.47758760777154574,
+      "random_max_return_pct": -0.22864487850067228,
+      "random_positive_seeds": 0,
+      "random_mean_stockday_exposure_pct": 13.485063399957017,
+      "random_mean_trades": 3780.15,
+      "frozen48_mean_return_pct": -0.26702276551059156,
+      "frozen48_median_return_pct": -0.19185883459639785,
+      "frozen48_mean_stockday_exposure_pct": 11.52335410846049,
+      "frozen48_mean_trades": 2984.8333333333335
+    }
+  ],
+  "scope": "Retrospective diagnostic; no new optimized strategy. Randomentry rate matches mean raw48entryfrequency perstock, not each finalist trades/exposure; RNGquantiles are conditional seedvariation, not confidence over independent market histories."
+}

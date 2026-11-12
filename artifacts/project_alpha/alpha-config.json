@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "version": "project-alpha-research-1",
+  "brief": "PROJECT ALPHA",
+  "decision": "RESEARCH ONLY",
+  "primary_validated_strategy": null,
+  "production_enabled": false,
+  "broker_orders_enabled": false,
+  "timezone": "Asia/Kolkata",
+  "underlying": "NSE_INDEX|Nifty 50",
+  "research_profiles": [
+    {"name": "ema_trend", "rule": "ema_trend|12_26_gap0.5|trend|afternoon|h60", "priority": 1},
+    {"name": "donchian", "rule": "donchian|lookback20_buffer0|trend|afternoon|h60", "priority": 2},
+    {"name": "pullback", "rule": "pullback|ema21_tolerance0.75|trend|afternoon|h60", "priority": 3}
+  ],
+  "features": {"bar_minutes": 5, "ema_spans": [9, 12, 21, 26], "atr_prior_bars": 14, "efficiency_bars": 12, "trend_efficiency_min": 0.35, "trend_ema9_21_separation_atr_min": 0.5, "ema12_26_gap_atr_min": 0.5, "donchian_bars": 20, "pullback_touch_ema9_tolerance_atr": 0.75},
+  "entry": {"first_confirmation": "13:05", "last_confirmation": "14:10", "confirm_at_completed_bar_close": true, "reference_entry": "following_bar_open", "maximum_signal_delay_seconds": 2, "cancel_if_quote_wait_ms_exceeded": 2000, "maximum_feed_lag_ms": 1000, "maximum_provider_ltt_age_seconds": 30, "market_status_required": "NORMAL_OPEN"},
+  "contract": {"type": "CE for +1, PE for -1", "expiry": "nearest dated listed expiry strictly after session date", "strike": "ATM, tie lower strike; ITM/OTM/delta alternatives remain separate experiments", "dated_lot_required": true, "max_relative_spread": 0.02, "minimum_best_depth_lots": 1, "no_forward_fill": true},
+  "exits": {"baseline_hold_minutes": 60, "square_off_by": "15:10", "overnight": false, "reentry": "only a later independent eligible signal after prior position closed", "unresolved_exit": "freeze new entries, preserve open exposure, require reconciliation", "stop_candidates_research_only": ["premium20percent", "premium30percent", "underlying1ATR_next_observed_option_exit", "underlying1.5ATR_next_observed_option_exit", "time30", "time60", "time120", "target1R", "target2R", "trailing"]},
+  "risk": {"capital_configurable": true, "tested_capitals_inr": [100000, 250000, 500000, 1000000], "tested_planned_risk_fractions": [0.0025, 0.005], "daily_loss_fraction": 0.01, "weekly_loss_fraction": 0.03, "max_positions": 1, "whole_lots_only": true, "cash_premium_funding_required": true, "without_defined_stop_reserve_full_premium": true, "stop_is_loss_guarantee": false, "averaging_down": false, "martingale": false, "increase_risk_after_loss": false},
+  "kill_switches": ["validation_gate_not_passed", "daily_loss_limit", "weekly_loss_limit", "unknown_market_phase", "stale_feed", "missing_or_crossed_book", "spread_or_depth_limit", "unknown_contract_or_lot", "unknown_order_state", "unresolved_exit", "unexpected_position", "execution_failure", "repeated_rejection", "unvalidated_market_regime"],
+  "costs": {"actual_contract_dated_lots": true, "sale_stt_before_2026_04_01": 0.001, "sale_stt_from_2026_04_01": 0.0015, "spread_counted_once": true, "remaining_historical_fees": "scenario allowances; full contract-note reconciliation not available", "snapshot_base_other_fees_inr": 100, "snapshot_severe_other_fees_inr": 200, "snapshot_severe_additional_premium_points": 2},
+  "acceptance": {"positive_conservative_net_expectancy": true, "positive_simultaneous_lower_confidence_bound": true, "positive_incremental_value_over_naive_controls": true, "point_in_time_contract_features": true, "no_unresolved_exposure": true, "parameter_and_regime_stability": true, "historical_selection_adjustment_required": true, "forward_quotes_and_observed_costs_required": true, "currently_passed": false},
+  "forward_protocol": {"start": "first full exchange session after protocol freeze, never relabel earlier inspected dates as prospective", "minimum_distinct_sessions": 60, "minimum_opportunities": 200, "sample_size": "Before starting, compute a cluster-adjusted power target from training-only variance and predeclared economically meaningful net effect; review after the larger target, not automatically at the minimums", "effect_target_r": 0.1, "power": 0.8, "alpha": 0.05, "no_rule_changes_during_evaluation": true, "no_optional_stopping_on_profit": true, "historical_paper_live_logs_separate": true, "live_requires_explicit_human_authorization": true}
+}

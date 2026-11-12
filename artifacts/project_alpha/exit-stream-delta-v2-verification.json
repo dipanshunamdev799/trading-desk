@@ -1,0 +1,9 @@
+{
+  "independent_checks_passed": 713,
+  "source_quote_rows_verified": 136,
+  "greek_selection_rows_verified": 16,
+  "ATM_control_matches_original": true,
+  "all_new_input_hashes_match": true,
+  "iv_used_in_selection_or_pricing": false,
+  "iv_metadata_note": "OriginalATM iv is chain percent, updateddelta iv is provider decimal; iv_at is inherited and must not be used as newframeIVavailability. Normalize and qualify in a separate artifact before IVresearch."
+}

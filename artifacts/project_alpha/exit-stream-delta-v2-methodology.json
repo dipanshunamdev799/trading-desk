@@ -1,0 +1,12 @@
+{
+  "selection_protocol": "artifacts/project_alpha/stream-delta-v2-protocol.json",
+  "selection_protocol_sha256": "feebabc021d5095cd73620b1790baaaeb7ffa2db4e6b9b18ad350def1790a0b3",
+  "experiment_status": "New availability extension registered after original outcomes; not an untouched holdout or a reclassification of original results.",
+  "delta_source": "Latest provider streamGreeks actually received before decision, within30s; original datedchainexpiry, priorNSEuniverse, strikeswithin500points ofsignalspot.",
+  "selection_targets": {
+    "abs_delta_0.4_0.6": 0.5,
+    "abs_delta_0.6_0.8": 0.7
+  },
+  "IV_not_used": true,
+  "original_result_files_unchanged": true
+}

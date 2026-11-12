@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "stock_variant_journals_checked": 675,
+  "continuous_trade_records_checked": 11463,
+  "share_adjustments_in_held_trades": 11,
+  "dividend_entitlements": 705414.55,
+  "checks": [
+    "next-open information timestamp ordering",
+    "nonoverlap",
+    "capital and0.5%fee-inclusive risk",
+    "trade PnL/netR/equity reconciliation",
+    "stock split and dividend attribution"
+  ],
+  "limits": "No independent certification of every historical price/volume, cash payment date, fill liquidity, or truly untouched final period."
+}

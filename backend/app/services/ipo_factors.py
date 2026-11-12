@@ -93,7 +93,12 @@ def build_detail(company: dict, research: dict, companies=None, all_research=Non
     finances, kpis = fundamentals.get("financials", {}), fundamentals.get("kpis", {})
     public = research.get("subscriptions", {}).get("data", {}) if not pending else {}
     sub_detail = research.get("subscription_detail", {}).get("data", {})
-    categories = {**public, **sub_detail.get("latest", {})} if not pending else {}
+    detail_latest = sub_detail.get("latest", {})
+    detail_day = (sub_detail.get("history") or [{}])[-1].get("at", "")[:10]
+    public_is_newer = bool(public.get("reported_date") and public["reported_date"] > detail_day)
+    categories = ({**detail_latest, **public} if public_is_newer else {**public, **detail_latest}) if not pending else {}
+    def subscription_source(key):
+        return "subscriptions" if public_is_newer and key in public else "subscription_detail" if key in detail_latest else "subscriptions"
     index = research.get("index", {}).get("data", {})
     gmp_data = research.get("gmp", {}).get("data", {})
     quote = gmp_data.get("gmp") if gmp_data.get("history") else index.get("gmp")
@@ -117,19 +122,20 @@ def build_detail(company: dict, research: dict, companies=None, all_research=Non
                       "unavailable" if value is None or value == [] else "stale" if until and until < now() else "review" if review else "available",
             "source": "InvestorGain (public)" if kind and kind != "subscriptions" else "IPOWatch (public)" if kind else company.get("catalog_source", "Upstox"),
             "source_url": source.get("source_url") if kind else "https://upstox.com/developer/api-documentation/get-ipo-details/" if company.get("catalog_source") == "Upstox" else research.get("index", {}).get("source_url"),
-            "fetched_at": source.get("fetched_at", company.get("fetched_at")), "reported_at": source.get("reported_at"),
+            "fetched_at": source.get("fetched_at", company.get("fetched_at")), "reported_at": source.get("reported_at") or source.get("reported_date"),
             "period": period, "note": note}
     for key in ("qib", "retail"):
-        put(key, categories.get(key), "subscription_detail" if key in sub_detail.get("latest", {}) else "subscriptions",
+        put(key, categories.get(key), subscription_source(key),
             "QIB bids can build late in the bidding window; compare at the same bidding day and time." if key == "qib" else None)
     nii = {key: categories.get(key) for key in ("nii", "snii", "bnii")}
     put("nii", nii if any(value is not None for value in nii.values()) else None,
-        "subscription_detail" if "nii" in sub_detail.get("latest", {}) else "subscriptions")
-    put("total", current_overall if current_overall is not None else categories.get("total"), None if current_overall is not None else "subscriptions")
+        subscription_source("nii"))
+    put("total", current_overall if current_overall is not None else categories.get("total"), None if current_overall is not None else subscription_source("total"))
     if current_overall is not None and categories.get("total") is not None and abs(current_overall - categories["total"]) > 0.02:
         values["total"]["note"] = f"Public source reports {categories['total']}x; Upstox reports {current_overall}x. Sources may use different update times."
-    history = sub_detail.get("history", []) if not pending else []
-    put("subscription_trend", history or None, "subscription_detail", "Only publisher-dated history is shown as day-wise demand. Collected snapshots are not backfilled bidding-day data.")
+    history_kind = "subscriptions" if public.get("history") and (public_is_newer or not sub_detail.get("history")) else "subscription_detail"
+    history = (public.get("history", []) if history_kind == "subscriptions" else sub_detail.get("history", [])) if not pending else []
+    put("subscription_trend", history or None, history_kind, "Only publisher-dated history is shown as day-wise demand. Collected snapshots are not backfilled bidding-day data.")
     put("gmp", {"rupees": quote, "percent": quote / upper * 100 if upper and quote is not None else None} if quote is not None else None,
         "gmp" if gmp_data.get("history") else "index", "Unofficial grey-market indication; not an executable quote or a listing-price forecast.")
     put("gmp_trend", trend, "gmp", "Change versus the previous published daily observation; drawdown uses this source's observed history.")
@@ -210,5 +216,5 @@ def build_detail(company: dict, research: dict, companies=None, all_research=Non
     return {"company": {**company, "stage": status}, "factors": [values[key] for key, *_ in FACTOR_DEFINITIONS],
             "coverage": sum(value["value"] is not None for value in values.values()), "conflicts": conflicts,
             "gmp_history": gmp_history, "subscription_history": history, "observations": observations or [], "financials": finances,
-            "sources": [{"kind": key, "source_url": row.get("source_url"), "fetched_at": row.get("fetched_at"), "reported_at": row.get("reported_at")} for key, row in research.items()],
+            "sources": [{"kind": key, "source_url": row.get("source_url"), "fetched_at": row.get("fetched_at"), "reported_at": row.get("reported_at") or row.get("reported_date")} for key, row in research.items()],
             "checked_at": now().isoformat(), "raw_upstox": {key: value for key, value in company.items() if key not in {"fetched_at", "catalog_source"}} if company.get("catalog_source") == "Upstox" else None}

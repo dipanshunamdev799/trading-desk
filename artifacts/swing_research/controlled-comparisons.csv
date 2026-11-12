@@ -1,0 +1,37 @@
+hypothesis,treatment,control,part,treatment_n,control_n,treatment_expectancy_r,control_expectancy_r,difference_r
+Slope adds value,A_base,A_no_slope,development,10,10,-0.42417258808528124,-0.42417258808528124,0.0
+Slope adds value,A_base,A_no_slope,validation,6,8,-0.1525041980597954,-0.36437814854484657,0.21187395048505117
+Slope adds value,A_base,A_no_slope,final,3,4,-0.615713227727899,0.03821507920407646,-0.6539283069319755
+Histogram vs crossover,B_base,A_base,development,16,10,-0.36135601297701625,-0.42417258808528124,0.062816575108265
+Histogram vs crossover,B_base,A_base,validation,6,6,0.18051855256814275,-0.1525041980597954,0.3330227506279382
+Histogram vs crossover,B_base,A_base,final,9,3,-0.17719192268719638,-0.615713227727899,0.43852130504070264
+HTF momentum alignment,F_base,A_base,development,2,10,-0.16344294263729253,-0.42417258808528124,0.2607296454479887
+HTF momentum alignment,F_base,A_base,validation,2,6,-0.3630194476281109,-0.1525041980597954,-0.2105152495683155
+HTF momentum alignment,F_base,A_base,final,1,3,-1.0,-0.615713227727899,-0.38428677227210095
+Zero-line filter,G_base,A_base,development,7,10,-0.46431779444897486,-0.42417258808528124,-0.04014520636369362
+Zero-line filter,G_base,A_base,validation,2,6,-0.3630194476281109,-0.1525041980597954,-0.2105152495683155
+Zero-line filter,G_base,A_base,final,2,3,-0.4235698415918485,-0.615713227727899,0.19214338613605053
+Earlier zero-side crossover,G_early_base,G_base,development,4,7,-0.49786622039959066,-0.46431779444897486,-0.0335484259506158
+Earlier zero-side crossover,G_early_base,G_base,validation,4,2,-0.04729079268252934,-0.3630194476281109,0.31572865494558155
+Earlier zero-side crossover,G_early_base,G_base,final,1,2,-1.0,-0.4235698415918485,-0.5764301584081515
+Retest vs breakout close,D_base,D0_base,development,6,7,-0.46952472735181855,-0.21044287880564358,-0.259081848546175
+Retest vs breakout close,D_base,D0_base,validation,1,1,-1.0990211938510586,-1.1011475029920457,0.0021263091409871038
+Retest vs breakout close,D_base,D0_base,final,2,3,0.01939431893844526,0.14716327073411403,-0.12776895179566877
+ATR vs swing stop,A_atr_stop,A_base,development,11,10,-0.5498893864273914,-0.42417258808528124,-0.12571679834211014
+ATR vs swing stop,A_atr_stop,A_base,validation,6,6,-0.3554053127400554,-0.1525041980597954,-0.20290111468025998
+ATR vs swing stop,A_atr_stop,A_base,final,5,3,0.1747225755794944,-0.615713227727899,0.7904358033073935
+Structure filter,A_structure,A_base,development,4,10,-0.2890173098886478,-0.42417258808528124,0.13515527819663342
+Structure filter,A_structure,A_base,validation,3,6,-0.6240607311683589,-0.1525041980597954,-0.4715565331085635
+Structure filter,A_structure,A_base,final,1,3,0.15286031681630302,-0.615713227727899,0.7685735445442021
+Trailing vs fixed exit,A_exit_atr_trail,A_base,development,10,10,-0.6049693664787487,-0.42417258808528124,-0.18079677839346742
+Trailing vs fixed exit,A_exit_atr_trail,A_base,validation,7,6,-0.5579995959541264,-0.1525041980597954,-0.405495397894331
+Trailing vs fixed exit,A_exit_atr_trail,A_base,final,4,3,-0.5488117705108801,-0.615713227727899,0.0669014572170189
+Longer candle tail excluded,A_full,A_base,development,5,10,0.19290173321264054,-0.42417258808528124,0.6170743212979217
+Longer candle tail excluded,A_full,A_base,validation,5,6,-0.262299597041451,-0.1525041980597954,-0.1097953989816556
+Longer candle tail excluded,A_full,A_base,final,2,3,0.5000000000000044,-0.615713227727899,1.1157132277279036
+Candle end anchored,A_right_anchor,A_base,development,9,10,-0.4627046382921527,-0.42417258808528124,-0.03853205020687145
+Candle end anchored,A_right_anchor,A_base,validation,6,6,-0.326822343748803,-0.1525041980597954,-0.17431814568900758
+Candle end anchored,A_right_anchor,A_base,final,3,3,0.33719224056572666,-0.615713227727899,0.9529054682936258
+Nearby resistance room,A_resistance_room,A_base,development,1,10,-0.0941461217625239,-0.42417258808528124,0.33002646632275734
+Nearby resistance room,A_resistance_room,A_base,validation,0,6,,-0.1525041980597954,
+Nearby resistance room,A_resistance_room,A_base,final,0,3,,-0.615713227727899,

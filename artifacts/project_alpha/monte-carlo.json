@@ -1,0 +1,626 @@
+[
+  {
+    "configuration": "month_end_proxy|ATM|premium20 / premium20 / month_end_proxy / ATM",
+    "observed_days": 5,
+    "conditional_total_pnl_ci95": [
+      -5507.0577499999945,
+      29775.118250000007
+    ],
+    "conditional_max_drawdown_ci95": [
+      0.0,
+      6453.511499999993
+    ],
+    "warning": "Tiny sample; absence of modeled tail loss is not evidence it cannot occur."
+  },
+  {
+    "configuration": "month_end_proxy|ATM|premium20_target1R / premium20_target1R / month_end_proxy / ATM",
+    "observed_days": 5,
+    "conditional_total_pnl_ci95": [
+      -5795.171749999995,
+      17842.091499999995
+    ],
+    "conditional_max_drawdown_ci95": [
+      0.0,
+      6453.511499999993
+    ],
+    "warning": "Tiny sample; absence of modeled tail loss is not evidence it cannot occur."
+  },
+  {
+    "configuration": "month_end_proxy|ATM|premium20_target2R / premium20_target2R / month_end_proxy / ATM",
+    "observed_days": 5,
+    "conditional_total_pnl_ci95": [
+      -5507.0577499999945,
+      29775.118250000007
+    ],
+    "conditional_max_drawdown_ci95": [
+      0.0,
+      6453.511499999993
+    ],
+    "warning": "Tiny sample; absence of modeled tail loss is not evidence it cannot occur."
+  },
+  {
+    "configuration": "month_end_proxy|ATM|premium20_trail20 / premium20_trail20 / month_end_proxy / ATM",
+    "observed_days": 5,
+    "conditional_total_pnl_ci95": [
+      -5507.0577499999945,
+      29775.118250000007
+    ],
+    "conditional_max_drawdown_ci95": [
+      0.0,
+      6453.511499999993
+    ],
+    "warning": "Tiny sample; absence of modeled tail loss is not evidence it cannot occur."
+  },
+  {
+    "configuration": "month_end_proxy|ATM|premium30 / premium30 / month_end_proxy / ATM",
+    "observed_days": 5,
+    "conditional_total_pnl_ci95": [
+      -5507.0577499999945,
+      29775.118250000007
+    ],
+    "conditional_max_drawdown_ci95": [
+      0.0,
+      6453.511499999993
+    ],
+    "warning": "Tiny sample; absence of modeled tail loss is not evidence it cannot occur."
+  },
+  {
+    "configuration": "month_end_proxy|ATM|premium30_target2R / premium30_target2R / month_end_proxy / ATM",
+    "observed_days": 5,
+    "conditional_total_pnl_ci95": [
+      -5507.0577499999945,
+      29775.118250000007
+    ],
+    "conditional_max_drawdown_ci95": [
+      0.0,
+      6453.511499999993
+    ],
+    "warning": "Tiny sample; absence of modeled tail loss is not evidence it cannot occur."
+  },
+  {
+    "configuration": "month_end_proxy|ATM|time120 / time120 / month_end_proxy / ATM",
+    "observed_days": 5,
+    "conditional_total_pnl_ci95": [
+      -8486.082499999997,
+      30964.469875000003
+    ],
+    "conditional_max_drawdown_ci95": [
+      0.0,
+      10620.251999999997
+    ],
+    "warning": "Tiny sample; absence of modeled tail loss is not evidence it cannot occur."
+  },
+  {
+    "configuration": "month_end_proxy|ATM|time30 / time30 / month_end_proxy / ATM",
+    "observed_days": 5,
+    "conditional_total_pnl_ci95": [
+      -541.3143750000005,
+      9651.395999999992
+    ],
+    "conditional_max_drawdown_ci95": [
+      0.0,
+      1392.819499999997
+    ],
+    "warning": "Tiny sample; absence of modeled tail loss is not evidence it cannot occur."
+  },
+  {
+    "configuration": "month_end_proxy|ATM|time60 / time60 / month_end_proxy / ATM",
+    "observed_days": 5,
+    "conditional_total_pnl_ci95": [
+      -5507.0577499999945,
+      29775.118250000007
+    ],
+    "conditional_max_drawdown_ci95": [
+      0.0,
+      6453.511499999993
+    ],
+    "warning": "Tiny sample; absence of modeled tail loss is not evidence it cannot occur."
+  },
+  {
+    "configuration": "month_end_proxy|ATM|underlying1.5ATR / underlying1.5ATR / month_end_proxy / ATM",
+    "observed_days": 5,
+    "conditional_total_pnl_ci95": [
+      -4858.032749999995,
+      17105.86006562486
+    ],
+    "conditional_max_drawdown_ci95": [
+      0.0,
+      6234.846749999995
+    ],
+    "warning": "Tiny sample; absence of modeled tail loss is not evidence it cannot occur."
+  },
+  {
+    "configuration": "month_end_proxy|ATM|underlying1ATR / underlying1ATR / month_end_proxy / ATM",
+    "observed_days": 5,
+    "conditional_total_pnl_ci95": [
+      -3702.7682499999983,
+      17836.303374999996
+    ],
+    "conditional_max_drawdown_ci95": [
+      0.0,
+      4649.221999999997
+    ],
+    "warning": "Tiny sample; absence of modeled tail loss is not evidence it cannot occur."
+  },
+  {
+    "configuration": "month_end_proxy|ATM|underlying_prior3bar_structure / underlying_prior3bar_structure / month_end_proxy / ATM",
+    "observed_days": 5,
+    "conditional_total_pnl_ci95": [
+      -5507.0577499999945,
+      17097.747253124904
+    ],
+    "conditional_max_drawdown_ci95": [
+      0.0,
+      6453.511499999993
+    ],
+    "warning": "Tiny sample; absence of modeled tail loss is not evidence it cannot occur."
+  },
+  {
+    "configuration": "month_end_proxy|one_step_ITM|premium20 / premium20 / month_end_proxy / one_step_ITM",
+    "observed_days": 5,
+    "conditional_total_pnl_ci95": [
+      -5581.575375000002,
+      30451.880375000008
+    ],
+    "conditional_max_drawdown_ci95": [
+      0.0,
+      6664.771250000003
+    ],
+    "warning": "Tiny sample; absence of modeled tail loss is not evidence it cannot occur."
+  },
+  {
+    "configuration": "month_end_proxy|one_step_ITM|premium20_target1R / premium20_target1R / month_end_proxy / one_step_ITM",
+    "observed_days": 5,
+    "conditional_total_pnl_ci95": [
+      -5581.575375000002,
+      19657.945600000006
+    ],
+    "conditional_max_drawdown_ci95": [
+      0.0,
+      6664.771250000003
+    ],
+    "warning": "Tiny sample; absence of modeled tail loss is not evidence it cannot occur."
+  },
+  {
+    "configuration": "month_end_proxy|one_step_ITM|premium20_target2R / premium20_target2R / month_end_proxy / one_step_ITM",
+    "observed_days": 5,
+    "conditional_total_pnl_ci95": [
+      -5581.575375000002,
+      30451.880375000008
+    ],
+    "conditional_max_drawdown_ci95": [
+      0.0,
+      6664.771250000003
+    ],
+    "warning": "Tiny sample; absence of modeled tail loss is not evidence it cannot occur."
+  },
+  {
+    "configuration": "month_end_proxy|one_step_ITM|premium20_trail20 / premium20_trail20 / month_end_proxy / one_step_ITM",
+    "observed_days": 5,
+    "conditional_total_pnl_ci95": [
+      -5581.575375000002,
+      30451.880375000008
+    ],
+    "conditional_max_drawdown_ci95": [
+      0.0,
+      6664.771250000003
+    ],
+    "warning": "Tiny sample; absence of modeled tail loss is not evidence it cannot occur."
+  },
+  {
+    "configuration": "month_end_proxy|one_step_ITM|premium30 / premium30 / month_end_proxy / one_step_ITM",
+    "observed_days": 5,
+    "conditional_total_pnl_ci95": [
+      -5581.575375000002,
+      30451.880375000008
+    ],
+    "conditional_max_drawdown_ci95": [
+      0.0,
+      6664.771250000003
+    ],
+    "warning": "Tiny sample; absence of modeled tail loss is not evidence it cannot occur."
+  },
+  {
+    "configuration": "month_end_proxy|one_step_ITM|premium30_target2R / premium30_target2R / month_end_proxy / one_step_ITM",
+    "observed_days": 5,
+    "conditional_total_pnl_ci95": [
+      -5581.575375000002,
+      30451.880375000008
+    ],
+    "conditional_max_drawdown_ci95": [
+      0.0,
+      6664.771250000003
+    ],
+    "warning": "Tiny sample; absence of modeled tail loss is not evidence it cannot occur."
+  },
+  {
+    "configuration": "month_end_proxy|one_step_ITM|time120 / time120 / month_end_proxy / one_step_ITM",
+    "observed_days": 5,
+    "conditional_total_pnl_ci95": [
+      -8485.962250000002,
+      32689.880250000013
+    ],
+    "conditional_max_drawdown_ci95": [
+      0.0,
+      10909.394750000001
+    ],
+    "warning": "Tiny sample; absence of modeled tail loss is not evidence it cannot occur."
+  },
+  {
+    "configuration": "month_end_proxy|one_step_ITM|time30 / time30 / month_end_proxy / one_step_ITM",
+    "observed_days": 5,
+    "conditional_total_pnl_ci95": [
+      -372.3224999999993,
+      10493.534374999997
+    ],
+    "conditional_max_drawdown_ci95": [
+      0.0,
+      1390.3982500000018
+    ],
+    "warning": "Tiny sample; absence of modeled tail loss is not evidence it cannot occur."
+  },
+  {
+    "configuration": "month_end_proxy|one_step_ITM|time60 / time60 / month_end_proxy / one_step_ITM",
+    "observed_days": 5,
+    "conditional_total_pnl_ci95": [
+      -5581.575375000002,
+      30451.880375000008
+    ],
+    "conditional_max_drawdown_ci95": [
+      0.0,
+      6664.771250000003
+    ],
+    "warning": "Tiny sample; absence of modeled tail loss is not evidence it cannot occur."
+  },
+  {
+    "configuration": "month_end_proxy|one_step_ITM|underlying1.5ATR / underlying1.5ATR / month_end_proxy / one_step_ITM",
+    "observed_days": 5,
+    "conditional_total_pnl_ci95": [
+      -4711.881875000004,
+      17517.38908124995
+    ],
+    "conditional_max_drawdown_ci95": [
+      0.0,
+      5795.077750000004
+    ],
+    "warning": "Tiny sample; absence of modeled tail loss is not evidence it cannot occur."
+  },
+  {
+    "configuration": "month_end_proxy|one_step_ITM|underlying1ATR / underlying1ATR / month_end_proxy / one_step_ITM",
+    "observed_days": 5,
+    "conditional_total_pnl_ci95": [
+      -3095.8096250000053,
+      18100.934625
+    ],
+    "conditional_max_drawdown_ci95": [
+      0.0,
+      4179.005500000007
+    ],
+    "warning": "Tiny sample; absence of modeled tail loss is not evidence it cannot occur."
+  },
+  {
+    "configuration": "month_end_proxy|one_step_ITM|underlying_prior3bar_structure / underlying_prior3bar_structure / month_end_proxy / one_step_ITM",
+    "observed_days": 5,
+    "conditional_total_pnl_ci95": [
+      -5581.575375000002,
+      17507.029625000003
+    ],
+    "conditional_max_drawdown_ci95": [
+      0.0,
+      6664.771250000003
+    ],
+    "warning": "Tiny sample; absence of modeled tail loss is not evidence it cannot occur."
+  },
+  {
+    "configuration": "nearest_nonexpiry_day|ATM|premium20 / premium20 / nearest_nonexpiry_day / ATM",
+    "observed_days": 4,
+    "conditional_total_pnl_ci95": [
+      -3006.0202499999978,
+      29783.787375
+    ],
+    "conditional_max_drawdown_ci95": [
+      0.0,
+      5450.673749999998
+    ],
+    "warning": "Tiny sample; absence of modeled tail loss is not evidence it cannot occur."
+  },
+  {
+    "configuration": "nearest_nonexpiry_day|ATM|premium20_target1R / premium20_target1R / nearest_nonexpiry_day / ATM",
+    "observed_days": 4,
+    "conditional_total_pnl_ci95": [
+      -6595.0819,
+      13739.166749999997
+    ],
+    "conditional_max_drawdown_ci95": [
+      0.0,
+      6595.0819
+    ],
+    "warning": "Tiny sample; absence of modeled tail loss is not evidence it cannot occur."
+  },
+  {
+    "configuration": "nearest_nonexpiry_day|ATM|premium20_target2R / premium20_target2R / nearest_nonexpiry_day / ATM",
+    "observed_days": 4,
+    "conditional_total_pnl_ci95": [
+      -4668.481499999998,
+      18783.121849999996
+    ],
+    "conditional_max_drawdown_ci95": [
+      0.0,
+      5450.673749999998
+    ],
+    "warning": "Tiny sample; absence of modeled tail loss is not evidence it cannot occur."
+  },
+  {
+    "configuration": "nearest_nonexpiry_day|ATM|premium20_trail20 / premium20_trail20 / nearest_nonexpiry_day / ATM",
+    "observed_days": 4,
+    "conditional_total_pnl_ci95": [
+      -5581.9212999999945,
+      28027.525725000003
+    ],
+    "conditional_max_drawdown_ci95": [
+      0.0,
+      5581.9212999999945
+    ],
+    "warning": "Tiny sample; absence of modeled tail loss is not evidence it cannot occur."
+  },
+  {
+    "configuration": "nearest_nonexpiry_day|ATM|premium30 / premium30 / nearest_nonexpiry_day / ATM",
+    "observed_days": 4,
+    "conditional_total_pnl_ci95": [
+      -2069.397999999998,
+      29783.787375
+    ],
+    "conditional_max_drawdown_ci95": [
+      0.0,
+      5450.673749999998
+    ],
+    "warning": "Tiny sample; absence of modeled tail loss is not evidence it cannot occur."
+  },
+  {
+    "configuration": "nearest_nonexpiry_day|ATM|premium30_target2R / premium30_target2R / nearest_nonexpiry_day / ATM",
+    "observed_days": 4,
+    "conditional_total_pnl_ci95": [
+      -2171.374099999999,
+      25558.634625000002
+    ],
+    "conditional_max_drawdown_ci95": [
+      0.0,
+      5450.673749999998
+    ],
+    "warning": "Tiny sample; absence of modeled tail loss is not evidence it cannot occur."
+  },
+  {
+    "configuration": "nearest_nonexpiry_day|ATM|time120 / time120 / nearest_nonexpiry_day / ATM",
+    "observed_days": 4,
+    "conditional_total_pnl_ci95": [
+      -1595.0442500000013,
+      35304.228875
+    ],
+    "conditional_max_drawdown_ci95": [
+      0.0,
+      5509.086000000001
+    ],
+    "warning": "Tiny sample; absence of modeled tail loss is not evidence it cannot occur."
+  },
+  {
+    "configuration": "nearest_nonexpiry_day|ATM|time30 / time30 / nearest_nonexpiry_day / ATM",
+    "observed_days": 4,
+    "conditional_total_pnl_ci95": [
+      -1058.9452499999984,
+      8434.11
+    ],
+    "conditional_max_drawdown_ci95": [
+      0.0,
+      1799.908124999999
+    ],
+    "warning": "Tiny sample; absence of modeled tail loss is not evidence it cannot occur."
+  },
+  {
+    "configuration": "nearest_nonexpiry_day|ATM|time60 / time60 / nearest_nonexpiry_day / ATM",
+    "observed_days": 4,
+    "conditional_total_pnl_ci95": [
+      -2069.397999999998,
+      29783.787375
+    ],
+    "conditional_max_drawdown_ci95": [
+      0.0,
+      5450.673749999998
+    ],
+    "warning": "Tiny sample; absence of modeled tail loss is not evidence it cannot occur."
+  },
+  {
+    "configuration": "nearest_nonexpiry_day|ATM|underlying1.5ATR / underlying1.5ATR / nearest_nonexpiry_day / ATM",
+    "observed_days": 4,
+    "conditional_total_pnl_ci95": [
+      -2240.1707499999966,
+      17090.919
+    ],
+    "conditional_max_drawdown_ci95": [
+      0.0,
+      5450.673749999998
+    ],
+    "warning": "Tiny sample; absence of modeled tail loss is not evidence it cannot occur."
+  },
+  {
+    "configuration": "nearest_nonexpiry_day|ATM|underlying1ATR / underlying1ATR / nearest_nonexpiry_day / ATM",
+    "observed_days": 4,
+    "conditional_total_pnl_ci95": [
+      -239.14749999999913,
+      17090.919
+    ],
+    "conditional_max_drawdown_ci95": [
+      0.0,
+      2705.298
+    ],
+    "warning": "Tiny sample; absence of modeled tail loss is not evidence it cannot occur."
+  },
+  {
+    "configuration": "nearest_nonexpiry_day|ATM|underlying_prior3bar_structure / underlying_prior3bar_structure / nearest_nonexpiry_day / ATM",
+    "observed_days": 4,
+    "conditional_total_pnl_ci95": [
+      -2240.1707499999966,
+      17090.919
+    ],
+    "conditional_max_drawdown_ci95": [
+      0.0,
+      5450.673749999998
+    ],
+    "warning": "Tiny sample; absence of modeled tail loss is not evidence it cannot occur."
+  },
+  {
+    "configuration": "nearest_nonexpiry_day|one_step_ITM|premium20 / premium20 / nearest_nonexpiry_day / one_step_ITM",
+    "observed_days": 4,
+    "conditional_total_pnl_ci95": [
+      -3220.863125000001,
+      32854.455625
+    ],
+    "conditional_max_drawdown_ci95": [
+      0.0,
+      5643.952875000002
+    ],
+    "warning": "Tiny sample; absence of modeled tail loss is not evidence it cannot occur."
+  },
+  {
+    "configuration": "nearest_nonexpiry_day|one_step_ITM|premium20_target1R / premium20_target1R / nearest_nonexpiry_day / one_step_ITM",
+    "observed_days": 4,
+    "conditional_total_pnl_ci95": [
+      -6715.140150000002,
+      16995.87734999999
+    ],
+    "conditional_max_drawdown_ci95": [
+      0.0,
+      6715.140150000002
+    ],
+    "warning": "Tiny sample; absence of modeled tail loss is not evidence it cannot occur."
+  },
+  {
+    "configuration": "nearest_nonexpiry_day|one_step_ITM|premium20_target2R / premium20_target2R / nearest_nonexpiry_day / one_step_ITM",
+    "observed_days": 4,
+    "conditional_total_pnl_ci95": [
+      -4705.250375000002,
+      22422.09485
+    ],
+    "conditional_max_drawdown_ci95": [
+      0.0,
+      5643.952875000002
+    ],
+    "warning": "Tiny sample; absence of modeled tail loss is not evidence it cannot occur."
+  },
+  {
+    "configuration": "nearest_nonexpiry_day|one_step_ITM|premium20_trail20 / premium20_trail20 / nearest_nonexpiry_day / one_step_ITM",
+    "observed_days": 4,
+    "conditional_total_pnl_ci95": [
+      -3054.7127250000026,
+      32854.455625
+    ],
+    "conditional_max_drawdown_ci95": [
+      0.0,
+      5643.952875000002
+    ],
+    "warning": "Tiny sample; absence of modeled tail loss is not evidence it cannot occur."
+  },
+  {
+    "configuration": "nearest_nonexpiry_day|one_step_ITM|premium30 / premium30 / nearest_nonexpiry_day / one_step_ITM",
+    "observed_days": 4,
+    "conditional_total_pnl_ci95": [
+      -1885.2302500000021,
+      32854.455625
+    ],
+    "conditional_max_drawdown_ci95": [
+      0.0,
+      5643.952875000002
+    ],
+    "warning": "Tiny sample; absence of modeled tail loss is not evidence it cannot occur."
+  },
+  {
+    "configuration": "nearest_nonexpiry_day|one_step_ITM|premium30_target2R / premium30_target2R / nearest_nonexpiry_day / one_step_ITM",
+    "observed_days": 4,
+    "conditional_total_pnl_ci95": [
+      -1885.2302500000021,
+      30040.932249999998
+    ],
+    "conditional_max_drawdown_ci95": [
+      0.0,
+      5643.952875000002
+    ],
+    "warning": "Tiny sample; absence of modeled tail loss is not evidence it cannot occur."
+  },
+  {
+    "configuration": "nearest_nonexpiry_day|one_step_ITM|time120 / time120 / nearest_nonexpiry_day / one_step_ITM",
+    "observed_days": 4,
+    "conditional_total_pnl_ci95": [
+      -1667.7142500000018,
+      37980.793999999994
+    ],
+    "conditional_max_drawdown_ci95": [
+      0.0,
+      5809.454250000001
+    ],
+    "warning": "Tiny sample; absence of modeled tail loss is not evidence it cannot occur."
+  },
+  {
+    "configuration": "nearest_nonexpiry_day|one_step_ITM|time30 / time30 / nearest_nonexpiry_day / one_step_ITM",
+    "observed_days": 4,
+    "conditional_total_pnl_ci95": [
+      -949.2756250000036,
+      10222.953874999994
+    ],
+    "conditional_max_drawdown_ci95": [
+      0.0,
+      1895.8335000000022
+    ],
+    "warning": "Tiny sample; absence of modeled tail loss is not evidence it cannot occur."
+  },
+  {
+    "configuration": "nearest_nonexpiry_day|one_step_ITM|time60 / time60 / nearest_nonexpiry_day / one_step_ITM",
+    "observed_days": 4,
+    "conditional_total_pnl_ci95": [
+      -1885.2302500000021,
+      32854.455625
+    ],
+    "conditional_max_drawdown_ci95": [
+      0.0,
+      5643.952875000002
+    ],
+    "warning": "Tiny sample; absence of modeled tail loss is not evidence it cannot occur."
+  },
+  {
+    "configuration": "nearest_nonexpiry_day|one_step_ITM|underlying1.5ATR / underlying1.5ATR / nearest_nonexpiry_day / one_step_ITM",
+    "observed_days": 4,
+    "conditional_total_pnl_ci95": [
+      -2231.1000000000026,
+      18406.440999999995
+    ],
+    "conditional_max_drawdown_ci95": [
+      0.0,
+      5643.952875000002
+    ],
+    "warning": "Tiny sample; absence of modeled tail loss is not evidence it cannot occur."
+  },
+  {
+    "configuration": "nearest_nonexpiry_day|one_step_ITM|underlying1ATR / underlying1ATR / nearest_nonexpiry_day / one_step_ITM",
+    "observed_days": 4,
+    "conditional_total_pnl_ci95": [
+      -48.4895000000015,
+      18406.440999999995
+    ],
+    "conditional_max_drawdown_ci95": [
+      0.0,
+      2888.8417500000005
+    ],
+    "warning": "Tiny sample; absence of modeled tail loss is not evidence it cannot occur."
+  },
+  {
+    "configuration": "nearest_nonexpiry_day|one_step_ITM|underlying_prior3bar_structure / underlying_prior3bar_structure / nearest_nonexpiry_day / one_step_ITM",
+    "observed_days": 4,
+    "conditional_total_pnl_ci95": [
+      -2231.1000000000026,
+      18406.440999999995
+    ],
+    "conditional_max_drawdown_ci95": [
+      0.0,
+      5643.952875000002
+    ],
+    "warning": "Tiny sample; absence of modeled tail loss is not evidence it cannot occur."
+  }
+]

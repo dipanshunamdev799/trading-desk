@@ -1,0 +1,53 @@
+{
+  "created_utc": "2026-11-12T03:42:34.841364+00:00",
+  "client_start_date": "2026-11-12",
+  "initial_cash": 1000000.0,
+  "configuration": {
+    "id": "ema_cross_8d2ff7f02140",
+    "family": "ema_cross",
+    "description": "EMA cross; rs filter",
+    "variant": "filter_rs",
+    "params": {
+      "exit": "fixed",
+      "stop_mode": "atr",
+      "stop_atr": 2.0,
+      "buffer": 0.2,
+      "reward": 2.0,
+      "max_hold_sessions": 10,
+      "risk_fraction": 0.005,
+      "filter": "rs",
+      "fast": 20,
+      "slow": 50
+    },
+    "exit": "fixed",
+    "stop_mode": "atr",
+    "stop_atr": 2.0,
+    "buffer": 0.2,
+    "reward": 2.0,
+    "max_hold_sessions": 10,
+    "risk_fraction": 0.005,
+    "filter": "rs",
+    "fast": 20,
+    "slow": 50,
+    "initial_capital": 1000000,
+    "min_turnover": 50000000,
+    "participation": 0.01
+  },
+  "source_hashes": {
+    "research\\ema_validation\\paper.py": "077f6eccadcee3095e375e035a9691cd052776a5593991886880915f83395459",
+    "research\\ema_validation\\engine.py": "34042e468a7c0d19911b1e20a33a5487922b0de08efcd7ffbf1a89f947f6c92f",
+    "research\\swing_discovery\\signals.py": "b4fc1636a9547d50f7912afa07c957677192dbeb9882989770bde4390bca3b0b"
+  },
+  "study_freeze_sha256": "29f3226f519bfca4baad7761cda4e1604b913c8d6decd4983f25e050b5243bc7",
+  "inputs": {
+    "artifacts\\swing_discovery\\daily-panel.npz": "d8c7ebe08ec18dd5b6aa7cca71017e6c1fd513d9f92fcdb10b91e26e42691a5a",
+    "artifacts\\swing_discovery\\panel-index.json": "a5ea9301fc704d1aa1ccdf8e4bda74b6815855987d5803e62bd81ca812ff6e75",
+    "artifacts\\swing_discovery\\universe.json": "70ab4e0d768a86b8cc9ff4e7ee3e29d01d79410b7705c275e9342d6987275a61",
+    "artifacts\\swing_discovery\\frozen-finalists.json": "bb8d1a3d185c88a0cc7eed5ebbf51d6290f5395263e672761ff64fbd93da104f",
+    "artifacts\\swing_diagnosis\\audit-dividend-corrected.npz": "a472a88af1194cc3b8740c62f89ffbe400b5cd8f7decc6992d810ef0985a7f6c",
+    "research\\swing_diagnosis\\portfolio.py": "79f54bd8999f35adff5ae1b7d81f8885d2e691c9781789d01dca3e5ac9ad0dcf"
+  },
+  "first_signal_policy": "First completed decision close on/after12Nov2026, earliestfollowing observedopen. No prestart positions or retrospective performance.",
+  "paper_execution": "Hypothetical next daily open with frozen adverse slippage/fees; cannot certify quotes or broker fills. Previous signal must have been received before entry-session09:15IST.",
+  "feed": "Verified actual-unit unadjustedOHLC and sharevolume, complete frozen470company universe, NIFTYclose, explicit corporateaction factors/dividends. Missing/ambiguousdata failclosed; no orderrouting."
+}

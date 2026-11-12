@@ -1,0 +1,17 @@
+{
+  "selected": [
+    "compression_breakout|range3_body0.5|normal_vol|afternoon|h60",
+    "donchian|lookback20_buffer0|trend|afternoon|h60",
+    "ema_reversion|distance3|normal_vol|midday|h15",
+    "ema_trend|12_26_gap0.5|trend|afternoon|h60",
+    "failed_breakout|lookback20|range|all|h60",
+    "gap_fade|gap_atr1|range|all|h60",
+    "gap_follow|gap_atr3|high_vol|all|h60",
+    "momentum|lookback6_atr0.5|trend|afternoon|h60",
+    "orb|minutes60_buffer0.25|trend|afternoon|h60",
+    "pullback|ema21_tolerance0.75|trend|afternoon|h60",
+    "rsi_reversion|rsi40_distance0|ema_aligned|all|h60"
+  ],
+  "selector_hash": "468c4d35bbc508c259b4b1a663f71e3a076ae2a5199d5815e20adce237d8162f",
+  "uses_holdout": false
+}

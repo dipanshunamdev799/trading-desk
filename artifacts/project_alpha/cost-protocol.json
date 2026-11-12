@@ -1,0 +1,19 @@
+{
+  "scenarios_brokerage_per_executed_order": [
+    10,
+    20,
+    30
+  ],
+  "orders_per_roundtrip": 2,
+  "fees_rounded": false,
+  "account_tariff_verified": false,
+  "source_dates": "Rates documented for2024Oct onward; historical client plan/rebates/rounding cannot be recovered.",
+  "exchange_plus_ipft_combined": 0.0003553,
+  "gst_base": "Brokerage+exchange+IPFT per published broker table; excludes SEBI levy",
+  "spread": "Included once in snapshot ask/bid; candleprices still have unknownspread and latency. Additional0/2/5premium-point impact sensitivities retained separately.",
+  "sources": [
+    "https://nsearchives.nseindia.com/content/circulars/FA73061.pdf",
+    "https://nsearchives.nseindia.com/content/circulars/FATAX73524.pdf",
+    "https://upstox.com/brokerage-charges/"
+  ]
+}

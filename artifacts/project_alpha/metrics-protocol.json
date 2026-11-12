@@ -1,0 +1,21 @@
+{
+  "input": "artifacts\\project_alpha\\exit-trades.csv",
+  "capitals": [
+    100000,
+    250000,
+    500000,
+    1000000
+  ],
+  "risk_fractions": [
+    0.0025,
+    0.005
+  ],
+  "daily_loss_fraction": 0.01,
+  "weekly_loss_fraction": 0.03,
+  "max_simultaneous_positions": 1,
+  "risk_rule": "Whole lots <=minimum of fixed initial capital risk budget and remaining daily/weekly loss room, divided by planned stop + severe allowance; also require premium cash affordability. Full premium at risk when no defined stop.",
+  "model": "All exit and contract configurations disclosed, no choice by results; severe proxy outcomes, closed-trade drawdown only.",
+  "monte_carlo": "2000 session-block samples of each observed period, conditional on very small historical sample; no inferred future tail probability.",
+  "stress": "Separate deterministic full-premium-loss scenario for each permitted sized trade; not an estimated probability.",
+  "acceptance": "No strategy promoted by these metrics; price-proxy execution, insufficient independent sessions and missing forward evidence fail live gates."
+}

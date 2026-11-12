@@ -1,0 +1,11 @@
+{
+  "timing": "Prior-close known actual strategy utilization applied to daily close-to-close TRI returns; not an exact next-open ETF replication or alpha regression. Same-day positions absent from closingutilization. Allocation changes incur modeled generic delivery fees/slippage; cashrate0. No taxinterest,custody or ETF tracking error.",
+  "mapping": {
+    "Banks": "Nifty Bank TRI",
+    "IT - Software": "Nifty IT TRI",
+    "Pharmaceuticals & Biotechnology": "Nifty Pharma TRI",
+    "all_other_sectors": "Nifty500TRI explicit fallback"
+  },
+  "cohort": "Frozen470daily-equalweight total-return proxy inherits originalcohort/data-completeness bias and implicitrebalancing; not a historicindex.",
+  "metric": "Exposure-matched means average utilization schedule proxy, not identical beta, stock/sector exposure, intraday timing or holding risk."
+}

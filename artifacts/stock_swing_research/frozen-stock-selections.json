@@ -1,0 +1,54 @@
+{
+  "selector": "Fixed13distinct variants listed in preceding response; no stock-specific parameter changes. Stock shortlist per rule uses development only:>=8trades, positive netR; highest meanR5stocks. Choices frozen before examining validation/final tables.",
+  "selected_from_development_only": {
+    "structure_only_base": [
+      "M&M",
+      "EICHERMOT",
+      "SBILIFE",
+      "GRASIM",
+      "BAJFINANCE"
+    ],
+    "E_tf120_30": [
+      "HDFCBANK",
+      "M&M",
+      "EICHERMOT",
+      "TATACONSUM",
+      "BAJFINANCE"
+    ],
+    "E_buffer0.0": [],
+    "E_zone0.25": [],
+    "E_no_slope": [
+      "NESTLEIND"
+    ],
+    "B_macd8_21_5": [
+      "MARUTI",
+      "HEROMOTOCO",
+      "BAJFINANCE",
+      "HINDALCO",
+      "BPCL"
+    ],
+    "B_macd5_35_5": [
+      "MARUTI",
+      "BAJFINANCE",
+      "HINDALCO",
+      "BPCL",
+      "SBIN"
+    ],
+    "E_ema90": [
+      "M&M",
+      "NESTLEIND",
+      "ULTRACEMCO"
+    ],
+    "E_macd8_21_5": [
+      "BHARTIARTL"
+    ],
+    "E_tf240_60": [
+      "BHARTIARTL"
+    ],
+    "E_macd5_35_5": [
+      "BHARTIARTL"
+    ],
+    "E_r3": [],
+    "F_r4": []
+  }
+}

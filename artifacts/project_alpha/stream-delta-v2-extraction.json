@@ -1,0 +1,58 @@
+{
+  "opportunities": 33,
+  "selected": 24,
+  "status_counts": {
+    "selected": 24,
+    "no_fresh_prior_chain": 9
+  },
+  "sources": [
+    {
+      "instrument_key": "NSE_FO|51334",
+      "day": "2026-10-26",
+      "rows": 5543,
+      "sha256": "b04a08b74caadb956048b1a62849611d45de7f3139a6464fec3293f847d25d1f"
+    },
+    {
+      "instrument_key": "NSE_FO|51338",
+      "day": "2026-10-26",
+      "rows": 8324,
+      "sha256": "7aeb76ebcf6fbc253ae66b423abe22e48f820520905994286f32a6dae99883dc"
+    },
+    {
+      "instrument_key": "NSE_FO|51340",
+      "day": "2026-10-26",
+      "rows": 8233,
+      "sha256": "9db7545fc20c823ba7ba00d741aa31ebe9bd434ea66f102f57e5660316f1df29"
+    },
+    {
+      "instrument_key": "NSE_FO|51344",
+      "day": "2026-10-26",
+      "rows": 5445,
+      "sha256": "f3e254caa8afacf45c6cc2edab825043da9fe52bc2554c59eae115298fee1d3b"
+    },
+    {
+      "instrument_key": "NSE_FO|53682",
+      "day": "2026-10-28",
+      "rows": 6285,
+      "sha256": "c71c818e20e49f1640bc7de240469c930f6bbdbc8e6c79724cff4e3602f53e01"
+    },
+    {
+      "instrument_key": "NSE_FO|53782",
+      "day": "2026-10-29",
+      "rows": 5544,
+      "sha256": "1be11359facc109468a30af4d29c59ec1514c6ae576d9a945b1bd0d2eeb3fd77"
+    },
+    {
+      "instrument_key": "NSE_FO|53792",
+      "day": "2026-10-28",
+      "rows": 6376,
+      "sha256": "27ffb857bac93a99b0934ff7c4a05c23e6d9424a1e37c5daf6cc8b525e075178"
+    },
+    {
+      "instrument_key": "NSE_FO|53836",
+      "day": "2026-10-29",
+      "rows": 5517,
+      "sha256": "ba3ac5e828bad1db8d8a71e8283f53da6351a64b1726736d32099f6b591c181d"
+    }
+  ]
+}

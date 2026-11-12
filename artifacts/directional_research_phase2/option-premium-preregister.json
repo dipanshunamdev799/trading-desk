@@ -1,0 +1,17 @@
+{
+  "signal_source_sha256": "7824122900226295549ba537efb3664402c324ce0de74c5645f858014da338fa",
+  "script_sha256": "3f403f3b98386193f585bf04311452bc5a6829bacf2ae6a39ab53ecfce32e0c5",
+  "total_frozen_signal_trades": 1085,
+  "source_covered_signal_trades": 106,
+  "universe": "Signal-day dated NSE EOD contracts, pre-entry, frozen four daily family finalists",
+  "selection": "Signal-time underlying close; nearest listed ATM tie lower; one listed strike ITM. Prior-day volume must be positive. Expiry strictly after planned exit; nearest surviving versus last listed expiry of earliest eligible month (month-end proxy).",
+  "entry": "Next session daily first-trade open, exact dated instrument; asynchronous proxy",
+  "exit": "Original fixed exit session official daily close, exact same instrument; not guaranteed execution",
+  "friction": "Gross; dated sale STT0.10% through31Mar2026 and0.15% from1Apr2026; illustrative additionally2 premium points + INR100 per roundtrip; severe additionally5 premium points + INR200. Allowances exclude STT, cover other fees/execution illustratively, and are NOT verified historical fees/spreads.",
+  "stt_source": "https://nsearchives.nseindia.com/content/circulars/FATAX73524.pdf",
+  "protocol_update": "Dated STT added while source downloads were in progress and before any premium outcome/summary was viewed. Original fixed contract choices unchanged.",
+  "rejections": "Missing archive/contract, zero prior/entry/exit volume, invalid OHLC, changed lot/identity; no forward fill",
+  "calendar_assumption": "Planned exit sessions assumed known from exchange calendar; dates are those of frozen underlying ledger. Holiday announcements were not point-in-time archived.",
+  "bootstrap": "3000 resamples of complete calendar months; conditional, not selection adjusted",
+  "no_tuning": "No premium results used to change rules/contracts/costs; all buckets disclosed"
+}

@@ -1,0 +1,24 @@
+{
+  "passed_groups": 9,
+  "registered_input_hashes_verified": 60,
+  "manifest_files": 111,
+  "checks": [
+    "Preregistered inputs and original/extended stream code versions match retained bytes",
+    "All thirteen phases and ten falsifiable hypotheses have resolving evidence artifacts",
+    "Experiment code/data hashes and results reconcile",
+    "Current live check is reproducible, has current code hash and remains gated",
+    "Independent metrics/timeframe/safety review matches current source versions",
+    "Reported whole-lot risk feasibility agrees with all384persisted scenarios",
+    "Recorded-spread reference result has3outcomes; strict-book mode never claims fills",
+    "Received-Greeks extension preserves ATM control and has independent source-quote checks",
+    "User-facing local links resolve and Markdown tables have consistent columns"
+  ],
+  "original_code_versions": [
+    {
+      "protocol": "exit-stream-preregister.json",
+      "original_source": "scripts\\research_alpha_streams.py",
+      "archived_source": "artifacts\\project_alpha\\exit-stream-original-script.py",
+      "sha256": "da5deab80ea127b0c1187c05379a5900dec2d8b719b0ae2dcf8bad28b7a9b346"
+    }
+  ]
+}

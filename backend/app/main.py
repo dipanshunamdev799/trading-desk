@@ -10,7 +10,8 @@ from fastapi.middleware.cors import CORSMiddleware
 from starlette.concurrency import run_in_threadpool
 
 from .config import get_settings
-from .routers import backtest, data, health, market, options, paper, ipos, nifty, credit_spreads
+from .routers import trading_bots
+from .routers import backtest, data, health, market, options, paper, ipos, nifty, credit_spreads, strategies
 
 settings = get_settings()
 settings.backtests_dir.mkdir(parents=True, exist_ok=True)
@@ -57,6 +58,7 @@ async def lifespan(app: FastAPI):
                 logging.getLogger(__name__).exception("Credit spread paper monitor failed; no unpriced fills were made")
             await asyncio.sleep(10)
     spread_monitor = asyncio.create_task(monitor_spreads())
+    await run_in_threadpool(trading_bots.manager().startup)
     try:
         yield
     finally:
@@ -95,6 +97,8 @@ app.include_router(options.router)
 app.include_router(ipos.router)
 app.include_router(nifty.router)
 app.include_router(credit_spreads.router)
+app.include_router(trading_bots.router)
+app.include_router(strategies.router)
 
 
 @app.get("/")

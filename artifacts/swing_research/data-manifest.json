@@ -1,0 +1,1302 @@
+{
+  "as_of_exclusive": "2026-11-10",
+  "research_start": "2024-11-10",
+  "warmup_start": "2023-01-01",
+  "session": "09:15 <= start < 15:30 IST, all 75 five-minute bars required",
+  "sources": {
+    "NIFTY": {
+      "raw_duplicate_timestamps": 389,
+      "invalid_ohlc_rows": 0,
+      "off_session_bars_by_day": {
+        "2023-11-12": 12,
+        "2024-11-01": 12,
+        "2025-04-25": 2,
+        "2025-04-30": 2,
+        "2025-05-08": 2,
+        "2025-05-13": 2,
+        "2025-05-21": 2
+      },
+      "excluded_sessions": [
+        {
+          "day": "2024-03-02",
+          "bars": 21,
+          "invalid_ohlc": false,
+          "reason": "incomplete_or_special_session"
+        },
+        {
+          "day": "2024-05-18",
+          "bars": 21,
+          "invalid_ohlc": false,
+          "reason": "incomplete_or_special_session"
+        },
+        {
+          "day": "2025-10-21",
+          "bars": 12,
+          "invalid_ohlc": false,
+          "reason": "incomplete_or_special_session"
+        },
+        {
+          "day": "2026-11-08",
+          "bars": 14,
+          "invalid_ohlc": false,
+          "reason": "incomplete_or_special_session"
+        }
+      ],
+      "rows": 71250,
+      "sessions": 950,
+      "first": "2023-01-02 09:15:00+05:30",
+      "last": "2026-11-09 15:25:00+05:30",
+      "zero_volume_bars": 71250,
+      "missing_sessions_caveat": "Observed sessions checked for exact completeness; absent whole days are not independently reconciled to official holiday calendar.",
+      "instrument_key": "NSE_INDEX|Nifty 50",
+      "kind": "nontradable_index",
+      "sources": [
+        {
+          "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\directional_research_phase2\\expanded-nifty-5minute.json",
+          "sha256": "b6aab0c4a14bf0568b92d53f44cc6265a1cb33f9b8fb5c95720dbb57c6eed63c",
+          "rows": 55596,
+          "instrument_key": "NSE_INDEX|Nifty 50",
+          "identity": "legacy_fetch_script_and_manifest"
+        },
+        {
+          "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\directional_research\\nifty-upstox-5minute.json",
+          "sha256": "edebba307ecadd0945649baf6110a48e6706f393c4f95d3c208f46efffb4e3dd",
+          "rows": 34386,
+          "instrument_key": "NSE_INDEX|Nifty 50",
+          "identity": "legacy_fetch_script_and_manifest"
+        },
+        {
+          "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_research\\raw\\NIFTY\\2026-11-01-2026-11-09-5m.json",
+          "sha256": "120eb231e326179daafefd550ccdeb78f353bcfb65168d325dc984d842e56b36",
+          "rows": 464,
+          "instrument_key": "NSE_INDEX|Nifty 50",
+          "identity": "embedded_and_verified"
+        }
+      ],
+      "requests": [
+        {
+          "from": "2026-11-01",
+          "to": "2026-11-09",
+          "rows": 464,
+          "status": "ok"
+        }
+      ],
+      "overlap_conflicting_timestamps": [],
+      "price_adjustments": "Provider raw OHLC; corporate action adjustment status not certified; do not infer adjusted total returns.",
+      "futures_rolls": "not applicable; no futures used",
+      "research_start": "2024-11-10",
+      "as_of_exclusive": "2026-11-10",
+      "warmup_start": "2023-01-01",
+      "special_execution": {
+        "rows": 92,
+        "invalid_ohlc_excluded": 0,
+        "sessions": [
+          {
+            "day": "2023-11-12",
+            "bars": 12,
+            "reason": "observed Muhurat session outside normal hours",
+            "first": "2023-11-12 18:15:00+05:30",
+            "last": "2023-11-12 19:10:00+05:30"
+          },
+          {
+            "day": "2024-03-02",
+            "bars": 21,
+            "reason": "observed short special trading session",
+            "first": "2024-03-02 09:15:00+05:30",
+            "last": "2024-03-02 12:25:00+05:30"
+          },
+          {
+            "day": "2024-05-18",
+            "bars": 21,
+            "reason": "observed short special trading session",
+            "first": "2024-05-18 09:15:00+05:30",
+            "last": "2024-05-18 12:25:00+05:30"
+          },
+          {
+            "day": "2024-11-01",
+            "bars": 12,
+            "reason": "observed Muhurat session outside normal hours",
+            "first": "2024-11-01 18:00:00+05:30",
+            "last": "2024-11-01 18:55:00+05:30"
+          },
+          {
+            "day": "2025-10-21",
+            "bars": 12,
+            "reason": "observed short special/Muhurat session",
+            "first": "2025-10-21 13:45:00+05:30",
+            "last": "2025-10-21 14:40:00+05:30"
+          },
+          {
+            "day": "2026-11-08",
+            "bars": 14,
+            "reason": "observed short special/Muhurat session",
+            "first": "2026-11-08 14:20:00+05:30",
+            "last": "2026-11-08 15:25:00+05:30"
+          }
+        ],
+        "policy": "Execution only: replay valid unique raw candles on explicit known short/special dates, including evening bars. Ordinary stray pre/post-session prints on complete regular dates are excluded. Indicators remain based solely on complete regular sessions.",
+        "timestamp_semantics": "Provider five-minute candle START in Asia/Kolkata; end=start+5min.",
+        "calendar_caveat": "Session labels describe observed provider data; special session clock times are not independently certified against each exchange circular.",
+        "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_research\\nifty-special-execution.csv",
+        "sha256": "9cfd7ce8b1192c5be438d146469b60020e88dc80fa9b1ce10d515e0d3662a277"
+      }
+    },
+    "NIFTYBEES": {
+      "raw_duplicate_timestamps": 389,
+      "invalid_ohlc_rows": 0,
+      "off_session_bars_by_day": {
+        "2023-11-12": 12,
+        "2024-11-01": 12
+      },
+      "excluded_sessions": [
+        {
+          "day": "2024-03-02",
+          "bars": 21,
+          "invalid_ohlc": false,
+          "reason": "incomplete_or_special_session"
+        },
+        {
+          "day": "2024-05-18",
+          "bars": 21,
+          "invalid_ohlc": false,
+          "reason": "incomplete_or_special_session"
+        },
+        {
+          "day": "2025-10-21",
+          "bars": 12,
+          "invalid_ohlc": false,
+          "reason": "incomplete_or_special_session"
+        },
+        {
+          "day": "2026-11-08",
+          "bars": 14,
+          "invalid_ohlc": false,
+          "reason": "incomplete_or_special_session"
+        }
+      ],
+      "rows": 71250,
+      "sessions": 950,
+      "first": "2023-01-02 09:15:00+05:30",
+      "last": "2026-11-09 15:25:00+05:30",
+      "zero_volume_bars": 0,
+      "missing_sessions_caveat": "Observed sessions checked for exact completeness; absent whole days are not independently reconciled to official holiday calendar.",
+      "instrument_key": "NSE_EQ|INF204KB14I2",
+      "kind": "cash_etf_long_only",
+      "sources": [
+        {
+          "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\directional_research_phase2\\context-niftybees-5minute.json",
+          "sha256": "ed318e53f47e9b9d793d8b664e3eca18168c583dcee60c4cf03585ae8441ad5b",
+          "rows": 34376,
+          "instrument_key": "NSE_EQ|INF204KB14I2",
+          "identity": "legacy_fetch_script_and_manifest"
+        },
+        {
+          "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_research\\raw\\NIFTYBEES\\2023-01-01-2023-01-31-5m.json",
+          "sha256": "e2fe8e61cd55c6e077fa6bbd3e63d77afa046b91168a567bae16a7102105beb5",
+          "rows": 1575,
+          "instrument_key": "NSE_EQ|INF204KB14I2",
+          "identity": "embedded_and_verified"
+        },
+        {
+          "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_research\\raw\\NIFTYBEES\\2023-02-01-2023-02-28-5m.json",
+          "sha256": "e6b5c18822b3432266c31bc0a335799aaa1200fa085fda720dfaa2035a9ae9cf",
+          "rows": 1500,
+          "instrument_key": "NSE_EQ|INF204KB14I2",
+          "identity": "embedded_and_verified"
+        },
+        {
+          "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_research\\raw\\NIFTYBEES\\2023-03-01-2023-03-31-5m.json",
+          "sha256": "22df3edaa9ed2142f7b61de62e3c9dfb24236dcf644d825d88142dfdb2cffe86",
+          "rows": 1575,
+          "instrument_key": "NSE_EQ|INF204KB14I2",
+          "identity": "embedded_and_verified"
+        },
+        {
+          "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_research\\raw\\NIFTYBEES\\2023-04-01-2023-04-30-5m.json",
+          "sha256": "1a335da84e429eefeaede14c1b11b88e482013b7d174a4036e1a9762b3938f28",
+          "rows": 1275,
+          "instrument_key": "NSE_EQ|INF204KB14I2",
+          "identity": "embedded_and_verified"
+        },
+        {
+          "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_research\\raw\\NIFTYBEES\\2023-05-01-2023-05-31-5m.json",
+          "sha256": "7625d7dc172672a08644ff795554d70717ba4cc70bff95ffacee3a8208fc9ade",
+          "rows": 1650,
+          "instrument_key": "NSE_EQ|INF204KB14I2",
+          "identity": "embedded_and_verified"
+        },
+        {
+          "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_research\\raw\\NIFTYBEES\\2023-06-01-2023-06-30-5m.json",
+          "sha256": "aa6fe67f2e420778dcfd1b057da92a40710c2b277d34971d541bdb1ec2796147",
+          "rows": 1575,
+          "instrument_key": "NSE_EQ|INF204KB14I2",
+          "identity": "embedded_and_verified"
+        },
+        {
+          "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_research\\raw\\NIFTYBEES\\2023-07-01-2023-07-31-5m.json",
+          "sha256": "3e3b133c64906e10d9e22b93a3819303e74015c51dc8f4ca0dfbe45052fed1c0",
+          "rows": 1575,
+          "instrument_key": "NSE_EQ|INF204KB14I2",
+          "identity": "embedded_and_verified"
+        },
+        {
+          "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_research\\raw\\NIFTYBEES\\2023-08-01-2023-08-31-5m.json",
+          "sha256": "5aa1c463b644b8b27ee97e26e229b1cec8f9a1ec418ed05f7f3c95d6145d91b7",
+          "rows": 1650,
+          "instrument_key": "NSE_EQ|INF204KB14I2",
+          "identity": "embedded_and_verified"
+        },
+        {
+          "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_research\\raw\\NIFTYBEES\\2023-09-01-2023-09-30-5m.json",
+          "sha256": "70ff108642234e4f9cfda01eeedcd7739b2ad87fafc19af53729b0e68a7f2598",
+          "rows": 1500,
+          "instrument_key": "NSE_EQ|INF204KB14I2",
+          "identity": "embedded_and_verified"
+        },
+        {
+          "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_research\\raw\\NIFTYBEES\\2023-10-01-2023-10-31-5m.json",
+          "sha256": "da6967c1d41adf09ae0a3cef772059b192bd1958af400536bad2cc65b247d71e",
+          "rows": 1500,
+          "instrument_key": "NSE_EQ|INF204KB14I2",
+          "identity": "embedded_and_verified"
+        },
+        {
+          "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_research\\raw\\NIFTYBEES\\2023-11-01-2023-11-30-5m.json",
+          "sha256": "637c49b37735c5bc415577beeb3a1eccd649e2fba81409678122a5e5b69d561f",
+          "rows": 1512,
+          "instrument_key": "NSE_EQ|INF204KB14I2",
+          "identity": "embedded_and_verified"
+        },
+        {
+          "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_research\\raw\\NIFTYBEES\\2023-12-01-2023-12-31-5m.json",
+          "sha256": "9067ccc3eee83fa20238377447771409d655d6ddd1481cae493602d2f36fb195",
+          "rows": 1500,
+          "instrument_key": "NSE_EQ|INF204KB14I2",
+          "identity": "embedded_and_verified"
+        },
+        {
+          "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_research\\raw\\NIFTYBEES\\2024-01-01-2024-01-31-5m.json",
+          "sha256": "ca9693463d092aaf3632fcdffd96f9fc2573221599e5c4efe573bf75a9468077",
+          "rows": 1650,
+          "instrument_key": "NSE_EQ|INF204KB14I2",
+          "identity": "embedded_and_verified"
+        },
+        {
+          "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_research\\raw\\NIFTYBEES\\2024-02-01-2024-02-29-5m.json",
+          "sha256": "58bf43065337836cc9ed869f8b1fe89dacdc79f2a83dd0265b7017e385afb8ec",
+          "rows": 1575,
+          "instrument_key": "NSE_EQ|INF204KB14I2",
+          "identity": "embedded_and_verified"
+        },
+        {
+          "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_research\\raw\\NIFTYBEES\\2024-03-01-2024-03-31-5m.json",
+          "sha256": "85f3d3742f5e9b3a637628e3af7b8234f851618a7fe10055bedeb71e3bfcaeb6",
+          "rows": 1371,
+          "instrument_key": "NSE_EQ|INF204KB14I2",
+          "identity": "embedded_and_verified"
+        },
+        {
+          "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_research\\raw\\NIFTYBEES\\2024-04-01-2024-04-30-5m.json",
+          "sha256": "8556ff1ae95488adf169064860524d68f4d1f47124d1492063ce1f2bc4fec06c",
+          "rows": 1500,
+          "instrument_key": "NSE_EQ|INF204KB14I2",
+          "identity": "embedded_and_verified"
+        },
+        {
+          "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_research\\raw\\NIFTYBEES\\2024-05-01-2024-05-31-5m.json",
+          "sha256": "3c9ac84d82b6fc6dbcd98a6781b002d14e5a9e7118f4d0b69448daad129bb386",
+          "rows": 1596,
+          "instrument_key": "NSE_EQ|INF204KB14I2",
+          "identity": "embedded_and_verified"
+        },
+        {
+          "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_research\\raw\\NIFTYBEES\\2024-06-01-2024-06-30-5m.json",
+          "sha256": "50751780825f382269d08a2a1c822d39508d38e6354466c52a99707242abe696",
+          "rows": 1425,
+          "instrument_key": "NSE_EQ|INF204KB14I2",
+          "identity": "embedded_and_verified"
+        },
+        {
+          "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_research\\raw\\NIFTYBEES\\2024-07-01-2024-07-31-5m.json",
+          "sha256": "f7c22b6e70d1b766cc6c995315ad1411462375d129886f06001daf9d255ab7a5",
+          "rows": 1650,
+          "instrument_key": "NSE_EQ|INF204KB14I2",
+          "identity": "embedded_and_verified"
+        },
+        {
+          "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_research\\raw\\NIFTYBEES\\2024-08-01-2024-08-31-5m.json",
+          "sha256": "83dc516b599ee2efd8444607d75182bd143dc485eec16c61f45a47dfcd4c73ce",
+          "rows": 1575,
+          "instrument_key": "NSE_EQ|INF204KB14I2",
+          "identity": "embedded_and_verified"
+        },
+        {
+          "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_research\\raw\\NIFTYBEES\\2024-09-01-2024-09-30-5m.json",
+          "sha256": "1386ca255ad1b94042f3fb5ed665edb48ae43d354ec1d71099f33aee0706d40d",
+          "rows": 1575,
+          "instrument_key": "NSE_EQ|INF204KB14I2",
+          "identity": "embedded_and_verified"
+        },
+        {
+          "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_research\\raw\\NIFTYBEES\\2024-10-01-2024-10-31-5m.json",
+          "sha256": "afe92941faf60ce1532df19b20a74b81d70520950d6ae612dc06a5659c204733",
+          "rows": 1650,
+          "instrument_key": "NSE_EQ|INF204KB14I2",
+          "identity": "embedded_and_verified"
+        },
+        {
+          "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_research\\raw\\NIFTYBEES\\2024-11-01-2024-11-30-5m.json",
+          "sha256": "24af48b7964fa78668f74c9ad0c57b7d79609d6323a688888a7c66dbf7235319",
+          "rows": 1362,
+          "instrument_key": "NSE_EQ|INF204KB14I2",
+          "identity": "embedded_and_verified"
+        },
+        {
+          "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_research\\raw\\NIFTYBEES\\2024-12-01-2024-12-31-5m.json",
+          "sha256": "caba3a3f8e3ca2c24da487d35a7edb6308ab7603489821bd03e5711589613338",
+          "rows": 1575,
+          "instrument_key": "NSE_EQ|INF204KB14I2",
+          "identity": "embedded_and_verified"
+        },
+        {
+          "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_research\\raw\\NIFTYBEES\\2026-11-01-2026-11-09-5m.json",
+          "sha256": "02baa869ab3c7d6d994bc4822e2026c9974aa2231999606ecfdf15f491c07e57",
+          "rows": 464,
+          "instrument_key": "NSE_EQ|INF204KB14I2",
+          "identity": "embedded_and_verified"
+        }
+      ],
+      "requests": [
+        {
+          "from": "2023-01-01",
+          "to": "2023-01-31",
+          "rows": 1575,
+          "status": "ok"
+        },
+        {
+          "from": "2023-02-01",
+          "to": "2023-02-28",
+          "rows": 1500,
+          "status": "ok"
+        },
+        {
+          "from": "2023-03-01",
+          "to": "2023-03-31",
+          "rows": 1575,
+          "status": "ok"
+        },
+        {
+          "from": "2023-04-01",
+          "to": "2023-04-30",
+          "rows": 1275,
+          "status": "ok"
+        },
+        {
+          "from": "2023-05-01",
+          "to": "2023-05-31",
+          "rows": 1650,
+          "status": "ok"
+        },
+        {
+          "from": "2023-06-01",
+          "to": "2023-06-30",
+          "rows": 1575,
+          "status": "ok"
+        },
+        {
+          "from": "2023-07-01",
+          "to": "2023-07-31",
+          "rows": 1575,
+          "status": "ok"
+        },
+        {
+          "from": "2023-08-01",
+          "to": "2023-08-31",
+          "rows": 1650,
+          "status": "ok"
+        },
+        {
+          "from": "2023-09-01",
+          "to": "2023-09-30",
+          "rows": 1500,
+          "status": "ok"
+        },
+        {
+          "from": "2023-10-01",
+          "to": "2023-10-31",
+          "rows": 1500,
+          "status": "ok"
+        },
+        {
+          "from": "2023-11-01",
+          "to": "2023-11-30",
+          "rows": 1512,
+          "status": "ok"
+        },
+        {
+          "from": "2023-12-01",
+          "to": "2023-12-31",
+          "rows": 1500,
+          "status": "ok"
+        },
+        {
+          "from": "2024-01-01",
+          "to": "2024-01-31",
+          "rows": 1650,
+          "status": "ok"
+        },
+        {
+          "from": "2024-02-01",
+          "to": "2024-02-29",
+          "rows": 1575,
+          "status": "ok"
+        },
+        {
+          "from": "2024-03-01",
+          "to": "2024-03-31",
+          "rows": 1371,
+          "status": "ok"
+        },
+        {
+          "from": "2024-04-01",
+          "to": "2024-04-30",
+          "rows": 1500,
+          "status": "ok"
+        },
+        {
+          "from": "2024-05-01",
+          "to": "2024-05-31",
+          "rows": 1596,
+          "status": "ok"
+        },
+        {
+          "from": "2024-06-01",
+          "to": "2024-06-30",
+          "rows": 1425,
+          "status": "ok"
+        },
+        {
+          "from": "2024-07-01",
+          "to": "2024-07-31",
+          "rows": 1650,
+          "status": "ok"
+        },
+        {
+          "from": "2024-08-01",
+          "to": "2024-08-31",
+          "rows": 1575,
+          "status": "ok"
+        },
+        {
+          "from": "2024-09-01",
+          "to": "2024-09-30",
+          "rows": 1575,
+          "status": "ok"
+        },
+        {
+          "from": "2024-10-01",
+          "to": "2024-10-31",
+          "rows": 1650,
+          "status": "ok"
+        },
+        {
+          "from": "2024-11-01",
+          "to": "2024-11-30",
+          "rows": 1362,
+          "status": "ok"
+        },
+        {
+          "from": "2024-12-01",
+          "to": "2024-12-31",
+          "rows": 1575,
+          "status": "ok"
+        },
+        {
+          "from": "2026-11-01",
+          "to": "2026-11-09",
+          "rows": 464,
+          "status": "ok"
+        }
+      ],
+      "overlap_conflicting_timestamps": [],
+      "price_adjustments": "Provider raw OHLC; corporate action adjustment status not certified; do not infer adjusted total returns.",
+      "futures_rolls": "not applicable; no futures used",
+      "research_start": "2024-11-10",
+      "as_of_exclusive": "2026-11-10",
+      "warmup_start": "2023-01-01",
+      "special_execution": {
+        "rows": 92,
+        "invalid_ohlc_excluded": 0,
+        "sessions": [
+          {
+            "day": "2023-11-12",
+            "bars": 12,
+            "reason": "observed Muhurat session outside normal hours",
+            "first": "2023-11-12 18:15:00+05:30",
+            "last": "2023-11-12 19:10:00+05:30"
+          },
+          {
+            "day": "2024-03-02",
+            "bars": 21,
+            "reason": "observed short special trading session",
+            "first": "2024-03-02 09:15:00+05:30",
+            "last": "2024-03-02 12:25:00+05:30"
+          },
+          {
+            "day": "2024-05-18",
+            "bars": 21,
+            "reason": "observed short special trading session",
+            "first": "2024-05-18 09:15:00+05:30",
+            "last": "2024-05-18 12:25:00+05:30"
+          },
+          {
+            "day": "2024-11-01",
+            "bars": 12,
+            "reason": "observed Muhurat session outside normal hours",
+            "first": "2024-11-01 18:00:00+05:30",
+            "last": "2024-11-01 18:55:00+05:30"
+          },
+          {
+            "day": "2025-10-21",
+            "bars": 12,
+            "reason": "observed short special/Muhurat session",
+            "first": "2025-10-21 13:45:00+05:30",
+            "last": "2025-10-21 14:40:00+05:30"
+          },
+          {
+            "day": "2026-11-08",
+            "bars": 14,
+            "reason": "observed short special/Muhurat session",
+            "first": "2026-11-08 14:20:00+05:30",
+            "last": "2026-11-08 15:25:00+05:30"
+          }
+        ],
+        "policy": "Execution only: replay valid unique raw candles on explicit known short/special dates, including evening bars. Ordinary stray pre/post-session prints on complete regular dates are excluded. Indicators remain based solely on complete regular sessions.",
+        "timestamp_semantics": "Provider five-minute candle START in Asia/Kolkata; end=start+5min.",
+        "calendar_caveat": "Session labels describe observed provider data; special session clock times are not independently certified against each exchange circular.",
+        "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_research\\niftybees-special-execution.csv",
+        "sha256": "21530395d008bc18d4ae0cef9246a9d3e10408e9926354cdc875f0268a265012"
+      }
+    },
+    "BANKBEES": {
+      "raw_duplicate_timestamps": 0,
+      "invalid_ohlc_rows": 0,
+      "off_session_bars_by_day": {
+        "2023-11-12": 12,
+        "2024-11-01": 12
+      },
+      "excluded_sessions": [
+        {
+          "day": "2024-03-02",
+          "bars": 21,
+          "invalid_ohlc": false,
+          "reason": "incomplete_or_special_session"
+        },
+        {
+          "day": "2024-05-18",
+          "bars": 21,
+          "invalid_ohlc": false,
+          "reason": "incomplete_or_special_session"
+        },
+        {
+          "day": "2025-10-21",
+          "bars": 12,
+          "invalid_ohlc": false,
+          "reason": "incomplete_or_special_session"
+        },
+        {
+          "day": "2026-11-08",
+          "bars": 14,
+          "invalid_ohlc": false,
+          "reason": "incomplete_or_special_session"
+        }
+      ],
+      "rows": 71250,
+      "sessions": 950,
+      "first": "2023-01-02 09:15:00+05:30",
+      "last": "2026-11-09 15:25:00+05:30",
+      "zero_volume_bars": 0,
+      "missing_sessions_caveat": "Observed sessions checked for exact completeness; absent whole days are not independently reconciled to official holiday calendar.",
+      "instrument_key": "NSE_EQ|INF204KB15I9",
+      "kind": "cash_etf_long_only",
+      "sources": [
+        {
+          "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_research\\raw\\BANKBEES\\2023-01-01-2023-01-31-5m.json",
+          "sha256": "07d608ea404b9213b03566b41643ee94fba72dcd17ecab25b2970950782903aa",
+          "rows": 1575,
+          "instrument_key": "NSE_EQ|INF204KB15I9",
+          "identity": "embedded_and_verified"
+        },
+        {
+          "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_research\\raw\\BANKBEES\\2023-02-01-2023-02-28-5m.json",
+          "sha256": "33c84109ceb223efdd6968c4a33f83b84760b317df2a126c67f2f58438c6d3d9",
+          "rows": 1500,
+          "instrument_key": "NSE_EQ|INF204KB15I9",
+          "identity": "embedded_and_verified"
+        },
+        {
+          "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_research\\raw\\BANKBEES\\2023-03-01-2023-03-31-5m.json",
+          "sha256": "7242fe11ed299ad41b83d9f4e5795ad2d24cb9590c05315386db870389e9f5cb",
+          "rows": 1575,
+          "instrument_key": "NSE_EQ|INF204KB15I9",
+          "identity": "embedded_and_verified"
+        },
+        {
+          "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_research\\raw\\BANKBEES\\2023-04-01-2023-04-30-5m.json",
+          "sha256": "5d50410f171654e53dc509756361612763feb93d443958f0d24fc697a6cfc28d",
+          "rows": 1275,
+          "instrument_key": "NSE_EQ|INF204KB15I9",
+          "identity": "embedded_and_verified"
+        },
+        {
+          "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_research\\raw\\BANKBEES\\2023-05-01-2023-05-31-5m.json",
+          "sha256": "6b916e1196e06158b6f7df7c5353ebc1829c7bd8118fb0d8839a8c259747e854",
+          "rows": 1650,
+          "instrument_key": "NSE_EQ|INF204KB15I9",
+          "identity": "embedded_and_verified"
+        },
+        {
+          "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_research\\raw\\BANKBEES\\2023-06-01-2023-06-30-5m.json",
+          "sha256": "60b5414ce345e2991c63b572a3e40e62afe74c866f82405ac2603e931204f83b",
+          "rows": 1575,
+          "instrument_key": "NSE_EQ|INF204KB15I9",
+          "identity": "embedded_and_verified"
+        },
+        {
+          "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_research\\raw\\BANKBEES\\2023-07-01-2023-07-31-5m.json",
+          "sha256": "ae59486bccd3e3aa76c7ae5c567fa5ea9d7a3917a3db61894f34ca22d48b21ae",
+          "rows": 1575,
+          "instrument_key": "NSE_EQ|INF204KB15I9",
+          "identity": "embedded_and_verified"
+        },
+        {
+          "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_research\\raw\\BANKBEES\\2023-08-01-2023-08-31-5m.json",
+          "sha256": "ff0ac15ea7b1063c868ed6881598528cab2c720555e9e9f4a2da100ab4d682dc",
+          "rows": 1650,
+          "instrument_key": "NSE_EQ|INF204KB15I9",
+          "identity": "embedded_and_verified"
+        },
+        {
+          "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_research\\raw\\BANKBEES\\2023-09-01-2023-09-30-5m.json",
+          "sha256": "fa5b65d74c20503cdb8e8721018f97bf85077d8d80909e128433721597640401",
+          "rows": 1500,
+          "instrument_key": "NSE_EQ|INF204KB15I9",
+          "identity": "embedded_and_verified"
+        },
+        {
+          "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_research\\raw\\BANKBEES\\2023-10-01-2023-10-31-5m.json",
+          "sha256": "c3545c68d2ab25e9c7f14c0f49a5aa397562d62073423905c6a46e3c741fc041",
+          "rows": 1500,
+          "instrument_key": "NSE_EQ|INF204KB15I9",
+          "identity": "embedded_and_verified"
+        },
+        {
+          "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_research\\raw\\BANKBEES\\2023-11-01-2023-11-30-5m.json",
+          "sha256": "cb391bc5c98ecfbc12392fbe335060bbf719d75770c1182188af0ae8b5ee6d7d",
+          "rows": 1512,
+          "instrument_key": "NSE_EQ|INF204KB15I9",
+          "identity": "embedded_and_verified"
+        },
+        {
+          "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_research\\raw\\BANKBEES\\2023-12-01-2023-12-31-5m.json",
+          "sha256": "7f6a306af17370fbbcc95e2390198bcadd095cf80f4f5021a2591e5176f784a3",
+          "rows": 1500,
+          "instrument_key": "NSE_EQ|INF204KB15I9",
+          "identity": "embedded_and_verified"
+        },
+        {
+          "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_research\\raw\\BANKBEES\\2024-01-01-2024-01-31-5m.json",
+          "sha256": "13b2d6b763e8cff7468c9fad51cdc1ff5668132e26813b0b8b9412c638f458ad",
+          "rows": 1650,
+          "instrument_key": "NSE_EQ|INF204KB15I9",
+          "identity": "embedded_and_verified"
+        },
+        {
+          "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_research\\raw\\BANKBEES\\2024-02-01-2024-02-29-5m.json",
+          "sha256": "75c8a8da7468f1113f34a453ba0a18bb0fa6aa17662c18dc9836564bf2617a85",
+          "rows": 1575,
+          "instrument_key": "NSE_EQ|INF204KB15I9",
+          "identity": "embedded_and_verified"
+        },
+        {
+          "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_research\\raw\\BANKBEES\\2024-03-01-2024-03-31-5m.json",
+          "sha256": "db0fbbe26def9a7afc767bdec2b6986fa3b97ecd8f43a99946d44b257ac06523",
+          "rows": 1371,
+          "instrument_key": "NSE_EQ|INF204KB15I9",
+          "identity": "embedded_and_verified"
+        },
+        {
+          "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_research\\raw\\BANKBEES\\2024-04-01-2024-04-30-5m.json",
+          "sha256": "124f44dcf58b0f6808f25f309a1bce2543443e01001bfd21be6b3265b05de0b8",
+          "rows": 1500,
+          "instrument_key": "NSE_EQ|INF204KB15I9",
+          "identity": "embedded_and_verified"
+        },
+        {
+          "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_research\\raw\\BANKBEES\\2024-05-01-2024-05-31-5m.json",
+          "sha256": "b2e33e44ca203cccc3575eb6604b4784a14bf4dcbde98c0d41b5bfc1e7a812ac",
+          "rows": 1596,
+          "instrument_key": "NSE_EQ|INF204KB15I9",
+          "identity": "embedded_and_verified"
+        },
+        {
+          "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_research\\raw\\BANKBEES\\2024-06-01-2024-06-30-5m.json",
+          "sha256": "3de100f6f616c443948b28672084b3eda831d747e92df4dfc5316914026a78f4",
+          "rows": 1425,
+          "instrument_key": "NSE_EQ|INF204KB15I9",
+          "identity": "embedded_and_verified"
+        },
+        {
+          "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_research\\raw\\BANKBEES\\2024-07-01-2024-07-31-5m.json",
+          "sha256": "21156463f4c66381d1b5945a463e506b364a315d07300907032637304cfec644",
+          "rows": 1650,
+          "instrument_key": "NSE_EQ|INF204KB15I9",
+          "identity": "embedded_and_verified"
+        },
+        {
+          "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_research\\raw\\BANKBEES\\2024-08-01-2024-08-31-5m.json",
+          "sha256": "42fe2dc51abe040dc249b49d24768819545787a216d4e5b33a1c6d1dfb8e9fb3",
+          "rows": 1575,
+          "instrument_key": "NSE_EQ|INF204KB15I9",
+          "identity": "embedded_and_verified"
+        },
+        {
+          "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_research\\raw\\BANKBEES\\2024-09-01-2024-09-30-5m.json",
+          "sha256": "2249431fc4a227974cc8ac3c24682affc4d1f9f338f317e8f196ea1a1e38ecba",
+          "rows": 1575,
+          "instrument_key": "NSE_EQ|INF204KB15I9",
+          "identity": "embedded_and_verified"
+        },
+        {
+          "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_research\\raw\\BANKBEES\\2024-10-01-2024-10-31-5m.json",
+          "sha256": "8551d6cead44e71607f37f529c3bb3cb10906f1f9a4c2fb48eb1da31ee4af272",
+          "rows": 1650,
+          "instrument_key": "NSE_EQ|INF204KB15I9",
+          "identity": "embedded_and_verified"
+        },
+        {
+          "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_research\\raw\\BANKBEES\\2024-11-01-2024-11-30-5m.json",
+          "sha256": "d78e80e59469981d415158e75d80eca694e8fd5d04027328777d15872383017b",
+          "rows": 1362,
+          "instrument_key": "NSE_EQ|INF204KB15I9",
+          "identity": "embedded_and_verified"
+        },
+        {
+          "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_research\\raw\\BANKBEES\\2024-12-01-2024-12-31-5m.json",
+          "sha256": "3f1d0714e26a2290f522bf01c5774608e2666870ed7f57f239c1a0af9fa5daf4",
+          "rows": 1575,
+          "instrument_key": "NSE_EQ|INF204KB15I9",
+          "identity": "embedded_and_verified"
+        },
+        {
+          "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_research\\raw\\BANKBEES\\2025-01-01-2025-01-31-5m.json",
+          "sha256": "4284e53463b0f3a23ec1bc9e97531f4e914c7f280ee11aea76761c94f29b8477",
+          "rows": 1725,
+          "instrument_key": "NSE_EQ|INF204KB15I9",
+          "identity": "embedded_and_verified"
+        },
+        {
+          "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_research\\raw\\BANKBEES\\2025-02-01-2025-02-28-5m.json",
+          "sha256": "3b12e5b25b7fe2b96c27c52ac7e30f7d94e282660e772939b1d028cb5c9ce8b1",
+          "rows": 1500,
+          "instrument_key": "NSE_EQ|INF204KB15I9",
+          "identity": "embedded_and_verified"
+        },
+        {
+          "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_research\\raw\\BANKBEES\\2025-03-01-2025-03-31-5m.json",
+          "sha256": "8d0875574384d30866fb7444fc93783db6ec6d21d4f83c6dc3ef4d574e8424ae",
+          "rows": 1425,
+          "instrument_key": "NSE_EQ|INF204KB15I9",
+          "identity": "embedded_and_verified"
+        },
+        {
+          "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_research\\raw\\BANKBEES\\2025-04-01-2025-04-30-5m.json",
+          "sha256": "8c0f986ad6704a2f141118d9d09a3f7bc0b5070b5d5636327f0112f383170da7",
+          "rows": 1425,
+          "instrument_key": "NSE_EQ|INF204KB15I9",
+          "identity": "embedded_and_verified"
+        },
+        {
+          "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_research\\raw\\BANKBEES\\2025-05-01-2025-05-31-5m.json",
+          "sha256": "e65f1833595ac51a6641a0bf03d86d60a019bbbc21372be9b4249468c872f43d",
+          "rows": 1575,
+          "instrument_key": "NSE_EQ|INF204KB15I9",
+          "identity": "embedded_and_verified"
+        },
+        {
+          "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_research\\raw\\BANKBEES\\2025-06-01-2025-06-30-5m.json",
+          "sha256": "9f08655c9d8fe292c52da0d51b3e7acd55cf24dc590a037d36a6213368b03f1e",
+          "rows": 1575,
+          "instrument_key": "NSE_EQ|INF204KB15I9",
+          "identity": "embedded_and_verified"
+        },
+        {
+          "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_research\\raw\\BANKBEES\\2025-07-01-2025-07-31-5m.json",
+          "sha256": "099f1fadf730d9cf2e2c78b11f41f2716dcfbef97eab11a3ab42f4edca5dfbae",
+          "rows": 1725,
+          "instrument_key": "NSE_EQ|INF204KB15I9",
+          "identity": "embedded_and_verified"
+        },
+        {
+          "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_research\\raw\\BANKBEES\\2025-08-01-2025-08-31-5m.json",
+          "sha256": "022435b6e959cab9a111df91b2b7042e5f05c3d617bbbf9b24b6a1168d6eb921",
+          "rows": 1425,
+          "instrument_key": "NSE_EQ|INF204KB15I9",
+          "identity": "embedded_and_verified"
+        },
+        {
+          "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_research\\raw\\BANKBEES\\2025-09-01-2025-09-30-5m.json",
+          "sha256": "88eaa9b288362bab1def839beb146b7ee9a0b89dc03a93e497ce0b37da2edc80",
+          "rows": 1650,
+          "instrument_key": "NSE_EQ|INF204KB15I9",
+          "identity": "embedded_and_verified"
+        },
+        {
+          "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_research\\raw\\BANKBEES\\2025-10-01-2025-10-31-5m.json",
+          "sha256": "7c87b7fe700bb449fdf50096754cccad02c6078f0b89efef7ca06e53ff7bc4fe",
+          "rows": 1512,
+          "instrument_key": "NSE_EQ|INF204KB15I9",
+          "identity": "embedded_and_verified"
+        },
+        {
+          "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_research\\raw\\BANKBEES\\2025-11-01-2025-11-30-5m.json",
+          "sha256": "82075153904bf3a47b199e0da70a4168cb10b41d897a75649a19ad6ebd71b4cf",
+          "rows": 1425,
+          "instrument_key": "NSE_EQ|INF204KB15I9",
+          "identity": "embedded_and_verified"
+        },
+        {
+          "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_research\\raw\\BANKBEES\\2025-12-01-2025-12-31-5m.json",
+          "sha256": "919f885c1b9772ec6638e360e163a1d2a601bb78dfd0bc59a4c41f68b532ecf5",
+          "rows": 1650,
+          "instrument_key": "NSE_EQ|INF204KB15I9",
+          "identity": "embedded_and_verified"
+        },
+        {
+          "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_research\\raw\\BANKBEES\\2026-01-01-2026-01-31-5m.json",
+          "sha256": "cd567b096b96f99a31202eaf32f9b0775b305a2b511b7b645d42de7c723d7c2b",
+          "rows": 1500,
+          "instrument_key": "NSE_EQ|INF204KB15I9",
+          "identity": "embedded_and_verified"
+        },
+        {
+          "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_research\\raw\\BANKBEES\\2026-02-01-2026-02-28-5m.json",
+          "sha256": "c5a4b054c8a38cb061b6e39a8a2faf018f5d0903dbc19f5b4f11a56eb660d3f8",
+          "rows": 1575,
+          "instrument_key": "NSE_EQ|INF204KB15I9",
+          "identity": "embedded_and_verified"
+        },
+        {
+          "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_research\\raw\\BANKBEES\\2026-03-01-2026-03-31-5m.json",
+          "sha256": "783fc2862da711dc5302ef3ddfd2c88f48279ba07f2a0828e4e38b2bbe9b3d50",
+          "rows": 1425,
+          "instrument_key": "NSE_EQ|INF204KB15I9",
+          "identity": "embedded_and_verified"
+        },
+        {
+          "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_research\\raw\\BANKBEES\\2026-04-01-2026-04-30-5m.json",
+          "sha256": "fd41da4ae84a36282c4534da995830daa47f3b9ac684c0b5604054e8790bfe4d",
+          "rows": 1500,
+          "instrument_key": "NSE_EQ|INF204KB15I9",
+          "identity": "embedded_and_verified"
+        },
+        {
+          "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_research\\raw\\BANKBEES\\2026-05-01-2026-05-31-5m.json",
+          "sha256": "98beb31f3803eab43c94f37eead017e4b5941d248d67ab5153ed4cc4281dd7cc",
+          "rows": 1425,
+          "instrument_key": "NSE_EQ|INF204KB15I9",
+          "identity": "embedded_and_verified"
+        },
+        {
+          "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_research\\raw\\BANKBEES\\2026-06-01-2026-06-30-5m.json",
+          "sha256": "87153797d75e54bceb90a4e4f125f61f45e7171543437ea524d1ed9904385bad",
+          "rows": 1575,
+          "instrument_key": "NSE_EQ|INF204KB15I9",
+          "identity": "embedded_and_verified"
+        },
+        {
+          "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_research\\raw\\BANKBEES\\2026-07-01-2026-07-31-5m.json",
+          "sha256": "bd348772a5d9a3cf102a49d38b6b1b7bc33cf36d13a44e43cc75d60017f328de",
+          "rows": 1725,
+          "instrument_key": "NSE_EQ|INF204KB15I9",
+          "identity": "embedded_and_verified"
+        },
+        {
+          "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_research\\raw\\BANKBEES\\2026-08-01-2026-08-31-5m.json",
+          "sha256": "afcc7254e0c43baaa3b779e83ab9ac18d41e39a1e0493062d4ba81767a88a104",
+          "rows": 1575,
+          "instrument_key": "NSE_EQ|INF204KB15I9",
+          "identity": "embedded_and_verified"
+        },
+        {
+          "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_research\\raw\\BANKBEES\\2026-09-01-2026-09-30-5m.json",
+          "sha256": "64b1e1d59f1b425fbf5dc555043d6354350ef6fd567244ecc6d67f845cef89b7",
+          "rows": 1575,
+          "instrument_key": "NSE_EQ|INF204KB15I9",
+          "identity": "embedded_and_verified"
+        },
+        {
+          "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_research\\raw\\BANKBEES\\2026-10-01-2026-10-31-5m.json",
+          "sha256": "93e1d498f432b260f31dbd87e2150a265795e0dbc0a6b6a57f74b407010b0436",
+          "rows": 1500,
+          "instrument_key": "NSE_EQ|INF204KB15I9",
+          "identity": "embedded_and_verified"
+        },
+        {
+          "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_research\\raw\\BANKBEES\\2026-11-01-2026-11-09-5m.json",
+          "sha256": "f1f16c24723be762422e564eace82c3d64a1832db3267a98a935a9811b93499d",
+          "rows": 464,
+          "instrument_key": "NSE_EQ|INF204KB15I9",
+          "identity": "embedded_and_verified"
+        }
+      ],
+      "requests": [
+        {
+          "from": "2023-01-01",
+          "to": "2023-01-31",
+          "rows": 1575,
+          "status": "ok"
+        },
+        {
+          "from": "2023-02-01",
+          "to": "2023-02-28",
+          "rows": 1500,
+          "status": "ok"
+        },
+        {
+          "from": "2023-03-01",
+          "to": "2023-03-31",
+          "rows": 1575,
+          "status": "ok"
+        },
+        {
+          "from": "2023-04-01",
+          "to": "2023-04-30",
+          "rows": 1275,
+          "status": "ok"
+        },
+        {
+          "from": "2023-05-01",
+          "to": "2023-05-31",
+          "rows": 1650,
+          "status": "ok"
+        },
+        {
+          "from": "2023-06-01",
+          "to": "2023-06-30",
+          "rows": 1575,
+          "status": "ok"
+        },
+        {
+          "from": "2023-07-01",
+          "to": "2023-07-31",
+          "rows": 1575,
+          "status": "ok"
+        },
+        {
+          "from": "2023-08-01",
+          "to": "2023-08-31",
+          "rows": 1650,
+          "status": "ok"
+        },
+        {
+          "from": "2023-09-01",
+          "to": "2023-09-30",
+          "rows": 1500,
+          "status": "ok"
+        },
+        {
+          "from": "2023-10-01",
+          "to": "2023-10-31",
+          "rows": 1500,
+          "status": "ok"
+        },
+        {
+          "from": "2023-11-01",
+          "to": "2023-11-30",
+          "rows": 1512,
+          "status": "ok"
+        },
+        {
+          "from": "2023-12-01",
+          "to": "2023-12-31",
+          "rows": 1500,
+          "status": "ok"
+        },
+        {
+          "from": "2024-01-01",
+          "to": "2024-01-31",
+          "rows": 1650,
+          "status": "ok"
+        },
+        {
+          "from": "2024-02-01",
+          "to": "2024-02-29",
+          "rows": 1575,
+          "status": "ok"
+        },
+        {
+          "from": "2024-03-01",
+          "to": "2024-03-31",
+          "rows": 1371,
+          "status": "ok"
+        },
+        {
+          "from": "2024-04-01",
+          "to": "2024-04-30",
+          "rows": 1500,
+          "status": "ok"
+        },
+        {
+          "from": "2024-05-01",
+          "to": "2024-05-31",
+          "rows": 1596,
+          "status": "ok"
+        },
+        {
+          "from": "2024-06-01",
+          "to": "2024-06-30",
+          "rows": 1425,
+          "status": "ok"
+        },
+        {
+          "from": "2024-07-01",
+          "to": "2024-07-31",
+          "rows": 1650,
+          "status": "ok"
+        },
+        {
+          "from": "2024-08-01",
+          "to": "2024-08-31",
+          "rows": 1575,
+          "status": "ok"
+        },
+        {
+          "from": "2024-09-01",
+          "to": "2024-09-30",
+          "rows": 1575,
+          "status": "ok"
+        },
+        {
+          "from": "2024-10-01",
+          "to": "2024-10-31",
+          "rows": 1650,
+          "status": "ok"
+        },
+        {
+          "from": "2024-11-01",
+          "to": "2024-11-30",
+          "rows": 1362,
+          "status": "ok"
+        },
+        {
+          "from": "2024-12-01",
+          "to": "2024-12-31",
+          "rows": 1575,
+          "status": "ok"
+        },
+        {
+          "from": "2025-01-01",
+          "to": "2025-01-31",
+          "rows": 1725,
+          "status": "ok"
+        },
+        {
+          "from": "2025-02-01",
+          "to": "2025-02-28",
+          "rows": 1500,
+          "status": "ok"
+        },
+        {
+          "from": "2025-03-01",
+          "to": "2025-03-31",
+          "rows": 1425,
+          "status": "ok"
+        },
+        {
+          "from": "2025-04-01",
+          "to": "2025-04-30",
+          "rows": 1425,
+          "status": "ok"
+        },
+        {
+          "from": "2025-05-01",
+          "to": "2025-05-31",
+          "rows": 1575,
+          "status": "ok"
+        },
+        {
+          "from": "2025-06-01",
+          "to": "2025-06-30",
+          "rows": 1575,
+          "status": "ok"
+        },
+        {
+          "from": "2025-07-01",
+          "to": "2025-07-31",
+          "rows": 1725,
+          "status": "ok"
+        },
+        {
+          "from": "2025-08-01",
+          "to": "2025-08-31",
+          "rows": 1425,
+          "status": "ok"
+        },
+        {
+          "from": "2025-09-01",
+          "to": "2025-09-30",
+          "rows": 1650,
+          "status": "ok"
+        },
+        {
+          "from": "2025-10-01",
+          "to": "2025-10-31",
+          "rows": 1512,
+          "status": "ok"
+        },
+        {
+          "from": "2025-11-01",
+          "to": "2025-11-30",
+          "rows": 1425,
+          "status": "ok"
+        },
+        {
+          "from": "2025-12-01",
+          "to": "2025-12-31",
+          "rows": 1650,
+          "status": "ok"
+        },
+        {
+          "from": "2026-01-01",
+          "to": "2026-01-31",
+          "rows": 1500,
+          "status": "ok"
+        },
+        {
+          "from": "2026-02-01",
+          "to": "2026-02-28",
+          "rows": 1575,
+          "status": "ok"
+        },
+        {
+          "from": "2026-03-01",
+          "to": "2026-03-31",
+          "rows": 1425,
+          "status": "ok"
+        },
+        {
+          "from": "2026-04-01",
+          "to": "2026-04-30",
+          "rows": 1500,
+          "status": "ok"
+        },
+        {
+          "from": "2026-05-01",
+          "to": "2026-05-31",
+          "rows": 1425,
+          "status": "ok"
+        },
+        {
+          "from": "2026-06-01",
+          "to": "2026-06-30",
+          "rows": 1575,
+          "status": "ok"
+        },
+        {
+          "from": "2026-07-01",
+          "to": "2026-07-31",
+          "rows": 1725,
+          "status": "ok"
+        },
+        {
+          "from": "2026-08-01",
+          "to": "2026-08-31",
+          "rows": 1575,
+          "status": "ok"
+        },
+        {
+          "from": "2026-09-01",
+          "to": "2026-09-30",
+          "rows": 1575,
+          "status": "ok"
+        },
+        {
+          "from": "2026-10-01",
+          "to": "2026-10-31",
+          "rows": 1500,
+          "status": "ok"
+        },
+        {
+          "from": "2026-11-01",
+          "to": "2026-11-09",
+          "rows": 464,
+          "status": "ok"
+        }
+      ],
+      "overlap_conflicting_timestamps": [],
+      "price_adjustments": "Provider raw OHLC; corporate action adjustment status not certified; do not infer adjusted total returns.",
+      "futures_rolls": "not applicable; no futures used",
+      "research_start": "2024-11-10",
+      "as_of_exclusive": "2026-11-10",
+      "warmup_start": "2023-01-01",
+      "special_execution": {
+        "rows": 92,
+        "invalid_ohlc_excluded": 0,
+        "sessions": [
+          {
+            "day": "2023-11-12",
+            "bars": 12,
+            "reason": "observed Muhurat session outside normal hours",
+            "first": "2023-11-12 18:15:00+05:30",
+            "last": "2023-11-12 19:10:00+05:30"
+          },
+          {
+            "day": "2024-03-02",
+            "bars": 21,
+            "reason": "observed short special trading session",
+            "first": "2024-03-02 09:15:00+05:30",
+            "last": "2024-03-02 12:25:00+05:30"
+          },
+          {
+            "day": "2024-05-18",
+            "bars": 21,
+            "reason": "observed short special trading session",
+            "first": "2024-05-18 09:15:00+05:30",
+            "last": "2024-05-18 12:25:00+05:30"
+          },
+          {
+            "day": "2024-11-01",
+            "bars": 12,
+            "reason": "observed Muhurat session outside normal hours",
+            "first": "2024-11-01 18:00:00+05:30",
+            "last": "2024-11-01 18:55:00+05:30"
+          },
+          {
+            "day": "2025-10-21",
+            "bars": 12,
+            "reason": "observed short special/Muhurat session",
+            "first": "2025-10-21 13:45:00+05:30",
+            "last": "2025-10-21 14:40:00+05:30"
+          },
+          {
+            "day": "2026-11-08",
+            "bars": 14,
+            "reason": "observed short special/Muhurat session",
+            "first": "2026-11-08 14:20:00+05:30",
+            "last": "2026-11-08 15:25:00+05:30"
+          }
+        ],
+        "policy": "Execution only: replay valid unique raw candles on explicit known short/special dates, including evening bars. Ordinary stray pre/post-session prints on complete regular dates are excluded. Indicators remain based solely on complete regular sessions.",
+        "timestamp_semantics": "Provider five-minute candle START in Asia/Kolkata; end=start+5min.",
+        "calendar_caveat": "Session labels describe observed provider data; special session clock times are not independently certified against each exchange circular.",
+        "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_research\\bankbees-special-execution.csv",
+        "sha256": "dac408287fcd3a8ab4d1eb33251690925fce476fe21ce83ec4696975ac2c3b03"
+      }
+    }
+  },
+  "reference_urls": [
+    "https://upstox.com/developer/api-documentation/v3/get-historical-candle-data/",
+    "https://www.nseindia.com/static/market-data/market-timings"
+  ]
+}

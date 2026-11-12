@@ -1,0 +1,130 @@
+{
+  "invalid_runs": [
+    {
+      "regime": "persistent_up",
+      "style": "momentum",
+      "stage": "development",
+      "seed": 261112828,
+      "min_cash": -8.381426716994248,
+      "day": "2025-10-30",
+      "equity_at_min": 1008384.0685732828,
+      "closing_trades": [
+        [
+          219.0,
+          1447.0,
+          1448.0,
+          1449.0,
+          9.514755,
+          4.0,
+          8.54248751918876,
+          4.0,
+          -74.76970954317639,
+          70.88063961993144,
+          74.76970954317639,
+          -1.0,
+          3.0,
+          0.0
+        ]
+      ],
+      "closing_symbols": [
+        "IDEA"
+      ],
+      "invalid_path_not_for_inference": true
+    },
+    {
+      "regime": "persistent_up",
+      "style": "momentum",
+      "stage": "development",
+      "seed": 261112937,
+      "min_cash": -37.52748824976219,
+      "day": "2025-10-30",
+      "equity_at_min": 932103.9625117502,
+      "closing_trades": [
+        [
+          219.0,
+          1447.0,
+          1448.0,
+          1449.0,
+          9.514755,
+          1.0,
+          8.54248751918876,
+          1.0,
+          -71.7924273857941,
+          70.82015990498286,
+          71.7924273857941,
+          -1.0,
+          3.0,
+          0.0
+        ]
+      ],
+      "closing_symbols": [
+        "IDEA"
+      ],
+      "invalid_path_not_for_inference": true
+    },
+    {
+      "regime": "persistent_up",
+      "style": "momentum",
+      "stage": "two_year",
+      "seed": 261112828,
+      "min_cash": -8.381426716994248,
+      "day": "2025-10-30",
+      "equity_at_min": 1008384.0685732828,
+      "closing_trades": [
+        [
+          219.0,
+          1447.0,
+          1448.0,
+          1449.0,
+          9.514755,
+          4.0,
+          8.54248751918876,
+          4.0,
+          -74.76970954317639,
+          70.88063961993144,
+          74.76970954317639,
+          -1.0,
+          3.0,
+          0.0
+        ]
+      ],
+      "closing_symbols": [
+        "IDEA"
+      ],
+      "invalid_path_not_for_inference": true
+    },
+    {
+      "regime": "persistent_up",
+      "style": "momentum",
+      "stage": "two_year",
+      "seed": 261112937,
+      "min_cash": -37.52748824976219,
+      "day": "2025-10-30",
+      "equity_at_min": 932103.9625117502,
+      "closing_trades": [
+        [
+          219.0,
+          1447.0,
+          1448.0,
+          1449.0,
+          9.514755,
+          1.0,
+          8.54248751918876,
+          1.0,
+          -71.7924273857941,
+          70.82015990498286,
+          71.7924273857941,
+          -1.0,
+          3.0,
+          0.0
+        ]
+      ],
+      "closing_symbols": [
+        "IDEA"
+      ],
+      "invalid_path_not_for_inference": true
+    }
+  ],
+  "reason": "Originalcashlimitreservesentryfeesbutnotallfuturefixedsellingfees. Ifoneverysmallresidualpositionissold,itsproceedsmaynotcoverfixedsellfeeswhileallothercashisdeployed. Verifyrecordedtrades; noaffectedsimulationpromoted.",
+  "treatment": "Preservefailedseedanddiagnostictrace. Failedpathsarenotvalid fundedreturns; no frozenparameters or initialresearchmodified."
+}

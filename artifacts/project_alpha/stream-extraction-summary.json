@@ -1,0 +1,83 @@
+{
+  "signals": 11,
+  "policies": 43,
+  "selected": 24,
+  "source_windows": [
+    {
+      "instrument_key": "NSE_FO|51334",
+      "session": "2026-10-26",
+      "quotes": 5543,
+      "path": "artifacts\\project_alpha\\stream-quotes-51334-2026-10-26.json",
+      "sha256": "b04a08b74caadb956048b1a62849611d45de7f3139a6464fec3293f847d25d1f"
+    },
+    {
+      "instrument_key": "NSE_FO|51338",
+      "session": "2026-10-26",
+      "quotes": 8324,
+      "path": "artifacts\\project_alpha\\stream-quotes-51338-2026-10-26.json",
+      "sha256": "7aeb76ebcf6fbc253ae66b423abe22e48f820520905994286f32a6dae99883dc"
+    },
+    {
+      "instrument_key": "NSE_FO|51340",
+      "session": "2026-10-26",
+      "quotes": 8233,
+      "path": "artifacts\\project_alpha\\stream-quotes-51340-2026-10-26.json",
+      "sha256": "9db7545fc20c823ba7ba00d741aa31ebe9bd434ea66f102f57e5660316f1df29"
+    },
+    {
+      "instrument_key": "NSE_FO|51342",
+      "session": "2026-10-26",
+      "quotes": 5556,
+      "path": "artifacts\\project_alpha\\stream-quotes-51342-2026-10-26.json",
+      "sha256": "22188e3facbe0545d151eade908a24ef6868311ea8a7b0af061cf4c248baedc2"
+    },
+    {
+      "instrument_key": "NSE_FO|53782",
+      "session": "2026-10-28",
+      "quotes": 6470,
+      "path": "artifacts\\project_alpha\\stream-quotes-53782-2026-10-28.json",
+      "sha256": "74afd426097ae82069cad21f3f7b2e980118db50ce40bf752fc2af3d65e1aabe"
+    },
+    {
+      "instrument_key": "NSE_FO|53792",
+      "session": "2026-10-28",
+      "quotes": 6376,
+      "path": "artifacts\\project_alpha\\stream-quotes-53792-2026-10-28.json",
+      "sha256": "27ffb857bac93a99b0934ff7c4a05c23e6d9424a1e37c5daf6cc8b525e075178"
+    },
+    {
+      "instrument_key": "NSE_FO|53794",
+      "session": "2026-10-28",
+      "quotes": 6474,
+      "path": "artifacts\\project_alpha\\stream-quotes-53794-2026-10-28.json",
+      "sha256": "b1009af1496ce4ba455e42c6b54a2838cd25c72c6d1278b074add4a31c5e8269"
+    },
+    {
+      "instrument_key": "NSE_FO|53796",
+      "session": "2026-10-29",
+      "quotes": 5572,
+      "path": "artifacts\\project_alpha\\stream-quotes-53796-2026-10-29.json",
+      "sha256": "bfb05a2e45337fb973989dc22c0c7655cb429263e775f5e04b363b19c27b4c43"
+    },
+    {
+      "instrument_key": "NSE_FO|53836",
+      "session": "2026-10-29",
+      "quotes": 5517,
+      "path": "artifacts\\project_alpha\\stream-quotes-53836-2026-10-29.json",
+      "sha256": "ba3ac5e828bad1db8d8a71e8283f53da6351a64b1726736d32099f6b591c181d"
+    },
+    {
+      "instrument_key": "NSE_FO|53860",
+      "session": "2026-10-29",
+      "quotes": 5568,
+      "path": "artifacts\\project_alpha\\stream-quotes-53860-2026-10-29.json",
+      "sha256": "873494a169d1d96543d9423cd11c34cf58617f5dc62610cd0575a9dae4747cb9"
+    }
+  ],
+  "total_extracted_quote_rows": 63633,
+  "rejections": {
+    "selected": 24,
+    "no_eligible_contract": 16,
+    "no_fresh_prior_chain": 3
+  }
+}

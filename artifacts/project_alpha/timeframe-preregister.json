@@ -1,0 +1,11 @@
+{
+  "families": [
+    "ema_trend",
+    "donchian",
+    "pullback"
+  ],
+  "comparison": "Unmodified5m entries versus same entries filtered by latest completed15mEMA4/9direction",
+  "parameters": "EMA4/9 approximates60/135minutes of context; fixed once, no optimization. Same-day completed15m bars only; EMA retains preceding session context.",
+  "scope": "Causal15mconfirmation ablation, not a complete independent15mstrategy family search. Already inspected historical data, no prospective holdout.",
+  "data_sha256": "b6aab0c4a14bf0568b92d53f44cc6265a1cb33f9b8fb5c95720dbb57c6eed63c"
+}

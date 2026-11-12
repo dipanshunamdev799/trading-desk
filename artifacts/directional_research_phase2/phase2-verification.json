@@ -1,0 +1,14 @@
+{
+  "passed_groups": 7,
+  "recorded_hashes_verified": 261,
+  "manifest_files": 392,
+  "checks": [
+    "All option/feature/long-horizon recorded source hashes match",
+    "Expanded controls coverage and conditional-gate claims reconcile",
+    "Context counts, SQLite panel and no-positive-lower-bound claim reconcile",
+    "Daily premium 424 policies/374 distinct outcomes/16 groups reconcile; none positive-lower-bound",
+    "Recent premium 68attempts/62outcomes, prior universes, exact gross PnL and small group counts reconcile",
+    "Eight actual current-policy decisions are abstentions; no fill table exists",
+    "Report and README local links resolve"
+  ]
+}

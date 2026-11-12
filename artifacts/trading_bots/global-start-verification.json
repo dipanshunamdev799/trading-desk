@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-11",
+  "bot_tests_passed": 41,
+  "final_worker_tests_passed": 11,
+  "origin_tests_passed": 7,
+  "production_build": "passed",
+  "healthy_paper_workers": 11,
+  "kill_switch": false,
+  "open_or_pending_positions": 0,
+  "global_start_bundle_verified": true,
+  "startup_idempotence": "Launcher reported 0 start requests and 11 already active",
+  "browser_verification": "Blocked: Windows browser URL-policy enforcement is unsupported; no browser input was performed"
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "baseline": "momentum_30m",
+    "horizon": 15,
+    "net2_mean_ci95": [
+      -2.0407201086956244,
+      0.14012422360254234
+    ],
+    "block_sessions": 5,
+    "resamples": 3000
+  },
+  {
+    "baseline": "momentum_30m",
+    "horizon": 30,
+    "net2_mean_ci95": [
+      -2.1952730978259756,
+      2.388664402174017
+    ],
+    "block_sessions": 5,
+    "resamples": 3000
+  },
+  {
+    "baseline": "momentum_30m",
+    "horizon": 60,
+    "net2_mean_ci95": [
+      -0.2818641304349257,
+      8.440554347826044
+    ],
+    "block_sessions": 5,
+    "resamples": 3000
+  }
+]

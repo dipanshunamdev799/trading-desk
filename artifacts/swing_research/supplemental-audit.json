@@ -1,0 +1,254 @@
+{
+  "retrieved_at": "2026-11-10T18:00:47.633296+00:00",
+  "research_window": [
+    "2024-11-10",
+    "2026-11-10 exclusive"
+  ],
+  "daily_calendar_crosscheck": {
+    "source_path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\directional_research\\nifty-upstox-1day.json",
+    "sha256": "faafc7764dc4e1de23f9e8f7f1b1c84aabcb4cb1eb7a98b7bc6a75ceff72023a",
+    "frozen_daily_date_count": 494,
+    "last_daily_date": "2026-11-08",
+    "instruments": {
+      "NIFTY": {
+        "retained_regular_sessions": 493,
+        "first": "2024-11-11",
+        "last": "2026-11-09",
+        "daily_dates_without_regular_session": [
+          "2025-10-21",
+          "2026-11-08"
+        ],
+        "regular_session_dates_after_old_daily_cache": [
+          "2026-11-09"
+        ]
+      },
+      "NIFTYBEES": {
+        "retained_regular_sessions": 493,
+        "first": "2024-11-11",
+        "last": "2026-11-09",
+        "daily_dates_without_regular_session": [
+          "2025-10-21",
+          "2026-11-08"
+        ],
+        "regular_session_dates_after_old_daily_cache": [
+          "2026-11-09"
+        ]
+      },
+      "BANKBEES": {
+        "retained_regular_sessions": 493,
+        "first": "2024-11-11",
+        "last": "2026-11-09",
+        "daily_dates_without_regular_session": [
+          "2025-10-21",
+          "2026-11-08"
+        ],
+        "regular_session_dates_after_old_daily_cache": [
+          "2026-11-09"
+        ]
+      }
+    },
+    "caveat": "Crosscheck is against same-provider frozen NIFTY daily candles, not an independently verified official exchange calendar.2025-10-21 and2026-11-08 are deliberately excluded special/partial sessions;2026-11-09 was fetched after the old daily cache."
+  },
+  "corporate_actions": {
+    "NIFTYBEES": {
+      "isin": "INF204KB14I2",
+      "query_status": "success",
+      "response": [],
+      "caveat": "Empty provider response cannot independently certify absence of corporate actions or adjusted prices."
+    },
+    "BANKBEES": {
+      "isin": "INF204KB15I9",
+      "query_status": "success",
+      "response": [],
+      "caveat": "Empty provider response cannot independently certify absence of corporate actions or adjusted prices."
+    }
+  },
+  "current_instrument_master_records": [
+    {
+      "instrument_key": "NSE_EQ|INF204KB15I9",
+      "trading_symbol": "BANKBEES",
+      "name": "NIP IND ETF BANK BEES",
+      "instrument_type": "EQ",
+      "segment": "NSE_EQ",
+      "isin": "INF204KB15I9",
+      "lot_size": 1
+    },
+    {
+      "instrument_key": "NSE_EQ|INF204KB14I2",
+      "trading_symbol": "NIFTYBEES",
+      "name": "NIP IND ETF NIFTY BEES",
+      "instrument_type": "EQ",
+      "segment": "NSE_EQ",
+      "isin": "INF204KB14I2",
+      "lot_size": 1
+    }
+  ],
+  "sources": [
+    "https://upstox.com/developer/api-documentation/v3/get-historical-candle-data/",
+    "https://assets.upstox.com/market-quote/instruments/exchange/NSE.json.gz",
+    "https://www.nseindia.com/static/market-data/market-timings"
+  ],
+  "execution_caveat": "Valid raw special-session bars are preserved separately for execution replay; concatenate them with regular bars for the backtester while keeping indicator inputs regular-only. Stops and targets still use conservative OHLC ordering, not tick-level sequencing.",
+  "metadata_caveat": "Current BOD records verify instrument key/ISIN/lot identity today; they do not provide point-in-time historical contract/universe membership. ETFs are cash-delivery long-only, without futures rolls.",
+  "special_session_execution": {
+    "NIFTY": {
+      "rows": 92,
+      "invalid_ohlc_excluded": 0,
+      "sessions": [
+        {
+          "day": "2023-11-12",
+          "bars": 12,
+          "reason": "observed Muhurat session outside normal hours",
+          "first": "2023-11-12 18:15:00+05:30",
+          "last": "2023-11-12 19:10:00+05:30"
+        },
+        {
+          "day": "2024-03-02",
+          "bars": 21,
+          "reason": "observed short special trading session",
+          "first": "2024-03-02 09:15:00+05:30",
+          "last": "2024-03-02 12:25:00+05:30"
+        },
+        {
+          "day": "2024-05-18",
+          "bars": 21,
+          "reason": "observed short special trading session",
+          "first": "2024-05-18 09:15:00+05:30",
+          "last": "2024-05-18 12:25:00+05:30"
+        },
+        {
+          "day": "2024-11-01",
+          "bars": 12,
+          "reason": "observed Muhurat session outside normal hours",
+          "first": "2024-11-01 18:00:00+05:30",
+          "last": "2024-11-01 18:55:00+05:30"
+        },
+        {
+          "day": "2025-10-21",
+          "bars": 12,
+          "reason": "observed short special/Muhurat session",
+          "first": "2025-10-21 13:45:00+05:30",
+          "last": "2025-10-21 14:40:00+05:30"
+        },
+        {
+          "day": "2026-11-08",
+          "bars": 14,
+          "reason": "observed short special/Muhurat session",
+          "first": "2026-11-08 14:20:00+05:30",
+          "last": "2026-11-08 15:25:00+05:30"
+        }
+      ],
+      "policy": "Execution only: replay valid unique raw candles on explicit known short/special dates, including evening bars. Ordinary stray pre/post-session prints on complete regular dates are excluded. Indicators remain based solely on complete regular sessions.",
+      "timestamp_semantics": "Provider five-minute candle START in Asia/Kolkata; end=start+5min.",
+      "calendar_caveat": "Session labels describe observed provider data; special session clock times are not independently certified against each exchange circular.",
+      "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_research\\nifty-special-execution.csv",
+      "sha256": "9cfd7ce8b1192c5be438d146469b60020e88dc80fa9b1ce10d515e0d3662a277"
+    },
+    "NIFTYBEES": {
+      "rows": 92,
+      "invalid_ohlc_excluded": 0,
+      "sessions": [
+        {
+          "day": "2023-11-12",
+          "bars": 12,
+          "reason": "observed Muhurat session outside normal hours",
+          "first": "2023-11-12 18:15:00+05:30",
+          "last": "2023-11-12 19:10:00+05:30"
+        },
+        {
+          "day": "2024-03-02",
+          "bars": 21,
+          "reason": "observed short special trading session",
+          "first": "2024-03-02 09:15:00+05:30",
+          "last": "2024-03-02 12:25:00+05:30"
+        },
+        {
+          "day": "2024-05-18",
+          "bars": 21,
+          "reason": "observed short special trading session",
+          "first": "2024-05-18 09:15:00+05:30",
+          "last": "2024-05-18 12:25:00+05:30"
+        },
+        {
+          "day": "2024-11-01",
+          "bars": 12,
+          "reason": "observed Muhurat session outside normal hours",
+          "first": "2024-11-01 18:00:00+05:30",
+          "last": "2024-11-01 18:55:00+05:30"
+        },
+        {
+          "day": "2025-10-21",
+          "bars": 12,
+          "reason": "observed short special/Muhurat session",
+          "first": "2025-10-21 13:45:00+05:30",
+          "last": "2025-10-21 14:40:00+05:30"
+        },
+        {
+          "day": "2026-11-08",
+          "bars": 14,
+          "reason": "observed short special/Muhurat session",
+          "first": "2026-11-08 14:20:00+05:30",
+          "last": "2026-11-08 15:25:00+05:30"
+        }
+      ],
+      "policy": "Execution only: replay valid unique raw candles on explicit known short/special dates, including evening bars. Ordinary stray pre/post-session prints on complete regular dates are excluded. Indicators remain based solely on complete regular sessions.",
+      "timestamp_semantics": "Provider five-minute candle START in Asia/Kolkata; end=start+5min.",
+      "calendar_caveat": "Session labels describe observed provider data; special session clock times are not independently certified against each exchange circular.",
+      "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_research\\niftybees-special-execution.csv",
+      "sha256": "21530395d008bc18d4ae0cef9246a9d3e10408e9926354cdc875f0268a265012"
+    },
+    "BANKBEES": {
+      "rows": 92,
+      "invalid_ohlc_excluded": 0,
+      "sessions": [
+        {
+          "day": "2023-11-12",
+          "bars": 12,
+          "reason": "observed Muhurat session outside normal hours",
+          "first": "2023-11-12 18:15:00+05:30",
+          "last": "2023-11-12 19:10:00+05:30"
+        },
+        {
+          "day": "2024-03-02",
+          "bars": 21,
+          "reason": "observed short special trading session",
+          "first": "2024-03-02 09:15:00+05:30",
+          "last": "2024-03-02 12:25:00+05:30"
+        },
+        {
+          "day": "2024-05-18",
+          "bars": 21,
+          "reason": "observed short special trading session",
+          "first": "2024-05-18 09:15:00+05:30",
+          "last": "2024-05-18 12:25:00+05:30"
+        },
+        {
+          "day": "2024-11-01",
+          "bars": 12,
+          "reason": "observed Muhurat session outside normal hours",
+          "first": "2024-11-01 18:00:00+05:30",
+          "last": "2024-11-01 18:55:00+05:30"
+        },
+        {
+          "day": "2025-10-21",
+          "bars": 12,
+          "reason": "observed short special/Muhurat session",
+          "first": "2025-10-21 13:45:00+05:30",
+          "last": "2025-10-21 14:40:00+05:30"
+        },
+        {
+          "day": "2026-11-08",
+          "bars": 14,
+          "reason": "observed short special/Muhurat session",
+          "first": "2026-11-08 14:20:00+05:30",
+          "last": "2026-11-08 15:25:00+05:30"
+        }
+      ],
+      "policy": "Execution only: replay valid unique raw candles on explicit known short/special dates, including evening bars. Ordinary stray pre/post-session prints on complete regular dates are excluded. Indicators remain based solely on complete regular sessions.",
+      "timestamp_semantics": "Provider five-minute candle START in Asia/Kolkata; end=start+5min.",
+      "calendar_caveat": "Session labels describe observed provider data; special session clock times are not independently certified against each exchange circular.",
+      "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_research\\bankbees-special-execution.csv",
+      "sha256": "dac408287fcd3a8ab4d1eb33251690925fce476fe21ce83ec4696975ac2c3b03"
+    }
+  }
+}

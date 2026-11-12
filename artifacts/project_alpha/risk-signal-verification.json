@@ -1,0 +1,17 @@
+{
+  "passed": 11,
+  "checks": [
+    "empty source abstains",
+    "malformed source abstains",
+    "research candidate cannot override unpassed acceptance",
+    "future candles do not affect current decision",
+    "late entry cannot breach15:10exit",
+    "conflicting revision rejected",
+    "closed market suppresses candidate",
+    "stale prior session suppresses candidate",
+    "remaining daily planned risk prevents third entry",
+    "minimum lot above risk budget abstains",
+    "cash must fund premium and full reserved fee allowance"
+  ],
+  "synthetic_risk_fixtures_only": true
+}

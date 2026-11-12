@@ -1,0 +1,251 @@
+{
+  "pbo": 0.7,
+  "blocks": 6,
+  "symmetric_splits": 20,
+  "original_rules": 1174,
+  "distinct_rules": 1144,
+  "folds": [
+    {
+      "train_blocks": [
+        0,
+        1,
+        2
+      ],
+      "winner": "hybrid_trend_macd_support_33b943676ce3",
+      "in_sample_daily_sharpe": 0.13115680751259187,
+      "test_daily_sharpe": -0.11343783124822923,
+      "test_relative_rank": 0.13155594405594406,
+      "logit": -1.887270977802941
+    },
+    {
+      "train_blocks": [
+        0,
+        1,
+        3
+      ],
+      "winner": "support_sweep_87aaa5fb66d0",
+      "in_sample_daily_sharpe": 0.19888711637053094,
+      "test_daily_sharpe": -0.11814088234584981,
+      "test_relative_rank": 0.42613636363636365,
+      "logit": -0.297632403304949
+    },
+    {
+      "train_blocks": [
+        0,
+        1,
+        4
+      ],
+      "winner": "hybrid_trend_macd_support_33b943676ce3",
+      "in_sample_daily_sharpe": -0.014592918598565152,
+      "test_daily_sharpe": -0.05657152564471579,
+      "test_relative_rank": 0.23907342657342656,
+      "logit": -1.157766137346208
+    },
+    {
+      "train_blocks": [
+        0,
+        1,
+        5
+      ],
+      "winner": "macd_hidden_divergence_ceb34184f1fc",
+      "in_sample_daily_sharpe": 0.023817783031605522,
+      "test_daily_sharpe": -0.144576525524847,
+      "test_relative_rank": 0.028409090909090908,
+      "logit": -3.5322256440685593
+    },
+    {
+      "train_blocks": [
+        0,
+        2,
+        3
+      ],
+      "winner": "macd_below_zero_9975e2d7b57f",
+      "in_sample_daily_sharpe": 0.228185791099956,
+      "test_daily_sharpe": -0.33871692584671037,
+      "test_relative_rank": 0.021416083916083916,
+      "logit": -3.8219643184881282
+    },
+    {
+      "train_blocks": [
+        0,
+        2,
+        4
+      ],
+      "winner": "hybrid_divergence_support_a9a0bbce674d",
+      "in_sample_daily_sharpe": 0.1188064329793311,
+      "test_daily_sharpe": -0.08791265651697786,
+      "test_relative_rank": 0.44973776223776224,
+      "logit": -0.20173029821029742
+    },
+    {
+      "train_blocks": [
+        0,
+        2,
+        5
+      ],
+      "winner": "macd_below_zero_9975e2d7b57f",
+      "in_sample_daily_sharpe": 0.16325220315076147,
+      "test_daily_sharpe": -0.3154776519324067,
+      "test_relative_rank": 0.0030594405594405595,
+      "logit": -5.786459073229075
+    },
+    {
+      "train_blocks": [
+        0,
+        3,
+        4
+      ],
+      "winner": "macd_below_zero_3db27ea1d206",
+      "in_sample_daily_sharpe": 0.13921069840641528,
+      "test_daily_sharpe": -0.03360184131517855,
+      "test_relative_rank": 0.9217657342657343,
+      "logit": 2.4665833746380197
+    },
+    {
+      "train_blocks": [
+        0,
+        3,
+        5
+      ],
+      "winner": "macd_below_zero_878167cd0709",
+      "in_sample_daily_sharpe": 0.17601488748064065,
+      "test_daily_sharpe": -0.15488409412392376,
+      "test_relative_rank": 0.444493006993007,
+      "logit": -0.22294687514089423
+    },
+    {
+      "train_blocks": [
+        0,
+        4,
+        5
+      ],
+      "winner": "macd_divergence_e2137a320f8b",
+      "in_sample_daily_sharpe": 0.03621479808972497,
+      "test_daily_sharpe": 0.025229535279611668,
+      "test_relative_rank": 0.8116258741258742,
+      "logit": 1.4606094712489583
+    },
+    {
+      "train_blocks": [
+        1,
+        2,
+        3
+      ],
+      "winner": "hybrid_divergence_support_c42d86df3bc6",
+      "in_sample_daily_sharpe": 0.20942447599419076,
+      "test_daily_sharpe": -0.15836287768305743,
+      "test_relative_rank": 0.32823426573426573,
+      "logit": -0.7161820917744611
+    },
+    {
+      "train_blocks": [
+        1,
+        2,
+        4
+      ],
+      "winner": "hybrid_divergence_support_c42d86df3bc6",
+      "in_sample_daily_sharpe": 0.11490908757986752,
+      "test_daily_sharpe": -0.020893099339529073,
+      "test_relative_rank": 0.3369755244755245,
+      "logit": -0.6768016057852028
+    },
+    {
+      "train_blocks": [
+        1,
+        2,
+        5
+      ],
+      "winner": "hybrid_divergence_support_c42d86df3bc6",
+      "in_sample_daily_sharpe": 0.06678663637007527,
+      "test_daily_sharpe": 0.03323667610893119,
+      "test_relative_rank": 0.8972902097902098,
+      "logit": 2.1674719028747744
+    },
+    {
+      "train_blocks": [
+        1,
+        3,
+        4
+      ],
+      "winner": "hybrid_divergence_support_9a966d329230",
+      "in_sample_daily_sharpe": 0.15853227645845452,
+      "test_daily_sharpe": -0.20626804064724763,
+      "test_relative_rank": 0.054632867132867136,
+      "logit": -2.850937688650758
+    },
+    {
+      "train_blocks": [
+        1,
+        3,
+        5
+      ],
+      "winner": "support_sweep_87aaa5fb66d0",
+      "in_sample_daily_sharpe": 0.1340806580552718,
+      "test_daily_sharpe": -0.07113369410706533,
+      "test_relative_rank": 0.5703671328671329,
+      "logit": 0.2833491996096275
+    },
+    {
+      "train_blocks": [
+        1,
+        4,
+        5
+      ],
+      "winner": "donchian_breakout_d142dc87cde5",
+      "in_sample_daily_sharpe": -0.07194836114211985,
+      "test_daily_sharpe": -0.19338236318067695,
+      "test_relative_rank": 0.0013111888111888112,
+      "logit": -6.635509014660196
+    },
+    {
+      "train_blocks": [
+        2,
+        3,
+        4
+      ],
+      "winner": "hybrid_divergence_support_c42d86df3bc6",
+      "in_sample_daily_sharpe": 0.20205884581112862,
+      "test_daily_sharpe": -0.15908157418865282,
+      "test_relative_rank": 0.4820804195804196,
+      "logit": -0.07170903431572909
+    },
+    {
+      "train_blocks": [
+        2,
+        3,
+        5
+      ],
+      "winner": "support_sweep_59b84c0f4975",
+      "in_sample_daily_sharpe": 0.21822047884338366,
+      "test_daily_sharpe": -0.18293220955787753,
+      "test_relative_rank": 0.5249125874125874,
+      "logit": 0.09973293495877396
+    },
+    {
+      "train_blocks": [
+        2,
+        4,
+        5
+      ],
+      "winner": "macd_divergence_f37572c6ce72",
+      "in_sample_daily_sharpe": 0.11508680925900378,
+      "test_daily_sharpe": -0.08501578316479798,
+      "test_relative_rank": 0.31774475524475526,
+      "logit": -0.7641554429819127
+    },
+    {
+      "train_blocks": [
+        3,
+        4,
+        5
+      ],
+      "winner": "support_sweep_59b84c0f4975",
+      "in_sample_daily_sharpe": 0.09515056045347767,
+      "test_daily_sharpe": -0.027567329806362423,
+      "test_relative_rank": 0.8666958041958042,
+      "logit": 1.872054351912384
+    }
+  ],
+  "limitation": "Only development returns; nonchronological diagnostic of search instability, not a deployable walk-forward policy or evidence from the reserved final period.",
+  "scope": "Frozen coarse grid only; development-selected refinements excluded; duplicate rounded return paths removed before CSCV ranking."
+}

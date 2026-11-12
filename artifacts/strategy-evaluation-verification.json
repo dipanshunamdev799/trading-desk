@@ -1,0 +1,32 @@
+{
+  "as_of": "2026-11-10T09:01:02.994520+00:00",
+  "http_status": 200,
+  "checks": [
+    "all11 profiles",
+    "ema_trend: normalized weights and contributions",
+    "failed_breakout: normalized weights and contributions",
+    "pullback: normalized weights and contributions",
+    "donchian: normalized weights and contributions",
+    "momentum: normalized weights and contributions",
+    "compression: normalized weights and contributions",
+    "orb: normalized weights and contributions",
+    "ema_reversion: normalized weights and contributions",
+    "gap_continuation: normalized weights and contributions",
+    "gap_fade: normalized weights and contributions",
+    "rsi_reversion: normalized weights and contributions"
+  ],
+  "market_context": {
+    "regime": "uptrend",
+    "spot": 24999.95,
+    "atr": 28.54999999999979,
+    "bar_at": "2026-11-09T15:10:00+05:30",
+    "session_phase": "closed",
+    "fresh": false,
+    "efficiency": 0.38295577130527786,
+    "volatility_ratio": 0.9581111044525501,
+    "current_session_complete_so_far": true
+  },
+  "backend_tests": 304,
+  "frontend_tests": 81,
+  "research_only": true
+}

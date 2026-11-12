@@ -1,0 +1,132 @@
+{
+  "underlying_trades": 17,
+  "policy_attempts": 68,
+  "observed_policy_rows": 62,
+  "rejections": {
+    "observed_candle_proxy": 62,
+    "expired_or_missing_exact_current_mapping": 6
+  },
+  "groups": [
+    {
+      "family": "donchian",
+      "expiry_bucket": "month_end_proxy",
+      "strike_rule": "ATM",
+      "n": 5,
+      "sessions": 5,
+      "gross_mean_rupees_per_lot": 1832.3500000000008,
+      "illustrative_net_mean_rupees_per_lot": 1567.6253750000008,
+      "severe_net_mean_rupees_per_lot": 1272.625375000001
+    },
+    {
+      "family": "donchian",
+      "expiry_bucket": "month_end_proxy",
+      "strike_rule": "one_step_ITM",
+      "n": 5,
+      "sessions": 5,
+      "gross_mean_rupees_per_lot": 1925.2999999999993,
+      "illustrative_net_mean_rupees_per_lot": 1657.8053999999993,
+      "severe_net_mean_rupees_per_lot": 1362.8053999999993
+    },
+    {
+      "family": "donchian",
+      "expiry_bucket": "nearest_nonexpiry_day",
+      "strike_rule": "ATM",
+      "n": 4,
+      "sessions": 4,
+      "gross_mean_rupees_per_lot": 2494.3750000000005,
+      "illustrative_net_mean_rupees_per_lot": 2244.0572187500006,
+      "severe_net_mean_rupees_per_lot": 1949.0572187500006
+    },
+    {
+      "family": "donchian",
+      "expiry_bucket": "nearest_nonexpiry_day",
+      "strike_rule": "one_step_ITM",
+      "n": 4,
+      "sessions": 4,
+      "gross_mean_rupees_per_lot": 2670.6875,
+      "illustrative_net_mean_rupees_per_lot": 2417.409375,
+      "severe_net_mean_rupees_per_lot": 2122.409375
+    },
+    {
+      "family": "ema_trend",
+      "expiry_bucket": "month_end_proxy",
+      "strike_rule": "ATM",
+      "n": 7,
+      "sessions": 5,
+      "gross_mean_rupees_per_lot": 1983.4285714285709,
+      "illustrative_net_mean_rupees_per_lot": 1718.0033392857142,
+      "severe_net_mean_rupees_per_lot": 1423.0033392857142
+    },
+    {
+      "family": "ema_trend",
+      "expiry_bucket": "month_end_proxy",
+      "strike_rule": "one_step_ITM",
+      "n": 7,
+      "sessions": 5,
+      "gross_mean_rupees_per_lot": 2052.1428571428573,
+      "illustrative_net_mean_rupees_per_lot": 1783.9771785714288,
+      "severe_net_mean_rupees_per_lot": 1488.9771785714288
+    },
+    {
+      "family": "ema_trend",
+      "expiry_bucket": "nearest_nonexpiry_day",
+      "strike_rule": "ATM",
+      "n": 6,
+      "sessions": 4,
+      "gross_mean_rupees_per_lot": 2677.4583333333335,
+      "illustrative_net_mean_rupees_per_lot": 2426.794833333334,
+      "severe_net_mean_rupees_per_lot": 2131.7948333333334
+    },
+    {
+      "family": "ema_trend",
+      "expiry_bucket": "nearest_nonexpiry_day",
+      "strike_rule": "one_step_ITM",
+      "n": 6,
+      "sessions": 4,
+      "gross_mean_rupees_per_lot": 2895.75,
+      "illustrative_net_mean_rupees_per_lot": 2642.0948750000002,
+      "severe_net_mean_rupees_per_lot": 2347.0948750000002
+    },
+    {
+      "family": "pullback",
+      "expiry_bucket": "month_end_proxy",
+      "strike_rule": "ATM",
+      "n": 5,
+      "sessions": 5,
+      "gross_mean_rupees_per_lot": 2056.600000000001,
+      "illustrative_net_mean_rupees_per_lot": 1791.4629500000005,
+      "severe_net_mean_rupees_per_lot": 1496.4629500000008
+    },
+    {
+      "family": "pullback",
+      "expiry_bucket": "month_end_proxy",
+      "strike_rule": "one_step_ITM",
+      "n": 5,
+      "sessions": 5,
+      "gross_mean_rupees_per_lot": 2193.75,
+      "illustrative_net_mean_rupees_per_lot": 1925.764975,
+      "severe_net_mean_rupees_per_lot": 1630.764975
+    },
+    {
+      "family": "pullback",
+      "expiry_bucket": "nearest_nonexpiry_day",
+      "strike_rule": "ATM",
+      "n": 4,
+      "sessions": 4,
+      "gross_mean_rupees_per_lot": 2861.625,
+      "illustrative_net_mean_rupees_per_lot": 2610.66371875,
+      "severe_net_mean_rupees_per_lot": 2315.66371875
+    },
+    {
+      "family": "pullback",
+      "expiry_bucket": "nearest_nonexpiry_day",
+      "strike_rule": "one_step_ITM",
+      "n": 4,
+      "sessions": 4,
+      "gross_mean_rupees_per_lot": 3085.875,
+      "illustrative_net_mean_rupees_per_lot": 2831.8924374999997,
+      "severe_net_mean_rupees_per_lot": 2536.8924374999997
+    }
+  ],
+  "fetch_errors": []
+}

@@ -1,0 +1,20 @@
+{
+  "accepted": {
+    "url": "https://www.motilaloswalmf.com/content/dam/motilal-mf/downloads/mf/month-end-portfolio/2024/nov/6f698-month-end-portfolio-october-2024.xls",
+    "published": "2024-11-07",
+    "portfolio_asof": "2024-10-31",
+    "sheet": "YO18",
+    "equity_holdings": 500,
+    "historical_nifty50_isin_crosscheck_missing": []
+  },
+  "attempted_not_used": [
+    {
+      "url": "https://www.niftyindices.com/IndexArchive/indices_dataOct2024.zip",
+      "reason": "network timeout; exact archived index constituent master not obtained"
+    },
+    {
+      "url": "https://niftyhistory.in/api/rebalance/nifty500/2024-09-30",
+      "reason": "unverified secondary response includes501 identifiers and obsolete names; rejected, no effect on selection"
+    }
+  ]
+}

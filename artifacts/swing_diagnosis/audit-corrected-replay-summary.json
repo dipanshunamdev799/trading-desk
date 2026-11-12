@@ -1,0 +1,16 @@
+{
+  "final": {
+    "rules": 48,
+    "positive_rules": 2,
+    "median_return_pct": -0.0480295043090162,
+    "max_return_pct": 0.007000572526361104
+  },
+  "two_year": {
+    "rules": 48,
+    "positive_rules": 0,
+    "median_return_pct": -0.19185883459639785,
+    "max_return_pct": -0.02529116972839196
+  },
+  "scope": "48 frozen finalists only; same entries/params, no new selection. Correct multi-component dividends and actual same-day STT/stamp; retain planned overnight-risk/targets, economic ex-date accrual, flat brokerage and all original execution limitations. This reuses contaminated dates and does not newly validate robustness.",
+  "original_panel_sha256": "d8c7ebe08ec18dd5b6aa7cca71017e6c1fd513d9f92fcdb10b91e26e42691a5a"
+}

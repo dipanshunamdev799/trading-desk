@@ -1,0 +1,37 @@
+[
+  {
+    "name": "NIFTY 50",
+    "url": "https://www.niftyindices.com/Backpage.aspx/getTotalReturnIndexString",
+    "status": 200,
+    "bytes": 95469,
+    "error": "Expecting value: line 1 column 2 (char 1)"
+  },
+  {
+    "name": "NIFTY 500",
+    "url": "https://www.niftyindices.com/Backpage.aspx/getTotalReturnIndexString",
+    "status": 200,
+    "bytes": 95469,
+    "error": "Expecting value: line 1 column 2 (char 1)"
+  },
+  {
+    "name": "NIFTY BANK",
+    "url": "https://www.niftyindices.com/Backpage.aspx/getTotalReturnIndexString",
+    "status": 200,
+    "bytes": 95469,
+    "error": "Expecting value: line 1 column 2 (char 1)"
+  },
+  {
+    "name": "NIFTY IT",
+    "url": "https://www.niftyindices.com/Backpage.aspx/getTotalReturnIndexString",
+    "status": 200,
+    "bytes": 95469,
+    "error": "Expecting value: line 1 column 2 (char 1)"
+  },
+  {
+    "name": "NIFTY PHARMA",
+    "url": "https://www.niftyindices.com/Backpage.aspx/getTotalReturnIndexString",
+    "status": 200,
+    "bytes": 95469,
+    "error": "Expecting value: line 1 column 2 (char 1)"
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "data_sha256": "faafc7764dc4e1de23f9e8f7f1b1c84aabcb4cb1eb7a98b7bc6a75ceff72023a",
+  "script_sha256": "59354cd914c032f7f7378babf477199853261ed23defadead2664dbebb80a7c8",
+  "configuration_count": 207,
+  "splits": {
+    "development": {
+      "first": "2017-10-24",
+      "last": "2023-03-24",
+      "sessions": 1345
+    },
+    "validation": {
+      "first": "2023-03-27",
+      "last": "2025-01-15",
+      "sessions": 448
+    },
+    "holdout": {
+      "first": "2025-01-16",
+      "last": "2026-11-08",
+      "sessions": 449
+    }
+  },
+  "warmup_sessions": 200,
+  "holds_sessions": [
+    1,
+    3,
+    5
+  ],
+  "friction_round_trip_index_bps": [
+    0,
+    5,
+    10
+  ],
+  "entry": "Next observed session open after closing signal",
+  "exit": "Close of holding session; trades crossing partition boundaries are excluded",
+  "selection": "One per family; dev>=50,val>=20,dev and val net5>0; rank min(dev net5,val net5). Holdout not used.",
+  "bootstrap": "3000 moving ten-session blocks, indexed by entry session; conditional, no multiplicity adjustment",
+  "seed": 20261109,
+  "special_sessions": "Included as published daily observations; a session need not have regular duration"
+}

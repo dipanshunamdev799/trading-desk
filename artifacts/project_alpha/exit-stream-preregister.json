@@ -1,0 +1,51 @@
+{
+  "experiment_id": "ALPHA-STREAM-EXIT-001",
+  "input_sha256": {
+    "artifacts\\project_alpha\\stream-selection.json": "9a8f47dc0088ab9cecfe75d13e871e5d97225612e604db53737c6f7060967e93",
+    "scripts\\research_alpha_streams.py": "da5deab80ea127b0c1187c05379a5900dec2d8b719b0ae2dcf8bad28b7a9b346",
+    "scripts\\alpha_event_engine.py": "22e455d038e6bdaf6123e886983c1026518f33a0c346dfdad6834aa0b229d854",
+    "scripts\\test_alpha_event_engine.py": "a6308b15e1ec31f680c195c930e52e87c0f936adb8dd8f49ac45c6644dc8f762",
+    "artifacts\\project_alpha\\stream-quotes-51334-2026-10-26.json": "b04a08b74caadb956048b1a62849611d45de7f3139a6464fec3293f847d25d1f",
+    "artifacts\\project_alpha\\stream-quotes-51338-2026-10-26.json": "7aeb76ebcf6fbc253ae66b423abe22e48f820520905994286f32a6dae99883dc",
+    "artifacts\\project_alpha\\stream-quotes-51340-2026-10-26.json": "9db7545fc20c823ba7ba00d741aa31ebe9bd434ea66f102f57e5660316f1df29",
+    "artifacts\\project_alpha\\stream-quotes-51342-2026-10-26.json": "22188e3facbe0545d151eade908a24ef6868311ea8a7b0af061cf4c248baedc2",
+    "artifacts\\project_alpha\\stream-quotes-53782-2026-10-28.json": "74afd426097ae82069cad21f3f7b2e980118db50ce40bf752fc2af3d65e1aabe",
+    "artifacts\\project_alpha\\stream-quotes-53792-2026-10-28.json": "27ffb857bac93a99b0934ff7c4a05c23e6d9424a1e37c5daf6cc8b525e075178",
+    "artifacts\\project_alpha\\stream-quotes-53794-2026-10-28.json": "b1009af1496ce4ba455e42c6b54a2838cd25c72c6d1278b074add4a31c5e8269",
+    "artifacts\\project_alpha\\stream-quotes-53796-2026-10-29.json": "bfb05a2e45337fb973989dc22c0c7655cb429263e775f5e04b363b19c27b4c43",
+    "artifacts\\project_alpha\\stream-quotes-53836-2026-10-29.json": "ba3ac5e828bad1db8d8a71e8283f53da6351a64b1726736d32099f6b591c181d",
+    "artifacts\\project_alpha\\stream-quotes-53860-2026-10-29.json": "873494a169d1d96543d9423cd11c34cf58617f5dc62610cd0575a9dae4747cb9"
+  },
+  "contract_policies": [
+    "ATM",
+    "one_step_ITM",
+    "one_step_OTM",
+    "abs_delta_0.4_0.6",
+    "abs_delta_0.6_0.8"
+  ],
+  "exit_policies": [
+    "time60",
+    "premium20",
+    "premium30",
+    "premium20_target2R"
+  ],
+  "latency_ms": [
+    250,
+    1000
+  ],
+  "max_quote_wait_ms": [
+    2000,
+    5000
+  ],
+  "modes": [
+    "verified_exchange_book",
+    "frame_snapshot"
+  ],
+  "router": "EMA>Donchian>pullback,oneglobalpositionperconfiguration,no fallback after a missing selected outcome; all missing-chain signals expanded across allpolicies",
+  "entry": "Mostrecentvalidpredecisionask(max2secondsold)+0.5% marketablelimit, roundedup0.05; firstvalidquotedaskafterlatencybeforedeadlineandfixedexit,onefulldatedlotbestdepth.",
+  "exit": "Observedbidpremiumstop20/30%or2Rtarget; timeexit dispatch latency+waitbudget beforeoriginalexit, fillsmustoccurbydue<=15:10. Sellmarketablelimitfloor0.05; gapscanexceedplannedstop.",
+  "freshness": "Chronology solelylocalreceived_at. Frame_snapshot requiresabs(source\u2212received)<=1s asfixedclocktolerance;LTTage=providerframe_time\u2212providerLTT in[0,30]s. Thisisnotclockcalibration.",
+  "quality": "Spread<=2%,one-lotbestdepth,finitepositiveuncrossedprices; nofreshquote meansmissedentryorunresolvedopenposition. Verifiedexchangemode additionallyrequiresbook_timestamp_verifiedtrue; neverpromoteframeclocktoexchangebooktime.",
+  "costs": "Actualobservedask/bidincludesquotedspread;netdeductsdatedsaleSTT+INR100otherfeeallowance,severeadds2premiumptsimpact+INR200allowance. Totalfeesandinfrastructurereliabilityremainunverified.",
+  "limitations": "Smallretrospectivecapturewindow,price-stateframesnotexchangebookevents,noqueueoractualmarketimpactfills,noindependentprospectiveevidence;allpoliciesreportedandnowinnerselected."
+}

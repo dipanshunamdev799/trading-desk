@@ -11,6 +11,7 @@ import OptionGreeksPanel from "@/components/OptionGreeksPanel";
 import PcrHistoryPanel from "@/components/PcrHistoryPanel";
 import IvMetricsPanel from "@/components/IvMetricsPanel";
 import { useLiveMarket } from "@/lib/liveMarket";
+import "./maxpain-guide.css";
 import {
   fmtInr,
   fmtLevel,
@@ -28,6 +29,15 @@ import {
   type MaxPainHistoryPoint,
   type MaxPainSnapshot,
 } from "@/lib/api";
+
+const ANALYSIS_VIEWS = [
+  { id: "positioning", label: "Positioning", purpose: "See where outstanding contracts cluster, compare their theoretical expiry payout, and follow the put-to-call ratio." },
+  { id: "volatility", label: "Volatility", purpose: "Explore implied volatility, its historical range, and the model’s expected move to expiry." },
+  { id: "greeks", label: "Option Greeks", purpose: "Compare individual options’ sensitivity to changes in price, time and volatility, one strike at a time." },
+  { id: "payoff", label: "Hypothetical P&L", purpose: "Compare hypothetical buyer and seller outcomes at different settlement prices, using the displayed premium assumptions." },
+  { id: "history", label: "History", purpose: "Follow spot and Max Pain through a session, then compare retained daily snapshots." },
+] as const;
+type AnalysisView = typeof ANALYSIS_VIEWS[number]["id"];
 
 const UNDERLYINGS: { label: string; group: string; key: string }[] = [
   { label: "Nifty 50", group: "Index", key: "NSE_INDEX|Nifty 50" },
@@ -198,6 +208,8 @@ function MaxPainContent() {
   const todayIso = new Intl.DateTimeFormat("en-CA", {
     timeZone: "Asia/Kolkata", year: "numeric", month: "2-digit", day: "2-digit",
   }).format(new Date());
+  const [analysisView, setAnalysisView] = useState<AnalysisView>("positioning");
+  const activeAnalysis = ANALYSIS_VIEWS.find(view => view.id === analysisView)!;
   const [instrumentKey, setInstrumentKey] = useState(UNDERLYINGS[0].key);
   const [instrumentLabel, setInstrumentLabel] = useState(UNDERLYINGS[0].label);
   const [expiries, setExpiries] = useState<ExpiryRow[]>([]);
@@ -208,6 +220,13 @@ function MaxPainContent() {
   const [liveRevision, setLiveRevision] = useState(0);
   const [statusFilter, setStatusFilter] = useState<"all" | "live" | "past">("live");
   const [cycleFilter, setCycleFilter] = useState<"all" | "weekly" | "monthly">("all");
+  const moreOptionsRef = useRef<HTMLDetailsElement>(null);
+
+  useEffect(() => {
+    if ((snapshotView === "historical" || statusFilter !== "live" || cycleFilter !== "all" || customExpiry) && moreOptionsRef.current) {
+      moreOptionsRef.current.open = true;
+    }
+  }, [snapshotView, statusFilter, cycleFilter, customExpiry]);
   const [oiMode, setOiMode] = useState<"total" | "change" | "pct">("total");
   const [pnlView, setPnlView] = useState<"seller" | "buyer" | "compare">("seller");
   const [payoutVis, setPayoutVis] = useState({
@@ -477,9 +496,9 @@ function MaxPainContent() {
           </div>
         </div>
 
-        {/* Row 1 — main controls */}
         <div className="panel-body">
-          <div className="maxpain-controls">
+          <p className="maxpain-start-note">Choose a market and an expiry to explore the latest available options snapshot.</p>
+          <div className="maxpain-basic-controls">
             <div className="field">
               <label htmlFor="maxpain-underlying">Underlying</label>
               <select
@@ -514,36 +533,7 @@ function MaxPainContent() {
                   </option>
                 )}
               </select>
-            </div>
-
-            <div className="field maxpain-search">
-              <label htmlFor="maxpain-search">Search underlying</label>
-              <input
-                id="maxpain-search"
-                type="search"
-                value={query}
-                onChange={(e) => setQuery(e.target.value)}
-                placeholder="Name or symbol…"
-                spellCheck={false}
-              />
-              {query.trim().length >= 2 && (
-                <div className="maxpain-search-results" aria-label="Instrument search results">
-                  {searchState === "loading" ? <div className="muted">Searching…</div>
-                    : searchState === "error" ? <div className="neg">Search failed. Try again.</div>
-                    : hits.length ? hits.map((hit) => (
-                      <button type="button" key={hit.instrument_key} onClick={() => {
-                        setInstrumentKey(hit.instrument_key);
-                        setInstrumentLabel(hit.trading_symbol || hit.short_name || hit.name || hit.instrument_key);
-                        setCustomExpiry("");
-                        setQuery("");
-                        setHits([]);
-                      }}>
-                        <span>{hit.trading_symbol || hit.short_name || hit.name || hit.instrument_key}</span>
-                        <small className="muted">{hit.name || hit.instrument_key}</small>
-                      </button>
-                    )) : <div className="muted">No matching instruments.</div>}
-                </div>
-              )}
+              <small className="maxpain-control-help">The index or stock behind the options.</small>
             </div>
 
             <div className="field">
@@ -568,104 +558,143 @@ function MaxPainContent() {
                   );
                 })}
               </select>
+              <small className="maxpain-control-help">The date this options contract expires.</small>
             </div>
 
-            <div className="field">
-              <label>Snapshot view</label>
-              <div className="maxpain-segmented" role="group" aria-label="Snapshot view">
-                <button type="button" aria-pressed={snapshotView === "latest"} className={snapshotView === "latest" ? "primary" : undefined} onClick={() => setSnapshotView("latest")}>Latest available</button>
-                <button type="button" aria-pressed={snapshotView === "historical"} className={snapshotView === "historical" ? "primary" : undefined} onClick={() => { setAsOf(dataDate || todayIso); setSnapshotView("historical"); }}>Historical as of</button>
-              </div>
-            </div>
-            <div className="field">
-              <label htmlFor="maxpain-asof">As of (IST)</label>
-              <select id="maxpain-asof" value={snapshotView === "latest" ? "latest" : asOf}
-                onChange={event => {
-                  if (event.target.value === "latest") setSnapshotView("latest");
-                  else { setAsOf(event.target.value); setSnapshotView("historical"); }
-                }}>
-                <option value="latest">Latest available{dataDate ? ` · ${dataDate}` : ""}</option>
-                {snapshotView === "historical" && !sessionDates.includes(asOf) && <option value={asOf} disabled>{asOf} · {sessionsError ? "sessions unavailable" : "not in loaded sessions"}</option>}
-                {sessionDates.map(day => <option key={day} value={day}>{day}</option>)}
-              </select>
-              {sessionsError && <small className="neg" role="status">{sessionsError}</small>}
-            </div>
-
-            <div className="field">
-              <label>Expiry status</label>
-              <div className="maxpain-segmented" role="group" aria-label="Expiry status">
-                {(
-                  [
-                    ["live", "Current"],
-                    ["past", "Historical"],
-                    ["all", "All"],
-                  ] as const
-                ).map(([k, lab]) => (
-                  <button
-                    key={k}
-                    type="button"
-                    className={statusFilter === k ? "primary" : undefined}
-                    aria-pressed={statusFilter === k}
-                    onClick={() => { setStatusFilter(k); if (k === "live") setCustomExpiry(""); }}
-                  >
-                    {lab}
-                  </button>
-                ))}
-              </div>
-            </div>
-
-            <div className="field">
-              <label>Cycle</label>
-              <div className="maxpain-segmented" role="group" aria-label="Expiry cycle">
-                {(
-                  [
-                    ["weekly", "Weekly"],
-                    ["monthly", "Monthly"],
-                    ["all", "All"],
-                  ] as const
-                ).map(([k, lab]) => (
-                  <button
-                    key={k}
-                    type="button"
-                    className={cycleFilter === k ? "primary" : undefined}
-                    aria-pressed={cycleFilter === k}
-                    onClick={() => setCycleFilter(k)}
-                  >
-                    {lab}
-                  </button>
-                ))}
-              </div>
-            </div>
           </div>
-
-          {/* Row 2 — historical */}
-          {isHistoricalMode && (
-            <div className="toolbar" style={{ marginTop: 10, paddingTop: 10, borderTop: "1px solid var(--border)" }}>
-              <div className="field">
-                <label htmlFor="maxpain-custom-expiry">Custom expiry</label>
-                <div className="row">
+          <details className="maxpain-more-options" ref={moreOptionsRef}>
+            <summary><span>Historical data &amp; more options</span><small>{snapshotView === "historical" || statusFilter !== "live" || cycleFilter !== "all" || customExpiry ? "Custom settings active" : "Search instruments, compare dates and filter expiries"}</small></summary>
+            <div className="maxpain-more-body">
+              <p className="maxpain-start-note">Use these controls to inspect a past snapshot or narrow the contract list. The snapshot date and contract expiry are separate selections.</p>
+              <div className="maxpain-controls maxpain-extra-controls">
+                <div className="field maxpain-search">
+                  <label htmlFor="maxpain-search">Search underlying</label>
                   <input
-                    id="maxpain-custom-expiry"
-                    type="date"
-                    value={customExpiry}
-                    onChange={(e) => { setCustomExpiry(e.target.value); setSnapshotView("historical"); }}
-                    max={todayIso}
+                    id="maxpain-search"
+                    type="search"
+                    value={query}
+                    onChange={(e) => setQuery(e.target.value)}
+                    placeholder="Name or symbol…"
+                    spellCheck={false}
                   />
-                  {customExpiry && (
-                    <button type="button" onClick={() => setCustomExpiry("")}>
-                      clear
-                    </button>
+                  {query.trim().length >= 2 && (
+                    <div className="maxpain-search-results" aria-label="Instrument search results">
+                      {searchState === "loading" ? <div className="muted">Searching…</div>
+                        : searchState === "error" ? <div className="neg">Search failed. Try again.</div>
+                        : hits.length ? hits.map((hit) => (
+                          <button type="button" key={hit.instrument_key} onClick={() => {
+                            setInstrumentKey(hit.instrument_key);
+                            setInstrumentLabel(hit.trading_symbol || hit.short_name || hit.name || hit.instrument_key);
+                            setCustomExpiry("");
+                            setQuery("");
+                            setHits([]);
+                          }}>
+                            <span>{hit.trading_symbol || hit.short_name || hit.name || hit.instrument_key}</span>
+                            <small className="muted">{hit.name || hit.instrument_key}</small>
+                          </button>
+                        )) : <div className="muted">No matching instruments.</div>}
+                    </div>
                   )}
                 </div>
-              </div>
-              <div className="field" style={{ flex: 1, minWidth: 220 }}>
-                <label>Data availability</label>
-                <div className="mono muted">
-                  Exact selected date and expiry · unavailable inputs stay empty
+
+                <div className="field">
+                  <label>Snapshot view</label>
+                  <div className="maxpain-segmented" role="group" aria-label="Snapshot view">
+                    <button type="button" aria-pressed={snapshotView === "latest"} className={snapshotView === "latest" ? "primary" : undefined} onClick={() => setSnapshotView("latest")}>Latest available</button>
+                    <button type="button" aria-pressed={snapshotView === "historical"} className={snapshotView === "historical" ? "primary" : undefined} onClick={() => { setAsOf(dataDate || todayIso); setSnapshotView("historical"); }}>Historical as of</button>
+                  </div>
+                </div>
+                <div className="field">
+                  <label htmlFor="maxpain-asof">As of (IST)</label>
+                  <select id="maxpain-asof" value={snapshotView === "latest" ? "latest" : asOf}
+                    onChange={event => {
+                      if (event.target.value === "latest") setSnapshotView("latest");
+                      else { setAsOf(event.target.value); setSnapshotView("historical"); }
+                    }}>
+                    <option value="latest">Latest available{dataDate ? ` · ${dataDate}` : ""}</option>
+                    {snapshotView === "historical" && !sessionDates.includes(asOf) && <option value={asOf} disabled>{asOf} · {sessionsError ? "sessions unavailable" : "not in loaded sessions"}</option>}
+                    {sessionDates.map(day => <option key={day} value={day}>{day}</option>)}
+                  </select>
+                  {sessionsError && <small className="neg" role="status">{sessionsError}</small>}
+                </div>
+
+                <div className="field">
+                  <label>Expiry status</label>
+                  <div className="maxpain-segmented" role="group" aria-label="Expiry status">
+                    {(
+                      [
+                        ["live", "Current"],
+                        ["past", "Historical"],
+                        ["all", "All"],
+                      ] as const
+                    ).map(([k, lab]) => (
+                      <button
+                        key={k}
+                        type="button"
+                        className={statusFilter === k ? "primary" : undefined}
+                        aria-pressed={statusFilter === k}
+                        onClick={() => { setStatusFilter(k); if (k === "live") setCustomExpiry(""); }}
+                      >
+                        {lab}
+                      </button>
+                    ))}
+                  </div>
+                </div>
+
+                <div className="field">
+                  <label>Cycle</label>
+                  <div className="maxpain-segmented" role="group" aria-label="Expiry cycle">
+                    {(
+                      [
+                        ["weekly", "Weekly"],
+                        ["monthly", "Monthly"],
+                        ["all", "All"],
+                      ] as const
+                    ).map(([k, lab]) => (
+                      <button
+                        key={k}
+                        type="button"
+                        className={cycleFilter === k ? "primary" : undefined}
+                        aria-pressed={cycleFilter === k}
+                        onClick={() => setCycleFilter(k)}
+                      >
+                        {lab}
+                      </button>
+                    ))}
+                  </div>
                 </div>
               </div>
+
+              {/* Row 2 — historical */}
+              {isHistoricalMode && (
+                <div className="toolbar" style={{ marginTop: 10, paddingTop: 10, borderTop: "1px solid var(--border)" }}>
+                  <div className="field">
+                    <label htmlFor="maxpain-custom-expiry">Custom expiry</label>
+                    <div className="row">
+                      <input
+                        id="maxpain-custom-expiry"
+                        type="date"
+                        value={customExpiry}
+                        onChange={(e) => { setCustomExpiry(e.target.value); setSnapshotView("historical"); }}
+                        max={todayIso}
+                      />
+                      {customExpiry && (
+                        <button type="button" onClick={() => setCustomExpiry("")}>
+                          clear
+                        </button>
+                      )}
+                    </div>
+                  </div>
+                  <div className="field" style={{ flex: 1, minWidth: 220 }}>
+                    <label>Data availability</label>
+                    <div className="mono muted">
+                      Exact selected date and expiry · unavailable inputs stay empty
+                    </div>
+                  </div>
+                </div>
+              )}
             </div>
-          )}
+          </details>
         </div>
       </div>
 
@@ -717,15 +746,15 @@ function MaxPainContent() {
         </div>
       )}
 
-      <PcrHistoryPanel key={`pcr|${historyKey}`} expiry={effectiveExpiry} asOf={dataDate || ""} instrumentKey={instrumentKey}
-        dates={sessionDates} instrumentLabel={instrumentLabel} spotObservation={liveMarket?.status.connected && liveMarket.status.fresh ? liveMarket.quotes[instrumentKey] : undefined}
-        live={snapshotView === "latest" && Boolean(snap?.market_context?.active)} refreshId={refreshId}
-        observation={snap?.pcr_observation} />
-
-      <IvMetricsPanel key={`iv|${historyKey}`} expiry={effectiveExpiry} asOf={dataDate || ""} instrumentKey={instrumentKey}
-        instrumentLabel={instrumentLabel} dates={sessionDates}
-        live={snapshotView === "latest" && Boolean(snap?.market_context?.active)} refreshId={refreshId} />
-
+      <section className="maxpain-analysis-switcher" aria-labelledby="maxpain-analysis-title">
+        <div className="maxpain-analysis-heading"><div><span className="maxpain-analysis-eyebrow">EXPLORE ONE QUESTION AT A TIME</span><h2 id="maxpain-analysis-title">Choose what to explore</h2></div><span className="muted">Your market, expiry and snapshot stay selected</span></div>
+        <div className="maxpain-analysis-views" role="group" aria-label="Options analysis views">
+          {ANALYSIS_VIEWS.map((view, index) => <button key={view.id} type="button" aria-pressed={analysisView === view.id} aria-controls="maxpain-analysis-content" onClick={() => setAnalysisView(view.id)}><span aria-hidden="true">{String(index + 1).padStart(2, "0")}</span>{view.label}</button>)}
+        </div>
+        <p className="maxpain-analysis-purpose" aria-live="polite"><strong>{activeAnalysis.label}</strong>{activeAnalysis.purpose}</p>
+      </section>
+      <section id="maxpain-analysis-content" className="stack maxpain-analysis-content" aria-label={`${activeAnalysis.label} analysis`}>
+      {analysisView === "positioning" && <>
       {/* Charts row */}
       <div className="grid-2">
         <SnapshotChartPanel title="Expiry payoff by settlement price" {...snapshotChartProps}>
@@ -840,11 +869,24 @@ function MaxPainContent() {
           }}
         </SnapshotChartPanel>
       </div>
+      <PcrHistoryPanel key={`pcr|${historyKey}`} expiry={effectiveExpiry} asOf={dataDate || ""} instrumentKey={instrumentKey}
+        dates={sessionDates} instrumentLabel={instrumentLabel} spotObservation={liveMarket?.status.connected && liveMarket.status.fresh ? liveMarket.quotes[instrumentKey] : undefined}
+        live={snapshotView === "latest" && Boolean(snap?.market_context?.active)} refreshId={refreshId}
+        observation={snap?.pcr_observation} />
+      </>}
 
+      {analysisView === "volatility" && (
+      <IvMetricsPanel key={`iv|${historyKey}`} expiry={effectiveExpiry} asOf={dataDate || ""} instrumentKey={instrumentKey}
+        instrumentLabel={instrumentLabel} dates={sessionDates}
+        live={snapshotView === "latest" && Boolean(snap?.market_context?.active)} refreshId={refreshId} />
+      )}
+
+      {analysisView === "greeks" && (
       <OptionGreeksPanel chartContext={snapshotChartProps} data={snap?.option_greeks} asOf={dataDate || ""} expiry={effectiveExpiry} feedFresh={liveMarket?.status.fresh}
         loading={loading} selectedStrike={selectedStrike} onSelectStrike={setSelectedStrike} />
+      )}
 
-      {/* Premium-adjusted hypothetical P&L */}
+      {analysisView === "payoff" && (
       <SnapshotChartPanel title="Premium-adjusted hypothetical P&L" {...snapshotChartProps}>
           {({ snapshot: snap, loading, asOf: chartDate }) => {
             const pp = snap?.premium_pnl; const baseSc = pp?.scenarios?.snapshot; const premOpt = premiumSnapshotOption(snap, pnlView);
@@ -988,22 +1030,26 @@ function MaxPainContent() {
       </>;
           }}
         </SnapshotChartPanel>
+      )}
 
+      {analysisView === "history" && <>
       {/* Intraday — full width */}
       <IntradayMaxPainPanel key={historyKey} expiry={effectiveExpiry} asOf={dataDate || todayIso}
         instrumentKey={instrumentKey} dates={sessionDates} refreshId={refreshId} />
 
       {/* Historical snapshots */}
       <MaxPainHistory points={hist} loading={histLoading} error={histError} asOf={dataDate || todayIso} />
+      </>}
 
       {/* Strike detail */}
-      {selectedStrike != null && snap && (
+      {(analysisView === "positioning" || analysisView === "greeks") && selectedStrike != null && snap && (
         <div className="panel">
           <div className="panel-header">
             <h2>Strike {selectedStrike.toLocaleString("en-IN")}</h2>
-            <button type="button" onClick={() => setSelectedStrike(null)}>
-              close
-            </button>
+            <div className="row">
+              {analysisView === "positioning" && <button type="button" onClick={() => setAnalysisView("greeks")}>Inspect option Greeks →</button>}
+              <button type="button" onClick={() => setSelectedStrike(null)}>Close strike details</button>
+            </div>
           </div>
           <div className="panel-body">
             {(() => {
@@ -1051,10 +1097,9 @@ function MaxPainContent() {
         </div>
       )}
 
-      {/* click helper */}
+      </section>
       <div className="muted" style={{ fontSize: 11, textAlign: "center" }}>
-        Hover charts for tooltips · click the OI chart to inspect a strike · Max Pain is a
-        theoretical OI payout minimum, not a settlement forecast.
+        {analysisView === "positioning" ? "Hover charts for tooltips · click the OI chart to inspect a strike · " : "Hover charts for tooltips · "}Max Pain is a theoretical OI payout minimum, not a settlement forecast.
       </div>
     </div>
   );

@@ -1,0 +1,2780 @@
+{
+  "configurations": 48,
+  "path_modes": 2,
+  "summaries": [
+    {
+      "configuration": "month_end_proxy|ATM|time30",
+      "expiry_bucket": "month_end_proxy",
+      "strike_rule": "ATM",
+      "exit_policy": "time30",
+      "ambiguity_mode": "adverse_first",
+      "potential_signals": 17,
+      "observed_trades": 7,
+      "sessions_with_trade": 5,
+      "gross_mean_rupees_per_lot": 1143.9999999999989,
+      "illustrative_net_mean_rupees_per_lot": 879.6639821428561,
+      "severe_net_mean_rupees_per_lot": 584.6639821428561,
+      "holding_mean_minutes": 30.0,
+      "mae_mean_bound_rupees": 1119.8571428571436,
+      "mfe_mean_bound_rupees": 1898.4642857142844,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "observed_candle_proxy": 7,
+        "rejected_higher_priority_signal": 5,
+        "rejected_existing_position": 5
+      },
+      "net_descriptive_ci95": [
+        204.78093749999994,
+        1411.6340416666656
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "month_end_proxy|ATM|time30",
+      "expiry_bucket": "month_end_proxy",
+      "strike_rule": "ATM",
+      "exit_policy": "time30",
+      "ambiguity_mode": "favorable_first",
+      "potential_signals": 17,
+      "observed_trades": 7,
+      "sessions_with_trade": 5,
+      "gross_mean_rupees_per_lot": 1143.9999999999989,
+      "illustrative_net_mean_rupees_per_lot": 879.6639821428561,
+      "severe_net_mean_rupees_per_lot": 584.6639821428561,
+      "holding_mean_minutes": 30.0,
+      "mae_mean_bound_rupees": 1119.8571428571436,
+      "mfe_mean_bound_rupees": 1898.4642857142844,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "observed_candle_proxy": 7,
+        "rejected_higher_priority_signal": 5,
+        "rejected_existing_position": 5
+      },
+      "net_descriptive_ci95": [
+        204.78093749999994,
+        1411.6340416666656
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "month_end_proxy|ATM|time60",
+      "expiry_bucket": "month_end_proxy",
+      "strike_rule": "ATM",
+      "exit_policy": "time60",
+      "ambiguity_mode": "adverse_first",
+      "potential_signals": 17,
+      "observed_trades": 7,
+      "sessions_with_trade": 5,
+      "gross_mean_rupees_per_lot": 2055.3928571428573,
+      "illustrative_net_mean_rupees_per_lot": 1789.6897500000002,
+      "severe_net_mean_rupees_per_lot": 1494.6897500000007,
+      "holding_mean_minutes": 60.0,
+      "mae_mean_bound_rupees": 1325.535714285715,
+      "mfe_mean_bound_rupees": 3476.107142857142,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "observed_candle_proxy": 7,
+        "rejected_higher_priority_signal": 5,
+        "rejected_existing_position": 5
+      },
+      "net_descriptive_ci95": [
+        -806.4115499999991,
+        3736.6971093750003
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "month_end_proxy|ATM|time60",
+      "expiry_bucket": "month_end_proxy",
+      "strike_rule": "ATM",
+      "exit_policy": "time60",
+      "ambiguity_mode": "favorable_first",
+      "potential_signals": 17,
+      "observed_trades": 7,
+      "sessions_with_trade": 5,
+      "gross_mean_rupees_per_lot": 2055.3928571428573,
+      "illustrative_net_mean_rupees_per_lot": 1789.6897500000002,
+      "severe_net_mean_rupees_per_lot": 1494.6897500000007,
+      "holding_mean_minutes": 60.0,
+      "mae_mean_bound_rupees": 1325.535714285715,
+      "mfe_mean_bound_rupees": 3476.107142857142,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "observed_candle_proxy": 7,
+        "rejected_higher_priority_signal": 5,
+        "rejected_existing_position": 5
+      },
+      "net_descriptive_ci95": [
+        -806.4115499999991,
+        3736.6971093750003
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "month_end_proxy|ATM|time120",
+      "expiry_bucket": "month_end_proxy",
+      "strike_rule": "ATM",
+      "exit_policy": "time120",
+      "ambiguity_mode": "adverse_first",
+      "potential_signals": 17,
+      "observed_trades": 5,
+      "sessions_with_trade": 5,
+      "gross_mean_rupees_per_lot": 2658.5,
+      "illustrative_net_mean_rupees_per_lot": 2392.75455,
+      "severe_net_mean_rupees_per_lot": 2097.75455,
+      "holding_mean_minutes": 116.0,
+      "mae_mean_bound_rupees": 1309.75,
+      "mfe_mean_bound_rupees": 4652.7,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 2,
+      "status_counts": {
+        "observed_candle_proxy": 5,
+        "rejected_higher_priority_signal": 5,
+        "rejected_existing_position": 7
+      },
+      "net_descriptive_ci95": [
+        -1402.2164999999995,
+        6632.613874999998
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "month_end_proxy|ATM|time120",
+      "expiry_bucket": "month_end_proxy",
+      "strike_rule": "ATM",
+      "exit_policy": "time120",
+      "ambiguity_mode": "favorable_first",
+      "potential_signals": 17,
+      "observed_trades": 5,
+      "sessions_with_trade": 5,
+      "gross_mean_rupees_per_lot": 2658.5,
+      "illustrative_net_mean_rupees_per_lot": 2392.75455,
+      "severe_net_mean_rupees_per_lot": 2097.75455,
+      "holding_mean_minutes": 116.0,
+      "mae_mean_bound_rupees": 1309.75,
+      "mfe_mean_bound_rupees": 4652.7,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 2,
+      "status_counts": {
+        "observed_candle_proxy": 5,
+        "rejected_higher_priority_signal": 5,
+        "rejected_existing_position": 7
+      },
+      "net_descriptive_ci95": [
+        -1402.2164999999995,
+        6632.613874999998
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "month_end_proxy|ATM|premium20",
+      "expiry_bucket": "month_end_proxy",
+      "strike_rule": "ATM",
+      "exit_policy": "premium20",
+      "ambiguity_mode": "adverse_first",
+      "potential_signals": 17,
+      "observed_trades": 7,
+      "sessions_with_trade": 5,
+      "gross_mean_rupees_per_lot": 2055.3928571428573,
+      "illustrative_net_mean_rupees_per_lot": 1789.6897500000002,
+      "severe_net_mean_rupees_per_lot": 1494.6897500000007,
+      "holding_mean_minutes": 60.0,
+      "mae_mean_bound_rupees": 1325.535714285715,
+      "mfe_mean_bound_rupees": 3476.107142857142,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "observed_candle_proxy": 7,
+        "rejected_higher_priority_signal": 5,
+        "rejected_existing_position": 5
+      },
+      "net_descriptive_ci95": [
+        -806.4115499999991,
+        3736.6971093750003
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "month_end_proxy|ATM|premium20",
+      "expiry_bucket": "month_end_proxy",
+      "strike_rule": "ATM",
+      "exit_policy": "premium20",
+      "ambiguity_mode": "favorable_first",
+      "potential_signals": 17,
+      "observed_trades": 7,
+      "sessions_with_trade": 5,
+      "gross_mean_rupees_per_lot": 2055.3928571428573,
+      "illustrative_net_mean_rupees_per_lot": 1789.6897500000002,
+      "severe_net_mean_rupees_per_lot": 1494.6897500000007,
+      "holding_mean_minutes": 60.0,
+      "mae_mean_bound_rupees": 1325.535714285715,
+      "mfe_mean_bound_rupees": 3476.107142857142,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "observed_candle_proxy": 7,
+        "rejected_higher_priority_signal": 5,
+        "rejected_existing_position": 5
+      },
+      "net_descriptive_ci95": [
+        -806.4115499999991,
+        3736.6971093750003
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "month_end_proxy|ATM|premium30",
+      "expiry_bucket": "month_end_proxy",
+      "strike_rule": "ATM",
+      "exit_policy": "premium30",
+      "ambiguity_mode": "adverse_first",
+      "potential_signals": 17,
+      "observed_trades": 7,
+      "sessions_with_trade": 5,
+      "gross_mean_rupees_per_lot": 2055.3928571428573,
+      "illustrative_net_mean_rupees_per_lot": 1789.6897500000002,
+      "severe_net_mean_rupees_per_lot": 1494.6897500000007,
+      "holding_mean_minutes": 60.0,
+      "mae_mean_bound_rupees": 1325.535714285715,
+      "mfe_mean_bound_rupees": 3476.107142857142,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "observed_candle_proxy": 7,
+        "rejected_higher_priority_signal": 5,
+        "rejected_existing_position": 5
+      },
+      "net_descriptive_ci95": [
+        -806.4115499999991,
+        3736.6971093750003
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "month_end_proxy|ATM|premium30",
+      "expiry_bucket": "month_end_proxy",
+      "strike_rule": "ATM",
+      "exit_policy": "premium30",
+      "ambiguity_mode": "favorable_first",
+      "potential_signals": 17,
+      "observed_trades": 7,
+      "sessions_with_trade": 5,
+      "gross_mean_rupees_per_lot": 2055.3928571428573,
+      "illustrative_net_mean_rupees_per_lot": 1789.6897500000002,
+      "severe_net_mean_rupees_per_lot": 1494.6897500000007,
+      "holding_mean_minutes": 60.0,
+      "mae_mean_bound_rupees": 1325.535714285715,
+      "mfe_mean_bound_rupees": 3476.107142857142,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "observed_candle_proxy": 7,
+        "rejected_higher_priority_signal": 5,
+        "rejected_existing_position": 5
+      },
+      "net_descriptive_ci95": [
+        -806.4115499999991,
+        3736.6971093750003
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "month_end_proxy|ATM|premium20_target1R",
+      "expiry_bucket": "month_end_proxy",
+      "strike_rule": "ATM",
+      "exit_policy": "premium20_target1R",
+      "ambiguity_mode": "adverse_first",
+      "potential_signals": 17,
+      "observed_trades": 7,
+      "sessions_with_trade": 5,
+      "gross_mean_rupees_per_lot": 1319.9642857142856,
+      "illustrative_net_mean_rupees_per_lot": 1055.3643214285712,
+      "severe_net_mean_rupees_per_lot": 760.3643214285714,
+      "holding_mean_minutes": 53.57142857142857,
+      "mae_mean_bound_rupees": 1325.535714285715,
+      "mfe_mean_bound_rupees": 2596.7499999999995,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "observed_candle_proxy": 7,
+        "rejected_higher_priority_signal": 5,
+        "rejected_existing_position": 5
+      },
+      "net_descriptive_ci95": [
+        -806.4115499999991,
+        2419.1098214285707
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "month_end_proxy|ATM|premium20_target1R",
+      "expiry_bucket": "month_end_proxy",
+      "strike_rule": "ATM",
+      "exit_policy": "premium20_target1R",
+      "ambiguity_mode": "favorable_first",
+      "potential_signals": 17,
+      "observed_trades": 7,
+      "sessions_with_trade": 5,
+      "gross_mean_rupees_per_lot": 1319.9642857142856,
+      "illustrative_net_mean_rupees_per_lot": 1055.3643214285712,
+      "severe_net_mean_rupees_per_lot": 760.3643214285714,
+      "holding_mean_minutes": 53.57142857142857,
+      "mae_mean_bound_rupees": 1325.535714285715,
+      "mfe_mean_bound_rupees": 2596.7499999999995,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "observed_candle_proxy": 7,
+        "rejected_higher_priority_signal": 5,
+        "rejected_existing_position": 5
+      },
+      "net_descriptive_ci95": [
+        -806.4115499999991,
+        2419.1098214285707
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "month_end_proxy|ATM|premium20_target2R",
+      "expiry_bucket": "month_end_proxy",
+      "strike_rule": "ATM",
+      "exit_policy": "premium20_target2R",
+      "ambiguity_mode": "adverse_first",
+      "potential_signals": 17,
+      "observed_trades": 7,
+      "sessions_with_trade": 5,
+      "gross_mean_rupees_per_lot": 2055.3928571428573,
+      "illustrative_net_mean_rupees_per_lot": 1789.6897500000002,
+      "severe_net_mean_rupees_per_lot": 1494.6897500000007,
+      "holding_mean_minutes": 60.0,
+      "mae_mean_bound_rupees": 1325.535714285715,
+      "mfe_mean_bound_rupees": 3476.107142857142,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "observed_candle_proxy": 7,
+        "rejected_higher_priority_signal": 5,
+        "rejected_existing_position": 5
+      },
+      "net_descriptive_ci95": [
+        -806.4115499999991,
+        3736.6971093750003
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "month_end_proxy|ATM|premium20_target2R",
+      "expiry_bucket": "month_end_proxy",
+      "strike_rule": "ATM",
+      "exit_policy": "premium20_target2R",
+      "ambiguity_mode": "favorable_first",
+      "potential_signals": 17,
+      "observed_trades": 7,
+      "sessions_with_trade": 5,
+      "gross_mean_rupees_per_lot": 2055.3928571428573,
+      "illustrative_net_mean_rupees_per_lot": 1789.6897500000002,
+      "severe_net_mean_rupees_per_lot": 1494.6897500000007,
+      "holding_mean_minutes": 60.0,
+      "mae_mean_bound_rupees": 1325.535714285715,
+      "mfe_mean_bound_rupees": 3476.107142857142,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "observed_candle_proxy": 7,
+        "rejected_higher_priority_signal": 5,
+        "rejected_existing_position": 5
+      },
+      "net_descriptive_ci95": [
+        -806.4115499999991,
+        3736.6971093750003
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "month_end_proxy|ATM|premium30_target2R",
+      "expiry_bucket": "month_end_proxy",
+      "strike_rule": "ATM",
+      "exit_policy": "premium30_target2R",
+      "ambiguity_mode": "adverse_first",
+      "potential_signals": 17,
+      "observed_trades": 7,
+      "sessions_with_trade": 5,
+      "gross_mean_rupees_per_lot": 2055.3928571428573,
+      "illustrative_net_mean_rupees_per_lot": 1789.6897500000002,
+      "severe_net_mean_rupees_per_lot": 1494.6897500000007,
+      "holding_mean_minutes": 60.0,
+      "mae_mean_bound_rupees": 1325.535714285715,
+      "mfe_mean_bound_rupees": 3476.107142857142,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "observed_candle_proxy": 7,
+        "rejected_higher_priority_signal": 5,
+        "rejected_existing_position": 5
+      },
+      "net_descriptive_ci95": [
+        -806.4115499999991,
+        3736.6971093750003
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "month_end_proxy|ATM|premium30_target2R",
+      "expiry_bucket": "month_end_proxy",
+      "strike_rule": "ATM",
+      "exit_policy": "premium30_target2R",
+      "ambiguity_mode": "favorable_first",
+      "potential_signals": 17,
+      "observed_trades": 7,
+      "sessions_with_trade": 5,
+      "gross_mean_rupees_per_lot": 2055.3928571428573,
+      "illustrative_net_mean_rupees_per_lot": 1789.6897500000002,
+      "severe_net_mean_rupees_per_lot": 1494.6897500000007,
+      "holding_mean_minutes": 60.0,
+      "mae_mean_bound_rupees": 1325.535714285715,
+      "mfe_mean_bound_rupees": 3476.107142857142,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "observed_candle_proxy": 7,
+        "rejected_higher_priority_signal": 5,
+        "rejected_existing_position": 5
+      },
+      "net_descriptive_ci95": [
+        -806.4115499999991,
+        3736.6971093750003
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "month_end_proxy|ATM|premium20_trail20",
+      "expiry_bucket": "month_end_proxy",
+      "strike_rule": "ATM",
+      "exit_policy": "premium20_trail20",
+      "ambiguity_mode": "adverse_first",
+      "potential_signals": 17,
+      "observed_trades": 7,
+      "sessions_with_trade": 5,
+      "gross_mean_rupees_per_lot": 2055.3928571428573,
+      "illustrative_net_mean_rupees_per_lot": 1789.6897500000002,
+      "severe_net_mean_rupees_per_lot": 1494.6897500000007,
+      "holding_mean_minutes": 60.0,
+      "mae_mean_bound_rupees": 1325.535714285715,
+      "mfe_mean_bound_rupees": 3476.107142857142,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "observed_candle_proxy": 7,
+        "rejected_higher_priority_signal": 5,
+        "rejected_existing_position": 5
+      },
+      "net_descriptive_ci95": [
+        -806.4115499999991,
+        3736.6971093750003
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "month_end_proxy|ATM|premium20_trail20",
+      "expiry_bucket": "month_end_proxy",
+      "strike_rule": "ATM",
+      "exit_policy": "premium20_trail20",
+      "ambiguity_mode": "favorable_first",
+      "potential_signals": 17,
+      "observed_trades": 7,
+      "sessions_with_trade": 5,
+      "gross_mean_rupees_per_lot": 2055.3928571428573,
+      "illustrative_net_mean_rupees_per_lot": 1789.6897500000002,
+      "severe_net_mean_rupees_per_lot": 1494.6897500000007,
+      "holding_mean_minutes": 60.0,
+      "mae_mean_bound_rupees": 1325.535714285715,
+      "mfe_mean_bound_rupees": 3476.107142857142,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "observed_candle_proxy": 7,
+        "rejected_higher_priority_signal": 5,
+        "rejected_existing_position": 5
+      },
+      "net_descriptive_ci95": [
+        -806.4115499999991,
+        3736.6971093750003
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "month_end_proxy|ATM|underlying1ATR",
+      "expiry_bucket": "month_end_proxy",
+      "strike_rule": "ATM",
+      "exit_policy": "underlying1ATR",
+      "ambiguity_mode": "adverse_first",
+      "potential_signals": 17,
+      "observed_trades": 7,
+      "sessions_with_trade": 5,
+      "gross_mean_rupees_per_lot": 1515.428571428571,
+      "illustrative_net_mean_rupees_per_lot": 1250.5354107142855,
+      "severe_net_mean_rupees_per_lot": 955.5354107142856,
+      "holding_mean_minutes": 35.714285714285715,
+      "mae_mean_bound_rupees": 959.6785714285722,
+      "mfe_mean_bound_rupees": 3028.0714285714275,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "observed_candle_proxy": 7,
+        "rejected_higher_priority_signal": 5,
+        "rejected_existing_position": 5
+      },
+      "net_descriptive_ci95": [
+        -445.5536499999997,
+        2295.6688437499997
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "month_end_proxy|ATM|underlying1ATR",
+      "expiry_bucket": "month_end_proxy",
+      "strike_rule": "ATM",
+      "exit_policy": "underlying1ATR",
+      "ambiguity_mode": "favorable_first",
+      "potential_signals": 17,
+      "observed_trades": 7,
+      "sessions_with_trade": 5,
+      "gross_mean_rupees_per_lot": 1515.428571428571,
+      "illustrative_net_mean_rupees_per_lot": 1250.5354107142855,
+      "severe_net_mean_rupees_per_lot": 955.5354107142856,
+      "holding_mean_minutes": 35.714285714285715,
+      "mae_mean_bound_rupees": 959.6785714285722,
+      "mfe_mean_bound_rupees": 3028.0714285714275,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "observed_candle_proxy": 7,
+        "rejected_higher_priority_signal": 5,
+        "rejected_existing_position": 5
+      },
+      "net_descriptive_ci95": [
+        -445.5536499999997,
+        2295.6688437499997
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "month_end_proxy|ATM|underlying1.5ATR",
+      "expiry_bucket": "month_end_proxy",
+      "strike_rule": "ATM",
+      "exit_policy": "underlying1.5ATR",
+      "ambiguity_mode": "adverse_first",
+      "potential_signals": 17,
+      "observed_trades": 7,
+      "sessions_with_trade": 5,
+      "gross_mean_rupees_per_lot": 1432.7857142857142,
+      "illustrative_net_mean_rupees_per_lot": 1168.0165178571428,
+      "severe_net_mean_rupees_per_lot": 873.0165178571432,
+      "holding_mean_minutes": 39.285714285714285,
+      "mae_mean_bound_rupees": 1191.8214285714294,
+      "mfe_mean_bound_rupees": 3028.0714285714275,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "observed_candle_proxy": 7,
+        "rejected_higher_priority_signal": 5,
+        "rejected_existing_position": 5
+      },
+      "net_descriptive_ci95": [
+        -676.6065499999992,
+        2306.5674027777777
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "month_end_proxy|ATM|underlying1.5ATR",
+      "expiry_bucket": "month_end_proxy",
+      "strike_rule": "ATM",
+      "exit_policy": "underlying1.5ATR",
+      "ambiguity_mode": "favorable_first",
+      "potential_signals": 17,
+      "observed_trades": 7,
+      "sessions_with_trade": 5,
+      "gross_mean_rupees_per_lot": 1432.7857142857142,
+      "illustrative_net_mean_rupees_per_lot": 1168.0165178571428,
+      "severe_net_mean_rupees_per_lot": 873.0165178571432,
+      "holding_mean_minutes": 39.285714285714285,
+      "mae_mean_bound_rupees": 1191.8214285714294,
+      "mfe_mean_bound_rupees": 3028.0714285714275,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "observed_candle_proxy": 7,
+        "rejected_higher_priority_signal": 5,
+        "rejected_existing_position": 5
+      },
+      "net_descriptive_ci95": [
+        -676.6065499999992,
+        2306.5674027777777
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "month_end_proxy|ATM|underlying_prior3bar_structure",
+      "expiry_bucket": "month_end_proxy",
+      "strike_rule": "ATM",
+      "exit_policy": "underlying_prior3bar_structure",
+      "ambiguity_mode": "adverse_first",
+      "potential_signals": 17,
+      "observed_trades": 7,
+      "sessions_with_trade": 5,
+      "gross_mean_rupees_per_lot": 1386.357142857143,
+      "illustrative_net_mean_rupees_per_lot": 1121.6575892857145,
+      "severe_net_mean_rupees_per_lot": 826.6575892857145,
+      "holding_mean_minutes": 45.714285714285715,
+      "mae_mean_bound_rupees": 1191.8214285714294,
+      "mfe_mean_bound_rupees": 3073.107142857142,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "observed_candle_proxy": 7,
+        "rejected_higher_priority_signal": 5,
+        "rejected_existing_position": 5
+      },
+      "net_descriptive_ci95": [
+        -806.4115499999991,
+        2270.510458333333
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "month_end_proxy|ATM|underlying_prior3bar_structure",
+      "expiry_bucket": "month_end_proxy",
+      "strike_rule": "ATM",
+      "exit_policy": "underlying_prior3bar_structure",
+      "ambiguity_mode": "favorable_first",
+      "potential_signals": 17,
+      "observed_trades": 7,
+      "sessions_with_trade": 5,
+      "gross_mean_rupees_per_lot": 1386.357142857143,
+      "illustrative_net_mean_rupees_per_lot": 1121.6575892857145,
+      "severe_net_mean_rupees_per_lot": 826.6575892857145,
+      "holding_mean_minutes": 45.714285714285715,
+      "mae_mean_bound_rupees": 1191.8214285714294,
+      "mfe_mean_bound_rupees": 3073.107142857142,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "observed_candle_proxy": 7,
+        "rejected_higher_priority_signal": 5,
+        "rejected_existing_position": 5
+      },
+      "net_descriptive_ci95": [
+        -806.4115499999991,
+        2270.510458333333
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "month_end_proxy|one_step_ITM|time30",
+      "expiry_bucket": "month_end_proxy",
+      "strike_rule": "one_step_ITM",
+      "exit_policy": "time30",
+      "ambiguity_mode": "adverse_first",
+      "potential_signals": 17,
+      "observed_trades": 7,
+      "sessions_with_trade": 5,
+      "gross_mean_rupees_per_lot": 1221.5357142857142,
+      "illustrative_net_mean_rupees_per_lot": 954.4286071428571,
+      "severe_net_mean_rupees_per_lot": 659.4286071428571,
+      "holding_mean_minutes": 30.0,
+      "mae_mean_bound_rupees": 1155.6071428571433,
+      "mfe_mean_bound_rupees": 2046.571428571429,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "observed_candle_proxy": 7,
+        "rejected_higher_priority_signal": 5,
+        "rejected_existing_position": 5
+      },
+      "net_descriptive_ci95": [
+        232.94625000000016,
+        1516.0912083333333
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "month_end_proxy|one_step_ITM|time30",
+      "expiry_bucket": "month_end_proxy",
+      "strike_rule": "one_step_ITM",
+      "exit_policy": "time30",
+      "ambiguity_mode": "favorable_first",
+      "potential_signals": 17,
+      "observed_trades": 7,
+      "sessions_with_trade": 5,
+      "gross_mean_rupees_per_lot": 1221.5357142857142,
+      "illustrative_net_mean_rupees_per_lot": 954.4286071428571,
+      "severe_net_mean_rupees_per_lot": 659.4286071428571,
+      "holding_mean_minutes": 30.0,
+      "mae_mean_bound_rupees": 1155.6071428571433,
+      "mfe_mean_bound_rupees": 2046.571428571429,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "observed_candle_proxy": 7,
+        "rejected_higher_priority_signal": 5,
+        "rejected_existing_position": 5
+      },
+      "net_descriptive_ci95": [
+        232.94625000000016,
+        1516.0912083333333
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "month_end_proxy|one_step_ITM|time60",
+      "expiry_bucket": "month_end_proxy",
+      "strike_rule": "one_step_ITM",
+      "exit_policy": "time60",
+      "ambiguity_mode": "adverse_first",
+      "potential_signals": 17,
+      "observed_trades": 7,
+      "sessions_with_trade": 5,
+      "gross_mean_rupees_per_lot": 2100.892857142858,
+      "illustrative_net_mean_rupees_per_lot": 1832.4667142857147,
+      "severe_net_mean_rupees_per_lot": 1537.4667142857147,
+      "holding_mean_minutes": 60.0,
+      "mae_mean_bound_rupees": 1352.4642857142862,
+      "mfe_mean_bound_rupees": 3666.464285714285,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "observed_candle_proxy": 7,
+        "rejected_higher_priority_signal": 5,
+        "rejected_existing_position": 5
+      },
+      "net_descriptive_ci95": [
+        -821.3150750000004,
+        3819.592015625001
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "month_end_proxy|one_step_ITM|time60",
+      "expiry_bucket": "month_end_proxy",
+      "strike_rule": "one_step_ITM",
+      "exit_policy": "time60",
+      "ambiguity_mode": "favorable_first",
+      "potential_signals": 17,
+      "observed_trades": 7,
+      "sessions_with_trade": 5,
+      "gross_mean_rupees_per_lot": 2100.892857142858,
+      "illustrative_net_mean_rupees_per_lot": 1832.4667142857147,
+      "severe_net_mean_rupees_per_lot": 1537.4667142857147,
+      "holding_mean_minutes": 60.0,
+      "mae_mean_bound_rupees": 1352.4642857142862,
+      "mfe_mean_bound_rupees": 3666.464285714285,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "observed_candle_proxy": 7,
+        "rejected_higher_priority_signal": 5,
+        "rejected_existing_position": 5
+      },
+      "net_descriptive_ci95": [
+        -821.3150750000004,
+        3819.592015625001
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "month_end_proxy|one_step_ITM|time120",
+      "expiry_bucket": "month_end_proxy",
+      "strike_rule": "one_step_ITM",
+      "exit_policy": "time120",
+      "ambiguity_mode": "adverse_first",
+      "potential_signals": 17,
+      "observed_trades": 5,
+      "sessions_with_trade": 5,
+      "gross_mean_rupees_per_lot": 2835.3,
+      "illustrative_net_mean_rupees_per_lot": 2566.6032250000003,
+      "severe_net_mean_rupees_per_lot": 2271.6032250000003,
+      "holding_mean_minutes": 116.0,
+      "mae_mean_bound_rupees": 1340.9500000000012,
+      "mfe_mean_bound_rupees": 4933.5,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 2,
+      "status_counts": {
+        "observed_candle_proxy": 5,
+        "rejected_higher_priority_signal": 5,
+        "rejected_existing_position": 7
+      },
+      "net_descriptive_ci95": [
+        -1402.1924500000007,
+        6960.812525000001
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "month_end_proxy|one_step_ITM|time120",
+      "expiry_bucket": "month_end_proxy",
+      "strike_rule": "one_step_ITM",
+      "exit_policy": "time120",
+      "ambiguity_mode": "favorable_first",
+      "potential_signals": 17,
+      "observed_trades": 5,
+      "sessions_with_trade": 5,
+      "gross_mean_rupees_per_lot": 2835.3,
+      "illustrative_net_mean_rupees_per_lot": 2566.6032250000003,
+      "severe_net_mean_rupees_per_lot": 2271.6032250000003,
+      "holding_mean_minutes": 116.0,
+      "mae_mean_bound_rupees": 1340.9500000000012,
+      "mfe_mean_bound_rupees": 4933.5,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 2,
+      "status_counts": {
+        "observed_candle_proxy": 5,
+        "rejected_higher_priority_signal": 5,
+        "rejected_existing_position": 7
+      },
+      "net_descriptive_ci95": [
+        -1402.1924500000007,
+        6960.812525000001
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "month_end_proxy|one_step_ITM|premium20",
+      "expiry_bucket": "month_end_proxy",
+      "strike_rule": "one_step_ITM",
+      "exit_policy": "premium20",
+      "ambiguity_mode": "adverse_first",
+      "potential_signals": 17,
+      "observed_trades": 7,
+      "sessions_with_trade": 5,
+      "gross_mean_rupees_per_lot": 2100.892857142858,
+      "illustrative_net_mean_rupees_per_lot": 1832.4667142857147,
+      "severe_net_mean_rupees_per_lot": 1537.4667142857147,
+      "holding_mean_minutes": 60.0,
+      "mae_mean_bound_rupees": 1352.4642857142862,
+      "mfe_mean_bound_rupees": 3666.464285714285,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "observed_candle_proxy": 7,
+        "rejected_higher_priority_signal": 5,
+        "rejected_existing_position": 5
+      },
+      "net_descriptive_ci95": [
+        -821.3150750000004,
+        3819.592015625001
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "month_end_proxy|one_step_ITM|premium20",
+      "expiry_bucket": "month_end_proxy",
+      "strike_rule": "one_step_ITM",
+      "exit_policy": "premium20",
+      "ambiguity_mode": "favorable_first",
+      "potential_signals": 17,
+      "observed_trades": 7,
+      "sessions_with_trade": 5,
+      "gross_mean_rupees_per_lot": 2100.892857142858,
+      "illustrative_net_mean_rupees_per_lot": 1832.4667142857147,
+      "severe_net_mean_rupees_per_lot": 1537.4667142857147,
+      "holding_mean_minutes": 60.0,
+      "mae_mean_bound_rupees": 1352.4642857142862,
+      "mfe_mean_bound_rupees": 3666.464285714285,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "observed_candle_proxy": 7,
+        "rejected_higher_priority_signal": 5,
+        "rejected_existing_position": 5
+      },
+      "net_descriptive_ci95": [
+        -821.3150750000004,
+        3819.592015625001
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "month_end_proxy|one_step_ITM|premium30",
+      "expiry_bucket": "month_end_proxy",
+      "strike_rule": "one_step_ITM",
+      "exit_policy": "premium30",
+      "ambiguity_mode": "adverse_first",
+      "potential_signals": 17,
+      "observed_trades": 7,
+      "sessions_with_trade": 5,
+      "gross_mean_rupees_per_lot": 2100.892857142858,
+      "illustrative_net_mean_rupees_per_lot": 1832.4667142857147,
+      "severe_net_mean_rupees_per_lot": 1537.4667142857147,
+      "holding_mean_minutes": 60.0,
+      "mae_mean_bound_rupees": 1352.4642857142862,
+      "mfe_mean_bound_rupees": 3666.464285714285,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "observed_candle_proxy": 7,
+        "rejected_higher_priority_signal": 5,
+        "rejected_existing_position": 5
+      },
+      "net_descriptive_ci95": [
+        -821.3150750000004,
+        3819.592015625001
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "month_end_proxy|one_step_ITM|premium30",
+      "expiry_bucket": "month_end_proxy",
+      "strike_rule": "one_step_ITM",
+      "exit_policy": "premium30",
+      "ambiguity_mode": "favorable_first",
+      "potential_signals": 17,
+      "observed_trades": 7,
+      "sessions_with_trade": 5,
+      "gross_mean_rupees_per_lot": 2100.892857142858,
+      "illustrative_net_mean_rupees_per_lot": 1832.4667142857147,
+      "severe_net_mean_rupees_per_lot": 1537.4667142857147,
+      "holding_mean_minutes": 60.0,
+      "mae_mean_bound_rupees": 1352.4642857142862,
+      "mfe_mean_bound_rupees": 3666.464285714285,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "observed_candle_proxy": 7,
+        "rejected_higher_priority_signal": 5,
+        "rejected_existing_position": 5
+      },
+      "net_descriptive_ci95": [
+        -821.3150750000004,
+        3819.592015625001
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "month_end_proxy|one_step_ITM|premium20_target1R",
+      "expiry_bucket": "month_end_proxy",
+      "strike_rule": "one_step_ITM",
+      "exit_policy": "premium20_target1R",
+      "ambiguity_mode": "adverse_first",
+      "potential_signals": 17,
+      "observed_trades": 7,
+      "sessions_with_trade": 5,
+      "gross_mean_rupees_per_lot": 1444.3000000000004,
+      "illustrative_net_mean_rupees_per_lot": 1176.8587464285717,
+      "severe_net_mean_rupees_per_lot": 881.8587464285717,
+      "holding_mean_minutes": 53.57142857142857,
+      "mae_mean_bound_rupees": 1352.4642857142862,
+      "mfe_mean_bound_rupees": 2758.7857142857138,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "observed_candle_proxy": 7,
+        "rejected_higher_priority_signal": 5,
+        "rejected_existing_position": 5
+      },
+      "net_descriptive_ci95": [
+        -821.3150750000004,
+        2656.2147031250006
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "month_end_proxy|one_step_ITM|premium20_target1R",
+      "expiry_bucket": "month_end_proxy",
+      "strike_rule": "one_step_ITM",
+      "exit_policy": "premium20_target1R",
+      "ambiguity_mode": "favorable_first",
+      "potential_signals": 17,
+      "observed_trades": 7,
+      "sessions_with_trade": 5,
+      "gross_mean_rupees_per_lot": 1444.3000000000004,
+      "illustrative_net_mean_rupees_per_lot": 1176.8587464285717,
+      "severe_net_mean_rupees_per_lot": 881.8587464285717,
+      "holding_mean_minutes": 53.57142857142857,
+      "mae_mean_bound_rupees": 1352.4642857142862,
+      "mfe_mean_bound_rupees": 2758.7857142857138,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "observed_candle_proxy": 7,
+        "rejected_higher_priority_signal": 5,
+        "rejected_existing_position": 5
+      },
+      "net_descriptive_ci95": [
+        -821.3150750000004,
+        2656.2147031250006
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "month_end_proxy|one_step_ITM|premium20_target2R",
+      "expiry_bucket": "month_end_proxy",
+      "strike_rule": "one_step_ITM",
+      "exit_policy": "premium20_target2R",
+      "ambiguity_mode": "adverse_first",
+      "potential_signals": 17,
+      "observed_trades": 7,
+      "sessions_with_trade": 5,
+      "gross_mean_rupees_per_lot": 2100.892857142858,
+      "illustrative_net_mean_rupees_per_lot": 1832.4667142857147,
+      "severe_net_mean_rupees_per_lot": 1537.4667142857147,
+      "holding_mean_minutes": 60.0,
+      "mae_mean_bound_rupees": 1352.4642857142862,
+      "mfe_mean_bound_rupees": 3666.464285714285,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "observed_candle_proxy": 7,
+        "rejected_higher_priority_signal": 5,
+        "rejected_existing_position": 5
+      },
+      "net_descriptive_ci95": [
+        -821.3150750000004,
+        3819.592015625001
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "month_end_proxy|one_step_ITM|premium20_target2R",
+      "expiry_bucket": "month_end_proxy",
+      "strike_rule": "one_step_ITM",
+      "exit_policy": "premium20_target2R",
+      "ambiguity_mode": "favorable_first",
+      "potential_signals": 17,
+      "observed_trades": 7,
+      "sessions_with_trade": 5,
+      "gross_mean_rupees_per_lot": 2100.892857142858,
+      "illustrative_net_mean_rupees_per_lot": 1832.4667142857147,
+      "severe_net_mean_rupees_per_lot": 1537.4667142857147,
+      "holding_mean_minutes": 60.0,
+      "mae_mean_bound_rupees": 1352.4642857142862,
+      "mfe_mean_bound_rupees": 3666.464285714285,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "observed_candle_proxy": 7,
+        "rejected_higher_priority_signal": 5,
+        "rejected_existing_position": 5
+      },
+      "net_descriptive_ci95": [
+        -821.3150750000004,
+        3819.592015625001
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "month_end_proxy|one_step_ITM|premium30_target2R",
+      "expiry_bucket": "month_end_proxy",
+      "strike_rule": "one_step_ITM",
+      "exit_policy": "premium30_target2R",
+      "ambiguity_mode": "adverse_first",
+      "potential_signals": 17,
+      "observed_trades": 7,
+      "sessions_with_trade": 5,
+      "gross_mean_rupees_per_lot": 2100.892857142858,
+      "illustrative_net_mean_rupees_per_lot": 1832.4667142857147,
+      "severe_net_mean_rupees_per_lot": 1537.4667142857147,
+      "holding_mean_minutes": 60.0,
+      "mae_mean_bound_rupees": 1352.4642857142862,
+      "mfe_mean_bound_rupees": 3666.464285714285,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "observed_candle_proxy": 7,
+        "rejected_higher_priority_signal": 5,
+        "rejected_existing_position": 5
+      },
+      "net_descriptive_ci95": [
+        -821.3150750000004,
+        3819.592015625001
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "month_end_proxy|one_step_ITM|premium30_target2R",
+      "expiry_bucket": "month_end_proxy",
+      "strike_rule": "one_step_ITM",
+      "exit_policy": "premium30_target2R",
+      "ambiguity_mode": "favorable_first",
+      "potential_signals": 17,
+      "observed_trades": 7,
+      "sessions_with_trade": 5,
+      "gross_mean_rupees_per_lot": 2100.892857142858,
+      "illustrative_net_mean_rupees_per_lot": 1832.4667142857147,
+      "severe_net_mean_rupees_per_lot": 1537.4667142857147,
+      "holding_mean_minutes": 60.0,
+      "mae_mean_bound_rupees": 1352.4642857142862,
+      "mfe_mean_bound_rupees": 3666.464285714285,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "observed_candle_proxy": 7,
+        "rejected_higher_priority_signal": 5,
+        "rejected_existing_position": 5
+      },
+      "net_descriptive_ci95": [
+        -821.3150750000004,
+        3819.592015625001
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "month_end_proxy|one_step_ITM|premium20_trail20",
+      "expiry_bucket": "month_end_proxy",
+      "strike_rule": "one_step_ITM",
+      "exit_policy": "premium20_trail20",
+      "ambiguity_mode": "adverse_first",
+      "potential_signals": 17,
+      "observed_trades": 7,
+      "sessions_with_trade": 5,
+      "gross_mean_rupees_per_lot": 2100.892857142858,
+      "illustrative_net_mean_rupees_per_lot": 1832.4667142857147,
+      "severe_net_mean_rupees_per_lot": 1537.4667142857147,
+      "holding_mean_minutes": 60.0,
+      "mae_mean_bound_rupees": 1352.4642857142862,
+      "mfe_mean_bound_rupees": 3666.464285714285,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "observed_candle_proxy": 7,
+        "rejected_higher_priority_signal": 5,
+        "rejected_existing_position": 5
+      },
+      "net_descriptive_ci95": [
+        -821.3150750000004,
+        3819.592015625001
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "month_end_proxy|one_step_ITM|premium20_trail20",
+      "expiry_bucket": "month_end_proxy",
+      "strike_rule": "one_step_ITM",
+      "exit_policy": "premium20_trail20",
+      "ambiguity_mode": "favorable_first",
+      "potential_signals": 17,
+      "observed_trades": 7,
+      "sessions_with_trade": 5,
+      "gross_mean_rupees_per_lot": 2100.892857142858,
+      "illustrative_net_mean_rupees_per_lot": 1832.4667142857147,
+      "severe_net_mean_rupees_per_lot": 1537.4667142857147,
+      "holding_mean_minutes": 60.0,
+      "mae_mean_bound_rupees": 1352.4642857142862,
+      "mfe_mean_bound_rupees": 3666.464285714285,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "observed_candle_proxy": 7,
+        "rejected_higher_priority_signal": 5,
+        "rejected_existing_position": 5
+      },
+      "net_descriptive_ci95": [
+        -821.3150750000004,
+        3819.592015625001
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "month_end_proxy|one_step_ITM|underlying1ATR",
+      "expiry_bucket": "month_end_proxy",
+      "strike_rule": "one_step_ITM",
+      "exit_policy": "underlying1ATR",
+      "ambiguity_mode": "adverse_first",
+      "potential_signals": 17,
+      "observed_trades": 7,
+      "sessions_with_trade": 5,
+      "gross_mean_rupees_per_lot": 1592.0357142857142,
+      "illustrative_net_mean_rupees_per_lot": 1324.3728571428571,
+      "severe_net_mean_rupees_per_lot": 1029.3728571428571,
+      "holding_mean_minutes": 35.714285714285715,
+      "mae_mean_bound_rupees": 987.0714285714292,
+      "mfe_mean_bound_rupees": 3186.3928571428564,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "observed_candle_proxy": 7,
+        "rejected_higher_priority_signal": 5,
+        "rejected_existing_position": 5
+      },
+      "net_descriptive_ci95": [
+        -324.161925000001,
+        2306.2149583333335
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "month_end_proxy|one_step_ITM|underlying1ATR",
+      "expiry_bucket": "month_end_proxy",
+      "strike_rule": "one_step_ITM",
+      "exit_policy": "underlying1ATR",
+      "ambiguity_mode": "favorable_first",
+      "potential_signals": 17,
+      "observed_trades": 7,
+      "sessions_with_trade": 5,
+      "gross_mean_rupees_per_lot": 1592.0357142857142,
+      "illustrative_net_mean_rupees_per_lot": 1324.3728571428571,
+      "severe_net_mean_rupees_per_lot": 1029.3728571428571,
+      "holding_mean_minutes": 35.714285714285715,
+      "mae_mean_bound_rupees": 987.0714285714292,
+      "mfe_mean_bound_rupees": 3186.3928571428564,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "observed_candle_proxy": 7,
+        "rejected_higher_priority_signal": 5,
+        "rejected_existing_position": 5
+      },
+      "net_descriptive_ci95": [
+        -324.161925000001,
+        2306.2149583333335
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "month_end_proxy|one_step_ITM|underlying1.5ATR",
+      "expiry_bucket": "month_end_proxy",
+      "strike_rule": "one_step_ITM",
+      "exit_policy": "underlying1.5ATR",
+      "ambiguity_mode": "adverse_first",
+      "potential_signals": 17,
+      "observed_trades": 7,
+      "sessions_with_trade": 5,
+      "gross_mean_rupees_per_lot": 1476.4285714285713,
+      "illustrative_net_mean_rupees_per_lot": 1208.9391250000003,
+      "severe_net_mean_rupees_per_lot": 913.9391250000001,
+      "holding_mean_minutes": 39.285714285714285,
+      "mae_mean_bound_rupees": 1205.7500000000002,
+      "mfe_mean_bound_rupees": 3186.3928571428564,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "observed_candle_proxy": 7,
+        "rejected_higher_priority_signal": 5,
+        "rejected_existing_position": 5
+      },
+      "net_descriptive_ci95": [
+        -647.3763750000007,
+        2287.972553571429
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "month_end_proxy|one_step_ITM|underlying1.5ATR",
+      "expiry_bucket": "month_end_proxy",
+      "strike_rule": "one_step_ITM",
+      "exit_policy": "underlying1.5ATR",
+      "ambiguity_mode": "favorable_first",
+      "potential_signals": 17,
+      "observed_trades": 7,
+      "sessions_with_trade": 5,
+      "gross_mean_rupees_per_lot": 1476.4285714285713,
+      "illustrative_net_mean_rupees_per_lot": 1208.9391250000003,
+      "severe_net_mean_rupees_per_lot": 913.9391250000001,
+      "holding_mean_minutes": 39.285714285714285,
+      "mae_mean_bound_rupees": 1205.7500000000002,
+      "mfe_mean_bound_rupees": 3186.3928571428564,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "observed_candle_proxy": 7,
+        "rejected_higher_priority_signal": 5,
+        "rejected_existing_position": 5
+      },
+      "net_descriptive_ci95": [
+        -647.3763750000007,
+        2287.972553571429
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "month_end_proxy|one_step_ITM|underlying_prior3bar_structure",
+      "expiry_bucket": "month_end_proxy",
+      "strike_rule": "one_step_ITM",
+      "exit_policy": "underlying_prior3bar_structure",
+      "ambiguity_mode": "adverse_first",
+      "potential_signals": 17,
+      "observed_trades": 7,
+      "sessions_with_trade": 5,
+      "gross_mean_rupees_per_lot": 1414.214285714286,
+      "illustrative_net_mean_rupees_per_lot": 1146.8181607142858,
+      "severe_net_mean_rupees_per_lot": 851.8181607142858,
+      "holding_mean_minutes": 45.714285714285715,
+      "mae_mean_bound_rupees": 1205.7500000000002,
+      "mfe_mean_bound_rupees": 3229.1071428571418,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "observed_candle_proxy": 7,
+        "rejected_higher_priority_signal": 5,
+        "rejected_existing_position": 5
+      },
+      "net_descriptive_ci95": [
+        -821.3150750000004,
+        2261.1148437500005
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "month_end_proxy|one_step_ITM|underlying_prior3bar_structure",
+      "expiry_bucket": "month_end_proxy",
+      "strike_rule": "one_step_ITM",
+      "exit_policy": "underlying_prior3bar_structure",
+      "ambiguity_mode": "favorable_first",
+      "potential_signals": 17,
+      "observed_trades": 7,
+      "sessions_with_trade": 5,
+      "gross_mean_rupees_per_lot": 1414.214285714286,
+      "illustrative_net_mean_rupees_per_lot": 1146.8181607142858,
+      "severe_net_mean_rupees_per_lot": 851.8181607142858,
+      "holding_mean_minutes": 45.714285714285715,
+      "mae_mean_bound_rupees": 1205.7500000000002,
+      "mfe_mean_bound_rupees": 3229.1071428571418,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "observed_candle_proxy": 7,
+        "rejected_higher_priority_signal": 5,
+        "rejected_existing_position": 5
+      },
+      "net_descriptive_ci95": [
+        -821.3150750000004,
+        2261.1148437500005
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "nearest_nonexpiry_day|ATM|time30",
+      "expiry_bucket": "nearest_nonexpiry_day",
+      "strike_rule": "ATM",
+      "exit_policy": "time30",
+      "ambiguity_mode": "adverse_first",
+      "potential_signals": 17,
+      "observed_trades": 6,
+      "sessions_with_trade": 4,
+      "gross_mean_rupees_per_lot": 1075.75,
+      "illustrative_net_mean_rupees_per_lot": 827.4573750000001,
+      "severe_net_mean_rupees_per_lot": 532.4573750000001,
+      "holding_mean_minutes": 30.0,
+      "mae_mean_bound_rupees": 978.7916666666666,
+      "mfe_mean_bound_rupees": 1978.1666666666672,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "rejected_expired_or_missing_exact_current_mapping": 2,
+        "rejected_higher_priority_signal": 5,
+        "observed_candle_proxy": 6,
+        "rejected_existing_position": 4
+      },
+      "net_descriptive_ci95": [
+        16.21079166666671,
+        1443.786075
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "nearest_nonexpiry_day|ATM|time30",
+      "expiry_bucket": "nearest_nonexpiry_day",
+      "strike_rule": "ATM",
+      "exit_policy": "time30",
+      "ambiguity_mode": "favorable_first",
+      "potential_signals": 17,
+      "observed_trades": 6,
+      "sessions_with_trade": 4,
+      "gross_mean_rupees_per_lot": 1075.75,
+      "illustrative_net_mean_rupees_per_lot": 827.4573750000001,
+      "severe_net_mean_rupees_per_lot": 532.4573750000001,
+      "holding_mean_minutes": 30.0,
+      "mae_mean_bound_rupees": 978.7916666666666,
+      "mfe_mean_bound_rupees": 1978.1666666666672,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "rejected_expired_or_missing_exact_current_mapping": 2,
+        "rejected_higher_priority_signal": 5,
+        "observed_candle_proxy": 6,
+        "rejected_existing_position": 4
+      },
+      "net_descriptive_ci95": [
+        16.21079166666671,
+        1443.786075
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "nearest_nonexpiry_day|ATM|time60",
+      "expiry_bucket": "nearest_nonexpiry_day",
+      "strike_rule": "ATM",
+      "exit_policy": "time60",
+      "ambiguity_mode": "adverse_first",
+      "potential_signals": 17,
+      "observed_trades": 6,
+      "sessions_with_trade": 4,
+      "gross_mean_rupees_per_lot": 2596.2083333333335,
+      "illustrative_net_mean_rupees_per_lot": 2345.635020833334,
+      "severe_net_mean_rupees_per_lot": 2050.635020833334,
+      "holding_mean_minutes": 60.0,
+      "mae_mean_bound_rupees": 1165.125,
+      "mfe_mean_bound_rupees": 3990.458333333334,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "rejected_expired_or_missing_exact_current_mapping": 2,
+        "rejected_higher_priority_signal": 5,
+        "observed_candle_proxy": 6,
+        "rejected_existing_position": 4
+      },
+      "net_descriptive_ci95": [
+        -655.5300833333328,
+        4379.113234375
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "nearest_nonexpiry_day|ATM|time60",
+      "expiry_bucket": "nearest_nonexpiry_day",
+      "strike_rule": "ATM",
+      "exit_policy": "time60",
+      "ambiguity_mode": "favorable_first",
+      "potential_signals": 17,
+      "observed_trades": 6,
+      "sessions_with_trade": 4,
+      "gross_mean_rupees_per_lot": 2596.2083333333335,
+      "illustrative_net_mean_rupees_per_lot": 2345.635020833334,
+      "severe_net_mean_rupees_per_lot": 2050.635020833334,
+      "holding_mean_minutes": 60.0,
+      "mae_mean_bound_rupees": 1165.125,
+      "mfe_mean_bound_rupees": 3990.458333333334,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "rejected_expired_or_missing_exact_current_mapping": 2,
+        "rejected_higher_priority_signal": 5,
+        "observed_candle_proxy": 6,
+        "rejected_existing_position": 4
+      },
+      "net_descriptive_ci95": [
+        -655.5300833333328,
+        4379.113234375
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "nearest_nonexpiry_day|ATM|time120",
+      "expiry_bucket": "nearest_nonexpiry_day",
+      "strike_rule": "ATM",
+      "exit_policy": "time120",
+      "ambiguity_mode": "adverse_first",
+      "potential_signals": 17,
+      "observed_trades": 4,
+      "sessions_with_trade": 4,
+      "gross_mean_rupees_per_lot": 4306.25,
+      "illustrative_net_mean_rupees_per_lot": 4053.38746875,
+      "severe_net_mean_rupees_per_lot": 3758.38746875,
+      "holding_mean_minutes": 115.0,
+      "mae_mean_bound_rupees": 763.7500000000006,
+      "mfe_mean_bound_rupees": 5850.0,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 2,
+      "status_counts": {
+        "rejected_expired_or_missing_exact_current_mapping": 2,
+        "rejected_higher_priority_signal": 5,
+        "observed_candle_proxy": 4,
+        "rejected_existing_position": 6
+      },
+      "net_descriptive_ci95": [
+        -335.34441666666663,
+        9049.1335
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "nearest_nonexpiry_day|ATM|time120",
+      "expiry_bucket": "nearest_nonexpiry_day",
+      "strike_rule": "ATM",
+      "exit_policy": "time120",
+      "ambiguity_mode": "favorable_first",
+      "potential_signals": 17,
+      "observed_trades": 4,
+      "sessions_with_trade": 4,
+      "gross_mean_rupees_per_lot": 4306.25,
+      "illustrative_net_mean_rupees_per_lot": 4053.38746875,
+      "severe_net_mean_rupees_per_lot": 3758.38746875,
+      "holding_mean_minutes": 115.0,
+      "mae_mean_bound_rupees": 763.7500000000006,
+      "mfe_mean_bound_rupees": 5850.0,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 2,
+      "status_counts": {
+        "rejected_expired_or_missing_exact_current_mapping": 2,
+        "rejected_higher_priority_signal": 5,
+        "observed_candle_proxy": 4,
+        "rejected_existing_position": 6
+      },
+      "net_descriptive_ci95": [
+        -335.34441666666663,
+        9049.1335
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "nearest_nonexpiry_day|ATM|premium20",
+      "expiry_bucket": "nearest_nonexpiry_day",
+      "strike_rule": "ATM",
+      "exit_policy": "premium20",
+      "ambiguity_mode": "adverse_first",
+      "potential_signals": 17,
+      "observed_trades": 6,
+      "sessions_with_trade": 4,
+      "gross_mean_rupees_per_lot": 2391.4583333333335,
+      "illustrative_net_mean_rupees_per_lot": 2141.192145833334,
+      "severe_net_mean_rupees_per_lot": 1846.1921458333338,
+      "holding_mean_minutes": 53.333333333333336,
+      "mae_mean_bound_rupees": 1165.125,
+      "mfe_mean_bound_rupees": 3990.458333333334,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "rejected_expired_or_missing_exact_current_mapping": 2,
+        "rejected_higher_priority_signal": 5,
+        "observed_candle_proxy": 6,
+        "rejected_existing_position": 4
+      },
+      "net_descriptive_ci95": [
+        -655.5300833333328,
+        4318.3178
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "nearest_nonexpiry_day|ATM|premium20",
+      "expiry_bucket": "nearest_nonexpiry_day",
+      "strike_rule": "ATM",
+      "exit_policy": "premium20",
+      "ambiguity_mode": "favorable_first",
+      "potential_signals": 17,
+      "observed_trades": 6,
+      "sessions_with_trade": 4,
+      "gross_mean_rupees_per_lot": 2391.4583333333335,
+      "illustrative_net_mean_rupees_per_lot": 2141.192145833334,
+      "severe_net_mean_rupees_per_lot": 1846.1921458333338,
+      "holding_mean_minutes": 53.333333333333336,
+      "mae_mean_bound_rupees": 1165.125,
+      "mfe_mean_bound_rupees": 3990.458333333334,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "rejected_expired_or_missing_exact_current_mapping": 2,
+        "rejected_higher_priority_signal": 5,
+        "observed_candle_proxy": 6,
+        "rejected_existing_position": 4
+      },
+      "net_descriptive_ci95": [
+        -655.5300833333328,
+        4318.3178
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "nearest_nonexpiry_day|ATM|premium30",
+      "expiry_bucket": "nearest_nonexpiry_day",
+      "strike_rule": "ATM",
+      "exit_policy": "premium30",
+      "ambiguity_mode": "adverse_first",
+      "potential_signals": 17,
+      "observed_trades": 6,
+      "sessions_with_trade": 4,
+      "gross_mean_rupees_per_lot": 2596.2083333333335,
+      "illustrative_net_mean_rupees_per_lot": 2345.635020833334,
+      "severe_net_mean_rupees_per_lot": 2050.635020833334,
+      "holding_mean_minutes": 60.0,
+      "mae_mean_bound_rupees": 1165.125,
+      "mfe_mean_bound_rupees": 3990.458333333334,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "rejected_expired_or_missing_exact_current_mapping": 2,
+        "rejected_higher_priority_signal": 5,
+        "observed_candle_proxy": 6,
+        "rejected_existing_position": 4
+      },
+      "net_descriptive_ci95": [
+        -655.5300833333328,
+        4379.113234375
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "nearest_nonexpiry_day|ATM|premium30",
+      "expiry_bucket": "nearest_nonexpiry_day",
+      "strike_rule": "ATM",
+      "exit_policy": "premium30",
+      "ambiguity_mode": "favorable_first",
+      "potential_signals": 17,
+      "observed_trades": 6,
+      "sessions_with_trade": 4,
+      "gross_mean_rupees_per_lot": 2596.2083333333335,
+      "illustrative_net_mean_rupees_per_lot": 2345.635020833334,
+      "severe_net_mean_rupees_per_lot": 2050.635020833334,
+      "holding_mean_minutes": 60.0,
+      "mae_mean_bound_rupees": 1165.125,
+      "mfe_mean_bound_rupees": 3990.458333333334,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "rejected_expired_or_missing_exact_current_mapping": 2,
+        "rejected_higher_priority_signal": 5,
+        "observed_candle_proxy": 6,
+        "rejected_existing_position": 4
+      },
+      "net_descriptive_ci95": [
+        -655.5300833333328,
+        4379.113234375
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "nearest_nonexpiry_day|ATM|premium20_target1R",
+      "expiry_bucket": "nearest_nonexpiry_day",
+      "strike_rule": "ATM",
+      "exit_policy": "premium20_target1R",
+      "ambiguity_mode": "adverse_first",
+      "potential_signals": 17,
+      "observed_trades": 7,
+      "sessions_with_trade": 4,
+      "gross_mean_rupees_per_lot": 1039.3499999999997,
+      "illustrative_net_mean_rupees_per_lot": 791.1498142857142,
+      "severe_net_mean_rupees_per_lot": 496.14981428571417,
+      "holding_mean_minutes": 31.428571428571427,
+      "mae_mean_bound_rupees": 1042.7857142857142,
+      "mfe_mean_bound_rupees": 2013.1428571428576,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "rejected_expired_or_missing_exact_current_mapping": 2,
+        "rejected_higher_priority_signal": 5,
+        "observed_candle_proxy": 7,
+        "rejected_existing_position": 3
+      },
+      "net_descriptive_ci95": [
+        -983.6080499999998,
+        1988.5814299999997
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "nearest_nonexpiry_day|ATM|premium20_target1R",
+      "expiry_bucket": "nearest_nonexpiry_day",
+      "strike_rule": "ATM",
+      "exit_policy": "premium20_target1R",
+      "ambiguity_mode": "favorable_first",
+      "potential_signals": 17,
+      "observed_trades": 7,
+      "sessions_with_trade": 4,
+      "gross_mean_rupees_per_lot": 1039.3499999999997,
+      "illustrative_net_mean_rupees_per_lot": 791.1498142857142,
+      "severe_net_mean_rupees_per_lot": 496.14981428571417,
+      "holding_mean_minutes": 31.428571428571427,
+      "mae_mean_bound_rupees": 1042.7857142857142,
+      "mfe_mean_bound_rupees": 2013.1428571428576,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "rejected_expired_or_missing_exact_current_mapping": 2,
+        "rejected_higher_priority_signal": 5,
+        "observed_candle_proxy": 7,
+        "rejected_existing_position": 3
+      },
+      "net_descriptive_ci95": [
+        -983.6080499999998,
+        1988.5814299999997
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "nearest_nonexpiry_day|ATM|premium20_target2R",
+      "expiry_bucket": "nearest_nonexpiry_day",
+      "strike_rule": "ATM",
+      "exit_policy": "premium20_target2R",
+      "ambiguity_mode": "adverse_first",
+      "potential_signals": 17,
+      "observed_trades": 6,
+      "sessions_with_trade": 4,
+      "gross_mean_rupees_per_lot": 1446.6833333333332,
+      "illustrative_net_mean_rupees_per_lot": 1197.8343083333332,
+      "severe_net_mean_rupees_per_lot": 902.8343083333333,
+      "holding_mean_minutes": 45.833333333333336,
+      "mae_mean_bound_rupees": 1165.125,
+      "mfe_mean_bound_rupees": 2805.833333333334,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "rejected_expired_or_missing_exact_current_mapping": 2,
+        "rejected_higher_priority_signal": 5,
+        "observed_candle_proxy": 6,
+        "rejected_existing_position": 4
+      },
+      "net_descriptive_ci95": [
+        -737.9354799999998,
+        2833.4380833333325
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "nearest_nonexpiry_day|ATM|premium20_target2R",
+      "expiry_bucket": "nearest_nonexpiry_day",
+      "strike_rule": "ATM",
+      "exit_policy": "premium20_target2R",
+      "ambiguity_mode": "favorable_first",
+      "potential_signals": 17,
+      "observed_trades": 6,
+      "sessions_with_trade": 4,
+      "gross_mean_rupees_per_lot": 1446.6833333333332,
+      "illustrative_net_mean_rupees_per_lot": 1197.8343083333332,
+      "severe_net_mean_rupees_per_lot": 902.8343083333333,
+      "holding_mean_minutes": 45.833333333333336,
+      "mae_mean_bound_rupees": 1165.125,
+      "mfe_mean_bound_rupees": 2805.833333333334,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "rejected_expired_or_missing_exact_current_mapping": 2,
+        "rejected_higher_priority_signal": 5,
+        "observed_candle_proxy": 6,
+        "rejected_existing_position": 4
+      },
+      "net_descriptive_ci95": [
+        -737.9354799999998,
+        2833.4380833333325
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "nearest_nonexpiry_day|ATM|premium30_target2R",
+      "expiry_bucket": "nearest_nonexpiry_day",
+      "strike_rule": "ATM",
+      "exit_policy": "premium30_target2R",
+      "ambiguity_mode": "adverse_first",
+      "potential_signals": 17,
+      "observed_trades": 6,
+      "sessions_with_trade": 4,
+      "gross_mean_rupees_per_lot": 2295.691666666667,
+      "illustrative_net_mean_rupees_per_lot": 2045.5691291666672,
+      "severe_net_mean_rupees_per_lot": 1750.5691291666672,
+      "holding_mean_minutes": 55.0,
+      "mae_mean_bound_rupees": 1165.125,
+      "mfe_mean_bound_rupees": 3707.7083333333335,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "rejected_expired_or_missing_exact_current_mapping": 2,
+        "rejected_higher_priority_signal": 5,
+        "observed_candle_proxy": 6,
+        "rejected_existing_position": 4
+      },
+      "net_descriptive_ci95": [
+        -655.5300833333328,
+        3763.7072500000004
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "nearest_nonexpiry_day|ATM|premium30_target2R",
+      "expiry_bucket": "nearest_nonexpiry_day",
+      "strike_rule": "ATM",
+      "exit_policy": "premium30_target2R",
+      "ambiguity_mode": "favorable_first",
+      "potential_signals": 17,
+      "observed_trades": 6,
+      "sessions_with_trade": 4,
+      "gross_mean_rupees_per_lot": 2295.691666666667,
+      "illustrative_net_mean_rupees_per_lot": 2045.5691291666672,
+      "severe_net_mean_rupees_per_lot": 1750.5691291666672,
+      "holding_mean_minutes": 55.0,
+      "mae_mean_bound_rupees": 1165.125,
+      "mfe_mean_bound_rupees": 3707.7083333333335,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "rejected_expired_or_missing_exact_current_mapping": 2,
+        "rejected_higher_priority_signal": 5,
+        "observed_candle_proxy": 6,
+        "rejected_existing_position": 4
+      },
+      "net_descriptive_ci95": [
+        -655.5300833333328,
+        3763.7072500000004
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "nearest_nonexpiry_day|ATM|premium20_trail20",
+      "expiry_bucket": "nearest_nonexpiry_day",
+      "strike_rule": "ATM",
+      "exit_policy": "premium20_trail20",
+      "ambiguity_mode": "adverse_first",
+      "potential_signals": 17,
+      "observed_trades": 6,
+      "sessions_with_trade": 4,
+      "gross_mean_rupees_per_lot": 2123.0083333333337,
+      "illustrative_net_mean_rupees_per_lot": 1873.144820833334,
+      "severe_net_mean_rupees_per_lot": 1578.144820833334,
+      "holding_mean_minutes": 51.666666666666664,
+      "mae_mean_bound_rupees": 1165.125,
+      "mfe_mean_bound_rupees": 3990.458333333334,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "rejected_expired_or_missing_exact_current_mapping": 2,
+        "rejected_higher_priority_signal": 5,
+        "observed_candle_proxy": 6,
+        "rejected_existing_position": 4
+      },
+      "net_descriptive_ci95": [
+        -1240.9506333333322,
+        4244.2782906249995
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "nearest_nonexpiry_day|ATM|premium20_trail20",
+      "expiry_bucket": "nearest_nonexpiry_day",
+      "strike_rule": "ATM",
+      "exit_policy": "premium20_trail20",
+      "ambiguity_mode": "favorable_first",
+      "potential_signals": 17,
+      "observed_trades": 6,
+      "sessions_with_trade": 4,
+      "gross_mean_rupees_per_lot": 2123.0083333333337,
+      "illustrative_net_mean_rupees_per_lot": 1873.144820833334,
+      "severe_net_mean_rupees_per_lot": 1578.144820833334,
+      "holding_mean_minutes": 51.666666666666664,
+      "mae_mean_bound_rupees": 1165.125,
+      "mfe_mean_bound_rupees": 3990.458333333334,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "rejected_expired_or_missing_exact_current_mapping": 2,
+        "rejected_higher_priority_signal": 5,
+        "observed_candle_proxy": 6,
+        "rejected_existing_position": 4
+      },
+      "net_descriptive_ci95": [
+        -1240.9506333333322,
+        4244.2782906249995
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "nearest_nonexpiry_day|ATM|underlying1ATR",
+      "expiry_bucket": "nearest_nonexpiry_day",
+      "strike_rule": "ATM",
+      "exit_policy": "underlying1ATR",
+      "ambiguity_mode": "adverse_first",
+      "potential_signals": 17,
+      "observed_trades": 6,
+      "sessions_with_trade": 4,
+      "gross_mean_rupees_per_lot": 1948.916666666667,
+      "illustrative_net_mean_rupees_per_lot": 1699.3142916666673,
+      "severe_net_mean_rupees_per_lot": 1404.3142916666673,
+      "holding_mean_minutes": 40.0,
+      "mae_mean_bound_rupees": 839.5833333333336,
+      "mfe_mean_bound_rupees": 3410.333333333334,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "rejected_expired_or_missing_exact_current_mapping": 2,
+        "rejected_higher_priority_signal": 5,
+        "observed_candle_proxy": 6,
+        "rejected_existing_position": 4
+      },
+      "net_descriptive_ci95": [
+        -45.446583333333216,
+        2608.402666666667
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "nearest_nonexpiry_day|ATM|underlying1ATR",
+      "expiry_bucket": "nearest_nonexpiry_day",
+      "strike_rule": "ATM",
+      "exit_policy": "underlying1ATR",
+      "ambiguity_mode": "favorable_first",
+      "potential_signals": 17,
+      "observed_trades": 6,
+      "sessions_with_trade": 4,
+      "gross_mean_rupees_per_lot": 1948.916666666667,
+      "illustrative_net_mean_rupees_per_lot": 1699.3142916666673,
+      "severe_net_mean_rupees_per_lot": 1404.3142916666673,
+      "holding_mean_minutes": 40.0,
+      "mae_mean_bound_rupees": 839.5833333333336,
+      "mfe_mean_bound_rupees": 3410.333333333334,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "rejected_expired_or_missing_exact_current_mapping": 2,
+        "rejected_higher_priority_signal": 5,
+        "observed_candle_proxy": 6,
+        "rejected_existing_position": 4
+      },
+      "net_descriptive_ci95": [
+        -45.446583333333216,
+        2608.402666666667
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "nearest_nonexpiry_day|ATM|underlying1.5ATR",
+      "expiry_bucket": "nearest_nonexpiry_day",
+      "strike_rule": "ATM",
+      "exit_policy": "underlying1.5ATR",
+      "ambiguity_mode": "adverse_first",
+      "potential_signals": 17,
+      "observed_trades": 6,
+      "sessions_with_trade": 4,
+      "gross_mean_rupees_per_lot": 1796.166666666667,
+      "illustrative_net_mean_rupees_per_lot": 1546.7934166666673,
+      "severe_net_mean_rupees_per_lot": 1251.793416666667,
+      "holding_mean_minutes": 43.333333333333336,
+      "mae_mean_bound_rupees": 1006.416666666667,
+      "mfe_mean_bound_rupees": 3410.333333333334,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "rejected_expired_or_missing_exact_current_mapping": 2,
+        "rejected_higher_priority_signal": 5,
+        "observed_candle_proxy": 6,
+        "rejected_existing_position": 4
+      },
+      "net_descriptive_ci95": [
+        -655.5300833333328,
+        2608.402666666667
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "nearest_nonexpiry_day|ATM|underlying1.5ATR",
+      "expiry_bucket": "nearest_nonexpiry_day",
+      "strike_rule": "ATM",
+      "exit_policy": "underlying1.5ATR",
+      "ambiguity_mode": "favorable_first",
+      "potential_signals": 17,
+      "observed_trades": 6,
+      "sessions_with_trade": 4,
+      "gross_mean_rupees_per_lot": 1796.166666666667,
+      "illustrative_net_mean_rupees_per_lot": 1546.7934166666673,
+      "severe_net_mean_rupees_per_lot": 1251.793416666667,
+      "holding_mean_minutes": 43.333333333333336,
+      "mae_mean_bound_rupees": 1006.416666666667,
+      "mfe_mean_bound_rupees": 3410.333333333334,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "rejected_expired_or_missing_exact_current_mapping": 2,
+        "rejected_higher_priority_signal": 5,
+        "observed_candle_proxy": 6,
+        "rejected_existing_position": 4
+      },
+      "net_descriptive_ci95": [
+        -655.5300833333328,
+        2608.402666666667
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "nearest_nonexpiry_day|ATM|underlying_prior3bar_structure",
+      "expiry_bucket": "nearest_nonexpiry_day",
+      "strike_rule": "ATM",
+      "exit_policy": "underlying_prior3bar_structure",
+      "ambiguity_mode": "adverse_first",
+      "potential_signals": 17,
+      "observed_trades": 6,
+      "sessions_with_trade": 4,
+      "gross_mean_rupees_per_lot": 1796.166666666667,
+      "illustrative_net_mean_rupees_per_lot": 1546.7934166666673,
+      "severe_net_mean_rupees_per_lot": 1251.793416666667,
+      "holding_mean_minutes": 43.333333333333336,
+      "mae_mean_bound_rupees": 1006.416666666667,
+      "mfe_mean_bound_rupees": 3410.333333333334,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "rejected_expired_or_missing_exact_current_mapping": 2,
+        "rejected_higher_priority_signal": 5,
+        "observed_candle_proxy": 6,
+        "rejected_existing_position": 4
+      },
+      "net_descriptive_ci95": [
+        -655.5300833333328,
+        2608.402666666667
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "nearest_nonexpiry_day|ATM|underlying_prior3bar_structure",
+      "expiry_bucket": "nearest_nonexpiry_day",
+      "strike_rule": "ATM",
+      "exit_policy": "underlying_prior3bar_structure",
+      "ambiguity_mode": "favorable_first",
+      "potential_signals": 17,
+      "observed_trades": 6,
+      "sessions_with_trade": 4,
+      "gross_mean_rupees_per_lot": 1796.166666666667,
+      "illustrative_net_mean_rupees_per_lot": 1546.7934166666673,
+      "severe_net_mean_rupees_per_lot": 1251.793416666667,
+      "holding_mean_minutes": 43.333333333333336,
+      "mae_mean_bound_rupees": 1006.416666666667,
+      "mfe_mean_bound_rupees": 3410.333333333334,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "rejected_expired_or_missing_exact_current_mapping": 2,
+        "rejected_higher_priority_signal": 5,
+        "observed_candle_proxy": 6,
+        "rejected_existing_position": 4
+      },
+      "net_descriptive_ci95": [
+        -655.5300833333328,
+        2608.402666666667
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "nearest_nonexpiry_day|one_step_ITM|time30",
+      "expiry_bucket": "nearest_nonexpiry_day",
+      "strike_rule": "one_step_ITM",
+      "exit_policy": "time30",
+      "ambiguity_mode": "adverse_first",
+      "potential_signals": 17,
+      "observed_trades": 6,
+      "sessions_with_trade": 4,
+      "gross_mean_rupees_per_lot": 1223.6249999999993,
+      "illustrative_net_mean_rupees_per_lot": 972.443124999999,
+      "severe_net_mean_rupees_per_lot": 677.4431249999992,
+      "holding_mean_minutes": 30.0,
+      "mae_mean_bound_rupees": 1065.4583333333337,
+      "mfe_mean_bound_rupees": 2201.3333333333335,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "rejected_expired_or_missing_exact_current_mapping": 2,
+        "rejected_higher_priority_signal": 5,
+        "observed_candle_proxy": 6,
+        "rejected_existing_position": 4
+      },
+      "net_descriptive_ci95": [
+        44.90070833333243,
+        1684.2374874999991
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "nearest_nonexpiry_day|one_step_ITM|time30",
+      "expiry_bucket": "nearest_nonexpiry_day",
+      "strike_rule": "one_step_ITM",
+      "exit_policy": "time30",
+      "ambiguity_mode": "favorable_first",
+      "potential_signals": 17,
+      "observed_trades": 6,
+      "sessions_with_trade": 4,
+      "gross_mean_rupees_per_lot": 1223.6249999999993,
+      "illustrative_net_mean_rupees_per_lot": 972.443124999999,
+      "severe_net_mean_rupees_per_lot": 677.4431249999992,
+      "holding_mean_minutes": 30.0,
+      "mae_mean_bound_rupees": 1065.4583333333337,
+      "mfe_mean_bound_rupees": 2201.3333333333335,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "rejected_expired_or_missing_exact_current_mapping": 2,
+        "rejected_higher_priority_signal": 5,
+        "observed_candle_proxy": 6,
+        "rejected_existing_position": 4
+      },
+      "net_descriptive_ci95": [
+        44.90070833333243,
+        1684.2374874999991
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "nearest_nonexpiry_day|one_step_ITM|time60",
+      "expiry_bucket": "nearest_nonexpiry_day",
+      "strike_rule": "one_step_ITM",
+      "exit_policy": "time60",
+      "ambiguity_mode": "adverse_first",
+      "potential_signals": 17,
+      "observed_trades": 6,
+      "sessions_with_trade": 4,
+      "gross_mean_rupees_per_lot": 2804.2083333333326,
+      "illustrative_net_mean_rupees_per_lot": 2550.655583333333,
+      "severe_net_mean_rupees_per_lot": 2255.655583333333,
+      "holding_mean_minutes": 60.0,
+      "mae_mean_bound_rupees": 1264.25,
+      "mfe_mean_bound_rupees": 4303.0,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "rejected_expired_or_missing_exact_current_mapping": 2,
+        "rejected_higher_priority_signal": 5,
+        "observed_candle_proxy": 6,
+        "rejected_existing_position": 4
+      },
+      "net_descriptive_ci95": [
+        -646.3109166666671,
+        4764.214671875
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "nearest_nonexpiry_day|one_step_ITM|time60",
+      "expiry_bucket": "nearest_nonexpiry_day",
+      "strike_rule": "one_step_ITM",
+      "exit_policy": "time60",
+      "ambiguity_mode": "favorable_first",
+      "potential_signals": 17,
+      "observed_trades": 6,
+      "sessions_with_trade": 4,
+      "gross_mean_rupees_per_lot": 2804.2083333333326,
+      "illustrative_net_mean_rupees_per_lot": 2550.655583333333,
+      "severe_net_mean_rupees_per_lot": 2255.655583333333,
+      "holding_mean_minutes": 60.0,
+      "mae_mean_bound_rupees": 1264.25,
+      "mfe_mean_bound_rupees": 4303.0,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "rejected_expired_or_missing_exact_current_mapping": 2,
+        "rejected_higher_priority_signal": 5,
+        "observed_candle_proxy": 6,
+        "rejected_existing_position": 4
+      },
+      "net_descriptive_ci95": [
+        -646.3109166666671,
+        4764.214671875
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "nearest_nonexpiry_day|one_step_ITM|time120",
+      "expiry_bucket": "nearest_nonexpiry_day",
+      "strike_rule": "one_step_ITM",
+      "exit_policy": "time120",
+      "ambiguity_mode": "adverse_first",
+      "potential_signals": 17,
+      "observed_trades": 4,
+      "sessions_with_trade": 4,
+      "gross_mean_rupees_per_lot": 4617.4375,
+      "illustrative_net_mean_rupees_per_lot": 4361.4561875,
+      "severe_net_mean_rupees_per_lot": 4066.4561874999995,
+      "holding_mean_minutes": 115.0,
+      "mae_mean_bound_rupees": 825.5000000000002,
+      "mfe_mean_bound_rupees": 6262.75,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 2,
+      "status_counts": {
+        "rejected_expired_or_missing_exact_current_mapping": 2,
+        "rejected_higher_priority_signal": 5,
+        "observed_candle_proxy": 4,
+        "rejected_existing_position": 6
+      },
+      "net_descriptive_ci95": [
+        -295.837416666667,
+        9648.988166666664
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "nearest_nonexpiry_day|one_step_ITM|time120",
+      "expiry_bucket": "nearest_nonexpiry_day",
+      "strike_rule": "one_step_ITM",
+      "exit_policy": "time120",
+      "ambiguity_mode": "favorable_first",
+      "potential_signals": 17,
+      "observed_trades": 4,
+      "sessions_with_trade": 4,
+      "gross_mean_rupees_per_lot": 4617.4375,
+      "illustrative_net_mean_rupees_per_lot": 4361.4561875,
+      "severe_net_mean_rupees_per_lot": 4066.4561874999995,
+      "holding_mean_minutes": 115.0,
+      "mae_mean_bound_rupees": 825.5000000000002,
+      "mfe_mean_bound_rupees": 6262.75,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 2,
+      "status_counts": {
+        "rejected_expired_or_missing_exact_current_mapping": 2,
+        "rejected_higher_priority_signal": 5,
+        "observed_candle_proxy": 4,
+        "rejected_existing_position": 6
+      },
+      "net_descriptive_ci95": [
+        -295.837416666667,
+        9648.988166666664
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "nearest_nonexpiry_day|one_step_ITM|premium20",
+      "expiry_bucket": "nearest_nonexpiry_day",
+      "strike_rule": "one_step_ITM",
+      "exit_policy": "premium20",
+      "ambiguity_mode": "adverse_first",
+      "potential_signals": 17,
+      "observed_trades": 6,
+      "sessions_with_trade": 4,
+      "gross_mean_rupees_per_lot": 2568.0416666666665,
+      "illustrative_net_mean_rupees_per_lot": 2314.8431666666665,
+      "severe_net_mean_rupees_per_lot": 2019.8431666666665,
+      "holding_mean_minutes": 53.333333333333336,
+      "mae_mean_bound_rupees": 1264.25,
+      "mfe_mean_bound_rupees": 4303.0,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "rejected_expired_or_missing_exact_current_mapping": 2,
+        "rejected_higher_priority_signal": 5,
+        "observed_candle_proxy": 6,
+        "rejected_existing_position": 4
+      },
+      "net_descriptive_ci95": [
+        -646.3109166666671,
+        4738.17425
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "nearest_nonexpiry_day|one_step_ITM|premium20",
+      "expiry_bucket": "nearest_nonexpiry_day",
+      "strike_rule": "one_step_ITM",
+      "exit_policy": "premium20",
+      "ambiguity_mode": "favorable_first",
+      "potential_signals": 17,
+      "observed_trades": 6,
+      "sessions_with_trade": 4,
+      "gross_mean_rupees_per_lot": 2568.0416666666665,
+      "illustrative_net_mean_rupees_per_lot": 2314.8431666666665,
+      "severe_net_mean_rupees_per_lot": 2019.8431666666665,
+      "holding_mean_minutes": 53.333333333333336,
+      "mae_mean_bound_rupees": 1264.25,
+      "mfe_mean_bound_rupees": 4303.0,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "rejected_expired_or_missing_exact_current_mapping": 2,
+        "rejected_higher_priority_signal": 5,
+        "observed_candle_proxy": 6,
+        "rejected_existing_position": 4
+      },
+      "net_descriptive_ci95": [
+        -646.3109166666671,
+        4738.17425
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "nearest_nonexpiry_day|one_step_ITM|premium30",
+      "expiry_bucket": "nearest_nonexpiry_day",
+      "strike_rule": "one_step_ITM",
+      "exit_policy": "premium30",
+      "ambiguity_mode": "adverse_first",
+      "potential_signals": 17,
+      "observed_trades": 6,
+      "sessions_with_trade": 4,
+      "gross_mean_rupees_per_lot": 2804.2083333333326,
+      "illustrative_net_mean_rupees_per_lot": 2550.655583333333,
+      "severe_net_mean_rupees_per_lot": 2255.655583333333,
+      "holding_mean_minutes": 60.0,
+      "mae_mean_bound_rupees": 1264.25,
+      "mfe_mean_bound_rupees": 4303.0,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "rejected_expired_or_missing_exact_current_mapping": 2,
+        "rejected_higher_priority_signal": 5,
+        "observed_candle_proxy": 6,
+        "rejected_existing_position": 4
+      },
+      "net_descriptive_ci95": [
+        -646.3109166666671,
+        4764.214671875
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "nearest_nonexpiry_day|one_step_ITM|premium30",
+      "expiry_bucket": "nearest_nonexpiry_day",
+      "strike_rule": "one_step_ITM",
+      "exit_policy": "premium30",
+      "ambiguity_mode": "favorable_first",
+      "potential_signals": 17,
+      "observed_trades": 6,
+      "sessions_with_trade": 4,
+      "gross_mean_rupees_per_lot": 2804.2083333333326,
+      "illustrative_net_mean_rupees_per_lot": 2550.655583333333,
+      "severe_net_mean_rupees_per_lot": 2255.655583333333,
+      "holding_mean_minutes": 60.0,
+      "mae_mean_bound_rupees": 1264.25,
+      "mfe_mean_bound_rupees": 4303.0,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "rejected_expired_or_missing_exact_current_mapping": 2,
+        "rejected_higher_priority_signal": 5,
+        "observed_candle_proxy": 6,
+        "rejected_existing_position": 4
+      },
+      "net_descriptive_ci95": [
+        -646.3109166666671,
+        4764.214671875
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "nearest_nonexpiry_day|one_step_ITM|premium20_target1R",
+      "expiry_bucket": "nearest_nonexpiry_day",
+      "strike_rule": "one_step_ITM",
+      "exit_policy": "premium20_target1R",
+      "ambiguity_mode": "adverse_first",
+      "potential_signals": 17,
+      "observed_trades": 7,
+      "sessions_with_trade": 4,
+      "gross_mean_rupees_per_lot": 1235.8357142857137,
+      "illustrative_net_mean_rupees_per_lot": 984.6532821428565,
+      "severe_net_mean_rupees_per_lot": 689.6532821428565,
+      "holding_mean_minutes": 32.142857142857146,
+      "mae_mean_bound_rupees": 1138.4285714285713,
+      "mfe_mean_bound_rupees": 2276.8571428571427,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "rejected_expired_or_missing_exact_current_mapping": 2,
+        "rejected_higher_priority_signal": 5,
+        "observed_candle_proxy": 7,
+        "rejected_existing_position": 3
+      },
+      "net_descriptive_ci95": [
+        -1014.7219250000004,
+        2342.9693363636356
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "nearest_nonexpiry_day|one_step_ITM|premium20_target1R",
+      "expiry_bucket": "nearest_nonexpiry_day",
+      "strike_rule": "one_step_ITM",
+      "exit_policy": "premium20_target1R",
+      "ambiguity_mode": "favorable_first",
+      "potential_signals": 17,
+      "observed_trades": 7,
+      "sessions_with_trade": 4,
+      "gross_mean_rupees_per_lot": 1235.8357142857137,
+      "illustrative_net_mean_rupees_per_lot": 984.6532821428565,
+      "severe_net_mean_rupees_per_lot": 689.6532821428565,
+      "holding_mean_minutes": 32.142857142857146,
+      "mae_mean_bound_rupees": 1138.4285714285713,
+      "mfe_mean_bound_rupees": 2276.8571428571427,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "rejected_expired_or_missing_exact_current_mapping": 2,
+        "rejected_higher_priority_signal": 5,
+        "observed_candle_proxy": 7,
+        "rejected_existing_position": 3
+      },
+      "net_descriptive_ci95": [
+        -1014.7219250000004,
+        2342.9693363636356
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "nearest_nonexpiry_day|one_step_ITM|premium20_target2R",
+      "expiry_bucket": "nearest_nonexpiry_day",
+      "strike_rule": "one_step_ITM",
+      "exit_policy": "premium20_target2R",
+      "ambiguity_mode": "adverse_first",
+      "potential_signals": 17,
+      "observed_trades": 6,
+      "sessions_with_trade": 4,
+      "gross_mean_rupees_per_lot": 1707.766666666667,
+      "illustrative_net_mean_rupees_per_lot": 1455.8585791666667,
+      "severe_net_mean_rupees_per_lot": 1160.8585791666667,
+      "holding_mean_minutes": 45.833333333333336,
+      "mae_mean_bound_rupees": 1264.25,
+      "mfe_mean_bound_rupees": 3089.6666666666665,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "rejected_expired_or_missing_exact_current_mapping": 2,
+        "rejected_higher_priority_signal": 5,
+        "observed_candle_proxy": 6,
+        "rejected_existing_position": 4
+      },
+      "net_descriptive_ci95": [
+        -703.6700800000003,
+        3311.370986111112
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "nearest_nonexpiry_day|one_step_ITM|premium20_target2R",
+      "expiry_bucket": "nearest_nonexpiry_day",
+      "strike_rule": "one_step_ITM",
+      "exit_policy": "premium20_target2R",
+      "ambiguity_mode": "favorable_first",
+      "potential_signals": 17,
+      "observed_trades": 6,
+      "sessions_with_trade": 4,
+      "gross_mean_rupees_per_lot": 1707.766666666667,
+      "illustrative_net_mean_rupees_per_lot": 1455.8585791666667,
+      "severe_net_mean_rupees_per_lot": 1160.8585791666667,
+      "holding_mean_minutes": 45.833333333333336,
+      "mae_mean_bound_rupees": 1264.25,
+      "mfe_mean_bound_rupees": 3089.6666666666665,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "rejected_expired_or_missing_exact_current_mapping": 2,
+        "rejected_higher_priority_signal": 5,
+        "observed_candle_proxy": 6,
+        "rejected_existing_position": 4
+      },
+      "net_descriptive_ci95": [
+        -703.6700800000003,
+        3311.370986111112
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "nearest_nonexpiry_day|one_step_ITM|premium30_target2R",
+      "expiry_bucket": "nearest_nonexpiry_day",
+      "strike_rule": "one_step_ITM",
+      "exit_policy": "premium30_target2R",
+      "ambiguity_mode": "adverse_first",
+      "potential_signals": 17,
+      "observed_trades": 6,
+      "sessions_with_trade": 4,
+      "gross_mean_rupees_per_lot": 2706.816666666667,
+      "illustrative_net_mean_rupees_per_lot": 2453.410004166667,
+      "severe_net_mean_rupees_per_lot": 2158.410004166667,
+      "holding_mean_minutes": 55.0,
+      "mae_mean_bound_rupees": 1264.25,
+      "mfe_mean_bound_rupees": 4006.7083333333335,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "rejected_expired_or_missing_exact_current_mapping": 2,
+        "rejected_higher_priority_signal": 5,
+        "observed_candle_proxy": 6,
+        "rejected_existing_position": 4
+      },
+      "net_descriptive_ci95": [
+        -646.3109166666671,
+        4397.406152777778
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "nearest_nonexpiry_day|one_step_ITM|premium30_target2R",
+      "expiry_bucket": "nearest_nonexpiry_day",
+      "strike_rule": "one_step_ITM",
+      "exit_policy": "premium30_target2R",
+      "ambiguity_mode": "favorable_first",
+      "potential_signals": 17,
+      "observed_trades": 6,
+      "sessions_with_trade": 4,
+      "gross_mean_rupees_per_lot": 2706.816666666667,
+      "illustrative_net_mean_rupees_per_lot": 2453.410004166667,
+      "severe_net_mean_rupees_per_lot": 2158.410004166667,
+      "holding_mean_minutes": 55.0,
+      "mae_mean_bound_rupees": 1264.25,
+      "mfe_mean_bound_rupees": 4006.7083333333335,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "rejected_expired_or_missing_exact_current_mapping": 2,
+        "rejected_higher_priority_signal": 5,
+        "observed_candle_proxy": 6,
+        "rejected_existing_position": 4
+      },
+      "net_descriptive_ci95": [
+        -646.3109166666671,
+        4397.406152777778
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "nearest_nonexpiry_day|one_step_ITM|premium20_trail20",
+      "expiry_bucket": "nearest_nonexpiry_day",
+      "strike_rule": "one_step_ITM",
+      "exit_policy": "premium20_trail20",
+      "ambiguity_mode": "adverse_first",
+      "potential_signals": 17,
+      "observed_trades": 6,
+      "sessions_with_trade": 4,
+      "gross_mean_rupees_per_lot": 2595.7749999999996,
+      "illustrative_net_mean_rupees_per_lot": 2342.5348999999997,
+      "severe_net_mean_rupees_per_lot": 2047.5348999999997,
+      "holding_mean_minutes": 53.333333333333336,
+      "mae_mean_bound_rupees": 1264.25,
+      "mfe_mean_bound_rupees": 4303.0,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "rejected_expired_or_missing_exact_current_mapping": 2,
+        "rejected_higher_priority_signal": 5,
+        "observed_candle_proxy": 6,
+        "rejected_existing_position": 4
+      },
+      "net_descriptive_ci95": [
+        -646.3109166666671,
+        4738.17425
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "nearest_nonexpiry_day|one_step_ITM|premium20_trail20",
+      "expiry_bucket": "nearest_nonexpiry_day",
+      "strike_rule": "one_step_ITM",
+      "exit_policy": "premium20_trail20",
+      "ambiguity_mode": "favorable_first",
+      "potential_signals": 17,
+      "observed_trades": 6,
+      "sessions_with_trade": 4,
+      "gross_mean_rupees_per_lot": 2595.7749999999996,
+      "illustrative_net_mean_rupees_per_lot": 2342.5348999999997,
+      "severe_net_mean_rupees_per_lot": 2047.5348999999997,
+      "holding_mean_minutes": 53.333333333333336,
+      "mae_mean_bound_rupees": 1264.25,
+      "mfe_mean_bound_rupees": 4303.0,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "rejected_expired_or_missing_exact_current_mapping": 2,
+        "rejected_higher_priority_signal": 5,
+        "observed_candle_proxy": 6,
+        "rejected_existing_position": 4
+      },
+      "net_descriptive_ci95": [
+        -646.3109166666671,
+        4738.17425
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "nearest_nonexpiry_day|one_step_ITM|underlying1ATR",
+      "expiry_bucket": "nearest_nonexpiry_day",
+      "strike_rule": "one_step_ITM",
+      "exit_policy": "underlying1ATR",
+      "ambiguity_mode": "adverse_first",
+      "potential_signals": 17,
+      "observed_trades": 6,
+      "sessions_with_trade": 4,
+      "gross_mean_rupees_per_lot": 2077.291666666666,
+      "illustrative_net_mean_rupees_per_lot": 1824.8292916666662,
+      "severe_net_mean_rupees_per_lot": 1529.8292916666662,
+      "holding_mean_minutes": 40.0,
+      "mae_mean_bound_rupees": 901.8750000000003,
+      "mfe_mean_bound_rupees": 3658.4166666666665,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "rejected_expired_or_missing_exact_current_mapping": 2,
+        "rejected_higher_priority_signal": 5,
+        "observed_candle_proxy": 6,
+        "rejected_existing_position": 4
+      },
+      "net_descriptive_ci95": [
+        -34.064000000000384,
+        2798.887549999999
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "nearest_nonexpiry_day|one_step_ITM|underlying1ATR",
+      "expiry_bucket": "nearest_nonexpiry_day",
+      "strike_rule": "one_step_ITM",
+      "exit_policy": "underlying1ATR",
+      "ambiguity_mode": "favorable_first",
+      "potential_signals": 17,
+      "observed_trades": 6,
+      "sessions_with_trade": 4,
+      "gross_mean_rupees_per_lot": 2077.291666666666,
+      "illustrative_net_mean_rupees_per_lot": 1824.8292916666662,
+      "severe_net_mean_rupees_per_lot": 1529.8292916666662,
+      "holding_mean_minutes": 40.0,
+      "mae_mean_bound_rupees": 901.8750000000003,
+      "mfe_mean_bound_rupees": 3658.4166666666665,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "rejected_expired_or_missing_exact_current_mapping": 2,
+        "rejected_higher_priority_signal": 5,
+        "observed_candle_proxy": 6,
+        "rejected_existing_position": 4
+      },
+      "net_descriptive_ci95": [
+        -34.064000000000384,
+        2798.887549999999
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "nearest_nonexpiry_day|one_step_ITM|underlying1.5ATR",
+      "expiry_bucket": "nearest_nonexpiry_day",
+      "strike_rule": "one_step_ITM",
+      "exit_policy": "underlying1.5ATR",
+      "ambiguity_mode": "adverse_first",
+      "potential_signals": 17,
+      "observed_trades": 6,
+      "sessions_with_trade": 4,
+      "gross_mean_rupees_per_lot": 1923.9999999999993,
+      "illustrative_net_mean_rupees_per_lot": 1671.7675624999995,
+      "severe_net_mean_rupees_per_lot": 1376.7675624999995,
+      "holding_mean_minutes": 43.333333333333336,
+      "mae_mean_bound_rupees": 1087.1250000000002,
+      "mfe_mean_bound_rupees": 3658.4166666666665,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "rejected_expired_or_missing_exact_current_mapping": 2,
+        "rejected_higher_priority_signal": 5,
+        "observed_candle_proxy": 6,
+        "rejected_existing_position": 4
+      },
+      "net_descriptive_ci95": [
+        -646.3109166666671,
+        2798.887549999999
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "nearest_nonexpiry_day|one_step_ITM|underlying1.5ATR",
+      "expiry_bucket": "nearest_nonexpiry_day",
+      "strike_rule": "one_step_ITM",
+      "exit_policy": "underlying1.5ATR",
+      "ambiguity_mode": "favorable_first",
+      "potential_signals": 17,
+      "observed_trades": 6,
+      "sessions_with_trade": 4,
+      "gross_mean_rupees_per_lot": 1923.9999999999993,
+      "illustrative_net_mean_rupees_per_lot": 1671.7675624999995,
+      "severe_net_mean_rupees_per_lot": 1376.7675624999995,
+      "holding_mean_minutes": 43.333333333333336,
+      "mae_mean_bound_rupees": 1087.1250000000002,
+      "mfe_mean_bound_rupees": 3658.4166666666665,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "rejected_expired_or_missing_exact_current_mapping": 2,
+        "rejected_higher_priority_signal": 5,
+        "observed_candle_proxy": 6,
+        "rejected_existing_position": 4
+      },
+      "net_descriptive_ci95": [
+        -646.3109166666671,
+        2798.887549999999
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "nearest_nonexpiry_day|one_step_ITM|underlying_prior3bar_structure",
+      "expiry_bucket": "nearest_nonexpiry_day",
+      "strike_rule": "one_step_ITM",
+      "exit_policy": "underlying_prior3bar_structure",
+      "ambiguity_mode": "adverse_first",
+      "potential_signals": 17,
+      "observed_trades": 6,
+      "sessions_with_trade": 4,
+      "gross_mean_rupees_per_lot": 1923.9999999999993,
+      "illustrative_net_mean_rupees_per_lot": 1671.7675624999995,
+      "severe_net_mean_rupees_per_lot": 1376.7675624999995,
+      "holding_mean_minutes": 43.333333333333336,
+      "mae_mean_bound_rupees": 1087.1250000000002,
+      "mfe_mean_bound_rupees": 3658.4166666666665,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "rejected_expired_or_missing_exact_current_mapping": 2,
+        "rejected_higher_priority_signal": 5,
+        "observed_candle_proxy": 6,
+        "rejected_existing_position": 4
+      },
+      "net_descriptive_ci95": [
+        -646.3109166666671,
+        2798.887549999999
+      ],
+      "decision": "RESEARCH_ONLY"
+    },
+    {
+      "configuration": "nearest_nonexpiry_day|one_step_ITM|underlying_prior3bar_structure",
+      "expiry_bucket": "nearest_nonexpiry_day",
+      "strike_rule": "one_step_ITM",
+      "exit_policy": "underlying_prior3bar_structure",
+      "ambiguity_mode": "favorable_first",
+      "potential_signals": 17,
+      "observed_trades": 6,
+      "sessions_with_trade": 4,
+      "gross_mean_rupees_per_lot": 1923.9999999999993,
+      "illustrative_net_mean_rupees_per_lot": 1671.7675624999995,
+      "severe_net_mean_rupees_per_lot": 1376.7675624999995,
+      "holding_mean_minutes": 43.333333333333336,
+      "mae_mean_bound_rupees": 1087.1250000000002,
+      "mfe_mean_bound_rupees": 3658.4166666666665,
+      "ambiguous_trades": 0,
+      "cutoff_truncated_trades": 0,
+      "status_counts": {
+        "rejected_expired_or_missing_exact_current_mapping": 2,
+        "rejected_higher_priority_signal": 5,
+        "observed_candle_proxy": 6,
+        "rejected_existing_position": 4
+      },
+      "net_descriptive_ci95": [
+        -646.3109166666671,
+        2798.887549999999
+      ],
+      "decision": "RESEARCH_ONLY"
+    }
+  ],
+  "trade_assertions_passed": 2448,
+  "source_signal_count": 17,
+  "source_policy_attempts": 68,
+  "underlying_input_audit": {
+    "input_hashes": {
+      "nifty-db-1minute.json": "982c3cdf16e673e527b282440a906f78babab69cc488b7f1e8249cc327000d73",
+      "nifty-db-5minute.json": "ef02963c7bf00a8d1dac18b373ca71f8f849e888ae427979c819596941a86b19",
+      "nifty-upstox-5minute.json": "edebba307ecadd0945649baf6110a48e6706f393c4f95d3c208f46efffb4e3dd"
+    },
+    "overlap_bars": 14535,
+    "overlap_max_abs_difference": {
+      "open": 0.0,
+      "high": 0.0,
+      "low": 0.0,
+      "close": 0.0
+    },
+    "conflicting_days": [],
+    "excluded_sessions": [
+      {
+        "day": "2025-10-21",
+        "bars": 12,
+        "invalid": false,
+        "conflict": false
+      },
+      {
+        "day": "2026-11-08",
+        "bars": 10,
+        "invalid": false,
+        "conflict": false
+      }
+    ],
+    "sessions": 458,
+    "first": "2025-01-01",
+    "last": "2026-11-06",
+    "bars": 32518
+  },
+  "quote_execution_history_supported": false,
+  "no_winner_selected": true
+}

@@ -1,0 +1,1070 @@
+{
+  "passed": true,
+  "verified_at_utc": "2026-11-10T18:14:07.218412+00:00",
+  "configurations": 207,
+  "instruments": [
+    "NIFTY",
+    "NIFTYBEES",
+    "BANKBEES"
+  ],
+  "metric_rows": 1863,
+  "frozen_family_finalists": 17,
+  "journals_checked": 102,
+  "aggregate_trade_records_checked": 1629,
+  "checks": [
+    "catalog and full metric cube",
+    "frozen candidate identity",
+    "next tradable open and timestamp ordering",
+    "nonoverlapping positions",
+    "integer units and unlevered fee-inclusive capital cap",
+    "planned initial risk <=0.5% previous flat equity",
+    "weighted partial exits and fee/net R reconciliation",
+    "segment boundaries and terminal equity reconciliation",
+    "marked equity drawdown",
+    "special-session-aware final bootstrap",
+    "completed HTF availability and real-data prefix invariance"
+  ],
+  "causal_samples": [
+    {
+      "instrument": "NIFTY",
+      "completed_htf_rows": 3799,
+      "prefix_rows_compared": 3069
+    },
+    {
+      "instrument": "NIFTYBEES",
+      "completed_htf_rows": 3799,
+      "prefix_rows_compared": 3069
+    },
+    {
+      "instrument": "BANKBEES",
+      "completed_htf_rows": 3799,
+      "prefix_rows_compared": 3069
+    }
+  ],
+  "bootstrap_checks": [
+    {
+      "instrument": "NIFTY",
+      "id": "A_tf120_30",
+      "sessions": 127,
+      "special_exit_trades": 0
+    },
+    {
+      "instrument": "NIFTY",
+      "id": "B_exit_macd",
+      "sessions": 127,
+      "special_exit_trades": 0
+    },
+    {
+      "instrument": "NIFTY",
+      "id": "C_zone1.0",
+      "sessions": 127,
+      "special_exit_trades": 0
+    },
+    {
+      "instrument": "NIFTY",
+      "id": "D0_base",
+      "sessions": 127,
+      "special_exit_trades": 0
+    },
+    {
+      "instrument": "NIFTY",
+      "id": "D_ema20",
+      "sessions": 127,
+      "special_exit_trades": 0
+    },
+    {
+      "instrument": "NIFTY",
+      "id": "E_tf120_30",
+      "sessions": 127,
+      "special_exit_trades": 0
+    },
+    {
+      "instrument": "NIFTY",
+      "id": "F_tf120_30",
+      "sessions": 127,
+      "special_exit_trades": 0
+    },
+    {
+      "instrument": "NIFTY",
+      "id": "G_early_base",
+      "sessions": 127,
+      "special_exit_trades": 0
+    },
+    {
+      "instrument": "NIFTY",
+      "id": "G_ema20",
+      "sessions": 127,
+      "special_exit_trades": 0
+    },
+    {
+      "instrument": "NIFTY",
+      "id": "H_ema34",
+      "sessions": 127,
+      "special_exit_trades": 0
+    },
+    {
+      "instrument": "NIFTY",
+      "id": "I_weak",
+      "sessions": 127,
+      "special_exit_trades": 0
+    },
+    {
+      "instrument": "NIFTY",
+      "id": "J_ema34",
+      "sessions": 127,
+      "special_exit_trades": 0
+    },
+    {
+      "instrument": "NIFTY",
+      "id": "baseline_base",
+      "sessions": 127,
+      "special_exit_trades": 0
+    },
+    {
+      "instrument": "NIFTY",
+      "id": "ema_only_base",
+      "sessions": 127,
+      "special_exit_trades": 0
+    },
+    {
+      "instrument": "NIFTY",
+      "id": "macd_only_base",
+      "sessions": 127,
+      "special_exit_trades": 0
+    },
+    {
+      "instrument": "NIFTY",
+      "id": "structure_only_base",
+      "sessions": 127,
+      "special_exit_trades": 0
+    },
+    {
+      "instrument": "NIFTY",
+      "id": "zero_cross_base",
+      "sessions": 127,
+      "special_exit_trades": 0
+    },
+    {
+      "instrument": "NIFTYBEES",
+      "id": "A_tf120_30",
+      "sessions": 127,
+      "special_exit_trades": 0
+    },
+    {
+      "instrument": "NIFTYBEES",
+      "id": "B_exit_macd",
+      "sessions": 127,
+      "special_exit_trades": 0
+    },
+    {
+      "instrument": "NIFTYBEES",
+      "id": "C_zone1.0",
+      "sessions": 127,
+      "special_exit_trades": 0
+    },
+    {
+      "instrument": "NIFTYBEES",
+      "id": "D0_base",
+      "sessions": 127,
+      "special_exit_trades": 0
+    },
+    {
+      "instrument": "NIFTYBEES",
+      "id": "D_ema20",
+      "sessions": 127,
+      "special_exit_trades": 0
+    },
+    {
+      "instrument": "NIFTYBEES",
+      "id": "E_tf120_30",
+      "sessions": 127,
+      "special_exit_trades": 0
+    },
+    {
+      "instrument": "NIFTYBEES",
+      "id": "F_tf120_30",
+      "sessions": 127,
+      "special_exit_trades": 0
+    },
+    {
+      "instrument": "NIFTYBEES",
+      "id": "G_early_base",
+      "sessions": 127,
+      "special_exit_trades": 0
+    },
+    {
+      "instrument": "NIFTYBEES",
+      "id": "G_ema20",
+      "sessions": 127,
+      "special_exit_trades": 0
+    },
+    {
+      "instrument": "NIFTYBEES",
+      "id": "H_ema34",
+      "sessions": 127,
+      "special_exit_trades": 0
+    },
+    {
+      "instrument": "NIFTYBEES",
+      "id": "I_weak",
+      "sessions": 127,
+      "special_exit_trades": 0
+    },
+    {
+      "instrument": "NIFTYBEES",
+      "id": "J_ema34",
+      "sessions": 127,
+      "special_exit_trades": 0
+    },
+    {
+      "instrument": "NIFTYBEES",
+      "id": "baseline_base",
+      "sessions": 127,
+      "special_exit_trades": 0
+    },
+    {
+      "instrument": "NIFTYBEES",
+      "id": "ema_only_base",
+      "sessions": 127,
+      "special_exit_trades": 0
+    },
+    {
+      "instrument": "NIFTYBEES",
+      "id": "macd_only_base",
+      "sessions": 127,
+      "special_exit_trades": 0
+    },
+    {
+      "instrument": "NIFTYBEES",
+      "id": "structure_only_base",
+      "sessions": 127,
+      "special_exit_trades": 0
+    },
+    {
+      "instrument": "NIFTYBEES",
+      "id": "zero_cross_base",
+      "sessions": 127,
+      "special_exit_trades": 0
+    },
+    {
+      "instrument": "BANKBEES",
+      "id": "A_tf120_30",
+      "sessions": 127,
+      "special_exit_trades": 1
+    },
+    {
+      "instrument": "BANKBEES",
+      "id": "B_exit_macd",
+      "sessions": 127,
+      "special_exit_trades": 0
+    },
+    {
+      "instrument": "BANKBEES",
+      "id": "C_zone1.0",
+      "sessions": 127,
+      "special_exit_trades": 0
+    },
+    {
+      "instrument": "BANKBEES",
+      "id": "D0_base",
+      "sessions": 127,
+      "special_exit_trades": 0
+    },
+    {
+      "instrument": "BANKBEES",
+      "id": "D_ema20",
+      "sessions": 127,
+      "special_exit_trades": 0
+    },
+    {
+      "instrument": "BANKBEES",
+      "id": "E_tf120_30",
+      "sessions": 127,
+      "special_exit_trades": 0
+    },
+    {
+      "instrument": "BANKBEES",
+      "id": "F_tf120_30",
+      "sessions": 127,
+      "special_exit_trades": 1
+    },
+    {
+      "instrument": "BANKBEES",
+      "id": "G_early_base",
+      "sessions": 127,
+      "special_exit_trades": 0
+    },
+    {
+      "instrument": "BANKBEES",
+      "id": "G_ema20",
+      "sessions": 127,
+      "special_exit_trades": 0
+    },
+    {
+      "instrument": "BANKBEES",
+      "id": "H_ema34",
+      "sessions": 127,
+      "special_exit_trades": 0
+    },
+    {
+      "instrument": "BANKBEES",
+      "id": "I_weak",
+      "sessions": 127,
+      "special_exit_trades": 0
+    },
+    {
+      "instrument": "BANKBEES",
+      "id": "J_ema34",
+      "sessions": 127,
+      "special_exit_trades": 0
+    },
+    {
+      "instrument": "BANKBEES",
+      "id": "baseline_base",
+      "sessions": 127,
+      "special_exit_trades": 0
+    },
+    {
+      "instrument": "BANKBEES",
+      "id": "ema_only_base",
+      "sessions": 127,
+      "special_exit_trades": 1
+    },
+    {
+      "instrument": "BANKBEES",
+      "id": "macd_only_base",
+      "sessions": 127,
+      "special_exit_trades": 0
+    },
+    {
+      "instrument": "BANKBEES",
+      "id": "structure_only_base",
+      "sessions": 127,
+      "special_exit_trades": 0
+    },
+    {
+      "instrument": "BANKBEES",
+      "id": "zero_cross_base",
+      "sessions": 127,
+      "special_exit_trades": 0
+    }
+  ],
+  "journals": [
+    {
+      "stem": "finalists/NIFTY-A_tf120_30-final",
+      "trades": 18,
+      "total_net_profit": -33617.62316281997,
+      "initial_risk_max_fraction": 0.0049914115348234775,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/NIFTY-B_exit_macd-final",
+      "trades": 21,
+      "total_net_profit": -33713.414342459306,
+      "initial_risk_max_fraction": 0.004999528523337316,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/NIFTY-C_zone1.0-final",
+      "trades": 8,
+      "total_net_profit": -10065.16781141684,
+      "initial_risk_max_fraction": 0.004976454193937522,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/NIFTY-D0_base-final",
+      "trades": 5,
+      "total_net_profit": 5149.599396952686,
+      "initial_risk_max_fraction": 0.004963321773483989,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/NIFTY-D_ema20-final",
+      "trades": 9,
+      "total_net_profit": 14124.439870726892,
+      "initial_risk_max_fraction": 0.0048349583533353465,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/NIFTY-E_tf120_30-final",
+      "trades": 8,
+      "total_net_profit": -21273.221150497106,
+      "initial_risk_max_fraction": 0.00499639305575319,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/NIFTY-F_tf120_30-final",
+      "trades": 7,
+      "total_net_profit": -10558.969776761644,
+      "initial_risk_max_fraction": 0.004994923331287895,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/NIFTY-G_early_base-final",
+      "trades": 2,
+      "total_net_profit": 3780.568082012862,
+      "initial_risk_max_fraction": 0.004838144944031433,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/NIFTY-G_ema20-final",
+      "trades": 5,
+      "total_net_profit": 9893.360524529959,
+      "initial_risk_max_fraction": 0.0048661754562795805,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/NIFTY-H_ema34-final",
+      "trades": 7,
+      "total_net_profit": -10983.320441801288,
+      "initial_risk_max_fraction": 0.004790564219674614,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/NIFTY-I_weak-final",
+      "trades": 4,
+      "total_net_profit": 3002.9787513492893,
+      "initial_risk_max_fraction": 0.004879571565941139,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/NIFTY-J_ema34-final",
+      "trades": 9,
+      "total_net_profit": 5685.391082292251,
+      "initial_risk_max_fraction": 0.004997882619576371,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/NIFTY-baseline_base-final",
+      "trades": 0,
+      "special_exit_trades": 0,
+      "total_net_profit": 0.0,
+      "initial_risk_max_fraction": 0.0
+    },
+    {
+      "stem": "finalists/NIFTY-ema_only_base-final",
+      "trades": 9,
+      "total_net_profit": 15260.285727133243,
+      "initial_risk_max_fraction": 0.004956226859816756,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/NIFTY-macd_only_base-final",
+      "trades": 19,
+      "total_net_profit": 4709.349611935046,
+      "initial_risk_max_fraction": 0.0049852143214706565,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/NIFTY-structure_only_base-final",
+      "trades": 18,
+      "total_net_profit": -35742.668375169436,
+      "initial_risk_max_fraction": 0.004991675075525876,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/NIFTY-zero_cross_base-final",
+      "trades": 7,
+      "total_net_profit": -6706.102385947554,
+      "initial_risk_max_fraction": 0.004946907398619729,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/NIFTY-A_tf120_30-two-year",
+      "trades": 68,
+      "total_net_profit": -84369.64772894137,
+      "initial_risk_max_fraction": 0.004997584240703846,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/NIFTY-B_exit_macd-two-year",
+      "trades": 74,
+      "total_net_profit": -67542.54420656085,
+      "initial_risk_max_fraction": 0.004997110861067327,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/NIFTY-C_zone1.0-two-year",
+      "trades": 29,
+      "total_net_profit": -53759.90175471785,
+      "initial_risk_max_fraction": 0.004997833881783077,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/NIFTY-D0_base-two-year",
+      "trades": 24,
+      "total_net_profit": -5717.942211722686,
+      "initial_risk_max_fraction": 0.0049516781931544795,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/NIFTY-D_ema20-two-year",
+      "trades": 29,
+      "total_net_profit": 9967.614758111193,
+      "initial_risk_max_fraction": 0.004855321763860975,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/NIFTY-E_tf120_30-two-year",
+      "trades": 22,
+      "total_net_profit": -45185.83116296251,
+      "initial_risk_max_fraction": 0.00498097405150266,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/NIFTY-F_tf120_30-two-year",
+      "trades": 31,
+      "total_net_profit": -39010.12957270311,
+      "initial_risk_max_fraction": 0.004989874796427081,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/NIFTY-G_early_base-two-year",
+      "trades": 15,
+      "total_net_profit": -22009.152122103198,
+      "initial_risk_max_fraction": 0.004994430556092701,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/NIFTY-G_ema20-two-year",
+      "trades": 24,
+      "total_net_profit": 12350.703255614939,
+      "initial_risk_max_fraction": 0.004998166666568987,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/NIFTY-H_ema34-two-year",
+      "trades": 28,
+      "total_net_profit": -20378.22507426988,
+      "initial_risk_max_fraction": 0.004978032575683813,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/NIFTY-I_weak-two-year",
+      "trades": 26,
+      "total_net_profit": -16078.306515293534,
+      "initial_risk_max_fraction": 0.004974961872052028,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/NIFTY-J_ema34-two-year",
+      "trades": 32,
+      "total_net_profit": -54776.49467771684,
+      "initial_risk_max_fraction": 0.004969057149795272,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/NIFTY-baseline_base-two-year",
+      "trades": 0,
+      "special_exit_trades": 0,
+      "total_net_profit": 0.0,
+      "initial_risk_max_fraction": 0.0
+    },
+    {
+      "stem": "finalists/NIFTY-ema_only_base-two-year",
+      "trades": 28,
+      "total_net_profit": 5810.280334998508,
+      "initial_risk_max_fraction": 0.0049893141295581965,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/NIFTY-macd_only_base-two-year",
+      "trades": 81,
+      "total_net_profit": -50641.17752450459,
+      "initial_risk_max_fraction": 0.004998126686319903,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/NIFTY-structure_only_base-two-year",
+      "trades": 66,
+      "total_net_profit": -63954.34632920123,
+      "initial_risk_max_fraction": 0.004996987042692148,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/NIFTY-zero_cross_base-two-year",
+      "trades": 20,
+      "total_net_profit": -25149.582201745616,
+      "initial_risk_max_fraction": 0.0049937238535564645,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/NIFTYBEES-A_tf120_30-final",
+      "trades": 10,
+      "total_net_profit": -17989.280586755944,
+      "initial_risk_max_fraction": 0.0049999950479003566,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/NIFTYBEES-B_exit_macd-final",
+      "trades": 11,
+      "total_net_profit": -6940.955165275102,
+      "initial_risk_max_fraction": 0.004998859805211376,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/NIFTYBEES-C_zone1.0-final",
+      "trades": 4,
+      "total_net_profit": 1495.4990878894005,
+      "initial_risk_max_fraction": 0.004999602979716086,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/NIFTYBEES-D0_base-final",
+      "trades": 3,
+      "total_net_profit": 2204.6361905491913,
+      "initial_risk_max_fraction": 0.004999354888317161,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/NIFTYBEES-D_ema20-final",
+      "trades": 4,
+      "total_net_profit": 967.5312647187911,
+      "initial_risk_max_fraction": 0.004997215389214921,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/NIFTYBEES-E_tf120_30-final",
+      "trades": 6,
+      "total_net_profit": 11986.065012171483,
+      "initial_risk_max_fraction": 0.0049995771633830986,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/NIFTYBEES-F_tf120_30-final",
+      "trades": 6,
+      "total_net_profit": -9599.288583237789,
+      "initial_risk_max_fraction": 0.004998800701907548,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/NIFTYBEES-G_early_base-final",
+      "trades": 1,
+      "total_net_profit": -4999.1091193873735,
+      "initial_risk_max_fraction": 0.004999109119387374,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/NIFTYBEES-G_ema20-final",
+      "trades": 2,
+      "total_net_profit": -4238.209311868224,
+      "initial_risk_max_fraction": 0.004998195389069013,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/NIFTYBEES-H_ema34-final",
+      "trades": 3,
+      "total_net_profit": -5010.393150170883,
+      "initial_risk_max_fraction": 0.004999643563476077,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/NIFTYBEES-I_weak-final",
+      "trades": 2,
+      "total_net_profit": -4238.209311868224,
+      "initial_risk_max_fraction": 0.004998195389069013,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/NIFTYBEES-J_ema34-final",
+      "trades": 2,
+      "total_net_profit": 2894.7467884453963,
+      "initial_risk_max_fraction": 0.004997544439020019,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/NIFTYBEES-baseline_base-final",
+      "trades": 0,
+      "special_exit_trades": 0,
+      "total_net_profit": 0.0,
+      "initial_risk_max_fraction": 0.0
+    },
+    {
+      "stem": "finalists/NIFTYBEES-ema_only_base-final",
+      "trades": 5,
+      "total_net_profit": 4896.564972870969,
+      "initial_risk_max_fraction": 0.004998894965133246,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/NIFTYBEES-macd_only_base-final",
+      "trades": 13,
+      "total_net_profit": 22532.08411570809,
+      "initial_risk_max_fraction": 0.0049999019497895736,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/NIFTYBEES-structure_only_base-final",
+      "trades": 7,
+      "total_net_profit": -524.4064083083085,
+      "initial_risk_max_fraction": 0.004999876326764538,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/NIFTYBEES-zero_cross_base-final",
+      "trades": 2,
+      "total_net_profit": -2011.2471741068498,
+      "initial_risk_max_fraction": 0.004998934972872748,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/NIFTYBEES-A_tf120_30-two-year",
+      "trades": 42,
+      "total_net_profit": -75190.68818824987,
+      "initial_risk_max_fraction": 0.004999836976253557,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/NIFTYBEES-B_exit_macd-two-year",
+      "trades": 42,
+      "total_net_profit": -35159.8811490405,
+      "initial_risk_max_fraction": 0.0049998892521287575,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/NIFTYBEES-C_zone1.0-two-year",
+      "trades": 17,
+      "total_net_profit": -18985.730869324834,
+      "initial_risk_max_fraction": 0.004999932200399362,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/NIFTYBEES-D0_base-two-year",
+      "trades": 11,
+      "total_net_profit": -10767.890089159278,
+      "initial_risk_max_fraction": 0.004999616157112658,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/NIFTYBEES-D_ema20-two-year",
+      "trades": 14,
+      "total_net_profit": -17600.005055211976,
+      "initial_risk_max_fraction": 0.004999595532468852,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/NIFTYBEES-E_tf120_30-two-year",
+      "trades": 23,
+      "total_net_profit": 17677.187501865123,
+      "initial_risk_max_fraction": 0.004999867686364586,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/NIFTYBEES-F_tf120_30-two-year",
+      "trades": 20,
+      "total_net_profit": -27607.538337482016,
+      "initial_risk_max_fraction": 0.00499991422615355,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/NIFTYBEES-G_early_base-two-year",
+      "trades": 9,
+      "total_net_profit": -15063.993510870088,
+      "initial_risk_max_fraction": 0.004999701103648471,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/NIFTYBEES-G_ema20-two-year",
+      "trades": 14,
+      "total_net_profit": -15834.80877997154,
+      "initial_risk_max_fraction": 0.004999734862099939,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/NIFTYBEES-H_ema34-two-year",
+      "trades": 14,
+      "total_net_profit": -18815.854414354555,
+      "initial_risk_max_fraction": 0.004999868950753774,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/NIFTYBEES-I_weak-two-year",
+      "trades": 14,
+      "total_net_profit": -13314.688970635172,
+      "initial_risk_max_fraction": 0.004999739727366471,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/NIFTYBEES-J_ema34-two-year",
+      "trades": 16,
+      "total_net_profit": -43829.34458346036,
+      "initial_risk_max_fraction": 0.004999884651432216,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/NIFTYBEES-baseline_base-two-year",
+      "trades": 0,
+      "special_exit_trades": 0,
+      "total_net_profit": 0.0,
+      "initial_risk_max_fraction": 0.0
+    },
+    {
+      "stem": "finalists/NIFTYBEES-ema_only_base-two-year",
+      "trades": 14,
+      "total_net_profit": -8254.15617470854,
+      "initial_risk_max_fraction": 0.00499987867093661,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/NIFTYBEES-macd_only_base-two-year",
+      "trades": 60,
+      "total_net_profit": -46171.957203236634,
+      "initial_risk_max_fraction": 0.004999985723892752,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/NIFTYBEES-structure_only_base-two-year",
+      "trades": 28,
+      "total_net_profit": 18125.384510033728,
+      "initial_risk_max_fraction": 0.004999980434297596,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/NIFTYBEES-zero_cross_base-two-year",
+      "trades": 10,
+      "total_net_profit": -29234.22312651259,
+      "initial_risk_max_fraction": 0.0049999600027939494,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/BANKBEES-A_tf120_30-final",
+      "trades": 7,
+      "total_net_profit": 905.1209102481189,
+      "initial_risk_max_fraction": 0.004999970518639236,
+      "special_exit_trades": 1
+    },
+    {
+      "stem": "finalists/BANKBEES-B_exit_macd-final",
+      "trades": 9,
+      "total_net_profit": -827.7094143393197,
+      "initial_risk_max_fraction": 0.004999944502833827,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/BANKBEES-C_zone1.0-final",
+      "trades": 4,
+      "total_net_profit": -8459.480900488175,
+      "initial_risk_max_fraction": 0.0049992070651747635,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/BANKBEES-D0_base-final",
+      "trades": 2,
+      "total_net_profit": 6990.615490006654,
+      "initial_risk_max_fraction": 0.004995585039090862,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/BANKBEES-D_ema20-final",
+      "trades": 2,
+      "total_net_profit": 9347.294857899022,
+      "initial_risk_max_fraction": 0.004996421203017594,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/BANKBEES-E_tf120_30-final",
+      "trades": 9,
+      "total_net_profit": -29680.303374967654,
+      "initial_risk_max_fraction": 0.004999217765721173,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/BANKBEES-F_tf120_30-final",
+      "trades": 7,
+      "total_net_profit": -2180.053743061064,
+      "initial_risk_max_fraction": 0.004999970518639236,
+      "special_exit_trades": 1
+    },
+    {
+      "stem": "finalists/BANKBEES-G_early_base-final",
+      "trades": 3,
+      "total_net_profit": -14310.22094462498,
+      "initial_risk_max_fraction": 0.004998439156650651,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/BANKBEES-G_ema20-final",
+      "trades": 2,
+      "total_net_profit": -9968.33357674758,
+      "initial_risk_max_fraction": 0.0049985160588867225,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/BANKBEES-H_ema34-final",
+      "trades": 3,
+      "total_net_profit": -71.45156034807405,
+      "initial_risk_max_fraction": 0.004996886569431729,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/BANKBEES-I_weak-final",
+      "trades": 3,
+      "total_net_profit": -14315.065716308614,
+      "initial_risk_max_fraction": 0.004994784026025616,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/BANKBEES-J_ema34-final",
+      "trades": 3,
+      "total_net_profit": -14917.62681957641,
+      "initial_risk_max_fraction": 0.004999168152737612,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/BANKBEES-baseline_base-final",
+      "trades": 0,
+      "special_exit_trades": 0,
+      "total_net_profit": 0.0,
+      "initial_risk_max_fraction": 0.0
+    },
+    {
+      "stem": "finalists/BANKBEES-ema_only_base-final",
+      "trades": 4,
+      "total_net_profit": 19165.99490466297,
+      "initial_risk_max_fraction": 0.004999671582539733,
+      "special_exit_trades": 1
+    },
+    {
+      "stem": "finalists/BANKBEES-macd_only_base-final",
+      "trades": 16,
+      "total_net_profit": -35351.858316490005,
+      "initial_risk_max_fraction": 0.004999776571297067,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/BANKBEES-structure_only_base-final",
+      "trades": 10,
+      "total_net_profit": -6049.308102316858,
+      "initial_risk_max_fraction": 0.0049968221256255566,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/BANKBEES-zero_cross_base-final",
+      "trades": 4,
+      "total_net_profit": -10191.293398487334,
+      "initial_risk_max_fraction": 0.004999115010446918,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/BANKBEES-A_tf120_30-two-year",
+      "trades": 37,
+      "total_net_profit": -6634.390414388903,
+      "initial_risk_max_fraction": 0.004999751260159683,
+      "special_exit_trades": 2
+    },
+    {
+      "stem": "finalists/BANKBEES-B_exit_macd-two-year",
+      "trades": 43,
+      "total_net_profit": 7705.407628814517,
+      "initial_risk_max_fraction": 0.004999649140946682,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/BANKBEES-C_zone1.0-two-year",
+      "trades": 19,
+      "total_net_profit": 3156.3607530813624,
+      "initial_risk_max_fraction": 0.0049997281073706,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/BANKBEES-D0_base-two-year",
+      "trades": 12,
+      "total_net_profit": 16792.074961242717,
+      "initial_risk_max_fraction": 0.004998346988657433,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/BANKBEES-D_ema20-two-year",
+      "trades": 13,
+      "total_net_profit": 3201.2190111024047,
+      "initial_risk_max_fraction": 0.00499950794160789,
+      "special_exit_trades": 1
+    },
+    {
+      "stem": "finalists/BANKBEES-E_tf120_30-two-year",
+      "trades": 19,
+      "total_net_profit": -11018.393198810147,
+      "initial_risk_max_fraction": 0.004999702517621574,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/BANKBEES-F_tf120_30-two-year",
+      "trades": 23,
+      "total_net_profit": -18759.374513880786,
+      "initial_risk_max_fraction": 0.00499950681026679,
+      "special_exit_trades": 2
+    },
+    {
+      "stem": "finalists/BANKBEES-G_early_base-two-year",
+      "trades": 13,
+      "total_net_profit": -11070.703725190338,
+      "initial_risk_max_fraction": 0.004998307211849605,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/BANKBEES-G_ema20-two-year",
+      "trades": 11,
+      "total_net_profit": -10394.441703683768,
+      "initial_risk_max_fraction": 0.00499926364444974,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/BANKBEES-H_ema34-two-year",
+      "trades": 15,
+      "total_net_profit": -2678.5396435535995,
+      "initial_risk_max_fraction": 0.004998673952809984,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/BANKBEES-I_weak-two-year",
+      "trades": 16,
+      "total_net_profit": -8378.307804325439,
+      "initial_risk_max_fraction": 0.004999217397104403,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/BANKBEES-J_ema34-two-year",
+      "trades": 16,
+      "total_net_profit": -30291.922395793303,
+      "initial_risk_max_fraction": 0.0049996883337447414,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/BANKBEES-baseline_base-two-year",
+      "trades": 2,
+      "total_net_profit": -20011.99236698186,
+      "initial_risk_max_fraction": 0.004999274855204375,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/BANKBEES-ema_only_base-two-year",
+      "trades": 17,
+      "total_net_profit": 21235.20248743359,
+      "initial_risk_max_fraction": 0.0049998800554899815,
+      "special_exit_trades": 1
+    },
+    {
+      "stem": "finalists/BANKBEES-macd_only_base-two-year",
+      "trades": 54,
+      "total_net_profit": -62208.358326322275,
+      "initial_risk_max_fraction": 0.00499995230562341,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/BANKBEES-structure_only_base-two-year",
+      "trades": 34,
+      "total_net_profit": 5555.344971016076,
+      "initial_risk_max_fraction": 0.004999947177571468,
+      "special_exit_trades": 0
+    },
+    {
+      "stem": "finalists/BANKBEES-zero_cross_base-two-year",
+      "trades": 15,
+      "total_net_profit": -21028.770212246865,
+      "initial_risk_max_fraction": 0.004999624016491473,
+      "special_exit_trades": 0
+    }
+  ],
+  "source_sha256": "35bd36aced4f911e484c7fcae520fff91a32cc199b0b7b17604ec6881638874e",
+  "limits": "Checks reconcile frozen selected journals and all metric-row coverage. They cannot certify unobserved intrabar sequencing, historical quote liquidity, corporate-action adjustments, or an untouched historical holdout."
+}

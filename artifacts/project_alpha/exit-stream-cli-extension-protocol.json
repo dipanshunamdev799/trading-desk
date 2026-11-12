@@ -1,0 +1,16 @@
+{
+  "change": "CLI-only experiment input/output names and policy subset; replay/validity/fill functions unchanged",
+  "original_registered_source": "scripts/research_alpha_streams.py",
+  "original_source_archive": "artifacts\\project_alpha\\exit-stream-original-script.py",
+  "original_source_sha256": "da5deab80ea127b0c1187c05379a5900dec2d8b719b0ae2dcf8bad28b7a9b346",
+  "extended_source": "scripts\\research_alpha_streams.py",
+  "extended_source_sha256": "91209ec993c3c8b38d6356b42d01ee7c201b43173db6c23eddac2369265b531d",
+  "original_output_files_unchanged": true,
+  "new_experiment_requires_distinct_prefix": true,
+  "unchanged_primitives_ast_verified": [
+    "parse_quotes",
+    "validity",
+    "fill",
+    "replay"
+  ]
+}

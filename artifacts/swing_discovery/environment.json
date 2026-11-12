@@ -1,0 +1,22 @@
+{
+  "python": "3.15.0 (tags/v3.15.0:d220409, Oct  9 2026, 11:55:56) [MSC v.1951 64 bit (AMD64)]",
+  "pandas": "3.1.0",
+  "numpy": "2.5.4",
+  "source_sha256_at_delivery": {
+    "research\\swing_discovery\\benchmarks.py": "1b4d1953c05ea3d8368c5730b5d9c22fb5f15ec739d51fac087e85439dd1933d",
+    "research\\swing_discovery\\data.py": "a094f911c40019b5350449244a0b3562474408fc60bb34287a33f6e88178e723",
+    "research\\swing_discovery\\diagnostics.py": "c11c2c997ff80eb40cc7631104dfe78e49a9fba832cbed92ebf78246de24f47e",
+    "research\\swing_discovery\\engine.py": "fecc35fcf07132e2a5537d77eb7adcd7f80e04551780ba028faa816a9af6a8b3",
+    "research\\swing_discovery\\reporting.py": "019d06617e784cf4fd87dac8e3730014f2243c2b158abfdb085d47bb83554533",
+    "research\\swing_discovery\\signals.py": "b4fc1636a9547d50f7912afa07c957677192dbeb9882989770bde4390bca3b0b",
+    "research\\swing_discovery\\structure.py": "88acd4893b8ef0ed97592871183523cf9d55965355805b7f2954b6e2512b1dad",
+    "scripts\\run_swing_discovery.py": "aeb3a1647d2de05348703f41d40497ffbe0920c2d3113376f28bb0d645cab508",
+    "scripts\\finalize_swing_discovery.py": "24bdee499552243d9412c50f5eec610eaf9db88b91f981728279c9959f9fbbda",
+    "scripts\\verify_discovery_intraday.py": "06b7f4dc62f8b801f29342a95d269611731e29c5eee74d1e81e52393459ca529",
+    "scripts\\verify_swing_discovery.py": "1c53a955f22587e9c2ed7f53589484a1718d8dfc245dc56b48382168aab25f0d"
+  },
+  "protocol_sha256": "a7ac09e904c41861215f471889b59b500532977929b5057f08de1cd5c2752996",
+  "frozen_finalists_sha256": "bb8d1a3d185c88a0cc7eed5ebbf51d6290f5395263e672761ff64fbd93da104f",
+  "source_scope_note": "PBO was recomputed from frozen coarse development columns with outcome deduplication; no trading simulation, final selection or rule parameters changed.",
+  "execution_runs": 6429
+}

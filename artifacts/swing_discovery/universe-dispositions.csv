@@ -1,0 +1,501 @@
+symbol,sector,eligible,status,reasons,research_observations,identity_resolution
+360ONE,Capital Markets,True,retained,[],495,exact_isin
+3MINDIA,Diversified,True,retained,[],495,exact_isin
+AADHARHFC,Finance,True,retained,[],495,exact_isin
+AARTIIND,Chemicals & Petrochemicals,True,retained,[],495,exact_isin
+AAVAS,Finance,True,retained,[],495,exact_isin
+ABB,Electrical Equipment,True,retained,[],495,exact_isin
+ABBOTINDIA,Pharmaceuticals & Biotechnology,True,retained,[],495,exact_isin
+ABCAPITAL,Finance,True,retained,[],495,exact_isin
+ABFRL,Retailing,False,quarantined,"[{""date"": ""2025-05-22"", ""kind"": ""unresolved_capital_action"", ""factor"": 1.0, ""dividend"": 0.0, ""subject"": ""Demerger""}, {""reason"": ""unexplained_overnight_gap_above_30pct"", ""dates"": {""2025-05-22"": -0.6356200037181632}}]",495,exact_isin
+ABREL,"Paper, Forest & Jute Products",True,retained,[],495,exact_isin
+ABSLAMC,Capital Markets,True,retained,[],495,exact_isin
+ACC,Cement & Cement Products,True,retained,[],495,exact_isin
+ACE,"Agricultural, Commercial & Construction Vehicles",True,retained,[],495,exact_isin
+ACI,Chemicals & Petrochemicals,True,retained,[],495,exact_isin
+ADANIENSOL,Power,True,retained,[],495,exact_isin
+ADANIENT,Metals & Minerals Trading,False,quarantined,"[{""date"": ""2025-11-17"", ""kind"": ""unresolved_capital_action"", ""factor"": 1.0, ""dividend"": 0.0, ""subject"": ""Rights 3:25 @ Premium Rs 1799/-""}]",495,exact_isin
+ADANIGREEN,Power,True,retained,[],495,exact_isin
+ADANIPORTS,Transport Infrastructure,True,retained,[],495,exact_isin
+ADANIPOWER,Power,True,retained,[],495,exact_normalized_company_name_or_explicit_alias
+AEGISLOG,Gas,True,retained,[],495,exact_isin
+AFFLE,IT - Services,True,retained,[],495,exact_isin
+AIAENG,Industrial Products,True,retained,[],495,exact_isin
+AJANTPHARM,Pharmaceuticals & Biotechnology,True,retained,[],495,exact_isin
+AKUMS,Pharmaceuticals & Biotechnology,True,retained,[],495,exact_isin
+ALKEM,Pharmaceuticals & Biotechnology,True,retained,[],495,exact_isin
+ALKYLAMINE,Chemicals & Petrochemicals,True,retained,[],495,exact_isin
+ALOKINDS,Textiles & Apparels,True,retained,[],495,exact_isin
+AMBER,Consumer Durables,True,retained,[],495,exact_isin
+AMBUJACEM,Cement & Cement Products,True,retained,[],495,exact_isin
+ANANDRATHI,Capital Markets,True,retained,[],495,exact_isin
+ANANTRAJ,Realty,True,retained,[],495,exact_isin
+ANGELONE,Capital Markets,True,retained,[],495,exact_normalized_company_name_or_explicit_alias
+APARINDS,Electrical Equipment,True,retained,[],495,exact_isin
+APLAPOLLO,Industrial Products,True,retained,[],495,exact_isin
+APLLTD,Pharmaceuticals & Biotechnology,True,retained,[],495,exact_isin
+APOLLOHOSP,Healthcare Services,True,retained,[],495,exact_isin
+APOLLOTYRE,Auto Components,True,retained,[],495,exact_isin
+APTUS,Finance,True,retained,[],495,exact_isin
+ARE&M,Auto Components,True,retained,[],495,exact_isin
+ASAHIINDIA,Auto Components,True,retained,[],495,exact_isin
+ASHOKLEY,"Agricultural, Commercial & Construction Vehicles",True,retained,[],495,exact_isin
+ASIANPAINT,Consumer Durables,True,retained,[],495,exact_isin
+ASTERDM,Healthcare Services,True,retained,[],495,exact_isin
+ASTRAL,Industrial Products,True,retained,[],495,exact_isin
+ASTRAZEN,Pharmaceuticals & Biotechnology,True,retained,[],495,exact_isin
+ATGL,Gas,True,retained,[],495,exact_isin
+ATUL,Chemicals & Petrochemicals,True,retained,[],495,exact_isin
+AUBANK,Banks,True,retained,[],495,exact_isin
+AUROPHARMA,Pharmaceuticals & Biotechnology,True,retained,[],495,exact_isin
+AVANTIFEED,Food Products,True,retained,[],495,exact_isin
+AWL,Agricultural Food & other Products,True,retained,[],495,exact_isin
+AXISBANK,Banks,True,retained,[],495,exact_isin
+BAJAJ-AUTO,Automobiles,True,retained,[],495,exact_isin
+BAJAJFINSV,Finance,True,retained,[],495,exact_isin
+BAJAJHLDNG,Finance,True,retained,[],495,exact_isin
+BAJFINANCE,Finance,True,retained,[],495,exact_normalized_company_name_or_explicit_alias
+BALAMINES,Chemicals & Petrochemicals,True,retained,[],495,exact_isin
+BALKRISIND,Auto Components,True,retained,[],495,exact_isin
+BALRAMCHIN,Agricultural Food & other Products,True,retained,[],495,exact_isin
+BANDHANBNK,Banks,True,retained,[],495,exact_isin
+BANKBARODA,Banks,True,retained,[],495,exact_isin
+BANKINDIA,Banks,True,retained,[],495,exact_isin
+BASF,Chemicals & Petrochemicals,True,retained,[],495,exact_isin
+BATAINDIA,Consumer Durables,True,retained,[],495,exact_isin
+BAYERCROP,Fertilizers & Agrochemicals,True,retained,[],495,exact_isin
+BBTC,Food Products,True,retained,[],495,exact_isin
+BDL,Aerospace & Defense,True,retained,[],495,exact_isin
+BEL,Aerospace & Defense,True,retained,[],495,exact_isin
+BEML,"Agricultural, Commercial & Construction Vehicles",True,retained,[],495,exact_normalized_company_name_or_explicit_alias
+BERGEPAINT,Consumer Durables,True,retained,[],495,exact_isin
+BHARATFORG,Auto Components,True,retained,[],495,exact_isin
+BHARTIARTL,Telecom - Services,True,retained,[],495,exact_isin
+BHARTIHEXA,Telecom - Services,True,retained,[],495,exact_isin
+BHEL,Electrical Equipment,True,retained,[],495,exact_isin
+BIKAJI,Food Products,True,retained,[],495,exact_isin
+BIOCON,Pharmaceuticals & Biotechnology,True,retained,[],495,exact_isin
+BIRLACORPN,Cement & Cement Products,True,retained,[],495,exact_isin
+BLS,Leisure Services,True,retained,[],495,exact_isin
+BLUEDART,Transport Services,True,retained,[],495,exact_isin
+BLUESTARCO,Consumer Durables,True,retained,[],495,exact_isin
+BOSCHLTD,Auto Components,True,retained,[],495,exact_isin
+BPCL,Petroleum Products,True,retained,[],495,exact_isin
+BRIGADE,Realty,False,quarantined,"[{""date"": ""2026-06-17"", ""kind"": ""split_bonus"", ""factor"": 1.3333333333333333, ""dividend"": 0.0, ""subject"": ""Bonus 1:3""}]",495,exact_isin
+BRITANNIA,Food Products,True,retained,[],495,exact_isin
+BSE,Capital Markets,True,retained,[],495,exact_isin
+BSOFT,IT - Software,True,retained,[],495,exact_isin
+CAMPUS,Consumer Durables,True,retained,[],495,exact_isin
+CAMS,Capital Markets,True,retained,[],495,exact_normalized_company_name_or_explicit_alias
+CANBK,Banks,True,retained,[],495,exact_isin
+CANFINHOME,Finance,True,retained,[],495,exact_isin
+CAPLIPOINT,Pharmaceuticals & Biotechnology,True,retained,[],495,exact_isin
+CARBORUNIV,Industrial Products,True,retained,[],495,exact_isin
+CASTROLIND,Petroleum Products,True,retained,[],495,exact_isin
+CCL,Agricultural Food & other Products,True,retained,[],495,exact_isin
+CDSL,Capital Markets,True,retained,[],495,exact_isin
+CEATLTD,Auto Components,True,retained,[],495,exact_isin
+CELLO,Consumer Durables,True,retained,[],495,exact_isin
+CENTRALBK,Banks,True,retained,[],495,exact_isin
+CENTURYPLY,Consumer Durables,True,retained,[],495,exact_isin
+CERA,Consumer Durables,True,retained,[],495,exact_isin
+CESC,Power,True,retained,[],495,exact_isin
+CGCL,Finance,True,retained,[],495,exact_isin
+CGPOWER,Electrical Equipment,True,retained,[],495,exact_isin
+CHALET,Leisure Services,True,retained,[],495,exact_isin
+CHAMBLFERT,Fertilizers & Agrochemicals,True,retained,[],495,exact_isin
+CHEMPLASTS,Chemicals & Petrochemicals,True,retained,[],495,exact_isin
+CHENNPETRO,Petroleum Products,True,retained,[],495,exact_isin
+CHOLAFIN,Finance,True,retained,[],495,exact_isin
+CHOLAHLDNG,Finance,True,retained,[],495,exact_isin
+CIEINDIA,Auto Components,True,retained,[],495,exact_isin
+CIPLA,Pharmaceuticals & Biotechnology,True,retained,[],495,exact_isin
+CLEAN,Chemicals & Petrochemicals,True,retained,[],495,exact_isin
+COALINDIA,Consumable Fuels,True,retained,[],495,exact_isin
+COCHINSHIP,Industrial Manufacturing,True,retained,[],495,exact_isin
+COFORGE,IT - Software,True,retained,[],495,exact_normalized_company_name_or_explicit_alias
+COHANCE,Pharmaceuticals & Biotechnology,True,retained,[],495,exact_isin
+COLPAL,Personal Products,True,retained,[],495,exact_isin
+CONCOR,Transport Services,False,quarantined,"[{""date"": ""2025-07-04"", ""kind"": ""split_bonus"", ""factor"": 1.25, ""dividend"": 0.0, ""subject"": ""Bonus 1:4""}]",495,exact_isin
+CONCORDBIO,Pharmaceuticals & Biotechnology,True,retained,[],495,exact_isin
+COROMANDEL,Fertilizers & Agrochemicals,True,retained,[],495,exact_isin
+CRAFTSMAN,Auto Components,True,retained,[],495,exact_isin
+CREDITACC,Finance,True,retained,[],495,exact_isin
+CRISIL,Finance,True,retained,[],495,exact_isin
+CROMPTON,Consumer Durables,True,retained,[],495,exact_isin
+CUB,Banks,False,quarantined,"[{""date"": ""2026-06-12"", ""kind"": ""split_bonus"", ""factor"": 1.3333333333333333, ""dividend"": 0.0, ""subject"": ""Bonus 1:3""}]",495,exact_isin
+CUMMINSIND,Industrial Products,True,retained,[],495,exact_isin
+CYIENT,IT - Services,True,retained,[],495,exact_isin
+DABUR,Personal Products,True,retained,[],495,exact_isin
+DALBHARAT,Cement & Cement Products,True,retained,[],495,exact_isin
+DATAPATTNS,Aerospace & Defense,True,retained,[],495,exact_isin
+DBREALTY,Realty,False,quarantined,"[{""date"": ""2025-07-18"", ""kind"": ""unresolved_capital_action"", ""factor"": 1.0, ""dividend"": 0.0, ""subject"": ""Demerger""}]",495,exact_isin
+DEEPAKFERT,Chemicals & Petrochemicals,True,retained,[],495,exact_isin
+DEEPAKNTR,Chemicals & Petrochemicals,True,retained,[],495,exact_isin
+DELHIVERY,Transport Services,True,retained,[],495,exact_isin
+DEVYANI,Leisure Services,True,retained,[],495,exact_isin
+DIVISLAB,Pharmaceuticals & Biotechnology,True,retained,[],495,exact_isin
+DIXON,Consumer Durables,True,retained,[],495,exact_isin
+DLF,Realty,True,retained,[],495,exact_isin
+DMART,Retailing,True,retained,[],495,exact_isin
+DOMS,Household Products,True,retained,[],495,exact_isin
+DRREDDY,Pharmaceuticals & Biotechnology,True,retained,[],495,exact_isin
+EASEMYTRIP,Leisure Services,True,retained,[],495,exact_isin
+ECLERX,Commercial Services & Supplies,True,retained,[],495,exact_isin
+EICHERMOT,Automobiles,True,retained,[],495,exact_isin
+EIDPARRY,Fertilizers & Agrochemicals,True,retained,[],495,exact_isin
+EIHOTEL,Leisure Services,True,retained,[],495,exact_isin
+ELECON,Industrial Manufacturing,True,retained,[],495,exact_isin
+ELGIEQUIP,Industrial Products,True,retained,[],495,exact_isin
+EMAMILTD,Personal Products,True,retained,[],495,exact_isin
+EMCURE,Pharmaceuticals & Biotechnology,True,retained,[],495,exact_isin
+ENDURANCE,Auto Components,True,retained,[],495,exact_isin
+ENGINERSIN,Construction,True,retained,[],495,exact_isin
+EQUITASBNK,Banks,True,retained,[],495,exact_isin
+ERIS,Pharmaceuticals & Biotechnology,True,retained,[],495,exact_isin
+ESCORTS,"Agricultural, Commercial & Construction Vehicles",True,retained,[],495,exact_isin
+EXIDEIND,Auto Components,True,retained,[],495,exact_isin
+FACT,Fertilizers & Agrochemicals,True,retained,[],495,exact_isin
+FEDERALBNK,Banks,True,retained,[],495,exact_isin
+FINCABLES,Industrial Products,True,retained,[],495,exact_isin
+FINEORG,Chemicals & Petrochemicals,True,retained,[],495,exact_isin
+FINPIPE,Industrial Products,True,retained,[],495,exact_isin
+FIVESTAR,Finance,True,retained,[],495,exact_isin
+FLUOROCHEM,Chemicals & Petrochemicals,True,retained,[],495,exact_isin
+FORTIS,Healthcare Services,True,retained,[],495,exact_isin
+FSL,Commercial Services & Supplies,True,retained,[],495,exact_isin
+GAEL,Agricultural Food & other Products,True,retained,[],495,exact_isin
+GAIL,Gas,True,retained,[],495,exact_isin
+GESHIP,Transport Services,True,retained,[],495,exact_isin
+GICRE,Insurance,True,retained,[],495,exact_isin
+GILLETTE,Personal Products,True,retained,[],495,exact_isin
+GLAND,Pharmaceuticals & Biotechnology,True,retained,[],495,exact_isin
+GLAXO,Pharmaceuticals & Biotechnology,True,retained,[],495,exact_isin
+GLENMARK,Pharmaceuticals & Biotechnology,True,retained,[],495,exact_isin
+GMDCLTD,Minerals & Mining,True,retained,[],495,exact_isin
+GMRAIRPORT,Transport Infrastructure,True,retained,[],495,exact_isin
+GNFC,Chemicals & Petrochemicals,True,retained,[],495,exact_isin
+GODFRYPHLP,Cigarettes & Tobacco Products,True,retained,[],495,exact_isin
+GODIGIT,Insurance,True,retained,[],495,exact_isin
+GODREJAGRO,Food Products,True,retained,[],495,exact_isin
+GODREJCP,Personal Products,True,retained,[],495,exact_isin
+GODREJIND,Diversified,True,retained,[],495,exact_isin
+GODREJPROP,Realty,True,retained,[],495,exact_isin
+GPIL,Industrial Products,True,retained,[],495,exact_isin
+GPPL,Transport Infrastructure,True,retained,[],495,exact_isin
+GRANULES,Pharmaceuticals & Biotechnology,True,retained,[],495,exact_isin
+GRAPHITE,Industrial Products,True,retained,[],495,exact_isin
+GRASIM,Cement & Cement Products,True,retained,[],495,exact_isin
+GRINDWELL,Industrial Products,True,retained,[],495,exact_isin
+GRINFRA,Construction,True,retained,[],495,exact_isin
+GRSE,Aerospace & Defense,True,retained,[],495,exact_isin
+GSFC,Fertilizers & Agrochemicals,True,retained,[],495,exact_isin
+GSPL,Gas,False,quarantined,"[{""reason"": ""daily_data_unavailable""}, {""reason"": ""fewer_than_200_research_observations"", ""observations"": 0}, {""reason"": ""no_executable_terminal_price_in_last_five_sessions""}, {""reason"": ""missing_research_calendar_session_conservative_execution_quarantine"", ""dates"": [""2024-11-11"", ""2024-11-12"", ""2024-11-13"", ""2024-11-14"", ""2024-11-18"", ""2024-11-19"", ""2024-11-21"", ""2024-11-22"", ""2024-11-25"", ""2024-11-26"", ""2024-11-27"", ""2024-11-28"", ""2024-11-29"", ""2024-12-02"", ""2024-12-03"", ""2024-12-04"", ""2024-12-05"", ""2024-12-06"", ""2024-12-09"", ""2024-12-10"", ""2024-12-11"", ""2024-12-12"", ""2024-12-13"", ""2024-12-16"", ""2024-12-17"", ""2024-12-18"", ""2024-12-19"", ""2024-12-20"", ""2024-12-23"", ""2024-12-24"", ""2024-12-26"", ""2024-12-27"", ""2024-12-30"", ""2024-12-31"", ""2025-01-01"", ""2025-01-02"", ""2025-01-03"", ""2025-01-06"", ""2025-01-07"", ""2025-01-08"", ""2025-01-09"", ""2025-01-10"", ""2025-01-13"", ""2025-01-14"", ""2025-01-15"", ""2025-01-16"", ""2025-01-17"", ""2025-01-20"", ""2025-01-21"", ""2025-01-22"", ""2025-01-23"", ""2025-01-24"", ""2025-01-27"", ""2025-01-28"", ""2025-01-29"", ""2025-01-30"", ""2025-01-31"", ""2025-02-01"", ""2025-02-03"", ""2025-02-04"", ""2025-02-05"", ""2025-02-06"", ""2025-02-07"", ""2025-02-10"", ""2025-02-11"", ""2025-02-12"", ""2025-02-13"", ""2025-02-14"", ""2025-02-17"", ""2025-02-18"", ""2025-02-19"", ""2025-02-20"", ""2025-02-21"", ""2025-02-24"", ""2025-02-25"", ""2025-02-27"", ""2025-02-28"", ""2025-03-03"", ""2025-03-04"", ""2025-03-05"", ""2025-03-06"", ""2025-03-07"", ""2025-03-10"", ""2025-03-11"", ""2025-03-12"", ""2025-03-13"", ""2025-03-17"", ""2025-03-18"", ""2025-03-19"", ""2025-03-20"", ""2025-03-21"", ""2025-03-24"", ""2025-03-25"", ""2025-03-26"", ""2025-03-27"", ""2025-03-28"", ""2025-04-01"", ""2025-04-02"", ""2025-04-03"", ""2025-04-04"", ""2025-04-07"", ""2025-04-08"", ""2025-04-09"", ""2025-04-11"", ""2025-04-15"", ""2025-04-16"", ""2025-04-17"", ""2025-04-21"", ""2025-04-22"", ""2025-04-23"", ""2025-04-24"", ""2025-04-25"", ""2025-04-28"", ""2025-04-29"", ""2025-04-30"", ""2025-05-02"", ""2025-05-05"", ""2025-05-06"", ""2025-05-07"", ""2025-05-08"", ""2025-05-09"", ""2025-05-12"", ""2025-05-13"", ""2025-05-14"", ""2025-05-15"", ""2025-05-16"", ""2025-05-19"", ""2025-05-20"", ""2025-05-21"", ""2025-05-22"", ""2025-05-23"", ""2025-05-26"", ""2025-05-27"", ""2025-05-28"", ""2025-05-29"", ""2025-05-30"", ""2025-06-02"", ""2025-06-03"", ""2025-06-04"", ""2025-06-05"", ""2025-06-06"", ""2025-06-09"", ""2025-06-10"", ""2025-06-11"", ""2025-06-12"", ""2025-06-13"", ""2025-06-16"", ""2025-06-17"", ""2025-06-18"", ""2025-06-19"", ""2025-06-20"", ""2025-06-23"", ""2025-06-24"", ""2025-06-25"", ""2025-06-26"", ""2025-06-27"", ""2025-06-30"", ""2025-07-01"", ""2025-07-02"", ""2025-07-03"", ""2025-07-04"", ""2025-07-07"", ""2025-07-08"", ""2025-07-09"", ""2025-07-10"", ""2025-07-11"", ""2025-07-14"", ""2025-07-15"", ""2025-07-16"", ""2025-07-17"", ""2025-07-18"", ""2025-07-21"", ""2025-07-22"", ""2025-07-23"", ""2025-07-24"", ""2025-07-25"", ""2025-07-28"", ""2025-07-29"", ""2025-07-30"", ""2025-07-31"", ""2025-08-01"", ""2025-08-04"", ""2025-08-05"", ""2025-08-06"", ""2025-08-07"", ""2025-08-08"", ""2025-08-11"", ""2025-08-12"", ""2025-08-13"", ""2025-08-14"", ""2025-08-18"", ""2025-08-19"", ""2025-08-20"", ""2025-08-21"", ""2025-08-22"", ""2025-08-25"", ""2025-08-26"", ""2025-08-28"", ""2025-08-29"", ""2025-09-01"", ""2025-09-02"", ""2025-09-03"", ""2025-09-04"", ""2025-09-05"", ""2025-09-08"", ""2025-09-09"", ""2025-09-10"", ""2025-09-11"", ""2025-09-12"", ""2025-09-15"", ""2025-09-16"", ""2025-09-17"", ""2025-09-18"", ""2025-09-19"", ""2025-09-22"", ""2025-09-23"", ""2025-09-24"", ""2025-09-25"", ""2025-09-26"", ""2025-09-29"", ""2025-09-30"", ""2025-10-01"", ""2025-10-03"", ""2025-10-06"", ""2025-10-07"", ""2025-10-08"", ""2025-10-09"", ""2025-10-10"", ""2025-10-13"", ""2025-10-14"", ""2025-10-15"", ""2025-10-16"", ""2025-10-17"", ""2025-10-20"", ""2025-10-21"", ""2025-10-23"", ""2025-10-24"", ""2025-10-27"", ""2025-10-28"", ""2025-10-29"", ""2025-10-30"", ""2025-10-31"", ""2025-11-03"", ""2025-11-04"", ""2025-11-06"", ""2025-11-07"", ""2025-11-10"", ""2025-11-11"", ""2025-11-12"", ""2025-11-13"", ""2025-11-14"", ""2025-11-17"", ""2025-11-18"", ""2025-11-19"", ""2025-11-20"", ""2025-11-21"", ""2025-11-24"", ""2025-11-25"", ""2025-11-26"", ""2025-11-27"", ""2025-11-28"", ""2025-12-01"", ""2025-12-02"", ""2025-12-03"", ""2025-12-04"", ""2025-12-05"", ""2025-12-08"", ""2025-12-09"", ""2025-12-10"", ""2025-12-11"", ""2025-12-12"", ""2025-12-15"", ""2025-12-16"", ""2025-12-17"", ""2025-12-18"", ""2025-12-19"", ""2025-12-22"", ""2025-12-23"", ""2025-12-24"", ""2025-12-26"", ""2025-12-29"", ""2025-12-30"", ""2025-12-31"", ""2026-01-01"", ""2026-01-02"", ""2026-01-05"", ""2026-01-06"", ""2026-01-07"", ""2026-01-08"", ""2026-01-09"", ""2026-01-12"", ""2026-01-13"", ""2026-01-14"", ""2026-01-16"", ""2026-01-19"", ""2026-01-20"", ""2026-01-21"", ""2026-01-22"", ""2026-01-23"", ""2026-01-27"", ""2026-01-28"", ""2026-01-29"", ""2026-01-30"", ""2026-02-01"", ""2026-02-02"", ""2026-02-03"", ""2026-02-04"", ""2026-02-05"", ""2026-02-06"", ""2026-02-09"", ""2026-02-10"", ""2026-02-11"", ""2026-02-12"", ""2026-02-13"", ""2026-02-16"", ""2026-02-17"", ""2026-02-18"", ""2026-02-19"", ""2026-02-20"", ""2026-02-23"", ""2026-02-24"", ""2026-02-25"", ""2026-02-26"", ""2026-02-27"", ""2026-03-02"", ""2026-03-04"", ""2026-03-05"", ""2026-03-06"", ""2026-03-09"", ""2026-03-10"", ""2026-03-11"", ""2026-03-12"", ""2026-03-13"", ""2026-03-16"", ""2026-03-17"", ""2026-03-18"", ""2026-03-19"", ""2026-03-20"", ""2026-03-23"", ""2026-03-24"", ""2026-03-25"", ""2026-03-27"", ""2026-03-30"", ""2026-04-01"", ""2026-04-02"", ""2026-04-06"", ""2026-04-07"", ""2026-04-08"", ""2026-04-09"", ""2026-04-10"", ""2026-04-13"", ""2026-04-15"", ""2026-04-16"", ""2026-04-17"", ""2026-04-20"", ""2026-04-21"", ""2026-04-22"", ""2026-04-23"", ""2026-04-24"", ""2026-04-27"", ""2026-04-28"", ""2026-04-29"", ""2026-04-30"", ""2026-05-04"", ""2026-05-05"", ""2026-05-06"", ""2026-05-07"", ""2026-05-08"", ""2026-05-11"", ""2026-05-12"", ""2026-05-13"", ""2026-05-14"", ""2026-05-15"", ""2026-05-18"", ""2026-05-19"", ""2026-05-20"", ""2026-05-21"", ""2026-05-22"", ""2026-05-25"", ""2026-05-26"", ""2026-05-27"", ""2026-05-29"", ""2026-06-01"", ""2026-06-02"", ""2026-06-03"", ""2026-06-04"", ""2026-06-05"", ""2026-06-08"", ""2026-06-09"", ""2026-06-10"", ""2026-06-11"", ""2026-06-12"", ""2026-06-15"", ""2026-06-16"", ""2026-06-17"", ""2026-06-18"", ""2026-06-19"", ""2026-06-22"", ""2026-06-23"", ""2026-06-24"", ""2026-06-25"", ""2026-06-29"", ""2026-06-30"", ""2026-07-01"", ""2026-07-02"", ""2026-07-03"", ""2026-07-06"", ""2026-07-07"", ""2026-07-08"", ""2026-07-09"", ""2026-07-10"", ""2026-07-13"", ""2026-07-14"", ""2026-07-15"", ""2026-07-16"", ""2026-07-17"", ""2026-07-20"", ""2026-07-21"", ""2026-07-22"", ""2026-07-23"", ""2026-07-24"", ""2026-07-27"", ""2026-07-28"", ""2026-07-29"", ""2026-07-30"", ""2026-07-31"", ""2026-08-03"", ""2026-08-04"", ""2026-08-05"", ""2026-08-06"", ""2026-08-07"", ""2026-08-10"", ""2026-08-11"", ""2026-08-12"", ""2026-08-13"", ""2026-08-14"", ""2026-08-17"", ""2026-08-18"", ""2026-08-19"", ""2026-08-20"", ""2026-08-21"", ""2026-08-24"", ""2026-08-25"", ""2026-08-26"", ""2026-08-27"", ""2026-08-28"", ""2026-08-31"", ""2026-09-01"", ""2026-09-02"", ""2026-09-03"", ""2026-09-04"", ""2026-09-07"", ""2026-09-08"", ""2026-09-09"", ""2026-09-10"", ""2026-09-11"", ""2026-09-15"", ""2026-09-16"", ""2026-09-17"", ""2026-09-18"", ""2026-09-21"", ""2026-09-22"", ""2026-09-23"", ""2026-09-24"", ""2026-09-25"", ""2026-09-28"", ""2026-09-29"", ""2026-09-30"", ""2026-10-01"", ""2026-10-05"", ""2026-10-06"", ""2026-10-07"", ""2026-10-08"", ""2026-10-09"", ""2026-10-12"", ""2026-10-13"", ""2026-10-14"", ""2026-10-15"", ""2026-10-16"", ""2026-10-19"", ""2026-10-21"", ""2026-10-22"", ""2026-10-23"", ""2026-10-26"", ""2026-10-27"", ""2026-10-28"", ""2026-10-29"", ""2026-10-30"", ""2026-11-02"", ""2026-11-03"", ""2026-11-04"", ""2026-11-05"", ""2026-11-06"", ""2026-11-08"", ""2026-11-09""]}]",0,historical_isin_only_unresolved_current_listing
+GUJENERGY,Gas,False,quarantined,"[{""date"": ""2026-07-02"", ""kind"": ""unresolved_capital_action"", ""factor"": 1.0, ""dividend"": 0.0, ""subject"": ""Demerger""}]",495,exact_isin
+GVT&D,Electrical Equipment,True,retained,[],495,exact_isin
+HAL,Aerospace & Defense,True,retained,[],495,exact_isin
+HAPPSTMNDS,IT - Software,True,retained,[],495,exact_isin
+HAVELLS,Consumer Durables,True,retained,[],495,exact_isin
+HBLENGINE,Auto Components,True,retained,[],495,exact_isin
+HCLTECH,IT - Software,True,retained,[],495,exact_isin
+HDFCAMC,Capital Markets,True,retained,[],495,exact_isin
+HDFCBANK,Banks,True,retained,[],495,exact_isin
+HDFCLIFE,Insurance,True,retained,[],495,exact_isin
+HEGAM,Industrial Products,False,quarantined,"[{""date"": ""2026-09-07"", ""kind"": ""unresolved_capital_action"", ""factor"": 1.0, ""dividend"": 0.0, ""subject"": ""Demerger""}, {""reason"": ""unexplained_overnight_gap_above_30pct"", ""dates"": {""2026-09-07"": -0.6429797459663578}}]",495,exact_isin
+HEROMOTOCO,Automobiles,True,retained,[],495,exact_isin
+HFCL,Telecom - Services,True,retained,[],495,exact_isin
+HINDALCO,Non - Ferrous Metals,True,retained,[],495,exact_isin
+HINDCOPPER,Non - Ferrous Metals,True,retained,[],495,exact_isin
+HINDPETRO,Petroleum Products,True,retained,[],495,exact_isin
+HINDUNILVR,Diversified FMCG,False,quarantined,"[{""date"": ""2025-12-05"", ""kind"": ""unresolved_capital_action"", ""factor"": 1.0, ""dividend"": 0.0, ""subject"": ""Demerger""}]",495,exact_isin
+HINDZINC,Non - Ferrous Metals,True,retained,[],495,exact_isin
+HOMEFIRST,Finance,True,retained,[],495,exact_isin
+HONASA,Personal Products,True,retained,[],495,exact_isin
+HONAUT,Industrial Manufacturing,True,retained,[],495,exact_isin
+HSCL,Chemicals & Petrochemicals,True,retained,[],495,exact_isin
+HUDCO,Finance,True,retained,[],495,exact_isin
+ICICIBANK,Banks,True,retained,[],495,exact_isin
+ICICIGI,Insurance,True,retained,[],495,exact_isin
+ICICILIFE,Insurance,True,retained,[],495,exact_isin
+IDBI,Banks,True,retained,[],495,exact_isin
+IDEA,Telecom - Services,True,retained,[],495,exact_isin
+IDFCFIRSTB,Banks,True,retained,[],495,exact_isin
+IEX,Capital Markets,True,retained,[],495,exact_isin
+IFCI,Finance,True,retained,[],495,exact_isin
+IGL,Gas,True,retained,[],495,exact_isin
+IIFL,Finance,True,retained,[],495,exact_isin
+INDGN,Healthcare Services,True,retained,[],495,exact_isin
+INDHOTEL,Leisure Services,True,retained,[],495,exact_isin
+INDIACEM,Cement & Cement Products,True,retained,[],495,exact_isin
+INDIAMART,Retailing,True,retained,[],495,exact_isin
+INDIANB,Banks,True,retained,[],495,exact_isin
+INDIGO,Transport Services,True,retained,[],495,exact_isin
+INDUSINDBK,Banks,True,retained,[],495,exact_isin
+INDUSTOWER,Telecom - Services,True,retained,[],495,exact_isin
+INFY,IT - Software,True,retained,[],495,exact_isin
+INOXINDIA,Industrial Products,True,retained,[],495,exact_isin
+INOXWIND,Electrical Equipment,False,quarantined,"[{""date"": ""2025-07-29"", ""kind"": ""unresolved_capital_action"", ""factor"": 1.0, ""dividend"": 0.0, ""subject"": ""Rights 5:78 @ Premium Rs 110/-""}]",495,exact_isin
+INTELLECT,IT - Software,True,retained,[],495,exact_isin
+IOB,Banks,True,retained,[],495,exact_isin
+IOC,Petroleum Products,True,retained,[],495,exact_isin
+IPCALAB,Pharmaceuticals & Biotechnology,True,retained,[],495,exact_isin
+IRB,Construction,True,retained,[],495,exact_isin
+IRCON,Construction,True,retained,[],495,exact_isin
+IRCTC,Leisure Services,True,retained,[],495,exact_isin
+IREDA,Finance,True,retained,[],495,exact_isin
+IRFC,Finance,True,retained,[],495,exact_isin
+ISEC,Capital Markets,False,quarantined,"[{""reason"": ""daily_data_unavailable""}, {""reason"": ""fewer_than_200_research_observations"", ""observations"": 0}, {""reason"": ""no_executable_terminal_price_in_last_five_sessions""}, {""reason"": ""missing_research_calendar_session_conservative_execution_quarantine"", ""dates"": [""2024-11-11"", ""2024-11-12"", ""2024-11-13"", ""2024-11-14"", ""2024-11-18"", ""2024-11-19"", ""2024-11-21"", ""2024-11-22"", ""2024-11-25"", ""2024-11-26"", ""2024-11-27"", ""2024-11-28"", ""2024-11-29"", ""2024-12-02"", ""2024-12-03"", ""2024-12-04"", ""2024-12-05"", ""2024-12-06"", ""2024-12-09"", ""2024-12-10"", ""2024-12-11"", ""2024-12-12"", ""2024-12-13"", ""2024-12-16"", ""2024-12-17"", ""2024-12-18"", ""2024-12-19"", ""2024-12-20"", ""2024-12-23"", ""2024-12-24"", ""2024-12-26"", ""2024-12-27"", ""2024-12-30"", ""2024-12-31"", ""2025-01-01"", ""2025-01-02"", ""2025-01-03"", ""2025-01-06"", ""2025-01-07"", ""2025-01-08"", ""2025-01-09"", ""2025-01-10"", ""2025-01-13"", ""2025-01-14"", ""2025-01-15"", ""2025-01-16"", ""2025-01-17"", ""2025-01-20"", ""2025-01-21"", ""2025-01-22"", ""2025-01-23"", ""2025-01-24"", ""2025-01-27"", ""2025-01-28"", ""2025-01-29"", ""2025-01-30"", ""2025-01-31"", ""2025-02-01"", ""2025-02-03"", ""2025-02-04"", ""2025-02-05"", ""2025-02-06"", ""2025-02-07"", ""2025-02-10"", ""2025-02-11"", ""2025-02-12"", ""2025-02-13"", ""2025-02-14"", ""2025-02-17"", ""2025-02-18"", ""2025-02-19"", ""2025-02-20"", ""2025-02-21"", ""2025-02-24"", ""2025-02-25"", ""2025-02-27"", ""2025-02-28"", ""2025-03-03"", ""2025-03-04"", ""2025-03-05"", ""2025-03-06"", ""2025-03-07"", ""2025-03-10"", ""2025-03-11"", ""2025-03-12"", ""2025-03-13"", ""2025-03-17"", ""2025-03-18"", ""2025-03-19"", ""2025-03-20"", ""2025-03-21"", ""2025-03-24"", ""2025-03-25"", ""2025-03-26"", ""2025-03-27"", ""2025-03-28"", ""2025-04-01"", ""2025-04-02"", ""2025-04-03"", ""2025-04-04"", ""2025-04-07"", ""2025-04-08"", ""2025-04-09"", ""2025-04-11"", ""2025-04-15"", ""2025-04-16"", ""2025-04-17"", ""2025-04-21"", ""2025-04-22"", ""2025-04-23"", ""2025-04-24"", ""2025-04-25"", ""2025-04-28"", ""2025-04-29"", ""2025-04-30"", ""2025-05-02"", ""2025-05-05"", ""2025-05-06"", ""2025-05-07"", ""2025-05-08"", ""2025-05-09"", ""2025-05-12"", ""2025-05-13"", ""2025-05-14"", ""2025-05-15"", ""2025-05-16"", ""2025-05-19"", ""2025-05-20"", ""2025-05-21"", ""2025-05-22"", ""2025-05-23"", ""2025-05-26"", ""2025-05-27"", ""2025-05-28"", ""2025-05-29"", ""2025-05-30"", ""2025-06-02"", ""2025-06-03"", ""2025-06-04"", ""2025-06-05"", ""2025-06-06"", ""2025-06-09"", ""2025-06-10"", ""2025-06-11"", ""2025-06-12"", ""2025-06-13"", ""2025-06-16"", ""2025-06-17"", ""2025-06-18"", ""2025-06-19"", ""2025-06-20"", ""2025-06-23"", ""2025-06-24"", ""2025-06-25"", ""2025-06-26"", ""2025-06-27"", ""2025-06-30"", ""2025-07-01"", ""2025-07-02"", ""2025-07-03"", ""2025-07-04"", ""2025-07-07"", ""2025-07-08"", ""2025-07-09"", ""2025-07-10"", ""2025-07-11"", ""2025-07-14"", ""2025-07-15"", ""2025-07-16"", ""2025-07-17"", ""2025-07-18"", ""2025-07-21"", ""2025-07-22"", ""2025-07-23"", ""2025-07-24"", ""2025-07-25"", ""2025-07-28"", ""2025-07-29"", ""2025-07-30"", ""2025-07-31"", ""2025-08-01"", ""2025-08-04"", ""2025-08-05"", ""2025-08-06"", ""2025-08-07"", ""2025-08-08"", ""2025-08-11"", ""2025-08-12"", ""2025-08-13"", ""2025-08-14"", ""2025-08-18"", ""2025-08-19"", ""2025-08-20"", ""2025-08-21"", ""2025-08-22"", ""2025-08-25"", ""2025-08-26"", ""2025-08-28"", ""2025-08-29"", ""2025-09-01"", ""2025-09-02"", ""2025-09-03"", ""2025-09-04"", ""2025-09-05"", ""2025-09-08"", ""2025-09-09"", ""2025-09-10"", ""2025-09-11"", ""2025-09-12"", ""2025-09-15"", ""2025-09-16"", ""2025-09-17"", ""2025-09-18"", ""2025-09-19"", ""2025-09-22"", ""2025-09-23"", ""2025-09-24"", ""2025-09-25"", ""2025-09-26"", ""2025-09-29"", ""2025-09-30"", ""2025-10-01"", ""2025-10-03"", ""2025-10-06"", ""2025-10-07"", ""2025-10-08"", ""2025-10-09"", ""2025-10-10"", ""2025-10-13"", ""2025-10-14"", ""2025-10-15"", ""2025-10-16"", ""2025-10-17"", ""2025-10-20"", ""2025-10-21"", ""2025-10-23"", ""2025-10-24"", ""2025-10-27"", ""2025-10-28"", ""2025-10-29"", ""2025-10-30"", ""2025-10-31"", ""2025-11-03"", ""2025-11-04"", ""2025-11-06"", ""2025-11-07"", ""2025-11-10"", ""2025-11-11"", ""2025-11-12"", ""2025-11-13"", ""2025-11-14"", ""2025-11-17"", ""2025-11-18"", ""2025-11-19"", ""2025-11-20"", ""2025-11-21"", ""2025-11-24"", ""2025-11-25"", ""2025-11-26"", ""2025-11-27"", ""2025-11-28"", ""2025-12-01"", ""2025-12-02"", ""2025-12-03"", ""2025-12-04"", ""2025-12-05"", ""2025-12-08"", ""2025-12-09"", ""2025-12-10"", ""2025-12-11"", ""2025-12-12"", ""2025-12-15"", ""2025-12-16"", ""2025-12-17"", ""2025-12-18"", ""2025-12-19"", ""2025-12-22"", ""2025-12-23"", ""2025-12-24"", ""2025-12-26"", ""2025-12-29"", ""2025-12-30"", ""2025-12-31"", ""2026-01-01"", ""2026-01-02"", ""2026-01-05"", ""2026-01-06"", ""2026-01-07"", ""2026-01-08"", ""2026-01-09"", ""2026-01-12"", ""2026-01-13"", ""2026-01-14"", ""2026-01-16"", ""2026-01-19"", ""2026-01-20"", ""2026-01-21"", ""2026-01-22"", ""2026-01-23"", ""2026-01-27"", ""2026-01-28"", ""2026-01-29"", ""2026-01-30"", ""2026-02-01"", ""2026-02-02"", ""2026-02-03"", ""2026-02-04"", ""2026-02-05"", ""2026-02-06"", ""2026-02-09"", ""2026-02-10"", ""2026-02-11"", ""2026-02-12"", ""2026-02-13"", ""2026-02-16"", ""2026-02-17"", ""2026-02-18"", ""2026-02-19"", ""2026-02-20"", ""2026-02-23"", ""2026-02-24"", ""2026-02-25"", ""2026-02-26"", ""2026-02-27"", ""2026-03-02"", ""2026-03-04"", ""2026-03-05"", ""2026-03-06"", ""2026-03-09"", ""2026-03-10"", ""2026-03-11"", ""2026-03-12"", ""2026-03-13"", ""2026-03-16"", ""2026-03-17"", ""2026-03-18"", ""2026-03-19"", ""2026-03-20"", ""2026-03-23"", ""2026-03-24"", ""2026-03-25"", ""2026-03-27"", ""2026-03-30"", ""2026-04-01"", ""2026-04-02"", ""2026-04-06"", ""2026-04-07"", ""2026-04-08"", ""2026-04-09"", ""2026-04-10"", ""2026-04-13"", ""2026-04-15"", ""2026-04-16"", ""2026-04-17"", ""2026-04-20"", ""2026-04-21"", ""2026-04-22"", ""2026-04-23"", ""2026-04-24"", ""2026-04-27"", ""2026-04-28"", ""2026-04-29"", ""2026-04-30"", ""2026-05-04"", ""2026-05-05"", ""2026-05-06"", ""2026-05-07"", ""2026-05-08"", ""2026-05-11"", ""2026-05-12"", ""2026-05-13"", ""2026-05-14"", ""2026-05-15"", ""2026-05-18"", ""2026-05-19"", ""2026-05-20"", ""2026-05-21"", ""2026-05-22"", ""2026-05-25"", ""2026-05-26"", ""2026-05-27"", ""2026-05-29"", ""2026-06-01"", ""2026-06-02"", ""2026-06-03"", ""2026-06-04"", ""2026-06-05"", ""2026-06-08"", ""2026-06-09"", ""2026-06-10"", ""2026-06-11"", ""2026-06-12"", ""2026-06-15"", ""2026-06-16"", ""2026-06-17"", ""2026-06-18"", ""2026-06-19"", ""2026-06-22"", ""2026-06-23"", ""2026-06-24"", ""2026-06-25"", ""2026-06-29"", ""2026-06-30"", ""2026-07-01"", ""2026-07-02"", ""2026-07-03"", ""2026-07-06"", ""2026-07-07"", ""2026-07-08"", ""2026-07-09"", ""2026-07-10"", ""2026-07-13"", ""2026-07-14"", ""2026-07-15"", ""2026-07-16"", ""2026-07-17"", ""2026-07-20"", ""2026-07-21"", ""2026-07-22"", ""2026-07-23"", ""2026-07-24"", ""2026-07-27"", ""2026-07-28"", ""2026-07-29"", ""2026-07-30"", ""2026-07-31"", ""2026-08-03"", ""2026-08-04"", ""2026-08-05"", ""2026-08-06"", ""2026-08-07"", ""2026-08-10"", ""2026-08-11"", ""2026-08-12"", ""2026-08-13"", ""2026-08-14"", ""2026-08-17"", ""2026-08-18"", ""2026-08-19"", ""2026-08-20"", ""2026-08-21"", ""2026-08-24"", ""2026-08-25"", ""2026-08-26"", ""2026-08-27"", ""2026-08-28"", ""2026-08-31"", ""2026-09-01"", ""2026-09-02"", ""2026-09-03"", ""2026-09-04"", ""2026-09-07"", ""2026-09-08"", ""2026-09-09"", ""2026-09-10"", ""2026-09-11"", ""2026-09-15"", ""2026-09-16"", ""2026-09-17"", ""2026-09-18"", ""2026-09-21"", ""2026-09-22"", ""2026-09-23"", ""2026-09-24"", ""2026-09-25"", ""2026-09-28"", ""2026-09-29"", ""2026-09-30"", ""2026-10-01"", ""2026-10-05"", ""2026-10-06"", ""2026-10-07"", ""2026-10-08"", ""2026-10-09"", ""2026-10-12"", ""2026-10-13"", ""2026-10-14"", ""2026-10-15"", ""2026-10-16"", ""2026-10-19"", ""2026-10-21"", ""2026-10-22"", ""2026-10-23"", ""2026-10-26"", ""2026-10-27"", ""2026-10-28"", ""2026-10-29"", ""2026-10-30"", ""2026-11-02"", ""2026-11-03"", ""2026-11-04"", ""2026-11-05"", ""2026-11-06"", ""2026-11-08"", ""2026-11-09""]}]",0,historical_isin_only_unresolved_current_listing
+ITC,Diversified FMCG,False,quarantined,"[{""date"": ""2025-01-06"", ""kind"": ""unresolved_capital_action"", ""factor"": 1.0, ""dividend"": 0.0, ""subject"": ""Demerger""}]",495,exact_isin
+ITI,Telecom -  Equipment & Accessories,True,retained,[],495,exact_isin
+J&KBANK,Banks,True,retained,[],495,exact_isin
+JBCHEPHARM,Pharmaceuticals & Biotechnology,False,quarantined,"[{""reason"": ""daily_data_unavailable""}, {""reason"": ""fewer_than_200_research_observations"", ""observations"": 0}, {""reason"": ""no_executable_terminal_price_in_last_five_sessions""}, {""reason"": ""missing_research_calendar_session_conservative_execution_quarantine"", ""dates"": [""2024-11-11"", ""2024-11-12"", ""2024-11-13"", ""2024-11-14"", ""2024-11-18"", ""2024-11-19"", ""2024-11-21"", ""2024-11-22"", ""2024-11-25"", ""2024-11-26"", ""2024-11-27"", ""2024-11-28"", ""2024-11-29"", ""2024-12-02"", ""2024-12-03"", ""2024-12-04"", ""2024-12-05"", ""2024-12-06"", ""2024-12-09"", ""2024-12-10"", ""2024-12-11"", ""2024-12-12"", ""2024-12-13"", ""2024-12-16"", ""2024-12-17"", ""2024-12-18"", ""2024-12-19"", ""2024-12-20"", ""2024-12-23"", ""2024-12-24"", ""2024-12-26"", ""2024-12-27"", ""2024-12-30"", ""2024-12-31"", ""2025-01-01"", ""2025-01-02"", ""2025-01-03"", ""2025-01-06"", ""2025-01-07"", ""2025-01-08"", ""2025-01-09"", ""2025-01-10"", ""2025-01-13"", ""2025-01-14"", ""2025-01-15"", ""2025-01-16"", ""2025-01-17"", ""2025-01-20"", ""2025-01-21"", ""2025-01-22"", ""2025-01-23"", ""2025-01-24"", ""2025-01-27"", ""2025-01-28"", ""2025-01-29"", ""2025-01-30"", ""2025-01-31"", ""2025-02-01"", ""2025-02-03"", ""2025-02-04"", ""2025-02-05"", ""2025-02-06"", ""2025-02-07"", ""2025-02-10"", ""2025-02-11"", ""2025-02-12"", ""2025-02-13"", ""2025-02-14"", ""2025-02-17"", ""2025-02-18"", ""2025-02-19"", ""2025-02-20"", ""2025-02-21"", ""2025-02-24"", ""2025-02-25"", ""2025-02-27"", ""2025-02-28"", ""2025-03-03"", ""2025-03-04"", ""2025-03-05"", ""2025-03-06"", ""2025-03-07"", ""2025-03-10"", ""2025-03-11"", ""2025-03-12"", ""2025-03-13"", ""2025-03-17"", ""2025-03-18"", ""2025-03-19"", ""2025-03-20"", ""2025-03-21"", ""2025-03-24"", ""2025-03-25"", ""2025-03-26"", ""2025-03-27"", ""2025-03-28"", ""2025-04-01"", ""2025-04-02"", ""2025-04-03"", ""2025-04-04"", ""2025-04-07"", ""2025-04-08"", ""2025-04-09"", ""2025-04-11"", ""2025-04-15"", ""2025-04-16"", ""2025-04-17"", ""2025-04-21"", ""2025-04-22"", ""2025-04-23"", ""2025-04-24"", ""2025-04-25"", ""2025-04-28"", ""2025-04-29"", ""2025-04-30"", ""2025-05-02"", ""2025-05-05"", ""2025-05-06"", ""2025-05-07"", ""2025-05-08"", ""2025-05-09"", ""2025-05-12"", ""2025-05-13"", ""2025-05-14"", ""2025-05-15"", ""2025-05-16"", ""2025-05-19"", ""2025-05-20"", ""2025-05-21"", ""2025-05-22"", ""2025-05-23"", ""2025-05-26"", ""2025-05-27"", ""2025-05-28"", ""2025-05-29"", ""2025-05-30"", ""2025-06-02"", ""2025-06-03"", ""2025-06-04"", ""2025-06-05"", ""2025-06-06"", ""2025-06-09"", ""2025-06-10"", ""2025-06-11"", ""2025-06-12"", ""2025-06-13"", ""2025-06-16"", ""2025-06-17"", ""2025-06-18"", ""2025-06-19"", ""2025-06-20"", ""2025-06-23"", ""2025-06-24"", ""2025-06-25"", ""2025-06-26"", ""2025-06-27"", ""2025-06-30"", ""2025-07-01"", ""2025-07-02"", ""2025-07-03"", ""2025-07-04"", ""2025-07-07"", ""2025-07-08"", ""2025-07-09"", ""2025-07-10"", ""2025-07-11"", ""2025-07-14"", ""2025-07-15"", ""2025-07-16"", ""2025-07-17"", ""2025-07-18"", ""2025-07-21"", ""2025-07-22"", ""2025-07-23"", ""2025-07-24"", ""2025-07-25"", ""2025-07-28"", ""2025-07-29"", ""2025-07-30"", ""2025-07-31"", ""2025-08-01"", ""2025-08-04"", ""2025-08-05"", ""2025-08-06"", ""2025-08-07"", ""2025-08-08"", ""2025-08-11"", ""2025-08-12"", ""2025-08-13"", ""2025-08-14"", ""2025-08-18"", ""2025-08-19"", ""2025-08-20"", ""2025-08-21"", ""2025-08-22"", ""2025-08-25"", ""2025-08-26"", ""2025-08-28"", ""2025-08-29"", ""2025-09-01"", ""2025-09-02"", ""2025-09-03"", ""2025-09-04"", ""2025-09-05"", ""2025-09-08"", ""2025-09-09"", ""2025-09-10"", ""2025-09-11"", ""2025-09-12"", ""2025-09-15"", ""2025-09-16"", ""2025-09-17"", ""2025-09-18"", ""2025-09-19"", ""2025-09-22"", ""2025-09-23"", ""2025-09-24"", ""2025-09-25"", ""2025-09-26"", ""2025-09-29"", ""2025-09-30"", ""2025-10-01"", ""2025-10-03"", ""2025-10-06"", ""2025-10-07"", ""2025-10-08"", ""2025-10-09"", ""2025-10-10"", ""2025-10-13"", ""2025-10-14"", ""2025-10-15"", ""2025-10-16"", ""2025-10-17"", ""2025-10-20"", ""2025-10-21"", ""2025-10-23"", ""2025-10-24"", ""2025-10-27"", ""2025-10-28"", ""2025-10-29"", ""2025-10-30"", ""2025-10-31"", ""2025-11-03"", ""2025-11-04"", ""2025-11-06"", ""2025-11-07"", ""2025-11-10"", ""2025-11-11"", ""2025-11-12"", ""2025-11-13"", ""2025-11-14"", ""2025-11-17"", ""2025-11-18"", ""2025-11-19"", ""2025-11-20"", ""2025-11-21"", ""2025-11-24"", ""2025-11-25"", ""2025-11-26"", ""2025-11-27"", ""2025-11-28"", ""2025-12-01"", ""2025-12-02"", ""2025-12-03"", ""2025-12-04"", ""2025-12-05"", ""2025-12-08"", ""2025-12-09"", ""2025-12-10"", ""2025-12-11"", ""2025-12-12"", ""2025-12-15"", ""2025-12-16"", ""2025-12-17"", ""2025-12-18"", ""2025-12-19"", ""2025-12-22"", ""2025-12-23"", ""2025-12-24"", ""2025-12-26"", ""2025-12-29"", ""2025-12-30"", ""2025-12-31"", ""2026-01-01"", ""2026-01-02"", ""2026-01-05"", ""2026-01-06"", ""2026-01-07"", ""2026-01-08"", ""2026-01-09"", ""2026-01-12"", ""2026-01-13"", ""2026-01-14"", ""2026-01-16"", ""2026-01-19"", ""2026-01-20"", ""2026-01-21"", ""2026-01-22"", ""2026-01-23"", ""2026-01-27"", ""2026-01-28"", ""2026-01-29"", ""2026-01-30"", ""2026-02-01"", ""2026-02-02"", ""2026-02-03"", ""2026-02-04"", ""2026-02-05"", ""2026-02-06"", ""2026-02-09"", ""2026-02-10"", ""2026-02-11"", ""2026-02-12"", ""2026-02-13"", ""2026-02-16"", ""2026-02-17"", ""2026-02-18"", ""2026-02-19"", ""2026-02-20"", ""2026-02-23"", ""2026-02-24"", ""2026-02-25"", ""2026-02-26"", ""2026-02-27"", ""2026-03-02"", ""2026-03-04"", ""2026-03-05"", ""2026-03-06"", ""2026-03-09"", ""2026-03-10"", ""2026-03-11"", ""2026-03-12"", ""2026-03-13"", ""2026-03-16"", ""2026-03-17"", ""2026-03-18"", ""2026-03-19"", ""2026-03-20"", ""2026-03-23"", ""2026-03-24"", ""2026-03-25"", ""2026-03-27"", ""2026-03-30"", ""2026-04-01"", ""2026-04-02"", ""2026-04-06"", ""2026-04-07"", ""2026-04-08"", ""2026-04-09"", ""2026-04-10"", ""2026-04-13"", ""2026-04-15"", ""2026-04-16"", ""2026-04-17"", ""2026-04-20"", ""2026-04-21"", ""2026-04-22"", ""2026-04-23"", ""2026-04-24"", ""2026-04-27"", ""2026-04-28"", ""2026-04-29"", ""2026-04-30"", ""2026-05-04"", ""2026-05-05"", ""2026-05-06"", ""2026-05-07"", ""2026-05-08"", ""2026-05-11"", ""2026-05-12"", ""2026-05-13"", ""2026-05-14"", ""2026-05-15"", ""2026-05-18"", ""2026-05-19"", ""2026-05-20"", ""2026-05-21"", ""2026-05-22"", ""2026-05-25"", ""2026-05-26"", ""2026-05-27"", ""2026-05-29"", ""2026-06-01"", ""2026-06-02"", ""2026-06-03"", ""2026-06-04"", ""2026-06-05"", ""2026-06-08"", ""2026-06-09"", ""2026-06-10"", ""2026-06-11"", ""2026-06-12"", ""2026-06-15"", ""2026-06-16"", ""2026-06-17"", ""2026-06-18"", ""2026-06-19"", ""2026-06-22"", ""2026-06-23"", ""2026-06-24"", ""2026-06-25"", ""2026-06-29"", ""2026-06-30"", ""2026-07-01"", ""2026-07-02"", ""2026-07-03"", ""2026-07-06"", ""2026-07-07"", ""2026-07-08"", ""2026-07-09"", ""2026-07-10"", ""2026-07-13"", ""2026-07-14"", ""2026-07-15"", ""2026-07-16"", ""2026-07-17"", ""2026-07-20"", ""2026-07-21"", ""2026-07-22"", ""2026-07-23"", ""2026-07-24"", ""2026-07-27"", ""2026-07-28"", ""2026-07-29"", ""2026-07-30"", ""2026-07-31"", ""2026-08-03"", ""2026-08-04"", ""2026-08-05"", ""2026-08-06"", ""2026-08-07"", ""2026-08-10"", ""2026-08-11"", ""2026-08-12"", ""2026-08-13"", ""2026-08-14"", ""2026-08-17"", ""2026-08-18"", ""2026-08-19"", ""2026-08-20"", ""2026-08-21"", ""2026-08-24"", ""2026-08-25"", ""2026-08-26"", ""2026-08-27"", ""2026-08-28"", ""2026-08-31"", ""2026-09-01"", ""2026-09-02"", ""2026-09-03"", ""2026-09-04"", ""2026-09-07"", ""2026-09-08"", ""2026-09-09"", ""2026-09-10"", ""2026-09-11"", ""2026-09-15"", ""2026-09-16"", ""2026-09-17"", ""2026-09-18"", ""2026-09-21"", ""2026-09-22"", ""2026-09-23"", ""2026-09-24"", ""2026-09-25"", ""2026-09-28"", ""2026-09-29"", ""2026-09-30"", ""2026-10-01"", ""2026-10-05"", ""2026-10-06"", ""2026-10-07"", ""2026-10-08"", ""2026-10-09"", ""2026-10-12"", ""2026-10-13"", ""2026-10-14"", ""2026-10-15"", ""2026-10-16"", ""2026-10-19"", ""2026-10-21"", ""2026-10-22"", ""2026-10-23"", ""2026-10-26"", ""2026-10-27"", ""2026-10-28"", ""2026-10-29"", ""2026-10-30"", ""2026-11-02"", ""2026-11-03"", ""2026-11-04"", ""2026-11-05"", ""2026-11-06"", ""2026-11-08"", ""2026-11-09""]}]",0,historical_isin_only_unresolved_current_listing
+JBMA,Auto Components,True,retained,[],495,exact_normalized_company_name_or_explicit_alias
+JINDALSAW,Industrial Products,True,retained,[],495,exact_isin
+JINDALSTEL,Ferrous Metals,True,retained,[],495,exact_isin
+JIOFIN,Finance,True,retained,[],495,exact_isin
+JKCEMENT,Cement & Cement Products,True,retained,[],495,exact_isin
+JKLAKSHMI,Cement & Cement Products,True,retained,[],495,exact_isin
+JKTYRE,Auto Components,True,retained,[],495,exact_isin
+JMFINANCIL,Finance,True,retained,[],495,exact_isin
+JPPOWER,Power,True,retained,[],495,exact_isin
+JSL,Ferrous Metals,True,retained,[],495,exact_isin
+JSWENERGY,Power,True,retained,[],495,exact_isin
+JSWINFRA,Transport Infrastructure,True,retained,[],495,exact_isin
+JSWSTEEL,Ferrous Metals,True,retained,[],495,exact_isin
+JUBLFOOD,Leisure Services,True,retained,[],495,exact_isin
+JUBLINGREA,Chemicals & Petrochemicals,True,retained,[],495,exact_isin
+JUBLPHARMA,Pharmaceuticals & Biotechnology,True,retained,[],495,exact_isin
+JUSTDIAL,Retailing,True,retained,[],495,exact_isin
+JWL,Industrial Manufacturing,True,retained,[],495,exact_isin
+JYOTHYLAB,Household Products,True,retained,[],495,exact_isin
+JYOTICNC,Industrial Manufacturing,True,retained,[],495,exact_isin
+KAJARIACER,Consumer Durables,True,retained,[],495,exact_isin
+KALYANKJIL,Consumer Durables,True,retained,[],495,exact_isin
+KANSAINER,Consumer Durables,True,retained,[],495,exact_isin
+KARURVYSYA,Banks,False,quarantined,"[{""date"": ""2025-08-26"", ""kind"": ""split_bonus"", ""factor"": 1.2, ""dividend"": 0.0, ""subject"": ""Bonus 1:5""}]",495,exact_isin
+KAYNES,Industrial Manufacturing,True,retained,[],495,exact_isin
+KEC,Construction,True,retained,[],495,exact_isin
+KEI,Industrial Products,True,retained,[],495,exact_isin
+KFINTECH,Capital Markets,True,retained,[],495,exact_isin
+KIMS,Healthcare Services,True,retained,[],495,exact_isin
+KIRLOSBROS,Industrial Products,True,retained,[],495,exact_isin
+KIRLOSENG,Industrial Products,True,retained,[],495,exact_isin
+KNRCON,Construction,True,retained,[],495,exact_isin
+KOTAKBANK,Banks,True,retained,[],495,exact_normalized_company_name_or_explicit_alias
+KPIL,Construction,True,retained,[],495,exact_isin
+KPITTECH,IT - Software,True,retained,[],495,exact_isin
+KPRMILL,Textiles & Apparels,True,retained,[],495,exact_isin
+KSB,Industrial Products,True,retained,[],495,exact_isin
+LALPATHLAB,Healthcare Services,True,retained,[],495,exact_isin
+LATENTVIEW,IT - Software,True,retained,[],495,exact_isin
+LAURUSLABS,Pharmaceuticals & Biotechnology,True,retained,[],495,exact_isin
+LEMONTREE,Leisure Services,True,retained,[],495,exact_isin
+LICHSGFIN,Finance,True,retained,[],495,exact_isin
+LICI,Insurance,True,retained,[],495,exact_isin
+LINDEINDIA,Chemicals & Petrochemicals,True,retained,[],495,exact_isin
+LLOYDSME,Ferrous Metals,True,retained,[],495,exact_isin
+LODHA,Realty,True,retained,[],495,exact_isin
+LT,Construction,True,retained,[],495,exact_isin
+LTF,Finance,True,retained,[],495,exact_isin
+LTM,IT - Software,True,retained,[],495,exact_isin
+LTTS,IT - Services,True,retained,[],495,exact_isin
+LUPIN,Pharmaceuticals & Biotechnology,True,retained,[],495,exact_isin
+M&M,Automobiles,True,retained,[],495,exact_isin
+M&MFIN,Finance,False,quarantined,"[{""date"": ""2025-05-14"", ""kind"": ""unresolved_capital_action"", ""factor"": 1.0, ""dividend"": 0.0, ""subject"": ""Rights 1:8 @ Premium Rs 192/-""}]",495,exact_isin
+MAHABANK,Banks,True,retained,[],495,exact_isin
+MAHLIFE,Realty,False,quarantined,"[{""date"": ""2025-05-23"", ""kind"": ""unresolved_capital_action"", ""factor"": 1.0, ""dividend"": 0.0, ""subject"": ""Rights 3:8 @ Premium Rs 247/-""}]",495,exact_isin
+MAHSEAMLES,Industrial Products,True,retained,[],495,exact_isin
+MANAPPURAM,Finance,True,retained,[],495,exact_isin
+MANKIND,Pharmaceuticals & Biotechnology,True,retained,[],495,exact_isin
+MANYAVAR,Retailing,True,retained,[],495,exact_isin
+MAPMYINDIA,IT - Software,True,retained,[],495,exact_isin
+MARICO,Agricultural Food & other Products,True,retained,[],495,exact_isin
+MARUTI,Automobiles,True,retained,[],495,exact_isin
+MASTEK,IT - Software,True,retained,[],495,exact_isin
+MAXHEALTH,Healthcare Services,True,retained,[],495,exact_isin
+MAZDOCK,Industrial Manufacturing,True,retained,[],495,exact_normalized_company_name_or_explicit_alias
+MCX,Capital Markets,True,retained,[],495,exact_normalized_company_name_or_explicit_alias
+MEDANTA,Healthcare Services,True,retained,[],495,exact_isin
+METROBRAND,Consumer Durables,True,retained,[],495,exact_isin
+METROPOLIS,Healthcare Services,True,retained,[],495,exact_isin
+MFSL,Insurance,True,retained,[],495,exact_isin
+MGL,Gas,True,retained,[],495,exact_isin
+MINDACORP,Auto Components,True,retained,[],495,exact_isin
+MMTC,Commercial Services & Supplies,True,retained,[],495,exact_isin
+MOTHERSON,Auto Components,False,quarantined,"[{""date"": ""2025-07-18"", ""kind"": ""split_bonus"", ""factor"": 1.5, ""dividend"": 0.0, ""subject"": ""Bonus 1:2""}]",495,exact_isin
+MOTILALOFS,Capital Markets,True,retained,[],495,exact_isin
+MPHASIS,IT - Software,True,retained,[],495,exact_isin
+MRF,Auto Components,True,retained,[],495,exact_isin
+MRPL,Petroleum Products,True,retained,[],495,exact_isin
+MSUMI,Auto Components,False,quarantined,"[{""date"": ""2025-07-18"", ""kind"": ""split_bonus"", ""factor"": 1.5, ""dividend"": 0.0, ""subject"": ""Bonus 1:2""}]",495,exact_isin
+MUTHOOTFIN,Finance,True,retained,[],495,exact_isin
+NAM-INDIA,Capital Markets,True,retained,[],495,exact_isin
+NATCOPHARM,Pharmaceuticals & Biotechnology,False,quarantined,"[{""date"": ""2026-10-01"", ""kind"": ""unresolved_capital_action"", ""factor"": 1.0, ""dividend"": 0.0, ""subject"": ""Rights 2:21 @ Premium Rs 748/-""}]",495,exact_isin
+NATIONALUM,Non - Ferrous Metals,True,retained,[],495,exact_isin
+NAUKRI,Retailing,True,retained,[],495,exact_normalized_company_name_or_explicit_alias
+NAVINFLUOR,Chemicals & Petrochemicals,True,retained,[],495,exact_isin
+NBCC,Construction,True,retained,[],495,exact_isin
+NCC,Construction,True,retained,[],495,exact_isin
+NESTLEIND,Food Products,True,retained,[],495,exact_isin
+NETWEB,IT - Hardware,True,retained,[],495,exact_isin
+NETWORK18,Entertainment,True,retained,[],495,exact_isin
+NEWGEN,IT - Software,True,retained,[],495,exact_isin
+NH,Healthcare Services,True,retained,[],495,exact_isin
+NHPC,Power,True,retained,[],495,exact_isin
+NIACL,Insurance,True,retained,[],495,exact_isin
+NLCINDIA,Power,True,retained,[],495,exact_isin
+NMDC,Minerals & Mining,True,retained,[],495,exact_isin
+NSLNISP,Ferrous Metals,True,retained,[],495,exact_isin
+NTPC,Power,True,retained,[],495,exact_isin
+NUVAMA,Capital Markets,True,retained,[],495,exact_normalized_company_name_or_explicit_alias
+NUVOCO,Cement & Cement Products,True,retained,[],495,exact_isin
+NYKAA,Retailing,True,retained,[],495,exact_isin
+OBEROIRLTY,Realty,True,retained,[],495,exact_isin
+OFSS,IT - Software,True,retained,[],495,exact_isin
+OIL,Oil,True,retained,[],495,exact_isin
+OLECTRA,Automobiles,True,retained,[],495,exact_isin
+ONGC,Oil,True,retained,[],495,exact_isin
+PAGEIND,Textiles & Apparels,True,retained,[],495,exact_isin
+PATANJALI,Agricultural Food & other Products,True,retained,[],495,exact_isin
+PAYTM,Financial Technology (Fintech),True,retained,[],495,exact_isin
+PCBL,Chemicals & Petrochemicals,True,retained,[],495,exact_isin
+PEL,Finance,False,quarantined,"[{""reason"": ""daily_data_unavailable""}, {""reason"": ""fewer_than_200_research_observations"", ""observations"": 0}, {""reason"": ""no_executable_terminal_price_in_last_five_sessions""}, {""reason"": ""missing_research_calendar_session_conservative_execution_quarantine"", ""dates"": [""2024-11-11"", ""2024-11-12"", ""2024-11-13"", ""2024-11-14"", ""2024-11-18"", ""2024-11-19"", ""2024-11-21"", ""2024-11-22"", ""2024-11-25"", ""2024-11-26"", ""2024-11-27"", ""2024-11-28"", ""2024-11-29"", ""2024-12-02"", ""2024-12-03"", ""2024-12-04"", ""2024-12-05"", ""2024-12-06"", ""2024-12-09"", ""2024-12-10"", ""2024-12-11"", ""2024-12-12"", ""2024-12-13"", ""2024-12-16"", ""2024-12-17"", ""2024-12-18"", ""2024-12-19"", ""2024-12-20"", ""2024-12-23"", ""2024-12-24"", ""2024-12-26"", ""2024-12-27"", ""2024-12-30"", ""2024-12-31"", ""2025-01-01"", ""2025-01-02"", ""2025-01-03"", ""2025-01-06"", ""2025-01-07"", ""2025-01-08"", ""2025-01-09"", ""2025-01-10"", ""2025-01-13"", ""2025-01-14"", ""2025-01-15"", ""2025-01-16"", ""2025-01-17"", ""2025-01-20"", ""2025-01-21"", ""2025-01-22"", ""2025-01-23"", ""2025-01-24"", ""2025-01-27"", ""2025-01-28"", ""2025-01-29"", ""2025-01-30"", ""2025-01-31"", ""2025-02-01"", ""2025-02-03"", ""2025-02-04"", ""2025-02-05"", ""2025-02-06"", ""2025-02-07"", ""2025-02-10"", ""2025-02-11"", ""2025-02-12"", ""2025-02-13"", ""2025-02-14"", ""2025-02-17"", ""2025-02-18"", ""2025-02-19"", ""2025-02-20"", ""2025-02-21"", ""2025-02-24"", ""2025-02-25"", ""2025-02-27"", ""2025-02-28"", ""2025-03-03"", ""2025-03-04"", ""2025-03-05"", ""2025-03-06"", ""2025-03-07"", ""2025-03-10"", ""2025-03-11"", ""2025-03-12"", ""2025-03-13"", ""2025-03-17"", ""2025-03-18"", ""2025-03-19"", ""2025-03-20"", ""2025-03-21"", ""2025-03-24"", ""2025-03-25"", ""2025-03-26"", ""2025-03-27"", ""2025-03-28"", ""2025-04-01"", ""2025-04-02"", ""2025-04-03"", ""2025-04-04"", ""2025-04-07"", ""2025-04-08"", ""2025-04-09"", ""2025-04-11"", ""2025-04-15"", ""2025-04-16"", ""2025-04-17"", ""2025-04-21"", ""2025-04-22"", ""2025-04-23"", ""2025-04-24"", ""2025-04-25"", ""2025-04-28"", ""2025-04-29"", ""2025-04-30"", ""2025-05-02"", ""2025-05-05"", ""2025-05-06"", ""2025-05-07"", ""2025-05-08"", ""2025-05-09"", ""2025-05-12"", ""2025-05-13"", ""2025-05-14"", ""2025-05-15"", ""2025-05-16"", ""2025-05-19"", ""2025-05-20"", ""2025-05-21"", ""2025-05-22"", ""2025-05-23"", ""2025-05-26"", ""2025-05-27"", ""2025-05-28"", ""2025-05-29"", ""2025-05-30"", ""2025-06-02"", ""2025-06-03"", ""2025-06-04"", ""2025-06-05"", ""2025-06-06"", ""2025-06-09"", ""2025-06-10"", ""2025-06-11"", ""2025-06-12"", ""2025-06-13"", ""2025-06-16"", ""2025-06-17"", ""2025-06-18"", ""2025-06-19"", ""2025-06-20"", ""2025-06-23"", ""2025-06-24"", ""2025-06-25"", ""2025-06-26"", ""2025-06-27"", ""2025-06-30"", ""2025-07-01"", ""2025-07-02"", ""2025-07-03"", ""2025-07-04"", ""2025-07-07"", ""2025-07-08"", ""2025-07-09"", ""2025-07-10"", ""2025-07-11"", ""2025-07-14"", ""2025-07-15"", ""2025-07-16"", ""2025-07-17"", ""2025-07-18"", ""2025-07-21"", ""2025-07-22"", ""2025-07-23"", ""2025-07-24"", ""2025-07-25"", ""2025-07-28"", ""2025-07-29"", ""2025-07-30"", ""2025-07-31"", ""2025-08-01"", ""2025-08-04"", ""2025-08-05"", ""2025-08-06"", ""2025-08-07"", ""2025-08-08"", ""2025-08-11"", ""2025-08-12"", ""2025-08-13"", ""2025-08-14"", ""2025-08-18"", ""2025-08-19"", ""2025-08-20"", ""2025-08-21"", ""2025-08-22"", ""2025-08-25"", ""2025-08-26"", ""2025-08-28"", ""2025-08-29"", ""2025-09-01"", ""2025-09-02"", ""2025-09-03"", ""2025-09-04"", ""2025-09-05"", ""2025-09-08"", ""2025-09-09"", ""2025-09-10"", ""2025-09-11"", ""2025-09-12"", ""2025-09-15"", ""2025-09-16"", ""2025-09-17"", ""2025-09-18"", ""2025-09-19"", ""2025-09-22"", ""2025-09-23"", ""2025-09-24"", ""2025-09-25"", ""2025-09-26"", ""2025-09-29"", ""2025-09-30"", ""2025-10-01"", ""2025-10-03"", ""2025-10-06"", ""2025-10-07"", ""2025-10-08"", ""2025-10-09"", ""2025-10-10"", ""2025-10-13"", ""2025-10-14"", ""2025-10-15"", ""2025-10-16"", ""2025-10-17"", ""2025-10-20"", ""2025-10-21"", ""2025-10-23"", ""2025-10-24"", ""2025-10-27"", ""2025-10-28"", ""2025-10-29"", ""2025-10-30"", ""2025-10-31"", ""2025-11-03"", ""2025-11-04"", ""2025-11-06"", ""2025-11-07"", ""2025-11-10"", ""2025-11-11"", ""2025-11-12"", ""2025-11-13"", ""2025-11-14"", ""2025-11-17"", ""2025-11-18"", ""2025-11-19"", ""2025-11-20"", ""2025-11-21"", ""2025-11-24"", ""2025-11-25"", ""2025-11-26"", ""2025-11-27"", ""2025-11-28"", ""2025-12-01"", ""2025-12-02"", ""2025-12-03"", ""2025-12-04"", ""2025-12-05"", ""2025-12-08"", ""2025-12-09"", ""2025-12-10"", ""2025-12-11"", ""2025-12-12"", ""2025-12-15"", ""2025-12-16"", ""2025-12-17"", ""2025-12-18"", ""2025-12-19"", ""2025-12-22"", ""2025-12-23"", ""2025-12-24"", ""2025-12-26"", ""2025-12-29"", ""2025-12-30"", ""2025-12-31"", ""2026-01-01"", ""2026-01-02"", ""2026-01-05"", ""2026-01-06"", ""2026-01-07"", ""2026-01-08"", ""2026-01-09"", ""2026-01-12"", ""2026-01-13"", ""2026-01-14"", ""2026-01-16"", ""2026-01-19"", ""2026-01-20"", ""2026-01-21"", ""2026-01-22"", ""2026-01-23"", ""2026-01-27"", ""2026-01-28"", ""2026-01-29"", ""2026-01-30"", ""2026-02-01"", ""2026-02-02"", ""2026-02-03"", ""2026-02-04"", ""2026-02-05"", ""2026-02-06"", ""2026-02-09"", ""2026-02-10"", ""2026-02-11"", ""2026-02-12"", ""2026-02-13"", ""2026-02-16"", ""2026-02-17"", ""2026-02-18"", ""2026-02-19"", ""2026-02-20"", ""2026-02-23"", ""2026-02-24"", ""2026-02-25"", ""2026-02-26"", ""2026-02-27"", ""2026-03-02"", ""2026-03-04"", ""2026-03-05"", ""2026-03-06"", ""2026-03-09"", ""2026-03-10"", ""2026-03-11"", ""2026-03-12"", ""2026-03-13"", ""2026-03-16"", ""2026-03-17"", ""2026-03-18"", ""2026-03-19"", ""2026-03-20"", ""2026-03-23"", ""2026-03-24"", ""2026-03-25"", ""2026-03-27"", ""2026-03-30"", ""2026-04-01"", ""2026-04-02"", ""2026-04-06"", ""2026-04-07"", ""2026-04-08"", ""2026-04-09"", ""2026-04-10"", ""2026-04-13"", ""2026-04-15"", ""2026-04-16"", ""2026-04-17"", ""2026-04-20"", ""2026-04-21"", ""2026-04-22"", ""2026-04-23"", ""2026-04-24"", ""2026-04-27"", ""2026-04-28"", ""2026-04-29"", ""2026-04-30"", ""2026-05-04"", ""2026-05-05"", ""2026-05-06"", ""2026-05-07"", ""2026-05-08"", ""2026-05-11"", ""2026-05-12"", ""2026-05-13"", ""2026-05-14"", ""2026-05-15"", ""2026-05-18"", ""2026-05-19"", ""2026-05-20"", ""2026-05-21"", ""2026-05-22"", ""2026-05-25"", ""2026-05-26"", ""2026-05-27"", ""2026-05-29"", ""2026-06-01"", ""2026-06-02"", ""2026-06-03"", ""2026-06-04"", ""2026-06-05"", ""2026-06-08"", ""2026-06-09"", ""2026-06-10"", ""2026-06-11"", ""2026-06-12"", ""2026-06-15"", ""2026-06-16"", ""2026-06-17"", ""2026-06-18"", ""2026-06-19"", ""2026-06-22"", ""2026-06-23"", ""2026-06-24"", ""2026-06-25"", ""2026-06-29"", ""2026-06-30"", ""2026-07-01"", ""2026-07-02"", ""2026-07-03"", ""2026-07-06"", ""2026-07-07"", ""2026-07-08"", ""2026-07-09"", ""2026-07-10"", ""2026-07-13"", ""2026-07-14"", ""2026-07-15"", ""2026-07-16"", ""2026-07-17"", ""2026-07-20"", ""2026-07-21"", ""2026-07-22"", ""2026-07-23"", ""2026-07-24"", ""2026-07-27"", ""2026-07-28"", ""2026-07-29"", ""2026-07-30"", ""2026-07-31"", ""2026-08-03"", ""2026-08-04"", ""2026-08-05"", ""2026-08-06"", ""2026-08-07"", ""2026-08-10"", ""2026-08-11"", ""2026-08-12"", ""2026-08-13"", ""2026-08-14"", ""2026-08-17"", ""2026-08-18"", ""2026-08-19"", ""2026-08-20"", ""2026-08-21"", ""2026-08-24"", ""2026-08-25"", ""2026-08-26"", ""2026-08-27"", ""2026-08-28"", ""2026-08-31"", ""2026-09-01"", ""2026-09-02"", ""2026-09-03"", ""2026-09-04"", ""2026-09-07"", ""2026-09-08"", ""2026-09-09"", ""2026-09-10"", ""2026-09-11"", ""2026-09-15"", ""2026-09-16"", ""2026-09-17"", ""2026-09-18"", ""2026-09-21"", ""2026-09-22"", ""2026-09-23"", ""2026-09-24"", ""2026-09-25"", ""2026-09-28"", ""2026-09-29"", ""2026-09-30"", ""2026-10-01"", ""2026-10-05"", ""2026-10-06"", ""2026-10-07"", ""2026-10-08"", ""2026-10-09"", ""2026-10-12"", ""2026-10-13"", ""2026-10-14"", ""2026-10-15"", ""2026-10-16"", ""2026-10-19"", ""2026-10-21"", ""2026-10-22"", ""2026-10-23"", ""2026-10-26"", ""2026-10-27"", ""2026-10-28"", ""2026-10-29"", ""2026-10-30"", ""2026-11-02"", ""2026-11-03"", ""2026-11-04"", ""2026-11-05"", ""2026-11-06"", ""2026-11-08"", ""2026-11-09""]}]",0,historical_isin_only_unresolved_current_listing
+PERSISTENT,IT - Software,True,retained,[],495,exact_isin
+PETRONET,Gas,True,retained,[],495,exact_isin
+PFC,Finance,True,retained,[],495,exact_isin
+PFIZER,Pharmaceuticals & Biotechnology,True,retained,[],495,exact_isin
+PGHH,Personal Products,True,retained,[],495,exact_isin
+PHOENIXLTD,Realty,True,retained,[],495,exact_isin
+PIDILITIND,Chemicals & Petrochemicals,True,retained,[],495,exact_isin
+PIIND,Fertilizers & Agrochemicals,True,retained,[],495,exact_isin
+PNB,Banks,True,retained,[],495,exact_isin
+PNBHOUSING,Finance,True,retained,[],495,exact_isin
+PNCINFRA,Construction,True,retained,[],495,exact_isin
+POLICYBZR,Financial Technology (Fintech),True,retained,[],495,exact_isin
+POLYCAB,Industrial Products,True,retained,[],495,exact_isin
+POLYMED,Healthcare Equipment & Supplies,True,retained,[],495,exact_isin
+POONAWALLA,Finance,True,retained,[],495,exact_isin
+POWERGRID,Power,True,retained,[],495,exact_isin
+POWERINDIA,Electrical Equipment,True,retained,[],495,exact_isin
+PPLPHARMA,Pharmaceuticals & Biotechnology,True,retained,[],495,exact_isin
+PRAJIND,Industrial Manufacturing,True,retained,[],495,exact_isin
+PRESTIGE,Realty,True,retained,[],495,exact_isin
+PTCIL,Industrial Products,True,retained,[],495,exact_isin
+PVRINOX,Entertainment,True,retained,[],495,exact_isin
+QUESS,Commercial Services & Supplies,False,quarantined,"[{""date"": ""2025-04-15"", ""kind"": ""unresolved_capital_action"", ""factor"": 1.0, ""dividend"": 0.0, ""subject"": ""Demerger""}, {""reason"": ""unexplained_overnight_gap_above_30pct"", ""dates"": {""2025-04-15"": -0.5305009092411969}}]",495,exact_isin
+RADICO,Beverages,True,retained,[],495,exact_isin
+RAILTEL,Telecom - Services,True,retained,[],495,exact_isin
+RAINBOW,Healthcare Services,True,retained,[],495,exact_isin
+RAJESHEXPO,Consumer Durables,True,retained,[],495,exact_isin
+RAMCOCEM,Cement & Cement Products,True,retained,[],495,exact_isin
+RATNAMANI,Industrial Products,True,retained,[],495,exact_isin
+RAYMOND,Realty,False,quarantined,"[{""date"": ""2025-05-14"", ""kind"": ""unresolved_capital_action"", ""factor"": 1.0, ""dividend"": 0.0, ""subject"": ""Demerger""}, {""reason"": ""unexplained_overnight_gap_above_30pct"", ""dates"": {""2025-05-14"": -0.6643866266061498}}]",495,exact_isin
+RBLBANK,Banks,True,retained,[],495,exact_isin
+RCF,Fertilizers & Agrochemicals,True,retained,[],495,exact_isin
+RECLTD,Finance,True,retained,[],495,exact_isin
+REDINGTON,Commercial Services & Supplies,True,retained,[],495,exact_isin
+RELIANCE,Petroleum Products,True,retained,[],495,exact_isin
+RENUKA,Agricultural Food & other Products,True,retained,[],495,exact_isin
+RHIM,Industrial Products,True,retained,[],495,exact_isin
+RITES,Construction,True,retained,[],495,exact_isin
+RKFORGE,Auto Components,True,retained,[],495,exact_isin
+ROUTE,Telecom - Services,True,retained,[],495,exact_isin
+RRKABEL,Industrial Products,True,retained,[],495,exact_isin
+RTNINDIA,Retailing,True,retained,[],495,exact_isin
+RVNL,Construction,True,retained,[],495,exact_isin
+SAIL,Ferrous Metals,True,retained,[],495,exact_isin
+SAMMAANCAP,Finance,True,retained,[],495,exact_isin
+SANOFI,Pharmaceuticals & Biotechnology,True,retained,[],495,exact_isin
+SAPPHIRE,Leisure Services,True,retained,[],495,exact_isin
+SAREGAMA,Entertainment,True,retained,[],495,exact_isin
+SBFC,Finance,True,retained,[],495,exact_isin
+SBICARD,Finance,True,retained,[],495,exact_isin
+SBILIFE,Insurance,True,retained,[],495,exact_isin
+SBIN,Banks,True,retained,[],495,exact_isin
+SCHAEFFLER,Auto Components,True,retained,[],495,exact_isin
+SCHNEIDER,Electrical Equipment,True,retained,[],495,exact_isin
+SCI,Transport Services,True,retained,[],495,exact_isin
+SHREECEM,Cement & Cement Products,True,retained,[],495,exact_isin
+SHRIRAMFIN,Finance,True,retained,[],495,exact_normalized_company_name_or_explicit_alias
+SHYAMMETL,Industrial Products,True,retained,[],495,exact_isin
+SIEMENS,Electrical Equipment,False,quarantined,"[{""date"": ""2025-04-07"", ""kind"": ""unresolved_capital_action"", ""factor"": 1.0, ""dividend"": 0.0, ""subject"": ""Demerger""}, {""reason"": ""unexplained_overnight_gap_above_30pct"", ""dates"": {""2025-04-07"": -0.5028560413136776}}]",495,exact_isin
+SIGNATURE,Realty,True,retained,[],495,exact_isin
+SJVN,Power,True,retained,[],495,exact_isin
+SKFINDIA,Industrial Products,False,quarantined,"[{""date"": ""2025-10-15"", ""kind"": ""unresolved_capital_action"", ""factor"": 1.0, ""dividend"": 0.0, ""subject"": ""Demerger""}, {""reason"": ""unexplained_overnight_gap_above_30pct"", ""dates"": {""2025-10-15"": -0.5407715038734925}}]",495,exact_isin
+SOBHA,Realty,True,retained,[],495,exact_isin
+SOLARINDS,Chemicals & Petrochemicals,True,retained,[],495,exact_isin
+SONACOMS,Auto Components,True,retained,[],495,exact_isin
+SONATSOFTW,IT - Software,True,retained,[],495,exact_isin
+SPARC,Pharmaceuticals & Biotechnology,True,retained,[],495,exact_isin
+SRF,Chemicals & Petrochemicals,True,retained,[],495,exact_isin
+STARHEALTH,Insurance,True,retained,[],495,exact_isin
+SUMICHEM,Fertilizers & Agrochemicals,True,retained,[],495,exact_isin
+SUNDARMFIN,Finance,True,retained,[],495,exact_isin
+SUNDRMFAST,Auto Components,True,retained,[],495,exact_isin
+SUNPHARMA,Pharmaceuticals & Biotechnology,True,retained,[],495,exact_isin
+SUNTV,Entertainment,True,retained,[],495,exact_isin
+SUPREMEIND,Industrial Products,True,retained,[],495,exact_isin
+SUZLON,Electrical Equipment,True,retained,[],495,exact_isin
+SWANCORP,Diversified,True,retained,[],495,exact_isin
+SWSOLAR,Construction,True,retained,[],495,exact_isin
+SYNGENE,Healthcare Services,True,retained,[],495,exact_isin
+SYRMA,Industrial Manufacturing,True,retained,[],495,exact_isin
+TANLA,IT - Software,True,retained,[],495,exact_isin
+TATACHEM,Chemicals & Petrochemicals,True,retained,[],495,exact_isin
+TATACOMM,Telecom - Services,True,retained,[],495,exact_isin
+TATACONSUM,Agricultural Food & other Products,True,retained,[],495,exact_isin
+TATAELXSI,IT - Software,True,retained,[],495,exact_isin
+TATAINVEST,Finance,True,retained,[],495,exact_normalized_company_name_or_explicit_alias
+TATAMOTORS,Automobiles,False,quarantined,"[{""date"": ""2025-10-14"", ""kind"": ""unresolved_capital_action"", ""factor"": 1.0, ""dividend"": 0.0, ""subject"": ""Demerger""}, {""reason"": ""unexplained_overnight_gap_above_30pct"", ""dates"": {""2025-10-14"": -0.3946273174423004}}]",495,exact_isin
+TATAPOWER,Power,True,retained,[],495,exact_isin
+TATASTEEL,Ferrous Metals,True,retained,[],495,exact_isin
+TATATECH,IT - Services,True,retained,[],495,exact_isin
+TBOTEK,Leisure Services,True,retained,[],495,exact_isin
+TCS,IT - Software,True,retained,[],495,exact_isin
+TECHM,IT - Software,True,retained,[],495,exact_isin
+TECHNOE,Construction,True,retained,[],495,exact_isin
+TEJASNET,Telecom -  Equipment & Accessories,True,retained,[],495,exact_isin
+THERMAX,Electrical Equipment,True,retained,[],495,exact_isin
+TIINDIA,Auto Components,True,retained,[],495,exact_isin
+TIMKEN,Industrial Products,True,retained,[],495,exact_isin
+TITAGARH,Industrial Manufacturing,True,retained,[],495,exact_isin
+TITAN,Consumer Durables,True,retained,[],495,exact_isin
+TORNTPHARM,Pharmaceuticals & Biotechnology,True,retained,[],495,exact_isin
+TORNTPOWER,Power,True,retained,[],495,exact_isin
+TRENT,Retailing,False,quarantined,"[{""date"": ""2026-06-04"", ""kind"": ""split_bonus"", ""factor"": 1.5, ""dividend"": 0.0, ""subject"": ""Bonus 1:2""}]",495,exact_isin
+TRIDENT,Textiles & Apparels,True,retained,[],495,exact_isin
+TRITURBINE,Electrical Equipment,True,retained,[],495,exact_isin
+TRIVENI,Agricultural Food & other Products,False,quarantined,"[{""date"": ""2026-07-22"", ""kind"": ""unresolved_capital_action"", ""factor"": 1.0, ""dividend"": 0.0, ""subject"": ""Demerger""}, {""reason"": ""unexplained_overnight_gap_above_30pct"", ""dates"": {""2026-07-22"": -0.38504772004241783}}]",495,exact_isin
+TTML,Telecom - Services,True,retained,[],495,exact_isin
+TVSMOTOR,Automobiles,True,retained,[],495,exact_isin
+TVSSCS,Transport Services,True,retained,[],495,exact_isin
+UBL,Beverages,True,retained,[],495,exact_isin
+UCOBANK,Banks,True,retained,[],495,exact_isin
+UJJIVANSFB,Banks,True,retained,[],495,exact_isin
+ULTRACEMCO,Cement & Cement Products,True,retained,[],495,exact_isin
+UNIONBANK,Banks,True,retained,[],495,exact_isin
+UNITDSPR,Beverages,True,retained,[],495,exact_isin
+UNOMINDA,Auto Components,True,retained,[],495,exact_isin
+UPL,Fertilizers & Agrochemicals,False,quarantined,"[{""date"": ""2024-11-26"", ""kind"": ""unresolved_capital_action"", ""factor"": 1.0, ""dividend"": 0.0, ""subject"": ""Rights 1:8 @ Premium Rs 358/-""}]",495,exact_isin
+USHAMART,Industrial Products,True,retained,[],495,exact_isin
+UTIAMC,Capital Markets,True,retained,[],495,exact_isin
+VARROC,Auto Components,True,retained,[],495,exact_isin
+VBL,Beverages,True,retained,[],495,exact_isin
+VEDL,Diversified Metals,False,quarantined,"[{""date"": ""2026-04-30"", ""kind"": ""unresolved_capital_action"", ""factor"": 1.0, ""dividend"": 0.0, ""subject"": ""Demerger""}, {""reason"": ""unexplained_overnight_gap_above_30pct"", ""dates"": {""2026-04-30"": -0.625775594622544}}]",495,exact_isin
+VGUARD,Consumer Durables,True,retained,[],495,exact_isin
+VIJAYA,Healthcare Services,True,retained,[],495,exact_isin
+VINATIORGA,Chemicals & Petrochemicals,True,retained,[],495,exact_isin
+VIPIND,Consumer Durables,True,retained,[],495,exact_isin
+VOLTAS,Consumer Durables,True,retained,[],495,exact_isin
+VTL,Textiles & Apparels,True,retained,[],495,exact_isin
+WELCORP,Industrial Products,True,retained,[],495,exact_isin
+WELSPUNLIV,Textiles & Apparels,True,retained,[],495,exact_isin
+WESTLIFE,Leisure Services,True,retained,[],495,exact_isin
+WHIRLPOOL,Consumer Durables,True,retained,[],495,exact_isin
+WIPRO,IT - Software,True,retained,[],495,exact_isin
+YESBANK,Banks,True,retained,[],495,exact_isin
+ZEEL,Entertainment,True,retained,[],495,exact_isin
+ZENSARTECH,IT - Software,True,retained,[],495,exact_isin
+ZFCVINDIA,Auto Components,True,retained,[],495,exact_isin
+ZOMATO,Retailing,True,retained,[],495,exact_isin
+ZYDUSLIFE,Pharmaceuticals & Biotechnology,True,retained,[],495,exact_isin

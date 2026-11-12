@@ -1,0 +1,18 @@
+id,evidence
+C_zone1.0,sparse development/validation sample (9/4); negative development expectancy (-0.77R); only4final trades; no search-adjusted validation support
+I_weak,sparse development/validation sample (9/3); negative development expectancy (-0.36R); negative final expectancy (-0.42R); only2final trades; no search-adjusted validation support
+A_tf120_30,negative development expectancy (-0.58R); negative final expectancy (-0.41R); only10final trades; no search-adjusted validation support
+F_tf120_30,sparse development/validation sample (10/4); negative development expectancy (-0.26R); negative final expectancy (-0.32R); only6final trades; no search-adjusted validation support
+E_tf120_30,sparse development/validation sample (9/8); only6final trades; no search-adjusted validation support
+B_exit_macd,negative development expectancy (-0.29R); negative final expectancy (-0.09R); only11final trades; no search-adjusted validation support
+G_early_base,sparse development/validation sample (4/4); negative development expectancy (-0.50R); negative validation expectancy (-0.05R); negative final expectancy (-1.00R); only1final trades; no search-adjusted validation support
+H_ema34,sparse development/validation sample (8/3); negative development expectancy (-0.19R); negative validation expectancy (-0.18R); negative final expectancy (-0.33R); only3final trades; no search-adjusted validation support
+structure_only_base,negative validation expectancy (-0.22R); negative final expectancy (-0.01R); only7final trades; no search-adjusted validation support
+G_ema20,sparse development/validation sample (9/3); negative development expectancy (-0.18R); negative validation expectancy (-0.24R); negative final expectancy (-0.42R); only2final trades; no search-adjusted validation support
+ema_only_base,sparse development/validation sample (6/3); negative development expectancy (-0.07R); negative validation expectancy (-0.33R); only5final trades; no search-adjusted validation support
+D_ema20,sparse development/validation sample (8/2); negative development expectancy (-0.33R); negative validation expectancy (-0.53R); only4final trades; no search-adjusted validation support
+macd_only_base,negative development expectancy (-0.02R); negative validation expectancy (-0.63R); only13final trades; no search-adjusted validation support
+J_ema34,sparse development/validation sample (9/5); negative development expectancy (-0.49R); negative validation expectancy (-0.76R); only2final trades; no search-adjusted validation support
+zero_cross_base,sparse development/validation sample (3/5); negative development expectancy (-0.18R); negative validation expectancy (-0.99R); negative final expectancy (-0.20R); only2final trades; no search-adjusted validation support
+D0_base,sparse development/validation sample (7/1); negative development expectancy (-0.21R); negative validation expectancy (-1.10R); only3final trades; no search-adjusted validation support
+baseline_base,sparse development/validation sample (0/0); only0final trades; no search-adjusted validation support

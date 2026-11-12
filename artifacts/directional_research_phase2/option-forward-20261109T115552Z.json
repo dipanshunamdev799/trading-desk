@@ -1,0 +1,1054 @@
+{
+  "captured_at": "2026-11-09T11:55:52.330820+00:00",
+  "schema_version": 1,
+  "market_status": {
+    "exchange": "NSE",
+    "status": "CLOSING_END",
+    "last_updated": 1794220200023
+  },
+  "underlying_quote": {
+    "NSE_INDEX:Nifty 50": {
+      "ohlc": {
+        "open": 25076.4,
+        "high": 25084.05,
+        "low": 24838.75,
+        "close": 25044.65
+      },
+      "depth": {
+        "buy": [],
+        "sell": []
+      },
+      "timestamp": "2026-11-09T17:25:51.994+05:30",
+      "instrument_token": "NSE_INDEX|Nifty 50",
+      "symbol": "NA",
+      "last_price": 25044.65,
+      "volume": null,
+      "average_price": null,
+      "oi": null,
+      "net_change": 58.25,
+      "total_buy_quantity": null,
+      "total_sell_quantity": null,
+      "lower_circuit_limit": null,
+      "upper_circuit_limit": null,
+      "last_trade_time": "1794220200000",
+      "oi_day_high": null,
+      "oi_day_low": null
+    }
+  },
+  "contract_selection_spot": 25044.65,
+  "rows": [
+    {
+      "contract": {
+        "name": "NIFTY",
+        "segment": "NSE_FO",
+        "exchange": "NSE",
+        "expiry": "2026-11-09",
+        "weekly": true,
+        "instrument_key": "NSE_FO|40039",
+        "exchange_token": "40039",
+        "trading_symbol": "NIFTY 25050 CE 09 NOV 26",
+        "tick_size": 5.0,
+        "lot_size": 65,
+        "instrument_type": "CE",
+        "freeze_quantity": 1755.0,
+        "underlying_key": "NSE_INDEX|Nifty 50",
+        "underlying_type": "INDEX",
+        "underlying_symbol": "NIFTY",
+        "strike_price": 25050.0,
+        "minimum_lot": 65
+      },
+      "bid": 0.0,
+      "ask": 0.05,
+      "bid_qty": 0,
+      "ask_qty": 1171885,
+      "quote_timestamp": "2026-11-09T17:25:52.237+05:30",
+      "last_trade_time": "1794218999727",
+      "quote_age_seconds": 0.09382,
+      "last_trade_age_seconds": 6352.60382,
+      "eligible_quote_proxy": false,
+      "rejection_reasons": [
+        "market_not_normal_open",
+        "last_trade_not_fresh",
+        "missing_or_crossed_book",
+        "insufficient_one_lot_depth"
+      ],
+      "raw_quote": {
+        "ohlc": {
+          "open": 104.9,
+          "high": 154.95,
+          "low": 0.05,
+          "close": 0.05
+        },
+        "depth": {
+          "buy": [
+            {
+              "quantity": 0,
+              "price": 0.0,
+              "orders": 0
+            },
+            {
+              "quantity": 0,
+              "price": 0.0,
+              "orders": 0
+            },
+            {
+              "quantity": 0,
+              "price": 0.0,
+              "orders": 0
+            },
+            {
+              "quantity": 0,
+              "price": 0.0,
+              "orders": 0
+            },
+            {
+              "quantity": 0,
+              "price": 0.0,
+              "orders": 0
+            }
+          ],
+          "sell": [
+            {
+              "quantity": 1171885,
+              "price": 0.05,
+              "orders": 935
+            },
+            {
+              "quantity": 404495,
+              "price": 0.1,
+              "orders": 345
+            },
+            {
+              "quantity": 106470,
+              "price": 0.15,
+              "orders": 78
+            },
+            {
+              "quantity": 8060,
+              "price": 0.2,
+              "orders": 13
+            },
+            {
+              "quantity": 4550,
+              "price": 0.25,
+              "orders": 8
+            }
+          ]
+        },
+        "timestamp": "2026-11-09T17:25:52.237+05:30",
+        "instrument_token": "NSE_FO|40039",
+        "symbol": "NIFTY26N0925050CE",
+        "last_price": 0.05,
+        "volume": 1342498300,
+        "average_price": 30.13,
+        "oi": 14379950.0,
+        "net_change": -132.9,
+        "total_buy_quantity": 0.0,
+        "total_sell_quantity": 2480465.0,
+        "lower_circuit_limit": 0.05,
+        "upper_circuit_limit": 390.2,
+        "last_trade_time": "1794218999727",
+        "oi_day_high": 18617300.0,
+        "oi_day_low": 3588455.0
+      }
+    },
+    {
+      "contract": {
+        "name": "NIFTY",
+        "segment": "NSE_FO",
+        "exchange": "NSE",
+        "expiry": "2026-11-09",
+        "weekly": true,
+        "instrument_key": "NSE_FO|40037",
+        "exchange_token": "40037",
+        "trading_symbol": "NIFTY 25000 CE 09 NOV 26",
+        "tick_size": 5.0,
+        "lot_size": 65,
+        "instrument_type": "CE",
+        "freeze_quantity": 1755.0,
+        "underlying_key": "NSE_INDEX|Nifty 50",
+        "underlying_type": "INDEX",
+        "underlying_symbol": "NIFTY",
+        "strike_price": 25000.0,
+        "minimum_lot": 65
+      },
+      "bid": 44.5,
+      "ask": 44.65,
+      "bid_qty": 5424120,
+      "ask_qty": 780,
+      "quote_timestamp": "2026-11-09T17:25:52.237+05:30",
+      "last_trade_time": "1794218999896",
+      "quote_age_seconds": 0.09382,
+      "last_trade_age_seconds": 6352.43482,
+      "eligible_quote_proxy": false,
+      "rejection_reasons": [
+        "market_not_normal_open",
+        "last_trade_not_fresh"
+      ],
+      "raw_quote": {
+        "ohlc": {
+          "open": 126.6,
+          "high": 184.45,
+          "low": 14.85,
+          "close": 44.5
+        },
+        "depth": {
+          "buy": [
+            {
+              "quantity": 5424120,
+              "price": 44.5,
+              "orders": 3249
+            },
+            {
+              "quantity": 793585,
+              "price": 44.45,
+              "orders": 476
+            },
+            {
+              "quantity": 846495,
+              "price": 44.4,
+              "orders": 503
+            },
+            {
+              "quantity": 195650,
+              "price": 44.35,
+              "orders": 117
+            },
+            {
+              "quantity": 166270,
+              "price": 44.3,
+              "orders": 106
+            }
+          ],
+          "sell": [
+            {
+              "quantity": 780,
+              "price": 44.65,
+              "orders": 2
+            },
+            {
+              "quantity": 3618355,
+              "price": 44.7,
+              "orders": 3751
+            },
+            {
+              "quantity": 30940,
+              "price": 44.75,
+              "orders": 26
+            },
+            {
+              "quantity": 40040,
+              "price": 44.8,
+              "orders": 35
+            },
+            {
+              "quantity": 13585,
+              "price": 44.85,
+              "orders": 12
+            }
+          ]
+        },
+        "timestamp": "2026-11-09T17:25:52.237+05:30",
+        "instrument_token": "NSE_FO|40037",
+        "symbol": "NIFTY26N0925000CE",
+        "last_price": 44.5,
+        "volume": 1989770120,
+        "average_price": 49.88,
+        "oi": 9669855.0,
+        "net_change": -105.45,
+        "total_buy_quantity": 10666825.0,
+        "total_sell_quantity": 4380090.0,
+        "lower_circuit_limit": 0.05,
+        "upper_circuit_limit": 466.15,
+        "last_trade_time": "1794218999896",
+        "oi_day_high": 38290265.0,
+        "oi_day_low": 9669855.0
+      }
+    },
+    {
+      "contract": {
+        "name": "NIFTY",
+        "segment": "NSE_FO",
+        "exchange": "NSE",
+        "expiry": "2026-11-09",
+        "weekly": true,
+        "instrument_key": "NSE_FO|40040",
+        "exchange_token": "40040",
+        "trading_symbol": "NIFTY 25050 PE 09 NOV 26",
+        "tick_size": 5.0,
+        "lot_size": 65,
+        "instrument_type": "PE",
+        "freeze_quantity": 1755.0,
+        "underlying_key": "NSE_INDEX|Nifty 50",
+        "underlying_type": "INDEX",
+        "underlying_symbol": "NIFTY",
+        "strike_price": 25050.0,
+        "minimum_lot": 65
+      },
+      "bid": 5.3,
+      "ask": 5.35,
+      "bid_qty": 6566495,
+      "ask_qty": 1369680,
+      "quote_timestamp": "2026-11-09T17:25:52.237+05:30",
+      "last_trade_time": "1794218999780",
+      "quote_age_seconds": 0.09382,
+      "last_trade_age_seconds": 6352.55082,
+      "eligible_quote_proxy": false,
+      "rejection_reasons": [
+        "market_not_normal_open",
+        "last_trade_not_fresh"
+      ],
+      "raw_quote": {
+        "ohlc": {
+          "open": 115.55,
+          "high": 241.95,
+          "low": 2.05,
+          "close": 5.3
+        },
+        "depth": {
+          "buy": [
+            {
+              "quantity": 6566495,
+              "price": 5.3,
+              "orders": 3802
+            },
+            {
+              "quantity": 17813380,
+              "price": 5.25,
+              "orders": 10182
+            },
+            {
+              "quantity": 1068210,
+              "price": 5.2,
+              "orders": 642
+            },
+            {
+              "quantity": 325065,
+              "price": 5.15,
+              "orders": 239
+            },
+            {
+              "quantity": 42705,
+              "price": 5.1,
+              "orders": 29
+            }
+          ],
+          "sell": [
+            {
+              "quantity": 1369680,
+              "price": 5.35,
+              "orders": 838
+            },
+            {
+              "quantity": 25805,
+              "price": 5.4,
+              "orders": 37
+            },
+            {
+              "quantity": 9945,
+              "price": 5.45,
+              "orders": 14
+            },
+            {
+              "quantity": 13000,
+              "price": 5.5,
+              "orders": 17
+            },
+            {
+              "quantity": 1105,
+              "price": 5.55,
+              "orders": 8
+            }
+          ]
+        },
+        "timestamp": "2026-11-09T17:25:52.237+05:30",
+        "instrument_token": "NSE_FO|40040",
+        "symbol": "NIFTY26N0925050PE",
+        "last_price": 5.3,
+        "volume": 459164485,
+        "average_price": 77.48,
+        "oi": 7242105.0,
+        "net_change": -157.65,
+        "total_buy_quantity": 27495325.0,
+        "total_sell_quantity": 1615120.0,
+        "lower_circuit_limit": 0.05,
+        "upper_circuit_limit": 879.9,
+        "last_trade_time": "1794218999780",
+        "oi_day_high": 9802065.0,
+        "oi_day_low": 1357850.0
+      }
+    },
+    {
+      "contract": {
+        "name": "NIFTY",
+        "segment": "NSE_FO",
+        "exchange": "NSE",
+        "expiry": "2026-11-09",
+        "weekly": true,
+        "instrument_key": "NSE_FO|40042",
+        "exchange_token": "40042",
+        "trading_symbol": "NIFTY 25100 PE 09 NOV 26",
+        "tick_size": 5.0,
+        "lot_size": 65,
+        "instrument_type": "PE",
+        "freeze_quantity": 1755.0,
+        "underlying_key": "NSE_INDEX|Nifty 50",
+        "underlying_type": "INDEX",
+        "underlying_symbol": "NIFTY",
+        "strike_price": 25100.0,
+        "minimum_lot": 65
+      },
+      "bid": 55.2,
+      "ask": 55.4,
+      "bid_qty": 255840,
+      "ask_qty": 96395,
+      "quote_timestamp": "2026-11-09T17:25:52.237+05:30",
+      "last_trade_time": "1794218999915",
+      "quote_age_seconds": 0.09382,
+      "last_trade_age_seconds": 6352.41582,
+      "eligible_quote_proxy": false,
+      "rejection_reasons": [
+        "market_not_normal_open",
+        "last_trade_not_fresh"
+      ],
+      "raw_quote": {
+        "ohlc": {
+          "open": 146.8,
+          "high": 288.0,
+          "low": 26.0,
+          "close": 55.2
+        },
+        "depth": {
+          "buy": [
+            {
+              "quantity": 255840,
+              "price": 55.2,
+              "orders": 154
+            },
+            {
+              "quantity": 1630070,
+              "price": 55.15,
+              "orders": 1364
+            },
+            {
+              "quantity": 522730,
+              "price": 55.1,
+              "orders": 315
+            },
+            {
+              "quantity": 1495,
+              "price": 55.05,
+              "orders": 4
+            },
+            {
+              "quantity": 178360,
+              "price": 55.0,
+              "orders": 113
+            }
+          ],
+          "sell": [
+            {
+              "quantity": 96395,
+              "price": 55.4,
+              "orders": 67
+            },
+            {
+              "quantity": 7995,
+              "price": 55.45,
+              "orders": 9
+            },
+            {
+              "quantity": 14885,
+              "price": 55.5,
+              "orders": 17
+            },
+            {
+              "quantity": 23400,
+              "price": 55.55,
+              "orders": 20
+            },
+            {
+              "quantity": 585,
+              "price": 55.6,
+              "orders": 7
+            }
+          ]
+        },
+        "timestamp": "2026-11-09T17:25:52.237+05:30",
+        "instrument_token": "NSE_FO|40042",
+        "symbol": "NIFTY26N0925100PE",
+        "last_price": 55.2,
+        "volume": 244597340,
+        "average_price": 136.11,
+        "oi": 2104505.0,
+        "net_change": -136.0,
+        "total_buy_quantity": 6556095.0,
+        "total_sell_quantity": 199615.0,
+        "lower_circuit_limit": 0.05,
+        "upper_circuit_limit": 956.2,
+        "last_trade_time": "1794218999915",
+        "oi_day_high": 4290390.0,
+        "oi_day_low": 1652495.0
+      }
+    },
+    {
+      "contract": {
+        "name": "NIFTY",
+        "segment": "NSE_FO",
+        "exchange": "NSE",
+        "expiry": "2026-11-23",
+        "weekly": false,
+        "instrument_key": "NSE_FO|64441",
+        "exchange_token": "64441",
+        "trading_symbol": "NIFTY 25050 CE 23 NOV 26",
+        "tick_size": 5.0,
+        "lot_size": 65,
+        "instrument_type": "CE",
+        "freeze_quantity": 1755.0,
+        "underlying_key": "NSE_INDEX|Nifty 50",
+        "underlying_type": "INDEX",
+        "underlying_symbol": "NIFTY",
+        "strike_price": 25050.0,
+        "minimum_lot": 65
+      },
+      "bid": 300.65,
+      "ask": 304.15,
+      "bid_qty": 65,
+      "ask_qty": 65,
+      "quote_timestamp": "2026-11-09T17:25:52.237+05:30",
+      "last_trade_time": "1794218995830",
+      "quote_age_seconds": 0.09382,
+      "last_trade_age_seconds": 6356.50082,
+      "eligible_quote_proxy": false,
+      "rejection_reasons": [
+        "market_not_normal_open",
+        "last_trade_not_fresh"
+      ],
+      "raw_quote": {
+        "ohlc": {
+          "open": 332.0,
+          "high": 356.75,
+          "low": 213.2,
+          "close": 301.7
+        },
+        "depth": {
+          "buy": [
+            {
+              "quantity": 65,
+              "price": 300.65,
+              "orders": 1
+            },
+            {
+              "quantity": 65,
+              "price": 300.6,
+              "orders": 1
+            },
+            {
+              "quantity": 4095,
+              "price": 300.0,
+              "orders": 6
+            },
+            {
+              "quantity": 390,
+              "price": 299.85,
+              "orders": 1
+            },
+            {
+              "quantity": 455,
+              "price": 298.2,
+              "orders": 1
+            }
+          ],
+          "sell": [
+            {
+              "quantity": 65,
+              "price": 304.15,
+              "orders": 1
+            },
+            {
+              "quantity": 65,
+              "price": 305.85,
+              "orders": 1
+            },
+            {
+              "quantity": 390,
+              "price": 305.9,
+              "orders": 1
+            },
+            {
+              "quantity": 65,
+              "price": 305.95,
+              "orders": 1
+            },
+            {
+              "quantity": 390,
+              "price": 306.0,
+              "orders": 2
+            }
+          ]
+        },
+        "timestamp": "2026-11-09T17:25:52.237+05:30",
+        "instrument_token": "NSE_FO|64441",
+        "symbol": "NIFTY26NOV25050CE",
+        "last_price": 301.7,
+        "volume": 734370,
+        "average_price": 279.66,
+        "oi": 129090.0,
+        "net_change": -22.75,
+        "total_buy_quantity": 36400.0,
+        "total_sell_quantity": 26000.0,
+        "lower_circuit_limit": 0.05,
+        "upper_circuit_limit": 655.65,
+        "last_trade_time": "1794218995830",
+        "oi_day_high": 168805.0,
+        "oi_day_low": 121680.0
+      }
+    },
+    {
+      "contract": {
+        "name": "NIFTY",
+        "segment": "NSE_FO",
+        "exchange": "NSE",
+        "expiry": "2026-11-23",
+        "weekly": false,
+        "instrument_key": "NSE_FO|64439",
+        "exchange_token": "64439",
+        "trading_symbol": "NIFTY 25000 CE 23 NOV 26",
+        "tick_size": 5.0,
+        "lot_size": 65,
+        "instrument_type": "CE",
+        "freeze_quantity": 1755.0,
+        "underlying_key": "NSE_INDEX|Nifty 50",
+        "underlying_type": "INDEX",
+        "underlying_symbol": "NIFTY",
+        "strike_price": 25000.0,
+        "minimum_lot": 65
+      },
+      "bid": 325.45,
+      "ask": 327.5,
+      "bid_qty": 195,
+      "ask_qty": 910,
+      "quote_timestamp": "2026-11-09T17:25:52.237+05:30",
+      "last_trade_time": "1794218998010",
+      "quote_age_seconds": 0.09382,
+      "last_trade_age_seconds": 6354.32082,
+      "eligible_quote_proxy": false,
+      "rejection_reasons": [
+        "market_not_normal_open",
+        "last_trade_not_fresh"
+      ],
+      "raw_quote": {
+        "ohlc": {
+          "open": 332.55,
+          "high": 379.9,
+          "low": 231.15,
+          "close": 327.0
+        },
+        "depth": {
+          "buy": [
+            {
+              "quantity": 195,
+              "price": 325.45,
+              "orders": 1
+            },
+            {
+              "quantity": 65,
+              "price": 325.05,
+              "orders": 1
+            },
+            {
+              "quantity": 585,
+              "price": 325.0,
+              "orders": 4
+            },
+            {
+              "quantity": 390,
+              "price": 324.4,
+              "orders": 1
+            },
+            {
+              "quantity": 195,
+              "price": 324.15,
+              "orders": 1
+            }
+          ],
+          "sell": [
+            {
+              "quantity": 910,
+              "price": 327.5,
+              "orders": 3
+            },
+            {
+              "quantity": 455,
+              "price": 328.0,
+              "orders": 3
+            },
+            {
+              "quantity": 65,
+              "price": 328.45,
+              "orders": 1
+            },
+            {
+              "quantity": 130,
+              "price": 328.7,
+              "orders": 1
+            },
+            {
+              "quantity": 65,
+              "price": 329.0,
+              "orders": 1
+            }
+          ]
+        },
+        "timestamp": "2026-11-09T17:25:52.237+05:30",
+        "instrument_token": "NSE_FO|64439",
+        "symbol": "NIFTY26NOV25000CE",
+        "last_price": 327.0,
+        "volume": 14114945,
+        "average_price": 298.41,
+        "oi": 4879875.0,
+        "net_change": -21.4,
+        "total_buy_quantity": 114010.0,
+        "total_sell_quantity": 80535.0,
+        "lower_circuit_limit": 0.05,
+        "upper_circuit_limit": 695.05,
+        "last_trade_time": "1794218998010",
+        "oi_day_high": 5595200.0,
+        "oi_day_low": 4742205.0
+      }
+    },
+    {
+      "contract": {
+        "name": "NIFTY",
+        "segment": "NSE_FO",
+        "exchange": "NSE",
+        "expiry": "2026-11-23",
+        "weekly": false,
+        "instrument_key": "NSE_FO|64442",
+        "exchange_token": "64442",
+        "trading_symbol": "NIFTY 25050 PE 23 NOV 26",
+        "tick_size": 5.0,
+        "lot_size": 65,
+        "instrument_type": "PE",
+        "freeze_quantity": 1755.0,
+        "underlying_key": "NSE_INDEX|Nifty 50",
+        "underlying_type": "INDEX",
+        "underlying_symbol": "NIFTY",
+        "strike_price": 25050.0,
+        "minimum_lot": 65
+      },
+      "bid": 326.5,
+      "ask": 327.0,
+      "bid_qty": 65,
+      "ask_qty": 260,
+      "quote_timestamp": "2026-11-09T17:25:52.237+05:30",
+      "last_trade_time": "1794218995779",
+      "quote_age_seconds": 0.09382,
+      "last_trade_age_seconds": 6356.55182,
+      "eligible_quote_proxy": false,
+      "rejection_reasons": [
+        "market_not_normal_open",
+        "last_trade_not_fresh"
+      ],
+      "raw_quote": {
+        "ohlc": {
+          "open": 325.1,
+          "high": 426.65,
+          "low": 300.75,
+          "close": 326.2
+        },
+        "depth": {
+          "buy": [
+            {
+              "quantity": 65,
+              "price": 326.5,
+              "orders": 1
+            },
+            {
+              "quantity": 65,
+              "price": 322.25,
+              "orders": 1
+            },
+            {
+              "quantity": 130,
+              "price": 322.1,
+              "orders": 2
+            },
+            {
+              "quantity": 65,
+              "price": 322.05,
+              "orders": 1
+            },
+            {
+              "quantity": 65,
+              "price": 321.85,
+              "orders": 1
+            }
+          ],
+          "sell": [
+            {
+              "quantity": 260,
+              "price": 327.0,
+              "orders": 1
+            },
+            {
+              "quantity": 65,
+              "price": 328.15,
+              "orders": 1
+            },
+            {
+              "quantity": 65,
+              "price": 329.75,
+              "orders": 1
+            },
+            {
+              "quantity": 975,
+              "price": 329.8,
+              "orders": 1
+            },
+            {
+              "quantity": 65,
+              "price": 329.95,
+              "orders": 1
+            }
+          ]
+        },
+        "timestamp": "2026-11-09T17:25:52.237+05:30",
+        "instrument_token": "NSE_FO|64442",
+        "symbol": "NIFTY26NOV25050PE",
+        "last_price": 326.2,
+        "volume": 243425,
+        "average_price": 359.42,
+        "oi": 72800.0,
+        "net_change": -24.0,
+        "total_buy_quantity": 12090.0,
+        "total_sell_quantity": 12805.0,
+        "lower_circuit_limit": 29.3,
+        "upper_circuit_limit": 879.85,
+        "last_trade_time": "1794218995779",
+        "oi_day_high": 72800.0,
+        "oi_day_low": 53105.0
+      }
+    },
+    {
+      "contract": {
+        "name": "NIFTY",
+        "segment": "NSE_FO",
+        "exchange": "NSE",
+        "expiry": "2026-11-23",
+        "weekly": false,
+        "instrument_key": "NSE_FO|64444",
+        "exchange_token": "64444",
+        "trading_symbol": "NIFTY 25100 PE 23 NOV 26",
+        "tick_size": 5.0,
+        "lot_size": 65,
+        "instrument_type": "PE",
+        "freeze_quantity": 1755.0,
+        "underlying_key": "NSE_INDEX|Nifty 50",
+        "underlying_type": "INDEX",
+        "underlying_symbol": "NIFTY",
+        "strike_price": 25100.0,
+        "minimum_lot": 65
+      },
+      "bid": 349.15,
+      "ask": 353.1,
+      "bid_qty": 65,
+      "ask_qty": 65,
+      "quote_timestamp": "2026-11-09T17:25:52.237+05:30",
+      "last_trade_time": "1794218993007",
+      "quote_age_seconds": 0.09382,
+      "last_trade_age_seconds": 6359.32382,
+      "eligible_quote_proxy": false,
+      "rejection_reasons": [
+        "market_not_normal_open",
+        "last_trade_not_fresh"
+      ],
+      "raw_quote": {
+        "ohlc": {
+          "open": 359.9,
+          "high": 460.0,
+          "low": 322.35,
+          "close": 350.35
+        },
+        "depth": {
+          "buy": [
+            {
+              "quantity": 65,
+              "price": 349.15,
+              "orders": 1
+            },
+            {
+              "quantity": 65,
+              "price": 349.1,
+              "orders": 1
+            },
+            {
+              "quantity": 65,
+              "price": 348.75,
+              "orders": 1
+            },
+            {
+              "quantity": 65,
+              "price": 348.2,
+              "orders": 1
+            },
+            {
+              "quantity": 65,
+              "price": 348.15,
+              "orders": 1
+            }
+          ],
+          "sell": [
+            {
+              "quantity": 65,
+              "price": 353.1,
+              "orders": 1
+            },
+            {
+              "quantity": 65,
+              "price": 353.15,
+              "orders": 1
+            },
+            {
+              "quantity": 2665,
+              "price": 354.5,
+              "orders": 3
+            },
+            {
+              "quantity": 65,
+              "price": 355.0,
+              "orders": 1
+            },
+            {
+              "quantity": 390,
+              "price": 355.85,
+              "orders": 1
+            }
+          ]
+        },
+        "timestamp": "2026-11-09T17:25:52.237+05:30",
+        "instrument_token": "NSE_FO|64444",
+        "symbol": "NIFTY26NOV25100PE",
+        "last_price": 350.35,
+        "volume": 1782820,
+        "average_price": 392.18,
+        "oi": 592150.0,
+        "net_change": -24.5,
+        "total_buy_quantity": 11635.0,
+        "total_sell_quantity": 22425.0,
+        "lower_circuit_limit": 38.6,
+        "upper_circuit_limit": 925.4,
+        "last_trade_time": "1794218993007",
+        "oi_day_high": 595790.0,
+        "oi_day_low": 246220.0
+      }
+    }
+  ],
+  "greeks_response": {
+    "NSE_FO:NIFTY26N0925050PE": {
+      "last_price": 5.3,
+      "instrument_token": "NSE_FO|40040",
+      "ltq": 65,
+      "volume": 459164485,
+      "cp": 162.95,
+      "iv": 0.0,
+      "vega": 0.0,
+      "gamma": 0.0,
+      "theta": 0.0,
+      "delta": -1.0,
+      "oi": 7242105.0
+    },
+    "NSE_FO:NIFTY26NOV25100PE": {
+      "last_price": 350.35,
+      "instrument_token": "NSE_FO|64444",
+      "ltq": 65,
+      "volume": 1782820,
+      "cp": 374.85,
+      "iv": 0.159912109375,
+      "vega": 19.4935,
+      "gamma": 0.0005,
+      "theta": -11.1385,
+      "delta": -0.5303,
+      "oi": 592150.0
+    },
+    "NSE_FO:NIFTY26NOV25050CE": {
+      "last_price": 301.7,
+      "instrument_token": "NSE_FO|64441",
+      "ltq": 65,
+      "volume": 734370,
+      "cp": 324.45,
+      "iv": 0.1598358154296875,
+      "vega": 19.5485,
+      "gamma": 0.0005,
+      "theta": -11.1646,
+      "delta": 0.495,
+      "oi": 129090.0
+    },
+    "NSE_FO:NIFTY26N0925100PE": {
+      "last_price": 55.2,
+      "instrument_token": "NSE_FO|40042",
+      "ltq": 195,
+      "volume": 244597340,
+      "cp": 191.2,
+      "iv": 0.0,
+      "vega": 0.0,
+      "gamma": 0.0,
+      "theta": 0.0,
+      "delta": -1.0,
+      "oi": 2104505.0
+    },
+    "NSE_FO:NIFTY26N0925000CE": {
+      "last_price": 44.5,
+      "instrument_token": "NSE_FO|40037",
+      "ltq": 65,
+      "volume": 1989770120,
+      "cp": 149.95,
+      "iv": 3.75,
+      "vega": 0.0027,
+      "gamma": 0.0022,
+      "theta": -26381.6072,
+      "delta": 0.9806,
+      "oi": 9669855.0
+    },
+    "NSE_FO:NIFTY26N0925050CE": {
+      "last_price": 0.05,
+      "instrument_token": "NSE_FO|40039",
+      "ltq": 260,
+      "volume": 1342498300,
+      "cp": 132.95,
+      "iv": 0.625,
+      "vega": 0.0072,
+      "gamma": 0.0349,
+      "theta": -11727.8624,
+      "delta": 0.0642,
+      "oi": 14379950.0
+    },
+    "NSE_FO:NIFTY26NOV25000CE": {
+      "last_price": 327.0,
+      "instrument_token": "NSE_FO|64439",
+      "ltq": 65,
+      "volume": 14114945,
+      "cp": 348.4,
+      "iv": 0.16010284423828125,
+      "vega": 19.5242,
+      "gamma": 0.0005,
+      "theta": -11.1694,
+      "delta": 0.5205,
+      "oi": 4879875.0
+    },
+    "NSE_FO:NIFTY26NOV25050PE": {
+      "last_price": 326.2,
+      "instrument_token": "NSE_FO|64442",
+      "ltq": 65,
+      "volume": 243425,
+      "cp": 350.2,
+      "iv": 0.16109466552734375,
+      "vega": 19.5485,
+      "gamma": 0.0005,
+      "theta": -11.2526,
+      "delta": -0.5048,
+      "oi": 72800.0
+    }
+  },
+  "limitations": "HTTP quote timestamp may be response time; last trade age is a conservative freshness proxy, not a verified book event timestamp. No signal/order/fill is implied."
+}

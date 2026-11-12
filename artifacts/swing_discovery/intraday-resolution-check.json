@@ -1,0 +1,509 @@
+{
+  "status": "complete",
+  "frozen_finalists_sha256": "bb8d1a3d185c88a0cc7eed5ebbf51d6290f5395263e672761ff64fbd93da104f",
+  "preselected_ids": [
+    "macd_below_zero_9975e2d7b57f",
+    "ppo_below_zero_135f863def60",
+    "hybrid_trend_macd_support_d59dc33c20a4",
+    "support_sweep_87aaa5fb66d0",
+    "ppo_cross_23d6bd14d7f1"
+  ],
+  "stages": [
+    "final",
+    "two_year"
+  ],
+  "slippage_bps": 5.0,
+  "cost_multiplier": 1.0,
+  "timestamp_semantics": "Provider five-minute candle START in Asia/Kolkata. An intrabar hit is localized to this bar, not claimed to occur at its start.",
+  "original_cached_starting_stocks": 50,
+  "eligible_cached_stock_count": 45,
+  "eligible_cached_symbols": [
+    "ADANIPORTS",
+    "APOLLOHOSP",
+    "ASIANPAINT",
+    "AXISBANK",
+    "BAJAJ-AUTO",
+    "BAJAJFINSV",
+    "BAJFINANCE",
+    "BEL",
+    "BHARTIARTL",
+    "BPCL",
+    "BRITANNIA",
+    "CIPLA",
+    "COALINDIA",
+    "DRREDDY",
+    "EICHERMOT",
+    "GRASIM",
+    "HCLTECH",
+    "HDFCBANK",
+    "HDFCLIFE",
+    "HEROMOTOCO",
+    "HINDALCO",
+    "ICICIBANK",
+    "INDUSINDBK",
+    "INFY",
+    "JSWSTEEL",
+    "KOTAKBANK",
+    "LT",
+    "M&M",
+    "MARUTI",
+    "NESTLEIND",
+    "NTPC",
+    "ONGC",
+    "POWERGRID",
+    "RELIANCE",
+    "SBILIFE",
+    "SBIN",
+    "SHRIRAMFIN",
+    "SUNPHARMA",
+    "TATACONSUM",
+    "TATASTEEL",
+    "TCS",
+    "TECHM",
+    "TITAN",
+    "ULTRACEMCO",
+    "WIPRO"
+  ],
+  "stock_load_rejections": {},
+  "journal_scope_counts": {
+    "macd_below_zero_9975e2d7b57f|final|all_journal_trades": 452,
+    "macd_below_zero_9975e2d7b57f|final|outside_original_cached_eligible_cohort": 410,
+    "macd_below_zero_9975e2d7b57f|two_year|all_journal_trades": 1467,
+    "macd_below_zero_9975e2d7b57f|two_year|outside_original_cached_eligible_cohort": 1309,
+    "ppo_below_zero_135f863def60|final|all_journal_trades": 455,
+    "ppo_below_zero_135f863def60|final|outside_original_cached_eligible_cohort": 411,
+    "ppo_below_zero_135f863def60|two_year|all_journal_trades": 1473,
+    "ppo_below_zero_135f863def60|two_year|outside_original_cached_eligible_cohort": 1312,
+    "hybrid_trend_macd_support_d59dc33c20a4|final|all_journal_trades": 242,
+    "hybrid_trend_macd_support_d59dc33c20a4|final|outside_original_cached_eligible_cohort": 225,
+    "hybrid_trend_macd_support_d59dc33c20a4|two_year|all_journal_trades": 766,
+    "hybrid_trend_macd_support_d59dc33c20a4|two_year|outside_original_cached_eligible_cohort": 698,
+    "support_sweep_87aaa5fb66d0|final|all_journal_trades": 614,
+    "support_sweep_87aaa5fb66d0|final|outside_original_cached_eligible_cohort": 542,
+    "support_sweep_87aaa5fb66d0|two_year|all_journal_trades": 1656,
+    "support_sweep_87aaa5fb66d0|two_year|outside_original_cached_eligible_cohort": 1479,
+    "ppo_cross_23d6bd14d7f1|final|all_journal_trades": 1115,
+    "ppo_cross_23d6bd14d7f1|final|outside_original_cached_eligible_cohort": 1022,
+    "ppo_cross_23d6bd14d7f1|two_year|all_journal_trades": 3658,
+    "ppo_cross_23d6bd14d7f1|two_year|outside_original_cached_eligible_cohort": 3260
+  },
+  "summaries": [
+    {
+      "id": "hybrid_trend_macd_support_d59dc33c20a4",
+      "stage": "final",
+      "cached_cohort_trade_rows": 17,
+      "matched": 17,
+      "rejected": 0,
+      "rejection_counts": {},
+      "daily_both_hit_trades": 0,
+      "five_minute_both_hit_bars": 0,
+      "daily_net_pnl": -13616.60413383997,
+      "five_minute_net_pnl": -13616.60413383997,
+      "sum_net_pnl_difference": 0.0,
+      "mean_net_r_difference": 0.0,
+      "maximum_absolute_net_r_difference": 0.0,
+      "changed_matched_net_r_trades": 0
+    },
+    {
+      "id": "hybrid_trend_macd_support_d59dc33c20a4",
+      "stage": "two_year",
+      "cached_cohort_trade_rows": 68,
+      "matched": 68,
+      "rejected": 0,
+      "rejection_counts": {},
+      "daily_both_hit_trades": 0,
+      "five_minute_both_hit_bars": 0,
+      "daily_net_pnl": -48141.18747980308,
+      "five_minute_net_pnl": -48141.18747980308,
+      "sum_net_pnl_difference": 0.0,
+      "mean_net_r_difference": 0.0,
+      "maximum_absolute_net_r_difference": 0.0,
+      "changed_matched_net_r_trades": 0
+    },
+    {
+      "id": "macd_below_zero_9975e2d7b57f",
+      "stage": "final",
+      "cached_cohort_trade_rows": 42,
+      "matched": 42,
+      "rejected": 0,
+      "rejection_counts": {},
+      "daily_both_hit_trades": 0,
+      "five_minute_both_hit_bars": 0,
+      "daily_net_pnl": 2566.672874797873,
+      "five_minute_net_pnl": 2566.672874797873,
+      "sum_net_pnl_difference": 0.0,
+      "mean_net_r_difference": 0.0,
+      "maximum_absolute_net_r_difference": 0.0,
+      "changed_matched_net_r_trades": 0
+    },
+    {
+      "id": "macd_below_zero_9975e2d7b57f",
+      "stage": "two_year",
+      "cached_cohort_trade_rows": 158,
+      "matched": 158,
+      "rejected": 0,
+      "rejection_counts": {},
+      "daily_both_hit_trades": 0,
+      "five_minute_both_hit_bars": 0,
+      "daily_net_pnl": 126773.22769139468,
+      "five_minute_net_pnl": 126773.22769139468,
+      "sum_net_pnl_difference": -4.547473508864641e-13,
+      "mean_net_r_difference": -7.026728003956687e-19,
+      "maximum_absolute_net_r_difference": 1.1102230246251565e-16,
+      "changed_matched_net_r_trades": 0
+    },
+    {
+      "id": "ppo_below_zero_135f863def60",
+      "stage": "final",
+      "cached_cohort_trade_rows": 44,
+      "matched": 44,
+      "rejected": 0,
+      "rejection_counts": {},
+      "daily_both_hit_trades": 0,
+      "five_minute_both_hit_bars": 0,
+      "daily_net_pnl": 1418.8131750961284,
+      "five_minute_net_pnl": 1418.8131750961284,
+      "sum_net_pnl_difference": 0.0,
+      "mean_net_r_difference": 0.0,
+      "maximum_absolute_net_r_difference": 0.0,
+      "changed_matched_net_r_trades": 0
+    },
+    {
+      "id": "ppo_below_zero_135f863def60",
+      "stage": "two_year",
+      "cached_cohort_trade_rows": 161,
+      "matched": 161,
+      "rejected": 0,
+      "rejection_counts": {},
+      "daily_both_hit_trades": 0,
+      "five_minute_both_hit_bars": 0,
+      "daily_net_pnl": 126425.48913927155,
+      "five_minute_net_pnl": 126425.48913927155,
+      "sum_net_pnl_difference": -4.547473508864641e-13,
+      "mean_net_r_difference": -6.895795184007183e-19,
+      "maximum_absolute_net_r_difference": 1.1102230246251565e-16,
+      "changed_matched_net_r_trades": 0
+    },
+    {
+      "id": "ppo_cross_23d6bd14d7f1",
+      "stage": "final",
+      "cached_cohort_trade_rows": 93,
+      "matched": 93,
+      "rejected": 0,
+      "rejection_counts": {},
+      "daily_both_hit_trades": 0,
+      "five_minute_both_hit_bars": 0,
+      "daily_net_pnl": -60173.67676052436,
+      "five_minute_net_pnl": -60173.67676052436,
+      "sum_net_pnl_difference": 0.0,
+      "mean_net_r_difference": 0.0,
+      "maximum_absolute_net_r_difference": 0.0,
+      "changed_matched_net_r_trades": 0
+    },
+    {
+      "id": "ppo_cross_23d6bd14d7f1",
+      "stage": "two_year",
+      "cached_cohort_trade_rows": 398,
+      "matched": 397,
+      "rejected": 1,
+      "rejection_counts": {
+        "carried_split_or_share_basis_change": 1
+      },
+      "daily_both_hit_trades": 0,
+      "five_minute_both_hit_bars": 0,
+      "daily_net_pnl": -30426.24540176637,
+      "five_minute_net_pnl": -30426.24540176637,
+      "sum_net_pnl_difference": -1.1368683772161603e-13,
+      "mean_net_r_difference": -6.991328870435494e-20,
+      "maximum_absolute_net_r_difference": 2.7755575615628914e-17,
+      "changed_matched_net_r_trades": 0
+    },
+    {
+      "id": "support_sweep_87aaa5fb66d0",
+      "stage": "final",
+      "cached_cohort_trade_rows": 72,
+      "matched": 72,
+      "rejected": 0,
+      "rejection_counts": {},
+      "daily_both_hit_trades": 0,
+      "five_minute_both_hit_bars": 0,
+      "daily_net_pnl": -66574.63710629594,
+      "five_minute_net_pnl": -66574.63710629594,
+      "sum_net_pnl_difference": -1.4210854715202004e-14,
+      "mean_net_r_difference": -4.818676322157797e-20,
+      "maximum_absolute_net_r_difference": 3.469446951953614e-18,
+      "changed_matched_net_r_trades": 0
+    },
+    {
+      "id": "support_sweep_87aaa5fb66d0",
+      "stage": "two_year",
+      "cached_cohort_trade_rows": 177,
+      "matched": 177,
+      "rejected": 0,
+      "rejection_counts": {},
+      "daily_both_hit_trades": 0,
+      "five_minute_both_hit_bars": 0,
+      "daily_net_pnl": -82191.01342682709,
+      "five_minute_net_pnl": -82191.01342682709,
+      "sum_net_pnl_difference": -1.4210854715202004e-14,
+      "mean_net_r_difference": -1.960139520877748e-20,
+      "maximum_absolute_net_r_difference": 3.469446951953614e-18,
+      "changed_matched_net_r_trades": 0
+    }
+  ],
+  "journal_sha256": {
+    "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_discovery\\finalist_journals\\macd_below_zero_9975e2d7b57f-all_eligible_stocks-final-trades.csv": "8f571df7dff20c354a6c99ce3cbd862d2e0dbf75464ce1a95b342cc459e92b5b",
+    "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_discovery\\finalist_journals\\macd_below_zero_9975e2d7b57f-all_eligible_stocks-two_year-trades.csv": "9ecece89b0f212d70c40f29fb0c0404c070cb8ae8fb42e9e8ef4d180985b3c13",
+    "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_discovery\\finalist_journals\\ppo_below_zero_135f863def60-all_eligible_stocks-final-trades.csv": "a2e76b0e79858f5d0074b9516202ea1736d81c4686d71fa5b81dd20111df3972",
+    "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_discovery\\finalist_journals\\ppo_below_zero_135f863def60-all_eligible_stocks-two_year-trades.csv": "dff32dcd192f3b81773a8d9926158d5e232aacbb616ceca89aa2ba488bc55638",
+    "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_discovery\\finalist_journals\\hybrid_trend_macd_support_d59dc33c20a4-all_eligible_stocks-final-trades.csv": "44a64c46ead9b7265578b75b026fe3db9562171691999524f7e2a7c269635840",
+    "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_discovery\\finalist_journals\\hybrid_trend_macd_support_d59dc33c20a4-all_eligible_stocks-two_year-trades.csv": "e34afd8d9aafe815aac5a7f78b351a52820d476f5a59c1a499ceba9bd0d7fcd2",
+    "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_discovery\\finalist_journals\\support_sweep_87aaa5fb66d0-all_eligible_stocks-final-trades.csv": "f1941293d5def1d7162000995ef4c9f1d002fbeacf0fd92fc5969171b647f91e",
+    "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_discovery\\finalist_journals\\support_sweep_87aaa5fb66d0-all_eligible_stocks-two_year-trades.csv": "f92a3b2581d19ab90ea0fdb7a0788a06dfda23f2bfa42ac30f6b995f94d678c5",
+    "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_discovery\\finalist_journals\\ppo_cross_23d6bd14d7f1-all_eligible_stocks-final-trades.csv": "1e4e0252ae31ea8da25b237bb96b3c74c9a1b83bcae5871727e1dbb9e2351271",
+    "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\swing_discovery\\finalist_journals\\ppo_cross_23d6bd14d7f1-all_eligible_stocks-two_year-trades.csv": "ad79dd3272d465dd32693a46c5584e5daee3a8da7ca4d9bf7cc6f9469ad059f4"
+  },
+  "five_minute_source_sha256": {
+    "ADANIPORTS": {
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\ADANIPORTS-regular.csv": "e16e35dce37d972d197bcb76d057ec6f8da995f0068bd97e0c72d4889440e03a",
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\ADANIPORTS-special.csv": "b4d11172e2a72c847370043e3a7a16a43be6fe7593624000c423c40759efc8bf"
+    },
+    "APOLLOHOSP": {
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\APOLLOHOSP-regular.csv": "8dad5e65f890aa2e5c8038f1b79fed573c5da4cc666a7cf5ce626e936362b296",
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\APOLLOHOSP-special.csv": "ae7731615da208b2afa56e6a5468867cf4cfb699635a8252ea5f4863e520c597"
+    },
+    "ASIANPAINT": {
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\ASIANPAINT-regular.csv": "7eab1924826a3850c94b0a56fefd5e918afe38ba22e4ef202e5203a9e0b38056",
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\ASIANPAINT-special.csv": "d0893c6a02a94de1969e7dae6c9741f48590758e2ec665f4f47377e71bb4ec46"
+    },
+    "AXISBANK": {
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\AXISBANK-regular.csv": "d73587c7e02ff1eda2afa88a74f3ebda3380625359e4c5dfccc8764f3ab1fb6f",
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\AXISBANK-special.csv": "443d1166e13232679790dbcdb4b00beb13d2ef99c71486935a6f0cd68a184ce6"
+    },
+    "BAJAJ-AUTO": {
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\BAJAJ-AUTO-regular.csv": "ceeaec1648c7174d563cbb55195f6a6230e5b9345b029db6c14556dd3e94c88d",
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\BAJAJ-AUTO-special.csv": "4e61b53997c3f7b4178b8fc6a5843cf551abe87e4a539420998ac115471b3f43"
+    },
+    "BAJAJFINSV": {
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\BAJAJFINSV-regular.csv": "ed523930a6ae5ce524211801986f8f6d91133e9e651bd1dafa9e5d46d753943b",
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\BAJAJFINSV-special.csv": "36ea1151c51fed7c5aa863d2bda124ad6acb73ef86232d571988386271fad3cd"
+    },
+    "BAJFINANCE": {
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\BAJFINANCE-regular.csv": "0f0dcb5dc8406f07f9f396ad874c291313b7d532c73748fd0e0d9fab0dbdb933",
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\BAJFINANCE-special.csv": "6cffb4357b6f7a5aa4a2ad6253a505d21cb064dada159999c211fc0123225d1f"
+    },
+    "BEL": {
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\BEL-regular.csv": "d569d9500003754bdfa74ec83ce0165feb10f972dfc64ff54313bcc420b1a527",
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\BEL-special.csv": "9c1082c28232c2ffae347ef70ef8733adec1a1ddeaf9022b536babe675b8b074"
+    },
+    "BHARTIARTL": {
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\BHARTIARTL-regular.csv": "7618ddb346e92cb11c677deb21fb10e75064d7246331cd4d27a2a87ae94eb324",
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\BHARTIARTL-special.csv": "9d79a99c86f856512d4e5c7d01b2b518cde824580dbb0d098f218a7c6cde9aae"
+    },
+    "BPCL": {
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\BPCL-regular.csv": "6f2db5abd2e930eb320d4a2a528dd4d8cd2668209f496c962ee3fb17a137bbc1",
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\BPCL-special.csv": "8abc2b841ca56135f19706fafd694dc27c07b4a9dfff03b94777f3a746ed0864"
+    },
+    "BRITANNIA": {
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\BRITANNIA-regular.csv": "98342ca108f07e07c12dd80ba1ec835fcf1099d5a9d1c435aa01c0c719c12094",
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\BRITANNIA-special.csv": "36b41afcdbbc558d5d3883c96be7addec6e3e6d75a55786901959d7bf33ccef7"
+    },
+    "CIPLA": {
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\CIPLA-regular.csv": "60b41b792667ce8cb82c4c36f73c4338a1ba3fc5ad35e85a041c68d13dc40c13",
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\CIPLA-special.csv": "ba7e90b3ac5ea63d0faf447596fdd2698f440a6a67702beb4dd5966e42a04cff"
+    },
+    "COALINDIA": {
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\COALINDIA-regular.csv": "9b6dd114cd8a80d5a67385ae57e51b5ede9875d5d8266fe13d7f7187f8ad1020",
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\COALINDIA-special.csv": "5aa332c725aabd81ebbd8f30a0424c774f2e820e7741b38ccdeab2c7c0d5d8b1"
+    },
+    "DRREDDY": {
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\DRREDDY-regular.csv": "b1369ab913bc0ad4b4e3492ea028d8879c39ffc5b8d7cc3832f89bd9b967b695",
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\DRREDDY-special.csv": "7ce8ee19768e82a8e76d7087960535ee19c8060f5a882d79516715a21fdc6001"
+    },
+    "EICHERMOT": {
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\EICHERMOT-regular.csv": "77fd16351742b8772ca18ee9230d7bdab56b44e0f08810fa0e856cba7a085428",
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\EICHERMOT-special.csv": "c142fe83dddb1c65fe3dcb8df3b8bf5f9438bcdc09d99ee48919db3b41a1af5c"
+    },
+    "GRASIM": {
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\GRASIM-regular.csv": "4445523d89a37aea29dbf65ef350a512089142dfc9550e55deef7af9564e8e29",
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\GRASIM-special.csv": "4b17a4d72a0d2c6a5a96dfc44c08b0791946a00aedd345b08d62e3ec721796ea"
+    },
+    "HCLTECH": {
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\HCLTECH-regular.csv": "7d62cb412e9848b8fb755679d366837832dfca1ee5a6348c112b7871c7098634",
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\HCLTECH-special.csv": "1a89a1b03a9aafde6945b0948adcd4250326dd58a117a759f3ac3f43a9e387cf"
+    },
+    "HDFCBANK": {
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\HDFCBANK-regular.csv": "52c9e57d9d376942de7d192dc4568743b42dd4d8ffae32d0dc89473dd9606b84",
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\HDFCBANK-special.csv": "9a8821f69e99d443c44638945ba5d72c10b8259b64a31d4704e7288961b5ca48"
+    },
+    "HDFCLIFE": {
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\HDFCLIFE-regular.csv": "555d36971a2dc2bdea307dd455736c667a699d92f882726869be09729f7ae6c9",
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\HDFCLIFE-special.csv": "8c887a6613500cac33d8f00a3f3363c0b4b40acec22384262a3c904225395be5"
+    },
+    "HEROMOTOCO": {
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\HEROMOTOCO-regular.csv": "f25d39a9a90f9889c425fa3c662c6d5f414637d4dea0c7e264bf3d57474d0b06",
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\HEROMOTOCO-special.csv": "d158aa9b6b31df84c9bc3be23424ae3fb6b6e72d3b16319fd2eac353f3ce6d6c"
+    },
+    "HINDALCO": {
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\HINDALCO-regular.csv": "f6689a11544f3c2330902f4dad1343a8c524f00acd8a146b7bc3295c0483ae74",
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\HINDALCO-special.csv": "e8bf2aec684ba4f747789e319441771bc737fc025d4665ef7e7ef8533ef0d61f"
+    },
+    "ICICIBANK": {
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\ICICIBANK-regular.csv": "072101dd9567c3f78e9b3e4a644b9acf550e32f09599e4c8b4c8249c2cdae0e1",
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\ICICIBANK-special.csv": "5f25757dedc9a6e1c72ff9c9b1db00a76f5f404cd74627e8ef32f0f6d6eb464e"
+    },
+    "INDUSINDBK": {
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\INDUSINDBK-regular.csv": "db6795cb70fe03f26b8147d3121d600908553e7409c1a98465518088663d42cc",
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\INDUSINDBK-special.csv": "589a48b1b6b0365f005b999388b2054e39f46fc87f94ddc4a29b70f654047d30"
+    },
+    "INFY": {
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\INFY-regular.csv": "2a1cb7f9211d9dbf2884646ec7ecd02e543e340816ed6c2322157f4a0836cff4",
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\INFY-special.csv": "14edafd005bdf5fa750eeb8e9c5acd2498af42fe046cad2e74f3e2684fa30d34"
+    },
+    "JSWSTEEL": {
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\JSWSTEEL-regular.csv": "c878e64aa59c8df0f21a35948960c39bb95fdd0e9519059fa3faf3bffd4a138e",
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\JSWSTEEL-special.csv": "4ca5c498093e534b422ab9be0936dd317cafaab17252164d7f019480d3ef8e32"
+    },
+    "KOTAKBANK": {
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\KOTAKBANK-regular.csv": "ca1260ddbb2453f58344e6f368a9ac8574c9603faff337bbf3dadad3812d9098",
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\KOTAKBANK-special.csv": "5586e1ad4174630d529d819d21b2865c5814a0f4776227e29ac47336b347ea7d"
+    },
+    "LT": {
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\LT-regular.csv": "e6c5ada93e72bb39a9bffcd7ac5133f700d81762e42ad0a62d21ce890d5f34e3",
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\LT-special.csv": "b13c5207aec444badd0efeb6d4b2cf42c0664b84a3237df7e58b2e07ed70b328"
+    },
+    "M&M": {
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\M&M-regular.csv": "4dcc355e2f273997a27295699e3af484e53a5174393aab51e2efbaac6bd26fb7",
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\M&M-special.csv": "48601e7b07edef524dda0b6886651338221644c358f0de2e9f0c3023e6fec605"
+    },
+    "MARUTI": {
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\MARUTI-regular.csv": "ca8fd2abf4a5653fb5109cb1f904be4b3eb965f371937d032bd5ec56d6dd4bef",
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\MARUTI-special.csv": "0724d567a626ee762b0e0d6dd7cacd7d7a2a6b3da1e937bcd622ede94e0c1aa0"
+    },
+    "NESTLEIND": {
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\NESTLEIND-regular.csv": "a37a9db822075e9ac0fa9f4bef3e641505c438180e41a5874c93baa57c26bf44",
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\NESTLEIND-special.csv": "f57f3d59c7e3853b2de3fbb38e34e6c738e89a0f083a2211112067b595148c50"
+    },
+    "NTPC": {
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\NTPC-regular.csv": "6458fbbb9d0965a9218b2fc18d4ed0ec11eba2b8e8dad6e0d806ec11a8330f0a",
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\NTPC-special.csv": "0500c8d76d64f5ed164f2f7ae96db043ccfd5e02ab23a3c86c1c97857fc46256"
+    },
+    "ONGC": {
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\ONGC-regular.csv": "081025dd05dc2d0a3a465222ab2e5cf74aeed1cabfe4dc5d7e899a880f18d4de",
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\ONGC-special.csv": "3fac98dd903f72fd379e20c0102043484c594aea6e04654283eb76f0dd73c968"
+    },
+    "POWERGRID": {
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\POWERGRID-regular.csv": "415a8f1b4b0a4f3b3e968a05c27f4c1d8e8d39ae8ab74fb4664bf6fc10af02a8",
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\POWERGRID-special.csv": "8589af8fe8586eb7dd705edaf43252a236e276302f4934b9767b1b08d8fd0296"
+    },
+    "RELIANCE": {
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\RELIANCE-regular.csv": "4024bdf1551a6e3e16909ba6b888ffb8ff8cce6c1927f5ba887467d8bb0e8749",
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\RELIANCE-special.csv": "bd1df2541849446b732a5f7bcda00512e8a2873c570fe2efb29974a078321e3a"
+    },
+    "SBILIFE": {
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\SBILIFE-regular.csv": "d7ec477508e2e10c507b28f8c9493a058db8ffed311cd6b28b57d8d286da09b3",
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\SBILIFE-special.csv": "1180f28a1dec2e534481e4cdfd6f7c2ec827c7e713bb177ef126784ef5e5d755"
+    },
+    "SBIN": {
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\SBIN-regular.csv": "2ade2d0fe99ef503a3d90f363a736ca87508c2e17df3db0b3b1701732372f68f",
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\SBIN-special.csv": "c11ef1e4f9fe3c8f429e4cc588a3dd8b89f5ad5c3714acbe747dc6345d1059c1"
+    },
+    "SHRIRAMFIN": {
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\SHRIRAMFIN-regular.csv": "5a27bd2303670454b04369cb248bd4fc40bb016897907492c8f814ac9daafd4e",
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\SHRIRAMFIN-special.csv": "b99ac736dcc8af16f3f7cfaf7d39ab7e0234f4d90dd4f8c06834be5c4937b715"
+    },
+    "SUNPHARMA": {
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\SUNPHARMA-regular.csv": "694accf18c933acf7b3e5e2f4336d5eb5e25dc4173768da1de08ad8a659073a5",
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\SUNPHARMA-special.csv": "a83eb835f0fd561e89e75fcd39e2153304b4d343e9522a49a4580cf85093f3c5"
+    },
+    "TATACONSUM": {
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\TATACONSUM-regular.csv": "278ded8f0be73535c90bf3aa2249c6ea0d26393a9df580acbeab75c6312f776a",
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\TATACONSUM-special.csv": "da67430ee8e9b5a8fd9e930792aae1324fc28c831422abce563e83007045d1da"
+    },
+    "TATASTEEL": {
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\TATASTEEL-regular.csv": "b77e6d89e4a152ca3dd560271d6423c643d9eca0dad7d6cb4fb3d1d236d980d9",
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\TATASTEEL-special.csv": "9432a243721c0ea4d709015c8a6ba21bfc1f883f6af0b426b271ebce2db76b77"
+    },
+    "TCS": {
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\TCS-regular.csv": "f24bb3eda20f24e2d5885dcb0558079d92e9e1e37e88343073cf7b40addd4e38",
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\TCS-special.csv": "1551727b76cd9abd22390e59aa79651c0a2fb9b07bf746169b0181c29b75e332"
+    },
+    "TECHM": {
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\TECHM-regular.csv": "3fb5c81202d849a29d687ea7b834a8b5ed9c3e74cccd23729749ad1a021bb01d",
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\TECHM-special.csv": "71d39f853a7387d9bab60b215c22ebe4cb04cb874680a0096ea1435cc74c6a78"
+    },
+    "TITAN": {
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\TITAN-regular.csv": "031e42e22699a001814080fd8b262e7a4a25d6cea9808a387d6e381670c4f7d1",
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\TITAN-special.csv": "c72557bfb0eb10d00f95019f96ae19fbc6da857aa3f635daec7f43288592c26f"
+    },
+    "ULTRACEMCO": {
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\ULTRACEMCO-regular.csv": "c227777ef327c86b764928ae10b0f419362e09b23a5f0edfacda073336055270",
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\ULTRACEMCO-special.csv": "c005ff69b9b2705c9482bf347c9bf344909ccd8caadfbafa06c6fcb63b548f69"
+    },
+    "WIPRO": {
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\WIPRO-regular.csv": "cb2988b59172395c385b62ca2d50af02ca552ce5c22ccc5435b351fb22e6e5b4",
+      "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\stock_swing_research\\WIPRO-special.csv": "3421acad2c8b31fd6bb9a0dd84bf6e6c85dbd06e290415d541dd55eb76e385f4"
+    }
+  },
+  "limitations": [
+    "Matched daily entries, original entry quantities and original cash risk are held fixed. This is not a five-minute strategy/portfolio replay: different exits could change subsequent entries, capital and quantities.",
+    "Only the five IDs preselected before reserved evaluation are checked. No parameters or finalists are selected from these outcomes.",
+    "Coverage is the original dated Nifty 50 cache intersected with the eligible broad cohort, not all 470 eligible stocks.",
+    "Fixed-target and time-only modes are supported. Trailing/signal exit modes and trades carrying splits or changed share units are explicitly rejected.",
+    "Five-minute OHLC cannot resolve a bar containing both stop and target; stop-first remains conservative. Intrabar stop gaps between observations also remain unknown.",
+    "A one-bp/two-paise entry-open tolerance is required; missing complete sessions and daily hits not observed in the complete five-minute path are rejected, never filled synthetically.",
+    "Observed five-minute opens/highs/lows/closes can differ from daily candles, particularly official daily close versus last intraday print; range discrepancies are reported per trade.",
+    "Dividends use ex-date economic entitlement; broker fees and taxes match the daily engine with adverse 5bp fills. No spreads, order-book impact or payment-date funding are reconstructed."
+  ],
+  "selection_rationale": {
+    "rule": "First five preselected_finer_resolution_ids from the frozen development/validation ranking, before reserved evaluation; no replacements based on intraday or final outcomes.",
+    "records": [
+      {
+        "id": "macd_below_zero_9975e2d7b57f",
+        "family": "macd_below_zero",
+        "development_validation_eligible": false,
+        "selection_score": 0.35836371910971093
+      },
+      {
+        "id": "ppo_below_zero_135f863def60",
+        "family": "ppo_below_zero",
+        "development_validation_eligible": false,
+        "selection_score": 0.3387631983399668
+      },
+      {
+        "id": "hybrid_trend_macd_support_d59dc33c20a4",
+        "family": "hybrid_trend_macd_support",
+        "development_validation_eligible": false,
+        "selection_score": 0.2364866414833402
+      },
+      {
+        "id": "support_sweep_87aaa5fb66d0",
+        "family": "support_sweep",
+        "development_validation_eligible": false,
+        "selection_score": 0.20768483563053597
+      },
+      {
+        "id": "ppo_cross_23d6bd14d7f1",
+        "family": "ppo_cross",
+        "development_validation_eligible": false,
+        "selection_score": 0.19170327222596362
+      }
+    ]
+  },
+  "aggregate_by_stage": {
+    "final": {
+      "matched": 268,
+      "rejected": 0,
+      "daily_both_hit_trades": 0,
+      "five_minute_both_hit_bars": 0,
+      "maximum_absolute_net_r_difference": 3.469446951953614e-18
+    },
+    "two_year": {
+      "matched": 961,
+      "rejected": 1,
+      "daily_both_hit_trades": 0,
+      "five_minute_both_hit_bars": 0,
+      "maximum_absolute_net_r_difference": 1.1102230246251565e-16
+    }
+  }
+}

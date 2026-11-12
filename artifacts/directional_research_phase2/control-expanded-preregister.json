@@ -1,0 +1,86 @@
+{
+  "fixed_rules": [
+    [
+      "ema_trend",
+      "12_26_gap0.5"
+    ],
+    [
+      "donchian",
+      "lookback20_buffer0"
+    ],
+    [
+      "pullback",
+      "ema21_tolerance0.75"
+    ]
+  ],
+  "router_priority": [
+    "ema_trend",
+    "donchian",
+    "pullback"
+  ],
+  "router_hold_minutes": 60,
+  "router_one_position": true,
+  "historical_final_period": {
+    "first": "2026-06-29",
+    "last": "2026-11-06",
+    "sessions": 92
+  },
+  "status": "Retrospective phase-two hypotheses motivated by phase-one observed results; not independent/prospective confirmation.",
+  "contrasts": [
+    "net2 positive",
+    "excess versus same-time 30-minute momentum positive"
+  ],
+  "multiplicity": "Six Bonferroni intervals: 3 candidates x 2 contrasts. Conditional fixed-set coverage, NOT correction of phase-one 3600-configuration selection.",
+  "randomization": "20000 session-level sign flips; two-sided diagnostic, not market-stationarity guarantee.",
+  "ablations": "Same parameters, none/trend filters, morning/afternoon windows,15/30/60 holds. Exploratory; no new selection.",
+  "walkforward": "Monthly choose one of fixed3 using preceding120complete sessions, requiring>=30trades and positive net5; otherwise abstain.",
+  "source_audit": {
+    "input_hashes": {
+      "nifty-db-1minute.json": "982c3cdf16e673e527b282440a906f78babab69cc488b7f1e8249cc327000d73",
+      "nifty-db-5minute.json": "ef02963c7bf00a8d1dac18b373ca71f8f849e888ae427979c819596941a86b19",
+      "nifty-upstox-5minute.json": "edebba307ecadd0945649baf6110a48e6706f393c4f95d3c208f46efffb4e3dd"
+    },
+    "overlap_bars": 14535,
+    "overlap_max_abs_difference": {
+      "open": 0.0,
+      "high": 0.0,
+      "low": 0.0,
+      "close": 0.0
+    },
+    "conflicting_days": [],
+    "excluded_sessions": [
+      {
+        "day": "2025-10-21",
+        "bars": 12,
+        "invalid": false,
+        "conflict": false
+      },
+      {
+        "day": "2026-11-08",
+        "bars": 10,
+        "invalid": false,
+        "conflict": false
+      }
+    ],
+    "sessions": 458,
+    "first": "2025-01-01",
+    "last": "2026-11-06",
+    "bars": 32518,
+    "extra": {
+      "path": "artifacts\\directional_research_phase2\\expanded-nifty-5minute.json",
+      "sha256": "b6aab0c4a14bf0568b92d53f44cc6265a1cb33f9b8fb5c95720dbb57c6eed63c",
+      "overlap_deviations": {
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "close": 0
+      },
+      "excluded": [
+        "2024-03-02",
+        "2024-05-18"
+      ]
+    }
+  },
+  "script_sha256": "7e58e6df6f87094c9dab5f6133a36aa5fd6ae6f0ac0ebf3889714948581d548d",
+  "feature_dependency_sha256": "731b1d6fafac2f7298b4a7be6bc932643d175703ed3b332ce320ee333e4c390e"
+}

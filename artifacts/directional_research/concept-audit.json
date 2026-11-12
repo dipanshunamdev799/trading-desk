@@ -1,0 +1,119 @@
+{
+  "coverage": [
+    {
+      "grain": 1,
+      "sessions": 204,
+      "first": "2026-01-01",
+      "last": "2026-10-29",
+      "later20_start": "2026-08-31",
+      "excluded": [
+        "2026-10-30"
+      ]
+    },
+    {
+      "grain": 5,
+      "sessions": 458,
+      "first": "2025-01-01",
+      "last": "2026-11-06",
+      "later20_start": "2026-06-29",
+      "excluded": [
+        "2025-10-21",
+        "2026-11-08"
+      ]
+    }
+  ],
+  "prefix_checks": [
+    {
+      "grain": 1,
+      "day": "2026-01-01",
+      "pass": true
+    },
+    {
+      "grain": 1,
+      "day": "2026-02-27",
+      "pass": true
+    },
+    {
+      "grain": 1,
+      "day": "2026-05-04",
+      "pass": true
+    },
+    {
+      "grain": 1,
+      "day": "2026-07-01",
+      "pass": true
+    },
+    {
+      "grain": 1,
+      "day": "2026-08-26",
+      "pass": true
+    },
+    {
+      "grain": 1,
+      "day": "2026-10-26",
+      "pass": true
+    },
+    {
+      "grain": 5,
+      "day": "2025-01-01",
+      "pass": true
+    },
+    {
+      "grain": 5,
+      "day": "2025-02-25",
+      "pass": true
+    },
+    {
+      "grain": 5,
+      "day": "2025-04-30",
+      "pass": true
+    },
+    {
+      "grain": 5,
+      "day": "2025-06-26",
+      "pass": true
+    },
+    {
+      "grain": 5,
+      "day": "2025-08-22",
+      "pass": true
+    },
+    {
+      "grain": 5,
+      "day": "2025-12-18",
+      "pass": true
+    },
+    {
+      "grain": 5,
+      "day": "2026-02-16",
+      "pass": true
+    },
+    {
+      "grain": 5,
+      "day": "2026-04-20",
+      "pass": true
+    },
+    {
+      "grain": 5,
+      "day": "2026-06-17",
+      "pass": true
+    },
+    {
+      "grain": 5,
+      "day": "2026-08-13",
+      "pass": true
+    },
+    {
+      "grain": 5,
+      "day": "2026-10-12",
+      "pass": true
+    }
+  ],
+  "input_sha256": {
+    "artifacts\\directional_research\\nifty-db-1minute.json": "982c3cdf16e673e527b282440a906f78babab69cc488b7f1e8249cc327000d73",
+    "artifacts\\directional_research\\nifty-upstox-5minute.json": "edebba307ecadd0945649baf6110a48e6706f393c4f95d3c208f46efffb4e3dd",
+    "artifacts\\directional_research\\nifty-upstox-1day.json": "faafc7764dc4e1de23f9e8f7f1b1c84aabcb4cb1eb7a98b7bc6a75ceff72023a",
+    "backend\\app\\services\\price_action.py": "1b777138f6913f134e25f45cb701fc4f120686e71cea60ab0f02f1b8f083aa1e",
+    "scripts\\research_existing_concepts.py": "9f6f0612449976c7f18b0910877ddaa6189a40155d623fc695ea07433b4c318e"
+  }
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "index": "Nifty 50",
+    "first": "2016-01-01",
+    "last": "2026-11-09",
+    "rows": 2690,
+    "missing_values": 0,
+    "raw_file": "artifacts\\swing_diagnosis\\benchmark_raw\\NIFTY_50-tri.json",
+    "source": "https://www.niftyindices.com/reports/historical-data"
+  },
+  {
+    "index": "Nifty 500",
+    "first": "2016-01-01",
+    "last": "2026-11-09",
+    "rows": 2690,
+    "missing_values": 0,
+    "raw_file": "artifacts\\swing_diagnosis\\benchmark_raw\\NIFTY_500-tri.json",
+    "source": "https://www.niftyindices.com/reports/historical-data"
+  },
+  {
+    "index": "Nifty Bank",
+    "first": "2016-01-01",
+    "last": "2026-11-09",
+    "rows": 2690,
+    "missing_values": 0,
+    "raw_file": "artifacts\\swing_diagnosis\\benchmark_raw\\NIFTY_BANK-tri.json",
+    "source": "https://www.niftyindices.com/reports/historical-data"
+  },
+  {
+    "index": "Nifty IT",
+    "first": "2016-01-01",
+    "last": "2026-11-09",
+    "rows": 2690,
+    "missing_values": 0,
+    "raw_file": "artifacts\\swing_diagnosis\\benchmark_raw\\NIFTY_IT-tri.json",
+    "source": "https://www.niftyindices.com/reports/historical-data"
+  },
+  {
+    "index": "Nifty Pharma",
+    "first": "2016-01-01",
+    "last": "2026-11-09",
+    "rows": 2690,
+    "missing_values": 0,
+    "raw_file": "artifacts\\swing_diagnosis\\benchmark_raw\\NIFTY_PHARMA-tri.json",
+    "source": "https://www.niftyindices.com/reports/historical-data"
+  }
+]

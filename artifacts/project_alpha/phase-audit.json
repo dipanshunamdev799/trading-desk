@@ -1,0 +1,93 @@
+[
+  {
+    "phase": 0,
+    "name": "Existing-system audit",
+    "status": "COMPLETED",
+    "artifact": "artifacts\\project_alpha\\system-audit.md",
+    "finding": "Professionaltradebooknotpresent;22.5Mstreamrecordsidentified"
+  },
+  {
+    "phase": 1,
+    "name": "Market research",
+    "status": "COMPLETED_WITH_DATA_LIMITS",
+    "artifact": "artifacts\\project_alpha\\literature.md",
+    "finding": "Primarysources;mechanismsfalsifiable; broadhistoricalevent/breadthinformationmissing"
+  },
+  {
+    "phase": 2,
+    "name": "Scientific framework",
+    "status": "IMPLEMENTED_WITH_EXECUTION_LIMITS",
+    "artifact": "artifacts\\project_alpha\\exit-stream-report.md",
+    "finding": "Eventengine,asofavailability,gaps,partial/failedfills,hashes;noverifiedexchangebookeventclock"
+  },
+  {
+    "phase": 3,
+    "name": "Competing families",
+    "status": "TESTED_OR_DATA_LIMITED",
+    "artifact": "artifacts\\project_alpha\\hypotheses.json",
+    "finding": "Eightfamiliesmapped;15mconfirmationandpriorOIadded;nofamilyvalidated"
+  },
+  {
+    "phase": 4,
+    "name": "Incremental edge",
+    "status": "TESTED_NOT_ESTABLISHED",
+    "artifact": "artifacts\\project_alpha\\positioning-report.md",
+    "finding": "Matchedcontrols/pairedablations/multiplicity;conditionalassociationnotcausalproof"
+  },
+  {
+    "phase": 5,
+    "name": "Option selection",
+    "status": "EXPLORATORY_ONLY",
+    "artifact": "artifacts\\project_alpha\\exit-stream-delta-v2-report.md",
+    "finding": "ATM/ITM/OTM/expiry/deltacomparisons;3quoteoutcomescannotjustifyoptimization"
+  },
+  {
+    "phase": 6,
+    "name": "Exact entries/exits",
+    "status": "RESEARCH_RULES_IMPLEMENTED",
+    "artifact": "artifacts\\project_alpha\\rulebook.md",
+    "finding": "Deterministic12exitpolicies;nochosenvalidatedexit;overnightdisabled"
+  },
+  {
+    "phase": 7,
+    "name": "Regime engine",
+    "status": "DIAGNOSTIC_ONLY",
+    "artifact": "artifacts\\project_alpha\\timeframe-report.md",
+    "finding": "Causalstate/realizedfuture-labelconfusion;operationaloutputNO TRADE"
+  },
+  {
+    "phase": 8,
+    "name": "Adversarial validation",
+    "status": "TESTED_WITH_UNMET_GATES",
+    "artifact": "artifacts\\project_alpha\\exit-verification.json",
+    "finding": "Walkforward,cost/latency/perturbation,concentration,missingdata,sequenceuncertainty;nonepromoted"
+  },
+  {
+    "phase": 9,
+    "name": "Metrics",
+    "status": "COMPLETED_WITH_EVIDENCE_LIMITS",
+    "artifact": "artifacts\\project_alpha\\risk-metrics-report.md",
+    "finding": "PF/winloss/closedDD/duration/months/excursionbounds;realbrokerfillfailure/actualcapitalreturnsunsupported"
+  },
+  {
+    "phase": 10,
+    "name": "Capital protection",
+    "status": "SCENARIO_TESTED",
+    "artifact": "artifacts\\project_alpha\\risk-feasibility.csv",
+    "finding": "384scenarios;wholelotsofteninfeasible;stopsnotlossguarantees"
+  },
+  {
+    "phase": 11,
+    "name": "Validated trading skill",
+    "status": "CONDITIONAL_NOT_ELIGIBLE",
+    "artifact": "artifacts\\project_alpha\\forward-protocol.md",
+    "finding": "Briefrequiresvalidationfirst;no validatedprimary strategyexists;read-onlydiagnosticengineimplemented"
+  },
+  {
+    "phase": 12,
+    "name": "Research package and decision",
+    "status": "DELIVERED_RESEARCH_ONLY",
+    "artifact": "PROJECT_ALPHA_RESULTS.md",
+    "finding": "No primary/complementary strategy promoted;ledger/config/commands/evidenceincluded"
+  }
+]

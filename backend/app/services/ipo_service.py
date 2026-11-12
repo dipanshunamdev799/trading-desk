@@ -25,9 +25,10 @@ class IpoService:
         key = f"{company['id'] if company else 'universe'}:{kind}"
         if self.failures.get(key, 0) > time.monotonic():
             return
+        request_url = sources.WATCH_SUBSCRIPTIONS_API if kind == "subscriptions" else url
         def load():
             self.client.store.count("ipo_public_source_fetches")
-            html = sources.fetch_html(url)
+            html = sources.fetch_html(request_url)
             if kind == "index":
                 return sources.parse_index(html)
             if kind == "subscriptions":
@@ -41,7 +42,8 @@ class IpoService:
         normalize = self._save_index if kind == "index" else self._save_subscription_index if kind == "subscriptions" else IpoStore.save_research
         try:
             self.client.store.read("ipo_public_" + kind,
-                {"url": url, "ipo_id": company["id"] if company else None, "parser_version": 1}, load, normalize=normalize)
+                {"url": request_url, "ipo_id": company["id"] if company else None, "parser_version": 2 if kind == "subscriptions" else 1}, load, normalize=normalize)
+            self.failures.pop(key, None)
             self.repo.sync(key)
         except Exception as exc:
             self.failures[key] = time.monotonic() + 300
@@ -77,7 +79,8 @@ class IpoService:
             if not company or calendar_status(company) in {"upcoming", "announced"}:
                 continue
             IpoStore.save_research(conn, {"ipo_id": company["id"], "kind": "subscriptions", "source_url": sources.WATCH_SUBSCRIPTIONS,
-                "data": row, "metrics": {key: row.get(key) for key in ("qib", "nii", "retail", "total")}, "reported_at": None}, at)
+                "data": row, "metrics": {key: row.get(key) for key in ("qib", "nii", "snii", "bnii", "retail", "total")},
+                "reported_at": None, "reported_date": row.get("reported_date")}, at)
 
     def refresh_catalog(self):
         with self.catalog_lock:

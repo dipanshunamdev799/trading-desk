@@ -1,0 +1,461 @@
+{
+  "NIFTY/C_zone1.0": {
+    "r_ci95": [
+      -1.0,
+      0.8749999999999949
+    ],
+    "positive_probability": 0.261,
+    "block_sessions": 10,
+    "draws": 3000
+  },
+  "NIFTY/J_ema34": {
+    "r_ci95": [
+      -0.7177051871271867,
+      0.8964132424772984
+    ],
+    "positive_probability": 0.617,
+    "block_sessions": 10,
+    "draws": 3000
+  },
+  "NIFTY/G_early_base": {
+    "r_ci95": [
+      -1.2141215071766391,
+      2.000000000000006
+    ],
+    "positive_probability": 0.621206444361184,
+    "block_sessions": 10,
+    "draws": 3000
+  },
+  "NIFTY/D0_base": {
+    "r_ci95": [
+      -0.7270105675859212,
+      1.3993540736631698
+    ],
+    "positive_probability": 0.6150767178118746,
+    "block_sessions": 10,
+    "draws": 3000
+  },
+  "NIFTY/A_tf120_30": {
+    "r_ci95": [
+      -0.885081500021975,
+      0.18398897977125828
+    ],
+    "positive_probability": 0.07233333333333333,
+    "block_sessions": 10,
+    "draws": 3000
+  },
+  "NIFTY/B_exit_macd": {
+    "r_ci95": [
+      -0.6692065229955826,
+      0.019312489486082704
+    ],
+    "positive_probability": 0.03166666666666667,
+    "block_sessions": 10,
+    "draws": 3000
+  },
+  "NIFTY/G_ema20": {
+    "r_ci95": [
+      -0.9999999999999998,
+      1.999999999999999
+    ],
+    "positive_probability": 0.7744411077744411,
+    "block_sessions": 10,
+    "draws": 3000
+  },
+  "NIFTY/macd_only_base": {
+    "r_ci95": [
+      -0.4817594770780608,
+      0.6553403384660889
+    ],
+    "positive_probability": 0.567,
+    "block_sessions": 10,
+    "draws": 3000
+  },
+  "NIFTY/structure_only_base": {
+    "r_ci95": [
+      -0.9243077680186114,
+      0.13320417450179953
+    ],
+    "positive_probability": 0.061,
+    "block_sessions": 10,
+    "draws": 3000
+  },
+  "NIFTY/E_tf120_30": {
+    "r_ci95": [
+      -1.133595735092327,
+      0.39268583555368347
+    ],
+    "positive_probability": 0.122,
+    "block_sessions": 10,
+    "draws": 3000
+  },
+  "NIFTY/D_ema20": {
+    "r_ci95": [
+      -0.357855822433248,
+      1.0191657066072934
+    ],
+    "positive_probability": 0.8416666666666667,
+    "block_sessions": 10,
+    "draws": 3000
+  },
+  "NIFTY/H_ema34": {
+    "r_ci95": [
+      -0.9595567196301573,
+      0.5978837697867772
+    ],
+    "positive_probability": 0.20573524508169388,
+    "block_sessions": 10,
+    "draws": 3000
+  },
+  "NIFTY/F_tf120_30": {
+    "r_ci95": [
+      -1.0,
+      0.582825333095467
+    ],
+    "positive_probability": 0.203,
+    "block_sessions": 10,
+    "draws": 3000
+  },
+  "NIFTY/baseline_base": {
+    "r_ci95": [
+      null,
+      null
+    ],
+    "positive_probability": null,
+    "block_sessions": 10,
+    "draws": 3000
+  },
+  "NIFTY/zero_cross_base": {
+    "r_ci95": [
+      -0.8869490889312593,
+      0.6985248885977019
+    ],
+    "positive_probability": 0.28552368245497,
+    "block_sessions": 10,
+    "draws": 3000
+  },
+  "NIFTY/ema_only_base": {
+    "r_ci95": [
+      -0.41595641418732604,
+      1.225212348958224
+    ],
+    "positive_probability": 0.8086666666666666,
+    "block_sessions": 10,
+    "draws": 3000
+  },
+  "NIFTY/I_weak": {
+    "r_ci95": [
+      -1.2141215071766391,
+      1.7269882185908916
+    ],
+    "positive_probability": 0.5419070240922973,
+    "block_sessions": 10,
+    "draws": 3000
+  },
+  "NIFTYBEES/C_zone1.0": {
+    "r_ci95": [
+      -0.5618535430693472,
+      1.999999999999996
+    ],
+    "positive_probability": 0.5673813169984686,
+    "block_sessions": 10,
+    "draws": 3000
+  },
+  "NIFTYBEES/J_ema34": {
+    "r_ci95": [
+      0.2646873190786743,
+      0.3144393707919586
+    ],
+    "positive_probability": 1.0,
+    "block_sessions": 10,
+    "draws": 3000
+  },
+  "NIFTYBEES/G_early_base": {
+    "r_ci95": [
+      -1.0,
+      -1.0
+    ],
+    "positive_probability": 0.0,
+    "block_sessions": 10,
+    "draws": 3000
+  },
+  "NIFTYBEES/D0_base": {
+    "r_ci95": [
+      -0.2589545503947903,
+      0.4809545633729412
+    ],
+    "positive_probability": 0.7480368726527825,
+    "block_sessions": 10,
+    "draws": 3000
+  },
+  "NIFTYBEES/A_tf120_30": {
+    "r_ci95": [
+      -0.997284760262819,
+      0.46984008946840117
+    ],
+    "positive_probability": 0.141,
+    "block_sessions": 10,
+    "draws": 3000
+  },
+  "NIFTYBEES/B_exit_macd": {
+    "r_ci95": [
+      -0.5976372068042908,
+      0.4920056691115874
+    ],
+    "positive_probability": 0.43476810143476813,
+    "block_sessions": 10,
+    "draws": 3000
+  },
+  "NIFTYBEES/G_ema20": {
+    "r_ci95": [
+      -1.0,
+      0.15286031681630302
+    ],
+    "positive_probability": 0.26947685359427925,
+    "block_sessions": 10,
+    "draws": 3000
+  },
+  "NIFTYBEES/macd_only_base": {
+    "r_ci95": [
+      -0.4168514613885394,
+      1.1818181818181808
+    ],
+    "positive_probability": 0.8093333333333333,
+    "block_sessions": 10,
+    "draws": 3000
+  },
+  "NIFTYBEES/structure_only_base": {
+    "r_ci95": [
+      -1.0,
+      1.0000000000000013
+    ],
+    "positive_probability": 0.4756666666666667,
+    "block_sessions": 10,
+    "draws": 3000
+  },
+  "NIFTYBEES/E_tf120_30": {
+    "r_ci95": [
+      -0.9537055219363062,
+      1.5433429444137363
+    ],
+    "positive_probability": 0.8061394728061395,
+    "block_sessions": 10,
+    "draws": 3000
+  },
+  "NIFTYBEES/D_ema20": {
+    "r_ci95": [
+      -0.18566124192336206,
+      0.2503587587095871
+    ],
+    "positive_probability": 0.7134228187919464,
+    "block_sessions": 10,
+    "draws": 3000
+  },
+  "NIFTYBEES/H_ema34": {
+    "r_ci95": [
+      -1.0,
+      0.25580186418502165
+    ],
+    "positive_probability": 0.1859386152748037,
+    "block_sessions": 10,
+    "draws": 3000
+  },
+  "NIFTYBEES/F_tf120_30": {
+    "r_ci95": [
+      -1.0,
+      0.7713182616571017
+    ],
+    "positive_probability": 0.28695362028695365,
+    "block_sessions": 10,
+    "draws": 3000
+  },
+  "NIFTYBEES/baseline_base": {
+    "r_ci95": [
+      null,
+      null
+    ],
+    "positive_probability": null,
+    "block_sessions": 10,
+    "draws": 3000
+  },
+  "NIFTYBEES/zero_cross_base": {
+    "r_ci95": [
+      -1.0,
+      0.6007236800833083
+    ],
+    "positive_probability": 0.4037079076806659,
+    "block_sessions": 10,
+    "draws": 3000
+  },
+  "NIFTYBEES/ema_only_base": {
+    "r_ci95": [
+      -0.9999999999999998,
+      1.9999999999999944
+    ],
+    "positive_probability": 0.6649916247906198,
+    "block_sessions": 10,
+    "draws": 3000
+  },
+  "NIFTYBEES/I_weak": {
+    "r_ci95": [
+      -1.0,
+      0.15286031681630302
+    ],
+    "positive_probability": 0.26947685359427925,
+    "block_sessions": 10,
+    "draws": 3000
+  },
+  "BANKBEES/C_zone1.0": {
+    "r_ci95": [
+      -1.0000000000000002,
+      0.7330972277129375
+    ],
+    "positive_probability": 0.1959322033898305,
+    "block_sessions": 10,
+    "draws": 3000
+  },
+  "BANKBEES/J_ema34": {
+    "r_ci95": [
+      -1.0,
+      -1.0
+    ],
+    "positive_probability": 0.0,
+    "block_sessions": 10,
+    "draws": 3000
+  },
+  "BANKBEES/G_early_base": {
+    "r_ci95": [
+      -1.0,
+      -0.8799013276980383
+    ],
+    "positive_probability": 0.0,
+    "block_sessions": 10,
+    "draws": 3000
+  },
+  "BANKBEES/D0_base": {
+    "r_ci95": [
+      -0.5956643999782862,
+      1.999999999999996
+    ],
+    "positive_probability": 0.7240333586050038,
+    "block_sessions": 10,
+    "draws": 3000
+  },
+  "BANKBEES/A_tf120_30": {
+    "r_ci95": [
+      -0.8459597415134817,
+      1.2053870113153577
+    ],
+    "positive_probability": 0.5001667222407469,
+    "block_sessions": 10,
+    "draws": 3000
+  },
+  "BANKBEES/B_exit_macd": {
+    "r_ci95": [
+      -0.5248363823067651,
+      0.5770786021498635
+    ],
+    "positive_probability": 0.484,
+    "block_sessions": 10,
+    "draws": 3000
+  },
+  "BANKBEES/G_ema20": {
+    "r_ci95": [
+      -1.0,
+      -1.0
+    ],
+    "positive_probability": 0.0,
+    "block_sessions": 10,
+    "draws": 3000
+  },
+  "BANKBEES/macd_only_base": {
+    "r_ci95": [
+      -0.904413414717925,
+      0.17444391740120818
+    ],
+    "positive_probability": 0.06766666666666667,
+    "block_sessions": 10,
+    "draws": 3000
+  },
+  "BANKBEES/structure_only_base": {
+    "r_ci95": [
+      -1.004186510095145,
+      0.7111180919917672
+    ],
+    "positive_probability": 0.3496666666666667,
+    "block_sessions": 10,
+    "draws": 3000
+  },
+  "BANKBEES/E_tf120_30": {
+    "r_ci95": [
+      -1.0008147401188157,
+      0.4999999999999992
+    ],
+    "positive_probability": 0.07469156385461821,
+    "block_sessions": 10,
+    "draws": 3000
+  },
+  "BANKBEES/D_ema20": {
+    "r_ci95": [
+      -0.12505361402528442,
+      1.9999999999999978
+    ],
+    "positive_probability": 0.7354056103108415,
+    "block_sessions": 10,
+    "draws": 3000
+  },
+  "BANKBEES/H_ema34": {
+    "r_ci95": [
+      -1.0,
+      1.9999999999999982
+    ],
+    "positive_probability": 0.4152629769680303,
+    "block_sessions": 10,
+    "draws": 3000
+  },
+  "BANKBEES/F_tf120_30": {
+    "r_ci95": [
+      -1.0,
+      1.1428571428571412
+    ],
+    "positive_probability": 0.41380460153384463,
+    "block_sessions": 10,
+    "draws": 3000
+  },
+  "BANKBEES/baseline_base": {
+    "r_ci95": [
+      null,
+      null
+    ],
+    "positive_probability": null,
+    "block_sessions": 10,
+    "draws": 3000
+  },
+  "BANKBEES/zero_cross_base": {
+    "r_ci95": [
+      -1.0000000000000002,
+      0.05468831634295618
+    ],
+    "positive_probability": 0.04001356391997287,
+    "block_sessions": 10,
+    "draws": 3000
+  },
+  "BANKBEES/ema_only_base": {
+    "r_ci95": [
+      -1.0,
+      2.0000000000000036
+    ],
+    "positive_probability": 0.9096405777628485,
+    "block_sessions": 10,
+    "draws": 3000
+  },
+  "BANKBEES/I_weak": {
+    "r_ci95": [
+      -1.0,
+      -0.8799068292300966
+    ],
+    "positive_probability": 0.0,
+    "block_sessions": 10,
+    "draws": 3000
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "expired_expiries": {
+    "ok": false,
+    "status": 401,
+    "error_type": "UpstoxAPIError",
+    "code": "UDAPI1149"
+  },
+  "current_contracts": {
+    "ok": true,
+    "count": 2218
+  },
+  "retained_nse_eod": {
+    "days": 255,
+    "first": "2025-10-13",
+    "last": "2026-10-23"
+  }
+}

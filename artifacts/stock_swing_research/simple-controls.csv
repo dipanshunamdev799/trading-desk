@@ -1,0 +1,11 @@
+id,part,stocks,n_trades,mean_return_pct
+ema_only_base,development,45,371,0.05355788387738795
+ema_only_base,final,45,173,0.03126089681713302
+ema_only_base,final_severe,45,173,-0.15419758965568342
+ema_only_base,two_year,45,719,-0.014419398154193649
+ema_only_base,validation,45,174,-0.03614171329919591
+macd_only_base,development,45,1167,0.4041617164014265
+macd_only_base,final,45,645,-0.9597054357659882
+macd_only_base,final_severe,45,639,-1.5863123638981598
+macd_only_base,two_year,45,2479,-2.3611991031602853
+macd_only_base,validation,45,671,-1.6714313771288007

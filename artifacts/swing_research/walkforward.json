@@ -1,0 +1,51 @@
+[
+  {
+    "train_start": "2024-11-10",
+    "test_start": "2025-08-10",
+    "test_end": "2025-11-10",
+    "id": "cash_no_eligible_training_strategy",
+    "n_trades": 0,
+    "total_return_pct": 0
+  },
+  {
+    "train_start": "2025-02-10",
+    "test_start": "2025-11-10",
+    "test_end": "2026-02-10",
+    "id": "cash_no_eligible_training_strategy",
+    "n_trades": 0,
+    "total_return_pct": 0
+  },
+  {
+    "train_start": "2025-05-10",
+    "test_start": "2026-02-10",
+    "test_end": "2026-05-10",
+    "id": "A_exit_macd",
+    "training_expectancy_r": 0.08436230047262025,
+    "trades": 0,
+    "net_profit": 0.0,
+    "net_return_pct": 0.0,
+    "annualized_return_pct": 0.0,
+    "win_rate_pct": 0.0,
+    "expectancy_r": null,
+    "average_win": null,
+    "average_loss": null,
+    "profit_factor": null,
+    "max_drawdown_pct": 0.0,
+    "sharpe": null,
+    "sortino": null,
+    "calmar": null,
+    "consecutive_losses": 0,
+    "average_holding_hours": null,
+    "exposure_pct": 0.0,
+    "trades_per_month": 0.0,
+    "sessions": 58,
+    "fees": 0.0,
+    "gross_profit": 0.0,
+    "n_trades": 0,
+    "total_return_pct": 0.0,
+    "avg_win": null,
+    "avg_loss": null,
+    "avg_hold_hours": null,
+    "max_consecutive_losses": 0
+  }
+]

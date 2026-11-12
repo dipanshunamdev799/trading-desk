@@ -1,0 +1,21 @@
+{
+  "created_utc": "2026-11-12T04:49:35.856820+00:00",
+  "reason": "Initialworkerfailedbeforewritinganyportfoliorun:outputTRADE_COLUMNSconstantnotimported. Importadded; tradinglogic,definitions,seeds,parametersandselectionunchanged.",
+  "original_source_sha256": {
+    "research\\regime_opportunities\\DESIGN.md": "31ddc1ef3bc347afcfff2ed009ecf2d2adb1e5a7dccb618eada20186f78fe830",
+    "research\\regime_opportunities\\__init__.py": "2945dfae442f0b1fa810a299bfab5a532613158e43c27b8ee7c35f4a56b5903f",
+    "research\\regime_opportunities\\engine.py": "2321b152d4af76b1da98c6abfb0a2bd4cf799e1ecc541ff467fa4586c18fc479",
+    "research\\regime_opportunities\\forward.py": "25b626a54dc07f4d5a7780e2f81384b1d182805b2f1cd56a177ce4f71d89b88b",
+    "research\\regime_opportunities\\framework.py": "d78765bc11e21a112dfb7562ab7c6b80acae3ed0d697b9503e567acd11054a0a",
+    "scripts\\research_regimes.py": "2182898f01c3526b384b16276fde41a5963d4c910ee91dc69ecff97be74c15a2"
+  },
+  "execution_source_sha256": {
+    "research\\regime_opportunities\\DESIGN.md": "31ddc1ef3bc347afcfff2ed009ecf2d2adb1e5a7dccb618eada20186f78fe830",
+    "research\\regime_opportunities\\__init__.py": "2945dfae442f0b1fa810a299bfab5a532613158e43c27b8ee7c35f4a56b5903f",
+    "research\\regime_opportunities\\engine.py": "aaec86c9470887342557b955d2b9efabfa6bfe9661d23ed774ead1562ccfb882",
+    "research\\regime_opportunities\\forward.py": "25b626a54dc07f4d5a7780e2f81384b1d182805b2f1cd56a177ce4f71d89b88b",
+    "research\\regime_opportunities\\framework.py": "d78765bc11e21a112dfb7562ab7c6b80acae3ed0d697b9503e567acd11054a0a",
+    "scripts\\research_regimes.py": "2182898f01c3526b384b16276fde41a5963d4c910ee91dc69ecff97be74c15a2"
+  },
+  "preserved_protocol_sha256": "7de87bcb1af7538044c7d85ee8817a1f171b2bf8513846aad1af81bc8dcabf54"
+}

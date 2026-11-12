@@ -1,0 +1,97 @@
+[
+  {
+    "name": "NIFTY 50",
+    "url": "https://www.niftyindices.com/BackPage/getTotalReturnIndexString",
+    "source_js": "https://liveindexsa.niftyindices.com/assets/js/IISLComponet.js",
+    "status": 200,
+    "bytes": 384236,
+    "content_type": "text/html; charset=utf-8",
+    "redirected_url": "https://www.niftyindices.com/BackPage/getTotalReturnIndexString",
+    "rows": 2690,
+    "sample": [
+      {
+        "RequestNumber": "TRI63930018390578092100",
+        "Index Name": "Nifty 50",
+        "Date": "09 Nov 2026",
+        "TotalReturnsIndex": "38080.94",
+        "NTR_Value": "33053.69"
+      }
+    ]
+  },
+  {
+    "name": "NIFTY 500",
+    "url": "https://www.niftyindices.com/BackPage/getTotalReturnIndexString",
+    "source_js": "https://liveindexsa.niftyindices.com/assets/js/IISLComponet.js",
+    "status": 200,
+    "bytes": 386686,
+    "content_type": "text/html; charset=utf-8",
+    "redirected_url": "https://www.niftyindices.com/BackPage/getTotalReturnIndexString",
+    "rows": 2690,
+    "sample": [
+      {
+        "RequestNumber": "TRI63930018390450589100",
+        "Index Name": "Nifty 500",
+        "Date": "09 Nov 2026",
+        "TotalReturnsIndex": "37938.40",
+        "NTR_Value": "34865.19"
+      }
+    ]
+  },
+  {
+    "name": "NIFTY BANK",
+    "url": "https://www.niftyindices.com/BackPage/getTotalReturnIndexString",
+    "source_js": "https://liveindexsa.niftyindices.com/assets/js/IISLComponet.js",
+    "status": 200,
+    "bytes": 371221,
+    "content_type": "text/html; charset=utf-8",
+    "redirected_url": "https://www.niftyindices.com/BackPage/getTotalReturnIndexString",
+    "rows": 2690,
+    "sample": [
+      {
+        "RequestNumber": "TRI63930018390481821500",
+        "Index Name": "Nifty Bank",
+        "Date": "09 Nov 2026",
+        "TotalReturnsIndex": "83859.54",
+        "NTR_Value": "-"
+      }
+    ]
+  },
+  {
+    "name": "NIFTY IT",
+    "url": "https://www.niftyindices.com/BackPage/getTotalReturnIndexString",
+    "source_js": "https://liveindexsa.niftyindices.com/assets/js/IISLComponet.js",
+    "status": 200,
+    "bytes": 365841,
+    "content_type": "text/html; charset=utf-8",
+    "redirected_url": "https://www.niftyindices.com/BackPage/getTotalReturnIndexString",
+    "rows": 2690,
+    "sample": [
+      {
+        "RequestNumber": "TRI63930018390466194900",
+        "Index Name": "Nifty IT",
+        "Date": "09 Nov 2026",
+        "TotalReturnsIndex": "47038.55",
+        "NTR_Value": "-"
+      }
+    ]
+  },
+  {
+    "name": "NIFTY PHARMA",
+    "url": "https://www.niftyindices.com/BackPage/getTotalReturnIndexString",
+    "source_js": "https://liveindexsa.niftyindices.com/assets/js/IISLComponet.js",
+    "status": 200,
+    "bytes": 376370,
+    "content_type": "text/html; charset=utf-8",
+    "redirected_url": "https://www.niftyindices.com/BackPage/getTotalReturnIndexString",
+    "rows": 2690,
+    "sample": [
+      {
+        "RequestNumber": "TRI63930018390466194900",
+        "Index Name": "Nifty Pharma",
+        "Date": "09 Nov 2026",
+        "TotalReturnsIndex": "36214.19",
+        "NTR_Value": "-"
+      }
+    ]
+  }
+]

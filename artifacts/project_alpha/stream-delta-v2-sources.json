@@ -1,0 +1,2882 @@
+[
+  {
+    "strategy": "donchian|lookback20_buffer0|trend|afternoon|h60",
+    "entry_at": "2026-10-26 14:10:00+05:30",
+    "instrument_key": "NSE_FO|51332",
+    "source_at": "2026-10-26 08:39:59.726000+00:00",
+    "received_at": "2026-10-26 08:39:59.573514+00:00",
+    "greeks": {
+      "rho": 0.5102,
+      "vega": 3.569,
+      "delta": 0.786,
+      "gamma": 0.001,
+      "theta": -40.2152
+    },
+    "iv": "0.237884521484375",
+    "ltt": "1793003999457",
+    "offset_seconds": 0.152486,
+    "provider_trade_age_seconds": 0.269
+  },
+  {
+    "strategy": "donchian|lookback20_buffer0|trend|afternoon|h60",
+    "entry_at": "2026-10-26 14:10:00+05:30",
+    "instrument_key": "NSE_FO|51352",
+    "source_at": "2026-10-26 08:39:59.431000+00:00",
+    "received_at": "2026-10-26 08:39:59.272926+00:00",
+    "greeks": {
+      "rho": 0.1279,
+      "vega": 3.3808,
+      "delta": 0.1953,
+      "gamma": 0.0011,
+      "theta": -33.4273
+    },
+    "iv": "0.208740234375",
+    "ltt": "1793003999225",
+    "offset_seconds": 0.158074,
+    "provider_trade_age_seconds": 0.206
+  },
+  {
+    "strategy": "donchian|lookback20_buffer0|trend|afternoon|h60",
+    "entry_at": "2026-10-26 14:10:00+05:30",
+    "instrument_key": "NSE_FO|51334",
+    "source_at": "2026-10-26 08:39:59.431000+00:00",
+    "received_at": "2026-10-26 08:39:59.272926+00:00",
+    "greeks": {
+      "rho": 0.479,
+      "vega": 3.9971,
+      "delta": 0.737,
+      "gamma": 0.0011,
+      "theta": -43.9986
+    },
+    "iv": "0.232391357421875",
+    "ltt": "1793003999206",
+    "offset_seconds": 0.158074,
+    "provider_trade_age_seconds": 0.225
+  },
+  {
+    "strategy": "donchian|lookback20_buffer0|trend|afternoon|h60",
+    "entry_at": "2026-10-26 14:10:00+05:30",
+    "instrument_key": "NSE_FO|51338",
+    "source_at": "2026-10-26 08:39:59.431000+00:00",
+    "received_at": "2026-10-26 08:39:59.272926+00:00",
+    "greeks": {
+      "rho": 0.4435,
+      "vega": 4.3724,
+      "delta": 0.6814,
+      "gamma": 0.0013,
+      "theta": -46.6133
+    },
+    "iv": "0.225067138671875",
+    "ltt": "1793003999210",
+    "offset_seconds": 0.158074,
+    "provider_trade_age_seconds": 0.221
+  },
+  {
+    "strategy": "donchian|lookback20_buffer0|trend|afternoon|h60",
+    "entry_at": "2026-10-26 14:10:00+05:30",
+    "instrument_key": "NSE_FO|51360",
+    "source_at": "2026-10-26 08:40:00.026000+00:00",
+    "received_at": "2026-10-26 08:39:59.946831+00:00",
+    "greeks": {
+      "rho": 0.0399,
+      "vega": 1.4755,
+      "delta": 0.0609,
+      "gamma": 0.0004,
+      "theta": -15.3562
+    },
+    "iv": "0.2197265625",
+    "ltt": "1793003999925",
+    "offset_seconds": 0.079169,
+    "provider_trade_age_seconds": 0.101
+  },
+  {
+    "strategy": "donchian|lookback20_buffer0|trend|afternoon|h60",
+    "entry_at": "2026-10-26 14:10:00+05:30",
+    "instrument_key": "NSE_FO|51348",
+    "source_at": "2026-10-26 08:39:59.726000+00:00",
+    "received_at": "2026-10-26 08:39:59.573514+00:00",
+    "greeks": {
+      "rho": 0.2063,
+      "vega": 4.3537,
+      "delta": 0.3154,
+      "gamma": 0.0014,
+      "theta": -42.1339
+    },
+    "iv": "0.204315185546875",
+    "ltt": "1793003999634",
+    "offset_seconds": 0.152486,
+    "provider_trade_age_seconds": 0.092
+  },
+  {
+    "strategy": "donchian|lookback20_buffer0|trend|afternoon|h60",
+    "entry_at": "2026-10-26 14:10:00+05:30",
+    "instrument_key": "NSE_FO|51328",
+    "source_at": "2026-10-26 08:39:59.590000+00:00",
+    "received_at": "2026-10-26 08:39:59.546513+00:00",
+    "greeks": {
+      "rho": 0.5506,
+      "vega": 2.8399,
+      "delta": 0.8513,
+      "gamma": 0.0007,
+      "theta": -35.0578
+    },
+    "iv": "0.2606201171875",
+    "ltt": "1793003999092",
+    "offset_seconds": 0.043487,
+    "provider_trade_age_seconds": 0.498
+  },
+  {
+    "strategy": "donchian|lookback20_buffer0|trend|afternoon|h60",
+    "entry_at": "2026-10-26 14:10:00+05:30",
+    "instrument_key": "NSE_FO|51344",
+    "source_at": "2026-10-26 08:39:59.590000+00:00",
+    "received_at": "2026-10-26 08:39:59.546513+00:00",
+    "greeks": {
+      "rho": 0.3056,
+      "vega": 4.8711,
+      "delta": 0.468,
+      "gamma": 0.0016,
+      "theta": -48.162
+    },
+    "iv": "0.208740234375",
+    "ltt": "1793003999494",
+    "offset_seconds": 0.043487,
+    "provider_trade_age_seconds": 0.096
+  },
+  {
+    "strategy": "donchian|lookback20_buffer0|trend|afternoon|h60",
+    "entry_at": "2026-10-26 14:10:00+05:30",
+    "instrument_key": "NSE_FO|51324",
+    "source_at": "2026-10-26 08:39:59.726000+00:00",
+    "received_at": "2026-10-26 08:39:59.573514+00:00",
+    "greeks": {
+      "rho": 0.5757,
+      "vega": 2.2509,
+      "delta": 0.8935,
+      "gamma": 0.0005,
+      "theta": -30.39
+    },
+    "iv": "0.2850341796875",
+    "ltt": "1793003999419",
+    "offset_seconds": 0.152486,
+    "provider_trade_age_seconds": 0.307
+  },
+  {
+    "strategy": "donchian|lookback20_buffer0|trend|afternoon|h60",
+    "entry_at": "2026-10-26 14:10:00+05:30",
+    "instrument_key": "NSE_FO|51354",
+    "source_at": "2026-10-26 08:39:59.726000+00:00",
+    "received_at": "2026-10-26 08:39:59.573514+00:00",
+    "greeks": {
+      "rho": 0.0964,
+      "vega": 2.8196,
+      "delta": 0.1471,
+      "gamma": 0.0009,
+      "theta": -27.9602
+    },
+    "iv": "0.2093505859375",
+    "ltt": "1793003999597",
+    "offset_seconds": 0.152486,
+    "provider_trade_age_seconds": 0.129
+  },
+  {
+    "strategy": "donchian|lookback20_buffer0|trend|afternoon|h60",
+    "entry_at": "2026-10-26 14:10:00+05:30",
+    "instrument_key": "NSE_FO|51350",
+    "source_at": "2026-10-26 08:39:59.126000+00:00",
+    "received_at": "2026-10-26 08:39:58.968782+00:00",
+    "greeks": {
+      "rho": 0.1646,
+      "vega": 3.9056,
+      "delta": 0.2516,
+      "gamma": 0.0013,
+      "theta": -38.3342
+    },
+    "iv": "0.20721435546875",
+    "ltt": "1793003999034",
+    "offset_seconds": 0.157218,
+    "provider_trade_age_seconds": 0.092
+  },
+  {
+    "strategy": "donchian|lookback20_buffer0|trend|afternoon|h60",
+    "entry_at": "2026-10-26 14:10:00+05:30",
+    "instrument_key": "NSE_FO|51358",
+    "source_at": "2026-10-26 08:39:59.590000+00:00",
+    "received_at": "2026-10-26 08:39:59.546513+00:00",
+    "greeks": {
+      "rho": 0.0541,
+      "vega": 1.864,
+      "delta": 0.0825,
+      "gamma": 0.0006,
+      "theta": -19.0772
+    },
+    "iv": "0.216064453125",
+    "ltt": "1793003999462",
+    "offset_seconds": 0.043487,
+    "provider_trade_age_seconds": 0.128
+  },
+  {
+    "strategy": "donchian|lookback20_buffer0|trend|afternoon|h60",
+    "entry_at": "2026-10-26 14:10:00+05:30",
+    "instrument_key": "NSE_FO|51346",
+    "source_at": "2026-10-26 08:39:59.872000+00:00",
+    "received_at": "2026-10-26 08:39:59.712801+00:00",
+    "greeks": {
+      "rho": 0.2551,
+      "vega": 4.7009,
+      "delta": 0.3903,
+      "gamma": 0.0015,
+      "theta": -46.0044
+    },
+    "iv": "0.20660400390625",
+    "ltt": "1793003999711",
+    "offset_seconds": 0.159199,
+    "provider_trade_age_seconds": 0.161
+  },
+  {
+    "strategy": "donchian|lookback20_buffer0|trend|afternoon|h60",
+    "entry_at": "2026-10-26 14:10:00+05:30",
+    "instrument_key": "NSE_FO|51330",
+    "source_at": "2026-10-26 08:40:00.026000+00:00",
+    "received_at": "2026-10-26 08:39:59.946831+00:00",
+    "greeks": {
+      "rho": 0.5331,
+      "vega": 3.1832,
+      "delta": 0.8227,
+      "gamma": 0.0009,
+      "theta": -37.4559
+    },
+    "iv": "0.2484130859375",
+    "ltt": "1793003999821",
+    "offset_seconds": 0.079169,
+    "provider_trade_age_seconds": 0.205
+  },
+  {
+    "strategy": "donchian|lookback20_buffer0|trend|afternoon|h60",
+    "entry_at": "2026-10-26 14:10:00+05:30",
+    "instrument_key": "NSE_FO|51320",
+    "source_at": "2026-10-26 08:39:59.590000+00:00",
+    "received_at": "2026-10-26 08:39:59.546513+00:00",
+    "greeks": {
+      "rho": 0.5828,
+      "vega": 2.0483,
+      "delta": 0.9064,
+      "gamma": 0.0005,
+      "theta": -29.1946
+    },
+    "iv": "0.3009033203125",
+    "ltt": "1793003999339",
+    "offset_seconds": 0.043487,
+    "provider_trade_age_seconds": 0.251
+  },
+  {
+    "strategy": "donchian|lookback20_buffer0|trend|afternoon|h60",
+    "entry_at": "2026-10-26 14:10:00+05:30",
+    "instrument_key": "NSE_FO|51342",
+    "source_at": "2026-10-26 08:40:00.026000+00:00",
+    "received_at": "2026-10-26 08:39:59.946831+00:00",
+    "greeks": {
+      "rho": 0.3562,
+      "vega": 4.8546,
+      "delta": 0.5458,
+      "gamma": 0.0015,
+      "theta": -48.0694
+    },
+    "iv": "0.20904541015625",
+    "ltt": "1793003999898",
+    "offset_seconds": 0.079169,
+    "provider_trade_age_seconds": 0.128
+  },
+  {
+    "strategy": "donchian|lookback20_buffer0|trend|afternoon|h60",
+    "entry_at": "2026-10-26 14:10:00+05:30",
+    "instrument_key": "NSE_FO|51340",
+    "source_at": "2026-10-26 08:39:59.726000+00:00",
+    "received_at": "2026-10-26 08:39:59.573514+00:00",
+    "greeks": {
+      "rho": 0.4033,
+      "vega": 4.6686,
+      "delta": 0.6188,
+      "gamma": 0.0014,
+      "theta": -47.5776
+    },
+    "iv": "0.21514892578125",
+    "ltt": "1793003999593",
+    "offset_seconds": 0.152486,
+    "provider_trade_age_seconds": 0.133
+  },
+  {
+    "strategy": "donchian|lookback20_buffer0|trend|afternoon|h60",
+    "entry_at": "2026-10-26 14:10:00+05:30",
+    "instrument_key": "NSE_FO|51318",
+    "source_at": "2026-10-26 08:39:59.590000+00:00",
+    "received_at": "2026-10-26 08:39:59.546513+00:00",
+    "greeks": {
+      "rho": 0.5975,
+      "vega": 1.6316,
+      "delta": 0.9307,
+      "gamma": 0.0004,
+      "theta": -22.8772
+    },
+    "iv": "0.2960205078125",
+    "ltt": "1793003994994",
+    "offset_seconds": 0.043487,
+    "provider_trade_age_seconds": 4.596
+  },
+  {
+    "strategy": "donchian|lookback20_buffer0|trend|afternoon|h60",
+    "entry_at": "2026-10-26 14:10:00+05:30",
+    "instrument_key": "NSE_FO|51326",
+    "source_at": "2026-10-26 08:39:59.276000+00:00",
+    "received_at": "2026-10-26 08:39:59.229687+00:00",
+    "greeks": {
+      "rho": 0.5666,
+      "vega": 2.4841,
+      "delta": 0.8776,
+      "gamma": 0.0006,
+      "theta": -31.6706
+    },
+    "iv": "0.2691650390625",
+    "ltt": "1793003999078",
+    "offset_seconds": 0.046313,
+    "provider_trade_age_seconds": 0.198
+  },
+  {
+    "strategy": "donchian|lookback20_buffer0|trend|afternoon|h60",
+    "entry_at": "2026-10-26 14:10:00+05:30",
+    "instrument_key": "NSE_FO|51356",
+    "source_at": "2026-10-26 08:39:59.276000+00:00",
+    "received_at": "2026-10-26 08:39:59.229687+00:00",
+    "greeks": {
+      "rho": 0.0716,
+      "vega": 2.2925,
+      "delta": 0.1093,
+      "gamma": 0.0007,
+      "theta": -22.9321
+    },
+    "iv": "0.211181640625",
+    "ltt": "1793003999073",
+    "offset_seconds": 0.046313,
+    "provider_trade_age_seconds": 0.203
+  },
+  {
+    "strategy": "donchian|lookback20_buffer0|trend|afternoon|h60",
+    "entry_at": "2026-10-29 13:55:00+05:30",
+    "instrument_key": "NSE_FO|53720",
+    "source_at": "2026-10-29 08:24:59.876000+00:00",
+    "received_at": "2026-10-29 08:24:59.868615+00:00",
+    "greeks": {
+      "rho": 2.4654,
+      "vega": 7.7592,
+      "delta": 0.7909,
+      "gamma": 0.0007,
+      "theta": -11.1128
+    },
+    "iv": "0.145111083984375",
+    "ltt": "1793262299688",
+    "offset_seconds": 0.007385,
+    "provider_trade_age_seconds": 0.188
+  },
+  {
+    "strategy": "donchian|lookback20_buffer0|trend|afternoon|h60",
+    "entry_at": "2026-10-29 13:55:00+05:30",
+    "instrument_key": "NSE_FO|53702",
+    "source_at": "2026-10-29 08:24:59.582000+00:00",
+    "received_at": "2026-10-29 08:24:59.571736+00:00",
+    "greeks": {
+      "rho": 2.5592,
+      "vega": 7.0274,
+      "delta": 0.8222,
+      "gamma": 0.0007,
+      "theta": -10.234
+    },
+    "iv": "0.147552490234375",
+    "ltt": "1793262298901",
+    "offset_seconds": 0.010264,
+    "provider_trade_age_seconds": 0.681
+  },
+  {
+    "strategy": "donchian|lookback20_buffer0|trend|afternoon|h60",
+    "entry_at": "2026-10-29 13:55:00+05:30",
+    "instrument_key": "NSE_FO|53668",
+    "source_at": "2026-10-29 08:24:59.280000+00:00",
+    "received_at": "2026-10-29 08:24:59.265907+00:00",
+    "greeks": {
+      "rho": 2.7561,
+      "vega": 5.075,
+      "delta": 0.89,
+      "gamma": 0.0004,
+      "theta": -7.8876
+    },
+    "iv": "0.157470703125",
+    "ltt": "1793262294699",
+    "offset_seconds": 0.014093,
+    "provider_trade_age_seconds": 4.5809999999999995
+  },
+  {
+    "strategy": "donchian|lookback20_buffer0|trend|afternoon|h60",
+    "entry_at": "2026-10-29 13:55:00+05:30",
+    "instrument_key": "NSE_FO|53750",
+    "source_at": "2026-10-29 08:24:59.582000+00:00",
+    "received_at": "2026-10-29 08:24:59.571736+00:00",
+    "greeks": {
+      "rho": 2.3604,
+      "vega": 8.4646,
+      "delta": 0.7561,
+      "gamma": 0.0008,
+      "theta": -11.8809
+    },
+    "iv": "0.1422119140625",
+    "ltt": "1793262299405",
+    "offset_seconds": 0.010264,
+    "provider_trade_age_seconds": 0.177
+  },
+  {
+    "strategy": "donchian|lookback20_buffer0|trend|afternoon|h60",
+    "entry_at": "2026-10-29 13:55:00+05:30",
+    "instrument_key": "NSE_FO|53872",
+    "source_at": "2026-10-29 08:24:59.424000+00:00",
+    "received_at": "2026-10-29 08:24:59.413269+00:00",
+    "greeks": {
+      "rho": 1.2675,
+      "vega": 10.4479,
+      "delta": 0.4029,
+      "gamma": 0.0011,
+      "theta": -13.2957
+    },
+    "iv": "0.128936767578125",
+    "ltt": "1793262299259",
+    "offset_seconds": 0.010731,
+    "provider_trade_age_seconds": 0.165
+  },
+  {
+    "strategy": "donchian|lookback20_buffer0|trend|afternoon|h60",
+    "entry_at": "2026-10-29 13:55:00+05:30",
+    "instrument_key": "NSE_FO|53932",
+    "source_at": "2026-10-29 08:24:59.582000+00:00",
+    "received_at": "2026-10-29 08:24:59.571736+00:00",
+    "greeks": {
+      "rho": 0.4905,
+      "vega": 6.4431,
+      "delta": 0.1554,
+      "gamma": 0.0007,
+      "theta": -7.753
+    },
+    "iv": "0.121917724609375",
+    "ltt": "1793262299418",
+    "offset_seconds": 0.010264,
+    "provider_trade_age_seconds": 0.164
+  },
+  {
+    "strategy": "donchian|lookback20_buffer0|trend|afternoon|h60",
+    "entry_at": "2026-10-29 13:55:00+05:30",
+    "instrument_key": "NSE_FO|53680",
+    "source_at": "2026-10-29 08:24:59.134000+00:00",
+    "received_at": "2026-10-29 08:24:59.135576+00:00",
+    "greeks": {
+      "rho": 2.6945,
+      "vega": 5.7493,
+      "delta": 0.8687,
+      "gamma": 0.0005,
+      "theta": -8.823
+    },
+    "iv": "0.155487060546875",
+    "ltt": "1793262298854",
+    "offset_seconds": -0.001576,
+    "provider_trade_age_seconds": 0.28
+  },
+  {
+    "strategy": "donchian|lookback20_buffer0|trend|afternoon|h60",
+    "entry_at": "2026-10-29 13:55:00+05:30",
+    "instrument_key": "NSE_FO|53926",
+    "source_at": "2026-10-29 08:24:59.134000+00:00",
+    "received_at": "2026-10-29 08:24:59.135576+00:00",
+    "greeks": {
+      "rho": 0.9223,
+      "vega": 9.2804,
+      "delta": 0.2928,
+      "gamma": 0.001,
+      "theta": -11.5165
+    },
+    "iv": "0.125732421875",
+    "ltt": "1793262298985",
+    "offset_seconds": -0.001576,
+    "provider_trade_age_seconds": 0.149
+  },
+  {
+    "strategy": "donchian|lookback20_buffer0|trend|afternoon|h60",
+    "entry_at": "2026-10-29 13:55:00+05:30",
+    "instrument_key": "NSE_FO|53860",
+    "source_at": "2026-10-29 08:24:59.876000+00:00",
+    "received_at": "2026-10-29 08:24:59.868615+00:00",
+    "greeks": {
+      "rho": 1.4455,
+      "vega": 10.714,
+      "delta": 0.4599,
+      "gamma": 0.0011,
+      "theta": -13.8603
+    },
+    "iv": "0.131072998046875",
+    "ltt": "1793262299709",
+    "offset_seconds": 0.007385,
+    "provider_trade_age_seconds": 0.167
+  },
+  {
+    "strategy": "donchian|lookback20_buffer0|trend|afternoon|h60",
+    "entry_at": "2026-10-29 13:55:00+05:30",
+    "instrument_key": "NSE_FO|53794",
+    "source_at": "2026-10-29 08:24:59.280000+00:00",
+    "received_at": "2026-10-29 08:24:59.265907+00:00",
+    "greeks": {
+      "rho": 1.9489,
+      "vega": 10.2607,
+      "delta": 0.622,
+      "gamma": 0.001,
+      "theta": -13.8688
+    },
+    "iv": "0.1369476318359375",
+    "ltt": "1793262299133",
+    "offset_seconds": 0.014093,
+    "provider_trade_age_seconds": 0.147
+  },
+  {
+    "strategy": "donchian|lookback20_buffer0|trend|afternoon|h60",
+    "entry_at": "2026-10-29 13:55:00+05:30",
+    "instrument_key": "NSE_FO|53940",
+    "source_at": "2026-10-29 08:24:59.876000+00:00",
+    "received_at": "2026-10-29 08:24:59.868615+00:00",
+    "greeks": {
+      "rho": 0.3837,
+      "vega": 5.447,
+      "delta": 0.1215,
+      "gamma": 0.0006,
+      "theta": -6.5298
+    },
+    "iv": "0.1214599609375",
+    "ltt": "1793262299642",
+    "offset_seconds": 0.007385,
+    "provider_trade_age_seconds": 0.234
+  },
+  {
+    "strategy": "donchian|lookback20_buffer0|trend|afternoon|h60",
+    "entry_at": "2026-10-29 13:55:00+05:30",
+    "instrument_key": "NSE_FO|53924",
+    "source_at": "2026-10-29 08:24:59.763000+00:00",
+    "received_at": "2026-10-29 08:24:59.756137+00:00",
+    "greeks": {
+      "rho": 1.0911,
+      "vega": 9.9618,
+      "delta": 0.3466,
+      "gamma": 0.0011,
+      "theta": -12.4971
+    },
+    "iv": "0.127105712890625",
+    "ltt": "1793262299591",
+    "offset_seconds": 0.006863,
+    "provider_trade_age_seconds": 0.172
+  },
+  {
+    "strategy": "donchian|lookback20_buffer0|trend|afternoon|h60",
+    "entry_at": "2026-10-29 13:55:00+05:30",
+    "instrument_key": "NSE_FO|53792",
+    "source_at": "2026-10-29 08:24:59.134000+00:00",
+    "received_at": "2026-10-29 08:24:59.135576+00:00",
+    "greeks": {
+      "rho": 2.0991,
+      "vega": 9.7668,
+      "delta": 0.6707,
+      "gamma": 0.001,
+      "theta": -13.3556
+    },
+    "iv": "0.1385498046875",
+    "ltt": "1793262299001",
+    "offset_seconds": -0.001576,
+    "provider_trade_age_seconds": 0.133
+  },
+  {
+    "strategy": "donchian|lookback20_buffer0|trend|afternoon|h60",
+    "entry_at": "2026-10-29 13:55:00+05:30",
+    "instrument_key": "NSE_FO|53682",
+    "source_at": "2026-10-29 08:24:59.582000+00:00",
+    "received_at": "2026-10-29 08:24:59.571736+00:00",
+    "greeks": {
+      "rho": 2.6426,
+      "vega": 6.284,
+      "delta": 0.8503,
+      "gamma": 0.0006,
+      "theta": -9.2745
+    },
+    "iv": "0.1495361328125",
+    "ltt": "1793262299214",
+    "offset_seconds": 0.010264,
+    "provider_trade_age_seconds": 0.368
+  },
+  {
+    "strategy": "donchian|lookback20_buffer0|trend|afternoon|h60",
+    "entry_at": "2026-10-29 13:55:00+05:30",
+    "instrument_key": "NSE_FO|53782",
+    "source_at": "2026-10-29 08:24:59.763000+00:00",
+    "received_at": "2026-10-29 08:24:59.756137+00:00",
+    "greeks": {
+      "rho": 2.2317,
+      "vega": 9.1788,
+      "delta": 0.714,
+      "gamma": 0.0009,
+      "theta": -12.8142
+    },
+    "iv": "0.141448974609375",
+    "ltt": "1793262299507",
+    "offset_seconds": 0.006863,
+    "provider_trade_age_seconds": 0.256
+  },
+  {
+    "strategy": "donchian|lookback20_buffer0|trend|afternoon|h60",
+    "entry_at": "2026-10-29 13:55:00+05:30",
+    "instrument_key": "NSE_FO|53930",
+    "source_at": "2026-10-29 08:24:59.876000+00:00",
+    "received_at": "2026-10-29 08:24:59.868615+00:00",
+    "greeks": {
+      "rho": 0.6192,
+      "vega": 7.4721,
+      "delta": 0.1963,
+      "gamma": 0.0008,
+      "theta": -9.0811
+    },
+    "iv": "0.123138427734375",
+    "ltt": "1793262299576",
+    "offset_seconds": 0.007385,
+    "provider_trade_age_seconds": 0.3
+  },
+  {
+    "strategy": "donchian|lookback20_buffer0|trend|afternoon|h60",
+    "entry_at": "2026-10-29 13:55:00+05:30",
+    "instrument_key": "NSE_FO|53928",
+    "source_at": "2026-10-29 08:24:59.134000+00:00",
+    "received_at": "2026-10-29 08:24:59.135576+00:00",
+    "greeks": {
+      "rho": 0.762,
+      "vega": 8.4233,
+      "delta": 0.2417,
+      "gamma": 0.0009,
+      "theta": -10.3133
+    },
+    "iv": "0.124053955078125",
+    "ltt": "1793262298949",
+    "offset_seconds": -0.001576,
+    "provider_trade_age_seconds": 0.185
+  },
+  {
+    "strategy": "donchian|lookback20_buffer0|trend|afternoon|h60",
+    "entry_at": "2026-10-29 13:55:00+05:30",
+    "instrument_key": "NSE_FO|53796",
+    "source_at": "2026-10-29 08:24:59.876000+00:00",
+    "received_at": "2026-10-29 08:24:59.868615+00:00",
+    "greeks": {
+      "rho": 1.7889,
+      "vega": 10.6007,
+      "delta": 0.5703,
+      "gamma": 0.0011,
+      "theta": -14.1368
+    },
+    "iv": "0.1351165771484375",
+    "ltt": "1793262299755",
+    "offset_seconds": 0.007385,
+    "provider_trade_age_seconds": 0.121
+  },
+  {
+    "strategy": "donchian|lookback20_buffer0|trend|afternoon|h60",
+    "entry_at": "2026-10-29 13:55:00+05:30",
+    "instrument_key": "NSE_FO|53836",
+    "source_at": "2026-10-29 08:24:59.876000+00:00",
+    "received_at": "2026-10-29 08:24:59.868615+00:00",
+    "greeks": {
+      "rho": 1.6205,
+      "vega": 10.7597,
+      "delta": 0.5161,
+      "gamma": 0.0011,
+      "theta": -14.0814
+    },
+    "iv": "0.132598876953125",
+    "ltt": "1793262299713",
+    "offset_seconds": 0.007385,
+    "provider_trade_age_seconds": 0.163
+  },
+  {
+    "strategy": "donchian|lookback20_buffer0|trend|afternoon|h60",
+    "entry_at": "2026-10-29 13:55:00+05:30",
+    "instrument_key": "NSE_FO|53942",
+    "source_at": "2026-10-29 08:24:59.424000+00:00",
+    "received_at": "2026-10-29 08:24:59.413269+00:00",
+    "greeks": {
+      "rho": 0.2947,
+      "vega": 4.502,
+      "delta": 0.0933,
+      "gamma": 0.0005,
+      "theta": -5.3834
+    },
+    "iv": "0.12115478515625",
+    "ltt": "1793262299238",
+    "offset_seconds": 0.010731,
+    "provider_trade_age_seconds": 0.186
+  },
+  {
+    "strategy": "ema_trend|12_26_gap0.5|trend|afternoon|h60",
+    "entry_at": "2026-10-26 13:40:00+05:30",
+    "instrument_key": "NSE_FO|51332",
+    "source_at": "2026-10-26 08:09:59.739000+00:00",
+    "received_at": "2026-10-26 08:09:59.510933+00:00",
+    "greeks": {
+      "rho": 0.4894,
+      "vega": 4.0042,
+      "delta": 0.7398,
+      "gamma": 0.0012,
+      "theta": -40.6416
+    },
+    "iv": "0.218505859375",
+    "ltt": "1793002199512",
+    "offset_seconds": 0.228067,
+    "provider_trade_age_seconds": 0.227
+  },
+  {
+    "strategy": "ema_trend|12_26_gap0.5|trend|afternoon|h60",
+    "entry_at": "2026-10-26 13:40:00+05:30",
+    "instrument_key": "NSE_FO|51352",
+    "source_at": "2026-10-26 08:10:00.184000+00:00",
+    "received_at": "2026-10-26 08:09:59.950094+00:00",
+    "greeks": {
+      "rho": 0.0982,
+      "vega": 2.8431,
+      "delta": 0.1474,
+      "gamma": 0.0009,
+      "theta": -28.172
+    },
+    "iv": "0.21331787109375",
+    "ltt": "1793002200002",
+    "offset_seconds": 0.233906,
+    "provider_trade_age_seconds": 0.182
+  },
+  {
+    "strategy": "ema_trend|12_26_gap0.5|trend|afternoon|h60",
+    "entry_at": "2026-10-26 13:40:00+05:30",
+    "instrument_key": "NSE_FO|51334",
+    "source_at": "2026-10-26 08:10:00.025000+00:00",
+    "received_at": "2026-10-26 08:09:59.884007+00:00",
+    "greeks": {
+      "rho": 0.4499,
+      "vega": 4.4171,
+      "delta": 0.6792,
+      "gamma": 0.0014,
+      "theta": -43.8934
+    },
+    "iv": "0.21392822265625",
+    "ltt": "1793002199956",
+    "offset_seconds": 0.140993,
+    "provider_trade_age_seconds": 0.069
+  },
+  {
+    "strategy": "ema_trend|12_26_gap0.5|trend|afternoon|h60",
+    "entry_at": "2026-10-26 13:40:00+05:30",
+    "instrument_key": "NSE_FO|51338",
+    "source_at": "2026-10-26 08:10:00.184000+00:00",
+    "received_at": "2026-10-26 08:09:59.950094+00:00",
+    "greeks": {
+      "rho": 0.4045,
+      "vega": 4.7342,
+      "delta": 0.61,
+      "gamma": 0.0015,
+      "theta": -46.34
+    },
+    "iv": "0.210723876953125",
+    "ltt": "1793002200016",
+    "offset_seconds": 0.233906,
+    "provider_trade_age_seconds": 0.168
+  },
+  {
+    "strategy": "ema_trend|12_26_gap0.5|trend|afternoon|h60",
+    "entry_at": "2026-10-26 13:40:00+05:30",
+    "instrument_key": "NSE_FO|51348",
+    "source_at": "2026-10-26 08:09:59.739000+00:00",
+    "received_at": "2026-10-26 08:09:59.510933+00:00",
+    "greeks": {
+      "rho": 0.1621,
+      "vega": 3.8667,
+      "delta": 0.2436,
+      "gamma": 0.0012,
+      "theta": -37.0531
+    },
+    "iv": "0.206298828125",
+    "ltt": "1793002199565",
+    "offset_seconds": 0.228067,
+    "provider_trade_age_seconds": 0.174
+  },
+  {
+    "strategy": "ema_trend|12_26_gap0.5|trend|afternoon|h60",
+    "entry_at": "2026-10-26 13:40:00+05:30",
+    "instrument_key": "NSE_FO|51316",
+    "source_at": "2026-10-26 08:09:59.578000+00:00",
+    "received_at": "2026-10-26 08:09:59.357561+00:00",
+    "greeks": {
+      "rho": 0.6146,
+      "vega": 1.4595,
+      "delta": 0.9405,
+      "gamma": 0.0003,
+      "theta": -18.6623
+    },
+    "iv": "0.2752685546875",
+    "ltt": "1793002192747",
+    "offset_seconds": 0.220439,
+    "provider_trade_age_seconds": 6.8309999999999995
+  },
+  {
+    "strategy": "ema_trend|12_26_gap0.5|trend|afternoon|h60",
+    "entry_at": "2026-10-26 13:40:00+05:30",
+    "instrument_key": "NSE_FO|51328",
+    "source_at": "2026-10-26 08:09:59.578000+00:00",
+    "received_at": "2026-10-26 08:09:59.357561+00:00",
+    "greeks": {
+      "rho": 0.5519,
+      "vega": 3.0435,
+      "delta": 0.8366,
+      "gamma": 0.0009,
+      "theta": -32.0554
+    },
+    "iv": "0.22674560546875",
+    "ltt": "1793002199082",
+    "offset_seconds": 0.220439,
+    "provider_trade_age_seconds": 0.496
+  },
+  {
+    "strategy": "ema_trend|12_26_gap0.5|trend|afternoon|h60",
+    "entry_at": "2026-10-26 13:40:00+05:30",
+    "instrument_key": "NSE_FO|51344",
+    "source_at": "2026-10-26 08:09:59.578000+00:00",
+    "received_at": "2026-10-26 08:09:59.357561+00:00",
+    "greeks": {
+      "rho": 0.2524,
+      "vega": 4.6965,
+      "delta": 0.3796,
+      "gamma": 0.0015,
+      "theta": -44.6721
+    },
+    "iv": "0.20477294921875",
+    "ltt": "1793002199403",
+    "offset_seconds": 0.220439,
+    "provider_trade_age_seconds": 0.175
+  },
+  {
+    "strategy": "ema_trend|12_26_gap0.5|trend|afternoon|h60",
+    "entry_at": "2026-10-26 13:40:00+05:30",
+    "instrument_key": "NSE_FO|51324",
+    "source_at": "2026-10-26 08:09:59.578000+00:00",
+    "received_at": "2026-10-26 08:09:59.357561+00:00",
+    "greeks": {
+      "rho": 0.5915,
+      "vega": 2.1696,
+      "delta": 0.8997,
+      "gamma": 0.0006,
+      "theta": -23.9891
+    },
+    "iv": "0.238037109375",
+    "ltt": "1793002197870",
+    "offset_seconds": 0.220439,
+    "provider_trade_age_seconds": 1.708
+  },
+  {
+    "strategy": "ema_trend|12_26_gap0.5|trend|afternoon|h60",
+    "entry_at": "2026-10-26 13:40:00+05:30",
+    "instrument_key": "NSE_FO|51354",
+    "source_at": "2026-10-26 08:09:59.739000+00:00",
+    "received_at": "2026-10-26 08:09:59.510933+00:00",
+    "greeks": {
+      "rho": 0.0751,
+      "vega": 2.3603,
+      "delta": 0.1127,
+      "gamma": 0.0007,
+      "theta": -23.8227
+    },
+    "iv": "0.21728515625",
+    "ltt": "1793002199573",
+    "offset_seconds": 0.228067,
+    "provider_trade_age_seconds": 0.166
+  },
+  {
+    "strategy": "ema_trend|12_26_gap0.5|trend|afternoon|h60",
+    "entry_at": "2026-10-26 13:40:00+05:30",
+    "instrument_key": "NSE_FO|51350",
+    "source_at": "2026-10-26 08:10:00.025000+00:00",
+    "received_at": "2026-10-26 08:09:59.884007+00:00",
+    "greeks": {
+      "rho": 0.1268,
+      "vega": 3.3527,
+      "delta": 0.1904,
+      "gamma": 0.0011,
+      "theta": -32.6031
+    },
+    "iv": "0.2093505859375",
+    "ltt": "1793002199947",
+    "offset_seconds": 0.140993,
+    "provider_trade_age_seconds": 0.078
+  },
+  {
+    "strategy": "ema_trend|12_26_gap0.5|trend|afternoon|h60",
+    "entry_at": "2026-10-26 13:40:00+05:30",
+    "instrument_key": "NSE_FO|51358",
+    "source_at": "2026-10-26 08:09:59.578000+00:00",
+    "received_at": "2026-10-26 08:09:59.357561+00:00",
+    "greeks": {
+      "rho": 0.0436,
+      "vega": 1.5721,
+      "delta": 0.0654,
+      "gamma": 0.0005,
+      "theta": -16.5808
+    },
+    "iv": "0.22705078125",
+    "ltt": "1793002199406",
+    "offset_seconds": 0.220439,
+    "provider_trade_age_seconds": 0.172
+  },
+  {
+    "strategy": "ema_trend|12_26_gap0.5|trend|afternoon|h60",
+    "entry_at": "2026-10-26 13:40:00+05:30",
+    "instrument_key": "NSE_FO|51346",
+    "source_at": "2026-10-26 08:09:59.281000+00:00",
+    "received_at": "2026-10-26 08:09:59.047108+00:00",
+    "greeks": {
+      "rho": 0.2049,
+      "vega": 4.3405,
+      "delta": 0.308,
+      "gamma": 0.0014,
+      "theta": -41.4395
+    },
+    "iv": "0.205535888671875",
+    "ltt": "1793002199136",
+    "offset_seconds": 0.233892,
+    "provider_trade_age_seconds": 0.145
+  },
+  {
+    "strategy": "ema_trend|12_26_gap0.5|trend|afternoon|h60",
+    "entry_at": "2026-10-26 13:40:00+05:30",
+    "instrument_key": "NSE_FO|51330",
+    "source_at": "2026-10-26 08:09:59.281000+00:00",
+    "received_at": "2026-10-26 08:09:59.047108+00:00",
+    "greeks": {
+      "rho": 0.5229,
+      "vega": 3.5407,
+      "delta": 0.7915,
+      "gamma": 0.001,
+      "theta": -36.7397
+    },
+    "iv": "0.223388671875",
+    "ltt": "1793002199124",
+    "offset_seconds": 0.233892,
+    "provider_trade_age_seconds": 0.157
+  },
+  {
+    "strategy": "ema_trend|12_26_gap0.5|trend|afternoon|h60",
+    "entry_at": "2026-10-26 13:40:00+05:30",
+    "instrument_key": "NSE_FO|51320",
+    "source_at": "2026-10-26 08:09:59.578000+00:00",
+    "received_at": "2026-10-26 08:09:59.357561+00:00",
+    "greeks": {
+      "rho": 0.6046,
+      "vega": 1.8119,
+      "delta": 0.9213,
+      "gamma": 0.0005,
+      "theta": -20.5994
+    },
+    "iv": "0.2447509765625",
+    "ltt": "1793002198325",
+    "offset_seconds": 0.220439,
+    "provider_trade_age_seconds": 1.2530000000000001
+  },
+  {
+    "strategy": "ema_trend|12_26_gap0.5|trend|afternoon|h60",
+    "entry_at": "2026-10-26 13:40:00+05:30",
+    "instrument_key": "NSE_FO|51342",
+    "source_at": "2026-10-26 08:10:00.184000+00:00",
+    "received_at": "2026-10-26 08:09:59.950094+00:00",
+    "greeks": {
+      "rho": 0.3035,
+      "vega": 4.8936,
+      "delta": 0.4568,
+      "gamma": 0.0016,
+      "theta": -46.8244
+    },
+    "iv": "0.20599365234375",
+    "ltt": "1793002200110",
+    "offset_seconds": 0.233906,
+    "provider_trade_age_seconds": 0.074
+  },
+  {
+    "strategy": "ema_trend|12_26_gap0.5|trend|afternoon|h60",
+    "entry_at": "2026-10-26 13:40:00+05:30",
+    "instrument_key": "NSE_FO|51340",
+    "source_at": "2026-10-26 08:09:59.739000+00:00",
+    "received_at": "2026-10-26 08:09:59.510933+00:00",
+    "greeks": {
+      "rho": 0.355,
+      "vega": 4.9037,
+      "delta": 0.5348,
+      "gamma": 0.0015,
+      "theta": -47.4073
+    },
+    "iv": "0.2081298828125",
+    "ltt": "1793002199574",
+    "offset_seconds": 0.228067,
+    "provider_trade_age_seconds": 0.165
+  },
+  {
+    "strategy": "ema_trend|12_26_gap0.5|trend|afternoon|h60",
+    "entry_at": "2026-10-26 13:40:00+05:30",
+    "instrument_key": "NSE_FO|51318",
+    "source_at": "2026-10-26 08:09:59.578000+00:00",
+    "received_at": "2026-10-26 08:09:59.357561+00:00",
+    "greeks": {
+      "rho": 0.6004,
+      "vega": 1.88,
+      "delta": 0.9174,
+      "gamma": 0.0004,
+      "theta": -24.4109
+    },
+    "iv": "0.279541015625",
+    "ltt": "1793002198403",
+    "offset_seconds": 0.220439,
+    "provider_trade_age_seconds": 1.175
+  },
+  {
+    "strategy": "ema_trend|12_26_gap0.5|trend|afternoon|h60",
+    "entry_at": "2026-10-26 13:40:00+05:30",
+    "instrument_key": "NSE_FO|51326",
+    "source_at": "2026-10-26 08:10:00.184000+00:00",
+    "received_at": "2026-10-26 08:09:59.950094+00:00",
+    "greeks": {
+      "rho": 0.5743,
+      "vega": 2.582,
+      "delta": 0.872,
+      "gamma": 0.0007,
+      "theta": -27.8174
+    },
+    "iv": "0.23193359375",
+    "ltt": "1793002200054",
+    "offset_seconds": 0.233906,
+    "provider_trade_age_seconds": 0.13
+  },
+  {
+    "strategy": "ema_trend|12_26_gap0.5|trend|afternoon|h60",
+    "entry_at": "2026-10-26 13:40:00+05:30",
+    "instrument_key": "NSE_FO|51356",
+    "source_at": "2026-10-26 08:10:00.184000+00:00",
+    "received_at": "2026-10-26 08:09:59.950094+00:00",
+    "greeks": {
+      "rho": 0.057,
+      "vega": 1.9287,
+      "delta": 0.0855,
+      "gamma": 0.0006,
+      "theta": -19.8487
+    },
+    "iv": "0.2215576171875",
+    "ltt": "1793002199940",
+    "offset_seconds": 0.233906,
+    "provider_trade_age_seconds": 0.244
+  },
+  {
+    "strategy": "ema_trend|12_26_gap0.5|trend|afternoon|h60",
+    "entry_at": "2026-10-28 13:05:00+05:30",
+    "instrument_key": "NSE_FO|53720",
+    "source_at": "2026-10-28 07:34:59.629000+00:00",
+    "received_at": "2026-10-28 07:34:59.541737+00:00",
+    "greeks": {
+      "rho": 2.3638,
+      "vega": 11.0721,
+      "delta": 0.6337,
+      "gamma": 0.0008,
+      "theta": -14.7811
+    },
+    "iv": "0.1628875732421875",
+    "ltt": "1793172899274",
+    "offset_seconds": 0.087263,
+    "provider_trade_age_seconds": 0.355
+  },
+  {
+    "strategy": "ema_trend|12_26_gap0.5|trend|afternoon|h60",
+    "entry_at": "2026-10-28 13:05:00+05:30",
+    "instrument_key": "NSE_FO|53702",
+    "source_at": "2026-10-28 07:34:59.629000+00:00",
+    "received_at": "2026-10-28 07:34:59.541737+00:00",
+    "greeks": {
+      "rho": 2.5035,
+      "vega": 10.6307,
+      "delta": 0.6719,
+      "gamma": 0.0008,
+      "theta": -14.2518
+    },
+    "iv": "0.16357421875",
+    "ltt": "1793172899340",
+    "offset_seconds": 0.087263,
+    "provider_trade_age_seconds": 0.289
+  },
+  {
+    "strategy": "ema_trend|12_26_gap0.5|trend|afternoon|h60",
+    "entry_at": "2026-10-28 13:05:00+05:30",
+    "instrument_key": "NSE_FO|53656",
+    "source_at": "2026-10-28 07:34:59.779000+00:00",
+    "received_at": "2026-10-28 07:34:59.696899+00:00",
+    "greeks": {
+      "rho": 3.1266,
+      "vega": 6.9784,
+      "delta": 0.8461,
+      "gamma": 0.0005,
+      "theta": -9.9052
+    },
+    "iv": "0.173187255859375",
+    "ltt": "1793172897733",
+    "offset_seconds": 0.082101,
+    "provider_trade_age_seconds": 2.046
+  },
+  {
+    "strategy": "ema_trend|12_26_gap0.5|trend|afternoon|h60",
+    "entry_at": "2026-10-28 13:05:00+05:30",
+    "instrument_key": "NSE_FO|53668",
+    "source_at": "2026-10-28 07:34:59.779000+00:00",
+    "received_at": "2026-10-28 07:34:59.696899+00:00",
+    "greeks": {
+      "rho": 2.8592,
+      "vega": 8.9268,
+      "delta": 0.7703,
+      "gamma": 0.0006,
+      "theta": -12.3135
+    },
+    "iv": "0.168304443359375",
+    "ltt": "1793172897999",
+    "offset_seconds": 0.082101,
+    "provider_trade_age_seconds": 1.78
+  },
+  {
+    "strategy": "ema_trend|12_26_gap0.5|trend|afternoon|h60",
+    "entry_at": "2026-10-28 13:05:00+05:30",
+    "instrument_key": "NSE_FO|53750",
+    "source_at": "2026-10-28 07:34:59.779000+00:00",
+    "received_at": "2026-10-28 07:34:59.696899+00:00",
+    "greeks": {
+      "rho": 2.2224,
+      "vega": 11.403,
+      "delta": 0.5951,
+      "gamma": 0.0008,
+      "theta": -14.9591
+    },
+    "iv": "0.160064697265625",
+    "ltt": "1793172899562",
+    "offset_seconds": 0.082101,
+    "provider_trade_age_seconds": 0.217
+  },
+  {
+    "strategy": "ema_trend|12_26_gap0.5|trend|afternoon|h60",
+    "entry_at": "2026-10-28 13:05:00+05:30",
+    "instrument_key": "NSE_FO|53872",
+    "source_at": "2026-10-28 07:34:59.779000+00:00",
+    "received_at": "2026-10-28 07:34:59.696899+00:00",
+    "greeks": {
+      "rho": 1.1124,
+      "vega": 10.1678,
+      "delta": 0.296,
+      "gamma": 0.0008,
+      "theta": -12.4868
+    },
+    "iv": "0.14984130859375",
+    "ltt": "1793172899677",
+    "offset_seconds": 0.082101,
+    "provider_trade_age_seconds": 0.102
+  },
+  {
+    "strategy": "ema_trend|12_26_gap0.5|trend|afternoon|h60",
+    "entry_at": "2026-10-28 13:05:00+05:30",
+    "instrument_key": "NSE_FO|53664",
+    "source_at": "2026-10-28 07:34:58.729000+00:00",
+    "received_at": "2026-10-28 07:34:58.643897+00:00",
+    "greeks": {
+      "rho": 2.9581,
+      "vega": 8.2843,
+      "delta": 0.7981,
+      "gamma": 0.0006,
+      "theta": -11.5308
+    },
+    "iv": "0.169830322265625",
+    "ltt": "1793172898030",
+    "offset_seconds": 0.085103,
+    "provider_trade_age_seconds": 0.699
+  },
+  {
+    "strategy": "ema_trend|12_26_gap0.5|trend|afternoon|h60",
+    "entry_at": "2026-10-28 13:05:00+05:30",
+    "instrument_key": "NSE_FO|53680",
+    "source_at": "2026-10-28 07:35:00.079000+00:00",
+    "received_at": "2026-10-28 07:34:59.992998+00:00",
+    "greeks": {
+      "rho": 2.7508,
+      "vega": 9.5415,
+      "delta": 0.7401,
+      "gamma": 0.0007,
+      "theta": -13.0302
+    },
+    "iv": "0.1666259765625",
+    "ltt": "1793172899489",
+    "offset_seconds": 0.086002,
+    "provider_trade_age_seconds": 0.59
+  },
+  {
+    "strategy": "ema_trend|12_26_gap0.5|trend|afternoon|h60",
+    "entry_at": "2026-10-28 13:05:00+05:30",
+    "instrument_key": "NSE_FO|53926",
+    "source_at": "2026-10-28 07:34:59.629000+00:00",
+    "received_at": "2026-10-28 07:34:59.541737+00:00",
+    "greeks": {
+      "rho": 0.8249,
+      "vega": 8.6942,
+      "delta": 0.2192,
+      "gamma": 0.0007,
+      "theta": -10.4759
+    },
+    "iv": "0.1470184326171875",
+    "ltt": "1793172899453",
+    "offset_seconds": 0.087263,
+    "provider_trade_age_seconds": 0.176
+  },
+  {
+    "strategy": "ema_trend|12_26_gap0.5|trend|afternoon|h60",
+    "entry_at": "2026-10-28 13:05:00+05:30",
+    "instrument_key": "NSE_FO|53860",
+    "source_at": "2026-10-28 07:34:59.629000+00:00",
+    "received_at": "2026-10-28 07:34:59.541737+00:00",
+    "greeks": {
+      "rho": 1.2682,
+      "vega": 10.753,
+      "delta": 0.3377,
+      "gamma": 0.0008,
+      "theta": -13.3534
+    },
+    "iv": "0.151519775390625",
+    "ltt": "1793172899471",
+    "offset_seconds": 0.087263,
+    "provider_trade_age_seconds": 0.158
+  },
+  {
+    "strategy": "ema_trend|12_26_gap0.5|trend|afternoon|h60",
+    "entry_at": "2026-10-28 13:05:00+05:30",
+    "instrument_key": "NSE_FO|53794",
+    "source_at": "2026-10-28 07:35:00.079000+00:00",
+    "received_at": "2026-10-28 07:34:59.992998+00:00",
+    "greeks": {
+      "rho": 1.7522,
+      "vega": 11.6997,
+      "delta": 0.4678,
+      "gamma": 0.0009,
+      "theta": -14.9899
+    },
+    "iv": "0.1563262939453125",
+    "ltt": "1793172899865",
+    "offset_seconds": 0.086002,
+    "provider_trade_age_seconds": 0.214
+  },
+  {
+    "strategy": "ema_trend|12_26_gap0.5|trend|afternoon|h60",
+    "entry_at": "2026-10-28 13:05:00+05:30",
+    "instrument_key": "NSE_FO|53924",
+    "source_at": "2026-10-28 07:34:59.330000+00:00",
+    "received_at": "2026-10-28 07:34:59.251358+00:00",
+    "greeks": {
+      "rho": 0.9626,
+      "vega": 9.467,
+      "delta": 0.256,
+      "gamma": 0.0007,
+      "theta": -11.5017
+    },
+    "iv": "0.1482391357421875",
+    "ltt": "1793172899176",
+    "offset_seconds": 0.078642,
+    "provider_trade_age_seconds": 0.154
+  },
+  {
+    "strategy": "ema_trend|12_26_gap0.5|trend|afternoon|h60",
+    "entry_at": "2026-10-28 13:05:00+05:30",
+    "instrument_key": "NSE_FO|53792",
+    "source_at": "2026-10-28 07:34:59.629000+00:00",
+    "received_at": "2026-10-28 07:34:59.541737+00:00",
+    "greeks": {
+      "rho": 1.9125,
+      "vega": 11.7334,
+      "delta": 0.5111,
+      "gamma": 0.0009,
+      "theta": -15.1724
+    },
+    "iv": "0.15777587890625",
+    "ltt": "1793172899436",
+    "offset_seconds": 0.087263,
+    "provider_trade_age_seconds": 0.193
+  },
+  {
+    "strategy": "ema_trend|12_26_gap0.5|trend|afternoon|h60",
+    "entry_at": "2026-10-28 13:05:00+05:30",
+    "instrument_key": "NSE_FO|53682",
+    "source_at": "2026-10-28 07:34:59.330000+00:00",
+    "received_at": "2026-10-28 07:34:59.251358+00:00",
+    "greeks": {
+      "rho": 2.6322,
+      "vega": 10.1154,
+      "delta": 0.7073,
+      "gamma": 0.0007,
+      "theta": -13.6683
+    },
+    "iv": "0.1648712158203125",
+    "ltt": "1793172899016",
+    "offset_seconds": 0.078642,
+    "provider_trade_age_seconds": 0.314
+  },
+  {
+    "strategy": "ema_trend|12_26_gap0.5|trend|afternoon|h60",
+    "entry_at": "2026-10-28 13:05:00+05:30",
+    "instrument_key": "NSE_FO|53662",
+    "source_at": "2026-10-28 07:35:00.079000+00:00",
+    "received_at": "2026-10-28 07:34:59.992998+00:00",
+    "greeks": {
+      "rho": 3.0457,
+      "vega": 7.6402,
+      "delta": 0.823,
+      "gamma": 0.0005,
+      "theta": -10.7585
+    },
+    "iv": "0.17181396484375",
+    "ltt": "1793172894309",
+    "offset_seconds": 0.086002,
+    "provider_trade_age_seconds": 5.77
+  },
+  {
+    "strategy": "ema_trend|12_26_gap0.5|trend|afternoon|h60",
+    "entry_at": "2026-10-28 13:05:00+05:30",
+    "instrument_key": "NSE_FO|53782",
+    "source_at": "2026-10-28 07:34:59.330000+00:00",
+    "received_at": "2026-10-28 07:34:59.251358+00:00",
+    "greeks": {
+      "rho": 2.0687,
+      "vega": 11.6326,
+      "delta": 0.5534,
+      "gamma": 0.0008,
+      "theta": -15.1729
+    },
+    "iv": "0.159149169921875",
+    "ltt": "1793172899137",
+    "offset_seconds": 0.078642,
+    "provider_trade_age_seconds": 0.193
+  },
+  {
+    "strategy": "ema_trend|12_26_gap0.5|trend|afternoon|h60",
+    "entry_at": "2026-10-28 13:05:00+05:30",
+    "instrument_key": "NSE_FO|53930",
+    "source_at": "2026-10-28 07:34:59.330000+00:00",
+    "received_at": "2026-10-28 07:34:59.251358+00:00",
+    "greeks": {
+      "rho": 0.5812,
+      "vega": 6.9896,
+      "delta": 0.1543,
+      "gamma": 0.0006,
+      "theta": -8.2952
+    },
+    "iv": "0.144805908203125",
+    "ltt": "1793172899134",
+    "offset_seconds": 0.078642,
+    "provider_trade_age_seconds": 0.196
+  },
+  {
+    "strategy": "ema_trend|12_26_gap0.5|trend|afternoon|h60",
+    "entry_at": "2026-10-28 13:05:00+05:30",
+    "instrument_key": "NSE_FO|53928",
+    "source_at": "2026-10-28 07:35:00.079000+00:00",
+    "received_at": "2026-10-28 07:34:59.992998+00:00",
+    "greeks": {
+      "rho": 0.6983,
+      "vega": 7.866,
+      "delta": 0.1855,
+      "gamma": 0.0006,
+      "theta": -9.414
+    },
+    "iv": "0.146026611328125",
+    "ltt": "1793172899894",
+    "offset_seconds": 0.086002,
+    "provider_trade_age_seconds": 0.185
+  },
+  {
+    "strategy": "ema_trend|12_26_gap0.5|trend|afternoon|h60",
+    "entry_at": "2026-10-28 13:05:00+05:30",
+    "instrument_key": "NSE_FO|53796",
+    "source_at": "2026-10-28 07:34:59.330000+00:00",
+    "received_at": "2026-10-28 07:34:59.251358+00:00",
+    "greeks": {
+      "rho": 1.5889,
+      "vega": 11.5232,
+      "delta": 0.4238,
+      "gamma": 0.0009,
+      "theta": -14.5908
+    },
+    "iv": "0.1544952392578125",
+    "ltt": "1793172899236",
+    "offset_seconds": 0.078642,
+    "provider_trade_age_seconds": 0.094
+  },
+  {
+    "strategy": "ema_trend|12_26_gap0.5|trend|afternoon|h60",
+    "entry_at": "2026-10-28 13:05:00+05:30",
+    "instrument_key": "NSE_FO|53836",
+    "source_at": "2026-10-28 07:34:59.629000+00:00",
+    "received_at": "2026-10-28 07:34:59.541737+00:00",
+    "greeks": {
+      "rho": 1.4282,
+      "vega": 11.2088,
+      "delta": 0.3807,
+      "gamma": 0.0008,
+      "theta": -14.0735
+    },
+    "iv": "0.1531982421875",
+    "ltt": "1793172899455",
+    "offset_seconds": 0.087263,
+    "provider_trade_age_seconds": 0.174
+  },
+  {
+    "strategy": "ema_trend|12_26_gap0.5|trend|afternoon|h60",
+    "entry_at": "2026-10-29 13:55:00+05:30",
+    "instrument_key": "NSE_FO|53720",
+    "source_at": "2026-10-29 08:24:59.876000+00:00",
+    "received_at": "2026-10-29 08:24:59.868615+00:00",
+    "greeks": {
+      "rho": 2.4654,
+      "vega": 7.7592,
+      "delta": 0.7909,
+      "gamma": 0.0007,
+      "theta": -11.1128
+    },
+    "iv": "0.145111083984375",
+    "ltt": "1793262299688",
+    "offset_seconds": 0.007385,
+    "provider_trade_age_seconds": 0.188
+  },
+  {
+    "strategy": "ema_trend|12_26_gap0.5|trend|afternoon|h60",
+    "entry_at": "2026-10-29 13:55:00+05:30",
+    "instrument_key": "NSE_FO|53702",
+    "source_at": "2026-10-29 08:24:59.582000+00:00",
+    "received_at": "2026-10-29 08:24:59.571736+00:00",
+    "greeks": {
+      "rho": 2.5592,
+      "vega": 7.0274,
+      "delta": 0.8222,
+      "gamma": 0.0007,
+      "theta": -10.234
+    },
+    "iv": "0.147552490234375",
+    "ltt": "1793262298901",
+    "offset_seconds": 0.010264,
+    "provider_trade_age_seconds": 0.681
+  },
+  {
+    "strategy": "ema_trend|12_26_gap0.5|trend|afternoon|h60",
+    "entry_at": "2026-10-29 13:55:00+05:30",
+    "instrument_key": "NSE_FO|53668",
+    "source_at": "2026-10-29 08:24:59.280000+00:00",
+    "received_at": "2026-10-29 08:24:59.265907+00:00",
+    "greeks": {
+      "rho": 2.7561,
+      "vega": 5.075,
+      "delta": 0.89,
+      "gamma": 0.0004,
+      "theta": -7.8876
+    },
+    "iv": "0.157470703125",
+    "ltt": "1793262294699",
+    "offset_seconds": 0.014093,
+    "provider_trade_age_seconds": 4.5809999999999995
+  },
+  {
+    "strategy": "ema_trend|12_26_gap0.5|trend|afternoon|h60",
+    "entry_at": "2026-10-29 13:55:00+05:30",
+    "instrument_key": "NSE_FO|53750",
+    "source_at": "2026-10-29 08:24:59.582000+00:00",
+    "received_at": "2026-10-29 08:24:59.571736+00:00",
+    "greeks": {
+      "rho": 2.3604,
+      "vega": 8.4646,
+      "delta": 0.7561,
+      "gamma": 0.0008,
+      "theta": -11.8809
+    },
+    "iv": "0.1422119140625",
+    "ltt": "1793262299405",
+    "offset_seconds": 0.010264,
+    "provider_trade_age_seconds": 0.177
+  },
+  {
+    "strategy": "ema_trend|12_26_gap0.5|trend|afternoon|h60",
+    "entry_at": "2026-10-29 13:55:00+05:30",
+    "instrument_key": "NSE_FO|53872",
+    "source_at": "2026-10-29 08:24:59.424000+00:00",
+    "received_at": "2026-10-29 08:24:59.413269+00:00",
+    "greeks": {
+      "rho": 1.2675,
+      "vega": 10.4479,
+      "delta": 0.4029,
+      "gamma": 0.0011,
+      "theta": -13.2957
+    },
+    "iv": "0.128936767578125",
+    "ltt": "1793262299259",
+    "offset_seconds": 0.010731,
+    "provider_trade_age_seconds": 0.165
+  },
+  {
+    "strategy": "ema_trend|12_26_gap0.5|trend|afternoon|h60",
+    "entry_at": "2026-10-29 13:55:00+05:30",
+    "instrument_key": "NSE_FO|53932",
+    "source_at": "2026-10-29 08:24:59.582000+00:00",
+    "received_at": "2026-10-29 08:24:59.571736+00:00",
+    "greeks": {
+      "rho": 0.4905,
+      "vega": 6.4431,
+      "delta": 0.1554,
+      "gamma": 0.0007,
+      "theta": -7.753
+    },
+    "iv": "0.121917724609375",
+    "ltt": "1793262299418",
+    "offset_seconds": 0.010264,
+    "provider_trade_age_seconds": 0.164
+  },
+  {
+    "strategy": "ema_trend|12_26_gap0.5|trend|afternoon|h60",
+    "entry_at": "2026-10-29 13:55:00+05:30",
+    "instrument_key": "NSE_FO|53680",
+    "source_at": "2026-10-29 08:24:59.134000+00:00",
+    "received_at": "2026-10-29 08:24:59.135576+00:00",
+    "greeks": {
+      "rho": 2.6945,
+      "vega": 5.7493,
+      "delta": 0.8687,
+      "gamma": 0.0005,
+      "theta": -8.823
+    },
+    "iv": "0.155487060546875",
+    "ltt": "1793262298854",
+    "offset_seconds": -0.001576,
+    "provider_trade_age_seconds": 0.28
+  },
+  {
+    "strategy": "ema_trend|12_26_gap0.5|trend|afternoon|h60",
+    "entry_at": "2026-10-29 13:55:00+05:30",
+    "instrument_key": "NSE_FO|53926",
+    "source_at": "2026-10-29 08:24:59.134000+00:00",
+    "received_at": "2026-10-29 08:24:59.135576+00:00",
+    "greeks": {
+      "rho": 0.9223,
+      "vega": 9.2804,
+      "delta": 0.2928,
+      "gamma": 0.001,
+      "theta": -11.5165
+    },
+    "iv": "0.125732421875",
+    "ltt": "1793262298985",
+    "offset_seconds": -0.001576,
+    "provider_trade_age_seconds": 0.149
+  },
+  {
+    "strategy": "ema_trend|12_26_gap0.5|trend|afternoon|h60",
+    "entry_at": "2026-10-29 13:55:00+05:30",
+    "instrument_key": "NSE_FO|53860",
+    "source_at": "2026-10-29 08:24:59.876000+00:00",
+    "received_at": "2026-10-29 08:24:59.868615+00:00",
+    "greeks": {
+      "rho": 1.4455,
+      "vega": 10.714,
+      "delta": 0.4599,
+      "gamma": 0.0011,
+      "theta": -13.8603
+    },
+    "iv": "0.131072998046875",
+    "ltt": "1793262299709",
+    "offset_seconds": 0.007385,
+    "provider_trade_age_seconds": 0.167
+  },
+  {
+    "strategy": "ema_trend|12_26_gap0.5|trend|afternoon|h60",
+    "entry_at": "2026-10-29 13:55:00+05:30",
+    "instrument_key": "NSE_FO|53794",
+    "source_at": "2026-10-29 08:24:59.280000+00:00",
+    "received_at": "2026-10-29 08:24:59.265907+00:00",
+    "greeks": {
+      "rho": 1.9489,
+      "vega": 10.2607,
+      "delta": 0.622,
+      "gamma": 0.001,
+      "theta": -13.8688
+    },
+    "iv": "0.1369476318359375",
+    "ltt": "1793262299133",
+    "offset_seconds": 0.014093,
+    "provider_trade_age_seconds": 0.147
+  },
+  {
+    "strategy": "ema_trend|12_26_gap0.5|trend|afternoon|h60",
+    "entry_at": "2026-10-29 13:55:00+05:30",
+    "instrument_key": "NSE_FO|53940",
+    "source_at": "2026-10-29 08:24:59.876000+00:00",
+    "received_at": "2026-10-29 08:24:59.868615+00:00",
+    "greeks": {
+      "rho": 0.3837,
+      "vega": 5.447,
+      "delta": 0.1215,
+      "gamma": 0.0006,
+      "theta": -6.5298
+    },
+    "iv": "0.1214599609375",
+    "ltt": "1793262299642",
+    "offset_seconds": 0.007385,
+    "provider_trade_age_seconds": 0.234
+  },
+  {
+    "strategy": "ema_trend|12_26_gap0.5|trend|afternoon|h60",
+    "entry_at": "2026-10-29 13:55:00+05:30",
+    "instrument_key": "NSE_FO|53924",
+    "source_at": "2026-10-29 08:24:59.763000+00:00",
+    "received_at": "2026-10-29 08:24:59.756137+00:00",
+    "greeks": {
+      "rho": 1.0911,
+      "vega": 9.9618,
+      "delta": 0.3466,
+      "gamma": 0.0011,
+      "theta": -12.4971
+    },
+    "iv": "0.127105712890625",
+    "ltt": "1793262299591",
+    "offset_seconds": 0.006863,
+    "provider_trade_age_seconds": 0.172
+  },
+  {
+    "strategy": "ema_trend|12_26_gap0.5|trend|afternoon|h60",
+    "entry_at": "2026-10-29 13:55:00+05:30",
+    "instrument_key": "NSE_FO|53792",
+    "source_at": "2026-10-29 08:24:59.134000+00:00",
+    "received_at": "2026-10-29 08:24:59.135576+00:00",
+    "greeks": {
+      "rho": 2.0991,
+      "vega": 9.7668,
+      "delta": 0.6707,
+      "gamma": 0.001,
+      "theta": -13.3556
+    },
+    "iv": "0.1385498046875",
+    "ltt": "1793262299001",
+    "offset_seconds": -0.001576,
+    "provider_trade_age_seconds": 0.133
+  },
+  {
+    "strategy": "ema_trend|12_26_gap0.5|trend|afternoon|h60",
+    "entry_at": "2026-10-29 13:55:00+05:30",
+    "instrument_key": "NSE_FO|53682",
+    "source_at": "2026-10-29 08:24:59.582000+00:00",
+    "received_at": "2026-10-29 08:24:59.571736+00:00",
+    "greeks": {
+      "rho": 2.6426,
+      "vega": 6.284,
+      "delta": 0.8503,
+      "gamma": 0.0006,
+      "theta": -9.2745
+    },
+    "iv": "0.1495361328125",
+    "ltt": "1793262299214",
+    "offset_seconds": 0.010264,
+    "provider_trade_age_seconds": 0.368
+  },
+  {
+    "strategy": "ema_trend|12_26_gap0.5|trend|afternoon|h60",
+    "entry_at": "2026-10-29 13:55:00+05:30",
+    "instrument_key": "NSE_FO|53782",
+    "source_at": "2026-10-29 08:24:59.763000+00:00",
+    "received_at": "2026-10-29 08:24:59.756137+00:00",
+    "greeks": {
+      "rho": 2.2317,
+      "vega": 9.1788,
+      "delta": 0.714,
+      "gamma": 0.0009,
+      "theta": -12.8142
+    },
+    "iv": "0.141448974609375",
+    "ltt": "1793262299507",
+    "offset_seconds": 0.006863,
+    "provider_trade_age_seconds": 0.256
+  },
+  {
+    "strategy": "ema_trend|12_26_gap0.5|trend|afternoon|h60",
+    "entry_at": "2026-10-29 13:55:00+05:30",
+    "instrument_key": "NSE_FO|53930",
+    "source_at": "2026-10-29 08:24:59.876000+00:00",
+    "received_at": "2026-10-29 08:24:59.868615+00:00",
+    "greeks": {
+      "rho": 0.6192,
+      "vega": 7.4721,
+      "delta": 0.1963,
+      "gamma": 0.0008,
+      "theta": -9.0811
+    },
+    "iv": "0.123138427734375",
+    "ltt": "1793262299576",
+    "offset_seconds": 0.007385,
+    "provider_trade_age_seconds": 0.3
+  },
+  {
+    "strategy": "ema_trend|12_26_gap0.5|trend|afternoon|h60",
+    "entry_at": "2026-10-29 13:55:00+05:30",
+    "instrument_key": "NSE_FO|53928",
+    "source_at": "2026-10-29 08:24:59.134000+00:00",
+    "received_at": "2026-10-29 08:24:59.135576+00:00",
+    "greeks": {
+      "rho": 0.762,
+      "vega": 8.4233,
+      "delta": 0.2417,
+      "gamma": 0.0009,
+      "theta": -10.3133
+    },
+    "iv": "0.124053955078125",
+    "ltt": "1793262298949",
+    "offset_seconds": -0.001576,
+    "provider_trade_age_seconds": 0.185
+  },
+  {
+    "strategy": "ema_trend|12_26_gap0.5|trend|afternoon|h60",
+    "entry_at": "2026-10-29 13:55:00+05:30",
+    "instrument_key": "NSE_FO|53796",
+    "source_at": "2026-10-29 08:24:59.876000+00:00",
+    "received_at": "2026-10-29 08:24:59.868615+00:00",
+    "greeks": {
+      "rho": 1.7889,
+      "vega": 10.6007,
+      "delta": 0.5703,
+      "gamma": 0.0011,
+      "theta": -14.1368
+    },
+    "iv": "0.1351165771484375",
+    "ltt": "1793262299755",
+    "offset_seconds": 0.007385,
+    "provider_trade_age_seconds": 0.121
+  },
+  {
+    "strategy": "ema_trend|12_26_gap0.5|trend|afternoon|h60",
+    "entry_at": "2026-10-29 13:55:00+05:30",
+    "instrument_key": "NSE_FO|53836",
+    "source_at": "2026-10-29 08:24:59.876000+00:00",
+    "received_at": "2026-10-29 08:24:59.868615+00:00",
+    "greeks": {
+      "rho": 1.6205,
+      "vega": 10.7597,
+      "delta": 0.5161,
+      "gamma": 0.0011,
+      "theta": -14.0814
+    },
+    "iv": "0.132598876953125",
+    "ltt": "1793262299713",
+    "offset_seconds": 0.007385,
+    "provider_trade_age_seconds": 0.163
+  },
+  {
+    "strategy": "ema_trend|12_26_gap0.5|trend|afternoon|h60",
+    "entry_at": "2026-10-29 13:55:00+05:30",
+    "instrument_key": "NSE_FO|53942",
+    "source_at": "2026-10-29 08:24:59.424000+00:00",
+    "received_at": "2026-10-29 08:24:59.413269+00:00",
+    "greeks": {
+      "rho": 0.2947,
+      "vega": 4.502,
+      "delta": 0.0933,
+      "gamma": 0.0005,
+      "theta": -5.3834
+    },
+    "iv": "0.12115478515625",
+    "ltt": "1793262299238",
+    "offset_seconds": 0.010731,
+    "provider_trade_age_seconds": 0.186
+  },
+  {
+    "strategy": "pullback|ema21_tolerance0.75|trend|afternoon|h60",
+    "entry_at": "2026-10-26 13:40:00+05:30",
+    "instrument_key": "NSE_FO|51332",
+    "source_at": "2026-10-26 08:09:59.739000+00:00",
+    "received_at": "2026-10-26 08:09:59.510933+00:00",
+    "greeks": {
+      "rho": 0.4894,
+      "vega": 4.0042,
+      "delta": 0.7398,
+      "gamma": 0.0012,
+      "theta": -40.6416
+    },
+    "iv": "0.218505859375",
+    "ltt": "1793002199512",
+    "offset_seconds": 0.228067,
+    "provider_trade_age_seconds": 0.227
+  },
+  {
+    "strategy": "pullback|ema21_tolerance0.75|trend|afternoon|h60",
+    "entry_at": "2026-10-26 13:40:00+05:30",
+    "instrument_key": "NSE_FO|51352",
+    "source_at": "2026-10-26 08:10:00.184000+00:00",
+    "received_at": "2026-10-26 08:09:59.950094+00:00",
+    "greeks": {
+      "rho": 0.0982,
+      "vega": 2.8431,
+      "delta": 0.1474,
+      "gamma": 0.0009,
+      "theta": -28.172
+    },
+    "iv": "0.21331787109375",
+    "ltt": "1793002200002",
+    "offset_seconds": 0.233906,
+    "provider_trade_age_seconds": 0.182
+  },
+  {
+    "strategy": "pullback|ema21_tolerance0.75|trend|afternoon|h60",
+    "entry_at": "2026-10-26 13:40:00+05:30",
+    "instrument_key": "NSE_FO|51334",
+    "source_at": "2026-10-26 08:10:00.025000+00:00",
+    "received_at": "2026-10-26 08:09:59.884007+00:00",
+    "greeks": {
+      "rho": 0.4499,
+      "vega": 4.4171,
+      "delta": 0.6792,
+      "gamma": 0.0014,
+      "theta": -43.8934
+    },
+    "iv": "0.21392822265625",
+    "ltt": "1793002199956",
+    "offset_seconds": 0.140993,
+    "provider_trade_age_seconds": 0.069
+  },
+  {
+    "strategy": "pullback|ema21_tolerance0.75|trend|afternoon|h60",
+    "entry_at": "2026-10-26 13:40:00+05:30",
+    "instrument_key": "NSE_FO|51338",
+    "source_at": "2026-10-26 08:10:00.184000+00:00",
+    "received_at": "2026-10-26 08:09:59.950094+00:00",
+    "greeks": {
+      "rho": 0.4045,
+      "vega": 4.7342,
+      "delta": 0.61,
+      "gamma": 0.0015,
+      "theta": -46.34
+    },
+    "iv": "0.210723876953125",
+    "ltt": "1793002200016",
+    "offset_seconds": 0.233906,
+    "provider_trade_age_seconds": 0.168
+  },
+  {
+    "strategy": "pullback|ema21_tolerance0.75|trend|afternoon|h60",
+    "entry_at": "2026-10-26 13:40:00+05:30",
+    "instrument_key": "NSE_FO|51348",
+    "source_at": "2026-10-26 08:09:59.739000+00:00",
+    "received_at": "2026-10-26 08:09:59.510933+00:00",
+    "greeks": {
+      "rho": 0.1621,
+      "vega": 3.8667,
+      "delta": 0.2436,
+      "gamma": 0.0012,
+      "theta": -37.0531
+    },
+    "iv": "0.206298828125",
+    "ltt": "1793002199565",
+    "offset_seconds": 0.228067,
+    "provider_trade_age_seconds": 0.174
+  },
+  {
+    "strategy": "pullback|ema21_tolerance0.75|trend|afternoon|h60",
+    "entry_at": "2026-10-26 13:40:00+05:30",
+    "instrument_key": "NSE_FO|51316",
+    "source_at": "2026-10-26 08:09:59.578000+00:00",
+    "received_at": "2026-10-26 08:09:59.357561+00:00",
+    "greeks": {
+      "rho": 0.6146,
+      "vega": 1.4595,
+      "delta": 0.9405,
+      "gamma": 0.0003,
+      "theta": -18.6623
+    },
+    "iv": "0.2752685546875",
+    "ltt": "1793002192747",
+    "offset_seconds": 0.220439,
+    "provider_trade_age_seconds": 6.8309999999999995
+  },
+  {
+    "strategy": "pullback|ema21_tolerance0.75|trend|afternoon|h60",
+    "entry_at": "2026-10-26 13:40:00+05:30",
+    "instrument_key": "NSE_FO|51328",
+    "source_at": "2026-10-26 08:09:59.578000+00:00",
+    "received_at": "2026-10-26 08:09:59.357561+00:00",
+    "greeks": {
+      "rho": 0.5519,
+      "vega": 3.0435,
+      "delta": 0.8366,
+      "gamma": 0.0009,
+      "theta": -32.0554
+    },
+    "iv": "0.22674560546875",
+    "ltt": "1793002199082",
+    "offset_seconds": 0.220439,
+    "provider_trade_age_seconds": 0.496
+  },
+  {
+    "strategy": "pullback|ema21_tolerance0.75|trend|afternoon|h60",
+    "entry_at": "2026-10-26 13:40:00+05:30",
+    "instrument_key": "NSE_FO|51344",
+    "source_at": "2026-10-26 08:09:59.578000+00:00",
+    "received_at": "2026-10-26 08:09:59.357561+00:00",
+    "greeks": {
+      "rho": 0.2524,
+      "vega": 4.6965,
+      "delta": 0.3796,
+      "gamma": 0.0015,
+      "theta": -44.6721
+    },
+    "iv": "0.20477294921875",
+    "ltt": "1793002199403",
+    "offset_seconds": 0.220439,
+    "provider_trade_age_seconds": 0.175
+  },
+  {
+    "strategy": "pullback|ema21_tolerance0.75|trend|afternoon|h60",
+    "entry_at": "2026-10-26 13:40:00+05:30",
+    "instrument_key": "NSE_FO|51324",
+    "source_at": "2026-10-26 08:09:59.578000+00:00",
+    "received_at": "2026-10-26 08:09:59.357561+00:00",
+    "greeks": {
+      "rho": 0.5915,
+      "vega": 2.1696,
+      "delta": 0.8997,
+      "gamma": 0.0006,
+      "theta": -23.9891
+    },
+    "iv": "0.238037109375",
+    "ltt": "1793002197870",
+    "offset_seconds": 0.220439,
+    "provider_trade_age_seconds": 1.708
+  },
+  {
+    "strategy": "pullback|ema21_tolerance0.75|trend|afternoon|h60",
+    "entry_at": "2026-10-26 13:40:00+05:30",
+    "instrument_key": "NSE_FO|51354",
+    "source_at": "2026-10-26 08:09:59.739000+00:00",
+    "received_at": "2026-10-26 08:09:59.510933+00:00",
+    "greeks": {
+      "rho": 0.0751,
+      "vega": 2.3603,
+      "delta": 0.1127,
+      "gamma": 0.0007,
+      "theta": -23.8227
+    },
+    "iv": "0.21728515625",
+    "ltt": "1793002199573",
+    "offset_seconds": 0.228067,
+    "provider_trade_age_seconds": 0.166
+  },
+  {
+    "strategy": "pullback|ema21_tolerance0.75|trend|afternoon|h60",
+    "entry_at": "2026-10-26 13:40:00+05:30",
+    "instrument_key": "NSE_FO|51350",
+    "source_at": "2026-10-26 08:10:00.025000+00:00",
+    "received_at": "2026-10-26 08:09:59.884007+00:00",
+    "greeks": {
+      "rho": 0.1268,
+      "vega": 3.3527,
+      "delta": 0.1904,
+      "gamma": 0.0011,
+      "theta": -32.6031
+    },
+    "iv": "0.2093505859375",
+    "ltt": "1793002199947",
+    "offset_seconds": 0.140993,
+    "provider_trade_age_seconds": 0.078
+  },
+  {
+    "strategy": "pullback|ema21_tolerance0.75|trend|afternoon|h60",
+    "entry_at": "2026-10-26 13:40:00+05:30",
+    "instrument_key": "NSE_FO|51358",
+    "source_at": "2026-10-26 08:09:59.578000+00:00",
+    "received_at": "2026-10-26 08:09:59.357561+00:00",
+    "greeks": {
+      "rho": 0.0436,
+      "vega": 1.5721,
+      "delta": 0.0654,
+      "gamma": 0.0005,
+      "theta": -16.5808
+    },
+    "iv": "0.22705078125",
+    "ltt": "1793002199406",
+    "offset_seconds": 0.220439,
+    "provider_trade_age_seconds": 0.172
+  },
+  {
+    "strategy": "pullback|ema21_tolerance0.75|trend|afternoon|h60",
+    "entry_at": "2026-10-26 13:40:00+05:30",
+    "instrument_key": "NSE_FO|51346",
+    "source_at": "2026-10-26 08:09:59.281000+00:00",
+    "received_at": "2026-10-26 08:09:59.047108+00:00",
+    "greeks": {
+      "rho": 0.2049,
+      "vega": 4.3405,
+      "delta": 0.308,
+      "gamma": 0.0014,
+      "theta": -41.4395
+    },
+    "iv": "0.205535888671875",
+    "ltt": "1793002199136",
+    "offset_seconds": 0.233892,
+    "provider_trade_age_seconds": 0.145
+  },
+  {
+    "strategy": "pullback|ema21_tolerance0.75|trend|afternoon|h60",
+    "entry_at": "2026-10-26 13:40:00+05:30",
+    "instrument_key": "NSE_FO|51330",
+    "source_at": "2026-10-26 08:09:59.281000+00:00",
+    "received_at": "2026-10-26 08:09:59.047108+00:00",
+    "greeks": {
+      "rho": 0.5229,
+      "vega": 3.5407,
+      "delta": 0.7915,
+      "gamma": 0.001,
+      "theta": -36.7397
+    },
+    "iv": "0.223388671875",
+    "ltt": "1793002199124",
+    "offset_seconds": 0.233892,
+    "provider_trade_age_seconds": 0.157
+  },
+  {
+    "strategy": "pullback|ema21_tolerance0.75|trend|afternoon|h60",
+    "entry_at": "2026-10-26 13:40:00+05:30",
+    "instrument_key": "NSE_FO|51320",
+    "source_at": "2026-10-26 08:09:59.578000+00:00",
+    "received_at": "2026-10-26 08:09:59.357561+00:00",
+    "greeks": {
+      "rho": 0.6046,
+      "vega": 1.8119,
+      "delta": 0.9213,
+      "gamma": 0.0005,
+      "theta": -20.5994
+    },
+    "iv": "0.2447509765625",
+    "ltt": "1793002198325",
+    "offset_seconds": 0.220439,
+    "provider_trade_age_seconds": 1.2530000000000001
+  },
+  {
+    "strategy": "pullback|ema21_tolerance0.75|trend|afternoon|h60",
+    "entry_at": "2026-10-26 13:40:00+05:30",
+    "instrument_key": "NSE_FO|51342",
+    "source_at": "2026-10-26 08:10:00.184000+00:00",
+    "received_at": "2026-10-26 08:09:59.950094+00:00",
+    "greeks": {
+      "rho": 0.3035,
+      "vega": 4.8936,
+      "delta": 0.4568,
+      "gamma": 0.0016,
+      "theta": -46.8244
+    },
+    "iv": "0.20599365234375",
+    "ltt": "1793002200110",
+    "offset_seconds": 0.233906,
+    "provider_trade_age_seconds": 0.074
+  },
+  {
+    "strategy": "pullback|ema21_tolerance0.75|trend|afternoon|h60",
+    "entry_at": "2026-10-26 13:40:00+05:30",
+    "instrument_key": "NSE_FO|51340",
+    "source_at": "2026-10-26 08:09:59.739000+00:00",
+    "received_at": "2026-10-26 08:09:59.510933+00:00",
+    "greeks": {
+      "rho": 0.355,
+      "vega": 4.9037,
+      "delta": 0.5348,
+      "gamma": 0.0015,
+      "theta": -47.4073
+    },
+    "iv": "0.2081298828125",
+    "ltt": "1793002199574",
+    "offset_seconds": 0.228067,
+    "provider_trade_age_seconds": 0.165
+  },
+  {
+    "strategy": "pullback|ema21_tolerance0.75|trend|afternoon|h60",
+    "entry_at": "2026-10-26 13:40:00+05:30",
+    "instrument_key": "NSE_FO|51318",
+    "source_at": "2026-10-26 08:09:59.578000+00:00",
+    "received_at": "2026-10-26 08:09:59.357561+00:00",
+    "greeks": {
+      "rho": 0.6004,
+      "vega": 1.88,
+      "delta": 0.9174,
+      "gamma": 0.0004,
+      "theta": -24.4109
+    },
+    "iv": "0.279541015625",
+    "ltt": "1793002198403",
+    "offset_seconds": 0.220439,
+    "provider_trade_age_seconds": 1.175
+  },
+  {
+    "strategy": "pullback|ema21_tolerance0.75|trend|afternoon|h60",
+    "entry_at": "2026-10-26 13:40:00+05:30",
+    "instrument_key": "NSE_FO|51326",
+    "source_at": "2026-10-26 08:10:00.184000+00:00",
+    "received_at": "2026-10-26 08:09:59.950094+00:00",
+    "greeks": {
+      "rho": 0.5743,
+      "vega": 2.582,
+      "delta": 0.872,
+      "gamma": 0.0007,
+      "theta": -27.8174
+    },
+    "iv": "0.23193359375",
+    "ltt": "1793002200054",
+    "offset_seconds": 0.233906,
+    "provider_trade_age_seconds": 0.13
+  },
+  {
+    "strategy": "pullback|ema21_tolerance0.75|trend|afternoon|h60",
+    "entry_at": "2026-10-26 13:40:00+05:30",
+    "instrument_key": "NSE_FO|51356",
+    "source_at": "2026-10-26 08:10:00.184000+00:00",
+    "received_at": "2026-10-26 08:09:59.950094+00:00",
+    "greeks": {
+      "rho": 0.057,
+      "vega": 1.9287,
+      "delta": 0.0855,
+      "gamma": 0.0006,
+      "theta": -19.8487
+    },
+    "iv": "0.2215576171875",
+    "ltt": "1793002199940",
+    "offset_seconds": 0.233906,
+    "provider_trade_age_seconds": 0.244
+  },
+  {
+    "strategy": "pullback|ema21_tolerance0.75|trend|afternoon|h60",
+    "entry_at": "2026-10-28 13:15:00+05:30",
+    "instrument_key": "NSE_FO|53720",
+    "source_at": "2026-10-28 07:44:59.778000+00:00",
+    "received_at": "2026-10-28 07:44:59.683832+00:00",
+    "greeks": {
+      "rho": 2.3517,
+      "vega": 11.0891,
+      "delta": 0.6312,
+      "gamma": 0.0008,
+      "theta": -14.8137
+    },
+    "iv": "0.162811279296875",
+    "ltt": "1793173499596",
+    "offset_seconds": 0.094168,
+    "provider_trade_age_seconds": 0.182
+  },
+  {
+    "strategy": "pullback|ema21_tolerance0.75|trend|afternoon|h60",
+    "entry_at": "2026-10-28 13:15:00+05:30",
+    "instrument_key": "NSE_FO|53702",
+    "source_at": "2026-10-28 07:44:59.929000+00:00",
+    "received_at": "2026-10-28 07:44:59.836987+00:00",
+    "greeks": {
+      "rho": 2.4889,
+      "vega": 10.6628,
+      "delta": 0.6688,
+      "gamma": 0.0008,
+      "theta": -14.371
+    },
+    "iv": "0.1642608642578125",
+    "ltt": "1793173499665",
+    "offset_seconds": 0.092013,
+    "provider_trade_age_seconds": 0.264
+  },
+  {
+    "strategy": "pullback|ema21_tolerance0.75|trend|afternoon|h60",
+    "entry_at": "2026-10-28 13:15:00+05:30",
+    "instrument_key": "NSE_FO|53656",
+    "source_at": "2026-10-28 07:45:00.079000+00:00",
+    "received_at": "2026-10-28 07:44:59.988229+00:00",
+    "greeks": {
+      "rho": 3.1623,
+      "vega": 6.6641,
+      "delta": 0.8562,
+      "gamma": 0.0005,
+      "theta": -9.0193
+    },
+    "iv": "0.164947509765625",
+    "ltt": "1793173474802",
+    "offset_seconds": 0.090771,
+    "provider_trade_age_seconds": 25.277
+  },
+  {
+    "strategy": "pullback|ema21_tolerance0.75|trend|afternoon|h60",
+    "entry_at": "2026-10-28 13:15:00+05:30",
+    "instrument_key": "NSE_FO|53668",
+    "source_at": "2026-10-28 07:45:00.079000+00:00",
+    "received_at": "2026-10-28 07:44:59.988229+00:00",
+    "greeks": {
+      "rho": 2.8525,
+      "vega": 8.9408,
+      "delta": 0.7694,
+      "gamma": 0.0006,
+      "theta": -12.2909
+    },
+    "iv": "0.16754150390625",
+    "ltt": "1793173499290",
+    "offset_seconds": 0.090771,
+    "provider_trade_age_seconds": 0.789
+  },
+  {
+    "strategy": "pullback|ema21_tolerance0.75|trend|afternoon|h60",
+    "entry_at": "2026-10-28 13:15:00+05:30",
+    "instrument_key": "NSE_FO|53750",
+    "source_at": "2026-10-28 07:45:00.079000+00:00",
+    "received_at": "2026-10-28 07:44:59.988229+00:00",
+    "greeks": {
+      "rho": 2.207,
+      "vega": 11.418,
+      "delta": 0.5917,
+      "gamma": 0.0008,
+      "theta": -15.1101
+    },
+    "iv": "0.161285400390625",
+    "ltt": "1793173499943",
+    "offset_seconds": 0.090771,
+    "provider_trade_age_seconds": 0.136
+  },
+  {
+    "strategy": "pullback|ema21_tolerance0.75|trend|afternoon|h60",
+    "entry_at": "2026-10-28 13:15:00+05:30",
+    "instrument_key": "NSE_FO|53872",
+    "source_at": "2026-10-28 07:45:00.079000+00:00",
+    "received_at": "2026-10-28 07:44:59.988229+00:00",
+    "greeks": {
+      "rho": 1.1008,
+      "vega": 10.1173,
+      "delta": 0.2933,
+      "gamma": 0.0008,
+      "theta": -12.4389
+    },
+    "iv": "0.14984130859375",
+    "ltt": "1793173499827",
+    "offset_seconds": 0.090771,
+    "provider_trade_age_seconds": 0.252
+  },
+  {
+    "strategy": "pullback|ema21_tolerance0.75|trend|afternoon|h60",
+    "entry_at": "2026-10-28 13:15:00+05:30",
+    "instrument_key": "NSE_FO|53664",
+    "source_at": "2026-10-28 07:44:59.929000+00:00",
+    "received_at": "2026-10-28 07:44:59.836987+00:00",
+    "greeks": {
+      "rho": 2.9518,
+      "vega": 8.2981,
+      "delta": 0.7973,
+      "gamma": 0.0006,
+      "theta": -11.5216
+    },
+    "iv": "0.169219970703125",
+    "ltt": "1793173490653",
+    "offset_seconds": 0.092013,
+    "provider_trade_age_seconds": 9.276
+  },
+  {
+    "strategy": "pullback|ema21_tolerance0.75|trend|afternoon|h60",
+    "entry_at": "2026-10-28 13:15:00+05:30",
+    "instrument_key": "NSE_FO|53680",
+    "source_at": "2026-10-28 07:44:59.929000+00:00",
+    "received_at": "2026-10-28 07:44:59.836987+00:00",
+    "greeks": {
+      "rho": 2.7357,
+      "vega": 9.5931,
+      "delta": 0.737,
+      "gamma": 0.0007,
+      "theta": -13.1815
+    },
+    "iv": "0.1674652099609375",
+    "ltt": "1793173499666",
+    "offset_seconds": 0.092013,
+    "provider_trade_age_seconds": 0.263
+  },
+  {
+    "strategy": "pullback|ema21_tolerance0.75|trend|afternoon|h60",
+    "entry_at": "2026-10-28 13:15:00+05:30",
+    "instrument_key": "NSE_FO|53926",
+    "source_at": "2026-10-28 07:45:00.079000+00:00",
+    "received_at": "2026-10-28 07:44:59.988229+00:00",
+    "greeks": {
+      "rho": 0.8162,
+      "vega": 8.6413,
+      "delta": 0.2172,
+      "gamma": 0.0007,
+      "theta": -10.4402
+    },
+    "iv": "0.147247314453125",
+    "ltt": "1793173499470",
+    "offset_seconds": 0.090771,
+    "provider_trade_age_seconds": 0.609
+  },
+  {
+    "strategy": "pullback|ema21_tolerance0.75|trend|afternoon|h60",
+    "entry_at": "2026-10-28 13:15:00+05:30",
+    "instrument_key": "NSE_FO|53860",
+    "source_at": "2026-10-28 07:44:59.778000+00:00",
+    "received_at": "2026-10-28 07:44:59.683832+00:00",
+    "greeks": {
+      "rho": 1.2566,
+      "vega": 10.7123,
+      "delta": 0.3351,
+      "gamma": 0.0008,
+      "theta": -13.3313
+    },
+    "iv": "0.15167236328125",
+    "ltt": "1793173499612",
+    "offset_seconds": 0.094168,
+    "provider_trade_age_seconds": 0.166
+  },
+  {
+    "strategy": "pullback|ema21_tolerance0.75|trend|afternoon|h60",
+    "entry_at": "2026-10-28 13:15:00+05:30",
+    "instrument_key": "NSE_FO|53794",
+    "source_at": "2026-10-28 07:45:00.079000+00:00",
+    "received_at": "2026-10-28 07:44:59.988229+00:00",
+    "greeks": {
+      "rho": 1.7393,
+      "vega": 11.6842,
+      "delta": 0.4649,
+      "gamma": 0.0009,
+      "theta": -14.9943
+    },
+    "iv": "0.156402587890625",
+    "ltt": "1793173499960",
+    "offset_seconds": 0.090771,
+    "provider_trade_age_seconds": 0.119
+  },
+  {
+    "strategy": "pullback|ema21_tolerance0.75|trend|afternoon|h60",
+    "entry_at": "2026-10-28 13:15:00+05:30",
+    "instrument_key": "NSE_FO|53924",
+    "source_at": "2026-10-28 07:44:59.929000+00:00",
+    "received_at": "2026-10-28 07:44:59.836987+00:00",
+    "greeks": {
+      "rho": 0.9536,
+      "vega": 9.4202,
+      "delta": 0.2539,
+      "gamma": 0.0007,
+      "theta": -11.4756
+    },
+    "iv": "0.148468017578125",
+    "ltt": "1793173499762",
+    "offset_seconds": 0.092013,
+    "provider_trade_age_seconds": 0.167
+  },
+  {
+    "strategy": "pullback|ema21_tolerance0.75|trend|afternoon|h60",
+    "entry_at": "2026-10-28 13:15:00+05:30",
+    "instrument_key": "NSE_FO|53792",
+    "source_at": "2026-10-28 07:44:59.929000+00:00",
+    "received_at": "2026-10-28 07:44:59.836987+00:00",
+    "greeks": {
+      "rho": 1.8995,
+      "vega": 11.727,
+      "delta": 0.5082,
+      "gamma": 0.0009,
+      "theta": -15.1741
+    },
+    "iv": "0.1576995849609375",
+    "ltt": "1793173499724",
+    "offset_seconds": 0.092013,
+    "provider_trade_age_seconds": 0.205
+  },
+  {
+    "strategy": "pullback|ema21_tolerance0.75|trend|afternoon|h60",
+    "entry_at": "2026-10-28 13:15:00+05:30",
+    "instrument_key": "NSE_FO|53682",
+    "source_at": "2026-10-28 07:45:00.079000+00:00",
+    "received_at": "2026-10-28 07:44:59.988229+00:00",
+    "greeks": {
+      "rho": 2.6212,
+      "vega": 10.1417,
+      "delta": 0.7052,
+      "gamma": 0.0007,
+      "theta": -13.7196
+    },
+    "iv": "0.1648712158203125",
+    "ltt": "1793173499779",
+    "offset_seconds": 0.090771,
+    "provider_trade_age_seconds": 0.3
+  },
+  {
+    "strategy": "pullback|ema21_tolerance0.75|trend|afternoon|h60",
+    "entry_at": "2026-10-28 13:15:00+05:30",
+    "instrument_key": "NSE_FO|53662",
+    "source_at": "2026-10-28 07:44:59.778000+00:00",
+    "received_at": "2026-10-28 07:44:59.683832+00:00",
+    "greeks": {
+      "rho": 3.0444,
+      "vega": 7.6209,
+      "delta": 0.8235,
+      "gamma": 0.0005,
+      "theta": -10.6481
+    },
+    "iv": "0.1702880859375",
+    "ltt": "1793173498653",
+    "offset_seconds": 0.094168,
+    "provider_trade_age_seconds": 1.125
+  },
+  {
+    "strategy": "pullback|ema21_tolerance0.75|trend|afternoon|h60",
+    "entry_at": "2026-10-28 13:15:00+05:30",
+    "instrument_key": "NSE_FO|53782",
+    "source_at": "2026-10-28 07:44:59.630000+00:00",
+    "received_at": "2026-10-28 07:44:59.553460+00:00",
+    "greeks": {
+      "rho": 2.0562,
+      "vega": 11.6346,
+      "delta": 0.5507,
+      "gamma": 0.0008,
+      "theta": -15.2147
+    },
+    "iv": "0.1593780517578125",
+    "ltt": "1793173499456",
+    "offset_seconds": 0.07654,
+    "provider_trade_age_seconds": 0.174
+  },
+  {
+    "strategy": "pullback|ema21_tolerance0.75|trend|afternoon|h60",
+    "entry_at": "2026-10-28 13:15:00+05:30",
+    "instrument_key": "NSE_FO|53930",
+    "source_at": "2026-10-28 07:45:00.079000+00:00",
+    "received_at": "2026-10-28 07:44:59.988229+00:00",
+    "greeks": {
+      "rho": 0.5764,
+      "vega": 6.952,
+      "delta": 0.1532,
+      "gamma": 0.0006,
+      "theta": -8.2861
+    },
+    "iv": "0.145263671875",
+    "ltt": "1793173499827",
+    "offset_seconds": 0.090771,
+    "provider_trade_age_seconds": 0.252
+  },
+  {
+    "strategy": "pullback|ema21_tolerance0.75|trend|afternoon|h60",
+    "entry_at": "2026-10-28 13:15:00+05:30",
+    "instrument_key": "NSE_FO|53928",
+    "source_at": "2026-10-28 07:45:00.079000+00:00",
+    "received_at": "2026-10-28 07:44:59.988229+00:00",
+    "greeks": {
+      "rho": 0.6891,
+      "vega": 7.802,
+      "delta": 0.1833,
+      "gamma": 0.0006,
+      "theta": -9.348
+    },
+    "iv": "0.146026611328125",
+    "ltt": "1793173499727",
+    "offset_seconds": 0.090771,
+    "provider_trade_age_seconds": 0.352
+  },
+  {
+    "strategy": "pullback|ema21_tolerance0.75|trend|afternoon|h60",
+    "entry_at": "2026-10-28 13:15:00+05:30",
+    "instrument_key": "NSE_FO|53796",
+    "source_at": "2026-10-28 07:44:59.929000+00:00",
+    "received_at": "2026-10-28 07:44:59.836987+00:00",
+    "greeks": {
+      "rho": 1.5768,
+      "vega": 11.4994,
+      "delta": 0.4211,
+      "gamma": 0.0009,
+      "theta": -14.5773
+    },
+    "iv": "0.1544952392578125",
+    "ltt": "1793173499663",
+    "offset_seconds": 0.092013,
+    "provider_trade_age_seconds": 0.266
+  },
+  {
+    "strategy": "pullback|ema21_tolerance0.75|trend|afternoon|h60",
+    "entry_at": "2026-10-28 13:15:00+05:30",
+    "instrument_key": "NSE_FO|53836",
+    "source_at": "2026-10-28 07:44:59.929000+00:00",
+    "received_at": "2026-10-28 07:44:59.836987+00:00",
+    "greeks": {
+      "rho": 1.4152,
+      "vega": 11.1735,
+      "delta": 0.3776,
+      "gamma": 0.0008,
+      "theta": -14.0312
+    },
+    "iv": "0.153045654296875",
+    "ltt": "1793173499765",
+    "offset_seconds": 0.092013,
+    "provider_trade_age_seconds": 0.164
+  },
+  {
+    "strategy": "pullback|ema21_tolerance0.75|trend|afternoon|h60",
+    "entry_at": "2026-10-29 13:55:00+05:30",
+    "instrument_key": "NSE_FO|53720",
+    "source_at": "2026-10-29 08:24:59.876000+00:00",
+    "received_at": "2026-10-29 08:24:59.868615+00:00",
+    "greeks": {
+      "rho": 2.4654,
+      "vega": 7.7592,
+      "delta": 0.7909,
+      "gamma": 0.0007,
+      "theta": -11.1128
+    },
+    "iv": "0.145111083984375",
+    "ltt": "1793262299688",
+    "offset_seconds": 0.007385,
+    "provider_trade_age_seconds": 0.188
+  },
+  {
+    "strategy": "pullback|ema21_tolerance0.75|trend|afternoon|h60",
+    "entry_at": "2026-10-29 13:55:00+05:30",
+    "instrument_key": "NSE_FO|53702",
+    "source_at": "2026-10-29 08:24:59.582000+00:00",
+    "received_at": "2026-10-29 08:24:59.571736+00:00",
+    "greeks": {
+      "rho": 2.5592,
+      "vega": 7.0274,
+      "delta": 0.8222,
+      "gamma": 0.0007,
+      "theta": -10.234
+    },
+    "iv": "0.147552490234375",
+    "ltt": "1793262298901",
+    "offset_seconds": 0.010264,
+    "provider_trade_age_seconds": 0.681
+  },
+  {
+    "strategy": "pullback|ema21_tolerance0.75|trend|afternoon|h60",
+    "entry_at": "2026-10-29 13:55:00+05:30",
+    "instrument_key": "NSE_FO|53668",
+    "source_at": "2026-10-29 08:24:59.280000+00:00",
+    "received_at": "2026-10-29 08:24:59.265907+00:00",
+    "greeks": {
+      "rho": 2.7561,
+      "vega": 5.075,
+      "delta": 0.89,
+      "gamma": 0.0004,
+      "theta": -7.8876
+    },
+    "iv": "0.157470703125",
+    "ltt": "1793262294699",
+    "offset_seconds": 0.014093,
+    "provider_trade_age_seconds": 4.5809999999999995
+  },
+  {
+    "strategy": "pullback|ema21_tolerance0.75|trend|afternoon|h60",
+    "entry_at": "2026-10-29 13:55:00+05:30",
+    "instrument_key": "NSE_FO|53750",
+    "source_at": "2026-10-29 08:24:59.582000+00:00",
+    "received_at": "2026-10-29 08:24:59.571736+00:00",
+    "greeks": {
+      "rho": 2.3604,
+      "vega": 8.4646,
+      "delta": 0.7561,
+      "gamma": 0.0008,
+      "theta": -11.8809
+    },
+    "iv": "0.1422119140625",
+    "ltt": "1793262299405",
+    "offset_seconds": 0.010264,
+    "provider_trade_age_seconds": 0.177
+  },
+  {
+    "strategy": "pullback|ema21_tolerance0.75|trend|afternoon|h60",
+    "entry_at": "2026-10-29 13:55:00+05:30",
+    "instrument_key": "NSE_FO|53872",
+    "source_at": "2026-10-29 08:24:59.424000+00:00",
+    "received_at": "2026-10-29 08:24:59.413269+00:00",
+    "greeks": {
+      "rho": 1.2675,
+      "vega": 10.4479,
+      "delta": 0.4029,
+      "gamma": 0.0011,
+      "theta": -13.2957
+    },
+    "iv": "0.128936767578125",
+    "ltt": "1793262299259",
+    "offset_seconds": 0.010731,
+    "provider_trade_age_seconds": 0.165
+  },
+  {
+    "strategy": "pullback|ema21_tolerance0.75|trend|afternoon|h60",
+    "entry_at": "2026-10-29 13:55:00+05:30",
+    "instrument_key": "NSE_FO|53932",
+    "source_at": "2026-10-29 08:24:59.582000+00:00",
+    "received_at": "2026-10-29 08:24:59.571736+00:00",
+    "greeks": {
+      "rho": 0.4905,
+      "vega": 6.4431,
+      "delta": 0.1554,
+      "gamma": 0.0007,
+      "theta": -7.753
+    },
+    "iv": "0.121917724609375",
+    "ltt": "1793262299418",
+    "offset_seconds": 0.010264,
+    "provider_trade_age_seconds": 0.164
+  },
+  {
+    "strategy": "pullback|ema21_tolerance0.75|trend|afternoon|h60",
+    "entry_at": "2026-10-29 13:55:00+05:30",
+    "instrument_key": "NSE_FO|53680",
+    "source_at": "2026-10-29 08:24:59.134000+00:00",
+    "received_at": "2026-10-29 08:24:59.135576+00:00",
+    "greeks": {
+      "rho": 2.6945,
+      "vega": 5.7493,
+      "delta": 0.8687,
+      "gamma": 0.0005,
+      "theta": -8.823
+    },
+    "iv": "0.155487060546875",
+    "ltt": "1793262298854",
+    "offset_seconds": -0.001576,
+    "provider_trade_age_seconds": 0.28
+  },
+  {
+    "strategy": "pullback|ema21_tolerance0.75|trend|afternoon|h60",
+    "entry_at": "2026-10-29 13:55:00+05:30",
+    "instrument_key": "NSE_FO|53926",
+    "source_at": "2026-10-29 08:24:59.134000+00:00",
+    "received_at": "2026-10-29 08:24:59.135576+00:00",
+    "greeks": {
+      "rho": 0.9223,
+      "vega": 9.2804,
+      "delta": 0.2928,
+      "gamma": 0.001,
+      "theta": -11.5165
+    },
+    "iv": "0.125732421875",
+    "ltt": "1793262298985",
+    "offset_seconds": -0.001576,
+    "provider_trade_age_seconds": 0.149
+  },
+  {
+    "strategy": "pullback|ema21_tolerance0.75|trend|afternoon|h60",
+    "entry_at": "2026-10-29 13:55:00+05:30",
+    "instrument_key": "NSE_FO|53860",
+    "source_at": "2026-10-29 08:24:59.876000+00:00",
+    "received_at": "2026-10-29 08:24:59.868615+00:00",
+    "greeks": {
+      "rho": 1.4455,
+      "vega": 10.714,
+      "delta": 0.4599,
+      "gamma": 0.0011,
+      "theta": -13.8603
+    },
+    "iv": "0.131072998046875",
+    "ltt": "1793262299709",
+    "offset_seconds": 0.007385,
+    "provider_trade_age_seconds": 0.167
+  },
+  {
+    "strategy": "pullback|ema21_tolerance0.75|trend|afternoon|h60",
+    "entry_at": "2026-10-29 13:55:00+05:30",
+    "instrument_key": "NSE_FO|53794",
+    "source_at": "2026-10-29 08:24:59.280000+00:00",
+    "received_at": "2026-10-29 08:24:59.265907+00:00",
+    "greeks": {
+      "rho": 1.9489,
+      "vega": 10.2607,
+      "delta": 0.622,
+      "gamma": 0.001,
+      "theta": -13.8688
+    },
+    "iv": "0.1369476318359375",
+    "ltt": "1793262299133",
+    "offset_seconds": 0.014093,
+    "provider_trade_age_seconds": 0.147
+  },
+  {
+    "strategy": "pullback|ema21_tolerance0.75|trend|afternoon|h60",
+    "entry_at": "2026-10-29 13:55:00+05:30",
+    "instrument_key": "NSE_FO|53940",
+    "source_at": "2026-10-29 08:24:59.876000+00:00",
+    "received_at": "2026-10-29 08:24:59.868615+00:00",
+    "greeks": {
+      "rho": 0.3837,
+      "vega": 5.447,
+      "delta": 0.1215,
+      "gamma": 0.0006,
+      "theta": -6.5298
+    },
+    "iv": "0.1214599609375",
+    "ltt": "1793262299642",
+    "offset_seconds": 0.007385,
+    "provider_trade_age_seconds": 0.234
+  },
+  {
+    "strategy": "pullback|ema21_tolerance0.75|trend|afternoon|h60",
+    "entry_at": "2026-10-29 13:55:00+05:30",
+    "instrument_key": "NSE_FO|53924",
+    "source_at": "2026-10-29 08:24:59.763000+00:00",
+    "received_at": "2026-10-29 08:24:59.756137+00:00",
+    "greeks": {
+      "rho": 1.0911,
+      "vega": 9.9618,
+      "delta": 0.3466,
+      "gamma": 0.0011,
+      "theta": -12.4971
+    },
+    "iv": "0.127105712890625",
+    "ltt": "1793262299591",
+    "offset_seconds": 0.006863,
+    "provider_trade_age_seconds": 0.172
+  },
+  {
+    "strategy": "pullback|ema21_tolerance0.75|trend|afternoon|h60",
+    "entry_at": "2026-10-29 13:55:00+05:30",
+    "instrument_key": "NSE_FO|53792",
+    "source_at": "2026-10-29 08:24:59.134000+00:00",
+    "received_at": "2026-10-29 08:24:59.135576+00:00",
+    "greeks": {
+      "rho": 2.0991,
+      "vega": 9.7668,
+      "delta": 0.6707,
+      "gamma": 0.001,
+      "theta": -13.3556
+    },
+    "iv": "0.1385498046875",
+    "ltt": "1793262299001",
+    "offset_seconds": -0.001576,
+    "provider_trade_age_seconds": 0.133
+  },
+  {
+    "strategy": "pullback|ema21_tolerance0.75|trend|afternoon|h60",
+    "entry_at": "2026-10-29 13:55:00+05:30",
+    "instrument_key": "NSE_FO|53682",
+    "source_at": "2026-10-29 08:24:59.582000+00:00",
+    "received_at": "2026-10-29 08:24:59.571736+00:00",
+    "greeks": {
+      "rho": 2.6426,
+      "vega": 6.284,
+      "delta": 0.8503,
+      "gamma": 0.0006,
+      "theta": -9.2745
+    },
+    "iv": "0.1495361328125",
+    "ltt": "1793262299214",
+    "offset_seconds": 0.010264,
+    "provider_trade_age_seconds": 0.368
+  },
+  {
+    "strategy": "pullback|ema21_tolerance0.75|trend|afternoon|h60",
+    "entry_at": "2026-10-29 13:55:00+05:30",
+    "instrument_key": "NSE_FO|53782",
+    "source_at": "2026-10-29 08:24:59.763000+00:00",
+    "received_at": "2026-10-29 08:24:59.756137+00:00",
+    "greeks": {
+      "rho": 2.2317,
+      "vega": 9.1788,
+      "delta": 0.714,
+      "gamma": 0.0009,
+      "theta": -12.8142
+    },
+    "iv": "0.141448974609375",
+    "ltt": "1793262299507",
+    "offset_seconds": 0.006863,
+    "provider_trade_age_seconds": 0.256
+  },
+  {
+    "strategy": "pullback|ema21_tolerance0.75|trend|afternoon|h60",
+    "entry_at": "2026-10-29 13:55:00+05:30",
+    "instrument_key": "NSE_FO|53930",
+    "source_at": "2026-10-29 08:24:59.876000+00:00",
+    "received_at": "2026-10-29 08:24:59.868615+00:00",
+    "greeks": {
+      "rho": 0.6192,
+      "vega": 7.4721,
+      "delta": 0.1963,
+      "gamma": 0.0008,
+      "theta": -9.0811
+    },
+    "iv": "0.123138427734375",
+    "ltt": "1793262299576",
+    "offset_seconds": 0.007385,
+    "provider_trade_age_seconds": 0.3
+  },
+  {
+    "strategy": "pullback|ema21_tolerance0.75|trend|afternoon|h60",
+    "entry_at": "2026-10-29 13:55:00+05:30",
+    "instrument_key": "NSE_FO|53928",
+    "source_at": "2026-10-29 08:24:59.134000+00:00",
+    "received_at": "2026-10-29 08:24:59.135576+00:00",
+    "greeks": {
+      "rho": 0.762,
+      "vega": 8.4233,
+      "delta": 0.2417,
+      "gamma": 0.0009,
+      "theta": -10.3133
+    },
+    "iv": "0.124053955078125",
+    "ltt": "1793262298949",
+    "offset_seconds": -0.001576,
+    "provider_trade_age_seconds": 0.185
+  },
+  {
+    "strategy": "pullback|ema21_tolerance0.75|trend|afternoon|h60",
+    "entry_at": "2026-10-29 13:55:00+05:30",
+    "instrument_key": "NSE_FO|53796",
+    "source_at": "2026-10-29 08:24:59.876000+00:00",
+    "received_at": "2026-10-29 08:24:59.868615+00:00",
+    "greeks": {
+      "rho": 1.7889,
+      "vega": 10.6007,
+      "delta": 0.5703,
+      "gamma": 0.0011,
+      "theta": -14.1368
+    },
+    "iv": "0.1351165771484375",
+    "ltt": "1793262299755",
+    "offset_seconds": 0.007385,
+    "provider_trade_age_seconds": 0.121
+  },
+  {
+    "strategy": "pullback|ema21_tolerance0.75|trend|afternoon|h60",
+    "entry_at": "2026-10-29 13:55:00+05:30",
+    "instrument_key": "NSE_FO|53836",
+    "source_at": "2026-10-29 08:24:59.876000+00:00",
+    "received_at": "2026-10-29 08:24:59.868615+00:00",
+    "greeks": {
+      "rho": 1.6205,
+      "vega": 10.7597,
+      "delta": 0.5161,
+      "gamma": 0.0011,
+      "theta": -14.0814
+    },
+    "iv": "0.132598876953125",
+    "ltt": "1793262299713",
+    "offset_seconds": 0.007385,
+    "provider_trade_age_seconds": 0.163
+  },
+  {
+    "strategy": "pullback|ema21_tolerance0.75|trend|afternoon|h60",
+    "entry_at": "2026-10-29 13:55:00+05:30",
+    "instrument_key": "NSE_FO|53942",
+    "source_at": "2026-10-29 08:24:59.424000+00:00",
+    "received_at": "2026-10-29 08:24:59.413269+00:00",
+    "greeks": {
+      "rho": 0.2947,
+      "vega": 4.502,
+      "delta": 0.0933,
+      "gamma": 0.0005,
+      "theta": -5.3834
+    },
+    "iv": "0.12115478515625",
+    "ltt": "1793262299238",
+    "offset_seconds": 0.010731,
+    "provider_trade_age_seconds": 0.186
+  }
+]

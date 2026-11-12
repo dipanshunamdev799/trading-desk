@@ -1,0 +1,43 @@
+{
+  "feature_names": [
+    "atr_pct",
+    "volatility60",
+    "efficiency60",
+    "relative_strength60",
+    "liquidity20",
+    "volume_consistency60",
+    "gap_frequency60",
+    "return_autocorrelation60",
+    "nifty_correlation60",
+    "sector_peer_momentum60",
+    "trend_strength60",
+    "directional_persistence60",
+    "support_rejection60"
+  ],
+  "boundaries": [
+    "2024-11-10",
+    "2025-02-10",
+    "2025-05-10",
+    "2025-08-10",
+    "2025-11-10",
+    "2026-02-10",
+    "2026-05-10",
+    "2026-08-10",
+    "2026-11-10"
+  ],
+  "training": "First four quarters; original375 companies only; labels must exit before2025-11-10. Choose high or low only once per descriptor using cumulative quarterly PNL advantage.",
+  "binning": "Cross-sectional terciles using only snapshot strictly before quarter start; no thresholds optimized; ties retained. Snapshot universe inherits original complete-data eligibility bias.",
+  "outcomes": "Trades entered in following quarter from original frozen48 two-year journals. Aggregate net PNL across48 /48 /initial1m per stock. This is attributed PNL per initial capital, not a newly simulated quarter return. Zero-trade stock-quarter cells included.",
+  "uncertainty": "3000 common-calendar circular10session-block draws of high-minus-low daily entry-attributed PNL, preserving same-date stock/family dependence. BH correction across13 descriptors separately within stage/pool; small number of quarters, chosen feature signs and frozen-family selection remain limitations.",
+  "contamination": "All dates and48 finalists previously researched/selected. Causal descriptors plus later outcomes test retrospective transfer only, not untouched OOS or independent proof.",
+  "regime": "Trend abs60return/(vol60*sqrt60)<.5 sideways; >=1 strongbull;0..1 weakbull; <=-1 strongbear; remainder weakbear. Vol20 > prior252median high. Vol20/vol60 >1.2 expansion, <.8 contraction. One development-selected regime per broadfamily/dimension, no new entry/exit simulation.",
+  "mfe": "Price excursions use bars from entry through day before exit only, avoiding unknowable exit-day intrabar ordering; not a realized alternative execution. Forward close returns exclude dividends/costs and use1/5/10/20session closes from entry.",
+  "not_included": [
+    "true sector-index relative strength (selected sector TRI acquired separately; this frozen diagnostic uses sector peers)",
+    "delivery volume",
+    "volume-at-price",
+    "untouched temporal holdout",
+    "short trades"
+  ],
+  "journal_basis": "Corrected48 exact two-year execution replay: multi-component dividends and same-daystatutory fees corrected; no rule changes."
+}

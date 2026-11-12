@@ -1,0 +1,260 @@
+{
+  "date": "2026-11-09",
+  "protocol_notes": [
+    "source_at is WebSocket frame currentTs, not a per-level exchange book timestamp",
+    "received_at is local UTC captured timestamp",
+    "No LTP-as-fill; source fields require freshness validation"
+  ],
+  "segments": [
+    {
+      "segment": "NSE_EQ",
+      "rows": 3826062,
+      "instruments": 50
+    },
+    {
+      "segment": "NSE_FO",
+      "rows": 15771359,
+      "instruments": 704
+    },
+    {
+      "segment": "NSE_INDEX",
+      "rows": 2937765,
+      "instruments": 12
+    }
+  ],
+  "overall_range": {
+    "first_source": "2026-10-26T03:45:22.174000+00:00",
+    "last_source": "2026-10-30T08:07:37.763000+00:00",
+    "first_received": "2026-10-26T03:45:22.357074+00:00",
+    "last_received": "2026-10-30T08:07:37.819952+00:00"
+  },
+  "session_coverage": [
+    {
+      "session_date": "2026-10-26",
+      "row_count": 4975389,
+      "first_source": "2026-10-26 03:45:22.174000+00:00",
+      "last_source": "2026-10-26 10:00:01.982000+00:00"
+    },
+    {
+      "session_date": "2026-10-27",
+      "row_count": 3787468,
+      "first_source": "2026-10-27 03:45:05.484000+00:00",
+      "last_source": "2026-10-27 09:49:07.495000+00:00"
+    },
+    {
+      "session_date": "2026-10-28",
+      "row_count": 4651939,
+      "first_source": "2026-10-28 04:08:08.719000+00:00",
+      "last_source": "2026-10-28 10:00:01.292000+00:00"
+    },
+    {
+      "session_date": "2026-10-29",
+      "row_count": 6772493,
+      "first_source": "2026-10-29 03:45:29.530000+00:00",
+      "last_source": "2026-10-29 10:00:02.124000+00:00"
+    },
+    {
+      "session_date": "2026-10-30",
+      "row_count": 2347897,
+      "first_source": "2026-10-30 04:46:41.926000+00:00",
+      "last_source": "2026-10-30 08:07:37.763000+00:00"
+    }
+  ],
+  "chains": [
+    {
+      "underlying_key": "NSE_INDEX|Nifty 50",
+      "expiry": "2026-10-27",
+      "session_date": "2026-10-26",
+      "snapshots": 350,
+      "first_observed": "2026-10-26 03:45:22.357074+00:00",
+      "last_observed": "2026-10-26 09:59:00.208444+00:00"
+    },
+    {
+      "underlying_key": "NSE_INDEX|Nifty 50",
+      "expiry": "2026-10-27",
+      "session_date": "2026-10-27",
+      "snapshots": 277,
+      "first_observed": "2026-10-27 03:45:10.384147+00:00",
+      "last_observed": "2026-10-27 09:49:04.395544+00:00"
+    },
+    {
+      "underlying_key": "NSE_INDEX|Nifty 50",
+      "expiry": "2026-11-03",
+      "session_date": "2026-10-28",
+      "snapshots": 347,
+      "first_observed": "2026-10-28 04:13:23.455372+00:00",
+      "last_observed": "2026-10-28 09:59:04.548249+00:00"
+    },
+    {
+      "underlying_key": "NSE_INDEX|Nifty 50",
+      "expiry": "2026-11-03",
+      "session_date": "2026-10-29",
+      "snapshots": 378,
+      "first_observed": "2026-10-29 03:45:34.629576+00:00",
+      "last_observed": "2026-10-29 09:59:01.070887+00:00"
+    },
+    {
+      "underlying_key": "NSE_INDEX|Nifty 50",
+      "expiry": "2026-11-09",
+      "session_date": "2026-10-29",
+      "snapshots": 377,
+      "first_observed": "2026-10-29 03:45:34.629576+00:00",
+      "last_observed": "2026-10-29 09:59:01.070887+00:00"
+    },
+    {
+      "underlying_key": "NSE_INDEX|Nifty 50",
+      "expiry": "2026-11-03",
+      "session_date": "2026-10-30",
+      "snapshots": 154,
+      "first_observed": "2026-10-30 04:46:50.077592+00:00",
+      "last_observed": "2026-10-30 08:07:03.560775+00:00"
+    },
+    {
+      "underlying_key": "NSE_INDEX|Nifty 50",
+      "expiry": "2026-11-09",
+      "session_date": "2026-10-30",
+      "snapshots": 154,
+      "first_observed": "2026-10-30 04:46:50.077592+00:00",
+      "last_observed": "2026-10-30 08:07:03.560775+00:00"
+    }
+  ],
+  "sample": [
+    {
+      "instrument_key": "NSE_FO|39947",
+      "source_at": "2026-10-30 08:07:37.763000+00:00",
+      "received_at": "2026-10-30 08:07:37.819952+00:00",
+      "feed_type": "live_feed",
+      "payload": {
+        "fullFeed": {
+          "marketFF": {
+            "iv": 0.1275634765625,
+            "oi": 1747720.0,
+            "rp": 0.0,
+            "atp": 23.18,
+            "iep": 0.0,
+            "ieq": "0",
+            "tbq": 117780.0,
+            "tsq": 67990.0,
+            "vtt": "3031080",
+            "iiqM": "0",
+            "ltpc": {
+              "cp": 23.0,
+              "ltp": 23.15,
+              "ltq": "65",
+              "ltt": "1793347657594"
+            },
+            "iiqTotal": "0",
+            "marketOHLC": {
+              "ohlc": [
+                {
+                  "ts": "1793298600000",
+                  "low": 17.1,
+                  "vol": "3031015",
+                  "high": 34.35,
+                  "open": 19.35,
+                  "close": 23.15,
+                  "interval": "1d"
+                },
+                {
+                  "ts": "1793347560000",
+                  "low": 23.8,
+                  "vol": "2210",
+                  "high": 24.15,
+                  "open": 24.1,
+                  "close": 23.8,
+                  "interval": "I1"
+                }
+              ]
+            },
+            "casEligible": false,
+            "marketLevel": {
+              "bidAskQuote": [
+                {
+                  "askP": 23.25,
+                  "askQ": "585",
+                  "bidP": 23.1,
+                  "bidQ": "455"
+                },
+                {
+                  "askP": 23.3,
+                  "askQ": "2405",
+                  "bidP": 23.05,
+                  "bidQ": "715"
+                },
+                {
+                  "askP": 23.35,
+                  "askQ": "455",
+                  "bidP": 23.0,
+                  "bidQ": "1365"
+                },
+                {
+                  "askP": 23.4,
+                  "askQ": "260",
+                  "bidP": 22.95,
+                  "bidQ": "1690"
+                },
+                {
+                  "askP": 23.45,
+                  "askQ": "390",
+                  "bidP": 22.9,
+                  "bidQ": "1040"
+                }
+              ]
+            },
+            "optionGreeks": {
+              "rho": 0.6335,
+              "vega": 6.7491,
+              "delta": 0.1005,
+              "gamma": 0.0004,
+              "theta": -4.2713
+            }
+          }
+        },
+        "requestMode": "full_d5"
+      }
+    }
+  ],
+  "index_sample": [
+    {
+      "instrument_key": "NSE_INDEX|Nifty 50",
+      "source_at": "2026-10-30 08:07:37.763000+00:00",
+      "received_at": "2026-10-30 08:07:37.819952+00:00",
+      "feed_type": "live_feed",
+      "payload": {
+        "fullFeed": {
+          "indexFF": {
+            "ltpc": {
+              "cp": 22936.75,
+              "ltp": 23049.7,
+              "ltq": "0",
+              "ltt": "1793347657000"
+            },
+            "marketOHLC": {
+              "ohlc": [
+                {
+                  "ts": "1793298600000",
+                  "low": 22905.1,
+                  "vol": "0",
+                  "high": 23118.1,
+                  "open": 22964.5,
+                  "close": 23049.7,
+                  "interval": "1d"
+                },
+                {
+                  "ts": "1793347560000",
+                  "low": 23051.6,
+                  "vol": "0",
+                  "high": 23060.95,
+                  "open": 23057.6,
+                  "close": 23052.6,
+                  "interval": "I1"
+                }
+              ]
+            }
+          }
+        },
+        "requestMode": "full_d5"
+      }
+    }
+  ]
+}

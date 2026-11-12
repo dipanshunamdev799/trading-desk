@@ -57,7 +57,7 @@ class IpoStore:
              "data": json.dumps(payload, allow_nan=False), "at": at})
         for metric, value in payload.get("metrics", {}).items():
             IpoStore.save_observation(conn, payload["ipo_id"], payload["kind"], metric, value, at,
-                                      {"source_url": payload["source_url"]}, payload.get("reported_at"))
+                                      {"source_url": payload["source_url"], "reported_date": payload.get("reported_date")}, payload.get("reported_at"))
 
     def companies(self) -> list[dict]:
         self.store.initialize()

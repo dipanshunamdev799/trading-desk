@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "checks": {
+    "3760_unique_stock_quarter_cells": true,
+    "eight_quarters": true,
+    "company_pools375_and95": true,
+    "snapshots_strictly_prior": true,
+    "13_orientations_preserved_after_corrections": true,
+    "corrected_journal_basis": true
+  },
+  "unit_tests": "2 passed: future-truncation invariance of all13 descriptors/regimes; paired-zero bootstrap and BH arithmetic",
+  "limitations": "Timestamp causality does not undo frozen-family selection, prior calendar reuse, inherited universe/data-completeness and liquidity-unit assumptions."
+}

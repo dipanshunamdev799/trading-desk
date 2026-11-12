@@ -1,0 +1,273 @@
+{
+  "sparse_screen": {
+    "development": {
+      "rules": 1308,
+      "sparse_breadth_impossible": 16,
+      "profitable_rules": 166,
+      "profitable_but_breadth_impossible": 2,
+      "median_active_stocks": 367.0
+    },
+    "validation": {
+      "rules": 1308,
+      "sparse_breadth_impossible": 168,
+      "profitable_rules": 217,
+      "profitable_but_breadth_impossible": 46,
+      "median_active_stocks": 308.0
+    }
+  },
+  "indicators_and_causality": {
+    "independent_numeric_max_abs_errors": {
+      "ema_9": 1.8189894035458565e-11,
+      "ema_12": 1.4551915228366852e-11,
+      "ema_20": 1.4551915228366852e-11,
+      "ema_26": 1.8189894035458565e-11,
+      "ema_50": 4.3655745685100555e-11,
+      "ema_200": 1.964508555829525e-10,
+      "atr14": 1.5916157281026244e-12,
+      "rsi14": 4.263256414560601e-14,
+      "adx14": 4.973799150320701e-14,
+      "macd_line": 2.1827872842550278e-11,
+      "macd_signal": 1.5688783605583012e-11
+    },
+    "independent_pivot_release_equal": true,
+    "real_panel_prefix_checks": [
+      {
+        "family": "macd_cross",
+        "all_arrays_prefix_equal": true
+      },
+      {
+        "family": "macd_zero_cross",
+        "all_arrays_prefix_equal": true
+      },
+      {
+        "family": "macd_hist_recovery",
+        "all_arrays_prefix_equal": true
+      },
+      {
+        "family": "macd_hist_accel",
+        "all_arrays_prefix_equal": true
+      },
+      {
+        "family": "macd_strength_cross",
+        "all_arrays_prefix_equal": true
+      },
+      {
+        "family": "macd_above_zero",
+        "all_arrays_prefix_equal": true
+      },
+      {
+        "family": "macd_below_zero",
+        "all_arrays_prefix_equal": true
+      },
+      {
+        "family": "macd_divergence",
+        "all_arrays_prefix_equal": true
+      },
+      {
+        "family": "macd_hidden_divergence",
+        "all_arrays_prefix_equal": true
+      },
+      {
+        "family": "macd_weekly",
+        "all_arrays_prefix_equal": true
+      },
+      {
+        "family": "ppo_cross",
+        "all_arrays_prefix_equal": true
+      },
+      {
+        "family": "ppo_zero_cross",
+        "all_arrays_prefix_equal": true
+      },
+      {
+        "family": "ppo_hist_recovery",
+        "all_arrays_prefix_equal": true
+      },
+      {
+        "family": "ppo_hist_accel",
+        "all_arrays_prefix_equal": true
+      },
+      {
+        "family": "ppo_strength_cross",
+        "all_arrays_prefix_equal": true
+      },
+      {
+        "family": "ppo_above_zero",
+        "all_arrays_prefix_equal": true
+      },
+      {
+        "family": "ppo_below_zero",
+        "all_arrays_prefix_equal": true
+      },
+      {
+        "family": "ema_cross",
+        "all_arrays_prefix_equal": true
+      },
+      {
+        "family": "ema_reclaim",
+        "all_arrays_prefix_equal": true
+      },
+      {
+        "family": "ema_pullback",
+        "all_arrays_prefix_equal": true
+      },
+      {
+        "family": "ema_contraction",
+        "all_arrays_prefix_equal": true
+      },
+      {
+        "family": "ema_slope",
+        "all_arrays_prefix_equal": true
+      },
+      {
+        "family": "ema_weekly",
+        "all_arrays_prefix_equal": true
+      },
+      {
+        "family": "ema_ribbon",
+        "all_arrays_prefix_equal": true
+      },
+      {
+        "family": "kama_cross",
+        "all_arrays_prefix_equal": true
+      },
+      {
+        "family": "kama_reclaim",
+        "all_arrays_prefix_equal": true
+      },
+      {
+        "family": "kama_pullback",
+        "all_arrays_prefix_equal": true
+      },
+      {
+        "family": "pivot_bounce",
+        "all_arrays_prefix_equal": true
+      },
+      {
+        "family": "cluster_bounce",
+        "all_arrays_prefix_equal": true
+      },
+      {
+        "family": "donchian_breakout",
+        "all_arrays_prefix_equal": true
+      },
+      {
+        "family": "breakout_retest",
+        "all_arrays_prefix_equal": true
+      },
+      {
+        "family": "role_reversal",
+        "all_arrays_prefix_equal": true
+      },
+      {
+        "family": "support_sweep",
+        "all_arrays_prefix_equal": true
+      },
+      {
+        "family": "previous_day",
+        "all_arrays_prefix_equal": true
+      },
+      {
+        "family": "previous_week",
+        "all_arrays_prefix_equal": true
+      },
+      {
+        "family": "previous_month",
+        "all_arrays_prefix_equal": true
+      },
+      {
+        "family": "floor_pivot",
+        "all_arrays_prefix_equal": true
+      },
+      {
+        "family": "fib_pullback",
+        "all_arrays_prefix_equal": true
+      },
+      {
+        "family": "round_bounce",
+        "all_arrays_prefix_equal": true
+      },
+      {
+        "family": "anchored_vwap",
+        "all_arrays_prefix_equal": true
+      },
+      {
+        "family": "htf_confluence",
+        "all_arrays_prefix_equal": true
+      },
+      {
+        "family": "hybrid_trend_macd_support",
+        "all_arrays_prefix_equal": true
+      },
+      {
+        "family": "hybrid_support_hist",
+        "all_arrays_prefix_equal": true
+      },
+      {
+        "family": "hybrid_reclaim_zero",
+        "all_arrays_prefix_equal": true
+      },
+      {
+        "family": "hybrid_breakout_momentum",
+        "all_arrays_prefix_equal": true
+      },
+      {
+        "family": "hybrid_divergence_support",
+        "all_arrays_prefix_equal": true
+      },
+      {
+        "family": "hybrid_ribbon_pullback",
+        "all_arrays_prefix_equal": true
+      },
+      {
+        "family": "hybrid_sweep_reversal",
+        "all_arrays_prefix_equal": true
+      }
+    ],
+    "all_48_families_prefix_invariant": true,
+    "stocks": [
+      "360ONE",
+      "3MINDIA",
+      "AADHARHFC",
+      "AARTIIND",
+      "AAVAS",
+      "ABB"
+    ],
+    "prefix_end": "2026-05-29 00:00:00+05:30"
+  },
+  "dividend_parser": {
+    "all_history_affected_events": 106,
+    "research_eligible_affected_events": 26,
+    "research_eligible_affected_stocks": 20
+  },
+  "fixed_path_scope": "Final all-stock and two-year all-stock journals only. Periods overlap. Corrections keep entries, quantities, targets and exits fixed; they are not an executable rerun or revised strategy validation.",
+  "original_source_hashes": {
+    "research\\swing_discovery\\benchmarks.py": "1b4d1953c05ea3d8368c5730b5d9c22fb5f15ec739d51fac087e85439dd1933d",
+    "research\\swing_discovery\\data.py": "a094f911c40019b5350449244a0b3562474408fc60bb34287a33f6e88178e723",
+    "research\\swing_discovery\\diagnostics.py": "c11c2c997ff80eb40cc7631104dfe78e49a9fba832cbed92ebf78246de24f47e",
+    "research\\swing_discovery\\engine.py": "fecc35fcf07132e2a5537d77eb7adcd7f80e04551780ba028faa816a9af6a8b3",
+    "research\\swing_discovery\\reporting.py": "019d06617e784cf4fd87dac8e3730014f2243c2b158abfdb085d47bb83554533",
+    "research\\swing_discovery\\signals.py": "b4fc1636a9547d50f7912afa07c957677192dbeb9882989770bde4390bca3b0b",
+    "research\\swing_discovery\\structure.py": "88acd4893b8ef0ed97592871183523cf9d55965355805b7f2954b6e2512b1dad"
+  },
+  "fixed_path_summary": {
+    "final": {
+      "rules": 48,
+      "original_positive": 2,
+      "corrected_positive": 2,
+      "same_day_trade_count": 438,
+      "total_trade_count": 40557,
+      "tax_difference": 64374.09974446159,
+      "missing_dividends": 48389.5
+    },
+    "two_year": {
+      "rules": 48,
+      "original_positive": 0,
+      "corrected_positive": 0,
+      "same_day_trade_count": 1254,
+      "total_trade_count": 143272,
+      "tax_difference": 192114.5901736732,
+      "missing_dividends": 183090.4
+    }
+  }
+}

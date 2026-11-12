@@ -1,0 +1,483 @@
+{
+  "coverage": {
+    "first": "2025-01-01",
+    "last": "2026-11-06",
+    "sessions": 458
+  },
+  "final_days": {
+    "first": "2026-06-29",
+    "last": "2026-11-06",
+    "sessions": 92
+  },
+  "primary": [
+    {
+      "strategy": "ema_trend",
+      "n": 69,
+      "gross": 9.0724637681161,
+      "net2": 7.0724637681161004,
+      "net5": 4.0724637681161004,
+      "matched_long_net2": -0.046376811594213446,
+      "matched_short_net2": -3.9536231884057864,
+      "matched_momentum_net2": 1.755072463768253,
+      "excess_long": 7.118840579710314,
+      "excess_momentum": 5.317391304347847,
+      "win_pct": 50.72463768115942,
+      "sessions": 61,
+      "net2_ci95": [
+        -6.278531884057993,
+        20.87137232730257
+      ],
+      "net2_bonferroni6_ci": [
+        -9.966504975124542,
+        26.143963455988594
+      ],
+      "excess_long_ci95": [
+        -13.549490241102557,
+        31.11576190476204
+      ],
+      "excess_momentum_ci95": [
+        -9.132835820895544,
+        19.109705754141288
+      ],
+      "excess_momentum_bonferroni6_ci": [
+        -14.880429367315644,
+        23.56452897593912
+      ],
+      "session_sign_flip_two_sided_p": 0.21938903054847259,
+      "randomized_gross_mean_ci95": [
+        -13.991304347825851,
+        13.791557971014498
+      ],
+      "gross_mean_observed": 9.0724637681161,
+      "draws": 20000,
+      "null": "Conditional on observed trade times/magnitudes: session-wide random direction orientation. Not an incremental-factor p-value.",
+      "passes_conditional6_gate": false
+    },
+    {
+      "strategy": "donchian",
+      "n": 42,
+      "gross": 8.82857142857167,
+      "net2": 6.828571428571671,
+      "net5": 3.828571428571671,
+      "matched_long_net2": -9.464285714285714,
+      "matched_short_net2": 5.464285714285714,
+      "matched_momentum_net2": 6.828571428571671,
+      "excess_long": 16.292857142857386,
+      "excess_momentum": 0.0,
+      "win_pct": 45.23809523809524,
+      "sessions": 42,
+      "net2_ci95": [
+        -9.988456978319702,
+        25.833369260918655
+      ],
+      "net2_bonferroni6_ci": [
+        -15.384968434343898,
+        33.65084635416656
+      ],
+      "excess_long_ci95": [
+        -11.17680232558136,
+        51.55507206208445
+      ],
+      "excess_momentum_ci95": [
+        0.0,
+        0.0
+      ],
+      "excess_momentum_bonferroni6_ci": [
+        0.0,
+        0.0
+      ],
+      "session_sign_flip_two_sided_p": 0.3847807609619519,
+      "randomized_gross_mean_ci95": [
+        -18.15005952380942,
+        18.023928571428222
+      ],
+      "gross_mean_observed": 8.82857142857167,
+      "draws": 20000,
+      "null": "Conditional on observed trade times/magnitudes: session-wide random direction orientation. Not an incremental-factor p-value.",
+      "passes_conditional6_gate": false
+    },
+    {
+      "strategy": "pullback",
+      "n": 61,
+      "gross": 7.415573770491899,
+      "net2": 5.415573770491899,
+      "net5": 2.415573770491899,
+      "matched_long_net2": -5.923770491803255,
+      "matched_short_net2": 1.9237704918032548,
+      "matched_momentum_net2": 2.2008196721312667,
+      "excess_long": 11.339344262295153,
+      "excess_momentum": 3.2147540983606318,
+      "win_pct": 50.81967213114754,
+      "sessions": 60,
+      "net2_ci95": [
+        -6.852157407407088,
+        19.67377195685695
+      ],
+      "net2_bonferroni6_ci": [
+        -10.46533214578941,
+        25.079886382728585
+      ],
+      "excess_long_ci95": [
+        -10.754852430555962,
+        38.007248376623394
+      ],
+      "excess_momentum_ci95": [
+        -12.064505494505394,
+        16.862483805667722
+      ],
+      "excess_momentum_bonferroni6_ci": [
+        -17.09716864862397,
+        21.903255715283922
+      ],
+      "session_sign_flip_two_sided_p": 0.33538323083845806,
+      "randomized_gross_mean_ci95": [
+        -14.08487704918024,
+        14.099262295082005
+      ],
+      "gross_mean_observed": 7.415573770491899,
+      "draws": 20000,
+      "null": "Conditional on observed trade times/magnitudes: session-wide random direction orientation. Not an incremental-factor p-value.",
+      "passes_conditional6_gate": false
+    },
+    {
+      "strategy": "fixed_router",
+      "n": 73,
+      "gross": 8.323972602739845,
+      "net2": 6.323972602739846,
+      "net5": 3.3239726027398455,
+      "matched_long_net2": -2.5897260273972003,
+      "matched_short_net2": -1.4102739726027995,
+      "matched_momentum_net2": 1.9582191780822515,
+      "excess_long": 8.913698630137047,
+      "excess_momentum": 4.365753424657594,
+      "win_pct": 50.68493150684932,
+      "sessions": 65,
+      "net2_ci95": [
+        -6.498490675990588,
+        20.418805019305367
+      ],
+      "net2_bonferroni6_ci": [
+        -10.135398420177234,
+        25.47336666666691
+      ],
+      "excess_long_ci95": [
+        -11.670424816147598,
+        32.96338761174984
+      ],
+      "excess_momentum_ci95": [
+        -9.362799953314639,
+        17.847963871543268
+      ],
+      "excess_momentum_bonferroni6_ci": [
+        -14.807888710171483,
+        22.16190975690983
+      ],
+      "session_sign_flip_two_sided_p": 0.23218839058047097,
+      "randomized_gross_mean_ci95": [
+        -13.207705479452072,
+        13.033630136986734
+      ],
+      "gross_mean_observed": 8.323972602739845,
+      "draws": 20000,
+      "null": "Conditional on observed trade times/magnitudes: session-wide random direction orientation. Not an incremental-factor p-value.",
+      "passes_conditional6_gate": null
+    }
+  ],
+  "latency": [
+    {
+      "strategy": "ema_trend",
+      "n": 61,
+      "gross": 9.777049180327595,
+      "net2": 7.7770491803275945,
+      "net5": 4.7770491803275945,
+      "matched_long_net2": 0.3819672131145036,
+      "matched_short_net2": -4.381967213114503,
+      "matched_momentum_net2": 2.731147540983404,
+      "excess_long": 7.395081967213091,
+      "excess_momentum": 5.045901639344191,
+      "win_pct": 54.09836065573771,
+      "sessions": 61
+    },
+    {
+      "strategy": "donchian",
+      "n": 41,
+      "gross": 8.797560975609862,
+      "net2": 6.797560975609863,
+      "net5": 3.7975609756098625,
+      "matched_long_net2": -4.4829268292681865,
+      "matched_short_net2": 0.4829268292681862,
+      "matched_momentum_net2": 6.797560975609863,
+      "excess_long": 11.28048780487805,
+      "excess_momentum": 0.0,
+      "win_pct": 43.90243902439025,
+      "sessions": 41
+    },
+    {
+      "strategy": "pullback",
+      "n": 60,
+      "gross": 5.8366666666668,
+      "net2": 3.8366666666668,
+      "net5": 0.8366666666668,
+      "matched_long_net2": -1.6233333333336608,
+      "matched_short_net2": -2.376666666666339,
+      "matched_momentum_net2": 2.0066666666667516,
+      "excess_long": 5.460000000000461,
+      "excess_momentum": 1.8300000000000485,
+      "win_pct": 45.0,
+      "sessions": 60
+    },
+    {
+      "strategy": "fixed_router",
+      "n": 65,
+      "gross": 8.46153846153835,
+      "net2": 6.46153846153835,
+      "net5": 3.4615384615383498,
+      "matched_long_net2": -1.380000000000291,
+      "matched_short_net2": -2.619999999999709,
+      "matched_momentum_net2": 2.7984615384615608,
+      "excess_long": 7.841538461538641,
+      "excess_momentum": 3.6630769230767886,
+      "win_pct": 52.307692307692314,
+      "sessions": 65
+    }
+  ],
+  "robustness": [
+    {
+      "strategy": "ema_trend",
+      "full": {
+        "n": 69,
+        "gross": 9.0724637681161,
+        "net2": 7.0724637681161004,
+        "net5": 4.0724637681161004,
+        "matched_long_net2": -0.046376811594213446,
+        "matched_short_net2": -3.9536231884057864,
+        "matched_momentum_net2": 1.755072463768253,
+        "excess_long": 7.118840579710314,
+        "excess_momentum": 5.317391304347847,
+        "win_pct": 50.72463768115942,
+        "sessions": 61
+      },
+      "drop_best_5_trades": {
+        "n": 64,
+        "gross": -2.910156249999943,
+        "net2": -4.910156249999943,
+        "net5": -7.910156249999943,
+        "matched_long_net2": 4.897656250000011,
+        "matched_short_net2": -8.897656250000011,
+        "matched_momentum_net2": -2.150781249999852,
+        "excess_long": -9.807812499999955,
+        "excess_momentum": -2.759375000000091,
+        "win_pct": 46.875,
+        "sessions": 60
+      },
+      "drop_best_day": {
+        "n": 68,
+        "gross": 5.086029411764845,
+        "net2": 3.086029411764845,
+        "net5": 0.08602941176484498,
+        "matched_long_net2": 4.102205882352952,
+        "matched_short_net2": -8.102205882352951,
+        "matched_momentum_net2": -2.309558823529294,
+        "excess_long": -1.016176470588107,
+        "excess_momentum": 5.395588235294139,
+        "win_pct": 50.0,
+        "sessions": 60
+      },
+      "best_day": "2026-07-08",
+      "positive_active_day_pct": 49.18032786885246,
+      "positive_all_final_day_pct": 32.608695652173914
+    },
+    {
+      "strategy": "donchian",
+      "full": {
+        "n": 42,
+        "gross": 8.82857142857167,
+        "net2": 6.828571428571671,
+        "net5": 3.828571428571671,
+        "matched_long_net2": -9.464285714285714,
+        "matched_short_net2": 5.464285714285714,
+        "matched_momentum_net2": 6.828571428571671,
+        "excess_long": 16.292857142857386,
+        "excess_momentum": 0.0,
+        "win_pct": 45.23809523809524,
+        "sessions": 42
+      },
+      "drop_best_5_trades": {
+        "n": 37,
+        "gross": -7.270270270270074,
+        "net2": -9.270270270270073,
+        "net5": -12.270270270270073,
+        "matched_long_net2": -3.3945945945945555,
+        "matched_short_net2": -0.6054054054054447,
+        "matched_momentum_net2": -9.270270270270073,
+        "excess_long": -5.875675675675518,
+        "excess_momentum": 0.0,
+        "win_pct": 37.83783783783784,
+        "sessions": 37
+      },
+      "drop_best_day": {
+        "n": 41,
+        "gross": 2.2109756097563107,
+        "net2": 0.21097560975631052,
+        "net5": -2.7890243902436893,
+        "matched_long_net2": -2.813414634146306,
+        "matched_short_net2": -1.186585365853694,
+        "matched_momentum_net2": 0.21097560975631052,
+        "excess_long": 3.0243902439026167,
+        "excess_momentum": 0.0,
+        "win_pct": 43.90243902439025,
+        "sessions": 41
+      },
+      "best_day": "2026-07-08",
+      "positive_active_day_pct": 45.23809523809524,
+      "positive_all_final_day_pct": 20.652173913043477
+    },
+    {
+      "strategy": "pullback",
+      "full": {
+        "n": 61,
+        "gross": 7.415573770491899,
+        "net2": 5.415573770491899,
+        "net5": 2.415573770491899,
+        "matched_long_net2": -5.923770491803255,
+        "matched_short_net2": 1.9237704918032548,
+        "matched_momentum_net2": 2.2008196721312667,
+        "excess_long": 11.339344262295153,
+        "excess_momentum": 3.2147540983606318,
+        "win_pct": 50.81967213114754,
+        "sessions": 60
+      },
+      "drop_best_5_trades": {
+        "n": 56,
+        "gross": -3.787499999999909,
+        "net2": -5.787499999999909,
+        "net5": -8.787499999999909,
+        "matched_long_net2": -1.9303571428570518,
+        "matched_short_net2": -2.069642857142948,
+        "matched_momentum_net2": -5.071428571428506,
+        "excess_long": -3.857142857142857,
+        "excess_momentum": -0.7160714285714026,
+        "win_pct": 46.42857142857143,
+        "sessions": 56
+      },
+      "drop_best_day": {
+        "n": 60,
+        "gross": 2.870000000000073,
+        "net2": 0.8700000000000727,
+        "net5": -2.129999999999927,
+        "matched_long_net2": -1.3199999999999514,
+        "matched_short_net2": -2.6800000000000486,
+        "matched_momentum_net2": -2.398333333333236,
+        "excess_long": 2.1900000000000244,
+        "excess_momentum": 3.268333333333309,
+        "win_pct": 50.0,
+        "sessions": 59
+      },
+      "best_day": "2026-07-08",
+      "positive_active_day_pct": 48.333333333333336,
+      "positive_all_final_day_pct": 31.521739130434785
+    },
+    {
+      "strategy": "fixed_router",
+      "full": {
+        "n": 73,
+        "gross": 8.323972602739845,
+        "net2": 6.323972602739846,
+        "net5": 3.3239726027398455,
+        "matched_long_net2": -2.5897260273972003,
+        "matched_short_net2": -1.4102739726027995,
+        "matched_momentum_net2": 1.9582191780822515,
+        "excess_long": 8.913698630137047,
+        "excess_momentum": 4.365753424657594,
+        "win_pct": 50.68493150684932,
+        "sessions": 65
+      },
+      "drop_best_5_trades": {
+        "n": 68,
+        "gross": -3.0088235294117434,
+        "net2": -5.008823529411743,
+        "net5": -8.008823529411742,
+        "matched_long_net2": 1.8764705882353798,
+        "matched_short_net2": -5.87647058823538,
+        "matched_momentum_net2": -1.702941176470524,
+        "excess_long": -6.885294117647123,
+        "excess_momentum": -3.3058823529412193,
+        "win_pct": 47.05882352941176,
+        "sessions": 64
+      },
+      "drop_best_day": {
+        "n": 72,
+        "gross": 4.548611111111212,
+        "net2": 2.548611111111212,
+        "net5": -0.4513888888887878,
+        "matched_long_net2": 1.2930555555556364,
+        "matched_short_net2": -5.293055555555636,
+        "matched_momentum_net2": -1.8777777777777374,
+        "excess_long": 1.2555555555555757,
+        "excess_momentum": 4.426388888888949,
+        "win_pct": 50.0,
+        "sessions": 64
+      },
+      "best_day": "2026-07-08",
+      "positive_active_day_pct": 49.23076923076923,
+      "positive_all_final_day_pct": 34.78260869565217
+    }
+  ],
+  "momentum_baseline": {
+    "n": 460,
+    "gross": 5.961195652173853,
+    "net2": 3.9611956521738527,
+    "net5": 0.9611956521738529,
+    "matched_long_net2": -4.989456521739197,
+    "matched_short_net2": 0.9894565217391968,
+    "matched_momentum_net2": 3.9611956521738527,
+    "excess_long": 8.95065217391305,
+    "excess_momentum": 0.0,
+    "win_pct": 53.47826086956522,
+    "sessions": 92
+  },
+  "monthly_walkforward": {
+    "n": 57,
+    "gross": 8.378947368421155,
+    "net2": 6.378947368421155,
+    "net5": 3.3789473684211546,
+    "matched_long_net2": -4.357894736842258,
+    "matched_short_net2": 0.3578947368422584,
+    "matched_momentum_net2": 0.421052631579075,
+    "excess_long": 10.736842105263413,
+    "excess_momentum": 5.957894736842079,
+    "win_pct": 45.614035087719294,
+    "sessions": 54,
+    "net2_ci95": [
+      -8.047578336557319,
+      21.493143416928064
+    ],
+    "net2_bonferroni6_ci": [
+      -12.32574440946613,
+      28.105974580017833
+    ],
+    "excess_long_ci95": [
+      -9.945831339712845,
+      37.384578796128544
+    ],
+    "excess_momentum_ci95": [
+      0.0,
+      16.703428717798502
+    ],
+    "excess_momentum_bonferroni6_ci": [
+      0.0,
+      20.633973024546993
+    ]
+  },
+  "verification_assertions": 13806,
+  "backward_2022_2024": [],
+  "limitations": [
+    "All market-direction index points; executable option-premium outcome unknown.",
+    "Phase-two candidate set was motivated by phase-one results; conditional six-contrast intervals do not correct original search.",
+    "Year/quarter tables include development history and are descriptive. Final-only months and sides are separately reported.",
+    "The hypothetical matched-time controls share trigger times; this isolates side choice, not entry opportunity selection.",
+    "One-bar delay changes eligible entries/next signals and sample. It is an execution sensitivity, not a paired attribution.",
+    "No stop, target, sizing, quote spread or actual tax model.",
+    "Rolling monthly policy is specified now on already studied history and remains exploratory."
+  ]
+}

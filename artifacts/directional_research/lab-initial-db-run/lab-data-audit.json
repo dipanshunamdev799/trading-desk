@@ -1,0 +1,33 @@
+{
+  "input_hashes": {
+    "nifty-db-1minute.json": "982c3cdf16e673e527b282440a906f78babab69cc488b7f1e8249cc327000d73",
+    "nifty-db-5minute.json": "ef02963c7bf00a8d1dac18b373ca71f8f849e888ae427979c819596941a86b19"
+  },
+  "overlap_bars": 4311,
+  "overlap_max_abs_difference": {
+    "open": 0.0,
+    "high": 0.0,
+    "low": 0.0,
+    "close": 0.0
+  },
+  "conflicting_days": [],
+  "excluded_sessions": [],
+  "sessions": 205,
+  "first": "2026-01-01",
+  "last": "2026-10-30",
+  "bars": 14555,
+  "prefix_tests": [
+    {
+      "prefix_bars": 4868,
+      "passed": true
+    },
+    {
+      "prefix_bars": 7308,
+      "passed": true
+    },
+    {
+      "prefix_bars": 14530,
+      "passed": true
+    }
+  ]
+}

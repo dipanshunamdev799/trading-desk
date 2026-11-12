@@ -1,0 +1,34 @@
+{
+  "date": "2026-11-10",
+  "cause": "Running Next.js process referenced a replaced webpack runtime; HTML and API passed while required JavaScript returned HTTP 400.",
+  "repair": "Launcher verified process ownership, restarted only its frontend, rebuilt and recorded its build ID.",
+  "api_unchanged": true,
+  "assets_before": {
+    "ok": false,
+    "failed_path": "/_next/static/chunks/webpack-07668cadbe59044a.js",
+    "status": 400
+  },
+  "assets_after": {
+    "ok": true,
+    "unique_assets_checked": 13
+  },
+  "api": {
+    "health_ok": true,
+    "database": "ok",
+    "upstox_token_configured": true,
+    "retained_ipos": 53,
+    "catalogue_seconds": 0.17,
+    "detail_seconds": 0.26,
+    "detail_factors": 24
+  },
+  "checks": {
+    "python_asset_regressions": 3,
+    "frontend_api_polling_ipo_regressions": 12,
+    "production_build": "passed",
+    "launcher_second_run": "reused healthy services",
+    "browser": "loaded catalogue, counts, search and all 24 factor cards; no console errors"
+  },
+  "remaining_source_errors": [
+    "universe:subscriptions"
+  ]
+}

@@ -7,6 +7,7 @@ invented from subscription counts or GMP.
 from __future__ import annotations
 
 import math
+import json
 import re
 import threading
 import time
@@ -21,6 +22,8 @@ from .market_store import IST, now
 
 GAIN_INDEX = "https://www.investorgain.com/report/ipo-gmp-live/331/"
 WATCH_SUBSCRIPTIONS = "https://ipowatch.in/ipo-subscription-status-today/"
+# The current tracker loads this public endpoint; its HTML is only a loading shell.
+WATCH_SUBSCRIPTIONS_API = "https://ipowatch.in/server/api/ipo/GetIpoAubscription"
 ALLOWED_HOSTS = {"www.investorgain.com", "investorgain.com", "ipowatch.in"}
 _rate_lock = threading.Lock()
 _next_request = 0.0
@@ -139,6 +142,8 @@ def parse_index(html: str) -> dict:
 
 
 def parse_subscription_index(html: str) -> dict:
+    if html.lstrip().startswith("{"):
+        return parse_subscription_feed(json.loads(html))
     soup = BeautifulSoup(html, "html.parser")
     result = []
     for table in soup.find_all("table"):
@@ -155,6 +160,84 @@ def parse_subscription_index(html: str) -> dict:
     if not result:
         raise ValueError("IPO category subscription table was not found")
     return {"rows": result}
+
+
+def parse_subscription_feed(payload: dict) -> dict:
+    """Normalize IPOWatch's public JSON tracker, preserving daily publication precision."""
+    if not isinstance(payload, dict) or type(payload.get("status")) is not int or payload["status"] != 1 or not isinstance(payload.get("result"), list):
+        raise ValueError("Unrecognized or unsuccessful IPOWatch subscription response")
+    result = {}
+    metrics = ("qib", "nii", "snii", "bnii", "retail", "total")
+
+    def day(value):
+        if not isinstance(value, str):
+            raise ValueError("Missing IPOWatch subscription date")
+        try:
+            return datetime.fromisoformat(value.replace("Z", "+00:00")).date().isoformat()
+        except ValueError:
+            raise ValueError("Invalid IPOWatch subscription date") from None
+
+    def multiple(value):
+        if value is None or isinstance(value, str) and value.strip().lower() in ("", "-", "--", "—", "na", "n/a", "null"):
+            return None
+        if isinstance(value, bool) or not isinstance(value, (int, float, str)):
+            raise ValueError("Invalid IPOWatch subscription multiple")
+        if isinstance(value, (int, float)):
+            numeric = float(value)
+        else:
+            text = value.strip()
+            if not re.fullmatch(r"\+?(?:\d+|\d{1,3}(?:,\d{3})+)(?:\.\d+)?(?:\s*[x×])?", text, re.I):
+                raise ValueError("Invalid IPOWatch subscription multiple")
+            numeric = float(re.sub(r"[x×]$", "", text, flags=re.I).strip().replace(",", ""))
+        if not math.isfinite(numeric) or numeric < 0:
+            raise ValueError("Invalid IPOWatch subscription multiple")
+        return numeric
+
+    for envelope in payload["result"]:
+        if not isinstance(envelope, dict) or "ipoSubscriptionJson" not in envelope:
+            raise ValueError("Missing IPOWatch subscription records")
+        issues = envelope["ipoSubscriptionJson"]
+        if isinstance(issues, str):
+            issues = json.loads(issues)
+        if not isinstance(issues, list):
+            raise ValueError("Invalid IPOWatch subscription records")
+        for issue in issues:
+            if not isinstance(issue, dict) or not issue.get("ipoId") or not isinstance(issue.get("ipoName"), str) or not issue["ipoName"].strip():
+                raise ValueError("Missing IPOWatch issuer identity")
+            close_date = day(issue.get("ipoCloseDate"))
+            records = issue.get("subscriptionList")
+            if not isinstance(records, list):
+                raise ValueError("Missing IPOWatch category readings")
+            dated, seen = {}, {}
+            for record in records:
+                if not isinstance(record, dict) or not isinstance(record.get("categoryName"), str):
+                    raise ValueError("Invalid IPOWatch category reading")
+                key = category(record["categoryName"])
+                if not key:
+                    continue
+                if "subscriptionValue" not in record:
+                    raise ValueError("Missing IPOWatch subscription multiple")
+                at = day(record.get("subscriptionDate"))
+                value = multiple(record["subscriptionValue"])
+                if (at, key) in seen and seen[at, key] != value:
+                    raise ValueError("Conflicting IPOWatch category readings for one publication date")
+                seen[at, key] = value
+                dated.setdefault(at, {"at": at, **dict.fromkeys(metrics)})[key] = value
+            if records and not dated:
+                raise ValueError("No recognized IPOWatch subscription categories")
+            history = [dated[at] for at in sorted(dated)]
+            latest = history[-1] if history else dict.fromkeys(metrics)
+            row = {"name": issue["ipoName"].strip(), "close_date": close_date,
+                   "provider_ipo_id": issue["ipoId"], "publisher_slug": issue.get("slug"),
+                   **{key: latest[key] for key in metrics}, "history": history,
+                   "reported_date": latest.get("at"), "reported_time": None,
+                   "source_url": WATCH_SUBSCRIPTIONS, "feed_url": WATCH_SUBSCRIPTIONS_API}
+            identity_key = str(issue["ipoId"])
+            if identity_key in result and result[identity_key] != row:
+                raise ValueError("Conflicting IPOWatch issuer snapshots")
+            result[identity_key] = row
+    # Only a validated success envelope can establish that a feed is empty.
+    return {"rows": list(result.values()), "format": "ipowatch_json_v2"}
 
 
 def section(soup, title: str) -> dict:

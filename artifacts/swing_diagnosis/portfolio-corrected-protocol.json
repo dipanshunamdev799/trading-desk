@@ -1,0 +1,129 @@
+{
+  "configurations": [
+    {
+      "id": "kama_cross_098a05a5d438",
+      "family": "kama_cross",
+      "description": "efficiency-ratio KAMA cross; rs filter",
+      "variant": "filter_rs",
+      "params": {
+        "exit": "fixed",
+        "stop_mode": "atr",
+        "stop_atr": 2.0,
+        "buffer": 0.2,
+        "reward": 2.0,
+        "max_hold_sessions": 10,
+        "risk_fraction": 0.005,
+        "filter": "rs",
+        "fast": 10,
+        "slow": 30
+      },
+      "exit": "fixed",
+      "stop_mode": "atr",
+      "stop_atr": 2.0,
+      "buffer": 0.2,
+      "reward": 2.0,
+      "max_hold_sessions": 10,
+      "risk_fraction": 0.005,
+      "filter": "rs",
+      "fast": 10,
+      "slow": 30,
+      "initial_capital": 1000000,
+      "min_turnover": 50000000,
+      "participation": 0.01
+    },
+    {
+      "id": "ema_cross_8d2ff7f02140",
+      "family": "ema_cross",
+      "description": "EMA cross; rs filter",
+      "variant": "filter_rs",
+      "params": {
+        "exit": "fixed",
+        "stop_mode": "atr",
+        "stop_atr": 2.0,
+        "buffer": 0.2,
+        "reward": 2.0,
+        "max_hold_sessions": 10,
+        "risk_fraction": 0.005,
+        "filter": "rs",
+        "fast": 20,
+        "slow": 50
+      },
+      "exit": "fixed",
+      "stop_mode": "atr",
+      "stop_atr": 2.0,
+      "buffer": 0.2,
+      "reward": 2.0,
+      "max_hold_sessions": 10,
+      "risk_fraction": 0.005,
+      "filter": "rs",
+      "fast": 20,
+      "slow": 50,
+      "initial_capital": 1000000,
+      "min_turnover": 50000000,
+      "participation": 0.01
+    },
+    {
+      "id": "hybrid_ribbon_pullback_345d115be690",
+      "family": "hybrid_ribbon_pullback",
+      "description": "ribbon pullback; breadth filter",
+      "variant": "filter_breadth",
+      "params": {
+        "exit": "fixed",
+        "stop_mode": "atr",
+        "stop_atr": 2.0,
+        "buffer": 0.2,
+        "reward": 2.0,
+        "max_hold_sessions": 10,
+        "risk_fraction": 0.005,
+        "filter": "breadth",
+        "fast": 9,
+        "middle": 20,
+        "slow": 50,
+        "zone": 0.5
+      },
+      "exit": "fixed",
+      "stop_mode": "atr",
+      "stop_atr": 2.0,
+      "buffer": 0.2,
+      "reward": 2.0,
+      "max_hold_sessions": 10,
+      "risk_fraction": 0.005,
+      "filter": "breadth",
+      "fast": 9,
+      "middle": 20,
+      "slow": 50,
+      "zone": 0.5,
+      "initial_capital": 1000000,
+      "min_turnover": 50000000,
+      "participation": 0.01
+    }
+  ],
+  "policies": [
+    "equal",
+    "volatility",
+    "risk",
+    "risk_correlation",
+    "risk_correlation_dd"
+  ],
+  "periods": {
+    "development": [
+      "2024-11-10",
+      "2025-11-10"
+    ],
+    "validation": [
+      "2025-11-10",
+      "2026-05-10"
+    ],
+    "final": [
+      "2026-05-10",
+      "2026-11-10"
+    ],
+    "two_year": [
+      "2024-11-10",
+      "2026-11-10"
+    ]
+  },
+  "corrected_dividends_and_same_day_taxes": true,
+  "design_sha256": "10acbd4a47d58c21525be1b57ce267e098b20768a5ccc6d8911dcc32109aea78",
+  "warning": "Retrospective diagnostic references selected in already-researched history; no untouched OOS claim."
+}

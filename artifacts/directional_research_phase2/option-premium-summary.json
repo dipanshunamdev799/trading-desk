@@ -1,0 +1,254 @@
+{
+  "covered_signal_trades": 106,
+  "selected_buckets": 424,
+  "observed_buckets": 424,
+  "distinct_signal_contract_outcomes_within_strategy": 374,
+  "duplicate_policy_rows": 50,
+  "selection_counts": {
+    "premium_proxy_observed": 424
+  },
+  "source_outside_coverage": 979,
+  "assertions_passed": 1272,
+  "groups": [
+    {
+      "strategy": "donchian|lookback10_buffer0.25|long_only|h5",
+      "expiry_bucket": "month_end_proxy",
+      "strike_rule": "ATM",
+      "n": 9,
+      "months": 9,
+      "gross_mean_rupees_per_lot": -3519.527777777778,
+      "illustrative_net_mean_rupees_per_lot": -3775.0375000000004,
+      "severe_net_mean_rupees_per_lot": -4076.704166666667,
+      "gross_win_pct": 44.44444444444444,
+      "net_ci95_rupees_per_lot": [
+        -8508.876258680557,
+        541.0174777777781
+      ]
+    },
+    {
+      "strategy": "donchian|lookback10_buffer0.25|long_only|h5",
+      "expiry_bucket": "month_end_proxy",
+      "strike_rule": "one_step_ITM",
+      "n": 9,
+      "months": 9,
+      "gross_mean_rupees_per_lot": -3662.527777777778,
+      "illustrative_net_mean_rupees_per_lot": -3920.3032916666675,
+      "severe_net_mean_rupees_per_lot": -4221.969958333334,
+      "gross_win_pct": 44.44444444444444,
+      "net_ci95_rupees_per_lot": [
+        -9377.331352430554,
+        1201.9479559027782
+      ]
+    },
+    {
+      "strategy": "donchian|lookback10_buffer0.25|long_only|h5",
+      "expiry_bucket": "nearest_surviving",
+      "strike_rule": "ATM",
+      "n": 9,
+      "months": 9,
+      "gross_mean_rupees_per_lot": -3652.5,
+      "illustrative_net_mean_rupees_per_lot": -3899.507347222223,
+      "severe_net_mean_rupees_per_lot": -4201.174013888889,
+      "gross_win_pct": 33.33333333333333,
+      "net_ci95_rupees_per_lot": [
+        -7720.373327430557,
+        -12.50755451388888
+      ]
+    },
+    {
+      "strategy": "donchian|lookback10_buffer0.25|long_only|h5",
+      "expiry_bucket": "nearest_surviving",
+      "strike_rule": "one_step_ITM",
+      "n": 9,
+      "months": 9,
+      "gross_mean_rupees_per_lot": -4050.6944444444443,
+      "illustrative_net_mean_rupees_per_lot": -4299.839708333334,
+      "severe_net_mean_rupees_per_lot": -4601.506375000001,
+      "gross_win_pct": 44.44444444444444,
+      "net_ci95_rupees_per_lot": [
+        -8899.338215972222,
+        305.0069756944459
+      ]
+    },
+    {
+      "strategy": "ema_trend|10_30_gap0|long_only|h5",
+      "expiry_bucket": "month_end_proxy",
+      "strike_rule": "ATM",
+      "n": 28,
+      "months": 10,
+      "gross_mean_rupees_per_lot": -3397.8125,
+      "illustrative_net_mean_rupees_per_lot": -3658.3044375,
+      "severe_net_mean_rupees_per_lot": -3964.0187232142857,
+      "gross_win_pct": 32.142857142857146,
+      "net_ci95_rupees_per_lot": [
+        -8314.994133203125,
+        -11.517739461205664
+      ]
+    },
+    {
+      "strategy": "ema_trend|10_30_gap0|long_only|h5",
+      "expiry_bucket": "month_end_proxy",
+      "strike_rule": "one_step_ITM",
+      "n": 28,
+      "months": 10,
+      "gross_mean_rupees_per_lot": -3503.8303571428573,
+      "illustrative_net_mean_rupees_per_lot": -3766.5764062499998,
+      "severe_net_mean_rupees_per_lot": -4072.2906919642855,
+      "gross_win_pct": 35.714285714285715,
+      "net_ci95_rupees_per_lot": [
+        -8834.043192892046,
+        103.16095228313712
+      ]
+    },
+    {
+      "strategy": "ema_trend|10_30_gap0|long_only|h5",
+      "expiry_bucket": "nearest_surviving",
+      "strike_rule": "ATM",
+      "n": 28,
+      "months": 10,
+      "gross_mean_rupees_per_lot": -3494.75,
+      "illustrative_net_mean_rupees_per_lot": -3746.2094866071425,
+      "severe_net_mean_rupees_per_lot": -4051.9237723214283,
+      "gross_win_pct": 35.714285714285715,
+      "net_ci95_rupees_per_lot": [
+        -8604.626656044407,
+        93.53957548828181
+      ]
+    },
+    {
+      "strategy": "ema_trend|10_30_gap0|long_only|h5",
+      "expiry_bucket": "nearest_surviving",
+      "strike_rule": "one_step_ITM",
+      "n": 28,
+      "months": 10,
+      "gross_mean_rupees_per_lot": -3667.8125,
+      "illustrative_net_mean_rupees_per_lot": -3921.4833125,
+      "severe_net_mean_rupees_per_lot": -4227.197598214286,
+      "gross_win_pct": 35.714285714285715,
+      "net_ci95_rupees_per_lot": [
+        -8796.382571170949,
+        -53.31845055803506
+      ]
+    },
+    {
+      "strategy": "momentum|lookback20_atr0|ema_aligned|h5",
+      "expiry_bucket": "month_end_proxy",
+      "strike_rule": "ATM",
+      "n": 42,
+      "months": 13,
+      "gross_mean_rupees_per_lot": -2925.011904761905,
+      "illustrative_net_mean_rupees_per_lot": -3184.123851190476,
+      "severe_net_mean_rupees_per_lot": -3485.552422619048,
+      "gross_win_pct": 26.190476190476193,
+      "net_ci95_rupees_per_lot": [
+        -8762.405150156252,
+        2334.3616240003257
+      ]
+    },
+    {
+      "strategy": "momentum|lookback20_atr0|ema_aligned|h5",
+      "expiry_bucket": "month_end_proxy",
+      "strike_rule": "one_step_ITM",
+      "n": 42,
+      "months": 13,
+      "gross_mean_rupees_per_lot": -3089.75,
+      "illustrative_net_mean_rupees_per_lot": -3350.943029761904,
+      "severe_net_mean_rupees_per_lot": -3652.3716011904753,
+      "gross_win_pct": 28.57142857142857,
+      "net_ci95_rupees_per_lot": [
+        -8967.107228565705,
+        2239.908498789065
+      ]
+    },
+    {
+      "strategy": "momentum|lookback20_atr0|ema_aligned|h5",
+      "expiry_bucket": "nearest_surviving",
+      "strike_rule": "ATM",
+      "n": 42,
+      "months": 13,
+      "gross_mean_rupees_per_lot": -3733.3273809523807,
+      "illustrative_net_mean_rupees_per_lot": -3984.201595238096,
+      "severe_net_mean_rupees_per_lot": -4285.630166666667,
+      "gross_win_pct": 23.809523809523807,
+      "net_ci95_rupees_per_lot": [
+        -9742.946158476443,
+        1507.7023915234379
+      ]
+    },
+    {
+      "strategy": "momentum|lookback20_atr0|ema_aligned|h5",
+      "expiry_bucket": "nearest_surviving",
+      "strike_rule": "one_step_ITM",
+      "n": 42,
+      "months": 13,
+      "gross_mean_rupees_per_lot": -3256.875,
+      "illustrative_net_mean_rupees_per_lot": -3509.736880952381,
+      "severe_net_mean_rupees_per_lot": -3811.165452380952,
+      "gross_win_pct": 26.190476190476193,
+      "net_ci95_rupees_per_lot": [
+        -9667.200717708334,
+        2609.7988197222217
+      ]
+    },
+    {
+      "strategy": "rsi_reversion|rsi30|none|h1",
+      "expiry_bucket": "month_end_proxy",
+      "strike_rule": "ATM",
+      "n": 27,
+      "months": 5,
+      "gross_mean_rupees_per_lot": 367.3333333333335,
+      "illustrative_net_mean_rupees_per_lot": 106.57740740740762,
+      "severe_net_mean_rupees_per_lot": -195.089259259259,
+      "gross_win_pct": 48.148148148148145,
+      "net_ci95_rupees_per_lot": [
+        -1183.0031612903229,
+        1726.8339130434783
+      ]
+    },
+    {
+      "strategy": "rsi_reversion|rsi30|none|h1",
+      "expiry_bucket": "month_end_proxy",
+      "strike_rule": "one_step_ITM",
+      "n": 27,
+      "months": 5,
+      "gross_mean_rupees_per_lot": 678.7129629629633,
+      "illustrative_net_mean_rupees_per_lot": 415.4871527777781,
+      "severe_net_mean_rupees_per_lot": 113.82048611111134,
+      "gross_win_pct": 51.85185185185185,
+      "net_ci95_rupees_per_lot": [
+        -1192.9820803571433,
+        2416.74295652174
+      ]
+    },
+    {
+      "strategy": "rsi_reversion|rsi30|none|h1",
+      "expiry_bucket": "nearest_surviving",
+      "strike_rule": "ATM",
+      "n": 27,
+      "months": 5,
+      "gross_mean_rupees_per_lot": -147.8055555555553,
+      "illustrative_net_mean_rupees_per_lot": -398.2801759259255,
+      "severe_net_mean_rupees_per_lot": -699.9468425925922,
+      "gross_win_pct": 40.74074074074074,
+      "net_ci95_rupees_per_lot": [
+        -1859.1701693548382,
+        1570.7454673913041
+      ]
+    },
+    {
+      "strategy": "rsi_reversion|rsi30|none|h1",
+      "expiry_bucket": "nearest_surviving",
+      "strike_rule": "one_step_ITM",
+      "n": 27,
+      "months": 5,
+      "gross_mean_rupees_per_lot": 279.36111111111137,
+      "illustrative_net_mean_rupees_per_lot": 26.388351851851944,
+      "severe_net_mean_rupees_per_lot": -275.2783148148147,
+      "gross_win_pct": 51.85185185185185,
+      "net_ci95_rupees_per_lot": [
+        -1793.4835806451608,
+        2024.2455108695656
+      ]
+    }
+  ]
+}

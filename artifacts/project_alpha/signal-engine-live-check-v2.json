@@ -1,0 +1,33 @@
+{
+  "at": "2026-11-10T09:03:11.211601+05:30",
+  "configuration_version": "project-alpha-research-1",
+  "code_sha256": "bb587bd7917026c7a848ba8c1b63469190d8399c5759c01f329b87ed680c0285",
+  "deployment": "RESEARCH ONLY",
+  "action": "NO TRADE",
+  "candidate_action": null,
+  "regime": "uptrend",
+  "selected_rule": "ema_trend|12_26_gap0.5|trend|afternoon|h60",
+  "selected_contract": null,
+  "entry_price": null,
+  "planned_stop": null,
+  "lots": 0,
+  "maximum_planned_risk_rupees": null,
+  "reasons": [
+    "historical_and_forward_acceptance_not_passed",
+    "stale_signal_bar",
+    "missed_entry_decision_deadline",
+    "market_not_normal_open",
+    "outside_entry_window"
+  ],
+  "broker_order_sent": false,
+  "features": {
+    "atr": 28.54999999999979,
+    "efficiency": 0.38295577130527786,
+    "trend": 0.6733850666159575,
+    "ema9": 24991.55449620752,
+    "ema12": 24986.653769855715,
+    "ema21": 24972.329352555633,
+    "ema26": 24965.912351686795
+  },
+  "input_sha256": "79e9db220baeb341171820b57d6599b31533171cc76ef378a8880792b9fb9f83"
+}

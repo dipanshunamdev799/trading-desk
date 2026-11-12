@@ -1,0 +1,173 @@
+{
+  "experiment_id": "ALPHA-EXIT-001",
+  "status": "RESEARCH_ONLY",
+  "source_window": [
+    "2026-11-02",
+    "2026-11-06"
+  ],
+  "input_sha256": {
+    "artifacts\\directional_research_phase2\\option-intraday-selection-frozen.json": "48228cc630751042ac7442b8f812f13c992cd0aa8be974b3dd437a1c2ae00c63",
+    "artifacts\\directional_research\\nifty-upstox-5minute.json": "edebba307ecadd0945649baf6110a48e6706f393c4f95d3c208f46efffb4e3dd",
+    "scripts\\research_alpha_exits.py": "e400c8b35ba55eca37726ea8cacdfb5e0f486c8d0dcb1c349bc632874217212e",
+    "scripts\\alpha_event_engine.py": "22e455d038e6bdaf6123e886983c1026518f33a0c346dfdad6834aa0b229d854",
+    "scripts\\test_alpha_event_engine.py": "a6308b15e1ec31f680c195c930e52e87c0f936adb8dd8f49ac45c6644dc8f762",
+    "artifacts\\directional_research_phase2\\option-intraday-candles\\39945.json": "8dd33245a6a6bec5a97cb440b3b17ce0e23e03743172468c402f1337a5bff5d2",
+    "artifacts\\directional_research_phase2\\option-intraday-candles\\39947.json": "4cc223c21ddfcf122383f2c1e049b2d5d1d6d371782d39517c51d0fd9fd5ba1d",
+    "artifacts\\directional_research_phase2\\option-intraday-candles\\39951.json": "1cb52832bd9acb42635959299fce24b701a05649cf095403b9e51f2f1f76651c",
+    "artifacts\\directional_research_phase2\\option-intraday-candles\\39953.json": "9d73d844122128c1618b6865ec983ab7fde906cd4a452361010f74726c7254a8",
+    "artifacts\\directional_research_phase2\\option-intraday-candles\\39999.json": "b2b75de0f261ea7dd82355e352bc7bc2cb626e7a87dc5bb12e1c6c3c09c590c7",
+    "artifacts\\directional_research_phase2\\option-intraday-candles\\40001.json": "391dfc8c6feae6f1f5f2560f308a5f308b626953986ab38633ef378c0cdd5ede",
+    "artifacts\\directional_research_phase2\\option-intraday-candles\\40003.json": "781ed9ccc6d4e230c9a659512eeec662d18ec14d59e8a0a6ae57f79e7982f868",
+    "artifacts\\directional_research_phase2\\option-intraday-candles\\40005.json": "f43c7c93d71847448aec73de0a3aefa454aa302400bdd1c38777fdb98abba5f5",
+    "artifacts\\directional_research_phase2\\option-intraday-candles\\40007.json": "12e8c6b3153255bd7afc3ff7b6a780cbaf69c6e967e16c46d29feea51ac5114a",
+    "artifacts\\directional_research_phase2\\option-intraday-candles\\40009.json": "feae93c6d0d152e7e04ee493331a6d03a9789293b50a7ddf0a0e9c5589ac035b",
+    "artifacts\\directional_research_phase2\\option-intraday-candles\\40011.json": "bd8843ca790d4f902de4362dd81416c1fac7d3e2ebd9c20510ba6e1d9c27bdf2",
+    "artifacts\\directional_research_phase2\\option-intraday-candles\\40013.json": "89ca248481989c09be02b69b77e20615242a62bdf12a09b2f096c8c800274deb",
+    "artifacts\\directional_research_phase2\\option-intraday-candles\\40015.json": "e71818e8f0ff456b40763c7cc93d86eae118dfbf93372c84548500ffbb2687df",
+    "artifacts\\directional_research_phase2\\option-intraday-candles\\64352.json": "3f27cf71b8a6730168df11a0c478d41a340dd3c960f8b2a31aced95b8c1157b5",
+    "artifacts\\directional_research_phase2\\option-intraday-candles\\64356.json": "e7dcde709224d7160a95e6a60adeefccf1b62b94bd38478de2b5295aa4133429",
+    "artifacts\\directional_research_phase2\\option-intraday-candles\\64358.json": "f6cdee42121be6b841434a7cd8d7ecc3a8a392e0152acc0b8c16774e61fa4d71",
+    "artifacts\\directional_research_phase2\\option-intraday-candles\\64379.json": "351307e9d820ff6b7a950da3b3ecb1177eea67a295b27b2d035fd76ec682840e",
+    "artifacts\\directional_research_phase2\\option-intraday-candles\\64381.json": "cc75100ce11ed93da2f1a6c2290d0fde1d03c3dff6d8b629cea498f83906a848",
+    "artifacts\\directional_research_phase2\\option-intraday-candles\\64387.json": "143eb29730a6ff83b3494a52efd87d687b96c6a0bb97b42a850dd2dd339fbf3f",
+    "artifacts\\directional_research_phase2\\option-intraday-candles\\64389.json": "f4b9c231f5ca7fde0ec98f0f4979a4a19a695ebf4de701faafa89a91766d87d6",
+    "artifacts\\directional_research_phase2\\option-intraday-candles\\64413.json": "6bf6fac52b7f35ff6ae6d6034a74fcfcd83ae72bb4f086e67adfbe0ee9fcbfec",
+    "artifacts\\directional_research_phase2\\option-intraday-candles\\64415.json": "dacc59e0a8a6e26872315108ba51d8e63a3621cdf7698e8e82cdceb8c469635f",
+    "artifacts\\directional_research_phase2\\option-intraday-candles\\64417.json": "cee7b775f0f703ecfb96d292729a38ec9c1d5a6f3589515fc6ba969a0e1fae44",
+    "artifacts\\directional_research_phase2\\option-intraday-candles\\64419.json": "02b6bc3c4533fa61d6e3d3ca5d058ae474d6e973499ab1adef296e1018c0e395",
+    "artifacts\\directional_research_phase2\\option-intraday-candles\\64421.json": "720f74bff0ed00e357d47902f90c8df0e9be023c84587e765c2e7ac5a75e849b",
+    "artifacts\\directional_research_phase2\\option-intraday-candles\\64423.json": "35cfed662c79bfdc8431b0ba34683242bd1c322d7b5d11355ae34822e6f5205b",
+    "artifacts\\directional_research_phase2\\option-intraday-candles\\64425.json": "ca3e68e6321a2504dd0bc911210e214ef5d9ad44945f72c644033bce85333af0",
+    "artifacts\\directional_research_phase2\\option-intraday-candles\\64427.json": "5bfafa34ef86e67d35fdc47079f4d565bed57eba2247cf5d0a622e75d77a668e",
+    "artifacts\\directional_research_phase2\\option-intraday-candles\\64429.json": "59336c7ea91507c3efc3a3df0573187349c8019eed7b6a9a59022e36278f8b9a"
+  },
+  "exit_policies": [
+    {
+      "name": "time30",
+      "hold_minutes": 30,
+      "premium_stop": null,
+      "target_r": null,
+      "trailing_fraction": null,
+      "underlying_atr": null,
+      "structure_stop": false
+    },
+    {
+      "name": "time60",
+      "hold_minutes": 60,
+      "premium_stop": null,
+      "target_r": null,
+      "trailing_fraction": null,
+      "underlying_atr": null,
+      "structure_stop": false
+    },
+    {
+      "name": "time120",
+      "hold_minutes": 120,
+      "premium_stop": null,
+      "target_r": null,
+      "trailing_fraction": null,
+      "underlying_atr": null,
+      "structure_stop": false
+    },
+    {
+      "name": "premium20",
+      "hold_minutes": 60,
+      "premium_stop": 0.2,
+      "target_r": null,
+      "trailing_fraction": null,
+      "underlying_atr": null,
+      "structure_stop": false
+    },
+    {
+      "name": "premium30",
+      "hold_minutes": 60,
+      "premium_stop": 0.3,
+      "target_r": null,
+      "trailing_fraction": null,
+      "underlying_atr": null,
+      "structure_stop": false
+    },
+    {
+      "name": "premium20_target1R",
+      "hold_minutes": 60,
+      "premium_stop": 0.2,
+      "target_r": 1,
+      "trailing_fraction": null,
+      "underlying_atr": null,
+      "structure_stop": false
+    },
+    {
+      "name": "premium20_target2R",
+      "hold_minutes": 60,
+      "premium_stop": 0.2,
+      "target_r": 2,
+      "trailing_fraction": null,
+      "underlying_atr": null,
+      "structure_stop": false
+    },
+    {
+      "name": "premium30_target2R",
+      "hold_minutes": 60,
+      "premium_stop": 0.3,
+      "target_r": 2,
+      "trailing_fraction": null,
+      "underlying_atr": null,
+      "structure_stop": false
+    },
+    {
+      "name": "premium20_trail20",
+      "hold_minutes": 60,
+      "premium_stop": 0.2,
+      "target_r": null,
+      "trailing_fraction": 0.2,
+      "underlying_atr": null,
+      "structure_stop": false
+    },
+    {
+      "name": "underlying1ATR",
+      "hold_minutes": 60,
+      "premium_stop": null,
+      "target_r": null,
+      "trailing_fraction": null,
+      "underlying_atr": 1,
+      "structure_stop": false
+    },
+    {
+      "name": "underlying1.5ATR",
+      "hold_minutes": 60,
+      "premium_stop": null,
+      "target_r": null,
+      "trailing_fraction": null,
+      "underlying_atr": 1.5,
+      "structure_stop": false
+    },
+    {
+      "name": "underlying_prior3bar_structure",
+      "hold_minutes": 60,
+      "premium_stop": null,
+      "target_r": null,
+      "trailing_fraction": null,
+      "underlying_atr": null,
+      "structure_stop": true
+    }
+  ],
+  "contract_policies": [
+    "nearest_nonexpiry_day/ATM",
+    "nearest_nonexpiry_day/one_step_ITM",
+    "month_end_proxy/ATM",
+    "month_end_proxy/one_step_ITM"
+  ],
+  "router": "One position globally per configuration. EMA then Donchian then pullback if simultaneous. Choose priority signal before checking future premium coverage; no fallback after observing an unavailable selected outcome.",
+  "bounds": [
+    "adverse_first",
+    "favorable_first"
+  ],
+  "selection": "All48 fixed exit/contract configurations and both path modes disclosed; no winner selected.",
+  "entry": "Frozen next-five-minute option candle open; option first-trade time is unknown.",
+  "stop_semantics": "Premium stop resting threshold proxy; gaps exit at open below stop. Underlying ATR/structure stop confirmed at trigger-bar close and translated to following option open. Missing/future unavailable prices leave position unresolved/reserved until session cutoff.",
+  "trailing": "Stop raises only after prior option candle close; current candle high never moves its own stop.",
+  "costs": "Dated saleSTT. Illustrative2premiumpts+INR100 and severe5pts+INR200 perroundtrip; not complete actual fee/spread reconstruction.",
+  "mae_mfe": "Whole holding/exit-candle extrema are excursion bounds, not exact tick excursions after an intrabar exit.",
+  "quotes": "Verified source-book quote mode separately tested with syntheticfixtures; actual premium history lacks verified depth/ticks.",
+  "limitations": "Only5already-inspected sessions, repeated correlatedpolicies, historical-selection exposure. No execution-quality backtest or statistical edge claim."
+}

@@ -1,0 +1,14 @@
+# Research readiness leaderboard
+
+Priority is information value and evidence readiness, not a ranking of expected trading profits. No primary or complementary strategy is validated. Numeric metrics remain in the original unit-specific panels; index points, rupees and scenario returns are not mixed into a score.
+
+|Priority|Candidate|Decision|Evidence|Limitation|Action|
+|---:|---|---|---|---|---|
+|1|Frozenafternoontrendrouter|RESEARCH ONLY|Actual3dayask/bidproxy;broaderpriceeffectweak|No simultaneous/incrementalvalidatedpremiumedge|NO TRADE|
+|2|Pullback+priormonthPCRcontrarian|RESEARCH ONLY|35priceobservations;ordinarynetCIpositive|Incremental/correctedintervalfails;premiumsampletiny|NO TRADE|
+|3|DailyRSImonth-endITM|RESEARCH ONLY|27premiumproxies;net+415lot|CIspanslosses;overnightnotintradayprimaryscope|NO TRADE|
+|4|Openingrange+EMA|RESEARCH ONLY|1m51eventspositive|Weak5mtransfer;search/multiplicity;noquotebasedvalidation|NO TRADE|
+|5|Donchianstandalonecomplexity|NOT_PROMOTED|Positivegrossrecenttrendweek|Same-time directionduplicates30mmomentum|NO TRADE|
+|6|Gapcontinuation/RSIintradayselectedforms|REJECTED_SPECIFICATIONS|Finalmeansweakornegative|No robustnetedge in testedforms|NO TRADE|
+|7|Maxpainasdirectionalanchor|REJECTED_SPECIFICATION|Oneyearexpirycontrolstudy+priorOIablations|No unconditionalmagnet/addedvalue established|NO TRADE|
+|8|Delta/IVoptimizedtrade|DATA_LIMITED|Freshreceiveddeltacomparisons3outcomes|No stableIV/Greekvintageormultiregimesample|NO TRADE|

@@ -1,0 +1,408 @@
+{
+  "date": "2024-11-11",
+  "source_url": "https://taurusmutualfund.com/sites/default/files/2024-11/nifty-index-constituent-as-on-11_11_2024.pdf",
+  "source_sha256": "b2f1ae48c58db647e9af5f645ee39be7a7cb34b80bcb657c08998369ce56f42f",
+  "policy": "Freeze starting membership; retain later index exits. Current master used only to resolve historical company keys/renames, not choose stocks.",
+  "stocks": [
+    {
+      "symbol": "ADANIENT",
+      "name_at_start": "ADANI ENTERPRISES LTD.",
+      "isin_at_start": "INE423A01024",
+      "weight_at_start": 0.63,
+      "instrument_key": "NSE_EQ|INE423A01024",
+      "current_symbol": "ADANIENT"
+    },
+    {
+      "symbol": "ADANIPORTS",
+      "name_at_start": "ADANI PORTS AND SPECIAL ECONOMIC ZONE LTD.",
+      "isin_at_start": "INE742F01042",
+      "weight_at_start": 0.92,
+      "instrument_key": "NSE_EQ|INE742F01042",
+      "current_symbol": "ADANIPORTS"
+    },
+    {
+      "symbol": "APOLLOHOSP",
+      "name_at_start": "APOLLO HOSPITALS ENTERPRISE LTD.",
+      "isin_at_start": "INE437A01024",
+      "weight_at_start": 0.67,
+      "instrument_key": "NSE_EQ|INE437A01024",
+      "current_symbol": "APOLLOHOSP"
+    },
+    {
+      "symbol": "ASIANPAINT",
+      "name_at_start": "ASIAN PAINTS LTD.",
+      "isin_at_start": "INE021A01026",
+      "weight_at_start": 1.06,
+      "instrument_key": "NSE_EQ|INE021A01026",
+      "current_symbol": "ASIANPAINT"
+    },
+    {
+      "symbol": "AXISBANK",
+      "name_at_start": "AXIS BANK LTD.",
+      "isin_at_start": "INE238A01034",
+      "weight_at_start": 3.08,
+      "instrument_key": "NSE_EQ|INE238A01034",
+      "current_symbol": "AXISBANK"
+    },
+    {
+      "symbol": "BAJAJ-AUTO",
+      "name_at_start": "BAJAJ AUTO LTD.",
+      "isin_at_start": "INE917I01010",
+      "weight_at_start": 1.02,
+      "instrument_key": "NSE_EQ|INE917I01010",
+      "current_symbol": "BAJAJ-AUTO"
+    },
+    {
+      "symbol": "BAJAJFINSV",
+      "name_at_start": "BAJAJ FINSERV LTD.",
+      "isin_at_start": "INE918I01026",
+      "weight_at_start": 0.87,
+      "instrument_key": "NSE_EQ|INE918I01026",
+      "current_symbol": "BAJAJFINSV"
+    },
+    {
+      "symbol": "BAJFINANCE",
+      "name_at_start": "BAJAJ FINANCE LTD.",
+      "isin_at_start": "INE296A01024",
+      "weight_at_start": 1.75,
+      "instrument_key": "NSE_EQ|INE296A01032",
+      "current_symbol": "BAJFINANCE"
+    },
+    {
+      "symbol": "BEL",
+      "name_at_start": "BHARAT ELECTRONICS LTD.",
+      "isin_at_start": "INE263A01024",
+      "weight_at_start": 0.99,
+      "instrument_key": "NSE_EQ|INE263A01024",
+      "current_symbol": "BEL"
+    },
+    {
+      "symbol": "BHARTIARTL",
+      "name_at_start": "BHARTI AIRTEL LTD.",
+      "isin_at_start": "INE397D01024",
+      "weight_at_start": 3.86,
+      "instrument_key": "NSE_EQ|INE397D01024",
+      "current_symbol": "BHARTIARTL"
+    },
+    {
+      "symbol": "BPCL",
+      "name_at_start": "BHARAT PETROLEUM CORPORATION LTD.",
+      "isin_at_start": "INE029A01011",
+      "weight_at_start": 0.56,
+      "instrument_key": "NSE_EQ|INE029A01011",
+      "current_symbol": "BPCL"
+    },
+    {
+      "symbol": "BRITANNIA",
+      "name_at_start": "BRITANNIA INDUSTRIES LTD.",
+      "isin_at_start": "INE216A01030",
+      "weight_at_start": 0.59,
+      "instrument_key": "NSE_EQ|INE216A01030",
+      "current_symbol": "BRITANNIA"
+    },
+    {
+      "symbol": "CIPLA",
+      "name_at_start": "CIPLA LTD.",
+      "isin_at_start": "INE059A01026",
+      "weight_at_start": 0.79,
+      "instrument_key": "NSE_EQ|INE059A01026",
+      "current_symbol": "CIPLA"
+    },
+    {
+      "symbol": "COALINDIA",
+      "name_at_start": "COAL INDIA LTD.",
+      "isin_at_start": "INE522F01014",
+      "weight_at_start": 0.88,
+      "instrument_key": "NSE_EQ|INE522F01014",
+      "current_symbol": "COALINDIA"
+    },
+    {
+      "symbol": "DRREDDY",
+      "name_at_start": "DR. REDDY'S LABORATORIES LTD.",
+      "isin_at_start": "INE089A01031",
+      "weight_at_start": 0.72,
+      "instrument_key": "NSE_EQ|INE089A01031",
+      "current_symbol": "DRREDDY"
+    },
+    {
+      "symbol": "EICHERMOT",
+      "name_at_start": "EICHER MOTORS LTD.",
+      "isin_at_start": "INE066A01021",
+      "weight_at_start": 0.61,
+      "instrument_key": "NSE_EQ|INE066A01021",
+      "current_symbol": "EICHERMOT"
+    },
+    {
+      "symbol": "GRASIM",
+      "name_at_start": "GRASIM INDUSTRIES LTD.",
+      "isin_at_start": "INE047A01021",
+      "weight_at_start": 0.87,
+      "instrument_key": "NSE_EQ|INE047A01021",
+      "current_symbol": "GRASIM"
+    },
+    {
+      "symbol": "HCLTECH",
+      "name_at_start": "HCL TECHNOLOGIES LTD.",
+      "isin_at_start": "INE860A01027",
+      "weight_at_start": 1.82,
+      "instrument_key": "NSE_EQ|INE860A01027",
+      "current_symbol": "HCLTECH"
+    },
+    {
+      "symbol": "HDFCBANK",
+      "name_at_start": "HDFC BANK LTD.",
+      "isin_at_start": "INE040A01034",
+      "weight_at_start": 12.36,
+      "instrument_key": "NSE_EQ|INE040A01034",
+      "current_symbol": "HDFCBANK"
+    },
+    {
+      "symbol": "HDFCLIFE",
+      "name_at_start": "HDFC LIFE INSURANCE COMPANY LTD.",
+      "isin_at_start": "INE795G01014",
+      "weight_at_start": 0.69,
+      "instrument_key": "NSE_EQ|INE795G01014",
+      "current_symbol": "HDFCLIFE"
+    },
+    {
+      "symbol": "HEROMOTOCO",
+      "name_at_start": "HERO MOTOCORP LTD.",
+      "isin_at_start": "INE158A01026",
+      "weight_at_start": 0.57,
+      "instrument_key": "NSE_EQ|INE158A01026",
+      "current_symbol": "HEROMOTOCO"
+    },
+    {
+      "symbol": "HINDALCO",
+      "name_at_start": "HINDALCO INDUSTRIES LTD.",
+      "isin_at_start": "INE038A01020",
+      "weight_at_start": 0.88,
+      "instrument_key": "NSE_EQ|INE038A01020",
+      "current_symbol": "HINDALCO"
+    },
+    {
+      "symbol": "HINDUNILVR",
+      "name_at_start": "HINDUSTAN UNILEVER LTD.",
+      "isin_at_start": "INE030A01027",
+      "weight_at_start": 2.05,
+      "instrument_key": "NSE_EQ|INE030A01027",
+      "current_symbol": "HINDUNILVR"
+    },
+    {
+      "symbol": "ICICIBANK",
+      "name_at_start": "ICICI BANK LTD.",
+      "isin_at_start": "INE090A01021",
+      "weight_at_start": 8.25,
+      "instrument_key": "NSE_EQ|INE090A01021",
+      "current_symbol": "ICICIBANK"
+    },
+    {
+      "symbol": "INDUSINDBK",
+      "name_at_start": "INDUSIND BANK LTD.",
+      "isin_at_start": "INE095A01012",
+      "weight_at_start": 0.65,
+      "instrument_key": "NSE_EQ|INE095A01012",
+      "current_symbol": "INDUSINDBK"
+    },
+    {
+      "symbol": "INFY",
+      "name_at_start": "INFOSYS LTD.",
+      "isin_at_start": "INE009A01021",
+      "weight_at_start": 6.18,
+      "instrument_key": "NSE_EQ|INE009A01021",
+      "current_symbol": "INFY"
+    },
+    {
+      "symbol": "ITC",
+      "name_at_start": "ITC LTD.",
+      "isin_at_start": "INE154A01025",
+      "weight_at_start": 4.09,
+      "instrument_key": "NSE_EQ|INE154A01025",
+      "current_symbol": "ITC"
+    },
+    {
+      "symbol": "JSWSTEEL",
+      "name_at_start": "JSW STEEL LTD.",
+      "isin_at_start": "INE019A01038",
+      "weight_at_start": 0.87,
+      "instrument_key": "NSE_EQ|INE019A01038",
+      "current_symbol": "JSWSTEEL"
+    },
+    {
+      "symbol": "KOTAKBANK",
+      "name_at_start": "KOTAK MAHINDRA BANK LTD.",
+      "isin_at_start": "INE237A01028",
+      "weight_at_start": 2.36,
+      "instrument_key": "NSE_EQ|INE237A01036",
+      "current_symbol": "KOTAKBANK"
+    },
+    {
+      "symbol": "LT",
+      "name_at_start": "LARSEN & TOUBRO LTD.",
+      "isin_at_start": "INE018A01030",
+      "weight_at_start": 3.94,
+      "instrument_key": "NSE_EQ|INE018A01030",
+      "current_symbol": "LT"
+    },
+    {
+      "symbol": "M&M",
+      "name_at_start": "MAHINDRA & MAHINDRA LTD.",
+      "isin_at_start": "INE101A01026",
+      "weight_at_start": 2.41,
+      "instrument_key": "NSE_EQ|INE101A01026",
+      "current_symbol": "M&M"
+    },
+    {
+      "symbol": "MARUTI",
+      "name_at_start": "MARUTI SUZUKI INDIA LTD.",
+      "isin_at_start": "INE585B01010",
+      "weight_at_start": 1.38,
+      "instrument_key": "NSE_EQ|INE585B01010",
+      "current_symbol": "MARUTI"
+    },
+    {
+      "symbol": "NESTLEIND",
+      "name_at_start": "NESTLE INDIA LTD.",
+      "isin_at_start": "INE239A01024",
+      "weight_at_start": 0.75,
+      "instrument_key": "NSE_EQ|INE239A01024",
+      "current_symbol": "NESTLEIND"
+    },
+    {
+      "symbol": "NTPC",
+      "name_at_start": "NTPC LTD.",
+      "isin_at_start": "INE733E01010",
+      "weight_at_start": 1.72,
+      "instrument_key": "NSE_EQ|INE733E01010",
+      "current_symbol": "NTPC"
+    },
+    {
+      "symbol": "ONGC",
+      "name_at_start": "OIL & NATURAL GAS CORPORATION LTD.",
+      "isin_at_start": "INE213A01029",
+      "weight_at_start": 0.92,
+      "instrument_key": "NSE_EQ|INE213A01029",
+      "current_symbol": "ONGC"
+    },
+    {
+      "symbol": "POWERGRID",
+      "name_at_start": "POWER GRID CORPORATION OF INDIA LTD.",
+      "isin_at_start": "INE752E01010",
+      "weight_at_start": 1.38,
+      "instrument_key": "NSE_EQ|INE752E01010",
+      "current_symbol": "POWERGRID"
+    },
+    {
+      "symbol": "RELIANCE",
+      "name_at_start": "RELIANCE INDUSTRIES LTD.",
+      "isin_at_start": "INE002A01018",
+      "weight_at_start": 7.96,
+      "instrument_key": "NSE_EQ|INE002A01018",
+      "current_symbol": "RELIANCE"
+    },
+    {
+      "symbol": "SBILIFE",
+      "name_at_start": "SBI LIFE INSURANCE COMPANY LTD.",
+      "isin_at_start": "INE123W01016",
+      "weight_at_start": 0.65,
+      "instrument_key": "NSE_EQ|INE123W01016",
+      "current_symbol": "SBILIFE"
+    },
+    {
+      "symbol": "SBIN",
+      "name_at_start": "STATE BANK OF INDIA",
+      "isin_at_start": "INE062A01020",
+      "weight_at_start": 3.01,
+      "instrument_key": "NSE_EQ|INE062A01020",
+      "current_symbol": "SBIN"
+    },
+    {
+      "symbol": "SHRIRAMFIN",
+      "name_at_start": "SHRIRAM FINANCE LTD.",
+      "isin_at_start": "INE721A01013",
+      "weight_at_start": 0.77,
+      "instrument_key": "NSE_EQ|INE721A01047",
+      "current_symbol": "SHRIRAMFIN"
+    },
+    {
+      "symbol": "SUNPHARMA",
+      "name_at_start": "SUN PHARMACEUTICAL INDUSTRIES LTD.",
+      "isin_at_start": "INE044A01036",
+      "weight_at_start": 1.79,
+      "instrument_key": "NSE_EQ|INE044A01036",
+      "current_symbol": "SUNPHARMA"
+    },
+    {
+      "symbol": "TATACONSUM",
+      "name_at_start": "TATA CONSUMER PRODUCTS LTD.",
+      "isin_at_start": "INE192A01025",
+      "weight_at_start": 0.59,
+      "instrument_key": "NSE_EQ|INE192A01025",
+      "current_symbol": "TATACONSUM"
+    },
+    {
+      "symbol": "TATAMOTORS",
+      "name_at_start": "TATA MOTORS LTD.",
+      "isin_at_start": "INE155A01022",
+      "weight_at_start": 1.58,
+      "instrument_key": "NSE_EQ|INE155A01022",
+      "current_symbol": "TMPV"
+    },
+    {
+      "symbol": "TATASTEEL",
+      "name_at_start": "TATA STEEL LTD.",
+      "isin_at_start": "INE081A01020",
+      "weight_at_start": 1.11,
+      "instrument_key": "NSE_EQ|INE081A01020",
+      "current_symbol": "TATASTEEL"
+    },
+    {
+      "symbol": "TCS",
+      "name_at_start": "TATA CONSULTANCY SERVICES LTD.",
+      "isin_at_start": "INE467B01029",
+      "weight_at_start": 3.96,
+      "instrument_key": "NSE_EQ|INE467B01029",
+      "current_symbol": "TCS"
+    },
+    {
+      "symbol": "TECHM",
+      "name_at_start": "TECH MAHINDRA LTD.",
+      "isin_at_start": "INE669C01036",
+      "weight_at_start": 1.0,
+      "instrument_key": "NSE_EQ|INE669C01036",
+      "current_symbol": "TECHM"
+    },
+    {
+      "symbol": "TITAN",
+      "name_at_start": "TITAN COMPANY LTD.",
+      "isin_at_start": "INE280A01028",
+      "weight_at_start": 1.22,
+      "instrument_key": "NSE_EQ|INE280A01028",
+      "current_symbol": "TITAN"
+    },
+    {
+      "symbol": "TRENT",
+      "name_at_start": "TRENT LTD.",
+      "isin_at_start": "INE849A01020",
+      "weight_at_start": 1.33,
+      "instrument_key": "NSE_EQ|INE849A01020",
+      "current_symbol": "TRENT"
+    },
+    {
+      "symbol": "ULTRACEMCO",
+      "name_at_start": "ULTRATECH CEMENT LTD.",
+      "isin_at_start": "INE481G01011",
+      "weight_at_start": 1.16,
+      "instrument_key": "NSE_EQ|INE481G01011",
+      "current_symbol": "ULTRACEMCO"
+    },
+    {
+      "symbol": "WIPRO",
+      "name_at_start": "WIPRO LTD.",
+      "isin_at_start": "INE075A01022",
+      "weight_at_start": 0.75,
+      "instrument_key": "NSE_EQ|INE075A01022",
+      "current_symbol": "WIPRO"
+    }
+  ]
+}

@@ -1,0 +1,482 @@
+{
+  "macd_below_zero_9975e2d7b57f": {
+    "dsr": 1.2757516967153228e-07,
+    "daily_sharpe": -0.12285781681643458,
+    "expected_max_null_daily_sharpe": 0.17475281515192648,
+    "n_trials_assumed": 1308,
+    "n_observations": 246,
+    "skewness": -1.829726151813351,
+    "kurtosis": 12.062338304223982,
+    "assumptions": "IID nonnormal-return Sharpe approximation; full attempted trial count treated as independent conservative scenario. Serial dependence and historical reuse are not removed; common-calendar bootstrap is reported separately."
+  },
+  "ppo_below_zero_135f863def60": {
+    "dsr": 8.640214836919202e-08,
+    "daily_sharpe": -0.12592528057773913,
+    "expected_max_null_daily_sharpe": 0.17475281515192648,
+    "n_trials_assumed": 1308,
+    "n_observations": 246,
+    "skewness": -1.8679962003873392,
+    "kurtosis": 12.631298209431742,
+    "assumptions": "IID nonnormal-return Sharpe approximation; full attempted trial count treated as independent conservative scenario. Serial dependence and historical reuse are not removed; common-calendar bootstrap is reported separately."
+  },
+  "hybrid_trend_macd_support_d59dc33c20a4": {
+    "dsr": 0.0018653860123669836,
+    "daily_sharpe": -0.009604960504721894,
+    "expected_max_null_daily_sharpe": 0.17475281515192648,
+    "n_trials_assumed": 1308,
+    "n_observations": 246,
+    "skewness": -1.0479928253215693,
+    "kurtosis": 7.447626666379466,
+    "assumptions": "IID nonnormal-return Sharpe approximation; full attempted trial count treated as independent conservative scenario. Serial dependence and historical reuse are not removed; common-calendar bootstrap is reported separately."
+  },
+  "support_sweep_87aaa5fb66d0": {
+    "dsr": 0.010070086905722704,
+    "daily_sharpe": 0.030717676128059472,
+    "expected_max_null_daily_sharpe": 0.17475281515192648,
+    "n_trials_assumed": 1308,
+    "n_observations": 246,
+    "skewness": 2.0735403527497933,
+    "kurtosis": 22.21821489000929,
+    "assumptions": "IID nonnormal-return Sharpe approximation; full attempted trial count treated as independent conservative scenario. Serial dependence and historical reuse are not removed; common-calendar bootstrap is reported separately."
+  },
+  "ppo_cross_23d6bd14d7f1": {
+    "dsr": 1.0873669446422463e-06,
+    "daily_sharpe": -0.1100840913065891,
+    "expected_max_null_daily_sharpe": 0.17475281515192648,
+    "n_trials_assumed": 1308,
+    "n_observations": 246,
+    "skewness": -1.1809404208029377,
+    "kurtosis": 6.292445540174927,
+    "assumptions": "IID nonnormal-return Sharpe approximation; full attempted trial count treated as independent conservative scenario. Serial dependence and historical reuse are not removed; common-calendar bootstrap is reported separately."
+  },
+  "macd_cross_1d2682ab6e4b": {
+    "dsr": 6.206684875071091e-07,
+    "daily_sharpe": -0.11623066463641675,
+    "expected_max_null_daily_sharpe": 0.17475281515192648,
+    "n_trials_assumed": 1308,
+    "n_observations": 246,
+    "skewness": -1.1677575892431362,
+    "kurtosis": 6.335763945800218,
+    "assumptions": "IID nonnormal-return Sharpe approximation; full attempted trial count treated as independent conservative scenario. Serial dependence and historical reuse are not removed; common-calendar bootstrap is reported separately."
+  },
+  "macd_zero_cross_7cb993665d76": {
+    "dsr": 2.213532506520665e-06,
+    "daily_sharpe": -0.09751861883755392,
+    "expected_max_null_daily_sharpe": 0.17475281515192648,
+    "n_trials_assumed": 1308,
+    "n_observations": 246,
+    "skewness": -1.6267706723994142,
+    "kurtosis": 9.67291205012627,
+    "assumptions": "IID nonnormal-return Sharpe approximation; full attempted trial count treated as independent conservative scenario. Serial dependence and historical reuse are not removed; common-calendar bootstrap is reported separately."
+  },
+  "ppo_zero_cross_dffda8cb8df2": {
+    "dsr": 2.213532506520665e-06,
+    "daily_sharpe": -0.09751861883755392,
+    "expected_max_null_daily_sharpe": 0.17475281515192648,
+    "n_trials_assumed": 1308,
+    "n_observations": 246,
+    "skewness": -1.6267706723994142,
+    "kurtosis": 9.67291205012627,
+    "assumptions": "IID nonnormal-return Sharpe approximation; full attempted trial count treated as independent conservative scenario. Serial dependence and historical reuse are not removed; common-calendar bootstrap is reported separately."
+  },
+  "previous_month_8a2ba3bdfcb7": {
+    "dsr": 0.0036240617465377674,
+    "daily_sharpe": 0.003439052769830651,
+    "expected_max_null_daily_sharpe": 0.17475281515192648,
+    "n_trials_assumed": 1308,
+    "n_observations": 246,
+    "skewness": 0.8179526507704232,
+    "kurtosis": 11.072366468031936,
+    "assumptions": "IID nonnormal-return Sharpe approximation; full attempted trial count treated as independent conservative scenario. Serial dependence and historical reuse are not removed; common-calendar bootstrap is reported separately."
+  },
+  "ema_pullback_5c8277569304": {
+    "dsr": 1.6923755935340265e-05,
+    "daily_sharpe": -0.07918334587942694,
+    "expected_max_null_daily_sharpe": 0.17475281515192648,
+    "n_trials_assumed": 1308,
+    "n_observations": 246,
+    "skewness": -1.222708576378203,
+    "kurtosis": 11.173835761943987,
+    "assumptions": "IID nonnormal-return Sharpe approximation; full attempted trial count treated as independent conservative scenario. Serial dependence and historical reuse are not removed; common-calendar bootstrap is reported separately."
+  },
+  "macd_strength_cross_25d860e37c1e": {
+    "dsr": 2.363961389490312e-05,
+    "daily_sharpe": -0.06815605331295964,
+    "expected_max_null_daily_sharpe": 0.17475281515192648,
+    "n_trials_assumed": 1308,
+    "n_observations": 246,
+    "skewness": -2.115981644034795,
+    "kurtosis": 16.05129251314763,
+    "assumptions": "IID nonnormal-return Sharpe approximation; full attempted trial count treated as independent conservative scenario. Serial dependence and historical reuse are not removed; common-calendar bootstrap is reported separately."
+  },
+  "kama_reclaim_917b9cb2ef86": {
+    "dsr": 4.31969271411588e-05,
+    "daily_sharpe": -0.07109533960692481,
+    "expected_max_null_daily_sharpe": 0.17475281515192648,
+    "n_trials_assumed": 1308,
+    "n_observations": 246,
+    "skewness": -0.7118617161813775,
+    "kurtosis": 9.996293294670396,
+    "assumptions": "IID nonnormal-return Sharpe approximation; full attempted trial count treated as independent conservative scenario. Serial dependence and historical reuse are not removed; common-calendar bootstrap is reported separately."
+  },
+  "hybrid_ribbon_pullback_345d115be690": {
+    "dsr": 1.9983727709255564e-05,
+    "daily_sharpe": -0.07839820468538934,
+    "expected_max_null_daily_sharpe": 0.17475281515192648,
+    "n_trials_assumed": 1308,
+    "n_observations": 246,
+    "skewness": -1.072420080184037,
+    "kurtosis": 10.511684249552955,
+    "assumptions": "IID nonnormal-return Sharpe approximation; full attempted trial count treated as independent conservative scenario. Serial dependence and historical reuse are not removed; common-calendar bootstrap is reported separately."
+  },
+  "macd_weekly_95c9b2a83d64": {
+    "dsr": 0.00022673906587181885,
+    "daily_sharpe": -0.04306728342834797,
+    "expected_max_null_daily_sharpe": 0.17475281515192648,
+    "n_trials_assumed": 1308,
+    "n_observations": 246,
+    "skewness": -1.3987426417373219,
+    "kurtosis": 12.772969484746625,
+    "assumptions": "IID nonnormal-return Sharpe approximation; full attempted trial count treated as independent conservative scenario. Serial dependence and historical reuse are not removed; common-calendar bootstrap is reported separately."
+  },
+  "ppo_above_zero_26a797a733f4": {
+    "dsr": 0.00014286831724315193,
+    "daily_sharpe": -0.04804402148174686,
+    "expected_max_null_daily_sharpe": 0.17475281515192648,
+    "n_trials_assumed": 1308,
+    "n_observations": 246,
+    "skewness": -1.7535223415114036,
+    "kurtosis": 15.296480154133233,
+    "assumptions": "IID nonnormal-return Sharpe approximation; full attempted trial count treated as independent conservative scenario. Serial dependence and historical reuse are not removed; common-calendar bootstrap is reported separately."
+  },
+  "ppo_strength_cross_be08a9020b12": {
+    "dsr": 0.00020481507813886822,
+    "daily_sharpe": -0.048674172208617715,
+    "expected_max_null_daily_sharpe": 0.17475281515192648,
+    "n_trials_assumed": 1308,
+    "n_observations": 246,
+    "skewness": -0.49741618144955374,
+    "kurtosis": 7.071250606921322,
+    "assumptions": "IID nonnormal-return Sharpe approximation; full attempted trial count treated as independent conservative scenario. Serial dependence and historical reuse are not removed; common-calendar bootstrap is reported separately."
+  },
+  "anchored_vwap_dcf04a5bf71f": {
+    "dsr": 6.890970536151238e-05,
+    "daily_sharpe": -0.06046366291038124,
+    "expected_max_null_daily_sharpe": 0.17475281515192648,
+    "n_trials_assumed": 1308,
+    "n_observations": 246,
+    "skewness": -1.2758638744224071,
+    "kurtosis": 11.870097378252119,
+    "assumptions": "IID nonnormal-return Sharpe approximation; full attempted trial count treated as independent conservative scenario. Serial dependence and historical reuse are not removed; common-calendar bootstrap is reported separately."
+  },
+  "kama_cross_098a05a5d438": {
+    "dsr": 4.373496757804326e-09,
+    "daily_sharpe": -0.12554094258069726,
+    "expected_max_null_daily_sharpe": 0.17475281515192648,
+    "n_trials_assumed": 1308,
+    "n_observations": 246,
+    "skewness": -3.518235775339487,
+    "kurtosis": 28.694553914736403,
+    "assumptions": "IID nonnormal-return Sharpe approximation; full attempted trial count treated as independent conservative scenario. Serial dependence and historical reuse are not removed; common-calendar bootstrap is reported separately."
+  },
+  "hybrid_sweep_reversal_b3f456d6c407": {
+    "dsr": 0.0019593345493528376,
+    "daily_sharpe": -0.010512246410056946,
+    "expected_max_null_daily_sharpe": 0.17475281515192648,
+    "n_trials_assumed": 1308,
+    "n_observations": 246,
+    "skewness": 0.9736882290089093,
+    "kurtosis": 13.506941492744826,
+    "assumptions": "IID nonnormal-return Sharpe approximation; full attempted trial count treated as independent conservative scenario. Serial dependence and historical reuse are not removed; common-calendar bootstrap is reported separately."
+  },
+  "ema_cross_8d2ff7f02140": {
+    "dsr": 7.997307179993856e-10,
+    "daily_sharpe": -0.11364759857461104,
+    "expected_max_null_daily_sharpe": 0.17475281515192648,
+    "n_trials_assumed": 1308,
+    "n_observations": 246,
+    "skewness": -5.393736741171521,
+    "kurtosis": 54.476949990451494,
+    "assumptions": "IID nonnormal-return Sharpe approximation; full attempted trial count treated as independent conservative scenario. Serial dependence and historical reuse are not removed; common-calendar bootstrap is reported separately."
+  },
+  "round_bounce_315f7e58bebf": {
+    "dsr": 0.000110240834805789,
+    "daily_sharpe": -0.04869128375498724,
+    "expected_max_null_daily_sharpe": 0.17475281515192648,
+    "n_trials_assumed": 1308,
+    "n_observations": 246,
+    "skewness": -2.3413611745175884,
+    "kurtosis": 18.325082185501785,
+    "assumptions": "IID nonnormal-return Sharpe approximation; full attempted trial count treated as independent conservative scenario. Serial dependence and historical reuse are not removed; common-calendar bootstrap is reported separately."
+  },
+  "macd_divergence_15d39ae71f5a": {
+    "dsr": 0.004032553924464333,
+    "daily_sharpe": 0.005998692326546395,
+    "expected_max_null_daily_sharpe": 0.17475281515192648,
+    "n_trials_assumed": 1308,
+    "n_observations": 246,
+    "skewness": 1.0192101052109745,
+    "kurtosis": 17.66870566477733,
+    "assumptions": "IID nonnormal-return Sharpe approximation; full attempted trial count treated as independent conservative scenario. Serial dependence and historical reuse are not removed; common-calendar bootstrap is reported separately."
+  },
+  "hybrid_breakout_momentum_b98d5bc18392": {
+    "dsr": 1.225048914476847e-07,
+    "daily_sharpe": -0.11781979539579636,
+    "expected_max_null_daily_sharpe": 0.17475281515192648,
+    "n_trials_assumed": 1308,
+    "n_observations": 246,
+    "skewness": -2.194094661152199,
+    "kurtosis": 14.171074924198921,
+    "assumptions": "IID nonnormal-return Sharpe approximation; full attempted trial count treated as independent conservative scenario. Serial dependence and historical reuse are not removed; common-calendar bootstrap is reported separately."
+  },
+  "macd_hidden_divergence_27f76e1cc069": {
+    "dsr": 4.029233485675995e-05,
+    "daily_sharpe": -0.06798623435495978,
+    "expected_max_null_daily_sharpe": 0.17475281515192648,
+    "n_trials_assumed": 1308,
+    "n_observations": 246,
+    "skewness": -1.144663606244495,
+    "kurtosis": 6.629668593304806,
+    "assumptions": "IID nonnormal-return Sharpe approximation; full attempted trial count treated as independent conservative scenario. Serial dependence and historical reuse are not removed; common-calendar bootstrap is reported separately."
+  },
+  "macd_above_zero_a6f8b404ee00": {
+    "dsr": 2.3265316948286e-05,
+    "daily_sharpe": -0.0761928750406589,
+    "expected_max_null_daily_sharpe": 0.17475281515192648,
+    "n_trials_assumed": 1308,
+    "n_observations": 246,
+    "skewness": -1.0401670212636747,
+    "kurtosis": 7.5840497014934245,
+    "assumptions": "IID nonnormal-return Sharpe approximation; full attempted trial count treated as independent conservative scenario. Serial dependence and historical reuse are not removed; common-calendar bootstrap is reported separately."
+  },
+  "pivot_bounce_afe90b1bc3f5": {
+    "dsr": 5.705805842611151e-05,
+    "daily_sharpe": -0.06433121275010488,
+    "expected_max_null_daily_sharpe": 0.17475281515192648,
+    "n_trials_assumed": 1308,
+    "n_observations": 246,
+    "skewness": -0.9944458430549074,
+    "kurtosis": 5.504991884786132,
+    "assumptions": "IID nonnormal-return Sharpe approximation; full attempted trial count treated as independent conservative scenario. Serial dependence and historical reuse are not removed; common-calendar bootstrap is reported separately."
+  },
+  "ema_contraction_016d5e5b4d72": {
+    "dsr": 3.675144879965742e-09,
+    "daily_sharpe": -0.15043662058119553,
+    "expected_max_null_daily_sharpe": 0.17475281515192648,
+    "n_trials_assumed": 1308,
+    "n_observations": 246,
+    "skewness": -2.038692674353552,
+    "kurtosis": 15.399182984828172,
+    "assumptions": "IID nonnormal-return Sharpe approximation; full attempted trial count treated as independent conservative scenario. Serial dependence and historical reuse are not removed; common-calendar bootstrap is reported separately."
+  },
+  "ema_ribbon_f4b21f854b81": {
+    "dsr": 2.46069996831017e-07,
+    "daily_sharpe": -0.12103767038209068,
+    "expected_max_null_daily_sharpe": 0.17475281515192648,
+    "n_trials_assumed": 1308,
+    "n_observations": 246,
+    "skewness": -1.525374595431406,
+    "kurtosis": 9.756410405157471,
+    "assumptions": "IID nonnormal-return Sharpe approximation; full attempted trial count treated as independent conservative scenario. Serial dependence and historical reuse are not removed; common-calendar bootstrap is reported separately."
+  },
+  "fib_pullback_2d40c8aaba7d": {
+    "dsr": 1.1202455041587749e-05,
+    "daily_sharpe": -0.0837285273827672,
+    "expected_max_null_daily_sharpe": 0.17475281515192648,
+    "n_trials_assumed": 1308,
+    "n_observations": 246,
+    "skewness": -1.165852147185363,
+    "kurtosis": 5.775749526862279,
+    "assumptions": "IID nonnormal-return Sharpe approximation; full attempted trial count treated as independent conservative scenario. Serial dependence and historical reuse are not removed; common-calendar bootstrap is reported separately."
+  },
+  "donchian_breakout_181317d86b28": {
+    "dsr": 1.5938150886924626e-07,
+    "daily_sharpe": -0.11368350125740703,
+    "expected_max_null_daily_sharpe": 0.17475281515192648,
+    "n_trials_assumed": 1308,
+    "n_observations": 246,
+    "skewness": -2.355500711835958,
+    "kurtosis": 15.782649209425013,
+    "assumptions": "IID nonnormal-return Sharpe approximation; full attempted trial count treated as independent conservative scenario. Serial dependence and historical reuse are not removed; common-calendar bootstrap is reported separately."
+  },
+  "htf_confluence_fdfda2281e14": {
+    "dsr": 1.3154779100974739e-05,
+    "daily_sharpe": -0.08322740398595725,
+    "expected_max_null_daily_sharpe": 0.17475281515192648,
+    "n_trials_assumed": 1308,
+    "n_observations": 246,
+    "skewness": -1.0162547632731664,
+    "kurtosis": 5.333460468165483,
+    "assumptions": "IID nonnormal-return Sharpe approximation; full attempted trial count treated as independent conservative scenario. Serial dependence and historical reuse are not removed; common-calendar bootstrap is reported separately."
+  },
+  "ema_slope_f0943dd73e8d": {
+    "dsr": 4.279144454774658e-07,
+    "daily_sharpe": -0.11431066573781494,
+    "expected_max_null_daily_sharpe": 0.17475281515192648,
+    "n_trials_assumed": 1308,
+    "n_observations": 246,
+    "skewness": -1.579814521254986,
+    "kurtosis": 8.821390596210211,
+    "assumptions": "IID nonnormal-return Sharpe approximation; full attempted trial count treated as independent conservative scenario. Serial dependence and historical reuse are not removed; common-calendar bootstrap is reported separately."
+  },
+  "cluster_bounce_599b179fdfed": {
+    "dsr": 1.5292688034543518e-06,
+    "daily_sharpe": -0.1078880074421476,
+    "expected_max_null_daily_sharpe": 0.17475281515192648,
+    "n_trials_assumed": 1308,
+    "n_observations": 246,
+    "skewness": -1.0331581827041114,
+    "kurtosis": 4.474537252883873,
+    "assumptions": "IID nonnormal-return Sharpe approximation; full attempted trial count treated as independent conservative scenario. Serial dependence and historical reuse are not removed; common-calendar bootstrap is reported separately."
+  },
+  "ppo_hist_accel_cd9af3cae497": {
+    "dsr": 0.00020068092689372674,
+    "daily_sharpe": -0.046504287424548076,
+    "expected_max_null_daily_sharpe": 0.17475281515192648,
+    "n_trials_assumed": 1308,
+    "n_observations": 246,
+    "skewness": -0.965339126960491,
+    "kurtosis": 5.485282257012793,
+    "assumptions": "IID nonnormal-return Sharpe approximation; full attempted trial count treated as independent conservative scenario. Serial dependence and historical reuse are not removed; common-calendar bootstrap is reported separately."
+  },
+  "macd_hist_accel_2485e092ab40": {
+    "dsr": 0.00025269766126846557,
+    "daily_sharpe": -0.04288423646006522,
+    "expected_max_null_daily_sharpe": 0.17475281515192648,
+    "n_trials_assumed": 1308,
+    "n_observations": 246,
+    "skewness": -0.9942651570839086,
+    "kurtosis": 5.446551951848799,
+    "assumptions": "IID nonnormal-return Sharpe approximation; full attempted trial count treated as independent conservative scenario. Serial dependence and historical reuse are not removed; common-calendar bootstrap is reported separately."
+  },
+  "role_reversal_63c79b10ebb5": {
+    "dsr": 1.0698535227205538e-07,
+    "daily_sharpe": -0.12070546846817067,
+    "expected_max_null_daily_sharpe": 0.17475281515192648,
+    "n_trials_assumed": 1308,
+    "n_observations": 246,
+    "skewness": -2.03627109492627,
+    "kurtosis": 12.196743260556222,
+    "assumptions": "IID nonnormal-return Sharpe approximation; full attempted trial count treated as independent conservative scenario. Serial dependence and historical reuse are not removed; common-calendar bootstrap is reported separately."
+  },
+  "ppo_hist_recovery_5ab4b0ad2859": {
+    "dsr": 0.0004273540773858532,
+    "daily_sharpe": -0.035494581500154415,
+    "expected_max_null_daily_sharpe": 0.17475281515192648,
+    "n_trials_assumed": 1308,
+    "n_observations": 246,
+    "skewness": -0.7674021865960702,
+    "kurtosis": 5.090086337502015,
+    "assumptions": "IID nonnormal-return Sharpe approximation; full attempted trial count treated as independent conservative scenario. Serial dependence and historical reuse are not removed; common-calendar bootstrap is reported separately."
+  },
+  "macd_hist_recovery_e758e11f9a78": {
+    "dsr": 0.000432807371584745,
+    "daily_sharpe": -0.03507491701682452,
+    "expected_max_null_daily_sharpe": 0.17475281515192648,
+    "n_trials_assumed": 1308,
+    "n_observations": 246,
+    "skewness": -0.8292741710295817,
+    "kurtosis": 5.252859435809195,
+    "assumptions": "IID nonnormal-return Sharpe approximation; full attempted trial count treated as independent conservative scenario. Serial dependence and historical reuse are not removed; common-calendar bootstrap is reported separately."
+  },
+  "previous_week_faa21f7bd4c5": {
+    "dsr": 0.00015312548117910377,
+    "daily_sharpe": -0.051320041072857626,
+    "expected_max_null_daily_sharpe": 0.17475281515192648,
+    "n_trials_assumed": 1308,
+    "n_observations": 246,
+    "skewness": -0.8324376409100384,
+    "kurtosis": 6.436238599682493,
+    "assumptions": "IID nonnormal-return Sharpe approximation; full attempted trial count treated as independent conservative scenario. Serial dependence and historical reuse are not removed; common-calendar bootstrap is reported separately."
+  },
+  "kama_pullback_42c6ef39b623": {
+    "dsr": 3.1547050295501885e-06,
+    "daily_sharpe": -0.09882564180865346,
+    "expected_max_null_daily_sharpe": 0.17475281515192648,
+    "n_trials_assumed": 1308,
+    "n_observations": 246,
+    "skewness": -1.1923378202742734,
+    "kurtosis": 7.988579414998532,
+    "assumptions": "IID nonnormal-return Sharpe approximation; full attempted trial count treated as independent conservative scenario. Serial dependence and historical reuse are not removed; common-calendar bootstrap is reported separately."
+  },
+  "hybrid_divergence_support_79e4331438ba": {
+    "dsr": 0.0001938294207550738,
+    "daily_sharpe": -0.04836661035461649,
+    "expected_max_null_daily_sharpe": 0.17475281515192648,
+    "n_trials_assumed": 1308,
+    "n_observations": 246,
+    "skewness": -0.7104730055718965,
+    "kurtosis": 6.236415764690508,
+    "assumptions": "IID nonnormal-return Sharpe approximation; full attempted trial count treated as independent conservative scenario. Serial dependence and historical reuse are not removed; common-calendar bootstrap is reported separately."
+  },
+  "floor_pivot_87b409caf5c6": {
+    "dsr": 6.032123857057463e-07,
+    "daily_sharpe": -0.11577143585274406,
+    "expected_max_null_daily_sharpe": 0.17475281515192648,
+    "n_trials_assumed": 1308,
+    "n_observations": 246,
+    "skewness": -1.1861438216298024,
+    "kurtosis": 5.4115981832358155,
+    "assumptions": "IID nonnormal-return Sharpe approximation; full attempted trial count treated as independent conservative scenario. Serial dependence and historical reuse are not removed; common-calendar bootstrap is reported separately."
+  },
+  "hybrid_support_hist_0c13af4c30b9": {
+    "dsr": 2.109446241749306e-05,
+    "daily_sharpe": -0.0827759467139846,
+    "expected_max_null_daily_sharpe": 0.17475281515192648,
+    "n_trials_assumed": 1308,
+    "n_observations": 246,
+    "skewness": -0.45739998480135236,
+    "kurtosis": 4.9451548432907195,
+    "assumptions": "IID nonnormal-return Sharpe approximation; full attempted trial count treated as independent conservative scenario. Serial dependence and historical reuse are not removed; common-calendar bootstrap is reported separately."
+  },
+  "hybrid_reclaim_zero_6b5cb38089f8": {
+    "dsr": 6.841700151886018e-05,
+    "daily_sharpe": -0.05710562500660402,
+    "expected_max_null_daily_sharpe": 0.17475281515192648,
+    "n_trials_assumed": 1308,
+    "n_observations": 246,
+    "skewness": -1.9015534578187,
+    "kurtosis": 18.288663334959942,
+    "assumptions": "IID nonnormal-return Sharpe approximation; full attempted trial count treated as independent conservative scenario. Serial dependence and historical reuse are not removed; common-calendar bootstrap is reported separately."
+  },
+  "ema_reclaim_3e0587af88d8": {
+    "dsr": 4.542575809318655e-05,
+    "daily_sharpe": -0.060296257707748616,
+    "expected_max_null_daily_sharpe": 0.17475281515192648,
+    "n_trials_assumed": 1308,
+    "n_observations": 246,
+    "skewness": -2.218436090332017,
+    "kurtosis": 20.166693919697423,
+    "assumptions": "IID nonnormal-return Sharpe approximation; full attempted trial count treated as independent conservative scenario. Serial dependence and historical reuse are not removed; common-calendar bootstrap is reported separately."
+  },
+  "previous_day_81c798d3f927": {
+    "dsr": 6.370425633214381e-05,
+    "daily_sharpe": -0.061939477096800324,
+    "expected_max_null_daily_sharpe": 0.17475281515192648,
+    "n_trials_assumed": 1308,
+    "n_observations": 246,
+    "skewness": -1.14554688476522,
+    "kurtosis": 7.218146074586006,
+    "assumptions": "IID nonnormal-return Sharpe approximation; full attempted trial count treated as independent conservative scenario. Serial dependence and historical reuse are not removed; common-calendar bootstrap is reported separately."
+  },
+  "breakout_retest_c71104bc32b8": {
+    "dsr": 2.8455796401226676e-07,
+    "daily_sharpe": -0.095380451257794,
+    "expected_max_null_daily_sharpe": 0.17475281515192648,
+    "n_trials_assumed": 1308,
+    "n_observations": 246,
+    "skewness": -3.6665019338528486,
+    "kurtosis": 29.330618278369993,
+    "assumptions": "IID nonnormal-return Sharpe approximation; full attempted trial count treated as independent conservative scenario. Serial dependence and historical reuse are not removed; common-calendar bootstrap is reported separately."
+  },
+  "ema_weekly_3acfa35b0d85": {
+    "dsr": 0.0006504762686038872,
+    "daily_sharpe": -0.02825296308802328,
+    "expected_max_null_daily_sharpe": 0.17475281515192648,
+    "n_trials_assumed": 1308,
+    "n_observations": 246,
+    "skewness": -0.8683369518751705,
+    "kurtosis": 5.509907993099075,
+    "assumptions": "IID nonnormal-return Sharpe approximation; full attempted trial count treated as independent conservative scenario. Serial dependence and historical reuse are not removed; common-calendar bootstrap is reported separately."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "thresholds": {
+    "final_trades": 50,
+    "reserved_trades": 20,
+    "final_positive_stock_pct": 50,
+    "maximum_worst_stock_drawdown_pct": 25,
+    "confidence": 0.95,
+    "bootstrap_sessions": 10,
+    "bootstrap_draws": 3000,
+    "validation_search_adjusted_p": 0.05,
+    "requires_positive_double_cost": true,
+    "requires_frozen_development_validation_eligibility": true
+  },
+  "ranking": "Screen-pass first, then .45final+.25reserved+.20double-cost+.10validation bounded score. Bounded score=.4clip(Sharpe,-3,3)+.3clip(netR,-1,1)+.2(breadth/100-.5)+.1clip(median stock return%/5,-1,1).",
+  "meaning": "Descriptive evidence labels only; no rules selected or changed using final outcomes; reused calendar is not an untouched holdout."
+}

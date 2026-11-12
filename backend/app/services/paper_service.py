@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import uuid
+import math
 from datetime import datetime, timezone
 from typing import Any, Optional
 
@@ -8,21 +9,30 @@ from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 from starlette.concurrency import run_in_threadpool
 
-from ..models import PaperFill, PaperOrder, PaperPosition
+from ..models import Candle, PaperFill, PaperOrder, PaperPosition
 from ..schemas import PaperOrderIn
-from . import market_data, upstox_service
+from . import upstox_service
 
 
 async def _mark_price(db: AsyncSession, instrument_key: str) -> float:
     """Best-effort mark: last candle close, else Upstox LTP, else 0."""
-    candles, _ = await market_data.get_candles(db, instrument_key, "1day")
-    if candles:
-        return float(candles[-1].close)
+    # Valuation must not backfill ten years of history for every position.
+    close = await db.scalar(select(Candle.close).where(
+        Candle.instrument_key == instrument_key,
+        Candle.interval == "1day",
+        Candle.close > 0,
+    ).order_by(Candle.ts.desc()).limit(1))
+    if close is not None and math.isfinite(close):
+        return float(close)
     try:
         quotes = await run_in_threadpool(upstox_service.fetch_ltp, [instrument_key])
         if isinstance(quotes, dict):
             # response keyed by instrument key
-            entry = quotes.get(instrument_key) or next(iter(quotes.values()), None)
+            entry = (quotes.get(instrument_key) or quotes.get(instrument_key.replace("|", "_"))
+                     or quotes.get(instrument_key.replace("|", ":"))
+                     or next((item for item in quotes.values() if isinstance(item, dict)
+                              and (item.get("instrument_token") == instrument_key
+                                   or item.get("instrument_key") == instrument_key)), None))
             if isinstance(entry, dict):
                 return float(entry.get("last_price") or entry.get("ltp") or 0)
             if isinstance(entry, (int, float)):
@@ -36,8 +46,8 @@ async def place_order(db: AsyncSession, payload: PaperOrderIn) -> PaperOrder:
     mark = payload.limit_price if payload.limit_price is not None else await _mark_price(
         db, payload.instrument_key
     )
-    if mark <= 0:
-        mark = payload.limit_price or 0.0
+    if not math.isfinite(mark) or mark <= 0:
+        raise ValueError("No valid price is available for this instrument. The paper order was not filled.")
 
     order = PaperOrder(
         client_order_id=uuid.uuid4().hex[:12],

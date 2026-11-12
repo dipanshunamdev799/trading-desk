@@ -445,7 +445,7 @@ table.data tr:hover td { background: var(--surface-2); }
 .ipo-row-meta .badge { font-size: 9px; padding: 1px 6px; text-transform: capitalize; }
 .ipo-qib { color: var(--accent) !important; }
 .ipo-table-note { padding: 10px 14px; margin: 0; border-top: 1px solid var(--border); color: var(--muted); font-size: 11px; }
-.ipo-research-heading { display: flex; justify-content: space-between; align-items: end; gap: 16px; padding: 12px 0 0; }
+.ipo-research-heading { display: flex; justify-content: space-between; align-items: flex-end; gap: 16px; padding: 12px 0 0; }
 .ipo-research-heading h2 { font-size: 23px; letter-spacing: -.02em; margin: 7px 0 0; }
 .ipo-research-heading > span { font-size: 11px; }
 .ipo-issue-summary { padding: 16px 18px; }
@@ -461,7 +461,7 @@ table.data tr:hover td { background: var(--surface-2); }
 .ipo-factor-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 10px; }
 .ipo-factor { border: 1px solid var(--border); background: var(--surface); border-radius: 8px; padding: 14px; min-width: 0; display: flex; flex-direction: column; }
 .ipo-factor-priority { border-color: #24574d; background: #11201f; }
-.ipo-factor-heading { display: flex; gap: 8px; justify-content: space-between; align-items: start; }
+.ipo-factor-heading { display: flex; gap: 8px; justify-content: space-between; align-items: flex-start; }
 .ipo-factor-heading h3 { font-size: 12px; font-weight: 500; margin: 0; }
 .ipo-factor-heading h3 > span { font-size: 10px; padding-right: 5px; }
 .ipo-factor-heading .badge { font-size: 9px; }

@@ -8,10 +8,14 @@ __pycache__/
 *.db
 *.db-wal
 *.db-shm
-data/
+/data/
 node_modules/
 frontend/node_modules/
 frontend/.next/
 backend/.venv/
 *.log
 .DS_Store
+/trading_bots/logs/
+/frontend/.next-bots-preview/
+/frontend/.next-check/
+/frontend/.next-bots-start-check/

@@ -1,0 +1,392 @@
+{
+  "raw_duplicate_timestamps": 0,
+  "invalid_ohlc_rows": 0,
+  "off_session_bars_by_day": {
+    "2023-11-12": 12,
+    "2024-11-01": 12
+  },
+  "excluded_sessions": [
+    {
+      "day": "2024-03-02",
+      "bars": 21,
+      "invalid_ohlc": false,
+      "reason": "incomplete_or_special_session"
+    },
+    {
+      "day": "2024-05-18",
+      "bars": 21,
+      "invalid_ohlc": false,
+      "reason": "incomplete_or_special_session"
+    },
+    {
+      "day": "2025-01-06",
+      "bars": 71,
+      "invalid_ohlc": false,
+      "reason": "incomplete_or_special_session"
+    },
+    {
+      "day": "2025-10-21",
+      "bars": 12,
+      "invalid_ohlc": false,
+      "reason": "incomplete_or_special_session"
+    },
+    {
+      "day": "2026-11-08",
+      "bars": 14,
+      "invalid_ohlc": false,
+      "reason": "incomplete_or_special_session"
+    }
+  ],
+  "rows": 71175,
+  "sessions": 949,
+  "first": "2023-01-02 09:15:00+05:30",
+  "last": "2026-11-09 15:25:00+05:30",
+  "zero_volume_bars": 136,
+  "missing_sessions_caveat": "Observed sessions checked for exact completeness; absent whole days are not independently reconciled to official holiday calendar.",
+  "spec": {
+    "symbol": "ITC",
+    "name_at_start": "ITC LTD.",
+    "isin_at_start": "INE154A01025",
+    "weight_at_start": 4.09,
+    "instrument_key": "NSE_EQ|INE154A01025",
+    "current_symbol": "ITC"
+  },
+  "windows": [
+    {
+      "from": "2023-01-01",
+      "to": "2023-01-31",
+      "rows": 1575,
+      "sha256": "de1086550cdaae84c595d578dbfc7c49200c54702c0257d41eb0154d6981a58a"
+    },
+    {
+      "from": "2023-02-01",
+      "to": "2023-02-28",
+      "rows": 1500,
+      "sha256": "e6432b066d0b9eafdb08ef45acbc63dbf816d29e02417c69194efa4a07dc1410"
+    },
+    {
+      "from": "2023-03-01",
+      "to": "2023-03-31",
+      "rows": 1575,
+      "sha256": "c0e9a5cce660516575ab03386bdd0332e91742af40a2656da397bd1a7f72692c"
+    },
+    {
+      "from": "2023-04-01",
+      "to": "2023-04-30",
+      "rows": 1275,
+      "sha256": "714f3519cc6fc90ccbc7e2721b0bb572807e603cec0403ecc9578662c4ae84b5"
+    },
+    {
+      "from": "2023-05-01",
+      "to": "2023-05-31",
+      "rows": 1650,
+      "sha256": "657e2c1f8d1e351a4d1b0ba1db4773f060498e3b36fcf260a48a92ad0d281664"
+    },
+    {
+      "from": "2023-06-01",
+      "to": "2023-06-30",
+      "rows": 1575,
+      "sha256": "6dbd6b66c3ac15c001794780134974558567a522336eafdfde13c32ee78c871e"
+    },
+    {
+      "from": "2023-07-01",
+      "to": "2023-07-31",
+      "rows": 1575,
+      "sha256": "cd3977ac09ffddf1c047b2aab5e87561a0a59a8f4c13e9e24d2735a6ee2e3beb"
+    },
+    {
+      "from": "2023-08-01",
+      "to": "2023-08-31",
+      "rows": 1650,
+      "sha256": "941f421c0194c287e58bdb605829feb96dad7ef7e91501f358d90d6332f166e4"
+    },
+    {
+      "from": "2023-09-01",
+      "to": "2023-09-30",
+      "rows": 1500,
+      "sha256": "b046eb52eb210384b529374ccd3a458ea309b8beb9f5a917dc3ba8565410fff6"
+    },
+    {
+      "from": "2023-10-01",
+      "to": "2023-10-31",
+      "rows": 1500,
+      "sha256": "942a6e8dd525de4c4e2bc7fd723c1f64af79f3845f5a5f019c5e993f02454590"
+    },
+    {
+      "from": "2023-11-01",
+      "to": "2023-11-30",
+      "rows": 1512,
+      "sha256": "490601b048d1b05f83dfe6f708e4246e2ee22102c783422beaf36d48981bebec"
+    },
+    {
+      "from": "2023-12-01",
+      "to": "2023-12-31",
+      "rows": 1500,
+      "sha256": "d8c1082a18c8223dbf0e9a0e4c104605f2a36559c07192918f9fb130118426c5"
+    },
+    {
+      "from": "2024-01-01",
+      "to": "2024-01-31",
+      "rows": 1650,
+      "sha256": "d5a1ef8cea25fc9eea54480f1292f2d7567efaa545c471a82da9feb02c876d31"
+    },
+    {
+      "from": "2024-02-01",
+      "to": "2024-02-29",
+      "rows": 1575,
+      "sha256": "47fa17a0820ecb2df3d6610f6107a2043b3215889f11c5b4718e668574ad7bd4"
+    },
+    {
+      "from": "2024-03-01",
+      "to": "2024-03-31",
+      "rows": 1371,
+      "sha256": "2f90f876ecc5751a7d19185b824bf74e5232157f5d1a9232427c1ec929160773"
+    },
+    {
+      "from": "2024-04-01",
+      "to": "2024-04-30",
+      "rows": 1500,
+      "sha256": "f7ec9a9984528c126c6188b4062786addc6c3b73de3ab8f3381d8304795a6bee"
+    },
+    {
+      "from": "2024-05-01",
+      "to": "2024-05-31",
+      "rows": 1596,
+      "sha256": "966abe41dfb4e0e9512a0c88a1586aec8e0487ae2f0da66695e78c21b5c8b26a"
+    },
+    {
+      "from": "2024-06-01",
+      "to": "2024-06-30",
+      "rows": 1425,
+      "sha256": "7866128d9b05ef3b2c05712d95d3739366e35d3f54bc8e154890c36dfd7161c0"
+    },
+    {
+      "from": "2024-07-01",
+      "to": "2024-07-31",
+      "rows": 1650,
+      "sha256": "a9ed0e7dc9b32ba25b46b9af2aba782d28ac1b3d9954ae49059419738236aa2c"
+    },
+    {
+      "from": "2024-08-01",
+      "to": "2024-08-31",
+      "rows": 1575,
+      "sha256": "709f2f8ae25ff0a2b55422e3804ec0723e23c3962dbd2502d7f78185883b2d8c"
+    },
+    {
+      "from": "2024-09-01",
+      "to": "2024-09-30",
+      "rows": 1575,
+      "sha256": "89120056c7d090f52c637201d6c24db81799987fa08010a5573b74233eca2c2f"
+    },
+    {
+      "from": "2024-10-01",
+      "to": "2024-10-31",
+      "rows": 1650,
+      "sha256": "48f81eb256abd4f199b4c7e839209bcc506b99dde7873f6a58142aed91e5fcaf"
+    },
+    {
+      "from": "2024-11-01",
+      "to": "2024-11-30",
+      "rows": 1362,
+      "sha256": "84cf1e3873b5dcc238e558d9bccbd75f299f1ceeef56ece0a0c06bd67a8c84f8"
+    },
+    {
+      "from": "2024-12-01",
+      "to": "2024-12-31",
+      "rows": 1575,
+      "sha256": "ff6d4fce745e63f42bdbe22f9c9af6914d465d5eeb41d3eb7d1ef37f3c7ef104"
+    },
+    {
+      "from": "2025-01-01",
+      "to": "2025-01-31",
+      "rows": 1721,
+      "sha256": "8dbe545c399398342802841904e4b3a07616e96174123eb80f8592d8c2586de5"
+    },
+    {
+      "from": "2025-02-01",
+      "to": "2025-02-28",
+      "rows": 1500,
+      "sha256": "3c32dfed712f7a4845d8c0dc33d2a55ce2567342aeb413712c5abf464d47dff8"
+    },
+    {
+      "from": "2025-03-01",
+      "to": "2025-03-31",
+      "rows": 1425,
+      "sha256": "fc270547ac5f2991d18857339469ff8ea11145efa247fb169622cd4e0b310af9"
+    },
+    {
+      "from": "2025-04-01",
+      "to": "2025-04-30",
+      "rows": 1425,
+      "sha256": "48375a2b4f62e47ac2a26c73cb480f80a62b154e57a7689787e554ee6ebf185a"
+    },
+    {
+      "from": "2025-05-01",
+      "to": "2025-05-31",
+      "rows": 1575,
+      "sha256": "b3d2d275b8996848b2baeff2cb4fff0b89ffd00a6bf2479fb437e7e129c31fef"
+    },
+    {
+      "from": "2025-06-01",
+      "to": "2025-06-30",
+      "rows": 1575,
+      "sha256": "f1ce369f540a130599dd4cf81074d0d49b5c72cb0c3a836cf9b17e0f99586075"
+    },
+    {
+      "from": "2025-07-01",
+      "to": "2025-07-31",
+      "rows": 1725,
+      "sha256": "092912608e403315ea849caefbd1d358b77f99edb95525510acc03de5adeb379"
+    },
+    {
+      "from": "2025-08-01",
+      "to": "2025-08-31",
+      "rows": 1425,
+      "sha256": "946b2fb9e7e283624de0c6199719d229a5e729f82c9417d92779b201de085eef"
+    },
+    {
+      "from": "2025-09-01",
+      "to": "2025-09-30",
+      "rows": 1650,
+      "sha256": "eb7c95c61ffac1741099839918d3b63d56ffa188f88588ff490e81ca09cf8f6c"
+    },
+    {
+      "from": "2025-10-01",
+      "to": "2025-10-31",
+      "rows": 1512,
+      "sha256": "32df51be048eac602b5f35f74b918ab99021480633ae9d3ddfeccd9196faa5cd"
+    },
+    {
+      "from": "2025-11-01",
+      "to": "2025-11-30",
+      "rows": 1425,
+      "sha256": "940fa9578b7f9eedc925433492a5d44ebebe00ef73f2f17ec5e844505fd8c372"
+    },
+    {
+      "from": "2025-12-01",
+      "to": "2025-12-31",
+      "rows": 1650,
+      "sha256": "21e507389486a5d58d9a9f831e41058db123014ffe854ab3ad17bc98374de9f5"
+    },
+    {
+      "from": "2026-01-01",
+      "to": "2026-01-31",
+      "rows": 1500,
+      "sha256": "04e304366e7d59cb70796659834d79322f7a736fe07e77db31edaa6c2020d4bd"
+    },
+    {
+      "from": "2026-02-01",
+      "to": "2026-02-28",
+      "rows": 1575,
+      "sha256": "42bacabcefe38ddcf73360e1da54c13eeef974fa2500cb066de59ffde5199dea"
+    },
+    {
+      "from": "2026-03-01",
+      "to": "2026-03-31",
+      "rows": 1425,
+      "sha256": "d23ff7e5e938f45a9e9b5039c873b173d75712c2f312888b23b556f07da4f150"
+    },
+    {
+      "from": "2026-04-01",
+      "to": "2026-04-30",
+      "rows": 1500,
+      "sha256": "ba9147d5c12868d6caa0e520cff1dcd158032f549ba0fc18280bd9d427d62bb2"
+    },
+    {
+      "from": "2026-05-01",
+      "to": "2026-05-31",
+      "rows": 1425,
+      "sha256": "1d7a86661d95fe706166b1e56528cf7730f748e62c001a69f707d72fb7e936cc"
+    },
+    {
+      "from": "2026-06-01",
+      "to": "2026-06-30",
+      "rows": 1575,
+      "sha256": "d55ea46dc80743351b0ef7be01b783f33a8953b4cb9927ae375d07a7e4cb3afd"
+    },
+    {
+      "from": "2026-07-01",
+      "to": "2026-07-31",
+      "rows": 1725,
+      "sha256": "65cc23e09c4e0be55d092745711fb766000564f7dc14117dfd84f55a88527d58"
+    },
+    {
+      "from": "2026-08-01",
+      "to": "2026-08-31",
+      "rows": 1575,
+      "sha256": "a59b592e4840175554aaa18fc872c95635892bf53a1e802df82df33ad3bc0e4a"
+    },
+    {
+      "from": "2026-09-01",
+      "to": "2026-09-30",
+      "rows": 1575,
+      "sha256": "5c7c8a4eb12958b9e390dace33780c20ba4d91ab63f762b05280526acd189e90"
+    },
+    {
+      "from": "2026-10-01",
+      "to": "2026-10-31",
+      "rows": 1500,
+      "sha256": "198fe00748c6688593d669c827dd96b65f3ec7d4a1d076036183606d5ba84359"
+    },
+    {
+      "from": "2026-11-01",
+      "to": "2026-11-09",
+      "rows": 464,
+      "sha256": "ff452fe81788552be220b3e3ac305b50fa8a3d07ee8661270f454c53f86dde0c"
+    }
+  ],
+  "special": {
+    "rows": 92,
+    "invalid_ohlc_excluded": 0,
+    "sessions": [
+      {
+        "day": "2023-11-12",
+        "bars": 12,
+        "reason": "observed Muhurat session outside normal hours",
+        "first": "2023-11-12 18:15:00+05:30",
+        "last": "2023-11-12 19:10:00+05:30"
+      },
+      {
+        "day": "2024-03-02",
+        "bars": 21,
+        "reason": "observed short special trading session",
+        "first": "2024-03-02 09:15:00+05:30",
+        "last": "2024-03-02 12:25:00+05:30"
+      },
+      {
+        "day": "2024-05-18",
+        "bars": 21,
+        "reason": "observed short special trading session",
+        "first": "2024-05-18 09:15:00+05:30",
+        "last": "2024-05-18 12:25:00+05:30"
+      },
+      {
+        "day": "2024-11-01",
+        "bars": 12,
+        "reason": "observed Muhurat session outside normal hours",
+        "first": "2024-11-01 18:00:00+05:30",
+        "last": "2024-11-01 18:55:00+05:30"
+      },
+      {
+        "day": "2025-10-21",
+        "bars": 12,
+        "reason": "observed short special/Muhurat session",
+        "first": "2025-10-21 13:45:00+05:30",
+        "last": "2025-10-21 14:40:00+05:30"
+      },
+      {
+        "day": "2026-11-08",
+        "bars": 14,
+        "reason": "observed short special/Muhurat session",
+        "first": "2026-11-08 14:20:00+05:30",
+        "last": "2026-11-08 15:25:00+05:30"
+      }
+    ],
+    "policy": "Execution only: replay valid unique raw candles on explicit known short/special dates, including evening bars. Ordinary stray pre/post-session prints on complete regular dates are excluded. Indicators remain based solely on complete regular sessions.",
+    "timestamp_semantics": "Provider five-minute candle START in Asia/Kolkata; end=start+5min.",
+    "calendar_caveat": "Session labels describe observed provider data; special session clock times are not independently certified against each exchange circular."
+  },
+  "whole_days_missing": [],
+  "regular_sha256": "e5f7aae353ac6ec19656b6e26911f57470bba9435a5ae56388cef5d3ef6dc703",
+  "special_sha256": "29e530d4e56d2ddb20689c094f38ddba3b362acad5aa60b07de24b0a326fcde8"
+}

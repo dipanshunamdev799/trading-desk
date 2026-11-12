@@ -1,0 +1,31 @@
+[
+  {
+    "url": "https://liveindexsa.niftyindices.com/assets/js/IISLComponet.js",
+    "status": 200,
+    "bytes": 191164,
+    "content_type": "application/javascript",
+    "redirected_url": "https://liveindexsa.niftyindices.com/assets/js/IISLComponet.js"
+  },
+  {
+    "url": "https://liveindexsa.niftyindices.com/assets/js/historicalData.js",
+    "status": 200,
+    "bytes": 502736,
+    "content_type": "text/javascript",
+    "redirected_url": "https://liveindexsa.niftyindices.com/assets/js/historicalData.js"
+  },
+  {
+    "url": "https://www.niftyindices.com/assets/js/historicalData.js",
+    "error": "HTTPSConnectionPool(host='www.niftyindices.com', port=443): Read timed out. (read timeout=12)"
+  },
+  {
+    "url": "https://www.niftyindices.com/Indices_-_Market_Capitalisation_and_Weightage/indices_dataJan2016.zip",
+    "error": "HTTPSConnectionPool(host='www.niftyindices.com', port=443): Read timed out. (read timeout=12)"
+  },
+  {
+    "url": "https://archives.nseindia.com/content/indices/IndexInclExcl.xls",
+    "status": 200,
+    "bytes": 820736,
+    "content_type": "application/vnd.ms-excel",
+    "redirected_url": "https://archives.nseindia.com/content/indices/IndexInclExcl.xls"
+  }
+]

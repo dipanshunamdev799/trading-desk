@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "dimensions": [
+    500,
+    1704
+  ],
+  "research_sessions": 495,
+  "eligible": 470,
+  "checks": [
+    "eligible finite OHLC every research session",
+    "actual=neutral*unit_factor all finite prices",
+    "unit-factor ratio equals ex-date share factor on eligible test dates",
+    "sampled liquidity uses only prior20 sessions and current share units",
+    "liquidity aliases match underlying arrays"
+  ],
+  "exclusion_reason_counts": {
+    "unresolved_capital_action": 19,
+    "unexplained_overnight_gap_above_30pct": 9,
+    "split_bonus": 7,
+    "daily_data_unavailable": 4,
+    "fewer_than_200_research_observations": 4,
+    "no_executable_terminal_price_in_last_five_sessions": 4,
+    "missing_research_calendar_session_conservative_execution_quarantine": 4
+  },
+  "source_sha256": "7e13d64bf1fec9c2749ac68ddc56be68213bc8c3165e2b3800680b2441b4f1aa",
+  "panel_sha256": "d8c7ebe08ec18dd5b6aa7cca71017e6c1fd513d9f92fcdb10b91e26e42691a5a"
+}

@@ -25,8 +25,8 @@ def live_status(instrument_key: str = "NSE_INDEX|Nifty 50"):
 @router.websocket("/live")
 async def market_live(websocket: WebSocket):
     from ..config import get_settings
-    origin = websocket.headers.get("origin")
-    if origin and origin.rstrip("/") not in {value.rstrip("/") for value in get_settings().cors_list}:
+    from ..origins import allowed_application_origin
+    if not allowed_application_origin(websocket,get_settings().cors_list):
         await websocket.close(code=1008)
         return
     client = upstox_service.get_upstox()

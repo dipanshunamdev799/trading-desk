@@ -1,0 +1,203 @@
+{
+  "source_health": {
+    "source": "universe:subscriptions",
+    "attempted_at": "2026-11-10T10:13:53.153231+00:00",
+    "succeeded_at": "2026-11-10T10:13:53.153231+00:00",
+    "error": null
+  },
+  "catalogue_count": 53,
+  "source_errors": [],
+  "issuer": "Antala Industries IPO",
+  "factors": {
+    "qib": {
+      "value": 66.72,
+      "status": "available",
+      "source": "IPOWatch (public)",
+      "source_url": "https://ipowatch.in/ipo-subscription-status-today/",
+      "fetched_at": "2026-11-10T10:13:07.431760+00:00",
+      "reported_at": "2026-11-05",
+      "period": null,
+      "note": "QIB bids can build late in the bidding window; compare at the same bidding day and time.",
+      "id": "qib",
+      "number": 1,
+      "label": "QIB subscription",
+      "group": "Demand",
+      "unit": "x"
+    },
+    "nii": {
+      "value": {
+        "nii": 49.94,
+        "snii": 8.3,
+        "bnii": 70.4
+      },
+      "status": "available",
+      "source": "IPOWatch (public)",
+      "source_url": "https://ipowatch.in/ipo-subscription-status-today/",
+      "fetched_at": "2026-11-10T10:13:07.431760+00:00",
+      "reported_at": "2026-11-05",
+      "period": null,
+      "note": null,
+      "id": "nii",
+      "number": 2,
+      "label": "NII / HNI subscription",
+      "group": "Demand",
+      "unit": "x"
+    },
+    "retail": {
+      "value": 5.22,
+      "status": "available",
+      "source": "IPOWatch (public)",
+      "source_url": "https://ipowatch.in/ipo-subscription-status-today/",
+      "fetched_at": "2026-11-10T10:13:07.431760+00:00",
+      "reported_at": "2026-11-05",
+      "period": null,
+      "note": null,
+      "id": "retail",
+      "number": 3,
+      "label": "Retail subscription",
+      "group": "Demand",
+      "unit": "x"
+    },
+    "total": {
+      "value": 12.72,
+      "status": "available",
+      "source": "Upstox",
+      "source_url": "https://upstox.com/developer/api-documentation/get-ipo-details/",
+      "fetched_at": "2026-11-10T10:13:05.049892+00:00",
+      "reported_at": null,
+      "period": null,
+      "note": "Public source reports 12.79x; Upstox reports 12.72x. Sources may use different update times.",
+      "id": "total",
+      "number": 4,
+      "label": "Overall subscription",
+      "group": "Demand",
+      "unit": "x"
+    },
+    "subscription_trend": {
+      "value": [
+        {
+          "at": "2026-10-29",
+          "nii": 0.36,
+          "qib": 66.72,
+          "bnii": 0.51,
+          "snii": 0.04,
+          "total": 0.82,
+          "retail": 0.05
+        },
+        {
+          "at": "2026-10-30",
+          "nii": 0.02,
+          "qib": 66.72,
+          "bnii": null,
+          "snii": 0.07,
+          "total": 0.81,
+          "retail": 0.1
+        },
+        {
+          "at": "2026-11-02",
+          "nii": 0.3,
+          "qib": 66.72,
+          "bnii": 0.23,
+          "snii": 0.44,
+          "total": 1.12,
+          "retail": 0.42
+        },
+        {
+          "at": "2026-11-03",
+          "nii": 1.35,
+          "qib": 66.72,
+          "bnii": 1.8,
+          "snii": 0.44,
+          "total": 1.33,
+          "retail": 0.47
+        },
+        {
+          "at": "2026-11-04",
+          "nii": 22.17,
+          "qib": 66.72,
+          "bnii": 32.49,
+          "snii": 1.17,
+          "total": 4.81,
+          "retail": 0.8
+        },
+        {
+          "at": "2026-11-05",
+          "nii": 49.94,
+          "qib": 66.72,
+          "bnii": 70.4,
+          "snii": 8.3,
+          "total": 12.79,
+          "retail": 5.22
+        }
+      ],
+      "status": "available",
+      "source": "IPOWatch (public)",
+      "source_url": "https://ipowatch.in/ipo-subscription-status-today/",
+      "fetched_at": "2026-11-10T10:13:07.431760+00:00",
+      "reported_at": "2026-11-05",
+      "period": null,
+      "note": "Only publisher-dated history is shown as day-wise demand. Collected snapshots are not backfilled bidding-day data.",
+      "id": "subscription_trend",
+      "number": 5,
+      "label": "Day-wise demand trend",
+      "group": "Demand",
+      "unit": "history"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-29",
+      "nii": 0.36,
+      "qib": 66.72,
+      "bnii": 0.51,
+      "snii": 0.04,
+      "total": 0.82,
+      "retail": 0.05
+    },
+    {
+      "at": "2026-10-30",
+      "nii": 0.02,
+      "qib": 66.72,
+      "bnii": null,
+      "snii": 0.07,
+      "total": 0.81,
+      "retail": 0.1
+    },
+    {
+      "at": "2026-11-02",
+      "nii": 0.3,
+      "qib": 66.72,
+      "bnii": 0.23,
+      "snii": 0.44,
+      "total": 1.12,
+      "retail": 0.42
+    },
+    {
+      "at": "2026-11-03",
+      "nii": 1.35,
+      "qib": 66.72,
+      "bnii": 1.8,
+      "snii": 0.44,
+      "total": 1.33,
+      "retail": 0.47
+    },
+    {
+      "at": "2026-11-04",
+      "nii": 22.17,
+      "qib": 66.72,
+      "bnii": 32.49,
+      "snii": 1.17,
+      "total": 4.81,
+      "retail": 0.8
+    },
+    {
+      "at": "2026-11-05",
+      "nii": 49.94,
+      "qib": 66.72,
+      "bnii": 70.4,
+      "snii": 8.3,
+      "total": 12.79,
+      "retail": 5.22
+    }
+  ]
+}

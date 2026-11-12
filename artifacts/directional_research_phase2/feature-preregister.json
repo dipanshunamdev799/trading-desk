@@ -1,0 +1,19 @@
+{
+  "shortlist": [
+    "ema_trend|12_26_gap0.5|trend|afternoon|h60",
+    "donchian|lookback20_buffer0|trend|afternoon|h60",
+    "pullback|ema21_tolerance0.75|trend|afternoon|h60"
+  ],
+  "filters": [
+    "baseline",
+    "vix_below_dev_median",
+    "vix_not_rising",
+    "etf_vwap_agreement",
+    "etf_rvol_ge1",
+    "official_gap_agreement"
+  ],
+  "thresholds": "Only VIX median estimated on development feature rows. All others fixed a priori.",
+  "comparison": "Same fixed trade opportunities; unavailable features reject additions but never silently filter baseline",
+  "execution": "Retain phase1 fixed entries/exits; index points only",
+  "selection": "No feature or strategy selection from results; all ablations disclosed"
+}

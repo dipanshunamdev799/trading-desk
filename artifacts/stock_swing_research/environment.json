@@ -1,0 +1,20 @@
+{
+  "python": "3.15.0 (tags/v3.15.0:d220409, Oct  9 2026, 11:55:56) [MSC v.1951 64 bit (AMD64)]",
+  "pandas": "3.1.0",
+  "numpy": "2.5.4",
+  "source_sha256_at_delivery": {
+    "research\\swing\\stocks.py": "cf451419d75a63f8e32efb870d5bce965447764250fd066045c7693f05d4878a",
+    "research\\swing\\stock_engine.py": "a05b02e7f549b65a784ee8537ca52254e02391de8c922ae247fd50963a719fda",
+    "research\\swing\\stock_reporting.py": "34a0ebc5d245e4bbe88457499ce784d794dcd2e269857b501db241223888341e",
+    "scripts\\run_stock_swing.py": "d456831ac14a3c51bd6786b77d3366bc621bac819cc43c7920ef6d24665301f0",
+    "scripts\\fetch_stock_swing.py": "493376e2503d39fbeb9e07c6ebb1bcb926a8eb89b3a2c9e603b89a0e0055f18d"
+  },
+  "source_input_sha256": {
+    "protocol.json": "e7f3dea94b0f5d2af62cec3416a39ee2736ec64ff000b30c9c15af02fa28d858",
+    "universe.json": "24bb8755e5a0845680891f2440792a78a32cb5f480ca5a73a469306de0c05fcd",
+    "nse-actions-all.json": "98fb0bece4fce329265cf582ef771fc97ac461e027e7b5fd33ca8ff5bcfae03b",
+    "nifty50-2024-11-11.pdf": "b2f1ae48c58db647e9af5f645ee39be7a7cb34b80bcb657c08998369ce56f42f"
+  },
+  "baseline_engine_unchanged_sha256": "cb745ecfd035072bbcd97d5d55e7fcecbcba1ba05a9b587c284b405626b6c75a",
+  "library_note": "pypdf is needed only for first-run extraction of the dated constituent document; runtime trading uses pandas/numpy/matplotlib."
+}

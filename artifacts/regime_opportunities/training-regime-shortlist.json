@@ -1,0 +1,64 @@
+{
+  "regimes": [
+    "sector_rotation_wide",
+    "bull_trend",
+    "persistent_up"
+  ],
+  "rows": [
+    {
+      "domain": "stock_excess_N50",
+      "stage": "development",
+      "horizon": 10,
+      "method": "all_dates_block20",
+      "regime": "sector_rotation_wide",
+      "n_on": 80,
+      "n_off": 166,
+      "on_mean_pct": 0.5943610946251495,
+      "off_mean_pct": -0.5108902031088683,
+      "contrast_pct": 1.1052512977340179,
+      "ci95_low_pct": -0.3802892957920891,
+      "ci95_high_pct": 2.6334035195325756,
+      "p": 0.15561479506831055,
+      "pooled_on_events": 3,
+      "inference_eligible": true,
+      "bh_q": 1.0
+    },
+    {
+      "domain": "stock_excess_N50",
+      "stage": "development",
+      "horizon": 10,
+      "method": "all_dates_block20",
+      "regime": "bull_trend",
+      "n_on": 163,
+      "n_off": 83,
+      "on_mean_pct": 0.177796465090742,
+      "off_mean_pct": -0.7980687946488088,
+      "contrast_pct": 0.9758652597395507,
+      "ci95_low_pct": -0.4226225296704478,
+      "ci95_high_pct": 2.3847423924764137,
+      "p": 0.19026991002999,
+      "pooled_on_events": 3,
+      "inference_eligible": true,
+      "bh_q": 1.0
+    },
+    {
+      "domain": "stock_excess_N50",
+      "stage": "development",
+      "horizon": 10,
+      "method": "all_dates_block20",
+      "regime": "persistent_up",
+      "n_on": 34,
+      "n_off": 212,
+      "on_mean_pct": 0.554328759967559,
+      "off_mean_pct": -0.2646512452120623,
+      "contrast_pct": 0.8189800051796213,
+      "ci95_low_pct": -0.7841508327693378,
+      "ci95_high_pct": 2.97548157173364,
+      "p": 0.396,
+      "pooled_on_events": 4,
+      "inference_eligible": true,
+      "bh_q": 1.0
+    }
+  ],
+  "selection": "Development stock10session excessreturn contrast, >=20on-dates and>=3pooledevents. Noentrystyleorvalidation/finalresultsused. Existingcalendarcontaminationremains."
+}

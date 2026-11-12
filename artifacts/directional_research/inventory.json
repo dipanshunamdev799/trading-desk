@@ -1,0 +1,51 @@
+[
+  {
+    "instrument_key": "NSE_EQ|INF204KB14I2",
+    "interval": "1minute",
+    "bars": 3000,
+    "first": "2026-10-19 03:45:00+00:00",
+    "last": "2026-10-29 09:59:00+00:00"
+  },
+  {
+    "instrument_key": "NSE_INDEX|India VIX",
+    "interval": "1minute",
+    "bars": 7500,
+    "first": "2026-09-24 03:45:00+00:00",
+    "last": "2026-10-23 09:59:00+00:00"
+  },
+  {
+    "instrument_key": "NSE_INDEX|Nifty 50",
+    "interval": "15minute",
+    "bars": 1568,
+    "first": "2026-07-30 03:45:00+00:00",
+    "last": "2026-10-30 08:00:00+00:00"
+  },
+  {
+    "instrument_key": "NSE_INDEX|Nifty 50",
+    "interval": "1day",
+    "bars": 2485,
+    "first": "2016-10-23 18:30:00+00:00",
+    "last": "2026-10-29 18:30:00+00:00"
+  },
+  {
+    "instrument_key": "NSE_INDEX|Nifty 50",
+    "interval": "1hour",
+    "bars": 1762,
+    "first": "2025-10-24 03:45:00+00:00",
+    "last": "2026-10-30 07:45:00+00:00"
+  },
+  {
+    "instrument_key": "NSE_INDEX|Nifty 50",
+    "interval": "1minute",
+    "bars": 76759,
+    "first": "2026-01-01 03:45:00+00:00",
+    "last": "2026-10-30 08:03:00+00:00"
+  },
+  {
+    "instrument_key": "NSE_INDEX|Nifty 50",
+    "interval": "5minute",
+    "bars": 4575,
+    "first": "2026-08-03 03:45:00+00:00",
+    "last": "2026-10-30 09:55:00+00:00"
+  }
+]

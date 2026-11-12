@@ -1,0 +1,14 @@
+{
+  "passed_groups": 5,
+  "checks": [
+    "Every feature date is exactly preceding NIFTY session and selected expiry is future",
+    "PCR and volumePCR independently reaggregated from each exact source expiry",
+    "All126 family/expiry/split/filter summaries reconcile persisted opportunities",
+    "All84 recent premium ablation cells reconcile exact inherited premium outcomes",
+    "Preregistered script and all input hashes match"
+  ],
+  "feature_policy_rows": 1026,
+  "summary_rows": 126,
+  "premium_summary_rows": 84,
+  "status": "passed"
+}

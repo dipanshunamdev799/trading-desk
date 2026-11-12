@@ -1,0 +1,24 @@
+[
+  {
+    "feature":"efficiency_60",
+    "bucket":"mid",
+    "part":"development",
+    "stocks":45,
+    "n_trades":1421,
+    "expectancy_r":0.1198298413,
+    "net_profit":841282.4184193756,
+    "ci_low":-0.091656358,
+    "ci_high":0.3342022886
+  },
+  {
+    "feature":"volatility_60",
+    "bucket":"high",
+    "part":"development",
+    "stocks":39,
+    "n_trades":1375,
+    "expectancy_r":0.107944434,
+    "net_profit":731943.9740212102,
+    "ci_low":-0.0702301315,
+    "ci_high":0.3174203329
+  }
+]

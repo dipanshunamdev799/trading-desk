@@ -1,0 +1,175 @@
+{
+  "checks": [
+    "Tool search opens the selected route",
+    "Paper order review and invalid quantities/custom keys/price validation, without placing orders",
+    "Context guide links reach real learning sections",
+    "Offline P&L calculator and searchable glossary",
+    "Learning checklist merges and syncs changes across tabs",
+    "Learning progress persists and marks the correct chapter",
+    "NIFTY research expands on demand and returns to overview",
+    "Options secondary controls are disclosed on demand",
+    "All five options analysis views are reachable and preserve shared selections",
+    "Sample backtest is keyboard accessible and selected from deep link",
+    "Mobile navigation traps focus, closes with Escape and restores focus",
+    "Tool search opens from the mobile menu and closes with Escape",
+    "Advanced tools remain reachable on mobile",
+    "Malformed saved progress falls back to an empty checklist",
+    "Unavailable API never invents zero balances and local exercises remain usable",
+    "Learning exercises keep all local progress when browser storage rejects writes",
+    "No horizontal page overflow from 320px through 1440px",
+    "No browser runtime errors"
+  ],
+  "layout": [
+    {
+      "route": "/",
+      "width": 1440,
+      "scroll": 1440
+    },
+    {
+      "route": "/learn",
+      "width": 1440,
+      "scroll": 1440
+    },
+    {
+      "route": "/paper",
+      "width": 1440,
+      "scroll": 1440
+    },
+    {
+      "route": "/nifty",
+      "width": 1440,
+      "scroll": 1440
+    },
+    {
+      "route": "/maxpain",
+      "width": 1440,
+      "scroll": 1440
+    },
+    {
+      "route": "/backtests?slug=sample-momentum-nifty",
+      "width": 1440,
+      "scroll": 1440
+    },
+    {
+      "route": "/",
+      "width": 1024,
+      "scroll": 1024
+    },
+    {
+      "route": "/learn",
+      "width": 1024,
+      "scroll": 1024
+    },
+    {
+      "route": "/paper",
+      "width": 1024,
+      "scroll": 1024
+    },
+    {
+      "route": "/nifty",
+      "width": 1024,
+      "scroll": 1024
+    },
+    {
+      "route": "/maxpain",
+      "width": 1024,
+      "scroll": 1024
+    },
+    {
+      "route": "/backtests?slug=sample-momentum-nifty",
+      "width": 1024,
+      "scroll": 1024
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "scroll": 768
+    },
+    {
+      "route": "/learn",
+      "width": 768,
+      "scroll": 768
+    },
+    {
+      "route": "/paper",
+      "width": 768,
+      "scroll": 768
+    },
+    {
+      "route": "/nifty",
+      "width": 768,
+      "scroll": 768
+    },
+    {
+      "route": "/maxpain",
+      "width": 768,
+      "scroll": 768
+    },
+    {
+      "route": "/backtests?slug=sample-momentum-nifty",
+      "width": 768,
+      "scroll": 768
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "scroll": 390
+    },
+    {
+      "route": "/learn",
+      "width": 390,
+      "scroll": 390
+    },
+    {
+      "route": "/paper",
+      "width": 390,
+      "scroll": 390
+    },
+    {
+      "route": "/nifty",
+      "width": 390,
+      "scroll": 390
+    },
+    {
+      "route": "/maxpain",
+      "width": 390,
+      "scroll": 390
+    },
+    {
+      "route": "/backtests?slug=sample-momentum-nifty",
+      "width": 390,
+      "scroll": 390
+    },
+    {
+      "route": "/",
+      "width": 320,
+      "scroll": 320
+    },
+    {
+      "route": "/learn",
+      "width": 320,
+      "scroll": 320
+    },
+    {
+      "route": "/paper",
+      "width": 320,
+      "scroll": 320
+    },
+    {
+      "route": "/nifty",
+      "width": 320,
+      "scroll": 320
+    },
+    {
+      "route": "/maxpain",
+      "width": 320,
+      "scroll": 320
+    },
+    {
+      "route": "/backtests?slug=sample-momentum-nifty",
+      "width": 320,
+      "scroll": 320
+    }
+  ],
+  "errors": []
+}

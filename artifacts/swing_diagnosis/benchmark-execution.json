@@ -1,0 +1,22 @@
+{
+  "control_count": 22,
+  "execution_runs": 176,
+  "seed_range": [
+    20261111,
+    20261130
+  ],
+  "stocks": 470,
+  "configuration": {
+    "initial_capital": 1000000,
+    "risk_fraction": 0.005,
+    "stop_atr": 2.0,
+    "reward": 2.0,
+    "max_hold_sessions": 10,
+    "exit": "fixed",
+    "stop_mode": "atr",
+    "min_turnover": 50000000,
+    "participation": 0.01
+  },
+  "assumptions": "Independent sleeves, not funded portfolio; no seed selected; random seed distribution is conditional on one reused market history; simple trend/momentum entries use same fixed stop/target/hold as original, not canonical fully-invested indices.",
+  "source_sha256": "d92866c15e4764baae30703c8d80a589975fbc113723ba888cb411e404d393c0"
+}

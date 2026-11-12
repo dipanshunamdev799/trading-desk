@@ -1,0 +1,20 @@
+{
+  "mode": "paper",
+  "capital": 250000,
+  "max_quantity": 650,
+  "max_loss_per_trade": 1250,
+  "max_daily_loss": 2500,
+  "max_trades_per_day": 5,
+  "max_positions": 1,
+  "stop_percent": null,
+  "target_percent": null,
+  "trailing_percent": null,
+  "max_spread_percent": 2,
+  "quote_max_age_seconds": 5,
+  "signal_max_age_seconds": 10,
+  "poll_seconds": 5,
+  "slippage_points": 0.05,
+  "brokerage_per_order": 20,
+  "order_timeout_seconds": 15,
+  "live_activated": false
+}

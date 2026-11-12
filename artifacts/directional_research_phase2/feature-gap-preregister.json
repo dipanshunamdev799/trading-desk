@@ -1,0 +1,9 @@
+{
+  "comparison": "Original previous15:10 research close versus strictly preceding official daily close",
+  "frozen_rules": [
+    "gap_fade|gap_atr1|range|all|h60",
+    "gap_follow|gap_atr3|high_vol|all|h60"
+  ],
+  "parameters_changed": false,
+  "timing": "Registered after context ablations, before reading corrected gap outcomes; exploratory historical comparison"
+}

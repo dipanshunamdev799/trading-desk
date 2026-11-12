@@ -1,0 +1,16 @@
+{
+  "recent5m": {
+    "ok": true,
+    "rows": 389
+  },
+  "old5m": {
+    "ok": true,
+    "rows": 1725
+  },
+  "expired_expiries": {
+    "ok": false,
+    "error_type": "UpstoxAPIError",
+    "status": 401,
+    "message": "HTTP 401: [{'errorCode': 'UDAPI1149', 'message': 'This API is available exclusively with an Upstox Plus plan subscription. Please upgrade to the Plus plan to gain access.', 'propertyPath': None, 'invalidValue': None, 'error_code': 'UDAPI1149', 'property_path': None, 'invalid_value': None}]"
+  }
+}

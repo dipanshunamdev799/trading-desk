@@ -27,6 +27,9 @@ class Settings(BaseSettings):
 
     # Upstox
     upstox_analytics_token: str = ""
+    upstox_trading_token: SecretStr = SecretStr("")
+    trading_bots_live_enabled: bool = False
+    upstox_algo_name: str = ""
     upstox_requests_per_second: float = 5
     tapetide_token: SecretStr = SecretStr("")
     tapetide_fallback_enabled: bool = True

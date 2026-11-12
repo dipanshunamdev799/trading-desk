@@ -1,0 +1,51 @@
+{
+  "questions": [
+    "Do wider stops improve same signal policy?",
+    "Does removing fixed profit target help?",
+    "Does a longer hold help?",
+    "Are reference filters suppressing returns?",
+    "Does positive gross edge survive costs?"
+  ],
+  "families": [
+    "kama_cross",
+    "ema_cross",
+    "hybrid_ribbon_pullback"
+  ],
+  "one_coordinate_changes": {
+    "base": {},
+    "stop_1atr": {
+      "stop_atr": 1.0
+    },
+    "stop_3atr": {
+      "stop_atr": 3.0
+    },
+    "target_3r": {
+      "reward": 3.0
+    },
+    "time_only_10": {
+      "exit": "time"
+    },
+    "hold_20": {
+      "max_hold_sessions": 20
+    },
+    "without_filter": {
+      "filter": "none"
+    },
+    "zero_friction": {}
+  },
+  "periods": {
+    "development": [
+      "2024-11-10",
+      "2025-11-10"
+    ],
+    "validation": [
+      "2025-11-10",
+      "2026-05-10"
+    ],
+    "final": [
+      "2026-05-10",
+      "2026-11-10"
+    ]
+  },
+  "assumptions": "Corrected dividends and actual same-day taxes. zero_friction removes fees and slippage. Same frozen reference signals; execution changes can change subsequent available entries. No result used to choose or tune rules; dates reused and not independent OOS."
+}

@@ -1,0 +1,69 @@
+{
+  "start": "2024-11-10",
+  "end_exclusive": "2026-11-10",
+  "no_selection": true,
+  "no_tuning": true,
+  "configurations": 207,
+  "instruments": [
+    "NIFTY",
+    "NIFTYBEES",
+    "BANKBEES"
+  ],
+  "continuous_metric_rows": 621,
+  "trade_ledger_rows": 10897,
+  "subgroup_rows": 9633,
+  "monthly_rows": 15525,
+  "protocol_sha256": "cbc8229690964e1dd66946018b0c054ceb9db4d6f8d0c570d7c673199b2a2c4b",
+  "frozen_selection_sha256": "2e380709eaa71da93aabb0a8d8ea6fbece98011ee739e2d5f052b06c29005497",
+  "protocol_and_selection_unchanged": true,
+  "source_sha256": {
+    "scripts\\extend_swing_evidence.py": "5ece48274b7c88d17ebf10457ba344fc8fd6c4d091a084861430f6f600b0ec2f",
+    "research\\swing\\engine.py": "cb745ecfd035072bbcd97d5d55e7fcecbcba1ba05a9b587c284b405626b6c75a",
+    "research\\swing\\signals.py": "0c9f9132c1302891109e6fbf2073c87cad1b9bd88d3e03b1c512cfad501225cc",
+    "research\\swing\\data.py": "2d8067ba66c46dd386d44955598ae856a0d61361827235e3e0b06b170d0105ab"
+  },
+  "source_files_unchanged_during_run": true,
+  "input_sha256": {
+    "nifty-5minute.csv": "8bc465637cfd1fa79492362d0f19060b5d2b10e6db30ef2a8bfb02c5d69f7bd6",
+    "nifty-special-execution.csv": "9cfd7ce8b1192c5be438d146469b60020e88dc80fa9b1ce10d515e0d3662a277",
+    "niftybees-5minute.csv": "ffe5139953cc9fa369681eff1f23737c85fd2736dcb8dd2c9bb889b61f8cff2e",
+    "niftybees-special-execution.csv": "21530395d008bc18d4ae0cef9246a9d3e10408e9926354cdc875f0268a265012",
+    "bankbees-5minute.csv": "26e5dafdc9edc9f760cbb053472a64745bf3a812a2d7da7798da4474f0a1dfb3",
+    "bankbees-special-execution.csv": "dac408287fcd3a8ab4d1eb33251690925fce476fe21ce83ec4696975ac2c3b03"
+  },
+  "elapsed_seconds": 130.9312179000117,
+  "outcome_distinct_scenarios_per_instrument": {
+    "BANKBEES": 181,
+    "NIFTY": 195,
+    "NIFTYBEES": 181
+  },
+  "duplicate_signature_caveat": "Identical trade outcomes, including zero-trade rules, do not necessarily imply identical indicator rules or off-market signals.",
+  "subgroup_policy": "Trade year uses exit timestamp; regime is the causal entry label. Separate year/regime/side/reason breakdowns and a joint year-regime-side breakdown are descriptive, with no subgroup-driven candidate reselection.",
+  "monthly_policy": "Marked-to-market month-end equity changes include open trades. Realized trade P&L is shown separately and need not equal marked month returns.",
+  "indicators_and_execution": "Regular-session data only for indicators; valid known special-session raw bars restored for next-tradable-open execution, protection, and marking.",
+  "finalist_results_replaced": false,
+  "verification": {
+    "metric_rows": 621,
+    "trade_ledger_rows": 10897,
+    "monthly_rows": 15525,
+    "ledger_to_metric_reconciliation": true,
+    "monthly_nav_to_total_profit_reconciliation": true,
+    "all_subgroup_trade_count_reconciliation": true,
+    "etf_long_only": true,
+    "configuration_reselection": false,
+    "initial_capital_plus_net_profit_equals_final_month_nav": true,
+    "all_trade_information_time_ordering": true,
+    "nonoverlapping_positions": true,
+    "entry_notional_within_available_capital": true,
+    "initial_fee_inclusive_stop_risk_within_half_percent_available_capital": true,
+    "positive_integer_quantity_and_finite_trade_values": true,
+    "tested_trades": 10897
+  },
+  "source_sha256_at_delivery": {
+    "scripts\\extend_swing_evidence.py": "5441931137897cf0cc6bec8cd6437fee1ca3bb7ff1918318f7b4cf4821ae9eaa",
+    "research\\swing\\engine.py": "cb745ecfd035072bbcd97d5d55e7fcecbcba1ba05a9b587c284b405626b6c75a",
+    "research\\swing\\signals.py": "0c9f9132c1302891109e6fbf2073c87cad1b9bd88d3e03b1c512cfad501225cc",
+    "research\\swing\\data.py": "2d8067ba66c46dd386d44955598ae856a0d61361827235e3e0b06b170d0105ab"
+  },
+  "post_run_api_change": "After the completed130.9-second calculation, added run(out=OUT) public wrapper and after-run source-hash recording only. Trading calculation code, engine, signals, protocol, and frozen selection were not changed. source_sha256 identifies the exact source snapshot used for this completed batch; source_sha256_at_delivery identifies the current API-wrapper version."
+}

@@ -1,0 +1,30 @@
+{
+  "fit_period": "development only",
+  "thresholds": {
+    "volatility_60": [
+      0.20401437662940505,
+      0.25054339221157607
+    ],
+    "efficiency_60": [
+      0.05901235522819507,
+      0.13518205104742026
+    ],
+    "momentum_126": [
+      -0.016051296722728682,
+      0.10373410590696941
+    ],
+    "beta_60": [
+      0.8727428198892454,
+      1.164305178432271
+    ],
+    "gap_60": [
+      0.0039393530656240735,
+      0.005099075483232072
+    ],
+    "liquidity_60": [
+      2384128037.975,
+      4464932674.225
+    ]
+  },
+  "liquidity_caveat": "Provider-adjusted price times volume proxy; historical volume adjustment not independently certified. This feature is exploratory and cannot support a liquidity-based live selection rule."
+}

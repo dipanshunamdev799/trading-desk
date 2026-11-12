@@ -1,0 +1,15 @@
+{
+  "selected": [
+    "compression_breakout|range2_body0.5|ema_aligned|afternoon|h15",
+    "donchian|lookback20_buffer0.25|ema_aligned|midday|h60",
+    "ema_reversion|distance1|range|morning|h15",
+    "ema_trend|9_21_gap0.5|high_vol|all|h60",
+    "failed_breakout|lookback6|range|all|h60",
+    "gap_follow|gap_atr1|high_vol|all|h60",
+    "momentum|lookback6_atr1.5|trend|midday|h60",
+    "orb|minutes60_buffer0|range|afternoon|h30",
+    "pullback|ema50_tolerance0.75|trend|all|h60"
+  ],
+  "selector_hash": "70f849e9dd687fdcea65df9f11428987ac635685aa4edb03dc76314b9146adf3",
+  "uses_holdout": false
+}

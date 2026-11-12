@@ -1,0 +1,224 @@
+[
+  {
+    "regime": "vol_expansion",
+    "dimension": "volatility_ratio",
+    "rule": "std20/std60>1.2",
+    "scope": "index_long"
+  },
+  {
+    "regime": "vol_contraction",
+    "dimension": "volatility_ratio",
+    "rule": "std20/std60<.8",
+    "scope": "index_long"
+  },
+  {
+    "regime": "high_volatility",
+    "dimension": "volatility_level",
+    "rule": "vol20>prior252median(min126)",
+    "scope": "index_long"
+  },
+  {
+    "regime": "low_volatility",
+    "dimension": "volatility_level",
+    "rule": "vol20<=prior252median(min126)",
+    "scope": "index_long"
+  },
+  {
+    "regime": "strong_adx",
+    "dimension": "ADX",
+    "rule": "WilderADX14>=25",
+    "scope": "index_long"
+  },
+  {
+    "regime": "weak_adx",
+    "dimension": "ADX",
+    "rule": "WilderADX14<20",
+    "scope": "index_long"
+  },
+  {
+    "regime": "bull_trend",
+    "dimension": "trend",
+    "rule": "bull_trend close/EMA50/EMA200 alignment",
+    "scope": "index_long"
+  },
+  {
+    "regime": "bear_trend",
+    "dimension": "trend",
+    "rule": "bear_trend close/EMA50/EMA200 alignment",
+    "scope": "index_long"
+  },
+  {
+    "regime": "mixed_trend",
+    "dimension": "trend",
+    "rule": "mixed_trend close/EMA50/EMA200 alignment",
+    "scope": "index_long"
+  },
+  {
+    "regime": "efficient_trend",
+    "dimension": "efficiency",
+    "rule": "ER60>=.3",
+    "scope": "index_long"
+  },
+  {
+    "regime": "inefficient_range",
+    "dimension": "efficiency",
+    "rule": "ER60<=.15",
+    "scope": "index_long"
+  },
+  {
+    "regime": "persistent_up",
+    "dimension": "persistence",
+    "rule": "positive20dayfraction>=.65",
+    "scope": "index_long"
+  },
+  {
+    "regime": "persistent_down",
+    "dimension": "persistence",
+    "rule": "positive20dayfraction<=.35",
+    "scope": "index_long"
+  },
+  {
+    "regime": "market_oversold",
+    "dimension": "reversion",
+    "rule": "(close-EMA20)/ATR14<=-2",
+    "scope": "index_long"
+  },
+  {
+    "regime": "market_overbought",
+    "dimension": "reversion",
+    "rule": "(close-EMA20)/ATR14>=2",
+    "scope": "index_long"
+  },
+  {
+    "regime": "new_expansion",
+    "dimension": "transition",
+    "rule": "first expansion session",
+    "scope": "index_long"
+  },
+  {
+    "regime": "persistent_expansion",
+    "dimension": "transition",
+    "rule": "expansion age>=5sessions",
+    "scope": "index_long"
+  },
+  {
+    "regime": "vol_clustered",
+    "dimension": "vol_clustering",
+    "rule": "lag1squaredreturncorr60>0",
+    "scope": "index_long"
+  },
+  {
+    "regime": "vol_unclustered",
+    "dimension": "vol_clustering",
+    "rule": "lag1squaredreturncorr60<=0",
+    "scope": "index_long"
+  },
+  {
+    "regime": "frequent_market_gaps",
+    "dimension": "overnight",
+    "rule": "fraction20absmarketgap>1%>=.2",
+    "scope": "index_long"
+  },
+  {
+    "regime": "infrequent_market_gaps",
+    "dimension": "overnight",
+    "rule": "fraction20absmarketgap>1%<.2",
+    "scope": "index_long"
+  },
+  {
+    "regime": "sector_rotation_wide",
+    "dimension": "sector_rotation",
+    "rule": "Bank/IT/Pharma60returnspread>prior252median(min126)",
+    "scope": "index_long"
+  },
+  {
+    "regime": "sector_leader_changed",
+    "dimension": "sector_rotation",
+    "rule": "leading3sector60returnindex differs20sessionsago",
+    "scope": "index_long"
+  },
+  {
+    "regime": "breadth20_broad",
+    "dimension": "breadth",
+    "rule": "fractionaboveEMA20>=.7",
+    "scope": "stock_recent"
+  },
+  {
+    "regime": "breadth20_narrow",
+    "dimension": "breadth",
+    "rule": "fractionaboveEMA20<=.3",
+    "scope": "stock_recent"
+  },
+  {
+    "regime": "breadth50_broad",
+    "dimension": "breadth",
+    "rule": "fractionaboveEMA50>=.7",
+    "scope": "stock_recent"
+  },
+  {
+    "regime": "breadth50_narrow",
+    "dimension": "breadth",
+    "rule": "fractionaboveEMA50<=.3",
+    "scope": "stock_recent"
+  },
+  {
+    "regime": "breadth_improving",
+    "dimension": "breadth_transition",
+    "rule": "breadth50change20>=.10",
+    "scope": "stock_recent"
+  },
+  {
+    "regime": "breadth_deteriorating",
+    "dimension": "breadth_transition",
+    "rule": "breadth50change20<=-.10",
+    "scope": "stock_recent"
+  },
+  {
+    "regime": "breadth200_broad",
+    "dimension": "breadth",
+    "rule": "fractionaboveEMA200>=.7",
+    "scope": "stock_recent"
+  },
+  {
+    "regime": "breadth200_narrow",
+    "dimension": "breadth",
+    "rule": "fractionaboveEMA200<=.3",
+    "scope": "stock_recent"
+  },
+  {
+    "regime": "high_dispersion",
+    "dimension": "dispersion",
+    "rule": "mean20crosssectionretstd>prior252median(min126)",
+    "scope": "stock_recent"
+  },
+  {
+    "regime": "low_dispersion",
+    "dimension": "dispersion",
+    "rule": "mean20crosssectionretstd<=prior252median(min126)",
+    "scope": "stock_recent"
+  },
+  {
+    "regime": "high_market_correlation",
+    "dimension": "correlation",
+    "rule": "medianstockNIFTYcorr60>prior252median(min126)",
+    "scope": "stock_recent"
+  },
+  {
+    "regime": "low_market_correlation",
+    "dimension": "correlation",
+    "rule": "medianstockNIFTYcorr60<=prior252median(min126)",
+    "scope": "stock_recent"
+  },
+  {
+    "regime": "high_volume_participation",
+    "dimension": "activity",
+    "rule": "medianstockvolume/meanprior20>=1.25",
+    "scope": "stock_recent"
+  },
+  {
+    "regime": "low_volume_participation",
+    "dimension": "activity",
+    "rule": "medianstockvolume/meanprior20<=.75",
+    "scope": "stock_recent"
+  }
+]

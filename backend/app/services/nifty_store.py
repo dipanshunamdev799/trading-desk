@@ -109,7 +109,7 @@ class NiftyStore:
     def events(self, limit: int = 100) -> list[dict]:
         self.store.initialize()
         with self.store.engine.connect() as conn:
-            return [row[0] for row in conn.execute(text("""SELECT payload FROM (
+            return [{**row[0], "observed_at": row[1].isoformat()} for row in conn.execute(text("""SELECT payload,observed_at FROM (
                 SELECT DISTINCT ON (COALESCE(payload->>'id',event_key)) payload,event_at,observed_at
                 FROM nifty_research_events ORDER BY COALESCE(payload->>'id',event_key),observed_at DESC,event_key DESC
                 ) latest ORDER BY event_at DESC NULLS LAST,observed_at DESC LIMIT :limit"""),

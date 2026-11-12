@@ -1,0 +1,12 @@
+category,id,family,status,final_return_pct,final_sharpe,final_drawdown_pct,reserved_return_pct
+MACD family,macd_zero_cross_7cb993665d76,macd_zero_cross,diagnostic; evidence screen failed,-0.02055540962204727,-0.5292135749285125,0.08993331920110759,0.0017924542768499307
+PPO family,ppo_zero_cross_dffda8cb8df2,ppo_zero_cross,diagnostic; evidence screen failed,-0.02055540962204727,-0.5292135749285125,0.08993331920110759,0.0017924542768499307
+EMA/adaptive,kama_cross_098a05a5d438,kama_cross,diagnostic; evidence screen failed,0.00667726881058428,0.27303833296179936,0.03462237848029792,0.013796513577912783
+support/resistance,round_bounce_315f7e58bebf,round_bounce,diagnostic; evidence screen failed,-0.03641472930850931,-0.664898662954369,0.1321209520329325,-0.019147976594224847
+hybrid,hybrid_ribbon_pullback_345d115be690,hybrid_ribbon_pullback,diagnostic; evidence screen failed,-0.0030298438437270647,-0.05872958459642661,0.04697207281810778,-0.0790254852735206
+risk-adjusted,kama_cross_098a05a5d438,kama_cross,diagnostic; evidence screen failed,0.00667726881058428,0.27303833296179936,0.03462237848029792,0.013796513577912783
+drawdown,breakout_retest_c71104bc32b8,breakout_retest,diagnostic; evidence screen failed,-0.018219022938481544,-1.2463405566941401,0.026510274313418236,-0.01564484113458775
+consistency,macd_hist_recovery_e758e11f9a78,macd_hist_recovery,diagnostic; evidence screen failed,-0.06499641271600076,-0.8314121700093782,0.20448162163525518,-0.11395896298516117
+"MACD only, frozen subset",macd_strength_cross_25d860e37c1e,macd_strength_cross,diagnostic; evidence screen failed,-0.01789651938942649,-1.3232263409074707,0.029719892283819327,0.002345710159668002
+"EMA only, frozen subset",ema_weekly_3acfa35b0d85,ema_weekly,diagnostic; evidence screen failed,-0.04733850161560138,-0.6434115355921286,0.15447244759291268,-0.14145064748289915
+"S&R only, frozen subset",round_bounce_315f7e58bebf,round_bounce,diagnostic; evidence screen failed,-0.03641472930850931,-0.664898662954369,0.1321209520329325,-0.019147976594224847

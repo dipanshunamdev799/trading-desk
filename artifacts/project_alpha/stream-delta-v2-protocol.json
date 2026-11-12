@@ -1,0 +1,11 @@
+{
+  "experiment": "DELTA-RECEIVED-V2",
+  "date": "2026-11-10",
+  "why": "Original chain snapshot is collected about every60seconds; fresh streamGreeks may exist between chain captures.",
+  "availability": "Latest instrument frame received<=decision, sourceclockoffsetwithin\u00b11second, providerLTTage0\u201330sec, frameage<=30sec withsameclockqualification.",
+  "universe": "Original datedchain/expiry; priorNSEmetadata; strikeswithin500points ofsignalspot. No futureGreek, premium or latercontractmaster.",
+  "selection": "Fixedabsdelta.4\u2013.6target.5 and.6\u2013.8target.7; ATMcontrol unchanged. No outcome-based choice.",
+  "limitation": "Provider modelGreeks as received, no independentlyverifiedGreekcalculationtimestamp; exploratory extension on inspectedhistory, not newholdout.",
+  "quotes": "No exchange-book event clock; original frame-snapshot assumptions remain.",
+  "script_sha256": "8ddcf7eea740a35a026b71c0f0768819dae9881c2f4e026a2406bf2e1d409779"
+}

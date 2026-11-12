@@ -1,0 +1,11 @@
+{
+  "trigger": "Preliminary development-selected broad-family regime trade-subset findings from this diagnosis. Validation/final subset outcomes were already inspected before this replay. This is an execution falsification of a retrospective hypothesis, not independent confirmation.",
+  "families": [
+    "kama_cross",
+    "ema_cross",
+    "macd_zero_cross"
+  ],
+  "gate": "Completed signal-day NIFTY50 price-index20session sample return std /60session sample return std >1.2. No future values; gate entry only, exits unchanged.",
+  "controls": "Universal same frozen rule vs expansion gate. Corrected dividends and actual same-day taxes; baseline5bps and originaldeliveryovernightcosts. Independent375/95pools and one actual1m risk+correlation account. Allfourperiods; no threshold tuning or rule reselection.",
+  "next": "Any favorable replay still requires new stock/time evidence, regime coverage and cost stress before an edge claim."
+}

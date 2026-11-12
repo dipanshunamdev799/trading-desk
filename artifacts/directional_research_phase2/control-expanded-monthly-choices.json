@@ -1,0 +1,140 @@
+[
+  {
+    "month": "2026-06",
+    "training_first": "2025-12-02",
+    "training_last": "2026-05-29",
+    "eligible_scores": [
+      [
+        10.814516129032297,
+        "ema_trend",
+        93
+      ],
+      [
+        7.834677419354956,
+        "donchian",
+        62
+      ],
+      [
+        4.669753086419978,
+        "pullback",
+        81
+      ]
+    ],
+    "chosen": "ema_trend"
+  },
+  {
+    "month": "2026-07",
+    "training_first": "2026-01-01",
+    "training_last": "2026-06-30",
+    "eligible_scores": [
+      [
+        11.837765957446925,
+        "ema_trend",
+        94
+      ],
+      [
+        9.088059701492668,
+        "donchian",
+        67
+      ],
+      [
+        7.116470588235525,
+        "pullback",
+        85
+      ]
+    ],
+    "chosen": "ema_trend"
+  },
+  {
+    "month": "2026-08",
+    "training_first": "2026-02-04",
+    "training_last": "2026-07-31",
+    "eligible_scores": [
+      [
+        16.414772727272727,
+        "ema_trend",
+        88
+      ],
+      [
+        8.99843750000008,
+        "donchian",
+        64
+      ],
+      [
+        6.888095238095481,
+        "pullback",
+        84
+      ]
+    ],
+    "chosen": "ema_trend"
+  },
+  {
+    "month": "2026-09",
+    "training_first": "2026-03-06",
+    "training_last": "2026-08-31",
+    "eligible_scores": [
+      [
+        12.648314606741662,
+        "ema_trend",
+        89
+      ],
+      [
+        16.436290322580632,
+        "donchian",
+        62
+      ],
+      [
+        8.498809523809715,
+        "pullback",
+        84
+      ]
+    ],
+    "chosen": "donchian"
+  },
+  {
+    "month": "2026-10",
+    "training_first": "2026-04-09",
+    "training_last": "2026-09-30",
+    "eligible_scores": [
+      [
+        6.36166666666678,
+        "ema_trend",
+        90
+      ],
+      [
+        14.180909090908973,
+        "donchian",
+        55
+      ],
+      [
+        3.4452941176471703,
+        "pullback",
+        85
+      ]
+    ],
+    "chosen": "donchian"
+  },
+  {
+    "month": "2026-11",
+    "training_first": "2026-05-11",
+    "training_last": "2026-10-30",
+    "eligible_scores": [
+      [
+        5.448888888888986,
+        "ema_trend",
+        90
+      ],
+      [
+        4.658474576271224,
+        "donchian",
+        59
+      ],
+      [
+        2.811176470588244,
+        "pullback",
+        85
+      ]
+    ],
+    "chosen": "ema_trend"
+  }
+]

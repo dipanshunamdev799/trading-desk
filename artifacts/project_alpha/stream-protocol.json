@@ -1,0 +1,15 @@
+{
+  "signal_count": 11,
+  "policies": [
+    "ATM",
+    "one_step_ITM",
+    "one_step_OTM",
+    "abs_delta_0.4_0.6",
+    "abs_delta_0.6_0.8"
+  ],
+  "expiry": "nearest captured expiry strictly after signal session; historical metadata must match prior completed NSE archive",
+  "selection": "Latest received chain snapshot no later than decision, <=60 seconds old; choose by source spot close, compare available index tick. Delta from snapshot only.",
+  "quote_time": "source_at is broadcast FRAME currentTs; received_at is actual local receipt. No exchange level-specific book event timestamp exists.",
+  "selection_not_execution": "Source chain Greeks may be stale even when snapshot fresh; each provenance time is retained. Quote replays must validate LTT and individual source/receipt.",
+  "source_signal_sha256": "9d60b36c8b4cff7bbc5bb27c5f0a011097042e6f698cf522f2274ccac1077f03"
+}

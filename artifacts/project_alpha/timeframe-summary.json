@@ -1,0 +1,222 @@
+{
+  "coverage": {
+    "input_hashes": {
+      "nifty-db-1minute.json": "982c3cdf16e673e527b282440a906f78babab69cc488b7f1e8249cc327000d73",
+      "nifty-db-5minute.json": "ef02963c7bf00a8d1dac18b373ca71f8f849e888ae427979c819596941a86b19",
+      "nifty-upstox-5minute.json": "edebba307ecadd0945649baf6110a48e6706f393c4f95d3c208f46efffb4e3dd"
+    },
+    "overlap_bars": 14535,
+    "overlap_max_abs_difference": {
+      "open": 0.0,
+      "high": 0.0,
+      "low": 0.0,
+      "close": 0.0
+    },
+    "conflicting_days": [],
+    "excluded_sessions": [
+      {
+        "day": "2025-10-21",
+        "bars": 12,
+        "invalid": false,
+        "conflict": false
+      },
+      {
+        "day": "2026-11-08",
+        "bars": 10,
+        "invalid": false,
+        "conflict": false
+      }
+    ],
+    "sessions": 458,
+    "first": "2025-01-01",
+    "last": "2026-11-06",
+    "bars": 32518,
+    "extra": {
+      "path": "artifacts\\directional_research_phase2\\expanded-nifty-5minute.json",
+      "sha256": "b6aab0c4a14bf0568b92d53f44cc6265a1cb33f9b8fb5c95720dbb57c6eed63c",
+      "overlap_deviations": {
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "close": 0
+      },
+      "excluded": [
+        "2024-03-02",
+        "2024-05-18"
+      ]
+    }
+  },
+  "prefix_checks": [
+    51,
+    1001,
+    84912
+  ],
+  "summaries": [
+    {
+      "strategy": "ema_trend",
+      "period": "backward2022_2024",
+      "policy": "baseline",
+      "trades": 511,
+      "net2_mean": 0.5410958904109838,
+      "ci95": [
+        -4.008180055670731,
+        5.022950885106604
+      ]
+    },
+    {
+      "strategy": "ema_trend",
+      "period": "backward2022_2024",
+      "policy": "confirm15m",
+      "trades": 511,
+      "net2_mean": 0.5410958904109838,
+      "ci95": [
+        -4.008180055670731,
+        5.022950885106604
+      ]
+    },
+    {
+      "strategy": "ema_trend",
+      "period": "historical_final",
+      "policy": "baseline",
+      "trades": 69,
+      "net2_mean": 7.0724637681161004,
+      "ci95": [
+        -6.06365124806998,
+        20.9860551075271
+      ]
+    },
+    {
+      "strategy": "ema_trend",
+      "period": "historical_final",
+      "policy": "confirm15m",
+      "trades": 69,
+      "net2_mean": 7.0724637681161004,
+      "ci95": [
+        -6.06365124806998,
+        20.9860551075271
+      ]
+    },
+    {
+      "strategy": "donchian",
+      "period": "backward2022_2024",
+      "policy": "baseline",
+      "trades": 368,
+      "net2_mean": 2.6254076086956117,
+      "ci95": [
+        -3.075235024518953,
+        8.367842828002372
+      ]
+    },
+    {
+      "strategy": "donchian",
+      "period": "backward2022_2024",
+      "policy": "confirm15m",
+      "trades": 360,
+      "net2_mean": 2.4999999999999445,
+      "ci95": [
+        -2.957487142437443,
+        8.153235640301304
+      ]
+    },
+    {
+      "strategy": "donchian",
+      "period": "historical_final",
+      "policy": "baseline",
+      "trades": 42,
+      "net2_mean": 6.828571428571671,
+      "ci95": [
+        -9.806001977586924,
+        26.23336538461563
+      ]
+    },
+    {
+      "strategy": "donchian",
+      "period": "historical_final",
+      "policy": "confirm15m",
+      "trades": 41,
+      "net2_mean": 7.980487804878333,
+      "ci95": [
+        -8.874775641025341,
+        27.573555749129703
+      ]
+    },
+    {
+      "strategy": "pullback",
+      "period": "backward2022_2024",
+      "policy": "baseline",
+      "trades": 469,
+      "net2_mean": 0.763113006396514,
+      "ci95": [
+        -3.8663201977873753,
+        5.609837295893692
+      ]
+    },
+    {
+      "strategy": "pullback",
+      "period": "backward2022_2024",
+      "policy": "confirm15m",
+      "trades": 467,
+      "net2_mean": 0.8644539614560265,
+      "ci95": [
+        -3.7093990424133265,
+        5.756515800821903
+      ]
+    },
+    {
+      "strategy": "pullback",
+      "period": "historical_final",
+      "policy": "baseline",
+      "trades": 61,
+      "net2_mean": 5.415573770491899,
+      "ci95": [
+        -6.9153543668736885,
+        19.24127787689601
+      ]
+    },
+    {
+      "strategy": "pullback",
+      "period": "historical_final",
+      "policy": "confirm15m",
+      "trades": 61,
+      "net2_mean": 5.415573770491899,
+      "ci95": [
+        -6.9153543668736885,
+        19.24127787689601
+      ]
+    }
+  ],
+  "regime_labels": 56212,
+  "confusion": [
+    {
+      "predicted": "range",
+      "future_label": "range",
+      "count": 17831
+    },
+    {
+      "predicted": "range",
+      "future_label": "trend",
+      "count": 9707
+    },
+    {
+      "predicted": "transition",
+      "future_label": "range",
+      "count": 9004
+    },
+    {
+      "predicted": "transition",
+      "future_label": "trend",
+      "count": 4809
+    },
+    {
+      "predicted": "trend",
+      "future_label": "range",
+      "count": 9956
+    },
+    {
+      "predicted": "trend",
+      "future_label": "trend",
+      "count": 4905
+    }
+  ],
+  "warning": "Realizedfuture-efficiency labels are diagnostic outcomes, not truth known atdecision; the binarylabel omits direction/events/expiries."
+}

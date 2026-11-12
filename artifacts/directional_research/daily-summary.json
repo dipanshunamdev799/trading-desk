@@ -1,0 +1,280 @@
+{
+  "splits": {
+    "development": {
+      "first": "2017-10-24",
+      "last": "2023-03-24",
+      "sessions": 1345
+    },
+    "validation": {
+      "first": "2023-03-27",
+      "last": "2025-01-15",
+      "sessions": 448
+    },
+    "holdout": {
+      "first": "2025-01-16",
+      "last": "2026-11-08",
+      "sessions": 449
+    }
+  },
+  "configuration_count": 207,
+  "eligible": 36,
+  "finalists": [
+    {
+      "name": "ema_trend|10_30_gap0|long_only|h5",
+      "family": "ema_trend",
+      "params": "10_30_gap0",
+      "filter": "long_only",
+      "hold_sessions": 5,
+      "development_n": 180,
+      "development_gross_bps": 18.89211138040144,
+      "development_net5_bps": 13.892111380401438,
+      "development_net10_bps": 8.892111380401438,
+      "development_win_pct": 56.111111111111114,
+      "development_excess_vs_matched_long_bps": 0.0,
+      "validation_n": 72,
+      "validation_gross_bps": 24.4448556555453,
+      "validation_net5_bps": 19.4448556555453,
+      "validation_net10_bps": 14.4448556555453,
+      "validation_win_pct": 55.55555555555556,
+      "validation_excess_vs_matched_long_bps": 0.0,
+      "eligible": true,
+      "selection_score": 13.892111380401438,
+      "holdout_n": 50,
+      "holdout_gross_bps": -5.657535561491577,
+      "holdout_net5_bps": -10.657535561491578,
+      "holdout_net10_bps": -15.657535561491578,
+      "holdout_win_pct": 42.0,
+      "holdout_excess_vs_matched_long_bps": 0.0,
+      "net5_ci95_bps": [
+        -53.09378121241471,
+        33.1835108121176
+      ],
+      "excess_ci95_bps": [
+        0.0,
+        0.0
+      ],
+      "descriptive_gate": false
+    },
+    {
+      "name": "donchian|lookback10_buffer0.25|long_only|h5",
+      "family": "donchian",
+      "params": "lookback10_buffer0.25",
+      "filter": "long_only",
+      "hold_sessions": 5,
+      "development_n": 70,
+      "development_gross_bps": 14.834491445449407,
+      "development_net5_bps": 9.834491445449407,
+      "development_net10_bps": 4.834491445449407,
+      "development_win_pct": 54.285714285714285,
+      "development_excess_vs_matched_long_bps": 0.0,
+      "validation_n": 26,
+      "validation_gross_bps": 20.391272587030375,
+      "validation_net5_bps": 15.391272587030375,
+      "validation_net10_bps": 10.391272587030375,
+      "validation_win_pct": 46.15384615384615,
+      "validation_excess_vs_matched_long_bps": 0.0,
+      "eligible": true,
+      "selection_score": 9.834491445449407,
+      "holdout_n": 18,
+      "holdout_gross_bps": 60.75764438912334,
+      "holdout_net5_bps": 55.75764438912334,
+      "holdout_net10_bps": 50.75764438912334,
+      "holdout_win_pct": 72.22222222222221,
+      "holdout_excess_vs_matched_long_bps": 0.0,
+      "net5_ci95_bps": [
+        -35.251181296056274,
+        118.5181399141869
+      ],
+      "excess_ci95_bps": [
+        0.0,
+        0.0
+      ],
+      "descriptive_gate": false
+    },
+    {
+      "name": "momentum|lookback20_atr0|ema_aligned|h5",
+      "family": "momentum",
+      "params": "lookback20_atr0",
+      "filter": "ema_aligned",
+      "hold_sessions": 5,
+      "development_n": 222,
+      "development_gross_bps": 14.850485801217138,
+      "development_net5_bps": 9.850485801217138,
+      "development_net10_bps": 4.850485801217138,
+      "development_win_pct": 50.9009009009009,
+      "development_excess_vs_matched_long_bps": 14.914039679354705,
+      "validation_n": 74,
+      "validation_gross_bps": 17.9345218732077,
+      "validation_net5_bps": 12.9345218732077,
+      "validation_net10_bps": 7.9345218732077,
+      "validation_win_pct": 54.054054054054056,
+      "validation_excess_vs_matched_long_bps": -11.797697443542464,
+      "eligible": true,
+      "selection_score": 9.850485801217138,
+      "holdout_n": 75,
+      "holdout_gross_bps": -26.159935762013664,
+      "holdout_net5_bps": -31.159935762013664,
+      "holdout_net10_bps": -36.15993576201366,
+      "holdout_win_pct": 44.0,
+      "holdout_excess_vs_matched_long_bps": -45.64953181587361,
+      "net5_ci95_bps": [
+        -69.91445704282593,
+        8.57186053855022
+      ],
+      "excess_ci95_bps": [
+        -118.51668770573573,
+        23.81806009920372
+      ],
+      "descriptive_gate": false
+    },
+    {
+      "name": "rsi_reversion|rsi30|none|h1",
+      "family": "rsi_reversion",
+      "params": "rsi30",
+      "filter": "none",
+      "hold_sessions": 1,
+      "development_n": 183,
+      "development_gross_bps": 10.825813528962536,
+      "development_net5_bps": 5.825813528962536,
+      "development_net10_bps": 0.8258135289625361,
+      "development_win_pct": 55.19125683060109,
+      "development_excess_vs_matched_long_bps": 21.194765143117955,
+      "validation_n": 78,
+      "validation_gross_bps": 5.9292651720436425,
+      "validation_net5_bps": 0.9292651720436425,
+      "validation_net10_bps": -4.0707348279563575,
+      "validation_win_pct": 55.12820512820513,
+      "validation_excess_vs_matched_long_bps": 5.662167703647078,
+      "eligible": true,
+      "selection_score": 0.9292651720436425,
+      "holdout_n": 37,
+      "holdout_gross_bps": 5.14795488728252,
+      "holdout_net5_bps": 0.14795488728251982,
+      "holdout_net10_bps": -4.85204511271748,
+      "holdout_win_pct": 67.56756756756756,
+      "holdout_excess_vs_matched_long_bps": 5.574691933591709,
+      "net5_ci95_bps": [
+        -12.19301727519355,
+        22.040068544161585
+      ],
+      "excess_ci95_bps": [
+        -8.281592811807112,
+        38.618284901347224
+      ],
+      "descriptive_gate": false
+    }
+  ],
+  "baselines": [
+    {
+      "name": "always_long",
+      "hold_sessions": 1,
+      "n": 448,
+      "gross_bps": -0.3821204706895438,
+      "net5_bps": -5.382120470689544,
+      "net10_bps": -10.382120470689543,
+      "win_pct": 48.4375,
+      "excess_vs_matched_long_bps": 0.0,
+      "net5_ci95_bps": [
+        -10.867042551173524,
+        -0.8157895098564898
+      ],
+      "excess_ci95_bps": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "always_long",
+      "hold_sessions": 3,
+      "n": 149,
+      "gross_bps": 7.276642167150684,
+      "net5_bps": 2.2766421671506842,
+      "net10_bps": -2.7233578328493158,
+      "win_pct": 46.308724832214764,
+      "excess_vs_matched_long_bps": 0.0,
+      "net5_ci95_bps": [
+        -22.40898936784296,
+        22.197661957243135
+      ],
+      "excess_ci95_bps": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "always_long",
+      "hold_sessions": 5,
+      "n": 89,
+      "gross_bps": 0.9566295429142134,
+      "net5_bps": -4.0433704570857865,
+      "net10_bps": -9.043370457085787,
+      "win_pct": 49.43820224719101,
+      "excess_vs_matched_long_bps": 0.0,
+      "net5_ci95_bps": [
+        -41.10713958510254,
+        31.998363875438155
+      ],
+      "excess_ci95_bps": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "always_short",
+      "hold_sessions": 1,
+      "n": 448,
+      "gross_bps": 0.3821204706895438,
+      "net5_bps": -4.617879529310456,
+      "net10_bps": -9.617879529310457,
+      "win_pct": 51.5625,
+      "excess_vs_matched_long_bps": 0.7642409413790876,
+      "net5_ci95_bps": [
+        -9.18421049014351,
+        0.8670425511735247
+      ],
+      "excess_ci95_bps": [
+        -8.36842098028702,
+        11.734085102347048
+      ]
+    },
+    {
+      "name": "always_short",
+      "hold_sessions": 3,
+      "n": 149,
+      "gross_bps": -7.276642167150684,
+      "net5_bps": -12.276642167150683,
+      "net10_bps": -17.276642167150683,
+      "win_pct": 53.691275167785236,
+      "excess_vs_matched_long_bps": -14.553284334301368,
+      "net5_ci95_bps": [
+        -32.197661957243106,
+        12.408989367842972
+      ],
+      "excess_ci95_bps": [
+        -54.39532391448622,
+        34.81797873568594
+      ]
+    },
+    {
+      "name": "always_short",
+      "hold_sessions": 5,
+      "n": 89,
+      "gross_bps": -0.9566295429142134,
+      "net5_bps": -5.9566295429142135,
+      "net10_bps": -10.956629542914213,
+      "win_pct": 50.56179775280899,
+      "excess_vs_matched_long_bps": -1.9132590858284269,
+      "net5_ci95_bps": [
+        -41.998363875438145,
+        31.10713958510255
+      ],
+      "excess_ci95_bps": [
+        -73.99672775087629,
+        72.2142791702051
+      ]
+    }
+  ],
+  "prefix_tests": 5,
+  "trade_assertions_passed": 5425,
+  "descriptive_pass_count": 0
+}

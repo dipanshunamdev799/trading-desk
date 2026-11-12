@@ -155,8 +155,6 @@ class MarketStore:
                 conn.execute(text("""CREATE TABLE IF NOT EXISTS market_schema_migrations (
                     version TEXT PRIMARY KEY, applied_at TIMESTAMPTZ NOT NULL DEFAULT now())"""))
                 for migration in migrations:
-                    if migration.name < "002_market_integration.sql":
-                        continue  # Base application tables are managed separately.
                     applied = conn.execute(text("SELECT 1 FROM market_schema_migrations WHERE version=:version"),
                                            {"version": migration.name}).scalar()
                     if not applied:

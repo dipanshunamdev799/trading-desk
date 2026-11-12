@@ -1,0 +1,3346 @@
+[
+  {
+    "symbol": "ADANIENT",
+    "events": [
+      {
+        "date": "2023-07-07",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 1.2,
+        "subject": "Dividend - Rs 1.20 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-06-14",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 1.3,
+        "subject": "Dividend - Rs 1.30 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-06-13",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 1.3,
+        "subject": "Dividend - Rs 1.30 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-11-17",
+        "kind": "unresolved_capital_action",
+        "factor": 1.0,
+        "dividend": 0.0,
+        "subject": "Rights 3:25 @ Premium Rs 1799/-",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2026-06-12",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 1.3,
+        "subject": "Dividend - Rs 1.30 Per Share",
+        "source": "NSE corporate actions historical API"
+      }
+    ],
+    "ranking_excluded": true,
+    "exclusion_reasons": [
+      {
+        "date": "2025-11-17",
+        "kind": "unresolved_capital_action",
+        "factor": 1.0,
+        "dividend": 0.0,
+        "subject": "Rights 3:25 @ Premium Rs 1799/-",
+        "source": "NSE corporate actions historical API"
+      }
+    ],
+    "split_detections": [],
+    "price_basis": "Reconstruct actual pre-event units when provider prices are already split-adjusted; indicator-only split-neutral unit series; integer executable quantities change on modeled ex-date."
+  },
+  {
+    "symbol": "ADANIPORTS",
+    "events": [
+      {
+        "date": "2023-07-28",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 5.0,
+        "subject": "Dividend - Rs 5 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-06-14",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 6.0,
+        "subject": "Dividend - Rs 6 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-06-13",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 7.0,
+        "subject": "Dividend - Rs 7 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2026-06-12",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 7.5,
+        "subject": "Dividend - Rs 7.50 Per Share",
+        "source": "NSE corporate actions historical API"
+      }
+    ],
+    "ranking_excluded": false,
+    "exclusion_reasons": [],
+    "split_detections": [],
+    "price_basis": "Reconstruct actual pre-event units when provider prices are already split-adjusted; indicator-only split-neutral unit series; integer executable quantities change on modeled ex-date."
+  },
+  {
+    "symbol": "APOLLOHOSP",
+    "events": [
+      {
+        "date": "2023-02-24",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 6.0,
+        "subject": "Interim Dividend - Rs  6 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2023-08-18",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 9.0,
+        "subject": "Annual General Meeting/Dividend - Rs 9 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-02-20",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 6.0,
+        "subject": "Interim Dividend - Rs  6 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-08-16",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 10.0,
+        "subject": "Annual General Meeting/Dividend - Rs 10 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-02-14",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 9.0,
+        "subject": "Interim Dividend - Rs 9 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-08-19",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 10.0,
+        "subject": "Dividend - Rs 10 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2026-02-16",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 10.0,
+        "subject": "Interim Dividend - Rs 10 Per Sh",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2026-08-14",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 10.0,
+        "subject": "Dividend - Rs 10 Per Sh",
+        "source": "NSE corporate actions historical API"
+      }
+    ],
+    "ranking_excluded": false,
+    "exclusion_reasons": [],
+    "split_detections": [],
+    "price_basis": "Reconstruct actual pre-event units when provider prices are already split-adjusted; indicator-only split-neutral unit series; integer executable quantities change on modeled ex-date."
+  },
+  {
+    "symbol": "ASIANPAINT",
+    "events": [
+      {
+        "date": "2023-06-09",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 21.25,
+        "subject": "Dividend - Rs 21.25 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2023-11-03",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 5.15,
+        "subject": "Interim Dividend - Rs 5.15 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-06-11",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 28.15,
+        "subject": "Dividend - Rs 28.15 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-11-19",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 4.25,
+        "subject": "Interim Dividend - Rs 4.25 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-06-10",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 20.55,
+        "subject": "Dividend - Rs 20.55 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-11-18",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 4.5,
+        "subject": "Interim Dividend - Rs 4.50 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2026-06-23",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 23.0,
+        "subject": "Dividend - Rs 23 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2026-11-04",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 5.75,
+        "subject": "Interim Dividend - Rs 5.75 Per Share",
+        "source": "NSE corporate actions historical API"
+      }
+    ],
+    "ranking_excluded": false,
+    "exclusion_reasons": [],
+    "split_detections": [],
+    "price_basis": "Reconstruct actual pre-event units when provider prices are already split-adjusted; indicator-only split-neutral unit series; integer executable quantities change on modeled ex-date."
+  },
+  {
+    "symbol": "AXISBANK",
+    "events": [
+      {
+        "date": "2023-07-07",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 1.0,
+        "subject": "Dividend - Re 1 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-07-12",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 1.0,
+        "subject": "Dividend - Re 1 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-07-04",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 1.0,
+        "subject": "Dividend - Re 1 Per Sh",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2026-07-10",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 1.0,
+        "subject": "Dividend - Re 1 Per Share",
+        "source": "NSE corporate actions historical API"
+      }
+    ],
+    "ranking_excluded": false,
+    "exclusion_reasons": [],
+    "split_detections": [],
+    "price_basis": "Reconstruct actual pre-event units when provider prices are already split-adjusted; indicator-only split-neutral unit series; integer executable quantities change on modeled ex-date."
+  },
+  {
+    "symbol": "BAJAJ-AUTO",
+    "events": [
+      {
+        "date": "2023-06-30",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 140.0,
+        "subject": "Dividend - Rs 140 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-06-14",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 80.0,
+        "subject": "Dividend - Rs 80 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-06-20",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 210.0,
+        "subject": "Dividend - Rs 210 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2026-05-29",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 150.0,
+        "subject": "Dividend - Rs 150 Per Share",
+        "source": "NSE corporate actions historical API"
+      }
+    ],
+    "ranking_excluded": false,
+    "exclusion_reasons": [],
+    "split_detections": [],
+    "price_basis": "Reconstruct actual pre-event units when provider prices are already split-adjusted; indicator-only split-neutral unit series; integer executable quantities change on modeled ex-date."
+  },
+  {
+    "symbol": "BAJAJFINSV",
+    "events": [
+      {
+        "date": "2023-06-30",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 0.8,
+        "subject": "Dividend - Rs 0.80 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-06-21",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 1.0,
+        "subject": "Dividend - Re 1 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-06-27",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 1.0,
+        "subject": "Dividend - Re 1 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2026-06-30",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 1.5,
+        "subject": "Dividend - Rs 1.50 Per Share",
+        "source": "NSE corporate actions historical API"
+      }
+    ],
+    "ranking_excluded": false,
+    "exclusion_reasons": [],
+    "split_detections": [],
+    "price_basis": "Reconstruct actual pre-event units when provider prices are already split-adjusted; indicator-only split-neutral unit series; integer executable quantities change on modeled ex-date."
+  },
+  {
+    "symbol": "BAJFINANCE",
+    "events": [
+      {
+        "date": "2023-06-30",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 30.0,
+        "subject": "Dividend - Rs 30 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-06-21",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 36.0,
+        "subject": "Dividend - Rs 36 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-05-09",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 12.0,
+        "subject": "Special Dividend - Rs 12 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-05-30",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 44.0,
+        "subject": "Dividend - Rs 44 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-06-16",
+        "kind": "split_bonus",
+        "factor": 2.0,
+        "dividend": 0.0,
+        "subject": "Face Value Split (Sub-Division) - From Rs 2/- Per Share To Re 1/- Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-06-16",
+        "kind": "split_bonus",
+        "factor": 5.0,
+        "dividend": 0.0,
+        "subject": "Bonus 4:1",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2026-06-30",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 6.0,
+        "subject": "Dividend - Rs 6 Per Share",
+        "source": "NSE corporate actions historical API"
+      }
+    ],
+    "ranking_excluded": false,
+    "exclusion_reasons": [],
+    "split_detections": [
+      {
+        "date": "2025-06-16",
+        "kind": "split_bonus",
+        "factor": 2.0,
+        "dividend": 0.0,
+        "subject": "Face Value Split (Sub-Division) - From Rs 2/- Per Share To Re 1/- Per Share",
+        "source": "NSE corporate actions historical API",
+        "observed_open_previous_close_ratio": 1.0235546038543897,
+        "provider_pre_event_adjusted": true,
+        "continuity_log_error": 0.023281474822558622
+      },
+      {
+        "date": "2025-06-16",
+        "kind": "split_bonus",
+        "factor": 5.0,
+        "dividend": 0.0,
+        "subject": "Bonus 4:1",
+        "source": "NSE corporate actions historical API",
+        "observed_open_previous_close_ratio": 1.0235546038543897,
+        "provider_pre_event_adjusted": true,
+        "continuity_log_error": 0.023281474822558622
+      }
+    ],
+    "price_basis": "Reconstruct actual pre-event units when provider prices are already split-adjusted; indicator-only split-neutral unit series; integer executable quantities change on modeled ex-date."
+  },
+  {
+    "symbol": "BEL",
+    "events": [
+      {
+        "date": "2023-02-10",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 0.6,
+        "subject": "Interim Dividend - Re 0.60 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2023-03-24",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 0.6,
+        "subject": "Interim Dividend - Rs 0.60 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2023-08-17",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 0.6,
+        "subject": "Annual General Meeting/Dividend - Re 0.60 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-02-09",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 0.7,
+        "subject": "Interim Dividend - Re 0.70 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-03-22",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 0.7,
+        "subject": "Interim Dividend - Re 0.70 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-08-14",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 0.8,
+        "subject": "Annual General Meeting/Dividend - Re 0.80 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-03-11",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 1.5,
+        "subject": "Interim Dividend - Rs 1.5 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-08-14",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 0.9,
+        "subject": "Dividend - Rs 0.90 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2026-03-06",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 1.95,
+        "subject": "Interim Dividend - Rs 1.95 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2026-08-13",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 0.55,
+        "subject": "Dividend - Re 0.55 Per Share",
+        "source": "NSE corporate actions historical API"
+      }
+    ],
+    "ranking_excluded": false,
+    "exclusion_reasons": [],
+    "split_detections": [],
+    "price_basis": "Reconstruct actual pre-event units when provider prices are already split-adjusted; indicator-only split-neutral unit series; integer executable quantities change on modeled ex-date."
+  },
+  {
+    "symbol": "BHARTIARTL",
+    "events": [
+      {
+        "date": "2023-08-11",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 4.0,
+        "subject": "Dividend - Rs 4 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-08-07",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 8.0,
+        "subject": "Dividend - Rs 8 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-07-18",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 16.0,
+        "subject": "Dividend - Rs 16 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2026-07-24",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 24.0,
+        "subject": "Dividend - Rs 24 Per Share",
+        "source": "NSE corporate actions historical API"
+      }
+    ],
+    "ranking_excluded": false,
+    "exclusion_reasons": [],
+    "split_detections": [],
+    "price_basis": "Reconstruct actual pre-event units when provider prices are already split-adjusted; indicator-only split-neutral unit series; integer executable quantities change on modeled ex-date."
+  },
+  {
+    "symbol": "BPCL",
+    "events": [
+      {
+        "date": "2023-08-11",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 4.0,
+        "subject": "Dividend - Rs 4 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2023-12-12",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 21.0,
+        "subject": "Interim Dividend - Rs 21 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-06-21",
+        "kind": "split_bonus",
+        "factor": 2.0,
+        "dividend": 0.0,
+        "subject": "Bonus 1:1",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-08-09",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 10.5,
+        "subject": "Dividend - Rs 10.5 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-01-29",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 5.0,
+        "subject": "Interim Dividend - Rs 5 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-07-31",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 5.0,
+        "subject": "Dividend - Rs 5 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-11-07",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 7.5,
+        "subject": "Interim Dividend - Rs 7.50 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2026-02-02",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 10.0,
+        "subject": "Interim Dividend - Rs 10 Per Share",
+        "source": "NSE corporate actions historical API"
+      }
+    ],
+    "ranking_excluded": false,
+    "exclusion_reasons": [],
+    "split_detections": [
+      {
+        "date": "2024-06-21",
+        "kind": "split_bonus",
+        "factor": 2.0,
+        "dividend": 0.0,
+        "subject": "Bonus 1:1",
+        "source": "NSE corporate actions historical API",
+        "observed_open_previous_close_ratio": 1.0148514851485149,
+        "provider_pre_event_adjusted": true,
+        "continuity_log_error": 0.014742281737203431
+      }
+    ],
+    "price_basis": "Reconstruct actual pre-event units when provider prices are already split-adjusted; indicator-only split-neutral unit series; integer executable quantities change on modeled ex-date."
+  },
+  {
+    "symbol": "BRITANNIA",
+    "events": [
+      {
+        "date": "2023-04-13",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 72.0,
+        "subject": "Interim Dividend - Rs 72 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-08-05",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 73.5,
+        "subject": "Annual General Meeting/ Dividend - Rs 73.5 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-08-04",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 75.0,
+        "subject": "Dividend - Rs 75 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2026-07-31",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 90.5,
+        "subject": "Dividend - Rs 90.50 Per Share",
+        "source": "NSE corporate actions historical API"
+      }
+    ],
+    "ranking_excluded": false,
+    "exclusion_reasons": [],
+    "split_detections": [],
+    "price_basis": "Reconstruct actual pre-event units when provider prices are already split-adjusted; indicator-only split-neutral unit series; integer executable quantities change on modeled ex-date."
+  },
+  {
+    "symbol": "CIPLA",
+    "events": [
+      {
+        "date": "2023-07-21",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 8.5,
+        "subject": "Dividend - Rs 8.50 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-08-02",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 13.0,
+        "subject": "Dividend - Rs 13 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-06-27",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 13.0,
+        "subject": "Dividend - Rs 13 Per Share/Special Dividend - Rs 3 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2026-06-05",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 13.0,
+        "subject": "Dividend - Rs 13 Per Share",
+        "source": "NSE corporate actions historical API"
+      }
+    ],
+    "ranking_excluded": false,
+    "exclusion_reasons": [],
+    "split_detections": [],
+    "price_basis": "Reconstruct actual pre-event units when provider prices are already split-adjusted; indicator-only split-neutral unit series; integer executable quantities change on modeled ex-date."
+  },
+  {
+    "symbol": "COALINDIA",
+    "events": [
+      {
+        "date": "2023-02-08",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 5.25,
+        "subject": "Interim Dividend - Rs 5.25 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2023-08-18",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 4.0,
+        "subject": "Dividend - Rs 4 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2023-11-21",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 15.25,
+        "subject": "Interim Dividend - Rs 15.25 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-02-20",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 5.25,
+        "subject": "Interim Dividend - Rs 5.25 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-08-16",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 5.0,
+        "subject": "Dividend - Rs 5 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-11-05",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 15.75,
+        "subject": "Interim Dividend - Rs 15.75 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-01-31",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 5.6,
+        "subject": "Interim Dividend - Rs 5.60 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-08-06",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 5.5,
+        "subject": "Interim Dividend - Rs 5.50 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-08-21",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 5.15,
+        "subject": "Dividend - Rs 5.15 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-11-04",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 10.25,
+        "subject": "Interim Dividend - Rs 10.25 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2026-02-18",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 5.5,
+        "subject": "Interim Dividend - Rs 5.50 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2026-07-31",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 5.5,
+        "subject": "Interim Dividend - Rs 5.50 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2026-09-04",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 5.25,
+        "subject": "Dividend - Rs 5.25 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2026-11-04",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 10.25,
+        "subject": "Interim Dividend - Rs 10.25 Per Share",
+        "source": "NSE corporate actions historical API"
+      }
+    ],
+    "ranking_excluded": false,
+    "exclusion_reasons": [],
+    "split_detections": [],
+    "price_basis": "Reconstruct actual pre-event units when provider prices are already split-adjusted; indicator-only split-neutral unit series; integer executable quantities change on modeled ex-date."
+  },
+  {
+    "symbol": "DRREDDY",
+    "events": [
+      {
+        "date": "2023-07-11",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 40.0,
+        "subject": "Annual General Meeting/Dividend - Rs 40 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-07-16",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 40.0,
+        "subject": "Annual General Meeting/Dividend - Rs 40 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-10-28",
+        "kind": "split_bonus",
+        "factor": 5.0,
+        "dividend": 0.0,
+        "subject": "Face Value Split (Sub-Division) - From Rs 5/- Per Share To Re 1/- Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-07-10",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 8.0,
+        "subject": "Dividend - Rs 8 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2026-07-10",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 8.0,
+        "subject": "Dividend - Rs 8 Per Share",
+        "source": "NSE corporate actions historical API"
+      }
+    ],
+    "ranking_excluded": false,
+    "exclusion_reasons": [],
+    "split_detections": [
+      {
+        "date": "2024-10-28",
+        "kind": "split_bonus",
+        "factor": 5.0,
+        "dividend": 0.0,
+        "subject": "Face Value Split (Sub-Division) - From Rs 5/- Per Share To Re 1/- Per Share",
+        "source": "NSE corporate actions historical API",
+        "observed_open_previous_close_ratio": 1.0138248847926268,
+        "provider_pre_event_adjusted": true,
+        "continuity_log_error": 0.013730192811902037
+      }
+    ],
+    "price_basis": "Reconstruct actual pre-event units when provider prices are already split-adjusted; indicator-only split-neutral unit series; integer executable quantities change on modeled ex-date."
+  },
+  {
+    "symbol": "EICHERMOT",
+    "events": [
+      {
+        "date": "2023-08-14",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 37.0,
+        "subject": "Annual General Meeting/Dividend - Rs  37 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-08-07",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 51.0,
+        "subject": "Dividend - Rs 51 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-08-01",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 70.0,
+        "subject": "Dividend - Rs 70 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2026-07-31",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 82.0,
+        "subject": "Dividend - Rs 82 Per Share",
+        "source": "NSE corporate actions historical API"
+      }
+    ],
+    "ranking_excluded": false,
+    "exclusion_reasons": [],
+    "split_detections": [],
+    "price_basis": "Reconstruct actual pre-event units when provider prices are already split-adjusted; indicator-only split-neutral unit series; integer executable quantities change on modeled ex-date."
+  },
+  {
+    "symbol": "GRASIM",
+    "events": [
+      {
+        "date": "2023-08-11",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 10.0,
+        "subject": "Annual General Meeting/Dividend - Rs 10 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-01-10",
+        "kind": "unresolved_capital_action",
+        "factor": 1.0,
+        "dividend": 0.0,
+        "subject": "Rights 6:179 @ Premium Rs 1810/-",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-08-06",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 10.0,
+        "subject": "Annual General Meeting/Dividend - Rs 10 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-08-12",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 10.0,
+        "subject": "Dividend - Rs 10 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2026-08-07",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 10.0,
+        "subject": "Dividend - Rs 10 Per Share",
+        "source": "NSE corporate actions historical API"
+      }
+    ],
+    "ranking_excluded": false,
+    "exclusion_reasons": [],
+    "split_detections": [],
+    "warmup_reset": "2024-01-10 00:00:00+05:30",
+    "price_basis": "Reconstruct actual pre-event units when provider prices are already split-adjusted; indicator-only split-neutral unit series; integer executable quantities change on modeled ex-date."
+  },
+  {
+    "symbol": "HCLTECH",
+    "events": [
+      {
+        "date": "2023-01-19",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 10.0,
+        "subject": "Interim Dividend - Rs 10 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2023-04-28",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 18.0,
+        "subject": "Interim Dividend - Rs 18 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2023-07-20",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 10.0,
+        "subject": "Dividend - Rs 10 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2023-10-20",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 12.0,
+        "subject": "Interim Dividend - Rs 12 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-01-19",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 12.0,
+        "subject": "Interim Dividend - Rs 12 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-05-07",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 18.0,
+        "subject": "Interim Dividend - Rs 18 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-07-23",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 12.0,
+        "subject": "Interim Dividend - Rs 12 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-10-22",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 12.0,
+        "subject": "Interim Dividend - Rs 12 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-01-17",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 12.0,
+        "subject": "Interim Dividend - Rs 12 Per Share Special Dividend - Rs 6 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-04-28",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 18.0,
+        "subject": "Interim Dividend - Rs 18 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-07-18",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 12.0,
+        "subject": "Interim Dividend - Rs 12 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-10-17",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 12.0,
+        "subject": "Interim Dividend - Rs 12 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2026-01-16",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 12.0,
+        "subject": "Interim Dividend - Rs 12 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2026-04-24",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 24.0,
+        "subject": "Interim Dividend - Rs 24 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2026-07-17",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 12.0,
+        "subject": "Interim Dividend - Rs 12 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2026-10-16",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 12.0,
+        "subject": "Interim Dividend - Rs 12 Per Share",
+        "source": "NSE corporate actions historical API"
+      }
+    ],
+    "ranking_excluded": false,
+    "exclusion_reasons": [],
+    "split_detections": [],
+    "price_basis": "Reconstruct actual pre-event units when provider prices are already split-adjusted; indicator-only split-neutral unit series; integer executable quantities change on modeled ex-date."
+  },
+  {
+    "symbol": "HDFCBANK",
+    "events": [
+      {
+        "date": "2023-05-16",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 19.0,
+        "subject": "Dividend - Rs 19 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-05-10",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 19.5,
+        "subject": "Dividend - Rs 19.50 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-06-27",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 22.0,
+        "subject": "Dividend - Rs 22 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-07-25",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 5.0,
+        "subject": "Special Dividend - Rs 5 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-08-26",
+        "kind": "split_bonus",
+        "factor": 2.0,
+        "dividend": 0.0,
+        "subject": "Bonus 1:1",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2026-06-19",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 13.0,
+        "subject": "Dividend - Rs 13 Per Share",
+        "source": "NSE corporate actions historical API"
+      }
+    ],
+    "ranking_excluded": false,
+    "exclusion_reasons": [],
+    "split_detections": [
+      {
+        "date": "2025-08-26",
+        "kind": "split_bonus",
+        "factor": 2.0,
+        "dividend": 0.0,
+        "subject": "Bonus 1:1",
+        "source": "NSE corporate actions historical API",
+        "observed_open_previous_close_ratio": 0.9948202315661182,
+        "provider_pre_event_adjusted": true,
+        "continuity_log_error": 0.005193229939504784
+      }
+    ],
+    "price_basis": "Reconstruct actual pre-event units when provider prices are already split-adjusted; indicator-only split-neutral unit series; integer executable quantities change on modeled ex-date."
+  },
+  {
+    "symbol": "HDFCLIFE",
+    "events": [
+      {
+        "date": "2023-06-16",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 1.9,
+        "subject": "Dividend - Rs 1.90 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-06-21",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 2.0,
+        "subject": "Dividend - Rs 2 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-06-20",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 2.1,
+        "subject": "Dividend - Rs 2.10 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2026-06-19",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 2.1,
+        "subject": "Dividend - Rs 2.10 Per Share",
+        "source": "NSE corporate actions historical API"
+      }
+    ],
+    "ranking_excluded": false,
+    "exclusion_reasons": [],
+    "split_detections": [],
+    "price_basis": "Reconstruct actual pre-event units when provider prices are already split-adjusted; indicator-only split-neutral unit series; integer executable quantities change on modeled ex-date."
+  },
+  {
+    "symbol": "HEROMOTOCO",
+    "events": [
+      {
+        "date": "2023-02-17",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 65.0,
+        "subject": "Interim Dividend - Rs  65 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2023-07-27",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 35.0,
+        "subject": "Annual General Meeting/Dividend - Rs  35 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-02-21",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 75.0,
+        "subject": "Interim Dividend - Rs 75 Per Share/ Special Dividend - Rs 25 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-08-01",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 40.0,
+        "subject": "Annual General Meeting/Dividend - Rs 40 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-02-12",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 100.0,
+        "subject": "Interim Dividend - Rs 100 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-07-24",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 65.0,
+        "subject": "Dividend - Rs 65 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2026-02-11",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 110.0,
+        "subject": "Interim Dividend - Rs 110 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2026-07-24",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 75.0,
+        "subject": "Dividend - Rs 75 Per Share",
+        "source": "NSE corporate actions historical API"
+      }
+    ],
+    "ranking_excluded": false,
+    "exclusion_reasons": [],
+    "split_detections": [],
+    "price_basis": "Reconstruct actual pre-event units when provider prices are already split-adjusted; indicator-only split-neutral unit series; integer executable quantities change on modeled ex-date."
+  },
+  {
+    "symbol": "HINDALCO",
+    "events": [
+      {
+        "date": "2023-08-14",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 3.0,
+        "subject": "Annual General Meeting/Dividend - Rs  3 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-08-09",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 3.5,
+        "subject": "Annual General Meeting/Dividend - Rs 3.5 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-08-08",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 5.0,
+        "subject": "Dividend - Rs 5 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2026-07-10",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 5.0,
+        "subject": "Dividend - Rs 5 Per Share",
+        "source": "NSE corporate actions historical API"
+      }
+    ],
+    "ranking_excluded": false,
+    "exclusion_reasons": [],
+    "split_detections": [],
+    "price_basis": "Reconstruct actual pre-event units when provider prices are already split-adjusted; indicator-only split-neutral unit series; integer executable quantities change on modeled ex-date."
+  },
+  {
+    "symbol": "HINDUNILVR",
+    "events": [
+      {
+        "date": "2023-06-19",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 22.0,
+        "subject": "Annual General Meeting/Dividend - Rs 22 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2023-11-02",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 18.0,
+        "subject": "Interim Dividend - Rs 18 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-06-14",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 24.0,
+        "subject": "Annual General Meeting/Dividend - Rs 24 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-11-06",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 19.0,
+        "subject": "Interim Dividend - Rs 19 Per Share/Special Dividend - Rs 10 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-06-23",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 24.0,
+        "subject": "Dividend - Rs 24 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-11-07",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 19.0,
+        "subject": "Interim Dividend - Rs 19 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-12-05",
+        "kind": "unresolved_capital_action",
+        "factor": 1.0,
+        "dividend": 0.0,
+        "subject": "Demerger",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2026-06-23",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 22.0,
+        "subject": "Dividend - Rs 22 Per Share",
+        "source": "NSE corporate actions historical API"
+      }
+    ],
+    "ranking_excluded": true,
+    "exclusion_reasons": [
+      {
+        "date": "2025-12-05",
+        "kind": "unresolved_capital_action",
+        "factor": 1.0,
+        "dividend": 0.0,
+        "subject": "Demerger",
+        "source": "NSE corporate actions historical API"
+      }
+    ],
+    "split_detections": [],
+    "price_basis": "Reconstruct actual pre-event units when provider prices are already split-adjusted; indicator-only split-neutral unit series; integer executable quantities change on modeled ex-date.",
+    "ordinary_research_sessions_missing": [
+      "2025-12-05"
+    ]
+  },
+  {
+    "symbol": "ICICIBANK",
+    "events": [
+      {
+        "date": "2023-08-09",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 8.0,
+        "subject": "Dividend - Rs 8 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-08-12",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 10.0,
+        "subject": "Dividend - Rs 10 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-08-12",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 11.0,
+        "subject": "Dividend - Rs 11 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2026-08-03",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 12.0,
+        "subject": "Dividend - Rs 12 Per Share",
+        "source": "NSE corporate actions historical API"
+      }
+    ],
+    "ranking_excluded": false,
+    "exclusion_reasons": [],
+    "split_detections": [],
+    "price_basis": "Reconstruct actual pre-event units when provider prices are already split-adjusted; indicator-only split-neutral unit series; integer executable quantities change on modeled ex-date."
+  },
+  {
+    "symbol": "INDUSINDBK",
+    "events": [
+      {
+        "date": "2023-06-02",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 14.0,
+        "subject": "Dividend - Rs 14 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-06-28",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 16.5,
+        "subject": "Dividend - Rs 16.50 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2026-06-25",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 1.5,
+        "subject": "Dividend - Rs 1.50 Per Share",
+        "source": "NSE corporate actions historical API"
+      }
+    ],
+    "ranking_excluded": false,
+    "exclusion_reasons": [],
+    "split_detections": [],
+    "price_basis": "Reconstruct actual pre-event units when provider prices are already split-adjusted; indicator-only split-neutral unit series; integer executable quantities change on modeled ex-date."
+  },
+  {
+    "symbol": "INFY",
+    "events": [
+      {
+        "date": "2023-06-02",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 17.5,
+        "subject": "Annual General Meeting/Dividend - Rs 17.50 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2023-10-25",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 18.0,
+        "subject": "Interim Dividend - Rs 18 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-05-31",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 8.0,
+        "subject": "Annual General Meeting/Special Dividend - Rs 8 Per Share /Dividend - Rs 20 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-10-29",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 21.0,
+        "subject": "Interim Dividend - Rs 21 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-05-30",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 22.0,
+        "subject": "Dividend - Rs 22 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-10-27",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 23.0,
+        "subject": "Interim Dividend - Rs 23 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2026-06-10",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 25.0,
+        "subject": "Dividend - Rs 25 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2026-11-03",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 26.0,
+        "subject": "Interim Dividend - Rs 26 Per Share",
+        "source": "NSE corporate actions historical API"
+      }
+    ],
+    "ranking_excluded": false,
+    "exclusion_reasons": [],
+    "split_detections": [],
+    "price_basis": "Reconstruct actual pre-event units when provider prices are already split-adjusted; indicator-only split-neutral unit series; integer executable quantities change on modeled ex-date."
+  },
+  {
+    "symbol": "ITC",
+    "events": [
+      {
+        "date": "2023-02-15",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 6.0,
+        "subject": "Interim Dividend - Rs  6 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2023-05-30",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 6.75,
+        "subject": "Dividend - Rs 6.75 Per Share /Special Dividend - Rs 2.75 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-02-08",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 6.25,
+        "subject": "Interim Dividend - Rs 6.25 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-06-04",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 7.5,
+        "subject": "Dividend - Rs 7.50 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-01-06",
+        "kind": "unresolved_capital_action",
+        "factor": 1.0,
+        "dividend": 0.0,
+        "subject": "Demerger",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-02-12",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 6.5,
+        "subject": "Interim Dividend - Rs 6.50 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-05-28",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 7.85,
+        "subject": "Dividend - Rs 7.85 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2026-02-04",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 6.5,
+        "subject": "Interim Dividend - Rs 6.50 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2026-05-27",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 8.0,
+        "subject": "Dividend - Rs 8 Per Share",
+        "source": "NSE corporate actions historical API"
+      }
+    ],
+    "ranking_excluded": true,
+    "exclusion_reasons": [
+      {
+        "date": "2025-01-06",
+        "kind": "unresolved_capital_action",
+        "factor": 1.0,
+        "dividend": 0.0,
+        "subject": "Demerger",
+        "source": "NSE corporate actions historical API"
+      }
+    ],
+    "split_detections": [],
+    "price_basis": "Reconstruct actual pre-event units when provider prices are already split-adjusted; indicator-only split-neutral unit series; integer executable quantities change on modeled ex-date.",
+    "ordinary_research_sessions_missing": [
+      "2025-01-06"
+    ]
+  },
+  {
+    "symbol": "JSWSTEEL",
+    "events": [
+      {
+        "date": "2023-07-11",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 3.4,
+        "subject": "Annual General Meeting/Dividend - Rs 3.40 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-07-09",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 7.3,
+        "subject": "Annual General Meeting/Dividend - Rs 7.30 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-07-08",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 2.8,
+        "subject": "Dividend - Rs 2.80 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2026-07-07",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 7.1,
+        "subject": "Dividend - Rs 7.10 Per Share",
+        "source": "NSE corporate actions historical API"
+      }
+    ],
+    "ranking_excluded": false,
+    "exclusion_reasons": [],
+    "split_detections": [],
+    "price_basis": "Reconstruct actual pre-event units when provider prices are already split-adjusted; indicator-only split-neutral unit series; integer executable quantities change on modeled ex-date."
+  },
+  {
+    "symbol": "KOTAKBANK",
+    "events": [
+      {
+        "date": "2023-08-04",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 1.5,
+        "subject": "Dividend - Rs 1.50 Per Sh",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-07-19",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 2.0,
+        "subject": "Dividend - Rs 2 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-07-18",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 2.5,
+        "subject": "Dividend - Rs 2.50 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2026-01-14",
+        "kind": "split_bonus",
+        "factor": 5.0,
+        "dividend": 0.0,
+        "subject": "Face Value Split (Sub-Division) - From Rs 5/- Per Share To Re 1/- Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2026-07-17",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 0.65,
+        "subject": "Dividend - Rs 0.65 Per Share",
+        "source": "NSE corporate actions historical API"
+      }
+    ],
+    "ranking_excluded": false,
+    "exclusion_reasons": [],
+    "split_detections": [
+      {
+        "date": "2026-01-14",
+        "kind": "split_bonus",
+        "factor": 5.0,
+        "dividend": 0.0,
+        "subject": "Face Value Split (Sub-Division) - From Rs 5/- Per Share To Re 1/- Per Share",
+        "source": "NSE corporate actions historical API",
+        "observed_open_previous_close_ratio": 0.9990619136960601,
+        "provider_pre_event_adjusted": true,
+        "continuity_log_error": 0.0009385265822642773
+      }
+    ],
+    "price_basis": "Reconstruct actual pre-event units when provider prices are already split-adjusted; indicator-only split-neutral unit series; integer executable quantities change on modeled ex-date."
+  },
+  {
+    "symbol": "LT",
+    "events": [
+      {
+        "date": "2023-08-02",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 6.0,
+        "subject": "Special Dividend - Rs 6 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2023-08-02",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 24.0,
+        "subject": "Dividend - Rs 24 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-06-20",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 28.0,
+        "subject": "Dividend - Rs 28 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-06-03",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 34.0,
+        "subject": "Dividend - Rs 34 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2026-05-22",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 38.0,
+        "subject": "Dividend - Rs 38 Per Share",
+        "source": "NSE corporate actions historical API"
+      }
+    ],
+    "ranking_excluded": false,
+    "exclusion_reasons": [],
+    "split_detections": [],
+    "price_basis": "Reconstruct actual pre-event units when provider prices are already split-adjusted; indicator-only split-neutral unit series; integer executable quantities change on modeled ex-date."
+  },
+  {
+    "symbol": "M&M",
+    "events": [
+      {
+        "date": "2023-07-14",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 16.25,
+        "subject": "Annual General Meeting/Dividend - Rs 16.25 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-07-05",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 21.1,
+        "subject": "Annual General Meeting/Dividend - Rs 21.10 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-07-04",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 25.3,
+        "subject": "Dividend - Rs 25.30 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2026-07-03",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 33.0,
+        "subject": "Dividend - Rs 33 Per Share",
+        "source": "NSE corporate actions historical API"
+      }
+    ],
+    "ranking_excluded": false,
+    "exclusion_reasons": [],
+    "split_detections": [],
+    "price_basis": "Reconstruct actual pre-event units when provider prices are already split-adjusted; indicator-only split-neutral unit series; integer executable quantities change on modeled ex-date."
+  },
+  {
+    "symbol": "MARUTI",
+    "events": [
+      {
+        "date": "2023-08-03",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 90.0,
+        "subject": "Dividend - Rs 90 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-08-02",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 125.0,
+        "subject": "Dividend - Rs 125 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-08-01",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 135.0,
+        "subject": "Dividend - Rs 135 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2026-08-07",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 140.0,
+        "subject": "Dividend - Rs 140 Per Share",
+        "source": "NSE corporate actions historical API"
+      }
+    ],
+    "ranking_excluded": false,
+    "exclusion_reasons": [],
+    "split_detections": [],
+    "price_basis": "Reconstruct actual pre-event units when provider prices are already split-adjusted; indicator-only split-neutral unit series; integer executable quantities change on modeled ex-date."
+  },
+  {
+    "symbol": "NESTLEIND",
+    "events": [
+      {
+        "date": "2023-04-21",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 27.0,
+        "subject": "Interim Dividend - Rs  27 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2023-04-21",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 75.0,
+        "subject": "Final Dividend - Rs 75 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2023-11-01",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 140.0,
+        "subject": "Interim Dividend - Rs 140 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-01-05",
+        "kind": "split_bonus",
+        "factor": 10.0,
+        "dividend": 0.0,
+        "subject": "Face Value Split (Sub-Division) - From Rs10/- Per Share To Re 1/- Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-02-15",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 7.0,
+        "subject": "Interim Dividend - Rs 7 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-07-16",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 2.75,
+        "subject": "Interim Dividend - Rs 2.75 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-07-16",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 8.5,
+        "subject": "Dividend - Rs 8.50 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-02-07",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 14.25,
+        "subject": "Interim Dividend - Rs 14.25 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-07-04",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 10.0,
+        "subject": "Dividend - Rs 10 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-08-08",
+        "kind": "split_bonus",
+        "factor": 2.0,
+        "dividend": 0.0,
+        "subject": "Bonus 1:1",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2026-02-06",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 7.0,
+        "subject": "Interim Dividend - Rs 7 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2026-07-10",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 5.0,
+        "subject": "Dividend - Rs 5 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2026-07-10",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 2.0,
+        "subject": "Special Dividend - Rs 2 Per Share",
+        "source": "NSE corporate actions historical API"
+      }
+    ],
+    "ranking_excluded": false,
+    "exclusion_reasons": [],
+    "split_detections": [
+      {
+        "date": "2024-01-05",
+        "kind": "split_bonus",
+        "factor": 10.0,
+        "dividend": 0.0,
+        "subject": "Face Value Split (Sub-Division) - From Rs10/- Per Share To Re 1/- Per Share",
+        "source": "NSE corporate actions historical API",
+        "observed_open_previous_close_ratio": 1.014364640883978,
+        "provider_pre_event_adjusted": true,
+        "continuity_log_error": 0.014262446920564371
+      },
+      {
+        "date": "2025-08-08",
+        "kind": "split_bonus",
+        "factor": 2.0,
+        "dividend": 0.0,
+        "subject": "Bonus 1:1",
+        "source": "NSE corporate actions historical API",
+        "observed_open_previous_close_ratio": 1.001338688085676,
+        "provider_pre_event_adjusted": true,
+        "continuity_log_error": 0.0013377928416599535
+      }
+    ],
+    "price_basis": "Reconstruct actual pre-event units when provider prices are already split-adjusted; indicator-only split-neutral unit series; integer executable quantities change on modeled ex-date."
+  },
+  {
+    "symbol": "NTPC",
+    "events": [
+      {
+        "date": "2023-02-03",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 4.25,
+        "subject": "Interim Dividend - Rs 4.25 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2023-08-11",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 3.0,
+        "subject": "Dividend - Rs 3 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2023-11-03",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 2.25,
+        "subject": "Interim Dividend - Rs 2.25 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-02-06",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 2.25,
+        "subject": "Interim Dividend - Rs 2.25 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-08-07",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 3.25,
+        "subject": "Dividend - Rs 3.25 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-10-31",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 2.5,
+        "subject": "Interim Dividend - Rs 2.50 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-01-31",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 2.5,
+        "subject": "Interim Dividend - Rs 2.50 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-09-04",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 3.35,
+        "subject": "Dividend - Rs 3.35 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-11-07",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 2.75,
+        "subject": "Interim Dividend - Rs 2.75 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2026-02-06",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 2.75,
+        "subject": "Interim Dividend - Rs 2.75 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2026-09-02",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 3.5,
+        "subject": "Dividend - Rs 3.50 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2026-11-06",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 3.0,
+        "subject": "Interim Dividend - Rs 3 Per Share",
+        "source": "NSE corporate actions historical API"
+      }
+    ],
+    "ranking_excluded": false,
+    "exclusion_reasons": [],
+    "split_detections": [],
+    "price_basis": "Reconstruct actual pre-event units when provider prices are already split-adjusted; indicator-only split-neutral unit series; integer executable quantities change on modeled ex-date."
+  },
+  {
+    "symbol": "ONGC",
+    "events": [
+      {
+        "date": "2023-02-24",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 4.0,
+        "subject": "Interim Dividend - Rs 4 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2023-08-18",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 0.5,
+        "subject": "Dividend - Re 0.50 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2023-11-21",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 5.75,
+        "subject": "Interim Dividend - Rs 5.75 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-02-16",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 4.0,
+        "subject": "Interim Dividend - Rs 4 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-08-23",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 2.5,
+        "subject": "Dividend - Rs 2.50 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-11-19",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 6.0,
+        "subject": "Interim Dividend - Rs 6 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-02-07",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 5.0,
+        "subject": "Interim Dividend - Rs 5 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-09-04",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 1.25,
+        "subject": "Dividend - Rs 1.25 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-11-14",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 6.0,
+        "subject": "Interim Dividend - Rs 6 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2026-02-18",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 6.25,
+        "subject": "Interim Dividend - Rs 6.25 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2026-09-04",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 1.0,
+        "subject": "Dividend - Re 1 Per Share",
+        "source": "NSE corporate actions historical API"
+      }
+    ],
+    "ranking_excluded": false,
+    "exclusion_reasons": [],
+    "split_detections": [],
+    "price_basis": "Reconstruct actual pre-event units when provider prices are already split-adjusted; indicator-only split-neutral unit series; integer executable quantities change on modeled ex-date."
+  },
+  {
+    "symbol": "POWERGRID",
+    "events": [
+      {
+        "date": "2023-02-08",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 5.0,
+        "subject": "Interim Dividend - Rs 5 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2023-08-08",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 4.75,
+        "subject": "Dividend - Rs 4.75 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2023-09-12",
+        "kind": "split_bonus",
+        "factor": 1.3333333333333333,
+        "dividend": 0.0,
+        "subject": "Bonus 1:3",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2023-11-16",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 4.0,
+        "subject": "Interim Dividend - Rs 4 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-02-15",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 4.5,
+        "subject": "Interim Dividend - Rs 4.50 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-08-16",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 2.75,
+        "subject": "Annual General Meeting/Dividend - Rs 2.75 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-11-14",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 4.5,
+        "subject": "Interim Dividend - Rs 4.50 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-02-07",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 3.25,
+        "subject": "Interim Dividend - Rs 3.25 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-08-19",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 1.25,
+        "subject": "Dividend - Rs 1.25 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-11-10",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 4.5,
+        "subject": "Interim Dividend - Rs 4.50 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2026-02-09",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 3.25,
+        "subject": "Interim Dividend - Rs 3.25 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2026-08-13",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 1.25,
+        "subject": "Dividend - Rs 1.25 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2026-11-06",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 3.0,
+        "subject": "Interim Dividend - Rs 3 Per Share",
+        "source": "NSE corporate actions historical API"
+      }
+    ],
+    "ranking_excluded": false,
+    "exclusion_reasons": [],
+    "split_detections": [
+      {
+        "date": "2023-09-12",
+        "kind": "split_bonus",
+        "factor": 1.3333333333333333,
+        "dividend": 0.0,
+        "subject": "Bonus 1:3",
+        "source": "NSE corporate actions historical API",
+        "observed_open_previous_close_ratio": 1.024217961654894,
+        "provider_pre_event_adjusted": true,
+        "continuity_log_error": 0.023929357145899763
+      }
+    ],
+    "price_basis": "Reconstruct actual pre-event units when provider prices are already split-adjusted; indicator-only split-neutral unit series; integer executable quantities change on modeled ex-date."
+  },
+  {
+    "symbol": "RELIANCE",
+    "events": [
+      {
+        "date": "2023-07-20",
+        "kind": "unresolved_capital_action",
+        "factor": 1.0,
+        "dividend": 0.0,
+        "subject": "Demerger",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2023-08-21",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 9.0,
+        "subject": "Dividend - Rs 9 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-08-19",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 10.0,
+        "subject": "Dividend - Rs 10 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-10-28",
+        "kind": "split_bonus",
+        "factor": 2.0,
+        "dividend": 0.0,
+        "subject": "Bonus 1:1",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-08-14",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 5.5,
+        "subject": "Dividend - Rs 5.5 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2026-06-05",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 6.0,
+        "subject": "Dividend - Rs 6 Per Share",
+        "source": "NSE corporate actions historical API"
+      }
+    ],
+    "ranking_excluded": false,
+    "exclusion_reasons": [],
+    "split_detections": [
+      {
+        "date": "2024-10-28",
+        "kind": "split_bonus",
+        "factor": 2.0,
+        "dividend": 0.0,
+        "subject": "Bonus 1:1",
+        "source": "NSE corporate actions historical API",
+        "observed_open_previous_close_ratio": 1.0066634039829838,
+        "provider_pre_event_adjusted": true,
+        "continuity_log_error": 0.006641301636910138
+      }
+    ],
+    "warmup_reset": "2023-07-20 00:00:00+05:30",
+    "price_basis": "Reconstruct actual pre-event units when provider prices are already split-adjusted; indicator-only split-neutral unit series; integer executable quantities change on modeled ex-date."
+  },
+  {
+    "symbol": "SBILIFE",
+    "events": [
+      {
+        "date": "2023-03-16",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 2.5,
+        "subject": "Interim Dividend - Rs 2.50 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-03-15",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 2.7,
+        "subject": "Interim Dividend - Rs 2.70 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-03-07",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 2.7,
+        "subject": "Interim Dividend - Rs 2.70 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2026-03-06",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 2.7,
+        "subject": "Interim Dividend - Rs 2.70 Per Share",
+        "source": "NSE corporate actions historical API"
+      }
+    ],
+    "ranking_excluded": false,
+    "exclusion_reasons": [],
+    "split_detections": [],
+    "price_basis": "Reconstruct actual pre-event units when provider prices are already split-adjusted; indicator-only split-neutral unit series; integer executable quantities change on modeled ex-date."
+  },
+  {
+    "symbol": "SBIN",
+    "events": [
+      {
+        "date": "2023-05-31",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 11.3,
+        "subject": "Dividend - Rs 11.30 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-05-22",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 13.7,
+        "subject": "Dividend - Rs 13.70 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-05-16",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 15.9,
+        "subject": "Dividend - Rs 15.90 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2026-05-15",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 17.35,
+        "subject": "Dividend - Rs 17.35 Per Share",
+        "source": "NSE corporate actions historical API"
+      }
+    ],
+    "ranking_excluded": false,
+    "exclusion_reasons": [],
+    "split_detections": [],
+    "price_basis": "Reconstruct actual pre-event units when provider prices are already split-adjusted; indicator-only split-neutral unit series; integer executable quantities change on modeled ex-date."
+  },
+  {
+    "symbol": "SHRIRAMFIN",
+    "events": [
+      {
+        "date": "2023-01-03",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 15.0,
+        "subject": "Interim Dividend - Rs 15 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2023-06-16",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 20.0,
+        "subject": "Annual General Meeting/Dividend - Rs 20 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2023-11-06",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 20.0,
+        "subject": "Interim Dividend - Rs 20 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-02-06",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 10.0,
+        "subject": "Interim Dividend - Rs 10 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-07-23",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 15.0,
+        "subject": "Annual General Meeting/Dividend - Rs  15 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-11-07",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 22.0,
+        "subject": "Interim Dividend - Rs 22 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-01-10",
+        "kind": "split_bonus",
+        "factor": 5.0,
+        "dividend": 0.0,
+        "subject": "Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-01-31",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 2.5,
+        "subject": "Interim Dividend - Rs 2.50 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-07-11",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 3.0,
+        "subject": "Dividend - Rs 3 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-11-07",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 4.8,
+        "subject": "Interim Dividend - Rs 4.80 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2026-07-03",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 6.0,
+        "subject": "Dividend - Rs 6 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2026-10-29",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 6.5,
+        "subject": "Interim Dividend - Rs 6.50 Per Share",
+        "source": "NSE corporate actions historical API"
+      }
+    ],
+    "ranking_excluded": false,
+    "exclusion_reasons": [],
+    "split_detections": [
+      {
+        "date": "2025-01-10",
+        "kind": "split_bonus",
+        "factor": 5.0,
+        "dividend": 0.0,
+        "subject": "Face Value Split (Sub-Division) - From Rs 10/- Per Share To Rs 2/- Per Share",
+        "source": "NSE corporate actions historical API",
+        "observed_open_previous_close_ratio": 1.0003534817956876,
+        "provider_pre_event_adjusted": true,
+        "continuity_log_error": 0.0003534193357162162
+      }
+    ],
+    "price_basis": "Reconstruct actual pre-event units when provider prices are already split-adjusted; indicator-only split-neutral unit series; integer executable quantities change on modeled ex-date."
+  },
+  {
+    "symbol": "SUNPHARMA",
+    "events": [
+      {
+        "date": "2023-02-08",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 7.5,
+        "subject": "Interim Dividend - Rs 7.50 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2023-07-28",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 4.0,
+        "subject": "Dividend - Rs 4 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-02-09",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 8.5,
+        "subject": "Interim Dividend - Rs 8.50 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-07-12",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 5.0,
+        "subject": "Dividend - Rs 5 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-02-06",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 10.5,
+        "subject": "Interim Dividend - Rs 10.50 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-07-07",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 5.5,
+        "subject": "Dividend - Rs 5.50 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2026-02-05",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 11.0,
+        "subject": "Interim Dividend - Rs 11 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2026-07-07",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 5.0,
+        "subject": "Dividend - Rs 5 Per Share",
+        "source": "NSE corporate actions historical API"
+      }
+    ],
+    "ranking_excluded": false,
+    "exclusion_reasons": [],
+    "split_detections": [],
+    "price_basis": "Reconstruct actual pre-event units when provider prices are already split-adjusted; indicator-only split-neutral unit series; integer executable quantities change on modeled ex-date."
+  },
+  {
+    "symbol": "TATACONSUM",
+    "events": [
+      {
+        "date": "2023-05-19",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 8.45,
+        "subject": "Annual General Meeting/Dividend - Rs 8.45 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-05-24",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 7.75,
+        "subject": "Dividend - Rs 7.75 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-07-26",
+        "kind": "unresolved_capital_action",
+        "factor": 1.0,
+        "dividend": 0.0,
+        "subject": "Rights 1:26 @ Premium Rs 817/-",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-05-29",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 8.25,
+        "subject": "Dividend - Rs 8.25 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2026-05-25",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 10.0,
+        "subject": "Dividend - Rs 10 Per Share",
+        "source": "NSE corporate actions historical API"
+      }
+    ],
+    "ranking_excluded": false,
+    "exclusion_reasons": [],
+    "split_detections": [],
+    "warmup_reset": "2024-07-26 00:00:00+05:30",
+    "price_basis": "Reconstruct actual pre-event units when provider prices are already split-adjusted; indicator-only split-neutral unit series; integer executable quantities change on modeled ex-date."
+  },
+  {
+    "symbol": "TATAMOTORS",
+    "events": [
+      {
+        "date": "2023-07-28",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 2.0,
+        "subject": "Dividend - Rs 2 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-06-11",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 3.0,
+        "subject": "Dividend - Rs 3 Per Share & Special Dividend - Rs 3 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-06-04",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 6.0,
+        "subject": "Dividend - Rs 6 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-10-14",
+        "kind": "unresolved_capital_action",
+        "factor": 1.0,
+        "dividend": 0.0,
+        "subject": "Demerger",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2026-06-19",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 3.0,
+        "subject": "Dividend - Rs 3 Per Share",
+        "source": "NSE corporate actions historical API"
+      }
+    ],
+    "ranking_excluded": true,
+    "exclusion_reasons": [
+      {
+        "date": "2025-10-14",
+        "kind": "unresolved_capital_action",
+        "factor": 1.0,
+        "dividend": 0.0,
+        "subject": "Demerger",
+        "source": "NSE corporate actions historical API"
+      }
+    ],
+    "split_detections": [],
+    "price_basis": "Reconstruct actual pre-event units when provider prices are already split-adjusted; indicator-only split-neutral unit series; integer executable quantities change on modeled ex-date.",
+    "unexplained_large_gaps": {
+      "2025-10-15 00:00:00+05:30": -0.3930722891566265
+    },
+    "ordinary_research_sessions_missing": [
+      "2025-10-14"
+    ]
+  },
+  {
+    "symbol": "TATASTEEL",
+    "events": [
+      {
+        "date": "2023-06-22",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 3.6,
+        "subject": "Annual General Meeting/Dividend - Rs 3.60 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-06-21",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 3.6,
+        "subject": "Dividend - Rs 3.60 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-06-06",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 3.6,
+        "subject": "Dividend - Rs 3.60 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2026-06-12",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 4.0,
+        "subject": "Dividend - Rs 4 Per Share",
+        "source": "NSE corporate actions historical API"
+      }
+    ],
+    "ranking_excluded": false,
+    "exclusion_reasons": [],
+    "split_detections": [],
+    "price_basis": "Reconstruct actual pre-event units when provider prices are already split-adjusted; indicator-only split-neutral unit series; integer executable quantities change on modeled ex-date."
+  },
+  {
+    "symbol": "TCS",
+    "events": [
+      {
+        "date": "2023-01-16",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 8.0,
+        "subject": "Interim Dividend - Rs 8 Per Share Special Dividend - Rs 67 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2023-06-15",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 24.0,
+        "subject": "Dividend - Rs 24 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2023-07-20",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 9.0,
+        "subject": "Interim Dividend - Rs 9 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2023-10-19",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 9.0,
+        "subject": "Interim Dividend - Rs 9 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-01-19",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 9.0,
+        "subject": "Interim Dividend - Rs 9 Per Share Special Dividend - Rs 18 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-05-16",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 28.0,
+        "subject": "Dividend - Rs 28 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-07-19",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 10.0,
+        "subject": "Interim Dividend - Rs 10 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-10-18",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 10.0,
+        "subject": "Interim Dividend - Rs 10 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-01-17",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 10.0,
+        "subject": "Interim Dividend - Rs 10 Per Share Special Dividend - Rs 66 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-06-04",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 30.0,
+        "subject": "Dividend - Rs 30 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-07-16",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 11.0,
+        "subject": "Interim Dividend - Rs 11 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-10-15",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 11.0,
+        "subject": "Interim Dividend - Rs 11 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2026-01-16",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 11.0,
+        "subject": "Interim Dividend Rs 11 Per Share/ Special Dividend Rs 46 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2026-05-25",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 31.0,
+        "subject": "Dividend - Rs 31 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2026-07-15",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 12.0,
+        "subject": "Interim Dividend - Rs 12 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2026-10-14",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 12.0,
+        "subject": "Interim Dividend - Rs 12 Per Share",
+        "source": "NSE corporate actions historical API"
+      }
+    ],
+    "ranking_excluded": false,
+    "exclusion_reasons": [],
+    "split_detections": [],
+    "price_basis": "Reconstruct actual pre-event units when provider prices are already split-adjusted; indicator-only split-neutral unit series; integer executable quantities change on modeled ex-date."
+  },
+  {
+    "symbol": "TECHM",
+    "events": [
+      {
+        "date": "2023-07-21",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 32.0,
+        "subject": "Annual General Meeting/Dividend - Rs  32 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2023-11-02",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 12.0,
+        "subject": "Interim Dividend - Rs 12 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-07-19",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 28.0,
+        "subject": "Annual General Meeting/Dividend - Rs 28 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-10-31",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 15.0,
+        "subject": "Interim Dividend - Rs 15 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-07-04",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 30.0,
+        "subject": "Dividend - Rs 30 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-10-20",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 15.0,
+        "subject": "Interim Dividend - Rs 15 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2026-07-03",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 36.0,
+        "subject": "Dividend - Rs 36 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2026-10-23",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 15.0,
+        "subject": "Interim Dividend - Rs  15 Per Share",
+        "source": "NSE corporate actions historical API"
+      }
+    ],
+    "ranking_excluded": false,
+    "exclusion_reasons": [],
+    "split_detections": [],
+    "price_basis": "Reconstruct actual pre-event units when provider prices are already split-adjusted; indicator-only split-neutral unit series; integer executable quantities change on modeled ex-date."
+  },
+  {
+    "symbol": "TITAN",
+    "events": [
+      {
+        "date": "2023-07-13",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 10.0,
+        "subject": "Annual General Meeting/Dividend - Rs 10 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-06-27",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 11.0,
+        "subject": "Annual General Meeting/Dividend - Rs 11 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-07-08",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 11.0,
+        "subject": "Dividend - Rs 11 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2026-07-09",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 15.0,
+        "subject": "Dividend - Rs 15 Per Share",
+        "source": "NSE corporate actions historical API"
+      }
+    ],
+    "ranking_excluded": false,
+    "exclusion_reasons": [],
+    "split_detections": [],
+    "price_basis": "Reconstruct actual pre-event units when provider prices are already split-adjusted; indicator-only split-neutral unit series; integer executable quantities change on modeled ex-date."
+  },
+  {
+    "symbol": "TRENT",
+    "events": [
+      {
+        "date": "2023-05-25",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 2.2,
+        "subject": "Dividend - Rs 2.20 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-05-22",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 3.2,
+        "subject": "Dividend - Rs 3.20 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-06-12",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 5.0,
+        "subject": "Dividend - Rs 5 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2026-06-04",
+        "kind": "split_bonus",
+        "factor": 1.5,
+        "dividend": 0.0,
+        "subject": "Bonus 1:2",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2026-06-12",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 4.0,
+        "subject": "Dividend - Rs 4 Per Share",
+        "source": "NSE corporate actions historical API"
+      }
+    ],
+    "ranking_excluded": true,
+    "exclusion_reasons": [
+      {
+        "date": "2026-06-04",
+        "kind": "split_bonus",
+        "factor": 1.5,
+        "dividend": 0.0,
+        "subject": "Bonus 1:2",
+        "source": "NSE corporate actions historical API"
+      }
+    ],
+    "split_detections": [
+      {
+        "date": "2026-06-04",
+        "kind": "split_bonus",
+        "factor": 1.5,
+        "dividend": 0.0,
+        "subject": "Bonus 1:2",
+        "source": "NSE corporate actions historical API",
+        "observed_open_previous_close_ratio": 1.000671829143241,
+        "provider_pre_event_adjusted": true,
+        "continuity_log_error": 0.0006716035670689655
+      }
+    ],
+    "price_basis": "Reconstruct actual pre-event units when provider prices are already split-adjusted; indicator-only split-neutral unit series; integer executable quantities change on modeled ex-date."
+  },
+  {
+    "symbol": "ULTRACEMCO",
+    "events": [
+      {
+        "date": "2023-07-27",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 38.0,
+        "subject": "Annual General Meeting/Dividend - Rs  38 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-07-30",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 70.0,
+        "subject": "Annual General Meeting/Dividend - Rs 70 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-07-25",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 77.5,
+        "subject": "Dividend - Rs 77.50 Per Sh",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2026-07-30",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 240.0,
+        "subject": "Dividend - Rs 240 Per Share",
+        "source": "NSE corporate actions historical API"
+      }
+    ],
+    "ranking_excluded": false,
+    "exclusion_reasons": [],
+    "split_detections": [],
+    "price_basis": "Reconstruct actual pre-event units when provider prices are already split-adjusted; indicator-only split-neutral unit series; integer executable quantities change on modeled ex-date."
+  },
+  {
+    "symbol": "WIPRO",
+    "events": [
+      {
+        "date": "2023-01-24",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 1.0,
+        "subject": "Interim Dividend - Re  1 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-01-24",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 1.0,
+        "subject": "Interim Dividend - Re 1 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2024-12-03",
+        "kind": "split_bonus",
+        "factor": 2.0,
+        "dividend": 0.0,
+        "subject": "Bonus 1:1",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-01-28",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 6.0,
+        "subject": "Interim Dividend - Rs 6 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2025-07-28",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 5.0,
+        "subject": "Interim Dividend - Rs 5 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2026-01-27",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 6.0,
+        "subject": "Interim Dividend - Rs 6 Per Share",
+        "source": "NSE corporate actions historical API"
+      },
+      {
+        "date": "2026-07-27",
+        "kind": "dividend",
+        "factor": 1.0,
+        "dividend": 2.0,
+        "subject": "Interim Dividend - Rs 2 Per Share",
+        "source": "NSE corporate actions historical API"
+      }
+    ],
+    "ranking_excluded": false,
+    "exclusion_reasons": [],
+    "split_detections": [
+      {
+        "date": "2024-12-03",
+        "kind": "split_bonus",
+        "factor": 2.0,
+        "dividend": 0.0,
+        "subject": "Bonus 1:1",
+        "source": "NSE corporate actions historical API",
+        "observed_open_previous_close_ratio": 1.0097435897435898,
+        "provider_pre_event_adjusted": true,
+        "continuity_log_error": 0.009696427081333107
+      }
+    ],
+    "price_basis": "Reconstruct actual pre-event units when provider prices are already split-adjusted; indicator-only split-neutral unit series; integer executable quantities change on modeled ex-date."
+  }
+]

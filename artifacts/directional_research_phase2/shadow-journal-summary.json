@@ -1,0 +1,11 @@
+{
+  "capture_id": "b294ecb140c69458252cd7d744979bbc64cc0d32fa10ac0451f9d8957f7efeeb",
+  "policy_version": "shadow-observation-v2",
+  "new_capture": false,
+  "new_decisions": 8,
+  "observed_decisions": {
+    "abstain": 8
+  },
+  "fill_count": 0,
+  "limitation": "HTTP/LTT freshness does not establish exchange-depth event time; this is an observation journal without assumed fills."
+}

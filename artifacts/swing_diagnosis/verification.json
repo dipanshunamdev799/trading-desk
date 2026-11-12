@@ -1,0 +1,76 @@
+{
+  "original_sources_unchanged": {
+    "research\\swing_discovery\\benchmarks.py": true,
+    "research\\swing_discovery\\data.py": true,
+    "research\\swing_discovery\\diagnostics.py": true,
+    "research\\swing_discovery\\engine.py": true,
+    "research\\swing_discovery\\reporting.py": true,
+    "research\\swing_discovery\\signals.py": true,
+    "research\\swing_discovery\\structure.py": true
+  },
+  "original_panel_unchanged": true,
+  "execution_scenarios": {
+    "corrected_finalist_replays": 96,
+    "benchmark_original_runs": 176,
+    "benchmark_corrected_runs": 44,
+    "exit_controls": 72,
+    "funded_original": 72,
+    "funded_corrected": 72,
+    "regime_replays": 72,
+    "regime_stress": 12
+  },
+  "total_diagnostic_executions": 616,
+  "tests": {
+    "discovery": 58,
+    "funded_and_features": 6,
+    "audit": 5,
+    "all_passed": true
+  },
+  "source_sha256": {
+    "research\\swing_diagnosis\\__init__.py": "6262804262d083d64a9741094a1aca3d771ac3a6e49c68e1484503e5530fa3f2",
+    "research\\swing_diagnosis\\audit_engine.py": "34c9c74d3ced1471dcdd6a3db027c6f17baa4b0a31ab1925faca36c37dea8121",
+    "research\\swing_diagnosis\\audit_replay.py": "9c79c870f75911520ded5e070260ee39b5340efa3cd5299582ea9e9fdc63d3dc",
+    "research\\swing_diagnosis\\audit_tests.py": "503cb6de7942fbe0c81473525c821871c950546456eb77dc5b2f61a2a458a741",
+    "research\\swing_diagnosis\\benchmarks.py": "d92866c15e4764baae30703c8d80a589975fbc113723ba888cb411e404d393c0",
+    "research\\swing_diagnosis\\benchmarks_corrected.py": "70c354d993ce4e4f7703f23efade5b5e5f3169f41ad37fd4170e048e3e2e101e",
+    "research\\swing_diagnosis\\common.py": "23e9abb9474d9a2cc6f619b12a9a5d26ae125b40b3f03d0ffb922d9557efad04",
+    "research\\swing_diagnosis\\features.py": "3c999b216612b6ab0020d81238eafb705d13d6530c0088aadd9b10693e8cca1b",
+    "research\\swing_diagnosis\\history.py": "1eb44e61094ec67bc45a8167762299eb1c966d635fe507c7cb1b7d29a27aa2e0",
+    "research\\swing_diagnosis\\portfolio.py": "79f54bd8999f35adff5ae1b7d81f8885d2e691c9781789d01dca3e5ac9ad0dcf",
+    "research\\swing_diagnosis\\PORTFOLIO_DESIGN.md": "10acbd4a47d58c21525be1b57ce267e098b20768a5ccc6d8911dcc32109aea78",
+    "research\\swing_diagnosis\\README.md": "cd8af10011b4a8310e8853f918d8c2cec0d954b92af32ce522906a48e9703ce4",
+    "scripts\\diagnosis_audit.py": "924a7428dde4abec6a63664aef5e35001178fbe38663f7c44feec7e1f602d4c5",
+    "scripts\\diagnosis_benchmarks.py": "4f0a3b96c2a0fbd619426cdd2a95c392dfafcb234e1acefdfbcf90d0b397c1d2",
+    "scripts\\diagnosis_benchmarks_corrected.py": "6dbc5c59834da85a5e625778306bd1d6f1806d7a5f7a30959dfae4374a848708",
+    "scripts\\diagnosis_exits.py": "a4dd824800ead8e3cf737875a3b6d3865b0df49c914097c27c6eaeca677b6a27",
+    "scripts\\diagnosis_feature_report.py": "f61d45497d54650e96f7566166593acf26ce3b2a355f7dfc35247809329a3e32",
+    "scripts\\diagnosis_features.py": "458f1b7994be4d35df085df80d4e59fe515b571f5f03665a437581316a9b8dfb",
+    "scripts\\diagnosis_fetch_indices.py": "e42e946850fe9d2323542a1a67de191ab55e89aa7d3b0f04e8692c218a014814",
+    "scripts\\diagnosis_history.py": "013cf27de8c743e9c96f7f8bdf53fcbef0eb2a6bd5fb4e7f009cbc09e6a74cfa",
+    "scripts\\diagnosis_portfolio.py": "d7b4890e718749f195348eba147a9385f58965563242e74a9b32662a9f4db118",
+    "scripts\\diagnosis_regime_replay.py": "2c08fe4e2eb8d631179c7852d2ca81238560c6a3a7cd502eeffef10580dfe8a5",
+    "scripts\\diagnosis_regime_stress.py": "7843c704281de0f1bd9043f5df60e77442fb2cc638beea33c4d407f0ab33a92f",
+    "scripts\\diagnosis_uncertainty.py": "239644c3d26910caf1aabfe9f3f5acff931dab2b1f824e0cd58e18ac7c47092b",
+    "scripts\\report_swing_diagnosis.py": "7b79eb6c25299c0d401071cf60aca2274ce169849cbe3bcb7882ae7075c6746d",
+    "tests\\test_diagnosis_features.py": "cb212e2da5ea5ba42fe78e23e93e4892f6116ae22ed3957fb1fc3de72305ae10",
+    "tests\\test_diagnosis_portfolio.py": "6cb3e91a1aba68e85f0872c4f4796f57cdcab2fd26063f024bf279f372f2d388"
+  },
+  "corrected_finalist_summary": {
+    "final": {
+      "rules": 48,
+      "positive_rules": 2,
+      "median_return_pct": -0.0480295043090162,
+      "max_return_pct": 0.007000572526361104
+    },
+    "two_year": {
+      "rules": 48,
+      "positive_rules": 0,
+      "median_return_pct": -0.19185883459639785,
+      "max_return_pct": -0.02529116972839196
+    },
+    "scope": "48 frozen finalists only; same entries/params, no new selection. Correct multi-component dividends and actual same-day STT/stamp; retain planned overnight-risk/targets, economic ex-date accrual, flat brokerage and all original execution limitations. This reuses contaminated dates and does not newly validate robustness.",
+    "original_panel_sha256": "d8c7ebe08ec18dd5b6aa7cca71017e6c1fd513d9f92fcdb10b91e26e42691a5a"
+  },
+  "no_untouched_temporal_holdout": true,
+  "not_deployed": true
+}

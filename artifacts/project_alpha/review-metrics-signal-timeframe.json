@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "independent_metrics_groups": 48,
+  "independent_metric_assertions": 546,
+  "timeframe_trades": 2220,
+  "independent_timeframe_assertions": 6684,
+  "safety_regression_tests": 11,
+  "regression_command": ".venv/Scripts/python.exe scripts/test_alpha_safety_review.py",
+  "findings": "Empty/malformed/stale/conflicting/misaligned data and delayed-cutoff cases now fail closed; remaining daily planned-risk headroom and full severe cash reserve checks pass. Actual action remains NO TRADE.",
+  "reviewed_source_sha256": {
+    "scripts\\research_alpha_metrics.py": "de1adf3f1fd19cf9fa63e14081a7da59caafbd1437f26fda00c7009d25475b29",
+    "scripts\\alpha_signal_engine.py": "bb587bd7917026c7a848ba8c1b63469190d8399c5759c01f329b87ed680c0285",
+    "scripts\\research_alpha_15m.py": "b9b3e0d3d73087be8ac8c231021968a71cf6a8e18c8ad0072e2b13a073fea704",
+    "scripts\\test_alpha_safety_review.py": "f8cd00ff31e63cf35b96c2ad53c363687a7f8bb28aa03c65efc399ed546e022f"
+  },
+  "independent_risk_scenarios_reconciled": 384,
+  "risk_mismatch_count": 0,
+  "final_metadata_review": "Added signal-engine code_sha256 output metadata reviewed; all11 safety tests rerun and passed. No strategy or accounting behavior changed."
+}

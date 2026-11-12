@@ -1,0 +1,102 @@
+[
+  {
+    "hypothesis_id": "H01",
+    "family": "Trend continuation",
+    "mechanism": "Slow information assimilation/continuing directional flow",
+    "test_specification": "Frozen EMA/Donchian/pullback, nextopen/actualreceivedask, fixedtime exits",
+    "baseline": "Same-time30m momentum and randomizedsession direction",
+    "falsifier": "Reject incremental claim if conservative net or matched excess lower bounds fail",
+    "evidence": "artifacts\\directional_research_phase2\\control-expanded-report.md",
+    "decision": "NOT_VALIDATED"
+  },
+  {
+    "hypothesis_id": "H02",
+    "family": "Opening range",
+    "mechanism": "Opening information establishes a boundary; crossing may continue",
+    "test_specification": "Completed range, immediate/retest variants, timeandcostcontrols",
+    "baseline": "Plain momentum and identical-time opposite direction",
+    "falsifier": "Fails if gain relies on one day, disappears atothergranularity or cannotcoveroptioncosts",
+    "evidence": "artifacts\\directional_research\\concept-report.md",
+    "decision": "NOT_VALIDATED"
+  },
+  {
+    "hypothesis_id": "H03",
+    "family": "Volatility expansion",
+    "mechanism": "Compression may precede faster realized movement",
+    "test_specification": "Compression/range-expansion fixedfamilies; compareactualoptionpricewhenavailable",
+    "baseline": "Same-volatility/time price momentum",
+    "falsifier": "Falsified for deployment if option already prices movement or laternet uncertain",
+    "evidence": "artifacts\\directional_research\\lab-report.md",
+    "decision": "NOT_VALIDATED"
+  },
+  {
+    "hypothesis_id": "H04",
+    "family": "Sweep/reclaim reversals",
+    "mechanism": "Rejected breaks may reveal temporary exhaustion",
+    "test_specification": "Production47concept sweep/falsebreak/PDH/PDL plus fixedfailedbreak family",
+    "baseline": "Rangefade and matchedmomentum",
+    "falsifier": "No edge if delayedconfirmationorcostsconsumepriceeffect",
+    "evidence": "artifacts\\directional_research\\concept-report.md",
+    "decision": "NOT_VALIDATED"
+  },
+  {
+    "hypothesis_id": "H05",
+    "family": "Momentum and relative strength",
+    "mechanism": "Persistence and correlated constituent information",
+    "test_specification": "Price momentum; ETFcontext; smallstockproxy fromearlierstudy. Fullhistoricalbreadth unavailable",
+    "baseline": "Simple30m direction atidenticalentries",
+    "falsifier": "Addedcontextmustimprove pairedlaternet beyondcomplexity andcoveragechanges",
+    "evidence": "artifacts\\directional_research_phase2\\feature-report.md",
+    "decision": "PARTIAL_DATA"
+  },
+  {
+    "hypothesis_id": "H06",
+    "family": "Option expression",
+    "mechanism": "Delta/convexity/expiry mayexpress directional information efficiently",
+    "test_specification": "DatedATM/ITM/OTM/expiry policies; delta fromasofreceivedproviderGreeks; actualaskbidspread",
+    "baseline": "Sameunderlyingsignal andnaivecontractpolicies",
+    "falsifier": "No validatedchoice withoutmultiregime quote/PnL evidence andstablefeesensitivity",
+    "evidence": "artifacts\\project_alpha\\exit-stream-delta-v2-report.md",
+    "decision": "PARTIAL_DATA"
+  },
+  {
+    "hypothesis_id": "H07",
+    "family": "Positioning",
+    "mechanism": "PublicpriorOI/volume mayconditionpricecontinuation/reversal",
+    "test_specification": "ExactlypriorNSEsession PCRlevel/change,OIwalls,maxpain,volumePCR; pairedablations",
+    "baseline": "Samecoveredprice-onlyopportunities",
+    "falsifier": "Fail if improvedsubsetnet lacksincremental simultaneouslowerbound oronlydropsonesharedloss",
+    "evidence": "artifacts\\project_alpha\\positioning-report.md",
+    "decision": "NO_INCREMENTAL_EVIDENCE"
+  },
+  {
+    "hypothesis_id": "H08",
+    "family": "Abstention and regimes",
+    "mechanism": "Avoidingunfavourablecost/state/execution mayimprove deployability",
+    "test_specification": "Causaltrend/range/transition +freshness/depth/lot/clockgates",
+    "baseline": "Ungatedsameopportunities andzeroPnlnotrade",
+    "falsifier": "Cannotclaimpredictivevaluefromrejectionalone; requirepairedlaternetandcoverage",
+    "evidence": "artifacts\\project_alpha\\timeframe-report.md",
+    "decision": "RESEARCH_ONLY"
+  },
+  {
+    "hypothesis_id": "H09",
+    "family": "Exits and protection",
+    "mechanism": "Loss/hold rules trade falseexits against tail exposure",
+    "test_specification": "Smallfixedstops/targets/trailing/timegrid; eventgaps andmissingexit handling",
+    "baseline": "Frozen60mtimeexit; adverse/favourablepathbounds",
+    "falsifier": "Rejectbest-exitclaimfrom5sessionsor guaranteed-stopassumption",
+    "evidence": "artifacts\\project_alpha\\exit-report.md",
+    "decision": "NOT_VALIDATED"
+  },
+  {
+    "hypothesis_id": "H10",
+    "family": "Capital feasibility",
+    "mechanism": "Whole-lotbudgets andkillgates maylimitplannedexposure",
+    "test_specification": "Fourcapitals,twofractions,remainingday/weekheadroom,oneposition,cashfunding",
+    "baseline": "Unit-lotunmanagedreference; full-premium shock",
+    "falsifier": "Cannotclaimriskcapguaranteedifgap/outage/fullpremiummorethanbudget",
+    "evidence": "artifacts\\project_alpha\\risk-metrics-report.md",
+    "decision": "SCENARIO_ONLY"
+  }
+]

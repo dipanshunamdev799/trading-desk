@@ -1,0 +1,9 @@
+{
+  "events": 4,
+  "EMA_increment_events_positive": 2,
+  "EMA_increment_mean_pnl_per_event": -2769.5423944800937,
+  "descriptive_sign_flip_one_sided_p": 0.625,
+  "assignments": 16,
+  "minimum_one_sided_p": 0.0625,
+  "scope": "Four pooled event clusters; sign symmetry/exchangeability not established. Descriptive complete sign enumeration, not robust validation. Only16assignments so strongest possible one-sided p is.0625. Episode endpoints used only in retrospective attribution."
+}

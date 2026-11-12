@@ -275,28 +275,44 @@ export type InstrumentHit = {
   isin?: string;
 };
 
-async function request<T>(path: string, init?: RequestInit): Promise<T> {
-  const res = await fetch(`${API_BASE}${path}`, {
-    headers: { "Content-Type": "application/json" },
-    ...init,
-  });
-  if (!res.ok) {
-    let detail = res.statusText;
-    try {
-      const body = await res.json();
-      detail = body.detail || JSON.stringify(body);
-    } catch {
-      /* ignore */
+async function request<T>(path: string, init?: RequestInit, timeoutMs = 180_000): Promise<T> {
+  const controller = new AbortController();
+  const callerSignal = init?.signal;
+  const cancel = () => controller.abort(callerSignal?.reason);
+  if (callerSignal?.aborted) cancel();
+  else callerSignal?.addEventListener("abort", cancel, { once: true });
+  let timedOut = false;
+  const timer = setTimeout(() => { timedOut = true; controller.abort(); }, timeoutMs);
+  try {
+    const res = await fetch(`${API_BASE}${path}`, {
+      headers: { "Content-Type": "application/json" },
+      ...init,
+      signal: controller.signal,
+    });
+    if (!res.ok) {
+      let detail = res.statusText;
+      try {
+        const body = await res.json();
+        detail = typeof body.detail === "string" ? body.detail : JSON.stringify(body.detail ?? body);
+      } catch {
+        /* A non-JSON proxy error still has its HTTP status. */
+      }
+      throw new Error(detail);
     }
-    throw new Error(detail);
+    return await res.json() as T;
+  } catch (error) {
+    if (timedOut) throw new Error(`Request timed out after ${timeoutMs / 1000}s. Check the API connection and retry.`);
+    throw error;
+  } finally {
+    clearTimeout(timer);
+    callerSignal?.removeEventListener("abort", cancel);
   }
-  return res.json() as Promise<T>;
 }
 
 export const api = {
-  ipos: () => request<IpoCatalogue>("/ipos", { cache: "no-store" }),
-  ipo: (id: string) => request<IpoDetail>(`/ipos/${encodeURIComponent(id)}`, { cache: "no-store" }),
-  health: () => request<Health>("/health"),
+  ipos: () => request<IpoCatalogue>("/ipos", { cache: "no-store" }, 20_000),
+  ipo: (id: string) => request<IpoDetail>(`/ipos/${encodeURIComponent(id)}`, { cache: "no-store" }, 30_000),
+  health: () => request<Health>("/health", { cache: "no-store" }, 8_000),
   candles: (params: {
     instrument_key: string;
     interval: string;

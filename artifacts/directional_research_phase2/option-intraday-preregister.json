@@ -1,0 +1,18 @@
+{
+  "families": [
+    "ema_trend",
+    "donchian",
+    "pullback"
+  ],
+  "frozen_signal_trades": 17,
+  "window": [
+    "2026-11-02",
+    "2026-11-06"
+  ],
+  "old_signal_ledger_sha256": "9d60b36c8b4cff7bbc5bb27c5f0a011097042e6f698cf522f2274ccac1077f03",
+  "contract_universe": "Prior-session official NSE archive; current instrument_key only accepted if exacttoken/expiry/strike/type matches; expired mapping unavailable is rejected",
+  "expiry": "Nearest non-expiry-day (strictly after session date) vs month-end listed-expiry proxy; ATM and one listed strike ITM using signal-time spot close",
+  "entry_exit": "Original frozen next-open entry and fixed exit; exact five-minute option open / final candleclose. Require all bars present, positive entry/exit volume, unchanged lot and positive previous-session volume.",
+  "costs": "DatedsaleSTT0.15%; additionally2premiumpts+INR100 or5pts+INR200friction allowances; not full statutoryfee reconstruction",
+  "limitations": "Onlyfive recent sessions; no bid/ask or first-trade timestamp. No executablefillclaim; historical selection exposure and repeatedcontractpolicies acknowledged."
+}

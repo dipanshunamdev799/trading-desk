@@ -1,0 +1,11 @@
+{
+  "passed": 6,
+  "checks": [
+    "Daily family selection reproduced using development/validation only",
+    "Persisted daily trade counts and means reconcile every finalist and partition",
+    "All47 concepts represented per timeframe; neutral rows are zero-count with null returns",
+    "Persisted fixed-concept candidate counts and means reconcile both partitions and timeframes",
+    "Concept data, detector and script hashes match replay",
+    "Local report links resolve"
+  ]
+}

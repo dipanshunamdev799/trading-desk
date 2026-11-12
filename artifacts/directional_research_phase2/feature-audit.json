@@ -1,0 +1,48 @@
+{
+  "checks": [
+    "delayed observation excluded",
+    "old revision retained before new capture",
+    "revision enters only after capture",
+    "future reported timestamp excluded",
+    "context prefix invariant at 2025-01-10 14:05:00+05:30",
+    "context prefix invariant at 2025-04-15 11:50:00+05:30",
+    "context prefix invariant at 2025-11-28 11:25:00+05:30",
+    "context prefix invariant at 2026-11-06 14:45:00+05:30",
+    "all captured observations have explicit observed_at",
+    "incremental as-of join matches independent revision oracle at three decision times",
+    "daily source OHLC finite and internally consistent",
+    "vix source OHLC finite and internally consistent",
+    "etf source OHLC finite and internally consistent"
+  ],
+  "checks_passed": 13,
+  "input_sha256": {
+    "artifacts\\directional_research_phase2\\context-vix-5minute.json": "235c8bf75b87fa238f4b5e1835b05a621f87bdc930aa7620a3dc0c07afa6cc93",
+    "artifacts\\directional_research_phase2\\context-niftybees-5minute.json": "ed318e53f47e9b9d793d8b664e3eca18168c583dcee60c4cf03585ae8441ad5b",
+    "artifacts\\directional_research\\nifty-upstox-1day.json": "faafc7764dc4e1de23f9e8f7f1b1c84aabcb4cb1eb7a98b7bc6a75ceff72023a",
+    "artifacts\\directional_research\\lab-selected-trades.csv": "9d60b36c8b4cff7bbc5bb27c5f0a011097042e6f698cf522f2274ccac1077f03",
+    "artifacts\\directional_research_phase2\\feature-observations.json": "10fff6c8fb091900e4f79c4c464ff97fa480d6417deb45ff0cea504255fa765c",
+    "scripts\\build_research_features.py": "6f43411ddf56c0329e5a7e8bdcb5087ea245ec093f6ebbbaf21d05cee27940dd",
+    "artifacts\\directional_research\\nifty-db-1minute.json": "982c3cdf16e673e527b282440a906f78babab69cc488b7f1e8249cc327000d73",
+    "artifacts\\directional_research\\nifty-db-5minute.json": "ef02963c7bf00a8d1dac18b373ca71f8f849e888ae427979c819596941a86b19",
+    "artifacts\\directional_research\\nifty-upstox-5minute.json": "edebba307ecadd0945649baf6110a48e6706f393c4f95d3c208f46efffb4e3dd"
+  },
+  "observations": {
+    "records": 35348,
+    "factors": 64,
+    "first_capture": "2026-10-24 17:09:32.913132+00:00",
+    "last_capture": "2026-11-01 18:31:19.137512+00:00",
+    "first_reported": "2026-06-10 01:30:00+00:00",
+    "snapshots_available_before_first_capture": 0,
+    "reported_after_observed_rows": 5091,
+    "latest_dashboard_is_not_point_in_time": true
+  },
+  "panel_rows": 32518,
+  "development_vix_median": 12.625,
+  "missing_pct": {
+    "vix_level": 0.0,
+    "etf_candle_vwap_proxy": 0.0,
+    "etf_rvol": 1.0917030567685588,
+    "prior_official_close": 0.0
+  },
+  "sessions_with_any_captured_factor": 10
+}

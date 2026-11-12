@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "seeds": 1000,
+  "random_runs": 8000,
+  "deterministic_runs": 8,
+  "journal_trades_checked": 1602187,
+  "max_pnl_identity_residual": 2.7284841053187847e-11,
+  "frozen_sources_and_inputs_unchanged": true,
+  "old_discovery_sources_unchanged": {
+    "research\\swing_discovery\\benchmarks.py": true,
+    "research\\swing_discovery\\data.py": true,
+    "research\\swing_discovery\\diagnostics.py": true,
+    "research\\swing_discovery\\engine.py": true,
+    "research\\swing_discovery\\reporting.py": true,
+    "research\\swing_discovery\\signals.py": true,
+    "research\\swing_discovery\\structure.py": true
+  },
+  "all_cash_and_position_caps": true,
+  "all_entry_chronology_signal_filters_liquidity_and_pnl_checks": true,
+  "unit_tests": {
+    "EMA_validation": 8,
+    "existing_discovery": 58,
+    "diagnosis": 6,
+    "audit": 5,
+    "total_passed": 77
+  },
+  "source_sha256": {
+    "research\\ema_validation\\__init__.py": "1e29b03071877e0940a3de53371f73c49bda450f531cd842e941f9e74dbadc83",
+    "research\\ema_validation\\DESIGN.md": "8933bb9e5337d805234f90ed0affa27f911cdb979f1261675e924532bc8a56ee",
+    "research\\ema_validation\\engine.py": "34042e468a7c0d19911b1e20a33a5487922b0de08efcd7ffbf1a89f947f6c92f",
+    "research\\ema_validation\\paper.py": "077f6eccadcee3095e375e035a9691cd052776a5593991886880915f83395459",
+    "research\\ema_validation\\README.md": "52ec6158830e1beee6568cebfade75580526dbadcc84e1844eb9859e6d0c8774",
+    "scripts\\ema_analyze.py": "ac51afddb74d57344fc975893d20605d70ddb451a4b537597e9c67543f01456d",
+    "scripts\\ema_benchmarks.py": "51566c947823053767ae0121750e5e7c52cd97bb4d31a9647bf827e471388909",
+    "scripts\\ema_episode_null.py": "3bb7752ab8de25bf91c0faca0a7c75d61708130eb60d680ff2f79b80a49a75b8",
+    "scripts\\ema_sensitivity.py": "2d18a7b31cf93e4661b7bfffcd75b66b2335f66dcc8d79f7ad373e6b5ef8f479",
+    "scripts\\report_ema_validation.py": "3baeb34e4df94c0adbf1e0a065107084df6654ff6bb830ac5459e4c3fb1f412b",
+    "scripts\\validate_ema.py": "1704bf107aa57dc9ede4588e429f645a2aac8dbbb99f011551bb5c2bc7c3d266",
+    "scripts\\verify_ema_validation.py": "6a68fc056ee2f66bada8cb9cc8173262d0d84b9c9c02d49aa74dff736ee582e6",
+    "tests\\test_ema_validation.py": "db2fdca722159d5139c7cba295b65799ecb80730a4389da4c785f096e0774898"
+  }
+}
