@@ -1,0 +1,320 @@
+{
+  "groups": {
+    "offshore_gift": [
+      "gift_proxy",
+      "gift_cash_mark",
+      "gift_night"
+    ],
+    "global_equities": [
+      "eq6",
+      "foreign_sd",
+      "us_asia",
+      "vix_move"
+    ],
+    "domestic_internals": [
+      "domestic_rotation_defensive",
+      "basis_previous",
+      "prior_future_curve",
+      "same_day_sector_dispersion"
+    ],
+    "financial_rotation": [
+      "domestic_rotation_finance",
+      "official_finance1",
+      "financial21",
+      "financial_lead_change"
+    ],
+    "equal_weight_breadth": [
+      "eq50_spread1",
+      "eq500_spread1",
+      "eq500_spread5",
+      "eq500_spread21"
+    ],
+    "stock_participation": [
+      "allEQ_advance",
+      "allEQ_dispersion",
+      "allEQ_activity_relative",
+      "seed300_advance",
+      "seed300_concentration"
+    ],
+    "corporate_announcements": [
+      "count2",
+      "count9",
+      "count31",
+      "earnings9",
+      "lexical_direction",
+      "uncertainty",
+      "material_only"
+    ],
+    "structured_financials": [
+      "fund_growth_breadth",
+      "fund_profit_breadth",
+      "fund_surprise",
+      "fund_dispersion",
+      "fund_financial",
+      "fund_price_disagreement"
+    ],
+    "participant_futures": [
+      "FII_index_futures_level",
+      "FII_index_futures_d5",
+      "FII_index_futures_d21",
+      "DII_index_futures_level",
+      "Pro_index_futures_level",
+      "index_futures_detail_hhi_z",
+      "FII_stock_futures_d5"
+    ],
+    "participant_options": [
+      "FII_index_calls_level",
+      "FII_index_puts_level",
+      "FII_index_calls_d5",
+      "FII_index_puts_d5",
+      "index_calls_disagree",
+      "index_puts_disagree"
+    ],
+    "participant_volume": [
+      "fii_gross_volume_share",
+      "participant_volume_z",
+      "fii_stock_vol_share",
+      "pro_option_vol_share"
+    ],
+    "delivery": [
+      "del_intensity",
+      "del_high_frac",
+      "del_rising_frac",
+      "del_dispersion",
+      "del_flow_concentration"
+    ],
+    "large_transactions": [
+      "deal_n",
+      "deal_size",
+      "deal_premium",
+      "deal_rolling_balance",
+      "deal_cash_turnover_share"
+    ],
+    "atm_iv": [
+      "iv_prev",
+      "vix_level",
+      "iv_gap"
+    ],
+    "option_surface": [
+      "iv_skew",
+      "iv_term",
+      "surface_curve",
+      "surface_tail"
+    ],
+    "realized_volatility": [
+      "normalized_cash_vol",
+      "rv_shock",
+      "overnight_rv21",
+      "rth_rv21",
+      "vol_ratio5_21"
+    ],
+    "intraday_structure": [
+      "intraday_rv",
+      "jump_share_5",
+      "closing_share_5",
+      "firsthour_share_5",
+      "intraday_reversal_5"
+    ],
+    "institutional_flows": [
+      "custody_equity",
+      "fortnightly_equity",
+      "mutual_equity",
+      "direct_cash_fii",
+      "direct_cash_dii"
+    ]
+  },
+  "positioning": {
+    "fii_level": [
+      "FII_index_futures_level"
+    ],
+    "fii_changes": [
+      "FII_index_futures_d1",
+      "FII_index_futures_d3",
+      "FII_index_futures_d5",
+      "FII_index_futures_d10",
+      "FII_index_futures_d21"
+    ],
+    "dii_level": [
+      "DII_index_futures_level"
+    ],
+    "pro_level": [
+      "Pro_index_futures_level"
+    ],
+    "gross_exposure": [
+      "FII_index_futures_gross_share",
+      "DII_index_futures_gross_share",
+      "Pro_index_futures_gross_share"
+    ],
+    "concentration": [
+      "index_futures_detail_hhi_z",
+      "index_futures_disagree",
+      "stock_futures_detail_hhi_z"
+    ],
+    "trading_volume": [
+      "fii_gross_volume_share",
+      "participant_volume_z",
+      "fii_stock_vol_share",
+      "pro_option_vol_share"
+    ],
+    "stock_futures": [
+      "FII_stock_futures_level",
+      "FII_stock_futures_d5",
+      "DII_stock_futures_level",
+      "Pro_stock_futures_level"
+    ],
+    "options": [
+      "FII_index_calls_level",
+      "FII_index_puts_level",
+      "FII_index_calls_d5",
+      "FII_index_puts_d5",
+      "index_calls_disagree",
+      "index_puts_disagree"
+    ],
+    "persistence": [
+      "FII_index_futures_slow",
+      "FII_index_futures_accel",
+      "FII_index_futures_z",
+      "DII_index_futures_slow"
+    ],
+    "new_innovations": [
+      "analogue_fii_shock",
+      "analogue_dii_shock",
+      "analogue_fii_rank"
+    ]
+  },
+  "corporate": {
+    "counts": [
+      "count2",
+      "count9",
+      "count31",
+      "earnings9",
+      "financial9",
+      "issuer_count9"
+    ],
+    "semantics": [
+      "lexical_direction",
+      "positive_rate",
+      "negative_rate",
+      "uncertainty",
+      "text_dispersion",
+      "material_only"
+    ],
+    "structured": [
+      "fund_growth_breadth",
+      "fund_profit_breadth",
+      "fund_surprise",
+      "fund_dispersion",
+      "fund_financial",
+      "fund_price_disagreement"
+    ],
+    "calendar": [
+      "earnings_notice_count",
+      "financial_notice_count",
+      "earnings_issuer_count"
+    ],
+    "price_reaction": [
+      "reaction_mean",
+      "reaction_peer",
+      "reaction_dispersion",
+      "fund_price_disagreement"
+    ],
+    "weighting": [
+      "sector_balanced_fund",
+      "weighted_fund",
+      "financial_sign",
+      "sector_balanced_sign"
+    ]
+  },
+  "core": [
+    "prior_ret5",
+    "prior_ret21",
+    "rolling_rv5",
+    "trailing_vol",
+    "domestic_rotation_finance",
+    "eq500_spread5",
+    "eq50_spread1",
+    "iv_prev",
+    "iv_term",
+    "stock_equal"
+  ],
+  "weekly": [
+    "prior_ret5",
+    "prior_ret21",
+    "rolling_rv5",
+    "trailing_vol",
+    "domestic_rotation_finance",
+    "eq500_spread5",
+    "eq50_spread1",
+    "iv_prev",
+    "iv_term",
+    "stock_equal",
+    "count2",
+    "count9",
+    "lexical_direction",
+    "fund_surprise",
+    "fund_financial",
+    "reaction_mean",
+    "earnings_notice_count"
+  ],
+  "monthly": [
+    "prior_ret5",
+    "prior_ret21",
+    "rolling_rv5",
+    "trailing_vol",
+    "domestic_rotation_finance",
+    "eq500_spread5",
+    "eq50_spread1",
+    "iv_prev",
+    "iv_term",
+    "stock_equal",
+    "FII_index_futures_d21",
+    "FII_index_futures_level",
+    "DII_index_futures_level",
+    "Pro_index_futures_level",
+    "index_futures_detail_hhi_z",
+    "financial21",
+    "FII_index_futures_slow"
+  ],
+  "complementarity": {
+    "native_market": [
+      "domestic_rotation_finance",
+      "eq500_spread5",
+      "eq50_spread1",
+      "allEQ_advance"
+    ],
+    "corporate": [
+      "count2",
+      "count9",
+      "lexical_direction",
+      "fund_surprise",
+      "fund_financial",
+      "reaction_mean"
+    ],
+    "positioning": [
+      "FII_index_futures_d21",
+      "FII_index_futures_level",
+      "Pro_index_futures_level",
+      "index_futures_detail_hhi_z"
+    ],
+    "delivery": [
+      "del_intensity",
+      "del_high_frac",
+      "del_rising_frac"
+    ],
+    "volatility": [
+      "iv_prev",
+      "iv_term",
+      "normalized_cash_vol"
+    ]
+  },
+  "price_controls": [
+    "prior_ret5",
+    "prior_ret21",
+    "rolling_rv5",
+    "trailing_vol"
+  ],
+  "causal_analogue": "15 nearest earlier standardized historical states drawn from up to 150 rows, minimum 50. Compare actual minus median of neighbors. Rank against earlier innovations.",
+  "publication": "V19 modeled 08:15 next NSE session for EOD bodies. V18 filing clocks, V17 GIFT availability and V14 surface option days verified separately. CDSL/AMFI releases carry explicit conservative lags and remain sparse.",
+  "windows": "Exact NSE cash close intervals with fully observed endpoint. Cumulative and component labels share a cash calendar.",
+  "flow_policy": "Limited carry-forward from an assumed vintage. Confirmed custodian data and monthly subscriptions are separate from provisional exchange net cash. Sparse or unavailable features remain missing."
+}

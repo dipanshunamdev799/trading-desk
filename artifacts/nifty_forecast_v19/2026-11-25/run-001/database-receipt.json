@@ -1,0 +1,49 @@
+{
+  "asof": "2026-11-25T16:40:44.924248+05:30",
+  "first": "2025-01-01",
+  "last": "2026-11-17",
+  "sessions": 466,
+  "release_guard": "08:15 IST next NSE cash session, assumed conservative for historical files",
+  "unit": "Participant counts are exchange contract counts across instruments of differing lot size. Cash quantities measured in shares, consideration in INR, delivery value a close proxy.",
+  "participants": {
+    "v18_categories_exact": 1532,
+    "instrument_day_balance_failures": 1,
+    "dates_with_detail_disagreement": 378,
+    "largest_detail_gap": 1
+  },
+  "participant_days": {
+    "open_interest": 465,
+    "traded_volume": 466
+  },
+  "futures": {
+    "rows": 1398,
+    "days": 466,
+    "lot_values": [
+      25,
+      65,
+      75
+    ],
+    "unreconciled": 4
+  },
+  "delivery": {
+    "full_rows": 1439636,
+    "eq_rows": 1074226,
+    "numeric_delivery": 1328266,
+    "pct_mismatches": 3478,
+    "fixed_rows": 109980,
+    "positive_id": 109980,
+    "close_crosscheck": 109980,
+    "close_disagreements": 0
+  },
+  "deals": {
+    "raw": 2970,
+    "parsed": 2970,
+    "deduplicated": 2969,
+    "days": 151,
+    "groups": 2593,
+    "months": 23,
+    "month_files": 46,
+    "matched_block_pairs": 252
+  },
+  "source_context": "Source file paths and report vintages are available by record. Historical revision times were not captured."
+}

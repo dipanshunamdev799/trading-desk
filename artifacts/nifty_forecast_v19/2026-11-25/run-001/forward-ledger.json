@@ -1,0 +1,764 @@
+{
+  "checked_at": "2026-11-25T18:44:20.222040+05:30",
+  "bound": "2026-11-25",
+  "closure": {
+    "day": "2026-11-24",
+    "status": "NSE cash holiday",
+    "reason": "Guru Nanak Jayanti",
+    "notice": "https://archives.nseindia.com/content/circulars/CMTR71775.pdf"
+  },
+  "sessions": [
+    {
+      "name": "NSE-2026-11-18",
+      "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_18112026.csv",
+      "sent": "2026-11-25T18:44:20.608438+05:30",
+      "status": "verified",
+      "server_date": "Wed, 25 Nov 2026 13:14:20 GMT",
+      "received": "2026-11-25T18:44:20.754580+05:30",
+      "file": "forward/2026-11-25T184420/NSE-2026-11-18.csv",
+      "sha256": "b23709e77ecfdff44bc2410304424efbb3a954c9c2578fb52ab36169c0a51232",
+      "bytes": 17942,
+      "upstox_ohlc": [
+        25323.15,
+        25390.8,
+        25141.8,
+        25227.95
+      ],
+      "nse_ohlc": {
+        "open": 25323.15,
+        "high": 25390.8,
+        "low": 25141.8,
+        "close": 25227.95
+      },
+      "http_status": 200,
+      "day": "2026-11-18"
+    },
+    {
+      "name": "NSE-2026-11-19",
+      "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_19112026.csv",
+      "sent": "2026-11-25T18:44:20.800828+05:30",
+      "status": "verified",
+      "server_date": "Wed, 25 Nov 2026 13:14:20 GMT",
+      "received": "2026-11-25T18:44:20.923825+05:30",
+      "file": "forward/2026-11-25T184420/NSE-2026-11-19.csv",
+      "sha256": "1bf9578c4d0ebf5672db14980a83f7b661ea0c4548bb29f5cd8a466019dfdd62",
+      "bytes": 17775,
+      "upstox_ohlc": [
+        25186.8,
+        25514.3,
+        25104.8,
+        25514.3
+      ],
+      "nse_ohlc": {
+        "open": 25186.8,
+        "high": 25514.3,
+        "low": 25104.8,
+        "close": 25514.3
+      },
+      "http_status": 200,
+      "day": "2026-11-19"
+    },
+    {
+      "name": "NSE-2026-11-20",
+      "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_20112026.csv",
+      "sent": "2026-11-25T18:44:20.952178+05:30",
+      "status": "verified",
+      "server_date": "Wed, 25 Nov 2026 13:14:21 GMT",
+      "received": "2026-11-25T18:44:21.042085+05:30",
+      "file": "forward/2026-11-25T184420/NSE-2026-11-20.csv",
+      "sha256": "2fc89d675e654691a26f32c15a6cded2a3cd630ae400a9178b7501aeadd2bdfc",
+      "bytes": 17725,
+      "upstox_ohlc": [
+        25368.0,
+        25808.8,
+        25345.2,
+        25800.6
+      ],
+      "nse_ohlc": {
+        "open": 25368.0,
+        "high": 25808.8,
+        "low": 25345.2,
+        "close": 25800.6
+      },
+      "http_status": 200,
+      "day": "2026-11-20"
+    },
+    {
+      "name": "NSE-2026-11-23",
+      "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_23112026.csv",
+      "sent": "2026-11-25T18:44:21.064399+05:30",
+      "status": "verified",
+      "server_date": "Wed, 25 Nov 2026 13:14:21 GMT",
+      "received": "2026-11-25T18:44:21.135801+05:30",
+      "file": "forward/2026-11-25T184420/NSE-2026-11-23.csv",
+      "sha256": "2f82c385d63aed66e5dd8c20417f474485a2acea2b6f35bc62bdd07560d8df88",
+      "bytes": 18101,
+      "upstox_ohlc": [
+        25929.15,
+        25992.6,
+        25343.85,
+        25349.65
+      ],
+      "nse_ohlc": {
+        "open": 25929.15,
+        "high": 25992.6,
+        "low": 25343.85,
+        "close": 25349.65
+      },
+      "http_status": 200,
+      "day": "2026-11-23"
+    },
+    {
+      "name": "NSE-2026-11-25",
+      "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_25112026.csv",
+      "sent": "2026-11-25T18:44:21.173448+05:30",
+      "status": "verified",
+      "server_date": "Wed, 25 Nov 2026 13:14:21 GMT",
+      "received": "2026-11-25T18:44:21.285458+05:30",
+      "file": "forward/2026-11-25T184420/NSE-2026-11-25.csv",
+      "sha256": "15a9a54ed873a3ad008b37edfe4c9d65ddfc97e167a358a18f5c18c57c484bfd",
+      "bytes": 16419,
+      "upstox_ohlc": [
+        25658.35,
+        25951.65,
+        25619.0,
+        25819.25
+      ],
+      "nse_ohlc": {
+        "open": 25658.35,
+        "high": 25951.65,
+        "low": 25619.0,
+        "close": 25819.25
+      },
+      "http_status": 200,
+      "day": "2026-11-25",
+      "matched_via": "Published NSE daily OHLC and dated authenticated Upstox one-day OHLC and full quote",
+      "alternate_quote_sources": [
+        {
+          "url": "https://www.nseindia.in/api/allIndices",
+          "received": "2026-11-25T16:50:22.801284+05:30",
+          "file": "forward/market-index-alternative.json.gz",
+          "sha256": "c76cbdb877aeb48a438c716beb82b455e8a41e428a89429e67ee82cffc54efea"
+        },
+        {
+          "url": "https://www.nseindia.in/api/marketStatus",
+          "received": "2026-11-25T16:50:22.799401+05:30",
+          "file": "forward/market-status-alternative.json.gz",
+          "sha256": "6358bed7ca9fd2a4fc823e165c3fd586c5574732a7c9158c5907a1e5cc3e1c0a"
+        },
+        {
+          "url": "https://api.upstox.com/v3/market-quote/ohlc?instrument_key=NSE_INDEX%7CNifty+50&interval=1d",
+          "received": "2026-11-25T16:52:22.442408+05:30",
+          "file": "forward/upstox-close-daily-quote.json",
+          "sha256": "5ea5ef0463535d0fa4e531ba7e8e753e5f361dc369c197a66772b6bb3f02a4a5"
+        },
+        {
+          "url": "https://api.upstox.com/v2/market-quote/quotes?instrument_key=NSE_INDEX%7CNifty+50",
+          "received": "2026-11-25T16:52:22.570952+05:30",
+          "file": "forward/upstox-close-full-quote.json",
+          "sha256": "9f17002afe676d3f7771d20433ed3d74cb47667bf4be33d062ae634b81b28a7d"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "name": "nifty",
+      "url": "https://api.upstox.com/v3/historical-candle/NSE_INDEX%7CNifty%2050/days/1/2026-11-25/2026-11-18",
+      "sent": "2026-11-25T18:44:20.229134+05:30",
+      "status": 200,
+      "server_date": "Wed, 25 Nov 2026 13:14:20 GMT",
+      "received": "2026-11-25T18:44:20.351353+05:30",
+      "file": "forward/2026-11-25T184420/nifty.json",
+      "sha256": "e7593577020904bb82f6d7e09aadb04c789b159a56b318793b160d07ccca3917",
+      "bytes": 310,
+      "candles": 4,
+      "stamp_min": "2026-11-18T00:00:00+05:30",
+      "stamp_max": "2026-11-23T00:00:00+05:30",
+      "stamp_times": [
+        "00:00"
+      ]
+    },
+    {
+      "name": "vix",
+      "url": "https://api.upstox.com/v3/historical-candle/NSE_INDEX%7CIndia%20VIX/days/1/2026-11-25/2026-11-18",
+      "sent": "2026-11-25T18:44:20.361078+05:30",
+      "status": 200,
+      "server_date": "Wed, 25 Nov 2026 13:14:20 GMT",
+      "received": "2026-11-25T18:44:20.438213+05:30",
+      "file": "forward/2026-11-25T184420/vix.json",
+      "sha256": "23e2269bdae6df1f40d0cc72e907da5390fe885f91e6d500a4f38b1e96012c7f",
+      "bytes": 271,
+      "candles": 4,
+      "stamp_min": "2026-11-18T00:00:00+05:30",
+      "stamp_max": "2026-11-23T00:00:00+05:30",
+      "stamp_times": [
+        "00:00"
+      ]
+    },
+    {
+      "name": "bank",
+      "url": "https://api.upstox.com/v3/historical-candle/NSE_INDEX%7CNifty%20Bank/days/1/2026-11-25/2026-11-18",
+      "sent": "2026-11-25T18:44:20.443601+05:30",
+      "status": 200,
+      "server_date": "Wed, 25 Nov 2026 13:14:20 GMT",
+      "received": "2026-11-25T18:44:20.495593+05:30",
+      "file": "forward/2026-11-25T184420/bank.json",
+      "sha256": "24c270c455dc1745ef2ecd74c6649e7a1b95b09fe7390ca21ae45614844c3a32",
+      "bytes": 312,
+      "candles": 4,
+      "stamp_min": "2026-11-18T00:00:00+05:30",
+      "stamp_max": "2026-11-23T00:00:00+05:30",
+      "stamp_times": [
+        "00:00"
+      ]
+    },
+    {
+      "name": "broad",
+      "url": "https://api.upstox.com/v3/historical-candle/NSE_INDEX%7CNifty%20500/days/1/2026-11-25/2026-11-18",
+      "sent": "2026-11-25T18:44:20.519087+05:30",
+      "status": 200,
+      "server_date": "Wed, 25 Nov 2026 13:14:20 GMT",
+      "received": "2026-11-25T18:44:20.597879+05:30",
+      "file": "forward/2026-11-25T184420/broad.json",
+      "sha256": "91f65daea749576197f1fb4b7294876c47abc90e4c5e0c769e2bea081f9557f3",
+      "bytes": 313,
+      "candles": 4,
+      "stamp_min": "2026-11-18T00:00:00+05:30",
+      "stamp_max": "2026-11-23T00:00:00+05:30",
+      "stamp_times": [
+        "00:00"
+      ]
+    }
+  ],
+  "records": [
+    {
+      "version": "V4",
+      "key": "2026-11-17|LATE_DIAGNOSTIC",
+      "horizon": 21,
+      "issued": "2026-11-18T09:33:38.781325+05:30",
+      "issue_hash": "27b9a03e5de25d2df52bde928809f67578a7954190925a06a419ab7580cb8f84",
+      "reference_session": "2026-11-17",
+      "reference_close": 25387.4,
+      "target": "2026-12-17",
+      "target_sessions": [
+        "2026-11-18",
+        "2026-11-19",
+        "2026-11-20",
+        "2026-11-23",
+        "2026-11-25",
+        "2026-11-26",
+        "2026-11-27",
+        "2026-11-30",
+        "2026-12-01",
+        "2026-12-02",
+        "2026-12-03",
+        "2026-12-04",
+        "2026-12-07",
+        "2026-12-08",
+        "2026-12-09",
+        "2026-12-10",
+        "2026-12-11",
+        "2026-12-14",
+        "2026-12-15",
+        "2026-12-16",
+        "2026-12-17"
+      ],
+      "issue_class": "prospective before endpoint; late first-session diagnostic",
+      "original_probabilities": {
+        "B00_empirical": 0.4880952380952381
+      },
+      "law_p_up": {
+        "D00_empirical": 0.488095238095238,
+        "D03_residual_shrunk": 0.0
+      },
+      "binary_scores": {},
+      "maturity": "pending completion and publication",
+      "official_close": null,
+      "realized_return": null,
+      "scores": {},
+      "completed_target_dates": [
+        "2026-11-18",
+        "2026-11-19",
+        "2026-11-20",
+        "2026-11-23",
+        "2026-11-25"
+      ]
+    },
+    {
+      "version": "V4",
+      "key": "2026-11-17|LATE_DIAGNOSTIC",
+      "horizon": 5,
+      "issued": "2026-11-18T09:33:38.781325+05:30",
+      "issue_hash": "27b9a03e5de25d2df52bde928809f67578a7954190925a06a419ab7580cb8f84",
+      "reference_session": "2026-11-17",
+      "reference_close": 25387.4,
+      "target": "2026-11-25",
+      "target_sessions": [
+        "2026-11-18",
+        "2026-11-19",
+        "2026-11-20",
+        "2026-11-23",
+        "2026-11-25"
+      ],
+      "issue_class": "prospective before endpoint; late first-session diagnostic",
+      "original_probabilities": {
+        "A00_sector": 0.6805457797524769,
+        "B00_empirical": 0.41269841269841256,
+        "M05_lgbm": 0.7084413299086006,
+        "Z_neutral": 0.5,
+        "Z_reversion": 0.45
+      },
+      "law_p_up": {
+        "D00_empirical": 0.4126984126984127,
+        "D03_residual_shrunk": 0.09523809523809523
+      },
+      "binary_scores": {
+        "A00_sector": {
+          "p": 0.6805457797524769,
+          "brier": 0.10205099883395301,
+          "log_loss": 0.3848601854539384,
+          "correct": true
+        },
+        "B00_empirical": {
+          "p": 0.41269841269841256,
+          "brier": 0.34492315444696414,
+          "log_loss": 0.885038188370051,
+          "correct": false
+        },
+        "M05_lgbm": {
+          "p": 0.7084413299086006,
+          "brier": 0.08500645810546545,
+          "log_loss": 0.34468803216013266,
+          "correct": true
+        },
+        "Z_neutral": {
+          "p": 0.5,
+          "brier": 0.25,
+          "log_loss": 0.6931471805599453,
+          "correct": true
+        },
+        "Z_reversion": {
+          "p": 0.45,
+          "brier": 0.30250000000000005,
+          "log_loss": 0.7985076962177716,
+          "correct": false
+        }
+      },
+      "maturity": "resolved on original target",
+      "official_close": 25819.25,
+      "realized_return": 0.017010406737200334,
+      "scores": {
+        "D00_empirical": {
+          "brier": 0.34492315444696386,
+          "log_loss": 0.8850381883700505,
+          "crps": 0.012748910427785493,
+          "p": 0.41269841269841273,
+          "predicted_mean": -0.0022341294336857857
+        },
+        "D03_residual_shrunk": {
+          "brier": 0.8185941043083901,
+          "log_loss": 2.3513752571634776,
+          "crps": 0.024018041870190535,
+          "p": 0.09523809523809523,
+          "predicted_mean": -0.0132853073277087
+        }
+      },
+      "completed_target_dates": [
+        "2026-11-18",
+        "2026-11-19",
+        "2026-11-20",
+        "2026-11-23",
+        "2026-11-25"
+      ],
+      "resolution_at": "2026-11-25T18:46:28.060739+05:30",
+      "resolution_method": "Published NSE daily OHLC and dated authenticated Upstox one-day OHLC and full quote",
+      "outcome_source": {
+        "file": "forward/2026-11-25T184420/NSE-2026-11-25.csv",
+        "sha256": "15a9a54ed873a3ad008b37edfe4c9d65ddfc97e167a358a18f5c18c57c484bfd"
+      }
+    },
+    {
+      "version": "V5",
+      "key": "h5-L01",
+      "horizon": 5,
+      "issued": "2026-11-18T22:51:50.449640+05:30",
+      "issue_hash": "0f4908480d4d4d56b7013d62267489f2526cd77e58647c5eec60ad2b4bf99a9a",
+      "reference_session": "2026-11-18",
+      "reference_close": 25227.95,
+      "target": "2026-11-26",
+      "target_sessions": [
+        "2026-11-19",
+        "2026-11-20",
+        "2026-11-23",
+        "2026-11-25",
+        "2026-11-26"
+      ],
+      "issue_class": "forward experimental before first target session",
+      "p_up": 0.7900793650793652,
+      "mean_return": 0.019110101117523117,
+      "maturity": "pending completion and publication",
+      "official_close": null,
+      "realized_return": null,
+      "scores": {},
+      "completed_target_dates": [
+        "2026-11-19",
+        "2026-11-20",
+        "2026-11-23",
+        "2026-11-25"
+      ]
+    },
+    {
+      "version": "V5",
+      "key": "h5-I03_nosize",
+      "horizon": 5,
+      "issued": "2026-11-18T22:51:50.449640+05:30",
+      "issue_hash": "0f4908480d4d4d56b7013d62267489f2526cd77e58647c5eec60ad2b4bf99a9a",
+      "reference_session": "2026-11-18",
+      "reference_close": 25227.95,
+      "target": "2026-11-26",
+      "target_sessions": [
+        "2026-11-19",
+        "2026-11-20",
+        "2026-11-23",
+        "2026-11-25",
+        "2026-11-26"
+      ],
+      "issue_class": "forward experimental before first target session",
+      "p_up": 0.6817460317460318,
+      "mean_return": 0.011057757228632599,
+      "maturity": "pending completion and publication",
+      "official_close": null,
+      "realized_return": null,
+      "scores": {},
+      "completed_target_dates": [
+        "2026-11-19",
+        "2026-11-20",
+        "2026-11-23",
+        "2026-11-25"
+      ]
+    },
+    {
+      "version": "V5",
+      "key": "h21-E00",
+      "horizon": 21,
+      "issued": "2026-11-18T22:51:50.449640+05:30",
+      "issue_hash": "0f4908480d4d4d56b7013d62267489f2526cd77e58647c5eec60ad2b4bf99a9a",
+      "reference_session": "2026-11-18",
+      "reference_close": 25227.95,
+      "target": "2026-12-18",
+      "target_sessions": [
+        "2026-11-19",
+        "2026-11-20",
+        "2026-11-23",
+        "2026-11-25",
+        "2026-11-26",
+        "2026-11-27",
+        "2026-11-30",
+        "2026-12-01",
+        "2026-12-02",
+        "2026-12-03",
+        "2026-12-04",
+        "2026-12-07",
+        "2026-12-08",
+        "2026-12-09",
+        "2026-12-10",
+        "2026-12-11",
+        "2026-12-14",
+        "2026-12-15",
+        "2026-12-16",
+        "2026-12-17",
+        "2026-12-18"
+      ],
+      "issue_class": "forward experimental before first target session",
+      "p_up": 0.488095238095238,
+      "mean_return": -0.005019843592211711,
+      "maturity": "pending completion and publication",
+      "official_close": null,
+      "realized_return": null,
+      "scores": {},
+      "completed_target_dates": [
+        "2026-11-19",
+        "2026-11-20",
+        "2026-11-23",
+        "2026-11-25"
+      ]
+    },
+    {
+      "version": "V5",
+      "key": "h21-I01_legacy",
+      "horizon": 21,
+      "issued": "2026-11-18T22:51:50.449640+05:30",
+      "issue_hash": "0f4908480d4d4d56b7013d62267489f2526cd77e58647c5eec60ad2b4bf99a9a",
+      "reference_session": "2026-11-18",
+      "reference_close": 25227.95,
+      "target": "2026-12-18",
+      "target_sessions": [
+        "2026-11-19",
+        "2026-11-20",
+        "2026-11-23",
+        "2026-11-25",
+        "2026-11-26",
+        "2026-11-27",
+        "2026-11-30",
+        "2026-12-01",
+        "2026-12-02",
+        "2026-12-03",
+        "2026-12-04",
+        "2026-12-07",
+        "2026-12-08",
+        "2026-12-09",
+        "2026-12-10",
+        "2026-12-11",
+        "2026-12-14",
+        "2026-12-15",
+        "2026-12-16",
+        "2026-12-17",
+        "2026-12-18"
+      ],
+      "issue_class": "forward experimental before first target session",
+      "p_up": 0.5886904761904763,
+      "mean_return": 0.015357238601062029,
+      "maturity": "pending completion and publication",
+      "official_close": null,
+      "realized_return": null,
+      "scores": {},
+      "completed_target_dates": [
+        "2026-11-19",
+        "2026-11-20",
+        "2026-11-23",
+        "2026-11-25"
+      ]
+    }
+  ],
+  "v4_sha256": "cc6824eae248420a7c31014e234222fc46923159a82cf49c9769b09cbd74ffe6",
+  "v5_sha256": "0f4908480d4d4d56b7013d62267489f2526cd77e58647c5eec60ad2b4bf99a9a",
+  "new_v19_issues": 3,
+  "new_references": [
+    {
+      "name": "monthly_neutral_reference",
+      "horizon": 21,
+      "target_sessions": [
+        "2026-11-26",
+        "2026-11-27",
+        "2026-11-30",
+        "2026-12-01",
+        "2026-12-02",
+        "2026-12-03",
+        "2026-12-04",
+        "2026-12-07",
+        "2026-12-08",
+        "2026-12-09",
+        "2026-12-10",
+        "2026-12-11",
+        "2026-12-14",
+        "2026-12-15",
+        "2026-12-16",
+        "2026-12-17",
+        "2026-12-18",
+        "2026-12-21",
+        "2026-12-22",
+        "2026-12-23",
+        "2026-12-24"
+      ],
+      "file": "forward/monthly-neutral-law.npz",
+      "sha256": "0069ec2be16eb9f2d4199e18e6337e735bb7fb9b33e3245db359a7fe458e83dc",
+      "direction_p_up": 0.5,
+      "count": 128,
+      "training_windows": 140,
+      "training_end": "2026-11-17",
+      "method": "Equal weights on a symmetrized distribution of historical 21-session arithmetic return magnitudes, 140 mature windows",
+      "endpoint_return": {
+        "p10": -0.04598957620182245,
+        "p50": 0.0,
+        "p90": 0.045989576201822445
+      },
+      "reference_session": "2026-11-25",
+      "reference_close": 25819.25,
+      "issued_at": "2026-11-25T16:56:31.987650+05:30",
+      "cutoff": "after certified Nov 25 cash close",
+      "classification": "prospective research reference",
+      "first_target_session": "2026-11-26",
+      "target_session": "2026-12-24",
+      "status": "pending first eligible target session"
+    },
+    {
+      "name": "cash_close_GJR_risk",
+      "horizon": 5,
+      "target_sessions": [
+        "2026-11-26",
+        "2026-11-27",
+        "2026-11-30",
+        "2026-12-01",
+        "2026-12-02"
+      ],
+      "file": "forward/gjr-risk-5.npz",
+      "sha256": "dd1b19b66053d07bfa97a699d22bf3b882a659f3adeb7968c4061de773a9207a",
+      "distribution": "256 equal-weight coherent OHLC log tick paths anchored to the official index close",
+      "tick": 1e-05,
+      "seed": 14210080,
+      "model_config": {
+        "form": "gjr",
+        "distribution": "student",
+        "omega": 0.03037203499824962,
+        "alpha": 0.04637490846202497,
+        "beta": 0.8633483533014027,
+        "gamma": 0.07945954279027978,
+        "xi": 3.667809650547e-18,
+        "nu": 10.33596560307031,
+        "skew": 0.0,
+        "exog": "none",
+        "initial": 0.79249299511728,
+        "ok": true,
+        "objective": 1.1593368838394384,
+        "raw_parameters": [
+          -3.4942329953122555,
+          2.0759402835404117,
+          5.0,
+          2.6144297328886124,
+          -15.0,
+          10.33596560307031,
+          0.0
+        ],
+        "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "next_variance": 0.9854312448627819
+      },
+      "training_sessions": 471,
+      "training_end": "2026-11-25",
+      "training_start": "2025-01-01",
+      "annualized_rv": {
+        "p10": 0.08313004263557326,
+        "p50": 0.14554686409603163,
+        "p90": 0.2251883230740303
+      },
+      "reference_session": "2026-11-25",
+      "reference_close": 25819.25,
+      "issued_at": "2026-11-25T16:56:31.987650+05:30",
+      "cutoff": "after certified Nov 25 cash close",
+      "classification": "prospective research reference",
+      "first_target_session": "2026-11-26",
+      "target_session": "2026-12-02",
+      "status": "pending first eligible target session"
+    },
+    {
+      "name": "cash_close_GJR_risk",
+      "horizon": 21,
+      "target_sessions": [
+        "2026-11-26",
+        "2026-11-27",
+        "2026-11-30",
+        "2026-12-01",
+        "2026-12-02",
+        "2026-12-03",
+        "2026-12-04",
+        "2026-12-07",
+        "2026-12-08",
+        "2026-12-09",
+        "2026-12-10",
+        "2026-12-11",
+        "2026-12-14",
+        "2026-12-15",
+        "2026-12-16",
+        "2026-12-17",
+        "2026-12-18",
+        "2026-12-21",
+        "2026-12-22",
+        "2026-12-23",
+        "2026-12-24"
+      ],
+      "file": "forward/gjr-risk-21.npz",
+      "sha256": "74be7d5eb37476b7cb28e4f4c993f59fea32a04027d2acf5658603466da41ce1",
+      "distribution": "256 equal-weight coherent OHLC log tick paths anchored to the official index close",
+      "tick": 1e-05,
+      "seed": 14210080,
+      "model_config": {
+        "form": "gjr",
+        "distribution": "student",
+        "omega": 0.03037203499824962,
+        "alpha": 0.04637490846202497,
+        "beta": 0.8633483533014027,
+        "gamma": 0.07945954279027978,
+        "xi": 3.667809650547e-18,
+        "nu": 10.33596560307031,
+        "skew": 0.0,
+        "exog": "none",
+        "initial": 0.79249299511728,
+        "ok": true,
+        "objective": 1.1593368838394384,
+        "raw_parameters": [
+          -3.4942329953122555,
+          2.0759402835404117,
+          5.0,
+          2.6144297328886124,
+          -15.0,
+          10.33596560307031,
+          0.0
+        ],
+        "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "next_variance": 0.9854312448627819
+      },
+      "training_sessions": 471,
+      "training_end": "2026-11-25",
+      "training_start": "2025-01-01",
+      "annualized_rv": {
+        "p10": 0.09996325313261131,
+        "p50": 0.13476673619955504,
+        "p90": 0.2043664768715598
+      },
+      "reference_session": "2026-11-25",
+      "reference_close": 25819.25,
+      "issued_at": "2026-11-25T16:56:31.987650+05:30",
+      "cutoff": "after certified Nov 25 cash close",
+      "classification": "prospective research reference",
+      "first_target_session": "2026-11-26",
+      "target_session": "2026-12-24",
+      "status": "pending first eligible target session"
+    }
+  ],
+  "same_day_reference_source": {
+    "day": "2026-11-25",
+    "nse_ohlc": {
+      "open": 25658.35,
+      "high": 25951.65,
+      "low": 25619.0,
+      "close": 25819.25
+    },
+    "upstox_ohlc": [
+      25658.35,
+      25951.65,
+      25619.0,
+      25819.25
+    ],
+    "file": "forward/market-index-alternative.json.gz",
+    "sha256": "c76cbdb877aeb48a438c716beb82b455e8a41e428a89429e67ee82cffc54efea",
+    "method": "NSE matched closed market state and all-index snapshot, Upstox authenticated day OHLC and full quote",
+    "sources": [
+      {
+        "url": "https://www.nseindia.in/api/allIndices",
+        "received": "2026-11-25T16:50:22.801284+05:30",
+        "file": "forward/market-index-alternative.json.gz",
+        "sha256": "c76cbdb877aeb48a438c716beb82b455e8a41e428a89429e67ee82cffc54efea"
+      },
+      {
+        "url": "https://www.nseindia.in/api/marketStatus",
+        "received": "2026-11-25T16:50:22.799401+05:30",
+        "file": "forward/market-status-alternative.json.gz",
+        "sha256": "6358bed7ca9fd2a4fc823e165c3fd586c5574732a7c9158c5907a1e5cc3e1c0a"
+      },
+      {
+        "url": "https://api.upstox.com/v3/market-quote/ohlc?instrument_key=NSE_INDEX%7CNifty+50&interval=1d",
+        "received": "2026-11-25T16:52:22.442408+05:30",
+        "file": "forward/upstox-close-daily-quote.json",
+        "sha256": "5ea5ef0463535d0fa4e531ba7e8e753e5f361dc369c197a66772b6bb3f02a4a5"
+      },
+      {
+        "url": "https://api.upstox.com/v2/market-quote/quotes?instrument_key=NSE_INDEX%7CNifty+50",
+        "received": "2026-11-25T16:52:22.570952+05:30",
+        "file": "forward/upstox-close-full-quote.json",
+        "sha256": "9f17002afe676d3f7771d20433ed3d74cb47667bf4be33d062ae634b81b28a7d"
+      }
+    ]
+  },
+  "historical_freeze": "2026-11-17",
+  "resolution_rule": "Preserve original distributions, classifications and dates. After 18:00 IST on the original last date, score only the complete reconciled session sequence. A dated authenticated Upstox day/full quote can verify an available NSE daily bar when broker history still lacks the date."
+}

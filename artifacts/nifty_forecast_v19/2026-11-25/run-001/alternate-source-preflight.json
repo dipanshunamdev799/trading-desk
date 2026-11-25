@@ -1,0 +1,94 @@
+[
+  {
+    "url": "https://www.cdslindia.com/Publications/ForeignPortInvestor.html",
+    "params": null,
+    "request_time": "2026-11-25T16:39:03.964508+05:30",
+    "file": "sources/probes/cdsl_fortnight_directory.gz",
+    "status": 200,
+    "received": "2026-11-25T16:39:04.154104+05:30",
+    "server_date": "Wed, 25 Nov 2026 11:09:04 GMT",
+    "content_type": "text/html",
+    "sha256": "f9f1af4362ca952951433aa3ba1ce62bb1ce76f18d28d9cb5e4638fe3e13eb95",
+    "bytes": 13186
+  },
+  {
+    "url": "https://www.cdslindia.com/Publications/EquityDataFII.html",
+    "params": null,
+    "request_time": "2026-11-25T16:39:03.965982+05:30",
+    "file": "sources/probes/cdsl_tradewise_directory.gz",
+    "status": 200,
+    "received": "2026-11-25T16:39:04.153192+05:30",
+    "server_date": "Wed, 25 Nov 2026 11:09:04 GMT",
+    "content_type": "text/html",
+    "sha256": "a69efee158393076922acaacff24a27c48d44e2483d7bba0f37a88d5e9f3281d",
+    "bytes": 9077
+  },
+  {
+    "url": "https://www.amfiindia.com/research-information/amfi-monthly",
+    "params": null,
+    "request_time": "2026-11-25T16:39:03.968154+05:30",
+    "file": "sources/probes/amfi_monthly.gz",
+    "status": 200,
+    "received": "2026-11-25T16:39:04.845526+05:30",
+    "server_date": "Wed, 25 Nov 2026 11:09:04 GMT",
+    "content_type": "text/html; charset=utf-8",
+    "sha256": "e3c7253790d019cd5a6b308c1565947d30d063d527d35e2ca64e15637f13b0a1",
+    "bytes": 37848
+  },
+  {
+    "url": "https://www.cdslindia.com/Publications/FIIDailyData.aspx",
+    "params": null,
+    "request_time": "2026-11-25T16:39:03.969250+05:30",
+    "file": "sources/probes/cdsl_daily_current.gz",
+    "status": 200,
+    "received": "2026-11-25T16:39:04.161600+05:30",
+    "server_date": "Wed, 25 Nov 2026 11:09:04 GMT",
+    "content_type": "text/html; charset=utf-8",
+    "sha256": "f211a0df87b9179e0c9b45326f1735357ce10d9a7d9da3c701f62bdfacaca422",
+    "bytes": 3199
+  },
+  {
+    "url": "https://www.cdslindia.com/Publications/FIIMonthlyData.aspx",
+    "params": null,
+    "request_time": "2026-11-25T16:39:03.975337+05:30",
+    "file": "sources/probes/cdsl_monthly_current.gz",
+    "status": 200,
+    "received": "2026-11-25T16:39:04.159775+05:30",
+    "server_date": "Wed, 25 Nov 2026 11:09:04 GMT",
+    "content_type": "text/html; charset=utf-8",
+    "sha256": "101a459b6a61e5636d5c1ce59ad4270125b56fbe46bbc3d29d1c44215ca79e0e",
+    "bytes": 1441
+  },
+  {
+    "url": "https://pilot.fpi.nsdl.co.in/contactus.html",
+    "params": null,
+    "request_time": "2026-11-25T16:39:03.980524+05:30",
+    "file": "sources/probes/nsdl_fortnight_directory.gz",
+    "status": 200,
+    "received": "2026-11-25T16:39:04.298253+05:30",
+    "server_date": "Wed, 25 Nov 2026 11:09:04 GMT",
+    "content_type": "text/html",
+    "sha256": "d4ff7748f84ac461a00bc7a79c285fbc5c0ea0f74ca856e86e46a20addfcbead",
+    "bytes": 1472
+  },
+  {
+    "url": "https://nsearchives.nseindia.com/content/fo/mpl_nov2026.csv",
+    "params": null,
+    "request_time": "2026-11-25T16:39:03.985266+05:30",
+    "file": null,
+    "status": 404,
+    "received": "2026-11-25T16:39:04.231172+05:30",
+    "server_date": "Wed, 25 Nov 2026 11:09:04 GMT",
+    "content_type": "text/html;charset=UTF-8"
+  },
+  {
+    "url": "https://nsearchives.nseindia.com/content/fo/nseoi_17112026.zip",
+    "params": null,
+    "request_time": "2026-11-25T16:39:03.991090+05:30",
+    "file": null,
+    "status": 404,
+    "received": "2026-11-25T16:39:04.171159+05:30",
+    "server_date": "Wed, 25 Nov 2026 11:09:04 GMT",
+    "content_type": "text/html;charset=UTF-8"
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "parent": [
+    [
+      5,
+      "raw_iv",
+      "mae"
+    ],
+    [
+      5,
+      "offshore_plus_domestic",
+      "mae"
+    ],
+    [
+      21,
+      "GJR",
+      "mae"
+    ],
+    [
+      21,
+      "GJR",
+      "qlike"
+    ],
+    [
+      5,
+      "fixed_iv_rv",
+      "brier"
+    ],
+    [
+      21,
+      "student_EGARCH",
+      "brier"
+    ]
+  ],
+  "feature_basis": "Up to 63 prior daily audited close returns, current guarded weights and shrunk covariance.",
+  "short_covariance": "80% empirical, 20% diagonal. Missing historical stock legs imputed from the contemporaneous common return and prior beta.",
+  "target": "Future realized index volatility from the unchanged V16 archived target. Terminal return variance remains a separate joint forecast quantity.",
+  "scores": "Point estimates and event probabilities are separate. New volatility laws have 96 atoms; expansion probabilities come from the separately evaluated transition design."
+}

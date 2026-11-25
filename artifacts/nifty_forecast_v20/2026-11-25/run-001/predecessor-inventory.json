@@ -1,0 +1,291 @@
+{
+  "v19_manifest": "ccfbf78df56720ddfd5e989b0aa0e8851154ba5d754d4422d416bdbd1be59d36",
+  "artifacts": 1725,
+  "source_files": 14,
+  "chain": {
+    "v18_manifest": "43b3c9780a1c03239e9ef667b13c1f5b2c9c40496fb2bb59c5f32203e9b3cc4d",
+    "artifacts": 4226,
+    "code": 16,
+    "prior_chain": {
+      "v17_manifest": "27cdedd8ec1fc03a9fd75e66deb437339cb04d3aa74583963bc47e76019c60dd",
+      "artifacts": 3010,
+      "code": 17,
+      "prior_chain": {
+        "passed": true,
+        "checked": 732,
+        "source_files": 15,
+        "earlier": {
+          "valid": true,
+          "v15_manifest": "0c39e15ce52e56e69d2d2dca18ee7bef1e0b0aa5d45750c2178179b90957c2e0",
+          "v15_artifacts": 616,
+          "v15_code": 18,
+          "earlier_verified_by_v15": {
+            "files": 23060,
+            "valid": true,
+            "mismatches": [],
+            "manifests": {
+              "manifest.json/2026-11-24": "3ecb85d431b1c07736b04887f7d48907527bd3ae81832d6d8d42237b95151a1e",
+              "manifest.json/2026-11-25": "f6e80b47c519940a9677d2261ad7421775f812cdd7e8e9d94ce5af323a2ea52d"
+            }
+          }
+        },
+        "v16_manifest": "2087601e537dc89b6e1dd36e670bb3c89127f882d4e0a682a8a6a8116a088f45"
+      }
+    }
+  },
+  "documents": [
+    {
+      "file": "artifacts/nifty_forecast_v19/2026-11-25/run-001/NIFTY_V19_RESEARCH.md",
+      "sha256": "296059f13b468c473ea0c3fa1ec82b453d4011d27e1a3757c2aac185ff51fca9",
+      "lines": 30,
+      "headings": [
+        "NIFTY V19 positioning and supply\u2013demand research",
+        "Research reports",
+        "Reproducibility"
+      ]
+    },
+    {
+      "file": "artifacts/nifty_forecast_v19/2026-11-25/run-001/V19_AGGREGATE_POSITIONING_FACTORS.md",
+      "sha256": "c2ee18e6672de48417c60bf99242a574d9ffeb8f485ae93dc9051ac706e020f6",
+      "lines": 50,
+      "headings": [
+        "V19 Aggregate Positioning Factors"
+      ]
+    },
+    {
+      "file": "artifacts/nifty_forecast_v19/2026-11-25/run-001/V19_AUTHENTIC_CAPITAL_FLOW_RESEARCH.md",
+      "sha256": "794f58fabcc69636d8461f7db298c913ba7c3b2ae1305fa50c7c58e0e0723481",
+      "lines": 55,
+      "headings": [
+        "V19 Authentic Capital Flow Research"
+      ]
+    },
+    {
+      "file": "artifacts/nifty_forecast_v19/2026-11-25/run-001/V19_COMPLETE_MODEL_COMPARISON.md",
+      "sha256": "32efb3cbde8fdfd3bd6843ff62211b3bedf0784c7556b3c916830633802a9833",
+      "lines": 121,
+      "headings": [
+        "V19 Complete Model Comparison",
+        "Weekly and monthly directions at 08:55",
+        "Weekly and monthly endpoint distributions at 08:55",
+        "Native weighted laws",
+        "Incremental participant, delivery, transaction and interaction scores",
+        "Standalone realized risk and volatility expansion at 08:55",
+        "Joint future ranges and tails at 08:55"
+      ]
+    },
+    {
+      "file": "artifacts/nifty_forecast_v19/2026-11-25/run-001/V19_CROWDING_AND_UNWINDING_RESEARCH.md",
+      "sha256": "33caa99fb59a7f3f1436d9ab0905fbaa81441095d2960701e6af82c1de9bb498",
+      "lines": 63,
+      "headings": [
+        "V19 Crowding And Unwinding Research"
+      ]
+    },
+    {
+      "file": "artifacts/nifty_forecast_v19/2026-11-25/run-001/V19_DELIVERY_PARTICIPATION_RESEARCH.md",
+      "sha256": "0b5a8dd2e6d87020e46b76ed12b4aa2bf5d166398e7556f5a88f60825ca58dde",
+      "lines": 44,
+      "headings": [
+        "V19 Delivery Participation Research"
+      ]
+    },
+    {
+      "file": "artifacts/nifty_forecast_v19/2026-11-25/run-001/V19_FINAL_RESEARCH_CONCLUSIONS.md",
+      "sha256": "fa311127f259ee8aebb3e8835bd9ab7b397cdff9454465bb002e3a02928fb915",
+      "lines": 27,
+      "headings": [
+        "V19 Final Research Conclusions"
+      ]
+    },
+    {
+      "file": "artifacts/nifty_forecast_v19/2026-11-25/run-001/V19_FORWARD_RESEARCH_LEDGER.md",
+      "sha256": "18fb86e072f92cebc07a414fca9bbc76a2f20df24fbf64f244b4ae4c2f8cb4d5",
+      "lines": 36,
+      "headings": [
+        "V19 Forward Research Ledger"
+      ]
+    },
+    {
+      "file": "artifacts/nifty_forecast_v19/2026-11-25/run-001/V19_FUNDAMENTAL_POSITIONING_INTERACTIONS.md",
+      "sha256": "4bb2f0ad1a9fc752e2e77f6a169b8d0d52a26f1f16d82498089221391ddfcc07",
+      "lines": 70,
+      "headings": [
+        "V19 Fundamental Positioning Interactions"
+      ]
+    },
+    {
+      "file": "artifacts/nifty_forecast_v19/2026-11-25/run-001/V19_HYPOTHESIS_REGISTRY_AND_RESEARCH_EFFICIENCY.md",
+      "sha256": "37de263616aceabf6c6366f8e34dadc05f5960ab3d27f65800abcb2e51b9253c",
+      "lines": 34,
+      "headings": [
+        "V19 Hypothesis Registry And Research Efficiency"
+      ]
+    },
+    {
+      "file": "artifacts/nifty_forecast_v19/2026-11-25/run-001/V19_LARGE_TRANSACTION_RESEARCH.md",
+      "sha256": "c842aeb7f57243f63c1f4791ee760815acaddc564e80bcdf30bb86e3a8bd9d7f",
+      "lines": 43,
+      "headings": [
+        "V19 Large Transaction Research"
+      ]
+    },
+    {
+      "file": "artifacts/nifty_forecast_v19/2026-11-25/run-001/V19_MARKET_POSITIONING_DATABASE.md",
+      "sha256": "2cbda42e17605d1858502e46d1fc5d872c5cc73ce140fc1ae4b6c20645e6b196",
+      "lines": 43,
+      "headings": [
+        "V19 Market Positioning Database"
+      ]
+    },
+    {
+      "file": "artifacts/nifty_forecast_v19/2026-11-25/run-001/V19_NEXT_EXPERIMENTS.md",
+      "sha256": "9ebc13df1dc34a372c8befa50d35c8bfd5756538e8c2885e2c4263008bb7658c",
+      "lines": 9,
+      "headings": [
+        "V19 Next Experiments"
+      ]
+    },
+    {
+      "file": "artifacts/nifty_forecast_v19/2026-11-25/run-001/V19_ORIGINAL_HORIZON_FORECASTING.md",
+      "sha256": "e32ed215505ad06679262e46e54af353ab5f96d65fb98667daa9e13cc93c1373",
+      "lines": 54,
+      "headings": [
+        "V19 Original Horizon Forecasting"
+      ]
+    },
+    {
+      "file": "artifacts/nifty_forecast_v19/2026-11-25/run-001/V19_PARTICIPANT_POSITIONING_INTELLIGENCE.md",
+      "sha256": "11436df39624c756c2174a6f54abbebdee43cdbb5f6a04d0f957fa14eaf47685",
+      "lines": 69,
+      "headings": [
+        "V19 Participant Positioning Intelligence"
+      ]
+    },
+    {
+      "file": "artifacts/nifty_forecast_v19/2026-11-25/run-001/V19_POSITION_PRICE_DIVERGENCE.md",
+      "sha256": "42939ffa6f470c7187e091df02c1433abc5d254c5222cd9e8a37623195231160",
+      "lines": 55,
+      "headings": [
+        "V19 Position Price Divergence"
+      ]
+    },
+    {
+      "file": "artifacts/nifty_forecast_v19/2026-11-25/run-001/V19_POSITIONING_AND_RISK_INTELLIGENCE.md",
+      "sha256": "173ca1f32e297fd0a9fbab511ba2662a021804a65a03c53cc552e7f9ec751122",
+      "lines": 68,
+      "headings": [
+        "V19 Positioning And Risk Intelligence"
+      ]
+    },
+    {
+      "file": "artifacts/nifty_forecast_v19/2026-11-25/run-001/V19_REPRODUCTION_AND_BASELINES.md",
+      "sha256": "4fea289927b3281745b608f11584d18d569303a147f4b40899a84dbc6afaa8dd",
+      "lines": 51,
+      "headings": [
+        "V19 Reproduction And Baselines"
+      ]
+    },
+    {
+      "file": "artifacts/nifty_forecast_v19/2026-11-25/run-001/V19_VALIDATION_AND_FALSIFICATION.md",
+      "sha256": "e38d901d6ad74e2506ef874b0cf7b0e3a398ba37a61b3555751c9ed54031f952",
+      "lines": 44,
+      "headings": [
+        "V19 Validation And Falsification"
+      ]
+    },
+    {
+      "file": "research/nifty_forecast_v19/acquire.py",
+      "sha256": "4296080cb25e74ac5095872522fba925a46d492f4cc8ce4266c3b51f5bfcbea3",
+      "lines": 111,
+      "headings": []
+    },
+    {
+      "file": "research/nifty_forecast_v19/baseline.py",
+      "sha256": "7b4bc60a5aeb91fe0c031a52696e2b45d396458bf8d0133f1d0446084264ed1f",
+      "lines": 129,
+      "headings": []
+    },
+    {
+      "file": "research/nifty_forecast_v19/common.py",
+      "sha256": "4888d6b4b625da3032f74caf4c6e7fc939ad482a8adbb25574e6b5c70b9de1e3",
+      "lines": 79,
+      "headings": []
+    },
+    {
+      "file": "research/nifty_forecast_v19/database.py",
+      "sha256": "cf732d1beeb04cbff7d3bf7fea45ddaac3c980487770f915e2f4afb29640d4ef",
+      "lines": 218,
+      "headings": []
+    },
+    {
+      "file": "research/nifty_forecast_v19/delivery.py",
+      "sha256": "19460c4bec621cfae8e7b38fd2f3a93aaf502dc1aa751b5a6715a69f268309d0",
+      "lines": 122,
+      "headings": []
+    },
+    {
+      "file": "research/nifty_forecast_v19/evidence.py",
+      "sha256": "116f434a5642361f63bb926d75de9b056b711a47d130717961d9ce77ce03875b",
+      "lines": 325,
+      "headings": []
+    },
+    {
+      "file": "research/nifty_forecast_v19/features.py",
+      "sha256": "e2ca9010b202ace250a6c831803ea5d4d17c410f1c73f8c683d933a2ae5fb940",
+      "lines": 278,
+      "headings": []
+    },
+    {
+      "file": "research/nifty_forecast_v19/flows.py",
+      "sha256": "98bbd5a30426c364c35421b800a79168298e4e499c65e3c983051d37ea5c0cde",
+      "lines": 303,
+      "headings": []
+    },
+    {
+      "file": "research/nifty_forecast_v19/forecast.py",
+      "sha256": "e04d5cb8e0ae2327e31c20542b54e2101739908ea6797d8a493de5875149ef8d",
+      "lines": 326,
+      "headings": []
+    },
+    {
+      "file": "research/nifty_forecast_v19/forward.py",
+      "sha256": "ecb2a8a8d2880269e6f8f05ea9d9ed28492dcbfa05aafecfb773a84dd412df77",
+      "lines": 203,
+      "headings": []
+    },
+    {
+      "file": "research/nifty_forecast_v19/native_controls.py",
+      "sha256": "d731e900ddf6b1cec7a82643865a729182cfac015d0e1b6e21793658ce91aaf5",
+      "lines": 130,
+      "headings": []
+    },
+    {
+      "file": "research/nifty_forecast_v19/report.py",
+      "sha256": "c48e9503a765061373db8cc25372c59c89de04c53897765e31a67cabe6400379",
+      "lines": 497,
+      "headings": [
+        "Weekly and monthly directions at 08:55",
+        "Weekly and monthly endpoint distributions at 08:55",
+        "Native weighted laws",
+        "Incremental participant, delivery, transaction and interaction scores",
+        "Standalone realized risk and volatility expansion at 08:55",
+        "Joint future ranges and tails at 08:55",
+        "Research reports",
+        "Reproducibility"
+      ]
+    },
+    {
+      "file": "research/nifty_forecast_v19/risk.py",
+      "sha256": "8d90939d324589c96e247450f6e34e9a7568df3ad2d9ee6d94cad665b2ef17e9",
+      "lines": 205,
+      "headings": []
+    },
+    {
+      "file": "research/nifty_forecast_v19/structure.py",
+      "sha256": "6d8a361e11c42531676afc57f4dcffbbb01bd340d4fd2ee995666a36cf65ff96",
+      "lines": 233,
+      "headings": []
+    }
+  ]
+}

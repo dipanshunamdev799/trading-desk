@@ -1,0 +1,9 @@
+# NIFTY V17 — Next experiments
+
+1. Record one frozen 08:45 and 08:55 opening law on any new eligible 2026 research morning, with source times, dated futures contract identifiers where available, official auction schedule and full distributions. Prespecify raw GIFT and prior-close parents. Resolve only after the official opening result. This tests the small late-morning gain and calibration on unexposed observations.
+2. Freeze one cash/risk parent at 09:25 and 10:20 and test the narrowest well-supported opening-surprise, dispersion and turnover inputs on future range or realized risk. Advance a directional model only after it beats its own parent in date-level forecasts. Require new evidence on survivor-conditioned outcomes before using a full-horizon barrier gain to describe later sessions.
+3. Obtain authorized archived dated GIFT, domestic cash/future and ETF quotes with consistent timestamps, spreads, corporate actions and financing/dividend state. Test future legs separately with nonoverlapping segments. Confirm whether the observed ETF basis behaves like a fund-price anomaly or predicts a distinct underlying price move.
+4. Build dated constituent and free-float weight files for upcoming stock participation tests. Independently predefine the nonconstituent or sector-neutral comparison and a small high-liquidity sample. Keep individual mechanical weights out of future information claims.
+5. Keep original weekly and monthly release dates in their own scorebooks. Start with the protected direction/distribution references, neutral monthly and a separately clocked decomposition. Freeze each origin and track enough disjoint windows before adjusting weights or interpreting historical edge. Within the remaining authorized 2026 period, independent 21-session evidence accumulates slowly.
+
+[Historical machine-readable evidence](multiscale-information-matrix.csv) · [Forward research ledger](V17_FORWARD_RESEARCH_LEDGER.md)

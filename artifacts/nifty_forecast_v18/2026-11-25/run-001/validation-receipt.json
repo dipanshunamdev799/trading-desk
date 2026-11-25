@@ -1,0 +1,21 @@
+{
+  "archive": {
+    "announcement_rows": 345226,
+    "duplicates": 21671,
+    "untimed": 0,
+    "financial_facts": 10621,
+    "published_comparisons": 1278
+  },
+  "chronological_sentinels": 16,
+  "exact_copy_invariance": true,
+  "index_forecasts": 31812,
+  "matched_stock_rows": 64227,
+  "schedule_exposures": 3208,
+  "protected_horizons": {
+    "5": 265,
+    "21": 217
+  },
+  "verified_v17_hashes": 3010,
+  "holdout": "No untouched post-freeze outcome was used for these estimates. All original historical outcomes are research-exposed.",
+  "notice": "The future-information tests alter data after each eligible cutoff, then rebuild earlier aggregate values and origin fits. Refit-and-reselection controls use only block-rotated earlier training observations."
+}

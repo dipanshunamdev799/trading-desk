@@ -1,0 +1,15 @@
+{
+  "asof": "2026-11-25T17:11:31.055924+05:30",
+  "clock_session_guards": 49164,
+  "future_information_sentinels": 36,
+  "chronology_training_rows": 49164,
+  "source_receipts_v18": 4226,
+  "max_replay_error": 1.8631267362234638e-10,
+  "disjoint": {
+    "weekly": 53,
+    "monthly": 11
+  },
+  "search_adjustment": "Circular moving-block resampling and familywise max standardized deviation. All paired primary comparisons within each reported horizon, cutoff, metric and target group enter the adjustment.",
+  "baseline_scope": "Original windows overlap. Nested negative-control reselects representative V19 families and cannot correct cumulative V1\u2013V19 search on the same dates.",
+  "order_of_testing": "Source scope and hypothesis registry frozen first. Outcomes, borrowed models and anchored time limits retain chronological provenance."
+}

@@ -1,0 +1,36 @@
+[
+  {
+    "url": "https://www.nseindia.in/api/allIndices",
+    "params": null,
+    "request_time": "2026-11-25T16:50:22.585392+05:30",
+    "file": "forward/market-index-alternative.json.gz",
+    "status": 200,
+    "received": "2026-11-25T16:50:22.801284+05:30",
+    "server_date": "Wed, 25 Nov 2026 11:20:22 GMT",
+    "content_type": "application/json; charset=utf-8",
+    "sha256": "c76cbdb877aeb48a438c716beb82b455e8a41e428a89429e67ee82cffc54efea",
+    "bytes": 18315
+  },
+  {
+    "url": "https://www.nseindia.in/api/marketStatus",
+    "params": null,
+    "request_time": "2026-11-25T16:50:22.587229+05:30",
+    "file": "forward/market-status-alternative.json.gz",
+    "status": 200,
+    "received": "2026-11-25T16:50:22.799401+05:30",
+    "server_date": "Wed, 25 Nov 2026 11:20:22 GMT",
+    "content_type": "application/json; charset=utf-8",
+    "sha256": "6358bed7ca9fd2a4fc823e165c3fd586c5574732a7c9158c5907a1e5cc3e1c0a",
+    "bytes": 729
+  },
+  {
+    "url": "https://dipam.gov.in/resources/pdf/publication/Market_Monitor-25.11.2026.pdf",
+    "params": null,
+    "request_time": "2026-11-25T16:50:22.589000+05:30",
+    "file": null,
+    "status": 404,
+    "received": "2026-11-25T16:50:22.949555+05:30",
+    "server_date": "Wed, 25 Nov 2026 11:20:22 GMT",
+    "content_type": "application/pdf"
+  }
+]

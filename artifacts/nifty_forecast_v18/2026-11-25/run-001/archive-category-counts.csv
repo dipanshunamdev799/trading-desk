@@ -1,0 +1,784 @@
+source_year,family,subject,rows,timed,duplicates,seed_rows,material
+2025,acquisition,Acquisition,1034,1034,29,363,1034
+2025,acquisition,Action(s) initiated or orders passed,1,1,0,0,1
+2025,acquisition,Agreements,57,57,1,24,57
+2025,acquisition,Allotment of Securities,6,6,0,1,6
+2025,acquisition,Amalgamation/Merger,224,224,7,40,224
+2025,acquisition,Amendment(s),2,2,0,2,2
+2025,acquisition,Analysts/Institutional Investor Meet/Con. Call Updates,8,8,0,0,8
+2025,acquisition,"Arrangements for strategic, technical, manufacturing, or marketing tie up",5,5,0,0,5
+2025,acquisition,Awarding of order(s)/contract(s),1,1,0,0,1
+2025,acquisition,Committee Meeting Updates,1,1,0,0,1
+2025,acquisition,Copy of Newspaper Publication,21,21,0,5,21
+2025,acquisition,Corporate Insolvency Resolution Process,1,1,0,0,1
+2025,acquisition,Credit Rating- Revision,3,3,0,0,3
+2025,acquisition,Demerger,36,36,1,4,36
+2025,acquisition,Disclosure of material issue,34,34,0,4,34
+2025,acquisition,Disclosure under SEBI (PIT) Reg 2015,2,2,0,0,2
+2025,acquisition,Disclosure under SEBI Takeover Regulations,4309,4309,114,388,4309
+2025,acquisition,Diversification/Disinvestment,2,2,0,1,2
+2025,acquisition,General Updates,625,625,6,204,625
+2025,acquisition,Giving guarantees/indemnity/ becoming a surety for third party,6,6,0,4,6
+2025,acquisition,Incorporation,4,4,0,3,4
+2025,acquisition,Memorandum of Understanding/Agreements,6,6,2,3,6
+2025,acquisition,News Verification,22,22,5,12,22
+2025,acquisition,Open Offer,3,3,0,1,3
+2025,acquisition,Other Restructuring,4,4,0,3,4
+2025,acquisition,Others,33,33,8,1,33
+2025,acquisition,Outcome of Board Meeting,61,61,2,9,61
+2025,acquisition,Pendency of Litigation(s)/dispute(s) or the outcome impacting the Company,2,2,0,1,2
+2025,acquisition,Post Offer Public Announcement,3,3,0,0,3
+2025,acquisition,Preferential issue,1,1,0,1,1
+2025,acquisition,Press Release,153,153,1,29,153
+2025,acquisition,Press Release (Revised),2,2,0,0,2
+2025,acquisition,Public Announcement-Open Offer,46,46,0,6,46
+2025,acquisition,Record Date,24,24,0,2,24
+2025,acquisition,Sale or disposal,2,2,0,1,2
+2025,acquisition,Scheme of Arrangement,32,32,0,5,32
+2025,acquisition,Shareholders meeting,5,5,0,2,5
+2025,acquisition,Suspension of Trading,13,13,4,0,13
+2025,acquisition,Updates,495,495,18,53,495
+2025,action,Allotment of Securities,4,4,0,3,4
+2025,action,Bonus,8,8,1,2,8
+2025,action,Cancellation of Book closure,1,1,0,0,1
+2025,action,Copy of Newspaper Publication,59,59,0,13,59
+2025,action,Corporate Insolvency Resolution Process,2,2,0,0,2
+2025,action,Disclosure of material issue,1,1,0,0,1
+2025,action,General Updates,63,63,0,14,63
+2025,action,Others,1,1,0,0,1
+2025,action,Outcome of Board Meeting,11,11,0,0,11
+2025,action,Press Release,3,3,0,1,3
+2025,action,Record Date,603,603,2,44,603
+2025,action,Revised Record date,25,25,0,0,25
+2025,action,Scheme of Arrangement,3,3,0,1,3
+2025,action,Shareholders meeting,7,7,0,1,7
+2025,action,Stock split,50,50,0,10,50
+2025,action,Updates,115,115,2,19,115
+2025,business_update,Analysts/Institutional Investor Meet/Con. Call Updates,18,18,0,10,18
+2025,business_update,Disclosure of material issue,450,450,43,30,450
+2025,business_update,General Updates,55,55,0,8,55
+2025,business_update,Monthly Business Updates,251,251,2,96,251
+2025,business_update,Press Release,36,36,0,0,36
+2025,business_update,Press Release (Revised),1,1,0,0,1
+2025,business_update,Updates,131,131,2,29,131
+2025,buyback,Buyback,23,23,0,4,23
+2025,buyback,Closure of Buy Back,5,5,0,1,5
+2025,buyback,Copy of Newspaper Publication,10,10,1,1,10
+2025,buyback,General Updates,12,12,0,3,12
+2025,buyback,Outcome of Board Meeting,2,2,0,1,2
+2025,buyback,Post Buyback Public Announcement,5,5,1,1,5
+2025,buyback,Press Release,1,1,0,0,1
+2025,buyback,Public Announcement - Buyback of Shares,10,10,0,2,10
+2025,buyback,Record Date,13,13,0,2,13
+2025,buyback,Updates,12,12,0,2,12
+2025,capex,Agreements,1,1,0,1,1
+2025,capex,Capacity addition,1,1,0,0,1
+2025,capex,General Updates,3,3,0,1,3
+2025,capex,Outcome of Board Meeting,1,1,0,0,1
+2025,capex,Press Release,1,1,0,1,1
+2025,capex,Press Release (Revised),1,1,0,0,1
+2025,capex,Updates,5,5,0,1,5
+2025,credit,Corrigendum,1,1,0,0,1
+2025,credit,Credit Rating,1397,1397,62,316,1397
+2025,credit,Credit Rating- New,196,196,6,39,196
+2025,credit,Credit Rating- Others,189,189,4,28,189
+2025,credit,Credit Rating- Revision,416,416,7,68,416
+2025,credit,Disclosure of material issue,1,1,0,0,1
+2025,credit,General Updates,32,32,0,24,32
+2025,credit,Monitoring Agency Report,1,1,0,0,1
+2025,credit,Press Release,11,11,0,4,11
+2025,credit,Updates,41,41,0,18,41
+2025,debt,Agreements,2,2,0,0,2
+2025,debt,Allotment of Securities,86,86,0,14,86
+2025,debt,Amendment(s),1,1,0,0,1
+2025,debt,"Certificate under SEBI (Depositories and Participants) Regulations, 2018",1,1,0,1,1
+2025,debt,Committee Meeting Updates,15,15,0,0,15
+2025,debt,Conversion,1,1,0,0,1
+2025,debt,Copy of Newspaper Publication,2,2,0,0,2
+2025,debt,Corporate Insolvency Resolution Process,2,2,0,0,2
+2025,debt,Defaults on Payment of Interest/Principal,7,7,0,0,7
+2025,debt,Disclosure of material issue,1,1,0,0,1
+2025,debt,General Updates,77,77,0,17,77
+2025,debt,One time settlement,1,1,0,0,1
+2025,debt,Others,2,2,0,0,2
+2025,debt,Outcome of Board Meeting,28,28,1,4,28
+2025,debt,Press Release,17,17,0,6,17
+2025,debt,Redemption,2,2,0,1,2
+2025,debt,Suspension of Trading,23,23,15,17,23
+2025,debt,Updates,357,357,33,265,357
+2025,debt,Utilisation of Funds,1,1,0,1,1
+2025,divestment,Diversification/Disinvestment,9,9,0,3,9
+2025,divestment,General Updates,34,34,0,9,34
+2025,divestment,News Verification,2,2,0,0,2
+2025,divestment,Outcome of Board Meeting,3,3,0,0,3
+2025,divestment,Press Release,6,6,0,3,6
+2025,divestment,Sale or disposal,8,8,0,4,8
+2025,divestment,Updates,9,9,0,2,9
+2025,dividend,Book Closure,2,2,0,1,2
+2025,dividend,Copy of Newspaper Publication,145,145,0,29,145
+2025,dividend,Dividend,1679,1679,32,340,1679
+2025,dividend,General Updates,270,270,2,77,270
+2025,dividend,Outcome of Board Meeting,9,9,0,1,9
+2025,dividend,Press Release,23,23,0,6,23
+2025,dividend,Press Release (Revised),2,2,0,0,2
+2025,dividend,Record Date,1710,1710,24,330,1710
+2025,dividend,Revised Record date,24,24,0,7,24
+2025,dividend,Shareholders meeting,2,2,0,0,2
+2025,dividend,Updates,378,378,1,73,378
+2025,earnings,Action(s) initiated or orders passed,1,1,1,0,1
+2025,earnings,Action(s) taken or orders passed,1,1,0,0,1
+2025,earnings,Analysts/Institutional Investor Meet/Con. Call Updates,574,574,380,140,574
+2025,earnings,Bonus,1,1,0,0,1
+2025,earnings,Corporate Insolvency Resolution Process,13,13,8,0,13
+2025,earnings,Corrigendum,12,12,0,0,12
+2025,earnings,Dividend,58,58,24,3,58
+2025,earnings,Financial Result Updates,2147,2147,132,233,2147
+2025,earnings,General Updates,272,272,208,47,272
+2025,earnings,Integrated Filing- Financial,2497,2497,1604,252,2497
+2025,earnings,Integrated Filing- Governance,1,1,1,0,1
+2025,earnings,Outcome of Board Meeting,6385,6385,759,560,6385
+2025,earnings,Press Release,1416,1416,1092,258,1416
+2025,earnings,Press Release (Revised),18,18,17,4,18
+2025,earnings,Reasons for Delayed/Non-submission of Financial Results,71,71,36,1,71
+2025,earnings,Updates,603,603,416,65,603
+2025,earnings_followup,Clarification - Financial Results,667,667,247,23,0
+2025,earnings_followup,Copy of Newspaper Publication,1773,1773,2,185,0
+2025,earnings_followup,Reply to Clarification- Financial results,574,574,0,26,0
+2025,earnings_schedule,Analysts/Institutional Investor Meet/Con. Call Updates,16,16,0,0,0
+2025,earnings_schedule,Copy of Newspaper Publication,1,1,0,0,0
+2025,earnings_schedule,General Updates,3,3,0,0,0
+2025,earnings_schedule,Integrated Filing- Financial,2,2,0,0,0
+2025,earnings_schedule,Outcome of Board Meeting,6,6,1,0,0
+2025,earnings_schedule,Updates,8,8,0,1,0
+2025,expansion,Acquisition,1,1,0,0,1
+2025,expansion,Agreements,1,1,0,0,1
+2025,expansion,Capacity addition,2,2,0,0,2
+2025,expansion,Commencement of commercial production/operations,225,225,5,31,225
+2025,expansion,General Updates,24,24,0,0,24
+2025,expansion,Giving guarantees/indemnity/ becoming a surety for third party,1,1,0,0,1
+2025,expansion,Outcome of Board Meeting,2,2,0,0,2
+2025,expansion,Postponement of commercial production/operations,1,1,0,0,1
+2025,expansion,Press Release,19,19,0,1,19
+2025,expansion,Updates,29,29,1,4,29
+2025,fundraising,Agreements,1,1,0,1,1
+2025,fundraising,Allotment of Securities,191,191,1,7,191
+2025,fundraising,Analysts/Institutional Investor Meet/Con. Call Updates,1,1,0,1,1
+2025,fundraising,Committee Meeting Updates,32,32,0,0,32
+2025,fundraising,Conversion,1,1,0,0,1
+2025,fundraising,Copy of Newspaper Publication,68,68,1,8,68
+2025,fundraising,Corrigendum,2,2,0,0,2
+2025,fundraising,Disclosure of material issue,4,4,0,0,4
+2025,fundraising,General Updates,156,156,2,23,156
+2025,fundraising,Institutional Placement Programme,3,3,0,0,3
+2025,fundraising,Issue of Securities,270,270,3,70,270
+2025,fundraising,Monitoring Agency Report,129,129,1,12,129
+2025,fundraising,News Verification,6,6,1,6,6
+2025,fundraising,Others,2,2,0,0,2
+2025,fundraising,Outcome of Board Meeting,83,83,3,21,83
+2025,fundraising,Preferential issue,60,60,0,9,60
+2025,fundraising,Press Release,38,38,0,3,38
+2025,fundraising,Press Release (Revised),1,1,0,0,1
+2025,fundraising,Qualified Institutional Placement,22,22,1,7,22
+2025,fundraising,Record Date,10,10,0,1,10
+2025,fundraising,Revised Record date,1,1,0,0,1
+2025,fundraising,Rights Issue,104,104,4,5,104
+2025,fundraising,Updates,153,153,1,19,153
+2025,fundraising,Utilisation of Funds,1,1,0,0,1
+2025,fundraising,Withdrawal of Rights Issue,1,1,0,0,1
+2025,guidance,Press Release,8,8,0,1,8
+2025,guidance,Retirement,1,1,0,0,1
+2025,litigation,Action(s) initiated or orders passed,9,9,0,1,9
+2025,litigation,Action(s) taken or orders passed,9,9,0,0,9
+2025,litigation,Awarding of order(s)/contract(s),1,1,0,0,1
+2025,litigation,Copy of Newspaper Publication,15,15,0,4,15
+2025,litigation,Corporate Insolvency Resolution Process,10,10,0,0,10
+2025,litigation,Delisting,8,8,3,0,8
+2025,litigation,Disclosure of material issue,5,5,0,1,5
+2025,litigation,General Updates,105,105,3,16,105
+2025,litigation,Other Restructuring,1,1,0,0,1
+2025,litigation,Outcome of Board Meeting,1,1,0,0,1
+2025,litigation,Pendency of Litigation(s)/dispute(s) or the outcome impacting the Company,776,776,56,138,776
+2025,litigation,Press Release,5,5,0,1,5
+2025,litigation,Record Date,1,1,0,0,1
+2025,litigation,Scheme of Arrangement,8,8,0,1,8
+2025,litigation,Shareholders meeting,28,28,0,7,28
+2025,litigation,Suspension of Trading,2,2,0,0,2
+2025,litigation,Updates,63,63,1,18,63
+2025,management,Appointment,3806,3806,16,488,3806
+2025,management,"Arrangements for strategic, technical, manufacturing, or marketing tie up",1,1,0,0,1
+2025,management,Book Closure,1,1,0,0,1
+2025,management,Cessation,828,828,10,125,828
+2025,management,Change in Auditors,1,1,0,0,1
+2025,management,Change in Company Secretary/Compliance Officer,71,71,1,5,71
+2025,management,Change in Director(s),1524,1524,72,292,1524
+2025,management,Change in Management,2437,2437,78,517,2437
+2025,management,Clarification,5,5,1,0,5
+2025,management,Copy of Newspaper Publication,15,15,0,3,15
+2025,management,Corporate Insolvency Resolution Process,6,6,0,0,6
+2025,management,Corrigendum,1,1,0,0,1
+2025,management,Demise,1,1,0,0,1
+2025,management,Disclosure of material issue,14,14,0,0,14
+2025,management,Dividend,1,1,0,1,1
+2025,management,ESOP/ESOS/ESPS,1,1,0,0,1
+2025,management,General Updates,837,837,7,122,837
+2025,management,Initiation of Forensic Audit,1,1,0,0,1
+2025,management,Memorandum of Understanding/Agreements,1,1,0,0,1
+2025,management,Monitoring Agency Report,13,13,0,4,13
+2025,management,Other Restructuring,1,1,0,1,1
+2025,management,Outcome of Board Meeting,207,207,1,16,207
+2025,management,Press Release,78,78,0,15,78
+2025,management,Record Date,1,1,0,0,1
+2025,management,Reply to Clarification Sought,1,1,0,0,1
+2025,management,Resignation,1745,1745,20,146,1745
+2025,management,Resignation of Independent director,378,378,15,25,378
+2025,management,Resignation of Statutory Auditor,84,84,3,3,84
+2025,management,Retirement,1,1,0,0,1
+2025,management,Sale or disposal,4,4,0,4,4
+2025,management,Scheme of Arrangement,3,3,0,0,3
+2025,management,Shareholders meeting,58,58,0,7,58
+2025,management,Updates,526,526,5,66,526
+2025,meeting_notice,Analysts/Institutional Investor Meet/Con. Call Updates,39,39,0,5,0
+2025,meeting_notice,Copy of Newspaper Publication,16,16,0,1,0
+2025,meeting_notice,Corporate Insolvency Resolution Process,4,4,0,0,0
+2025,meeting_notice,Corrigendum,2,2,0,0,0
+2025,meeting_notice,Dividend,3,3,1,2,0
+2025,meeting_notice,General Updates,37,37,0,10,0
+2025,meeting_notice,Outcome of Board Meeting,26,26,2,6,0
+2025,meeting_notice,Qualified Institutional Placement,2,2,1,0,0
+2025,meeting_notice,Record Date,4,4,0,1,0
+2025,meeting_notice,Resignation,1,1,0,0,0
+2025,meeting_notice,Shareholders meeting,12,12,0,0,0
+2025,meeting_notice,Updates,35,35,1,4,0
+2025,order_cancellation,Agreements,1,1,0,0,1
+2025,order_cancellation,Bagging/Receiving of orders/contracts,1,1,0,1,1
+2025,order_cancellation,Disclosure of material issue,1,1,0,0,1
+2025,order_cancellation,General Updates,10,10,0,0,10
+2025,order_cancellation,News Verification,5,5,0,2,5
+2025,order_cancellation,Rescission/termination(s),4,4,0,0,4
+2025,order_cancellation,Updates,6,6,0,0,6
+2025,order_win,Action(s) initiated or orders passed,6,6,0,0,6
+2025,order_win,Action(s) taken or orders passed,23,23,1,15,23
+2025,order_win,Agreements,1,1,0,0,1
+2025,order_win,Amalgamation/Merger,1,1,0,0,1
+2025,order_win,Awarding of order(s)/contract(s),14,14,0,1,14
+2025,order_win,Bagging/Receiving of orders/contracts,1163,1163,101,230,1163
+2025,order_win,Corporate Insolvency Resolution Process,1,1,0,0,1
+2025,order_win,Demerger,2,2,0,0,2
+2025,order_win,General Updates,43,43,0,10,43
+2025,order_win,News Verification,2,2,1,2,2
+2025,order_win,Pendency of Litigation(s)/dispute(s) or the outcome impacting the Company,1,1,0,0,1
+2025,order_win,Press Release,34,34,1,2,34
+2025,order_win,Price movement,2,2,0,0,2
+2025,order_win,Scheme of Arrangement,3,3,0,0,3
+2025,order_win,Updates,42,42,0,2,42
+2025,presentation,Analysts/Institutional Investor Meet/Con. Call Updates,22,22,0,5,0
+2025,presentation,Corrigendum,2,2,0,0,0
+2025,presentation,Disclosure of material issue,1,1,0,0,0
+2025,presentation,General Updates,189,189,0,31,0
+2025,presentation,Investor Presentation,4133,4133,185,784,0
+2025,presentation,Outcome of Board Meeting,1,1,0,0,0
+2025,presentation,Press Release,31,31,0,9,0
+2025,presentation,Updates,205,205,2,28,0
+2025,regulatory,Action(s) initiated or orders passed,685,685,44,90,685
+2025,regulatory,Action(s) taken or orders passed,1218,1218,95,378,1218
+2025,regulatory,Capacity addition,1,1,0,0,1
+2025,regulatory,Clarification,1,1,0,0,1
+2025,regulatory,Defaults on Payment of Interest/Principal,1,1,0,0,1
+2025,regulatory,Disclosure of material issue,4,4,0,0,4
+2025,regulatory,General Updates,33,33,3,5,33
+2025,regulatory,Granting/withdrawal/surrender/cancellation/suspension of key licenses/ regulatory approvals,99,99,2,10,99
+2025,regulatory,News Verification,4,4,0,0,4
+2025,regulatory,Press Release,85,85,0,1,85
+2025,regulatory,Product launch,1,1,0,0,1
+2025,regulatory,Reply to Clarification Sought,1,1,0,0,1
+2025,regulatory,Updates,36,36,1,11,36
+2025,routine_or_unclassified,Addendum,30,30,2,4,0
+2025,routine_or_unclassified,Address Change,116,116,0,8,0
+2025,routine_or_unclassified,Adoption of new line(s) of business,19,19,1,1,0
+2025,routine_or_unclassified,Agreements,431,431,16,70,0
+2025,routine_or_unclassified,Allotment of Securities,812,812,6,215,0
+2025,routine_or_unclassified,Alteration/revision(s),8,8,0,1,0
+2025,routine_or_unclassified,Amendment to AOA/MOA,351,351,2,35,0
+2025,routine_or_unclassified,Amendment(s),22,22,1,3,0
+2025,routine_or_unclassified,Analysts/Institutional Investor Meet/Con. Call Updates,23778,23778,2344,5974,0
+2025,routine_or_unclassified,"Arrangements for strategic, technical, manufacturing, or marketing tie up",52,52,2,20,0
+2025,routine_or_unclassified,Awarding of order(s)/contract(s),207,207,8,18,0
+2025,routine_or_unclassified,Board meeting Cancelled,2,2,0,0,0
+2025,routine_or_unclassified,Bonus,73,73,15,9,0
+2025,routine_or_unclassified,Book Closure,12,12,0,0,0
+2025,routine_or_unclassified,Cancellation of Book closure,4,4,0,0,0
+2025,routine_or_unclassified,Capacity addition,201,201,5,36,0
+2025,routine_or_unclassified,"Certificate under SEBI (Depositories and Participants) Regulations, 2018",8219,8219,86,832,0
+2025,routine_or_unclassified,Change in Auditors,949,949,89,126,0
+2025,routine_or_unclassified,Change in Company Secretary/Compliance Officer,246,246,5,25,0
+2025,routine_or_unclassified,Change in Financial Year,1,1,0,1,0
+2025,routine_or_unclassified,Closure of operations,52,52,0,5,0
+2025,routine_or_unclassified,Committee Meeting Updates,147,147,4,10,0
+2025,routine_or_unclassified,Conversion,28,28,2,5,0
+2025,routine_or_unclassified,Copy of Newspaper Publication,13398,13398,353,1689,0
+2025,routine_or_unclassified,Corporate Insolvency Resolution Process,598,598,38,5,0
+2025,routine_or_unclassified,Corrigendum,223,223,3,15,0
+2025,routine_or_unclassified,Defaults on Payment of Interest/Principal,40,40,1,0,0
+2025,routine_or_unclassified,Delay/default in the payment of fines/penalties/dues etc. to authority,46,46,5,0,0
+2025,routine_or_unclassified,Delisting,6,6,2,0,0
+2025,routine_or_unclassified,Demise,58,58,1,7,0
+2025,routine_or_unclassified,Disclosure of all complaints including SCORES complaints received by the InvIT on a quarterly basis,1,1,0,0,0
+2025,routine_or_unclassified,Disruption of Operations,45,45,2,6,0
+2025,routine_or_unclassified,Diversification/Disinvestment,56,56,1,13,0
+2025,routine_or_unclassified,ESOP/ESOS/ESPS,1921,1921,13,746,0
+2025,routine_or_unclassified,Effect(s) on listed entity due to changed regulatory framework applicable,4,4,0,0,0
+2025,routine_or_unclassified,Extension of Annual General Meeting,13,13,0,0,0
+2025,routine_or_unclassified,Extension of Financial Year,4,4,0,0,0
+2025,routine_or_unclassified,FCCBs,1,1,0,0,0
+2025,routine_or_unclassified,Final forensic audit report,3,3,0,0,0
+2025,routine_or_unclassified,Forfeiture,5,5,0,0,0
+2025,routine_or_unclassified,Fraud/Default/Arrest,29,29,2,3,0
+2025,routine_or_unclassified,Frauds/Default by employees,3,3,0,0,0
+2025,routine_or_unclassified,General Updates,13870,13870,778,3201,17
+2025,routine_or_unclassified,Giving guarantees/indemnity/ becoming a surety for third party,145,145,0,29,0
+2025,routine_or_unclassified,Incorporation,190,190,9,66,0
+2025,routine_or_unclassified,Increase in Authorised Capital,13,13,0,1,0
+2025,routine_or_unclassified,Initiation of Forensic Audit,2,2,1,0,0
+2025,routine_or_unclassified,Institutional Placement Programme,1,1,0,0,0
+2025,routine_or_unclassified,Integrated Filing- Governance,184,184,3,4,0
+2025,routine_or_unclassified,Issue of Duplicate Share Certificate,78,78,0,3,0
+2025,routine_or_unclassified,Loss of Share Certificates,275,275,28,11,0
+2025,routine_or_unclassified,Memorandum of Understanding/Agreements,62,62,0,15,0
+2025,routine_or_unclassified,Monitoring Agency Report,1039,1039,7,157,0
+2025,routine_or_unclassified,Name Change,76,76,1,7,0
+2025,routine_or_unclassified,Name and Symbol Change,33,33,0,0,0
+2025,routine_or_unclassified,News Verification,377,377,85,199,3
+2025,routine_or_unclassified,Offer for sale,41,41,0,7,0
+2025,routine_or_unclassified,One time settlement,7,7,0,0,0
+2025,routine_or_unclassified,Open Offer,4,4,0,0,0
+2025,routine_or_unclassified,Options to purchase securities,251,251,8,56,0
+2025,routine_or_unclassified,Other Restructuring,49,49,0,16,0
+2025,routine_or_unclassified,Others,29,29,0,4,0
+2025,routine_or_unclassified,Outcome of Board Meeting,8059,8059,313,824,1
+2025,routine_or_unclassified,Post Offer Public Announcement,6,6,0,0,0
+2025,routine_or_unclassified,Postponement of commercial production/operations,2,2,0,1,0
+2025,routine_or_unclassified,Press Release,5995,5995,15,1546,91
+2025,routine_or_unclassified,Press Release (Revised),65,65,0,15,0
+2025,routine_or_unclassified,Price movement,478,478,91,12,0
+2025,routine_or_unclassified,Product launch,148,148,2,25,0
+2025,routine_or_unclassified,Public Announcement-Open Offer,27,27,0,3,0
+2025,routine_or_unclassified,Quarterly Compliance Report on Corporate governance - within 21 days from the end of the quarter,52,52,0,0,0
+2025,routine_or_unclassified,Redemption,5,5,0,0,0
+2025,routine_or_unclassified,Registrar & Share Transfer Agent Update,57,57,1,10,0
+2025,routine_or_unclassified,Related Party Transactions,73,73,3,6,0
+2025,routine_or_unclassified,Rescission/termination(s),16,16,1,4,0
+2025,routine_or_unclassified,Retirement,226,226,2,53,0
+2025,routine_or_unclassified,Rumour Verification - Regulation 30(11),193,193,7,125,0
+2025,routine_or_unclassified,Sale or disposal,112,112,4,43,0
+2025,routine_or_unclassified,Scheme of Arrangement,170,170,3,33,0
+2025,routine_or_unclassified,Shareholders meeting,11085,11085,126,1259,0
+2025,routine_or_unclassified,Spurt in Volume,1008,1008,204,44,0
+2025,routine_or_unclassified,Statement of deviation(s) or variation(s) under Reg. 32,788,788,28,83,0
+2025,routine_or_unclassified,Strikes/Lockouts/Disturbances,30,30,2,4,0
+2025,routine_or_unclassified,Structural Digital Database,273,273,0,2,0
+2025,routine_or_unclassified,Suspension of Trading,24,24,7,1,0
+2025,routine_or_unclassified,Symbol Change of company,4,4,0,0,0
+2025,routine_or_unclassified,Updates,11082,11082,137,2217,8
+2025,routine_or_unclassified,Utilisation of Funds,31,31,1,3,0
+2025,routine_or_unclassified,Voluntary Delisting,6,6,0,1,0
+2025,routine_or_unclassified,Voluntary Revision of Financial statements or Report,2,2,0,0,0
+2025,shareholding,Disclosure of material issue,2,2,0,0,0
+2025,shareholding,Disclosure under SEBI (PIT) Reg 2015,1,1,0,1,0
+2025,shareholding,Disclosure under SEBI Takeover Regulations,31,31,0,3,0
+2025,shareholding,Effect(s) on listed entity due to changed regulatory framework applicable,1,1,0,0,0
+2025,shareholding,General Updates,86,86,6,8,0
+2025,shareholding,News Verification,2,2,1,2,0
+2025,shareholding,Press Release,1,1,0,0,0
+2025,shareholding,Structural Digital Database,52,52,0,0,0
+2025,shareholding,Trading Plan under PIT,39,39,2,8,0
+2025,shareholding,Trading Window,9091,9091,56,922,0
+2025,shareholding,Updates,467,467,19,34,1
+2026,acquisition,Acquisition,1221,1221,31,364,1221
+2026,acquisition,Action(s) taken or orders passed,1,1,0,0,1
+2026,acquisition,Addendum,1,1,0,0,1
+2026,acquisition,Agreements,35,35,1,4,35
+2026,acquisition,Allotment of Securities,11,11,0,2,11
+2026,acquisition,Amalgamation/Merger,268,268,3,66,268
+2026,acquisition,Amendment(s),4,4,0,2,4
+2026,acquisition,Analysts/Institutional Investor Meet/Con. Call Updates,4,4,0,1,4
+2026,acquisition,"Arrangements for strategic, technical, manufacturing, or marketing tie up",12,12,1,6,12
+2026,acquisition,Capacity addition,3,3,0,2,3
+2026,acquisition,Committee Meeting Updates,1,1,0,1,1
+2026,acquisition,Copy of Newspaper Publication,28,28,0,6,28
+2026,acquisition,Corporate Insolvency Resolution Process,5,5,0,0,5
+2026,acquisition,Credit Rating- Others,1,1,0,0,1
+2026,acquisition,Demerger,37,37,1,1,37
+2026,acquisition,Disclosure of material issue,17,17,0,0,17
+2026,acquisition,Disclosure under SEBI Takeover Regulations,4275,4275,149,374,4275
+2026,acquisition,Diversification/Disinvestment,2,2,0,2,2
+2026,acquisition,ESOP/ESOS/ESPS,1,1,0,0,1
+2026,acquisition,General Updates,740,740,17,179,740
+2026,acquisition,Giving guarantees/indemnity/ becoming a surety for third party,5,5,1,1,5
+2026,acquisition,Incorporation,1,1,0,1,1
+2026,acquisition,Issue of Securities,1,1,0,0,1
+2026,acquisition,Memorandum of Understanding/Agreements,5,5,0,3,5
+2026,acquisition,News Verification,36,36,13,20,36
+2026,acquisition,Open Offer,8,8,0,2,8
+2026,acquisition,Other Restructuring,5,5,0,1,5
+2026,acquisition,Others,42,42,22,0,42
+2026,acquisition,Outcome of Board Meeting,62,62,1,8,62
+2026,acquisition,Pendency of Litigation(s)/dispute(s) or the outcome impacting the Company,1,1,0,0,1
+2026,acquisition,Preferential issue,1,1,1,0,1
+2026,acquisition,Press Release,144,144,0,27,144
+2026,acquisition,Press Release (Revised),4,4,0,1,4
+2026,acquisition,Public Announcement-Open Offer,31,31,0,8,31
+2026,acquisition,Record Date,13,13,0,2,13
+2026,acquisition,Rumour Verification - Regulation 30(11),1,1,0,0,1
+2026,acquisition,Sale or disposal,7,7,0,1,7
+2026,acquisition,Scheme of Arrangement,34,34,1,7,34
+2026,acquisition,Shareholders meeting,11,11,0,2,11
+2026,acquisition,Suspension of Trading,5,5,3,0,5
+2026,acquisition,Updates,416,416,10,56,416
+2026,action,Allotment of Securities,3,3,0,0,3
+2026,action,Bonus,2,2,0,1,2
+2026,action,Committee Meeting Updates,1,1,0,0,1
+2026,action,Copy of Newspaper Publication,73,73,0,15,73
+2026,action,Corrigendum,1,1,0,0,1
+2026,action,General Updates,63,63,0,6,63
+2026,action,Outcome of Board Meeting,10,10,0,1,10
+2026,action,Press Release,7,7,0,0,7
+2026,action,Record Date,436,436,3,18,436
+2026,action,Revised Record date,15,15,1,0,15
+2026,action,Scheme of Arrangement,5,5,1,2,5
+2026,action,Shareholders meeting,9,9,0,1,9
+2026,action,Stock split,38,38,0,3,38
+2026,action,Updates,102,102,0,11,102
+2026,business_update,Amendment(s),1,1,0,0,1
+2026,business_update,Analysts/Institutional Investor Meet/Con. Call Updates,16,16,0,10,16
+2026,business_update,Disclosure of material issue,370,370,41,21,370
+2026,business_update,Disruption of Operations,1,1,0,0,1
+2026,business_update,Fraud/Default/Arrest,1,1,0,0,1
+2026,business_update,General Updates,118,118,1,19,118
+2026,business_update,Monthly Business Updates,236,236,0,82,236
+2026,business_update,Press Release,50,50,0,0,50
+2026,business_update,Updates,115,115,0,21,115
+2026,buyback,Buyback,65,65,3,3,65
+2026,buyback,Closure of Buy Back,21,21,0,2,21
+2026,buyback,Copy of Newspaper Publication,47,47,1,3,47
+2026,buyback,Corrigendum,3,3,0,0,3
+2026,buyback,General Updates,21,21,1,6,21
+2026,buyback,News Verification,2,2,0,2,2
+2026,buyback,Outcome of Board Meeting,7,7,0,1,7
+2026,buyback,Post Buyback Public Announcement,23,23,0,1,23
+2026,buyback,Press Release,5,5,0,2,5
+2026,buyback,Public Announcement - Buyback of Shares,36,36,0,2,36
+2026,buyback,Record Date,31,31,0,4,31
+2026,buyback,Shareholders meeting,2,2,0,0,2
+2026,buyback,Updates,45,45,1,5,45
+2026,capex,Capacity addition,1,1,0,0,1
+2026,capex,General Updates,11,11,1,1,11
+2026,capex,Memorandum of Understanding/Agreements,1,1,0,0,1
+2026,capex,News Verification,6,6,3,6,6
+2026,capex,Outcome of Board Meeting,2,2,0,1,2
+2026,capex,Press Release,5,5,0,3,5
+2026,capex,Updates,4,4,0,1,4
+2026,credit,Corporate Insolvency Resolution Process,2,2,0,0,2
+2026,credit,Credit Rating,1503,1503,58,314,1503
+2026,credit,Credit Rating- New,267,267,4,61,267
+2026,credit,Credit Rating- Others,171,171,2,19,171
+2026,credit,Credit Rating- Revision,360,360,3,55,360
+2026,credit,General Updates,50,50,1,42,50
+2026,credit,Monitoring Agency Report,2,2,0,0,2
+2026,credit,Press Release,24,24,1,8,24
+2026,credit,Updates,25,25,0,5,25
+2026,debt,Agreements,1,1,0,0,1
+2026,debt,Allotment of Securities,102,102,0,26,102
+2026,debt,"Certificate under SEBI (Depositories and Participants) Regulations, 2018",4,4,0,4,4
+2026,debt,Committee Meeting Updates,23,23,0,0,23
+2026,debt,Conversion,2,2,0,2,2
+2026,debt,Copy of Newspaper Publication,4,4,0,1,4
+2026,debt,Corrigendum,3,3,0,0,3
+2026,debt,Defaults on Payment of Interest/Principal,2,2,0,0,2
+2026,debt,Disclosure of material issue,2,2,0,1,2
+2026,debt,General Updates,130,130,1,25,130
+2026,debt,News Verification,2,2,1,2,2
+2026,debt,Others,2,2,0,0,2
+2026,debt,Outcome of Board Meeting,23,23,0,5,23
+2026,debt,Press Release,10,10,0,0,10
+2026,debt,Record Date,2,2,0,0,2
+2026,debt,Redemption,3,3,0,0,3
+2026,debt,Sale or disposal,1,1,0,1,1
+2026,debt,Shareholders meeting,6,6,0,2,6
+2026,debt,Suspension of Trading,28,28,25,18,28
+2026,debt,Updates,316,316,56,244,316
+2026,divestment,Agreements,2,2,0,1,2
+2026,divestment,Committee Meeting Updates,1,1,0,1,1
+2026,divestment,Disclosure of material issue,2,2,0,1,2
+2026,divestment,Diversification/Disinvestment,9,9,0,6,9
+2026,divestment,General Updates,39,39,0,9,39
+2026,divestment,Memorandum of Understanding/Agreements,1,1,0,0,1
+2026,divestment,News Verification,2,2,1,0,2
+2026,divestment,Outcome of Board Meeting,5,5,0,0,5
+2026,divestment,Press Release,5,5,0,0,5
+2026,divestment,Sale or disposal,8,8,0,4,8
+2026,divestment,Updates,8,8,0,1,8
+2026,dividend,Copy of Newspaper Publication,180,180,0,34,180
+2026,dividend,Corrigendum,2,2,0,0,2
+2026,dividend,Disclosure of material issue,1,1,1,1,1
+2026,dividend,Dividend,1454,1454,15,284,1454
+2026,dividend,General Updates,366,366,1,76,366
+2026,dividend,Outcome of Board Meeting,13,13,0,1,13
+2026,dividend,Press Release,26,26,0,8,26
+2026,dividend,Record Date,1758,1758,22,325,1758
+2026,dividend,Revised Record date,3,3,0,0,3
+2026,dividend,Shareholders meeting,5,5,0,1,5
+2026,dividend,Updates,342,342,1,64,342
+2026,earnings,Addendum,1,1,1,0,1
+2026,earnings,Analysts/Institutional Investor Meet/Con. Call Updates,840,840,570,182,840
+2026,earnings,Bonus,1,1,0,0,1
+2026,earnings,Corporate Insolvency Resolution Process,20,20,9,0,20
+2026,earnings,Corrigendum,17,17,0,1,17
+2026,earnings,Disclosure of material issue,2,2,1,0,2
+2026,earnings,Dividend,14,14,9,2,14
+2026,earnings,General Updates,424,424,353,85,424
+2026,earnings,Integrated Filing- Financial,319,319,273,3,319
+2026,earnings,Monitoring Agency Report,1,1,1,0,1
+2026,earnings,Outcome of Board Meeting,9347,9347,786,888,9347
+2026,earnings,Press Release,1673,1673,1518,279,1673
+2026,earnings,Press Release (Revised),41,41,40,5,41
+2026,earnings,Reasons for Delayed/Non-submission of Financial Results,68,68,53,0,68
+2026,earnings,Updates,482,482,398,29,482
+2026,earnings,Voluntary Revision of Financial statements or Report,1,1,1,1,1
+2026,earnings_followup,Clarification - Financial Results,811,811,586,27,0
+2026,earnings_followup,Copy of Newspaper Publication,2363,2363,6,200,0
+2026,earnings_followup,Reply to Clarification- Financial results,759,759,1,25,0
+2026,earnings_schedule,Analysts/Institutional Investor Meet/Con. Call Updates,30,30,0,2,0
+2026,earnings_schedule,Copy of Newspaper Publication,1,1,0,0,0
+2026,earnings_schedule,Corrigendum,1,1,0,0,0
+2026,earnings_schedule,General Updates,5,5,0,0,0
+2026,earnings_schedule,Integrated Filing- Financial,5,5,0,0,0
+2026,earnings_schedule,Outcome of Board Meeting,8,8,1,3,0
+2026,earnings_schedule,Reasons for Delayed/Non-submission of Financial Results,1,1,0,0,0
+2026,earnings_schedule,Updates,2,2,0,0,0
+2026,expansion,Capacity addition,18,18,0,1,18
+2026,expansion,Commencement of commercial production/operations,237,237,9,23,237
+2026,expansion,Disclosure of material issue,1,1,0,0,1
+2026,expansion,Disruption of Operations,1,1,0,0,1
+2026,expansion,General Updates,27,27,0,1,27
+2026,expansion,Outcome of Board Meeting,1,1,0,0,1
+2026,expansion,Postponement of commercial production/operations,4,4,0,0,4
+2026,expansion,Press Release,17,17,0,0,17
+2026,expansion,Updates,13,13,0,1,13
+2026,fundraising,Agreements,1,1,0,0,1
+2026,fundraising,Allotment of Securities,171,171,3,8,171
+2026,fundraising,Committee Meeting Updates,35,35,0,5,35
+2026,fundraising,Conversion,1,1,0,0,1
+2026,fundraising,Copy of Newspaper Publication,32,32,1,3,32
+2026,fundraising,Corporate Insolvency Resolution Process,3,3,0,0,3
+2026,fundraising,Corrigendum,6,6,0,0,6
+2026,fundraising,Disclosure of material issue,8,8,0,0,8
+2026,fundraising,Dividend,1,1,0,0,1
+2026,fundraising,General Updates,186,186,4,29,186
+2026,fundraising,Granting/withdrawal/surrender/cancellation/suspension of key licenses/ regulatory approvals,2,2,0,0,2
+2026,fundraising,Issue of Securities,212,212,2,47,212
+2026,fundraising,Monitoring Agency Report,145,145,0,17,145
+2026,fundraising,News Verification,6,6,2,4,6
+2026,fundraising,Others,4,4,0,0,4
+2026,fundraising,Outcome of Board Meeting,70,70,1,16,70
+2026,fundraising,Preferential issue,55,55,4,2,55
+2026,fundraising,Press Release,21,21,0,3,21
+2026,fundraising,Press Release (Revised),1,1,0,0,1
+2026,fundraising,Qualified Institutional Placement,46,46,4,11,46
+2026,fundraising,Record Date,5,5,0,1,5
+2026,fundraising,Rights Issue,52,52,3,1,52
+2026,fundraising,Shareholders meeting,3,3,0,0,3
+2026,fundraising,Updates,119,119,1,16,119
+2026,fundraising,Utilisation of Funds,3,3,0,0,3
+2026,guidance,General Updates,2,2,0,0,2
+2026,guidance,Press Release,10,10,0,0,10
+2026,guidance,Retirement,1,1,0,0,1
+2026,guidance,Updates,1,1,0,0,1
+2026,litigation,Action(s) initiated or orders passed,2,2,0,0,2
+2026,litigation,Action(s) taken or orders passed,16,16,0,0,16
+2026,litigation,Copy of Newspaper Publication,18,18,1,5,18
+2026,litigation,Corporate Insolvency Resolution Process,17,17,0,10,17
+2026,litigation,Corrigendum,1,1,0,0,1
+2026,litigation,Delisting,5,5,3,0,5
+2026,litigation,Disclosure of material issue,5,5,1,2,5
+2026,litigation,General Updates,90,90,1,26,90
+2026,litigation,News Verification,8,8,2,6,8
+2026,litigation,Pendency of Litigation(s)/dispute(s) or the outcome impacting the Company,659,659,27,104,659
+2026,litigation,Press Release,6,6,0,2,6
+2026,litigation,Scheme of Arrangement,11,11,0,0,11
+2026,litigation,Shareholders meeting,27,27,0,4,27
+2026,litigation,Suspension of Trading,1,1,1,0,1
+2026,litigation,Updates,34,34,0,6,34
+2026,management,Addendum,1,1,0,0,1
+2026,management,Agreements,2,2,0,0,2
+2026,management,Appointment,3356,3356,40,419,3356
+2026,management,Cessation,910,910,11,140,910
+2026,management,Change in Company Secretary/Compliance Officer,60,60,1,1,60
+2026,management,Change in Director(s),1307,1307,66,256,1307
+2026,management,Change in Management,2558,2558,64,474,2558
+2026,management,Closure of operations,1,1,0,0,1
+2026,management,Committee Meeting Updates,1,1,0,0,1
+2026,management,Copy of Newspaper Publication,3,3,0,0,3
+2026,management,Corporate Insolvency Resolution Process,16,16,1,0,16
+2026,management,Corrigendum,3,3,0,0,3
+2026,management,Disclosure of material issue,17,17,0,1,17
+2026,management,Disruption of Operations,1,1,0,0,1
+2026,management,Dividend,1,1,0,0,1
+2026,management,General Updates,521,521,4,99,521
+2026,management,Monitoring Agency Report,12,12,0,2,12
+2026,management,Others,1,1,0,1,1
+2026,management,Outcome of Board Meeting,345,345,3,42,345
+2026,management,Press Release,40,40,0,7,40
+2026,management,Resignation,1544,1544,12,107,1544
+2026,management,Resignation of Director/KMP/SMP,1663,1663,333,135,1663
+2026,management,Resignation of Independent director,115,115,1,6,115
+2026,management,Resignation of Statutory Auditor,89,89,22,4,89
+2026,management,Retirement,10,10,0,1,10
+2026,management,Sale or disposal,3,3,0,2,3
+2026,management,Shareholders meeting,47,47,0,10,47
+2026,management,Updates,239,239,0,17,239
+2026,meeting_notice,Addendum,1,1,0,0,0
+2026,meeting_notice,Analysts/Institutional Investor Meet/Con. Call Updates,44,44,0,1,0
+2026,meeting_notice,Cessation,1,1,0,0,0
+2026,meeting_notice,Change in Management,1,1,0,0,0
+2026,meeting_notice,Copy of Newspaper Publication,12,12,0,0,0
+2026,meeting_notice,Corporate Insolvency Resolution Process,5,5,0,0,0
+2026,meeting_notice,Corrigendum,3,3,0,0,0
+2026,meeting_notice,Disclosure of material issue,1,1,0,0,0
+2026,meeting_notice,General Updates,27,27,0,6,0
+2026,meeting_notice,Outcome of Board Meeting,24,24,0,1,0
+2026,meeting_notice,Press Release,2,2,0,0,0
+2026,meeting_notice,Shareholders meeting,12,12,0,0,0
+2026,meeting_notice,Updates,36,36,0,2,0
+2026,order_cancellation,Acquisition,1,1,0,1,1
+2026,order_cancellation,Agreements,5,5,0,4,5
+2026,order_cancellation,Awarding of order(s)/contract(s),1,1,0,0,1
+2026,order_cancellation,General Updates,11,11,2,5,11
+2026,order_cancellation,News Verification,2,2,1,0,2
+2026,order_cancellation,Press Release (Revised),1,1,0,0,1
+2026,order_cancellation,Rescission/termination(s),5,5,0,0,5
+2026,order_cancellation,Sale or disposal,1,1,0,0,1
+2026,order_cancellation,Updates,14,14,0,1,14
+2026,order_win,Action(s) initiated or orders passed,6,6,0,0,6
+2026,order_win,Action(s) taken or orders passed,8,8,0,2,8
+2026,order_win,Amalgamation/Merger,3,3,0,2,3
+2026,order_win,Awarding of order(s)/contract(s),11,11,0,2,11
+2026,order_win,Bagging/Receiving of orders/contracts,1403,1403,122,264,1403
+2026,order_win,Copy of Newspaper Publication,2,2,0,0,2
+2026,order_win,Disclosure of material issue,1,1,0,1,1
+2026,order_win,General Updates,26,26,1,4,26
+2026,order_win,Pendency of Litigation(s)/dispute(s) or the outcome impacting the Company,13,13,0,1,13
+2026,order_win,Press Release,21,21,0,10,21
+2026,order_win,Scheme of Arrangement,1,1,0,1,1
+2026,order_win,Shareholders meeting,3,3,0,2,3
+2026,order_win,Updates,27,27,0,2,27
+2026,presentation,Analysts/Institutional Investor Meet/Con. Call Updates,47,47,1,13,0
+2026,presentation,General Updates,197,197,1,18,0
+2026,presentation,Investor Presentation,4639,4639,199,725,0
+2026,presentation,Press Release,30,30,1,5,0
+2026,presentation,Press Release (Revised),3,3,0,1,0
+2026,presentation,Updates,147,147,0,17,0
+2026,regulatory,Action(s) initiated or orders passed,447,447,12,52,447
+2026,regulatory,Action(s) taken or orders passed,865,865,31,225,865
+2026,regulatory,Disclosure of material issue,1,1,0,0,1
+2026,regulatory,General Updates,54,54,0,10,54
+2026,regulatory,Granting/withdrawal/surrender/cancellation/suspension of key licenses/ regulatory approvals,115,115,3,11,115
+2026,regulatory,News Verification,2,2,1,2,2
+2026,regulatory,Outcome of Board Meeting,1,1,0,0,1
+2026,regulatory,Press Release,72,72,0,7,72
+2026,regulatory,Press Release (Revised),1,1,0,0,1
+2026,regulatory,Updates,18,18,0,3,18
+2026,routine_or_unclassified,Addendum,20,20,2,0,0
+2026,routine_or_unclassified,Address Change,108,108,2,10,0
+2026,routine_or_unclassified,Adoption of new line(s) of business,21,21,0,3,0
+2026,routine_or_unclassified,Agreements,444,444,17,56,0
+2026,routine_or_unclassified,Allotment of Securities,825,825,3,216,0
+2026,routine_or_unclassified,Alteration/revision(s),4,4,0,0,0
+2026,routine_or_unclassified,Amendment to AOA/MOA,308,308,8,20,0
+2026,routine_or_unclassified,Amendment(s),18,18,0,4,0
+2026,routine_or_unclassified,Analysts/Institutional Investor Meet/Con. Call Updates,23011,23011,1770,5263,0
+2026,routine_or_unclassified,"Arrangements for strategic, technical, manufacturing, or marketing tie up",55,55,0,9,0
+2026,routine_or_unclassified,Awarding of order(s)/contract(s),191,191,13,3,0
+2026,routine_or_unclassified,Board meeting Cancelled,1,1,0,0,0
+2026,routine_or_unclassified,Bonus,41,41,4,3,1
+2026,routine_or_unclassified,Cancellation of Book closure,1,1,0,0,0
+2026,routine_or_unclassified,Capacity addition,252,252,9,35,0
+2026,routine_or_unclassified,"Certificate under SEBI (Depositories and Participants) Regulations, 2018",8861,8861,60,823,0
+2026,routine_or_unclassified,Change in Auditors,799,799,65,84,0
+2026,routine_or_unclassified,Change in Company Secretary/Compliance Officer,188,188,2,18,0
+2026,routine_or_unclassified,Change in Financial Year,1,1,0,1,0
+2026,routine_or_unclassified,Closure of operations,37,37,0,5,0
+2026,routine_or_unclassified,Committee Meeting Updates,205,205,8,18,0
+2026,routine_or_unclassified,Conversion,27,27,0,2,0
+2026,routine_or_unclassified,Copy of Newspaper Publication,14383,14383,366,1756,0
+2026,routine_or_unclassified,Corporate Debt Restructuring,2,2,0,0,0
+2026,routine_or_unclassified,Corporate Insolvency Resolution Process,577,577,36,9,0
+2026,routine_or_unclassified,Corrigendum,201,201,1,4,0
+2026,routine_or_unclassified,Defaults on Payment of Interest/Principal,30,30,0,0,0
+2026,routine_or_unclassified,Delay/default in the payment of fines/penalties/dues etc. to authority,21,21,0,0,0
+2026,routine_or_unclassified,Delisting,5,5,3,0,0
+2026,routine_or_unclassified,Demise,82,82,0,8,0
+2026,routine_or_unclassified,Disruption of Operations,69,69,2,8,0
+2026,routine_or_unclassified,Diversification/Disinvestment,50,50,2,8,0
+2026,routine_or_unclassified,ESOP/ESOS/ESPS,1890,1890,6,700,0
+2026,routine_or_unclassified,Effect(s) on listed entity due to changed regulatory framework applicable,10,10,0,5,0
+2026,routine_or_unclassified,Extension of Annual General Meeting,12,12,0,1,0
+2026,routine_or_unclassified,Extension of Financial Year,7,7,0,0,0
+2026,routine_or_unclassified,FCCBs,1,1,0,0,0
+2026,routine_or_unclassified,Final forensic audit report,5,5,1,1,0
+2026,routine_or_unclassified,Forfeiture,24,24,0,0,0
+2026,routine_or_unclassified,Fraud/Default/Arrest,32,32,1,1,0
+2026,routine_or_unclassified,Frauds/Default by employees,10,10,0,1,0
+2026,routine_or_unclassified,General Updates,13487,13487,586,2926,9
+2026,routine_or_unclassified,Giving guarantees/indemnity/ becoming a surety for third party,195,195,2,30,0
+2026,routine_or_unclassified,Incorporation,71,71,2,19,0
+2026,routine_or_unclassified,Increase in Authorised Capital,12,12,0,1,0
+2026,routine_or_unclassified,Initiation of Forensic Audit,9,9,0,1,0
+2026,routine_or_unclassified,Integrated Filing- Governance,26,26,0,0,0
+2026,routine_or_unclassified,Issue of Duplicate Share Certificate,18,18,0,0,0
+2026,routine_or_unclassified,Loss of Share Certificates,86,86,9,0,0
+2026,routine_or_unclassified,Memorandum of Understanding/Agreements,66,66,0,2,0
+2026,routine_or_unclassified,Monitoring Agency Report,1334,1334,2,145,0
+2026,routine_or_unclassified,Name Change,54,54,0,3,0
+2026,routine_or_unclassified,Name and Symbol Change,22,22,0,0,0
+2026,routine_or_unclassified,News Verification,478,478,183,246,0
+2026,routine_or_unclassified,Offer for sale,35,35,0,10,0
+2026,routine_or_unclassified,One time settlement,7,7,0,0,0
+2026,routine_or_unclassified,Open Offer,14,14,2,0,0
+2026,routine_or_unclassified,Options to purchase securities,298,298,5,48,0
+2026,routine_or_unclassified,Other Restructuring,71,71,1,20,0
+2026,routine_or_unclassified,Others,25,25,1,2,0
+2026,routine_or_unclassified,Outcome of Board Meeting,4589,4589,242,451,0
+2026,routine_or_unclassified,Post Offer Public Announcement,1,1,0,0,0
+2026,routine_or_unclassified,Postponement of commercial production/operations,4,4,0,0,0
+2026,routine_or_unclassified,Press Release,6007,6007,12,1395,76
+2026,routine_or_unclassified,Press Release (Revised),92,92,1,11,0
+2026,routine_or_unclassified,Price movement,830,830,304,6,0
+2026,routine_or_unclassified,Product launch,134,134,5,12,0
+2026,routine_or_unclassified,Public Announcement-Open Offer,14,14,2,5,0
+2026,routine_or_unclassified,Quarterly Compliance Report on Corporate governance - within 21 days from the end of the quarter,29,29,1,0,0
+2026,routine_or_unclassified,Redemption,5,5,0,1,0
+2026,routine_or_unclassified,Registrar & Share Transfer Agent Update,48,48,1,14,0
+2026,routine_or_unclassified,Related Party Transactions,43,43,1,2,0
+2026,routine_or_unclassified,Rescission/termination(s),19,19,1,4,0
+2026,routine_or_unclassified,Retirement,186,186,0,43,0
+2026,routine_or_unclassified,Rumour Verification - Regulation 30(11),125,125,3,76,1
+2026,routine_or_unclassified,Sale or disposal,149,149,4,26,0
+2026,routine_or_unclassified,Scheme of Arrangement,131,131,1,33,0
+2026,routine_or_unclassified,Shareholders meeting,11203,11203,95,1121,0
+2026,routine_or_unclassified,Spurt in Volume,1036,1036,361,52,0
+2026,routine_or_unclassified,Statement of deviation(s) or variation(s) under Reg. 32,763,763,21,63,0
+2026,routine_or_unclassified,Strikes/Lockouts/Disturbances,44,44,2,9,0
+2026,routine_or_unclassified,Structural Digital Database,312,312,1,3,0
+2026,routine_or_unclassified,Suspension of Trading,26,26,20,4,0
+2026,routine_or_unclassified,Symbol Change of company,3,3,0,0,0
+2026,routine_or_unclassified,Updates,8509,8509,138,1753,5
+2026,routine_or_unclassified,Utilisation of Funds,32,32,0,2,0
+2026,routine_or_unclassified,Voluntary Delisting,6,6,1,1,0
+2026,routine_or_unclassified,Voluntary Revision of Financial statements or Report,2,2,0,0,0
+2026,shareholding,Corporate Insolvency Resolution Process,6,6,1,0,0
+2026,shareholding,Disclosure under SEBI Takeover Regulations,82,82,2,5,0
+2026,shareholding,General Updates,112,112,2,12,0
+2026,shareholding,Structural Digital Database,44,44,3,0,0
+2026,shareholding,Trading Plan under PIT,26,26,1,7,0
+2026,shareholding,Trading Window,7296,7296,29,686,0
+2026,shareholding,Updates,448,448,43,26,0

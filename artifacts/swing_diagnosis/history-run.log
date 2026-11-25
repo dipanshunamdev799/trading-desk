@@ -1,0 +1,47 @@
+      stage                     dividend_model  total_return_pct  max_drawdown_pct    sharpe
+development                 original_dividends          0.944389         20.805514  0.141474
+ validation                 original_dividends          1.199286         15.075228  0.225568
+      final                 original_dividends         -1.738985         11.455117 -0.182372
+   two_year                 original_dividends          2.178641         20.805514  0.149244
+development corrected_multicomponent_dividends          0.971136         20.801592  0.143076
+ validation corrected_multicomponent_dividends          1.204257         15.070305  0.226127
+      final corrected_multicomponent_dividends         -1.728118         11.453388 -0.180809
+   two_year corrected_multicomponent_dividends          2.218757         20.801592  0.150438
+[
+  {
+    "symbol": "INFY",
+    "requested_from": "2016-01-01",
+    "requested_to": "2019-12-31",
+    "rows": 983,
+    "first": "2016-01-01T09:15:00+05:30",
+    "last": "2019-12-31T00:00:00+05:30",
+    "limitation": "Availability probe only; corporate-action adjustment, survivorship and delisted identity coverage not certified."
+  },
+  {
+    "symbol": "NIFTY",
+    "requested_from": "2016-01-01",
+    "requested_to": "2019-12-31",
+    "rows": 986,
+    "first": "2016-01-01T00:00:00+05:30",
+    "last": "2019-12-31T00:00:00+05:30",
+    "limitation": "Availability probe only; corporate-action adjustment, survivorship and delisted identity coverage not certified."
+  },
+  {
+    "symbol": "RELIANCE",
+    "requested_from": "2016-01-01",
+    "requested_to": "2019-12-31",
+    "rows": 986,
+    "first": "2016-01-01T00:00:00+05:30",
+    "last": "2019-12-31T00:00:00+05:30",
+    "limitation": "Availability probe only; corporate-action adjustment, survivorship and delisted identity coverage not certified."
+  },
+  {
+    "symbol": "TCS",
+    "requested_from": "2016-01-01",
+    "requested_to": "2019-12-31",
+    "rows": 983,
+    "first": "2016-01-01T09:15:00+05:30",
+    "last": "2019-12-31T00:00:00+05:30",
+    "limitation": "Availability probe only; corporate-action adjustment, survivorship and delisted identity coverage not certified."
+  }
+]

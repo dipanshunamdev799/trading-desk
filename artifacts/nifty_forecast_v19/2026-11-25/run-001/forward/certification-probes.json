@@ -1,0 +1,47 @@
+[
+  {
+    "name": "upstox-close-daily-quote",
+    "url": "https://api.upstox.com/v3/market-quote/ohlc?instrument_key=NSE_INDEX%7CNifty+50&interval=1d",
+    "sent": "2026-11-25T16:52:22.249700+05:30",
+    "status": 200,
+    "server_date": "Wed, 25 Nov 2026 11:22:22 GMT",
+    "received": "2026-11-25T16:52:22.442408+05:30",
+    "file": "forward/upstox-close-daily-quote.json",
+    "sha256": "5ea5ef0463535d0fa4e531ba7e8e753e5f361dc369c197a66772b6bb3f02a4a5",
+    "bytes": 238,
+    "candles": 0,
+    "stamp_min": null,
+    "stamp_max": null,
+    "stamp_times": []
+  },
+  {
+    "name": "upstox-close-full-quote",
+    "url": "https://api.upstox.com/v2/market-quote/quotes?instrument_key=NSE_INDEX%7CNifty+50",
+    "sent": "2026-11-25T16:52:22.471206+05:30",
+    "status": 200,
+    "server_date": "Wed, 25 Nov 2026 11:22:22 GMT",
+    "received": "2026-11-25T16:52:22.570952+05:30",
+    "file": "forward/upstox-close-full-quote.json",
+    "sha256": "9f17002afe676d3f7771d20433ed3d74cb47667bf4be33d062ae634b81b28a7d",
+    "bytes": 515,
+    "candles": 0,
+    "stamp_min": null,
+    "stamp_max": null,
+    "stamp_times": []
+  },
+  {
+    "url": "https://www.nseindia.in/api/historical/indicesHistory?indexType=NIFTY+50&from_=25-11-2026&to=25-11-2026&from=25-11-2026",
+    "params": {
+      "indexType": "NIFTY 50",
+      "from_": "25-11-2026",
+      "to": "25-11-2026",
+      "from": "25-11-2026"
+    },
+    "request_time": "2026-11-25T16:52:22.600951+05:30",
+    "file": null,
+    "status": 503,
+    "received": "2026-11-25T16:52:22.769843+05:30",
+    "server_date": "Wed, 25 Nov 2026 11:22:22 GMT",
+    "content_type": "text/html; charset=iso-8859-1"
+  }
+]

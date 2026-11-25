@@ -1,0 +1,45 @@
+{
+  "secondary_clocks": [
+    "08:55 IST",
+    "09:10 IST with pre-auction inputs and native anchor"
+  ],
+  "scenarios": 256,
+  "convergence": [
+    128,
+    256,
+    1024
+  ],
+  "models": [
+    "date_only_ridge",
+    "date_only_no_position",
+    "pooled_market_factor",
+    "sector_direct_joint",
+    "stocks_to_sectors",
+    "stock_history_joint",
+    "stock_pooled_joint",
+    "stock_conditional_joint",
+    "stock_independent",
+    "stock_gaussian_shrink",
+    "stock_dynamic_factor",
+    "stock_heavy_factor",
+    "stock_factor_heads",
+    "stock_without_heavy5",
+    "stock_equal_weight",
+    "proxy_randomized_aux",
+    "proxy_shifted_aux"
+  ],
+  "hybrids": [
+    "anchor_bias",
+    "anchor_location",
+    "anchor_scale",
+    "anchor_asymmetry",
+    "anchor_aggregate_position",
+    "anchor_corporate_proxy",
+    "anchor_fixed_joint_mixture"
+  ],
+  "history": "Matured return vectors, subtract chronological stock forecasts where available. Paired basis residual of dated index reconstruction.",
+  "dependence": "Joint empirical rows, prior-risk-conditional rows, 25% diagonal Gaussian shrinkage, market/sector factor with dynamic scale and Student-t tail variant, exact marginal permutations.",
+  "return_algebra": "Starting weights aggregate terminal simple cash returns, implicit buy-and-hold drift, plus observed-basis error if enabled. No realized future holdings used.",
+  "archive": "Case row order is five-session origins followed by 21-session origins. Primary equity law includes all holdings in each joint scenario and its paired basis atom.",
+  "anchor_fit": "Only earlier realized forecast errors can fit shifts, scale, asymmetry, aggregate positioning or corporate conditional corrections. Baselines retain exact laws."
+}

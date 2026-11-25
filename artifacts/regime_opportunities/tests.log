@@ -1,0 +1,15 @@
+.C:\Users\ME\Desktop\trading-desk\research\regime_opportunities\framework.py:46: RuntimeWarning: All-NaN slice encountered
+  sec=sector.reindex(dates).to_numpy();ret=sec/np.vstack([np.full((60,sec.shape[1]),np.nan),sec[:-60]])-1;spread=np.nanmax(ret,axis=1)-np.nanmin(ret,axis=1);delta=spread-prior_median(spread)
+C:\Users\ME\Desktop\trading-desk\.venv\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1997: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+C:\Users\ME\Desktop\trading-desk\research\regime_opportunities\framework.py:64: RuntimeWarning: All-NaN slice encountered
+  cm=np.nanmedian(corr,axis=0);delta=align(cm-prior_median(cm))
+C:\Users\ME\Desktop\trading-desk\research\regime_opportunities\framework.py:66: RuntimeWarning: All-NaN slice encountered
+  volmean=pd.DataFrame(vstock.T).rolling(20,min_periods=20).mean().shift().to_numpy().T;participation=align(np.nanmedian(vstock/volmean,axis=0))
+.....C:\Users\ME\Desktop\trading-desk\research\regime_opportunities\framework.py:46: RuntimeWarning: All-NaN slice encountered
+  sec=sector.reindex(dates).to_numpy();ret=sec/np.vstack([np.full((60,sec.shape[1]),np.nan),sec[:-60]])-1;spread=np.nanmax(ret,axis=1)-np.nanmin(ret,axis=1);delta=spread-prior_median(spread)
+.
+----------------------------------------------------------------------
+Ran 7 tests in 18.464s
+
+OK

@@ -1,0 +1,447 @@
+{
+  "checked_at": "2026-11-25T18:44:20.222040+05:30",
+  "bound": "2026-11-25",
+  "closure": {
+    "day": "2026-11-24",
+    "status": "NSE cash holiday",
+    "reason": "Guru Nanak Jayanti",
+    "notice": "https://archives.nseindia.com/content/circulars/CMTR71775.pdf"
+  },
+  "sessions": [
+    {
+      "name": "NSE-2026-11-18",
+      "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_18112026.csv",
+      "sent": "2026-11-25T18:44:20.608438+05:30",
+      "status": "verified",
+      "server_date": "Wed, 25 Nov 2026 13:14:20 GMT",
+      "received": "2026-11-25T18:44:20.754580+05:30",
+      "file": "forward/2026-11-25T184420/NSE-2026-11-18.csv",
+      "sha256": "b23709e77ecfdff44bc2410304424efbb3a954c9c2578fb52ab36169c0a51232",
+      "bytes": 17942,
+      "upstox_ohlc": [
+        25323.15,
+        25390.8,
+        25141.8,
+        25227.95
+      ],
+      "nse_ohlc": {
+        "open": 25323.15,
+        "high": 25390.8,
+        "low": 25141.8,
+        "close": 25227.95
+      },
+      "http_status": 200,
+      "day": "2026-11-18"
+    },
+    {
+      "name": "NSE-2026-11-19",
+      "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_19112026.csv",
+      "sent": "2026-11-25T18:44:20.800828+05:30",
+      "status": "verified",
+      "server_date": "Wed, 25 Nov 2026 13:14:20 GMT",
+      "received": "2026-11-25T18:44:20.923825+05:30",
+      "file": "forward/2026-11-25T184420/NSE-2026-11-19.csv",
+      "sha256": "1bf9578c4d0ebf5672db14980a83f7b661ea0c4548bb29f5cd8a466019dfdd62",
+      "bytes": 17775,
+      "upstox_ohlc": [
+        25186.8,
+        25514.3,
+        25104.8,
+        25514.3
+      ],
+      "nse_ohlc": {
+        "open": 25186.8,
+        "high": 25514.3,
+        "low": 25104.8,
+        "close": 25514.3
+      },
+      "http_status": 200,
+      "day": "2026-11-19"
+    },
+    {
+      "name": "NSE-2026-11-20",
+      "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_20112026.csv",
+      "sent": "2026-11-25T18:44:20.952178+05:30",
+      "status": "verified",
+      "server_date": "Wed, 25 Nov 2026 13:14:21 GMT",
+      "received": "2026-11-25T18:44:21.042085+05:30",
+      "file": "forward/2026-11-25T184420/NSE-2026-11-20.csv",
+      "sha256": "2fc89d675e654691a26f32c15a6cded2a3cd630ae400a9178b7501aeadd2bdfc",
+      "bytes": 17725,
+      "upstox_ohlc": [
+        25368.0,
+        25808.8,
+        25345.2,
+        25800.6
+      ],
+      "nse_ohlc": {
+        "open": 25368.0,
+        "high": 25808.8,
+        "low": 25345.2,
+        "close": 25800.6
+      },
+      "http_status": 200,
+      "day": "2026-11-20"
+    },
+    {
+      "name": "NSE-2026-11-23",
+      "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_23112026.csv",
+      "sent": "2026-11-25T18:44:21.064399+05:30",
+      "status": "verified",
+      "server_date": "Wed, 25 Nov 2026 13:14:21 GMT",
+      "received": "2026-11-25T18:44:21.135801+05:30",
+      "file": "forward/2026-11-25T184420/NSE-2026-11-23.csv",
+      "sha256": "2f82c385d63aed66e5dd8c20417f474485a2acea2b6f35bc62bdd07560d8df88",
+      "bytes": 18101,
+      "upstox_ohlc": [
+        25929.15,
+        25992.6,
+        25343.85,
+        25349.65
+      ],
+      "nse_ohlc": {
+        "open": 25929.15,
+        "high": 25992.6,
+        "low": 25343.85,
+        "close": 25349.65
+      },
+      "http_status": 200,
+      "day": "2026-11-23"
+    },
+    {
+      "name": "NSE-2026-11-25",
+      "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_25112026.csv",
+      "sent": "2026-11-25T18:44:21.173448+05:30",
+      "status": "awaiting authoritative reconciliation",
+      "server_date": "Wed, 25 Nov 2026 13:14:21 GMT",
+      "received": "2026-11-25T18:44:21.285458+05:30",
+      "file": "forward/2026-11-25T184420/NSE-2026-11-25.csv",
+      "sha256": "15a9a54ed873a3ad008b37edfe4c9d65ddfc97e167a358a18f5c18c57c484bfd",
+      "bytes": 16419,
+      "upstox_ohlc": null,
+      "nse_ohlc": {
+        "open": 25658.35,
+        "high": 25951.65,
+        "low": 25619.0,
+        "close": 25819.25
+      },
+      "http_status": 200,
+      "day": "2026-11-25"
+    }
+  ],
+  "sources": [
+    {
+      "name": "nifty",
+      "url": "https://api.upstox.com/v3/historical-candle/NSE_INDEX%7CNifty%2050/days/1/2026-11-25/2026-11-18",
+      "sent": "2026-11-25T18:44:20.229134+05:30",
+      "status": 200,
+      "server_date": "Wed, 25 Nov 2026 13:14:20 GMT",
+      "received": "2026-11-25T18:44:20.351353+05:30",
+      "file": "forward/2026-11-25T184420/nifty.json",
+      "sha256": "e7593577020904bb82f6d7e09aadb04c789b159a56b318793b160d07ccca3917",
+      "bytes": 310,
+      "candles": 4,
+      "stamp_min": "2026-11-18T00:00:00+05:30",
+      "stamp_max": "2026-11-23T00:00:00+05:30",
+      "stamp_times": [
+        "00:00"
+      ]
+    },
+    {
+      "name": "vix",
+      "url": "https://api.upstox.com/v3/historical-candle/NSE_INDEX%7CIndia%20VIX/days/1/2026-11-25/2026-11-18",
+      "sent": "2026-11-25T18:44:20.361078+05:30",
+      "status": 200,
+      "server_date": "Wed, 25 Nov 2026 13:14:20 GMT",
+      "received": "2026-11-25T18:44:20.438213+05:30",
+      "file": "forward/2026-11-25T184420/vix.json",
+      "sha256": "23e2269bdae6df1f40d0cc72e907da5390fe885f91e6d500a4f38b1e96012c7f",
+      "bytes": 271,
+      "candles": 4,
+      "stamp_min": "2026-11-18T00:00:00+05:30",
+      "stamp_max": "2026-11-23T00:00:00+05:30",
+      "stamp_times": [
+        "00:00"
+      ]
+    },
+    {
+      "name": "bank",
+      "url": "https://api.upstox.com/v3/historical-candle/NSE_INDEX%7CNifty%20Bank/days/1/2026-11-25/2026-11-18",
+      "sent": "2026-11-25T18:44:20.443601+05:30",
+      "status": 200,
+      "server_date": "Wed, 25 Nov 2026 13:14:20 GMT",
+      "received": "2026-11-25T18:44:20.495593+05:30",
+      "file": "forward/2026-11-25T184420/bank.json",
+      "sha256": "24c270c455dc1745ef2ecd74c6649e7a1b95b09fe7390ca21ae45614844c3a32",
+      "bytes": 312,
+      "candles": 4,
+      "stamp_min": "2026-11-18T00:00:00+05:30",
+      "stamp_max": "2026-11-23T00:00:00+05:30",
+      "stamp_times": [
+        "00:00"
+      ]
+    },
+    {
+      "name": "broad",
+      "url": "https://api.upstox.com/v3/historical-candle/NSE_INDEX%7CNifty%20500/days/1/2026-11-25/2026-11-18",
+      "sent": "2026-11-25T18:44:20.519087+05:30",
+      "status": 200,
+      "server_date": "Wed, 25 Nov 2026 13:14:20 GMT",
+      "received": "2026-11-25T18:44:20.597879+05:30",
+      "file": "forward/2026-11-25T184420/broad.json",
+      "sha256": "91f65daea749576197f1fb4b7294876c47abc90e4c5e0c769e2bea081f9557f3",
+      "bytes": 313,
+      "candles": 4,
+      "stamp_min": "2026-11-18T00:00:00+05:30",
+      "stamp_max": "2026-11-23T00:00:00+05:30",
+      "stamp_times": [
+        "00:00"
+      ]
+    }
+  ],
+  "records": [
+    {
+      "version": "V4",
+      "key": "2026-11-17|LATE_DIAGNOSTIC",
+      "horizon": 21,
+      "issued": "2026-11-18T09:33:38.781325+05:30",
+      "issue_hash": "27b9a03e5de25d2df52bde928809f67578a7954190925a06a419ab7580cb8f84",
+      "reference_session": "2026-11-17",
+      "reference_close": 25387.4,
+      "target": "2026-12-17",
+      "target_sessions": [
+        "2026-11-18",
+        "2026-11-19",
+        "2026-11-20",
+        "2026-11-23",
+        "2026-11-25",
+        "2026-11-26",
+        "2026-11-27",
+        "2026-11-30",
+        "2026-12-01",
+        "2026-12-02",
+        "2026-12-03",
+        "2026-12-04",
+        "2026-12-07",
+        "2026-12-08",
+        "2026-12-09",
+        "2026-12-10",
+        "2026-12-11",
+        "2026-12-14",
+        "2026-12-15",
+        "2026-12-16",
+        "2026-12-17"
+      ],
+      "issue_class": "prospective before endpoint; late first-session diagnostic",
+      "original_probabilities": {
+        "B00_empirical": 0.4880952380952381
+      },
+      "law_p_up": {
+        "D00_empirical": 0.488095238095238,
+        "D03_residual_shrunk": 0.0
+      },
+      "binary_scores": {},
+      "maturity": "pending completion and publication",
+      "official_close": null,
+      "realized_return": null,
+      "scores": {},
+      "completed_target_dates": [
+        "2026-11-18",
+        "2026-11-19",
+        "2026-11-20",
+        "2026-11-23"
+      ]
+    },
+    {
+      "version": "V4",
+      "key": "2026-11-17|LATE_DIAGNOSTIC",
+      "horizon": 5,
+      "issued": "2026-11-18T09:33:38.781325+05:30",
+      "issue_hash": "27b9a03e5de25d2df52bde928809f67578a7954190925a06a419ab7580cb8f84",
+      "reference_session": "2026-11-17",
+      "reference_close": 25387.4,
+      "target": "2026-11-25",
+      "target_sessions": [
+        "2026-11-18",
+        "2026-11-19",
+        "2026-11-20",
+        "2026-11-23",
+        "2026-11-25"
+      ],
+      "issue_class": "prospective before endpoint; late first-session diagnostic",
+      "original_probabilities": {
+        "A00_sector": 0.6805457797524769,
+        "B00_empirical": 0.41269841269841256,
+        "M05_lgbm": 0.7084413299086006,
+        "Z_neutral": 0.5,
+        "Z_reversion": 0.45
+      },
+      "law_p_up": {
+        "D00_empirical": 0.4126984126984127,
+        "D03_residual_shrunk": 0.09523809523809523
+      },
+      "binary_scores": {},
+      "maturity": "awaiting full authoritative match to original session sequence",
+      "official_close": null,
+      "realized_return": null,
+      "scores": {},
+      "completed_target_dates": [
+        "2026-11-18",
+        "2026-11-19",
+        "2026-11-20",
+        "2026-11-23"
+      ]
+    },
+    {
+      "version": "V5",
+      "key": "h5-L01",
+      "horizon": 5,
+      "issued": "2026-11-18T22:51:50.449640+05:30",
+      "issue_hash": "0f4908480d4d4d56b7013d62267489f2526cd77e58647c5eec60ad2b4bf99a9a",
+      "reference_session": "2026-11-18",
+      "reference_close": 25227.95,
+      "target": "2026-11-26",
+      "target_sessions": [
+        "2026-11-19",
+        "2026-11-20",
+        "2026-11-23",
+        "2026-11-25",
+        "2026-11-26"
+      ],
+      "issue_class": "forward experimental before first target session",
+      "p_up": 0.7900793650793652,
+      "mean_return": 0.019110101117523117,
+      "maturity": "pending completion and publication",
+      "official_close": null,
+      "realized_return": null,
+      "scores": {},
+      "completed_target_dates": [
+        "2026-11-19",
+        "2026-11-20",
+        "2026-11-23"
+      ]
+    },
+    {
+      "version": "V5",
+      "key": "h5-I03_nosize",
+      "horizon": 5,
+      "issued": "2026-11-18T22:51:50.449640+05:30",
+      "issue_hash": "0f4908480d4d4d56b7013d62267489f2526cd77e58647c5eec60ad2b4bf99a9a",
+      "reference_session": "2026-11-18",
+      "reference_close": 25227.95,
+      "target": "2026-11-26",
+      "target_sessions": [
+        "2026-11-19",
+        "2026-11-20",
+        "2026-11-23",
+        "2026-11-25",
+        "2026-11-26"
+      ],
+      "issue_class": "forward experimental before first target session",
+      "p_up": 0.6817460317460318,
+      "mean_return": 0.011057757228632599,
+      "maturity": "pending completion and publication",
+      "official_close": null,
+      "realized_return": null,
+      "scores": {},
+      "completed_target_dates": [
+        "2026-11-19",
+        "2026-11-20",
+        "2026-11-23"
+      ]
+    },
+    {
+      "version": "V5",
+      "key": "h21-E00",
+      "horizon": 21,
+      "issued": "2026-11-18T22:51:50.449640+05:30",
+      "issue_hash": "0f4908480d4d4d56b7013d62267489f2526cd77e58647c5eec60ad2b4bf99a9a",
+      "reference_session": "2026-11-18",
+      "reference_close": 25227.95,
+      "target": "2026-12-18",
+      "target_sessions": [
+        "2026-11-19",
+        "2026-11-20",
+        "2026-11-23",
+        "2026-11-25",
+        "2026-11-26",
+        "2026-11-27",
+        "2026-11-30",
+        "2026-12-01",
+        "2026-12-02",
+        "2026-12-03",
+        "2026-12-04",
+        "2026-12-07",
+        "2026-12-08",
+        "2026-12-09",
+        "2026-12-10",
+        "2026-12-11",
+        "2026-12-14",
+        "2026-12-15",
+        "2026-12-16",
+        "2026-12-17",
+        "2026-12-18"
+      ],
+      "issue_class": "forward experimental before first target session",
+      "p_up": 0.488095238095238,
+      "mean_return": -0.005019843592211711,
+      "maturity": "pending completion and publication",
+      "official_close": null,
+      "realized_return": null,
+      "scores": {},
+      "completed_target_dates": [
+        "2026-11-19",
+        "2026-11-20",
+        "2026-11-23"
+      ]
+    },
+    {
+      "version": "V5",
+      "key": "h21-I01_legacy",
+      "horizon": 21,
+      "issued": "2026-11-18T22:51:50.449640+05:30",
+      "issue_hash": "0f4908480d4d4d56b7013d62267489f2526cd77e58647c5eec60ad2b4bf99a9a",
+      "reference_session": "2026-11-18",
+      "reference_close": 25227.95,
+      "target": "2026-12-18",
+      "target_sessions": [
+        "2026-11-19",
+        "2026-11-20",
+        "2026-11-23",
+        "2026-11-25",
+        "2026-11-26",
+        "2026-11-27",
+        "2026-11-30",
+        "2026-12-01",
+        "2026-12-02",
+        "2026-12-03",
+        "2026-12-04",
+        "2026-12-07",
+        "2026-12-08",
+        "2026-12-09",
+        "2026-12-10",
+        "2026-12-11",
+        "2026-12-14",
+        "2026-12-15",
+        "2026-12-16",
+        "2026-12-17",
+        "2026-12-18"
+      ],
+      "issue_class": "forward experimental before first target session",
+      "p_up": 0.5886904761904763,
+      "mean_return": 0.015357238601062029,
+      "maturity": "pending completion and publication",
+      "official_close": null,
+      "realized_return": null,
+      "scores": {},
+      "completed_target_dates": [
+        "2026-11-19",
+        "2026-11-20",
+        "2026-11-23"
+      ]
+    }
+  ],
+  "v4_sha256": "cc6824eae248420a7c31014e234222fc46923159a82cf49c9769b09cbd74ffe6",
+  "v5_sha256": "0f4908480d4d4d56b7013d62267489f2526cd77e58647c5eec60ad2b4bf99a9a",
+  "new_v16_issues": 0
+}

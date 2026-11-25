@@ -1,0 +1,15 @@
+{
+  "sampled": 92,
+  "text_documents": 90,
+  "document_signed": 26,
+  "metadata_signed": 5,
+  "document_only_sign": 21,
+  "different_sign": 21,
+  "numeric_support": 73,
+  "horizon_mentions": 4,
+  "matched_after_reaction": 47,
+  "both_signed_matched": 3,
+  "metadata_hit": 2,
+  "attachment_hit": 2,
+  "rule": "Signed or conflicting text is determined from named phrases. Found monetary or percentage fragments are an audit of disclosure detail. They are not transcribed as a reported quantitative forecast. Direction comparison is a small, fixed diagnostic on identical cases."
+}

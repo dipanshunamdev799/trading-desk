@@ -1,0 +1,3 @@
+C:\Users\ME\Desktop\trading-desk\scripts\regime_descriptive_support.py:30: RuntimeWarning: Mean of empty slice
+  with np.load(OUT/'stock-forward-arrays.npz') as a:mean=np.nanmean(a['forward10'],axis=0)
+DESCRIPTIVE_SUPPORT_COMPLETE

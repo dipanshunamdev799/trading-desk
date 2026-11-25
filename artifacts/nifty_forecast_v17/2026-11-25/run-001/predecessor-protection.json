@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "checked": 732,
+  "source_files": 15,
+  "earlier": {
+    "valid": true,
+    "v15_manifest": "0c39e15ce52e56e69d2d2dca18ee7bef1e0b0aa5d45750c2178179b90957c2e0",
+    "v15_artifacts": 616,
+    "v15_code": 18,
+    "earlier_verified_by_v15": {
+      "files": 23060,
+      "valid": true,
+      "mismatches": [],
+      "manifests": {
+        "manifest.json/2026-11-24": "3ecb85d431b1c07736b04887f7d48907527bd3ae81832d6d8d42237b95151a1e",
+        "manifest.json/2026-11-25": "f6e80b47c519940a9677d2261ad7421775f812cdd7e8e9d94ce5af323a2ea52d"
+      }
+    }
+  },
+  "v16_manifest": "2087601e537dc89b6e1dd36e670bb3c89127f882d4e0a682a8a6a8116a088f45"
+}

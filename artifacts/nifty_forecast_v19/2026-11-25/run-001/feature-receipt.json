@@ -1,0 +1,101 @@
+{
+  "days": 466,
+  "stock_rows": 109980,
+  "sector_rows": 3520,
+  "decision_rows": 1604,
+  "innovations": 2099,
+  "documented_groups": [
+    "ETF",
+    "auto",
+    "bank",
+    "consumer",
+    "defensive",
+    "energy",
+    "finance",
+    "health",
+    "industrial",
+    "it",
+    "materials",
+    "other"
+  ],
+  "source_fields": {
+    "participant_levels": [
+      "FII_index_futures_level",
+      "DII_index_futures_level",
+      "Pro_index_futures_level",
+      "FII_stock_futures_level",
+      "DII_stock_futures_level",
+      "FII_index_calls_level",
+      "FII_index_puts_level",
+      "FII_stock_calls_level",
+      "FII_stock_puts_level"
+    ],
+    "position_changes": [
+      "FII_index_futures_d1",
+      "FII_index_futures_d5",
+      "FII_index_futures_d21",
+      "DII_index_futures_d5",
+      "Pro_index_futures_d5",
+      "FII_stock_futures_d5",
+      "FII_index_calls_d5",
+      "FII_index_puts_d5",
+      "FII_stock_calls_d5",
+      "FII_stock_puts_d5",
+      "FII_index_futures_accel",
+      "FII_index_futures_persist"
+    ],
+    "crowding": [
+      "index_futures_detail_hhi_z",
+      "stock_futures_detail_hhi_z",
+      "index_futures_disagree",
+      "index_calls_disagree",
+      "fii_gross_volume_share",
+      "failed_breadth_crowding",
+      "derivative_reduction_proxy"
+    ],
+    "innovation": [
+      "innovation_1",
+      "innovation_5",
+      "innovation_dii",
+      "innovation_option_call",
+      "innovation_option_put"
+    ],
+    "delivery": [
+      "del_intensity",
+      "del_high_frac",
+      "del_rising_frac",
+      "del_dispersion",
+      "del_sector_equal",
+      "del_financial_concentration",
+      "del_flow_concentration",
+      "del_adv_high",
+      "del_dec_high",
+      "del_consolidation",
+      "del_up_low",
+      "del_down_low",
+      "del_volatility_concentration"
+    ],
+    "two_sided_deals": [
+      "deal_n",
+      "deal_size",
+      "deal_premium",
+      "deal_rolling_balance",
+      "deal_recurrence",
+      "deal_cash_turnover_share",
+      "deal_block_share",
+      "deal_elevated"
+    ],
+    "ordinary_nifty_futures": [
+      "ordinary_oi_change",
+      "ordinary_oi_5",
+      "ordinary_oi_concentration",
+      "front_basis",
+      "curve_30d",
+      "days_to_expiry",
+      "roll_event"
+    ]
+  },
+  "cap_weighting": "Authentic historical issuer free-float weights unavailable for this universe. Equal-company, known-sector equal and lagged traded-liquidity weights are preserved. Official equal-weight index returns provide a separate measured comparator.",
+  "name_inner": "Issuer identity uses dated NSE cash ISIN. Fixed January names and dates with authenticated mappings. No new names selected from later performance.",
+  "timing": "STOCK and FO archive reports enter by the next NSE cash session 08:15 IST. Innovation fit uses only earlier raw observation days. Dated industry known by cash close or from frozen January roster."
+}

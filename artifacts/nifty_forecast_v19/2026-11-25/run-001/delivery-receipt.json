@@ -1,0 +1,27 @@
+{
+  "verified_at": "2026-11-25T18:47:18.185299+05:30",
+  "reports": 18,
+  "local_links": 157,
+  "source_receipts": {
+    "source-receipts.json": 480,
+    "alternate-source-preflight.json": 6,
+    "flow-source-receipts.json": 123,
+    "cash-form-probes.json": 3,
+    "joint-law-receipts.json": 964,
+    "forward-ledger.json": 16,
+    "forward/new-issues.json": 8,
+    "forward/alternate-market-receipts.json": 2,
+    "forward/certification-probes.json": 2
+  },
+  "native_original": 964,
+  "native_v19": 1928,
+  "native_sensitivity": 2892,
+  "original_endpoint_atoms": 49164,
+  "volatility_laws": 8676,
+  "prior_v18_hashes": 4226,
+  "legacy_original_issues": 6,
+  "new_reference_laws": 3,
+  "legacy_resolutions": 1,
+  "dated_deal_sessions_without_cash_references": 9,
+  "chronological_sentinels": 36
+}

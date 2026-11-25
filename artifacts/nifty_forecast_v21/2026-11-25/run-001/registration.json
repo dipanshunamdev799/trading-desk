@@ -1,0 +1,214 @@
+{
+  "registered_at": "2026-11-25T20:30:02.666383+05:30",
+  "history": [
+    "2025-01-01",
+    "2026-11-17"
+  ],
+  "forward_end": "2026-12-31",
+  "decision_clocks": [
+    "08:55 IST pre-auction",
+    "09:10 IST native anchor"
+  ],
+  "seed_policy": "2025-01-31",
+  "universe": "January cash turnover cohort. Monthly exchange membership kept under a release guard.",
+  "historical_exposure": "All frozen outcomes were research-exposed.",
+  "seed": 211125,
+  "horizons": [
+    5,
+    21
+  ],
+  "cohorts": {
+    "5": [
+      173,
+      92,
+      53
+    ],
+    "21": [
+      141,
+      76,
+      11
+    ]
+  },
+  "hypotheses": [
+    {
+      "name": "Dated archive reconstruction",
+      "mechanism": "Official monthly weights may track the price index after drift",
+      "inputs": "Official monthly membership/weight files and exchange cash",
+      "target_metric": "Daily and 5/21 tracking RMSE",
+      "strong_reference": "Equal and liquidity baskets",
+      "negative_control": "Corporate-action and no-drift sensitivity",
+      "minimum": "50 verified NIFTY 50 weights and matching close",
+      "budget": "22 vintage months and two archive series",
+      "follow_up": "Prefer dated-weight investable observations and report tracking breaks",
+      "cutoff": "08:55 inputs, same-window 09:10 native comparisons where stated"
+    },
+    {
+      "name": "Constrained sectors",
+      "mechanism": "A low-dimensional causal fit may reconstruct the index",
+      "inputs": "Official sector index histories",
+      "target_metric": "Tracking RMSE at 1/5/21 sessions",
+      "strong_reference": "Equal sector mixture",
+      "negative_control": "Earlier-only estimated simplex versus fixed",
+      "minimum": "At least 60 dated daily returns",
+      "budget": "One stable simplex fit plus training-only factors",
+      "follow_up": "Compare extrapolation and scope by cohort",
+      "cutoff": "08:55 inputs, same-window 09:10 native comparisons where stated"
+    },
+    {
+      "name": "Market decomposition",
+      "mechanism": "Most stock variation may lie in market and sector terms",
+      "inputs": "Daily cash and dated memberships",
+      "target_metric": "Date-level explained variance",
+      "strong_reference": "Market-only beta",
+      "negative_control": "Shuffled sector labels",
+      "minimum": "60 prior paired observations per fit",
+      "budget": "One shrinking exposure design",
+      "follow_up": "Measure weighted cancellation of security residuals",
+      "cutoff": "08:55 inputs, same-window 09:10 native comparisons where stated"
+    },
+    {
+      "name": "Equity pooling",
+      "mechanism": "Pooled observations can improve shared financial relationships",
+      "inputs": "Eligible OHLC, turnover and structure",
+      "target_metric": "Stock CRPS, RMSE and date-rank IC",
+      "strong_reference": "Historical/no-transfer and individual ridge",
+      "negative_control": "Randomized relative labels and shifted features",
+      "minimum": "45 fully matured target days",
+      "budget": "Seven primary sharing models",
+      "follow_up": "Continue only if component performance or estimation improves",
+      "cutoff": "08:55 inputs, same-window 09:10 native comparisons where stated"
+    },
+    {
+      "name": "Equity law calibration",
+      "mechanism": "Matured residuals may calibrate absolute and active return uncertainty",
+      "inputs": "Equity labels and prior daily volatility",
+      "target_metric": "Absolute, relative, normalized, sign, magnitude and risk",
+      "strong_reference": "Symmetric empirical history",
+      "negative_control": "Training-only chronological scale and grouping controls",
+      "minimum": "Finite paired outcomes and at least 30 return observations",
+      "budget": "Compact Gaussian or empirical marginal laws",
+      "follow_up": "Test whether component gains survive aggregation",
+      "cutoff": "08:55 inputs, same-window 09:10 native comparisons where stated"
+    },
+    {
+      "name": "Sector contributions",
+      "mechanism": "Sector or stock-derived predictions may add distinct index content",
+      "inputs": "Dated index sectors and pooled stock returns",
+      "target_metric": "Sector/relative CRPS and aggregate contribution",
+      "strong_reference": "Official sector historical law",
+      "negative_control": "Stock-to-sector vs direct sector vs constant drift",
+      "minimum": "Mature sector labels and matched date support",
+      "budget": "One causal ridge by weighting lane",
+      "follow_up": "Require agreement with strong index parent",
+      "cutoff": "08:55 inputs, same-window 09:10 native comparisons where stated"
+    },
+    {
+      "name": "Common market",
+      "mechanism": "Pooled absolute exposures may estimate the common target better",
+      "inputs": "Stock absolute/relative models, official market state",
+      "target_metric": "Index Brier and CRPS",
+      "strong_reference": "Matched NIFTY-only historical and archived V20",
+      "negative_control": "Shifted auxiliary features and common-only arm",
+      "minimum": "Exact original 265/217 dates",
+      "budget": "One factor model, one NIFTY-only ridge, two nulls",
+      "follow_up": "Retain only evidence beyond common exposure",
+      "cutoff": "08:55 inputs, same-window 09:10 native comparisons where stated"
+    },
+    {
+      "name": "Joint dependence",
+      "mechanism": "Paired historical factors and residuals restore diversification risk",
+      "inputs": "Joint terminal stock or sector errors",
+      "target_metric": "Index CRPS, variance and interval coverage",
+      "strong_reference": "Strong empirical parent and unconditional joint covariance",
+      "negative_control": "Independent, shrunk, Gaussian and heavy-tail controls",
+      "minimum": "Matured return vectors with reported missing weights",
+      "budget": "128/256/1024 scenarios and several covariance families",
+      "follow_up": "Prioritize calibration over visual complexity",
+      "cutoff": "08:55 inputs, same-window 09:10 native comparisons where stated"
+    },
+    {
+      "name": "Bottom-up versus direct",
+      "mechanism": "Aggregation may improve forecasts when component effects survive",
+      "inputs": "Weekly and monthly stock/sector forecasts",
+      "target_metric": "Index Brier, log loss and CRPS",
+      "strong_reference": "V20 metric leaders at 09:10 and archived 08:55",
+      "negative_control": "Equal complexity direct and historical aggregation",
+      "minimum": "Exact target date and complete law",
+      "budget": "Fixed top-down, sector, stock, factor and mixture arms",
+      "follow_up": "Insist on matched performance and historical uncertainty",
+      "cutoff": "08:55 inputs, same-window 09:10 native comparisons where stated"
+    },
+    {
+      "name": "Index residual",
+      "mechanism": "Pooled summaries may forecast errors of a strong parent",
+      "inputs": "Earlier errors from exact V20 distributions",
+      "target_metric": "Index Brier and CRPS",
+      "strong_reference": "Unchanged direct parent",
+      "negative_control": "Bias, scale, asymmetry and fixed mixture",
+      "minimum": "At least 45 matured parent forecasts",
+      "budget": "One chronological capped ridge per mechanism",
+      "follow_up": "Compare location and scale separately",
+      "cutoff": "08:55 inputs, same-window 09:10 native comparisons where stated"
+    },
+    {
+      "name": "Concentration",
+      "mechanism": "Focus of leadership may change forecast usefulness",
+      "inputs": "Dated weights, synchronized stock moves and breadth",
+      "target_metric": "Index or volatility error by causal regime",
+      "strong_reference": "Breadth, rotation, IV",
+      "negative_control": "Random subsets and removal of heavyweight securities",
+      "minimum": "Transparent matched count and earlier thresholds",
+      "budget": "One regime map with fixed thresholds",
+      "follow_up": "Require robust group effects before gating",
+      "cutoff": "08:55 inputs, same-window 09:10 native comparisons where stated"
+    },
+    {
+      "name": "Portfolio risk",
+      "mechanism": "Covariance and downside risk may add to IV/GJR",
+      "inputs": "Equity returns, covariance and official IV/GJR",
+      "target_metric": "Realized vol MAE and QLIKE",
+      "strong_reference": "Raw ATM, V16 combined, monthly GJR",
+      "negative_control": "Diagonal covariance and parent-only",
+      "minimum": "Official realized risk and exact source clock",
+      "budget": "Small covariance set and one shrink overlay",
+      "follow_up": "Test even when direction fails",
+      "cutoff": "08:55 inputs, same-window 09:10 native comparisons where stated"
+    },
+    {
+      "name": "Source specialization",
+      "mechanism": "Corporate information may act locally, positioning through the common factor",
+      "inputs": "Timestamped issuer events, surprises, delivery and aggregate positions",
+      "target_metric": "Equity and sector score, index residual and risk",
+      "strong_reference": "Matched technical plus direct parent",
+      "negative_control": "Counts, observed reaction and delays",
+      "minimum": "Published clocks before issue. No imputed stock participant positions",
+      "budget": "Limited family ablation",
+      "follow_up": "Require gain after matching eligible dates",
+      "cutoff": "08:55 inputs, same-window 09:10 native comparisons where stated"
+    },
+    {
+      "name": "Sample efficiency",
+      "mechanism": "Shared estimation helps with idiosyncratic noise, but common noise limits it",
+      "inputs": "Synthetic grouped factor processes and archived case losses",
+      "target_metric": "Test error, parameter RMSE and power",
+      "strong_reference": "Direct date-only estimation",
+      "negative_control": "No shared beta, sector cancellation and spurious regime",
+      "minimum": "Same train/test dates for all arms",
+      "budget": "300 simulations per controlled design",
+      "follow_up": "Distinguish rows, dates and disjoint index windows",
+      "cutoff": "08:55 inputs, same-window 09:10 native comparisons where stated"
+    },
+    {
+      "name": "Forward eligibility",
+      "mechanism": "Research issue clocks and live inputs can be rehearsed exactly",
+      "inputs": "Archived issue laws, market calendar and availability receipts",
+      "target_metric": "Completeness and maturity",
+      "strong_reference": "Existing V4\u2013V20 issues",
+      "negative_control": "No after-cutoff reissue",
+      "minimum": "Exact historical implementation and time guard",
+      "budget": "One prospective ledger and readiness audit",
+      "follow_up": "Issue only verifiable references within calendar scope",
+      "cutoff": "08:55 inputs, same-window 09:10 native comparisons where stated"
+    }
+  ]
+}

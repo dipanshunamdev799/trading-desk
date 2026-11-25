@@ -1,0 +1,28 @@
+{
+  "registered_documents": 1280,
+  "parsed_reports": 1278,
+  "fact_rows": 10621,
+  "reporting_periods": 7,
+  "issuers": 152,
+  "primary_reporting_events": 1063,
+  "metrics": {
+    "total_income": 1250,
+    "finance_cost": 1234,
+    "profit": 1234,
+    "pre_tax": 1149,
+    "revenue": 1133,
+    "eps": 1131,
+    "assets": 757,
+    "cash": 681,
+    "debt_noncurrent": 581,
+    "debt_current": 581,
+    "op_cash": 457,
+    "interest_income": 266,
+    "debt": 167
+  },
+  "revenue_qoq": 870,
+  "profit_yoy": 427,
+  "statistical_surprises": 711,
+  "period_rule": "Exact quarter-end contexts, current-quarter duration 65\u2013105 days, no pre-2025 context start, explicit INR units, duplicate or conflicting context guard. Cash flow and capex can use a longer current-year reporting period and are preserved with context.",
+  "expectation": "Most recent comparable reported profit plus 0.35 times median change in up to three prior releases. No historical analyst consensus or authenticated prior guidance panel."
+}

@@ -1,0 +1,44 @@
+(node:2228) [DEP0060] DeprecationWarning: The `util._extend` API is deprecated. Please use Object.assign() instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Failed to proxy http://127.0.0.1:8000/market/live Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20) {
+  errno: -4077,
+  code: 'ECONNRESET',
+  syscall: 'read'
+}
+Failed to proxy http://127.0.0.1:8000/market/live Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20) {
+  errno: -4077,
+  code: 'ECONNRESET',
+  syscall: 'read'
+}
+Failed to proxy http://127.0.0.1:8000/market/live Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20) {
+  errno: -4077,
+  code: 'ECONNRESET',
+  syscall: 'read'
+}
+Failed to proxy http://127.0.0.1:8000/market/live Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:2021:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8000
+}
+Failed to proxy http://127.0.0.1:8000/market/live Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:2021:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8000
+}
+Failed to proxy http://127.0.0.1:8000/market/live Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:2021:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8000
+}

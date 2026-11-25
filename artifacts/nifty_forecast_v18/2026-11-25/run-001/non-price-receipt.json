@@ -1,0 +1,21 @@
+{
+  "accepted": {
+    "delivery-statistics.csv.gz": {
+      "rows": 109980,
+      "days": 466
+    },
+    "participant-open-interest.csv.gz": {
+      "rows": 1532,
+      "days": 383
+    },
+    "bulk-block-events.csv.gz": {
+      "rows": 2970,
+      "days": 151
+    },
+    "supplementary-equity-cash.csv.gz": {
+      "rows": 117517,
+      "days": 58
+    }
+  },
+  "rule": "Official delivery and derivatives participant files are dated EOD vintages. Past or next morning features use a guarded previous date. Bulk and block trade archives lack publication timestamps and enter a separate earlier-date-sensitive track. No FII cash flow inferred from derivatives positions."
+}

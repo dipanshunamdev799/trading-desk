@@ -1,0 +1,48 @@
+{
+  "verified_at": "2026-11-25T21:05:17.673039+05:30",
+  "reports": 19,
+  "local_links": 168,
+  "archive_checks": {
+    "v20_artifacts": 151,
+    "v20_code": 16,
+    "source_files_verified": 513,
+    "exact_weight_prices": 4447,
+    "verified_bajaj_split_bonus": true
+  },
+  "law_checks": {
+    "index_predictions": 26028,
+    "independent_horizon_counts": {
+      "5": [
+        173,
+        92,
+        53
+      ],
+      "21": [
+        141,
+        76,
+        11
+      ]
+    },
+    "accounted_simultaneous_laws": 482,
+    "protected_replays": 2892,
+    "volatility_laws": 4338
+  },
+  "forward_checks": {
+    "legacy": 6,
+    "legacy_resolved": 1,
+    "dated_references": 7,
+    "new_issues": 0,
+    "certified_sessions": 5,
+    "staged_capture_files": 7
+  },
+  "clock_controls": {
+    "event_clock_rows": 241842,
+    "forecast_clock_rows": 21540,
+    "exact_copy_invariance": "Named feature dedup and identical weighted distribution mixture",
+    "future_sentinel": "Poisoned unobservable labels had no effect on the validated eligible fit.",
+    "uncertainty": "21-session paired circular blocks. Bands adjust over the tested candidates at each explicit clock, reference, metric and horizon.",
+    "refit_null": "23 chronologically refitted blocked source permutations reselect from four fixed residual designs.",
+    "historical_exposure": "V1\u2013V21 adaptive selection is outside the adjustment."
+  },
+  "tracking_model": "nifty50_monthly_drift_lag5"
+}

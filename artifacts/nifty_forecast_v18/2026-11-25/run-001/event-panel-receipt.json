@@ -1,0 +1,11 @@
+{
+  "issuer_sessions": 6563,
+  "skipped_without_prior_stock_state": 36,
+  "score_rows": 64227,
+  "distinct_issuers": 171,
+  "distinct_dates": 440,
+  "priced_cash_days": 466,
+  "first_open": "First full cash-market open on or after eligible time. Known same-day releases during trading are studied separately with intraday bars.",
+  "reaction_clock": "Next full-session open, after the first scored daily reaction is complete and observable. Market and native comparisons have matched potential session opening anchors.",
+  "controls": "Match to up to four earlier-observable, historically active sector peers on the same date and pre-event volatility, five-session momentum and turnover. Exclude issuers with a known event in the recent past, without screening on future events or future outcomes."
+}

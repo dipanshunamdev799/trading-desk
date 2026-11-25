@@ -1,0 +1,78 @@
+PORTFOLIO_JOBS 20 / 228 49.9s
+PORTFOLIO_JOBS 40 / 228 70.3s
+PORTFOLIO_JOBS 60 / 228 87.8s
+PORTFOLIO_JOBS 80 / 228 108.3s
+PORTFOLIO_JOBS 100 / 228 121.7s
+PORTFOLIO_JOBS 120 / 228 143.0s
+PORTFOLIO_JOBS 140 / 228 163.7s
+PORTFOLIO_JOBS 160 / 228 179.5s
+PORTFOLIO_JOBS 180 / 228 197.5s
+PORTFOLIO_JOBS 200 / 228 217.7s
+PORTFOLIO_JOBS 220 / 228 237.8s
+PORTFOLIO_JOBS 228 / 228 252.0s
+PORTFOLIO_JOBS 20 / 684 16.7s
+PORTFOLIO_JOBS 40 / 684 29.2s
+PORTFOLIO_JOBS 60 / 684 42.1s
+PORTFOLIO_JOBS 80 / 684 68.2s
+PORTFOLIO_JOBS 100 / 684 82.8s
+PORTFOLIO_JOBS 120 / 684 99.9s
+PORTFOLIO_JOBS 140 / 684 115.7s
+PORTFOLIO_JOBS 160 / 684 135.2s
+PORTFOLIO_JOBS 180 / 684 166.0s
+PORTFOLIO_JOBS 200 / 684 193.8s
+PORTFOLIO_JOBS 220 / 684 211.9s
+PORTFOLIO_JOBS 240 / 684 231.3s
+PORTFOLIO_JOBS 260 / 684 253.7s
+PORTFOLIO_JOBS 280 / 684 270.4s
+PORTFOLIO_JOBS 300 / 684 295.4s
+PORTFOLIO_JOBS 320 / 684 322.9s
+PORTFOLIO_JOBS 340 / 684 341.8s
+PORTFOLIO_JOBS 360 / 684 369.9s
+PORTFOLIO_JOBS 380 / 684 401.5s
+PORTFOLIO_JOBS 400 / 684 423.9s
+PORTFOLIO_JOBS 420 / 684 451.9s
+PORTFOLIO_JOBS 440 / 684 482.2s
+PORTFOLIO_JOBS 460 / 684 521.5s
+PORTFOLIO_JOBS 480 / 684 569.5s
+PORTFOLIO_JOBS 500 / 684 607.7s
+PORTFOLIO_JOBS 520 / 684 635.9s
+PORTFOLIO_JOBS 540 / 684 664.6s
+PORTFOLIO_JOBS 560 / 684 686.0s
+PORTFOLIO_JOBS 580 / 684 713.8s
+PORTFOLIO_JOBS 600 / 684 749.8s
+PORTFOLIO_JOBS 620 / 684 777.7s
+PORTFOLIO_JOBS 640 / 684 801.4s
+PORTFOLIO_JOBS 660 / 684 831.3s
+PORTFOLIO_JOBS 680 / 684 858.0s
+PORTFOLIO_JOBS 684 / 684 865.8s
+concurrent.futures.process._RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "C:\Python315\Lib\concurrent\futures\process.py", line 255, in _process_worker
+    r = call_item.fn(*call_item.args, **call_item.kwargs)
+  File "C:\Users\ME\Desktop\trading-desk\scripts\research_regimes.py", line 41, in job
+    r=simulate(Q,orders(Q,mask),start,end,cost=2 if stress else 1,slip_bps=10 if stress else 5,hold_only=style=='buyhold10')
+  File "C:\Users\ME\Desktop\trading-desk\research\regime_opportunities\engine.py", line 59, in simulate
+    if cash< -1e-6 or len(positions)>10:raise AssertionError('Cash/position invariant')
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Cash/position invariant
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ME\Desktop\trading-desk\scripts\resume_regime_portfolios.py", line 36, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "C:\Users\ME\Desktop\trading-desk\scripts\resume_regime_portfolios.py", line 32, in main
+    if extra:pd.DataFrame(run_tasks(pool,extra)).to_csv(OUT/'shortlist-results.csv',index=False)
+                          ~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\ME\Desktop\trading-desk\scripts\research_regimes.py", line 49, in run_tasks
+    rows+=f.result()
+          ~~~~~~~~^^
+  File "C:\Python315\Lib\concurrent\futures\_base.py", line 447, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python315\Lib\concurrent\futures\_base.py", line 396, in __get_result
+    raise self._exception
+AssertionError: Cash/position invariant

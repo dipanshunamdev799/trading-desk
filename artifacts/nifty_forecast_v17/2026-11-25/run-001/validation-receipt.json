@@ -1,0 +1,79 @@
+{
+  "frozen_scope": [
+    "2025-01-01",
+    "2026-11-17"
+  ],
+  "cash_feature_rows": 3200,
+  "stock_feature_rows": 125125,
+  "gap_mark_rows": 2740,
+  "announcement_rows": 748,
+  "original_cohorts": {
+    "5": 265,
+    "21": 217
+  },
+  "matched_volatility_target_rows": 960,
+  "residual_forecasts": [
+    {
+      "cutoff": "09:25",
+      "n": 84867,
+      "dates": 257,
+      "targets": 14
+    },
+    {
+      "cutoff": "09:35",
+      "n": 19460,
+      "dates": 257,
+      "targets": 4
+    },
+    {
+      "cutoff": "09:55",
+      "n": 19460,
+      "dates": 257,
+      "targets": 4
+    },
+    {
+      "cutoff": "10:20",
+      "n": 86386,
+      "dates": 257,
+      "targets": 14
+    },
+    {
+      "cutoff": "11:30",
+      "n": 19460,
+      "dates": 257,
+      "targets": 4
+    },
+    {
+      "cutoff": "12:30",
+      "n": 19460,
+      "dates": 257,
+      "targets": 4
+    },
+    {
+      "cutoff": "14:00",
+      "n": 19460,
+      "dates": 257,
+      "targets": 4
+    },
+    {
+      "cutoff": "15:00",
+      "n": 19460,
+      "dates": 257,
+      "targets": 4
+    }
+  ],
+  "sentinel_cases": 10,
+  "sentinel_laws": 296,
+  "clock_checks": [
+    "5-minute publication guard for cash and traded proxies",
+    "Target source opens at or after each intraday decision",
+    "Earlier cash and option-surface sessions only",
+    "Maturity strictly before original issue day at both original clocks",
+    "Exact endpoint agreement with V14 on both original evaluation cohorts"
+  ],
+  "caveats": [
+    "Cash OHLC and publication delays are official and conservative proxies. Historical per-feed delivery latency is unavailable.",
+    "Bernoulli law locations are exact in per-case forecast p. The 128 equal-mass atom representation approximates that p.",
+    "Archived V16 path systems retain their original cutoff and modeling assumptions."
+  ]
+}

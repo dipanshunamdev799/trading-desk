@@ -1,0 +1,43 @@
+{
+  "seed": 171125,
+  "subsets": [
+    [
+      "BAJFINANCE",
+      "HCLTECH",
+      "HINDUNILVR",
+      "ICICIBANK",
+      "INDUSINDBK",
+      "INFY",
+      "ITC",
+      "JIOFIN",
+      "KOTAKBANK",
+      "M&M",
+      "NTPC",
+      "RELIANCE",
+      "TVSMOTOR"
+    ],
+    [
+      "AXISBANK",
+      "BAJAJ-AUTO",
+      "BAJAJFINSV",
+      "BPCL",
+      "GODREJCP",
+      "HCLTECH",
+      "HDFCBANK",
+      "HINDUNILVR",
+      "INFY",
+      "MARUTI",
+      "POWERGRID",
+      "SBIN",
+      "SHRIRAMFIN"
+    ]
+  ],
+  "largest_exclusions": [
+    "HDFCBANK",
+    "BAJFINANCE",
+    "INFY",
+    "RELIANCE",
+    "M&M",
+    "ITC"
+  ]
+}

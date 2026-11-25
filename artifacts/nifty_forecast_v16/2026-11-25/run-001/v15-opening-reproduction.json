@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "archived_rows": 2575,
+  "matched_same_morning": 258,
+  "matched_next_gap": 257,
+  "maximum_differences": {
+    "p": 0.0,
+    "median": 1.734723475976807e-18,
+    "lower": 1.734723475976807e-18,
+    "upper": 1.734723475976807e-18,
+    "brier": 0.0,
+    "crps": 6.938893903907228e-18,
+    "log_loss": 0.0
+  },
+  "prior_parent": "DOM + OFF (includes earlier global risk, FX and oil). Pure DOM separately replayed.",
+  "native_model": ".70 times Ridge location, penalty 95, at most 160 strictly matured outcomes, centered empirical target-log law",
+  "no_current_cash": true,
+  "old_foreign_release_rule": "time-zone local close + 60 minutes",
+  "forecasts_unchanged": "16a19f25a1a94c49d47dd40a00abd8f70fb591457dbbd967d8a9ba15ae25fc53"
+}

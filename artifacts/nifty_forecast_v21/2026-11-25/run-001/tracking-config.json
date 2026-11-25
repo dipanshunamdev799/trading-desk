@@ -1,0 +1,9 @@
+{
+  "primary": "nifty50_monthly_drift_lag5",
+  "sector": "sector_simplex",
+  "vintage": "Monthly free-float market cap shares admitted after five completed cash sessions",
+  "action_policy": "Dated split/bonus ratios or verified cash exchange reset. No cash-dividend reinvestment. Missing price carries the last mark.",
+  "distinct": "Lag zero is an ex-post month-end reconstruction. Lag one and lag ten are timing sensitivities.",
+  "sector_fit": "Nonnegative simplex using up to 140 prior official daily returns. Ridge toward equal, with no future covariance.",
+  "proxy": "January baskets are documented research portfolios. They rebalance to fixed risk weights daily."
+}

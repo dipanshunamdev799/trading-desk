@@ -1,0 +1,3850 @@
+{
+  "counts": [
+    256,
+    2048,
+    8192
+  ],
+  "seed": "V16 preserved paired seed and shared leading uniform draws",
+  "files": [
+    {
+      "horizon": 5,
+      "origin": "2025-10-14",
+      "model": "decomposed_gift",
+      "n": 256,
+      "file": "convergence-laws/256/5-2025-10-14-decomposed_gift.npz",
+      "sha256": "022bd1ffaa2f01ebb053766a67b261f148101779c2e6d85bd2bbd55a09c2edc4",
+      "last_fit_end": "2025-10-14",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-10-14",
+      "model": "session_state",
+      "n": 256,
+      "file": "convergence-laws/256/5-2025-10-14-session_state.npz",
+      "sha256": "c34d0921be685f86bc08cf5f28eeb84769d60c1b8599fcf21a3d815e1941e87b",
+      "last_fit_end": "2025-10-14",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-10-14",
+      "model": "decomposed_gift",
+      "n": 2048,
+      "file": "convergence-laws/2048/5-2025-10-14-decomposed_gift.npz",
+      "sha256": "351eda874d95bf2698da462aa2c80c6d0088e6d22e2fb61daf77c6cd8b3dda0a",
+      "last_fit_end": "2025-10-14",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-10-14",
+      "model": "session_state",
+      "n": 2048,
+      "file": "convergence-laws/2048/5-2025-10-14-session_state.npz",
+      "sha256": "985d47e205b32f2ba106f9c2d5e7dc213c705160d63ac052c65107d332d8d8d5",
+      "last_fit_end": "2025-10-14",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-10-14",
+      "model": "decomposed_gift",
+      "n": 8192,
+      "file": "convergence-laws/8192/5-2025-10-14-decomposed_gift.npz",
+      "sha256": "97bd7b1273abc16967ac271ba6af64a8f8af708a9871d2af8cffd23b4f07826d",
+      "last_fit_end": "2025-10-14",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-10-14",
+      "model": "session_state",
+      "n": 8192,
+      "file": "convergence-laws/8192/5-2025-10-14-session_state.npz",
+      "sha256": "cca402b1f7b3dc692c17a50d90294b2a8579ec1246a4ded578663f046e35995d",
+      "last_fit_end": "2025-10-14",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-10-27",
+      "model": "decomposed_gift",
+      "n": 256,
+      "file": "convergence-laws/256/5-2025-10-27-decomposed_gift.npz",
+      "sha256": "79039f44b3839f0a4e00d165987e6c9578c13fa637aaa27f339c5a597c157894",
+      "last_fit_end": "2025-10-27",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-10-27",
+      "model": "session_state",
+      "n": 256,
+      "file": "convergence-laws/256/5-2025-10-27-session_state.npz",
+      "sha256": "ccf248ac92c527d57f2272eb0a0152355d02c0ff3fff5aa48bc530203e553579",
+      "last_fit_end": "2025-10-27",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-10-27",
+      "model": "decomposed_gift",
+      "n": 2048,
+      "file": "convergence-laws/2048/5-2025-10-27-decomposed_gift.npz",
+      "sha256": "a8f0ba4084f866f637fb9220859e33cf1153fa4165834b0f1c013f141a276444",
+      "last_fit_end": "2025-10-27",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-10-27",
+      "model": "session_state",
+      "n": 2048,
+      "file": "convergence-laws/2048/5-2025-10-27-session_state.npz",
+      "sha256": "e508ffc8d87b0566de72eeeda5135acfdd1f9a164686fd322b4a074985cebc82",
+      "last_fit_end": "2025-10-27",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-10-27",
+      "model": "decomposed_gift",
+      "n": 8192,
+      "file": "convergence-laws/8192/5-2025-10-27-decomposed_gift.npz",
+      "sha256": "08b6a990d16eeb07b241ec04925384320bb64b84731e805b8fad4054b8478eb3",
+      "last_fit_end": "2025-10-27",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-10-27",
+      "model": "session_state",
+      "n": 8192,
+      "file": "convergence-laws/8192/5-2025-10-27-session_state.npz",
+      "sha256": "87c5c7fa7e49323236e2a757dfd7addf1513d90b17ad8293438ba063c71d66d4",
+      "last_fit_end": "2025-10-27",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-11-10",
+      "model": "decomposed_gift",
+      "n": 256,
+      "file": "convergence-laws/256/5-2025-11-10-decomposed_gift.npz",
+      "sha256": "92e253d2ffbb7393838a1ceef821f15af37c1d05d9130ac4a2f3b6c3c004e52f",
+      "last_fit_end": "2025-11-10",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-11-10",
+      "model": "session_state",
+      "n": 256,
+      "file": "convergence-laws/256/5-2025-11-10-session_state.npz",
+      "sha256": "897d234674bc020fd8e25a7366eb8ca2ccde3edc72d43059eaeaa4676e153a2f",
+      "last_fit_end": "2025-11-10",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-11-10",
+      "model": "decomposed_gift",
+      "n": 2048,
+      "file": "convergence-laws/2048/5-2025-11-10-decomposed_gift.npz",
+      "sha256": "a7376c3264fe1a0ab33aa5219bf0dc11ca8a2ea65f183e8ef3be1515c9d33d49",
+      "last_fit_end": "2025-11-10",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-11-10",
+      "model": "session_state",
+      "n": 2048,
+      "file": "convergence-laws/2048/5-2025-11-10-session_state.npz",
+      "sha256": "1d76dd50934d6f44067e8f00f084727b7f6fffefff0dbd8381e1b187222e8d55",
+      "last_fit_end": "2025-11-10",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-11-10",
+      "model": "decomposed_gift",
+      "n": 8192,
+      "file": "convergence-laws/8192/5-2025-11-10-decomposed_gift.npz",
+      "sha256": "8c685b35bb8fb0f4d32259df538a8e747cdb08cf672c84b118ee41b988b41be2",
+      "last_fit_end": "2025-11-10",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-11-10",
+      "model": "session_state",
+      "n": 8192,
+      "file": "convergence-laws/8192/5-2025-11-10-session_state.npz",
+      "sha256": "d2fd91aa05232eea40b21c47bb0edf403a54d153e469db62152ab5142cd6d2fa",
+      "last_fit_end": "2025-11-10",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-11-20",
+      "model": "decomposed_gift",
+      "n": 256,
+      "file": "convergence-laws/256/5-2025-11-20-decomposed_gift.npz",
+      "sha256": "1d838a229bf31155b28d94fa38e671eb18b8e904f43d8256c51a7aa6bce83da9",
+      "last_fit_end": "2025-11-20",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-11-20",
+      "model": "session_state",
+      "n": 256,
+      "file": "convergence-laws/256/5-2025-11-20-session_state.npz",
+      "sha256": "28b38e77eee35badb26e89034da9c246d655e2207712aff061dfd9d47d8dd047",
+      "last_fit_end": "2025-11-20",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-11-20",
+      "model": "decomposed_gift",
+      "n": 2048,
+      "file": "convergence-laws/2048/5-2025-11-20-decomposed_gift.npz",
+      "sha256": "dc232ca64135a5e6c17a6cda99e177ec3c1b399ee4e88972e52ee1f287abf016",
+      "last_fit_end": "2025-11-20",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-11-20",
+      "model": "session_state",
+      "n": 2048,
+      "file": "convergence-laws/2048/5-2025-11-20-session_state.npz",
+      "sha256": "5e9b5e591e40c7ce0370f37f032744c87434af4622bb9cc42cf3cf623d065a8b",
+      "last_fit_end": "2025-11-20",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-11-20",
+      "model": "decomposed_gift",
+      "n": 8192,
+      "file": "convergence-laws/8192/5-2025-11-20-decomposed_gift.npz",
+      "sha256": "285e3bb3b2c3b996344998f891b140651e4b3f397346e17980f32e59512189a4",
+      "last_fit_end": "2025-11-20",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-11-20",
+      "model": "session_state",
+      "n": 8192,
+      "file": "convergence-laws/8192/5-2025-11-20-session_state.npz",
+      "sha256": "d179eea23ef4ec33534e2a5f70aad89734b7d05ece87768ab11057790c91e849",
+      "last_fit_end": "2025-11-20",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-12-03",
+      "model": "decomposed_gift",
+      "n": 256,
+      "file": "convergence-laws/256/5-2025-12-03-decomposed_gift.npz",
+      "sha256": "8d3fa1ad886f79179a9e5784b6057d63251e04f96f4f782fc81f0816fc665a8c",
+      "last_fit_end": "2025-12-03",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-12-03",
+      "model": "session_state",
+      "n": 256,
+      "file": "convergence-laws/256/5-2025-12-03-session_state.npz",
+      "sha256": "fff2b5559dff706cd2e9dbf87749bf979d5507b63dccbed2548f6056f9c95a0e",
+      "last_fit_end": "2025-12-03",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-12-03",
+      "model": "decomposed_gift",
+      "n": 2048,
+      "file": "convergence-laws/2048/5-2025-12-03-decomposed_gift.npz",
+      "sha256": "1ab9615d98a74b67fe8948b72d7a0826f4ad0531801d3408c0fdf95d4d4e90b0",
+      "last_fit_end": "2025-12-03",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-12-03",
+      "model": "session_state",
+      "n": 2048,
+      "file": "convergence-laws/2048/5-2025-12-03-session_state.npz",
+      "sha256": "95c481ff00f8c23cfcf33459c9658677cab3fc6f531b9c726841945d72df8afb",
+      "last_fit_end": "2025-12-03",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-12-03",
+      "model": "decomposed_gift",
+      "n": 8192,
+      "file": "convergence-laws/8192/5-2025-12-03-decomposed_gift.npz",
+      "sha256": "510aa38c81801db76ef966cee98fc6565184dbb31ed708955241257d894aaed9",
+      "last_fit_end": "2025-12-03",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-12-03",
+      "model": "session_state",
+      "n": 8192,
+      "file": "convergence-laws/8192/5-2025-12-03-session_state.npz",
+      "sha256": "352a1501164b85c55887da06dac37a4aa3efa93518af9067e6257decdbef8f0a",
+      "last_fit_end": "2025-12-03",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-12-15",
+      "model": "decomposed_gift",
+      "n": 256,
+      "file": "convergence-laws/256/5-2025-12-15-decomposed_gift.npz",
+      "sha256": "c94d45c6d35af77594710bb2c3ff115991f02cd6c0834be13e2c3ffcf6846140",
+      "last_fit_end": "2025-12-15",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-12-15",
+      "model": "session_state",
+      "n": 256,
+      "file": "convergence-laws/256/5-2025-12-15-session_state.npz",
+      "sha256": "415d52bc90e1465b55c057af0d7b7373f835d23f604458df01b580ed6f416294",
+      "last_fit_end": "2025-12-15",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-12-15",
+      "model": "decomposed_gift",
+      "n": 2048,
+      "file": "convergence-laws/2048/5-2025-12-15-decomposed_gift.npz",
+      "sha256": "46d3700f876d9ef9c25652aa8726f17cdd186498f3eeaaaa443f9cdecb619942",
+      "last_fit_end": "2025-12-15",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-12-15",
+      "model": "session_state",
+      "n": 2048,
+      "file": "convergence-laws/2048/5-2025-12-15-session_state.npz",
+      "sha256": "9e69cf04d9989b721b4d81f783b6180a2887ea8d47893d9b72a603510b62f77c",
+      "last_fit_end": "2025-12-15",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-12-15",
+      "model": "decomposed_gift",
+      "n": 8192,
+      "file": "convergence-laws/8192/5-2025-12-15-decomposed_gift.npz",
+      "sha256": "39dbd7520311a839a5c0ad0026858c066c7bf8da602017cbb26493a4bfe68850",
+      "last_fit_end": "2025-12-15",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-12-15",
+      "model": "session_state",
+      "n": 8192,
+      "file": "convergence-laws/8192/5-2025-12-15-session_state.npz",
+      "sha256": "5d49d32991ab076664620e270142b238061aee19d3766f9764a381cdef5d2610",
+      "last_fit_end": "2025-12-15",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-12-29",
+      "model": "decomposed_gift",
+      "n": 256,
+      "file": "convergence-laws/256/5-2025-12-29-decomposed_gift.npz",
+      "sha256": "405e007997b9404d1b4f4518a71ceec0230748012712ac51598dbedddb7a2a2f",
+      "last_fit_end": "2025-12-29",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-12-29",
+      "model": "session_state",
+      "n": 256,
+      "file": "convergence-laws/256/5-2025-12-29-session_state.npz",
+      "sha256": "fd78b7597dac866eb19c802662157b0d6d7bf687290f7c4e00e8a134c8d57072",
+      "last_fit_end": "2025-12-29",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-12-29",
+      "model": "decomposed_gift",
+      "n": 2048,
+      "file": "convergence-laws/2048/5-2025-12-29-decomposed_gift.npz",
+      "sha256": "228452ed8e34ef67634f931195d25826383786375c9b2081f736e2b077795e73",
+      "last_fit_end": "2025-12-29",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-12-29",
+      "model": "session_state",
+      "n": 2048,
+      "file": "convergence-laws/2048/5-2025-12-29-session_state.npz",
+      "sha256": "3701a38217aa128639c7d7d4d6fb6ebd3f73df334f82541849731f06c100cfa8",
+      "last_fit_end": "2025-12-29",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-12-29",
+      "model": "decomposed_gift",
+      "n": 8192,
+      "file": "convergence-laws/8192/5-2025-12-29-decomposed_gift.npz",
+      "sha256": "869a16e261e3a7e3e067ad9b6b1bde949995997fa47c03fd9e1629ccb89e3a28",
+      "last_fit_end": "2025-12-29",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-12-29",
+      "model": "session_state",
+      "n": 8192,
+      "file": "convergence-laws/8192/5-2025-12-29-session_state.npz",
+      "sha256": "ffc60640040dae2f58fe11b69061e1a0a0eced66e6871fc05ca7019c9bb590c9",
+      "last_fit_end": "2025-12-29",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-01-08",
+      "model": "decomposed_gift",
+      "n": 256,
+      "file": "convergence-laws/256/5-2026-01-08-decomposed_gift.npz",
+      "sha256": "b7cc6a620f93583f733885ac3fbc4602dfca920fa2c56f39f32b3f0b92764979",
+      "last_fit_end": "2026-01-08",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-01-08",
+      "model": "session_state",
+      "n": 256,
+      "file": "convergence-laws/256/5-2026-01-08-session_state.npz",
+      "sha256": "5bccc89a371a04b79fd543798113a1a29ee985593448fbea687fbebb04a978d1",
+      "last_fit_end": "2026-01-08",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-01-08",
+      "model": "decomposed_gift",
+      "n": 2048,
+      "file": "convergence-laws/2048/5-2026-01-08-decomposed_gift.npz",
+      "sha256": "e837ceb29f6ef8ce7fe1c55996fae163b405ef14c027d381d2fc0cbbf11891f3",
+      "last_fit_end": "2026-01-08",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-01-08",
+      "model": "session_state",
+      "n": 2048,
+      "file": "convergence-laws/2048/5-2026-01-08-session_state.npz",
+      "sha256": "054838c3269e28d63afd9f44fbb2e737edaa33da14ed7232c0c7f7862b139e3c",
+      "last_fit_end": "2026-01-08",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-01-08",
+      "model": "decomposed_gift",
+      "n": 8192,
+      "file": "convergence-laws/8192/5-2026-01-08-decomposed_gift.npz",
+      "sha256": "c5d1db89557055f8b8a0f2bd584cc4c46722b6d6c362be5d402b7e24e67f9909",
+      "last_fit_end": "2026-01-08",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-01-08",
+      "model": "session_state",
+      "n": 8192,
+      "file": "convergence-laws/8192/5-2026-01-08-session_state.npz",
+      "sha256": "b1800180e3a7d9c120784e68b31c544e7f485720bfd16d9963385f5668cd567a",
+      "last_fit_end": "2026-01-08",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-01-22",
+      "model": "decomposed_gift",
+      "n": 256,
+      "file": "convergence-laws/256/5-2026-01-22-decomposed_gift.npz",
+      "sha256": "fa75d484b3315caf2cb2d5d5c8a8dc7f8a3ed3da83575938de42d8c130f60817",
+      "last_fit_end": "2026-01-22",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-01-22",
+      "model": "session_state",
+      "n": 256,
+      "file": "convergence-laws/256/5-2026-01-22-session_state.npz",
+      "sha256": "e5b55b3fa5a9c7fe43991e992fb55b1405ff6ef64bc981f76e1f6cd134bb5455",
+      "last_fit_end": "2026-01-22",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-01-22",
+      "model": "decomposed_gift",
+      "n": 2048,
+      "file": "convergence-laws/2048/5-2026-01-22-decomposed_gift.npz",
+      "sha256": "22f6a2bc82496a9fc4d5eb97d05385093d4bb6ef73487cba492a191721699008",
+      "last_fit_end": "2026-01-22",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-01-22",
+      "model": "session_state",
+      "n": 2048,
+      "file": "convergence-laws/2048/5-2026-01-22-session_state.npz",
+      "sha256": "61647a4534f8e8f6a4381f60c17a742a05f5004aeb5f1055b0084be2fb54c857",
+      "last_fit_end": "2026-01-22",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-01-22",
+      "model": "decomposed_gift",
+      "n": 8192,
+      "file": "convergence-laws/8192/5-2026-01-22-decomposed_gift.npz",
+      "sha256": "5662bc7a13dc61850c9c6376917c198d796f451bf4e50b6173f770cc76d6c3f1",
+      "last_fit_end": "2026-01-22",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-01-22",
+      "model": "session_state",
+      "n": 8192,
+      "file": "convergence-laws/8192/5-2026-01-22-session_state.npz",
+      "sha256": "b7bd57e1dbe86f8ec029d430ace74a286f1e336f6c1b64fb04d3d24241643a24",
+      "last_fit_end": "2026-01-22",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-02-03",
+      "model": "decomposed_gift",
+      "n": 256,
+      "file": "convergence-laws/256/5-2026-02-03-decomposed_gift.npz",
+      "sha256": "6b2862eb0799157fe0adb6e575f43d27ce997688d7325d0dafbeda67d0886268",
+      "last_fit_end": "2026-02-03",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-02-03",
+      "model": "session_state",
+      "n": 256,
+      "file": "convergence-laws/256/5-2026-02-03-session_state.npz",
+      "sha256": "e606e305de157f36151d3834fae93038cf0d9995da1b1059f7115af01d0eea16",
+      "last_fit_end": "2026-02-03",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-02-03",
+      "model": "decomposed_gift",
+      "n": 2048,
+      "file": "convergence-laws/2048/5-2026-02-03-decomposed_gift.npz",
+      "sha256": "8351c8f95224e9bbeca1f545a0a436acb1d568995087f3ef782dd49ceb2efdb1",
+      "last_fit_end": "2026-02-03",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-02-03",
+      "model": "session_state",
+      "n": 2048,
+      "file": "convergence-laws/2048/5-2026-02-03-session_state.npz",
+      "sha256": "53641666ff2ba0742e40d379abf0649701fbb0004983bbd97d5d3aabc59926ed",
+      "last_fit_end": "2026-02-03",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-02-03",
+      "model": "decomposed_gift",
+      "n": 8192,
+      "file": "convergence-laws/8192/5-2026-02-03-decomposed_gift.npz",
+      "sha256": "6bbfaee4aca1e1d472a0acabe427b032b213a4c9b8fa123b36db753690898a5e",
+      "last_fit_end": "2026-02-03",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-02-03",
+      "model": "session_state",
+      "n": 8192,
+      "file": "convergence-laws/8192/5-2026-02-03-session_state.npz",
+      "sha256": "437ef78fd6acf9ae1d4b9c83fa4eddb39778b6fecf43e22233cd156c060d314f",
+      "last_fit_end": "2026-02-03",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-02-16",
+      "model": "decomposed_gift",
+      "n": 256,
+      "file": "convergence-laws/256/5-2026-02-16-decomposed_gift.npz",
+      "sha256": "ad80c19d7f47591704c0863b8c5e5d69aa2f799d337cf8e47376cbbf7e7c0c20",
+      "last_fit_end": "2026-02-16",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-02-16",
+      "model": "session_state",
+      "n": 256,
+      "file": "convergence-laws/256/5-2026-02-16-session_state.npz",
+      "sha256": "71afba3cfae7ef83a937976184d7d7876ba99c5a56ea3c2053af4eb8525a269d",
+      "last_fit_end": "2026-02-16",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-02-16",
+      "model": "decomposed_gift",
+      "n": 2048,
+      "file": "convergence-laws/2048/5-2026-02-16-decomposed_gift.npz",
+      "sha256": "ddd1b9ac6ce7741849b64532d87152b12c7df5ef670627cb69ac0caa6eef9907",
+      "last_fit_end": "2026-02-16",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-02-16",
+      "model": "session_state",
+      "n": 2048,
+      "file": "convergence-laws/2048/5-2026-02-16-session_state.npz",
+      "sha256": "08a5b8b05c7019bc4963961d0c8c53d79ae42f3ac0c2d4b6fb75955c4a1aa86d",
+      "last_fit_end": "2026-02-16",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-02-16",
+      "model": "decomposed_gift",
+      "n": 8192,
+      "file": "convergence-laws/8192/5-2026-02-16-decomposed_gift.npz",
+      "sha256": "0b692cb748fefa9c70d8fbab6e61cb30dd48f8992d73525cd5d85df5dac4738c",
+      "last_fit_end": "2026-02-16",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-02-16",
+      "model": "session_state",
+      "n": 8192,
+      "file": "convergence-laws/8192/5-2026-02-16-session_state.npz",
+      "sha256": "3035ab97d3ac7f766ef60412c568627ce862ea5b0e2c28d728547c0e77e9f19f",
+      "last_fit_end": "2026-02-16",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-02-26",
+      "model": "decomposed_gift",
+      "n": 256,
+      "file": "convergence-laws/256/5-2026-02-26-decomposed_gift.npz",
+      "sha256": "1d402c6be668025dbf21231d09515068736535091e09d1962e819285bf8bf23a",
+      "last_fit_end": "2026-02-26",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-02-26",
+      "model": "session_state",
+      "n": 256,
+      "file": "convergence-laws/256/5-2026-02-26-session_state.npz",
+      "sha256": "ce30d14d7c19157ae8fa990baa61ddc97b3e32af391ab86b5022a2b092b20535",
+      "last_fit_end": "2026-02-26",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-02-26",
+      "model": "decomposed_gift",
+      "n": 2048,
+      "file": "convergence-laws/2048/5-2026-02-26-decomposed_gift.npz",
+      "sha256": "406000722dca12face45ffd8b080955b01a1272d6c51df0ab903230932eb30bd",
+      "last_fit_end": "2026-02-26",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-02-26",
+      "model": "session_state",
+      "n": 2048,
+      "file": "convergence-laws/2048/5-2026-02-26-session_state.npz",
+      "sha256": "598f4a85029099684c7f79dec87fa5255714e0a222a4fb08fcf98423f7991443",
+      "last_fit_end": "2026-02-26",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-02-26",
+      "model": "decomposed_gift",
+      "n": 8192,
+      "file": "convergence-laws/8192/5-2026-02-26-decomposed_gift.npz",
+      "sha256": "249f9b2e63c6583cf1dcbd4f35b53bdce06e03823563aaad498d49c1d07f928a",
+      "last_fit_end": "2026-02-26",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-02-26",
+      "model": "session_state",
+      "n": 8192,
+      "file": "convergence-laws/8192/5-2026-02-26-session_state.npz",
+      "sha256": "8d6fd46b03c9ae6c10d0843dfef3b62d95d1077097a4093290f74ca7a5fd93c9",
+      "last_fit_end": "2026-02-26",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-03-12",
+      "model": "decomposed_gift",
+      "n": 256,
+      "file": "convergence-laws/256/5-2026-03-12-decomposed_gift.npz",
+      "sha256": "c44c3f0319ac23a36dc39646b946f97d344cb2bbcebcee1cd6e89126177f25e7",
+      "last_fit_end": "2026-03-12",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-03-12",
+      "model": "session_state",
+      "n": 256,
+      "file": "convergence-laws/256/5-2026-03-12-session_state.npz",
+      "sha256": "fb7d50ab284d782d103fdbc4373c4d93440d52afd40ee6676900598043209cda",
+      "last_fit_end": "2026-03-12",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-03-12",
+      "model": "decomposed_gift",
+      "n": 2048,
+      "file": "convergence-laws/2048/5-2026-03-12-decomposed_gift.npz",
+      "sha256": "787c2294e74b7a694e0f8a883a6d5cd5959c53429d2084ce74c5e684d7d4c09c",
+      "last_fit_end": "2026-03-12",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-03-12",
+      "model": "session_state",
+      "n": 2048,
+      "file": "convergence-laws/2048/5-2026-03-12-session_state.npz",
+      "sha256": "8886c27290ed4d3df321c797000c0af02b33253f318622eb5f404ade27d9353c",
+      "last_fit_end": "2026-03-12",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-03-12",
+      "model": "decomposed_gift",
+      "n": 8192,
+      "file": "convergence-laws/8192/5-2026-03-12-decomposed_gift.npz",
+      "sha256": "a902ada164f4df201f7c8920722c8037ab971d386e203bf5f67f37e9a6c7fc82",
+      "last_fit_end": "2026-03-12",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-03-12",
+      "model": "session_state",
+      "n": 8192,
+      "file": "convergence-laws/8192/5-2026-03-12-session_state.npz",
+      "sha256": "3ae4a0fea230dccafb9a15f469612a36454e958f954fd025b39de590652614b3",
+      "last_fit_end": "2026-03-12",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-03-24",
+      "model": "decomposed_gift",
+      "n": 256,
+      "file": "convergence-laws/256/5-2026-03-24-decomposed_gift.npz",
+      "sha256": "e58332769103fb7dd0df38548014fbd034a5ff107ee732a39ecdf4908796cca9",
+      "last_fit_end": "2026-03-24",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-03-24",
+      "model": "session_state",
+      "n": 256,
+      "file": "convergence-laws/256/5-2026-03-24-session_state.npz",
+      "sha256": "e992af4d64effc82d41e29567992831293f70f017768d9b074ec12faade17458",
+      "last_fit_end": "2026-03-24",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-03-24",
+      "model": "decomposed_gift",
+      "n": 2048,
+      "file": "convergence-laws/2048/5-2026-03-24-decomposed_gift.npz",
+      "sha256": "847b861ebb17a634ac69f552fa850a89035cd461afde968808a2c5cd94c92723",
+      "last_fit_end": "2026-03-24",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-03-24",
+      "model": "session_state",
+      "n": 2048,
+      "file": "convergence-laws/2048/5-2026-03-24-session_state.npz",
+      "sha256": "6214ec499ca715043ac42075ed019e295ecc792fabec7dbf38939d6d49534d0b",
+      "last_fit_end": "2026-03-24",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-03-24",
+      "model": "decomposed_gift",
+      "n": 8192,
+      "file": "convergence-laws/8192/5-2026-03-24-decomposed_gift.npz",
+      "sha256": "f1b4aba04e7c8a18001bc2b686aac79b360df7b8757cb75cbe785bc8c65cd6c6",
+      "last_fit_end": "2026-03-24",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-03-24",
+      "model": "session_state",
+      "n": 8192,
+      "file": "convergence-laws/8192/5-2026-03-24-session_state.npz",
+      "sha256": "fb202bdbeef3b4855b97f692eeee73492ea3d7494d989b634312d463369ceb5a",
+      "last_fit_end": "2026-03-24",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-04-09",
+      "model": "decomposed_gift",
+      "n": 256,
+      "file": "convergence-laws/256/5-2026-04-09-decomposed_gift.npz",
+      "sha256": "4895dc22c4c6dd33b8f2cfc1f96407bfb1279096f6a4e71fe52dbb76ef17b7ce",
+      "last_fit_end": "2026-04-09",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-04-09",
+      "model": "session_state",
+      "n": 256,
+      "file": "convergence-laws/256/5-2026-04-09-session_state.npz",
+      "sha256": "b5c16ee536f35825bfe0a9eb55636cb9db977d3a86cd59f1bde2247adafa026f",
+      "last_fit_end": "2026-04-09",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-04-09",
+      "model": "decomposed_gift",
+      "n": 2048,
+      "file": "convergence-laws/2048/5-2026-04-09-decomposed_gift.npz",
+      "sha256": "6bfe5292803d1196c2dbfcb3ab515ac427839de20ff45bb7155805d635b1fc27",
+      "last_fit_end": "2026-04-09",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-04-09",
+      "model": "session_state",
+      "n": 2048,
+      "file": "convergence-laws/2048/5-2026-04-09-session_state.npz",
+      "sha256": "a383257579f08e5cb38a7c3ccb0b3d919e07e2d10bcfaa771d2cf6777caa3557",
+      "last_fit_end": "2026-04-09",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-04-09",
+      "model": "decomposed_gift",
+      "n": 8192,
+      "file": "convergence-laws/8192/5-2026-04-09-decomposed_gift.npz",
+      "sha256": "70548bfcf5db39c641ea19278138340bf8af699c66c3ccbd9593961a3c2911b6",
+      "last_fit_end": "2026-04-09",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-04-09",
+      "model": "session_state",
+      "n": 8192,
+      "file": "convergence-laws/8192/5-2026-04-09-session_state.npz",
+      "sha256": "7e53b38398d1c380399bd60ca8cb4202611967b06b1ca02edaa3b4f107f2225d",
+      "last_fit_end": "2026-04-09",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-04-22",
+      "model": "decomposed_gift",
+      "n": 256,
+      "file": "convergence-laws/256/5-2026-04-22-decomposed_gift.npz",
+      "sha256": "6b5ffd8073608f938d76f62c55fcbb5e804aed04d26662c4182d1cf8fe1ee824",
+      "last_fit_end": "2026-04-22",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-04-22",
+      "model": "session_state",
+      "n": 256,
+      "file": "convergence-laws/256/5-2026-04-22-session_state.npz",
+      "sha256": "68b530e9bedf1900ee59b1e52a93142f023e08172b3b507fb9841d2be6dc3007",
+      "last_fit_end": "2026-04-22",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-04-22",
+      "model": "decomposed_gift",
+      "n": 2048,
+      "file": "convergence-laws/2048/5-2026-04-22-decomposed_gift.npz",
+      "sha256": "89555e88a33727850909cd1890961f5ae9f00c490ee12d6939f571d5f747cb19",
+      "last_fit_end": "2026-04-22",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-04-22",
+      "model": "session_state",
+      "n": 2048,
+      "file": "convergence-laws/2048/5-2026-04-22-session_state.npz",
+      "sha256": "dbe38266c9d889b97cd9ad2db9c782214b83e326699ad370c0849e836e62be28",
+      "last_fit_end": "2026-04-22",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-04-22",
+      "model": "decomposed_gift",
+      "n": 8192,
+      "file": "convergence-laws/8192/5-2026-04-22-decomposed_gift.npz",
+      "sha256": "7957bf1b928a5572a58d124230b7582ed20ad9b40bc4af4fa591910159620b37",
+      "last_fit_end": "2026-04-22",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-04-22",
+      "model": "session_state",
+      "n": 8192,
+      "file": "convergence-laws/8192/5-2026-04-22-session_state.npz",
+      "sha256": "0493c777ee795af0c2e28461c55dce9212fa820d76788dc6988f206a25df430a",
+      "last_fit_end": "2026-04-22",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-05-06",
+      "model": "decomposed_gift",
+      "n": 256,
+      "file": "convergence-laws/256/5-2026-05-06-decomposed_gift.npz",
+      "sha256": "891642b5b3059a6ea3d3337fd3b0daa8a43060d7ff8265d02f4a053f307a76fc",
+      "last_fit_end": "2026-05-06",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-05-06",
+      "model": "session_state",
+      "n": 256,
+      "file": "convergence-laws/256/5-2026-05-06-session_state.npz",
+      "sha256": "f01734f43c88a20373bef32e1968473756c71f22a26eabe0aa35e58f6dec65f7",
+      "last_fit_end": "2026-05-06",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-05-06",
+      "model": "decomposed_gift",
+      "n": 2048,
+      "file": "convergence-laws/2048/5-2026-05-06-decomposed_gift.npz",
+      "sha256": "db0af21b4e63d740f0a181b25a8a67adc55fe33cc296b2635474cc55fc2ca871",
+      "last_fit_end": "2026-05-06",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-05-06",
+      "model": "session_state",
+      "n": 2048,
+      "file": "convergence-laws/2048/5-2026-05-06-session_state.npz",
+      "sha256": "d772fa30fa83a6b7ed9a2c0e053311447066ea41543f4b74a6c977eead580f96",
+      "last_fit_end": "2026-05-06",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-05-06",
+      "model": "decomposed_gift",
+      "n": 8192,
+      "file": "convergence-laws/8192/5-2026-05-06-decomposed_gift.npz",
+      "sha256": "7df30bf5344c708bb3b4f2e9485d063ffbc3f9a487982af34443d8d6f5914c3c",
+      "last_fit_end": "2026-05-06",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-05-06",
+      "model": "session_state",
+      "n": 8192,
+      "file": "convergence-laws/8192/5-2026-05-06-session_state.npz",
+      "sha256": "9729e9e1ba55c65bf126ebc17eb16b3b27dfbdc41a464d1216bc6c2d0d146cdb",
+      "last_fit_end": "2026-05-06",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-05-18",
+      "model": "decomposed_gift",
+      "n": 256,
+      "file": "convergence-laws/256/5-2026-05-18-decomposed_gift.npz",
+      "sha256": "2398233e2fc47829e776822e651ebc4e81ce1ba61423e45534b1801aa7f7c437",
+      "last_fit_end": "2026-05-18",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-05-18",
+      "model": "session_state",
+      "n": 256,
+      "file": "convergence-laws/256/5-2026-05-18-session_state.npz",
+      "sha256": "a851bb94453607573d63fd04300a65ded5d770d0a3544821659d6d3a544217ba",
+      "last_fit_end": "2026-05-18",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-05-18",
+      "model": "decomposed_gift",
+      "n": 2048,
+      "file": "convergence-laws/2048/5-2026-05-18-decomposed_gift.npz",
+      "sha256": "eb166449114687ec20063a2abf4d27395fa870e033777b99816e0154f24ddfdf",
+      "last_fit_end": "2026-05-18",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-05-18",
+      "model": "session_state",
+      "n": 2048,
+      "file": "convergence-laws/2048/5-2026-05-18-session_state.npz",
+      "sha256": "55a946a6d47d23bcd8fe3b53aa1344020e5dbc1c29fdc4799341cf695e61ff96",
+      "last_fit_end": "2026-05-18",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-05-18",
+      "model": "decomposed_gift",
+      "n": 8192,
+      "file": "convergence-laws/8192/5-2026-05-18-decomposed_gift.npz",
+      "sha256": "51a34be3598acac14bfc85000c154d529cb3c37366817e56b5fba3dcf05e01a1",
+      "last_fit_end": "2026-05-18",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-05-18",
+      "model": "session_state",
+      "n": 8192,
+      "file": "convergence-laws/8192/5-2026-05-18-session_state.npz",
+      "sha256": "171324316815580bf419e8c6d84542a62000e921a3c796f52f8909384ffce344",
+      "last_fit_end": "2026-05-18",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-06-01",
+      "model": "decomposed_gift",
+      "n": 256,
+      "file": "convergence-laws/256/5-2026-06-01-decomposed_gift.npz",
+      "sha256": "3128683ba2ac7faa74f4024d7579963ca64b3ca126b53b68b83e66286547a188",
+      "last_fit_end": "2026-06-01",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-06-01",
+      "model": "session_state",
+      "n": 256,
+      "file": "convergence-laws/256/5-2026-06-01-session_state.npz",
+      "sha256": "085ae472e5d50df2bf04baa2dfc642aef03bc535734f27d9fc7fe03c5337d77a",
+      "last_fit_end": "2026-06-01",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-06-01",
+      "model": "decomposed_gift",
+      "n": 2048,
+      "file": "convergence-laws/2048/5-2026-06-01-decomposed_gift.npz",
+      "sha256": "eac9c2a9799ccd0c52f9c0afecd9da5cdf8c6e0f5e09e88c8424e8f250e8c1fc",
+      "last_fit_end": "2026-06-01",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-06-01",
+      "model": "session_state",
+      "n": 2048,
+      "file": "convergence-laws/2048/5-2026-06-01-session_state.npz",
+      "sha256": "c364246aad1412fc3fae4e5a2e2da4d95dd7d285dfc19425b0932affe422f825",
+      "last_fit_end": "2026-06-01",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-06-01",
+      "model": "decomposed_gift",
+      "n": 8192,
+      "file": "convergence-laws/8192/5-2026-06-01-decomposed_gift.npz",
+      "sha256": "9a09a4216960be571b9ce875953cedff961b1eb2c4d79b31948d302e166bac2c",
+      "last_fit_end": "2026-06-01",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-06-01",
+      "model": "session_state",
+      "n": 8192,
+      "file": "convergence-laws/8192/5-2026-06-01-session_state.npz",
+      "sha256": "791ce13a7612471f7235b28e91b6ec3278de3e764739904d1e29a77c052892d8",
+      "last_fit_end": "2026-06-01",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-06-11",
+      "model": "decomposed_gift",
+      "n": 256,
+      "file": "convergence-laws/256/5-2026-06-11-decomposed_gift.npz",
+      "sha256": "a8f4a4055b9bf26f473c5671bea4198a90a5d7af68219c380adba9b5098f42dd",
+      "last_fit_end": "2026-06-11",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-06-11",
+      "model": "session_state",
+      "n": 256,
+      "file": "convergence-laws/256/5-2026-06-11-session_state.npz",
+      "sha256": "6f22e03db57dcf70f2feb1d952a0a1925aa0542f88679c17c4c51b88663dc618",
+      "last_fit_end": "2026-06-11",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-06-11",
+      "model": "decomposed_gift",
+      "n": 2048,
+      "file": "convergence-laws/2048/5-2026-06-11-decomposed_gift.npz",
+      "sha256": "3f29e1ed8e7c0a5804dee254510d388883b84c2a9746d49970c87702b496deaa",
+      "last_fit_end": "2026-06-11",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-06-11",
+      "model": "session_state",
+      "n": 2048,
+      "file": "convergence-laws/2048/5-2026-06-11-session_state.npz",
+      "sha256": "59853673d4b639cf5a75357b813334a824e0adea23af1ac78d8e62343982d5c7",
+      "last_fit_end": "2026-06-11",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-06-11",
+      "model": "decomposed_gift",
+      "n": 8192,
+      "file": "convergence-laws/8192/5-2026-06-11-decomposed_gift.npz",
+      "sha256": "371d4e7438f49af6154fb45aabc1e2e95d2bbf5954b66e98e2c3c027ac784eba",
+      "last_fit_end": "2026-06-11",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-06-11",
+      "model": "session_state",
+      "n": 8192,
+      "file": "convergence-laws/8192/5-2026-06-11-session_state.npz",
+      "sha256": "3e80a7d5eb7a8bd768370ed06ebebdd92bcb3906e61c3b6ddd37a2598139f482",
+      "last_fit_end": "2026-06-11",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-06-24",
+      "model": "decomposed_gift",
+      "n": 256,
+      "file": "convergence-laws/256/5-2026-06-24-decomposed_gift.npz",
+      "sha256": "453f0d7f8322ba9d3f47c4d0603b192a327985c542902081112d8baf38ed0e06",
+      "last_fit_end": "2026-06-24",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-06-24",
+      "model": "session_state",
+      "n": 256,
+      "file": "convergence-laws/256/5-2026-06-24-session_state.npz",
+      "sha256": "6f5b25fb4061812d68d5de2f139924de26d4a19fa480eba8edd74e3d97119f26",
+      "last_fit_end": "2026-06-24",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-06-24",
+      "model": "decomposed_gift",
+      "n": 2048,
+      "file": "convergence-laws/2048/5-2026-06-24-decomposed_gift.npz",
+      "sha256": "eb045ebc92e4d97948d878e688c1dcd52c3428fc9b0b4145320a59bb7c1d7e3e",
+      "last_fit_end": "2026-06-24",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-06-24",
+      "model": "session_state",
+      "n": 2048,
+      "file": "convergence-laws/2048/5-2026-06-24-session_state.npz",
+      "sha256": "a84c6c94ea44816160c0d362c5850f0424e204257d4ecea013d19d515157acfb",
+      "last_fit_end": "2026-06-24",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-06-24",
+      "model": "decomposed_gift",
+      "n": 8192,
+      "file": "convergence-laws/8192/5-2026-06-24-decomposed_gift.npz",
+      "sha256": "b93a7b98d755c140285532219044aa4f23d10918be0ca97f51a9606689dd7a2f",
+      "last_fit_end": "2026-06-24",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-06-24",
+      "model": "session_state",
+      "n": 8192,
+      "file": "convergence-laws/8192/5-2026-06-24-session_state.npz",
+      "sha256": "f12ec581d2159d38d5ffb793966d99d3d1792f7bf642457a593932e28ff89f6b",
+      "last_fit_end": "2026-06-24",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-07-07",
+      "model": "decomposed_gift",
+      "n": 256,
+      "file": "convergence-laws/256/5-2026-07-07-decomposed_gift.npz",
+      "sha256": "ad91e3a93526c46ff6c083b19ead1dd51aa536e006a384e7015d27e31ed52381",
+      "last_fit_end": "2026-07-07",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-07-07",
+      "model": "session_state",
+      "n": 256,
+      "file": "convergence-laws/256/5-2026-07-07-session_state.npz",
+      "sha256": "b9f2c79844936b19a9946ba13cbb6f94868b183beaef15ccbab240e1587e959f",
+      "last_fit_end": "2026-07-07",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-07-07",
+      "model": "decomposed_gift",
+      "n": 2048,
+      "file": "convergence-laws/2048/5-2026-07-07-decomposed_gift.npz",
+      "sha256": "3b365a298a97c8a51aa8b5e5ad142095b78b3e6202e2761464d2120b316e8f94",
+      "last_fit_end": "2026-07-07",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-07-07",
+      "model": "session_state",
+      "n": 2048,
+      "file": "convergence-laws/2048/5-2026-07-07-session_state.npz",
+      "sha256": "c02a489db3226aeb4d11f49278f067bd6962dc178feaccda332089dd13dc39be",
+      "last_fit_end": "2026-07-07",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-07-07",
+      "model": "decomposed_gift",
+      "n": 8192,
+      "file": "convergence-laws/8192/5-2026-07-07-decomposed_gift.npz",
+      "sha256": "c1055bb24c98ac80ed1494aeebd39ae71ec55034e43c7512f6a5dfbe6d1d0a5c",
+      "last_fit_end": "2026-07-07",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-07-07",
+      "model": "session_state",
+      "n": 8192,
+      "file": "convergence-laws/8192/5-2026-07-07-session_state.npz",
+      "sha256": "25a5baa4c429054876141dc51dea0878fe8dbd7696028587d09d6cc3f77a0e48",
+      "last_fit_end": "2026-07-07",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-07-20",
+      "model": "decomposed_gift",
+      "n": 256,
+      "file": "convergence-laws/256/5-2026-07-20-decomposed_gift.npz",
+      "sha256": "3e6ecf0b03ff3e48770bc2470f90847cc9da707bc8d1f0ebd5d591a1def37abd",
+      "last_fit_end": "2026-07-20",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-07-20",
+      "model": "session_state",
+      "n": 256,
+      "file": "convergence-laws/256/5-2026-07-20-session_state.npz",
+      "sha256": "cd10b25949ae2025d99e3b4662d3a8edecae0ff32dff082b363e38d32580871f",
+      "last_fit_end": "2026-07-20",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-07-20",
+      "model": "decomposed_gift",
+      "n": 2048,
+      "file": "convergence-laws/2048/5-2026-07-20-decomposed_gift.npz",
+      "sha256": "637d75217d4329a824ab62ab8240fd39691b83a7ccd445b0064e133352ed173e",
+      "last_fit_end": "2026-07-20",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-07-20",
+      "model": "session_state",
+      "n": 2048,
+      "file": "convergence-laws/2048/5-2026-07-20-session_state.npz",
+      "sha256": "abb4cb7fa2c2d73eff2137c5d7eb416c9ebc732be7a8abd9edd9316000b07e06",
+      "last_fit_end": "2026-07-20",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-07-20",
+      "model": "decomposed_gift",
+      "n": 8192,
+      "file": "convergence-laws/8192/5-2026-07-20-decomposed_gift.npz",
+      "sha256": "42a55c9b3dfbd2e0faa25f3592fcef89e40b12c668018a35818aeaabf6821560",
+      "last_fit_end": "2026-07-20",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-07-20",
+      "model": "session_state",
+      "n": 8192,
+      "file": "convergence-laws/8192/5-2026-07-20-session_state.npz",
+      "sha256": "1cc61484ee2a729facd10052b924e3e9a70e9a91c1f2377f8b684a0ece93a8f4",
+      "last_fit_end": "2026-07-20",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-07-30",
+      "model": "decomposed_gift",
+      "n": 256,
+      "file": "convergence-laws/256/5-2026-07-30-decomposed_gift.npz",
+      "sha256": "b30ec647df7949d0938b79d3559535c6f92298842e4a4d4b6775eead405d37a4",
+      "last_fit_end": "2026-07-30",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-07-30",
+      "model": "session_state",
+      "n": 256,
+      "file": "convergence-laws/256/5-2026-07-30-session_state.npz",
+      "sha256": "f334cf243a377cb95ac84f2c9a1678eec336a033a3bba2a95e97677ad813f473",
+      "last_fit_end": "2026-07-30",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-07-30",
+      "model": "decomposed_gift",
+      "n": 2048,
+      "file": "convergence-laws/2048/5-2026-07-30-decomposed_gift.npz",
+      "sha256": "6f8f18ea33f188d9ecadb9598a687a3300df552a3c8acebe97dd96fc2b0289c5",
+      "last_fit_end": "2026-07-30",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-07-30",
+      "model": "session_state",
+      "n": 2048,
+      "file": "convergence-laws/2048/5-2026-07-30-session_state.npz",
+      "sha256": "f616e52dc53eb65138433d52c66c8c2c5061d2eb2a9276824c41f49958ac9727",
+      "last_fit_end": "2026-07-30",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-07-30",
+      "model": "decomposed_gift",
+      "n": 8192,
+      "file": "convergence-laws/8192/5-2026-07-30-decomposed_gift.npz",
+      "sha256": "25cfc85c09bf4a65cb559926c10536620c7b4bc9ed928fb87a7adef4fe5f3701",
+      "last_fit_end": "2026-07-30",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-07-30",
+      "model": "session_state",
+      "n": 8192,
+      "file": "convergence-laws/8192/5-2026-07-30-session_state.npz",
+      "sha256": "2c03cc771e29606e17522de6015fca64fcae693c55ad3eb659860f68fb6c8473",
+      "last_fit_end": "2026-07-30",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-08-12",
+      "model": "decomposed_gift",
+      "n": 256,
+      "file": "convergence-laws/256/5-2026-08-12-decomposed_gift.npz",
+      "sha256": "bb39493fc6d1b65c3f0fc23b9e35ab8819bca653d061e13392255655ca39437b",
+      "last_fit_end": "2026-08-12",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-08-12",
+      "model": "session_state",
+      "n": 256,
+      "file": "convergence-laws/256/5-2026-08-12-session_state.npz",
+      "sha256": "48202f3a9b5fbafe06eb37e219ff5990e862922a2404728b53d97fb23d6f1b37",
+      "last_fit_end": "2026-08-12",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-08-12",
+      "model": "decomposed_gift",
+      "n": 2048,
+      "file": "convergence-laws/2048/5-2026-08-12-decomposed_gift.npz",
+      "sha256": "e5fd9fe80860f4b67e71c41d44f64082802c6aa3497da9649d00bd4fe8eb3faa",
+      "last_fit_end": "2026-08-12",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-08-12",
+      "model": "session_state",
+      "n": 2048,
+      "file": "convergence-laws/2048/5-2026-08-12-session_state.npz",
+      "sha256": "988a4bfeccbf59a804c1048542600ea53b5dd3bc75eb2b3cdada36efdbba4823",
+      "last_fit_end": "2026-08-12",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-08-12",
+      "model": "decomposed_gift",
+      "n": 8192,
+      "file": "convergence-laws/8192/5-2026-08-12-decomposed_gift.npz",
+      "sha256": "748b36defefcf3314c2191e3c089db3fa491c96af326799eb097237447610aab",
+      "last_fit_end": "2026-08-12",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-08-12",
+      "model": "session_state",
+      "n": 8192,
+      "file": "convergence-laws/8192/5-2026-08-12-session_state.npz",
+      "sha256": "9fe1e80711b21905261b55860f736c311ea1301690fe5ec2e3fa6abe4d653cad",
+      "last_fit_end": "2026-08-12",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-08-24",
+      "model": "decomposed_gift",
+      "n": 256,
+      "file": "convergence-laws/256/5-2026-08-24-decomposed_gift.npz",
+      "sha256": "5063a9ee30f07620b4601b0a0bba6cfbf3dd42cb81d48c0a050207a46c56666f",
+      "last_fit_end": "2026-08-24",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-08-24",
+      "model": "session_state",
+      "n": 256,
+      "file": "convergence-laws/256/5-2026-08-24-session_state.npz",
+      "sha256": "39589d6ceedf285ccb1b593ffbc796e6544071809bb89fb3021d34b256d7a889",
+      "last_fit_end": "2026-08-24",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-08-24",
+      "model": "decomposed_gift",
+      "n": 2048,
+      "file": "convergence-laws/2048/5-2026-08-24-decomposed_gift.npz",
+      "sha256": "77e4ada3aba33ad6cf89a5f88355d6d774aa8e5e459ab711280989fa0d711771",
+      "last_fit_end": "2026-08-24",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-08-24",
+      "model": "session_state",
+      "n": 2048,
+      "file": "convergence-laws/2048/5-2026-08-24-session_state.npz",
+      "sha256": "d6786f26325fcf8d6844dd53ecc8d8cbbb695b18a05a8adac7f9d1f4814954f8",
+      "last_fit_end": "2026-08-24",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-08-24",
+      "model": "decomposed_gift",
+      "n": 8192,
+      "file": "convergence-laws/8192/5-2026-08-24-decomposed_gift.npz",
+      "sha256": "dff00771eb3c32f3591bb924e1e9fcaea4ce9462efe56188ecf4430fa0afc517",
+      "last_fit_end": "2026-08-24",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-08-24",
+      "model": "session_state",
+      "n": 8192,
+      "file": "convergence-laws/8192/5-2026-08-24-session_state.npz",
+      "sha256": "1acd94ce7d99c3373c3ca3e1786194c649fa611d12ab95ed0147d641aa183cff",
+      "last_fit_end": "2026-08-24",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-09-04",
+      "model": "decomposed_gift",
+      "n": 256,
+      "file": "convergence-laws/256/5-2026-09-04-decomposed_gift.npz",
+      "sha256": "4c0b760f649eac333265f287c7940afe04fe2ca25b04ab89ff54600067c62206",
+      "last_fit_end": "2026-09-04",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-09-04",
+      "model": "session_state",
+      "n": 256,
+      "file": "convergence-laws/256/5-2026-09-04-session_state.npz",
+      "sha256": "771e60a74c45d76a3f9762f45a99c72ef9dfdeb07b661a0764dc78f89ff1f84a",
+      "last_fit_end": "2026-09-04",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-09-04",
+      "model": "decomposed_gift",
+      "n": 2048,
+      "file": "convergence-laws/2048/5-2026-09-04-decomposed_gift.npz",
+      "sha256": "02ec375b0a700cb142d2983a53323dbc3f64f262d503fb8bcdc783bdb9bfb4c1",
+      "last_fit_end": "2026-09-04",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-09-04",
+      "model": "session_state",
+      "n": 2048,
+      "file": "convergence-laws/2048/5-2026-09-04-session_state.npz",
+      "sha256": "c5509c7ad0c843da7191cedd00a0d7c71e0a67f2e85dab34bb315cd1c408db10",
+      "last_fit_end": "2026-09-04",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-09-04",
+      "model": "decomposed_gift",
+      "n": 8192,
+      "file": "convergence-laws/8192/5-2026-09-04-decomposed_gift.npz",
+      "sha256": "e33b148d15f928b6121c80c55f8ec881a7f05912797bc7477d044fdf9ce50be9",
+      "last_fit_end": "2026-09-04",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-09-04",
+      "model": "session_state",
+      "n": 8192,
+      "file": "convergence-laws/8192/5-2026-09-04-session_state.npz",
+      "sha256": "20e7ebc8cb2d8f04745e77f5afb8b74eac9f770e161b405bb379cb48ae3739f4",
+      "last_fit_end": "2026-09-04",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-09-17",
+      "model": "decomposed_gift",
+      "n": 256,
+      "file": "convergence-laws/256/5-2026-09-17-decomposed_gift.npz",
+      "sha256": "30f24e758b88957bec7897b410ca9b56c1d6f1d47a63e6aa13380216a34ec836",
+      "last_fit_end": "2026-09-17",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-09-17",
+      "model": "session_state",
+      "n": 256,
+      "file": "convergence-laws/256/5-2026-09-17-session_state.npz",
+      "sha256": "d9d91e22a3d2e5b60edede66e60429b9ccea0419e4587f94530fb3b9a6d6d5f9",
+      "last_fit_end": "2026-09-17",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-09-17",
+      "model": "decomposed_gift",
+      "n": 2048,
+      "file": "convergence-laws/2048/5-2026-09-17-decomposed_gift.npz",
+      "sha256": "317ca1117a7b15deb27a33cf9cc61c110a231f9bab9eb25d9000610d37d331ee",
+      "last_fit_end": "2026-09-17",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-09-17",
+      "model": "session_state",
+      "n": 2048,
+      "file": "convergence-laws/2048/5-2026-09-17-session_state.npz",
+      "sha256": "af9783fb257edc47f320516ee3469e5635f82d3b1f7081fd3bab13528ba8f54c",
+      "last_fit_end": "2026-09-17",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-09-17",
+      "model": "decomposed_gift",
+      "n": 8192,
+      "file": "convergence-laws/8192/5-2026-09-17-decomposed_gift.npz",
+      "sha256": "835e51bfb7be842b2c36342cc42c6a9c15a15bbe6f678ada8e9853ab7f528ad6",
+      "last_fit_end": "2026-09-17",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-09-17",
+      "model": "session_state",
+      "n": 8192,
+      "file": "convergence-laws/8192/5-2026-09-17-session_state.npz",
+      "sha256": "df0956a56724d465e404583cab93f72130f6ae51c10fb8091afa91952b4a3b98",
+      "last_fit_end": "2026-09-17",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-09-30",
+      "model": "decomposed_gift",
+      "n": 256,
+      "file": "convergence-laws/256/5-2026-09-30-decomposed_gift.npz",
+      "sha256": "39cd196c70b92195661777bf8f040cb18717c14a6d4ea2e51cef8c2c98ae77db",
+      "last_fit_end": "2026-09-30",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-09-30",
+      "model": "session_state",
+      "n": 256,
+      "file": "convergence-laws/256/5-2026-09-30-session_state.npz",
+      "sha256": "11882eacb3a560beec52b388fb933d50916bb88b03b7f9e32e0ecbb2b01054a4",
+      "last_fit_end": "2026-09-30",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-09-30",
+      "model": "decomposed_gift",
+      "n": 2048,
+      "file": "convergence-laws/2048/5-2026-09-30-decomposed_gift.npz",
+      "sha256": "adcc75dbcf920daa87377b7dbe59ce67797a9205f7ee995182e706a9e9bd1db9",
+      "last_fit_end": "2026-09-30",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-09-30",
+      "model": "session_state",
+      "n": 2048,
+      "file": "convergence-laws/2048/5-2026-09-30-session_state.npz",
+      "sha256": "c7f04f957cdb11ca50d16d72c70fdc28308ca88905363113499b9d84ac92c16a",
+      "last_fit_end": "2026-09-30",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-09-30",
+      "model": "decomposed_gift",
+      "n": 8192,
+      "file": "convergence-laws/8192/5-2026-09-30-decomposed_gift.npz",
+      "sha256": "2c90f8ee407693057add4ea551809c8fbd45dd9ec9d2486bdd61d65269f5c02c",
+      "last_fit_end": "2026-09-30",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-09-30",
+      "model": "session_state",
+      "n": 8192,
+      "file": "convergence-laws/8192/5-2026-09-30-session_state.npz",
+      "sha256": "27137c26568813f18dd24dd50fb896486517ac32162e1fcb52ff20406145e44e",
+      "last_fit_end": "2026-09-30",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-10-13",
+      "model": "decomposed_gift",
+      "n": 256,
+      "file": "convergence-laws/256/5-2026-10-13-decomposed_gift.npz",
+      "sha256": "c0729b57e7060aee24b024edef2b3020c9493310e953f63230e6ee38b7b9a6f7",
+      "last_fit_end": "2026-10-13",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-10-13",
+      "model": "session_state",
+      "n": 256,
+      "file": "convergence-laws/256/5-2026-10-13-session_state.npz",
+      "sha256": "1578c24b242e186c9d476089c9b702f1fddf76e09ff2d50ce8e4f6d9f8156d90",
+      "last_fit_end": "2026-10-13",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-10-13",
+      "model": "decomposed_gift",
+      "n": 2048,
+      "file": "convergence-laws/2048/5-2026-10-13-decomposed_gift.npz",
+      "sha256": "c3dc7c9e6e4cd9d573e4d1a40a82abf5b2c39df4fed507875be465dd45eed973",
+      "last_fit_end": "2026-10-13",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-10-13",
+      "model": "session_state",
+      "n": 2048,
+      "file": "convergence-laws/2048/5-2026-10-13-session_state.npz",
+      "sha256": "395552ff6df1be2e96796e7e23570c88203ca6199e9c026850ad81ce0f74e67b",
+      "last_fit_end": "2026-10-13",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-10-13",
+      "model": "decomposed_gift",
+      "n": 8192,
+      "file": "convergence-laws/8192/5-2026-10-13-decomposed_gift.npz",
+      "sha256": "a31ad6e4ada0fcef499d61ce25ce94a7f971811f6076800ea15834fedc967040",
+      "last_fit_end": "2026-10-13",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-10-13",
+      "model": "session_state",
+      "n": 8192,
+      "file": "convergence-laws/8192/5-2026-10-13-session_state.npz",
+      "sha256": "0f0ecfcda09d21a3421fea95735af3564d76ae3837fe3b7be3402146594c419d",
+      "last_fit_end": "2026-10-13",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-10-27",
+      "model": "decomposed_gift",
+      "n": 256,
+      "file": "convergence-laws/256/5-2026-10-27-decomposed_gift.npz",
+      "sha256": "c257e5820adcc58a7d64600b17fc2b88dab1c92d3e631e0054ddc1537f92a472",
+      "last_fit_end": "2026-10-27",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-10-27",
+      "model": "session_state",
+      "n": 256,
+      "file": "convergence-laws/256/5-2026-10-27-session_state.npz",
+      "sha256": "979f7b88b5a84090a02da8bfd9ea6ed9793bc297d9dd08f78b2bec00ea822385",
+      "last_fit_end": "2026-10-27",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-10-27",
+      "model": "decomposed_gift",
+      "n": 2048,
+      "file": "convergence-laws/2048/5-2026-10-27-decomposed_gift.npz",
+      "sha256": "2514a1b37c9b3cb1416e4cb2f75199f826086965a345caec57862f7f9b540ed0",
+      "last_fit_end": "2026-10-27",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-10-27",
+      "model": "session_state",
+      "n": 2048,
+      "file": "convergence-laws/2048/5-2026-10-27-session_state.npz",
+      "sha256": "73a050c2815ffc29ec408e06491593aa90ab060e07e0b376c3fba359ca65fd33",
+      "last_fit_end": "2026-10-27",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-10-27",
+      "model": "decomposed_gift",
+      "n": 8192,
+      "file": "convergence-laws/8192/5-2026-10-27-decomposed_gift.npz",
+      "sha256": "023b892dea099d157a1c5aa40a2bcbc23e052221e7534c157b1c60275da99466",
+      "last_fit_end": "2026-10-27",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-10-27",
+      "model": "session_state",
+      "n": 8192,
+      "file": "convergence-laws/8192/5-2026-10-27-session_state.npz",
+      "sha256": "b6e583b5aee2982ac1fc07e790753f5f80f67ae3b227685afb5ab4a4a0129cf1",
+      "last_fit_end": "2026-10-27",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-11-08",
+      "model": "decomposed_gift",
+      "n": 256,
+      "file": "convergence-laws/256/5-2026-11-08-decomposed_gift.npz",
+      "sha256": "950c509299bbf7f3365346e803fd74304206aeee203718a9f700b2a989d13053",
+      "last_fit_end": "2026-11-08",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-11-08",
+      "model": "session_state",
+      "n": 256,
+      "file": "convergence-laws/256/5-2026-11-08-session_state.npz",
+      "sha256": "7d33c9119468f69f6c951e15705ee78e4e5000cfb6885138191d75633e75401f",
+      "last_fit_end": "2026-11-08",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-11-08",
+      "model": "decomposed_gift",
+      "n": 2048,
+      "file": "convergence-laws/2048/5-2026-11-08-decomposed_gift.npz",
+      "sha256": "9b5294f3c528e9eded7068137c36ce71fdd4173261cb9666f79905aef469d9d8",
+      "last_fit_end": "2026-11-08",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-11-08",
+      "model": "session_state",
+      "n": 2048,
+      "file": "convergence-laws/2048/5-2026-11-08-session_state.npz",
+      "sha256": "ad3205777f8fd46acfff54380b356e1c023f43312d6aabaa8efa4049da0c2cbf",
+      "last_fit_end": "2026-11-08",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-11-08",
+      "model": "decomposed_gift",
+      "n": 8192,
+      "file": "convergence-laws/8192/5-2026-11-08-decomposed_gift.npz",
+      "sha256": "3519b7d58cc21344cdcf6ebb4b176c1c215adcf3c63c1e84e88411afbfb7ef5a",
+      "last_fit_end": "2026-11-08",
+      "nested_stream": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-11-08",
+      "model": "session_state",
+      "n": 8192,
+      "file": "convergence-laws/8192/5-2026-11-08-session_state.npz",
+      "sha256": "651cae634b3ce2844c0d37eba9df162edefdeb6eeed52e666954101f6975a495",
+      "last_fit_end": "2026-11-08",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2025-12-01",
+      "model": "decomposed_gift",
+      "n": 256,
+      "file": "convergence-laws/256/21-2025-12-01-decomposed_gift.npz",
+      "sha256": "6ec9ee9d9ef17804a6a1f77e9d19e4f17997ad025c7db56aabfb926195b7bebb",
+      "last_fit_end": "2025-12-01",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2025-12-01",
+      "model": "session_state",
+      "n": 256,
+      "file": "convergence-laws/256/21-2025-12-01-session_state.npz",
+      "sha256": "76e71cbaed2a4fb5ee49c33296b070716a4b10bf69a9acc9f99b466750da98bb",
+      "last_fit_end": "2025-12-01",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2025-12-01",
+      "model": "decomposed_gift",
+      "n": 2048,
+      "file": "convergence-laws/2048/21-2025-12-01-decomposed_gift.npz",
+      "sha256": "ba4bab4594b0aa08d9e31fb5c77cb58faa0537dd4d2397e22d1f0886780618e6",
+      "last_fit_end": "2025-12-01",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2025-12-01",
+      "model": "session_state",
+      "n": 2048,
+      "file": "convergence-laws/2048/21-2025-12-01-session_state.npz",
+      "sha256": "c3f5fd96cdd70fe750c7e3cbdb07cc8fdd5f8b21542734a3ca2fe9831daf9753",
+      "last_fit_end": "2025-12-01",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2025-12-01",
+      "model": "decomposed_gift",
+      "n": 8192,
+      "file": "convergence-laws/8192/21-2025-12-01-decomposed_gift.npz",
+      "sha256": "57d2266d7f947ef431ea507b378f8d4de9f884a3ef0699e32582ee06e60fbfbc",
+      "last_fit_end": "2025-12-01",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2025-12-01",
+      "model": "session_state",
+      "n": 8192,
+      "file": "convergence-laws/8192/21-2025-12-01-session_state.npz",
+      "sha256": "8ff4740e9acfca9a9305cb1400b6e43c94cdd10b3233a68592eac9559db6f403",
+      "last_fit_end": "2025-12-01",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2025-12-09",
+      "model": "decomposed_gift",
+      "n": 256,
+      "file": "convergence-laws/256/21-2025-12-09-decomposed_gift.npz",
+      "sha256": "3ae557b7ebf8b056a6624b053d61bd3110d5b1eb460dcaae374ebd4cf45eaf6f",
+      "last_fit_end": "2025-12-09",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2025-12-09",
+      "model": "session_state",
+      "n": 256,
+      "file": "convergence-laws/256/21-2025-12-09-session_state.npz",
+      "sha256": "0d68bd8692aaa705c65e8acde4744f93ee2f5c2b8dfc625f136c38d4a4fd1e87",
+      "last_fit_end": "2025-12-09",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2025-12-09",
+      "model": "decomposed_gift",
+      "n": 2048,
+      "file": "convergence-laws/2048/21-2025-12-09-decomposed_gift.npz",
+      "sha256": "1005de9561b34a70c444cd7d77524f2aad0432e4a1a6c6c8f4f05dfb6a695388",
+      "last_fit_end": "2025-12-09",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2025-12-09",
+      "model": "session_state",
+      "n": 2048,
+      "file": "convergence-laws/2048/21-2025-12-09-session_state.npz",
+      "sha256": "17d9af4afdb7036287bea06e81d613786bf1d84325400b2f2b9445290e16b427",
+      "last_fit_end": "2025-12-09",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2025-12-09",
+      "model": "decomposed_gift",
+      "n": 8192,
+      "file": "convergence-laws/8192/21-2025-12-09-decomposed_gift.npz",
+      "sha256": "f2d06053ea2e4a99cb4cdd454db86a409e1d6e25e1a0745a9980bc0059b74570",
+      "last_fit_end": "2025-12-09",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2025-12-09",
+      "model": "session_state",
+      "n": 8192,
+      "file": "convergence-laws/8192/21-2025-12-09-session_state.npz",
+      "sha256": "03793d7ebbd98de3d73d6d7528d929858ce8965bb4e0fe17ca536e62b2a07427",
+      "last_fit_end": "2025-12-09",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2025-12-18",
+      "model": "decomposed_gift",
+      "n": 256,
+      "file": "convergence-laws/256/21-2025-12-18-decomposed_gift.npz",
+      "sha256": "f62f8992677a537f0e8cef0c9b99faa4998c5c0600cb1d052199a48dbb6acd65",
+      "last_fit_end": "2025-12-18",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2025-12-18",
+      "model": "session_state",
+      "n": 256,
+      "file": "convergence-laws/256/21-2025-12-18-session_state.npz",
+      "sha256": "1e8695654e54481ae9e698f6b27ff7a3862e1484f485ce0c87e4d6a3da9d73bd",
+      "last_fit_end": "2025-12-18",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2025-12-18",
+      "model": "decomposed_gift",
+      "n": 2048,
+      "file": "convergence-laws/2048/21-2025-12-18-decomposed_gift.npz",
+      "sha256": "88b84e46671708e6d2d321daf3d2bcb119c028edb31dfb98fe0a641d3ff09ea8",
+      "last_fit_end": "2025-12-18",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2025-12-18",
+      "model": "session_state",
+      "n": 2048,
+      "file": "convergence-laws/2048/21-2025-12-18-session_state.npz",
+      "sha256": "65a24c2e414f9db1863f9924791fc037a3828994b9a21c47449fc585c4b04b8f",
+      "last_fit_end": "2025-12-18",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2025-12-18",
+      "model": "decomposed_gift",
+      "n": 8192,
+      "file": "convergence-laws/8192/21-2025-12-18-decomposed_gift.npz",
+      "sha256": "f5ee3efb4b3cf28e468ed35fb99d6c6b0064e669940da7dc87d0b53c38aae337",
+      "last_fit_end": "2025-12-18",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2025-12-18",
+      "model": "session_state",
+      "n": 8192,
+      "file": "convergence-laws/8192/21-2025-12-18-session_state.npz",
+      "sha256": "4141ee9a36d3199ea8b0e04dc9a4e786535d7c52f2857a08187259e9d7e160f1",
+      "last_fit_end": "2025-12-18",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2025-12-30",
+      "model": "decomposed_gift",
+      "n": 256,
+      "file": "convergence-laws/256/21-2025-12-30-decomposed_gift.npz",
+      "sha256": "fb2725e3a962b6ba6a068885c43512e8968e675e237f153852c8a24d3332abe7",
+      "last_fit_end": "2025-12-30",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2025-12-30",
+      "model": "session_state",
+      "n": 256,
+      "file": "convergence-laws/256/21-2025-12-30-session_state.npz",
+      "sha256": "a1b435dfc9d699330693b6c8f61b9caa431b4b2cb1f7ba1c69cc1956f3e6f4af",
+      "last_fit_end": "2025-12-30",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2025-12-30",
+      "model": "decomposed_gift",
+      "n": 2048,
+      "file": "convergence-laws/2048/21-2025-12-30-decomposed_gift.npz",
+      "sha256": "c558675a42f82c9fb29e5f987b7bef55b71d27122902f6f404c038cc1c340276",
+      "last_fit_end": "2025-12-30",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2025-12-30",
+      "model": "session_state",
+      "n": 2048,
+      "file": "convergence-laws/2048/21-2025-12-30-session_state.npz",
+      "sha256": "7b5bf395a9a40a0d9282be50e792a9fde12e96131a54165a426f3ab9a6b386ca",
+      "last_fit_end": "2025-12-30",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2025-12-30",
+      "model": "decomposed_gift",
+      "n": 8192,
+      "file": "convergence-laws/8192/21-2025-12-30-decomposed_gift.npz",
+      "sha256": "d1af48cdbcb80b19d0f7f0835b4bb45190b309bb08fa9db80494d9546d647e81",
+      "last_fit_end": "2025-12-30",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2025-12-30",
+      "model": "session_state",
+      "n": 8192,
+      "file": "convergence-laws/8192/21-2025-12-30-session_state.npz",
+      "sha256": "7dbf063f3d123e7865372b16dcb8ef52fb44138e371beeec14e4328437866115",
+      "last_fit_end": "2025-12-30",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-01-08",
+      "model": "decomposed_gift",
+      "n": 256,
+      "file": "convergence-laws/256/21-2026-01-08-decomposed_gift.npz",
+      "sha256": "d7e0473254479701c91ef92ec304031f17c9305b1cc6c39f8b0255b2915c2c6b",
+      "last_fit_end": "2026-01-08",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-01-08",
+      "model": "session_state",
+      "n": 256,
+      "file": "convergence-laws/256/21-2026-01-08-session_state.npz",
+      "sha256": "bd1cd1a10c09b24b88d0780e87417117fda785d5dd3c6c96381c603c50cd6093",
+      "last_fit_end": "2026-01-08",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-01-08",
+      "model": "decomposed_gift",
+      "n": 2048,
+      "file": "convergence-laws/2048/21-2026-01-08-decomposed_gift.npz",
+      "sha256": "90d708546f5d2a6f1d9781d08488b31859d6751cb37427e2775d61d48b4b389b",
+      "last_fit_end": "2026-01-08",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-01-08",
+      "model": "session_state",
+      "n": 2048,
+      "file": "convergence-laws/2048/21-2026-01-08-session_state.npz",
+      "sha256": "64edf1f46389dfe9ca63a34dd28f054827a60c92a81e1423972de0a94d76c008",
+      "last_fit_end": "2026-01-08",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-01-08",
+      "model": "decomposed_gift",
+      "n": 8192,
+      "file": "convergence-laws/8192/21-2026-01-08-decomposed_gift.npz",
+      "sha256": "cd4d81a873c0f40f0e8f50c5cfae0773fdfc86e7351f32fef568d640ad644b60",
+      "last_fit_end": "2026-01-08",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-01-08",
+      "model": "session_state",
+      "n": 8192,
+      "file": "convergence-laws/8192/21-2026-01-08-session_state.npz",
+      "sha256": "4256684d99ea1511216759a7a2bc2d73c5e5df7e020f068c34ba97ff78961401",
+      "last_fit_end": "2026-01-08",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-01-20",
+      "model": "decomposed_gift",
+      "n": 256,
+      "file": "convergence-laws/256/21-2026-01-20-decomposed_gift.npz",
+      "sha256": "c3cc53ef62637443069633b8643cd8747937f16795fad85252ddbf49af0cf166",
+      "last_fit_end": "2026-01-20",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-01-20",
+      "model": "session_state",
+      "n": 256,
+      "file": "convergence-laws/256/21-2026-01-20-session_state.npz",
+      "sha256": "d214bc4625c065e2afe098f8d91a7a91bd0a7ad7ef6abc017f6a022de1757d08",
+      "last_fit_end": "2026-01-20",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-01-20",
+      "model": "decomposed_gift",
+      "n": 2048,
+      "file": "convergence-laws/2048/21-2026-01-20-decomposed_gift.npz",
+      "sha256": "88b743befe74e1de8e3af6b722664d116f1f0cc6437aa1a7afd3d28e2223b1ea",
+      "last_fit_end": "2026-01-20",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-01-20",
+      "model": "session_state",
+      "n": 2048,
+      "file": "convergence-laws/2048/21-2026-01-20-session_state.npz",
+      "sha256": "6e511599ee3912c362e3b96423edcc995cae41cb6de7ddd2a9d191235ac263ec",
+      "last_fit_end": "2026-01-20",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-01-20",
+      "model": "decomposed_gift",
+      "n": 8192,
+      "file": "convergence-laws/8192/21-2026-01-20-decomposed_gift.npz",
+      "sha256": "347436a5aafee2b62a8bb1a9377a20261b631b2c32642c471c341b95a5b8f4a2",
+      "last_fit_end": "2026-01-20",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-01-20",
+      "model": "session_state",
+      "n": 8192,
+      "file": "convergence-laws/8192/21-2026-01-20-session_state.npz",
+      "sha256": "5f69246d9f0afeb91c0f3f289b63afe014b86a00300bf51809c53612df3645c5",
+      "last_fit_end": "2026-01-20",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-01-30",
+      "model": "decomposed_gift",
+      "n": 256,
+      "file": "convergence-laws/256/21-2026-01-30-decomposed_gift.npz",
+      "sha256": "a5d1bf67ddddfa33de44245ee602e0f1cd80b5aa985897d3b94284034a58adc0",
+      "last_fit_end": "2026-01-30",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-01-30",
+      "model": "session_state",
+      "n": 256,
+      "file": "convergence-laws/256/21-2026-01-30-session_state.npz",
+      "sha256": "cb6cd519737065dc6270691702ace4595d38b853c9e94eaca3b80b3654825a8b",
+      "last_fit_end": "2026-01-30",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-01-30",
+      "model": "decomposed_gift",
+      "n": 2048,
+      "file": "convergence-laws/2048/21-2026-01-30-decomposed_gift.npz",
+      "sha256": "c335102816100221df6630cb798a7dbd1ef0ce68794e1e3aeba531c98176b43a",
+      "last_fit_end": "2026-01-30",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-01-30",
+      "model": "session_state",
+      "n": 2048,
+      "file": "convergence-laws/2048/21-2026-01-30-session_state.npz",
+      "sha256": "9d00443b7d780cb86e7880a744de13cff904ecb5d5683719c033e34ab7f72051",
+      "last_fit_end": "2026-01-30",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-01-30",
+      "model": "decomposed_gift",
+      "n": 8192,
+      "file": "convergence-laws/8192/21-2026-01-30-decomposed_gift.npz",
+      "sha256": "0fdf55e620729aaee62370e846525d443f18778679befea5bff7524fec02c385",
+      "last_fit_end": "2026-01-30",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-01-30",
+      "model": "session_state",
+      "n": 8192,
+      "file": "convergence-laws/8192/21-2026-01-30-session_state.npz",
+      "sha256": "42e2324133b0ebf99307cb25e20b293e27927cb5027dd663ff510e0ddc411ec5",
+      "last_fit_end": "2026-01-30",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-02-09",
+      "model": "decomposed_gift",
+      "n": 256,
+      "file": "convergence-laws/256/21-2026-02-09-decomposed_gift.npz",
+      "sha256": "2a74d42d575392b5bedd8c2041679495b0506a761594b3cd8e14de8c0ce6621b",
+      "last_fit_end": "2026-02-09",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-02-09",
+      "model": "session_state",
+      "n": 256,
+      "file": "convergence-laws/256/21-2026-02-09-session_state.npz",
+      "sha256": "ab99eae3e9203fa7c986933fdc9889e0f7a9d8a56f2f3b8609741d95280279f5",
+      "last_fit_end": "2026-02-09",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-02-09",
+      "model": "decomposed_gift",
+      "n": 2048,
+      "file": "convergence-laws/2048/21-2026-02-09-decomposed_gift.npz",
+      "sha256": "89a66e3dd163c4f07fd72c4b181f7398f49fdca8f3feb4c0692d3bc3a96e16d1",
+      "last_fit_end": "2026-02-09",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-02-09",
+      "model": "session_state",
+      "n": 2048,
+      "file": "convergence-laws/2048/21-2026-02-09-session_state.npz",
+      "sha256": "3c705fe8b184fd75f10f4c6a64d65f60c5a251867cf8c7b3d7b32b8a1e84abce",
+      "last_fit_end": "2026-02-09",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-02-09",
+      "model": "decomposed_gift",
+      "n": 8192,
+      "file": "convergence-laws/8192/21-2026-02-09-decomposed_gift.npz",
+      "sha256": "79b5e90fcc2f4668d5c9f07112b39c0670439e3f7e547916a24e167115b33be9",
+      "last_fit_end": "2026-02-09",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-02-09",
+      "model": "session_state",
+      "n": 8192,
+      "file": "convergence-laws/8192/21-2026-02-09-session_state.npz",
+      "sha256": "cb69cb485933b50903de6ccb4ad55f690d11575219f5cb8ea09cf7b80f60e21c",
+      "last_fit_end": "2026-02-09",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-02-18",
+      "model": "decomposed_gift",
+      "n": 256,
+      "file": "convergence-laws/256/21-2026-02-18-decomposed_gift.npz",
+      "sha256": "3363c30a83f9a1995b91e439a373f54029f094150872d52b855bc619c8e19dd6",
+      "last_fit_end": "2026-02-18",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-02-18",
+      "model": "session_state",
+      "n": 256,
+      "file": "convergence-laws/256/21-2026-02-18-session_state.npz",
+      "sha256": "684a518ab1cecbbaac9cb63299e4d0c5b7009dc4cd4cd2eb142407deab222991",
+      "last_fit_end": "2026-02-18",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-02-18",
+      "model": "decomposed_gift",
+      "n": 2048,
+      "file": "convergence-laws/2048/21-2026-02-18-decomposed_gift.npz",
+      "sha256": "a45c60b99002f89a84b5ec6362e553a4d78c6e906195fd0304e227781bc74590",
+      "last_fit_end": "2026-02-18",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-02-18",
+      "model": "session_state",
+      "n": 2048,
+      "file": "convergence-laws/2048/21-2026-02-18-session_state.npz",
+      "sha256": "b3434822251a9ace3569ca271016f81731606ad3255cfeb42ba7dc8d84a7f49e",
+      "last_fit_end": "2026-02-18",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-02-18",
+      "model": "decomposed_gift",
+      "n": 8192,
+      "file": "convergence-laws/8192/21-2026-02-18-decomposed_gift.npz",
+      "sha256": "4140cfcaa8f3742fc3c6c264975a6c0b3b302fed3d7a7d6a1bba7462af7edf4d",
+      "last_fit_end": "2026-02-18",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-02-18",
+      "model": "session_state",
+      "n": 8192,
+      "file": "convergence-laws/8192/21-2026-02-18-session_state.npz",
+      "sha256": "bbb087fb28be27ab527c911efe565d909a579ce11325b311d0f4b91579af6967",
+      "last_fit_end": "2026-02-18",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-02-27",
+      "model": "decomposed_gift",
+      "n": 256,
+      "file": "convergence-laws/256/21-2026-02-27-decomposed_gift.npz",
+      "sha256": "c4c771f8998d4456c2c1b008ceb76df4968fea2194e737449dbfa37c2fa8c4c9",
+      "last_fit_end": "2026-02-27",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-02-27",
+      "model": "session_state",
+      "n": 256,
+      "file": "convergence-laws/256/21-2026-02-27-session_state.npz",
+      "sha256": "bc1be047724959392244413d62056cb504a01c1baea077c51ced97cd1eff4168",
+      "last_fit_end": "2026-02-27",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-02-27",
+      "model": "decomposed_gift",
+      "n": 2048,
+      "file": "convergence-laws/2048/21-2026-02-27-decomposed_gift.npz",
+      "sha256": "023d3fc747bbfde5d55c1dd8843c5f65e6116bb16e7d8d44b9598a95abacc23a",
+      "last_fit_end": "2026-02-27",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-02-27",
+      "model": "session_state",
+      "n": 2048,
+      "file": "convergence-laws/2048/21-2026-02-27-session_state.npz",
+      "sha256": "d15c9275dc6d543f8da21ca39ca80bb0be64fefd1c9a149a289a6363354d4f0b",
+      "last_fit_end": "2026-02-27",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-02-27",
+      "model": "decomposed_gift",
+      "n": 8192,
+      "file": "convergence-laws/8192/21-2026-02-27-decomposed_gift.npz",
+      "sha256": "c80c2f5a48505aa681e1bea790f4f7bd3a83dddbf8a34fbacf27164f33eb4186",
+      "last_fit_end": "2026-02-27",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-02-27",
+      "model": "session_state",
+      "n": 8192,
+      "file": "convergence-laws/8192/21-2026-02-27-session_state.npz",
+      "sha256": "504c37ccecd77ef4d8971e213741ad8e3b624dfa0b75d155f7ec01702ed8bf29",
+      "last_fit_end": "2026-02-27",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-03-11",
+      "model": "decomposed_gift",
+      "n": 256,
+      "file": "convergence-laws/256/21-2026-03-11-decomposed_gift.npz",
+      "sha256": "5096267fc60b3d032b66706f21ce2ae2e7e80688b8b3b385df3d6fc91e8b84d9",
+      "last_fit_end": "2026-03-11",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-03-11",
+      "model": "session_state",
+      "n": 256,
+      "file": "convergence-laws/256/21-2026-03-11-session_state.npz",
+      "sha256": "9585d653b6d26cc0212834de876560ba49cbeb572ff168e79edbf4b086a532a2",
+      "last_fit_end": "2026-03-11",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-03-11",
+      "model": "decomposed_gift",
+      "n": 2048,
+      "file": "convergence-laws/2048/21-2026-03-11-decomposed_gift.npz",
+      "sha256": "2ecccf75d8e6db524c0b78ee2cd4b4d3eee59da5fa2b8cd7321350b68a73eb7e",
+      "last_fit_end": "2026-03-11",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-03-11",
+      "model": "session_state",
+      "n": 2048,
+      "file": "convergence-laws/2048/21-2026-03-11-session_state.npz",
+      "sha256": "ff5c633a8ab25b9c732a98285a456fed5fc2deeb8122acea00d386539949b538",
+      "last_fit_end": "2026-03-11",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-03-11",
+      "model": "decomposed_gift",
+      "n": 8192,
+      "file": "convergence-laws/8192/21-2026-03-11-decomposed_gift.npz",
+      "sha256": "b23dce750b8d6c9eea15d5d7270b68a3a2f3c23d5949986b465c2ffdb0b90d7f",
+      "last_fit_end": "2026-03-11",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-03-11",
+      "model": "session_state",
+      "n": 8192,
+      "file": "convergence-laws/8192/21-2026-03-11-session_state.npz",
+      "sha256": "b2fc342a556d9880b432ad537d835e60a21495d9e0caca56e96ff3706a082205",
+      "last_fit_end": "2026-03-11",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-03-20",
+      "model": "decomposed_gift",
+      "n": 256,
+      "file": "convergence-laws/256/21-2026-03-20-decomposed_gift.npz",
+      "sha256": "517d4bbf1a7345a3dda43ab21c8422078d35c70428f0f84d83d81119d1c14145",
+      "last_fit_end": "2026-03-20",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-03-20",
+      "model": "session_state",
+      "n": 256,
+      "file": "convergence-laws/256/21-2026-03-20-session_state.npz",
+      "sha256": "758a7b00f675e9daca3d4d1631b23da034003fb45a13945697cdfe77240945a6",
+      "last_fit_end": "2026-03-20",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-03-20",
+      "model": "decomposed_gift",
+      "n": 2048,
+      "file": "convergence-laws/2048/21-2026-03-20-decomposed_gift.npz",
+      "sha256": "17d40448cc8e4e01032872af6938fc614dfc6b275ea57dcef9bcf4035815b1f9",
+      "last_fit_end": "2026-03-20",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-03-20",
+      "model": "session_state",
+      "n": 2048,
+      "file": "convergence-laws/2048/21-2026-03-20-session_state.npz",
+      "sha256": "e1f084955df29fbb6fa80a142f2366b0d885663f3dce55cc0aa8074960a9529b",
+      "last_fit_end": "2026-03-20",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-03-20",
+      "model": "decomposed_gift",
+      "n": 8192,
+      "file": "convergence-laws/8192/21-2026-03-20-decomposed_gift.npz",
+      "sha256": "ab0371399baa94f4da1ebf022f810539288ae488d1c9052d008a1e572a0c2aa8",
+      "last_fit_end": "2026-03-20",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-03-20",
+      "model": "session_state",
+      "n": 8192,
+      "file": "convergence-laws/8192/21-2026-03-20-session_state.npz",
+      "sha256": "f6859a47bd5b3eb471bdffb0d7f4ceeea5a258d66512630213efcb029af29b4e",
+      "last_fit_end": "2026-03-20",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-04-02",
+      "model": "decomposed_gift",
+      "n": 256,
+      "file": "convergence-laws/256/21-2026-04-02-decomposed_gift.npz",
+      "sha256": "7f2de73752c6ebea5d64b16e613298cc988180bd7bf3dc4a44c76c8fcb3af4e8",
+      "last_fit_end": "2026-04-02",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-04-02",
+      "model": "session_state",
+      "n": 256,
+      "file": "convergence-laws/256/21-2026-04-02-session_state.npz",
+      "sha256": "26524877ff12f385fbc25b7febb4537ed6fe6b575346093571fc18d8d9a49bf4",
+      "last_fit_end": "2026-04-02",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-04-02",
+      "model": "decomposed_gift",
+      "n": 2048,
+      "file": "convergence-laws/2048/21-2026-04-02-decomposed_gift.npz",
+      "sha256": "69657424dc6e38d20e292b33b23cce62ef130ff447607d50746a9f3df29a7379",
+      "last_fit_end": "2026-04-02",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-04-02",
+      "model": "session_state",
+      "n": 2048,
+      "file": "convergence-laws/2048/21-2026-04-02-session_state.npz",
+      "sha256": "1819d3ceb1d013e8168f208c894a1d94c335172f459e6260533aa114b57d8f39",
+      "last_fit_end": "2026-04-02",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-04-02",
+      "model": "decomposed_gift",
+      "n": 8192,
+      "file": "convergence-laws/8192/21-2026-04-02-decomposed_gift.npz",
+      "sha256": "b862f81b92c031a0bf9d34b5f0c9936a930b4424c113d9bce16cee50ade3c602",
+      "last_fit_end": "2026-04-02",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-04-02",
+      "model": "session_state",
+      "n": 8192,
+      "file": "convergence-laws/8192/21-2026-04-02-session_state.npz",
+      "sha256": "5b5d1846383fe48a3bce6c7b6d34c630bd71cea5c5ca3e434d0ab4f6b1e3b390",
+      "last_fit_end": "2026-04-02",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-04-15",
+      "model": "decomposed_gift",
+      "n": 256,
+      "file": "convergence-laws/256/21-2026-04-15-decomposed_gift.npz",
+      "sha256": "9ca9e6ad234cbf6f14d2afb5c717e15ca8e8032cccb73e64780099e31ea2dd30",
+      "last_fit_end": "2026-04-15",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-04-15",
+      "model": "session_state",
+      "n": 256,
+      "file": "convergence-laws/256/21-2026-04-15-session_state.npz",
+      "sha256": "82f9d78497d96f3516eeafe9a58d361fcfdce2917f287a8c456fb960d43cee88",
+      "last_fit_end": "2026-04-15",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-04-15",
+      "model": "decomposed_gift",
+      "n": 2048,
+      "file": "convergence-laws/2048/21-2026-04-15-decomposed_gift.npz",
+      "sha256": "badbf723a79573ee911c05d591256ed4382c87a618667ac03643b73341019135",
+      "last_fit_end": "2026-04-15",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-04-15",
+      "model": "session_state",
+      "n": 2048,
+      "file": "convergence-laws/2048/21-2026-04-15-session_state.npz",
+      "sha256": "b97a441cee14814ff15774c05ba3c5eee075eeec6a5d311968c5f1177d9b3596",
+      "last_fit_end": "2026-04-15",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-04-15",
+      "model": "decomposed_gift",
+      "n": 8192,
+      "file": "convergence-laws/8192/21-2026-04-15-decomposed_gift.npz",
+      "sha256": "40a65545353f8684a879256494ac93ae9046d3817c8d8232e62feb961fa53e39",
+      "last_fit_end": "2026-04-15",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-04-15",
+      "model": "session_state",
+      "n": 8192,
+      "file": "convergence-laws/8192/21-2026-04-15-session_state.npz",
+      "sha256": "ec8348fbdefa6c6d8d17a3993d316bcdb29a0434b9eed166bbb6e6c5be32953c",
+      "last_fit_end": "2026-04-15",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-04-24",
+      "model": "decomposed_gift",
+      "n": 256,
+      "file": "convergence-laws/256/21-2026-04-24-decomposed_gift.npz",
+      "sha256": "2573ab1beb269c7b54cf97156c9528d53b684d145a0aadc84d75de0ba72d8ad6",
+      "last_fit_end": "2026-04-24",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-04-24",
+      "model": "session_state",
+      "n": 256,
+      "file": "convergence-laws/256/21-2026-04-24-session_state.npz",
+      "sha256": "f88190ac67a4dacbe5d1e31071f1dda16e8f173a79302ddeba574163b0ac3d9c",
+      "last_fit_end": "2026-04-24",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-04-24",
+      "model": "decomposed_gift",
+      "n": 2048,
+      "file": "convergence-laws/2048/21-2026-04-24-decomposed_gift.npz",
+      "sha256": "4c363279711935f1ceb7c4b5f3496379bc0e2e7d57d03857f702311588e1693c",
+      "last_fit_end": "2026-04-24",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-04-24",
+      "model": "session_state",
+      "n": 2048,
+      "file": "convergence-laws/2048/21-2026-04-24-session_state.npz",
+      "sha256": "03b551c954afc0ba2f215d419621bcbf9d1fc3ebfac3a37e0d6e6a96870f4335",
+      "last_fit_end": "2026-04-24",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-04-24",
+      "model": "decomposed_gift",
+      "n": 8192,
+      "file": "convergence-laws/8192/21-2026-04-24-decomposed_gift.npz",
+      "sha256": "4b359d4a901b44aa6ccdda279c040ebdf3efc24bd61459a43965284ba2af9159",
+      "last_fit_end": "2026-04-24",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-04-24",
+      "model": "session_state",
+      "n": 8192,
+      "file": "convergence-laws/8192/21-2026-04-24-session_state.npz",
+      "sha256": "f853d4c89025eec7b9883ed33ccc389d4327b8c31592a26a5d001e4b51acfc55",
+      "last_fit_end": "2026-04-24",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-05-06",
+      "model": "decomposed_gift",
+      "n": 256,
+      "file": "convergence-laws/256/21-2026-05-06-decomposed_gift.npz",
+      "sha256": "f03211aadc431e2c99f762741e1716d0ce803098702cf2f1496d257cd5a5c2bd",
+      "last_fit_end": "2026-05-06",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-05-06",
+      "model": "session_state",
+      "n": 256,
+      "file": "convergence-laws/256/21-2026-05-06-session_state.npz",
+      "sha256": "a2db61bcddbf9919679e70d49e4b4e1b5c914a3ce381c927424d2bc30e39bad2",
+      "last_fit_end": "2026-05-06",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-05-06",
+      "model": "decomposed_gift",
+      "n": 2048,
+      "file": "convergence-laws/2048/21-2026-05-06-decomposed_gift.npz",
+      "sha256": "e876edc9a530ff5ebbc638b4d40a06edf9d8958d2f06ee098f17a2dbbf1e3b28",
+      "last_fit_end": "2026-05-06",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-05-06",
+      "model": "session_state",
+      "n": 2048,
+      "file": "convergence-laws/2048/21-2026-05-06-session_state.npz",
+      "sha256": "b01878e4ac23f74489a2d5d496f1de3a0eab9e1f2fd9874e6f514e7ba9534a40",
+      "last_fit_end": "2026-05-06",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-05-06",
+      "model": "decomposed_gift",
+      "n": 8192,
+      "file": "convergence-laws/8192/21-2026-05-06-decomposed_gift.npz",
+      "sha256": "d673281310c07c96fee936ad7d953f55eda20d1fb8d888ef91c65c512ee1b0a5",
+      "last_fit_end": "2026-05-06",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-05-06",
+      "model": "session_state",
+      "n": 8192,
+      "file": "convergence-laws/8192/21-2026-05-06-session_state.npz",
+      "sha256": "350bd0c60a22fb388acf294f425e850956ff018298bf96ab8e1d061a145100ed",
+      "last_fit_end": "2026-05-06",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-05-15",
+      "model": "decomposed_gift",
+      "n": 256,
+      "file": "convergence-laws/256/21-2026-05-15-decomposed_gift.npz",
+      "sha256": "7207dfcd1a306554268a870659136acaeaa52e6eac2b81c2acc2f8992a8a45a5",
+      "last_fit_end": "2026-05-15",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-05-15",
+      "model": "session_state",
+      "n": 256,
+      "file": "convergence-laws/256/21-2026-05-15-session_state.npz",
+      "sha256": "40b0b05aab8319d7a2b553b56cd66757ad1533d4de3f65e9d206553f75034818",
+      "last_fit_end": "2026-05-15",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-05-15",
+      "model": "decomposed_gift",
+      "n": 2048,
+      "file": "convergence-laws/2048/21-2026-05-15-decomposed_gift.npz",
+      "sha256": "207ae70273a9d8bd074142362bbf098ef40380ed0ae69642f71c09482e3c8ca4",
+      "last_fit_end": "2026-05-15",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-05-15",
+      "model": "session_state",
+      "n": 2048,
+      "file": "convergence-laws/2048/21-2026-05-15-session_state.npz",
+      "sha256": "19c36b7eeffad301d636914e57d53dfae204d10c7d73040631dd65508e397349",
+      "last_fit_end": "2026-05-15",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-05-15",
+      "model": "decomposed_gift",
+      "n": 8192,
+      "file": "convergence-laws/8192/21-2026-05-15-decomposed_gift.npz",
+      "sha256": "17703a6f4db95209ddbde62b77d5496f79a4c1e71e252c50fe5a73f31fba5ef5",
+      "last_fit_end": "2026-05-15",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-05-15",
+      "model": "session_state",
+      "n": 8192,
+      "file": "convergence-laws/8192/21-2026-05-15-session_state.npz",
+      "sha256": "dcdc5091793cc928b6717a4bfac750f24bc6c93badddb06843b8e777190f885b",
+      "last_fit_end": "2026-05-15",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-05-26",
+      "model": "decomposed_gift",
+      "n": 256,
+      "file": "convergence-laws/256/21-2026-05-26-decomposed_gift.npz",
+      "sha256": "97efbf87a504f10515739db37128504e063ce0dbc34d15b1a459d424803da513",
+      "last_fit_end": "2026-05-26",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-05-26",
+      "model": "session_state",
+      "n": 256,
+      "file": "convergence-laws/256/21-2026-05-26-session_state.npz",
+      "sha256": "9e687c805991f0d60adbe4e2df2e6f3bf9f75c5369e3d5ae8d3f0f034b615f5a",
+      "last_fit_end": "2026-05-26",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-05-26",
+      "model": "decomposed_gift",
+      "n": 2048,
+      "file": "convergence-laws/2048/21-2026-05-26-decomposed_gift.npz",
+      "sha256": "dc3eb38f41c2504a23d8a1f443a703a2cec253eb372ffee6e2d00c23631ec5be",
+      "last_fit_end": "2026-05-26",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-05-26",
+      "model": "session_state",
+      "n": 2048,
+      "file": "convergence-laws/2048/21-2026-05-26-session_state.npz",
+      "sha256": "bc3c6110aa77fb243f5b64154f70411d58a900f444446a9b596869c301c0d389",
+      "last_fit_end": "2026-05-26",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-05-26",
+      "model": "decomposed_gift",
+      "n": 8192,
+      "file": "convergence-laws/8192/21-2026-05-26-decomposed_gift.npz",
+      "sha256": "8dee6094f58b90a8a0908d705272c54b717ea8b41fa7da5c3622721ee5277223",
+      "last_fit_end": "2026-05-26",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-05-26",
+      "model": "session_state",
+      "n": 8192,
+      "file": "convergence-laws/8192/21-2026-05-26-session_state.npz",
+      "sha256": "4b60797613b09bfac88cdfb980f5e865db047690ff66fdeab59fb6d0c22183cd",
+      "last_fit_end": "2026-05-26",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-06-05",
+      "model": "decomposed_gift",
+      "n": 256,
+      "file": "convergence-laws/256/21-2026-06-05-decomposed_gift.npz",
+      "sha256": "f33a5b4a1c95f35e31461d1b899bc889561cfadadf5b57dd7d3ef1c640a1135f",
+      "last_fit_end": "2026-06-05",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-06-05",
+      "model": "session_state",
+      "n": 256,
+      "file": "convergence-laws/256/21-2026-06-05-session_state.npz",
+      "sha256": "ebd4e7d70b9587f5bb8d2ead17d8362ea90681cea0bbc8efd83bad7fbd151da1",
+      "last_fit_end": "2026-06-05",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-06-05",
+      "model": "decomposed_gift",
+      "n": 2048,
+      "file": "convergence-laws/2048/21-2026-06-05-decomposed_gift.npz",
+      "sha256": "3550414c2deebe815bbb2b2c5ea79c5a833795bcced5929013e90e48803b5ecd",
+      "last_fit_end": "2026-06-05",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-06-05",
+      "model": "session_state",
+      "n": 2048,
+      "file": "convergence-laws/2048/21-2026-06-05-session_state.npz",
+      "sha256": "f1d3ab54fa949845f132dd6580f265b03b6d9f555f54207a58284860115264de",
+      "last_fit_end": "2026-06-05",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-06-05",
+      "model": "decomposed_gift",
+      "n": 8192,
+      "file": "convergence-laws/8192/21-2026-06-05-decomposed_gift.npz",
+      "sha256": "161c357e51ad6c142f7f8e91ee060f8367e62aaee07485044a09153b50f46655",
+      "last_fit_end": "2026-06-05",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-06-05",
+      "model": "session_state",
+      "n": 8192,
+      "file": "convergence-laws/8192/21-2026-06-05-session_state.npz",
+      "sha256": "8259b37388b89c6679483baa3fee6379dbc2b96e96550aee95d79ab2c1b950d6",
+      "last_fit_end": "2026-06-05",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-06-16",
+      "model": "decomposed_gift",
+      "n": 256,
+      "file": "convergence-laws/256/21-2026-06-16-decomposed_gift.npz",
+      "sha256": "105647b71175083ba82667c6cfd8871d4d4fa6cf7840c55a11be0f49d4d492c3",
+      "last_fit_end": "2026-06-16",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-06-16",
+      "model": "session_state",
+      "n": 256,
+      "file": "convergence-laws/256/21-2026-06-16-session_state.npz",
+      "sha256": "4dbb0ff2961eaf679e5ae79762ec7ff858b87b16419f2ad44793acab57b2b27d",
+      "last_fit_end": "2026-06-16",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-06-16",
+      "model": "decomposed_gift",
+      "n": 2048,
+      "file": "convergence-laws/2048/21-2026-06-16-decomposed_gift.npz",
+      "sha256": "f69b25adb198dd9d483a2ec002746327ff93e44462e0504722853018174d724f",
+      "last_fit_end": "2026-06-16",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-06-16",
+      "model": "session_state",
+      "n": 2048,
+      "file": "convergence-laws/2048/21-2026-06-16-session_state.npz",
+      "sha256": "1cb6112bfbbe43ebca7ce349d16815e08f9695cb8268274e7189af51029566b8",
+      "last_fit_end": "2026-06-16",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-06-16",
+      "model": "decomposed_gift",
+      "n": 8192,
+      "file": "convergence-laws/8192/21-2026-06-16-decomposed_gift.npz",
+      "sha256": "ca05a3f6539cee818f2373a14a175c5bde574114586a25ca19fb57fb07a57885",
+      "last_fit_end": "2026-06-16",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-06-16",
+      "model": "session_state",
+      "n": 8192,
+      "file": "convergence-laws/8192/21-2026-06-16-session_state.npz",
+      "sha256": "5b058aaa7ab941e0c032634a302d0b5c271978b61e84225409d0dce431c3bdf3",
+      "last_fit_end": "2026-06-16",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-06-25",
+      "model": "decomposed_gift",
+      "n": 256,
+      "file": "convergence-laws/256/21-2026-06-25-decomposed_gift.npz",
+      "sha256": "6bf1232451e628875dbcf9f849c4f5fd335a2b5e87e7cd81fd045b1ca109f6c6",
+      "last_fit_end": "2026-06-25",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-06-25",
+      "model": "session_state",
+      "n": 256,
+      "file": "convergence-laws/256/21-2026-06-25-session_state.npz",
+      "sha256": "2bfe3069fb9c969ac5f37e850828668c5d8e131ea7a5dfbe5f414fff882ea23e",
+      "last_fit_end": "2026-06-25",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-06-25",
+      "model": "decomposed_gift",
+      "n": 2048,
+      "file": "convergence-laws/2048/21-2026-06-25-decomposed_gift.npz",
+      "sha256": "1f468849a4905a88a408c3518d41f8ddec1578128a4c94310e2e804272080de2",
+      "last_fit_end": "2026-06-25",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-06-25",
+      "model": "session_state",
+      "n": 2048,
+      "file": "convergence-laws/2048/21-2026-06-25-session_state.npz",
+      "sha256": "99c0ae0db9ae66c4f0ec5a4a9a47f38c5e5d798b53f03fc0a1d04eb5b92781e7",
+      "last_fit_end": "2026-06-25",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-06-25",
+      "model": "decomposed_gift",
+      "n": 8192,
+      "file": "convergence-laws/8192/21-2026-06-25-decomposed_gift.npz",
+      "sha256": "984854ff8f261cf3ccefcc4f7c6729fda592eecbe7341c4e96b53d191e1e7fcd",
+      "last_fit_end": "2026-06-25",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-06-25",
+      "model": "session_state",
+      "n": 8192,
+      "file": "convergence-laws/8192/21-2026-06-25-session_state.npz",
+      "sha256": "28e680477d4261a091d9abef2694f0e718088481ee67cc7631786b99dee8b6c4",
+      "last_fit_end": "2026-06-25",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-07-07",
+      "model": "decomposed_gift",
+      "n": 256,
+      "file": "convergence-laws/256/21-2026-07-07-decomposed_gift.npz",
+      "sha256": "0e9169a0ab0cfff54557f407d5a373fd274532bf775e93a88f614a4a1ee06b96",
+      "last_fit_end": "2026-07-07",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-07-07",
+      "model": "session_state",
+      "n": 256,
+      "file": "convergence-laws/256/21-2026-07-07-session_state.npz",
+      "sha256": "5591568ad4c4bfb0d9af82cdab7c1fda30292e7057b31d44593770f3c85bfe00",
+      "last_fit_end": "2026-07-07",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-07-07",
+      "model": "decomposed_gift",
+      "n": 2048,
+      "file": "convergence-laws/2048/21-2026-07-07-decomposed_gift.npz",
+      "sha256": "66524c0c590e5263c58797e5c9dcb2a756f95a906fba7d5b2ea9a98e964dd616",
+      "last_fit_end": "2026-07-07",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-07-07",
+      "model": "session_state",
+      "n": 2048,
+      "file": "convergence-laws/2048/21-2026-07-07-session_state.npz",
+      "sha256": "b378723c3c6a076d453492c07e351bf39971cbe47b315b116d222c3a62d22567",
+      "last_fit_end": "2026-07-07",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-07-07",
+      "model": "decomposed_gift",
+      "n": 8192,
+      "file": "convergence-laws/8192/21-2026-07-07-decomposed_gift.npz",
+      "sha256": "34187a52e7ed004383b8a56ac80ce1a4f9b0a821b4eba30662b00aba7b8c0e67",
+      "last_fit_end": "2026-07-07",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-07-07",
+      "model": "session_state",
+      "n": 8192,
+      "file": "convergence-laws/8192/21-2026-07-07-session_state.npz",
+      "sha256": "2ea0aa837f413e26594b8c87f6e990724752ff35544876974f6efa9ef8a0708d",
+      "last_fit_end": "2026-07-07",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-07-16",
+      "model": "decomposed_gift",
+      "n": 256,
+      "file": "convergence-laws/256/21-2026-07-16-decomposed_gift.npz",
+      "sha256": "1d1f9bdf17e76738508202c3f20a2feb240134bab45873bd425ad3524a5d5d8f",
+      "last_fit_end": "2026-07-16",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-07-16",
+      "model": "session_state",
+      "n": 256,
+      "file": "convergence-laws/256/21-2026-07-16-session_state.npz",
+      "sha256": "4ac942ea19238267eccc04316e01a2b02a825910978d0970a48803e42051af24",
+      "last_fit_end": "2026-07-16",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-07-16",
+      "model": "decomposed_gift",
+      "n": 2048,
+      "file": "convergence-laws/2048/21-2026-07-16-decomposed_gift.npz",
+      "sha256": "645606117eb6c9ece24ff4d34e17e952c98f109cbbd4193c89c160b43fb8b36a",
+      "last_fit_end": "2026-07-16",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-07-16",
+      "model": "session_state",
+      "n": 2048,
+      "file": "convergence-laws/2048/21-2026-07-16-session_state.npz",
+      "sha256": "b0eef9b4d933486f7c6f097c7891fc42cc8464a29abf52f0f5b9597e08714770",
+      "last_fit_end": "2026-07-16",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-07-16",
+      "model": "decomposed_gift",
+      "n": 8192,
+      "file": "convergence-laws/8192/21-2026-07-16-decomposed_gift.npz",
+      "sha256": "5791754daf3e7550a9876882d83e5f2f878d9dbe9bb2abf5c1b8b4bc812e1f6d",
+      "last_fit_end": "2026-07-16",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-07-16",
+      "model": "session_state",
+      "n": 8192,
+      "file": "convergence-laws/8192/21-2026-07-16-session_state.npz",
+      "sha256": "2ed95cf4248a14a3969aedaa2c60e19b934b2a626df300568cc42b1157b18088",
+      "last_fit_end": "2026-07-16",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-07-27",
+      "model": "decomposed_gift",
+      "n": 256,
+      "file": "convergence-laws/256/21-2026-07-27-decomposed_gift.npz",
+      "sha256": "56f29530e30c9a08a8173b339c4807835bb0c911bea40c02b80fbbcc4fd0eb3b",
+      "last_fit_end": "2026-07-27",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-07-27",
+      "model": "session_state",
+      "n": 256,
+      "file": "convergence-laws/256/21-2026-07-27-session_state.npz",
+      "sha256": "4a503224c37670a24d91204e5f1771d8243592f34ba4dfcc979965c8e232dff7",
+      "last_fit_end": "2026-07-27",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-07-27",
+      "model": "decomposed_gift",
+      "n": 2048,
+      "file": "convergence-laws/2048/21-2026-07-27-decomposed_gift.npz",
+      "sha256": "743ef38d684eb15809e96512333229ba81bd48d30a449d70264e738c87f30e56",
+      "last_fit_end": "2026-07-27",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-07-27",
+      "model": "session_state",
+      "n": 2048,
+      "file": "convergence-laws/2048/21-2026-07-27-session_state.npz",
+      "sha256": "0b5e8fb4274784286438976620874867c3a8da91402fe146f057f5a96a5710c8",
+      "last_fit_end": "2026-07-27",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-07-27",
+      "model": "decomposed_gift",
+      "n": 8192,
+      "file": "convergence-laws/8192/21-2026-07-27-decomposed_gift.npz",
+      "sha256": "0c150178837d349b13f5579b016ee8ed3f161a6b371e1676d05fd4bfd552ddcd",
+      "last_fit_end": "2026-07-27",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-07-27",
+      "model": "session_state",
+      "n": 8192,
+      "file": "convergence-laws/8192/21-2026-07-27-session_state.npz",
+      "sha256": "a0e582a25bcea9c83029d24d043c70e2b389908b734424a4b0875474057b4f0e",
+      "last_fit_end": "2026-07-27",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-08-05",
+      "model": "decomposed_gift",
+      "n": 256,
+      "file": "convergence-laws/256/21-2026-08-05-decomposed_gift.npz",
+      "sha256": "beac071185a4012072865f832d0bcbd2425f36227456d5cd1af7d1a8eaa8d89b",
+      "last_fit_end": "2026-08-05",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-08-05",
+      "model": "session_state",
+      "n": 256,
+      "file": "convergence-laws/256/21-2026-08-05-session_state.npz",
+      "sha256": "46f536657b2aed64bf79fea3e928ad52f6c13af27b131e8dfd755778e6b8ef77",
+      "last_fit_end": "2026-08-05",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-08-05",
+      "model": "decomposed_gift",
+      "n": 2048,
+      "file": "convergence-laws/2048/21-2026-08-05-decomposed_gift.npz",
+      "sha256": "d41bb47d96acf7971cce4b97d30b9163ea686ae44b03fa983eab415f4a0cdafd",
+      "last_fit_end": "2026-08-05",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-08-05",
+      "model": "session_state",
+      "n": 2048,
+      "file": "convergence-laws/2048/21-2026-08-05-session_state.npz",
+      "sha256": "5db97514eaeca22e88228012d61805966ca9fdea6e6621d1037833abe59a136c",
+      "last_fit_end": "2026-08-05",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-08-05",
+      "model": "decomposed_gift",
+      "n": 8192,
+      "file": "convergence-laws/8192/21-2026-08-05-decomposed_gift.npz",
+      "sha256": "2c6865a965987749675653534ade5bfd09e2194c6c0cbe106d877a157f379e73",
+      "last_fit_end": "2026-08-05",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-08-05",
+      "model": "session_state",
+      "n": 8192,
+      "file": "convergence-laws/8192/21-2026-08-05-session_state.npz",
+      "sha256": "ce009d2a51b5511d618e7fba7e099812ea58342d5846f227b060dda8630d56bf",
+      "last_fit_end": "2026-08-05",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-08-14",
+      "model": "decomposed_gift",
+      "n": 256,
+      "file": "convergence-laws/256/21-2026-08-14-decomposed_gift.npz",
+      "sha256": "17a0712743fe81c5271d20195cc674258c86c8250d0b099b28554ea387f52794",
+      "last_fit_end": "2026-08-14",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-08-14",
+      "model": "session_state",
+      "n": 256,
+      "file": "convergence-laws/256/21-2026-08-14-session_state.npz",
+      "sha256": "7842308115dc61b8b5f5195b75030f669483b2d885fbf4272130534df053310c",
+      "last_fit_end": "2026-08-14",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-08-14",
+      "model": "decomposed_gift",
+      "n": 2048,
+      "file": "convergence-laws/2048/21-2026-08-14-decomposed_gift.npz",
+      "sha256": "e690532434718c0d9dee0793d85da3317e903a19f96834239c4a611639424e70",
+      "last_fit_end": "2026-08-14",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-08-14",
+      "model": "session_state",
+      "n": 2048,
+      "file": "convergence-laws/2048/21-2026-08-14-session_state.npz",
+      "sha256": "fbf50026737c10dc41c8ae10fa58471b548015444a78cd49b976769cfde1e09d",
+      "last_fit_end": "2026-08-14",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-08-14",
+      "model": "decomposed_gift",
+      "n": 8192,
+      "file": "convergence-laws/8192/21-2026-08-14-decomposed_gift.npz",
+      "sha256": "3dd414223845b3a512d5f804a88f35c816b4bb05f5d009727d0d0b4d5c8e039f",
+      "last_fit_end": "2026-08-14",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-08-14",
+      "model": "session_state",
+      "n": 8192,
+      "file": "convergence-laws/8192/21-2026-08-14-session_state.npz",
+      "sha256": "ca6df54e7e7026188fc3fa672ba57e0f56414999c356f1eee5b37c97594cc28b",
+      "last_fit_end": "2026-08-14",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-08-25",
+      "model": "decomposed_gift",
+      "n": 256,
+      "file": "convergence-laws/256/21-2026-08-25-decomposed_gift.npz",
+      "sha256": "b80f0e4e4f52841eb925fbbd4e90daced43aa1da8c69d50e311479785870fcc3",
+      "last_fit_end": "2026-08-25",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-08-25",
+      "model": "session_state",
+      "n": 256,
+      "file": "convergence-laws/256/21-2026-08-25-session_state.npz",
+      "sha256": "8814daf71f8d964b5cd8569a031a25423b1bc0e98e3dfdfd447292b085183b27",
+      "last_fit_end": "2026-08-25",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-08-25",
+      "model": "decomposed_gift",
+      "n": 2048,
+      "file": "convergence-laws/2048/21-2026-08-25-decomposed_gift.npz",
+      "sha256": "7fa43c7748b439120616a4a5956df443983e3011677a8db48337bd76d0f892c7",
+      "last_fit_end": "2026-08-25",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-08-25",
+      "model": "session_state",
+      "n": 2048,
+      "file": "convergence-laws/2048/21-2026-08-25-session_state.npz",
+      "sha256": "e5c630c284aad6f09746001cef458894235b4162992f3aadbb19706a05312b6b",
+      "last_fit_end": "2026-08-25",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-08-25",
+      "model": "decomposed_gift",
+      "n": 8192,
+      "file": "convergence-laws/8192/21-2026-08-25-decomposed_gift.npz",
+      "sha256": "14cbc3ddf1e0de5e19e57d1fee0e2996096e80fb4ff156eaaf7d6d06692f18cb",
+      "last_fit_end": "2026-08-25",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-08-25",
+      "model": "session_state",
+      "n": 8192,
+      "file": "convergence-laws/8192/21-2026-08-25-session_state.npz",
+      "sha256": "77b825753a14aa5504ab60c4fc61e125e190cf0a57b1615c7ba050173def2042",
+      "last_fit_end": "2026-08-25",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-09-03",
+      "model": "decomposed_gift",
+      "n": 256,
+      "file": "convergence-laws/256/21-2026-09-03-decomposed_gift.npz",
+      "sha256": "4f14281f9ef3c287926d4cca95b97ea85b03a343a9ccb22d0024d13e94f7f664",
+      "last_fit_end": "2026-09-03",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-09-03",
+      "model": "session_state",
+      "n": 256,
+      "file": "convergence-laws/256/21-2026-09-03-session_state.npz",
+      "sha256": "033da8c3bd06aef13c09efb8d5891e7bf7643d6dfafd9906d6bafc91fe8c436b",
+      "last_fit_end": "2026-09-03",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-09-03",
+      "model": "decomposed_gift",
+      "n": 2048,
+      "file": "convergence-laws/2048/21-2026-09-03-decomposed_gift.npz",
+      "sha256": "4e83d8e152e240e80d0ebfa8bd35177fcd06d1fc2a8e1764e611dbba4c63e1b0",
+      "last_fit_end": "2026-09-03",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-09-03",
+      "model": "session_state",
+      "n": 2048,
+      "file": "convergence-laws/2048/21-2026-09-03-session_state.npz",
+      "sha256": "c6713b79c740dd37bfaeca83e5e88457ed96e3ab9132cb08037970678250874e",
+      "last_fit_end": "2026-09-03",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-09-03",
+      "model": "decomposed_gift",
+      "n": 8192,
+      "file": "convergence-laws/8192/21-2026-09-03-decomposed_gift.npz",
+      "sha256": "fccf71afe2668a90d5e9926958c5535cfc0d94043b479347660ea03a660b35f9",
+      "last_fit_end": "2026-09-03",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-09-03",
+      "model": "session_state",
+      "n": 8192,
+      "file": "convergence-laws/8192/21-2026-09-03-session_state.npz",
+      "sha256": "919bcd27ca5d8b3562c9af4c2f70b6cf17f086643d080c658ebd625c37fc83e1",
+      "last_fit_end": "2026-09-03",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-09-15",
+      "model": "decomposed_gift",
+      "n": 256,
+      "file": "convergence-laws/256/21-2026-09-15-decomposed_gift.npz",
+      "sha256": "ddadbf07e3e66cff976bc9720abff2df938c1a96b9f360b371392f67b2dccfbf",
+      "last_fit_end": "2026-09-15",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-09-15",
+      "model": "session_state",
+      "n": 256,
+      "file": "convergence-laws/256/21-2026-09-15-session_state.npz",
+      "sha256": "c973ff3b8d3aff239f0e7b2b8c0ed8ce403efc2e7483852ba30fa48894c994be",
+      "last_fit_end": "2026-09-15",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-09-15",
+      "model": "decomposed_gift",
+      "n": 2048,
+      "file": "convergence-laws/2048/21-2026-09-15-decomposed_gift.npz",
+      "sha256": "24520cf71889a4d72b5ba306daa9916e55a5531dfc106281a5b2b32fbbc4390f",
+      "last_fit_end": "2026-09-15",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-09-15",
+      "model": "session_state",
+      "n": 2048,
+      "file": "convergence-laws/2048/21-2026-09-15-session_state.npz",
+      "sha256": "c0972a12460b9b71d0c890d741dab269ddbbe9d0f541cefbee4b92b5146a6280",
+      "last_fit_end": "2026-09-15",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-09-15",
+      "model": "decomposed_gift",
+      "n": 8192,
+      "file": "convergence-laws/8192/21-2026-09-15-decomposed_gift.npz",
+      "sha256": "83f6c9f9655e00b5a855e2ea28fe950967d5c5d6c147246eff7e8c8ed9e19c8f",
+      "last_fit_end": "2026-09-15",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-09-15",
+      "model": "session_state",
+      "n": 8192,
+      "file": "convergence-laws/8192/21-2026-09-15-session_state.npz",
+      "sha256": "7caf4e1fd13123d3fa33e44bdbc65da47d0462a854c08f27109a9a47df6207b1",
+      "last_fit_end": "2026-09-15",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-09-24",
+      "model": "decomposed_gift",
+      "n": 256,
+      "file": "convergence-laws/256/21-2026-09-24-decomposed_gift.npz",
+      "sha256": "f9589011471968974be21448b8fdc757f9f3143fb9648ebbc1651095c0eb9972",
+      "last_fit_end": "2026-09-24",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-09-24",
+      "model": "session_state",
+      "n": 256,
+      "file": "convergence-laws/256/21-2026-09-24-session_state.npz",
+      "sha256": "a607d494e0362ab069e329d27bbf545dbf9ccf3acb0079ef796e1f726c950646",
+      "last_fit_end": "2026-09-24",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-09-24",
+      "model": "decomposed_gift",
+      "n": 2048,
+      "file": "convergence-laws/2048/21-2026-09-24-decomposed_gift.npz",
+      "sha256": "594d3be715d4cc97d54aa1dff2d01831aadb9a1607842c711c85815cd935518d",
+      "last_fit_end": "2026-09-24",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-09-24",
+      "model": "session_state",
+      "n": 2048,
+      "file": "convergence-laws/2048/21-2026-09-24-session_state.npz",
+      "sha256": "7003522915bd131a40a4ae34ffb4f250f2a88348bf4619f808c8e3cc788e0fee",
+      "last_fit_end": "2026-09-24",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-09-24",
+      "model": "decomposed_gift",
+      "n": 8192,
+      "file": "convergence-laws/8192/21-2026-09-24-decomposed_gift.npz",
+      "sha256": "74fee625bf4de7e95537dc6d8108271ae03bcb3b6aa478778bf96514fb0c9bb7",
+      "last_fit_end": "2026-09-24",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-09-24",
+      "model": "session_state",
+      "n": 8192,
+      "file": "convergence-laws/8192/21-2026-09-24-session_state.npz",
+      "sha256": "9356889b022ffffdfde96a5ba7eb4b09ba39531406d982361d0453cdcaeba7c3",
+      "last_fit_end": "2026-09-24",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-10-06",
+      "model": "decomposed_gift",
+      "n": 256,
+      "file": "convergence-laws/256/21-2026-10-06-decomposed_gift.npz",
+      "sha256": "320ce52cd6a666a7b731834da3b0d046fa9d93f66e4ef0a667f66e9ae3a2f2f1",
+      "last_fit_end": "2026-10-06",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-10-06",
+      "model": "session_state",
+      "n": 256,
+      "file": "convergence-laws/256/21-2026-10-06-session_state.npz",
+      "sha256": "e1be8ccb77941640587c6b7c94815662b08e595db91a580834d19a8c7c45e641",
+      "last_fit_end": "2026-10-06",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-10-06",
+      "model": "decomposed_gift",
+      "n": 2048,
+      "file": "convergence-laws/2048/21-2026-10-06-decomposed_gift.npz",
+      "sha256": "0d882d74f6fd4398e28a09713bab7096ac08a9bc3c717ee410867df2ee1fcf00",
+      "last_fit_end": "2026-10-06",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-10-06",
+      "model": "session_state",
+      "n": 2048,
+      "file": "convergence-laws/2048/21-2026-10-06-session_state.npz",
+      "sha256": "d88d2301e56b6277c7d47b59a53547354baa8d49ec4c1d8f84abc5f5dc87d195",
+      "last_fit_end": "2026-10-06",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-10-06",
+      "model": "decomposed_gift",
+      "n": 8192,
+      "file": "convergence-laws/8192/21-2026-10-06-decomposed_gift.npz",
+      "sha256": "686daa175d691b9db48631cfd319b2434f93d45be1c834f0fb6bf3af24c4dc0b",
+      "last_fit_end": "2026-10-06",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-10-06",
+      "model": "session_state",
+      "n": 8192,
+      "file": "convergence-laws/8192/21-2026-10-06-session_state.npz",
+      "sha256": "6c7d87cc7f7d223411e5213ce6dccab02e0e391e55e2b9316ef27adffde51a3d",
+      "last_fit_end": "2026-10-06",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-10-15",
+      "model": "decomposed_gift",
+      "n": 256,
+      "file": "convergence-laws/256/21-2026-10-15-decomposed_gift.npz",
+      "sha256": "1a7a23326aebffe51714ceda380b8752cc87d49a06188a567a21e8f0f7bcb1f1",
+      "last_fit_end": "2026-10-15",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-10-15",
+      "model": "session_state",
+      "n": 256,
+      "file": "convergence-laws/256/21-2026-10-15-session_state.npz",
+      "sha256": "6cca2c84e0909be9f7dca94d2dd9740fb58fc530a29c7bc69a02343c3b1326d4",
+      "last_fit_end": "2026-10-15",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-10-15",
+      "model": "decomposed_gift",
+      "n": 2048,
+      "file": "convergence-laws/2048/21-2026-10-15-decomposed_gift.npz",
+      "sha256": "e153b842c7fd3ce59636e5e3133efe43665e7d9ea3159725ac323ca09f01c203",
+      "last_fit_end": "2026-10-15",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-10-15",
+      "model": "session_state",
+      "n": 2048,
+      "file": "convergence-laws/2048/21-2026-10-15-session_state.npz",
+      "sha256": "8a34c5f78d32ff5343833122ceeb665a144854b5b2cd9567107f6fa5e0beeba4",
+      "last_fit_end": "2026-10-15",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-10-15",
+      "model": "decomposed_gift",
+      "n": 8192,
+      "file": "convergence-laws/8192/21-2026-10-15-decomposed_gift.npz",
+      "sha256": "40bb30088d663e23e5b34f8f1a56610bc33e478ca2f4ac992345e5cef62ca228",
+      "last_fit_end": "2026-10-15",
+      "nested_stream": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-10-15",
+      "model": "session_state",
+      "n": 8192,
+      "file": "convergence-laws/8192/21-2026-10-15-session_state.npz",
+      "sha256": "5816aff9d228937fbcc1b0db05e147438bfc31fc2f29924370fd2d53dbfdc6a7",
+      "last_fit_end": "2026-10-15",
+      "nested_stream": true
+    }
+  ]
+}

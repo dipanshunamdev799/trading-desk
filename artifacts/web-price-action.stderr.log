@@ -1,0 +1,124 @@
+(node:7568) [DEP0060] DeprecationWarning: The `util._extend` API is deprecated. Please use Object.assign() instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Failed to proxy http://127.0.0.1:8000/market/live Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20) {
+  errno: -4077,
+  code: 'ECONNRESET',
+  syscall: 'read'
+}
+Failed to proxy http://127.0.0.1:8000/market/live Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20) {
+  errno: -4077,
+  code: 'ECONNRESET',
+  syscall: 'read'
+}
+Failed to proxy http://127.0.0.1:8000/market/live Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20) {
+  errno: -4077,
+  code: 'ECONNRESET',
+  syscall: 'read'
+}
+Failed to proxy http://127.0.0.1:8000/market/live Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20) {
+  errno: -4077,
+  code: 'ECONNRESET',
+  syscall: 'read'
+}
+Failed to proxy http://127.0.0.1:8000/market/live Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:2021:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8000
+}
+Failed to proxy http://127.0.0.1:8000/market/live Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:2021:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8000
+}
+Failed to proxy http://127.0.0.1:8000/market/live Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:2021:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8000
+}
+Failed to proxy http://127.0.0.1:8000/market/live Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:2021:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8000
+}
+Failed to proxy http://127.0.0.1:8000/market/live Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:2021:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8000
+}
+Failed to proxy http://127.0.0.1:8000/market/live Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:2021:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8000
+}
+Failed to proxy http://127.0.0.1:8000/market/live Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:2021:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8000
+}
+Failed to proxy http://127.0.0.1:8000/health Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:2021:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8000
+}
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:2021:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8000
+}
+ ⨯ Error: Cannot find module 'C:\Users\ME\Desktop\trading_v2\frontend\.next\server\pages\_error.js'
+Require stack:
+- C:\Users\ME\Desktop\trading_v2\frontend\node_modules\next\dist\server\require.js
+- C:\Users\ME\Desktop\trading_v2\frontend\node_modules\next\dist\server\next-server.js
+- C:\Users\ME\Desktop\trading_v2\frontend\node_modules\next\dist\server\next.js
+- C:\Users\ME\Desktop\trading_v2\frontend\node_modules\next\dist\server\lib\start-server.js
+- C:\Users\ME\Desktop\trading_v2\frontend\node_modules\next\dist\cli\next-start.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1564:15)
+    at C:\Users\ME\Desktop\trading_v2\frontend\node_modules\next\dist\server\require-hook.js:55:36
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1118:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1142:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1169:12)
+    at Module._load (node:internal/modules/cjs/loader:1341:5)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1674:12)
+    at mod.require (C:\Users\ME\Desktop\trading_v2\frontend\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:157:16) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\ME\\Desktop\\trading_v2\\frontend\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\ME\\Desktop\\trading_v2\\frontend\\node_modules\\next\\dist\\server\\next-server.js',
+    'C:\\Users\\ME\\Desktop\\trading_v2\\frontend\\node_modules\\next\\dist\\server\\next.js',
+    'C:\\Users\\ME\\Desktop\\trading_v2\\frontend\\node_modules\\next\\dist\\server\\lib\\start-server.js',
+    'C:\\Users\\ME\\Desktop\\trading_v2\\frontend\\node_modules\\next\\dist\\cli\\next-start.js'
+  ]
+}

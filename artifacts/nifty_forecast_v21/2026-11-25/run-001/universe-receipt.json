@@ -1,0 +1,48 @@
+{
+  "cash_sessions": 466,
+  "new_cash_files": 58,
+  "all_cash_security_days": 1384549,
+  "all_symbols": 3852,
+  "seed_names": 240,
+  "modeled_symbols": 272,
+  "eligible_equity_dates": 109559,
+  "sector_names": [
+    "bank",
+    "finance",
+    "it",
+    "auto",
+    "energy",
+    "consumer",
+    "health",
+    "materials",
+    "industrial",
+    "telecom",
+    "other"
+  ],
+  "weight_csv_vintages": 22,
+  "dated_rows": 6673,
+  "pdf_price_compares": 4447,
+  "pdf_exact_prices": 4447,
+  "action_treatments": {
+    "previous traded close": 120400,
+    "ratio from dated action": 25,
+    "unresolved identity/action": 2,
+    "confirmed demerger opening basis": 1
+  },
+  "corporate_sources": [
+    {
+      "file": "artifacts/nifty_forecast_v17/2026-11-25/run-001/sources/source-probes/corporate-action-2025.json.gz",
+      "sha256": "524c1a9d3b481a99b3ee92a8092fc2b34ce329b744d52869f28b9189aeccf111",
+      "raw": 1927
+    },
+    {
+      "file": "artifacts/nifty_forecast_v17/2026-11-25/run-001/sources/source-probes/corporate-action-2026.json.gz",
+      "sha256": "4094fd34624d77280db3578d8e79c03a50da991a12d020896ef9ae93a0cc8a97",
+      "raw": 2041
+    }
+  ],
+  "eligibility": "Membership and classification enter prospectively after five completed cash sessions. Fixed January liquidity cohort can enter from February.",
+  "missing": "Halted or missing securities remain in the identity archive. Zero contribution on missing price is a marked no-price carry convention only for reconstruction.",
+  "coverage_limit": "Official NIFTY 50, NIFTY Next 50 and selected sector monthly membership. NIFTY 200/500 positions and daily free-float factor/divisor history unavailable.",
+  "publication_limit": "Archive filenames and table dates identify measurement, not first publication. Release lag sensitivity and month-end ex-post comparison remain distinct."
+}

@@ -1,0 +1,36 @@
+{
+  "entries": [
+    {
+      "symbol": "RSP",
+      "file": "artifacts/nifty_forecast_v11/2026-11-24/run-001/sources/nasdaq/RSP.json",
+      "sha256": "4769f9cce4223a35d5a2a4293afdaf3abfd8520f8728bdd1ae7fddaeab1bfbf3",
+      "dates": 471,
+      "source": "https://www.nasdaq.com/market-activity/etf/rsp/historical"
+    },
+    {
+      "symbol": "SPY",
+      "file": "artifacts/nifty_forecast_v11/2026-11-24/run-001/sources/nasdaq/SPY.json",
+      "sha256": "76b5e52d3dec56a6964072354238668978f50c9fabbc0ee45a21e281a67e63ff",
+      "dates": 471,
+      "source": "https://www.nasdaq.com/market-activity/etf/spy/historical"
+    },
+    {
+      "symbol": "XLF",
+      "file": "artifacts/nifty_forecast_v11/2026-11-24/run-001/sources/nasdaq/XLF.json",
+      "sha256": "3b999293d8d214d89d1577efcfd41796b7494be54211c3e6aa3183606606ac9d",
+      "dates": 471,
+      "source": "https://www.nasdaq.com/market-activity/etf/xlf/historical"
+    },
+    {
+      "symbol": "XLK",
+      "file": "artifacts/nifty_forecast_v11/2026-11-24/run-001/sources/nasdaq/XLK.json",
+      "sha256": "7364e9794ef90b4bbac358683b535ce029e525a5c1b3cce3f069a84d2a67ba5c",
+      "dates": 471,
+      "source": "https://www.nasdaq.com/market-activity/etf/xlk/historical"
+    }
+  ],
+  "matched_sessions": 471,
+  "local_close": "16:00 America/New_York",
+  "buffer_minutes": 60,
+  "feed_basis": "Raw close price, with exchange-traded spread and no historic publication receipts."
+}

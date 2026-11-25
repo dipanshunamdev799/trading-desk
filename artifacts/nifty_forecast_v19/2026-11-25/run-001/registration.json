@@ -1,0 +1,191 @@
+{
+  "registered_at": "2026-11-25T16:25:55.344456+05:30",
+  "scope": [
+    "2025-01-01",
+    "2026-11-17"
+  ],
+  "forward_max": "2026-12-31",
+  "seed": 191125,
+  "hypotheses": [
+    {
+      "hypothesis": "Participant position levels",
+      "rationale": "Position balance may describe a persistent state",
+      "source": "NSE participant OI",
+      "target": "Original 5 and 21 sessions",
+      "cutoff": "17:00 and 08:55",
+      "parent": "Archived V17 structural",
+      "primary_metric": "Brier and CRPS",
+      "eligibility": "Authenticated next-session eligible reports",
+      "negative_control": "Drop dependent Client nets and separate instrument families",
+      "budget": "One shrinkage level",
+      "follow_up": "Positive matched gains across cohorts"
+    },
+    {
+      "hypothesis": "Position changes versus levels",
+      "rationale": "Recent changes may convey more information than levels",
+      "source": "Date-verified net balance and gross counts",
+      "target": "Original 5 and 21 sessions and rotation",
+      "cutoff": "Same-clock",
+      "parent": "Price, breadth, and ordinary NIFTY futures OI",
+      "primary_metric": "CRPS and paired squared error",
+      "eligibility": "Exact day and source coverage",
+      "negative_control": "One- and five-session delays, then blocked nulls",
+      "budget": "1, 5 and 21 observed-session changes",
+      "follow_up": "Matched benefit over levels and OI"
+    },
+    {
+      "hypothesis": "Position-price innovation",
+      "rationale": "A new move in exposures may differ from its historical price-based conditional expectation",
+      "source": "Causal ridge residual with basis, expiry and OHLC state",
+      "target": "Original returns and magnitude",
+      "cutoff": "Same-clock",
+      "parent": "Ordinary positioning, then structural",
+      "primary_metric": "CRPS and MAE",
+      "eligibility": "Earlier covariates and residual training only",
+      "negative_control": "Variance normalization alternative and shifted predictors",
+      "budget": "Maximum 120 history rows per fit",
+      "follow_up": "Stable incremental contribution over raw positions"
+    },
+    {
+      "hypothesis": "Crowding and contraction proxy",
+      "rationale": "Cross-participant concentration may change dispersion or subsequent reduction in open interest",
+      "source": "Count-based HHI, training-only ranks and known expiry",
+      "target": "Volatility, reversal, future NIFTY futures OI reduction",
+      "cutoff": "Same-clock",
+      "parent": "Price momentum, IV and OI",
+      "primary_metric": "Brier and QLIKE",
+      "eligibility": "Positive denominators and known expiry",
+      "negative_control": "Expiry and rollover exclusions, date episodes",
+      "budget": "One main crowding screen per instrument",
+      "follow_up": "Matched effect outside expiry and dominant episodes"
+    },
+    {
+      "hypothesis": "Delivery activity",
+      "rationale": "Delivered share participation may differ from ordinary traded activity",
+      "source": "Full NSE security-delivery reports and cash archive",
+      "target": "Stock-relative and original NIFTY returns",
+      "cutoff": "Morning following eligible publication",
+      "parent": "Traded volume, turnover, and native state",
+      "primary_metric": "CRPS, Brier and paired stock error",
+      "eligibility": "Point-in-time company identifiers and positive price",
+      "negative_control": "Alternative windows, ex-action screens, and random eligible subsets",
+      "budget": "25/60 prior observations and a fixed basket",
+      "follow_up": "Matched gains in more than one cohort"
+    },
+    {
+      "hypothesis": "Delivery breadth and rotation",
+      "rationale": "Broad delivery changes may convey sector leadership",
+      "source": "NSE delivery and dated native sector indexes",
+      "target": "5- and 21-session sector excess and index returns",
+      "cutoff": "Same-clock",
+      "parent": "Price, traded breadth, turnover and official equal weight",
+      "primary_metric": "MAE, Brier and CRPS",
+      "eligibility": "Company and membership proxy coverage disclosed",
+      "negative_control": "Sector weighting and top-name removal",
+      "budget": "Equal company, sector, liquidity and available cap proxy",
+      "follow_up": "Sector predictive gains beyond market state"
+    },
+    {
+      "hypothesis": "Large deals",
+      "rationale": "Unusual disclosed transactions may precede different relative returns or risk",
+      "source": "NSE historical bulk and block windows",
+      "target": "Issuer relative returns, sector rotation and index risk",
+      "cutoff": "Next cash session with publication guard",
+      "parent": "Matched high-turnover controls",
+      "primary_metric": "Paired excess return and CRPS",
+      "eligibility": "Authenticated dated archive window",
+      "negative_control": "Date shifts, exact duplicate and size exclusions",
+      "budget": "One primary matched event study and one alternative grouping",
+      "follow_up": "Event and parent comparison beyond matched turnover"
+    },
+    {
+      "hypothesis": "Institutional cash activity",
+      "rationale": "Authentic cash trades or custodian-reported equity activity may carry separate information",
+      "source": "Official dated source only",
+      "target": "5- and 21-session original returns and risk",
+      "cutoff": "Conservative separate release clock",
+      "parent": "Price and derivatives positioning",
+      "primary_metric": "Brier, CRPS and QLIKE",
+      "eligibility": "Documented units and vintage, no synthetic filling",
+      "negative_control": "Verify arithmetic and test chronological delay",
+      "budget": "One aggregate per authentic series",
+      "follow_up": "Estimable matched increments and coverage"
+    },
+    {
+      "hypothesis": "Fundamental and position interaction",
+      "rationale": "Positioning may condition the future behavior after corporate developments",
+      "source": "V18 published fundamentals and genuine positioning measurements",
+      "target": "Original 5 and 21 sessions",
+      "cutoff": "Identical-cutoff",
+      "parent": "Structural, corporate, and each separate information block",
+      "primary_metric": "Brier and CRPS",
+      "eligibility": "Same dates and as-of data",
+      "negative_control": "Alternative addition orders, block rotation and delayed inputs",
+      "budget": "Eight delivery-positioning-transaction subsets and two interaction models",
+      "follow_up": "Increment through both addition orders and comparable cohorts"
+    },
+    {
+      "hypothesis": "Native and decomposition residuals",
+      "rationale": "A candidate should improve calibrated existing predictive laws",
+      "source": "Exact V14/V18 weighted laws and V17 decomposition",
+      "target": "Original endpoint distributions",
+      "cutoff": "Original native guard or matched rebuilt cutoff",
+      "parent": "Verified exact archived distributions",
+      "primary_metric": "Brier and CRPS",
+      "eligibility": "Fully matured historical forecast errors",
+      "negative_control": "Neutral correction, empirical shape and episode omissions",
+      "budget": "No more than two adjustments per protected parent",
+      "follow_up": "Positive adjusted directional and distribution evidence"
+    },
+    {
+      "hypothesis": "Positioning-informed risk laws",
+      "rationale": "Crowding and activity may add to IV beyond price history",
+      "source": "Audited positioning, delivery and risk states",
+      "target": "Point volatility, transitions, range and barrier risks",
+      "cutoff": "Prior 17:00, 08:55 and independent post-open risk",
+      "parent": "Archived IV, GJR, EGARCH, V16 and V17 laws",
+      "primary_metric": "MAE, QLIKE, CRPS and Brier",
+      "eligibility": "Same reference price and actual outcome",
+      "negative_control": "Delay, expiry exclusions and comparison to IV-only",
+      "budget": "256 archived OHLC scenarios per origin",
+      "follow_up": "Improvement in coherent laws or clearly labeled standalone forecasts"
+    }
+  ],
+  "academic_scope": "Outcomes have been examined across V1\u2013V18. Tests remain retrospective, including when intervals account for overlap and multiple V19 contrasts.",
+  "publication_guard": "An archived EOD report is modeled as eligible by 08:15 IST on the next exchange session. Compare an additional one- and five-session delay. Genuine filing timestamps independently control cash or corporate observations.",
+  "budget": {
+    "bootstrap_draws": 1500,
+    "block_lengths": [
+      5,
+      10,
+      21,
+      42
+    ],
+    "null_refits": 23,
+    "intended_cohorts": {
+      "5": {
+        "early": 173,
+        "later": 92,
+        "combined": 265,
+        "disjoint": 53
+      },
+      "21": {
+        "early": 141,
+        "later": 76,
+        "combined": 217,
+        "disjoint": 11
+      }
+    },
+    "fixed_delivery_issuers": 240,
+    "source_days": "Every eligible 2025\u20132026 archived session",
+    "endpoint_law_atoms": 128,
+    "path_atoms": 256
+  },
+  "forward_candidates": [
+    "Original GIFT gap at its genuine pre-auction issue time",
+    "Original native weekly model and corporate overlay if their guard is reached during active research",
+    "Neutral monthly law anchored to a certified cash close",
+    "IV/GJR risk reference if same-cutoff current inputs exist",
+    "Positioning candidate only if justified, preregistered and frozen before its actual target interval"
+  ]
+}

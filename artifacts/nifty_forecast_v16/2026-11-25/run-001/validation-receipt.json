@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "checked_at": "2026-11-25T10:10:45.579812+05:30",
+  "historical_end": "2026-11-17",
+  "original_windows": 482,
+  "verified_joint_laws": 4820,
+  "scenario_count_per_law": 256,
+  "unique_protected_path_files": 265,
+  "protected_and_new_path_scores": 8676,
+  "barrier_rows": 86760,
+  "session_forecast_files": {
+    "opening-0830": 4500,
+    "opening-0845": 4506,
+    "opening-0855": 8118,
+    "opening-0910": 8105,
+    "decay-0855": 63236,
+    "decay-0925": 28285,
+    "decay-1020": 22653,
+    "decay-1700": 8722,
+    "network-nifty": 6280,
+    "network-sectors": 10315
+  },
+  "session_distribution_rows": 164720,
+  "point_in_time_checks": 68390,
+  "prior_artifacts": 616,
+  "protected_prior_code": 18,
+  "v15_reproduced": 2575,
+  "future_checks": 60,
+  "genuine_forward_records": 6,
+  "new_forward_issues": 0
+}

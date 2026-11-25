@@ -1,0 +1,206 @@
+{
+  "registered_at": "2026-11-25T10:23:24.518485+05:30",
+  "scope": [
+    "2025-01-01",
+    "2026-11-17"
+  ],
+  "forward_end": "2026-12-31",
+  "budget": {
+    "stock_count": 30,
+    "cash_seed_dates": [
+      "2025-01-02",
+      "2025-01-08",
+      "2025-01-15",
+      "2025-01-22",
+      "2025-01-29"
+    ],
+    "clocks": [
+      "09:25",
+      "09:35",
+      "09:55",
+      "10:20",
+      "11:30",
+      "12:30",
+      "14:00",
+      "15:00"
+    ],
+    "gap_clocks": [
+      "prior_close",
+      "us_complete",
+      "06:00",
+      "07:00",
+      "08:00",
+      "08:30",
+      "08:45",
+      "08:55"
+    ],
+    "history": 140,
+    "minimum_train": 44,
+    "draws": 1500,
+    "block_lengths": [
+      5,
+      10,
+      21,
+      42
+    ],
+    "atoms": 128,
+    "monte_carlo_atoms": [
+      256,
+      2048,
+      8192
+    ],
+    "mc_sample": 32,
+    "seed": 171125
+  },
+  "stock_selection": {
+    "sleeves": {
+      "bank": [
+        6,
+        [
+          "HDFCBANK",
+          "ICICIBANK",
+          "SBIN",
+          "AXISBANK",
+          "KOTAKBANK",
+          "INDUSINDBK",
+          "FEDERALBNK",
+          "IDFCFIRSTB"
+        ]
+      ],
+      "finance": [
+        4,
+        [
+          "BAJFINANCE",
+          "BAJAJFINSV",
+          "JIOFIN",
+          "SBICARD",
+          "SHRIRAMFIN",
+          "CHOLAFIN"
+        ]
+      ],
+      "it": [
+        5,
+        [
+          "INFY",
+          "TCS",
+          "HCLTECH",
+          "TECHM",
+          "WIPRO",
+          "PERSISTENT",
+          "COFORGE"
+        ]
+      ],
+      "energy": [
+        5,
+        [
+          "RELIANCE",
+          "ONGC",
+          "BPCL",
+          "IOC",
+          "GAIL",
+          "NTPC",
+          "POWERGRID"
+        ]
+      ],
+      "auto": [
+        5,
+        [
+          "MARUTI",
+          "M&M",
+          "BAJAJ-AUTO",
+          "EICHERMOT",
+          "TVSMOTOR",
+          "ASHOKLEY",
+          "HEROMOTOCO"
+        ]
+      ],
+      "defensive": [
+        5,
+        [
+          "ITC",
+          "HINDUNILVR",
+          "NESTLEIND",
+          "TATACONSUM",
+          "DABUR",
+          "BRITANNIA",
+          "GODREJCP"
+        ]
+      ]
+    },
+    "rule": "Rank within predeclared sleeve on mean exchange traded INR turnover over five January 2025 EQ files, determine eligible ISIN, freeze before April evaluation."
+  },
+  "hypotheses": [
+    [
+      "Offshore price discovery",
+      "Official opening gap",
+      [
+        "prior_close",
+        "us_complete",
+        "06:00",
+        "07:00",
+        "08:00",
+        "08:30",
+        "08:45",
+        "08:55"
+      ],
+      "Dated GIFT bars",
+      "Raw prior-mark change and V16",
+      "CRPS,Brier",
+      "historically eligible quotes",
+      "expiry guard, stale mark, alternate anchor, delay, extreme exclusion"
+    ],
+    [
+      "Surprise conditional on the observed gap",
+      "15m,30m,60m,remaining,next,remaining five and 21",
+      "Every post-auction clock",
+      "08:55 OOS gap law and observable cash open",
+      "Gap, price and RV",
+      "CRPS,Brier",
+      "cash and offshore point-in-time match",
+      "lagged surprise, shuffled residual"
+    ],
+    [
+      "Stock breadth and liquidity",
+      "Residual price, range, realized risk, touches",
+      "Post-auction clocks",
+      "eligible stock and native OHLCV",
+      "Native price/sector, official EW and RV",
+      "CRPS,Brier,MAE,QLIKE",
+      "aligned stock panel with genuine volume",
+      "dominant exclusion, random subset, timestamp delay, exact clone"
+    ],
+    [
+      "Related instruments and networks",
+      "Later cash and sector movement, range",
+      "Aligned post-auction and prior sessions",
+      "observed ETF/F&O quotes, volume and sector innovations",
+      "recent cash/sector/VWAP/risk",
+      "MAE,CRPS",
+      "known matching mark time",
+      "stale, matched future windows, source-specific limits"
+    ],
+    [
+      "Original returns",
+      "Five and twenty-one sessions",
+      "Prior 17:00, next 08:55 and separate post-open",
+      "eligible stock state, GIFT and original V14 law",
+      "Strongest archived V14 direction and V15/V16 distribution",
+      "Brier,CRPS",
+      "identical reference/endpoints",
+      "sentinel, matured residuals, direct forecast and placebo"
+    ],
+    [
+      "Joint risk and Monte Carlo",
+      "Range, 25% vol expansion, first session, terminals and survival",
+      "Original and post-gap",
+      "ATM IV, GJR, stock and surprise",
+      "V13\u2013V16 references",
+      "MAE,QLIKE,CRPS,time Brier",
+      "fixed common date/support",
+      "common seeds at 256/2048/8192 and data uncertainty"
+    ]
+  ],
+  "advancement": "Use matched value over a strong simple parent across time cohorts. Retain failed and inconclusive tests. Follow-up only on meaningful diagnostics; historical outcomes are research-exposed.",
+  "maturity": "Labels must resolve before the row fit, all stock and risk transforms learned from earlier dates, current target starts at first regular bar open at or after the decision.",
+  "exposure": "This targeted V17 registration and paired uncertainty cannot account for cumulative V1\u2013V17 selection."
+}

@@ -1,0 +1,66 @@
+{
+  "seeds": [
+    {
+      "day": "2025-01-02",
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20250102_F_0000.csv.zip",
+      "sent": "2026-11-25T10:23:24.520674+05:30",
+      "status": 200,
+      "received": "2026-11-25T10:23:24.828077+05:30",
+      "server_date": "Wed, 25 Nov 2026 04:53:24 GMT",
+      "file": "sources/cash-eod/2025-01-02.zip",
+      "bytes": 171515,
+      "sha256": "4a4b668c477ea6182d7c3e4f6bd963486c266849dacc91d4afc7d3735ea5a07f"
+    },
+    {
+      "day": "2025-01-08",
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20250108_F_0000.csv.zip",
+      "sent": "2026-11-25T10:23:24.521233+05:30",
+      "status": 200,
+      "received": "2026-11-25T10:23:24.717901+05:30",
+      "server_date": "Wed, 25 Nov 2026 04:53:24 GMT",
+      "file": "sources/cash-eod/2025-01-08.zip",
+      "bytes": 171714,
+      "sha256": "4e55041e4c46a8d62341d2965b4c484efc7ac8ea633cfec08550429cd1a061c1"
+    },
+    {
+      "day": "2025-01-15",
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20250115_F_0000.csv.zip",
+      "sent": "2026-11-25T10:23:24.521746+05:30",
+      "status": 200,
+      "received": "2026-11-25T10:23:24.681328+05:30",
+      "server_date": "Wed, 25 Nov 2026 04:53:24 GMT",
+      "file": "sources/cash-eod/2025-01-15.zip",
+      "bytes": 170322,
+      "sha256": "1bf23f3496d273ec56ef2cd6f923e1ca039e605abb515be5fdb65ca277c8aa94"
+    },
+    {
+      "day": "2025-01-22",
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20250122_F_0000.csv.zip",
+      "sent": "2026-11-25T10:23:24.522387+05:30",
+      "status": 200,
+      "received": "2026-11-25T10:23:24.749893+05:30",
+      "server_date": "Wed, 25 Nov 2026 04:53:24 GMT",
+      "file": "sources/cash-eod/2025-01-22.zip",
+      "bytes": 170772,
+      "sha256": "c371d670bd1abc868539bca4290994ec313f99d82bdf760c10ffe3aebe28f74b"
+    },
+    {
+      "day": "2025-01-29",
+      "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20250129_F_0000.csv.zip",
+      "sent": "2026-11-25T10:23:24.522839+05:30",
+      "status": 200,
+      "received": "2026-11-25T10:23:24.739977+05:30",
+      "server_date": "Wed, 25 Nov 2026 04:53:24 GMT",
+      "file": "sources/cash-eod/2025-01-29.zip",
+      "bytes": 170520,
+      "sha256": "445198e44a24a31c9a0de1b47f5a7d364e58bbbc62039a4ac9a5560a2bc04834"
+    }
+  ],
+  "basket_equities": 30,
+  "etfs": [
+    "NIFTYBEES",
+    "BANKBEES"
+  ],
+  "decision": "A fixed January 2025 turnover-ranked research basket within predeclared sector sleeves. Official constituent histories and weights remain separate.",
+  "original_index_anchor": "Confirmed identity via NSE daily cash archive; index membership and official historical free-float weights were not reconstructed."
+}

@@ -1,0 +1,22 @@
+{
+  "audited_at": "2026-11-25T17:03:58.466901+05:30",
+  "archive_history": {
+    "cdsl-sector": {
+      "rows": 900,
+      "dates": 36
+    },
+    "cdsl-daily": {
+      "rows": 192,
+      "dates": 64
+    },
+    "amfi-monthly": {
+      "rows": 72,
+      "dates": 22
+    }
+  },
+  "daily": "Custodian-reported CDSL equity series, separate from NSE/BSE/MSEI daily cash market provisional FII/DII. Trading date and reporting date may differ.",
+  "amfi": "Actual fund unit gross sales less redemptions, in INR crore. Includes AMFI-defined schemes. AUM is a separate numerator and equity trading is not directly measured.",
+  "sector": "Dated custody sector equity, INR crore. Uses the second net investment group, INR column, listed equity, with dates checked in official header. AUC and prior net are distinct.",
+  "flows_blocker": "No complete dated daily NSE exchange provisional FII/DII cash pair or matched daily ETF creation-redemption series on audited official routes.",
+  "timing": "No historical first-publication receipt. Standalone descriptive screens use first cash session after 1 day for daily custody, 10 for fortnightly equity and 20 days after end of AMFI period. Excluded from the primary forecasting panel."
+}

@@ -1,0 +1,12 @@
+{
+  "stock_clock_rows": 125125,
+  "distinct_dates": 401,
+  "traded_symbols": 32,
+  "audit_stock_days": 12588,
+  "identity_switches": 2,
+  "declared_action_days": 98,
+  "zero_volume_native_rows": 19649,
+  "native_symbols": 7,
+  "data_clock": "Complete consecutive 09:15 five-minute primary or 25-minute archive prefix. At least five minutes after bar end. Native index volume is deliberately missing.",
+  "price_metadata": "Returns in native vendor units. An official identifier transition or observed large discontinuity invalidates the close-to-open stock comparison. Authentic scheduled ex-actions separately flagged."
+}

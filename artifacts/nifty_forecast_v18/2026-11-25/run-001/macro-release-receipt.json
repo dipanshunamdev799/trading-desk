@@ -1,0 +1,24 @@
+{
+  "index": {
+    "url": "https://www.bls.gov/bls/news-release/cpi.htm",
+    "requested_at": "2026-11-25T14:51:44.700542+05:30",
+    "file": null,
+    "status": 403,
+    "received": "2026-11-25T14:51:45.362180+05:30",
+    "server_date": "Wed, 25 Nov 2026 09:21:45 GMT",
+    "content_type": "text/html"
+  },
+  "attempts": [
+    {
+      "url": "https://www.bls.gov/news.release/archives/cpi_02132026.htm",
+      "requested_at": "2026-11-25T14:51:45.372246+05:30",
+      "file": null,
+      "status": 403,
+      "received": "2026-11-25T14:51:45.446424+05:30",
+      "server_date": "Wed, 25 Nov 2026 09:21:45 GMT",
+      "content_type": "text/html"
+    }
+  ],
+  "usable": 0,
+  "rule": "Actual dated archive release and official 08:30 ET publication header. Current-month first reported percent, no 2024 observations and no revised monthly history."
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "public_form": "https://www.cdslindia.com/Publications/FIITrends.aspx",
+    "requested_date": "2026-11-17",
+    "method": "POST View Report",
+    "status": 200,
+    "sha256": "ca70ea1a169a46c692b7245ae1c2cef4cb28f60ae71dd233242cb25e4fb9273f",
+    "file": "sources/probes/cdsl_archive-view-2026-11-17.html.gz"
+  },
+  {
+    "public_form": "https://pilot.fpi.nsdl.co.in/Reports/Archive.aspx",
+    "requested_date": "2026-11-17",
+    "method": "POST View Report",
+    "status": 200,
+    "sha256": "660a757cf92bb1f84c4304cd8a9a3d282594ddbeac032c6c49948635e5fd312f",
+    "file": "sources/probes/nsdl_archive-view-2026-11-17.html.gz"
+  },
+  {
+    "public_form": "https://pilot.fpi.nsdl.co.in/Users/DIIGenerateReport.aspx?Rep=A",
+    "requested_date": "2026-11-17",
+    "method": "POST View Report",
+    "status": 200,
+    "sha256": "be3a969063200b9efde2898a59d4b63a374d2a702afa9d07f949181df7c66e54",
+    "file": "sources/probes/nsdl_dii_archive-view-2026-11-17.html.gz"
+  }
+]

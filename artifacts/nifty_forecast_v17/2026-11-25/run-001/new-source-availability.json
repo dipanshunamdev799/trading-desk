@@ -1,0 +1,247 @@
+{
+  "probes": [
+    {
+      "name": "nse-preopen",
+      "url": "https://www.nseindia.com/static/products-services/equity-market-pre-open",
+      "sent": "2026-11-25T10:23:39.192280+05:30",
+      "status": 200,
+      "received": "2026-11-25T10:23:40.885408+05:30",
+      "server_date": "Wed, 25 Nov 2026 04:53:40 GMT",
+      "file": "sources/source-probes/nse-preopen.bin",
+      "bytes": 360720,
+      "sha256": "459bfda9f643804b9cc193312b5537f4e3d48eef4e5c638f509045e412dd11d2"
+    },
+    {
+      "name": "nse-eod",
+      "url": "https://www.nseindia.com/static/market-data/eod-historical-data-subscription",
+      "sent": "2026-11-25T10:23:39.193043+05:30",
+      "status": 200,
+      "received": "2026-11-25T10:23:40.255283+05:30",
+      "server_date": "Wed, 25 Nov 2026 04:53:40 GMT",
+      "file": "sources/source-probes/nse-eod.bin",
+      "bytes": 320326,
+      "sha256": "adfce39132efab56146bfa99ec0bd4b794a8b5f916e25637cd6650ab6b62adc3"
+    },
+    {
+      "name": "nse-index-method",
+      "url": "https://nsearchives.nseindia.com/content/indices/Nifty_Broad_Market_Indices_Methodology.pdf",
+      "sent": "2026-11-25T10:23:39.193521+05:30",
+      "status": 200,
+      "received": "2026-11-25T10:23:39.657954+05:30",
+      "server_date": "Wed, 25 Nov 2026 04:53:39 GMT",
+      "file": "sources/source-probes/nse-index-method.bin",
+      "bytes": 652279,
+      "sha256": "230dbbdbb36be86bf2f90c3cc17aa220c4a37429eac4149c591155946bdb4b0e"
+    },
+    {
+      "name": "nse-holiday",
+      "url": "https://archives.nseindia.com/content/circulars/CMTR71775.pdf",
+      "sent": "2026-11-25T10:23:39.194071+05:30",
+      "status": 200,
+      "received": "2026-11-25T10:23:39.779761+05:30",
+      "server_date": "Wed, 25 Nov 2026 04:53:39 GMT",
+      "file": "sources/source-probes/nse-holiday.bin",
+      "bytes": 176256,
+      "sha256": "aa97e0afc0ce394097f2fc62631c68e3c2e4c7c23541ed35f21d9fc06b0dcacb"
+    },
+    {
+      "name": "nse-actions",
+      "url": "https://www.nseindia.com/companies-listing/corporate-filings-actions",
+      "sent": "2026-11-25T10:23:39.197697+05:30",
+      "status": 200,
+      "received": "2026-11-25T10:23:40.746250+05:30",
+      "server_date": "Wed, 25 Nov 2026 04:53:40 GMT",
+      "file": "sources/source-probes/nse-actions.bin",
+      "bytes": 369162,
+      "sha256": "bfb0cca94b79c6f2e799cb28e5a0152f7434110d9b92ff9510f2ce15522fb0f3"
+    },
+    {
+      "name": "nse-announcements",
+      "url": "https://www.nseindia.com/companies-listing/corporate-filings-announcements",
+      "sent": "2026-11-25T10:23:39.200496+05:30",
+      "status": 200,
+      "received": "2026-11-25T10:23:40.690780+05:30",
+      "server_date": "Wed, 25 Nov 2026 04:53:40 GMT",
+      "file": "sources/source-probes/nse-announcements.bin",
+      "bytes": 406100,
+      "sha256": "be5e4fe3b3a17f469bfb765c41660005cb783d000440d0abc4a4458f3ca00b36"
+    },
+    {
+      "name": "nse-bulk-block",
+      "url": "https://www.nseindia.com/report-detail/display-bulk-and-block-deals",
+      "sent": "2026-11-25T10:23:39.689005+05:30",
+      "status": 200,
+      "received": "2026-11-25T10:23:40.115816+05:30",
+      "server_date": "Wed, 25 Nov 2026 04:53:40 GMT",
+      "file": "sources/source-probes/nse-bulk-block.bin",
+      "bytes": 327521,
+      "sha256": "3ee9ea3d9cff36ece33ec95a6bf09cf1bf1b7a9bca7a20142ea1c000035d4abf"
+    },
+    {
+      "name": "nse-institutional",
+      "url": "https://www.nseindia.com/reports/fii-dii",
+      "sent": "2026-11-25T10:23:39.812128+05:30",
+      "status": 200,
+      "received": "2026-11-25T10:23:40.728252+05:30",
+      "server_date": "Wed, 25 Nov 2026 04:53:40 GMT",
+      "file": "sources/source-probes/nse-institutional.bin",
+      "bytes": 308183,
+      "sha256": "fc07d8178761197627731f83e3b4f7a90fc01910b1862bbecf13973b0648be9f"
+    },
+    {
+      "name": "nse-index-dated",
+      "url": "https://www.niftyindices.com/resources/index-reconstitution",
+      "sent": "2026-11-25T10:23:40.271875+05:30",
+      "status": 200,
+      "received": "2026-11-25T10:23:40.693629+05:30",
+      "server_date": "Wed, 25 Nov 2026 04:53:40 GMT",
+      "file": "sources/source-probes/nse-index-dated.bin",
+      "bytes": 79518,
+      "sha256": "2ba3caf72fdff8e0797aeb0dd1a64dbf63fb35c84e0d01d332be63ce300930ce"
+    },
+    {
+      "name": "upstox-candle",
+      "url": "https://upstox.com/developer/api-documentation/v3/get-historical-candle-data/",
+      "sent": "2026-11-25T10:23:40.382226+05:30",
+      "status": 200,
+      "received": "2026-11-25T10:23:40.428492+05:30",
+      "server_date": "Tue, 24 Nov 2026 15:52:19 GMT",
+      "file": "sources/source-probes/upstox-candle.bin",
+      "bytes": 656256,
+      "sha256": "ce40f6126fbca489d268b18ce84a77d658cea6b1b7a717339839c8da5733b009"
+    },
+    {
+      "name": "upstox-expired",
+      "url": "https://upstox.com/developer/api-documentation/expired-instruments/",
+      "sent": "2026-11-25T10:23:40.522554+05:30",
+      "status": 200,
+      "received": "2026-11-25T10:23:40.591962+05:30",
+      "server_date": "Tue, 24 Nov 2026 17:32:31 GMT",
+      "file": "sources/source-probes/upstox-expired.bin",
+      "bytes": 44964,
+      "sha256": "279720869a277da0924c0aac5721b6acf5f8cad3e645ccc4eaaa38022cfd1ff7"
+    },
+    {
+      "name": "upstox-live-depth",
+      "url": "https://upstox.com/developer/api-documentation/v3/get-market-data-feed/",
+      "sent": "2026-11-25T10:23:40.685275+05:30",
+      "status": 200,
+      "received": "2026-11-25T10:23:40.761706+05:30",
+      "server_date": "Tue, 24 Nov 2026 15:53:26 GMT",
+      "file": "sources/source-probes/upstox-live-depth.bin",
+      "bytes": 240705,
+      "sha256": "131df054c44fc6f614f91312959b3cc4ea64320814e86146d6f225599e6a8c91"
+    },
+    {
+      "name": "nseix-dated-contracts",
+      "url": "https://www.nseix.com/markets/reports",
+      "sent": "2026-11-25T10:23:40.811779+05:30",
+      "status": 200,
+      "received": "2026-11-25T10:23:41.173232+05:30",
+      "server_date": "Wed, 25 Nov 2026 04:53:41 GMT",
+      "file": "sources/source-probes/nseix-dated-contracts.bin",
+      "bytes": 5498,
+      "sha256": "30e57f812aaefb18ad1f2650b082b206499c8b5b7c2254e6df172d09ac2bf58c"
+    },
+    {
+      "name": "corporate-action-2025",
+      "url": "https://www.nseindia.com/api/corporates-corporateActions?index=equities&from_date=01-01-2025&to_date=31-12-2025",
+      "sent": "2026-11-25T10:23:40.843726+05:30",
+      "status": 200,
+      "received": "2026-11-25T10:23:41.500928+05:30",
+      "server_date": "Wed, 25 Nov 2026 04:53:41 GMT",
+      "file": "sources/source-probes/corporate-action-2025.json.gz",
+      "bytes": 70196,
+      "sha256": "524c1a9d3b481a99b3ee92a8092fc2b34ce329b744d52869f28b9189aeccf111"
+    },
+    {
+      "name": "announcements-2025",
+      "url": "https://www.nseindia.com/api/corporate-announcements?index=equities&from_date=01-01-2025&to_date=31-12-2025",
+      "sent": "2026-11-25T10:23:40.845661+05:30",
+      "status": 200,
+      "received": "2026-11-25T10:24:25.985263+05:30",
+      "server_date": "Wed, 25 Nov 2026 04:53:53 GMT",
+      "file": "sources/source-probes/announcements-2025.json.gz",
+      "bytes": 19472984,
+      "sha256": "86f156487ac2f754ef05cd0bcbbd6cedc66676ff6dc5f1cb25e1d7470d8453bf"
+    },
+    {
+      "name": "corporate-action-2026",
+      "url": "https://www.nseindia.com/api/corporates-corporateActions?index=equities&from_date=01-01-2026&to_date=17-11-2026",
+      "sent": "2026-11-25T10:23:40.874961+05:30",
+      "status": 200,
+      "received": "2026-11-25T10:23:41.527304+05:30",
+      "server_date": "Wed, 25 Nov 2026 04:53:41 GMT",
+      "file": "sources/source-probes/corporate-action-2026.json.gz",
+      "bytes": 73646,
+      "sha256": "4094fd34624d77280db3578d8e79c03a50da991a12d020896ef9ae93a0cc8a97"
+    },
+    {
+      "name": "announcements-2026",
+      "url": "https://www.nseindia.com/api/corporate-announcements?index=equities&from_date=01-01-2026&to_date=17-11-2026",
+      "sent": "2026-11-25T10:23:40.880578+05:30",
+      "status": 200,
+      "received": "2026-11-25T10:24:23.947541+05:30",
+      "server_date": "Wed, 25 Nov 2026 04:53:52 GMT",
+      "file": "sources/source-probes/announcements-2026.json.gz",
+      "bytes": 19394911,
+      "sha256": "1ce3c527192fc36da05c60ae7af5ad5cea92e30fa75ead4731b09b463144828c"
+    },
+    {
+      "name": "fii-dii-history",
+      "url": "https://www.nseindia.com/reports/fii-dii",
+      "sent": "2026-11-25T10:23:40.999753+05:30",
+      "status": 200,
+      "received": "2026-11-25T10:23:41.709830+05:30",
+      "server_date": "Wed, 25 Nov 2026 04:53:41 GMT",
+      "file": "sources/source-probes/fii-dii-history.bin",
+      "bytes": 308183,
+      "sha256": "ed721a81c4823133cc989cddebc08520d9bd89d09668eb00d13806f35472b002"
+    },
+    {
+      "name": "bulk-sample",
+      "url": "https://nsearchives.nseindia.com/content/equities/bulk_deals_28102026.csv",
+      "sent": "2026-11-25T10:23:41.244974+05:30",
+      "status": 404,
+      "received": "2026-11-25T10:23:41.649645+05:30",
+      "server_date": "Wed, 25 Nov 2026 04:53:41 GMT"
+    },
+    {
+      "name": "block-sample",
+      "url": "https://nsearchives.nseindia.com/content/equities/block_deals_28102026.csv",
+      "sent": "2026-11-25T10:23:41.525177+05:30",
+      "status": 404,
+      "received": "2026-11-25T10:23:41.684466+05:30",
+      "server_date": "Wed, 25 Nov 2026 04:53:41 GMT"
+    },
+    {
+      "name": "nifty-expiries",
+      "url": "https://api.upstox.com/v2/expired-instruments/expiries?instrument_key=NSE_INDEX%7CNifty+50",
+      "sent": "2026-11-25T10:23:41.554597+05:30",
+      "status": 401,
+      "received": "2026-11-25T10:23:41.630345+05:30",
+      "server_date": "Wed, 25 Nov 2026 04:53:41 GMT",
+      "api_errors": [
+        {
+          "code": "UDAPI1149",
+          "message": "This API is available exclusively with an Upstox Plus plan subscription. Please upgrade to the Plus plan to gain access."
+        }
+      ]
+    },
+    {
+      "name": "nifty-future-october",
+      "url": "https://api.upstox.com/v2/expired-instruments/future/contract?instrument_key=NSE_INDEX%7CNifty+50&expiry_date=2026-10-27",
+      "sent": "2026-11-25T10:23:41.632440+05:30",
+      "status": 401,
+      "received": "2026-11-25T10:23:42.740335+05:30",
+      "server_date": "Wed, 25 Nov 2026 04:53:42 GMT",
+      "api_errors": [
+        {
+          "code": "UDAPI1149",
+          "message": "This API is available exclusively with an Upstox Plus plan subscription. Please upgrade to the Plus plan to gain access."
+        }
+      ]
+    }
+  ],
+  "scope": "Official archives and documented authenticated endpoints. No current-session book or trading APIs queried."
+}

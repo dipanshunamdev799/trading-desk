@@ -1,0 +1,18 @@
+{
+  "clocks": [
+    "09:25",
+    "09:35",
+    "09:55",
+    "10:20",
+    "11:30",
+    "12:30",
+    "14:00",
+    "15:00"
+  ],
+  "rows": 3200,
+  "dates": 400,
+  "paired_preauction_expectation": 343,
+  "cash_open_first_bar_exact": 400,
+  "primary": "Only preceding live-equivalent bars with five minute publication margin. Outcome starts at the first independent cash-bar open at the decision. Official auction open usable after the open.",
+  "fallback": "First recorded cash-bar open is a separate surprise sensitivity; original V16 cash target anchored to the official opening value."
+}

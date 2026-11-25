@@ -1,0 +1,42 @@
+
+> trading-desk-frontend@0.1.0 build
+> next build
+
+  ▲ Next.js 14.2.35
+  - Experiments (use with caution):
+    · proxyTimeout
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/15) ...
+   Generating static pages (3/15) 
+   Generating static pages (7/15) 
+   Generating static pages (11/15) 
+ ✓ Generating static pages (15/15)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                              Size     First Load JS
+┌ ○ /                                    3.49 kB         164 kB
+├ ○ /_not-found                          873 B          88.2 kB
+├ ○ /backtests                           7.2 kB          503 kB
+├ ○ /charts                              137 B          87.5 kB
+├ ○ /credit-spreads                      12.7 kB         452 kB
+├ ○ /data                                1.32 kB         106 kB
+├ ○ /ipos                                8.27 kB         448 kB
+├ ○ /learn                               4.27 kB         109 kB
+├ ○ /maxpain                             24.1 kB         464 kB
+├ ○ /nifty                               18.1 kB         513 kB
+├ ○ /paper                               4.66 kB         109 kB
+├ ○ /strategies                          4.83 kB         109 kB
+└ ○ /trading-bots                        4.94 kB         109 kB
++ First Load JS shared by all            87.3 kB
+  ├ chunks/117-ccc9672aa0aa5965.js       31.7 kB
+  ├ chunks/fd9d1056-c4b50fce1a8bd188.js  53.6 kB
+  └ other shared chunks (total)          1.96 kB
+
+
+○  (Static)  prerendered as static content
+

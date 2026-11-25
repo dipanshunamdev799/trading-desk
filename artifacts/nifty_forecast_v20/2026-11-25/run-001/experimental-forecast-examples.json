@@ -1,0 +1,409 @@
+{
+  "cards": [
+    {
+      "research_classification": "Retrospective frozen-vintage forecast",
+      "version": "V20",
+      "origin": "2026-10-15",
+      "decision_day": "2026-10-16",
+      "forecast_cutoff": "native_0910",
+      "target_session": "2026-10-23",
+      "reference_index_close": 22997.35,
+      "horizon": 5,
+      "model_id": "v18_corporate_native",
+      "modeled_correction_active": true,
+      "input_availability": {
+        "decision": "2026-10-16T08:55:00+05:30",
+        "source_day": "2026-10-15",
+        "source_release": "2026-10-16T08:15:00+05:30",
+        "last_announcement": "2026-10-16 08:41:44",
+        "last_known_report": "2026-10-15 20:19:19",
+        "last_notice": "2026-10-14 18:22:14",
+        "latest_available": "2026-10-16T08:55:00+05:30",
+        "surface_source_day": "2026-10-14"
+      },
+      "source_limit": "Exchange EOD timing follows an assumed next-session guard. Full provisional daily FII/DII cash data and dated complete constituent weights are unresolved.",
+      "parent": {
+        "model": "exact_v14",
+        "probability_up": 0.5697265624999999,
+        "expected_return": 0.002375100407125044,
+        "median_return": 0.0029386376093563094,
+        "expected_nifty_endpoint": 23051.971015347797,
+        "return_quantiles": {
+          "0.05": -0.03103432778869586,
+          "0.1": -0.018718576532103515,
+          "0.25": -0.009445635202434577,
+          "0.5": 0.0029386376093563094,
+          "0.75": 0.014543692215875037,
+          "0.9": 0.022821032026784316,
+          "0.95": 0.02855708097372367
+        },
+        "index_quantiles": {
+          "0.05": 22283.642701828634,
+          "0.1": 22566.872343989427,
+          "0.25": 22780.12542127729,
+          "0.5": 23064.930877625528,
+          "0.75": 23331.816380180753,
+          "0.9": 23522.173260881165,
+          "0.95": 23654.087186131062
+        },
+        "interval_80": [
+          -0.018718576532103515,
+          0.022821032026784316
+        ],
+        "downside_2pct": 0.09025247713414636,
+        "upside_2pct": 0.15217452157980454,
+        "downside_5pct": 0.010494474085365853,
+        "upside_5pct": 0.007423147394136807
+      },
+      "forecast": {
+        "probability_up": 0.4862161543159608,
+        "expected_return": -0.0016001107828815882,
+        "median_return": -0.001038808451998774,
+        "expected_nifty_endpoint": 22960.551692287296,
+        "return_quantiles": {
+          "0.05": -0.034877044134445256,
+          "0.1": -0.022610134586100283,
+          "0.25": -0.013373967813304355,
+          "0.5": -0.001038808451998774,
+          "0.75": 0.010520222921387212,
+          "0.9": 0.01876473652399735,
+          "0.95": 0.02447803749370636
+        },
+        "index_quantiles": {
+          "0.05": 22195.270409074714,
+          "0.1": 22477.376821376347,
+          "0.25": 22689.784181308703,
+          "0.5": 22973.460158446425,
+          "0.75": 23239.287248601162,
+          "0.9": 23428.889213500148,
+          "0.95": 23560.279995555888
+        },
+        "interval_80": [
+          -0.022610134586100283,
+          0.01876473652399735
+        ],
+        "downside_2pct": 0.13432926829268294,
+        "upside_2pct": 0.07979883448697067,
+        "downside_5pct": 0.012593368902439025,
+        "upside_5pct": 0.007423147394136807
+      },
+      "available_historical_calibration": {
+        "n": 244,
+        "brier": 0.22606295489416386,
+        "crps": 0.009335579539095659,
+        "mean_probability": 0.47237482658015756,
+        "actual_up": 0.4098360655737705,
+        "covered_80": 0.8442622950819673
+      },
+      "law_archive": "native-mechanism-laws.npz",
+      "law_sha256": "f2963638f3e50d76a5c1f58ffda5b35ce19c6db3e2e72144ec32b1ddbaedde0e",
+      "parent_law_idx": 8432,
+      "forecast_law_idx": 8433,
+      "eligibility": "This archived forecast shares its stated decision clock with the parent. Calibration uses only earlier fully matured cases."
+    },
+    {
+      "research_classification": "Retrospective frozen-vintage forecast",
+      "version": "V20",
+      "origin": "2026-10-15",
+      "decision_day": "2026-10-16",
+      "forecast_cutoff": "native_0910",
+      "target_session": "2026-11-16",
+      "reference_index_close": 22997.35,
+      "horizon": 21,
+      "model_id": "v19_position_native",
+      "modeled_correction_active": true,
+      "input_availability": {
+        "decision": "2026-10-16T08:55:00+05:30",
+        "source_day": "2026-10-15",
+        "source_release": "2026-10-16T08:15:00+05:30",
+        "last_announcement": "2026-10-16 08:41:44",
+        "last_known_report": "2026-10-15 20:19:19",
+        "last_notice": "2026-10-14 18:22:14",
+        "latest_available": "2026-10-16T08:55:00+05:30",
+        "surface_source_day": "2026-10-14"
+      },
+      "source_limit": "Exchange EOD timing follows an assumed next-session guard. Full provisional daily FII/DII cash data and dated complete constituent weights are unresolved.",
+      "parent": {
+        "model": "exact_v14",
+        "probability_up": 0.404296875,
+        "expected_return": -0.006080000000000002,
+        "median_return": -0.0063586958521472114,
+        "expected_nifty_endpoint": 22857.526112,
+        "return_quantiles": {
+          "0.05": -0.058273567748403976,
+          "0.1": -0.04453978782900869,
+          "0.25": -0.023094699483224512,
+          "0.5": -0.0063586958521472114,
+          "0.75": 0.010181035046942233,
+          "0.9": 0.03237978782900863,
+          "0.95": 0.046113567748403916
+        },
+        "index_quantiles": {
+          "0.05": 21657.21236674124,
+          "0.1": 21973.052910370545,
+          "0.25": 22466.233112839465,
+          "0.5": 22851.11684594462,
+          "0.75": 23231.486826336797,
+          "0.9": 23741.99931362945,
+          "0.95": 24057.839857258754
+        },
+        "interval_80": [
+          -0.04453978782900869,
+          0.03237978782900863
+        ],
+        "downside_2pct": 0.279296875,
+        "upside_2pct": 0.171875,
+        "downside_5pct": 0.07421875,
+        "upside_5pct": 0.04296875
+      },
+      "forecast": {
+        "probability_up": 0.4296875,
+        "expected_return": -0.004866820966834956,
+        "median_return": -0.005145856995218134,
+        "expected_nifty_endpoint": 22885.426014838355,
+        "return_quantiles": {
+          "0.05": -0.05712409619879741,
+          "0.1": -0.04337355282374743,
+          "0.25": -0.021902288597061895,
+          "0.5": -0.005145856995218134,
+          "0.75": 0.011414062304085579,
+          "0.9": 0.033639910890077465,
+          "0.95": 0.047390454265127446
+        },
+        "index_quantiles": {
+          "0.05": 21683.647166282586,
+          "0.1": 21999.87322496879,
+          "0.25": 22493.655403332355,
+          "0.5": 22879.00892563102,
+          "0.75": 23259.84318572886,
+          "0.9": 23770.978804707924,
+          "0.95": 24087.204863394123
+        },
+        "interval_80": [
+          -0.04337355282374743,
+          0.033639910890077465
+        ],
+        "downside_2pct": 0.263671875,
+        "upside_2pct": 0.19140625,
+        "downside_5pct": 0.072265625,
+        "upside_5pct": 0.044921875
+      },
+      "available_historical_calibration": {
+        "n": 196,
+        "brier": 0.2204111838827328,
+        "crps": 0.021566200640317515,
+        "mean_probability": 0.5039461096938775,
+        "actual_up": 0.41836734693877553,
+        "covered_80": 0.7040816326530612
+      },
+      "law_archive": "native-mechanism-laws.npz",
+      "law_sha256": "f2963638f3e50d76a5c1f58ffda5b35ce19c6db3e2e72144ec32b1ddbaedde0e",
+      "parent_law_idx": 17218,
+      "forecast_law_idx": 17220,
+      "eligibility": "This archived forecast shares its stated decision clock with the parent. Calibration uses only earlier fully matured cases."
+    },
+    {
+      "research_classification": "Retrospective frozen-vintage forecast",
+      "version": "V20",
+      "origin": "2026-10-15",
+      "decision_day": "2026-10-16",
+      "forecast_cutoff": "preauction_0855",
+      "target_session": "2026-10-23",
+      "reference_index_close": 22997.35,
+      "horizon": 5,
+      "model_id": "E_sparse_horizon_inputs",
+      "modeled_correction_active": true,
+      "input_availability": {
+        "decision": "2026-10-16T08:55:00+05:30",
+        "source_day": "2026-10-15",
+        "source_release": "2026-10-16T08:15:00+05:30",
+        "last_announcement": "2026-10-16 08:41:44",
+        "last_known_report": "2026-10-15 20:19:19",
+        "last_notice": "2026-10-14 18:22:14",
+        "latest_available": "2026-10-16T08:55:00+05:30",
+        "surface_source_day": "2026-10-14"
+      },
+      "source_limit": "Exchange EOD timing follows an assumed next-session guard. Full provisional daily FII/DII cash data and dated complete constituent weights are unresolved.",
+      "parent": {
+        "model": "archived_same_clock",
+        "probability_up": 0.53125,
+        "expected_return": 0.004860495223425998,
+        "median_return": 0.0008718944896874021,
+        "expected_nifty_endpoint": 23109.128509826453,
+        "return_quantiles": {
+          "0.05": -0.02065084843590476,
+          "0.1": -0.016580281015501165,
+          "0.25": -0.005737054316286897,
+          "0.5": 0.0008718944896874021,
+          "0.75": 0.014488103988596651,
+          "0.9": 0.0303804750692049,
+          "0.95": 0.03947634168150827
+        },
+        "index_quantiles": {
+          "0.05": 22522.435210722542,
+          "0.1": 22616.047474388164,
+          "0.25": 22865.412953919338,
+          "0.5": 23017.401262742413,
+          "0.75": 23330.537998262153,
+          "0.9": 23696.020418332777,
+          "0.95": 23905.201246369234
+        },
+        "interval_80": [
+          -0.016580281015501165,
+          0.0303804750692049
+        ],
+        "downside_2pct": 0.0625,
+        "upside_2pct": 0.1484375,
+        "downside_5pct": 0.0,
+        "upside_5pct": 0.0234375
+      },
+      "forecast": {
+        "probability_up": 0.3671875,
+        "expected_return": -0.0037375101055667805,
+        "median_return": -0.00769198270855795,
+        "expected_nifty_endpoint": 22911.397171973742,
+        "return_quantiles": {
+          "0.05": -0.029030568072728972,
+          "0.1": -0.024994830124216275,
+          "0.25": -0.014244382593241267,
+          "0.5": -0.00769198270855795,
+          "0.75": 0.005807720825206084,
+          "0.9": 0.021564110153231834,
+          "0.95": 0.03058214873868357
+        },
+        "index_quantiles": {
+          "0.05": 22329.723865332624,
+          "0.1": 22422.535143442852,
+          "0.25": 22669.76694796932,
+          "0.5": 22820.45478145734,
+          "0.75": 23130.912188519553,
+          "0.9": 23493.267388632423,
+          "0.95": 23700.65837829556
+        },
+        "interval_80": [
+          -0.024994830124216275,
+          0.021564110153231834
+        ],
+        "downside_2pct": 0.15625,
+        "upside_2pct": 0.1015625,
+        "downside_5pct": 0.0,
+        "upside_5pct": 0.0078125
+      },
+      "available_historical_calibration": {
+        "n": 244,
+        "brier": 0.2503336922067111,
+        "crps": 0.010228444486145512,
+        "mean_probability": 0.42693391393442626,
+        "actual_up": 0.4098360655737705,
+        "covered_80": 0.7909836065573771
+      },
+      "law_archive": "architecture-laws.npz",
+      "law_sha256": "c91981c2df4201842e81239e784a044fed381f94650171bc839276497e50d864",
+      "parent_law_idx": 5104,
+      "forecast_law_idx": 5111,
+      "eligibility": "This archived forecast shares its stated decision clock with the parent. Calibration uses only earlier fully matured cases."
+    },
+    {
+      "research_classification": "Retrospective frozen-vintage forecast",
+      "version": "V20",
+      "origin": "2026-10-15",
+      "decision_day": "2026-10-16",
+      "forecast_cutoff": "preauction_0855",
+      "target_session": "2026-11-16",
+      "reference_index_close": 22997.35,
+      "horizon": 21,
+      "model_id": "E_sparse_horizon_inputs",
+      "modeled_correction_active": true,
+      "input_availability": {
+        "decision": "2026-10-16T08:55:00+05:30",
+        "source_day": "2026-10-15",
+        "source_release": "2026-10-16T08:15:00+05:30",
+        "last_announcement": "2026-10-16 08:41:44",
+        "last_known_report": "2026-10-15 20:19:19",
+        "last_notice": "2026-10-14 18:22:14",
+        "latest_available": "2026-10-16T08:55:00+05:30",
+        "surface_source_day": "2026-10-14"
+      },
+      "source_limit": "Exchange EOD timing follows an assumed next-session guard. Full provisional daily FII/DII cash data and dated complete constituent weights are unresolved.",
+      "parent": {
+        "model": "archived_same_clock",
+        "probability_up": 0.5,
+        "expected_return": 0.0008348483193463208,
+        "median_return": -0.0005600152678921708,
+        "expected_nifty_endpoint": 23016.549298996917,
+        "return_quantiles": {
+          "0.05": -0.05977264017154655,
+          "0.1": -0.04686672462084352,
+          "0.25": -0.02874555697141646,
+          "0.5": -0.0005600152678921708,
+          "0.75": 0.02854730543245931,
+          "0.9": 0.04917121858136779,
+          "0.95": 0.06357253864900528
+        },
+        "index_quantiles": {
+          "0.05": 21622.73767355088,
+          "0.1": 21919.539530540842,
+          "0.25": 22336.278365383394,
+          "0.5": 22984.471132878938,
+          "0.75": 23653.862374587163,
+          "0.9": 24128.157723642216,
+          "0.95": 24459.3499216997
+        },
+        "interval_80": [
+          -0.04686672462084352,
+          0.04917121858136779
+        ],
+        "downside_2pct": 0.3046875,
+        "upside_2pct": 0.3046875,
+        "downside_5pct": 0.078125,
+        "upside_5pct": 0.09375
+      },
+      "forecast": {
+        "probability_up": 0.5078125,
+        "expected_return": 0.001827890192187025,
+        "median_return": 0.00043164260243168005,
+        "expected_nifty_endpoint": 23039.386630511293,
+        "return_quantiles": {
+          "0.05": -0.058839733868505634,
+          "0.1": -0.04592101289384008,
+          "0.25": -0.02778186517678162,
+          "0.5": 0.00043164260243168005,
+          "0.75": 0.029567843980059925,
+          "0.9": 0.05021222045453415,
+          "0.95": 0.06462782970672128
+        },
+        "index_quantiles": {
+          "0.05": 21644.19204631912,
+          "0.1": 21941.288394125844,
+          "0.25": 22358.44072287674,
+          "0.5": 23007.276636003033,
+          "0.75": 23677.33205675483,
+          "0.9": 24152.09800807008,
+          "0.95": 24483.618819505868
+        },
+        "interval_80": [
+          -0.04592101289384008,
+          0.05021222045453415
+        ],
+        "downside_2pct": 0.296875,
+        "upside_2pct": 0.3125,
+        "downside_5pct": 0.078125,
+        "upside_5pct": 0.1015625
+      },
+      "available_historical_calibration": {
+        "n": 196,
+        "brier": 0.30149529904735334,
+        "crps": 0.027839100134543132,
+        "mean_probability": 0.43459024234693877,
+        "actual_up": 0.41836734693877553,
+        "covered_80": 0.6326530612244898
+      },
+      "law_archive": "architecture-laws.npz",
+      "law_sha256": "c91981c2df4201842e81239e784a044fed381f94650171bc839276497e50d864",
+      "parent_law_idx": 5115,
+      "forecast_law_idx": 5122,
+      "eligibility": "This archived forecast shares its stated decision clock with the parent. Calibration uses only earlier fully matured cases."
+    }
+  ],
+  "policy": "This entry point reconstructs stored cases with complete weighted terminal laws. Separately dated prospective references are indexed in the forward ledger."
+}

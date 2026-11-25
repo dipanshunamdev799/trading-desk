@@ -1,0 +1,18 @@
+{
+  "at": "2026-11-25T15:13:53.798397+05:30",
+  "reports": 19,
+  "local_links": 111,
+  "source_hashes": {
+    "financial-listing-receipt.json": 470,
+    "structured-document-receipt.json": 1281,
+    "attachment-source-receipts.json": 92,
+    "non-price-sources.json": 1042,
+    "macro-release-receipt.json": 0,
+    "event-path-archive.json": 964,
+    "forward-ledger.json": 8
+  },
+  "prior_v17_hashes": 3010,
+  "protected_v17_manifest": "27cdedd8ec1fc03a9fd75e66deb437339cb04d3aa74583963bc47e76019c60dd",
+  "published_forward_at": "2026-11-25T15:08:30.243630+05:30",
+  "new_issues": 0
+}

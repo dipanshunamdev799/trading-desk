@@ -1,0 +1,12 @@
+{
+  "target_clock_cells": 10508,
+  "case_rows": 1324008,
+  "clinical_scope": "Cumulative one session also represents the first incremental segment. Additional 6\u201321 row explicitly removes the first five-session move.",
+  "reconstruction": "Add per-case shift to the indexed log atoms. Exponentiate and subtract one for returns or exponentiate for annualized volatility. All atoms are equal weight. Fallback has zero shift.",
+  "strong_parents": "The general age matrix uses its preregistered chronological price/risk parent. Native and rebuilt five- and 21-session stronger baseline experiments are stored separately.",
+  "dependence": "Circular paired date-block bootstrap with 600 draws and max-standardized adjustment per clock, target, metric and age/family search. Earliest active sample is common to candidate/parent.",
+  "raw_opening": "The native opening-gap benchmark is separate. A one-session close return includes overnight and regular-session components.",
+  "failed_sources": {
+    "global_equities": 308
+  }
+}

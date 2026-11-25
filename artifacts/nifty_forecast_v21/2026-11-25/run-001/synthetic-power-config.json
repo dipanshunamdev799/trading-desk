@@ -1,0 +1,65 @@
+{
+  "iterations": 300,
+  "distinct_market_windows": [
+    53,
+    11
+  ],
+  "stock_counts": [
+    8,
+    32,
+    128
+  ],
+  "groups": 8,
+  "controls": "Direct ridge on dates, within-date pooled slope, pooled plus 45% sector deviations, neutral zero. Independent synthetic windows are a simplifying assumption.",
+  "parameters": {
+    "shared_relationship": {
+      "shared_beta": 0.007,
+      "sector_beta": 0.0,
+      "market_noise": 0.008,
+      "sector_noise": 0.01,
+      "own_noise": 0.023,
+      "test_signal_fraction": 1.0
+    },
+    "sector_specific_cancellation": {
+      "shared_beta": 0.0,
+      "sector_beta": 0.014,
+      "market_noise": 0.008,
+      "sector_noise": 0.015,
+      "own_noise": 0.023,
+      "test_signal_fraction": 1.0
+    },
+    "pure_common_market_noise": {
+      "shared_beta": 0.0,
+      "sector_beta": 0.0,
+      "market_noise": 0.03,
+      "sector_noise": 0.0,
+      "own_noise": 0.008,
+      "test_signal_fraction": 1.0
+    },
+    "correlated_idiosyncratic_noise": {
+      "shared_beta": 0.006,
+      "sector_beta": 0.0,
+      "market_noise": 0.013,
+      "sector_noise": 0.025,
+      "own_noise": 0.014,
+      "test_signal_fraction": 1.0
+    },
+    "spurious_training_relationship": {
+      "shared_beta": 0.009,
+      "sector_beta": 0.006,
+      "market_noise": 0.017,
+      "sector_noise": 0.012,
+      "own_noise": 0.024,
+      "test_signal_fraction": 0.0
+    },
+    "no_index_predictability_even_with_stock_signal": {
+      "shared_beta": 0.0,
+      "sector_beta": 0.01,
+      "market_noise": 0.015,
+      "sector_noise": 0.01,
+      "own_noise": 0.025,
+      "test_signal_fraction": 1.0
+    }
+  },
+  "interpretation": "Simulation assesses potential estimation gains conditional on these designs. Synthetic cases add no real NIFTY evidence."
+}

@@ -1,0 +1,11 @@
+{
+  "morning_marks": 387,
+  "contract_metadata": "Underlying is NSE IX NIFTY index futures. Vendor alias lacks identifiable expiry/roll tags.",
+  "auditable_quote_units": "Vendor index points. Futures are cash-settled in USD, contract multiplier applies separately.",
+  "expiry_change_links": [
+    "https://www.nseix.com/api/content/circulars/NSEIFSC_TRADE_2056.pdf",
+    "https://www.nseix.com/api/content/circulars/NSEIFSC_TRADE_2199.pdf"
+  ],
+  "basis_explanation": "Same vendor price change from an observed prior near-close mark discounts stable basis. Alternative prior marks, rolling basis and broad month-boundary exclusions supply robustness tests.",
+  "market_hours": "NSE IX changed to 03:15\u201302:45 IST effective 2026-11-02. Actual vendor bar receipt is absent. Fresh stamp and margin are verified per date."
+}

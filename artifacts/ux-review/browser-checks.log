@@ -1,0 +1,19 @@
+PASS Tool search opens the selected route
+PASS Paper order review and invalid quantities/custom keys/price validation, without placing orders
+PASS Context guide links reach real learning sections
+PASS Offline P&L calculator and searchable glossary
+PASS Learning checklist merges and syncs changes across tabs
+PASS Learning progress persists and marks the correct chapter
+PASS NIFTY research expands on demand and returns to overview
+PASS Options secondary controls are disclosed on demand
+PASS All five options analysis views are reachable and preserve shared selections
+PASS Sample backtest is keyboard accessible and selected from deep link
+PASS Mobile navigation traps focus, closes with Escape and restores focus
+PASS Tool search opens from the mobile menu and closes with Escape
+PASS Advanced tools remain reachable on mobile
+PASS Malformed saved progress falls back to an empty checklist
+PASS Unavailable API never invents zero balances and local exercises remain usable
+PASS Learning exercises keep all local progress when browser storage rejects writes
+PASS No horizontal page overflow from 320px through 1440px
+PASS No browser runtime errors
+{"checks":18,"overflow":[],"errors":[]}

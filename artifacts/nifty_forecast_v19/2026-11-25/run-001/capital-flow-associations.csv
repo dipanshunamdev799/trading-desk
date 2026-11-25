@@ -1,0 +1,265 @@
+series,category,horizon,test,n,spearman,status
+daily,Primary market & others,5,future_return,59,-0.15952052376800913,descriptive paired release-vintage association
+daily,Primary market & others,5,future_realized_vol,59,0.14577883641995848,descriptive paired release-vintage association
+daily,Primary market & others,5,trailing_return,59,-0.06584314874002135,descriptive paired release-vintage association
+daily,Primary market & others,5,lag_net,58,-0.022833651536613906,descriptive paired release-vintage association
+daily,Primary market & others,21,future_return,59,-0.18533735340275106,descriptive paired release-vintage association
+daily,Primary market & others,21,future_realized_vol,59,-0.2174402740584098,descriptive paired release-vintage association
+daily,Primary market & others,21,trailing_return,59,-0.06584314874002135,descriptive paired release-vintage association
+daily,Primary market & others,21,lag_net,58,-0.022833651536613906,descriptive paired release-vintage association
+daily,Stock Exchange,5,future_return,59,-0.036148979386959136,descriptive paired release-vintage association
+daily,Stock Exchange,5,future_realized_vol,59,0.1781440406975771,descriptive paired release-vintage association
+daily,Stock Exchange,5,trailing_return,59,0.5114335394108099,descriptive paired release-vintage association
+daily,Stock Exchange,5,lag_net,58,0.27411714039621016,descriptive paired release-vintage association
+daily,Stock Exchange,21,future_return,59,0.15082043865488773,descriptive paired release-vintage association
+daily,Stock Exchange,21,future_realized_vol,59,0.34679057266373814,descriptive paired release-vintage association
+daily,Stock Exchange,21,trailing_return,59,0.5114335394108099,descriptive paired release-vintage association
+daily,Stock Exchange,21,lag_net,58,0.27411714039621016,descriptive paired release-vintage association
+daily,Sub-total,5,future_return,59,-0.015166790866476793,descriptive paired release-vintage association
+daily,Sub-total,5,future_realized_vol,59,0.2013471851060214,descriptive paired release-vintage association
+daily,Sub-total,5,trailing_return,59,0.5425269218422768,descriptive paired release-vintage association
+daily,Sub-total,5,lag_net,58,0.30100283007259754,descriptive paired release-vintage association
+daily,Sub-total,21,future_return,59,0.1382545040256295,descriptive paired release-vintage association
+daily,Sub-total,21,future_realized_vol,59,0.3240549979159174,descriptive paired release-vintage association
+daily,Sub-total,21,trailing_return,59,0.5425269218422768,descriptive paired release-vintage association
+daily,Sub-total,21,lag_net,58,0.30100283007259754,descriptive paired release-vintage association
+monthly,equity_etf,5,future_return,2,,descriptive paired release-vintage association
+monthly,equity_etf,5,future_realized_vol,2,,descriptive paired release-vintage association
+monthly,equity_etf,5,trailing_return,2,,descriptive paired release-vintage association
+monthly,equity_etf,5,lag_net,1,,descriptive paired release-vintage association
+monthly,equity_etf,21,future_return,1,,descriptive paired release-vintage association
+monthly,equity_etf,21,future_realized_vol,1,,descriptive paired release-vintage association
+monthly,equity_etf,21,trailing_return,1,,descriptive paired release-vintage association
+monthly,equity_etf,21,lag_net,0,,descriptive paired release-vintage association
+monthly,gold_etf,5,future_return,21,-0.1935064935064935,descriptive paired release-vintage association
+monthly,gold_etf,5,future_realized_vol,21,-0.24805194805194808,descriptive paired release-vintage association
+monthly,gold_etf,5,trailing_return,21,-0.2571428571428571,descriptive paired release-vintage association
+monthly,gold_etf,5,lag_net,20,0.5037593984962406,descriptive paired release-vintage association
+monthly,gold_etf,21,future_return,20,-0.19999999999999998,descriptive paired release-vintage association
+monthly,gold_etf,21,future_realized_vol,20,0.10526315789473684,descriptive paired release-vintage association
+monthly,gold_etf,21,trailing_return,20,-0.3293233082706767,descriptive paired release-vintage association
+monthly,gold_etf,21,lag_net,19,0.5070175438596491,descriptive paired release-vintage association
+monthly,index_funds,5,future_return,21,0.11168831168831168,descriptive paired release-vintage association
+monthly,index_funds,5,future_realized_vol,21,0.34025974025974026,descriptive paired release-vintage association
+monthly,index_funds,5,trailing_return,21,0.2584415584415584,descriptive paired release-vintage association
+monthly,index_funds,5,lag_net,20,0.41804511278195483,descriptive paired release-vintage association
+monthly,index_funds,21,future_return,20,0.4827067669172932,descriptive paired release-vintage association
+monthly,index_funds,21,future_realized_vol,20,0.19999999999999998,descriptive paired release-vintage association
+monthly,index_funds,21,trailing_return,20,0.4030075187969925,descriptive paired release-vintage association
+monthly,index_funds,21,lag_net,19,0.3614035087719299,descriptive paired release-vintage association
+monthly,open_end_equity,5,future_return,2,,descriptive paired release-vintage association
+monthly,open_end_equity,5,future_realized_vol,2,,descriptive paired release-vintage association
+monthly,open_end_equity,5,trailing_return,2,,descriptive paired release-vintage association
+monthly,open_end_equity,5,lag_net,1,,descriptive paired release-vintage association
+monthly,open_end_equity,21,future_return,1,,descriptive paired release-vintage association
+monthly,open_end_equity,21,future_realized_vol,1,,descriptive paired release-vintage association
+monthly,open_end_equity,21,trailing_return,1,,descriptive paired release-vintage association
+monthly,open_end_equity,21,lag_net,0,,descriptive paired release-vintage association
+monthly,other_etf,5,future_return,21,-0.031168831168831172,descriptive paired release-vintage association
+monthly,other_etf,5,future_realized_vol,21,-0.00909090909090909,descriptive paired release-vintage association
+monthly,other_etf,5,trailing_return,21,0.06493506493506493,descriptive paired release-vintage association
+monthly,other_etf,5,lag_net,20,0.11278195488721804,descriptive paired release-vintage association
+monthly,other_etf,21,future_return,20,-0.3639097744360902,descriptive paired release-vintage association
+monthly,other_etf,21,future_realized_vol,20,0.05714285714285714,descriptive paired release-vintage association
+monthly,other_etf,21,trailing_return,20,0.15488721804511277,descriptive paired release-vintage association
+monthly,other_etf,21,lag_net,19,0.031578947368421054,descriptive paired release-vintage association
+fortnight,sector_sum,5,future_return,35,0.09411764705882354,descriptive paired release-vintage association
+fortnight,sector_sum,5,future_realized_vol,35,-0.1173669467787115,descriptive paired release-vintage association
+fortnight,sector_sum,5,trailing_return,35,-0.2285714285714286,descriptive paired release-vintage association
+fortnight,sector_sum,5,lag_net,34,0.1654698242933537,descriptive paired release-vintage association
+fortnight,sector_sum,21,future_return,33,0.024398395721925134,descriptive paired release-vintage association
+fortnight,sector_sum,21,future_realized_vol,33,-0.17078877005347595,descriptive paired release-vintage association
+fortnight,sector_sum,21,trailing_return,33,-0.35695187165775405,descriptive paired release-vintage association
+fortnight,sector_sum,21,lag_net,32,0.2067448680351906,descriptive paired release-vintage association
+fortnight,Automobile and Auto Components,5,future_return,35,-0.19747899159663868,descriptive paired release-vintage association
+fortnight,Automobile and Auto Components,5,future_realized_vol,35,-0.09327731092436976,descriptive paired release-vintage association
+fortnight,Automobile and Auto Components,5,trailing_return,35,-0.14229691876750702,descriptive paired release-vintage association
+fortnight,Automobile and Auto Components,5,lag_net,34,0.08693659281894575,descriptive paired release-vintage association
+fortnight,Automobile and Auto Components,21,future_return,33,-0.06985294117647059,descriptive paired release-vintage association
+fortnight,Automobile and Auto Components,21,future_realized_vol,33,-0.21557486631016043,descriptive paired release-vintage association
+fortnight,Automobile and Auto Components,21,trailing_return,33,-0.2142379679144385,descriptive paired release-vintage association
+fortnight,Automobile and Auto Components,21,lag_net,32,0.08027859237536657,descriptive paired release-vintage association
+fortnight,Capital Goods,5,future_return,35,-0.22717086834733893,descriptive paired release-vintage association
+fortnight,Capital Goods,5,future_realized_vol,35,0.44145658263305326,descriptive paired release-vintage association
+fortnight,Capital Goods,5,trailing_return,35,-0.19915966386554623,descriptive paired release-vintage association
+fortnight,Capital Goods,5,lag_net,34,0.5257448433919022,descriptive paired release-vintage association
+fortnight,Capital Goods,21,future_return,33,-0.08656417112299465,descriptive paired release-vintage association
+fortnight,Capital Goods,21,future_realized_vol,33,0.3252005347593583,descriptive paired release-vintage association
+fortnight,Capital Goods,21,trailing_return,33,-0.2510026737967915,descriptive paired release-vintage association
+fortnight,Capital Goods,21,lag_net,32,0.5274926686217009,descriptive paired release-vintage association
+fortnight,Chemicals,5,future_return,35,-0.21624649859943978,descriptive paired release-vintage association
+fortnight,Chemicals,5,future_realized_vol,35,0.1915966386554622,descriptive paired release-vintage association
+fortnight,Chemicals,5,trailing_return,35,-0.24313725490196078,descriptive paired release-vintage association
+fortnight,Chemicals,5,lag_net,34,0.20733384262796029,descriptive paired release-vintage association
+fortnight,Chemicals,21,future_return,33,-0.07787433155080214,descriptive paired release-vintage association
+fortnight,Chemicals,21,future_realized_vol,33,0.15407754010695188,descriptive paired release-vintage association
+fortnight,Chemicals,21,trailing_return,33,-0.17747326203208558,descriptive paired release-vintage association
+fortnight,Chemicals,21,lag_net,32,0.21554252199413487,descriptive paired release-vintage association
+fortnight,Construction,5,future_return,35,-0.06834733893557424,descriptive paired release-vintage association
+fortnight,Construction,5,future_realized_vol,35,0.03669467787114846,descriptive paired release-vintage association
+fortnight,Construction,5,trailing_return,35,-0.31764705882352945,descriptive paired release-vintage association
+fortnight,Construction,5,lag_net,34,0.19388846447669975,descriptive paired release-vintage association
+fortnight,Construction,21,future_return,33,-0.044451871657754015,descriptive paired release-vintage association
+fortnight,Construction,21,future_realized_vol,33,-0.05113636363636364,descriptive paired release-vintage association
+fortnight,Construction,21,trailing_return,33,-0.3506016042780749,descriptive paired release-vintage association
+fortnight,Construction,21,lag_net,32,0.1979472140762463,descriptive paired release-vintage association
+fortnight,Construction Materials,5,future_return,35,0.05518207282913166,descriptive paired release-vintage association
+fortnight,Construction Materials,5,future_realized_vol,35,-0.00028011204481792715,descriptive paired release-vintage association
+fortnight,Construction Materials,5,trailing_return,35,-0.21932773109243697,descriptive paired release-vintage association
+fortnight,Construction Materials,5,lag_net,34,0.413903743315508,descriptive paired release-vintage association
+fortnight,Construction Materials,21,future_return,33,-0.09090909090909091,descriptive paired release-vintage association
+fortnight,Construction Materials,21,future_realized_vol,33,-0.15708556149732622,descriptive paired release-vintage association
+fortnight,Construction Materials,21,trailing_return,33,-0.2757352941176471,descriptive paired release-vintage association
+fortnight,Construction Materials,21,lag_net,32,0.4270527859237536,descriptive paired release-vintage association
+fortnight,Consumer Durables,5,future_return,35,0.1008403361344538,descriptive paired release-vintage association
+fortnight,Consumer Durables,5,future_realized_vol,35,-0.18095238095238098,descriptive paired release-vintage association
+fortnight,Consumer Durables,5,trailing_return,35,-0.3302521008403362,descriptive paired release-vintage association
+fortnight,Consumer Durables,5,lag_net,34,0.3582887700534759,descriptive paired release-vintage association
+fortnight,Consumer Durables,21,future_return,33,-0.15407754010695188,descriptive paired release-vintage association
+fortnight,Consumer Durables,21,future_realized_vol,33,-0.3014705882352941,descriptive paired release-vintage association
+fortnight,Consumer Durables,21,trailing_return,33,-0.34024064171123,descriptive paired release-vintage association
+fortnight,Consumer Durables,21,lag_net,32,0.3735337243401759,descriptive paired release-vintage association
+fortnight,Consumer Services,5,future_return,35,0.09831932773109245,descriptive paired release-vintage association
+fortnight,Consumer Services,5,future_realized_vol,35,-0.26918767507002805,descriptive paired release-vintage association
+fortnight,Consumer Services,5,trailing_return,35,-0.12436974789915967,descriptive paired release-vintage association
+fortnight,Consumer Services,5,lag_net,34,0.3714285714285714,descriptive paired release-vintage association
+fortnight,Consumer Services,21,future_return,33,0.13536096256684493,descriptive paired release-vintage association
+fortnight,Consumer Services,21,future_realized_vol,33,-0.10762032085561499,descriptive paired release-vintage association
+fortnight,Consumer Services,21,trailing_return,33,-0.170120320855615,descriptive paired release-vintage association
+fortnight,Consumer Services,21,lag_net,32,0.405425219941349,descriptive paired release-vintage association
+fortnight,Diversified,5,future_return,35,0.031107689581532566,descriptive paired release-vintage association
+fortnight,Diversified,5,future_realized_vol,35,0.17039166905920544,descriptive paired release-vintage association
+fortnight,Diversified,5,trailing_return,35,-0.10187067714312693,descriptive paired release-vintage association
+fortnight,Diversified,5,lag_net,34,0.13520954420312023,descriptive paired release-vintage association
+fortnight,Diversified,21,future_return,33,0.06220216766241839,descriptive paired release-vintage association
+fortnight,Diversified,21,future_realized_vol,33,-0.0827690134217664,descriptive paired release-vintage association
+fortnight,Diversified,21,trailing_return,33,-0.04631720549056423,descriptive paired release-vintage association
+fortnight,Diversified,21,lag_net,32,0.10864378785098183,descriptive paired release-vintage association
+fortnight,Fast Moving Consumer Goods,5,future_return,35,0.12717086834733896,descriptive paired release-vintage association
+fortnight,Fast Moving Consumer Goods,5,future_realized_vol,35,0.11624649859943978,descriptive paired release-vintage association
+fortnight,Fast Moving Consumer Goods,5,trailing_return,35,0.12464985994397759,descriptive paired release-vintage association
+fortnight,Fast Moving Consumer Goods,5,lag_net,34,0.28892284186401834,descriptive paired release-vintage association
+fortnight,Fast Moving Consumer Goods,21,future_return,33,0.042112299465240643,descriptive paired release-vintage association
+fortnight,Fast Moving Consumer Goods,21,future_realized_vol,33,-0.11330213903743316,descriptive paired release-vintage association
+fortnight,Fast Moving Consumer Goods,21,trailing_return,33,0.08790106951871658,descriptive paired release-vintage association
+fortnight,Fast Moving Consumer Goods,21,lag_net,32,0.3658357771260997,descriptive paired release-vintage association
+fortnight,Financial Services,5,future_return,35,0.12128851540616246,descriptive paired release-vintage association
+fortnight,Financial Services,5,future_realized_vol,35,-0.19103641456582635,descriptive paired release-vintage association
+fortnight,Financial Services,5,trailing_return,35,-0.22717086834733893,descriptive paired release-vintage association
+fortnight,Financial Services,5,lag_net,34,0.42062643239113817,descriptive paired release-vintage association
+fortnight,Financial Services,21,future_return,33,0.15106951871657756,descriptive paired release-vintage association
+fortnight,Financial Services,21,future_realized_vol,33,-0.08622994652406417,descriptive paired release-vintage association
+fortnight,Financial Services,21,trailing_return,33,-0.3021390374331551,descriptive paired release-vintage association
+fortnight,Financial Services,21,lag_net,32,0.4083577712609971,descriptive paired release-vintage association
+fortnight,Forest Materials,5,future_return,35,-0.25194546000365414,descriptive paired release-vintage association
+fortnight,Forest Materials,5,future_realized_vol,35,0.24044878347594148,descriptive paired release-vintage association
+fortnight,Forest Materials,5,trailing_return,35,-0.3034000976337828,descriptive paired release-vintage association
+fortnight,Forest Materials,5,lag_net,34,0.048162327718223596,descriptive paired release-vintage association
+fortnight,Forest Materials,21,future_return,33,0.03246049573444853,descriptive paired release-vintage association
+fortnight,Forest Materials,21,future_realized_vol,33,0.10624956078028257,descriptive paired release-vintage association
+fortnight,Forest Materials,21,trailing_return,33,-0.2913078508952314,descriptive paired release-vintage association
+fortnight,Forest Materials,21,lag_net,32,-0.004686638485572504,descriptive paired release-vintage association
+fortnight,Healthcare,5,future_return,35,0.051540616246498604,descriptive paired release-vintage association
+fortnight,Healthcare,5,future_realized_vol,35,0.007002801120448179,descriptive paired release-vintage association
+fortnight,Healthcare,5,trailing_return,35,-0.34481792717086834,descriptive paired release-vintage association
+fortnight,Healthcare,5,lag_net,34,0.13919022154316268,descriptive paired release-vintage association
+fortnight,Healthcare,21,future_return,33,0.24431818181818185,descriptive paired release-vintage association
+fortnight,Healthcare,21,future_realized_vol,33,-0.18181818181818182,descriptive paired release-vintage association
+fortnight,Healthcare,21,trailing_return,33,-0.44685828877005357,descriptive paired release-vintage association
+fortnight,Healthcare,21,lag_net,32,0.19281524926686217,descriptive paired release-vintage association
+fortnight,Information Technology,5,future_return,35,0.238375350140056,descriptive paired release-vintage association
+fortnight,Information Technology,5,future_realized_vol,35,-0.3997198879551821,descriptive paired release-vintage association
+fortnight,Information Technology,5,trailing_return,35,-0.09803921568627454,descriptive paired release-vintage association
+fortnight,Information Technology,5,lag_net,34,0.11535523300229181,descriptive paired release-vintage association
+fortnight,Information Technology,21,future_return,33,0.003008021390374332,descriptive paired release-vintage association
+fortnight,Information Technology,21,future_realized_vol,33,-0.2891042780748663,descriptive paired release-vintage association
+fortnight,Information Technology,21,trailing_return,33,-0.16878342245989306,descriptive paired release-vintage association
+fortnight,Information Technology,21,lag_net,32,0.005131964809384164,descriptive paired release-vintage association
+fortnight,"Media, Entertainment & Publication",5,future_return,35,0.07535541723080606,descriptive paired release-vintage association
+fortnight,"Media, Entertainment & Publication",5,future_realized_vol,35,0.16261643012075436,descriptive paired release-vintage association
+fortnight,"Media, Entertainment & Publication",5,trailing_return,35,0.2932978507087507,descriptive paired release-vintage association
+fortnight,"Media, Entertainment & Publication",5,lag_net,34,0.47524449877750613,descriptive paired release-vintage association
+fortnight,"Media, Entertainment & Publication",21,future_return,33,-0.02055653053053264,descriptive paired release-vintage association
+fortnight,"Media, Entertainment & Publication",21,future_realized_vol,33,0.34645274625848904,descriptive paired release-vintage association
+fortnight,"Media, Entertainment & Publication",21,trailing_return,33,0.3126932408343623,descriptive paired release-vintage association
+fortnight,"Media, Entertainment & Publication",21,lag_net,32,0.42401466544454636,descriptive paired release-vintage association
+fortnight,Metals & Mining,5,future_return,35,-0.3445378151260505,descriptive paired release-vintage association
+fortnight,Metals & Mining,5,future_realized_vol,35,0.2246498599439776,descriptive paired release-vintage association
+fortnight,Metals & Mining,5,trailing_return,35,-0.3058823529411765,descriptive paired release-vintage association
+fortnight,Metals & Mining,5,lag_net,34,0.28189457601222306,descriptive paired release-vintage association
+fortnight,Metals & Mining,21,future_return,33,-0.08188502673796792,descriptive paired release-vintage association
+fortnight,Metals & Mining,21,future_realized_vol,33,0.16677807486631016,descriptive paired release-vintage association
+fortnight,Metals & Mining,21,trailing_return,33,-0.3218582887700535,descriptive paired release-vintage association
+fortnight,Metals & Mining,21,lag_net,32,0.22030791788856302,descriptive paired release-vintage association
+fortnight,"Oil, Gas & Consumable Fuels",5,future_return,35,-0.10042720103064676,descriptive paired release-vintage association
+fortnight,"Oil, Gas & Consumable Fuels",5,future_realized_vol,35,-0.2666853427647858,descriptive paired release-vintage association
+fortnight,"Oil, Gas & Consumable Fuels",5,trailing_return,35,0.010785069008870014,descriptive paired release-vintage association
+fortnight,"Oil, Gas & Consumable Fuels",5,lag_net,34,0.5737642311802126,descriptive paired release-vintage association
+fortnight,"Oil, Gas & Consumable Fuels",21,future_return,33,-0.23763368983957223,descriptive paired release-vintage association
+fortnight,"Oil, Gas & Consumable Fuels",21,future_realized_vol,33,-0.30280748663101603,descriptive paired release-vintage association
+fortnight,"Oil, Gas & Consumable Fuels",21,trailing_return,33,-0.02540106951871658,descriptive paired release-vintage association
+fortnight,"Oil, Gas & Consumable Fuels",21,lag_net,32,0.5601173020527859,descriptive paired release-vintage association
+fortnight,Others,5,future_return,35,0.12521885316791936,descriptive paired release-vintage association
+fortnight,Others,5,future_realized_vol,35,0.02353105965571639,descriptive paired release-vintage association
+fortnight,Others,5,trailing_return,35,0.13390293470752898,descriptive paired release-vintage association
+fortnight,Others,5,lag_net,34,-0.047066014669926645,descriptive paired release-vintage association
+fortnight,Others,21,future_return,33,-0.16578925436006808,descriptive paired release-vintage association
+fortnight,Others,21,future_realized_vol,33,0.08289462718003404,descriptive paired release-vintage association
+fortnight,Others,21,trailing_return,33,0.10144564253685617,descriptive paired release-vintage association
+fortnight,Others,21,lag_net,32,-0.12575618698441798,descriptive paired release-vintage association
+fortnight,Power,5,future_return,35,-0.00392156862745098,descriptive paired release-vintage association
+fortnight,Power,5,future_realized_vol,35,0.4563025210084034,descriptive paired release-vintage association
+fortnight,Power,5,trailing_return,35,-0.3823529411764706,descriptive paired release-vintage association
+fortnight,Power,5,lag_net,34,0.09060351413292589,descriptive paired release-vintage association
+fortnight,Power,21,future_return,33,0.1306818181818182,descriptive paired release-vintage association
+fortnight,Power,21,future_realized_vol,33,0.45922459893048134,descriptive paired release-vintage association
+fortnight,Power,21,trailing_return,33,-0.429812834224599,descriptive paired release-vintage association
+fortnight,Power,21,lag_net,32,0.11986803519061583,descriptive paired release-vintage association
+fortnight,Realty,5,future_return,35,0.1392156862745098,descriptive paired release-vintage association
+fortnight,Realty,5,future_realized_vol,35,0.08683473389355742,descriptive paired release-vintage association
+fortnight,Realty,5,trailing_return,35,-0.20532212885154064,descriptive paired release-vintage association
+fortnight,Realty,5,lag_net,34,-0.009014514896867836,descriptive paired release-vintage association
+fortnight,Realty,21,future_return,33,0.19451871657754014,descriptive paired release-vintage association
+fortnight,Realty,21,future_realized_vol,33,0.09859625668449198,descriptive paired release-vintage association
+fortnight,Realty,21,trailing_return,33,-0.23295454545454547,descriptive paired release-vintage association
+fortnight,Realty,21,lag_net,32,0.001466275659824047,descriptive paired release-vintage association
+fortnight,Services,5,future_return,35,0.04453781512605043,descriptive paired release-vintage association
+fortnight,Services,5,future_realized_vol,35,0.07254901960784314,descriptive paired release-vintage association
+fortnight,Services,5,trailing_return,35,-0.0484593837535014,descriptive paired release-vintage association
+fortnight,Services,5,lag_net,34,0.4050420168067226,descriptive paired release-vintage association
+fortnight,Services,21,future_return,33,0.15775401069518719,descriptive paired release-vintage association
+fortnight,Services,21,future_realized_vol,33,-0.042112299465240643,descriptive paired release-vintage association
+fortnight,Services,21,trailing_return,33,-0.09157754010695188,descriptive paired release-vintage association
+fortnight,Services,21,lag_net,32,0.4219208211143694,descriptive paired release-vintage association
+fortnight,Sovereign,5,future_return,35,,descriptive paired release-vintage association
+fortnight,Sovereign,5,future_realized_vol,35,,descriptive paired release-vintage association
+fortnight,Sovereign,5,trailing_return,35,,descriptive paired release-vintage association
+fortnight,Sovereign,5,lag_net,34,,descriptive paired release-vintage association
+fortnight,Sovereign,21,future_return,33,,descriptive paired release-vintage association
+fortnight,Sovereign,21,future_realized_vol,33,,descriptive paired release-vintage association
+fortnight,Sovereign,21,trailing_return,33,,descriptive paired release-vintage association
+fortnight,Sovereign,21,lag_net,32,,descriptive paired release-vintage association
+fortnight,Telecommunication,5,future_return,35,0.2081232492997199,descriptive paired release-vintage association
+fortnight,Telecommunication,5,future_realized_vol,35,-0.15938375350140058,descriptive paired release-vintage association
+fortnight,Telecommunication,5,trailing_return,35,0.1546218487394958,descriptive paired release-vintage association
+fortnight,Telecommunication,5,lag_net,34,0.4716577540106952,descriptive paired release-vintage association
+fortnight,Telecommunication,21,future_return,33,0.3088235294117647,descriptive paired release-vintage association
+fortnight,Telecommunication,21,future_realized_vol,33,-0.05782085561497327,descriptive paired release-vintage association
+fortnight,Telecommunication,21,trailing_return,33,0.034090909090909095,descriptive paired release-vintage association
+fortnight,Telecommunication,21,lag_net,32,0.6011730205278591,descriptive paired release-vintage association
+fortnight,Textiles,5,future_return,35,0.010224805683733908,descriptive paired release-vintage association
+fortnight,Textiles,5,future_realized_vol,35,0.2078576936254948,descriptive paired release-vintage association
+fortnight,Textiles,5,trailing_return,35,0.12661951148075962,descriptive paired release-vintage association
+fortnight,Textiles,5,lag_net,34,0.3261766503667482,descriptive paired release-vintage association
+fortnight,Textiles,21,future_return,33,0.1208322892160577,descriptive paired release-vintage association
+fortnight,Textiles,21,future_realized_vol,33,-0.10061001121447681,descriptive paired release-vintage association
+fortnight,Textiles,21,trailing_return,33,0.1086320719093188,descriptive paired release-vintage association
+fortnight,Textiles,21,lag_net,32,0.3458295142071494,descriptive paired release-vintage association
+fortnight,Utilities,5,future_return,35,0.24465777481691833,descriptive paired release-vintage association
+fortnight,Utilities,5,future_realized_vol,35,0.03895467434083808,descriptive paired release-vintage association
+fortnight,Utilities,5,trailing_return,35,-0.11448190264915364,descriptive paired release-vintage association
+fortnight,Utilities,5,lag_net,34,0.02248394004282656,descriptive paired release-vintage association
+fortnight,Utilities,21,future_return,33,0.05818912458742366,descriptive paired release-vintage association
+fortnight,Utilities,21,future_realized_vol,33,-0.1630298749216611,descriptive paired release-vintage association
+fortnight,Utilities,21,trailing_return,33,-0.12925342904045542,descriptive paired release-vintage association
+fortnight,Utilities,21,lag_net,32,-0.05065149568728207,descriptive paired release-vintage association

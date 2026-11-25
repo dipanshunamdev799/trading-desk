@@ -1,0 +1,51 @@
+ADANIENT QUARANTINED 1 0
+ADANIPORTS TESTED 2 / 50 elapsed 6
+APOLLOHOSP TESTED 3 / 50 elapsed 11
+ASIANPAINT TESTED 4 / 50 elapsed 16
+AXISBANK TESTED 5 / 50 elapsed 22
+BAJAJ-AUTO TESTED 6 / 50 elapsed 33
+BAJAJFINSV TESTED 7 / 50 elapsed 46
+BAJFINANCE TESTED 8 / 50 elapsed 55
+BEL TESTED 9 / 50 elapsed 63
+BHARTIARTL TESTED 10 / 50 elapsed 72
+BPCL TESTED 11 / 50 elapsed 81
+BRITANNIA TESTED 12 / 50 elapsed 90
+CIPLA TESTED 13 / 50 elapsed 99
+COALINDIA TESTED 14 / 50 elapsed 111
+DRREDDY TESTED 15 / 50 elapsed 119
+EICHERMOT TESTED 16 / 50 elapsed 129
+GRASIM TESTED 17 / 50 elapsed 138
+HCLTECH TESTED 18 / 50 elapsed 146
+HDFCBANK TESTED 19 / 50 elapsed 154
+HDFCLIFE TESTED 20 / 50 elapsed 163
+HEROMOTOCO TESTED 21 / 50 elapsed 173
+HINDALCO TESTED 22 / 50 elapsed 181
+HINDUNILVR QUARANTINED 1 1
+ICICIBANK TESTED 24 / 50 elapsed 191
+INDUSINDBK TESTED 25 / 50 elapsed 200
+INFY TESTED 26 / 50 elapsed 208
+ITC QUARANTINED 1 1
+JSWSTEEL TESTED 28 / 50 elapsed 221
+KOTAKBANK TESTED 29 / 50 elapsed 234
+LT TESTED 30 / 50 elapsed 247
+M&M TESTED 31 / 50 elapsed 256
+MARUTI TESTED 32 / 50 elapsed 264
+NESTLEIND TESTED 33 / 50 elapsed 274
+NTPC TESTED 34 / 50 elapsed 283
+ONGC TESTED 35 / 50 elapsed 290
+POWERGRID TESTED 36 / 50 elapsed 300
+RELIANCE TESTED 37 / 50 elapsed 312
+SBILIFE TESTED 38 / 50 elapsed 322
+SBIN TESTED 39 / 50 elapsed 331
+SHRIRAMFIN TESTED 40 / 50 elapsed 339
+SUNPHARMA TESTED 41 / 50 elapsed 349
+TATACONSUM TESTED 42 / 50 elapsed 357
+TATAMOTORS QUARANTINED 1 1
+TATASTEEL TESTED 44 / 50 elapsed 365
+TCS TESTED 45 / 50 elapsed 374
+TECHM TESTED 46 / 50 elapsed 382
+TITAN TESTED 47 / 50 elapsed 389
+TRENT QUARANTINED 1 0
+ULTRACEMCO TESTED 49 / 50 elapsed 397
+WIPRO TESTED 50 / 50 elapsed 404
+{"tested_stocks": 45, "pairs": 585, "historical_gate_passes": 0, "top_pairs": [{"symbol": "HINDALCO", "id": "B_macd8_21_5", "total_return_pct": 5.560645110847506, "n_trades": 34}, {"symbol": "EICHERMOT", "id": "F_r4", "total_return_pct": 5.13470756434633, "n_trades": 8}, {"symbol": "MARUTI", "id": "B_macd8_21_5", "total_return_pct": 5.035474815738605, "n_trades": 26}, {"symbol": "HINDALCO", "id": "B_macd5_35_5", "total_return_pct": 4.265066858688504, "n_trades": 32}, {"symbol": "EICHERMOT", "id": "structure_only_base", "total_return_pct": 3.9713773234956173, "n_trades": 40}, {"symbol": "WIPRO", "id": "structure_only_base", "total_return_pct": 3.543615654797061, "n_trades": 33}, {"symbol": "ULTRACEMCO", "id": "E_r3", "total_return_pct": 3.3773639976694803, "n_trades": 8}, {"symbol": "SBIN", "id": "structure_only_base", "total_return_pct": 3.3331207357808923, "n_trades": 37}, {"symbol": "M&M", "id": "E_macd8_21_5", "total_return_pct": 3.3127229005392556, "n_trades": 11}, {"symbol": "BAJAJFINSV", "id": "E_r3", "total_return_pct": 3.2512293409303172, "n_trades": 11}, {"symbol": "M&M", "id": "E_tf240_60", "total_return_pct": 3.1222727798214223, "n_trades": 13}, {"symbol": "BHARTIARTL", "id": "E_ema90", "total_return_pct": 3.107843005286326, "n_trades": 11}, {"symbol": "BAJAJ-AUTO", "id": "structure_only_base", "total_return_pct": 3.1068287313305243, "n_trades": 34}, {"symbol": "ULTRACEMCO", "id": "E_no_slope", "total_return_pct": 3.013786882791303, "n_trades": 9}, {"symbol": "ULTRACEMCO", "id": "E_macd5_35_5", "total_return_pct": 3.0075448656888604, "n_trades": 14}]}

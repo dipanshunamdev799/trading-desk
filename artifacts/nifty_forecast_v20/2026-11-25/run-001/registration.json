@@ -1,0 +1,284 @@
+{
+  "registered_at": "2026-11-25T18:59:40.051932+05:30",
+  "scope": [
+    "2025-01-01",
+    "2026-11-17"
+  ],
+  "max_forward": "2026-12-31",
+  "seed": 201125,
+  "prediction_horizons": [
+    5,
+    21
+  ],
+  "discovery_horizons": [
+    1,
+    2,
+    3,
+    5,
+    7,
+    10,
+    15,
+    21
+  ],
+  "increments": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      5,
+      10
+    ],
+    [
+      10,
+      15
+    ],
+    [
+      15,
+      21
+    ]
+  ],
+  "ages": [
+    "fresh",
+    "lag1",
+    "lag3",
+    "lag5",
+    "lag10",
+    "lag21",
+    "smooth5"
+  ],
+  "exact_cohorts": {
+    "5": [
+      173,
+      92,
+      265,
+      53
+    ],
+    "21": [
+      141,
+      76,
+      217,
+      11
+    ]
+  },
+  "train": {
+    "ridge": 160,
+    "min_mature_labels": 45,
+    "max_mature_labels": 140,
+    "selection": "Strictly before the local decision day"
+  },
+  "uncertainty": {
+    "lifetime_draws": 600,
+    "main_draws": 1500,
+    "blocks": [
+      5,
+      10,
+      21,
+      42
+    ],
+    "representative_refits": 23
+  },
+  "exploratory": "All frozen NIFTY outcomes have been research-exposed. Several tables study the dynamics of the same outcome paths.",
+  "hypotheses": [
+    {
+      "hypothesis": "Opening absorption",
+      "rationale": "A tradable offshore price may primarily inform the first cash repricing",
+      "family": "Offshore GIFT",
+      "target": "Cumulative and incremental",
+      "cutoff": "08:55",
+      "parent": "Cash price state",
+      "primary_metric": "CRPS",
+      "negative_control": "Aged offshore price, late components",
+      "budget": "One regularized fit per cell",
+      "follow_up": "Advance only with matched late-window or first-session separation"
+    },
+    {
+      "hypothesis": "Global transfer",
+      "rationale": "Foreign returns can map to early or late Indian returns",
+      "family": "Global equity",
+      "target": "All windows",
+      "cutoff": "17:00 and 08:55",
+      "parent": "Cash price state",
+      "primary_metric": "CRPS",
+      "negative_control": "Session delays",
+      "budget": "Shared lifetime design",
+      "follow_up": "Check sign away from major shocks"
+    },
+    {
+      "hypothesis": "Structural persistence",
+      "rationale": "Rotation and breadth can describe distinct durations of market state",
+      "family": "Domestic, financial, equal weight, stock breadth",
+      "target": "All windows",
+      "cutoff": "Same-clock",
+      "parent": "Cash price state",
+      "primary_metric": "CRPS",
+      "negative_control": "Different components, dated breadth",
+      "budget": "Four frozen families",
+      "follow_up": "Keep components that improve on matched strong parents"
+    },
+    {
+      "hypothesis": "Corporate lifetime",
+      "rationale": "The effect of filing intensity, information and reactions may be front-loaded",
+      "family": "Corporate publications and structured financials",
+      "target": "All windows and weekly native",
+      "cutoff": "08:55 inputs at 09:10 native or matched 17:00/08:55",
+      "parent": "Exact V14 and cash price state",
+      "primary_metric": "Brier and CRPS",
+      "negative_control": "Bias, vintaged delays and rotated information",
+      "budget": "Fixed count, semantic, structured and schedule groups",
+      "follow_up": "Compare conditional asymmetry and high-activity dates"
+    },
+    {
+      "hypothesis": "Positioning lifetime",
+      "rationale": "Persistent exposures may inform future sessions after the first week",
+      "family": "NSE participant reports",
+      "target": "All windows and monthly native",
+      "cutoff": "Strictly eligible report time",
+      "parent": "Exact V14 and cash price state",
+      "primary_metric": "CRPS and Brier",
+      "negative_control": "Measure segments after session five, lags 1/3/5/10/21",
+      "budget": "One matched grid and a bounded native group analysis",
+      "follow_up": "Check later origins and native bias"
+    },
+    {
+      "hypothesis": "Position surprises",
+      "rationale": "Regime-conditioned historical analogues may explain ordinary exposure changes",
+      "family": "NSE participant OI and ordinary futures",
+      "target": "Monthly and its late pieces",
+      "cutoff": "Next-session 08:15 release guard",
+      "parent": "Ordinary changes and exact V14",
+      "primary_metric": "CRPS",
+      "negative_control": "Compare raw and analogue innovation on identical dates",
+      "budget": "One 15-neighbor causal specification",
+      "follow_up": "Require stable addition beyond changes"
+    },
+    {
+      "hypothesis": "Positioning instability",
+      "rationale": "Participant loadings and market state may change between cohorts",
+      "family": "Index FII, DII, Pro, gross, concentration, volume, stock futures and options",
+      "target": "Monthly original",
+      "cutoff": "09:10 native",
+      "parent": "Exact V14",
+      "primary_metric": "Brier and CRPS",
+      "negative_control": "Training-window, expiry and episode omission",
+      "budget": "Two training windows, causal strata",
+      "follow_up": "Advance only with positive dispersion-aware gains"
+    },
+    {
+      "hypothesis": "Other activity",
+      "rationale": "Delivery and disclosed deals may encode different durations",
+      "family": "Historical NSE delivery and deal archives",
+      "target": "Cumulative and incremental",
+      "cutoff": "Next-session release guard",
+      "parent": "Cash price state",
+      "primary_metric": "CRPS",
+      "negative_control": "Delayed data and ordinary turnover proxy",
+      "budget": "Two simple families",
+      "follow_up": "Require improvement in both subperiods"
+    },
+    {
+      "hypothesis": "Implied versus realized risk",
+      "rationale": "Risk may persist even if return direction fades",
+      "family": "ATM IV, surface, historical volatility and prior intraday state",
+      "target": "Realized risk and terminal laws",
+      "cutoff": "Exact 17:00/08:55",
+      "parent": "IV/GJR, cash price",
+      "primary_metric": "QLIKE and range CRPS",
+      "negative_control": "Compare location-only, scale-only and delays",
+      "budget": "Fixed risk and 256 coherent scenarios per origin",
+      "follow_up": "Qualify direction and risk separately"
+    },
+    {
+      "hypothesis": "Authentic flow lifetimes",
+      "rationale": "Confirmed and provisional flows differ in trade date and vintage",
+      "family": "Exchange, depository and public fund sources",
+      "target": "Matched release windows",
+      "cutoff": "Documented availability or conservative descriptive lag",
+      "parent": "Cash history",
+      "primary_metric": "CRPS or coverage",
+      "negative_control": "Response-date versus release-date",
+      "budget": "One aggregate per authenticated route",
+      "follow_up": "Require dated support and data novelty"
+    },
+    {
+      "hypothesis": "Horizon specialization",
+      "rationale": "Shared market states can benefit from different horizon outputs",
+      "family": "Five registered structural groups",
+      "target": "Original 5 and 21",
+      "cutoff": "08:55",
+      "parent": "Same-clock V17/neutral",
+      "primary_metric": "Brier and CRPS",
+      "negative_control": "Equal-complexity matched shared/separate fit",
+      "budget": "Seven architectures with one shared training policy",
+      "follow_up": "Require robustness after search adjustment"
+    },
+    {
+      "hypothesis": "Temporal joint law",
+      "rationale": "Early and late returns can be estimated with different information while retaining dependence",
+      "family": "Structural, corporate and positioning",
+      "target": "Four monthly components and endpoint",
+      "cutoff": "08:55",
+      "parent": "Direct same-clock estimator",
+      "primary_metric": "CRPS",
+      "negative_control": "Independent residual resampling and zero component correction",
+      "budget": "Four components, one rank-two fit",
+      "follow_up": "Measure whether late gains survive"
+    },
+    {
+      "hypothesis": "Complementarity",
+      "rationale": "Feature groups can duplicate or conflict under estimation",
+      "family": "Native market, corporate, positioning, delivery and risk",
+      "target": "Original 5 and 21",
+      "cutoff": "08:55",
+      "parent": "Same-clock V17",
+      "primary_metric": "Brier and CRPS",
+      "negative_control": "Exact feature and expert copy",
+      "budget": "32 fixed subset evaluations with joint attribution",
+      "follow_up": "Advance only stable incremental blocks"
+    },
+    {
+      "hypothesis": "Residual laws",
+      "rationale": "Location, mass, scale and tails can be modified coherently",
+      "family": "V14/V18 laws and V20 causal corrections",
+      "target": "Original 5 and 21",
+      "cutoff": "09:10 native",
+      "parent": "Exact parent and bias-only",
+      "primary_metric": "Brier and CRPS",
+      "negative_control": "Zero, bias removal, fixed weight, full coverage",
+      "budget": "Fixed transforms and one chronological weight",
+      "follow_up": "Measure active and full population separately"
+    },
+    {
+      "hypothesis": "Activation",
+      "rationale": "A narrow decision rule may trade off coverage and expected loss",
+      "family": "Announcement, concentration, IV, distance and disagreement",
+      "target": "Original 5 and 21",
+      "cutoff": "09:10 native",
+      "parent": "Exact parent",
+      "primary_metric": "Brier and CRPS",
+      "negative_control": "Always-on and fixed fractional correction",
+      "budget": "One prior-rank rule and one regularized reliability model",
+      "follow_up": "Demand gains including fallback and matched dates"
+    },
+    {
+      "hypothesis": "Predictability limits",
+      "rationale": "Serial dependence and changing training episodes reduce power",
+      "family": "Forecast errors and auxiliary sector/stock data",
+      "target": "Original weekly/monthly and lifetime cells",
+      "cutoff": "Identical cutoff",
+      "parent": "Exact parent",
+      "primary_metric": "Detectable paired effect",
+      "negative_control": "Clustered draws, all phases, training block omission",
+      "budget": "1000 power simulations and 23 representative null refits",
+      "follow_up": "Translate uncertainty into new dated data needs"
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "manifest_sha256": "39d564a3fcba9f97c061a0d84c5c875c7ea1fe5436d56968595be1434c006003",
+  "verified_artifacts": 151,
+  "verified_code": 16,
+  "documents": [
+    {
+      "file": "NIFTY_V20_RESEARCH.md",
+      "sha256": "554e582143163c9f7f816982a8decb0a70ffc22871242d0d050d1da5606775b2",
+      "lines": 32,
+      "headings": [
+        "# NIFTY V20 information lifetimes and horizon specialization",
+        "## Research reports",
+        "## Reproduction and data"
+      ]
+    },
+    {
+      "file": "V20_ADDITIONAL_INFORMATION_DISCOVERY.md",
+      "sha256": "359159499d23e9341fa13dba778f9e3c6328ac70aaf2bd45e835a13c1862ebc9",
+      "lines": 34,
+      "headings": [
+        "# V20 Additional Information Discovery"
+      ]
+    },
+    {
+      "file": "V20_COMPLETE_MODEL_COMPARISON.md",
+      "sha256": "cdb7963b9ce2105927da868ae39ab5a8c8b0be98d2d5ef544c638f8db0a6f484",
+      "lines": 104,
+      "headings": [
+        "# V20 Complete Model Comparison",
+        "## Native weekly and monthly endpoint forecasts at 09:10",
+        "## Rebuilt distributions at 08:55",
+        "## Incremental late information and separate risk objectives"
+      ]
+    },
+    {
+      "file": "V20_CORRECTION_ACTIVATION_RESEARCH.md",
+      "sha256": "6323c33859c87de01dd635d1dd63e557dcef0450f4fb3518d437ace831cec754",
+      "lines": 53,
+      "headings": [
+        "# V20 Correction Activation Research"
+      ]
+    },
+    {
+      "file": "V20_CUMULATIVE_INFORMATION_REGISTRY.md",
+      "sha256": "2892fb1bc37c21567662c820e5665beda3897f8c5d112dec98f17ff6b468b7bb",
+      "lines": 49,
+      "headings": [
+        "# V20 Cumulative Information Registry"
+      ]
+    },
+    {
+      "file": "V20_EXPERIMENTAL_FORECASTING_FRAMEWORK.md",
+      "sha256": "6f2d7a192972ffd8975e9b56f214968349417e680b97a67a7e462e6adc3c39c3",
+      "lines": 16,
+      "headings": [
+        "# V20 Experimental Forecasting Framework"
+      ]
+    },
+    {
+      "file": "V20_FINAL_RESEARCH_CONCLUSIONS.md",
+      "sha256": "34c766825a8d69bb6100a5715e5de7c95bf3d40cf6f0dc05d8d3850d3565f262",
+      "lines": 26,
+      "headings": [
+        "# V20 Final Research Conclusions"
+      ]
+    },
+    {
+      "file": "V20_FORWARD_RESEARCH_LEDGER.md",
+      "sha256": "61b16edd3fe4e532980c1bc2a4e3286386ea847879cd804261fa956a31626b6c",
+      "lines": 29,
+      "headings": [
+        "# V20 Forward Research Ledger"
+      ]
+    },
+    {
+      "file": "V20_HORIZON_SPECIALIZED_MODELS.md",
+      "sha256": "2fa87288c2f714a8bbb0bc573c0ff5414edc39a70cdb75de2d7595c5712bae11",
+      "lines": 71,
+      "headings": [
+        "# V20 Horizon Specialized Models"
+      ]
+    },
+    {
+      "file": "V20_HORIZON_SPECIALIZED_RISK_MODELS.md",
+      "sha256": "311bf64a67b24b17d820628dd5af4d33fb64df91412067cbc95098887149adc7",
+      "lines": 52,
+      "headings": [
+        "# V20 Horizon Specialized Risk Models"
+      ]
+    },
+    {
+      "file": "V20_HYPOTHESIS_REGISTRY_AND_SEARCH_EFFICIENCY.md",
+      "sha256": "9f98695a8cb38a894a30d154f5fed8b7ce0e80f1f63647b1bb1290c768a456f1",
+      "lines": 26,
+      "headings": [
+        "# V20 Hypothesis Registry And Search Efficiency"
+      ]
+    },
+    {
+      "file": "V20_INFORMATION_COMPLEMENTARITY.md",
+      "sha256": "9506ecea459d2f62a1ed4bf7ee351a01622881d5c64f0a530ac3a58617497915",
+      "lines": 38,
+      "headings": [
+        "# V20 Information Complementarity"
+      ]
+    },
+    {
+      "file": "V20_MONTHLY_POSITIONING_MECHANISMS.md",
+      "sha256": "4d97ea68c7fed9390beb8cd988fa119553a3607f54d0d23b1f39c88a148d189d",
+      "lines": 78,
+      "headings": [
+        "# V20 Monthly Positioning Mechanisms"
+      ]
+    },
+    {
+      "file": "V20_NEXT_EXPERIMENTS.md",
+      "sha256": "57ab219c1ed40b3d9a38540ecf5efc28aed40c62bbc3ac7e1440cd6416c3aa9f",
+      "lines": 9,
+      "headings": [
+        "# V20 Next Experiments"
+      ]
+    },
+    {
+      "file": "V20_PREDICTABILITY_AND_INFORMATION_LIMITS.md",
+      "sha256": "8994871a7f92f9c339e2f63f0581ff6e6021efd53c8ba5e6306bae138314c3b8",
+      "lines": 65,
+      "headings": [
+        "# V20 Predictability And Information Limits"
+      ]
+    },
+    {
+      "file": "V20_PREDICTIVE_INFORMATION_LIFETIMES.md",
+      "sha256": "426c5e70a82981ab748f85ee0c2308d3b903dd3bd495b89b7583b1c6099e2d17",
+      "lines": 115,
+      "headings": [
+        "# V20 Predictive Information Lifetimes",
+        "## Fresh cumulative return CRPS gains at 08:55",
+        "## Fresh later cash-session components at 08:55",
+        "## Age of information and realized-risk gains",
+        "## Gains with positive adjusted lower bounds"
+      ]
+    },
+    {
+      "file": "V20_REPRODUCTION_AND_TIMING_AUDIT.md",
+      "sha256": "a10ce30962435649dbc70200b4ec6a88393881e0e032ff859e397edf1c11f303",
+      "lines": 36,
+      "headings": [
+        "# V20 Reproduction And Timing Audit"
+      ]
+    },
+    {
+      "file": "V20_STRUCTURAL_RESIDUAL_CORRECTIONS.md",
+      "sha256": "efe8a1bb503a70ac95407eccc238a8edc0375b1ee00d5c183507e5627a9c6d95",
+      "lines": 55,
+      "headings": [
+        "# V20 Structural Residual Corrections"
+      ]
+    },
+    {
+      "file": "V20_TEMPORAL_RETURN_DECOMPOSITION.md",
+      "sha256": "9dedba3fc9c989cdcd875c0c73a401200c92a46ce1577544c7701828169c3658",
+      "lines": 64,
+      "headings": [
+        "# V20 Temporal Return Decomposition"
+      ]
+    },
+    {
+      "file": "V20_VALIDATION_AND_FALSIFICATION.md",
+      "sha256": "67e09e8d1a5fb9b126f1ea34a750d804c4384e34d6c2fba56ff081ad9df10d10",
+      "lines": 50,
+      "headings": [
+        "# V20 Validation And Falsification"
+      ]
+    },
+    {
+      "file": "V20_WEEKLY_CORPORATE_INFORMATION_MECHANISMS.md",
+      "sha256": "dca32c7d7ab59b98ef6b9e4329ac1bbef680d85cf940157238b57dc6281452c1",
+      "lines": 38,
+      "headings": [
+        "# V20 Weekly Corporate Information Mechanisms"
+      ]
+    }
+  ],
+  "exact_return_laws": 2892,
+  "earlier_comparisons": "V7 archived auxiliary, V10 directional transfer, V18 corporate event, V19 stock and sector delivery, V20 dependent temporal and late post-week."
+}

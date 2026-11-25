@@ -1,0 +1,23 @@
+{
+  "clocks": [
+    "previous_1700",
+    "preauction_0855"
+  ],
+  "components": [
+    [
+      0,
+      5
+    ],
+    [
+      5,
+      21
+    ]
+  ],
+  "parent": "archived_GJR_component",
+  "parent_file": "V17 retimed OHLC archive, same-clock GJR column",
+  "train": "45 to 140 fully matured component errors",
+  "shift": "0.65 times slope only, capped at 0.009 \u00d7 sqrt(component sessions / 5), plus a separate pure bias control",
+  "controls": "No shift, bias, 5-session participant lag and corporate comparison. Fallback preserves unchanged path component.",
+  "importance": "Follow-up with a path-calibrated parent and same 217 origins for each piece, examining post-first-week placement.",
+  "law": "Add correction to indexed equal-weight log atoms and apply expm1. From the matched 256 inherited GJR paths."
+}

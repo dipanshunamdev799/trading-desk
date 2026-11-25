@@ -1,0 +1,125 @@
+{
+  "notes": [
+    {
+      "horizon": 5,
+      "models": 34,
+      "candidate": "corporate_v18_feature_set",
+      "cases": 265
+    },
+    {
+      "horizon": 21,
+      "models": 38,
+      "candidate": "positions_v19_feature_set",
+      "cases": 217
+    }
+  ],
+  "corporate": {
+    "counts": [
+      "count2",
+      "count9",
+      "count31",
+      "earnings9",
+      "financial9",
+      "issuer_count9"
+    ],
+    "semantics": [
+      "lexical_direction",
+      "positive_rate",
+      "negative_rate",
+      "uncertainty",
+      "text_dispersion",
+      "material_only"
+    ],
+    "structured": [
+      "fund_growth_breadth",
+      "fund_profit_breadth",
+      "fund_surprise",
+      "fund_dispersion",
+      "fund_financial",
+      "fund_price_disagreement"
+    ],
+    "calendar": [
+      "earnings_notice_count",
+      "financial_notice_count",
+      "earnings_issuer_count"
+    ],
+    "price_reaction": [
+      "reaction_mean",
+      "reaction_peer",
+      "reaction_dispersion",
+      "fund_price_disagreement"
+    ],
+    "weighting": [
+      "sector_balanced_fund",
+      "weighted_fund",
+      "financial_sign",
+      "sector_balanced_sign"
+    ]
+  },
+  "position": {
+    "fii_level": [
+      "FII_index_futures_level"
+    ],
+    "fii_changes": [
+      "FII_index_futures_d1",
+      "FII_index_futures_d3",
+      "FII_index_futures_d5",
+      "FII_index_futures_d10",
+      "FII_index_futures_d21"
+    ],
+    "dii_level": [
+      "DII_index_futures_level"
+    ],
+    "pro_level": [
+      "Pro_index_futures_level"
+    ],
+    "gross_exposure": [
+      "FII_index_futures_gross_share",
+      "DII_index_futures_gross_share",
+      "Pro_index_futures_gross_share"
+    ],
+    "concentration": [
+      "index_futures_detail_hhi_z",
+      "index_futures_disagree",
+      "stock_futures_detail_hhi_z"
+    ],
+    "trading_volume": [
+      "fii_gross_volume_share",
+      "participant_volume_z",
+      "fii_stock_vol_share",
+      "pro_option_vol_share"
+    ],
+    "stock_futures": [
+      "FII_stock_futures_level",
+      "FII_stock_futures_d5",
+      "DII_stock_futures_level",
+      "Pro_stock_futures_level"
+    ],
+    "options": [
+      "FII_index_calls_level",
+      "FII_index_puts_level",
+      "FII_index_calls_d5",
+      "FII_index_puts_d5",
+      "index_calls_disagree",
+      "index_puts_disagree"
+    ],
+    "persistence": [
+      "FII_index_futures_slow",
+      "FII_index_futures_accel",
+      "FII_index_futures_z",
+      "DII_index_futures_slow"
+    ],
+    "new_innovations": [
+      "analogue_fii_shock",
+      "analogue_dii_shock",
+      "analogue_fii_rank"
+    ]
+  },
+  "issue": "native_0910",
+  "fitted": "Past outcomes of the published historical prediction, never fitted residuals from the original in-sample model.",
+  "recent_training": "70 origins. Sensitivity omits 21 latest training origins or adds an eight-calendar-day embargo.",
+  "contemporaneous": "V20 reproduces V19 08:55 feature snapshot and 09:10 original use time; preceding evening is a freshness sensitivity evaluated with the same native law at 09:10.",
+  "transform": "Log location shifts, centered log scale/skew, sign-mass reweighting and complete-law mixtures. All published summary quantities implied by stored atoms and weights.",
+  "gate": "Weekly announcement rank >=0.70. Monthly concentration rank >=0.48, volatility rank <=0.82, three days clear of expiry and rollover. Learned gate uses fully matured paired historical Brier gains.",
+  "active": "Min 38 matched matured forecast errors plus available feature block. Fallback is the exact native law."
+}

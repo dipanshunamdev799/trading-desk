@@ -1,0 +1,48 @@
+{
+  "source": [
+    {
+      "year": 2025,
+      "rows": 176022,
+      "file": "artifacts/nifty_forecast_v17/2026-11-25/run-001/sources/source-probes/announcements-2025.json.gz",
+      "sha256": "86f156487ac2f754ef05cd0bcbbd6cedc66676ff6dc5f1cb25e1d7470d8453bf"
+    },
+    {
+      "year": 2026,
+      "rows": 169204,
+      "file": "artifacts/nifty_forecast_v17/2026-11-25/run-001/sources/source-probes/announcements-2026.json.gz",
+      "sha256": "1ce3c527192fc36da05c60ae7af5ad5cea92e30fa75ead4731b09b463144828c"
+    }
+  ],
+  "counts": [
+    {
+      "source_year": 2025,
+      "rows": 176022,
+      "timed": 176022,
+      "duplicates": 11084,
+      "issuers": 2336,
+      "attached": 176022,
+      "amendments": 554
+    },
+    {
+      "source_year": 2026,
+      "rows": 169204,
+      "timed": 169204,
+      "duplicates": 10587,
+      "issuers": 2473,
+      "attached": 169204,
+      "amendments": 586
+    }
+  ],
+  "duplicates": {
+    "representative": 323555,
+    "same_summary_within_36h": 11049,
+    "additional_publication_same_earnings_period": 8387,
+    "identical_attachment": 2235
+  },
+  "seed_rows": 52121,
+  "seed_issuers": 230,
+  "material_rows": 13266,
+  "availability": "Exchange dissemination plus 10 minutes, local IST. Untimed or out-of-vintage observations are inventoried separately.",
+  "feature_source": "Deterministic exchange title and exchange summary regexes. Financial fields enter only from separate published structured records. Attachment links flag availability in the listing. Verified downloads tracked separately.",
+  "dedup": "Exchange sequence, identical attachment, identical text within 36 hours, and same issuer/reporting-period earnings releases where the period was explicit. Revision cues stay visible."
+}

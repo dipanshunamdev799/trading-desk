@@ -1,0 +1,87 @@
+{
+  "registered_at": "2026-11-25T09:39:55.654461+05:30",
+  "historical_scope": [
+    "2025-01-01",
+    "2026-11-17"
+  ],
+  "forward_year": 2026,
+  "clocks_IST": [
+    "08:30",
+    "08:45",
+    "08:55",
+    "09:10",
+    "09:25",
+    "10:20",
+    "17:00"
+  ],
+  "source_delay_minutes": {
+    "base": 60,
+    "tight": 30,
+    "conservative": 180,
+    "close_plus_six_hours": 360,
+    "vendor_date_plus_day": 1440
+  },
+  "seed": 161125,
+  "history": 160,
+  "minimum_training": 54,
+  "bootstrap_draws": 1500,
+  "block_lengths": [
+    5,
+    10,
+    21,
+    42
+  ],
+  "path_draws": 256,
+  "horizons": [
+    5,
+    21
+  ],
+  "original_cohorts": {
+    "5": 265,
+    "21": 217
+  },
+  "window_maturity": "target date strictly earlier than decision day, with a one-complete-session guard on the training outcome",
+  "gap": "official NIFTY open divided by previous official NIFTY close minus one",
+  "directional_experiments": [
+    "archived replay",
+    "neutral",
+    "historical distribution",
+    "previous domestic return/volatility",
+    "single US return",
+    "equal six-market mean",
+    "ridge",
+    "joint sign and magnitude",
+    "Student t location and scale",
+    "shallow nonlinear interactions",
+    "cluster-balanced fit",
+    "first-session decomposition",
+    "matched OHLC session blocks",
+    "reduced-rank multitask",
+    "fixed coherent mixture"
+  ],
+  "falsification": [
+    "strict pre-auction hours",
+    "delay 1/2/5",
+    "smoothed",
+    "foreign week-block shift/permutation",
+    "noise",
+    "drop one market",
+    "publication lag policies",
+    "leave month out",
+    "large gap episodes",
+    "unavailable future state mutation",
+    "copy invariance",
+    "matched refit and reselection"
+  ],
+  "score_families": [
+    "gap timing",
+    "freshness by return target",
+    "disagreement",
+    "domestic sector channels",
+    "multiscale",
+    "conditional risk and range",
+    "fixed barrier and first passage",
+    "gap fill survivor status"
+  ],
+  "inference": "historical research-exposed. Forward refresh separate. Added falsifications reported as diagnostics."
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "url": "https://api.upstox.com/v2/option/chain?instrument_key=NSE_INDEX%7CNifty+50&expiry_date=2026-12-01",
+    "params": null,
+    "request_time": "2026-11-25T19:14:37.838296+05:30",
+    "file": "forward/atm-2026-12-01.json.gz",
+    "status": 200,
+    "received": "2026-11-25T19:14:37.955966+05:30",
+    "server_date": "Wed, 25 Nov 2026 13:44:37 GMT",
+    "content_type": "application/json",
+    "sha256": "d61123047a34f46f065cc52ecf2865fd7ea3b137052020d2cb45b2ee139558c6",
+    "bytes": 17410
+  },
+  {
+    "url": "https://api.upstox.com/v2/option/chain?instrument_key=NSE_INDEX%7CNifty+50&expiry_date=2026-12-08",
+    "params": null,
+    "request_time": "2026-11-25T19:14:37.999143+05:30",
+    "file": "forward/atm-2026-12-08.json.gz",
+    "status": 200,
+    "received": "2026-11-25T19:14:38.038679+05:30",
+    "server_date": "Wed, 25 Nov 2026 13:44:38 GMT",
+    "content_type": "application/json",
+    "sha256": "d26957ac1d749bd81af4383a2fe051a08ca338b2a0e682c0db4652394c747464",
+    "bytes": 14480
+  }
+]

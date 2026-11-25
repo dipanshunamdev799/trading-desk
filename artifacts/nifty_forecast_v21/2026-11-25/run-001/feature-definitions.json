@@ -1,0 +1,93 @@
+{
+  "stock_groups": {
+    "technical": [
+      "ret1",
+      "ret5",
+      "ret21",
+      "relative5",
+      "relative21",
+      "vol21",
+      "turnover_shock",
+      "range_5",
+      "beta",
+      "sector_beta",
+      "sector_lead"
+    ],
+    "market_structure": [
+      "shared_breadth",
+      "shared_finance",
+      "shared_iv",
+      "shared_risk",
+      "cross_dispersion"
+    ],
+    "corporate_counts": [
+      "announcement_count",
+      "material_count"
+    ],
+    "corporate_content": [
+      "announcement_sign",
+      "fundamental_surprise"
+    ],
+    "known_event_reaction": [
+      "event_reaction"
+    ],
+    "stock_participation": [
+      "delivery_rank",
+      "deal_intensity"
+    ]
+  },
+  "market_fields": [
+    "prior5",
+    "prior21",
+    "trailvol",
+    "advance",
+    "dispersion",
+    "market_sync",
+    "proxy_heavy_gap",
+    "cross_downside",
+    "shared_breadth",
+    "shared_finance",
+    "shared_iv",
+    "shared_risk",
+    "position_level",
+    "position_change21",
+    "position_concentration"
+  ],
+  "market_source": {
+    "shared_breadth": "eq500_spread5",
+    "shared_finance": "domestic_rotation_finance",
+    "shared_iv": "iv_prev",
+    "shared_risk": "vix_move",
+    "position_level": "FII_index_futures_level",
+    "position_change21": "FII_index_futures_d21",
+    "position_concentration": "index_futures_detail_hhi_z"
+  },
+  "classes": [
+    "bank",
+    "finance",
+    "it",
+    "auto",
+    "energy",
+    "consumer",
+    "health",
+    "materials",
+    "industrial",
+    "telecom",
+    "other"
+  ],
+  "stock_targets": [
+    "absolute",
+    "market_relative",
+    "sector_relative",
+    "vol_normalized",
+    "outperform_market",
+    "magnitude",
+    "realized_volatility",
+    "factor_residual"
+  ],
+  "technical": "Observed through reference cash close. Relative momentum removes trailing beta against NIFTY. Liquidity shock compares log INR turnover to trailing levels.",
+  "factor": "Cash index beta and sector-relative beta use up to 100 past paired daily observations through the previous cash close. Sector returns later than issue are only training labels.",
+  "fundamentals": "Original V18 eligible timestamp and first statistical result. Previously completed market reaction enters only after recorded eligible reaction.",
+  "positioning": "Market panel only. NSE participant aggregates are never interpreted as positions in individual equities.",
+  "membership": "Monthly official archives under five completed cash-session release allowance plus fixed January liquidity cohort. Training rows must have earlier complete outcomes."
+}

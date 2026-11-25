@@ -1,0 +1,14 @@
+{
+  "checked_at": "2026-11-25T13:55:55.922915+05:30",
+  "reconciled": [
+    {
+      "book": "official-equity-receipt.json",
+      "day": "2025-01-22",
+      "archived": "sources/cash-eod/2025-01-22.zip",
+      "earlier_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "archived_hash": "c371d670bd1abc868539bca4290994ec313f99d82bdf760c10ffe3aebe28f74b",
+      "unchanged_equity_rows": 1995
+    }
+  ],
+  "verification": "Existing official EQ input and the retained ZIP matched record for record. Raw concurrent archive digests are retained when they differed."
+}

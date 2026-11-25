@@ -1,0 +1,39 @@
+complete simple_trend_ema200
+complete simple_momentum60
+complete random_20261111
+complete random_20261112
+complete random_20261113
+complete random_20261114
+complete random_20261115
+complete random_20261116
+complete random_20261117
+complete random_20261118
+complete random_20261119
+complete random_20261120
+complete random_20261121
+complete random_20261122
+complete random_20261123
+complete random_20261124
+complete random_20261125
+complete random_20261126
+complete random_20261127
+complete random_20261128
+complete random_20261129
+complete random_20261130
+            control       stage            cost_scenario  total_return_pct  exposure_pct  n_trades
+simple_trend_ema200 development                 baseline         -0.787208     47.473620      6739
+simple_trend_ema200 development zero_cost_counterfactual         -0.355901     47.569625      6777
+simple_trend_ema200  validation                 baseline         -0.282018     39.012905      2837
+simple_trend_ema200  validation zero_cost_counterfactual         -0.096461     39.119288      2872
+simple_trend_ema200       final                 baseline         -0.343109     46.104875      3425
+simple_trend_ema200       final zero_cost_counterfactual         -0.115617     46.191992      3441
+simple_trend_ema200    two_year                 baseline         -1.425687     45.203954     12833
+simple_trend_ema200    two_year zero_cost_counterfactual         -0.617503     45.287771     12918
+  simple_momentum60 development                 baseline         -0.790721     47.165715      6701
+  simple_momentum60 development zero_cost_counterfactual         -0.345376     47.251341      6742
+  simple_momentum60  validation                 baseline         -0.266226     40.952215      2951
+  simple_momentum60  validation zero_cost_counterfactual         -0.080857     40.981863      2983
+  simple_momentum60       final                 baseline         -0.378460     52.516334      3810
+  simple_momentum60       final zero_cost_counterfactual         -0.133463     52.583347      3831
+  simple_momentum60    two_year                 baseline         -1.433955     47.162261     13257
+  simple_momentum60    two_year zero_cost_counterfactual         -0.561265     47.248657     13355

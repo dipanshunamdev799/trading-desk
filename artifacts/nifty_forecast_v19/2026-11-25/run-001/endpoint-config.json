@@ -1,0 +1,1090 @@
+{
+  "source_clocks": [
+    "previous_1700",
+    "preauction_0855"
+  ],
+  "arms": [
+    {
+      "name": "delivery",
+      "fields": [
+        "del_intensity",
+        "del_high_frac",
+        "del_rising_frac",
+        "del_dispersion",
+        "del_sector_equal",
+        "del_financial_concentration",
+        "del_flow_concentration",
+        "del_adv_high"
+      ],
+      "parent": "clock_structural",
+      "method": "shift",
+      "required": [
+        "delivery"
+      ]
+    },
+    {
+      "name": "participant",
+      "fields": [
+        "FII_index_futures_level",
+        "DII_index_futures_level",
+        "Pro_index_futures_level",
+        "FII_index_futures_d1",
+        "FII_index_futures_d5",
+        "FII_index_futures_d21",
+        "DII_index_futures_d5",
+        "Pro_index_futures_d5",
+        "FII_stock_futures_d5",
+        "FII_index_calls_d5",
+        "index_futures_detail_hhi_z",
+        "stock_futures_detail_hhi_z",
+        "index_futures_disagree",
+        "index_calls_disagree",
+        "fii_gross_volume_share",
+        "failed_breadth_crowding",
+        "derivative_reduction_proxy"
+      ],
+      "parent": "clock_structural",
+      "method": "shift",
+      "required": [
+        "participant"
+      ]
+    },
+    {
+      "name": "transactions",
+      "fields": [
+        "deal_n",
+        "deal_size",
+        "deal_premium",
+        "deal_rolling_balance",
+        "deal_recurrence",
+        "deal_cash_turnover_share"
+      ],
+      "parent": "clock_structural",
+      "method": "shift",
+      "required": [
+        "transactions"
+      ]
+    },
+    {
+      "name": "delivery + participant",
+      "fields": [
+        "del_intensity",
+        "del_high_frac",
+        "del_rising_frac",
+        "del_dispersion",
+        "del_sector_equal",
+        "del_financial_concentration",
+        "del_flow_concentration",
+        "del_adv_high",
+        "FII_index_futures_level",
+        "DII_index_futures_level",
+        "Pro_index_futures_level",
+        "FII_index_futures_d1",
+        "FII_index_futures_d5",
+        "FII_index_futures_d21",
+        "DII_index_futures_d5",
+        "Pro_index_futures_d5",
+        "FII_stock_futures_d5",
+        "FII_index_calls_d5",
+        "index_futures_detail_hhi_z",
+        "stock_futures_detail_hhi_z",
+        "index_futures_disagree",
+        "index_calls_disagree",
+        "fii_gross_volume_share",
+        "failed_breadth_crowding",
+        "derivative_reduction_proxy"
+      ],
+      "parent": "clock_structural",
+      "method": "shift",
+      "required": [
+        "delivery",
+        "participant"
+      ]
+    },
+    {
+      "name": "delivery + transactions",
+      "fields": [
+        "del_intensity",
+        "del_high_frac",
+        "del_rising_frac",
+        "del_dispersion",
+        "del_sector_equal",
+        "del_financial_concentration",
+        "del_flow_concentration",
+        "del_adv_high",
+        "deal_n",
+        "deal_size",
+        "deal_premium",
+        "deal_rolling_balance",
+        "deal_recurrence",
+        "deal_cash_turnover_share"
+      ],
+      "parent": "clock_structural",
+      "method": "shift",
+      "required": [
+        "delivery",
+        "transactions"
+      ]
+    },
+    {
+      "name": "participant + transactions",
+      "fields": [
+        "FII_index_futures_level",
+        "DII_index_futures_level",
+        "Pro_index_futures_level",
+        "FII_index_futures_d1",
+        "FII_index_futures_d5",
+        "FII_index_futures_d21",
+        "DII_index_futures_d5",
+        "Pro_index_futures_d5",
+        "FII_stock_futures_d5",
+        "FII_index_calls_d5",
+        "index_futures_detail_hhi_z",
+        "stock_futures_detail_hhi_z",
+        "index_futures_disagree",
+        "index_calls_disagree",
+        "fii_gross_volume_share",
+        "failed_breadth_crowding",
+        "derivative_reduction_proxy",
+        "deal_n",
+        "deal_size",
+        "deal_premium",
+        "deal_rolling_balance",
+        "deal_recurrence",
+        "deal_cash_turnover_share"
+      ],
+      "parent": "clock_structural",
+      "method": "shift",
+      "required": [
+        "participant",
+        "transactions"
+      ]
+    },
+    {
+      "name": "delivery + participant + transactions",
+      "fields": [
+        "del_intensity",
+        "del_high_frac",
+        "del_rising_frac",
+        "del_dispersion",
+        "del_sector_equal",
+        "del_financial_concentration",
+        "del_flow_concentration",
+        "del_adv_high",
+        "FII_index_futures_level",
+        "DII_index_futures_level",
+        "Pro_index_futures_level",
+        "FII_index_futures_d1",
+        "FII_index_futures_d5",
+        "FII_index_futures_d21",
+        "DII_index_futures_d5",
+        "Pro_index_futures_d5",
+        "FII_stock_futures_d5",
+        "FII_index_calls_d5",
+        "index_futures_detail_hhi_z",
+        "stock_futures_detail_hhi_z",
+        "index_futures_disagree",
+        "index_calls_disagree",
+        "fii_gross_volume_share",
+        "failed_breadth_crowding",
+        "derivative_reduction_proxy",
+        "deal_n",
+        "deal_size",
+        "deal_premium",
+        "deal_rolling_balance",
+        "deal_recurrence",
+        "deal_cash_turnover_share"
+      ],
+      "parent": "clock_structural",
+      "method": "shift",
+      "required": [
+        "delivery",
+        "participant",
+        "transactions"
+      ]
+    },
+    {
+      "name": "residual_intercept",
+      "fields": [],
+      "parent": "clock_structural",
+      "method": "intercept",
+      "required": []
+    },
+    {
+      "name": "price_only",
+      "fields": [
+        "prior_ret5",
+        "prior_ret21",
+        "rolling_rv5",
+        "trailing_vol",
+        "iv_prev",
+        "iv_skew",
+        "iv_term",
+        "vix_level",
+        "basis_previous",
+        "eq50_spread1",
+        "eq500_spread5",
+        "official_finance1",
+        "domestic_rotation_finance"
+      ],
+      "parent": "clock_structural",
+      "method": "direct",
+      "required": []
+    },
+    {
+      "name": "price_ordinary_oi",
+      "fields": [
+        "prior_ret5",
+        "prior_ret21",
+        "rolling_rv5",
+        "trailing_vol",
+        "iv_prev",
+        "iv_skew",
+        "iv_term",
+        "vix_level",
+        "basis_previous",
+        "eq50_spread1",
+        "eq500_spread5",
+        "official_finance1",
+        "domestic_rotation_finance",
+        "ordinary_oi_change",
+        "ordinary_oi_5",
+        "ordinary_oi_concentration",
+        "front_basis",
+        "curve_30d",
+        "days_to_expiry",
+        "roll_event"
+      ],
+      "parent": "price_only",
+      "method": "direct",
+      "required": [
+        "futures"
+      ]
+    },
+    {
+      "name": "price_ordinary_turnover",
+      "fields": [
+        "prior_ret5",
+        "prior_ret21",
+        "rolling_rv5",
+        "trailing_vol",
+        "iv_prev",
+        "iv_skew",
+        "iv_term",
+        "vix_level",
+        "basis_previous",
+        "eq50_spread1",
+        "eq500_spread5",
+        "official_finance1",
+        "domestic_rotation_finance",
+        "del_volume_control",
+        "del_turnover_control",
+        "del_pricectl_advance",
+        "del_pricectl_dispersion"
+      ],
+      "parent": "price_only",
+      "method": "direct",
+      "required": [
+        "delivery"
+      ]
+    },
+    {
+      "name": "positions_direct",
+      "fields": [
+        "FII_index_futures_level",
+        "DII_index_futures_level",
+        "Pro_index_futures_level",
+        "FII_stock_futures_level",
+        "DII_stock_futures_level",
+        "FII_index_calls_level",
+        "FII_index_puts_level",
+        "FII_stock_calls_level",
+        "FII_stock_puts_level",
+        "FII_index_futures_d1",
+        "FII_index_futures_d5",
+        "FII_index_futures_d21",
+        "DII_index_futures_d5",
+        "Pro_index_futures_d5",
+        "FII_stock_futures_d5",
+        "FII_index_calls_d5",
+        "FII_index_puts_d5",
+        "FII_stock_calls_d5",
+        "FII_stock_puts_d5",
+        "FII_index_futures_accel",
+        "FII_index_futures_persist"
+      ],
+      "parent": "clock_structural",
+      "method": "direct",
+      "required": [
+        "participant"
+      ]
+    },
+    {
+      "name": "price_plus_position_level",
+      "fields": [
+        "prior_ret5",
+        "prior_ret21",
+        "rolling_rv5",
+        "trailing_vol",
+        "iv_prev",
+        "iv_skew",
+        "iv_term",
+        "vix_level",
+        "basis_previous",
+        "eq50_spread1",
+        "eq500_spread5",
+        "official_finance1",
+        "domestic_rotation_finance",
+        "ordinary_oi_change",
+        "ordinary_oi_5",
+        "ordinary_oi_concentration",
+        "front_basis",
+        "curve_30d",
+        "days_to_expiry",
+        "roll_event",
+        "FII_index_futures_level",
+        "DII_index_futures_level",
+        "Pro_index_futures_level",
+        "FII_stock_futures_level",
+        "DII_stock_futures_level",
+        "FII_index_calls_level",
+        "FII_index_puts_level",
+        "FII_stock_calls_level",
+        "FII_stock_puts_level"
+      ],
+      "parent": "price_ordinary_oi",
+      "method": "direct",
+      "required": [
+        "participant",
+        "futures"
+      ]
+    },
+    {
+      "name": "price_plus_position_changes",
+      "fields": [
+        "prior_ret5",
+        "prior_ret21",
+        "rolling_rv5",
+        "trailing_vol",
+        "iv_prev",
+        "iv_skew",
+        "iv_term",
+        "vix_level",
+        "basis_previous",
+        "eq50_spread1",
+        "eq500_spread5",
+        "official_finance1",
+        "domestic_rotation_finance",
+        "ordinary_oi_change",
+        "ordinary_oi_5",
+        "ordinary_oi_concentration",
+        "front_basis",
+        "curve_30d",
+        "days_to_expiry",
+        "roll_event",
+        "FII_index_futures_d1",
+        "FII_index_futures_d5",
+        "FII_index_futures_d21",
+        "DII_index_futures_d5",
+        "Pro_index_futures_d5",
+        "FII_stock_futures_d5",
+        "FII_index_calls_d5",
+        "FII_index_puts_d5",
+        "FII_stock_calls_d5",
+        "FII_stock_puts_d5",
+        "FII_index_futures_accel",
+        "FII_index_futures_persist"
+      ],
+      "parent": "price_ordinary_oi",
+      "method": "direct",
+      "required": [
+        "participant",
+        "futures"
+      ]
+    },
+    {
+      "name": "price_plus_innovation",
+      "fields": [
+        "prior_ret5",
+        "prior_ret21",
+        "rolling_rv5",
+        "trailing_vol",
+        "iv_prev",
+        "iv_skew",
+        "iv_term",
+        "vix_level",
+        "basis_previous",
+        "eq50_spread1",
+        "eq500_spread5",
+        "official_finance1",
+        "domestic_rotation_finance",
+        "ordinary_oi_change",
+        "ordinary_oi_5",
+        "ordinary_oi_concentration",
+        "front_basis",
+        "curve_30d",
+        "days_to_expiry",
+        "roll_event",
+        "innovation_1",
+        "innovation_5",
+        "innovation_dii",
+        "innovation_option_call",
+        "innovation_option_put"
+      ],
+      "parent": "price_ordinary_oi",
+      "method": "direct",
+      "required": [
+        "innovation",
+        "futures"
+      ]
+    },
+    {
+      "name": "price_plus_disagreement",
+      "fields": [
+        "prior_ret5",
+        "prior_ret21",
+        "rolling_rv5",
+        "trailing_vol",
+        "iv_prev",
+        "iv_skew",
+        "iv_term",
+        "vix_level",
+        "basis_previous",
+        "eq50_spread1",
+        "eq500_spread5",
+        "official_finance1",
+        "domestic_rotation_finance",
+        "ordinary_oi_change",
+        "ordinary_oi_5",
+        "ordinary_oi_concentration",
+        "front_basis",
+        "curve_30d",
+        "days_to_expiry",
+        "roll_event",
+        "index_futures_detail_hhi_z",
+        "stock_futures_detail_hhi_z",
+        "index_futures_disagree",
+        "index_calls_disagree",
+        "fii_gross_volume_share",
+        "failed_breadth_crowding",
+        "derivative_reduction_proxy"
+      ],
+      "parent": "price_ordinary_oi",
+      "method": "direct",
+      "required": [
+        "participant",
+        "futures"
+      ]
+    },
+    {
+      "name": "clock_with_oi_volume",
+      "fields": [
+        "ordinary_oi_change",
+        "ordinary_oi_5",
+        "ordinary_oi_concentration",
+        "front_basis",
+        "curve_30d",
+        "days_to_expiry",
+        "roll_event",
+        "del_volume_control",
+        "del_turnover_control",
+        "del_pricectl_advance",
+        "del_pricectl_dispersion"
+      ],
+      "parent": "clock_structural",
+      "method": "shift",
+      "required": [
+        "futures",
+        "delivery"
+      ]
+    },
+    {
+      "name": "positions_beyond_oi",
+      "fields": [
+        "FII_index_futures_level",
+        "DII_index_futures_level",
+        "Pro_index_futures_level",
+        "FII_index_futures_d1",
+        "FII_index_futures_d5",
+        "FII_index_futures_d21",
+        "DII_index_futures_d5",
+        "Pro_index_futures_d5",
+        "FII_stock_futures_d5",
+        "FII_index_calls_d5",
+        "index_futures_detail_hhi_z",
+        "stock_futures_detail_hhi_z",
+        "index_futures_disagree",
+        "index_calls_disagree",
+        "fii_gross_volume_share",
+        "failed_breadth_crowding",
+        "derivative_reduction_proxy"
+      ],
+      "parent": "clock_with_oi_volume",
+      "method": "shift",
+      "required": [
+        "participant",
+        "futures"
+      ]
+    },
+    {
+      "name": "delivery_beyond_turnover",
+      "fields": [
+        "del_intensity",
+        "del_high_frac",
+        "del_rising_frac",
+        "del_dispersion",
+        "del_sector_equal",
+        "del_financial_concentration",
+        "del_flow_concentration",
+        "del_adv_high",
+        "del_dec_high",
+        "del_consolidation",
+        "del_up_low",
+        "del_down_low",
+        "del_volatility_concentration"
+      ],
+      "parent": "clock_with_oi_volume",
+      "method": "shift",
+      "required": [
+        "delivery"
+      ]
+    },
+    {
+      "name": "deals_beyond_turnover",
+      "fields": [
+        "deal_n",
+        "deal_size",
+        "deal_premium",
+        "deal_rolling_balance",
+        "deal_recurrence",
+        "deal_cash_turnover_share",
+        "deal_block_share",
+        "deal_elevated"
+      ],
+      "parent": "clock_with_oi_volume",
+      "method": "shift",
+      "required": [
+        "transactions"
+      ]
+    },
+    {
+      "name": "innovation_augmentation",
+      "fields": [
+        "innovation_1",
+        "innovation_5",
+        "innovation_dii",
+        "innovation_option_call",
+        "innovation_option_put"
+      ],
+      "parent": "clock_structural",
+      "method": "shift",
+      "required": [
+        "innovation"
+      ]
+    },
+    {
+      "name": "levels_only",
+      "fields": [
+        "FII_index_futures_level",
+        "DII_index_futures_level",
+        "Pro_index_futures_level",
+        "FII_stock_futures_level",
+        "DII_stock_futures_level",
+        "FII_index_calls_level",
+        "FII_index_puts_level",
+        "FII_stock_calls_level",
+        "FII_stock_puts_level"
+      ],
+      "parent": "clock_structural",
+      "method": "shift",
+      "required": [
+        "participant"
+      ]
+    },
+    {
+      "name": "changes_only",
+      "fields": [
+        "FII_index_futures_d1",
+        "FII_index_futures_d5",
+        "FII_index_futures_d21",
+        "DII_index_futures_d5",
+        "Pro_index_futures_d5",
+        "FII_stock_futures_d5",
+        "FII_index_calls_d5",
+        "FII_index_puts_d5",
+        "FII_stock_calls_d5",
+        "FII_stock_puts_d5",
+        "FII_index_futures_accel",
+        "FII_index_futures_persist"
+      ],
+      "parent": "clock_structural",
+      "method": "shift",
+      "required": [
+        "participant"
+      ]
+    },
+    {
+      "name": "position_with_compact_factors",
+      "fields": [
+        "FII_index_futures_level",
+        "FII_index_futures_d1",
+        "FII_index_futures_d5",
+        "innovation_1",
+        "innovation_5",
+        "innovation_dii",
+        "innovation_option_call",
+        "innovation_option_put",
+        "del_sector_equal",
+        "del_high_frac",
+        "deal_size"
+      ],
+      "parent": "clock_structural",
+      "method": "shift",
+      "required": [
+        "innovation",
+        "delivery",
+        "transactions"
+      ]
+    },
+    {
+      "name": "corporate_position_additive",
+      "fields": [
+        "FII_index_futures_level",
+        "DII_index_futures_level",
+        "Pro_index_futures_level",
+        "FII_index_futures_d1",
+        "FII_index_futures_d5",
+        "FII_index_futures_d21",
+        "DII_index_futures_d5",
+        "Pro_index_futures_d5",
+        "FII_stock_futures_d5",
+        "FII_index_calls_d5",
+        "index_futures_detail_hhi_z",
+        "stock_futures_detail_hhi_z",
+        "index_futures_disagree",
+        "index_calls_disagree",
+        "fii_gross_volume_share",
+        "failed_breadth_crowding",
+        "derivative_reduction_proxy",
+        "del_intensity",
+        "del_high_frac",
+        "del_rising_frac",
+        "del_dispersion",
+        "del_sector_equal",
+        "del_financial_concentration",
+        "del_flow_concentration",
+        "del_adv_high",
+        "del_dec_high",
+        "del_consolidation",
+        "del_up_low",
+        "del_down_low",
+        "del_volatility_concentration",
+        "deal_n",
+        "deal_size",
+        "deal_premium",
+        "deal_rolling_balance",
+        "deal_recurrence",
+        "deal_cash_turnover_share",
+        "deal_block_share",
+        "deal_elevated"
+      ],
+      "parent": "V18_corporate_same_clock",
+      "method": "shift",
+      "required": [
+        "participant",
+        "delivery",
+        "transactions"
+      ]
+    },
+    {
+      "name": "corporate_position_interactions",
+      "fields": [
+        "FII_index_futures_level",
+        "DII_index_futures_level",
+        "Pro_index_futures_level",
+        "FII_index_futures_d1",
+        "FII_index_futures_d5",
+        "FII_index_futures_d21",
+        "DII_index_futures_d5",
+        "del_intensity",
+        "del_high_frac",
+        "del_rising_frac",
+        "del_dispersion",
+        "del_sector_equal",
+        "del_financial_concentration",
+        "del_flow_concentration",
+        "del_adv_high",
+        "fund_delivery",
+        "earnings_positions",
+        "weak_fund_breadth",
+        "disclosure_concentration",
+        "financial_positions",
+        "scheduled_market_risk"
+      ],
+      "parent": "V18_corporate_same_clock",
+      "method": "shift",
+      "required": [
+        "participant",
+        "delivery"
+      ]
+    },
+    {
+      "name": "position_location_scale",
+      "fields": [
+        "FII_index_futures_level",
+        "DII_index_futures_level",
+        "Pro_index_futures_level",
+        "FII_index_futures_d1",
+        "FII_index_futures_d5",
+        "FII_index_futures_d21",
+        "DII_index_futures_d5",
+        "Pro_index_futures_d5",
+        "FII_stock_futures_d5",
+        "FII_index_calls_d5",
+        "index_futures_detail_hhi_z",
+        "stock_futures_detail_hhi_z",
+        "index_futures_disagree",
+        "index_calls_disagree",
+        "fii_gross_volume_share",
+        "failed_breadth_crowding",
+        "derivative_reduction_proxy",
+        "del_intensity",
+        "del_high_frac",
+        "del_rising_frac",
+        "del_dispersion",
+        "del_sector_equal",
+        "del_financial_concentration",
+        "del_flow_concentration",
+        "del_adv_high",
+        "del_dec_high",
+        "del_consolidation",
+        "del_up_low",
+        "del_down_low",
+        "del_volatility_concentration",
+        "deal_n",
+        "deal_size",
+        "deal_premium",
+        "deal_rolling_balance",
+        "deal_recurrence",
+        "deal_cash_turnover_share",
+        "deal_block_share",
+        "deal_elevated",
+        "innovation_1",
+        "innovation_5",
+        "innovation_dii",
+        "innovation_option_call",
+        "innovation_option_put"
+      ],
+      "parent": "clock_structural",
+      "method": "shape",
+      "required": [
+        "innovation",
+        "delivery",
+        "transactions"
+      ]
+    },
+    {
+      "name": "structural_position_mixture",
+      "fields": [
+        "FII_index_futures_level",
+        "FII_index_futures_d1",
+        "FII_index_futures_d5",
+        "innovation_1",
+        "innovation_5",
+        "innovation_dii",
+        "innovation_option_call",
+        "innovation_option_put",
+        "del_sector_equal",
+        "del_high_frac",
+        "deal_size"
+      ],
+      "parent": "clock_structural",
+      "method": "mix",
+      "required": [
+        "innovation",
+        "delivery",
+        "transactions"
+      ]
+    },
+    {
+      "name": "decomposition_position",
+      "fields": [
+        "FII_index_futures_level",
+        "DII_index_futures_level",
+        "Pro_index_futures_level",
+        "FII_index_futures_d1",
+        "FII_index_futures_d5",
+        "FII_index_futures_d21",
+        "DII_index_futures_d5",
+        "Pro_index_futures_d5",
+        "FII_stock_futures_d5",
+        "FII_index_calls_d5",
+        "index_futures_detail_hhi_z",
+        "stock_futures_detail_hhi_z",
+        "index_futures_disagree",
+        "index_calls_disagree",
+        "fii_gross_volume_share",
+        "failed_breadth_crowding",
+        "derivative_reduction_proxy",
+        "innovation_1",
+        "innovation_5",
+        "innovation_dii",
+        "innovation_option_call",
+        "innovation_option_put"
+      ],
+      "parent": "component_plus_residual",
+      "method": "shift",
+      "required": [
+        "innovation"
+      ]
+    },
+    {
+      "name": "participant_delay1",
+      "fields": [
+        "FII_index_futures_level_delay1",
+        "DII_index_futures_level_delay1",
+        "Pro_index_futures_level_delay1",
+        "FII_index_futures_d1_delay1",
+        "FII_index_futures_d5_delay1",
+        "FII_index_futures_d21_delay1",
+        "DII_index_futures_d5_delay1",
+        "Pro_index_futures_d5_delay1",
+        "FII_stock_futures_d5_delay1",
+        "FII_index_calls_d5_delay1",
+        "index_futures_detail_hhi_z_delay1",
+        "stock_futures_detail_hhi_z_delay1",
+        "index_futures_disagree_delay1",
+        "index_calls_disagree_delay1",
+        "fii_gross_volume_share_delay1",
+        "failed_breadth_crowding_delay1",
+        "derivative_reduction_proxy_delay1"
+      ],
+      "parent": "clock_structural",
+      "method": "shift",
+      "required": [
+        "participant_delay1"
+      ]
+    },
+    {
+      "name": "participant_delay5",
+      "fields": [
+        "FII_index_futures_level_delay5",
+        "DII_index_futures_level_delay5",
+        "Pro_index_futures_level_delay5",
+        "FII_index_futures_d1_delay5",
+        "FII_index_futures_d5_delay5",
+        "FII_index_futures_d21_delay5",
+        "DII_index_futures_d5_delay5",
+        "Pro_index_futures_d5_delay5",
+        "FII_stock_futures_d5_delay5",
+        "FII_index_calls_d5_delay5",
+        "index_futures_detail_hhi_z_delay5",
+        "stock_futures_detail_hhi_z_delay5",
+        "index_futures_disagree_delay5",
+        "index_calls_disagree_delay5",
+        "fii_gross_volume_share_delay5",
+        "failed_breadth_crowding_delay5",
+        "derivative_reduction_proxy_delay5"
+      ],
+      "parent": "clock_structural",
+      "method": "shift",
+      "required": [
+        "participant_delay5"
+      ]
+    },
+    {
+      "name": "participant_block_permuted",
+      "fields": [
+        "FII_index_futures_level",
+        "DII_index_futures_level",
+        "Pro_index_futures_level",
+        "FII_index_futures_d1",
+        "FII_index_futures_d5",
+        "FII_index_futures_d21",
+        "DII_index_futures_d5",
+        "Pro_index_futures_d5",
+        "FII_stock_futures_d5",
+        "FII_index_calls_d5",
+        "index_futures_detail_hhi_z",
+        "stock_futures_detail_hhi_z",
+        "index_futures_disagree",
+        "index_calls_disagree",
+        "fii_gross_volume_share",
+        "failed_breadth_crowding",
+        "derivative_reduction_proxy"
+      ],
+      "parent": "clock_structural",
+      "method": "permuted",
+      "required": [
+        "participant"
+      ]
+    },
+    {
+      "name": "delivery_25_window",
+      "fields": [
+        "del_z25",
+        "del_high_frac",
+        "del_rising_frac",
+        "del_dispersion"
+      ],
+      "parent": "clock_structural",
+      "method": "shift",
+      "required": [
+        "delivery"
+      ]
+    },
+    {
+      "name": "delivery_liquidity_weight",
+      "fields": [
+        "del_weight_liquid",
+        "del_high_frac",
+        "del_rising_frac",
+        "del_dispersion"
+      ],
+      "parent": "clock_structural",
+      "method": "shift",
+      "required": [
+        "delivery"
+      ]
+    },
+    {
+      "name": "delivery_without_top_15",
+      "fields": [
+        "del_ex_heavy",
+        "del_high_frac",
+        "del_rising_frac",
+        "del_dispersion"
+      ],
+      "parent": "clock_structural",
+      "method": "shift",
+      "required": [
+        "delivery"
+      ]
+    },
+    {
+      "name": "delivery_ex_actions",
+      "fields": [
+        "del_no_actions",
+        "del_high_frac",
+        "del_rising_frac",
+        "del_dispersion"
+      ],
+      "parent": "clock_structural",
+      "method": "shift",
+      "required": [
+        "delivery"
+      ]
+    },
+    {
+      "name": "delivery_random_half0",
+      "fields": [
+        "del_half0",
+        "del_high_frac",
+        "del_rising_frac",
+        "del_dispersion"
+      ],
+      "parent": "clock_structural",
+      "method": "shift",
+      "required": [
+        "delivery"
+      ]
+    },
+    {
+      "name": "delivery_random_half1",
+      "fields": [
+        "del_half1",
+        "del_high_frac",
+        "del_rising_frac",
+        "del_dispersion"
+      ],
+      "parent": "clock_structural",
+      "method": "shift",
+      "required": [
+        "delivery"
+      ]
+    },
+    {
+      "name": "deals_without_largest",
+      "fields": [
+        "deal_without_largest",
+        "deal_premium",
+        "deal_rolling_balance",
+        "deal_recurrence",
+        "deal_cash_turnover_share"
+      ],
+      "parent": "clock_structural",
+      "method": "shift",
+      "required": [
+        "transactions"
+      ]
+    },
+    {
+      "name": "deals_all_reported_legs",
+      "fields": [
+        "deal_naive_amount",
+        "deal_premium",
+        "deal_rolling_balance",
+        "deal_recurrence",
+        "deal_cash_turnover_share"
+      ],
+      "parent": "clock_structural",
+      "method": "shift",
+      "required": [
+        "transactions"
+      ]
+    },
+    {
+      "name": "deals_date_shift",
+      "fields": [
+        "deal_n_delay5",
+        "deal_size_delay5",
+        "deal_premium_delay5",
+        "deal_rolling_balance_delay5",
+        "deal_recurrence_delay5",
+        "deal_cash_turnover_share_delay5",
+        "deal_block_share_delay5",
+        "deal_elevated_delay5"
+      ],
+      "parent": "clock_structural",
+      "method": "shift",
+      "required": [
+        "transactions_delay5"
+      ]
+    }
+  ],
+  "archive_references": {
+    "clock_structural": "clock_structural",
+    "component_plus_residual": "component_plus_residual",
+    "neutral": "neutral",
+    "historical": "historical",
+    "stock_direct": "stock_direct",
+    "stock_residual": "stock_residual",
+    "low_rank_sector_risk": "low_rank_sector_risk",
+    "V18_corporate_same_clock": "fundamental_augmentation",
+    "V18_nonprice_same_clock": "additional_nonprice",
+    "V18_repricing_same_clock": "expectation_repricing"
+  },
+  "null": [
+    "participant",
+    "delivery",
+    "interactions"
+  ],
+  "native_models": {
+    "V14_exact": "V14_plus_positions",
+    "V14_event_overlay": "V18_plus_positions"
+  },
+  "shrinkage": 0.58,
+  "penalty": 175,
+  "n_train": [
+    38,
+    140
+  ],
+  "return_units": "The endpoint atom arrays store log returns. Scores are arithmetic returns. Native laws store arithmetic returns and their exact weights.",
+  "intended_cohorts": {
+    "5": 265,
+    "21": 217
+  },
+  "case_models": 49164,
+  "weighted_native_case_models": 1928,
+  "fit_receipts": 37826
+}

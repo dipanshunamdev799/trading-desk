@@ -1,0 +1,207 @@
+{
+  "records": [
+    {
+      "model": "weekly_symmetric",
+      "target_sessions": [
+        "2026-11-26",
+        "2026-11-27",
+        "2026-11-30",
+        "2026-12-01",
+        "2026-12-02"
+      ],
+      "horizon": 5,
+      "law": "forward/weekly-symmetric.npz",
+      "law_sha256": "ca32f6f5beddc044b5d845d79550a4fd0885b067f9b7598f617752fcb884a8e5",
+      "p_up": 0.5,
+      "q10": -0.023282232919145086,
+      "median": 0.0,
+      "q90": 0.023282232919145083,
+      "train_n": 140,
+      "configuration": {
+        "model": "Symmetric empirical magnitudes",
+        "calibration": "140 frozen fully mature five-session returns"
+      },
+      "configuration_hash": "f1337423b2e2e09da44a7b1dc89162d7b73cada4a29ebd6a64ebe4858aaf3fc7",
+      "issued_at": "2026-11-25T19:14:38.156037+05:30",
+      "information_cutoff": "2026-11-25T19:14:38.156037+05:30",
+      "reference_session": "2026-11-25",
+      "reference_close": 25819.25,
+      "first_target": "2026-11-26",
+      "target": "2026-12-02",
+      "issue_class": "prospective research at cash-close/evening clock",
+      "matched_benchmark": "Eligible historical/neutral and IV/GJR families at their own clocks"
+    },
+    {
+      "model": "monthly_student_t_egarch_expansion",
+      "target_sessions": [
+        "2026-11-26",
+        "2026-11-27",
+        "2026-11-30",
+        "2026-12-01",
+        "2026-12-02",
+        "2026-12-03",
+        "2026-12-04",
+        "2026-12-07",
+        "2026-12-08",
+        "2026-12-09",
+        "2026-12-10",
+        "2026-12-11",
+        "2026-12-14",
+        "2026-12-15",
+        "2026-12-16",
+        "2026-12-17",
+        "2026-12-18",
+        "2026-12-21",
+        "2026-12-22",
+        "2026-12-23",
+        "2026-12-24"
+      ],
+      "horizon": 21,
+      "law": "forward/student-egarch-21.npz",
+      "law_sha256": "2b28c798285b1540237f2e212bd352cde20ada2236f7285224a206a023fcc65d",
+      "transition_threshold": 0.22791890223724404,
+      "p_expansion": 0.06705729166666667,
+      "q10": 0.0962771532142595,
+      "median": 0.14099597632684757,
+      "q90": 0.212470915195705,
+      "train_n": 470,
+      "configuration": {
+        "form": "egarch",
+        "distribution": "student",
+        "mu": -0.5182549723021871,
+        "beta": 0.9808079365564843,
+        "alpha": 0.18289034241182958,
+        "leverage": -0.08334019711778996,
+        "nu": 11.044952790222133,
+        "skew": 0.0,
+        "exog": "none",
+        "initial": 0.79249299511728,
+        "ok": true,
+        "objective": 1.154965064783074,
+        "raw_parameters": [
+          -0.5182549723021871,
+          0.9808079365564843,
+          0.18289034241182958,
+          -0.08334019711778996,
+          11.044952790222133
+        ],
+        "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "next_variance": 0.9759474647622682,
+        "calibration": "Close-only EGARCH-t re-estimation anchored to the post-close information set",
+        "seed": 201125
+      },
+      "configuration_hash": "d888450527a336af48b8936a08a4fa3a5d02a60b7da517e68699b8e8c84d2b8b",
+      "issued_at": "2026-11-25T19:14:38.156037+05:30",
+      "information_cutoff": "2026-11-25T19:14:38.156037+05:30",
+      "reference_session": "2026-11-25",
+      "reference_close": 25819.25,
+      "first_target": "2026-11-26",
+      "target": "2026-12-24",
+      "issue_class": "prospective research at cash-close/evening clock",
+      "matched_benchmark": "Eligible historical/neutral and IV/GJR families at their own clocks"
+    },
+    {
+      "model": "cash_close_ATM_IV",
+      "target_sessions": [
+        "2026-11-26",
+        "2026-11-27",
+        "2026-11-30",
+        "2026-12-01",
+        "2026-12-02"
+      ],
+      "horizon": 5,
+      "law": "forward/cash_close_ATM_IV.npz",
+      "law_sha256": "cbb70dee9f22380a04c2e02e3c58507b3d89bca63d6eb5da11c77ff5f0c6fdd9",
+      "q10": 0.09505334511151972,
+      "q90": 0.31874526693954575,
+      "median": 0.1636901694569963,
+      "annualized_point": 0.16527269812312603,
+      "configuration": {
+        "blend_weights": [
+          1,
+          0
+        ],
+        "valid_quoted_ATM": [
+          [
+            "2026-12-01",
+            25800.0,
+            0.16509999999999997
+          ],
+          [
+            "2026-12-08",
+            25800.0,
+            0.16574999999999998
+          ]
+        ],
+        "formula": "Total variance interpolation between current authenticated call/put ATM marks. Empirical volatility shape."
+      },
+      "configuration_hash": "d899e918e0fe2955bf6050fa7d033f57787d6ecc636b10e7e736f851c84571f4",
+      "issued_at": "2026-11-25T19:14:38.156037+05:30",
+      "information_cutoff": "2026-11-25T19:14:38.156037+05:30",
+      "reference_session": "2026-11-25",
+      "reference_close": 25819.25,
+      "first_target": "2026-11-26",
+      "target": "2026-12-02",
+      "issue_class": "prospective research at cash-close/evening clock",
+      "matched_benchmark": "Eligible historical/neutral and IV/GJR families at their own clocks"
+    },
+    {
+      "model": "cash_close_IV_RV_blend",
+      "target_sessions": [
+        "2026-11-26",
+        "2026-11-27",
+        "2026-11-30",
+        "2026-12-01",
+        "2026-12-02"
+      ],
+      "horizon": 5,
+      "law": "forward/cash_close_IV_RV_blend.npz",
+      "law_sha256": "b7252f30a0c238a25e0f5dd7733ac3a77399a0f4d90f78561da21fb72e8eddfe",
+      "q10": 0.09750662454551706,
+      "q90": 0.32697192332022695,
+      "median": 0.1679149310980016,
+      "annualized_point": 0.1695383040397933,
+      "configuration": {
+        "blend_weights": [
+          0.75,
+          0.25
+        ],
+        "valid_quoted_ATM": [
+          [
+            "2026-12-01",
+            25800.0,
+            0.16509999999999997
+          ],
+          [
+            "2026-12-08",
+            25800.0,
+            0.16574999999999998
+          ]
+        ],
+        "formula": "Total variance interpolation between current authenticated call/put ATM marks. Empirical volatility shape."
+      },
+      "configuration_hash": "9d73c2cfa2a24d5898a7e174706aa0fcc5cec8339464f64c3f2ba3546de4c4f6",
+      "issued_at": "2026-11-25T19:14:38.156037+05:30",
+      "information_cutoff": "2026-11-25T19:14:38.156037+05:30",
+      "reference_session": "2026-11-25",
+      "reference_close": 25819.25,
+      "first_target": "2026-11-26",
+      "target": "2026-12-02",
+      "issue_class": "prospective research at cash-close/evening clock",
+      "matched_benchmark": "Eligible historical/neutral and IV/GJR families at their own clocks"
+    }
+  ],
+  "close_source": {
+    "day": "2026-11-25",
+    "ohlc": {
+      "open": 25658.35,
+      "high": 25951.65,
+      "low": 25619.0,
+      "close": 25819.25
+    },
+    "file": "forward/2026-11-25T184420/NSE-2026-11-25.csv",
+    "archive": "V19",
+    "sha256": "15a9a54ed873a3ad008b37edfe4c9d65ddfc97e167a358a18f5c18c57c484bfd"
+  },
+  "operation": "Evening research reference. V14, V18, native V19 positioning and offshore opening retain their own morning guards. Monthly neutral and both GJR laws were already genuinely frozen in V19."
+}

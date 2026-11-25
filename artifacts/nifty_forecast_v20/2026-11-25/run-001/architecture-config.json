@@ -1,0 +1,23 @@
+{
+  "systems": [
+    "archived_same_clock",
+    "archived_joint_GJR",
+    "A_one_shared_head",
+    "B_separate_heads",
+    "B_equal_fields_control",
+    "C_shared_state_two_heads",
+    "D_core_with_horizon_residual",
+    "E_sparse_horizon_inputs",
+    "F_regularized_multihorizon",
+    "G_fixed_specialized_mixture",
+    "auxiliary_sector_shared_heads"
+  ],
+  "sparse": {
+    "weekly": 5,
+    "monthly": 5
+  },
+  "parent": "V17 exact session-decomposition atoms for five sessions and symmetric neutral atoms for the monthly forecast. V15-style same-clock GJR path endpoint is a separate control.",
+  "location": "Every fitted head uses the same empirical parent shape. Individual heads change only location; mixture preserves both laws. Head training uses the same mature monthly windows across horizons.",
+  "auxiliary": "Native bank and IT relative index returns are auxiliary targets on the same dates in a reduced-rank model. No extra NIFTY outcomes are counted.",
+  "temporal": "Four unseen future log components. Joint residual rows are preserved or deliberately permuted for an independence control. Monthly endpoints compound the same atoms."
+}

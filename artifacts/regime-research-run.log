@@ -1,0 +1,46 @@
+C:\Users\ME\Desktop\trading-desk\research\regime_opportunities\framework.py:46: RuntimeWarning: All-NaN slice encountered
+  sec=sector.reindex(dates).to_numpy();ret=sec/np.vstack([np.full((60,sec.shape[1]),np.nan),sec[:-60]])-1;spread=np.nanmax(ret,axis=1)-np.nanmin(ret,axis=1);delta=spread-prior_median(spread)
+C:\Users\ME\Desktop\trading-desk\.venv\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1997: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+C:\Users\ME\Desktop\trading-desk\research\regime_opportunities\framework.py:64: RuntimeWarning: All-NaN slice encountered
+  cm=np.nanmedian(corr,axis=0);delta=align(cm-prior_median(cm))
+C:\Users\ME\Desktop\trading-desk\research\regime_opportunities\framework.py:66: RuntimeWarning: All-NaN slice encountered
+  volmean=pd.DataFrame(vstock.T).rolling(20,min_periods=20).mean().shift().to_numpy().T;participation=align(np.nanmedian(vstock/volmean,axis=0))
+C:\Users\ME\Desktop\trading-desk\research\regime_opportunities\forward.py:57: RuntimeWarning: Mean of empty slice
+  mean=np.nanmean(sr,axis=0);fraction=np.nanmean(np.where(np.isfinite(sr),(sr>0).astype(float),np.nan),axis=0)*100
+FORWARD_HORIZON 5 complete
+C:\Users\ME\Desktop\trading-desk\research\regime_opportunities\forward.py:77: RuntimeWarning: Mean of empty slice
+  which=np.asarray([stock['sector'][s]==sector for s in eligible]);sectorrows.append(dict(stage=stage,regime=name,sector=sector,stocks=int(which.sum()),signal_dates=int(on.sum()),mean_forward10_pct=float(np.nanmean(sr[which][:,on])),basis='frozen_cohort_sector_proxy'))
+FORWARD_HORIZON 10 complete
+FORWARD_HORIZON 20 complete
+FORWARD_COMPLETE 7548
+concurrent.futures.process._RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "C:\Python315\Lib\concurrent\futures\process.py", line 255, in _process_worker
+    r = call_item.fn(*call_item.args, **call_item.kwargs)
+  File "C:\Users\ME\Desktop\trading-desk\scripts\research_regimes.py", line 41, in job
+    r=simulate(Q,orders(Q,mask),start,end,cost=2 if stress else 1,slip_bps=10 if stress else 5,hold_only=style=='buyhold10')
+  File "C:\Users\ME\Desktop\trading-desk\research\regime_opportunities\engine.py", line 61, in simulate
+    tr=np.asarray(trades,float).reshape(-1,len(TRADE_COLUMNS));nav=np.asarray(nav)
+                                               ^^^^^^^^^^^^^
+NameError: name 'TRADE_COLUMNS' is not defined
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ME\Desktop\trading-desk\scripts\research_regimes.py", line 85, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "C:\Users\ME\Desktop\trading-desk\scripts\research_regimes.py", line 68, in main
+    development=run_tasks(pool,[(r,s,'development',seeds,False) for r in regimes for s in styles])
+  File "C:\Users\ME\Desktop\trading-desk\scripts\research_regimes.py", line 49, in run_tasks
+    rows+=f.result()
+          ~~~~~~~~^^
+  File "C:\Python315\Lib\concurrent\futures\_base.py", line 447, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python315\Lib\concurrent\futures\_base.py", line 396, in __get_result
+    raise self._exception
+NameError: name 'TRADE_COLUMNS' is not defined

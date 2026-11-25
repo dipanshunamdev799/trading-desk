@@ -1,0 +1,204 @@
+(node:23444) [DEP0060] DeprecationWarning: The `util._extend` API is deprecated. Please use Object.assign() instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Failed to proxy http://127.0.0.1:8000/options/max-pain?expiry=2026-11-03&instrument_key=NSE_INDEX%7CNifty%2050&view=latest Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:2021:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8000
+}
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:2021:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8000
+}
+Failed to proxy http://127.0.0.1:8000/market/live Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:2021:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8000
+}
+Failed to proxy http://127.0.0.1:8000/credit-spreads/dashboard Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:2021:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8000
+}
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:2021:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8000
+}
+Failed to proxy http://127.0.0.1:8000/credit-spreads/market?expiry=2026-11-09 Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:2021:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8000
+}
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:2021:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8000
+}
+Failed to proxy http://127.0.0.1:8000/credit-spreads/chart?interval=1hour Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:2021:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8000
+}
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:2021:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8000
+}
+Failed to proxy http://127.0.0.1:8000/market/live Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:2021:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8000
+}
+Failed to proxy http://127.0.0.1:8000/health Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:2021:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8000
+}
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:2021:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8000
+}
+Failed to proxy http://127.0.0.1:8000/market/live Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20) {
+  errno: -4077,
+  code: 'ECONNRESET',
+  syscall: 'read'
+}
+Failed to proxy http://127.0.0.1:8000/market/live Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20) {
+  errno: -4077,
+  code: 'ECONNRESET',
+  syscall: 'read'
+}
+Failed to proxy http://127.0.0.1:8000/market/live Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20) {
+  errno: -4077,
+  code: 'ECONNRESET',
+  syscall: 'read'
+}
+Failed to proxy http://127.0.0.1:8000/credit-spreads/dashboard Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:2021:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8000
+}
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:2021:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8000
+}
+Failed to proxy http://127.0.0.1:8000/options/max-pain?expiry=2026-11-03&instrument_key=NSE_INDEX%7CNifty%2050&view=latest Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:2021:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8000
+}
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:2021:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8000
+}
+Failed to proxy http://127.0.0.1:8000/options/max-pain?expiry=2026-11-03&instrument_key=NSE_INDEX%7CNifty%2050&view=latest Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:2021:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8000
+}
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:2021:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8000
+}
+Failed to proxy http://127.0.0.1:8000/market/live Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:2021:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8000
+}
+Failed to proxy http://127.0.0.1:8000/market/live Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:2021:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8000
+}
+Failed to proxy http://127.0.0.1:8000/market/live Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:2021:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8000
+}
+Failed to proxy http://127.0.0.1:8000/credit-spreads/dashboard Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:2021:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8000
+}
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:2021:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8000
+}
