@@ -1,0 +1,131 @@
+[
+  {
+    "name": "nse-revised-preopen",
+    "url": "https://nsearchives.nseindia.com/web/mediaattachment/2026-10/FAQs_on_Closing_Auction_Session_CAS_in_the_CM_and_changes_in_FO_Segment_ver3_20261023220345.pdf",
+    "sent": "2026-11-25T09:58:08.937971+05:30",
+    "status": 200,
+    "server_date": "Wed, 25 Nov 2026 04:28:09 GMT",
+    "received": "2026-11-25T09:58:09.393095+05:30",
+    "file": "sources/calendar/nse-revised-preopen.pdf",
+    "sha256": "26385c3360e23d649c9610a9f0b0c7f5ae8b714df2f4a971ea1a00b1e5ddd767",
+    "bytes": 367581
+  },
+  {
+    "name": "nse-cas",
+    "url": "https://www.nseindia.com/static/products-services/closing-auction-session",
+    "sent": "2026-11-25T09:58:08.938708+05:30",
+    "status": 200,
+    "server_date": "Wed, 25 Nov 2026 04:28:09 GMT",
+    "received": "2026-11-25T09:58:09.291932+05:30",
+    "file": "sources/calendar/nse-cas.txt",
+    "sha256": "0ed9ad1275f252d1f44541ee06cb49a5e27f7d018ec8dc8ff82a58a6bd83fa74",
+    "bytes": 357030
+  },
+  {
+    "name": "nse-muhurat-2026",
+    "url": "https://archives.nseindia.com/content/circulars/CMPT77037.pdf",
+    "sent": "2026-11-25T09:58:08.939394+05:30",
+    "status": 200,
+    "server_date": "Wed, 25 Nov 2026 04:28:09 GMT",
+    "received": "2026-11-25T09:58:09.298260+05:30",
+    "file": "sources/calendar/nse-muhurat-2026.pdf",
+    "sha256": "4845536a93998989ea95dd1ebcb594f47f4e71b82bffea223b1ed0c390757bac",
+    "bytes": 243260
+  },
+  {
+    "name": "nseix-expiry-monday",
+    "url": "https://www.nseix.com/api/content/circulars/NSEIFSC_TRADE_2056.pdf",
+    "sent": "2026-11-25T09:58:08.941630+05:30",
+    "status": 200,
+    "server_date": "Wed, 25 Nov 2026 04:28:09 GMT",
+    "received": "2026-11-25T09:58:09.194778+05:30",
+    "file": "sources/calendar/nseix-expiry-monday.pdf",
+    "sha256": "d3df6ee6185d9829240991364edcbaf0fd054eab37cc072ab163340737d2376e",
+    "bytes": 127560
+  },
+  {
+    "name": "nseix-expiry-tuesday",
+    "url": "https://www.nseix.com/api/content/circulars/NSEIFSC_TRADE_2199.pdf",
+    "sent": "2026-11-25T09:58:09.212445+05:30",
+    "status": 200,
+    "server_date": "Wed, 25 Nov 2026 04:28:09 GMT",
+    "received": "2026-11-25T09:58:09.385907+05:30",
+    "file": "sources/calendar/nseix-expiry-tuesday.pdf",
+    "sha256": "b245b26bac5125d2010e6a8dc81364c10afb379ada891d3f1810aa198cce53b2",
+    "bytes": 250472
+  },
+  {
+    "name": "nseix-holidays",
+    "url": "https://www.nseix.com/resources/holidays",
+    "sent": "2026-11-25T09:58:09.313260+05:30",
+    "status": 200,
+    "server_date": "Wed, 25 Nov 2026 04:28:09 GMT",
+    "received": "2026-11-25T09:58:09.396443+05:30",
+    "file": "sources/calendar/nseix-holidays.txt",
+    "sha256": "23d3cdcdc40e815c8578927246d0362346e7b99a918fa63ed23e6d1ed6aa8540",
+    "bytes": 5500
+  },
+  {
+    "name": "nyse",
+    "url": "https://www.nyse.com/trade/hours-calendars",
+    "sent": "2026-11-25T09:58:09.392744+05:30",
+    "status": 200,
+    "server_date": "Wed, 25 Nov 2026 04:28:09 GMT",
+    "received": "2026-11-25T09:58:09.474978+05:30",
+    "file": "sources/calendar/nyse.txt",
+    "sha256": "8f213c85de7fc30cf98625535e225f7103f2fe0ae4a910640301ee8023e3ee57",
+    "bytes": 153145
+  },
+  {
+    "name": "jpx",
+    "url": "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/",
+    "sent": "2026-11-25T09:58:09.402511+05:30",
+    "status": 200,
+    "server_date": "Wed, 25 Nov 2026 04:28:10 GMT",
+    "received": "2026-11-25T09:58:10.034906+05:30",
+    "file": "sources/calendar/jpx.txt",
+    "sha256": "320a558fa9aa34469e57ae419bd22f430d2560c73dd03d21d13589f4ecd56831",
+    "bytes": 33290
+  },
+  {
+    "name": "hkex",
+    "url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2025/ce_SEHK_CT_075_2025.pdf",
+    "sent": "2026-11-25T09:58:09.409542+05:30",
+    "status": 200,
+    "server_date": "Wed, 25 Nov 2026 04:28:09 GMT",
+    "received": "2026-11-25T09:58:10.055679+05:30",
+    "file": "sources/calendar/hkex.pdf",
+    "sha256": "783afe4db4e8e410bfd016cc2e212287691377b5d0680a8bc83d6e30bc469819",
+    "bytes": 259502
+  },
+  {
+    "name": "euronext",
+    "url": "https://www.euronext.com/en/trade/trading-hours-holidays",
+    "sent": "2026-11-25T09:58:09.456858+05:30",
+    "status": 200,
+    "server_date": "Wed, 25 Nov 2026 04:28:10 GMT",
+    "received": "2026-11-25T09:58:10.233380+05:30",
+    "file": "sources/calendar/euronext.txt",
+    "sha256": "2d5214b1f118e4a9aa8242b97818acca0b20cbf78b6d0ca07cac482d8f500932",
+    "bytes": 561611
+  },
+  {
+    "name": "xetra",
+    "url": "https://www.xetra.com/xetra-en/trading/trading-calendar",
+    "sent": "2026-11-25T09:58:09.528125+05:30",
+    "status": 200,
+    "server_date": "Wed, 25 Nov 2026 04:28:11 GMT",
+    "received": "2026-11-25T09:58:11.622715+05:30",
+    "file": "sources/calendar/xetra.txt",
+    "sha256": "25a54c7f833204f3cb324ac85e74d21379b22a10634eb4d44da4f897ba593afb",
+    "bytes": 160573
+  },
+  {
+    "name": "lse",
+    "url": "https://www.londonstockexchange.com/securities-trading/trading-access/business-days",
+    "sent": "2026-11-25T09:58:10.074503+05:30",
+    "status": 404,
+    "server_date": "Wed, 25 Nov 2026 04:28:10 GMT",
+    "received": "2026-11-25T09:58:10.513574+05:30"
+  }
+]

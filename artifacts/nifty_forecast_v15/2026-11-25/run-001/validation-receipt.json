@@ -1,0 +1,132 @@
+{
+  "passed": true,
+  "historical_freeze": "2026-11-17",
+  "forecast_windows": 482,
+  "archive_files_hashed": 482,
+  "immutable_frozen_files_hashed": 265,
+  "updated_joint_laws": 147050,
+  "checked_shapes": 3950,
+  "fixed_target_identity": 5882,
+  "literal_target_match": {
+    "5": 263,
+    "21": 203
+  },
+  "fitted_ledger_checks": 23528,
+  "causal_future_and_copy_checks": [
+    {
+      "horizon": 5,
+      "asof": "2026-10-15",
+      "origin": "2026-10-15",
+      "checkpoint": 0,
+      "future_prices_and_inputs_changed": true,
+      "prior_only_completed_target": true,
+      "trained_coefficients_identical": true,
+      "archive_exact": true,
+      "unobserved_historical_labels_and_paths_perturbed": true,
+      "exact_clones_removed": true,
+      "total_model_laws_compared": 25
+    },
+    {
+      "horizon": 5,
+      "asof": "2026-10-19",
+      "origin": "2026-10-15",
+      "checkpoint": 2,
+      "future_prices_and_inputs_changed": true,
+      "prior_only_completed_target": true,
+      "trained_coefficients_identical": true,
+      "archive_exact": true,
+      "unobserved_historical_labels_and_paths_perturbed": true,
+      "exact_clones_removed": true,
+      "total_model_laws_compared": 25
+    },
+    {
+      "horizon": 5,
+      "asof": "2026-10-22",
+      "origin": "2026-10-15",
+      "checkpoint": 4,
+      "future_prices_and_inputs_changed": true,
+      "prior_only_completed_target": true,
+      "trained_coefficients_identical": true,
+      "archive_exact": true,
+      "unobserved_historical_labels_and_paths_perturbed": true,
+      "exact_clones_removed": true,
+      "total_model_laws_compared": 25
+    },
+    {
+      "horizon": 21,
+      "asof": "2026-10-15",
+      "origin": "2026-10-15",
+      "checkpoint": 0,
+      "future_prices_and_inputs_changed": true,
+      "prior_only_completed_target": true,
+      "trained_coefficients_identical": true,
+      "archive_exact": true,
+      "unobserved_historical_labels_and_paths_perturbed": true,
+      "exact_clones_removed": true,
+      "total_model_laws_compared": 25
+    },
+    {
+      "horizon": 21,
+      "asof": "2026-10-23",
+      "origin": "2026-10-15",
+      "checkpoint": 5,
+      "future_prices_and_inputs_changed": true,
+      "prior_only_completed_target": true,
+      "trained_coefficients_identical": true,
+      "archive_exact": true,
+      "unobserved_historical_labels_and_paths_perturbed": true,
+      "exact_clones_removed": true,
+      "total_model_laws_compared": 25
+    },
+    {
+      "horizon": 21,
+      "asof": "2026-10-30",
+      "origin": "2026-10-15",
+      "checkpoint": 10,
+      "future_prices_and_inputs_changed": true,
+      "prior_only_completed_target": true,
+      "trained_coefficients_identical": true,
+      "archive_exact": true,
+      "unobserved_historical_labels_and_paths_perturbed": true,
+      "exact_clones_removed": true,
+      "total_model_laws_compared": 25
+    },
+    {
+      "horizon": 21,
+      "asof": "2026-11-13",
+      "origin": "2026-10-15",
+      "checkpoint": 20,
+      "future_prices_and_inputs_changed": true,
+      "prior_only_completed_target": true,
+      "trained_coefficients_identical": true,
+      "archive_exact": true,
+      "unobserved_historical_labels_and_paths_perturbed": true,
+      "exact_clones_removed": true,
+      "total_model_laws_compared": 25
+    }
+  ],
+  "strict_option_source_rows": 8463,
+  "order_rows": 1323450,
+  "known_order_pinned": 552400,
+  "both_sides_done_unscored": 126850,
+  "extra_training_receipts": [
+    {
+      "file": "session-forecasts.csv.gz",
+      "verified": 50235
+    },
+    {
+      "file": "causal-error-scores.csv.gz",
+      "verified": 14616
+    }
+  ],
+  "forward_records": 6,
+  "predecessor_protection": {
+    "files": 23060,
+    "valid": true,
+    "mismatches": [],
+    "manifests": {
+      "manifest.json/2026-11-24": "3ecb85d431b1c07736b04887f7d48907527bd3ae81832d6d8d42237b95151a1e",
+      "manifest.json/2026-11-25": "f6e80b47c519940a9677d2261ad7421775f812cdd7e8e9d94ce5af323a2ea52d"
+    }
+  }
+}
