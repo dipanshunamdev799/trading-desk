@@ -1,4 +1,5 @@
 .env
+.env.groww.local
 .venv/
 venv/
 __pycache__/
@@ -19,5 +20,24 @@ backend/.venv/
 /frontend/.next-bots-preview/
 /frontend/.next-check/
 /frontend/.next-bots-start-check/
+/frontend/.next-investment-check/
+/frontend/.next-investment-pacing/
+/frontend/.taste-skill/
 
 /artifacts/swing_discovery/research.sqlite3
+/artifacts/investment_bots/community-auction/raw/
+/artifacts/investment_bots/community-auction/cache/
+
+/artifacts/intraday_momentum/raw/
+/artifacts/intraday_momentum/resolution-raw/
+/artifacts/intraday_momentum/daily-context.json
+/artifacts/intraday_momentum/**/daily-context.json
+/artifacts/intraday_momentum/unit-audit/*.zip
+/artifacts/intraday_momentum_v2/raw/
+/artifacts/intraday_momentum_v2/forward/
+/artifacts/intraday_momentum_v2/resolution-audit/raw/
+/artifacts/intraday_momentum_v2/selected-resolution-audit/raw/
+/artifacts/intraday_momentum_v3/metadata/
+/artifacts/intraday_momentum_v3/runs/**/raw-packets.jsonl.gz
+/artifacts/intraday_momentum_v3/observer.lock
+/tapetide_token.txt
