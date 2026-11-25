@@ -1,9 +1,10 @@
 {
   "mode": "paper",
   "capital": 250000,
-  "max_quantity": 650,
-  "max_loss_per_trade": 1250,
-  "max_daily_loss": 2500,
+  "max_lots": 1,
+  "max_quantity": null,
+  "max_loss_per_trade": 15000,
+  "max_daily_loss": 30000,
   "max_trades_per_day": 5,
   "max_positions": 1,
   "stop_percent": null,

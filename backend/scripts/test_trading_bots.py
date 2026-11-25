@@ -27,7 +27,7 @@ class Market:
 class Bots(unittest.TestCase):
     def setUp(self):
         self.temp=tempfile.TemporaryDirectory();self.store=Store('ema_trend',self.temp.name);self.market=Market()
-        self.cfg={**defaults(),'capital':1000000,'max_loss_per_trade':100000,'max_daily_loss':100000,'max_quantity':65}
+        self.cfg={**defaults(),'capital':1000000,'max_loss_per_trade':100000,'max_daily_loss':100000,'max_quantity':65,'max_lots':None}
         with self.store.tx() as c:c.execute('UPDATE state SET config=?',(encoded(self.cfg),))
         self.store.control('RUNNING');self.engine=Engine(self.store,strategy('ema_trend'),self.market,PaperBroker())
     def tearDown(self):self.temp.cleanup()
@@ -65,6 +65,41 @@ class Bots(unittest.TestCase):
     def test_risk_rejection_is_logged(self):
         with self.store.tx() as c:c.execute('UPDATE state SET config=?',(encoded({**self.cfg,'max_loss_per_trade':100}),))
         self.engine.tick(AT);self.assertFalse(self.trades());self.assertEqual(self.store.rows('signals')[0]['status'],'SKIPPED')
+    def test_one_lot_uses_each_selected_contract_size_without_unit_ceiling(self):
+        from unittest.mock import patch
+        for lot in (25,65,175,1000):
+            with self.subTest(lot=lot),tempfile.TemporaryDirectory() as root:
+                store=Store('ema_trend',root);market=Market();market.bid_qty=market.ask_qty=max(650,lot)
+                cfg={**defaults(),'capital':1000000,'max_loss_per_trade':500000,'max_daily_loss':500000}
+                with store.tx() as c:c.execute('UPDATE state SET config=?',(encoded(cfg),))
+                store.control('RUNNING');contract=market.select(1,25000,AT);contract['lot']=lot
+                with patch.object(market,'select',return_value=contract):
+                    Engine(store,strategy('ema_trend'),market,PaperBroker()).tick(AT)
+                trade=store.rows('trades')[0]['payload']
+                self.assertEqual(trade['quantity'],lot)
+                self.assertEqual(store.rows('orders')[0]['payload']['quantity'],lot)
+                self.assertEqual(trade['contract']['lot'],lot)
+    def test_multiple_lot_cap_is_applied_before_converting_to_units(self):
+        cfg={**self.cfg,'max_lots':2,'max_quantity':None}
+        with self.store.tx() as c:c.execute('UPDATE state SET config=?',(encoded(cfg),))
+        self.enter();self.assertEqual(self.trades()[0]['quantity'],130)
+    def test_saved_legacy_unit_cap_remains_supported(self):
+        cfg={k:v for k,v in self.cfg.items() if k!='max_lots'};cfg['max_quantity']=130
+        with self.store.tx() as c:c.execute('UPDATE state SET config=?',(encoded(cfg),))
+        self.enter();self.assertEqual(self.trades()[0]['quantity'],130)
+    def test_one_lot_still_requires_the_loss_budget(self):
+        cfg={**self.cfg,'max_lots':1,'max_quantity':None,'max_loss_per_trade':100}
+        with self.store.tx() as c:c.execute('UPDATE state SET config=?',(encoded(cfg),))
+        self.engine.tick(AT);self.assertFalse(self.trades())
+        self.assertIn('Minimum lot exceeds',self.store.rows('signals')[0]['payload']['rejection_reason'])
+    def test_default_and_validated_lot_configuration(self):
+        from trading_bots.common.config import BotConfig
+        from pydantic import ValidationError
+        self.assertEqual(defaults()['max_lots'],1);self.assertIsNone(defaults()['max_quantity'])
+        self.assertEqual(defaults()['max_loss_per_trade'],15000);self.assertEqual(defaults()['max_daily_loss'],30000)
+        self.assertIsNone(BotConfig(max_quantity=130).max_lots)
+        for invalid in (0,-1,1.5,True):
+            with self.subTest(invalid=invalid),self.assertRaises(ValidationError):BotConfig(max_lots=invalid)
     def test_stale_book_never_fills(self):
         self.market.fresh=False;self.engine.tick(AT);self.assertFalse(self.trades());self.assertEqual(self.store.rows('signals')[0]['status'],'SKIPPED')
     def test_disconnected_entry_is_logged_as_skipped(self):

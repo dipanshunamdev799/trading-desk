@@ -147,3 +147,10 @@ $env:TRADING_DESK_NEXT_DIST = '.next-check'
 npm.cmd run build
 Remove-Item Env:\TRADING_DESK_NEXT_DIST
 ```
+
+## Investment paper portfolios
+
+The **Investment bots** section (`/investment-bots`) contains C0-R, C1-R, C2-S and
+C0-R-X, separate from the F&O workers. Each has its own ₹10 lakh reference paper
+allocation. They start enabled and use the imported, verified frozen research inputs; no broker orders are submitted. Investment market data, controls and
+journals use the application's PostgreSQL database. See [setup and accounting conventions](investment_bots/README.md).

@@ -10,7 +10,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from starlette.concurrency import run_in_threadpool
 
 from .config import get_settings
-from .routers import trading_bots
+from .routers import trading_bots, investment_bots
 from .routers import backtest, data, health, market, options, paper, ipos, nifty, credit_spreads, strategies
 
 settings = get_settings()
@@ -59,11 +59,21 @@ async def lifespan(app: FastAPI):
             await asyncio.sleep(10)
     spread_monitor = asyncio.create_task(monitor_spreads())
     await run_in_threadpool(trading_bots.manager().startup)
+    async def monitor_investments():
+        while True:
+            try:
+                await run_in_threadpool(investment_bots.manager().tick)
+            except asyncio.CancelledError:
+                raise
+            except Exception:
+                logging.getLogger(__name__).exception('Investment paper reconciliation failed')
+            await asyncio.sleep(15)
+    investment_monitor = asyncio.create_task(monitor_investments())
     try:
         yield
     finally:
         await run_in_threadpool(stream.stop)
-        for task in (collector, nifty_collector, spread_monitor):
+        for task in (collector, nifty_collector, spread_monitor, investment_monitor):
             if not task:
                 continue
             task.cancel()
@@ -98,6 +108,7 @@ app.include_router(ipos.router)
 app.include_router(nifty.router)
 app.include_router(credit_spreads.router)
 app.include_router(trading_bots.router)
+app.include_router(investment_bots.router)
 app.include_router(strategies.router)
 
 

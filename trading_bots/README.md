@@ -121,8 +121,8 @@ Fixtures and lifecycle unit tests do not need Docker or a working broker token.
 | Setting | Default |
 |---|---:|
 | Allocated capital per bot | ₹250,000 |
-| Maximum units | 650, rounded down to the dated lot |
-| Maximum planned loss per trade / daily loss room | ₹1,250 / ₹2,500 |
+| Maximum lots | 1, multiplied by the selected contract's dated lot size |
+| Maximum planned loss per trade / daily loss room | ₹15,000 / ₹30,000 |
 | Daily trade attempts / per-bot simultaneous positions | 5 / 1 |
 | Premium stop / target / trailing stop | All blank (time exit baseline) |
 | Maximum quoted spread / quote age | 2% / 5 seconds |
@@ -131,8 +131,14 @@ Fixtures and lifecycle unit tests do not need Docker or a working broker token.
 | Paper adverse slippage per unit / estimated brokerage per order | 0.05 / ₹20 |
 | Shared positions / reserved capital / order attempts per minute | 3 / ₹750,000 / 20 |
 
+The lot cap is applied after resolving the selected contract's dated lot size.
+One allowed lot becomes 25, 65 or any other number of units specified by that
+contract. The paper setup has `max_lots=1` and no fixed unit ceiling. Older saved
+`max_quantity` caps remain supported; saving a lot limit in the dashboard replaces
+the legacy unit cap. Cash, loss budget and usable depth must still allow a full lot.
+
 With no stop, sizing reserves the whole premium plus estimated fees as possible
-loss. A minimum lot commonly exceeds the default ₹1,250 budget: that signal is
+loss. A minimum lot exceeding the ₹15,000 paper budget is
 skipped with an explanation. Increase a paper budget deliberately or configure
 an optional premium stop for a different execution profile. Stops are polled
 software conditions, not broker-held protective orders; price gaps, disconnects,

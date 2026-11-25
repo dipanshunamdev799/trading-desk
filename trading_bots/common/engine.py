@@ -131,7 +131,10 @@ class Engine:
             if len(today)>=cfg['max_trades_per_day']:raise ValueError('Maximum daily trade attempts reached')
             budget=min(cfg['max_loss_per_trade'],cfg['max_daily_loss']+pnl)
             cash=max(0,min(cfg['capital'],cfg['capital']+sum(r.get('net_pnl',0) for r in trades)))
-            lots=min(int(budget//(unit_risk*lot+per_lot_fees)),cfg['max_quantity']//lot,int(cash//(price*lot+per_lot_fees)))
+            limits=[int(budget//(unit_risk*lot+per_lot_fees)),int(cash//(price*lot+per_lot_fees))]
+            if cfg.get('max_lots') is not None:limits.append(cfg['max_lots'])
+            if cfg.get('max_quantity') is not None:limits.append(cfg['max_quantity']//lot)
+            lots=min(limits)
             if lots<1:raise ValueError('Minimum lot exceeds remaining risk, quantity or capital budget')
             qty=lots*lot
             fee_reserve=fees('BUY',price*qty,s['at'],cfg['brokerage_per_order'])['total']+fees('SELL',price*qty,s['at'],cfg['brokerage_per_order'])['total']

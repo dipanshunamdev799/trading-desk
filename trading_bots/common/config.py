@@ -1,4 +1,4 @@
-from pydantic import BaseModel,ConfigDict,Field
+from pydantic import BaseModel,ConfigDict,Field,model_validator
 from typing import Literal
 
 
@@ -6,9 +6,11 @@ class BotConfig(BaseModel):
     model_config=ConfigDict(extra='forbid',allow_inf_nan=False)
     mode:Literal['paper','live']='paper'
     capital:float=Field(250000,ge=1000,le=100000000)
-    max_quantity:int=Field(650,ge=1,le=100000,strict=True)
-    max_loss_per_trade:float=Field(1250,gt=0)
-    max_daily_loss:float=Field(2500,gt=0)
+    max_lots:int|None=Field(None,ge=1,le=100000,strict=True)
+    # Retain old saved unit caps until explicitly replaced with lot sizing.
+    max_quantity:int|None=Field(None,ge=1,le=100000,strict=True)
+    max_loss_per_trade:float=Field(15000,gt=0)
+    max_daily_loss:float=Field(30000,gt=0)
     max_trades_per_day:int=Field(5,ge=1,le=100,strict=True)
     max_positions:int=Field(1,ge=1,le=1,strict=True)
     stop_percent:float|None=Field(None,gt=0,lt=100)
@@ -22,6 +24,12 @@ class BotConfig(BaseModel):
     brokerage_per_order:float=Field(20,ge=0,le=1000)
     order_timeout_seconds:float=Field(15,ge=2,le=60)
     live_activated:bool=False
+
+    @model_validator(mode='after')
+    def default_lot_limit(self):
+        if self.max_lots is None and self.max_quantity is None:
+            self.max_lots=1
+        return self
 
 
 class GlobalConfig(BaseModel):

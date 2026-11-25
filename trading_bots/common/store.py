@@ -3,16 +3,14 @@ import csv,io,json,os,sqlite3,time,uuid
 from contextlib import contextmanager
 from pathlib import Path
 from datetime import datetime,timezone
+from .config import BotConfig
 
 ROOT=Path(__file__).resolve().parents[1]
 
 
 def now():return datetime.now(timezone.utc).isoformat()
 def encoded(value):return json.dumps(value,allow_nan=False,default=str)
-def defaults():return {'mode':'paper','capital':250000,'max_quantity':650,'max_loss_per_trade':1250,'max_daily_loss':2500,
-    'max_trades_per_day':5,'max_positions':1,'stop_percent':None,'target_percent':None,'trailing_percent':None,
-    'max_spread_percent':2,'quote_max_age_seconds':5,'signal_max_age_seconds':10,'poll_seconds':5,
-    'slippage_points':.05,'brokerage_per_order':20,'order_timeout_seconds':15,'live_activated':False}
+def defaults():return BotConfig().model_dump()
 
 
 class Store:
