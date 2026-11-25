@@ -1,0 +1,974 @@
+[
+  {
+    "feature": "p_ret1",
+    "family": "native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "p_ret3",
+    "family": "native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "p_ret5",
+    "family": "native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "p_ret10",
+    "family": "native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "p_ret21",
+    "family": "native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "p_ret63",
+    "family": "native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "p_rv5",
+    "family": "native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "p_rv21",
+    "family": "native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "p_rv63",
+    "family": "native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "p_trend",
+    "family": "native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "p_range",
+    "family": "native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "p_acceleration",
+    "family": "native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "p_vix",
+    "family": "native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "i_bank_nifty_rel5",
+    "family": "native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "i_bank_nifty_rel21",
+    "family": "native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "i_idx_Nifty_100_rel5",
+    "family": "native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "i_idx_Nifty_100_rel21",
+    "family": "native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "i_idx_Nifty_200_rel5",
+    "family": "native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "i_idx_Nifty_200_rel21",
+    "family": "native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "i_idx_Nifty_500_rel5",
+    "family": "native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "i_idx_Nifty_500_rel21",
+    "family": "native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "i_idx_Nifty_Commodities_rel5",
+    "family": "native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "i_idx_Nifty_Commodities_rel21",
+    "family": "native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "i_idx_Nifty_Consumption_rel5",
+    "family": "native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "i_idx_Nifty_Consumption_rel21",
+    "family": "native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "i_idx_NIFTY_HEALTHCARE_rel5",
+    "family": "native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "i_idx_NIFTY_HEALTHCARE_rel21",
+    "family": "native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "i_idx_Nifty_Infra_rel5",
+    "family": "native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "i_idx_Nifty_Infra_rel21",
+    "family": "native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "i_idx_Nifty_InfraLog_rel5",
+    "family": "native",
+    "missing_fraction": 0.38213399503722084,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "i_idx_Nifty_InfraLog_rel21",
+    "family": "native",
+    "missing_fraction": 0.4218362282878412,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "i_idx_Nifty_Next_50_rel5",
+    "family": "native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "i_idx_Nifty_Next_50_rel21",
+    "family": "native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "i_nifty_auto_rel5",
+    "family": "native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "i_nifty_auto_rel21",
+    "family": "native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "i_nifty_energy_rel5",
+    "family": "native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "i_nifty_energy_rel21",
+    "family": "native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "i_nifty_financial_rel5",
+    "family": "native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "i_nifty_financial_rel21",
+    "family": "native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "i_nifty_fmcg_rel5",
+    "family": "native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "i_nifty_fmcg_rel21",
+    "family": "native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "i_nifty_it_rel5",
+    "family": "native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "i_nifty_it_rel21",
+    "family": "native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "i_nifty_metal_rel5",
+    "family": "native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "i_nifty_metal_rel21",
+    "family": "native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "i_nifty_pharma_rel5",
+    "family": "native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "i_nifty_pharma_rel21",
+    "family": "native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "i_nifty_psu_bank_rel5",
+    "family": "native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "i_nifty_psu_bank_rel21",
+    "family": "native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "i_nifty_realty_rel5",
+    "family": "native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "i_nifty_realty_rel21",
+    "family": "native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "i_participation",
+    "family": "native",
+    "missing_fraction": 0.01240694789081886,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "i_dispersion",
+    "family": "native",
+    "missing_fraction": 0.01240694789081886,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "i_acceleration",
+    "family": "native",
+    "missing_fraction": 0.02481389578163772,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "i_concentration",
+    "family": "native",
+    "missing_fraction": 0.01240694789081886,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "i_leadership_persistence",
+    "family": "native",
+    "missing_fraction": 0.02481389578163772,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "i_defensive_cyclical",
+    "family": "native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "n_bank_nifty_rel1",
+    "family": "multiscale_native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "n_bank_nifty_rel2",
+    "family": "multiscale_native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "n_bank_nifty_rel3",
+    "family": "multiscale_native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "n_bank_nifty_rel5",
+    "family": "multiscale_native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "n_bank_nifty_rel10",
+    "family": "multiscale_native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "n_bank_nifty_rel20",
+    "family": "multiscale_native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "n_bank_nifty_rv_ratio",
+    "family": "multiscale_native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "n_bank_nifty_drawdown",
+    "family": "multiscale_native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "n_nifty_financial_rel1",
+    "family": "multiscale_native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "n_nifty_financial_rel2",
+    "family": "multiscale_native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "n_nifty_financial_rel3",
+    "family": "multiscale_native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "n_nifty_financial_rel5",
+    "family": "multiscale_native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "n_nifty_financial_rel10",
+    "family": "multiscale_native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "n_nifty_financial_rel20",
+    "family": "multiscale_native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "n_nifty_financial_rv_ratio",
+    "family": "multiscale_native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "n_nifty_financial_drawdown",
+    "family": "multiscale_native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "n_nifty_it_rel1",
+    "family": "multiscale_native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "n_nifty_it_rel2",
+    "family": "multiscale_native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "n_nifty_it_rel3",
+    "family": "multiscale_native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "n_nifty_it_rel5",
+    "family": "multiscale_native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "n_nifty_it_rel10",
+    "family": "multiscale_native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "n_nifty_it_rel20",
+    "family": "multiscale_native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "n_nifty_it_rv_ratio",
+    "family": "multiscale_native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "n_nifty_it_drawdown",
+    "family": "multiscale_native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "n_nifty_auto_rel1",
+    "family": "multiscale_native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "n_nifty_auto_rel2",
+    "family": "multiscale_native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "n_nifty_auto_rel3",
+    "family": "multiscale_native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "n_nifty_auto_rel5",
+    "family": "multiscale_native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "n_nifty_auto_rel10",
+    "family": "multiscale_native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "n_nifty_auto_rel20",
+    "family": "multiscale_native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "n_nifty_auto_rv_ratio",
+    "family": "multiscale_native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "n_nifty_auto_drawdown",
+    "family": "multiscale_native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "n_nifty_metal_rel1",
+    "family": "multiscale_native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "n_nifty_metal_rel2",
+    "family": "multiscale_native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "n_nifty_metal_rel3",
+    "family": "multiscale_native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "n_nifty_metal_rel5",
+    "family": "multiscale_native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "n_nifty_metal_rel10",
+    "family": "multiscale_native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "n_nifty_metal_rel20",
+    "family": "multiscale_native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "n_nifty_metal_rv_ratio",
+    "family": "multiscale_native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "n_nifty_metal_drawdown",
+    "family": "multiscale_native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "n_nifty_pharma_rel1",
+    "family": "multiscale_native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "n_nifty_pharma_rel2",
+    "family": "multiscale_native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "n_nifty_pharma_rel3",
+    "family": "multiscale_native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "n_nifty_pharma_rel5",
+    "family": "multiscale_native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "n_nifty_pharma_rel10",
+    "family": "multiscale_native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "n_nifty_pharma_rel20",
+    "family": "multiscale_native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "n_nifty_pharma_rv_ratio",
+    "family": "multiscale_native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "n_nifty_pharma_drawdown",
+    "family": "multiscale_native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "n_nifty_fmcg_rel1",
+    "family": "multiscale_native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "n_nifty_fmcg_rel2",
+    "family": "multiscale_native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "n_nifty_fmcg_rel3",
+    "family": "multiscale_native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "n_nifty_fmcg_rel5",
+    "family": "multiscale_native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "n_nifty_fmcg_rel10",
+    "family": "multiscale_native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "n_nifty_fmcg_rel20",
+    "family": "multiscale_native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "n_nifty_fmcg_rv_ratio",
+    "family": "multiscale_native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "n_nifty_fmcg_drawdown",
+    "family": "multiscale_native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "n_nifty_energy_rel1",
+    "family": "multiscale_native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "n_nifty_energy_rel2",
+    "family": "multiscale_native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "n_nifty_energy_rel3",
+    "family": "multiscale_native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "n_nifty_energy_rel5",
+    "family": "multiscale_native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "n_nifty_energy_rel10",
+    "family": "multiscale_native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "n_nifty_energy_rel20",
+    "family": "multiscale_native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "n_nifty_energy_rv_ratio",
+    "family": "multiscale_native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "n_nifty_energy_drawdown",
+    "family": "multiscale_native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "n_idx_Nifty_500_rel1",
+    "family": "multiscale_native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "n_idx_Nifty_500_rel2",
+    "family": "multiscale_native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "n_idx_Nifty_500_rel3",
+    "family": "multiscale_native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "n_idx_Nifty_500_rel5",
+    "family": "multiscale_native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "n_idx_Nifty_500_rel10",
+    "family": "multiscale_native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "n_idx_Nifty_500_rel20",
+    "family": "multiscale_native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "n_idx_Nifty_500_rv_ratio",
+    "family": "multiscale_native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "n_idx_Nifty_500_drawdown",
+    "family": "multiscale_native",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "q_sync",
+    "family": "dynamic",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "q_sector_correlation",
+    "family": "dynamic",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "q_corr_jump",
+    "family": "dynamic",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "q_bank_deceleration",
+    "family": "dynamic",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "q_financial_it_rotation",
+    "family": "dynamic",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "q_broad_deterioration",
+    "family": "dynamic",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "q_defensive_rotation",
+    "family": "dynamic",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "q_cyclical_weakness",
+    "family": "dynamic",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "q_dispersion_change",
+    "family": "dynamic",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "q_banks_warning",
+    "family": "dynamic",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "q_index_breadth_divergence",
+    "family": "dynamic",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "q_sync_d1",
+    "family": "dynamic",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "q_sync_d2",
+    "family": "dynamic",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "q_sync_slope5",
+    "family": "dynamic",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "q_sector_correlation_d1",
+    "family": "dynamic",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "q_sector_correlation_d2",
+    "family": "dynamic",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "q_sector_correlation_slope5",
+    "family": "dynamic",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "q_bank_deceleration_d1",
+    "family": "dynamic",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "q_bank_deceleration_d2",
+    "family": "dynamic",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "q_bank_deceleration_slope5",
+    "family": "dynamic",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "q_financial_it_rotation_d1",
+    "family": "dynamic",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "q_financial_it_rotation_d2",
+    "family": "dynamic",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "q_financial_it_rotation_slope5",
+    "family": "dynamic",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "q_broad_deterioration_d1",
+    "family": "dynamic",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "q_broad_deterioration_d2",
+    "family": "dynamic",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "q_broad_deterioration_slope5",
+    "family": "dynamic",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "q_defensive_rotation_d1",
+    "family": "dynamic",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "q_defensive_rotation_d2",
+    "family": "dynamic",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "q_defensive_rotation_slope5",
+    "family": "dynamic",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "q_trend_persistence",
+    "family": "dynamic",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "q_risk_persistence",
+    "family": "dynamic",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "q_defensive_persistence",
+    "family": "dynamic",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  },
+  {
+    "feature": "q_transition_rate",
+    "family": "dynamic",
+    "missing_fraction": 0.0,
+    "scope": "2025\u20132026; forward-only transforms; no constituent proxies"
+  }
+]

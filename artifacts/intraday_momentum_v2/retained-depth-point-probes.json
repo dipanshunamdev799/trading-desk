@@ -1,0 +1,24 @@
+[
+  {
+    "key": "NSE_EQ|INE002A01018",
+    "source_at": "2026-11-13 10:00:00.409000+00:00",
+    "received_at": "2026-11-13 10:00:00.389760+00:00",
+    "kind": "live_feed",
+    "fields": [
+      "fullFeed",
+      "requestMode"
+    ],
+    "levels": 5
+  },
+  {
+    "key": "NSE_EQ|INE066A01021",
+    "source_at": "2026-11-13 10:00:00.409000+00:00",
+    "received_at": "2026-11-13 10:00:00.389760+00:00",
+    "kind": "live_feed",
+    "fields": [
+      "fullFeed",
+      "requestMode"
+    ],
+    "levels": 5
+  }
+]

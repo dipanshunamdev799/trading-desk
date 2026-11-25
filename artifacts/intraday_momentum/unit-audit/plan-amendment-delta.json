@@ -1,0 +1,33 @@
+{
+  "old_candidates": 4299,
+  "new_candidates": 4300,
+  "added_candidates": [
+    {
+      "key": "NSE_EQ|INE0FS801015",
+      "symbol": "MSUMI",
+      "day": "2025-04-07",
+      "raw_prev_close": 34.29,
+      "actual_prev_close": 51.435,
+      "factor": 1.5
+    }
+  ],
+  "removed_candidates": [],
+  "added_job_count": 2,
+  "added_jobs": [
+    {
+      "key": "NSE_EQ|INE0FS801015",
+      "symbol": "MSUMI",
+      "month": "2025-03"
+    },
+    {
+      "key": "NSE_EQ|INE0FS801015",
+      "symbol": "MSUMI",
+      "month": "2025-04"
+    }
+  ],
+  "removed_job_count": 0,
+  "new_job_count": 4855,
+  "added_counts_by_symbol": {
+    "MSUMI": 1
+  }
+}

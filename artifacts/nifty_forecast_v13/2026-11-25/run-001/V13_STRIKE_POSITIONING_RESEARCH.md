@@ -1,0 +1,70 @@
+# V13 Strike Positioning Research
+
+Matched **2,559** date-expiry option chains. Unsigned features capture OI concentration, put share, near-forward interest, OI changes, volume relative to OI, distance to large call and put concentrations and cross-expiry differences. This dataset establishes aggregate unsigned positioning and activity. Net dealer inventory and gamma require participant-side information. Compare the added feature heads to price-surface risk and priced-volatility path models.
+
+| horizon | cohort | model | baseline | target | metric | n | disjoint | candidate | control | gain | low10 | high10 | low21 | high21 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 5 | combined | position_iv | iv_scaled | abs_return | crps | 265 | 53 | 0.006526 | 0.006563 | 0.000037 | -0.000089 | 0.000164 | -0.000080 | 0.000155 |
+| 5 | combined | position_iv | iv_scaled | abs_return | mae | 265 | 53 | 0.009349 | 0.009464 | 0.000115 | -0.000060 | 0.000290 | -0.000054 | 0.000284 |
+| 5 | combined | position_iv | iv_scaled | close_high | crps | 265 | 53 | 0.007621 | 0.007645 | 0.000024 | -0.000074 | 0.000121 | -0.000076 | 0.000123 |
+| 5 | combined | position_iv | iv_scaled | close_high | mae | 265 | 53 | 0.010163 | 0.010197 | 0.000035 | -0.000153 | 0.000223 | -0.000140 | 0.000209 |
+| 5 | combined | position_iv | iv_scaled | close_low | crps | 265 | 53 | 0.007635 | 0.007607 | -0.000028 | -0.000203 | 0.000146 | -0.000204 | 0.000147 |
+| 5 | combined | position_iv | iv_scaled | close_low | mae | 265 | 53 | 0.010715 | 0.010721 | 0.000006 | -0.000275 | 0.000287 | -0.000295 | 0.000306 |
+| 5 | combined | position_iv | iv_scaled | drawdown | crps | 265 | 53 | 0.006209 | 0.006170 | -0.000040 | -0.000218 | 0.000138 | -0.000241 | 0.000162 |
+| 5 | combined | position_iv | iv_scaled | drawdown | mae | 265 | 53 | 0.008917 | 0.008891 | -0.000026 | -0.000275 | 0.000223 | -0.000293 | 0.000242 |
+| 5 | combined | position_iv | iv_scaled | high | crps | 265 | 53 | 0.007106 | 0.007131 | 0.000025 | -0.000067 | 0.000116 | -0.000063 | 0.000112 |
+| 5 | combined | position_iv | iv_scaled | high | mae | 265 | 53 | 0.009682 | 0.009702 | 0.000021 | -0.000123 | 0.000165 | -0.000116 | 0.000157 |
+| 5 | combined | position_iv | iv_scaled | low | crps | 265 | 53 | 0.007337 | 0.007327 | -0.000010 | -0.000187 | 0.000168 | -0.000188 | 0.000169 |
+| 5 | combined | position_iv | iv_scaled | low | mae | 265 | 53 | 0.010341 | 0.010301 | -0.000039 | -0.000354 | 0.000275 | -0.000374 | 0.000295 |
+| 5 | combined | position_iv | iv_scaled | max_daily | crps | 265 | 53 | 0.002968 | 0.002991 | 0.000023 | -0.000118 | 0.000164 | -0.000131 | 0.000177 |
+| 5 | combined | position_iv | iv_scaled | max_daily | mae | 265 | 53 | 0.004197 | 0.004196 | -0.000001 | -0.000123 | 0.000121 | -0.000118 | 0.000116 |
+| 5 | combined | position_iv | iv_scaled | overnight_sd | crps | 265 | 53 | 0.025615 | 0.026120 | 0.000504 | -0.000970 | 0.001979 | -0.001185 | 0.002194 |
+| 5 | combined | position_iv | iv_scaled | overnight_sd | mae | 265 | 53 | 0.032797 | 0.033709 | 0.000912 | -0.001446 | 0.003270 | -0.001825 | 0.003649 |
+| 5 | combined | position_iv | iv_scaled | positive_days | crps | 265 | 53 | 0.628605 | 0.633540 | 0.004935 | -0.007640 | 0.017511 | -0.008484 | 0.018354 |
+| 5 | combined | position_iv | iv_scaled | positive_days | mae | 265 | 53 | 0.954430 | 0.961874 | 0.007444 | -0.012787 | 0.027675 | -0.014349 | 0.029237 |
+| 5 | combined | position_iv | iv_scaled | range | crps | 265 | 53 | 0.005982 | 0.005961 | -0.000022 | -0.000189 | 0.000145 | -0.000171 | 0.000128 |
+| 5 | combined | position_iv | iv_scaled | range | mae | 265 | 53 | 0.008205 | 0.008191 | -0.000015 | -0.000230 | 0.000201 | -0.000180 | 0.000150 |
+| 5 | combined | position_iv | iv_scaled | rebound | crps | 265 | 53 | 0.005880 | 0.005925 | 0.000045 | -0.000051 | 0.000141 | -0.000044 | 0.000133 |
+| 5 | combined | position_iv | iv_scaled | rebound | mae | 265 | 53 | 0.008044 | 0.008139 | 0.000095 | -0.000041 | 0.000231 | -0.000018 | 0.000208 |
+| 5 | combined | position_iv | iv_scaled | regular_sd | crps | 265 | 53 | 0.022663 | 0.022467 | -0.000196 | -0.000771 | 0.000379 | -0.000765 | 0.000373 |
+| 5 | combined | position_iv | iv_scaled | regular_sd | mae | 265 | 53 | 0.032288 | 0.031999 | -0.000290 | -0.001144 | 0.000565 | -0.001174 | 0.000595 |
+| 5 | combined | position_iv | iv_scaled | touch_family | brier | 265 | 53 | 0.147555 | 0.147679 | 0.000124 | -0.001819 | 0.002068 | -0.001654 | 0.001902 |
+| 5 | combined | position_iv | iv_scaled | volatility | crps | 265 | 53 | 0.027297 | 0.027462 | 0.000164 | -0.000878 | 0.001206 | -0.001002 | 0.001331 |
+| 5 | combined | position_ridge | shape_level | volatility | mae | 265 | 53 | 0.039948 | 0.040589 | 0.000641 | -0.001898 | 0.003180 | -0.001847 | 0.003129 |
+| 5 | combined | position_iv | iv_scaled | volatility | mae | 265 | 53 | 0.038037 | 0.038225 | 0.000188 | -0.001309 | 0.001685 | -0.001521 | 0.001897 |
+| 5 | combined | position_ridge | iv_nearest | volatility | mae | 265 | 53 | 0.039948 | 0.037814 | -0.002133 | -0.011845 | 0.007578 | -0.013733 | 0.009467 |
+| 5 | combined | position_ridge | shape_level | volatility | qlike | 265 | 53 | 0.390262 | 0.399562 | 0.009300 | -0.033685 | 0.052286 | -0.031467 | 0.050067 |
+| 5 | combined | position_ridge | iv_nearest | volatility | qlike | 265 | 53 | 0.390262 | 0.276187 | -0.114075 | -0.319275 | 0.091125 | -0.357331 | 0.129181 |
+| 21 | combined | position_iv | iv_scaled | abs_return | crps | 217 | 11 | 0.017422 | 0.017290 | -0.000132 | -0.000459 | 0.000195 | -0.000459 | 0.000195 |
+| 21 | combined | position_iv | iv_scaled | abs_return | mae | 217 | 11 | 0.023136 | 0.022767 | -0.000370 | -0.000856 | 0.000116 | -0.000949 | 0.000210 |
+| 21 | combined | position_iv | iv_scaled | close_high | crps | 217 | 11 | 0.012579 | 0.012672 | 0.000093 | -0.000252 | 0.000437 | -0.000274 | 0.000460 |
+| 21 | combined | position_iv | iv_scaled | close_high | mae | 217 | 11 | 0.017260 | 0.017413 | 0.000153 | -0.000345 | 0.000652 | -0.000358 | 0.000665 |
+| 21 | combined | position_iv | iv_scaled | close_low | crps | 217 | 11 | 0.019976 | 0.020052 | 0.000076 | -0.000175 | 0.000328 | -0.000185 | 0.000337 |
+| 21 | combined | position_iv | iv_scaled | close_low | mae | 217 | 11 | 0.026420 | 0.026538 | 0.000118 | -0.000400 | 0.000636 | -0.000319 | 0.000555 |
+| 21 | combined | position_iv | iv_scaled | drawdown | crps | 217 | 11 | 0.016633 | 0.016754 | 0.000121 | -0.000151 | 0.000393 | -0.000133 | 0.000376 |
+| 21 | combined | position_iv | iv_scaled | drawdown | mae | 217 | 11 | 0.022911 | 0.022961 | 0.000050 | -0.000559 | 0.000659 | -0.000469 | 0.000569 |
+| 21 | combined | position_iv | iv_scaled | high | crps | 217 | 11 | 0.012285 | 0.012385 | 0.000100 | -0.000227 | 0.000427 | -0.000242 | 0.000443 |
+| 21 | combined | position_iv | iv_scaled | high | mae | 217 | 11 | 0.017008 | 0.017124 | 0.000116 | -0.000424 | 0.000656 | -0.000447 | 0.000680 |
+| 21 | combined | position_iv | iv_scaled | low | crps | 217 | 11 | 0.020348 | 0.020449 | 0.000101 | -0.000175 | 0.000377 | -0.000187 | 0.000388 |
+| 21 | combined | position_iv | iv_scaled | low | mae | 217 | 11 | 0.027047 | 0.027137 | 0.000090 | -0.000434 | 0.000614 | -0.000362 | 0.000542 |
+| 21 | combined | position_iv | iv_scaled | max_daily | crps | 217 | 11 | 0.004684 | 0.004633 | -0.000052 | -0.000183 | 0.000080 | -0.000194 | 0.000091 |
+| 21 | combined | position_iv | iv_scaled | max_daily | mae | 217 | 11 | 0.005556 | 0.005509 | -0.000046 | -0.000195 | 0.000103 | -0.000197 | 0.000104 |
+| 21 | combined | position_iv | iv_scaled | overnight_sd | crps | 217 | 11 | 0.035103 | 0.035018 | -0.000084 | -0.000683 | 0.000515 | -0.000629 | 0.000461 |
+| 21 | combined | position_iv | iv_scaled | overnight_sd | mae | 217 | 11 | 0.042361 | 0.042256 | -0.000106 | -0.000888 | 0.000677 | -0.000874 | 0.000663 |
+| 21 | combined | position_iv | iv_scaled | positive_days | crps | 217 | 11 | 1.346210 | 1.358696 | 0.012486 | -0.022136 | 0.047107 | -0.020237 | 0.045208 |
+| 21 | combined | position_iv | iv_scaled | positive_days | mae | 217 | 11 | 1.933783 | 1.952423 | 0.018640 | -0.025495 | 0.062776 | -0.026535 | 0.063815 |
+| 21 | combined | position_iv | iv_scaled | range | crps | 217 | 11 | 0.018140 | 0.018162 | 0.000022 | -0.000231 | 0.000275 | -0.000276 | 0.000321 |
+| 21 | combined | position_iv | iv_scaled | range | mae | 217 | 11 | 0.024729 | 0.024620 | -0.000109 | -0.000562 | 0.000345 | -0.000638 | 0.000420 |
+| 21 | combined | position_iv | iv_scaled | rebound | crps | 217 | 11 | 0.011969 | 0.012055 | 0.000087 | -0.000145 | 0.000318 | -0.000141 | 0.000314 |
+| 21 | combined | position_iv | iv_scaled | rebound | mae | 217 | 11 | 0.016752 | 0.016983 | 0.000232 | -0.000188 | 0.000651 | -0.000195 | 0.000658 |
+| 21 | combined | position_iv | iv_scaled | regular_sd | crps | 217 | 11 | 0.024693 | 0.024651 | -0.000042 | -0.000552 | 0.000469 | -0.000603 | 0.000520 |
+| 21 | combined | position_iv | iv_scaled | regular_sd | mae | 217 | 11 | 0.034431 | 0.034418 | -0.000013 | -0.000767 | 0.000742 | -0.000820 | 0.000795 |
+| 21 | combined | position_iv | iv_scaled | touch_family | brier | 217 | 11 | 0.195917 | 0.197163 | 0.001246 | -0.001790 | 0.004283 | -0.002015 | 0.004508 |
+| 21 | combined | position_iv | iv_scaled | volatility | crps | 217 | 11 | 0.030919 | 0.030795 | -0.000125 | -0.000642 | 0.000393 | -0.000668 | 0.000419 |
+| 21 | combined | position_ridge | shape_level | volatility | mae | 217 | 11 | 0.048375 | 0.048385 | 0.000010 | -0.001220 | 0.001239 | -0.001192 | 0.001211 |
+| 21 | combined | position_iv | iv_scaled | volatility | mae | 217 | 11 | 0.041759 | 0.041537 | -0.000222 | -0.000959 | 0.000515 | -0.000861 | 0.000417 |
+| 21 | combined | position_ridge | iv_bracket | volatility | mae | 217 | 11 | 0.048375 | 0.039406 | -0.008969 | -0.027536 | 0.009598 | -0.030991 | 0.013053 |
+| 21 | combined | position_ridge | shape_level | volatility | qlike | 217 | 11 | 0.757652 | 0.770767 | 0.013116 | -0.046647 | 0.072878 | -0.048176 | 0.074407 |
+| 21 | combined | position_ridge | iv_bracket | volatility | qlike | 217 | 11 | 0.757652 | 0.267623 | -0.490029 | -1.304141 | 0.324083 | -1.549632 | 0.569574 |
+
+[Unsigned strike and expiry features](unsigned-strike-positioning.csv) · [Complete matched contrasts](paired-search-adjusted.csv).

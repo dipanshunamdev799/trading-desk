@@ -1,0 +1,611 @@
+{
+  "passed": true,
+  "V9_forecasts": 1612,
+  "V8_leading_forecasts": 184,
+  "folds": [
+    {
+      "model": "P_HIST",
+      "cohort": "early",
+      "fold": "2025-10",
+      "rows": 12,
+      "max_error": 0.0
+    },
+    {
+      "model": "P_CLUSTER",
+      "cohort": "early",
+      "fold": "2025-10",
+      "rows": 12,
+      "max_error": 0.0
+    },
+    {
+      "model": "P_HIST",
+      "cohort": "early",
+      "fold": "2025-11",
+      "rows": 19,
+      "max_error": 0.0
+    },
+    {
+      "model": "P_CLUSTER",
+      "cohort": "early",
+      "fold": "2025-11",
+      "rows": 19,
+      "max_error": 0.0
+    },
+    {
+      "model": "P_HIST",
+      "cohort": "early",
+      "fold": "2025-12",
+      "rows": 22,
+      "max_error": 0.0
+    },
+    {
+      "model": "P_CLUSTER",
+      "cohort": "early",
+      "fold": "2025-12",
+      "rows": 22,
+      "max_error": 0.0
+    },
+    {
+      "model": "P_HIST",
+      "cohort": "early",
+      "fold": "2026-01",
+      "rows": 20,
+      "max_error": 0.0
+    },
+    {
+      "model": "P_CLUSTER",
+      "cohort": "early",
+      "fold": "2026-01",
+      "rows": 20,
+      "max_error": 0.0
+    },
+    {
+      "model": "P_HIST",
+      "cohort": "early",
+      "fold": "2026-02",
+      "rows": 21,
+      "max_error": 0.0
+    },
+    {
+      "model": "P_CLUSTER",
+      "cohort": "early",
+      "fold": "2026-02",
+      "rows": 21,
+      "max_error": 0.0
+    },
+    {
+      "model": "P_HIST",
+      "cohort": "early",
+      "fold": "2026-03",
+      "rows": 19,
+      "max_error": 0.0
+    },
+    {
+      "model": "P_CLUSTER",
+      "cohort": "early",
+      "fold": "2026-03",
+      "rows": 19,
+      "max_error": 0.0
+    },
+    {
+      "model": "P_HIST",
+      "cohort": "early",
+      "fold": "2026-04",
+      "rows": 20,
+      "max_error": 0.0
+    },
+    {
+      "model": "P_CLUSTER",
+      "cohort": "early",
+      "fold": "2026-04",
+      "rows": 20,
+      "max_error": 0.0
+    },
+    {
+      "model": "P_HIST",
+      "cohort": "early",
+      "fold": "2026-05",
+      "rows": 19,
+      "max_error": 0.0
+    },
+    {
+      "model": "P_CLUSTER",
+      "cohort": "early",
+      "fold": "2026-05",
+      "rows": 19,
+      "max_error": 0.0
+    },
+    {
+      "model": "P_HIST",
+      "cohort": "early",
+      "fold": "2026-06",
+      "rows": 21,
+      "max_error": 0.0
+    },
+    {
+      "model": "P_CLUSTER",
+      "cohort": "early",
+      "fold": "2026-06",
+      "rows": 21,
+      "max_error": 0.0
+    },
+    {
+      "model": "P_HIST",
+      "cohort": "later",
+      "fold": "2026-07",
+      "rows": 23,
+      "max_error": 0.0
+    },
+    {
+      "model": "P_CLUSTER",
+      "cohort": "later",
+      "fold": "2026-07",
+      "rows": 23,
+      "max_error": 0.0
+    },
+    {
+      "model": "P_HIST",
+      "cohort": "later",
+      "fold": "2026-08",
+      "rows": 21,
+      "max_error": 0.0
+    },
+    {
+      "model": "P_CLUSTER",
+      "cohort": "later",
+      "fold": "2026-08",
+      "rows": 21,
+      "max_error": 0.0
+    },
+    {
+      "model": "P_HIST",
+      "cohort": "later",
+      "fold": "2026-09",
+      "rows": 21,
+      "max_error": 0.0
+    },
+    {
+      "model": "P_CLUSTER",
+      "cohort": "later",
+      "fold": "2026-09",
+      "rows": 21,
+      "max_error": 0.0
+    },
+    {
+      "model": "P_HIST",
+      "cohort": "later",
+      "fold": "2026-10",
+      "rows": 20,
+      "max_error": 0.0
+    },
+    {
+      "model": "P_CLUSTER",
+      "cohort": "later",
+      "fold": "2026-10",
+      "rows": 20,
+      "max_error": 0.0
+    },
+    {
+      "model": "P_HIST",
+      "cohort": "later",
+      "fold": "2026-11",
+      "rows": 7,
+      "max_error": 0.0
+    },
+    {
+      "model": "P_CLUSTER",
+      "cohort": "later",
+      "fold": "2026-11",
+      "rows": 7,
+      "max_error": 0.0
+    },
+    {
+      "model": "L_ROT_85",
+      "cohort": "later",
+      "fold": "2026-07",
+      "rows": 23,
+      "max_error": 0.0
+    },
+    {
+      "model": "L_ROT_126",
+      "cohort": "later",
+      "fold": "2026-07",
+      "rows": 23,
+      "max_error": 0.0
+    },
+    {
+      "model": "L_ROT_189",
+      "cohort": "later",
+      "fold": "2026-07",
+      "rows": 23,
+      "max_error": 0.0
+    },
+    {
+      "model": "L_ROT_252",
+      "cohort": "later",
+      "fold": "2026-07",
+      "rows": 23,
+      "max_error": 0.0
+    },
+    {
+      "model": "L_ROT_300",
+      "cohort": "later",
+      "fold": "2026-07",
+      "rows": 23,
+      "max_error": 0.0
+    },
+    {
+      "model": "L_ROT_MAX",
+      "cohort": "later",
+      "fold": "2026-07",
+      "rows": 23,
+      "max_error": 0.0
+    },
+    {
+      "model": "L_ROT_85",
+      "cohort": "later",
+      "fold": "2026-08",
+      "rows": 21,
+      "max_error": 0.0
+    },
+    {
+      "model": "L_ROT_126",
+      "cohort": "later",
+      "fold": "2026-08",
+      "rows": 21,
+      "max_error": 0.0
+    },
+    {
+      "model": "L_ROT_189",
+      "cohort": "later",
+      "fold": "2026-08",
+      "rows": 21,
+      "max_error": 0.0
+    },
+    {
+      "model": "L_ROT_252",
+      "cohort": "later",
+      "fold": "2026-08",
+      "rows": 21,
+      "max_error": 0.0
+    },
+    {
+      "model": "L_ROT_300",
+      "cohort": "later",
+      "fold": "2026-08",
+      "rows": 21,
+      "max_error": 0.0
+    },
+    {
+      "model": "L_ROT_MAX",
+      "cohort": "later",
+      "fold": "2026-08",
+      "rows": 21,
+      "max_error": 0.0
+    },
+    {
+      "model": "L_ROT_85",
+      "cohort": "later",
+      "fold": "2026-09",
+      "rows": 21,
+      "max_error": 0.0
+    },
+    {
+      "model": "L_ROT_126",
+      "cohort": "later",
+      "fold": "2026-09",
+      "rows": 21,
+      "max_error": 0.0
+    },
+    {
+      "model": "L_ROT_189",
+      "cohort": "later",
+      "fold": "2026-09",
+      "rows": 21,
+      "max_error": 0.0
+    },
+    {
+      "model": "L_ROT_252",
+      "cohort": "later",
+      "fold": "2026-09",
+      "rows": 21,
+      "max_error": 0.0
+    },
+    {
+      "model": "L_ROT_300",
+      "cohort": "later",
+      "fold": "2026-09",
+      "rows": 21,
+      "max_error": 0.0
+    },
+    {
+      "model": "L_ROT_MAX",
+      "cohort": "later",
+      "fold": "2026-09",
+      "rows": 21,
+      "max_error": 0.0
+    },
+    {
+      "model": "L_ROT_85",
+      "cohort": "later",
+      "fold": "2026-10",
+      "rows": 20,
+      "max_error": 0.0
+    },
+    {
+      "model": "L_ROT_126",
+      "cohort": "later",
+      "fold": "2026-10",
+      "rows": 20,
+      "max_error": 0.0
+    },
+    {
+      "model": "L_ROT_189",
+      "cohort": "later",
+      "fold": "2026-10",
+      "rows": 20,
+      "max_error": 0.0
+    },
+    {
+      "model": "L_ROT_252",
+      "cohort": "later",
+      "fold": "2026-10",
+      "rows": 20,
+      "max_error": 0.0
+    },
+    {
+      "model": "L_ROT_300",
+      "cohort": "later",
+      "fold": "2026-10",
+      "rows": 20,
+      "max_error": 0.0
+    },
+    {
+      "model": "L_ROT_MAX",
+      "cohort": "later",
+      "fold": "2026-10",
+      "rows": 20,
+      "max_error": 0.0
+    },
+    {
+      "model": "L_ROT_85",
+      "cohort": "later",
+      "fold": "2026-11",
+      "rows": 7,
+      "max_error": 0.0
+    },
+    {
+      "model": "L_ROT_126",
+      "cohort": "later",
+      "fold": "2026-11",
+      "rows": 7,
+      "max_error": 0.0
+    },
+    {
+      "model": "L_ROT_189",
+      "cohort": "later",
+      "fold": "2026-11",
+      "rows": 7,
+      "max_error": 0.0
+    },
+    {
+      "model": "L_ROT_252",
+      "cohort": "later",
+      "fold": "2026-11",
+      "rows": 7,
+      "max_error": 0.0
+    },
+    {
+      "model": "L_ROT_300",
+      "cohort": "later",
+      "fold": "2026-11",
+      "rows": 7,
+      "max_error": 0.0
+    },
+    {
+      "model": "L_ROT_MAX",
+      "cohort": "later",
+      "fold": "2026-11",
+      "rows": 7,
+      "max_error": 0.0
+    },
+    {
+      "model": "J9_STATIC",
+      "cohort": "early",
+      "fold": "2025-10",
+      "rows": 12,
+      "max_error": 0.0
+    },
+    {
+      "model": "J9_REL_SHRINK",
+      "cohort": "early",
+      "fold": "2025-10",
+      "rows": 12,
+      "max_error": 0.0
+    },
+    {
+      "model": "J9_STATIC",
+      "cohort": "early",
+      "fold": "2025-11",
+      "rows": 19,
+      "max_error": 0.0
+    },
+    {
+      "model": "J9_REL_SHRINK",
+      "cohort": "early",
+      "fold": "2025-11",
+      "rows": 19,
+      "max_error": 0.0
+    },
+    {
+      "model": "J9_STATIC",
+      "cohort": "early",
+      "fold": "2025-12",
+      "rows": 22,
+      "max_error": 0.0
+    },
+    {
+      "model": "J9_REL_SHRINK",
+      "cohort": "early",
+      "fold": "2025-12",
+      "rows": 22,
+      "max_error": 0.0
+    },
+    {
+      "model": "J9_STATIC",
+      "cohort": "early",
+      "fold": "2026-01",
+      "rows": 20,
+      "max_error": 0.0
+    },
+    {
+      "model": "J9_REL_SHRINK",
+      "cohort": "early",
+      "fold": "2026-01",
+      "rows": 20,
+      "max_error": 3.469446951953614e-18
+    },
+    {
+      "model": "J9_STATIC",
+      "cohort": "early",
+      "fold": "2026-02",
+      "rows": 21,
+      "max_error": 0.0
+    },
+    {
+      "model": "J9_REL_SHRINK",
+      "cohort": "early",
+      "fold": "2026-02",
+      "rows": 21,
+      "max_error": 0.0
+    },
+    {
+      "model": "J9_STATIC",
+      "cohort": "early",
+      "fold": "2026-03",
+      "rows": 19,
+      "max_error": 0.0
+    },
+    {
+      "model": "J9_REL_SHRINK",
+      "cohort": "early",
+      "fold": "2026-03",
+      "rows": 19,
+      "max_error": 8.673617379884035e-19
+    },
+    {
+      "model": "J9_STATIC",
+      "cohort": "early",
+      "fold": "2026-04",
+      "rows": 20,
+      "max_error": 0.0
+    },
+    {
+      "model": "J9_REL_SHRINK",
+      "cohort": "early",
+      "fold": "2026-04",
+      "rows": 20,
+      "max_error": 1.6653345369377348e-16
+    },
+    {
+      "model": "J9_STATIC",
+      "cohort": "early",
+      "fold": "2026-05",
+      "rows": 19,
+      "max_error": 0.0
+    },
+    {
+      "model": "J9_REL_SHRINK",
+      "cohort": "early",
+      "fold": "2026-05",
+      "rows": 19,
+      "max_error": 2.220446049250313e-16
+    },
+    {
+      "model": "J9_STATIC",
+      "cohort": "early",
+      "fold": "2026-06",
+      "rows": 21,
+      "max_error": 0.0
+    },
+    {
+      "model": "J9_REL_SHRINK",
+      "cohort": "early",
+      "fold": "2026-06",
+      "rows": 21,
+      "max_error": 2.220446049250313e-16
+    },
+    {
+      "model": "J9_STATIC",
+      "cohort": "later",
+      "fold": "2026-07",
+      "rows": 23,
+      "max_error": 0.0
+    },
+    {
+      "model": "J9_REL_SHRINK",
+      "cohort": "later",
+      "fold": "2026-07",
+      "rows": 23,
+      "max_error": 1.1102230246251565e-16
+    },
+    {
+      "model": "J9_STATIC",
+      "cohort": "later",
+      "fold": "2026-08",
+      "rows": 21,
+      "max_error": 0.0
+    },
+    {
+      "model": "J9_REL_SHRINK",
+      "cohort": "later",
+      "fold": "2026-08",
+      "rows": 21,
+      "max_error": 1.6653345369377348e-16
+    },
+    {
+      "model": "J9_STATIC",
+      "cohort": "later",
+      "fold": "2026-09",
+      "rows": 21,
+      "max_error": 0.0
+    },
+    {
+      "model": "J9_REL_SHRINK",
+      "cohort": "later",
+      "fold": "2026-09",
+      "rows": 21,
+      "max_error": 2.220446049250313e-16
+    },
+    {
+      "model": "J9_STATIC",
+      "cohort": "later",
+      "fold": "2026-10",
+      "rows": 20,
+      "max_error": 0.0
+    },
+    {
+      "model": "J9_REL_SHRINK",
+      "cohort": "later",
+      "fold": "2026-10",
+      "rows": 20,
+      "max_error": 1.6653345369377348e-16
+    },
+    {
+      "model": "J9_STATIC",
+      "cohort": "later",
+      "fold": "2026-11",
+      "rows": 7,
+      "max_error": 0.0
+    },
+    {
+      "model": "J9_REL_SHRINK",
+      "cohort": "later",
+      "fold": "2026-11",
+      "rows": 7,
+      "max_error": 3.469446951953614e-18
+    }
+  ],
+  "maximum_discrepancy": 2.220446049250313e-16,
+  "protected_files": 15367
+}

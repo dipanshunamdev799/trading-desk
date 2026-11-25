@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "checked_at": "2026-11-24T11:50:33.169965+05:30",
+  "checks": [
+    "Earlier versions rehashed without changes",
+    "V4\u2013V6 reconstruction passed",
+    "Unique model/horizon/origin keys",
+    "Every label matched to its session horizon and scope",
+    "Endpoint quantiles ordered",
+    "Coherent sign scores, return buckets and endpoint means",
+    "Outer/inner fit endpoints matured, purged and embargoed",
+    "Fitted model hashes match",
+    "Intermediate global/risk models use matured labels",
+    "Mixture weights and sign calibration exclude unresolved forecasts",
+    "Duplicate plus compensating penalty reproduces raw forecasts",
+    "Monthly precision withheld",
+    "Intraday models use complete sessions only",
+    "Truncating future input bars preserves past structure features",
+    "Fresh replay of three leading weekly configurations",
+    "All fifteen required reports and fixed hashes"
+  ],
+  "replayed_rows": 276,
+  "replay_max_error": 0.0,
+  "protected_files": 7721
+}

@@ -1,0 +1,35 @@
+{
+  "registered_at": "2026-11-24T14:12:56.071676+05:30",
+  "configurations": {
+    "DATED_FUTURES_PARENT": {
+      "frame": "ten",
+      "parent": "BASE10",
+      "eligible": "DATED_FUTURES",
+      "hypothesis": "Exact dated derivative eligibility control"
+    },
+    "DATED_FUTURES": {
+      "frame": "DATED_FUTURES",
+      "parent": "DATED_FUTURES_PARENT",
+      "eligible": "DATED_FUTURES",
+      "hypothesis": "One observed-session delayed derivative information with dated contract and expiry matching"
+    },
+    "DATED_STRADDLE_PARENT": {
+      "frame": "ten",
+      "parent": "BASE10",
+      "eligible": "DATED_STRADDLE",
+      "hypothesis": "Exact dated derivative eligibility control"
+    },
+    "DATED_STRADDLE": {
+      "frame": "DATED_STRADDLE",
+      "parent": "DATED_STRADDLE_PARENT",
+      "eligible": "DATED_STRADDLE",
+      "hypothesis": "One observed-session delayed derivative information with dated contract and expiry matching"
+    }
+  },
+  "seed": 20261130,
+  "code_hashes": {
+    "experiments.py": "d45e8c107db6a6c3f702d0fdbdf5b889d000a7e372994af18ad4b1d2a2e653bb",
+    "estimators.py": "30f13c215fbddb9ff179412a84586d60e83616b01283bd589523daab4520f9d3",
+    "targets.py": "9bb9d2060fef1bc2b1add51c129d8dc4e792afae782e6b5c8183f82a1ae5f752"
+  }
+}

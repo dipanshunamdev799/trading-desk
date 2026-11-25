@@ -1,0 +1,2329 @@
+{
+  "passed": true,
+  "folds": [
+    {
+      "horizon": 5,
+      "fold": "2026-07",
+      "model": "M05_lgbm",
+      "max_probability_difference": 0.0
+    },
+    {
+      "horizon": 5,
+      "fold": "2026-08",
+      "model": "M05_lgbm",
+      "max_probability_difference": 0.0
+    },
+    {
+      "horizon": 5,
+      "fold": "2026-09",
+      "model": "M05_lgbm",
+      "max_probability_difference": 0.0
+    },
+    {
+      "horizon": 5,
+      "fold": "2026-10",
+      "model": "M05_lgbm",
+      "max_probability_difference": 0.0
+    },
+    {
+      "horizon": 5,
+      "fold": "2026-11",
+      "model": "M05_lgbm",
+      "max_probability_difference": 0.0
+    },
+    {
+      "horizon": 5,
+      "fold": "2026-07",
+      "model": "A00_sector",
+      "max_probability_difference": 0.0
+    },
+    {
+      "horizon": 5,
+      "fold": "2026-08",
+      "model": "A00_sector",
+      "max_probability_difference": 0.0
+    },
+    {
+      "horizon": 5,
+      "fold": "2026-09",
+      "model": "A00_sector",
+      "max_probability_difference": 0.0
+    },
+    {
+      "horizon": 5,
+      "fold": "2026-10",
+      "model": "A00_sector",
+      "max_probability_difference": 0.0
+    },
+    {
+      "horizon": 5,
+      "fold": "2026-11",
+      "model": "A00_sector",
+      "max_probability_difference": 1.1102230246251565e-16
+    },
+    {
+      "horizon": 5,
+      "fold": "2026-07",
+      "model": "Z_reversion",
+      "max_probability_difference": 0.0
+    },
+    {
+      "horizon": 5,
+      "fold": "2026-08",
+      "model": "Z_reversion",
+      "max_probability_difference": 0.0
+    },
+    {
+      "horizon": 5,
+      "fold": "2026-09",
+      "model": "Z_reversion",
+      "max_probability_difference": 0.0
+    },
+    {
+      "horizon": 5,
+      "fold": "2026-10",
+      "model": "Z_reversion",
+      "max_probability_difference": 0.0
+    },
+    {
+      "horizon": 5,
+      "fold": "2026-11",
+      "model": "Z_reversion",
+      "max_probability_difference": 0.0
+    },
+    {
+      "horizon": 5,
+      "fold": "2026-07",
+      "model": "Z_neutral",
+      "max_probability_difference": 0.0
+    },
+    {
+      "horizon": 5,
+      "fold": "2026-08",
+      "model": "Z_neutral",
+      "max_probability_difference": 0.0
+    },
+    {
+      "horizon": 5,
+      "fold": "2026-09",
+      "model": "Z_neutral",
+      "max_probability_difference": 0.0
+    },
+    {
+      "horizon": 5,
+      "fold": "2026-10",
+      "model": "Z_neutral",
+      "max_probability_difference": 0.0
+    },
+    {
+      "horizon": 5,
+      "fold": "2026-11",
+      "model": "Z_neutral",
+      "max_probability_difference": 0.0
+    },
+    {
+      "horizon": 5,
+      "fold": "2026-07",
+      "model": "B00_empirical",
+      "max_probability_difference": 0.0
+    },
+    {
+      "horizon": 5,
+      "fold": "2026-08",
+      "model": "B00_empirical",
+      "max_probability_difference": 0.0
+    },
+    {
+      "horizon": 5,
+      "fold": "2026-09",
+      "model": "B00_empirical",
+      "max_probability_difference": 0.0
+    },
+    {
+      "horizon": 5,
+      "fold": "2026-10",
+      "model": "B00_empirical",
+      "max_probability_difference": 0.0
+    },
+    {
+      "horizon": 5,
+      "fold": "2026-11",
+      "model": "B00_empirical",
+      "max_probability_difference": 0.0
+    },
+    {
+      "horizon": 21,
+      "fold": "2026-07",
+      "model": "M05_lgbm",
+      "max_probability_difference": 0.0
+    },
+    {
+      "horizon": 21,
+      "fold": "2026-08",
+      "model": "M05_lgbm",
+      "max_probability_difference": 0.0
+    },
+    {
+      "horizon": 21,
+      "fold": "2026-09",
+      "model": "M05_lgbm",
+      "max_probability_difference": 0.0
+    },
+    {
+      "horizon": 21,
+      "fold": "2026-10",
+      "model": "M05_lgbm",
+      "max_probability_difference": 0.0
+    },
+    {
+      "horizon": 21,
+      "fold": "2026-07",
+      "model": "A00_sector",
+      "max_probability_difference": 0.0
+    },
+    {
+      "horizon": 21,
+      "fold": "2026-08",
+      "model": "A00_sector",
+      "max_probability_difference": 0.0
+    },
+    {
+      "horizon": 21,
+      "fold": "2026-09",
+      "model": "A00_sector",
+      "max_probability_difference": 0.0
+    },
+    {
+      "horizon": 21,
+      "fold": "2026-10",
+      "model": "A00_sector",
+      "max_probability_difference": 0.0
+    },
+    {
+      "horizon": 21,
+      "fold": "2026-07",
+      "model": "Z_reversion",
+      "max_probability_difference": 0.0
+    },
+    {
+      "horizon": 21,
+      "fold": "2026-08",
+      "model": "Z_reversion",
+      "max_probability_difference": 0.0
+    },
+    {
+      "horizon": 21,
+      "fold": "2026-09",
+      "model": "Z_reversion",
+      "max_probability_difference": 0.0
+    },
+    {
+      "horizon": 21,
+      "fold": "2026-10",
+      "model": "Z_reversion",
+      "max_probability_difference": 0.0
+    },
+    {
+      "horizon": 21,
+      "fold": "2026-07",
+      "model": "Z_neutral",
+      "max_probability_difference": 0.0
+    },
+    {
+      "horizon": 21,
+      "fold": "2026-08",
+      "model": "Z_neutral",
+      "max_probability_difference": 0.0
+    },
+    {
+      "horizon": 21,
+      "fold": "2026-09",
+      "model": "Z_neutral",
+      "max_probability_difference": 0.0
+    },
+    {
+      "horizon": 21,
+      "fold": "2026-10",
+      "model": "Z_neutral",
+      "max_probability_difference": 0.0
+    },
+    {
+      "horizon": 21,
+      "fold": "2026-07",
+      "model": "B00_empirical",
+      "max_probability_difference": 0.0
+    },
+    {
+      "horizon": 21,
+      "fold": "2026-08",
+      "model": "B00_empirical",
+      "max_probability_difference": 0.0
+    },
+    {
+      "horizon": 21,
+      "fold": "2026-09",
+      "model": "B00_empirical",
+      "max_probability_difference": 0.0
+    },
+    {
+      "horizon": 21,
+      "fold": "2026-10",
+      "model": "B00_empirical",
+      "max_probability_difference": 0.0
+    }
+  ],
+  "independent_refits": [
+    "h5-2026-07-M05_lgbm",
+    "h5-2026-07-A00_sector"
+  ],
+  "original_feature_significance_min_q": 0.2960199004975124,
+  "v3_intervals": [
+    {
+      "horizon": 5,
+      "target": "direction",
+      "model": "A00_sector",
+      "contrasts_in_family": 170,
+      "mean_improvement": 0.016233034837543646,
+      "simultaneous_ci95": [
+        -0.07927905345558173,
+        0.11174512313066903
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "direction",
+      "model": "A01_nofo",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.022001142318889798,
+      "simultaneous_ci95": [
+        -0.1562783375989031,
+        0.1122760529611235
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "direction",
+      "model": "A02_proxy",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.05305462272695958,
+      "simultaneous_ci95": [
+        -0.20831003891627994,
+        0.1022007934623608
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "direction",
+      "model": "A03_interact",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.12374062357837355,
+      "simultaneous_ci95": [
+        -0.3528799202360725,
+        0.10539867307932539
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "direction",
+      "model": "B00_empirical",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.00905664963247777,
+      "simultaneous_ci95": [
+        -0.05204131849982055,
+        0.033928019234865006
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "direction",
+      "model": "B01_ewma",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.01086357192055448,
+      "simultaneous_ci95": [
+        -0.08042742128822938,
+        0.05870027744712042
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "direction",
+      "model": "B02_rv_scaled",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.009056649632477763,
+      "simultaneous_ci95": [
+        -0.0520413184998205,
+        0.03392801923486497
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "direction",
+      "model": "B03_vix_scaled",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.009056649632477763,
+      "simultaneous_ci95": [
+        -0.0520413184998205,
+        0.03392801923486497
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "direction",
+      "model": "B04_momentum",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.015659171228997692,
+      "simultaneous_ci95": [
+        -0.055088016121823416,
+        0.023769673663828036
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "direction",
+      "model": "B05_reversion",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.004465961246284154,
+      "simultaneous_ci95": [
+        -0.056995842052236956,
+        0.048063919559668655
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "direction",
+      "model": "B06_regime",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.017088199257581017,
+      "simultaneous_ci95": [
+        -0.06197516944993614,
+        0.027798770934774106
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "direction",
+      "model": "C_direction",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.02151124832680265,
+      "simultaneous_ci95": [
+        -0.06422169500529887,
+        0.021199198351693573
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "direction",
+      "model": "C_distribution",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.014512400381414265,
+      "simultaneous_ci95": [
+        -0.05356079988083068,
+        0.024535999118002152
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "direction",
+      "model": "C_return",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.013162945042127306,
+      "simultaneous_ci95": [
+        -0.05697936802231669,
+        0.030653477938062085
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "direction",
+      "model": "C_tail",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.01888496580942408,
+      "simultaneous_ci95": [
+        -0.05522444794191456,
+        0.017454516323066403
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "direction",
+      "model": "C_volatility",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.003381080472099057,
+      "simultaneous_ci95": [
+        -0.05194987224074961,
+        0.0451877112965515
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "direction",
+      "model": "M00_ridge_price",
+      "contrasts_in_family": 170,
+      "mean_improvement": 0.003381122452176941,
+      "simultaneous_ci95": [
+        -0.05479704292974977,
+        0.06155928783410365
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "direction",
+      "model": "M01_ridge_full",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.06444711653680611,
+      "simultaneous_ci95": [
+        -0.23014436887780287,
+        0.10125013580419064
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "direction",
+      "model": "M02_elastic001",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.01537474416355976,
+      "simultaneous_ci95": [
+        -0.14609924509918168,
+        0.11534975677206215
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "direction",
+      "model": "M03_elastic01",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.01537474416355976,
+      "simultaneous_ci95": [
+        -0.14609924509918168,
+        0.11534975677206215
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "direction",
+      "model": "M04_corr_ridge",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.05381570070092602,
+      "simultaneous_ci95": [
+        -0.22018112830162662,
+        0.11254972689977456
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "direction",
+      "model": "M05_lgbm",
+      "contrasts_in_family": 170,
+      "mean_improvement": 0.023190089197523894,
+      "simultaneous_ci95": [
+        -0.0930329390036219,
+        0.13941311739866968
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "direction",
+      "model": "M06_analog30",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.0023521610324318686,
+      "simultaneous_ci95": [
+        -0.035674284632781814,
+        0.030969962567918077
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "direction",
+      "model": "M07_sequence",
+      "contrasts_in_family": 170,
+      "mean_improvement": 0.008934966249632968,
+      "simultaneous_ci95": [
+        -0.054657508808146724,
+        0.07252744130741266
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "direction",
+      "model": "S_direction",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.006878962730956207,
+      "simultaneous_ci95": [
+        -0.07725458358369347,
+        0.06349665812178107
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "direction",
+      "model": "S_distribution",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.019813322267364677,
+      "simultaneous_ci95": [
+        -0.09073932936388966,
+        0.0511126848291603
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "direction",
+      "model": "S_return",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.016158228286971724,
+      "simultaneous_ci95": [
+        -0.09100128394531577,
+        0.05868482737137233
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "direction",
+      "model": "S_tail",
+      "contrasts_in_family": 170,
+      "mean_improvement": 0.0006249279987471729,
+      "simultaneous_ci95": [
+        -0.06148398476926785,
+        0.0627338407667622
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "direction",
+      "model": "S_volatility",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.007698316769820987,
+      "simultaneous_ci95": [
+        -0.08798354618493956,
+        0.0725869126452976
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "direction",
+      "model": "Z_always_down",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.1581173913043478,
+      "simultaneous_ci95": [
+        -0.46729669412381447,
+        0.1510619115151189
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "direction",
+      "model": "Z_always_up",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.30420434782608696,
+      "simultaneous_ci95": [
+        -0.5825280676089833,
+        -0.02588062804319058
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "direction",
+      "model": "Z_momentum",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.002173913043478264,
+      "simultaneous_ci95": [
+        -0.050360797277477824,
+        0.0460129711905213
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "direction",
+      "model": "Z_neutral",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.0007608695652173781,
+      "simultaneous_ci95": [
+        -0.030751924910053827,
+        0.029230185779619073
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "direction",
+      "model": "Z_reversion",
+      "contrasts_in_family": 170,
+      "mean_improvement": 0.0,
+      "simultaneous_ci95": [
+        -3.4480020264510127e-12,
+        3.4480020264510127e-12
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "return",
+      "model": "A00_sector",
+      "contrasts_in_family": 170,
+      "mean_improvement": 0.001336611249775393,
+      "simultaneous_ci95": [
+        -0.004880355972066027,
+        0.0075535784716168125
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "return",
+      "model": "A01_nofo",
+      "contrasts_in_family": 170,
+      "mean_improvement": 0.0009155954713029834,
+      "simultaneous_ci95": [
+        -0.005287244208103136,
+        0.007118435150709103
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "return",
+      "model": "A02_proxy",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.0006469040960020398,
+      "simultaneous_ci95": [
+        -0.006670786828646349,
+        0.005376978636642269
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "return",
+      "model": "A03_interact",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.0030439876916741855,
+      "simultaneous_ci95": [
+        -0.010846134892247249,
+        0.0047581595088988776
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "return",
+      "model": "B00_empirical",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.00014899413547783918,
+      "simultaneous_ci95": [
+        -0.0013268218542272544,
+        0.001028833583271576
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "return",
+      "model": "B01_ewma",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.00032651050021067975,
+      "simultaneous_ci95": [
+        -0.0015293315049648478,
+        0.0008763105045434884
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "return",
+      "model": "B02_rv_scaled",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.00044171742464301444,
+      "simultaneous_ci95": [
+        -0.0016218731578709282,
+        0.0007384383085848993
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "return",
+      "model": "B03_vix_scaled",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.0004216212004660176,
+      "simultaneous_ci95": [
+        -0.0016164412467482773,
+        0.0007731988458162422
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "return",
+      "model": "B04_momentum",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.0002973637926115323,
+      "simultaneous_ci95": [
+        -0.0009781116668391183,
+        0.0003833840816160536
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "return",
+      "model": "B05_reversion",
+      "contrasts_in_family": 170,
+      "mean_improvement": -2.4528071664284332e-05,
+      "simultaneous_ci95": [
+        -0.0013251069623727429,
+        0.0012760508190441742
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "return",
+      "model": "B06_regime",
+      "contrasts_in_family": 170,
+      "mean_improvement": 0.0,
+      "simultaneous_ci95": [
+        -3.4480020264510127e-12,
+        3.4480020264510127e-12
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "return",
+      "model": "C_direction",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.0002812725448807473,
+      "simultaneous_ci95": [
+        -0.00150819037944645,
+        0.0009456452896849554
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "return",
+      "model": "C_distribution",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.00017508678619501816,
+      "simultaneous_ci95": [
+        -0.0009295212567876223,
+        0.000579347684397586
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "return",
+      "model": "C_return",
+      "contrasts_in_family": 170,
+      "mean_improvement": 0.00016067891842668598,
+      "simultaneous_ci95": [
+        -0.00041432089723208044,
+        0.0007356787340854524
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "return",
+      "model": "C_tail",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.0004826107755915056,
+      "simultaneous_ci95": [
+        -0.0013596658826515898,
+        0.0003944443314685787
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "return",
+      "model": "C_volatility",
+      "contrasts_in_family": 170,
+      "mean_improvement": -5.738663865987479e-05,
+      "simultaneous_ci95": [
+        -0.0012614456251443678,
+        0.0011466723478246183
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "return",
+      "model": "M00_ridge_price",
+      "contrasts_in_family": 170,
+      "mean_improvement": 0.0006170387066427432,
+      "simultaneous_ci95": [
+        -0.0010144672945526247,
+        0.0022485447078381114
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "return",
+      "model": "M01_ridge_full",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.0005683705955837531,
+      "simultaneous_ci95": [
+        -0.0065154403651172844,
+        0.005378699173949779
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "return",
+      "model": "M02_elastic001",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.0007207896923842828,
+      "simultaneous_ci95": [
+        -0.007524683575517887,
+        0.006083104190749321
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "return",
+      "model": "M03_elastic01",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.0002958511187826553,
+      "simultaneous_ci95": [
+        -0.0018336221842922592,
+        0.0012419199467269485
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "return",
+      "model": "M04_corr_ridge",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.00040244581558587523,
+      "simultaneous_ci95": [
+        -0.006343398276023306,
+        0.005538506644851555
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "return",
+      "model": "M05_lgbm",
+      "contrasts_in_family": 170,
+      "mean_improvement": 0.0010344467689328881,
+      "simultaneous_ci95": [
+        -0.0017607454058271696,
+        0.0038296389436929456
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "return",
+      "model": "M06_analog30",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.0001180261715824012,
+      "simultaneous_ci95": [
+        -0.00141645994543529,
+        0.001180407602270488
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "return",
+      "model": "M07_sequence",
+      "contrasts_in_family": 170,
+      "mean_improvement": 0.0008448167217524786,
+      "simultaneous_ci95": [
+        -0.0010462642829764265,
+        0.0027358977264813835
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "return",
+      "model": "S_direction",
+      "contrasts_in_family": 170,
+      "mean_improvement": 6.112318076038796e-05,
+      "simultaneous_ci95": [
+        -0.004318804149513862,
+        0.004441050511034638
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "return",
+      "model": "S_distribution",
+      "contrasts_in_family": 170,
+      "mean_improvement": -1.0579714067485859e-05,
+      "simultaneous_ci95": [
+        -0.003596878073469553,
+        0.003575718645334581
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "return",
+      "model": "S_return",
+      "contrasts_in_family": 170,
+      "mean_improvement": 5.2219053291908114e-05,
+      "simultaneous_ci95": [
+        -0.0036762153283203354,
+        0.003780653434904152
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "return",
+      "model": "S_tail",
+      "contrasts_in_family": 170,
+      "mean_improvement": 0.0004132955376605533,
+      "simultaneous_ci95": [
+        -0.0025559139916213297,
+        0.0033825050669424365
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "return",
+      "model": "S_volatility",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.00015981555541549252,
+      "simultaneous_ci95": [
+        -0.004714676773194501,
+        0.004395045662363515
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "return",
+      "model": "Z_always_down",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.00014899413547783918,
+      "simultaneous_ci95": [
+        -0.0013268218542272544,
+        0.001028833583271576
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "return",
+      "model": "Z_always_up",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.00014899413547783918,
+      "simultaneous_ci95": [
+        -0.0013268218542272544,
+        0.001028833583271576
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "return",
+      "model": "Z_momentum",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.00014899413547783918,
+      "simultaneous_ci95": [
+        -0.0013268218542272544,
+        0.001028833583271576
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "return",
+      "model": "Z_neutral",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.00014899413547783918,
+      "simultaneous_ci95": [
+        -0.0013268218542272544,
+        0.001028833583271576
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "return",
+      "model": "Z_reversion",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.00014899413547783918,
+      "simultaneous_ci95": [
+        -0.0013268218542272544,
+        0.001028833583271576
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "distribution",
+      "model": "A00_sector",
+      "contrasts_in_family": 170,
+      "mean_improvement": 0.0009907880496794067,
+      "simultaneous_ci95": [
+        -0.0016108926224719326,
+        0.003592468721830746
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "distribution",
+      "model": "A01_nofo",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.00013469197573240475,
+      "simultaneous_ci95": [
+        -0.003914760468717093,
+        0.003645376517252283
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "distribution",
+      "model": "A02_proxy",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.0038397381035714753,
+      "simultaneous_ci95": [
+        -0.010482909662556694,
+        0.002803433455413743
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "distribution",
+      "model": "A03_interact",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.0065886716810769725,
+      "simultaneous_ci95": [
+        -0.01674519816584377,
+        0.0035678548036898227
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "distribution",
+      "model": "B00_empirical",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.00010405265159612622,
+      "simultaneous_ci95": [
+        -0.00033995306677310033,
+        0.00013184776358084787
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "distribution",
+      "model": "B01_ewma",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.00030240912249138835,
+      "simultaneous_ci95": [
+        -0.0006995759862062726,
+        9.475774122349589e-05
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "distribution",
+      "model": "B02_rv_scaled",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.0002535455522262371,
+      "simultaneous_ci95": [
+        -0.0010055545140991694,
+        0.0004984634096466952
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "distribution",
+      "model": "B03_vix_scaled",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.0001488666773304664,
+      "simultaneous_ci95": [
+        -0.0007180589866965174,
+        0.00042032563203558466
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "distribution",
+      "model": "B04_momentum",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.000295427990644389,
+      "simultaneous_ci95": [
+        -0.000987267819632841,
+        0.00039641183834406295
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "distribution",
+      "model": "B05_reversion",
+      "contrasts_in_family": 170,
+      "mean_improvement": 0.0,
+      "simultaneous_ci95": [
+        -3.4480020264510127e-12,
+        3.4480020264510127e-12
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "distribution",
+      "model": "B06_regime",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.00020253275048775758,
+      "simultaneous_ci95": [
+        -0.0010609668481562375,
+        0.0006559013471807224
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "distribution",
+      "model": "C_direction",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.00027756975134197315,
+      "simultaneous_ci95": [
+        -0.0006684182063236381,
+        0.00011327870363969184
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "distribution",
+      "model": "C_distribution",
+      "contrasts_in_family": 170,
+      "mean_improvement": -7.73451063609883e-05,
+      "simultaneous_ci95": [
+        -0.0008195955151021358,
+        0.0006649053023801591
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "distribution",
+      "model": "C_return",
+      "contrasts_in_family": 170,
+      "mean_improvement": -3.789118311779705e-05,
+      "simultaneous_ci95": [
+        -0.0010149625190680241,
+        0.0009391801528324299
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "distribution",
+      "model": "C_tail",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.0003596951527137161,
+      "simultaneous_ci95": [
+        -0.0009882044564978652,
+        0.00026881415107043294
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "distribution",
+      "model": "C_volatility",
+      "contrasts_in_family": 170,
+      "mean_improvement": -1.6771260848181165e-05,
+      "simultaneous_ci95": [
+        -0.0004840955849137791,
+        0.0004505530632174168
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "distribution",
+      "model": "M00_ridge_price",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.0018813715832325252,
+      "simultaneous_ci95": [
+        -0.0037454327102411523,
+        -1.731045622389805e-05
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "distribution",
+      "model": "M01_ridge_full",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.003418078788554598,
+      "simultaneous_ci95": [
+        -0.009682416604289056,
+        0.0028462590271798593
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "distribution",
+      "model": "M02_elastic001",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.004084413217429834,
+      "simultaneous_ci95": [
+        -0.010766255446818813,
+        0.0025974290119591447
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "distribution",
+      "model": "M03_elastic01",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.0014496800812584094,
+      "simultaneous_ci95": [
+        -0.0032183057611888275,
+        0.00031894559867200905
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "distribution",
+      "model": "M04_corr_ridge",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.003281200784571895,
+      "simultaneous_ci95": [
+        -0.009337567175150288,
+        0.002775165606006497
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "distribution",
+      "model": "M05_lgbm",
+      "contrasts_in_family": 170,
+      "mean_improvement": 0.0002861234414155891,
+      "simultaneous_ci95": [
+        -0.0014843332220043446,
+        0.0020565801048355228
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "distribution",
+      "model": "M06_analog30",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.00010679867904928637,
+      "simultaneous_ci95": [
+        -0.0011011675170970628,
+        0.00088757015899849
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "distribution",
+      "model": "M07_sequence",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.0012781379799240355,
+      "simultaneous_ci95": [
+        -0.0028343509218039867,
+        0.00027807496195591565
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "distribution",
+      "model": "S_direction",
+      "contrasts_in_family": 170,
+      "mean_improvement": 0.0006716120817092007,
+      "simultaneous_ci95": [
+        -0.0018921141875673834,
+        0.003235338350985785
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "distribution",
+      "model": "S_distribution",
+      "contrasts_in_family": 170,
+      "mean_improvement": 0.0008215090319704992,
+      "simultaneous_ci95": [
+        -0.0013717446879609547,
+        0.003014762751901953
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "distribution",
+      "model": "S_return",
+      "contrasts_in_family": 170,
+      "mean_improvement": 0.0008569568754400126,
+      "simultaneous_ci95": [
+        -0.0015491442207789773,
+        0.003263057971659002
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "distribution",
+      "model": "S_tail",
+      "contrasts_in_family": 170,
+      "mean_improvement": 0.00021748859770550204,
+      "simultaneous_ci95": [
+        -0.0013985560240248537,
+        0.001833533219435858
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "distribution",
+      "model": "S_volatility",
+      "contrasts_in_family": 170,
+      "mean_improvement": -2.4218113780856265e-05,
+      "simultaneous_ci95": [
+        -0.0019381477827089318,
+        0.0018897115551472195
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "distribution",
+      "model": "Z_always_down",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.00010405265159612622,
+      "simultaneous_ci95": [
+        -0.00033995306677310033,
+        0.00013184776358084787
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "distribution",
+      "model": "Z_always_up",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.00010405265159612622,
+      "simultaneous_ci95": [
+        -0.00033995306677310033,
+        0.00013184776358084787
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "distribution",
+      "model": "Z_momentum",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.00010405265159612622,
+      "simultaneous_ci95": [
+        -0.00033995306677310033,
+        0.00013184776358084787
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "distribution",
+      "model": "Z_neutral",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.00010405265159612622,
+      "simultaneous_ci95": [
+        -0.00033995306677310033,
+        0.00013184776358084787
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "distribution",
+      "model": "Z_reversion",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.00010405265159612622,
+      "simultaneous_ci95": [
+        -0.00033995306677310033,
+        0.00013184776358084787
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "volatility",
+      "model": "A00_sector",
+      "contrasts_in_family": 170,
+      "mean_improvement": 2.2363544055434644e-05,
+      "simultaneous_ci95": [
+        -0.38439468778722874,
+        0.3844394148753396
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "volatility",
+      "model": "A01_nofo",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.0961025605378265,
+      "simultaneous_ci95": [
+        -0.5578540713020249,
+        0.3656489502263719
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "volatility",
+      "model": "A02_proxy",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.11256823122567136,
+      "simultaneous_ci95": [
+        -0.5065838437775495,
+        0.2814473813262067
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "volatility",
+      "model": "A03_interact",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.15425918077074877,
+      "simultaneous_ci95": [
+        -0.5828256009305229,
+        0.27430723938902535
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "volatility",
+      "model": "B00_empirical",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.07293330729471718,
+      "simultaneous_ci95": [
+        -0.2736852920663908,
+        0.12781867747695647
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "volatility",
+      "model": "B01_ewma",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.12561388421691888,
+      "simultaneous_ci95": [
+        -0.3442854911706261,
+        0.09305772273678839
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "volatility",
+      "model": "B02_rv_scaled",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.15033254819051364,
+      "simultaneous_ci95": [
+        -0.5326520927421121,
+        0.2319869963610848
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "volatility",
+      "model": "B03_vix_scaled",
+      "contrasts_in_family": 170,
+      "mean_improvement": 0.0,
+      "simultaneous_ci95": [
+        -3.4480020264510127e-12,
+        3.4480020264510127e-12
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "volatility",
+      "model": "B04_momentum",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.13552312500758248,
+      "simultaneous_ci95": [
+        -0.4872272749798092,
+        0.21618102496464428
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "volatility",
+      "model": "B05_reversion",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.0556749515879368,
+      "simultaneous_ci95": [
+        -0.2789662709602362,
+        0.16761636778436256
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "volatility",
+      "model": "B06_regime",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.036964152392315264,
+      "simultaneous_ci95": [
+        -0.2053495534907596,
+        0.13142124870612906
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "volatility",
+      "model": "C_direction",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.09066282558993968,
+      "simultaneous_ci95": [
+        -0.3222097902300949,
+        0.14088413905021555
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "volatility",
+      "model": "C_distribution",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.03699172157462023,
+      "simultaneous_ci95": [
+        -0.23095364101779786,
+        0.15697019786855743
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "volatility",
+      "model": "C_return",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.021409649435438386,
+      "simultaneous_ci95": [
+        -0.15868405025212418,
+        0.11586475138124741
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "volatility",
+      "model": "C_tail",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.10976400741852581,
+      "simultaneous_ci95": [
+        -0.4522851565107797,
+        0.23275714167372807
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "volatility",
+      "model": "C_volatility",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.031758599893340636,
+      "simultaneous_ci95": [
+        -0.1965276210532334,
+        0.1330104212665521
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "volatility",
+      "model": "M00_ridge_price",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.164092430463597,
+      "simultaneous_ci95": [
+        -0.630207891580975,
+        0.30202303065378094
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "volatility",
+      "model": "M01_ridge_full",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.12221162212351386,
+      "simultaneous_ci95": [
+        -0.515471148135741,
+        0.27104790388871325
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "volatility",
+      "model": "M02_elastic001",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.12221162212351386,
+      "simultaneous_ci95": [
+        -0.515471148135741,
+        0.27104790388871325
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "volatility",
+      "model": "M03_elastic01",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.12221162212351386,
+      "simultaneous_ci95": [
+        -0.515471148135741,
+        0.27104790388871325
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "volatility",
+      "model": "M04_corr_ridge",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.11273819596859985,
+      "simultaneous_ci95": [
+        -0.5033979556207784,
+        0.2779215636835786
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "volatility",
+      "model": "M05_lgbm",
+      "contrasts_in_family": 170,
+      "mean_improvement": 0.015035480053991567,
+      "simultaneous_ci95": [
+        -0.19027312555245804,
+        0.2203440856604412
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "volatility",
+      "model": "M06_analog30",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.1617666806777326,
+      "simultaneous_ci95": [
+        -0.6358788000553917,
+        0.31234543869992654
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "volatility",
+      "model": "M07_sequence",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.24701659147497365,
+      "simultaneous_ci95": [
+        -0.8027209199674722,
+        0.30868773701752483
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "volatility",
+      "model": "S_direction",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.024007024757894783,
+      "simultaneous_ci95": [
+        -0.16665127724569653,
+        0.11863722772990695
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "volatility",
+      "model": "S_distribution",
+      "contrasts_in_family": 170,
+      "mean_improvement": 0.09833811546246046,
+      "simultaneous_ci95": [
+        -0.20382413655635168,
+        0.4005003674812726
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "volatility",
+      "model": "S_return",
+      "contrasts_in_family": 170,
+      "mean_improvement": 0.10507098425258551,
+      "simultaneous_ci95": [
+        -0.1813655086947056,
+        0.39150747719987666
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "volatility",
+      "model": "S_tail",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.015690521685542004,
+      "simultaneous_ci95": [
+        -0.183089859554742,
+        0.151708816183658
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "volatility",
+      "model": "S_volatility",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.19009239898542435,
+      "simultaneous_ci95": [
+        -0.5977043099135708,
+        0.21751951194272212
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "volatility",
+      "model": "Z_always_down",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.07293330729471718,
+      "simultaneous_ci95": [
+        -0.2736852920663908,
+        0.12781867747695647
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "volatility",
+      "model": "Z_always_up",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.07293330729471718,
+      "simultaneous_ci95": [
+        -0.2736852920663908,
+        0.12781867747695647
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "volatility",
+      "model": "Z_momentum",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.07293330729471718,
+      "simultaneous_ci95": [
+        -0.2736852920663908,
+        0.12781867747695647
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "volatility",
+      "model": "Z_neutral",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.07293330729471718,
+      "simultaneous_ci95": [
+        -0.2736852920663908,
+        0.12781867747695647
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "volatility",
+      "model": "Z_reversion",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.07293330729471718,
+      "simultaneous_ci95": [
+        -0.2736852920663908,
+        0.12781867747695647
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "tail",
+      "model": "A00_sector",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.004892100229014598,
+      "simultaneous_ci95": [
+        -0.05739054496438646,
+        0.04760634450635727
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "tail",
+      "model": "A01_nofo",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.013772061520334914,
+      "simultaneous_ci95": [
+        -0.0794402657923338,
+        0.05189614275166397
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "tail",
+      "model": "A02_proxy",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.027131789400990543,
+      "simultaneous_ci95": [
+        -0.09777181699583129,
+        0.0435082381938502
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "tail",
+      "model": "A03_interact",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.04261645085407246,
+      "simultaneous_ci95": [
+        -0.125882586215882,
+        0.04064968450773707
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "tail",
+      "model": "B00_empirical",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.004549226607756849,
+      "simultaneous_ci95": [
+        -0.019925425736695854,
+        0.010826972521182154
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "tail",
+      "model": "B01_ewma",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.01027145916438804,
+      "simultaneous_ci95": [
+        -0.03168408231799863,
+        0.011141163989222548
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "tail",
+      "model": "B02_rv_scaled",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.004549226607756856,
+      "simultaneous_ci95": [
+        -0.019925425736695854,
+        0.01082697252118214
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "tail",
+      "model": "B03_vix_scaled",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.004549226607756856,
+      "simultaneous_ci95": [
+        -0.019925425736695854,
+        0.01082697252118214
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "tail",
+      "model": "B04_momentum",
+      "contrasts_in_family": 170,
+      "mean_improvement": 0.0,
+      "simultaneous_ci95": [
+        -3.4480020264510127e-12,
+        3.4480020264510127e-12
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "tail",
+      "model": "B05_reversion",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.004420565577520436,
+      "simultaneous_ci95": [
+        -0.020093462882538105,
+        0.011252331727497233
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "tail",
+      "model": "B06_regime",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.0074755387683392354,
+      "simultaneous_ci95": [
+        -0.01920699119028894,
+        0.0042559136536104705
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "tail",
+      "model": "C_direction",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.00418847945860669,
+      "simultaneous_ci95": [
+        -0.019954993789556518,
+        0.01157803487234314
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "tail",
+      "model": "C_distribution",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.0007404413727965519,
+      "simultaneous_ci95": [
+        -0.0055469211315580256,
+        0.004066038385964922
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "tail",
+      "model": "C_return",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.008542424217577248,
+      "simultaneous_ci95": [
+        -0.021256225559960002,
+        0.004171377124805507
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "tail",
+      "model": "C_tail",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.00036195915462270474,
+      "simultaneous_ci95": [
+        -0.004666246744368752,
+        0.003942328435123343
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "tail",
+      "model": "C_volatility",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.0076875562651775985,
+      "simultaneous_ci95": [
+        -0.019893247797781705,
+        0.0045181352674265075
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "tail",
+      "model": "M00_ridge_price",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.011625749415758039,
+      "simultaneous_ci95": [
+        -0.052298339796054825,
+        0.029046840964538752
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "tail",
+      "model": "M01_ridge_full",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.030978562880060203,
+      "simultaneous_ci95": [
+        -0.09633608112565595,
+        0.034378955365535535
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "tail",
+      "model": "M02_elastic001",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.030978562880060203,
+      "simultaneous_ci95": [
+        -0.09633608112565595,
+        0.034378955365535535
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "tail",
+      "model": "M03_elastic01",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.030978562880060203,
+      "simultaneous_ci95": [
+        -0.09633608112565595,
+        0.034378955365535535
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "tail",
+      "model": "M04_corr_ridge",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.030367281110497097,
+      "simultaneous_ci95": [
+        -0.09355762219414364,
+        0.03282305997314945
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "tail",
+      "model": "M05_lgbm",
+      "contrasts_in_family": 170,
+      "mean_improvement": 0.005676209291401881,
+      "simultaneous_ci95": [
+        -0.024351660095547734,
+        0.03570407867835149
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "tail",
+      "model": "M06_analog30",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.006756605274307362,
+      "simultaneous_ci95": [
+        -0.048161387386888924,
+        0.0346481768382742
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "tail",
+      "model": "M07_sequence",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.013163816852506425,
+      "simultaneous_ci95": [
+        -0.054623999098799836,
+        0.02829636539378699
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "tail",
+      "model": "S_direction",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.007150267723978201,
+      "simultaneous_ci95": [
+        -0.05318804380610278,
+        0.03888750835814638
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "tail",
+      "model": "S_distribution",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.002819371440249933,
+      "simultaneous_ci95": [
+        -0.05027980958477014,
+        0.04464106670427027
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "tail",
+      "model": "S_return",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.00531929655571294,
+      "simultaneous_ci95": [
+        -0.05285171708872699,
+        0.042213123977301106
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "tail",
+      "model": "S_tail",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.011093465909422246,
+      "simultaneous_ci95": [
+        -0.05420050218206357,
+        0.032013570363219085
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "tail",
+      "model": "S_volatility",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.009758867131441688,
+      "simultaneous_ci95": [
+        -0.0566494718590769,
+        0.03713173759619352
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "tail",
+      "model": "Z_always_down",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.004549226607756849,
+      "simultaneous_ci95": [
+        -0.019925425736695854,
+        0.010826972521182154
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "tail",
+      "model": "Z_always_up",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.004549226607756849,
+      "simultaneous_ci95": [
+        -0.019925425736695854,
+        0.010826972521182154
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "tail",
+      "model": "Z_momentum",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.004549226607756849,
+      "simultaneous_ci95": [
+        -0.019925425736695854,
+        0.010826972521182154
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "tail",
+      "model": "Z_neutral",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.004549226607756849,
+      "simultaneous_ci95": [
+        -0.019925425736695854,
+        0.010826972521182154
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 5,
+      "target": "tail",
+      "model": "Z_reversion",
+      "contrasts_in_family": 170,
+      "mean_improvement": -0.004549226607756849,
+      "simultaneous_ci95": [
+        -0.019925425736695854,
+        0.010826972521182154
+      ],
+      "interpretation": "Conditional familywise block interval across models AND target types; exposed history, not independent validation"
+    },
+    {
+      "horizon": 21,
+      "status": "NOT_ESTIMATED",
+      "n": 76,
+      "minimum_origin_rows": 168,
+      "reason": "Too few monthly dependent observations"
+    }
+  ]
+}

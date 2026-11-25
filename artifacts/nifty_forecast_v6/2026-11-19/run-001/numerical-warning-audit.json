@@ -1,0 +1,29 @@
+{
+  "records": [
+    {
+      "artifact": "h21-2026-07-M2_HUBER_WINDOW.joblib",
+      "outer_n_iter": 573,
+      "max_iter": 1000,
+      "iteration_cap_reached": false
+    },
+    {
+      "artifact": "h21-2026-08-M2_HUBER_WINDOW.joblib",
+      "outer_n_iter": 505,
+      "max_iter": 1000,
+      "iteration_cap_reached": false
+    },
+    {
+      "artifact": "h21-2026-09-M2_HUBER_WINDOW.joblib",
+      "outer_n_iter": 492,
+      "max_iter": 1000,
+      "iteration_cap_reached": false
+    },
+    {
+      "artifact": "h21-2026-10-M2_HUBER_WINDOW.joblib",
+      "outer_n_iter": 402,
+      "max_iter": 1000,
+      "iteration_cap_reached": false
+    }
+  ],
+  "additional_observation": "A July inner/outer M2_HUBER_WINDOW fit emitted ConvergenceWarning in the original run; replay.log preserves warnings. Main model batch warnings were captured separately. Not promoted."
+}

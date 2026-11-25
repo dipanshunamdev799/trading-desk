@@ -1,0 +1,20 @@
+INFO:     Started server process [20568]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:51735 - "WebSocket /market/live" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:51736 - "WebSocket /market/live" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:64680 - "WebSocket /market/live" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:61947 - "WebSocket /market/live" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:61948 - "WebSocket /market/live" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:59181 - "WebSocket /market/live" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58584 - "WebSocket /market/live" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:63328 - "WebSocket /market/live" [accepted]
+INFO:     connection open

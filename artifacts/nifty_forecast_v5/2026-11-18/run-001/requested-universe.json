@@ -1,0 +1,1101 @@
+{
+  "registered_before_returns": "2026-11-18T22:22:45.078613+05:30",
+  "identities": {
+    "nifty_spot": {
+      "key": "NSE_INDEX|Nifty 50",
+      "family": "domestic",
+      "label": "nifty_spot"
+    },
+    "india_vix": {
+      "key": "NSE_INDEX|India VIX",
+      "family": "domestic",
+      "label": "india_vix"
+    },
+    "bank_nifty": {
+      "key": "NSE_INDEX|Nifty Bank",
+      "family": "domestic",
+      "label": "bank_nifty"
+    },
+    "nifty_financial": {
+      "key": "NSE_INDEX|Nifty Fin Service",
+      "family": "domestic",
+      "label": "nifty_financial"
+    },
+    "nifty_it": {
+      "key": "NSE_INDEX|Nifty IT",
+      "family": "domestic",
+      "label": "nifty_it"
+    },
+    "nifty_auto": {
+      "key": "NSE_INDEX|Nifty Auto",
+      "family": "domestic",
+      "label": "nifty_auto"
+    },
+    "nifty_fmcg": {
+      "key": "NSE_INDEX|Nifty FMCG",
+      "family": "domestic",
+      "label": "nifty_fmcg"
+    },
+    "nifty_pharma": {
+      "key": "NSE_INDEX|Nifty Pharma",
+      "family": "domestic",
+      "label": "nifty_pharma"
+    },
+    "nifty_metal": {
+      "key": "NSE_INDEX|Nifty Metal",
+      "family": "domestic",
+      "label": "nifty_metal"
+    },
+    "nifty_energy": {
+      "key": "NSE_INDEX|Nifty Energy",
+      "family": "domestic",
+      "label": "nifty_energy"
+    },
+    "nifty_realty": {
+      "key": "NSE_INDEX|Nifty Realty",
+      "family": "domestic",
+      "label": "nifty_realty"
+    },
+    "nifty_psu_bank": {
+      "key": "NSE_INDEX|Nifty PSU Bank",
+      "family": "domestic",
+      "label": "nifty_psu_bank"
+    },
+    "idx_NIFTY_HEALTHCARE": {
+      "key": "NSE_INDEX|NIFTY HEALTHCARE",
+      "family": "domestic",
+      "label": "NIFTY HEALTHCARE"
+    },
+    "idx_NIFTY_MIDCAP_100": {
+      "key": "NSE_INDEX|NIFTY MIDCAP 100",
+      "family": "domestic",
+      "label": "NIFTY MIDCAP 100"
+    },
+    "idx_NIFTY_MIDCAP_150": {
+      "key": "NSE_INDEX|NIFTY MIDCAP 150",
+      "family": "domestic",
+      "label": "NIFTY MIDCAP 150"
+    },
+    "idx_Nifty_100": {
+      "key": "NSE_INDEX|Nifty 100",
+      "family": "domestic",
+      "label": "Nifty 100"
+    },
+    "idx_Nifty_200": {
+      "key": "NSE_INDEX|Nifty 200",
+      "family": "domestic",
+      "label": "Nifty 200"
+    },
+    "idx_Nifty_500": {
+      "key": "NSE_INDEX|Nifty 500",
+      "family": "domestic",
+      "label": "Nifty 500"
+    },
+    "idx_Nifty_Commodities": {
+      "key": "NSE_INDEX|Nifty Commodities",
+      "family": "domestic",
+      "label": "Nifty Commodities"
+    },
+    "idx_Nifty_Consumption": {
+      "key": "NSE_INDEX|Nifty Consumption",
+      "family": "domestic",
+      "label": "Nifty Consumption"
+    },
+    "idx_Nifty_Infra": {
+      "key": "NSE_INDEX|Nifty Infra",
+      "family": "domestic",
+      "label": "Nifty Infra"
+    },
+    "idx_Nifty_InfraLog": {
+      "key": "NSE_INDEX|Nifty InfraLog",
+      "family": "domestic",
+      "label": "Nifty InfraLog"
+    },
+    "idx_Nifty_Midcap_50": {
+      "key": "NSE_INDEX|Nifty Midcap 50",
+      "family": "domestic",
+      "label": "Nifty Midcap 50"
+    },
+    "idx_Nifty_Next_50": {
+      "key": "NSE_INDEX|Nifty Next 50",
+      "family": "domestic",
+      "label": "Nifty Next 50"
+    },
+    "idx_Nifty_Smallcap_500": {
+      "key": "NSE_INDEX|Nifty Smallcap 500",
+      "family": "domestic",
+      "label": "Nifty Smallcap 500"
+    },
+    "niftybees": {
+      "key": "NSE_EQ|INF204KB14I2",
+      "family": "etf",
+      "label": "NIFTYBEES"
+    },
+    "g_^HSI": {
+      "key": "GLOBAL_INDEX|^HSI",
+      "family": "global",
+      "label": "HANG SENG"
+    },
+    "g_^DJI": {
+      "key": "GLOBAL_INDEX|^DJI",
+      "family": "global",
+      "label": "DOW JONES"
+    },
+    "g_^FTSE": {
+      "key": "GLOBAL_INDEX|^FTSE",
+      "family": "global",
+      "label": "FTSE 100"
+    },
+    "g_USDINR": {
+      "key": "GLOBAL_INDICATOR|USDINR",
+      "family": "global",
+      "label": "USD INR"
+    },
+    "g_BZUSD": {
+      "key": "GLOBAL_INDICATOR|BZUSD",
+      "family": "global",
+      "label": "Oil (Brent)"
+    },
+    "g_^GSPC": {
+      "key": "GLOBAL_INDEX|^GSPC",
+      "family": "global",
+      "label": "S&P"
+    },
+    "g_SGX_NIFTY": {
+      "key": "GLOBAL_INDEX|SGX NIFTY",
+      "family": "global",
+      "label": "GIFT NIFTY"
+    },
+    "g_^GDAXI": {
+      "key": "GLOBAL_INDEX|^GDAXI",
+      "family": "global",
+      "label": "DAX"
+    },
+    "g_IXIX": {
+      "key": "GLOBAL_INDEX|IXIX",
+      "family": "global",
+      "label": "US Tech 100"
+    },
+    "g_^FCHI": {
+      "key": "GLOBAL_INDEX|^FCHI",
+      "family": "global",
+      "label": "CAC 40"
+    },
+    "g_CLUSD": {
+      "key": "GLOBAL_INDICATOR|CLUSD",
+      "family": "global",
+      "label": "Oil (WTI)"
+    },
+    "g_DOW_FUTURES": {
+      "key": "GLOBAL_INDEX|DOW FUTURES",
+      "family": "global",
+      "label": "US 30"
+    },
+    "g_^N225": {
+      "key": "GLOBAL_INDEX|^N225",
+      "family": "global",
+      "label": "NIKKEI 225"
+    },
+    "s_ADANIENT": {
+      "key": "NSE_EQ|INE423A01024",
+      "family": "stock_proxy",
+      "label": "ADANIENT",
+      "industry": "CURRENT_MEMBERSHIP_UNAUTHENTICATED"
+    },
+    "s_ADANIPORTS": {
+      "key": "NSE_EQ|INE742F01042",
+      "family": "stock_proxy",
+      "label": "ADANIPORTS",
+      "industry": "CURRENT_MEMBERSHIP_UNAUTHENTICATED"
+    },
+    "s_APOLLOHOSP": {
+      "key": "NSE_EQ|INE437A01024",
+      "family": "stock_proxy",
+      "label": "APOLLOHOSP",
+      "industry": "CURRENT_MEMBERSHIP_UNAUTHENTICATED"
+    },
+    "s_ASIANPAINT": {
+      "key": "NSE_EQ|INE021A01026",
+      "family": "stock_proxy",
+      "label": "ASIANPAINT",
+      "industry": "CURRENT_MEMBERSHIP_UNAUTHENTICATED"
+    },
+    "s_AXISBANK": {
+      "key": "NSE_EQ|INE238A01034",
+      "family": "stock_proxy",
+      "label": "AXISBANK",
+      "industry": "CURRENT_MEMBERSHIP_UNAUTHENTICATED"
+    },
+    "s_BSE": {
+      "key": "NSE_EQ|INE118H01025",
+      "family": "stock_proxy",
+      "label": "BSE",
+      "industry": "CURRENT_MEMBERSHIP_UNAUTHENTICATED"
+    },
+    "s_BAJAJ-AUTO": {
+      "key": "NSE_EQ|INE917I01010",
+      "family": "stock_proxy",
+      "label": "BAJAJ-AUTO",
+      "industry": "CURRENT_MEMBERSHIP_UNAUTHENTICATED"
+    },
+    "s_BAJFINANCE": {
+      "key": "NSE_EQ|INE296A01032",
+      "family": "stock_proxy",
+      "label": "BAJFINANCE",
+      "industry": "CURRENT_MEMBERSHIP_UNAUTHENTICATED"
+    },
+    "s_BAJAJFINSV": {
+      "key": "NSE_EQ|INE918I01026",
+      "family": "stock_proxy",
+      "label": "BAJAJFINSV",
+      "industry": "CURRENT_MEMBERSHIP_UNAUTHENTICATED"
+    },
+    "s_BEL": {
+      "key": "NSE_EQ|INE263A01024",
+      "family": "stock_proxy",
+      "label": "BEL",
+      "industry": "CURRENT_MEMBERSHIP_UNAUTHENTICATED"
+    },
+    "s_BHARTIARTL": {
+      "key": "NSE_EQ|INE397D01024",
+      "family": "stock_proxy",
+      "label": "BHARTIARTL",
+      "industry": "CURRENT_MEMBERSHIP_UNAUTHENTICATED"
+    },
+    "s_CIPLA": {
+      "key": "NSE_EQ|INE059A01026",
+      "family": "stock_proxy",
+      "label": "CIPLA",
+      "industry": "CURRENT_MEMBERSHIP_UNAUTHENTICATED"
+    },
+    "s_COALINDIA": {
+      "key": "NSE_EQ|INE522F01014",
+      "family": "stock_proxy",
+      "label": "COALINDIA",
+      "industry": "CURRENT_MEMBERSHIP_UNAUTHENTICATED"
+    },
+    "s_DRREDDY": {
+      "key": "NSE_EQ|INE089A01031",
+      "family": "stock_proxy",
+      "label": "DRREDDY",
+      "industry": "CURRENT_MEMBERSHIP_UNAUTHENTICATED"
+    },
+    "s_EICHERMOT": {
+      "key": "NSE_EQ|INE066A01021",
+      "family": "stock_proxy",
+      "label": "EICHERMOT",
+      "industry": "CURRENT_MEMBERSHIP_UNAUTHENTICATED"
+    },
+    "s_ETERNAL": {
+      "key": "NSE_EQ|INE758T01015",
+      "family": "stock_proxy",
+      "label": "ETERNAL",
+      "industry": "CURRENT_MEMBERSHIP_UNAUTHENTICATED"
+    },
+    "s_GRASIM": {
+      "key": "NSE_EQ|INE047A01021",
+      "family": "stock_proxy",
+      "label": "GRASIM",
+      "industry": "CURRENT_MEMBERSHIP_UNAUTHENTICATED"
+    },
+    "s_HCLTECH": {
+      "key": "NSE_EQ|INE860A01027",
+      "family": "stock_proxy",
+      "label": "HCLTECH",
+      "industry": "CURRENT_MEMBERSHIP_UNAUTHENTICATED"
+    },
+    "s_HDFCBANK": {
+      "key": "NSE_EQ|INE040A01034",
+      "family": "stock_proxy",
+      "label": "HDFCBANK",
+      "industry": "CURRENT_MEMBERSHIP_UNAUTHENTICATED"
+    },
+    "s_HDFCLIFE": {
+      "key": "NSE_EQ|INE795G01014",
+      "family": "stock_proxy",
+      "label": "HDFCLIFE",
+      "industry": "CURRENT_MEMBERSHIP_UNAUTHENTICATED"
+    },
+    "s_HINDALCO": {
+      "key": "NSE_EQ|INE038A01020",
+      "family": "stock_proxy",
+      "label": "HINDALCO",
+      "industry": "CURRENT_MEMBERSHIP_UNAUTHENTICATED"
+    },
+    "s_HINDUNILVR": {
+      "key": "NSE_EQ|INE030A01027",
+      "family": "stock_proxy",
+      "label": "HINDUNILVR",
+      "industry": "CURRENT_MEMBERSHIP_UNAUTHENTICATED"
+    },
+    "s_ICICIBANK": {
+      "key": "NSE_EQ|INE090A01021",
+      "family": "stock_proxy",
+      "label": "ICICIBANK",
+      "industry": "CURRENT_MEMBERSHIP_UNAUTHENTICATED"
+    },
+    "s_ITC": {
+      "key": "NSE_EQ|INE154A01025",
+      "family": "stock_proxy",
+      "label": "ITC",
+      "industry": "CURRENT_MEMBERSHIP_UNAUTHENTICATED"
+    },
+    "s_INFY": {
+      "key": "NSE_EQ|INE009A01021",
+      "family": "stock_proxy",
+      "label": "INFY",
+      "industry": "CURRENT_MEMBERSHIP_UNAUTHENTICATED"
+    },
+    "s_INDIGO": {
+      "key": "NSE_EQ|INE646L01027",
+      "family": "stock_proxy",
+      "label": "INDIGO",
+      "industry": "CURRENT_MEMBERSHIP_UNAUTHENTICATED"
+    },
+    "s_JSWSTEEL": {
+      "key": "NSE_EQ|INE019A01038",
+      "family": "stock_proxy",
+      "label": "JSWSTEEL",
+      "industry": "CURRENT_MEMBERSHIP_UNAUTHENTICATED"
+    },
+    "s_JIOFIN": {
+      "key": "NSE_EQ|INE758E01017",
+      "family": "stock_proxy",
+      "label": "JIOFIN",
+      "industry": "CURRENT_MEMBERSHIP_UNAUTHENTICATED"
+    },
+    "s_KOTAKBANK": {
+      "key": "NSE_EQ|INE237A01036",
+      "family": "stock_proxy",
+      "label": "KOTAKBANK",
+      "industry": "CURRENT_MEMBERSHIP_UNAUTHENTICATED"
+    },
+    "s_LT": {
+      "key": "NSE_EQ|INE018A01030",
+      "family": "stock_proxy",
+      "label": "LT",
+      "industry": "CURRENT_MEMBERSHIP_UNAUTHENTICATED"
+    },
+    "s_M&M": {
+      "key": "NSE_EQ|INE101A01026",
+      "family": "stock_proxy",
+      "label": "M&M",
+      "industry": "CURRENT_MEMBERSHIP_UNAUTHENTICATED"
+    },
+    "s_MARUTI": {
+      "key": "NSE_EQ|INE585B01010",
+      "family": "stock_proxy",
+      "label": "MARUTI",
+      "industry": "CURRENT_MEMBERSHIP_UNAUTHENTICATED"
+    },
+    "s_MAXHEALTH": {
+      "key": "NSE_EQ|INE027H01010",
+      "family": "stock_proxy",
+      "label": "MAXHEALTH",
+      "industry": "CURRENT_MEMBERSHIP_UNAUTHENTICATED"
+    },
+    "s_NTPC": {
+      "key": "NSE_EQ|INE733E01010",
+      "family": "stock_proxy",
+      "label": "NTPC",
+      "industry": "CURRENT_MEMBERSHIP_UNAUTHENTICATED"
+    },
+    "s_NESTLEIND": {
+      "key": "NSE_EQ|INE239A01024",
+      "family": "stock_proxy",
+      "label": "NESTLEIND",
+      "industry": "CURRENT_MEMBERSHIP_UNAUTHENTICATED"
+    },
+    "s_ONGC": {
+      "key": "NSE_EQ|INE213A01029",
+      "family": "stock_proxy",
+      "label": "ONGC",
+      "industry": "CURRENT_MEMBERSHIP_UNAUTHENTICATED"
+    },
+    "s_POWERGRID": {
+      "key": "NSE_EQ|INE752E01010",
+      "family": "stock_proxy",
+      "label": "POWERGRID",
+      "industry": "CURRENT_MEMBERSHIP_UNAUTHENTICATED"
+    },
+    "s_RELIANCE": {
+      "key": "NSE_EQ|INE002A01018",
+      "family": "stock_proxy",
+      "label": "RELIANCE",
+      "industry": "CURRENT_MEMBERSHIP_UNAUTHENTICATED"
+    },
+    "s_SBILIFE": {
+      "key": "NSE_EQ|INE123W01016",
+      "family": "stock_proxy",
+      "label": "SBILIFE",
+      "industry": "CURRENT_MEMBERSHIP_UNAUTHENTICATED"
+    },
+    "s_SHRIRAMFIN": {
+      "key": "NSE_EQ|INE721A01047",
+      "family": "stock_proxy",
+      "label": "SHRIRAMFIN",
+      "industry": "CURRENT_MEMBERSHIP_UNAUTHENTICATED"
+    },
+    "s_SBIN": {
+      "key": "NSE_EQ|INE062A01020",
+      "family": "stock_proxy",
+      "label": "SBIN",
+      "industry": "CURRENT_MEMBERSHIP_UNAUTHENTICATED"
+    },
+    "s_SUNPHARMA": {
+      "key": "NSE_EQ|INE044A01036",
+      "family": "stock_proxy",
+      "label": "SUNPHARMA",
+      "industry": "CURRENT_MEMBERSHIP_UNAUTHENTICATED"
+    },
+    "s_TCS": {
+      "key": "NSE_EQ|INE467B01029",
+      "family": "stock_proxy",
+      "label": "TCS",
+      "industry": "CURRENT_MEMBERSHIP_UNAUTHENTICATED"
+    },
+    "s_TATACONSUM": {
+      "key": "NSE_EQ|INE192A01025",
+      "family": "stock_proxy",
+      "label": "TATACONSUM",
+      "industry": "CURRENT_MEMBERSHIP_UNAUTHENTICATED"
+    },
+    "s_TMPV": {
+      "key": "NSE_EQ|INE155A01022",
+      "family": "stock_proxy",
+      "label": "TMPV",
+      "industry": "CURRENT_MEMBERSHIP_UNAUTHENTICATED"
+    },
+    "s_TATASTEEL": {
+      "key": "NSE_EQ|INE081A01020",
+      "family": "stock_proxy",
+      "label": "TATASTEEL",
+      "industry": "CURRENT_MEMBERSHIP_UNAUTHENTICATED"
+    },
+    "s_TECHM": {
+      "key": "NSE_EQ|INE669C01036",
+      "family": "stock_proxy",
+      "label": "TECHM",
+      "industry": "CURRENT_MEMBERSHIP_UNAUTHENTICATED"
+    },
+    "s_TITAN": {
+      "key": "NSE_EQ|INE280A01028",
+      "family": "stock_proxy",
+      "label": "TITAN",
+      "industry": "CURRENT_MEMBERSHIP_UNAUTHENTICATED"
+    },
+    "s_TRENT": {
+      "key": "NSE_EQ|INE849A01020",
+      "family": "stock_proxy",
+      "label": "TRENT",
+      "industry": "CURRENT_MEMBERSHIP_UNAUTHENTICATED"
+    },
+    "s_ULTRACEMCO": {
+      "key": "NSE_EQ|INE481G01011",
+      "family": "stock_proxy",
+      "label": "ULTRACEMCO",
+      "industry": "CURRENT_MEMBERSHIP_UNAUTHENTICATED"
+    },
+    "s_360ONE": {
+      "key": "NSE_EQ|INE466L01038",
+      "family": "stock_proxy",
+      "label": "360ONE",
+      "industry": "Financial Services"
+    },
+    "s_AADHARHFC": {
+      "key": "NSE_EQ|INE883F01010",
+      "family": "stock_proxy",
+      "label": "AADHARHFC",
+      "industry": "Financial Services"
+    },
+    "s_AARTIIND": {
+      "key": "NSE_EQ|INE769A01020",
+      "family": "stock_proxy",
+      "label": "AARTIIND",
+      "industry": "Chemicals"
+    },
+    "s_AAVAS": {
+      "key": "NSE_EQ|INE216P01012",
+      "family": "stock_proxy",
+      "label": "AAVAS",
+      "industry": "Financial Services"
+    },
+    "s_ABB": {
+      "key": "NSE_EQ|INE117A01022",
+      "family": "stock_proxy",
+      "label": "ABB",
+      "industry": "Capital Goods"
+    },
+    "s_ABBOTINDIA": {
+      "key": "NSE_EQ|INE358A01014",
+      "family": "stock_proxy",
+      "label": "ABBOTINDIA",
+      "industry": "Healthcare"
+    },
+    "s_ABCAPITAL": {
+      "key": "NSE_EQ|INE674K01013",
+      "family": "stock_proxy",
+      "label": "ABCAPITAL",
+      "industry": "Financial Services"
+    },
+    "s_ABDL": {
+      "key": "NSE_EQ|INE552Z01027",
+      "family": "stock_proxy",
+      "label": "ABDL",
+      "industry": "Fast Moving Consumer Goods"
+    },
+    "s_ABREL": {
+      "key": "NSE_EQ|INE055A01016",
+      "family": "stock_proxy",
+      "label": "ABREL",
+      "industry": "Realty"
+    },
+    "s_ABSLAMC": {
+      "key": "NSE_EQ|INE404A01024",
+      "family": "stock_proxy",
+      "label": "ABSLAMC",
+      "industry": "Financial Services"
+    },
+    "s_ACC": {
+      "key": "NSE_EQ|INE012A01025",
+      "family": "stock_proxy",
+      "label": "ACC",
+      "industry": "Construction Materials"
+    },
+    "s_ACE": {
+      "key": "NSE_EQ|INE731H01025",
+      "family": "stock_proxy",
+      "label": "ACE",
+      "industry": "Capital Goods"
+    },
+    "s_ACMESOLAR": {
+      "key": "NSE_EQ|INE622W01025",
+      "family": "stock_proxy",
+      "label": "ACMESOLAR",
+      "industry": "Power"
+    },
+    "s_ACUTAAS": {
+      "key": "NSE_EQ|INE00FF01025",
+      "family": "stock_proxy",
+      "label": "ACUTAAS",
+      "industry": "Healthcare"
+    },
+    "s_ADANIENSOL": {
+      "key": "NSE_EQ|INE931S01010",
+      "family": "stock_proxy",
+      "label": "ADANIENSOL",
+      "industry": "Power"
+    },
+    "s_ADANIGREEN": {
+      "key": "NSE_EQ|INE364U01010",
+      "family": "stock_proxy",
+      "label": "ADANIGREEN",
+      "industry": "Power"
+    },
+    "s_ADANIPOWER": {
+      "key": "NSE_EQ|INE814H01029",
+      "family": "stock_proxy",
+      "label": "ADANIPOWER",
+      "industry": "Power"
+    },
+    "s_AEGISLOG": {
+      "key": "NSE_EQ|INE208C01025",
+      "family": "stock_proxy",
+      "label": "AEGISLOG",
+      "industry": "Oil Gas & Consumable Fuels"
+    },
+    "s_AEGISVOPAK": {
+      "key": "NSE_EQ|INE0INX01018",
+      "family": "stock_proxy",
+      "label": "AEGISVOPAK",
+      "industry": "Oil Gas & Consumable Fuels"
+    },
+    "s_AETHER": {
+      "key": "NSE_EQ|INE0BWX01014",
+      "family": "stock_proxy",
+      "label": "AETHER",
+      "industry": "Chemicals"
+    },
+    "s_AFCONS": {
+      "key": "NSE_EQ|INE101I01011",
+      "family": "stock_proxy",
+      "label": "AFCONS",
+      "industry": "Construction"
+    },
+    "s_AFFLE": {
+      "key": "NSE_EQ|INE00WC01027",
+      "family": "stock_proxy",
+      "label": "AFFLE",
+      "industry": "Information Technology"
+    },
+    "s_AIAENG": {
+      "key": "NSE_EQ|INE212H01026",
+      "family": "stock_proxy",
+      "label": "AIAENG",
+      "industry": "Capital Goods"
+    },
+    "s_AIIL": {
+      "key": "NSE_EQ|INE206F01022",
+      "family": "stock_proxy",
+      "label": "AIIL",
+      "industry": "Financial Services"
+    },
+    "s_AJANTPHARM": {
+      "key": "NSE_EQ|INE031B01049",
+      "family": "stock_proxy",
+      "label": "AJANTPHARM",
+      "industry": "Healthcare"
+    },
+    "s_ALKEM": {
+      "key": "NSE_EQ|INE540L01014",
+      "family": "stock_proxy",
+      "label": "ALKEM",
+      "industry": "Healthcare"
+    },
+    "s_AMBER": {
+      "key": "NSE_EQ|INE371P01015",
+      "family": "stock_proxy",
+      "label": "AMBER",
+      "industry": "Consumer Durables"
+    },
+    "s_AMBUJACEM": {
+      "key": "NSE_EQ|INE079A01024",
+      "family": "stock_proxy",
+      "label": "AMBUJACEM",
+      "industry": "Construction Materials"
+    },
+    "s_ANANDRATHI": {
+      "key": "NSE_EQ|INE463V01026",
+      "family": "stock_proxy",
+      "label": "ANANDRATHI",
+      "industry": "Financial Services"
+    },
+    "s_ANANTRAJ": {
+      "key": "NSE_EQ|INE242C01024",
+      "family": "stock_proxy",
+      "label": "ANANTRAJ",
+      "industry": "Realty"
+    },
+    "s_ANGELONE": {
+      "key": "NSE_EQ|INE732I01021",
+      "family": "stock_proxy",
+      "label": "ANGELONE",
+      "industry": "Financial Services"
+    },
+    "s_ANTHEM": {
+      "key": "NSE_EQ|INE0CZ201020",
+      "family": "stock_proxy",
+      "label": "ANTHEM",
+      "industry": "Healthcare"
+    },
+    "s_ANURAS": {
+      "key": "NSE_EQ|INE930P01018",
+      "family": "stock_proxy",
+      "label": "ANURAS",
+      "industry": "Chemicals"
+    },
+    "s_APARINDS": {
+      "key": "NSE_EQ|INE372A01015",
+      "family": "stock_proxy",
+      "label": "APARINDS",
+      "industry": "Capital Goods"
+    },
+    "s_APLAPOLLO": {
+      "key": "NSE_EQ|INE702C01027",
+      "family": "stock_proxy",
+      "label": "APLAPOLLO",
+      "industry": "Capital Goods"
+    },
+    "s_APOLLOTYRE": {
+      "key": "NSE_EQ|INE438A01022",
+      "family": "stock_proxy",
+      "label": "APOLLOTYRE",
+      "industry": "Automobile and Auto Components"
+    },
+    "s_APTUS": {
+      "key": "NSE_EQ|INE852O01025",
+      "family": "stock_proxy",
+      "label": "APTUS",
+      "industry": "Financial Services"
+    },
+    "s_ARE&M": {
+      "key": "NSE_EQ|INE885A01032",
+      "family": "stock_proxy",
+      "label": "ARE&M",
+      "industry": "Automobile and Auto Components"
+    },
+    "s_ASAHIINDIA": {
+      "key": "NSE_EQ|INE439A01020",
+      "family": "stock_proxy",
+      "label": "ASAHIINDIA",
+      "industry": "Automobile and Auto Components"
+    },
+    "s_ASHOKLEY": {
+      "key": "NSE_EQ|INE208A01029",
+      "family": "stock_proxy",
+      "label": "ASHOKLEY",
+      "industry": "Capital Goods"
+    },
+    "s_ASTERDM": {
+      "key": "NSE_EQ|INE914M01019",
+      "family": "stock_proxy",
+      "label": "ASTERDM",
+      "industry": "Healthcare"
+    },
+    "s_ASTRAL": {
+      "key": "NSE_EQ|INE006I01046",
+      "family": "stock_proxy",
+      "label": "ASTRAL",
+      "industry": "Capital Goods"
+    },
+    "s_ATGL": {
+      "key": "NSE_EQ|INE399L01023",
+      "family": "stock_proxy",
+      "label": "ATGL",
+      "industry": "Oil Gas & Consumable Fuels"
+    },
+    "s_ATHERENERG": {
+      "key": "NSE_EQ|INE0LEZ01016",
+      "family": "stock_proxy",
+      "label": "ATHERENERG",
+      "industry": "Automobile and Auto Components"
+    },
+    "s_ATUL": {
+      "key": "NSE_EQ|INE100A01010",
+      "family": "stock_proxy",
+      "label": "ATUL",
+      "industry": "Chemicals"
+    },
+    "s_AUBANK": {
+      "key": "NSE_EQ|INE949L01017",
+      "family": "stock_proxy",
+      "label": "AUBANK",
+      "industry": "Financial Services"
+    },
+    "s_AUROPHARMA": {
+      "key": "NSE_EQ|INE406A01037",
+      "family": "stock_proxy",
+      "label": "AUROPHARMA",
+      "industry": "Healthcare"
+    },
+    "s_AVANTIFEED": {
+      "key": "NSE_EQ|INE871C01038",
+      "family": "stock_proxy",
+      "label": "AVANTIFEED",
+      "industry": "Fast Moving Consumer Goods"
+    },
+    "s_AWL": {
+      "key": "NSE_EQ|INE699H01024",
+      "family": "stock_proxy",
+      "label": "AWL",
+      "industry": "Fast Moving Consumer Goods"
+    },
+    "s_AZAD": {
+      "key": "NSE_EQ|INE02IJ01035",
+      "family": "stock_proxy",
+      "label": "AZAD",
+      "industry": "Capital Goods"
+    },
+    "s_BAJAJHFL": {
+      "key": "NSE_EQ|INE377Y01014",
+      "family": "stock_proxy",
+      "label": "BAJAJHFL",
+      "industry": "Financial Services"
+    },
+    "s_BAJAJHLDNG": {
+      "key": "NSE_EQ|INE118A01012",
+      "family": "stock_proxy",
+      "label": "BAJAJHLDNG",
+      "industry": "Financial Services"
+    },
+    "s_BALKRISIND": {
+      "key": "NSE_EQ|INE787D01026",
+      "family": "stock_proxy",
+      "label": "BALKRISIND",
+      "industry": "Automobile and Auto Components"
+    },
+    "s_BALRAMCHIN": {
+      "key": "NSE_EQ|INE119A01028",
+      "family": "stock_proxy",
+      "label": "BALRAMCHIN",
+      "industry": "Fast Moving Consumer Goods"
+    },
+    "s_BANDHANBNK": {
+      "key": "NSE_EQ|INE545U01014",
+      "family": "stock_proxy",
+      "label": "BANDHANBNK",
+      "industry": "Financial Services"
+    },
+    "s_BANKBARODA": {
+      "key": "NSE_EQ|INE028A01039",
+      "family": "stock_proxy",
+      "label": "BANKBARODA",
+      "industry": "Financial Services"
+    },
+    "s_BANKINDIA": {
+      "key": "NSE_EQ|INE084A01016",
+      "family": "stock_proxy",
+      "label": "BANKINDIA",
+      "industry": "Financial Services"
+    },
+    "s_BATAINDIA": {
+      "key": "NSE_EQ|INE176A01028",
+      "family": "stock_proxy",
+      "label": "BATAINDIA",
+      "industry": "Consumer Durables"
+    },
+    "s_BBOX": {
+      "key": "NSE_EQ|INE676A01027",
+      "family": "stock_proxy",
+      "label": "BBOX",
+      "industry": "Information Technology"
+    },
+    "s_BDL": {
+      "key": "NSE_EQ|INE171Z01026",
+      "family": "stock_proxy",
+      "label": "BDL",
+      "industry": "Capital Goods"
+    },
+    "s_BELRISE": {
+      "key": "NSE_EQ|INE894V01022",
+      "family": "stock_proxy",
+      "label": "BELRISE",
+      "industry": "Automobile and Auto Components"
+    },
+    "s_BEML": {
+      "key": "NSE_EQ|INE258A01024",
+      "family": "stock_proxy",
+      "label": "BEML",
+      "industry": "Capital Goods"
+    },
+    "s_BERGEPAINT": {
+      "key": "NSE_EQ|INE463A01038",
+      "family": "stock_proxy",
+      "label": "BERGEPAINT",
+      "industry": "Consumer Durables"
+    },
+    "s_BHARATCOAL": {
+      "key": "NSE_EQ|INE05XR01022",
+      "family": "stock_proxy",
+      "label": "BHARATCOAL",
+      "industry": "Oil Gas & Consumable Fuels"
+    },
+    "s_BHARATFORG": {
+      "key": "NSE_EQ|INE465A01025",
+      "family": "stock_proxy",
+      "label": "BHARATFORG",
+      "industry": "Automobile and Auto Components"
+    },
+    "s_BHARTIHEXA": {
+      "key": "NSE_EQ|INE343G01021",
+      "family": "stock_proxy",
+      "label": "BHARTIHEXA",
+      "industry": "Telecommunication"
+    },
+    "s_BHEL": {
+      "key": "NSE_EQ|INE257A01026",
+      "family": "stock_proxy",
+      "label": "BHEL",
+      "industry": "Capital Goods"
+    },
+    "s_BIOCON": {
+      "key": "NSE_EQ|INE376G01013",
+      "family": "stock_proxy",
+      "label": "BIOCON",
+      "industry": "Healthcare"
+    },
+    "s_BLS": {
+      "key": "NSE_EQ|INE153T01027",
+      "family": "stock_proxy",
+      "label": "BLS",
+      "industry": "Consumer Services"
+    },
+    "s_BLUESTARCO": {
+      "key": "NSE_EQ|INE472A01039",
+      "family": "stock_proxy",
+      "label": "BLUESTARCO",
+      "industry": "Consumer Durables"
+    },
+    "s_BOSCHLTD": {
+      "key": "NSE_EQ|INE323A01026",
+      "family": "stock_proxy",
+      "label": "BOSCHLTD",
+      "industry": "Automobile and Auto Components"
+    },
+    "s_BPCL": {
+      "key": "NSE_EQ|INE029A01011",
+      "family": "stock_proxy",
+      "label": "BPCL",
+      "industry": "Oil Gas & Consumable Fuels"
+    },
+    "s_BRIGADE": {
+      "key": "NSE_EQ|INE791I01019",
+      "family": "stock_proxy",
+      "label": "BRIGADE",
+      "industry": "Realty"
+    },
+    "s_BRITANNIA": {
+      "key": "NSE_EQ|INE216A01030",
+      "family": "stock_proxy",
+      "label": "BRITANNIA",
+      "industry": "Fast Moving Consumer Goods"
+    },
+    "s_BSOFT": {
+      "key": "NSE_EQ|INE836A01035",
+      "family": "stock_proxy",
+      "label": "BSOFT",
+      "industry": "Information Technology"
+    },
+    "s_CAMS": {
+      "key": "NSE_EQ|INE596I01020",
+      "family": "stock_proxy",
+      "label": "CAMS",
+      "industry": "Financial Services"
+    },
+    "s_CANBK": {
+      "key": "NSE_EQ|INE476A01022",
+      "family": "stock_proxy",
+      "label": "CANBK",
+      "industry": "Financial Services"
+    },
+    "s_CANFINHOME": {
+      "key": "NSE_EQ|INE477A01020",
+      "family": "stock_proxy",
+      "label": "CANFINHOME",
+      "industry": "Financial Services"
+    },
+    "s_CANHLIFE": {
+      "key": "NSE_EQ|INE01TY01017",
+      "family": "stock_proxy",
+      "label": "CANHLIFE",
+      "industry": "Financial Services"
+    },
+    "s_CAPLIPOINT": {
+      "key": "NSE_EQ|INE475E01026",
+      "family": "stock_proxy",
+      "label": "CAPLIPOINT",
+      "industry": "Healthcare"
+    },
+    "s_CARBORUNIV": {
+      "key": "NSE_EQ|INE120A01034",
+      "family": "stock_proxy",
+      "label": "CARBORUNIV",
+      "industry": "Capital Goods"
+    },
+    "s_CARTRADE": {
+      "key": "NSE_EQ|INE290S01011",
+      "family": "stock_proxy",
+      "label": "CARTRADE",
+      "industry": "Consumer Services"
+    },
+    "s_CASTROLIND": {
+      "key": "NSE_EQ|INE172A01027",
+      "family": "stock_proxy",
+      "label": "CASTROLIND",
+      "industry": "Oil Gas & Consumable Fuels"
+    },
+    "s_CCL": {
+      "key": "NSE_EQ|INE421D01022",
+      "family": "stock_proxy",
+      "label": "CCL",
+      "industry": "Fast Moving Consumer Goods"
+    },
+    "s_CDSL": {
+      "key": "NSE_EQ|INE736A01011",
+      "family": "stock_proxy",
+      "label": "CDSL",
+      "industry": "Financial Services"
+    },
+    "s_CEATLTD": {
+      "key": "NSE_EQ|INE482A01020",
+      "family": "stock_proxy",
+      "label": "CEATLTD",
+      "industry": "Automobile and Auto Components"
+    },
+    "s_CEMPRO": {
+      "key": "NSE_EQ|INE686A01026",
+      "family": "stock_proxy",
+      "label": "CEMPRO",
+      "industry": "Construction"
+    },
+    "s_CENTRALBK": {
+      "key": "NSE_EQ|INE483A01010",
+      "family": "stock_proxy",
+      "label": "CENTRALBK",
+      "industry": "Financial Services"
+    },
+    "s_CESC": {
+      "key": "NSE_EQ|INE486A01021",
+      "family": "stock_proxy",
+      "label": "CESC",
+      "industry": "Power"
+    },
+    "s_CGCL": {
+      "key": "NSE_EQ|INE180C01042",
+      "family": "stock_proxy",
+      "label": "CGCL",
+      "industry": "Financial Services"
+    },
+    "s_CGPOWER": {
+      "key": "NSE_EQ|INE067A01029",
+      "family": "stock_proxy",
+      "label": "CGPOWER",
+      "industry": "Capital Goods"
+    },
+    "s_CHAMBLFERT": {
+      "key": "NSE_EQ|INE085A01013",
+      "family": "stock_proxy",
+      "label": "CHAMBLFERT",
+      "industry": "Chemicals"
+    },
+    "s_CHENNPETRO": {
+      "key": "NSE_EQ|INE178A01016",
+      "family": "stock_proxy",
+      "label": "CHENNPETRO",
+      "industry": "Oil Gas & Consumable Fuels"
+    },
+    "s_CHOICEIN": {
+      "key": "NSE_EQ|INE102B01014",
+      "family": "stock_proxy",
+      "label": "CHOICEIN",
+      "industry": "Financial Services"
+    },
+    "s_CHOLAFIN": {
+      "key": "NSE_EQ|INE121A01024",
+      "family": "stock_proxy",
+      "label": "CHOLAFIN",
+      "industry": "Financial Services"
+    },
+    "s_CHOLAHLDNG": {
+      "key": "NSE_EQ|INE149A01033",
+      "family": "stock_proxy",
+      "label": "CHOLAHLDNG",
+      "industry": "Financial Services"
+    },
+    "s_CIEINDIA": {
+      "key": "NSE_EQ|INE536H01010",
+      "family": "stock_proxy",
+      "label": "CIEINDIA",
+      "industry": "Automobile and Auto Components"
+    },
+    "s_CLEAN": {
+      "key": "NSE_EQ|INE227W01023",
+      "family": "stock_proxy",
+      "label": "CLEAN",
+      "industry": "Chemicals"
+    },
+    "s_CLEANMAX": {
+      "key": "NSE_EQ|INE647U01026",
+      "family": "stock_proxy",
+      "label": "CLEANMAX",
+      "industry": "Power"
+    },
+    "s_CMPDI": {
+      "key": "NSE_EQ|INE05HV01027",
+      "family": "stock_proxy",
+      "label": "CMPDI",
+      "industry": "Services"
+    }
+  },
+  "stock_selection": "old50 plus alphabetical first100 currently listed Nifty500 members outside old50; research-only, no historical index weights"
+}

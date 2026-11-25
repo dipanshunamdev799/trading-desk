@@ -1,0 +1,55 @@
+{
+  "registered_at": "2026-11-24T14:00:17.677676+05:30",
+  "seed": 20261130,
+  "code_sha256": "e946bafaa0f97975da1f345e536d1a5c4b8ae1dec038b1572bebdbb940ce171a",
+  "null_draws": 16,
+  "null_origins": "First query of each selected earlier/later monthly fold group, at both horizons",
+  "selected_fold_positions_early": [
+    0,
+    3,
+    5,
+    8,
+    11,
+    13
+  ],
+  "null_specs": {
+    "compact": {
+      "frame": "ten",
+      "parent": "BASE10"
+    },
+    "block": {
+      "frame": "ten",
+      "parent": "BASE10",
+      "overlap": "blockmean"
+    },
+    "balanced": {
+      "frame": "ten",
+      "parent": "BASE10",
+      "weight": "balance"
+    },
+    "structural": {
+      "frame": "native_rot",
+      "parent": "BASE10",
+      "rep": "groups"
+    },
+    "elastic": {
+      "frame": "native_rot",
+      "parent": "BASE10",
+      "rep": "cluster_elastic",
+      "kind": "elastic"
+    },
+    "small_spread": {
+      "frame": "ten",
+      "parent": "BASE10",
+      "selection": "spread",
+      "budget": 85
+    }
+  },
+  "perturbation_draws": 12,
+  "perturbation_modes": [
+    "small_blocks",
+    "small_individual",
+    "expanding_drop20"
+  ],
+  "blocks_nominal_sessions": 5
+}

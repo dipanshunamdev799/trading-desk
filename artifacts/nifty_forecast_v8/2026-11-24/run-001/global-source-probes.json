@@ -1,0 +1,38 @@
+[
+  {
+    "series": "NASDAQCOM",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=NASDAQCOM&cosd=2025-01-01&coed=2026-11-17",
+    "requested_at": "2026-11-24T12:00:11.026125+05:30",
+    "http": 200,
+    "response_date": "Tue, 24 Nov 2026 06:30:11 GMT",
+    "rows": 471,
+    "sha256": "faabd185f8cc335856a665968559cf86bf6370a270b27a8d0b80cb5767f9fb83",
+    "status": "available",
+    "first": "2025-01-02",
+    "last": "2026-11-17"
+  },
+  {
+    "series": "DGS10",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10&cosd=2025-01-01&coed=2026-11-17",
+    "requested_at": "2026-11-24T12:00:11.026680+05:30",
+    "http": 200,
+    "response_date": "Tue, 24 Nov 2026 06:30:12 GMT",
+    "rows": 469,
+    "sha256": "fa601dbd809bd247845e6f13a4b63ae8a9ee947662ce764e2ddea7c42eeb65b7",
+    "status": "available",
+    "first": "2025-01-02",
+    "last": "2026-11-17"
+  },
+  {
+    "series": "VIXCLS",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=VIXCLS&cosd=2025-01-01&coed=2026-11-17",
+    "requested_at": "2026-11-24T12:00:11.027227+05:30",
+    "http": 200,
+    "response_date": "Tue, 24 Nov 2026 06:30:11 GMT",
+    "rows": 485,
+    "sha256": "615dc14f9085d8317e371b633e40c72e3f27669993c4b34b1e1b5ebe0fda0cf0",
+    "status": "available",
+    "first": "2025-01-02",
+    "last": "2026-11-17"
+  }
+]

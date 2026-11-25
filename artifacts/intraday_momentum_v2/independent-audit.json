@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "portfolios": 30,
+  "ledger_rows": 9394,
+  "summary_rows": 120,
+  "stress_rows": 96,
+  "capacity_latency_rows": 192,
+  "max_numeric_delta": 2.0954757928848267e-09,
+  "errors": [],
+  "observed_2025_2026_only": true,
+  "code_source_hashes_match": true,
+  "real_orders_submitted": 0,
+  "limitation": "Base ledgers independently recomputed. Stress CSV/report rows checked for completeness; stress individual ledgers not retained/re-audited."
+}

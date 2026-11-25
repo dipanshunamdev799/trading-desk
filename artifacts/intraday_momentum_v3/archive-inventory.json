@@ -1,0 +1,33 @@
+{
+  "checked_at": "2026-11-15T17:37:19.319068+00:00",
+  "chunks": 4,
+  "successful_chunks": 4,
+  "complete": true,
+  "summary": {
+    "archive_rows": 32370042,
+    "instruments": 1050,
+    "sessions": [
+      "2026-10-26",
+      "2026-10-27",
+      "2026-10-28",
+      "2026-10-29",
+      "2026-10-30",
+      "2026-11-11",
+      "2026-11-12",
+      "2026-11-13"
+    ],
+    "segments": {
+      "NSE_EQ": 5506783,
+      "NSE_FO": 22502223,
+      "NSE_INDEX": 4361036
+    },
+    "sampled_depth5_rows": 125577,
+    "sampled_depth30_rows": 0,
+    "depth_sample_rows": 141631,
+    "equity_instruments": 50,
+    "source_receipt_delay_over5s": 120472,
+    "repeated_source_timestamps": 78
+  },
+  "failures": [],
+  "limitation": "Complete row/time coverage; depth fields sampled deterministically at timestamps with millisecond remainder<10, not inferred for all rows. Repeated timestamps are not necessarily duplicate payloads. A source-minute with any update is occupancy, not continuous quote completeness. Chunk boundaries can overlap a local minute; detailed ordered replay audits gaps and duplicates separately."
+}

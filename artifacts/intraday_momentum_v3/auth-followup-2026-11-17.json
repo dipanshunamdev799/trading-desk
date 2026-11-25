@@ -1,0 +1,17 @@
+{
+  "checked_at": "2026-11-16T18:38:02.864553+00:00",
+  "screenshot_observation": "NSE EQ/BSE EQ shown opted; derivatives/commodities pending activation",
+  "authorization_http": 200,
+  "websocket_connection_verified": true,
+  "rest_quote_verified": true,
+  "fresh_regular_session_depth_verified": false,
+  "full5_depth_entitlement": "UNVERIFIED",
+  "d30_entitlement": "UNVERIFIED",
+  "account_profile_entitlement_verified": false,
+  "profile_error_codes": [
+    "UDAPI1221"
+  ],
+  "scheduling_enabled": false,
+  "orders_submitted": 0,
+  "interpretation": "The former UDAPI100058 authorization blocker did not recur. Connection success during closed market is not proof of live depth coverage or a forward-data milestone."
+}

@@ -1,0 +1,34 @@
+{
+  "registered_at": "2026-11-24T11:39:28.902982+05:30",
+  "configurations": {
+    "D_SPARSE": {
+      "parent": "C_NO_DEF",
+      "frame": "nodef",
+      "law": "student",
+      "hypothesis": "Student df5 law on the strongest V6 Brier representation"
+    },
+    "D_RISK": {
+      "parent": "C_NO_DEF",
+      "frame": "nodef",
+      "law": "risk_scaled",
+      "hypothesis": "Scale residuals with current trailing risk relative to past validation risk"
+    },
+    "D_QUANTILE": {
+      "parent": "C_PCA_WHITE",
+      "frame": "native",
+      "rep": "pca_white",
+      "law": "quantile",
+      "hypothesis": "Fit five direct quantiles in compressed design"
+    },
+    "D_ETF_STUDENT": {
+      "parent": "V6_CRPS",
+      "frame": "noauto_volume",
+      "law": "student",
+      "hypothesis": "Student regularization of V6 distribution lead input set"
+    }
+  },
+  "exposure": "2025\u20132026 historical research",
+  "fit_code_sha256": "42be493331e2264137df7c173ffa8e0af6b5758fb0193bfef8984d88293e278f",
+  "batch_code_sha256": "0d37a323f3450c6cfbffcb1d926fea47fcab60e398ab7b7f3dfd86cf77c1c85d",
+  "reason": "Fixed family tests registered before new results for this batch. All dates exposed by prior research."
+}

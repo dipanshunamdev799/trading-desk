@@ -1,0 +1,53 @@
+{
+  "groups": {
+    "NIFTY": "nifty",
+    "idx_Nifty_100": "broad",
+    "idx_Nifty_500": "broad",
+    "idx_NIFTY_MIDCAP_100": "broad",
+    "bank_nifty": "sectors",
+    "nifty_it": "sectors",
+    "nifty_auto": "sectors",
+    "nifty_financial": "sectors",
+    "nifty_fmcg": "sectors",
+    "nifty_pharma": "sectors",
+    "nifty_energy": "sectors",
+    "nifty_metal": "sectors",
+    "s_RELIANCE": "equities",
+    "s_HDFCBANK": "equities",
+    "s_INFY": "equities",
+    "s_ICICIBANK": "equities",
+    "s_TCS": "equities",
+    "s_SUNPHARMA": "equities",
+    "s_AXISBANK": "equities",
+    "niftybees": "etfs",
+    "bankbees": "etfs",
+    "financial_etf": "etfs",
+    "psu_etf": "etfs",
+    "insurance_hdfc": "equities",
+    "insurance_sbi": "equities",
+    "private_bank": "equities",
+    "NASDAQCOM": "global",
+    "VIXCLS": "unrelated",
+    "DGS10": "unrelated"
+  },
+  "tasks": [
+    1,
+    3,
+    5,
+    10,
+    15,
+    21,
+    "risk_aux",
+    "lead_aux"
+  ],
+  "features": [
+    "mom5",
+    "mom21",
+    "vol21",
+    "dispersion",
+    "relative",
+    "activity"
+  ],
+  "panel_rows": 11687,
+  "equity_selection": "Fixed liquid named series from frozen inventory. Current instrument availability and survivorship do not establish historical index membership."
+}

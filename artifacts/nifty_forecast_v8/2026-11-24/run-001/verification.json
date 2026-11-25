@@ -1,0 +1,163 @@
+{
+  "passed": true,
+  "completed_at": "2026-11-24T12:16:23.947435+05:30",
+  "checks": [
+    "V1\u2013V7 artifacts and frozen forecast ledgers unchanged",
+    "644 weekly prior forecasts reproduced",
+    "81 V4/V5 saved model vectors reproduced",
+    "Feature matrices match their manifest",
+    "Unique origin/model/horizon/cohort forecasts",
+    "Correct frozen 5/10/15/21-session endpoints and 2025\u20132026 scope",
+    "Coherent ordered quantiles",
+    "Same-law probability score, bucket sums and price means",
+    "Purged inner and mature outer fits, including embargo and earlier cohorts",
+    "Saved model hashes recorded in batch ledgers",
+    "Foreign cutoff alignment for new FRED series",
+    "Global intermediates matured before their own cutoff",
+    "Training-only joint-law learning",
+    "Calibrator fitting labels purged from later gate",
+    "invariance complete laws meet exact-copy tolerance",
+    "sector-alias complete laws meet exact-copy tolerance",
+    "Copies of leading data configurations leave canonical output unchanged",
+    "Monthly confidence intervals withheld",
+    "Intraday regular session and price discrepancy controls enforced",
+    "Independent fitted replay of three weekly leads and monthly smoothed state",
+    "All seventeen requested reports verified"
+  ],
+  "protected_files": 8507,
+  "replay": [
+    {
+      "model": "A_STRUCTURE_LEVEL",
+      "horizon": 5,
+      "fold": "2026-07",
+      "origins": 23,
+      "max_abs_error": 0.0
+    },
+    {
+      "model": "A_STRUCTURE_CHANGE",
+      "horizon": 5,
+      "fold": "2026-07",
+      "origins": 23,
+      "max_abs_error": 0.0
+    },
+    {
+      "model": "A_STRUCTURE_LEVEL",
+      "horizon": 5,
+      "fold": "2026-08",
+      "origins": 21,
+      "max_abs_error": 0.0
+    },
+    {
+      "model": "A_STRUCTURE_CHANGE",
+      "horizon": 5,
+      "fold": "2026-08",
+      "origins": 21,
+      "max_abs_error": 0.0
+    },
+    {
+      "model": "A_STRUCTURE_LEVEL",
+      "horizon": 5,
+      "fold": "2026-09",
+      "origins": 21,
+      "max_abs_error": 0.0
+    },
+    {
+      "model": "A_STRUCTURE_CHANGE",
+      "horizon": 5,
+      "fold": "2026-09",
+      "origins": 21,
+      "max_abs_error": 0.0
+    },
+    {
+      "model": "A_STRUCTURE_LEVEL",
+      "horizon": 5,
+      "fold": "2026-10",
+      "origins": 20,
+      "max_abs_error": 0.0
+    },
+    {
+      "model": "A_STRUCTURE_CHANGE",
+      "horizon": 5,
+      "fold": "2026-10",
+      "origins": 20,
+      "max_abs_error": 0.0
+    },
+    {
+      "model": "A_STRUCTURE_LEVEL",
+      "horizon": 5,
+      "fold": "2026-11",
+      "origins": 7,
+      "max_abs_error": 0.0
+    },
+    {
+      "model": "A_STRUCTURE_CHANGE",
+      "horizon": 5,
+      "fold": "2026-11",
+      "origins": 7,
+      "max_abs_error": 0.0
+    },
+    {
+      "model": "M_STATE_SMOOTH",
+      "horizon": 21,
+      "fold": "2026-07",
+      "origins": 23,
+      "max_abs_error": 0.0
+    },
+    {
+      "model": "M_STATE_SMOOTH",
+      "horizon": 21,
+      "fold": "2026-08",
+      "origins": 21,
+      "max_abs_error": 0.0
+    },
+    {
+      "model": "M_STATE_SMOOTH",
+      "horizon": 21,
+      "fold": "2026-09",
+      "origins": 21,
+      "max_abs_error": 0.0
+    },
+    {
+      "model": "M_STATE_SMOOTH",
+      "horizon": 21,
+      "fold": "2026-10",
+      "origins": 11,
+      "max_abs_error": 0.0
+    },
+    {
+      "model": "R_RESIDUAL",
+      "horizon": 5,
+      "fold": "2026-07",
+      "origins": 23,
+      "max_abs_error": 0.0
+    },
+    {
+      "model": "R_RESIDUAL",
+      "horizon": 5,
+      "fold": "2026-08",
+      "origins": 21,
+      "max_abs_error": 0.0
+    },
+    {
+      "model": "R_RESIDUAL",
+      "horizon": 5,
+      "fold": "2026-09",
+      "origins": 21,
+      "max_abs_error": 0.0
+    },
+    {
+      "model": "R_RESIDUAL",
+      "horizon": 5,
+      "fold": "2026-10",
+      "origins": 20,
+      "max_abs_error": 0.0
+    },
+    {
+      "model": "R_RESIDUAL",
+      "horizon": 5,
+      "fold": "2026-11",
+      "origins": 7,
+      "max_abs_error": 0.0
+    }
+  ]
+}

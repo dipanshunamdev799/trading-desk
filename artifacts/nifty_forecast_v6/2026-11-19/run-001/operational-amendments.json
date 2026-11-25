@@ -1,0 +1,12 @@
+{
+  "recorded_at": "2026-11-20T20:42:49.611145+05:30",
+  "notes": [
+    "Initial deep-feature warmup reindexed too early; corrected to Jan2025 raw history BEFORE primary deep-model fits.",
+    "Feature schema/availability guards and expert branches were added after initial forensic fits; exact original forensic/model source hashes archived; original Ridge numerics unchanged and full replay checked.",
+    "Defensive PC/normalization branches were added for the explicitly later follow-up batch; no old registry rewritten.",
+    "Legacy influence field prediction_change_median_replacement is a training-mean proxy; exact train-median query effects saved separately.",
+    "Honest/issued prequential wording means causally reconstructed out-of-training history, NOT actual historical timestamp issuance.",
+    "Monthly/weekly attribution follow-ups were motivated by exposed results, not preregistered before seeing history.",
+    "Reports finalized at actual timestamp, not backdated to run-directory date; no V6 forward snapshot issued."
+  ]
+}

@@ -1,0 +1,4743 @@
+[
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_RES_WINDOW",
+    "fold": "2026-07",
+    "cohort": "primary",
+    "cutoff": "2026-06-30",
+    "status": "ok",
+    "training_n": 189,
+    "inner_n": 189,
+    "n": 23,
+    "train_cutoff": "2026-06-30",
+    "inner_cutoff": "2026-04-21",
+    "last_endpoint": "2026-06-29",
+    "inner_last_endpoint": "2026-04-20",
+    "artifact": "models\\stress-5-2026-07-W_RES_WINDOW.joblib",
+    "sha256": "11669832b097bf73abf0bc1b8c70d68d141fed9af3ffd505a95c6fbaa3c28c7f",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_RES_EMBARGO",
+    "fold": "2026-07",
+    "cohort": "primary",
+    "cutoff": "2026-06-30",
+    "status": "ok",
+    "training_n": 297,
+    "inner_n": 247,
+    "n": 23,
+    "train_cutoff": "2026-06-24",
+    "inner_cutoff": "2026-04-10",
+    "last_endpoint": "2026-06-23",
+    "inner_last_endpoint": "2026-04-09",
+    "artifact": "models\\stress-5-2026-07-W_RES_EMBARGO.joblib",
+    "sha256": "444e1c4686b7ac7bf918fe04b4d0e222e80a34aa9a74810ff7da2a9e92556910",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_RES_PERTURB",
+    "fold": "2026-07",
+    "cohort": "primary",
+    "cutoff": "2026-06-30",
+    "status": "ok",
+    "training_n": 300,
+    "inner_n": 253,
+    "n": 23,
+    "train_cutoff": "2026-06-30",
+    "inner_cutoff": "2026-04-21",
+    "last_endpoint": "2026-06-29",
+    "inner_last_endpoint": "2026-04-20",
+    "artifact": "models\\stress-5-2026-07-W_RES_PERTURB.joblib",
+    "sha256": "1d1f4762fa2bae39e7dbd8dbcec089475934b683d566d096492fee81cfad15d3",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_RES_ALPHA",
+    "fold": "2026-07",
+    "cohort": "primary",
+    "cutoff": "2026-06-30",
+    "status": "ok",
+    "training_n": 300,
+    "inner_n": 253,
+    "n": 23,
+    "train_cutoff": "2026-06-30",
+    "inner_cutoff": "2026-04-21",
+    "last_endpoint": "2026-06-29",
+    "inner_last_endpoint": "2026-04-20",
+    "artifact": "models\\stress-5-2026-07-W_RES_ALPHA.joblib",
+    "sha256": "1a09426c8d80cec8507440f61603b0890eb1351047a9f27d833868c0428090ba",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_RES_TARGET_NULL",
+    "fold": "2026-07",
+    "cohort": "primary",
+    "cutoff": "2026-06-30",
+    "status": "ok",
+    "training_n": 300,
+    "inner_n": 253,
+    "n": 23,
+    "train_cutoff": "2026-06-30",
+    "inner_cutoff": "2026-04-21",
+    "last_endpoint": "2026-06-29",
+    "inner_last_endpoint": "2026-04-20",
+    "artifact": "models\\stress-5-2026-07-W_RES_TARGET_NULL.joblib",
+    "sha256": "18dd5b96d372505db0e191a7ff8d3b0739d8c71b8de81222d9e6de781d3457c8",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_RES_LAG",
+    "fold": "2026-07",
+    "cohort": "primary",
+    "cutoff": "2026-06-30",
+    "status": "ok",
+    "training_n": 300,
+    "inner_n": 253,
+    "n": 23,
+    "train_cutoff": "2026-06-30",
+    "inner_cutoff": "2026-04-21",
+    "last_endpoint": "2026-06-29",
+    "inner_last_endpoint": "2026-04-20",
+    "artifact": "models\\stress-5-2026-07-W_RES_LAG.joblib",
+    "sha256": "5c4183bfce12c8b6f33aaeb144f92960e2a4e4d01df3b6377b8537b7e360e834",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_RES_DEDUP",
+    "fold": "2026-07",
+    "cohort": "primary",
+    "cutoff": "2026-06-30",
+    "status": "ok",
+    "training_n": 300,
+    "inner_n": 253,
+    "n": 23,
+    "train_cutoff": "2026-06-30",
+    "inner_cutoff": "2026-04-21",
+    "last_endpoint": "2026-06-29",
+    "inner_last_endpoint": "2026-04-20",
+    "artifact": "models\\stress-5-2026-07-W_RES_DEDUP.joblib",
+    "sha256": "54f0b50a4f71451b2f091befa4010bd220c07ffcf382fa97bcc6f5ea76718e83",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_RES_CLONE",
+    "fold": "2026-07",
+    "cohort": "primary",
+    "cutoff": "2026-06-30",
+    "status": "ok",
+    "training_n": 300,
+    "inner_n": 253,
+    "n": 23,
+    "train_cutoff": "2026-06-30",
+    "inner_cutoff": "2026-04-21",
+    "last_endpoint": "2026-06-29",
+    "inner_last_endpoint": "2026-04-20",
+    "artifact": "models\\stress-5-2026-07-W_RES_CLONE.joblib",
+    "sha256": "e9e5aa6404f25c7b4c5c60240c800fe1bfac9abb25a480d28d9c22422111bfb4",
+    "warnings": [],
+    "metadata": {
+      "aliases": [
+        [
+          "zz_stress_i_nifty_auto_rel21",
+          "i_nifty_auto_rel21"
+        ],
+        [
+          "zz_stress_i_nifty_auto_rel5",
+          "i_nifty_auto_rel5"
+        ],
+        [
+          "zz_stress_i_nifty_financial_rel21",
+          "i_nifty_financial_rel21"
+        ],
+        [
+          "zz_stress_i_nifty_financial_rel5",
+          "i_nifty_financial_rel5"
+        ],
+        [
+          "zz_stress_i_nifty_it_rel21",
+          "i_nifty_it_rel21"
+        ],
+        [
+          "zz_stress_i_nifty_it_rel5",
+          "i_nifty_it_rel5"
+        ],
+        [
+          "zz_stress_r_bank_residual",
+          "r_bank_residual"
+        ],
+        [
+          "zz_stress_r_def_residual",
+          "r_def_residual"
+        ]
+      ],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_RES_REVISION",
+    "fold": "2026-07",
+    "cohort": "primary",
+    "cutoff": "2026-06-30",
+    "status": "ok",
+    "training_n": 300,
+    "inner_n": 253,
+    "n": 23,
+    "train_cutoff": "2026-06-30",
+    "inner_cutoff": "2026-04-21",
+    "last_endpoint": "2026-06-29",
+    "inner_last_endpoint": "2026-04-20",
+    "artifact": "models\\stress-5-2026-07-W_RES_REVISION.joblib",
+    "sha256": "614fd2dedafede8db8ce33865ec3c1858d7b3668fcdf0a112499142664259d1e",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_STRUCT_WINDOW",
+    "fold": "2026-07",
+    "cohort": "primary",
+    "cutoff": "2026-06-30",
+    "status": "ok",
+    "training_n": 189,
+    "inner_n": 189,
+    "n": 23,
+    "train_cutoff": "2026-06-30",
+    "inner_cutoff": "2026-04-21",
+    "last_endpoint": "2026-06-29",
+    "inner_last_endpoint": "2026-04-20",
+    "artifact": "models\\stress-5-2026-07-W_STRUCT_WINDOW.joblib",
+    "sha256": "b122aa32d539778061b37b2ca7a58e0ef7ebec3f08243938aaa65699022d6ccd",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_STRUCT_EMBARGO",
+    "fold": "2026-07",
+    "cohort": "primary",
+    "cutoff": "2026-06-30",
+    "status": "ok",
+    "training_n": 297,
+    "inner_n": 247,
+    "n": 23,
+    "train_cutoff": "2026-06-24",
+    "inner_cutoff": "2026-04-10",
+    "last_endpoint": "2026-06-23",
+    "inner_last_endpoint": "2026-04-09",
+    "artifact": "models\\stress-5-2026-07-W_STRUCT_EMBARGO.joblib",
+    "sha256": "0421b554a68d59fb49f63539028c8f4b70ead52e43e4e5cac02eb0d6d6f4b5f7",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_STRUCT_PERTURB",
+    "fold": "2026-07",
+    "cohort": "primary",
+    "cutoff": "2026-06-30",
+    "status": "ok",
+    "training_n": 300,
+    "inner_n": 253,
+    "n": 23,
+    "train_cutoff": "2026-06-30",
+    "inner_cutoff": "2026-04-21",
+    "last_endpoint": "2026-06-29",
+    "inner_last_endpoint": "2026-04-20",
+    "artifact": "models\\stress-5-2026-07-W_STRUCT_PERTURB.joblib",
+    "sha256": "3a0facdaaf6fb383287b1a557733d6d4e873ced69c669c97df3bf2f32111c07b",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_STRUCT_ALPHA",
+    "fold": "2026-07",
+    "cohort": "primary",
+    "cutoff": "2026-06-30",
+    "status": "ok",
+    "training_n": 300,
+    "inner_n": 253,
+    "n": 23,
+    "train_cutoff": "2026-06-30",
+    "inner_cutoff": "2026-04-21",
+    "last_endpoint": "2026-06-29",
+    "inner_last_endpoint": "2026-04-20",
+    "artifact": "models\\stress-5-2026-07-W_STRUCT_ALPHA.joblib",
+    "sha256": "32bb5251066534cdd77266e7f1fda0029fe65955a8dd2b17f24dfa63cd774aab",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_STRUCT_TARGET_NULL",
+    "fold": "2026-07",
+    "cohort": "primary",
+    "cutoff": "2026-06-30",
+    "status": "ok",
+    "training_n": 300,
+    "inner_n": 253,
+    "n": 23,
+    "train_cutoff": "2026-06-30",
+    "inner_cutoff": "2026-04-21",
+    "last_endpoint": "2026-06-29",
+    "inner_last_endpoint": "2026-04-20",
+    "artifact": "models\\stress-5-2026-07-W_STRUCT_TARGET_NULL.joblib",
+    "sha256": "b19239bd188d75e8fb5c267e5f115f5e3c7e8b079c74990d973709d192acb468",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_STRUCT_LAG",
+    "fold": "2026-07",
+    "cohort": "primary",
+    "cutoff": "2026-06-30",
+    "status": "ok",
+    "training_n": 300,
+    "inner_n": 253,
+    "n": 23,
+    "train_cutoff": "2026-06-30",
+    "inner_cutoff": "2026-04-21",
+    "last_endpoint": "2026-06-29",
+    "inner_last_endpoint": "2026-04-20",
+    "artifact": "models\\stress-5-2026-07-W_STRUCT_LAG.joblib",
+    "sha256": "45e1e68569243937639c3a6c567cbc797a7e49bb4100ef0b8b4118f44db1b94a",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_STRUCT_DEDUP",
+    "fold": "2026-07",
+    "cohort": "primary",
+    "cutoff": "2026-06-30",
+    "status": "ok",
+    "training_n": 300,
+    "inner_n": 253,
+    "n": 23,
+    "train_cutoff": "2026-06-30",
+    "inner_cutoff": "2026-04-21",
+    "last_endpoint": "2026-06-29",
+    "inner_last_endpoint": "2026-04-20",
+    "artifact": "models\\stress-5-2026-07-W_STRUCT_DEDUP.joblib",
+    "sha256": "4e9be443f1c6f5207e07b6056c65e347680949e365de7b2ca8183ddb286d0a7b",
+    "warnings": [],
+    "metadata": {
+      "aliases": [
+        [
+          "m_broad",
+          "i_idx_Nifty_500_rel5"
+        ]
+      ],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_STRUCT_CLONE",
+    "fold": "2026-07",
+    "cohort": "primary",
+    "cutoff": "2026-06-30",
+    "status": "ok",
+    "training_n": 300,
+    "inner_n": 253,
+    "n": 23,
+    "train_cutoff": "2026-06-30",
+    "inner_cutoff": "2026-04-21",
+    "last_endpoint": "2026-06-29",
+    "inner_last_endpoint": "2026-04-20",
+    "artifact": "models\\stress-5-2026-07-W_STRUCT_CLONE.joblib",
+    "sha256": "71b9c9e2c31dbe258d61ab3841b2dc273caa25f9dd3c1820f33dcb3c20b9c0f1",
+    "warnings": [],
+    "metadata": {
+      "aliases": [
+        [
+          "m_broad",
+          "i_idx_Nifty_500_rel5"
+        ],
+        [
+          "zz_stress_i_nifty_auto_rel21",
+          "i_nifty_auto_rel21"
+        ],
+        [
+          "zz_stress_i_nifty_auto_rel5",
+          "i_nifty_auto_rel5"
+        ],
+        [
+          "zz_stress_i_nifty_financial_rel21",
+          "i_nifty_financial_rel21"
+        ],
+        [
+          "zz_stress_i_nifty_financial_rel5",
+          "i_nifty_financial_rel5"
+        ],
+        [
+          "zz_stress_i_nifty_it_rel21",
+          "i_nifty_it_rel21"
+        ],
+        [
+          "zz_stress_i_nifty_it_rel5",
+          "i_nifty_it_rel5"
+        ],
+        [
+          "zz_stress_m_broad",
+          "i_idx_Nifty_500_rel5"
+        ],
+        [
+          "zz_stress_m_broad_d5",
+          "m_broad_d5"
+        ],
+        [
+          "zz_stress_m_concentration",
+          "m_concentration"
+        ],
+        [
+          "zz_stress_m_concentration_d5",
+          "m_concentration_d5"
+        ],
+        [
+          "zz_stress_m_cyclical",
+          "m_cyclical"
+        ],
+        [
+          "zz_stress_m_cyclical_d5",
+          "m_cyclical_d5"
+        ],
+        [
+          "zz_stress_m_financial",
+          "m_financial"
+        ],
+        [
+          "zz_stress_m_financial_d5",
+          "m_financial_d5"
+        ],
+        [
+          "zz_stress_m_rotation_speed",
+          "m_rotation_speed"
+        ],
+        [
+          "zz_stress_m_rotation_speed_d5",
+          "m_rotation_speed_d5"
+        ],
+        [
+          "zz_stress_m_sync",
+          "m_sync"
+        ],
+        [
+          "zz_stress_m_sync_d5",
+          "m_sync_d5"
+        ],
+        [
+          "zz_stress_m_vol_divergence",
+          "m_vol_divergence"
+        ],
+        [
+          "zz_stress_m_vol_divergence_d5",
+          "m_vol_divergence_d5"
+        ],
+        [
+          "zz_stress_r_bank_change",
+          "r_bank_change"
+        ],
+        [
+          "zz_stress_r_def_change",
+          "r_def_change"
+        ]
+      ],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_STRUCT_REVISION",
+    "fold": "2026-07",
+    "cohort": "primary",
+    "cutoff": "2026-06-30",
+    "status": "ok",
+    "training_n": 300,
+    "inner_n": 253,
+    "n": 23,
+    "train_cutoff": "2026-06-30",
+    "inner_cutoff": "2026-04-21",
+    "last_endpoint": "2026-06-29",
+    "inner_last_endpoint": "2026-04-20",
+    "artifact": "models\\stress-5-2026-07-W_STRUCT_REVISION.joblib",
+    "sha256": "e4647b3d98e6326e2b7be17ceb544a541e93677631292004c5e970d91183220a",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_LEVEL_WINDOW",
+    "fold": "2026-07",
+    "cohort": "primary",
+    "cutoff": "2026-06-30",
+    "status": "ok",
+    "training_n": 189,
+    "inner_n": 189,
+    "n": 23,
+    "train_cutoff": "2026-06-30",
+    "inner_cutoff": "2026-04-21",
+    "last_endpoint": "2026-06-29",
+    "inner_last_endpoint": "2026-04-20",
+    "artifact": "models\\stress-5-2026-07-W_LEVEL_WINDOW.joblib",
+    "sha256": "85f841c4f0fbcab78266d8919178f77dc369d5d9c656c571ac8a1246f574603d",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_LEVEL_EMBARGO",
+    "fold": "2026-07",
+    "cohort": "primary",
+    "cutoff": "2026-06-30",
+    "status": "ok",
+    "training_n": 297,
+    "inner_n": 247,
+    "n": 23,
+    "train_cutoff": "2026-06-24",
+    "inner_cutoff": "2026-04-10",
+    "last_endpoint": "2026-06-23",
+    "inner_last_endpoint": "2026-04-09",
+    "artifact": "models\\stress-5-2026-07-W_LEVEL_EMBARGO.joblib",
+    "sha256": "f9afd607fb0343b57d363fe7dbc33806b6803bff76cfbf35e8b9e1d45ac60d17",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_LEVEL_PERTURB",
+    "fold": "2026-07",
+    "cohort": "primary",
+    "cutoff": "2026-06-30",
+    "status": "ok",
+    "training_n": 300,
+    "inner_n": 253,
+    "n": 23,
+    "train_cutoff": "2026-06-30",
+    "inner_cutoff": "2026-04-21",
+    "last_endpoint": "2026-06-29",
+    "inner_last_endpoint": "2026-04-20",
+    "artifact": "models\\stress-5-2026-07-W_LEVEL_PERTURB.joblib",
+    "sha256": "78c28917b450e93187306c9cc739963ebfb9df2750f783917cd13efc7051085b",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_LEVEL_ALPHA",
+    "fold": "2026-07",
+    "cohort": "primary",
+    "cutoff": "2026-06-30",
+    "status": "ok",
+    "training_n": 300,
+    "inner_n": 253,
+    "n": 23,
+    "train_cutoff": "2026-06-30",
+    "inner_cutoff": "2026-04-21",
+    "last_endpoint": "2026-06-29",
+    "inner_last_endpoint": "2026-04-20",
+    "artifact": "models\\stress-5-2026-07-W_LEVEL_ALPHA.joblib",
+    "sha256": "e54299a7fa960e7f5b05bd4433cd6543ef565fb050c3796bff8184cc038aca53",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_LEVEL_TARGET_NULL",
+    "fold": "2026-07",
+    "cohort": "primary",
+    "cutoff": "2026-06-30",
+    "status": "ok",
+    "training_n": 300,
+    "inner_n": 253,
+    "n": 23,
+    "train_cutoff": "2026-06-30",
+    "inner_cutoff": "2026-04-21",
+    "last_endpoint": "2026-06-29",
+    "inner_last_endpoint": "2026-04-20",
+    "artifact": "models\\stress-5-2026-07-W_LEVEL_TARGET_NULL.joblib",
+    "sha256": "0289a81a0b96420be9aaa65b8753b7da45af25e1f4e37607f4e37e9783e94adf",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_LEVEL_LAG",
+    "fold": "2026-07",
+    "cohort": "primary",
+    "cutoff": "2026-06-30",
+    "status": "ok",
+    "training_n": 300,
+    "inner_n": 253,
+    "n": 23,
+    "train_cutoff": "2026-06-30",
+    "inner_cutoff": "2026-04-21",
+    "last_endpoint": "2026-06-29",
+    "inner_last_endpoint": "2026-04-20",
+    "artifact": "models\\stress-5-2026-07-W_LEVEL_LAG.joblib",
+    "sha256": "bc1727786f74026d78a01fea1808c630e17421edd7f300d50fa5f2eab9bb8d9d",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_LEVEL_DEDUP",
+    "fold": "2026-07",
+    "cohort": "primary",
+    "cutoff": "2026-06-30",
+    "status": "ok",
+    "training_n": 300,
+    "inner_n": 253,
+    "n": 23,
+    "train_cutoff": "2026-06-30",
+    "inner_cutoff": "2026-04-21",
+    "last_endpoint": "2026-06-29",
+    "inner_last_endpoint": "2026-04-20",
+    "artifact": "models\\stress-5-2026-07-W_LEVEL_DEDUP.joblib",
+    "sha256": "950b65a159a2d8e9d02ffd926f0ae75b4c6397bdc4ea60c1b4adc1ea3410bae4",
+    "warnings": [],
+    "metadata": {
+      "aliases": [
+        [
+          "m_broad",
+          "i_idx_Nifty_500_rel5"
+        ]
+      ],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_LEVEL_CLONE",
+    "fold": "2026-07",
+    "cohort": "primary",
+    "cutoff": "2026-06-30",
+    "status": "ok",
+    "training_n": 300,
+    "inner_n": 253,
+    "n": 23,
+    "train_cutoff": "2026-06-30",
+    "inner_cutoff": "2026-04-21",
+    "last_endpoint": "2026-06-29",
+    "inner_last_endpoint": "2026-04-20",
+    "artifact": "models\\stress-5-2026-07-W_LEVEL_CLONE.joblib",
+    "sha256": "56c829fcbac09f46d4a9e0a174cf5bcd28cde1f5371201f0b4e193a4704d56cf",
+    "warnings": [],
+    "metadata": {
+      "aliases": [
+        [
+          "m_broad",
+          "i_idx_Nifty_500_rel5"
+        ],
+        [
+          "zz_stress_i_nifty_auto_rel21",
+          "i_nifty_auto_rel21"
+        ],
+        [
+          "zz_stress_i_nifty_auto_rel5",
+          "i_nifty_auto_rel5"
+        ],
+        [
+          "zz_stress_i_nifty_financial_rel21",
+          "i_nifty_financial_rel21"
+        ],
+        [
+          "zz_stress_i_nifty_financial_rel5",
+          "i_nifty_financial_rel5"
+        ],
+        [
+          "zz_stress_i_nifty_it_rel21",
+          "i_nifty_it_rel21"
+        ],
+        [
+          "zz_stress_i_nifty_it_rel5",
+          "i_nifty_it_rel5"
+        ],
+        [
+          "zz_stress_m_broad",
+          "i_idx_Nifty_500_rel5"
+        ],
+        [
+          "zz_stress_m_concentration",
+          "m_concentration"
+        ],
+        [
+          "zz_stress_m_cyclical",
+          "m_cyclical"
+        ],
+        [
+          "zz_stress_m_financial",
+          "m_financial"
+        ],
+        [
+          "zz_stress_m_rotation_speed",
+          "m_rotation_speed"
+        ],
+        [
+          "zz_stress_m_sync",
+          "m_sync"
+        ],
+        [
+          "zz_stress_m_vol_divergence",
+          "m_vol_divergence"
+        ],
+        [
+          "zz_stress_r_bank_change",
+          "r_bank_change"
+        ],
+        [
+          "zz_stress_r_def_change",
+          "r_def_change"
+        ]
+      ],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_LEVEL_REVISION",
+    "fold": "2026-07",
+    "cohort": "primary",
+    "cutoff": "2026-06-30",
+    "status": "ok",
+    "training_n": 300,
+    "inner_n": 253,
+    "n": 23,
+    "train_cutoff": "2026-06-30",
+    "inner_cutoff": "2026-04-21",
+    "last_endpoint": "2026-06-29",
+    "inner_last_endpoint": "2026-04-20",
+    "artifact": "models\\stress-5-2026-07-W_LEVEL_REVISION.joblib",
+    "sha256": "6c93d3e0e8509c2f272416a4e2372c4eae9b56366f130d2329fb8501d5589f89",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_RES_WINDOW",
+    "fold": "2026-08",
+    "cohort": "primary",
+    "cutoff": "2026-07-31",
+    "status": "ok",
+    "training_n": 189,
+    "inner_n": 189,
+    "n": 21,
+    "train_cutoff": "2026-07-31",
+    "inner_cutoff": "2026-05-25",
+    "last_endpoint": "2026-07-30",
+    "inner_last_endpoint": "2026-05-22",
+    "artifact": "models\\stress-5-2026-08-W_RES_WINDOW.joblib",
+    "sha256": "1c107b73250afb9dfa6bb6dd86e31690baf7edbb4a18e87fccb79730afad56d9",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_RES_EMBARGO",
+    "fold": "2026-08",
+    "cohort": "primary",
+    "cutoff": "2026-07-31",
+    "status": "ok",
+    "training_n": 320,
+    "inner_n": 270,
+    "n": 21,
+    "train_cutoff": "2026-07-28",
+    "inner_cutoff": "2026-05-15",
+    "last_endpoint": "2026-07-27",
+    "inner_last_endpoint": "2026-05-14",
+    "artifact": "models\\stress-5-2026-08-W_RES_EMBARGO.joblib",
+    "sha256": "c3a17138474998c63ce69604aa3d43f2dc0918bac6448c33a62931033b8fcad8",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_RES_PERTURB",
+    "fold": "2026-08",
+    "cohort": "primary",
+    "cutoff": "2026-07-31",
+    "status": "ok",
+    "training_n": 323,
+    "inner_n": 276,
+    "n": 21,
+    "train_cutoff": "2026-07-31",
+    "inner_cutoff": "2026-05-25",
+    "last_endpoint": "2026-07-30",
+    "inner_last_endpoint": "2026-05-22",
+    "artifact": "models\\stress-5-2026-08-W_RES_PERTURB.joblib",
+    "sha256": "03a3c3543934dbd6ed706207ca92c314af706c40602036703d5eac37e20c970e",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_RES_ALPHA",
+    "fold": "2026-08",
+    "cohort": "primary",
+    "cutoff": "2026-07-31",
+    "status": "ok",
+    "training_n": 323,
+    "inner_n": 276,
+    "n": 21,
+    "train_cutoff": "2026-07-31",
+    "inner_cutoff": "2026-05-25",
+    "last_endpoint": "2026-07-30",
+    "inner_last_endpoint": "2026-05-22",
+    "artifact": "models\\stress-5-2026-08-W_RES_ALPHA.joblib",
+    "sha256": "c92076b2ebf22630fe8a94394b62217b4df66f632cd8ddcaeb3ac79b51b8a6c3",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_RES_TARGET_NULL",
+    "fold": "2026-08",
+    "cohort": "primary",
+    "cutoff": "2026-07-31",
+    "status": "ok",
+    "training_n": 323,
+    "inner_n": 276,
+    "n": 21,
+    "train_cutoff": "2026-07-31",
+    "inner_cutoff": "2026-05-25",
+    "last_endpoint": "2026-07-30",
+    "inner_last_endpoint": "2026-05-22",
+    "artifact": "models\\stress-5-2026-08-W_RES_TARGET_NULL.joblib",
+    "sha256": "b38ce12879a4ccf06fd096c7b67e8cf011a0a32d4de97993a7f0abc7f8fa3bc3",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_RES_LAG",
+    "fold": "2026-08",
+    "cohort": "primary",
+    "cutoff": "2026-07-31",
+    "status": "ok",
+    "training_n": 323,
+    "inner_n": 276,
+    "n": 21,
+    "train_cutoff": "2026-07-31",
+    "inner_cutoff": "2026-05-25",
+    "last_endpoint": "2026-07-30",
+    "inner_last_endpoint": "2026-05-22",
+    "artifact": "models\\stress-5-2026-08-W_RES_LAG.joblib",
+    "sha256": "30f247e05eb1338454772e625bb32241c533281c4ae039bceb46e88b87e5770a",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_RES_DEDUP",
+    "fold": "2026-08",
+    "cohort": "primary",
+    "cutoff": "2026-07-31",
+    "status": "ok",
+    "training_n": 323,
+    "inner_n": 276,
+    "n": 21,
+    "train_cutoff": "2026-07-31",
+    "inner_cutoff": "2026-05-25",
+    "last_endpoint": "2026-07-30",
+    "inner_last_endpoint": "2026-05-22",
+    "artifact": "models\\stress-5-2026-08-W_RES_DEDUP.joblib",
+    "sha256": "3165cbaaf1cd7ccec203a87b6dc51d7e1d10d6352c501dde288e7169ee54b4f8",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_RES_CLONE",
+    "fold": "2026-08",
+    "cohort": "primary",
+    "cutoff": "2026-07-31",
+    "status": "ok",
+    "training_n": 323,
+    "inner_n": 276,
+    "n": 21,
+    "train_cutoff": "2026-07-31",
+    "inner_cutoff": "2026-05-25",
+    "last_endpoint": "2026-07-30",
+    "inner_last_endpoint": "2026-05-22",
+    "artifact": "models\\stress-5-2026-08-W_RES_CLONE.joblib",
+    "sha256": "df8f5ac01f7ef00cebe2b13b88a855370f475e3c0dd8a2598aee849987e99200",
+    "warnings": [],
+    "metadata": {
+      "aliases": [
+        [
+          "zz_stress_i_nifty_auto_rel21",
+          "i_nifty_auto_rel21"
+        ],
+        [
+          "zz_stress_i_nifty_auto_rel5",
+          "i_nifty_auto_rel5"
+        ],
+        [
+          "zz_stress_i_nifty_financial_rel21",
+          "i_nifty_financial_rel21"
+        ],
+        [
+          "zz_stress_i_nifty_financial_rel5",
+          "i_nifty_financial_rel5"
+        ],
+        [
+          "zz_stress_i_nifty_it_rel21",
+          "i_nifty_it_rel21"
+        ],
+        [
+          "zz_stress_i_nifty_it_rel5",
+          "i_nifty_it_rel5"
+        ],
+        [
+          "zz_stress_r_bank_residual",
+          "r_bank_residual"
+        ],
+        [
+          "zz_stress_r_def_residual",
+          "r_def_residual"
+        ]
+      ],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_RES_REVISION",
+    "fold": "2026-08",
+    "cohort": "primary",
+    "cutoff": "2026-07-31",
+    "status": "ok",
+    "training_n": 323,
+    "inner_n": 276,
+    "n": 21,
+    "train_cutoff": "2026-07-31",
+    "inner_cutoff": "2026-05-25",
+    "last_endpoint": "2026-07-30",
+    "inner_last_endpoint": "2026-05-22",
+    "artifact": "models\\stress-5-2026-08-W_RES_REVISION.joblib",
+    "sha256": "6aa90d8c83ae118cccceb9a0b0ab6bcdd4ae8a053579640a6c70ab1623adba7c",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_STRUCT_WINDOW",
+    "fold": "2026-08",
+    "cohort": "primary",
+    "cutoff": "2026-07-31",
+    "status": "ok",
+    "training_n": 189,
+    "inner_n": 189,
+    "n": 21,
+    "train_cutoff": "2026-07-31",
+    "inner_cutoff": "2026-05-25",
+    "last_endpoint": "2026-07-30",
+    "inner_last_endpoint": "2026-05-22",
+    "artifact": "models\\stress-5-2026-08-W_STRUCT_WINDOW.joblib",
+    "sha256": "e6a4207b140ef4c3d633502d6a47d2c59013715eb0b7f5aafe83ea064af52171",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_STRUCT_EMBARGO",
+    "fold": "2026-08",
+    "cohort": "primary",
+    "cutoff": "2026-07-31",
+    "status": "ok",
+    "training_n": 320,
+    "inner_n": 270,
+    "n": 21,
+    "train_cutoff": "2026-07-28",
+    "inner_cutoff": "2026-05-15",
+    "last_endpoint": "2026-07-27",
+    "inner_last_endpoint": "2026-05-14",
+    "artifact": "models\\stress-5-2026-08-W_STRUCT_EMBARGO.joblib",
+    "sha256": "68d240dc2f5415df5778af9a4ad213431271b98069c55ce5647b899824054dec",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_STRUCT_PERTURB",
+    "fold": "2026-08",
+    "cohort": "primary",
+    "cutoff": "2026-07-31",
+    "status": "ok",
+    "training_n": 323,
+    "inner_n": 276,
+    "n": 21,
+    "train_cutoff": "2026-07-31",
+    "inner_cutoff": "2026-05-25",
+    "last_endpoint": "2026-07-30",
+    "inner_last_endpoint": "2026-05-22",
+    "artifact": "models\\stress-5-2026-08-W_STRUCT_PERTURB.joblib",
+    "sha256": "36b1c8db32d15b34f4b608ace1cc8117b2ef3c83e109f8dbe93762334c7cff3a",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_STRUCT_ALPHA",
+    "fold": "2026-08",
+    "cohort": "primary",
+    "cutoff": "2026-07-31",
+    "status": "ok",
+    "training_n": 323,
+    "inner_n": 276,
+    "n": 21,
+    "train_cutoff": "2026-07-31",
+    "inner_cutoff": "2026-05-25",
+    "last_endpoint": "2026-07-30",
+    "inner_last_endpoint": "2026-05-22",
+    "artifact": "models\\stress-5-2026-08-W_STRUCT_ALPHA.joblib",
+    "sha256": "13557c7a436b2b1a0f209b93eb2fe843eda6ffcf0a3bedcdf16862891ed16710",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_STRUCT_TARGET_NULL",
+    "fold": "2026-08",
+    "cohort": "primary",
+    "cutoff": "2026-07-31",
+    "status": "ok",
+    "training_n": 323,
+    "inner_n": 276,
+    "n": 21,
+    "train_cutoff": "2026-07-31",
+    "inner_cutoff": "2026-05-25",
+    "last_endpoint": "2026-07-30",
+    "inner_last_endpoint": "2026-05-22",
+    "artifact": "models\\stress-5-2026-08-W_STRUCT_TARGET_NULL.joblib",
+    "sha256": "94fd42098de29a956704155f71f8f0048594c72cab420e2430f33d74781498c5",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_STRUCT_LAG",
+    "fold": "2026-08",
+    "cohort": "primary",
+    "cutoff": "2026-07-31",
+    "status": "ok",
+    "training_n": 323,
+    "inner_n": 276,
+    "n": 21,
+    "train_cutoff": "2026-07-31",
+    "inner_cutoff": "2026-05-25",
+    "last_endpoint": "2026-07-30",
+    "inner_last_endpoint": "2026-05-22",
+    "artifact": "models\\stress-5-2026-08-W_STRUCT_LAG.joblib",
+    "sha256": "c4e2d0626b019d1a178fc5478ebc0140cdd1c28f79aa7413db77d4db33dbec4b",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_STRUCT_DEDUP",
+    "fold": "2026-08",
+    "cohort": "primary",
+    "cutoff": "2026-07-31",
+    "status": "ok",
+    "training_n": 323,
+    "inner_n": 276,
+    "n": 21,
+    "train_cutoff": "2026-07-31",
+    "inner_cutoff": "2026-05-25",
+    "last_endpoint": "2026-07-30",
+    "inner_last_endpoint": "2026-05-22",
+    "artifact": "models\\stress-5-2026-08-W_STRUCT_DEDUP.joblib",
+    "sha256": "8a3a3a68256fd3782abc847fd48766bf70f4f45169b8a339e65d6bce9f0948bc",
+    "warnings": [],
+    "metadata": {
+      "aliases": [
+        [
+          "m_broad",
+          "i_idx_Nifty_500_rel5"
+        ]
+      ],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_STRUCT_CLONE",
+    "fold": "2026-08",
+    "cohort": "primary",
+    "cutoff": "2026-07-31",
+    "status": "ok",
+    "training_n": 323,
+    "inner_n": 276,
+    "n": 21,
+    "train_cutoff": "2026-07-31",
+    "inner_cutoff": "2026-05-25",
+    "last_endpoint": "2026-07-30",
+    "inner_last_endpoint": "2026-05-22",
+    "artifact": "models\\stress-5-2026-08-W_STRUCT_CLONE.joblib",
+    "sha256": "ba723e338d09e9bf4d02b78ed59ed39117302a20bdcd4a7e121a8d46f9ab5c23",
+    "warnings": [],
+    "metadata": {
+      "aliases": [
+        [
+          "m_broad",
+          "i_idx_Nifty_500_rel5"
+        ],
+        [
+          "zz_stress_i_nifty_auto_rel21",
+          "i_nifty_auto_rel21"
+        ],
+        [
+          "zz_stress_i_nifty_auto_rel5",
+          "i_nifty_auto_rel5"
+        ],
+        [
+          "zz_stress_i_nifty_financial_rel21",
+          "i_nifty_financial_rel21"
+        ],
+        [
+          "zz_stress_i_nifty_financial_rel5",
+          "i_nifty_financial_rel5"
+        ],
+        [
+          "zz_stress_i_nifty_it_rel21",
+          "i_nifty_it_rel21"
+        ],
+        [
+          "zz_stress_i_nifty_it_rel5",
+          "i_nifty_it_rel5"
+        ],
+        [
+          "zz_stress_m_broad",
+          "i_idx_Nifty_500_rel5"
+        ],
+        [
+          "zz_stress_m_broad_d5",
+          "m_broad_d5"
+        ],
+        [
+          "zz_stress_m_concentration",
+          "m_concentration"
+        ],
+        [
+          "zz_stress_m_concentration_d5",
+          "m_concentration_d5"
+        ],
+        [
+          "zz_stress_m_cyclical",
+          "m_cyclical"
+        ],
+        [
+          "zz_stress_m_cyclical_d5",
+          "m_cyclical_d5"
+        ],
+        [
+          "zz_stress_m_financial",
+          "m_financial"
+        ],
+        [
+          "zz_stress_m_financial_d5",
+          "m_financial_d5"
+        ],
+        [
+          "zz_stress_m_rotation_speed",
+          "m_rotation_speed"
+        ],
+        [
+          "zz_stress_m_rotation_speed_d5",
+          "m_rotation_speed_d5"
+        ],
+        [
+          "zz_stress_m_sync",
+          "m_sync"
+        ],
+        [
+          "zz_stress_m_sync_d5",
+          "m_sync_d5"
+        ],
+        [
+          "zz_stress_m_vol_divergence",
+          "m_vol_divergence"
+        ],
+        [
+          "zz_stress_m_vol_divergence_d5",
+          "m_vol_divergence_d5"
+        ],
+        [
+          "zz_stress_r_bank_change",
+          "r_bank_change"
+        ],
+        [
+          "zz_stress_r_def_change",
+          "r_def_change"
+        ]
+      ],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_STRUCT_REVISION",
+    "fold": "2026-08",
+    "cohort": "primary",
+    "cutoff": "2026-07-31",
+    "status": "ok",
+    "training_n": 323,
+    "inner_n": 276,
+    "n": 21,
+    "train_cutoff": "2026-07-31",
+    "inner_cutoff": "2026-05-25",
+    "last_endpoint": "2026-07-30",
+    "inner_last_endpoint": "2026-05-22",
+    "artifact": "models\\stress-5-2026-08-W_STRUCT_REVISION.joblib",
+    "sha256": "36539fa0bb86214dcb96ee56a9734356f5e74e0144e0ee551f1ac1d122a97fc5",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_LEVEL_WINDOW",
+    "fold": "2026-08",
+    "cohort": "primary",
+    "cutoff": "2026-07-31",
+    "status": "ok",
+    "training_n": 189,
+    "inner_n": 189,
+    "n": 21,
+    "train_cutoff": "2026-07-31",
+    "inner_cutoff": "2026-05-25",
+    "last_endpoint": "2026-07-30",
+    "inner_last_endpoint": "2026-05-22",
+    "artifact": "models\\stress-5-2026-08-W_LEVEL_WINDOW.joblib",
+    "sha256": "f08f8ffd02507199b8dda73958ece9019348244f740d193b6e9f8039f2314d7f",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_LEVEL_EMBARGO",
+    "fold": "2026-08",
+    "cohort": "primary",
+    "cutoff": "2026-07-31",
+    "status": "ok",
+    "training_n": 320,
+    "inner_n": 270,
+    "n": 21,
+    "train_cutoff": "2026-07-28",
+    "inner_cutoff": "2026-05-15",
+    "last_endpoint": "2026-07-27",
+    "inner_last_endpoint": "2026-05-14",
+    "artifact": "models\\stress-5-2026-08-W_LEVEL_EMBARGO.joblib",
+    "sha256": "811741c996f4e956ff8eb1e7b0429306de330e6124a5875c940a9914e305b58f",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_LEVEL_PERTURB",
+    "fold": "2026-08",
+    "cohort": "primary",
+    "cutoff": "2026-07-31",
+    "status": "ok",
+    "training_n": 323,
+    "inner_n": 276,
+    "n": 21,
+    "train_cutoff": "2026-07-31",
+    "inner_cutoff": "2026-05-25",
+    "last_endpoint": "2026-07-30",
+    "inner_last_endpoint": "2026-05-22",
+    "artifact": "models\\stress-5-2026-08-W_LEVEL_PERTURB.joblib",
+    "sha256": "2938882d87b4372145389738b32b2b65b36cd3cba35e13fadc647af74e361333",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_LEVEL_ALPHA",
+    "fold": "2026-08",
+    "cohort": "primary",
+    "cutoff": "2026-07-31",
+    "status": "ok",
+    "training_n": 323,
+    "inner_n": 276,
+    "n": 21,
+    "train_cutoff": "2026-07-31",
+    "inner_cutoff": "2026-05-25",
+    "last_endpoint": "2026-07-30",
+    "inner_last_endpoint": "2026-05-22",
+    "artifact": "models\\stress-5-2026-08-W_LEVEL_ALPHA.joblib",
+    "sha256": "bb16b2bf1a677b7a59567e54e996442ceca3c165190ad51983355a15165c1eb2",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_LEVEL_TARGET_NULL",
+    "fold": "2026-08",
+    "cohort": "primary",
+    "cutoff": "2026-07-31",
+    "status": "ok",
+    "training_n": 323,
+    "inner_n": 276,
+    "n": 21,
+    "train_cutoff": "2026-07-31",
+    "inner_cutoff": "2026-05-25",
+    "last_endpoint": "2026-07-30",
+    "inner_last_endpoint": "2026-05-22",
+    "artifact": "models\\stress-5-2026-08-W_LEVEL_TARGET_NULL.joblib",
+    "sha256": "ac3ab30b87d837ffbdbc8c70133ca8d4d5125a9cdc06f31a06221b5598b467f6",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_LEVEL_LAG",
+    "fold": "2026-08",
+    "cohort": "primary",
+    "cutoff": "2026-07-31",
+    "status": "ok",
+    "training_n": 323,
+    "inner_n": 276,
+    "n": 21,
+    "train_cutoff": "2026-07-31",
+    "inner_cutoff": "2026-05-25",
+    "last_endpoint": "2026-07-30",
+    "inner_last_endpoint": "2026-05-22",
+    "artifact": "models\\stress-5-2026-08-W_LEVEL_LAG.joblib",
+    "sha256": "d7899817ba5ef6b0ef41500d48a0c1d69ca5a4857c9504ba78ecfd38b53c2f46",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_LEVEL_DEDUP",
+    "fold": "2026-08",
+    "cohort": "primary",
+    "cutoff": "2026-07-31",
+    "status": "ok",
+    "training_n": 323,
+    "inner_n": 276,
+    "n": 21,
+    "train_cutoff": "2026-07-31",
+    "inner_cutoff": "2026-05-25",
+    "last_endpoint": "2026-07-30",
+    "inner_last_endpoint": "2026-05-22",
+    "artifact": "models\\stress-5-2026-08-W_LEVEL_DEDUP.joblib",
+    "sha256": "addc05a897376222ce259acc882cfac7560485f64861811a07f0f341e08d3ed3",
+    "warnings": [],
+    "metadata": {
+      "aliases": [
+        [
+          "m_broad",
+          "i_idx_Nifty_500_rel5"
+        ]
+      ],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_LEVEL_CLONE",
+    "fold": "2026-08",
+    "cohort": "primary",
+    "cutoff": "2026-07-31",
+    "status": "ok",
+    "training_n": 323,
+    "inner_n": 276,
+    "n": 21,
+    "train_cutoff": "2026-07-31",
+    "inner_cutoff": "2026-05-25",
+    "last_endpoint": "2026-07-30",
+    "inner_last_endpoint": "2026-05-22",
+    "artifact": "models\\stress-5-2026-08-W_LEVEL_CLONE.joblib",
+    "sha256": "0bcb416bc0926b5137cf0e6e9ea40e9f6ab7b0a4475a84ae312a1fd39ba24cb6",
+    "warnings": [],
+    "metadata": {
+      "aliases": [
+        [
+          "m_broad",
+          "i_idx_Nifty_500_rel5"
+        ],
+        [
+          "zz_stress_i_nifty_auto_rel21",
+          "i_nifty_auto_rel21"
+        ],
+        [
+          "zz_stress_i_nifty_auto_rel5",
+          "i_nifty_auto_rel5"
+        ],
+        [
+          "zz_stress_i_nifty_financial_rel21",
+          "i_nifty_financial_rel21"
+        ],
+        [
+          "zz_stress_i_nifty_financial_rel5",
+          "i_nifty_financial_rel5"
+        ],
+        [
+          "zz_stress_i_nifty_it_rel21",
+          "i_nifty_it_rel21"
+        ],
+        [
+          "zz_stress_i_nifty_it_rel5",
+          "i_nifty_it_rel5"
+        ],
+        [
+          "zz_stress_m_broad",
+          "i_idx_Nifty_500_rel5"
+        ],
+        [
+          "zz_stress_m_concentration",
+          "m_concentration"
+        ],
+        [
+          "zz_stress_m_cyclical",
+          "m_cyclical"
+        ],
+        [
+          "zz_stress_m_financial",
+          "m_financial"
+        ],
+        [
+          "zz_stress_m_rotation_speed",
+          "m_rotation_speed"
+        ],
+        [
+          "zz_stress_m_sync",
+          "m_sync"
+        ],
+        [
+          "zz_stress_m_vol_divergence",
+          "m_vol_divergence"
+        ],
+        [
+          "zz_stress_r_bank_change",
+          "r_bank_change"
+        ],
+        [
+          "zz_stress_r_def_change",
+          "r_def_change"
+        ]
+      ],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_LEVEL_REVISION",
+    "fold": "2026-08",
+    "cohort": "primary",
+    "cutoff": "2026-07-31",
+    "status": "ok",
+    "training_n": 323,
+    "inner_n": 276,
+    "n": 21,
+    "train_cutoff": "2026-07-31",
+    "inner_cutoff": "2026-05-25",
+    "last_endpoint": "2026-07-30",
+    "inner_last_endpoint": "2026-05-22",
+    "artifact": "models\\stress-5-2026-08-W_LEVEL_REVISION.joblib",
+    "sha256": "23cf678643647c01e4ec1fe8637a496b2fafe0e7a69d9f67e9a4246cf92b9b5c",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_RES_WINDOW",
+    "fold": "2026-09",
+    "cohort": "primary",
+    "cutoff": "2026-08-31",
+    "status": "ok",
+    "training_n": 189,
+    "inner_n": 189,
+    "n": 21,
+    "train_cutoff": "2026-08-31",
+    "inner_cutoff": "2026-06-24",
+    "last_endpoint": "2026-08-28",
+    "inner_last_endpoint": "2026-06-23",
+    "artifact": "models\\stress-5-2026-09-W_RES_WINDOW.joblib",
+    "sha256": "0f1ecee70d469ab64781c674774efe18cd992062f04f3fb954209bb5c97bc3ec",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_RES_EMBARGO",
+    "fold": "2026-09",
+    "cohort": "primary",
+    "cutoff": "2026-08-31",
+    "status": "ok",
+    "training_n": 341,
+    "inner_n": 291,
+    "n": 21,
+    "train_cutoff": "2026-08-26",
+    "inner_cutoff": "2026-06-16",
+    "last_endpoint": "2026-08-25",
+    "inner_last_endpoint": "2026-06-15",
+    "artifact": "models\\stress-5-2026-09-W_RES_EMBARGO.joblib",
+    "sha256": "6beb83412c78efd2d1e6ce78b033adf81879dae939fd2b6bc1799b82a7de0b69",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_RES_PERTURB",
+    "fold": "2026-09",
+    "cohort": "primary",
+    "cutoff": "2026-08-31",
+    "status": "ok",
+    "training_n": 344,
+    "inner_n": 297,
+    "n": 21,
+    "train_cutoff": "2026-08-31",
+    "inner_cutoff": "2026-06-24",
+    "last_endpoint": "2026-08-28",
+    "inner_last_endpoint": "2026-06-23",
+    "artifact": "models\\stress-5-2026-09-W_RES_PERTURB.joblib",
+    "sha256": "e27f9ec767dfc918075287bd3dda9769eb3b57e926039cdd60557de41022af84",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_RES_ALPHA",
+    "fold": "2026-09",
+    "cohort": "primary",
+    "cutoff": "2026-08-31",
+    "status": "ok",
+    "training_n": 344,
+    "inner_n": 297,
+    "n": 21,
+    "train_cutoff": "2026-08-31",
+    "inner_cutoff": "2026-06-24",
+    "last_endpoint": "2026-08-28",
+    "inner_last_endpoint": "2026-06-23",
+    "artifact": "models\\stress-5-2026-09-W_RES_ALPHA.joblib",
+    "sha256": "23ea7f052d53a9825adad358a180a138a99593ff2dc280741de383a9e1cceaca",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_RES_TARGET_NULL",
+    "fold": "2026-09",
+    "cohort": "primary",
+    "cutoff": "2026-08-31",
+    "status": "ok",
+    "training_n": 344,
+    "inner_n": 297,
+    "n": 21,
+    "train_cutoff": "2026-08-31",
+    "inner_cutoff": "2026-06-24",
+    "last_endpoint": "2026-08-28",
+    "inner_last_endpoint": "2026-06-23",
+    "artifact": "models\\stress-5-2026-09-W_RES_TARGET_NULL.joblib",
+    "sha256": "9939ab7c8db817b4a0de24a9d8f9ad8030bd6f9fde5e7deb70c8da3133f71606",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_RES_LAG",
+    "fold": "2026-09",
+    "cohort": "primary",
+    "cutoff": "2026-08-31",
+    "status": "ok",
+    "training_n": 344,
+    "inner_n": 297,
+    "n": 21,
+    "train_cutoff": "2026-08-31",
+    "inner_cutoff": "2026-06-24",
+    "last_endpoint": "2026-08-28",
+    "inner_last_endpoint": "2026-06-23",
+    "artifact": "models\\stress-5-2026-09-W_RES_LAG.joblib",
+    "sha256": "a44e261c07bd8f843edc0650e549309b800264a0d25303cf73f62256d4f11575",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_RES_DEDUP",
+    "fold": "2026-09",
+    "cohort": "primary",
+    "cutoff": "2026-08-31",
+    "status": "ok",
+    "training_n": 344,
+    "inner_n": 297,
+    "n": 21,
+    "train_cutoff": "2026-08-31",
+    "inner_cutoff": "2026-06-24",
+    "last_endpoint": "2026-08-28",
+    "inner_last_endpoint": "2026-06-23",
+    "artifact": "models\\stress-5-2026-09-W_RES_DEDUP.joblib",
+    "sha256": "29e2de178aee3f28ab3ca76f655f2096660dc1eed8f954df702a1e5c3e0ae84a",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_RES_CLONE",
+    "fold": "2026-09",
+    "cohort": "primary",
+    "cutoff": "2026-08-31",
+    "status": "ok",
+    "training_n": 344,
+    "inner_n": 297,
+    "n": 21,
+    "train_cutoff": "2026-08-31",
+    "inner_cutoff": "2026-06-24",
+    "last_endpoint": "2026-08-28",
+    "inner_last_endpoint": "2026-06-23",
+    "artifact": "models\\stress-5-2026-09-W_RES_CLONE.joblib",
+    "sha256": "f5f0da417a251804b22431d2bbbd5482314ef7cade4b1c1e73f3cab7b764d3f4",
+    "warnings": [],
+    "metadata": {
+      "aliases": [
+        [
+          "zz_stress_i_nifty_auto_rel21",
+          "i_nifty_auto_rel21"
+        ],
+        [
+          "zz_stress_i_nifty_auto_rel5",
+          "i_nifty_auto_rel5"
+        ],
+        [
+          "zz_stress_i_nifty_financial_rel21",
+          "i_nifty_financial_rel21"
+        ],
+        [
+          "zz_stress_i_nifty_financial_rel5",
+          "i_nifty_financial_rel5"
+        ],
+        [
+          "zz_stress_i_nifty_it_rel21",
+          "i_nifty_it_rel21"
+        ],
+        [
+          "zz_stress_i_nifty_it_rel5",
+          "i_nifty_it_rel5"
+        ],
+        [
+          "zz_stress_r_bank_residual",
+          "r_bank_residual"
+        ],
+        [
+          "zz_stress_r_def_residual",
+          "r_def_residual"
+        ]
+      ],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_RES_REVISION",
+    "fold": "2026-09",
+    "cohort": "primary",
+    "cutoff": "2026-08-31",
+    "status": "ok",
+    "training_n": 344,
+    "inner_n": 297,
+    "n": 21,
+    "train_cutoff": "2026-08-31",
+    "inner_cutoff": "2026-06-24",
+    "last_endpoint": "2026-08-28",
+    "inner_last_endpoint": "2026-06-23",
+    "artifact": "models\\stress-5-2026-09-W_RES_REVISION.joblib",
+    "sha256": "986aa79ce8cdf91566462efbc73528da7f1e40b7a0545a0499b6cd1810135c0f",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_STRUCT_WINDOW",
+    "fold": "2026-09",
+    "cohort": "primary",
+    "cutoff": "2026-08-31",
+    "status": "ok",
+    "training_n": 189,
+    "inner_n": 189,
+    "n": 21,
+    "train_cutoff": "2026-08-31",
+    "inner_cutoff": "2026-06-24",
+    "last_endpoint": "2026-08-28",
+    "inner_last_endpoint": "2026-06-23",
+    "artifact": "models\\stress-5-2026-09-W_STRUCT_WINDOW.joblib",
+    "sha256": "44c9728d3b6c99a1024d223919542b04a4321f1dbb62600cd91ea2ecb117c596",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_STRUCT_EMBARGO",
+    "fold": "2026-09",
+    "cohort": "primary",
+    "cutoff": "2026-08-31",
+    "status": "ok",
+    "training_n": 341,
+    "inner_n": 291,
+    "n": 21,
+    "train_cutoff": "2026-08-26",
+    "inner_cutoff": "2026-06-16",
+    "last_endpoint": "2026-08-25",
+    "inner_last_endpoint": "2026-06-15",
+    "artifact": "models\\stress-5-2026-09-W_STRUCT_EMBARGO.joblib",
+    "sha256": "89dc18f4497e31bd44836a5f9f34ad145ff983eb12864c48961fa2d917efce9f",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_STRUCT_PERTURB",
+    "fold": "2026-09",
+    "cohort": "primary",
+    "cutoff": "2026-08-31",
+    "status": "ok",
+    "training_n": 344,
+    "inner_n": 297,
+    "n": 21,
+    "train_cutoff": "2026-08-31",
+    "inner_cutoff": "2026-06-24",
+    "last_endpoint": "2026-08-28",
+    "inner_last_endpoint": "2026-06-23",
+    "artifact": "models\\stress-5-2026-09-W_STRUCT_PERTURB.joblib",
+    "sha256": "6a46d5efee0c168a4f5cdbb3975c7a81b3756d657ee50c4bc8988cefa6c531f9",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_STRUCT_ALPHA",
+    "fold": "2026-09",
+    "cohort": "primary",
+    "cutoff": "2026-08-31",
+    "status": "ok",
+    "training_n": 344,
+    "inner_n": 297,
+    "n": 21,
+    "train_cutoff": "2026-08-31",
+    "inner_cutoff": "2026-06-24",
+    "last_endpoint": "2026-08-28",
+    "inner_last_endpoint": "2026-06-23",
+    "artifact": "models\\stress-5-2026-09-W_STRUCT_ALPHA.joblib",
+    "sha256": "7c17aca88ced6337357f29eada72d7387def3dea25eb2a551f899b1a87611244",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_STRUCT_TARGET_NULL",
+    "fold": "2026-09",
+    "cohort": "primary",
+    "cutoff": "2026-08-31",
+    "status": "ok",
+    "training_n": 344,
+    "inner_n": 297,
+    "n": 21,
+    "train_cutoff": "2026-08-31",
+    "inner_cutoff": "2026-06-24",
+    "last_endpoint": "2026-08-28",
+    "inner_last_endpoint": "2026-06-23",
+    "artifact": "models\\stress-5-2026-09-W_STRUCT_TARGET_NULL.joblib",
+    "sha256": "5a28eeef9b12c045eab918335d37e8c3439ad87bb62ec11162855d208ffad346",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_STRUCT_LAG",
+    "fold": "2026-09",
+    "cohort": "primary",
+    "cutoff": "2026-08-31",
+    "status": "ok",
+    "training_n": 344,
+    "inner_n": 297,
+    "n": 21,
+    "train_cutoff": "2026-08-31",
+    "inner_cutoff": "2026-06-24",
+    "last_endpoint": "2026-08-28",
+    "inner_last_endpoint": "2026-06-23",
+    "artifact": "models\\stress-5-2026-09-W_STRUCT_LAG.joblib",
+    "sha256": "21d6e217b4ce6378707e27f95e5d51e672fca20f46a6e8e665cd54fee9355b65",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_STRUCT_DEDUP",
+    "fold": "2026-09",
+    "cohort": "primary",
+    "cutoff": "2026-08-31",
+    "status": "ok",
+    "training_n": 344,
+    "inner_n": 297,
+    "n": 21,
+    "train_cutoff": "2026-08-31",
+    "inner_cutoff": "2026-06-24",
+    "last_endpoint": "2026-08-28",
+    "inner_last_endpoint": "2026-06-23",
+    "artifact": "models\\stress-5-2026-09-W_STRUCT_DEDUP.joblib",
+    "sha256": "06d11cbab4189087752a84f02459cde49c8548a55eff69cc1e396b226dfd9cd1",
+    "warnings": [],
+    "metadata": {
+      "aliases": [
+        [
+          "m_broad",
+          "i_idx_Nifty_500_rel5"
+        ]
+      ],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_STRUCT_CLONE",
+    "fold": "2026-09",
+    "cohort": "primary",
+    "cutoff": "2026-08-31",
+    "status": "ok",
+    "training_n": 344,
+    "inner_n": 297,
+    "n": 21,
+    "train_cutoff": "2026-08-31",
+    "inner_cutoff": "2026-06-24",
+    "last_endpoint": "2026-08-28",
+    "inner_last_endpoint": "2026-06-23",
+    "artifact": "models\\stress-5-2026-09-W_STRUCT_CLONE.joblib",
+    "sha256": "de1c1ed7a3ac2649a25c8646ae494355ea8c60d57f1e2524680230c6332717d2",
+    "warnings": [],
+    "metadata": {
+      "aliases": [
+        [
+          "m_broad",
+          "i_idx_Nifty_500_rel5"
+        ],
+        [
+          "zz_stress_i_nifty_auto_rel21",
+          "i_nifty_auto_rel21"
+        ],
+        [
+          "zz_stress_i_nifty_auto_rel5",
+          "i_nifty_auto_rel5"
+        ],
+        [
+          "zz_stress_i_nifty_financial_rel21",
+          "i_nifty_financial_rel21"
+        ],
+        [
+          "zz_stress_i_nifty_financial_rel5",
+          "i_nifty_financial_rel5"
+        ],
+        [
+          "zz_stress_i_nifty_it_rel21",
+          "i_nifty_it_rel21"
+        ],
+        [
+          "zz_stress_i_nifty_it_rel5",
+          "i_nifty_it_rel5"
+        ],
+        [
+          "zz_stress_m_broad",
+          "i_idx_Nifty_500_rel5"
+        ],
+        [
+          "zz_stress_m_broad_d5",
+          "m_broad_d5"
+        ],
+        [
+          "zz_stress_m_concentration",
+          "m_concentration"
+        ],
+        [
+          "zz_stress_m_concentration_d5",
+          "m_concentration_d5"
+        ],
+        [
+          "zz_stress_m_cyclical",
+          "m_cyclical"
+        ],
+        [
+          "zz_stress_m_cyclical_d5",
+          "m_cyclical_d5"
+        ],
+        [
+          "zz_stress_m_financial",
+          "m_financial"
+        ],
+        [
+          "zz_stress_m_financial_d5",
+          "m_financial_d5"
+        ],
+        [
+          "zz_stress_m_rotation_speed",
+          "m_rotation_speed"
+        ],
+        [
+          "zz_stress_m_rotation_speed_d5",
+          "m_rotation_speed_d5"
+        ],
+        [
+          "zz_stress_m_sync",
+          "m_sync"
+        ],
+        [
+          "zz_stress_m_sync_d5",
+          "m_sync_d5"
+        ],
+        [
+          "zz_stress_m_vol_divergence",
+          "m_vol_divergence"
+        ],
+        [
+          "zz_stress_m_vol_divergence_d5",
+          "m_vol_divergence_d5"
+        ],
+        [
+          "zz_stress_r_bank_change",
+          "r_bank_change"
+        ],
+        [
+          "zz_stress_r_def_change",
+          "r_def_change"
+        ]
+      ],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_STRUCT_REVISION",
+    "fold": "2026-09",
+    "cohort": "primary",
+    "cutoff": "2026-08-31",
+    "status": "ok",
+    "training_n": 344,
+    "inner_n": 297,
+    "n": 21,
+    "train_cutoff": "2026-08-31",
+    "inner_cutoff": "2026-06-24",
+    "last_endpoint": "2026-08-28",
+    "inner_last_endpoint": "2026-06-23",
+    "artifact": "models\\stress-5-2026-09-W_STRUCT_REVISION.joblib",
+    "sha256": "65d2a90f9a99baf0ee255a42d44ed40e39f6466dcec4618e7fdd1d209731ee22",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_LEVEL_WINDOW",
+    "fold": "2026-09",
+    "cohort": "primary",
+    "cutoff": "2026-08-31",
+    "status": "ok",
+    "training_n": 189,
+    "inner_n": 189,
+    "n": 21,
+    "train_cutoff": "2026-08-31",
+    "inner_cutoff": "2026-06-24",
+    "last_endpoint": "2026-08-28",
+    "inner_last_endpoint": "2026-06-23",
+    "artifact": "models\\stress-5-2026-09-W_LEVEL_WINDOW.joblib",
+    "sha256": "7908beedc640c47944c45beb640a3c236dd10e8e46f81f02136e8885d37075ff",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_LEVEL_EMBARGO",
+    "fold": "2026-09",
+    "cohort": "primary",
+    "cutoff": "2026-08-31",
+    "status": "ok",
+    "training_n": 341,
+    "inner_n": 291,
+    "n": 21,
+    "train_cutoff": "2026-08-26",
+    "inner_cutoff": "2026-06-16",
+    "last_endpoint": "2026-08-25",
+    "inner_last_endpoint": "2026-06-15",
+    "artifact": "models\\stress-5-2026-09-W_LEVEL_EMBARGO.joblib",
+    "sha256": "f97a2d744ee5a3712e1a4ad14aff92943ea6f5b1394b82f0a980a95214955532",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_LEVEL_PERTURB",
+    "fold": "2026-09",
+    "cohort": "primary",
+    "cutoff": "2026-08-31",
+    "status": "ok",
+    "training_n": 344,
+    "inner_n": 297,
+    "n": 21,
+    "train_cutoff": "2026-08-31",
+    "inner_cutoff": "2026-06-24",
+    "last_endpoint": "2026-08-28",
+    "inner_last_endpoint": "2026-06-23",
+    "artifact": "models\\stress-5-2026-09-W_LEVEL_PERTURB.joblib",
+    "sha256": "4a485d4d8e471b712cd7dc012da04ff4c665f7c9fa5bbae2a6f0027369f684d1",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_LEVEL_ALPHA",
+    "fold": "2026-09",
+    "cohort": "primary",
+    "cutoff": "2026-08-31",
+    "status": "ok",
+    "training_n": 344,
+    "inner_n": 297,
+    "n": 21,
+    "train_cutoff": "2026-08-31",
+    "inner_cutoff": "2026-06-24",
+    "last_endpoint": "2026-08-28",
+    "inner_last_endpoint": "2026-06-23",
+    "artifact": "models\\stress-5-2026-09-W_LEVEL_ALPHA.joblib",
+    "sha256": "cdf4f797072cbe342c6bed964be12cd2751c443134e8e55dc339339c6a45ff6c",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_LEVEL_TARGET_NULL",
+    "fold": "2026-09",
+    "cohort": "primary",
+    "cutoff": "2026-08-31",
+    "status": "ok",
+    "training_n": 344,
+    "inner_n": 297,
+    "n": 21,
+    "train_cutoff": "2026-08-31",
+    "inner_cutoff": "2026-06-24",
+    "last_endpoint": "2026-08-28",
+    "inner_last_endpoint": "2026-06-23",
+    "artifact": "models\\stress-5-2026-09-W_LEVEL_TARGET_NULL.joblib",
+    "sha256": "31c44b2df65d260557596710cdcba242949297efd6d473ccca65c7d4324fd0c8",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_LEVEL_LAG",
+    "fold": "2026-09",
+    "cohort": "primary",
+    "cutoff": "2026-08-31",
+    "status": "ok",
+    "training_n": 344,
+    "inner_n": 297,
+    "n": 21,
+    "train_cutoff": "2026-08-31",
+    "inner_cutoff": "2026-06-24",
+    "last_endpoint": "2026-08-28",
+    "inner_last_endpoint": "2026-06-23",
+    "artifact": "models\\stress-5-2026-09-W_LEVEL_LAG.joblib",
+    "sha256": "4a5979b6c626732a0f6ed7f11bb575470e47108e5a243f12eeaac831d1486c6e",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_LEVEL_DEDUP",
+    "fold": "2026-09",
+    "cohort": "primary",
+    "cutoff": "2026-08-31",
+    "status": "ok",
+    "training_n": 344,
+    "inner_n": 297,
+    "n": 21,
+    "train_cutoff": "2026-08-31",
+    "inner_cutoff": "2026-06-24",
+    "last_endpoint": "2026-08-28",
+    "inner_last_endpoint": "2026-06-23",
+    "artifact": "models\\stress-5-2026-09-W_LEVEL_DEDUP.joblib",
+    "sha256": "de8e2b7b44995fefaa747b03a4cb0354d9e69ef8e37e2161c489c8a207bca47f",
+    "warnings": [],
+    "metadata": {
+      "aliases": [
+        [
+          "m_broad",
+          "i_idx_Nifty_500_rel5"
+        ]
+      ],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_LEVEL_CLONE",
+    "fold": "2026-09",
+    "cohort": "primary",
+    "cutoff": "2026-08-31",
+    "status": "ok",
+    "training_n": 344,
+    "inner_n": 297,
+    "n": 21,
+    "train_cutoff": "2026-08-31",
+    "inner_cutoff": "2026-06-24",
+    "last_endpoint": "2026-08-28",
+    "inner_last_endpoint": "2026-06-23",
+    "artifact": "models\\stress-5-2026-09-W_LEVEL_CLONE.joblib",
+    "sha256": "8dbf7622091131b231a8d9a98cff2f200c46e315decca7b2df9b3db6fb087cd3",
+    "warnings": [],
+    "metadata": {
+      "aliases": [
+        [
+          "m_broad",
+          "i_idx_Nifty_500_rel5"
+        ],
+        [
+          "zz_stress_i_nifty_auto_rel21",
+          "i_nifty_auto_rel21"
+        ],
+        [
+          "zz_stress_i_nifty_auto_rel5",
+          "i_nifty_auto_rel5"
+        ],
+        [
+          "zz_stress_i_nifty_financial_rel21",
+          "i_nifty_financial_rel21"
+        ],
+        [
+          "zz_stress_i_nifty_financial_rel5",
+          "i_nifty_financial_rel5"
+        ],
+        [
+          "zz_stress_i_nifty_it_rel21",
+          "i_nifty_it_rel21"
+        ],
+        [
+          "zz_stress_i_nifty_it_rel5",
+          "i_nifty_it_rel5"
+        ],
+        [
+          "zz_stress_m_broad",
+          "i_idx_Nifty_500_rel5"
+        ],
+        [
+          "zz_stress_m_concentration",
+          "m_concentration"
+        ],
+        [
+          "zz_stress_m_cyclical",
+          "m_cyclical"
+        ],
+        [
+          "zz_stress_m_financial",
+          "m_financial"
+        ],
+        [
+          "zz_stress_m_rotation_speed",
+          "m_rotation_speed"
+        ],
+        [
+          "zz_stress_m_sync",
+          "m_sync"
+        ],
+        [
+          "zz_stress_m_vol_divergence",
+          "m_vol_divergence"
+        ],
+        [
+          "zz_stress_r_bank_change",
+          "r_bank_change"
+        ],
+        [
+          "zz_stress_r_def_change",
+          "r_def_change"
+        ]
+      ],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_LEVEL_REVISION",
+    "fold": "2026-09",
+    "cohort": "primary",
+    "cutoff": "2026-08-31",
+    "status": "ok",
+    "training_n": 344,
+    "inner_n": 297,
+    "n": 21,
+    "train_cutoff": "2026-08-31",
+    "inner_cutoff": "2026-06-24",
+    "last_endpoint": "2026-08-28",
+    "inner_last_endpoint": "2026-06-23",
+    "artifact": "models\\stress-5-2026-09-W_LEVEL_REVISION.joblib",
+    "sha256": "444dfeef100e8ad907f8cdfc86a11ed68be2032ed242dd470539bc945dce739c",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_RES_WINDOW",
+    "fold": "2026-10",
+    "cohort": "primary",
+    "cutoff": "2026-09-30",
+    "status": "ok",
+    "training_n": 189,
+    "inner_n": 189,
+    "n": 20,
+    "train_cutoff": "2026-09-30",
+    "inner_cutoff": "2026-07-24",
+    "last_endpoint": "2026-09-29",
+    "inner_last_endpoint": "2026-07-23",
+    "artifact": "models\\stress-5-2026-10-W_RES_WINDOW.joblib",
+    "sha256": "9c556cc8ed88c8f43f0bd995568662bad45d000090a75149912dfa86127d5064",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_RES_EMBARGO",
+    "fold": "2026-10",
+    "cohort": "primary",
+    "cutoff": "2026-09-30",
+    "status": "ok",
+    "training_n": 362,
+    "inner_n": 312,
+    "n": 20,
+    "train_cutoff": "2026-09-25",
+    "inner_cutoff": "2026-07-16",
+    "last_endpoint": "2026-09-24",
+    "inner_last_endpoint": "2026-07-15",
+    "artifact": "models\\stress-5-2026-10-W_RES_EMBARGO.joblib",
+    "sha256": "251b3b2c8b515b579f53aef26b8c515cf567840e8aec5ffd0c49a60e94194a9c",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_RES_PERTURB",
+    "fold": "2026-10",
+    "cohort": "primary",
+    "cutoff": "2026-09-30",
+    "status": "ok",
+    "training_n": 365,
+    "inner_n": 318,
+    "n": 20,
+    "train_cutoff": "2026-09-30",
+    "inner_cutoff": "2026-07-24",
+    "last_endpoint": "2026-09-29",
+    "inner_last_endpoint": "2026-07-23",
+    "artifact": "models\\stress-5-2026-10-W_RES_PERTURB.joblib",
+    "sha256": "431522d39328ae8e0bce560c24c8f3d9d22a373a0076260d011e8f387eb5cbb6",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_RES_ALPHA",
+    "fold": "2026-10",
+    "cohort": "primary",
+    "cutoff": "2026-09-30",
+    "status": "ok",
+    "training_n": 365,
+    "inner_n": 318,
+    "n": 20,
+    "train_cutoff": "2026-09-30",
+    "inner_cutoff": "2026-07-24",
+    "last_endpoint": "2026-09-29",
+    "inner_last_endpoint": "2026-07-23",
+    "artifact": "models\\stress-5-2026-10-W_RES_ALPHA.joblib",
+    "sha256": "c61920c11973c4e9f3229ae29f4487923599a92d3c8c1d6de91287f054fbcbf6",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_RES_TARGET_NULL",
+    "fold": "2026-10",
+    "cohort": "primary",
+    "cutoff": "2026-09-30",
+    "status": "ok",
+    "training_n": 365,
+    "inner_n": 318,
+    "n": 20,
+    "train_cutoff": "2026-09-30",
+    "inner_cutoff": "2026-07-24",
+    "last_endpoint": "2026-09-29",
+    "inner_last_endpoint": "2026-07-23",
+    "artifact": "models\\stress-5-2026-10-W_RES_TARGET_NULL.joblib",
+    "sha256": "43005fff425e059435efc6dbbe3b4a785a60dfd2ff5a7fe1c56ec788fdb86994",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_RES_LAG",
+    "fold": "2026-10",
+    "cohort": "primary",
+    "cutoff": "2026-09-30",
+    "status": "ok",
+    "training_n": 365,
+    "inner_n": 318,
+    "n": 20,
+    "train_cutoff": "2026-09-30",
+    "inner_cutoff": "2026-07-24",
+    "last_endpoint": "2026-09-29",
+    "inner_last_endpoint": "2026-07-23",
+    "artifact": "models\\stress-5-2026-10-W_RES_LAG.joblib",
+    "sha256": "17b7c60ec4a1101c6d8be8212c59592a24a0f3e43a92c0ae5e2e787a9bd8ca41",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_RES_DEDUP",
+    "fold": "2026-10",
+    "cohort": "primary",
+    "cutoff": "2026-09-30",
+    "status": "ok",
+    "training_n": 365,
+    "inner_n": 318,
+    "n": 20,
+    "train_cutoff": "2026-09-30",
+    "inner_cutoff": "2026-07-24",
+    "last_endpoint": "2026-09-29",
+    "inner_last_endpoint": "2026-07-23",
+    "artifact": "models\\stress-5-2026-10-W_RES_DEDUP.joblib",
+    "sha256": "04fb697900734bf48413da52dc503302e00e77ae38415e5bb496b5276fc82e1a",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_RES_CLONE",
+    "fold": "2026-10",
+    "cohort": "primary",
+    "cutoff": "2026-09-30",
+    "status": "ok",
+    "training_n": 365,
+    "inner_n": 318,
+    "n": 20,
+    "train_cutoff": "2026-09-30",
+    "inner_cutoff": "2026-07-24",
+    "last_endpoint": "2026-09-29",
+    "inner_last_endpoint": "2026-07-23",
+    "artifact": "models\\stress-5-2026-10-W_RES_CLONE.joblib",
+    "sha256": "a6c24b0d4feff3d7cba58e037033d082fc20100a6707e46054a62f411b5b13c3",
+    "warnings": [],
+    "metadata": {
+      "aliases": [
+        [
+          "zz_stress_i_nifty_auto_rel21",
+          "i_nifty_auto_rel21"
+        ],
+        [
+          "zz_stress_i_nifty_auto_rel5",
+          "i_nifty_auto_rel5"
+        ],
+        [
+          "zz_stress_i_nifty_financial_rel21",
+          "i_nifty_financial_rel21"
+        ],
+        [
+          "zz_stress_i_nifty_financial_rel5",
+          "i_nifty_financial_rel5"
+        ],
+        [
+          "zz_stress_i_nifty_it_rel21",
+          "i_nifty_it_rel21"
+        ],
+        [
+          "zz_stress_i_nifty_it_rel5",
+          "i_nifty_it_rel5"
+        ],
+        [
+          "zz_stress_r_bank_residual",
+          "r_bank_residual"
+        ],
+        [
+          "zz_stress_r_def_residual",
+          "r_def_residual"
+        ]
+      ],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_RES_REVISION",
+    "fold": "2026-10",
+    "cohort": "primary",
+    "cutoff": "2026-09-30",
+    "status": "ok",
+    "training_n": 365,
+    "inner_n": 318,
+    "n": 20,
+    "train_cutoff": "2026-09-30",
+    "inner_cutoff": "2026-07-24",
+    "last_endpoint": "2026-09-29",
+    "inner_last_endpoint": "2026-07-23",
+    "artifact": "models\\stress-5-2026-10-W_RES_REVISION.joblib",
+    "sha256": "ad2e9443e600e1bdcaa0eba5ca0c201294adf4b8b20e156974e08be0da03b355",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_STRUCT_WINDOW",
+    "fold": "2026-10",
+    "cohort": "primary",
+    "cutoff": "2026-09-30",
+    "status": "ok",
+    "training_n": 189,
+    "inner_n": 189,
+    "n": 20,
+    "train_cutoff": "2026-09-30",
+    "inner_cutoff": "2026-07-24",
+    "last_endpoint": "2026-09-29",
+    "inner_last_endpoint": "2026-07-23",
+    "artifact": "models\\stress-5-2026-10-W_STRUCT_WINDOW.joblib",
+    "sha256": "f7a2748a8bc68fc5b99f6032ed2d0a3c0df3976800e340d46edde5710d4ac625",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_STRUCT_EMBARGO",
+    "fold": "2026-10",
+    "cohort": "primary",
+    "cutoff": "2026-09-30",
+    "status": "ok",
+    "training_n": 362,
+    "inner_n": 312,
+    "n": 20,
+    "train_cutoff": "2026-09-25",
+    "inner_cutoff": "2026-07-16",
+    "last_endpoint": "2026-09-24",
+    "inner_last_endpoint": "2026-07-15",
+    "artifact": "models\\stress-5-2026-10-W_STRUCT_EMBARGO.joblib",
+    "sha256": "c917265b967f45754568813ef3498bed450697b84bab15ef91763e8511185e18",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_STRUCT_PERTURB",
+    "fold": "2026-10",
+    "cohort": "primary",
+    "cutoff": "2026-09-30",
+    "status": "ok",
+    "training_n": 365,
+    "inner_n": 318,
+    "n": 20,
+    "train_cutoff": "2026-09-30",
+    "inner_cutoff": "2026-07-24",
+    "last_endpoint": "2026-09-29",
+    "inner_last_endpoint": "2026-07-23",
+    "artifact": "models\\stress-5-2026-10-W_STRUCT_PERTURB.joblib",
+    "sha256": "ccf4ee1a3aa1b6f1f012fbaaf51e67202eaef74e825606109875d0e3922abf8c",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_STRUCT_ALPHA",
+    "fold": "2026-10",
+    "cohort": "primary",
+    "cutoff": "2026-09-30",
+    "status": "ok",
+    "training_n": 365,
+    "inner_n": 318,
+    "n": 20,
+    "train_cutoff": "2026-09-30",
+    "inner_cutoff": "2026-07-24",
+    "last_endpoint": "2026-09-29",
+    "inner_last_endpoint": "2026-07-23",
+    "artifact": "models\\stress-5-2026-10-W_STRUCT_ALPHA.joblib",
+    "sha256": "0a088203af1d556dc9e55de134c03ba7daf2371910cba7227530de51a1b255eb",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_STRUCT_TARGET_NULL",
+    "fold": "2026-10",
+    "cohort": "primary",
+    "cutoff": "2026-09-30",
+    "status": "ok",
+    "training_n": 365,
+    "inner_n": 318,
+    "n": 20,
+    "train_cutoff": "2026-09-30",
+    "inner_cutoff": "2026-07-24",
+    "last_endpoint": "2026-09-29",
+    "inner_last_endpoint": "2026-07-23",
+    "artifact": "models\\stress-5-2026-10-W_STRUCT_TARGET_NULL.joblib",
+    "sha256": "b53fd4ba42ecd2ae32daaeff19bc65f35c79a6b61b6f99e0706bd62dd021fe15",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_STRUCT_LAG",
+    "fold": "2026-10",
+    "cohort": "primary",
+    "cutoff": "2026-09-30",
+    "status": "ok",
+    "training_n": 365,
+    "inner_n": 318,
+    "n": 20,
+    "train_cutoff": "2026-09-30",
+    "inner_cutoff": "2026-07-24",
+    "last_endpoint": "2026-09-29",
+    "inner_last_endpoint": "2026-07-23",
+    "artifact": "models\\stress-5-2026-10-W_STRUCT_LAG.joblib",
+    "sha256": "aacd8ee509abeb741de7408f7ac6b8a44e796c40ee1937e017db67c725959576",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_STRUCT_DEDUP",
+    "fold": "2026-10",
+    "cohort": "primary",
+    "cutoff": "2026-09-30",
+    "status": "ok",
+    "training_n": 365,
+    "inner_n": 318,
+    "n": 20,
+    "train_cutoff": "2026-09-30",
+    "inner_cutoff": "2026-07-24",
+    "last_endpoint": "2026-09-29",
+    "inner_last_endpoint": "2026-07-23",
+    "artifact": "models\\stress-5-2026-10-W_STRUCT_DEDUP.joblib",
+    "sha256": "72b4b84c009297dc6d615136faaef0ec9f423a2549a99df056b6881f5f495468",
+    "warnings": [],
+    "metadata": {
+      "aliases": [
+        [
+          "m_broad",
+          "i_idx_Nifty_500_rel5"
+        ]
+      ],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_STRUCT_CLONE",
+    "fold": "2026-10",
+    "cohort": "primary",
+    "cutoff": "2026-09-30",
+    "status": "ok",
+    "training_n": 365,
+    "inner_n": 318,
+    "n": 20,
+    "train_cutoff": "2026-09-30",
+    "inner_cutoff": "2026-07-24",
+    "last_endpoint": "2026-09-29",
+    "inner_last_endpoint": "2026-07-23",
+    "artifact": "models\\stress-5-2026-10-W_STRUCT_CLONE.joblib",
+    "sha256": "01743745d108a64a3ab1bb76285e71661c52abe85f81500ff630d768098a8280",
+    "warnings": [],
+    "metadata": {
+      "aliases": [
+        [
+          "m_broad",
+          "i_idx_Nifty_500_rel5"
+        ],
+        [
+          "zz_stress_i_nifty_auto_rel21",
+          "i_nifty_auto_rel21"
+        ],
+        [
+          "zz_stress_i_nifty_auto_rel5",
+          "i_nifty_auto_rel5"
+        ],
+        [
+          "zz_stress_i_nifty_financial_rel21",
+          "i_nifty_financial_rel21"
+        ],
+        [
+          "zz_stress_i_nifty_financial_rel5",
+          "i_nifty_financial_rel5"
+        ],
+        [
+          "zz_stress_i_nifty_it_rel21",
+          "i_nifty_it_rel21"
+        ],
+        [
+          "zz_stress_i_nifty_it_rel5",
+          "i_nifty_it_rel5"
+        ],
+        [
+          "zz_stress_m_broad",
+          "i_idx_Nifty_500_rel5"
+        ],
+        [
+          "zz_stress_m_broad_d5",
+          "m_broad_d5"
+        ],
+        [
+          "zz_stress_m_concentration",
+          "m_concentration"
+        ],
+        [
+          "zz_stress_m_concentration_d5",
+          "m_concentration_d5"
+        ],
+        [
+          "zz_stress_m_cyclical",
+          "m_cyclical"
+        ],
+        [
+          "zz_stress_m_cyclical_d5",
+          "m_cyclical_d5"
+        ],
+        [
+          "zz_stress_m_financial",
+          "m_financial"
+        ],
+        [
+          "zz_stress_m_financial_d5",
+          "m_financial_d5"
+        ],
+        [
+          "zz_stress_m_rotation_speed",
+          "m_rotation_speed"
+        ],
+        [
+          "zz_stress_m_rotation_speed_d5",
+          "m_rotation_speed_d5"
+        ],
+        [
+          "zz_stress_m_sync",
+          "m_sync"
+        ],
+        [
+          "zz_stress_m_sync_d5",
+          "m_sync_d5"
+        ],
+        [
+          "zz_stress_m_vol_divergence",
+          "m_vol_divergence"
+        ],
+        [
+          "zz_stress_m_vol_divergence_d5",
+          "m_vol_divergence_d5"
+        ],
+        [
+          "zz_stress_r_bank_change",
+          "r_bank_change"
+        ],
+        [
+          "zz_stress_r_def_change",
+          "r_def_change"
+        ]
+      ],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_STRUCT_REVISION",
+    "fold": "2026-10",
+    "cohort": "primary",
+    "cutoff": "2026-09-30",
+    "status": "ok",
+    "training_n": 365,
+    "inner_n": 318,
+    "n": 20,
+    "train_cutoff": "2026-09-30",
+    "inner_cutoff": "2026-07-24",
+    "last_endpoint": "2026-09-29",
+    "inner_last_endpoint": "2026-07-23",
+    "artifact": "models\\stress-5-2026-10-W_STRUCT_REVISION.joblib",
+    "sha256": "ea5f94d436b3fa70a5b63e2e05d62f78a4b84dd25a265b4cd85eeb8b7ad34376",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_LEVEL_WINDOW",
+    "fold": "2026-10",
+    "cohort": "primary",
+    "cutoff": "2026-09-30",
+    "status": "ok",
+    "training_n": 189,
+    "inner_n": 189,
+    "n": 20,
+    "train_cutoff": "2026-09-30",
+    "inner_cutoff": "2026-07-24",
+    "last_endpoint": "2026-09-29",
+    "inner_last_endpoint": "2026-07-23",
+    "artifact": "models\\stress-5-2026-10-W_LEVEL_WINDOW.joblib",
+    "sha256": "80dbcc603818e351a07bac85bcb2a568897d1fdc699a9030c2e0bb4b37e0651c",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_LEVEL_EMBARGO",
+    "fold": "2026-10",
+    "cohort": "primary",
+    "cutoff": "2026-09-30",
+    "status": "ok",
+    "training_n": 362,
+    "inner_n": 312,
+    "n": 20,
+    "train_cutoff": "2026-09-25",
+    "inner_cutoff": "2026-07-16",
+    "last_endpoint": "2026-09-24",
+    "inner_last_endpoint": "2026-07-15",
+    "artifact": "models\\stress-5-2026-10-W_LEVEL_EMBARGO.joblib",
+    "sha256": "e135e3490d3095df138a089e14f92348ce476fe13d28c5b02ab69793bc81391c",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_LEVEL_PERTURB",
+    "fold": "2026-10",
+    "cohort": "primary",
+    "cutoff": "2026-09-30",
+    "status": "ok",
+    "training_n": 365,
+    "inner_n": 318,
+    "n": 20,
+    "train_cutoff": "2026-09-30",
+    "inner_cutoff": "2026-07-24",
+    "last_endpoint": "2026-09-29",
+    "inner_last_endpoint": "2026-07-23",
+    "artifact": "models\\stress-5-2026-10-W_LEVEL_PERTURB.joblib",
+    "sha256": "6060aa38ce43385ed51108900a9a052a925ccf1b22e7266e2c4cd052c9eaa661",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_LEVEL_ALPHA",
+    "fold": "2026-10",
+    "cohort": "primary",
+    "cutoff": "2026-09-30",
+    "status": "ok",
+    "training_n": 365,
+    "inner_n": 318,
+    "n": 20,
+    "train_cutoff": "2026-09-30",
+    "inner_cutoff": "2026-07-24",
+    "last_endpoint": "2026-09-29",
+    "inner_last_endpoint": "2026-07-23",
+    "artifact": "models\\stress-5-2026-10-W_LEVEL_ALPHA.joblib",
+    "sha256": "60ec1bc7d0e75cc4805a91b860ad77256fcbb97e2e05370071cd64796d725b19",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_LEVEL_TARGET_NULL",
+    "fold": "2026-10",
+    "cohort": "primary",
+    "cutoff": "2026-09-30",
+    "status": "ok",
+    "training_n": 365,
+    "inner_n": 318,
+    "n": 20,
+    "train_cutoff": "2026-09-30",
+    "inner_cutoff": "2026-07-24",
+    "last_endpoint": "2026-09-29",
+    "inner_last_endpoint": "2026-07-23",
+    "artifact": "models\\stress-5-2026-10-W_LEVEL_TARGET_NULL.joblib",
+    "sha256": "d1709f298549621deae654b39811763ea3deb1ad28b919280e3b68310266685e",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_LEVEL_LAG",
+    "fold": "2026-10",
+    "cohort": "primary",
+    "cutoff": "2026-09-30",
+    "status": "ok",
+    "training_n": 365,
+    "inner_n": 318,
+    "n": 20,
+    "train_cutoff": "2026-09-30",
+    "inner_cutoff": "2026-07-24",
+    "last_endpoint": "2026-09-29",
+    "inner_last_endpoint": "2026-07-23",
+    "artifact": "models\\stress-5-2026-10-W_LEVEL_LAG.joblib",
+    "sha256": "e895d7d71700134a3b7877ceed3f2a9e82d494a436c4c71814c523904e01f9d6",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_LEVEL_DEDUP",
+    "fold": "2026-10",
+    "cohort": "primary",
+    "cutoff": "2026-09-30",
+    "status": "ok",
+    "training_n": 365,
+    "inner_n": 318,
+    "n": 20,
+    "train_cutoff": "2026-09-30",
+    "inner_cutoff": "2026-07-24",
+    "last_endpoint": "2026-09-29",
+    "inner_last_endpoint": "2026-07-23",
+    "artifact": "models\\stress-5-2026-10-W_LEVEL_DEDUP.joblib",
+    "sha256": "fd6e8cfe51ca411f7ece1123fb1f3a11f2012de7fec1287fc9c4fd595f74246d",
+    "warnings": [],
+    "metadata": {
+      "aliases": [
+        [
+          "m_broad",
+          "i_idx_Nifty_500_rel5"
+        ]
+      ],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_LEVEL_CLONE",
+    "fold": "2026-10",
+    "cohort": "primary",
+    "cutoff": "2026-09-30",
+    "status": "ok",
+    "training_n": 365,
+    "inner_n": 318,
+    "n": 20,
+    "train_cutoff": "2026-09-30",
+    "inner_cutoff": "2026-07-24",
+    "last_endpoint": "2026-09-29",
+    "inner_last_endpoint": "2026-07-23",
+    "artifact": "models\\stress-5-2026-10-W_LEVEL_CLONE.joblib",
+    "sha256": "5a20c70cfff789f69ece6cb14fd3b4fb8c1eeaf0aab140c66e30fea2ad4e526c",
+    "warnings": [],
+    "metadata": {
+      "aliases": [
+        [
+          "m_broad",
+          "i_idx_Nifty_500_rel5"
+        ],
+        [
+          "zz_stress_i_nifty_auto_rel21",
+          "i_nifty_auto_rel21"
+        ],
+        [
+          "zz_stress_i_nifty_auto_rel5",
+          "i_nifty_auto_rel5"
+        ],
+        [
+          "zz_stress_i_nifty_financial_rel21",
+          "i_nifty_financial_rel21"
+        ],
+        [
+          "zz_stress_i_nifty_financial_rel5",
+          "i_nifty_financial_rel5"
+        ],
+        [
+          "zz_stress_i_nifty_it_rel21",
+          "i_nifty_it_rel21"
+        ],
+        [
+          "zz_stress_i_nifty_it_rel5",
+          "i_nifty_it_rel5"
+        ],
+        [
+          "zz_stress_m_broad",
+          "i_idx_Nifty_500_rel5"
+        ],
+        [
+          "zz_stress_m_concentration",
+          "m_concentration"
+        ],
+        [
+          "zz_stress_m_cyclical",
+          "m_cyclical"
+        ],
+        [
+          "zz_stress_m_financial",
+          "m_financial"
+        ],
+        [
+          "zz_stress_m_rotation_speed",
+          "m_rotation_speed"
+        ],
+        [
+          "zz_stress_m_sync",
+          "m_sync"
+        ],
+        [
+          "zz_stress_m_vol_divergence",
+          "m_vol_divergence"
+        ],
+        [
+          "zz_stress_r_bank_change",
+          "r_bank_change"
+        ],
+        [
+          "zz_stress_r_def_change",
+          "r_def_change"
+        ]
+      ],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_LEVEL_REVISION",
+    "fold": "2026-10",
+    "cohort": "primary",
+    "cutoff": "2026-09-30",
+    "status": "ok",
+    "training_n": 365,
+    "inner_n": 318,
+    "n": 20,
+    "train_cutoff": "2026-09-30",
+    "inner_cutoff": "2026-07-24",
+    "last_endpoint": "2026-09-29",
+    "inner_last_endpoint": "2026-07-23",
+    "artifact": "models\\stress-5-2026-10-W_LEVEL_REVISION.joblib",
+    "sha256": "44bc10dab22e980b90f2be14ef9c8b34978535276d799bd6dbc62bf97e4ab33e",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_RES_WINDOW",
+    "fold": "2026-11",
+    "cohort": "primary",
+    "cutoff": "2026-10-30",
+    "status": "ok",
+    "training_n": 189,
+    "inner_n": 189,
+    "n": 7,
+    "train_cutoff": "2026-10-30",
+    "inner_cutoff": "2026-08-21",
+    "last_endpoint": "2026-10-29",
+    "inner_last_endpoint": "2026-08-20",
+    "artifact": "models\\stress-5-2026-11-W_RES_WINDOW.joblib",
+    "sha256": "d6b4a857147c58874a5fa352f83b8ed7c775a17ae258de0f174e4c1051341d12",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_RES_EMBARGO",
+    "fold": "2026-11",
+    "cohort": "primary",
+    "cutoff": "2026-10-30",
+    "status": "ok",
+    "training_n": 382,
+    "inner_n": 332,
+    "n": 7,
+    "train_cutoff": "2026-10-27",
+    "inner_cutoff": "2026-08-13",
+    "last_endpoint": "2026-10-26",
+    "inner_last_endpoint": "2026-08-12",
+    "artifact": "models\\stress-5-2026-11-W_RES_EMBARGO.joblib",
+    "sha256": "cb6a81dd8d4ba853df81e3490c2c69c780e0711934a4cd0ea47f84573e8a2030",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_RES_PERTURB",
+    "fold": "2026-11",
+    "cohort": "primary",
+    "cutoff": "2026-10-30",
+    "status": "ok",
+    "training_n": 385,
+    "inner_n": 338,
+    "n": 7,
+    "train_cutoff": "2026-10-30",
+    "inner_cutoff": "2026-08-21",
+    "last_endpoint": "2026-10-29",
+    "inner_last_endpoint": "2026-08-20",
+    "artifact": "models\\stress-5-2026-11-W_RES_PERTURB.joblib",
+    "sha256": "f62c47669a86662738f8e8f1cbe02d1512cf3cbc9b9e17197afa2cfdb2c8b002",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_RES_ALPHA",
+    "fold": "2026-11",
+    "cohort": "primary",
+    "cutoff": "2026-10-30",
+    "status": "ok",
+    "training_n": 385,
+    "inner_n": 338,
+    "n": 7,
+    "train_cutoff": "2026-10-30",
+    "inner_cutoff": "2026-08-21",
+    "last_endpoint": "2026-10-29",
+    "inner_last_endpoint": "2026-08-20",
+    "artifact": "models\\stress-5-2026-11-W_RES_ALPHA.joblib",
+    "sha256": "5d07d9df3d0ff5e662bf4e2be7da8a3f6fd45322b428e45afe9a6ed3f36ac025",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_RES_TARGET_NULL",
+    "fold": "2026-11",
+    "cohort": "primary",
+    "cutoff": "2026-10-30",
+    "status": "ok",
+    "training_n": 385,
+    "inner_n": 338,
+    "n": 7,
+    "train_cutoff": "2026-10-30",
+    "inner_cutoff": "2026-08-21",
+    "last_endpoint": "2026-10-29",
+    "inner_last_endpoint": "2026-08-20",
+    "artifact": "models\\stress-5-2026-11-W_RES_TARGET_NULL.joblib",
+    "sha256": "3de00b0c226ef5f94d3f23fce1eece8f6587b5ab28d528bdc85c46625b60a72b",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_RES_LAG",
+    "fold": "2026-11",
+    "cohort": "primary",
+    "cutoff": "2026-10-30",
+    "status": "ok",
+    "training_n": 385,
+    "inner_n": 338,
+    "n": 7,
+    "train_cutoff": "2026-10-30",
+    "inner_cutoff": "2026-08-21",
+    "last_endpoint": "2026-10-29",
+    "inner_last_endpoint": "2026-08-20",
+    "artifact": "models\\stress-5-2026-11-W_RES_LAG.joblib",
+    "sha256": "49d13fa5fc50b5876ea00211128df14924febe1dea63542df9dc0d6a34f32694",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_RES_DEDUP",
+    "fold": "2026-11",
+    "cohort": "primary",
+    "cutoff": "2026-10-30",
+    "status": "ok",
+    "training_n": 385,
+    "inner_n": 338,
+    "n": 7,
+    "train_cutoff": "2026-10-30",
+    "inner_cutoff": "2026-08-21",
+    "last_endpoint": "2026-10-29",
+    "inner_last_endpoint": "2026-08-20",
+    "artifact": "models\\stress-5-2026-11-W_RES_DEDUP.joblib",
+    "sha256": "1d4685b3c23343ef04a55cf5248efd67e1c9ef6cf29126a48d67fd27344f58df",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_RES_CLONE",
+    "fold": "2026-11",
+    "cohort": "primary",
+    "cutoff": "2026-10-30",
+    "status": "ok",
+    "training_n": 385,
+    "inner_n": 338,
+    "n": 7,
+    "train_cutoff": "2026-10-30",
+    "inner_cutoff": "2026-08-21",
+    "last_endpoint": "2026-10-29",
+    "inner_last_endpoint": "2026-08-20",
+    "artifact": "models\\stress-5-2026-11-W_RES_CLONE.joblib",
+    "sha256": "d865b00aa5cf952c84c445210885333e1b5949ea2ed80a72ca72e242f9232e95",
+    "warnings": [],
+    "metadata": {
+      "aliases": [
+        [
+          "zz_stress_i_nifty_auto_rel21",
+          "i_nifty_auto_rel21"
+        ],
+        [
+          "zz_stress_i_nifty_auto_rel5",
+          "i_nifty_auto_rel5"
+        ],
+        [
+          "zz_stress_i_nifty_financial_rel21",
+          "i_nifty_financial_rel21"
+        ],
+        [
+          "zz_stress_i_nifty_financial_rel5",
+          "i_nifty_financial_rel5"
+        ],
+        [
+          "zz_stress_i_nifty_it_rel21",
+          "i_nifty_it_rel21"
+        ],
+        [
+          "zz_stress_i_nifty_it_rel5",
+          "i_nifty_it_rel5"
+        ],
+        [
+          "zz_stress_r_bank_residual",
+          "r_bank_residual"
+        ],
+        [
+          "zz_stress_r_def_residual",
+          "r_def_residual"
+        ]
+      ],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_RES_REVISION",
+    "fold": "2026-11",
+    "cohort": "primary",
+    "cutoff": "2026-10-30",
+    "status": "ok",
+    "training_n": 385,
+    "inner_n": 338,
+    "n": 7,
+    "train_cutoff": "2026-10-30",
+    "inner_cutoff": "2026-08-21",
+    "last_endpoint": "2026-10-29",
+    "inner_last_endpoint": "2026-08-20",
+    "artifact": "models\\stress-5-2026-11-W_RES_REVISION.joblib",
+    "sha256": "f30672a676b94c9aba385d284872c03f576661eab874d2076ae62cb1b9305bfb",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_STRUCT_WINDOW",
+    "fold": "2026-11",
+    "cohort": "primary",
+    "cutoff": "2026-10-30",
+    "status": "ok",
+    "training_n": 189,
+    "inner_n": 189,
+    "n": 7,
+    "train_cutoff": "2026-10-30",
+    "inner_cutoff": "2026-08-21",
+    "last_endpoint": "2026-10-29",
+    "inner_last_endpoint": "2026-08-20",
+    "artifact": "models\\stress-5-2026-11-W_STRUCT_WINDOW.joblib",
+    "sha256": "b08cf9a7fd9272f45f9933a2ef426d5bdfb27c8102d118559a83e61223157df3",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_STRUCT_EMBARGO",
+    "fold": "2026-11",
+    "cohort": "primary",
+    "cutoff": "2026-10-30",
+    "status": "ok",
+    "training_n": 382,
+    "inner_n": 332,
+    "n": 7,
+    "train_cutoff": "2026-10-27",
+    "inner_cutoff": "2026-08-13",
+    "last_endpoint": "2026-10-26",
+    "inner_last_endpoint": "2026-08-12",
+    "artifact": "models\\stress-5-2026-11-W_STRUCT_EMBARGO.joblib",
+    "sha256": "702946ffd13113337087d625c053d1bb5e030898c7f87d1e570d24b0a0bd4ea6",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_STRUCT_PERTURB",
+    "fold": "2026-11",
+    "cohort": "primary",
+    "cutoff": "2026-10-30",
+    "status": "ok",
+    "training_n": 385,
+    "inner_n": 338,
+    "n": 7,
+    "train_cutoff": "2026-10-30",
+    "inner_cutoff": "2026-08-21",
+    "last_endpoint": "2026-10-29",
+    "inner_last_endpoint": "2026-08-20",
+    "artifact": "models\\stress-5-2026-11-W_STRUCT_PERTURB.joblib",
+    "sha256": "92fd92cf84fb547ecceae5d88002837d35c53b68c10af420feb17143f7b56582",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_STRUCT_ALPHA",
+    "fold": "2026-11",
+    "cohort": "primary",
+    "cutoff": "2026-10-30",
+    "status": "ok",
+    "training_n": 385,
+    "inner_n": 338,
+    "n": 7,
+    "train_cutoff": "2026-10-30",
+    "inner_cutoff": "2026-08-21",
+    "last_endpoint": "2026-10-29",
+    "inner_last_endpoint": "2026-08-20",
+    "artifact": "models\\stress-5-2026-11-W_STRUCT_ALPHA.joblib",
+    "sha256": "23e25b2f805a0f6ee9889c32a5a670577550b33300fd3fba1a55e2109dcab8f4",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_STRUCT_TARGET_NULL",
+    "fold": "2026-11",
+    "cohort": "primary",
+    "cutoff": "2026-10-30",
+    "status": "ok",
+    "training_n": 385,
+    "inner_n": 338,
+    "n": 7,
+    "train_cutoff": "2026-10-30",
+    "inner_cutoff": "2026-08-21",
+    "last_endpoint": "2026-10-29",
+    "inner_last_endpoint": "2026-08-20",
+    "artifact": "models\\stress-5-2026-11-W_STRUCT_TARGET_NULL.joblib",
+    "sha256": "1dabc392d936043f3033f59ec3e5b04b9415d9a10b0ca8f73d19ba69c5e0dfb2",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_STRUCT_LAG",
+    "fold": "2026-11",
+    "cohort": "primary",
+    "cutoff": "2026-10-30",
+    "status": "ok",
+    "training_n": 385,
+    "inner_n": 338,
+    "n": 7,
+    "train_cutoff": "2026-10-30",
+    "inner_cutoff": "2026-08-21",
+    "last_endpoint": "2026-10-29",
+    "inner_last_endpoint": "2026-08-20",
+    "artifact": "models\\stress-5-2026-11-W_STRUCT_LAG.joblib",
+    "sha256": "9d51c06632b1620c4c5194d540033faf394f5f2a973d9a83828b4374aea44d1e",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_STRUCT_DEDUP",
+    "fold": "2026-11",
+    "cohort": "primary",
+    "cutoff": "2026-10-30",
+    "status": "ok",
+    "training_n": 385,
+    "inner_n": 338,
+    "n": 7,
+    "train_cutoff": "2026-10-30",
+    "inner_cutoff": "2026-08-21",
+    "last_endpoint": "2026-10-29",
+    "inner_last_endpoint": "2026-08-20",
+    "artifact": "models\\stress-5-2026-11-W_STRUCT_DEDUP.joblib",
+    "sha256": "d5fe19da91a5b0079df82eca95c4d1ae2b4f66a51f9ffc3bb8875c2a32b9fd5b",
+    "warnings": [],
+    "metadata": {
+      "aliases": [
+        [
+          "m_broad",
+          "i_idx_Nifty_500_rel5"
+        ]
+      ],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_STRUCT_CLONE",
+    "fold": "2026-11",
+    "cohort": "primary",
+    "cutoff": "2026-10-30",
+    "status": "ok",
+    "training_n": 385,
+    "inner_n": 338,
+    "n": 7,
+    "train_cutoff": "2026-10-30",
+    "inner_cutoff": "2026-08-21",
+    "last_endpoint": "2026-10-29",
+    "inner_last_endpoint": "2026-08-20",
+    "artifact": "models\\stress-5-2026-11-W_STRUCT_CLONE.joblib",
+    "sha256": "0dce1baa5734cf3760d8a5a0232c726398f3ea480ed3a290b2ed4e67110d8e68",
+    "warnings": [],
+    "metadata": {
+      "aliases": [
+        [
+          "m_broad",
+          "i_idx_Nifty_500_rel5"
+        ],
+        [
+          "zz_stress_i_nifty_auto_rel21",
+          "i_nifty_auto_rel21"
+        ],
+        [
+          "zz_stress_i_nifty_auto_rel5",
+          "i_nifty_auto_rel5"
+        ],
+        [
+          "zz_stress_i_nifty_financial_rel21",
+          "i_nifty_financial_rel21"
+        ],
+        [
+          "zz_stress_i_nifty_financial_rel5",
+          "i_nifty_financial_rel5"
+        ],
+        [
+          "zz_stress_i_nifty_it_rel21",
+          "i_nifty_it_rel21"
+        ],
+        [
+          "zz_stress_i_nifty_it_rel5",
+          "i_nifty_it_rel5"
+        ],
+        [
+          "zz_stress_m_broad",
+          "i_idx_Nifty_500_rel5"
+        ],
+        [
+          "zz_stress_m_broad_d5",
+          "m_broad_d5"
+        ],
+        [
+          "zz_stress_m_concentration",
+          "m_concentration"
+        ],
+        [
+          "zz_stress_m_concentration_d5",
+          "m_concentration_d5"
+        ],
+        [
+          "zz_stress_m_cyclical",
+          "m_cyclical"
+        ],
+        [
+          "zz_stress_m_cyclical_d5",
+          "m_cyclical_d5"
+        ],
+        [
+          "zz_stress_m_financial",
+          "m_financial"
+        ],
+        [
+          "zz_stress_m_financial_d5",
+          "m_financial_d5"
+        ],
+        [
+          "zz_stress_m_rotation_speed",
+          "m_rotation_speed"
+        ],
+        [
+          "zz_stress_m_rotation_speed_d5",
+          "m_rotation_speed_d5"
+        ],
+        [
+          "zz_stress_m_sync",
+          "m_sync"
+        ],
+        [
+          "zz_stress_m_sync_d5",
+          "m_sync_d5"
+        ],
+        [
+          "zz_stress_m_vol_divergence",
+          "m_vol_divergence"
+        ],
+        [
+          "zz_stress_m_vol_divergence_d5",
+          "m_vol_divergence_d5"
+        ],
+        [
+          "zz_stress_r_bank_change",
+          "r_bank_change"
+        ],
+        [
+          "zz_stress_r_def_change",
+          "r_def_change"
+        ]
+      ],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_STRUCT_REVISION",
+    "fold": "2026-11",
+    "cohort": "primary",
+    "cutoff": "2026-10-30",
+    "status": "ok",
+    "training_n": 385,
+    "inner_n": 338,
+    "n": 7,
+    "train_cutoff": "2026-10-30",
+    "inner_cutoff": "2026-08-21",
+    "last_endpoint": "2026-10-29",
+    "inner_last_endpoint": "2026-08-20",
+    "artifact": "models\\stress-5-2026-11-W_STRUCT_REVISION.joblib",
+    "sha256": "b8cda85907a7fd22cf566e1a74d14ea25a93ef809e0e9f5af6983d3acb9ca90d",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_LEVEL_WINDOW",
+    "fold": "2026-11",
+    "cohort": "primary",
+    "cutoff": "2026-10-30",
+    "status": "ok",
+    "training_n": 189,
+    "inner_n": 189,
+    "n": 7,
+    "train_cutoff": "2026-10-30",
+    "inner_cutoff": "2026-08-21",
+    "last_endpoint": "2026-10-29",
+    "inner_last_endpoint": "2026-08-20",
+    "artifact": "models\\stress-5-2026-11-W_LEVEL_WINDOW.joblib",
+    "sha256": "8887197e27c343038ae9999646debe7653b62c8bbd8461966cc0e315dce19a6b",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_LEVEL_EMBARGO",
+    "fold": "2026-11",
+    "cohort": "primary",
+    "cutoff": "2026-10-30",
+    "status": "ok",
+    "training_n": 382,
+    "inner_n": 332,
+    "n": 7,
+    "train_cutoff": "2026-10-27",
+    "inner_cutoff": "2026-08-13",
+    "last_endpoint": "2026-10-26",
+    "inner_last_endpoint": "2026-08-12",
+    "artifact": "models\\stress-5-2026-11-W_LEVEL_EMBARGO.joblib",
+    "sha256": "c3b34a380c84cf0227c0438f8d0fae7b014b7b9024f6a9f6184f9723dfec81d6",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_LEVEL_PERTURB",
+    "fold": "2026-11",
+    "cohort": "primary",
+    "cutoff": "2026-10-30",
+    "status": "ok",
+    "training_n": 385,
+    "inner_n": 338,
+    "n": 7,
+    "train_cutoff": "2026-10-30",
+    "inner_cutoff": "2026-08-21",
+    "last_endpoint": "2026-10-29",
+    "inner_last_endpoint": "2026-08-20",
+    "artifact": "models\\stress-5-2026-11-W_LEVEL_PERTURB.joblib",
+    "sha256": "d21595a27e426a39ad057646577b29e91635e3c3a35e1444927f11a176123245",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_LEVEL_ALPHA",
+    "fold": "2026-11",
+    "cohort": "primary",
+    "cutoff": "2026-10-30",
+    "status": "ok",
+    "training_n": 385,
+    "inner_n": 338,
+    "n": 7,
+    "train_cutoff": "2026-10-30",
+    "inner_cutoff": "2026-08-21",
+    "last_endpoint": "2026-10-29",
+    "inner_last_endpoint": "2026-08-20",
+    "artifact": "models\\stress-5-2026-11-W_LEVEL_ALPHA.joblib",
+    "sha256": "5cac739eed86b485711093df6bdea45838f4858a9cac2ac1a71e1edd2867423a",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_LEVEL_TARGET_NULL",
+    "fold": "2026-11",
+    "cohort": "primary",
+    "cutoff": "2026-10-30",
+    "status": "ok",
+    "training_n": 385,
+    "inner_n": 338,
+    "n": 7,
+    "train_cutoff": "2026-10-30",
+    "inner_cutoff": "2026-08-21",
+    "last_endpoint": "2026-10-29",
+    "inner_last_endpoint": "2026-08-20",
+    "artifact": "models\\stress-5-2026-11-W_LEVEL_TARGET_NULL.joblib",
+    "sha256": "9df720464e64fec417cc383110ad3eea79e22b35c28e1704489e7c1e7061d590",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_LEVEL_LAG",
+    "fold": "2026-11",
+    "cohort": "primary",
+    "cutoff": "2026-10-30",
+    "status": "ok",
+    "training_n": 385,
+    "inner_n": 338,
+    "n": 7,
+    "train_cutoff": "2026-10-30",
+    "inner_cutoff": "2026-08-21",
+    "last_endpoint": "2026-10-29",
+    "inner_last_endpoint": "2026-08-20",
+    "artifact": "models\\stress-5-2026-11-W_LEVEL_LAG.joblib",
+    "sha256": "83eb13fdf3961c005a90c9a73b831a2b5a8bd96aa012d6c2a125f5c75783efe0",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_LEVEL_DEDUP",
+    "fold": "2026-11",
+    "cohort": "primary",
+    "cutoff": "2026-10-30",
+    "status": "ok",
+    "training_n": 385,
+    "inner_n": 338,
+    "n": 7,
+    "train_cutoff": "2026-10-30",
+    "inner_cutoff": "2026-08-21",
+    "last_endpoint": "2026-10-29",
+    "inner_last_endpoint": "2026-08-20",
+    "artifact": "models\\stress-5-2026-11-W_LEVEL_DEDUP.joblib",
+    "sha256": "6a29e2df0b6b5124334d136f404ddb042f83c62b8f4f4e8be188cd920a6306cd",
+    "warnings": [],
+    "metadata": {
+      "aliases": [
+        [
+          "m_broad",
+          "i_idx_Nifty_500_rel5"
+        ]
+      ],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_LEVEL_CLONE",
+    "fold": "2026-11",
+    "cohort": "primary",
+    "cutoff": "2026-10-30",
+    "status": "ok",
+    "training_n": 385,
+    "inner_n": 338,
+    "n": 7,
+    "train_cutoff": "2026-10-30",
+    "inner_cutoff": "2026-08-21",
+    "last_endpoint": "2026-10-29",
+    "inner_last_endpoint": "2026-08-20",
+    "artifact": "models\\stress-5-2026-11-W_LEVEL_CLONE.joblib",
+    "sha256": "7bd936e1f0eecea27983de65c0afb3a78fbff729599a0cd59a651a0698f9481b",
+    "warnings": [],
+    "metadata": {
+      "aliases": [
+        [
+          "m_broad",
+          "i_idx_Nifty_500_rel5"
+        ],
+        [
+          "zz_stress_i_nifty_auto_rel21",
+          "i_nifty_auto_rel21"
+        ],
+        [
+          "zz_stress_i_nifty_auto_rel5",
+          "i_nifty_auto_rel5"
+        ],
+        [
+          "zz_stress_i_nifty_financial_rel21",
+          "i_nifty_financial_rel21"
+        ],
+        [
+          "zz_stress_i_nifty_financial_rel5",
+          "i_nifty_financial_rel5"
+        ],
+        [
+          "zz_stress_i_nifty_it_rel21",
+          "i_nifty_it_rel21"
+        ],
+        [
+          "zz_stress_i_nifty_it_rel5",
+          "i_nifty_it_rel5"
+        ],
+        [
+          "zz_stress_m_broad",
+          "i_idx_Nifty_500_rel5"
+        ],
+        [
+          "zz_stress_m_concentration",
+          "m_concentration"
+        ],
+        [
+          "zz_stress_m_cyclical",
+          "m_cyclical"
+        ],
+        [
+          "zz_stress_m_financial",
+          "m_financial"
+        ],
+        [
+          "zz_stress_m_rotation_speed",
+          "m_rotation_speed"
+        ],
+        [
+          "zz_stress_m_sync",
+          "m_sync"
+        ],
+        [
+          "zz_stress_m_vol_divergence",
+          "m_vol_divergence"
+        ],
+        [
+          "zz_stress_r_bank_change",
+          "r_bank_change"
+        ],
+        [
+          "zz_stress_r_def_change",
+          "r_def_change"
+        ]
+      ],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 5,
+    "model": "W_LEVEL_REVISION",
+    "fold": "2026-11",
+    "cohort": "primary",
+    "cutoff": "2026-10-30",
+    "status": "ok",
+    "training_n": 385,
+    "inner_n": 338,
+    "n": 7,
+    "train_cutoff": "2026-10-30",
+    "inner_cutoff": "2026-08-21",
+    "last_endpoint": "2026-10-29",
+    "inner_last_endpoint": "2026-08-20",
+    "artifact": "models\\stress-5-2026-11-W_LEVEL_REVISION.joblib",
+    "sha256": "9aefb5451f5f77d7f3a1c40cfe3fa6c747eba2b2fb71bb1a930b81ae752a973c",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 21,
+    "model": "MS_LAG5",
+    "fold": "2026-07",
+    "cohort": "primary",
+    "cutoff": "2026-06-30",
+    "status": "ok",
+    "training_n": 126,
+    "inner_n": 63,
+    "n": 23,
+    "train_cutoff": "2026-06-30",
+    "inner_cutoff": "2026-03-24",
+    "last_endpoint": "2026-06-29",
+    "inner_last_endpoint": "2026-03-23",
+    "artifact": "models\\stress-21-2026-07-MS_LAG5.joblib",
+    "sha256": "c47d57269dd151560c0feeaa18cd5157f247f1654c5cc6d7d93bb804d6fc82f1",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 21,
+    "model": "MS_LAG21",
+    "fold": "2026-07",
+    "cohort": "primary",
+    "cutoff": "2026-06-30",
+    "status": "ok",
+    "training_n": 126,
+    "inner_n": 63,
+    "n": 23,
+    "train_cutoff": "2026-06-30",
+    "inner_cutoff": "2026-03-24",
+    "last_endpoint": "2026-06-29",
+    "inner_last_endpoint": "2026-03-23",
+    "artifact": "models\\stress-21-2026-07-MS_LAG21.joblib",
+    "sha256": "7916d46a1e76b6ee42170fcbcf015f7529c26bee5c371d635127d8b196843c3f",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 21,
+    "model": "MS_STATE_ONLY",
+    "fold": "2026-07",
+    "cohort": "primary",
+    "cutoff": "2026-06-30",
+    "status": "ok",
+    "training_n": 126,
+    "inner_n": 63,
+    "n": 23,
+    "train_cutoff": "2026-06-30",
+    "inner_cutoff": "2026-03-24",
+    "last_endpoint": "2026-06-29",
+    "inner_last_endpoint": "2026-03-23",
+    "artifact": "models\\stress-21-2026-07-MS_STATE_ONLY.joblib",
+    "sha256": "7a9c145b234c3d12fe9251fbe966ac64d2d23adc016c98f7f8cef790e23ffbe7",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 21,
+    "model": "MS_ROLL",
+    "fold": "2026-07",
+    "cohort": "primary",
+    "cutoff": "2026-06-30",
+    "status": "ok",
+    "training_n": 126,
+    "inner_n": 63,
+    "n": 23,
+    "train_cutoff": "2026-06-30",
+    "inner_cutoff": "2026-03-24",
+    "last_endpoint": "2026-06-29",
+    "inner_last_endpoint": "2026-03-23",
+    "artifact": "models\\stress-21-2026-07-MS_ROLL.joblib",
+    "sha256": "bc9abb027405d3a87e70435b1e891006a87780257c591384eb39e9258ad0bbaa",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 21,
+    "model": "MS_PERMUTE",
+    "fold": "2026-07",
+    "cohort": "primary",
+    "cutoff": "2026-06-30",
+    "status": "ok",
+    "training_n": 126,
+    "inner_n": 63,
+    "n": 23,
+    "train_cutoff": "2026-06-30",
+    "inner_cutoff": "2026-03-24",
+    "last_endpoint": "2026-06-29",
+    "inner_last_endpoint": "2026-03-23",
+    "artifact": "models\\stress-21-2026-07-MS_PERMUTE.joblib",
+    "sha256": "0929affdf329821494f5157a29801d200946ad418ac595ae7f278b1ef5025654",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 21,
+    "model": "MS_WINDOW",
+    "fold": "2026-07",
+    "cohort": "primary",
+    "cutoff": "2026-06-30",
+    "status": "ok",
+    "training_n": 126,
+    "inner_n": 63,
+    "n": 23,
+    "train_cutoff": "2026-06-30",
+    "inner_cutoff": "2026-03-24",
+    "last_endpoint": "2026-06-29",
+    "inner_last_endpoint": "2026-03-23",
+    "artifact": "models\\stress-21-2026-07-MS_WINDOW.joblib",
+    "sha256": "439d87b41ee9566bf9b5cc7fec9a654cc65562afcc0da309f35871a1e4f1f935",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 21,
+    "model": "MS_EMBARGO",
+    "fold": "2026-07",
+    "cohort": "primary",
+    "cutoff": "2026-06-30",
+    "status": "failed",
+    "error": "ValueError: Insufficient purged inner-fit dates"
+  },
+  {
+    "batch": "stress",
+    "horizon": 21,
+    "model": "MS_LAG5",
+    "fold": "2026-08",
+    "cohort": "primary",
+    "cutoff": "2026-07-31",
+    "status": "ok",
+    "training_n": 149,
+    "inner_n": 86,
+    "n": 21,
+    "train_cutoff": "2026-07-31",
+    "inner_cutoff": "2026-04-30",
+    "last_endpoint": "2026-07-30",
+    "inner_last_endpoint": "2026-04-29",
+    "artifact": "models\\stress-21-2026-08-MS_LAG5.joblib",
+    "sha256": "8e78e6d16ef1bc9e3819e67be1560fc887bebdec58907d68670244b2d4306a3d",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 21,
+    "model": "MS_LAG21",
+    "fold": "2026-08",
+    "cohort": "primary",
+    "cutoff": "2026-07-31",
+    "status": "ok",
+    "training_n": 149,
+    "inner_n": 86,
+    "n": 21,
+    "train_cutoff": "2026-07-31",
+    "inner_cutoff": "2026-04-30",
+    "last_endpoint": "2026-07-30",
+    "inner_last_endpoint": "2026-04-29",
+    "artifact": "models\\stress-21-2026-08-MS_LAG21.joblib",
+    "sha256": "ea0ad0d11f304018bf9b84a8f9b3678a51ed2f7f99ab020ef1ab46eb5e906331",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 21,
+    "model": "MS_STATE_ONLY",
+    "fold": "2026-08",
+    "cohort": "primary",
+    "cutoff": "2026-07-31",
+    "status": "ok",
+    "training_n": 149,
+    "inner_n": 86,
+    "n": 21,
+    "train_cutoff": "2026-07-31",
+    "inner_cutoff": "2026-04-30",
+    "last_endpoint": "2026-07-30",
+    "inner_last_endpoint": "2026-04-29",
+    "artifact": "models\\stress-21-2026-08-MS_STATE_ONLY.joblib",
+    "sha256": "a0afbecf852c1ed3e530862123839a9bbc243e3a92e7b1ad1e4338ba57827c30",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 21,
+    "model": "MS_ROLL",
+    "fold": "2026-08",
+    "cohort": "primary",
+    "cutoff": "2026-07-31",
+    "status": "ok",
+    "training_n": 149,
+    "inner_n": 86,
+    "n": 21,
+    "train_cutoff": "2026-07-31",
+    "inner_cutoff": "2026-04-30",
+    "last_endpoint": "2026-07-30",
+    "inner_last_endpoint": "2026-04-29",
+    "artifact": "models\\stress-21-2026-08-MS_ROLL.joblib",
+    "sha256": "e852ff4b54f983880fa88a01194433b7909a08822e1545fada645854e660bf90",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 21,
+    "model": "MS_PERMUTE",
+    "fold": "2026-08",
+    "cohort": "primary",
+    "cutoff": "2026-07-31",
+    "status": "ok",
+    "training_n": 149,
+    "inner_n": 86,
+    "n": 21,
+    "train_cutoff": "2026-07-31",
+    "inner_cutoff": "2026-04-30",
+    "last_endpoint": "2026-07-30",
+    "inner_last_endpoint": "2026-04-29",
+    "artifact": "models\\stress-21-2026-08-MS_PERMUTE.joblib",
+    "sha256": "f850361e479c2975f1f1c95712bca3c1681c1c44a436f46ecab485e48c15c735",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 21,
+    "model": "MS_WINDOW",
+    "fold": "2026-08",
+    "cohort": "primary",
+    "cutoff": "2026-07-31",
+    "status": "ok",
+    "training_n": 126,
+    "inner_n": 86,
+    "n": 21,
+    "train_cutoff": "2026-07-31",
+    "inner_cutoff": "2026-04-30",
+    "last_endpoint": "2026-07-30",
+    "inner_last_endpoint": "2026-04-29",
+    "artifact": "models\\stress-21-2026-08-MS_WINDOW.joblib",
+    "sha256": "56fe1e531e9bcc0d44eac974ec2c6e6e2187d858f9bf9d768fab49ad97e30598",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 21,
+    "model": "MS_EMBARGO",
+    "fold": "2026-08",
+    "cohort": "primary",
+    "cutoff": "2026-07-31",
+    "status": "ok",
+    "training_n": 146,
+    "inner_n": 80,
+    "n": 21,
+    "train_cutoff": "2026-07-28",
+    "inner_cutoff": "2026-04-22",
+    "last_endpoint": "2026-07-27",
+    "inner_last_endpoint": "2026-04-21",
+    "artifact": "models\\stress-21-2026-08-MS_EMBARGO.joblib",
+    "sha256": "40c6b46f5855f5be3324a182cd4b702b34d1348c70758c8a668446e2aa63788c",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 21,
+    "model": "MS_LAG5",
+    "fold": "2026-09",
+    "cohort": "primary",
+    "cutoff": "2026-08-31",
+    "status": "ok",
+    "training_n": 170,
+    "inner_n": 107,
+    "n": 21,
+    "train_cutoff": "2026-08-31",
+    "inner_cutoff": "2026-06-02",
+    "last_endpoint": "2026-08-28",
+    "inner_last_endpoint": "2026-06-01",
+    "artifact": "models\\stress-21-2026-09-MS_LAG5.joblib",
+    "sha256": "9b40675d9fdc738faef72b0d6d087624d84bd619a870dd34ee6d357cc9242622",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 21,
+    "model": "MS_LAG21",
+    "fold": "2026-09",
+    "cohort": "primary",
+    "cutoff": "2026-08-31",
+    "status": "ok",
+    "training_n": 170,
+    "inner_n": 107,
+    "n": 21,
+    "train_cutoff": "2026-08-31",
+    "inner_cutoff": "2026-06-02",
+    "last_endpoint": "2026-08-28",
+    "inner_last_endpoint": "2026-06-01",
+    "artifact": "models\\stress-21-2026-09-MS_LAG21.joblib",
+    "sha256": "93b2063ddf99e954b72417cc8a514772fc9c65992a4e63a700af95639bf787eb",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 21,
+    "model": "MS_STATE_ONLY",
+    "fold": "2026-09",
+    "cohort": "primary",
+    "cutoff": "2026-08-31",
+    "status": "ok",
+    "training_n": 170,
+    "inner_n": 107,
+    "n": 21,
+    "train_cutoff": "2026-08-31",
+    "inner_cutoff": "2026-06-02",
+    "last_endpoint": "2026-08-28",
+    "inner_last_endpoint": "2026-06-01",
+    "artifact": "models\\stress-21-2026-09-MS_STATE_ONLY.joblib",
+    "sha256": "24314d9f85450e2db241c5fe98d72c4ac3218fc931d02a1fda3b974ec0e3e3c0",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 21,
+    "model": "MS_ROLL",
+    "fold": "2026-09",
+    "cohort": "primary",
+    "cutoff": "2026-08-31",
+    "status": "ok",
+    "training_n": 170,
+    "inner_n": 107,
+    "n": 21,
+    "train_cutoff": "2026-08-31",
+    "inner_cutoff": "2026-06-02",
+    "last_endpoint": "2026-08-28",
+    "inner_last_endpoint": "2026-06-01",
+    "artifact": "models\\stress-21-2026-09-MS_ROLL.joblib",
+    "sha256": "45cd39cf08d70cb938126245cabb30fc880a5dc9becd00964369e0c06063df31",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 21,
+    "model": "MS_PERMUTE",
+    "fold": "2026-09",
+    "cohort": "primary",
+    "cutoff": "2026-08-31",
+    "status": "ok",
+    "training_n": 170,
+    "inner_n": 107,
+    "n": 21,
+    "train_cutoff": "2026-08-31",
+    "inner_cutoff": "2026-06-02",
+    "last_endpoint": "2026-08-28",
+    "inner_last_endpoint": "2026-06-01",
+    "artifact": "models\\stress-21-2026-09-MS_PERMUTE.joblib",
+    "sha256": "36966b010c7bf38e92439c1fffd13b22e0fcf6103197379626c91a143f3dd18f",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 21,
+    "model": "MS_WINDOW",
+    "fold": "2026-09",
+    "cohort": "primary",
+    "cutoff": "2026-08-31",
+    "status": "ok",
+    "training_n": 126,
+    "inner_n": 107,
+    "n": 21,
+    "train_cutoff": "2026-08-31",
+    "inner_cutoff": "2026-06-02",
+    "last_endpoint": "2026-08-28",
+    "inner_last_endpoint": "2026-06-01",
+    "artifact": "models\\stress-21-2026-09-MS_WINDOW.joblib",
+    "sha256": "c5c56062ffc4f4ef311d145769f455faaebdbb6ff4ebb8ae41ab17d9d71a3737",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 21,
+    "model": "MS_EMBARGO",
+    "fold": "2026-09",
+    "cohort": "primary",
+    "cutoff": "2026-08-31",
+    "status": "ok",
+    "training_n": 167,
+    "inner_n": 101,
+    "n": 21,
+    "train_cutoff": "2026-08-26",
+    "inner_cutoff": "2026-05-22",
+    "last_endpoint": "2026-08-25",
+    "inner_last_endpoint": "2026-05-21",
+    "artifact": "models\\stress-21-2026-09-MS_EMBARGO.joblib",
+    "sha256": "fe6b5323c691473af0860ff04b292f527a503955b451c6cca39951bf075a7fe2",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 21,
+    "model": "MS_LAG5",
+    "fold": "2026-10",
+    "cohort": "primary",
+    "cutoff": "2026-09-30",
+    "status": "ok",
+    "training_n": 191,
+    "inner_n": 128,
+    "n": 11,
+    "train_cutoff": "2026-09-30",
+    "inner_cutoff": "2026-07-02",
+    "last_endpoint": "2026-09-29",
+    "inner_last_endpoint": "2026-07-01",
+    "artifact": "models\\stress-21-2026-10-MS_LAG5.joblib",
+    "sha256": "7256678bb7b44c217c340236fc15cd7215fc7821291ec99defecafcbd614a619",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 21,
+    "model": "MS_LAG21",
+    "fold": "2026-10",
+    "cohort": "primary",
+    "cutoff": "2026-09-30",
+    "status": "ok",
+    "training_n": 191,
+    "inner_n": 128,
+    "n": 11,
+    "train_cutoff": "2026-09-30",
+    "inner_cutoff": "2026-07-02",
+    "last_endpoint": "2026-09-29",
+    "inner_last_endpoint": "2026-07-01",
+    "artifact": "models\\stress-21-2026-10-MS_LAG21.joblib",
+    "sha256": "ddcc5107b79b4792ea81f9e089be6d2f928c500889249944c2e8612cd31ade70",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 21,
+    "model": "MS_STATE_ONLY",
+    "fold": "2026-10",
+    "cohort": "primary",
+    "cutoff": "2026-09-30",
+    "status": "ok",
+    "training_n": 191,
+    "inner_n": 128,
+    "n": 11,
+    "train_cutoff": "2026-09-30",
+    "inner_cutoff": "2026-07-02",
+    "last_endpoint": "2026-09-29",
+    "inner_last_endpoint": "2026-07-01",
+    "artifact": "models\\stress-21-2026-10-MS_STATE_ONLY.joblib",
+    "sha256": "983da021bfe327d28e8e4dd08de797d163126c6be6416c57aa69bd7e0d10d805",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 21,
+    "model": "MS_ROLL",
+    "fold": "2026-10",
+    "cohort": "primary",
+    "cutoff": "2026-09-30",
+    "status": "ok",
+    "training_n": 191,
+    "inner_n": 128,
+    "n": 11,
+    "train_cutoff": "2026-09-30",
+    "inner_cutoff": "2026-07-02",
+    "last_endpoint": "2026-09-29",
+    "inner_last_endpoint": "2026-07-01",
+    "artifact": "models\\stress-21-2026-10-MS_ROLL.joblib",
+    "sha256": "3426825f8c68ef7fbe308f4ad123d29b628a33feb45905be21eaf67fff4ae813",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 21,
+    "model": "MS_PERMUTE",
+    "fold": "2026-10",
+    "cohort": "primary",
+    "cutoff": "2026-09-30",
+    "status": "ok",
+    "training_n": 191,
+    "inner_n": 128,
+    "n": 11,
+    "train_cutoff": "2026-09-30",
+    "inner_cutoff": "2026-07-02",
+    "last_endpoint": "2026-09-29",
+    "inner_last_endpoint": "2026-07-01",
+    "artifact": "models\\stress-21-2026-10-MS_PERMUTE.joblib",
+    "sha256": "1afcc6d45dba6f2b2a58d41d47a24f25945ae11cd8db9f3c8587d6673887501a",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 21,
+    "model": "MS_WINDOW",
+    "fold": "2026-10",
+    "cohort": "primary",
+    "cutoff": "2026-09-30",
+    "status": "ok",
+    "training_n": 126,
+    "inner_n": 126,
+    "n": 11,
+    "train_cutoff": "2026-09-30",
+    "inner_cutoff": "2026-07-02",
+    "last_endpoint": "2026-09-29",
+    "inner_last_endpoint": "2026-07-01",
+    "artifact": "models\\stress-21-2026-10-MS_WINDOW.joblib",
+    "sha256": "05603b87043b7b377c5811c47886a83a43595c4775769da410057fb417f87430",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "stress",
+    "horizon": 21,
+    "model": "MS_EMBARGO",
+    "fold": "2026-10",
+    "cohort": "primary",
+    "cutoff": "2026-09-30",
+    "status": "ok",
+    "training_n": 188,
+    "inner_n": 122,
+    "n": 11,
+    "train_cutoff": "2026-09-25",
+    "inner_cutoff": "2026-06-23",
+    "last_endpoint": "2026-09-24",
+    "inner_last_endpoint": "2026-06-22",
+    "artifact": "models\\stress-21-2026-10-MS_EMBARGO.joblib",
+    "sha256": "eda1deda1290603c1472509a9c428e4b114cf49e09bf002fdb1c2a53cd04906d",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  }
+]

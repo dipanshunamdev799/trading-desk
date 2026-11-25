@@ -1,0 +1,1252 @@
+[
+  {
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2025-10",
+    "model": "J10_TARGET_BLEND",
+    "cutoff": "2025-10-14",
+    "status": "ok",
+    "query_count": 12,
+    "reason": null
+  },
+  {
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2025-10",
+    "model": "J10_STRUCTURAL_BLEND",
+    "cutoff": "2025-10-14",
+    "status": "ok",
+    "query_count": 12,
+    "reason": null
+  },
+  {
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2025-10",
+    "model": "J10_HISTORY_SHRINK",
+    "cutoff": "2025-10-14",
+    "status": "ok",
+    "query_count": 12,
+    "reason": null
+  },
+  {
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2025-10",
+    "model": "J10_SMALL_BLEND",
+    "cutoff": "2025-10-14",
+    "status": "ok",
+    "query_count": 12,
+    "reason": null
+  },
+  {
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2025-10",
+    "model": "J10_TRANSFER_BLEND",
+    "cutoff": "2025-10-14",
+    "status": "ok",
+    "query_count": 12,
+    "reason": null
+  },
+  {
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2025-11",
+    "model": "J10_TARGET_BLEND",
+    "cutoff": "2025-10-31",
+    "status": "ok",
+    "query_count": 19,
+    "reason": null
+  },
+  {
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2025-11",
+    "model": "J10_STRUCTURAL_BLEND",
+    "cutoff": "2025-10-31",
+    "status": "ok",
+    "query_count": 19,
+    "reason": null
+  },
+  {
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2025-11",
+    "model": "J10_HISTORY_SHRINK",
+    "cutoff": "2025-10-31",
+    "status": "ok",
+    "query_count": 19,
+    "reason": null
+  },
+  {
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2025-11",
+    "model": "J10_SMALL_BLEND",
+    "cutoff": "2025-10-31",
+    "status": "ok",
+    "query_count": 19,
+    "reason": null
+  },
+  {
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2025-11",
+    "model": "J10_TRANSFER_BLEND",
+    "cutoff": "2025-10-31",
+    "status": "ok",
+    "query_count": 19,
+    "reason": null
+  },
+  {
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2025-12",
+    "model": "J10_TARGET_BLEND",
+    "cutoff": "2025-11-28",
+    "status": "ok",
+    "query_count": 22,
+    "reason": null
+  },
+  {
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2025-12",
+    "model": "J10_STRUCTURAL_BLEND",
+    "cutoff": "2025-11-28",
+    "status": "ok",
+    "query_count": 22,
+    "reason": null
+  },
+  {
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2025-12",
+    "model": "J10_HISTORY_SHRINK",
+    "cutoff": "2025-11-28",
+    "status": "ok",
+    "query_count": 22,
+    "reason": null
+  },
+  {
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2025-12",
+    "model": "J10_SMALL_BLEND",
+    "cutoff": "2025-11-28",
+    "status": "ok",
+    "query_count": 22,
+    "reason": null
+  },
+  {
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2025-12",
+    "model": "J10_TRANSFER_BLEND",
+    "cutoff": "2025-11-28",
+    "status": "ok",
+    "query_count": 22,
+    "reason": null
+  },
+  {
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2026-01",
+    "model": "J10_TARGET_BLEND",
+    "cutoff": "2025-12-31",
+    "status": "ok",
+    "query_count": 20,
+    "reason": null
+  },
+  {
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2026-01",
+    "model": "J10_STRUCTURAL_BLEND",
+    "cutoff": "2025-12-31",
+    "status": "ok",
+    "query_count": 20,
+    "reason": null
+  },
+  {
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2026-01",
+    "model": "J10_HISTORY_SHRINK",
+    "cutoff": "2025-12-31",
+    "status": "ok",
+    "query_count": 20,
+    "reason": null
+  },
+  {
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2026-01",
+    "model": "J10_SMALL_BLEND",
+    "cutoff": "2025-12-31",
+    "status": "ok",
+    "query_count": 20,
+    "reason": null
+  },
+  {
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2026-01",
+    "model": "J10_TRANSFER_BLEND",
+    "cutoff": "2025-12-31",
+    "status": "ok",
+    "query_count": 20,
+    "reason": null
+  },
+  {
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2026-02",
+    "model": "J10_TARGET_BLEND",
+    "cutoff": "2026-01-30",
+    "status": "ok",
+    "query_count": 21,
+    "reason": null
+  },
+  {
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2026-02",
+    "model": "J10_STRUCTURAL_BLEND",
+    "cutoff": "2026-01-30",
+    "status": "ok",
+    "query_count": 21,
+    "reason": null
+  },
+  {
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2026-02",
+    "model": "J10_HISTORY_SHRINK",
+    "cutoff": "2026-01-30",
+    "status": "ok",
+    "query_count": 21,
+    "reason": null
+  },
+  {
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2026-02",
+    "model": "J10_SMALL_BLEND",
+    "cutoff": "2026-01-30",
+    "status": "ok",
+    "query_count": 21,
+    "reason": null
+  },
+  {
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2026-02",
+    "model": "J10_TRANSFER_BLEND",
+    "cutoff": "2026-01-30",
+    "status": "ok",
+    "query_count": 21,
+    "reason": null
+  },
+  {
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2026-03",
+    "model": "J10_TARGET_BLEND",
+    "cutoff": "2026-02-27",
+    "status": "ok",
+    "query_count": 19,
+    "reason": null
+  },
+  {
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2026-03",
+    "model": "J10_STRUCTURAL_BLEND",
+    "cutoff": "2026-02-27",
+    "status": "ok",
+    "query_count": 19,
+    "reason": null
+  },
+  {
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2026-03",
+    "model": "J10_HISTORY_SHRINK",
+    "cutoff": "2026-02-27",
+    "status": "ok",
+    "query_count": 19,
+    "reason": null
+  },
+  {
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2026-03",
+    "model": "J10_SMALL_BLEND",
+    "cutoff": "2026-02-27",
+    "status": "ok",
+    "query_count": 19,
+    "reason": null
+  },
+  {
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2026-03",
+    "model": "J10_TRANSFER_BLEND",
+    "cutoff": "2026-02-27",
+    "status": "ok",
+    "query_count": 19,
+    "reason": null
+  },
+  {
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2026-04",
+    "model": "J10_TARGET_BLEND",
+    "cutoff": "2026-03-30",
+    "status": "ok",
+    "query_count": 20,
+    "reason": null
+  },
+  {
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2026-04",
+    "model": "J10_STRUCTURAL_BLEND",
+    "cutoff": "2026-03-30",
+    "status": "ok",
+    "query_count": 20,
+    "reason": null
+  },
+  {
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2026-04",
+    "model": "J10_HISTORY_SHRINK",
+    "cutoff": "2026-03-30",
+    "status": "ok",
+    "query_count": 20,
+    "reason": null
+  },
+  {
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2026-04",
+    "model": "J10_SMALL_BLEND",
+    "cutoff": "2026-03-30",
+    "status": "ok",
+    "query_count": 20,
+    "reason": null
+  },
+  {
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2026-04",
+    "model": "J10_TRANSFER_BLEND",
+    "cutoff": "2026-03-30",
+    "status": "ok",
+    "query_count": 20,
+    "reason": null
+  },
+  {
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2026-05",
+    "model": "J10_TARGET_BLEND",
+    "cutoff": "2026-04-30",
+    "status": "ok",
+    "query_count": 19,
+    "reason": null
+  },
+  {
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2026-05",
+    "model": "J10_STRUCTURAL_BLEND",
+    "cutoff": "2026-04-30",
+    "status": "ok",
+    "query_count": 19,
+    "reason": null
+  },
+  {
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2026-05",
+    "model": "J10_HISTORY_SHRINK",
+    "cutoff": "2026-04-30",
+    "status": "ok",
+    "query_count": 19,
+    "reason": null
+  },
+  {
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2026-05",
+    "model": "J10_SMALL_BLEND",
+    "cutoff": "2026-04-30",
+    "status": "ok",
+    "query_count": 19,
+    "reason": null
+  },
+  {
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2026-05",
+    "model": "J10_TRANSFER_BLEND",
+    "cutoff": "2026-04-30",
+    "status": "ok",
+    "query_count": 19,
+    "reason": null
+  },
+  {
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2026-06",
+    "model": "J10_TARGET_BLEND",
+    "cutoff": "2026-05-29",
+    "status": "ok",
+    "query_count": 21,
+    "reason": null
+  },
+  {
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2026-06",
+    "model": "J10_STRUCTURAL_BLEND",
+    "cutoff": "2026-05-29",
+    "status": "ok",
+    "query_count": 21,
+    "reason": null
+  },
+  {
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2026-06",
+    "model": "J10_HISTORY_SHRINK",
+    "cutoff": "2026-05-29",
+    "status": "ok",
+    "query_count": 21,
+    "reason": null
+  },
+  {
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2026-06",
+    "model": "J10_SMALL_BLEND",
+    "cutoff": "2026-05-29",
+    "status": "ok",
+    "query_count": 21,
+    "reason": null
+  },
+  {
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2026-06",
+    "model": "J10_TRANSFER_BLEND",
+    "cutoff": "2026-05-29",
+    "status": "ok",
+    "query_count": 21,
+    "reason": null
+  },
+  {
+    "horizon": 5,
+    "cohort": "later",
+    "fold": "2026-07",
+    "model": "J10_TARGET_BLEND",
+    "cutoff": "2026-06-30",
+    "status": "ok",
+    "query_count": 23,
+    "reason": null
+  },
+  {
+    "horizon": 5,
+    "cohort": "later",
+    "fold": "2026-07",
+    "model": "J10_STRUCTURAL_BLEND",
+    "cutoff": "2026-06-30",
+    "status": "ok",
+    "query_count": 23,
+    "reason": null
+  },
+  {
+    "horizon": 5,
+    "cohort": "later",
+    "fold": "2026-07",
+    "model": "J10_HISTORY_SHRINK",
+    "cutoff": "2026-06-30",
+    "status": "ok",
+    "query_count": 23,
+    "reason": null
+  },
+  {
+    "horizon": 5,
+    "cohort": "later",
+    "fold": "2026-07",
+    "model": "J10_SMALL_BLEND",
+    "cutoff": "2026-06-30",
+    "status": "ok",
+    "query_count": 23,
+    "reason": null
+  },
+  {
+    "horizon": 5,
+    "cohort": "later",
+    "fold": "2026-07",
+    "model": "J10_TRANSFER_BLEND",
+    "cutoff": "2026-06-30",
+    "status": "ok",
+    "query_count": 23,
+    "reason": null
+  },
+  {
+    "horizon": 5,
+    "cohort": "later",
+    "fold": "2026-08",
+    "model": "J10_TARGET_BLEND",
+    "cutoff": "2026-07-31",
+    "status": "ok",
+    "query_count": 21,
+    "reason": null
+  },
+  {
+    "horizon": 5,
+    "cohort": "later",
+    "fold": "2026-08",
+    "model": "J10_STRUCTURAL_BLEND",
+    "cutoff": "2026-07-31",
+    "status": "ok",
+    "query_count": 21,
+    "reason": null
+  },
+  {
+    "horizon": 5,
+    "cohort": "later",
+    "fold": "2026-08",
+    "model": "J10_HISTORY_SHRINK",
+    "cutoff": "2026-07-31",
+    "status": "ok",
+    "query_count": 21,
+    "reason": null
+  },
+  {
+    "horizon": 5,
+    "cohort": "later",
+    "fold": "2026-08",
+    "model": "J10_SMALL_BLEND",
+    "cutoff": "2026-07-31",
+    "status": "ok",
+    "query_count": 21,
+    "reason": null
+  },
+  {
+    "horizon": 5,
+    "cohort": "later",
+    "fold": "2026-08",
+    "model": "J10_TRANSFER_BLEND",
+    "cutoff": "2026-07-31",
+    "status": "ok",
+    "query_count": 21,
+    "reason": null
+  },
+  {
+    "horizon": 5,
+    "cohort": "later",
+    "fold": "2026-09",
+    "model": "J10_TARGET_BLEND",
+    "cutoff": "2026-08-31",
+    "status": "ok",
+    "query_count": 21,
+    "reason": null
+  },
+  {
+    "horizon": 5,
+    "cohort": "later",
+    "fold": "2026-09",
+    "model": "J10_STRUCTURAL_BLEND",
+    "cutoff": "2026-08-31",
+    "status": "ok",
+    "query_count": 21,
+    "reason": null
+  },
+  {
+    "horizon": 5,
+    "cohort": "later",
+    "fold": "2026-09",
+    "model": "J10_HISTORY_SHRINK",
+    "cutoff": "2026-08-31",
+    "status": "ok",
+    "query_count": 21,
+    "reason": null
+  },
+  {
+    "horizon": 5,
+    "cohort": "later",
+    "fold": "2026-09",
+    "model": "J10_SMALL_BLEND",
+    "cutoff": "2026-08-31",
+    "status": "ok",
+    "query_count": 21,
+    "reason": null
+  },
+  {
+    "horizon": 5,
+    "cohort": "later",
+    "fold": "2026-09",
+    "model": "J10_TRANSFER_BLEND",
+    "cutoff": "2026-08-31",
+    "status": "ok",
+    "query_count": 21,
+    "reason": null
+  },
+  {
+    "horizon": 5,
+    "cohort": "later",
+    "fold": "2026-10",
+    "model": "J10_TARGET_BLEND",
+    "cutoff": "2026-09-30",
+    "status": "ok",
+    "query_count": 20,
+    "reason": null
+  },
+  {
+    "horizon": 5,
+    "cohort": "later",
+    "fold": "2026-10",
+    "model": "J10_STRUCTURAL_BLEND",
+    "cutoff": "2026-09-30",
+    "status": "ok",
+    "query_count": 20,
+    "reason": null
+  },
+  {
+    "horizon": 5,
+    "cohort": "later",
+    "fold": "2026-10",
+    "model": "J10_HISTORY_SHRINK",
+    "cutoff": "2026-09-30",
+    "status": "ok",
+    "query_count": 20,
+    "reason": null
+  },
+  {
+    "horizon": 5,
+    "cohort": "later",
+    "fold": "2026-10",
+    "model": "J10_SMALL_BLEND",
+    "cutoff": "2026-09-30",
+    "status": "ok",
+    "query_count": 20,
+    "reason": null
+  },
+  {
+    "horizon": 5,
+    "cohort": "later",
+    "fold": "2026-10",
+    "model": "J10_TRANSFER_BLEND",
+    "cutoff": "2026-09-30",
+    "status": "ok",
+    "query_count": 20,
+    "reason": null
+  },
+  {
+    "horizon": 5,
+    "cohort": "later",
+    "fold": "2026-11",
+    "model": "J10_TARGET_BLEND",
+    "cutoff": "2026-10-30",
+    "status": "ok",
+    "query_count": 7,
+    "reason": null
+  },
+  {
+    "horizon": 5,
+    "cohort": "later",
+    "fold": "2026-11",
+    "model": "J10_STRUCTURAL_BLEND",
+    "cutoff": "2026-10-30",
+    "status": "ok",
+    "query_count": 7,
+    "reason": null
+  },
+  {
+    "horizon": 5,
+    "cohort": "later",
+    "fold": "2026-11",
+    "model": "J10_HISTORY_SHRINK",
+    "cutoff": "2026-10-30",
+    "status": "ok",
+    "query_count": 7,
+    "reason": null
+  },
+  {
+    "horizon": 5,
+    "cohort": "later",
+    "fold": "2026-11",
+    "model": "J10_SMALL_BLEND",
+    "cutoff": "2026-10-30",
+    "status": "ok",
+    "query_count": 7,
+    "reason": null
+  },
+  {
+    "horizon": 5,
+    "cohort": "later",
+    "fold": "2026-11",
+    "model": "J10_TRANSFER_BLEND",
+    "cutoff": "2026-10-30",
+    "status": "ok",
+    "query_count": 7,
+    "reason": null
+  },
+  {
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2025-12",
+    "model": "J10_TARGET_BLEND",
+    "cutoff": "2025-12-01",
+    "status": "ok",
+    "query_count": 21,
+    "reason": null
+  },
+  {
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2025-12",
+    "model": "J10_STRUCTURAL_BLEND",
+    "cutoff": "2025-12-01",
+    "status": "ok",
+    "query_count": 21,
+    "reason": null
+  },
+  {
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2025-12",
+    "model": "J10_HISTORY_SHRINK",
+    "cutoff": "2025-12-01",
+    "status": "ok",
+    "query_count": 21,
+    "reason": null
+  },
+  {
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2025-12",
+    "model": "J10_SMALL_BLEND",
+    "cutoff": "2025-12-01",
+    "status": "ok",
+    "query_count": 21,
+    "reason": null
+  },
+  {
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2025-12",
+    "model": "J10_TRANSFER_BLEND",
+    "cutoff": "2025-12-01",
+    "status": "ok",
+    "query_count": 21,
+    "reason": null
+  },
+  {
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2026-01",
+    "model": "J10_TARGET_BLEND",
+    "cutoff": "2025-12-31",
+    "status": "ok",
+    "query_count": 20,
+    "reason": null
+  },
+  {
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2026-01",
+    "model": "J10_STRUCTURAL_BLEND",
+    "cutoff": "2025-12-31",
+    "status": "ok",
+    "query_count": 20,
+    "reason": null
+  },
+  {
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2026-01",
+    "model": "J10_HISTORY_SHRINK",
+    "cutoff": "2025-12-31",
+    "status": "ok",
+    "query_count": 20,
+    "reason": null
+  },
+  {
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2026-01",
+    "model": "J10_SMALL_BLEND",
+    "cutoff": "2025-12-31",
+    "status": "ok",
+    "query_count": 20,
+    "reason": null
+  },
+  {
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2026-01",
+    "model": "J10_TRANSFER_BLEND",
+    "cutoff": "2025-12-31",
+    "status": "ok",
+    "query_count": 20,
+    "reason": null
+  },
+  {
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2026-02",
+    "model": "J10_TARGET_BLEND",
+    "cutoff": "2026-01-30",
+    "status": "ok",
+    "query_count": 21,
+    "reason": null
+  },
+  {
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2026-02",
+    "model": "J10_STRUCTURAL_BLEND",
+    "cutoff": "2026-01-30",
+    "status": "ok",
+    "query_count": 21,
+    "reason": null
+  },
+  {
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2026-02",
+    "model": "J10_HISTORY_SHRINK",
+    "cutoff": "2026-01-30",
+    "status": "ok",
+    "query_count": 21,
+    "reason": null
+  },
+  {
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2026-02",
+    "model": "J10_SMALL_BLEND",
+    "cutoff": "2026-01-30",
+    "status": "ok",
+    "query_count": 21,
+    "reason": null
+  },
+  {
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2026-02",
+    "model": "J10_TRANSFER_BLEND",
+    "cutoff": "2026-01-30",
+    "status": "ok",
+    "query_count": 21,
+    "reason": null
+  },
+  {
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2026-03",
+    "model": "J10_TARGET_BLEND",
+    "cutoff": "2026-02-27",
+    "status": "ok",
+    "query_count": 19,
+    "reason": null
+  },
+  {
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2026-03",
+    "model": "J10_STRUCTURAL_BLEND",
+    "cutoff": "2026-02-27",
+    "status": "ok",
+    "query_count": 19,
+    "reason": null
+  },
+  {
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2026-03",
+    "model": "J10_HISTORY_SHRINK",
+    "cutoff": "2026-02-27",
+    "status": "ok",
+    "query_count": 19,
+    "reason": null
+  },
+  {
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2026-03",
+    "model": "J10_SMALL_BLEND",
+    "cutoff": "2026-02-27",
+    "status": "ok",
+    "query_count": 19,
+    "reason": null
+  },
+  {
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2026-03",
+    "model": "J10_TRANSFER_BLEND",
+    "cutoff": "2026-02-27",
+    "status": "ok",
+    "query_count": 19,
+    "reason": null
+  },
+  {
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2026-04",
+    "model": "J10_TARGET_BLEND",
+    "cutoff": "2026-03-30",
+    "status": "ok",
+    "query_count": 20,
+    "reason": null
+  },
+  {
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2026-04",
+    "model": "J10_STRUCTURAL_BLEND",
+    "cutoff": "2026-03-30",
+    "status": "ok",
+    "query_count": 20,
+    "reason": null
+  },
+  {
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2026-04",
+    "model": "J10_HISTORY_SHRINK",
+    "cutoff": "2026-03-30",
+    "status": "ok",
+    "query_count": 20,
+    "reason": null
+  },
+  {
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2026-04",
+    "model": "J10_SMALL_BLEND",
+    "cutoff": "2026-03-30",
+    "status": "ok",
+    "query_count": 20,
+    "reason": null
+  },
+  {
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2026-04",
+    "model": "J10_TRANSFER_BLEND",
+    "cutoff": "2026-03-30",
+    "status": "ok",
+    "query_count": 20,
+    "reason": null
+  },
+  {
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2026-05",
+    "model": "J10_TARGET_BLEND",
+    "cutoff": "2026-04-30",
+    "status": "ok",
+    "query_count": 19,
+    "reason": null
+  },
+  {
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2026-05",
+    "model": "J10_STRUCTURAL_BLEND",
+    "cutoff": "2026-04-30",
+    "status": "ok",
+    "query_count": 19,
+    "reason": null
+  },
+  {
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2026-05",
+    "model": "J10_HISTORY_SHRINK",
+    "cutoff": "2026-04-30",
+    "status": "ok",
+    "query_count": 19,
+    "reason": null
+  },
+  {
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2026-05",
+    "model": "J10_SMALL_BLEND",
+    "cutoff": "2026-04-30",
+    "status": "ok",
+    "query_count": 19,
+    "reason": null
+  },
+  {
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2026-05",
+    "model": "J10_TRANSFER_BLEND",
+    "cutoff": "2026-04-30",
+    "status": "ok",
+    "query_count": 19,
+    "reason": null
+  },
+  {
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2026-06",
+    "model": "J10_TARGET_BLEND",
+    "cutoff": "2026-05-29",
+    "status": "ok",
+    "query_count": 21,
+    "reason": null
+  },
+  {
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2026-06",
+    "model": "J10_STRUCTURAL_BLEND",
+    "cutoff": "2026-05-29",
+    "status": "ok",
+    "query_count": 21,
+    "reason": null
+  },
+  {
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2026-06",
+    "model": "J10_HISTORY_SHRINK",
+    "cutoff": "2026-05-29",
+    "status": "ok",
+    "query_count": 21,
+    "reason": null
+  },
+  {
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2026-06",
+    "model": "J10_SMALL_BLEND",
+    "cutoff": "2026-05-29",
+    "status": "ok",
+    "query_count": 21,
+    "reason": null
+  },
+  {
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2026-06",
+    "model": "J10_TRANSFER_BLEND",
+    "cutoff": "2026-05-29",
+    "status": "ok",
+    "query_count": 21,
+    "reason": null
+  },
+  {
+    "horizon": 21,
+    "cohort": "later",
+    "fold": "2026-07",
+    "model": "J10_TARGET_BLEND",
+    "cutoff": "2026-06-30",
+    "status": "ok",
+    "query_count": 23,
+    "reason": null
+  },
+  {
+    "horizon": 21,
+    "cohort": "later",
+    "fold": "2026-07",
+    "model": "J10_STRUCTURAL_BLEND",
+    "cutoff": "2026-06-30",
+    "status": "ok",
+    "query_count": 23,
+    "reason": null
+  },
+  {
+    "horizon": 21,
+    "cohort": "later",
+    "fold": "2026-07",
+    "model": "J10_HISTORY_SHRINK",
+    "cutoff": "2026-06-30",
+    "status": "ok",
+    "query_count": 23,
+    "reason": null
+  },
+  {
+    "horizon": 21,
+    "cohort": "later",
+    "fold": "2026-07",
+    "model": "J10_SMALL_BLEND",
+    "cutoff": "2026-06-30",
+    "status": "ok",
+    "query_count": 23,
+    "reason": null
+  },
+  {
+    "horizon": 21,
+    "cohort": "later",
+    "fold": "2026-07",
+    "model": "J10_TRANSFER_BLEND",
+    "cutoff": "2026-06-30",
+    "status": "ok",
+    "query_count": 23,
+    "reason": null
+  },
+  {
+    "horizon": 21,
+    "cohort": "later",
+    "fold": "2026-08",
+    "model": "J10_TARGET_BLEND",
+    "cutoff": "2026-07-31",
+    "status": "ok",
+    "query_count": 21,
+    "reason": null
+  },
+  {
+    "horizon": 21,
+    "cohort": "later",
+    "fold": "2026-08",
+    "model": "J10_STRUCTURAL_BLEND",
+    "cutoff": "2026-07-31",
+    "status": "ok",
+    "query_count": 21,
+    "reason": null
+  },
+  {
+    "horizon": 21,
+    "cohort": "later",
+    "fold": "2026-08",
+    "model": "J10_HISTORY_SHRINK",
+    "cutoff": "2026-07-31",
+    "status": "ok",
+    "query_count": 21,
+    "reason": null
+  },
+  {
+    "horizon": 21,
+    "cohort": "later",
+    "fold": "2026-08",
+    "model": "J10_SMALL_BLEND",
+    "cutoff": "2026-07-31",
+    "status": "ok",
+    "query_count": 21,
+    "reason": null
+  },
+  {
+    "horizon": 21,
+    "cohort": "later",
+    "fold": "2026-08",
+    "model": "J10_TRANSFER_BLEND",
+    "cutoff": "2026-07-31",
+    "status": "ok",
+    "query_count": 21,
+    "reason": null
+  },
+  {
+    "horizon": 21,
+    "cohort": "later",
+    "fold": "2026-09",
+    "model": "J10_TARGET_BLEND",
+    "cutoff": "2026-08-31",
+    "status": "ok",
+    "query_count": 21,
+    "reason": null
+  },
+  {
+    "horizon": 21,
+    "cohort": "later",
+    "fold": "2026-09",
+    "model": "J10_STRUCTURAL_BLEND",
+    "cutoff": "2026-08-31",
+    "status": "ok",
+    "query_count": 21,
+    "reason": null
+  },
+  {
+    "horizon": 21,
+    "cohort": "later",
+    "fold": "2026-09",
+    "model": "J10_HISTORY_SHRINK",
+    "cutoff": "2026-08-31",
+    "status": "ok",
+    "query_count": 21,
+    "reason": null
+  },
+  {
+    "horizon": 21,
+    "cohort": "later",
+    "fold": "2026-09",
+    "model": "J10_SMALL_BLEND",
+    "cutoff": "2026-08-31",
+    "status": "ok",
+    "query_count": 21,
+    "reason": null
+  },
+  {
+    "horizon": 21,
+    "cohort": "later",
+    "fold": "2026-09",
+    "model": "J10_TRANSFER_BLEND",
+    "cutoff": "2026-08-31",
+    "status": "ok",
+    "query_count": 21,
+    "reason": null
+  },
+  {
+    "horizon": 21,
+    "cohort": "later",
+    "fold": "2026-10",
+    "model": "J10_TARGET_BLEND",
+    "cutoff": "2026-09-30",
+    "status": "ok",
+    "query_count": 11,
+    "reason": null
+  },
+  {
+    "horizon": 21,
+    "cohort": "later",
+    "fold": "2026-10",
+    "model": "J10_STRUCTURAL_BLEND",
+    "cutoff": "2026-09-30",
+    "status": "ok",
+    "query_count": 11,
+    "reason": null
+  },
+  {
+    "horizon": 21,
+    "cohort": "later",
+    "fold": "2026-10",
+    "model": "J10_HISTORY_SHRINK",
+    "cutoff": "2026-09-30",
+    "status": "ok",
+    "query_count": 11,
+    "reason": null
+  },
+  {
+    "horizon": 21,
+    "cohort": "later",
+    "fold": "2026-10",
+    "model": "J10_SMALL_BLEND",
+    "cutoff": "2026-09-30",
+    "status": "ok",
+    "query_count": 11,
+    "reason": null
+  },
+  {
+    "horizon": 21,
+    "cohort": "later",
+    "fold": "2026-10",
+    "model": "J10_TRANSFER_BLEND",
+    "cutoff": "2026-09-30",
+    "status": "ok",
+    "query_count": 11,
+    "reason": null
+  }
+]

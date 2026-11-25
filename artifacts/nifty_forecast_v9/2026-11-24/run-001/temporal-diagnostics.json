@@ -1,0 +1,7 @@
+{
+  "retrospective_max_abs_CUSUM": "2026-05-20",
+  "observed_max_cusum": 9.226376627456235,
+  "causal_alarm_rule": "Compare last 21 resolved losses with previous up to 42. Alarm only after endpoints preceding origin. Diagnostic, no ex-post break is a gate input.",
+  "pairing": "One-to-one retrospective minimum-distance matching between later and earlier states. Normalized using earlier observations. No causal attribution.",
+  "gap_algebra": "early expanding minus early fixed + early fixed minus later fixed + later fixed minus later expanding. Date effect conflates regime and unmeasured differences."
+}

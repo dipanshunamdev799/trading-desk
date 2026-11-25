@@ -1,0 +1,83 @@
+{
+  "registered_at": "2026-11-24T12:04:12.634786+05:30",
+  "cohort": "primary",
+  "configurations": {
+    "G_MATCH5": {
+      "frame": "both_changes",
+      "parent": "B_ROT",
+      "horizons": [
+        5
+      ],
+      "eligible": "foreign5",
+      "hypothesis": "Matched origins for narrowly specified direct or intermediate foreign contributions"
+    },
+    "G_DIRECT5": {
+      "frame": "direct5",
+      "parent": "G_MATCH5",
+      "horizons": [
+        5
+      ],
+      "eligible": "foreign5",
+      "hypothesis": "Matched origins for narrowly specified direct or intermediate foreign contributions"
+    },
+    "G_MEDIATE5": {
+      "frame": "intermediate5",
+      "parent": "G_MATCH5",
+      "horizons": [
+        5
+      ],
+      "eligible": "foreign5",
+      "hypothesis": "Matched origins for narrowly specified direct or intermediate foreign contributions"
+    },
+    "G_CONDITIONAL5": {
+      "frame": "intermediate_gate5",
+      "parent": "G_MEDIATE5",
+      "horizons": [
+        5
+      ],
+      "eligible": "foreign5",
+      "hypothesis": "Matched origins for narrowly specified direct or intermediate foreign contributions"
+    },
+    "G_MATCH21": {
+      "frame": "both_changes",
+      "parent": "B_ROT",
+      "horizons": [
+        21
+      ],
+      "eligible": "foreign21",
+      "hypothesis": "Matched origins for narrowly specified direct or intermediate foreign contributions"
+    },
+    "G_DIRECT21": {
+      "frame": "direct21",
+      "parent": "G_MATCH21",
+      "horizons": [
+        21
+      ],
+      "eligible": "foreign21",
+      "hypothesis": "Matched origins for narrowly specified direct or intermediate foreign contributions"
+    },
+    "G_MEDIATE21": {
+      "frame": "intermediate21",
+      "parent": "G_MATCH21",
+      "horizons": [
+        21
+      ],
+      "eligible": "foreign21",
+      "hypothesis": "Matched origins for narrowly specified direct or intermediate foreign contributions"
+    },
+    "G_CONDITIONAL21": {
+      "frame": "intermediate_gate21",
+      "parent": "G_MEDIATE21",
+      "horizons": [
+        21
+      ],
+      "eligible": "foreign21",
+      "hypothesis": "Matched origins for narrowly specified direct or intermediate foreign contributions"
+    }
+  },
+  "seed": 20261125,
+  "source": {
+    "models.py": "37056bce809a9e7dbecd72cd0c5a5fe91249866e9c32fefbad0a75d78ad2280e",
+    "experiments.py": "4f9135a1a17f2d26d7611d439a1c749973f8f3ac301ed1004b690a5036180a35"
+  }
+}

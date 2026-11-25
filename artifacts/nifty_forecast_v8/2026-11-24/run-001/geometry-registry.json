@@ -1,0 +1,105 @@
+{
+  "registered_at": "2026-11-24T12:02:14.002071+05:30",
+  "cohort": "primary",
+  "configurations": {
+    "B_NATIVE": {
+      "frame": "base",
+      "parent": "B_NATIVE",
+      "hypothesis": "V6 defensive deletion parent"
+    },
+    "B_FULL": {
+      "frame": "native",
+      "parent": "I03_nosize",
+      "hypothesis": "Full 57-input native parent"
+    },
+    "B_ROT": {
+      "frame": "both_changes",
+      "parent": "B_NATIVE",
+      "hypothesis": "Domestic rotation parent with fixed Ridge100"
+    },
+    "G_CANON": {
+      "frame": "native",
+      "parent": "B_FULL",
+      "dedup": true,
+      "hypothesis": "Use a stable canonical column per equivalent affine history"
+    },
+    "G_CLUSTER": {
+      "frame": "native",
+      "parent": "G_CANON",
+      "dedup": true,
+      "rep": "cluster",
+      "hypothesis": "Balance normalized correlation-cluster weight"
+    },
+    "G_ELASTIC": {
+      "frame": "native",
+      "parent": "G_CLUSTER",
+      "dedup": true,
+      "rep": "cluster",
+      "kind": "elastic",
+      "hypothesis": "Cluster-balanced Elastic Net"
+    },
+    "G_BAYES": {
+      "frame": "native",
+      "parent": "G_CLUSTER",
+      "dedup": true,
+      "rep": "cluster_bayes",
+      "kind": "bayes",
+      "hypothesis": "Group-aware Gaussian coefficient shrinkage with learned common precision"
+    },
+    "G_HIERARCHICAL": {
+      "frame": "native",
+      "parent": "G_CLUSTER",
+      "dedup": true,
+      "rep": "hierarchical",
+      "hypothesis": "Compound correlation-cluster and economic family penalties"
+    },
+    "G_COV": {
+      "frame": "native",
+      "parent": "G_CANON",
+      "dedup": true,
+      "rep": "covariance",
+      "hypothesis": "Shrink coefficients along strongly correlated sector directions"
+    },
+    "G_RESID": {
+      "frame": "native",
+      "parent": "G_CANON",
+      "dedup": true,
+      "rep": "factor_residual",
+      "hypothesis": "Separate grouped factors and shrunk residuals"
+    },
+    "G_REPRESENT": {
+      "frame": "native",
+      "parent": "G_CANON",
+      "dedup": true,
+      "rep": "representative",
+      "hypothesis": "Within-cluster representative from centrality and train-only target association"
+    },
+    "G_ROT_CLUSTER": {
+      "frame": "both_changes",
+      "parent": "B_ROT",
+      "dedup": true,
+      "rep": "cluster",
+      "hypothesis": "Cluster scaling on rotation parent"
+    },
+    "G_ROT_COV": {
+      "frame": "both_changes",
+      "parent": "B_ROT",
+      "dedup": true,
+      "rep": "covariance",
+      "hypothesis": "Covariance penalty on rotation parent"
+    },
+    "G_ROT_ELASTIC": {
+      "frame": "both_changes",
+      "parent": "G_ROT_CLUSTER",
+      "dedup": true,
+      "rep": "cluster",
+      "kind": "elastic",
+      "hypothesis": "Combine cluster-balanced Elastic Net with domestic rotation"
+    }
+  },
+  "seed": 20261125,
+  "source": {
+    "models.py": "37056bce809a9e7dbecd72cd0c5a5fe91249866e9c32fefbad0a75d78ad2280e",
+    "experiments.py": "4f9135a1a17f2d26d7611d439a1c749973f8f3ac301ed1004b690a5036180a35"
+  }
+}

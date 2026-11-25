@@ -1,0 +1,19 @@
+{
+  "matched_complete_days": 90776,
+  "stocks": 444,
+  "missing_daily_values": 0,
+  "high_discrepancy_above1bp": 52,
+  "low_discrepancy_above1bp": 43,
+  "high_max_absolute_bp": 28.61362377699961,
+  "low_max_absolute_bp": 111.02299762093537,
+  "volume_ratio_bp_quantiles": {
+    "0": -9812.009065703085,
+    "0.01": -134.16763241834718,
+    "0.5": -4.411132111140081,
+    "0.99": 0.0,
+    "1": 26.04575970541312
+  },
+  "asof_close8_threshold_missed_by_daily_superset": [],
+  "elapsed_seconds": 51.87790540000424,
+  "scope": "Only stock-months already acquired; no independent claim on entirely unacquired months."
+}

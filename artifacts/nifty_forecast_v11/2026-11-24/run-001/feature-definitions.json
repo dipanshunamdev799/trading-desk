@@ -1,0 +1,242 @@
+{
+  "BREADTH": {
+    "columns": [
+      "b5_50",
+      "b5_500",
+      "b21_50",
+      "b21_500"
+    ],
+    "hash": "174651351849214a013c020814f6467ade984703d50e426e2da511238f9530f3",
+    "complete_rows": 403
+  },
+  "EQUAL": {
+    "columns": [
+      "nifty50equalweight",
+      "nifty500equalweight"
+    ],
+    "hash": "bfe2fe2add46b6b9b1049885adf1ea9c37be3f1c07516c1a0f705ef925ad2631",
+    "complete_rows": 403
+  },
+  "CAP": {
+    "columns": [
+      "cap_nifty50",
+      "cap_nifty500"
+    ],
+    "hash": "b8baa569c312f7755f02754ce8a7cb5644cdf166097d2575dfeacec73e9e21c7",
+    "complete_rows": 403
+  },
+  "PAIR100": {
+    "columns": [
+      "b5_100",
+      "b21_100"
+    ],
+    "hash": "e47cdcc40a8ae20adba52c715a192f40473f7422cfe74521211f1461a5e3c084",
+    "complete_rows": 403
+  },
+  "CONTROL": {
+    "columns": [
+      "size",
+      "small",
+      "rel_risk",
+      "rel_level_risk"
+    ],
+    "hash": "896df564d78ead54650b130240e9d3eef5200ad9af50a652f4281374709a8335",
+    "complete_rows": 403
+  },
+  "CHANGE": {
+    "columns": [
+      "b_accel",
+      "b_weak_market_up",
+      "b_divergence",
+      "b_risk"
+    ],
+    "hash": "a074ca4cd9fb0a0a9d78c798b65fc7db52d0c4416580972250c333af17ac437a",
+    "complete_rows": 403
+  },
+  "PERSIST": {
+    "columns": [
+      "b_persist50",
+      "b_persist500",
+      "b_participation_persist"
+    ],
+    "hash": "2bb9ea1488063e6994b834984d2277d9028a356f9ef68de65b39ca5979a7b1ee",
+    "complete_rows": 403
+  },
+  "FACTOR": {
+    "columns": [
+      "q_quality",
+      "q_lowvol"
+    ],
+    "hash": "5acc3ed877ed01a30030016a2f57e2a9f80fb60bd944a00334b452db94bf3360",
+    "complete_rows": 321
+  },
+  "CONC": {
+    "columns": [
+      "lead_narrow",
+      "lead_large",
+      "lead_sector_concentration",
+      "lead_rank_change",
+      "lead_sector_dispersion",
+      "lead_finance_spread"
+    ],
+    "hash": "c240baff35e75a02ce261a5f00a35d49492021e1ae7b4920b2ed8fdb27d36a52",
+    "complete_rows": 403
+  },
+  "INTERACT": {
+    "columns": [
+      "b_fin_interact",
+      "b_risk_interact",
+      "b_rebalance_month"
+    ],
+    "hash": "62fe7fc6ca1af44aaabfe61e9d4d9b032d455da07781329c797f729ea450258a",
+    "complete_rows": 403
+  },
+  "SAME_CLOSE": {
+    "columns": [
+      "b5_50",
+      "b5_500",
+      "b21_50",
+      "b21_500"
+    ],
+    "hash": "32b20ef12a253242edf92db36cbc9c622418a818a645e8c83b3e1047ab8fe08c",
+    "complete_rows": 403
+  },
+  "LAG5": {
+    "columns": [
+      "b5_50",
+      "b5_500",
+      "b21_50",
+      "b21_500"
+    ],
+    "hash": "c067920c342ec5c53e5f19788dcc3c8ac7b35802b78c4f64fe6d04bdd9a607f2",
+    "complete_rows": 403
+  },
+  "RESID": {
+    "columns": [
+      "b5_50",
+      "b5_500",
+      "b21_50",
+      "b21_500",
+      "size",
+      "small",
+      "rel_risk",
+      "rel_level_risk"
+    ],
+    "hash": "b06b7bf49bfa9bf3b35af24bf5b160f15eb8ec8f4edf29d702a931fac7ad1794",
+    "complete_rows": 403
+  },
+  "INTRADAY": {
+    "columns": [
+      "v11_mid_participation",
+      "v11_open_follow",
+      "v11_mid_finance",
+      "v11_close_concentration",
+      "v11_close_pressure",
+      "v11_mid_dispersion"
+    ],
+    "hash": "ac3058afee236b1036ab7081c57fac8eec7deef757e91263ad53326db70af414",
+    "complete_rows": 395
+  },
+  "GLOBAL": {
+    "columns": [
+      "q_india_diverge",
+      "q_global_shock",
+      "q_global_vix",
+      "q_corr_change"
+    ],
+    "hash": "0a3701a3cf07ac0b9761d1f4bb5daccae28ca63d1b353c78732e0e3324ba212e",
+    "complete_rows": 369
+  },
+  "DERIV": {
+    "columns": [
+      "same_contract_excess_log_return",
+      "oi_change_over_volume",
+      "roll_open_interest_shift",
+      "near_oi_concentration",
+      "next_volume_share",
+      "front_roll",
+      "net_carry_innovation",
+      "curve_30d",
+      "straddle_21day_scale"
+    ],
+    "hash": "ab7c369338af1495e913f94b5c8659fbc2f61da804b674dc8f85efb397dec99f",
+    "complete_rows": 403
+  },
+  "ETF": {
+    "columns": [
+      "e_activity",
+      "e_impact",
+      "e_rv",
+      "e_tracked_spread",
+      "e_turn",
+      "e_shock",
+      "e_activity_participation"
+    ],
+    "hash": "5a17ce17f9483a2b3fa0c7f012022eb282b53acaa54d802bb9fbf54b94ae092b",
+    "complete_rows": 398
+  },
+  "STATE": {
+    "columns": [
+      "s_vol",
+      "s_liquidity",
+      "s_defensive",
+      "s_bank",
+      "b5_500",
+      "lead_sector_concentration",
+      "q_india_diverge"
+    ],
+    "hash": "922fd952239b4b8186b1be20a9a287caed3dbbb63b33dfe6a9caaf6acd391bbd",
+    "complete_rows": 372
+  },
+  "STATE_CHANGE": {
+    "columns": [
+      "s_vol",
+      "s_liquidity",
+      "s_defensive",
+      "s_bank",
+      "b5_500",
+      "lead_sector_concentration",
+      "q_india_diverge"
+    ],
+    "hash": "6873ff3fd7bbf8b87f90a7f78384fffa411e7071323a3762d0816cdcd5a5ef3f",
+    "complete_rows": 367
+  },
+  "STATE_PERSIST": {
+    "columns": [
+      "s_vol",
+      "s_liquidity",
+      "s_defensive",
+      "s_bank",
+      "b5_500",
+      "lead_sector_concentration",
+      "q_india_diverge"
+    ],
+    "hash": "7c8dc7b707d214d87ad1ad8dd2014d655e378dd9813a51a668e4918d0ffadcda",
+    "complete_rows": 358
+  },
+  "US_CAP": {
+    "columns": [
+      "us_cap5",
+      "us_cap21",
+      "us_risk",
+      "us_sector5"
+    ],
+    "hash": "de7a7201f025068ffdaa505af8f654354c72d822a94d1bdc8d197431be303066",
+    "complete_rows": 403
+  },
+  "US_EQ": {
+    "columns": [
+      "us_breadth5",
+      "us_breadth21"
+    ],
+    "hash": "3ddc0d61ba5f87ddd78a6246e724b401f1cea596d986fd2673585ec5a1d968da",
+    "complete_rows": 403
+  },
+  "US_DIVERGE": {
+    "columns": [
+      "us_india_breadth_gap"
+    ],
+    "hash": "34f8898bff46ae4c9f466b7ab95c3f8c8fd8257c191be8259d0a985cef94790f",
+    "complete_rows": 403
+  }
+}

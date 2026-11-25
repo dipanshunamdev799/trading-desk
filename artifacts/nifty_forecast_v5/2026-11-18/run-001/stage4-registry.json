@@ -1,0 +1,33 @@
+{
+  "registered_at": "2026-11-18T22:38:56.049724+05:30",
+  "rationale": "Volume/ETF information was acquired but not represented in earlier V5 regression families; add actual INR gold/silver and foreign-equity ETF proxies, not invented commodity spot or IV.",
+  "models": {
+    "L00": {
+      "base": "P00",
+      "hypothesis": "ETF activity incremental to price"
+    },
+    "L01": {
+      "base": "I00",
+      "hypothesis": "ETF activity incremental to native internals"
+    },
+    "L02": {
+      "base": "C00",
+      "hypothesis": "ETF activity incremental to global/Indian state"
+    },
+    "L03": {
+      "base": "C00",
+      "hypothesis": "Additional wider-stock volume participation; survivorship-exposed",
+      "research_only": true
+    }
+  },
+  "requested_symbols": [
+    "GOLDBEES",
+    "SILVERBEES",
+    "MON100",
+    "HNGSNGBEES"
+  ],
+  "features": "ETF ret5,rv21,volume/prior21median and NIFTYBEES; basket median volume ratio/active advance/volume dispersion",
+  "no_tuning": true,
+  "status": "Registered exploratory expansion after stages1/2; additional multiplicity, not new validation",
+  "source_sha256": "23ad0c6da6a613801bc1a013dd6f9ac03e8880b42316d3157c7b9ee3ecb13387"
+}

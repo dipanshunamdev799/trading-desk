@@ -1,0 +1,85 @@
+{
+  "rule": "First5 highest pre2025liquidity archived core +5outsidecore; latest2sessions with>=300source minutes; no performance selection",
+  "selected": [
+    {
+      "key": "NSE_EQ|INE040A01034",
+      "day": "2026-10-29",
+      "group": "v2_core"
+    },
+    {
+      "key": "NSE_EQ|INE040A01034",
+      "day": "2026-11-13",
+      "group": "v2_core"
+    },
+    {
+      "key": "NSE_EQ|INE002A01018",
+      "day": "2026-10-29",
+      "group": "v2_core"
+    },
+    {
+      "key": "NSE_EQ|INE002A01018",
+      "day": "2026-11-13",
+      "group": "v2_core"
+    },
+    {
+      "key": "NSE_EQ|INE090A01021",
+      "day": "2026-10-29",
+      "group": "v2_core"
+    },
+    {
+      "key": "NSE_EQ|INE090A01021",
+      "day": "2026-11-13",
+      "group": "v2_core"
+    },
+    {
+      "key": "NSE_EQ|INE758T01015",
+      "day": "2026-10-29",
+      "group": "v2_core"
+    },
+    {
+      "key": "NSE_EQ|INE758T01015",
+      "day": "2026-11-13",
+      "group": "v2_core"
+    },
+    {
+      "key": "NSE_EQ|INE118H01025",
+      "day": "2026-10-29",
+      "group": "v2_core"
+    },
+    {
+      "key": "NSE_EQ|INE118H01025",
+      "day": "2026-11-13",
+      "group": "v2_core"
+    },
+    {
+      "key": "NSE_EQ|INE019A01038",
+      "day": "2026-10-29",
+      "group": "outside_v2_core"
+    },
+    {
+      "key": "NSE_EQ|INE019A01038",
+      "day": "2026-11-13",
+      "group": "outside_v2_core"
+    },
+    {
+      "key": "NSE_EQ|INE047A01021",
+      "day": "2026-10-29",
+      "group": "outside_v2_core"
+    },
+    {
+      "key": "NSE_EQ|INE047A01021",
+      "day": "2026-11-13",
+      "group": "outside_v2_core"
+    },
+    {
+      "key": "NSE_EQ|INE192A01025",
+      "day": "2026-10-29",
+      "group": "outside_v2_core"
+    },
+    {
+      "key": "NSE_EQ|INE192A01025",
+      "day": "2026-11-13",
+      "group": "outside_v2_core"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "scope": {
+    "early": {
+      "contrasts": 5274,
+      "origins": 173,
+      "critical": {
+        "5": 3.918522606930388,
+        "10": 4.000665629552651,
+        "15": 4.011565228108821
+      }
+    },
+    "later": {
+      "contrasts": 6410,
+      "origins": 92,
+      "critical": {
+        "5": 3.8664213218010137,
+        "10": 3.761477478648002,
+        "15": 3.604304315155662
+      }
+    },
+    "combined": {
+      "contrasts": 5274,
+      "origins": 265,
+      "critical": {
+        "5": 3.927902281932295,
+        "10": 3.9770852563946466,
+        "15": 3.9545915161285583
+      }
+    }
+  },
+  "comparisons_excluded_for_outcome_mismatch": [],
+  "procedure": "2000 shared circular block resamples. Maximum standardized error across all weekly paired Brier and CRPS contrasts in the scope.",
+  "monthly": "Matched point estimates and disjoint sensitivity. Tight interval estimates not reported."
+}

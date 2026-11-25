@@ -1,0 +1,42 @@
+[
+  {
+    "name": "gold_proxy",
+    "source": "https://api.upstox.com/v3/historical-candle/NSE_EQ%7CINF204KB17I5/days/1/2026-11-17/2025-01-01",
+    "start": "2025-01-01",
+    "end": "2026-11-17",
+    "http": 200,
+    "rows": 466,
+    "sha256": "270fa491bdb5715d9689f7aec50fd348f7d2899343ec89bbcc1b1f426eef71a3",
+    "path": "sources/upstox/gold_proxy.json"
+  },
+  {
+    "name": "sector_sample",
+    "source": "https://api.upstox.com/v3/historical-candle/NSE_INDEX%7CNifty%20Bank/minutes/5/2026-11-17/2026-11-01",
+    "start": "2026-11-01",
+    "end": "2026-11-17",
+    "http": 200,
+    "complete_normal_grids": 11,
+    "rows": 839,
+    "sha256": "44a0a2c182c6c9b2447eb0df0a740fb89d840f16343373f6cffd0905743bbe0b",
+    "path": "sources/upstox/sector_sample.json"
+  },
+  {
+    "name": "etf_sample",
+    "source": "https://api.upstox.com/v3/historical-candle/NSE_EQ%7CINF204KB14I2/minutes/5/2026-11-17/2026-11-01",
+    "start": "2026-11-01",
+    "end": "2026-11-17",
+    "http": 200,
+    "complete_normal_grids": 11,
+    "rows": 839,
+    "sha256": "2fb33244d8f8ce182ea36a4979ca4173b5aaf1cc735d7153ab4e671e0d764d01",
+    "path": "sources/upstox/etf_sample.json"
+  },
+  {
+    "name": "nasdaq_implied",
+    "source": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=VXNCLS&cosd=2025-01-01&coed=2026-11-17",
+    "http": 200,
+    "rows": 489,
+    "sha256": "0c67e59148d01ea7d054a831301768a9feae857bda6a0f8a148793b794e5871b",
+    "path": "sources/VXNCLS-2025-26.csv"
+  }
+]

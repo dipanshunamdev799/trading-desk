@@ -1,0 +1,38 @@
+{
+  "registered_at": "2026-11-24T11:41:32.432794+05:30",
+  "links": {
+    "it": [
+      "g_IXIX_ret1",
+      "g_IXIX_ret5"
+    ],
+    "energy": [
+      "g_BZUSD_ret5",
+      "g_USDINR_ret5",
+      "x_oil_fx"
+    ],
+    "synchrony": [
+      "x_global_vol",
+      "x_global_dispersion"
+    ],
+    "breadth": [
+      "g_^HSI_ret5",
+      "g_^N225_ret5",
+      "asia_dispersion"
+    ],
+    "magnitude": [
+      "x_global_vol",
+      "x_global_dispersion"
+    ],
+    "volatility": [
+      "x_global_vol",
+      "x_global_dispersion"
+    ],
+    "large_move": [
+      "x_global_dispersion",
+      "x_global_mean"
+    ]
+  },
+  "fixed_gates": "high-correlation state >.60, high volatility threshold based on median training p_rv21",
+  "protocol": "First fit own-state vs targeted global inputs for each intermediate. Downstream receives reconstructed incremental forecasts. Dynamics vs identical levels separately tested for magnitude, volatility and large moves.",
+  "target_definition": "IT and energy future relative 5/21-session changes. Breadth/correlation at horizon endpoint. Magnitude |endpoint return|. Volatility annualized RMS of realized path. Large move |endpoint return| exceeds 2% weekly or 4% monthly."
+}

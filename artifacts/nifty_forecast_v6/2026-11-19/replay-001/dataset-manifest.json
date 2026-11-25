@@ -1,0 +1,21 @@
+{
+  "created_at": "2026-11-19T15:57:57.294482+05:30",
+  "rows": 403,
+  "first": "2025-04-02",
+  "last": "2026-11-17",
+  "native_features": 57,
+  "deep_features": 105,
+  "files": {
+    "native-reference.csv": "d3b7a07f32de5f25e280f5d0d8ad729ee649b3f8ab74087366d14ab3178c46ed",
+    "deep-features.csv": "1a5b9c1c56f69f3557d295c92e88c89267465f4609204e355a29561a8c8f05fa",
+    "liquidity-reference.csv": "782cdb8f93895b10b7c709e8ec5ee8e4fc661cf5cdf5ddb9f8029cb08dd75af8",
+    "global-reference.csv": "53275d807d0ea48865fcc44373a00b854b6891e76718d2b5c3165e75e4d09f3b",
+    "price.csv": "50d45b78113c56ffd0e2a9c91b6e8fccd0fc22221277cc44d297e7dae17899fc",
+    "labels-1.csv": "4fca9c7005a07de9c3eeadd07c161a8aa9a6e05cd32956af2e5f55077ece9207",
+    "labels-3.csv": "dcacd2a38122f8bc67229c3934e9b0c160682d743951afbeca382e21262c01a4",
+    "labels-5.csv": "64b38fc52e61b5e1655593867d1aa780364ffb7007ab5a62e6222a79b352e97c",
+    "labels-10.csv": "1be1dbf2964b9f978b27fe3defa4d48b2f470f8e550e7a5285f3e5455d2b4c35",
+    "labels-15.csv": "5556a7ad568f8889cefb06ac6b01db1d412e73dbf60405d3a7d7d627a82b768e",
+    "labels-21.csv": "9016b3cf3bcff98df346f7f8db47cf43c7cdd6d390ae5c731cbfd5290ba26c80"
+  }
+}

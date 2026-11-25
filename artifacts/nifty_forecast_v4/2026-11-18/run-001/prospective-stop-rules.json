@@ -1,0 +1,17 @@
+{
+  "frozen_at": "2026-11-18T09:42:44.016908+05:30",
+  "fixed_final_disjoint_n": {
+    "5": 14421,
+    "21": 1103
+  },
+  "primary_family_size": 4,
+  "alpha": 0.05,
+  "weekly_primary_metric": "Brier; three frozen matched comparisons",
+  "monthly_primary_metric": "CRPS D03 vs D00",
+  "interims": "Descriptive only; no significance claims or activation from interim p-values",
+  "qualification": "At fixed final N: simultaneous positive proper-score improvement; adequate calibration; stable subperiod signs; no leakage; noninferior log loss and no material coverage failure. No automatic deployment.",
+  "coverage_gate": "Both 50% and80% coverage within10 percentage points of nominal on adequately sampled disjoint prospective outcomes; report Wilson intervals",
+  "failure": "Missed clock/missing required source => skip; tamper/calendar/revision => halt for versioned review; never overwrite; source/model change => new registry and cohort",
+  "scope_stop": "No input, target, or resolution outside2025\u20132026; freeze collection when any endpoint would enter2027",
+  "feasibility": "Required samples exceed remaining2026 opportunities; NO DEPLOYMENT; future scope extension requires user instruction"
+}

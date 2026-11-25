@@ -1,0 +1,45 @@
+version,path,sha256,structure
+3,artifacts/nifty_forecast_v3/2026-11-17/run-001/registry-config.json,9bc44a1d026fc978b7f6cf83b507428422cc16f1d2325e52755842b981d56039,dict
+4,artifacts/nifty_forecast_v4/2026-11-18/run-001/registry.json,c368fa55953a0fac065fd626c9974bc211e48bd600ef3bf20dd330b3ceebfa60,dict
+5,artifacts/nifty_forecast_v5/2026-11-18/run-001/attribution-registry.json,b6dd200c8a0be5b5cd2af1a566d5104192dd95d8f81ce8e749b37bb1e3e6002d,dict
+5,artifacts/nifty_forecast_v5/2026-11-18/run-001/experiment-registry.json,f943c7d2535603900d110c316fa47ecbd0313c7f032ecd6defd013b0526f7c2c,list
+5,artifacts/nifty_forecast_v5/2026-11-18/run-001/registry.json,34a9bfb7c66518cad63653cb2e34caf21cb7601736b8d49b84dc33b8aed83df1,dict
+5,artifacts/nifty_forecast_v5/2026-11-18/run-001/stage3-registry.json,86c878b70294d33fd79fea5e5dbd779291f0eb847ff91bba93bbd29d88e886c7,dict
+5,artifacts/nifty_forecast_v5/2026-11-18/run-001/stage4-registry.json,27c483b35f5ab7d3d81cccaf78f25745dd7e173b16c3976aa81ec9617f8816e0,dict
+6,artifacts/nifty_forecast_v6/2026-11-19/run-001/experiment-registry.json,34fc147b99f9e702ee67a862add550c62ae5530d22a8a8dc2e8eefd4882b251d,list
+6,artifacts/nifty_forecast_v6/2026-11-19/run-001/followup-registry.json,30c4b9ec01563a21da067ff65888e57d46670487c7c78b74ac018c9a8ef523d6,dict
+6,artifacts/nifty_forecast_v6/2026-11-19/run-001/forensic-registry.json,880096f6414addd1e553896d5a2cd2f962748a0685f8d1922c6982758de3bcae,dict
+6,artifacts/nifty_forecast_v6/2026-11-19/run-001/model-registry.json,eef83c6661d30e2f9375baf4843965e56bfd0bce3d08e41321ebe120b488164c,dict
+7,artifacts/nifty_forecast_v7/2026-11-24/run-001/advanced-registry.json,0421d8f50d01326f1ec565627a8ed53db6c7a605a2862c281f4b6c1077042268,dict
+7,artifacts/nifty_forecast_v7/2026-11-24/run-001/compression-registry.json,5f81220cdd931ec7bcb191a7287ed37f84e5422100a47234aa714ce09ec54134,dict
+7,artifacts/nifty_forecast_v7/2026-11-24/run-001/distribution-registry.json,72a6367f362f73c2f1dcde3f74f6e3ac1f140feacd2fdfea39faff4fd2530b9f,dict
+7,artifacts/nifty_forecast_v7/2026-11-24/run-001/experiment-registry.json,3de60a06fbe750fb475c071c58aecf6eb1fabd434cb2799bba2868fc53963e73,dict
+7,artifacts/nifty_forecast_v7/2026-11-24/run-001/falsification-registry.json,63cc11f81ae291426976ac35713f09f6106f0f88f776322e427897f09f1da2df,dict
+7,artifacts/nifty_forecast_v7/2026-11-24/run-001/followup-registry.json,780d83fc8559e62477278e17886b0ae5b16406966be383c1413110c0cad857fe,dict
+7,artifacts/nifty_forecast_v7/2026-11-24/run-001/global-registry.json,47f6e2d77feb937ea5c38fa3d5058a2e40f1d285049f438ea4caa8ea7c924e02,dict
+7,artifacts/nifty_forecast_v7/2026-11-24/run-001/integration-registry.json,7b41a73b01a18bc721d1311bce39156a14b151915729c186ac7524a792157b05,dict
+7,artifacts/nifty_forecast_v7/2026-11-24/run-001/intermediate-registry.json,4eee9bd5f133296a68a6f08cb13e9ddf119ff3ee0a09679aadb6afe0dec830ba,dict
+7,artifacts/nifty_forecast_v7/2026-11-24/run-001/liquidity-registry.json,938a59159566dc67515d6057d59d7353ae24fc5eb35252bea39fef8316e28fd6,dict
+7,artifacts/nifty_forecast_v7/2026-11-24/run-001/structure-registry.json,3be82af221fb78ed8bfc4d7eb081794f5358a98e9ff6ab03da94a6ce32851c7a,dict
+8,artifacts/nifty_forecast_v8/2026-11-24/run-001/additional-registry.json,82fd3bcc1cee86f75fe79b888da7733b60b8a01c7feea78b4900b60530fc382c,dict
+8,artifacts/nifty_forecast_v8/2026-11-24/run-001/coverage-registry.json,46e6b94757ef115357187000fe765e362833ae91e23a99400d5d2f2dde7cdcf1,dict
+8,artifacts/nifty_forecast_v8/2026-11-24/run-001/distribution-registry.json,06615450b31fdf40c9765a9c95ae41692ff745cc00070eea2ffdb10f88285869,dict
+8,artifacts/nifty_forecast_v8/2026-11-24/run-001/geometry-registry.json,b60ba186a3fce8a0a9248a61c4ace13ae552904f41b8a3919b69959312ee4ee0,dict
+8,artifacts/nifty_forecast_v8/2026-11-24/run-001/global-registry.json,7c920808bb39a91d36be1947a3341521dc8f7216bfaec81197e825fe30cab3f2,dict
+8,artifacts/nifty_forecast_v8/2026-11-24/run-001/integration-registry.json,46d3ba0ce918f0171c2fece52a92ffef03f8fdd209f3d06c10f57c4b9afd853e,dict
+8,artifacts/nifty_forecast_v8/2026-11-24/run-001/intermediate-registry.json,7f50a938724ba5567b91077b963572a411b602e0399fbe82b519eda86a32fae7,dict
+8,artifacts/nifty_forecast_v8/2026-11-24/run-001/invariance-registry.json,14a0f2996bf9b7462e786a3ceb5c9b9622b0b9dabb9ab3bc43993d67b79fa00d,dict
+8,artifacts/nifty_forecast_v8/2026-11-24/run-001/monthly-registry.json,ead3714887425ad539feb84c2d48753924e6ff117907d09f0bed57edaa766118,dict
+8,artifacts/nifty_forecast_v8/2026-11-24/run-001/rotation-registry.json,48be0e0178fcdfb11b356a50214352ada16a27739e36da5984b8da6be31c7899,dict
+8,artifacts/nifty_forecast_v8/2026-11-24/run-001/sector-alias-registry.json,f6cc812b13b59eeaa197072e6e2c0ddb66e3539eeaadd22545eae4c5f01d0322,dict
+8,artifacts/nifty_forecast_v8/2026-11-24/run-001/smoothmatch-registry.json,f9df6efc2795cca9db2caaff5a1dde28977b66cd97fe0ebab4f626b482e17788,dict
+8,artifacts/nifty_forecast_v8/2026-11-24/run-001/stress-registry.json,f6dda97041a70eae65ab0d86fb45a4a2aadbaabf2fa25bd20e8b3cb8c3541160,dict
+1–2,artifacts/nifty_forecast/2026-11-17/adaptive-v1/artifact-manifest.json,c5d810e773bdb785fde5441248d229a7236ee18f998f145cfe6570ffe5afda97,legacy manifest
+1–2,artifacts/nifty_forecast/2026-11-17/adaptive-v2/artifact-manifest.json,0d4e2a4b7b1b4c00fd0f1e41885d23de936556e8818e16f2dd960bf0ecedee12,legacy manifest
+1–2,artifacts/nifty_forecast/2026-11-17/horizons-v1/artifact-manifest.json,046ce9746ae0cb7efeeb4895cc430aa252ce47de3541e9d4f8171c2fc4e09dd1,legacy manifest
+1–2,artifacts/nifty_forecast/2026-11-17/horizons-v2/artifact-manifest.json,91c5a1d11eca39949c3efcf428154160c5ae34a4b42f045e061923f94d36bff9,legacy manifest
+1–2,artifacts/nifty_forecast/2026-11-17/inputs-v1/manifest.json,035815784c14286c3094922b5cc4019c74340a1d04d99c3b1813ef468cae0b57,legacy manifest
+1–2,artifacts/nifty_forecast/2026-11-17/inputs-v2/manifest.json,292fec90c23e694b0578bfe88e40559e7ef973f879ac0d6b82da1680169d192f,legacy manifest
+1–2,artifacts/nifty_forecast/2026-11-17/institutional-v1/manifest.json,82677dbdaff0fe7595d7652df6943468d5b31678cbb46db66e3b52b1582b1316,legacy manifest
+1–2,artifacts/nifty_forecast/2026-11-17/supplement-v1/manifest.json,408d52997a241b4a24a8da24a08c07bffd06bebf0bf87dcff354910e77a30129,legacy manifest
+1–2,artifacts/nifty_forecast/2026-11-17/two-year-v1/artifact-manifest.json,fbb943a90ab4a0e02685ce073474a0a863a4dd42035b1cda5a6ad5e75f3b0f22,legacy manifest

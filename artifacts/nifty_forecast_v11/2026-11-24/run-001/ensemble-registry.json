@@ -1,0 +1,273 @@
+{
+  "registered": "2026-11-24T14:36:29.332598+05:30",
+  "models": {
+    "J11_FIXED_EQ": {
+      "parent": "J10_STRUCTURAL_BLEND",
+      "experts": [
+        "B_ROT",
+        "B_SPARSE_EQ",
+        "D_EQ_STUDENT"
+      ],
+      "policy": [
+        0.4,
+        0.3,
+        0.3
+      ],
+      "diagnostic": false
+    },
+    "J11_FIXED_NATIVE_EQ": {
+      "parent": "J11_FIXED_EQ",
+      "experts": [
+        "B_NATIVE_EQ",
+        "B_SPARSE_EQ",
+        "D_EQ_STUDENT"
+      ],
+      "policy": [
+        0.4,
+        0.3,
+        0.3
+      ],
+      "diagnostic": false
+    },
+    "J11_FIXED_HIST": {
+      "parent": "J10_HISTORY_SHRINK",
+      "experts": [
+        "B_ROT",
+        "B_SPARSE_EQ",
+        "D_EQ_STUDENT",
+        "HISTORY"
+      ],
+      "policy": [
+        0.2,
+        0.15,
+        0.15,
+        0.5
+      ],
+      "diagnostic": false
+    },
+    "J11_EQUAL": {
+      "parent": "J11_FIXED_EQ",
+      "experts": [
+        "B_ROT",
+        "B_SPARSE_EQ",
+        "D_EQ_STUDENT",
+        "L_EQ_CONC",
+        "HISTORY",
+        "D_EQ_SIGNMAG"
+      ],
+      "policy": null,
+      "diagnostic": false
+    },
+    "J11_NO_BREADTH": {
+      "parent": "J11_FIXED_HIST",
+      "experts": [
+        "B_ROT",
+        "B_SPARSE",
+        "D_ROT_STUDENT",
+        "HISTORY"
+      ],
+      "policy": [
+        0.2,
+        0.15,
+        0.15,
+        0.5
+      ],
+      "diagnostic": false
+    },
+    "J11_HISTORY_MORE": {
+      "parent": "J11_EQUAL",
+      "experts": [
+        "B_ROT",
+        "B_SPARSE_EQ",
+        "D_EQ_STUDENT",
+        "L_EQ_CONC",
+        "HISTORY",
+        "D_EQ_SIGNMAG"
+      ],
+      "policy": [
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.5,
+        0.1
+      ],
+      "diagnostic": false
+    },
+    "J11_STACK_BRIER": {
+      "parent": "J11_EQUAL",
+      "experts": [
+        "B_ROT",
+        "B_SPARSE_EQ",
+        "D_EQ_STUDENT",
+        "L_EQ_CONC",
+        "HISTORY",
+        "D_EQ_SIGNMAG"
+      ],
+      "policy": "brier",
+      "diagnostic": false
+    },
+    "J11_STACK_CRPS": {
+      "parent": "J11_EQUAL",
+      "experts": [
+        "B_ROT",
+        "B_SPARSE_EQ",
+        "D_EQ_STUDENT",
+        "L_EQ_CONC",
+        "HISTORY",
+        "D_EQ_SIGNMAG"
+      ],
+      "policy": "crps",
+      "diagnostic": false
+    },
+    "J11_STACK_REGIME": {
+      "parent": "J11_STACK_CRPS",
+      "experts": [
+        "B_ROT",
+        "B_SPARSE_EQ",
+        "D_EQ_STUDENT",
+        "L_EQ_CONC",
+        "HISTORY",
+        "D_EQ_SIGNMAG"
+      ],
+      "policy": "regime",
+      "diagnostic": false
+    },
+    "J11_MEMORY": {
+      "parent": "J10_HISTORY_SHRINK",
+      "experts": [
+        "B_ROT",
+        "M_SPREAD_85",
+        "P_LONG_SHORT",
+        "O_ROT_BLOCKMEAN",
+        "HISTORY"
+      ],
+      "policy": [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      "diagnostic": false
+    },
+    "J11_ETF": {
+      "parent": "J11_EQUAL",
+      "experts": [
+        "B_ROT",
+        "B_SPARSE_EQ",
+        "D_EQ_STUDENT",
+        "L_EQ_CONC",
+        "HISTORY",
+        "D_EQ_SIGNMAG",
+        "D_ETF"
+      ],
+      "policy": null,
+      "diagnostic": false
+    },
+    "J11_DERIV_RISK": {
+      "parent": "J11_EQUAL",
+      "experts": [
+        "B_ROT",
+        "B_SPARSE_EQ",
+        "D_EQ_STUDENT",
+        "L_EQ_CONC",
+        "HISTORY",
+        "D_EQ_SIGNMAG",
+        "D_DERIV_RISK"
+      ],
+      "policy": null,
+      "diagnostic": false
+    },
+    "J11_REDUNDANT": {
+      "parent": "J11_EQUAL",
+      "experts": [
+        "B_ROT",
+        "B_SPARSE_EQ",
+        "D_EQ_STUDENT",
+        "L_EQ_CONC",
+        "HISTORY",
+        "D_EQ_SIGNMAG",
+        "B_ROT",
+        "B_ROT"
+      ],
+      "policy": null,
+      "diagnostic": true
+    },
+    "J11_EXCLUDE_B_ROT": {
+      "parent": "J11_EQUAL",
+      "experts": [
+        "B_SPARSE_EQ",
+        "D_EQ_STUDENT",
+        "L_EQ_CONC",
+        "HISTORY",
+        "D_EQ_SIGNMAG"
+      ],
+      "policy": null,
+      "diagnostic": false
+    },
+    "J11_EXCLUDE_B_SPARSE_EQ": {
+      "parent": "J11_EQUAL",
+      "experts": [
+        "B_ROT",
+        "D_EQ_STUDENT",
+        "L_EQ_CONC",
+        "HISTORY",
+        "D_EQ_SIGNMAG"
+      ],
+      "policy": null,
+      "diagnostic": false
+    },
+    "J11_EXCLUDE_D_EQ_STUDENT": {
+      "parent": "J11_EQUAL",
+      "experts": [
+        "B_ROT",
+        "B_SPARSE_EQ",
+        "L_EQ_CONC",
+        "HISTORY",
+        "D_EQ_SIGNMAG"
+      ],
+      "policy": null,
+      "diagnostic": false
+    },
+    "J11_EXCLUDE_L_EQ_CONC": {
+      "parent": "J11_EQUAL",
+      "experts": [
+        "B_ROT",
+        "B_SPARSE_EQ",
+        "D_EQ_STUDENT",
+        "HISTORY",
+        "D_EQ_SIGNMAG"
+      ],
+      "policy": null,
+      "diagnostic": false
+    },
+    "J11_EXCLUDE_HISTORY": {
+      "parent": "J11_EQUAL",
+      "experts": [
+        "B_ROT",
+        "B_SPARSE_EQ",
+        "D_EQ_STUDENT",
+        "L_EQ_CONC",
+        "D_EQ_SIGNMAG"
+      ],
+      "policy": null,
+      "diagnostic": false
+    },
+    "J11_EXCLUDE_D_EQ_SIGNMAG": {
+      "parent": "J11_EQUAL",
+      "experts": [
+        "B_ROT",
+        "B_SPARSE_EQ",
+        "D_EQ_STUDENT",
+        "L_EQ_CONC",
+        "HISTORY"
+      ],
+      "policy": null,
+      "diagnostic": false
+    }
+  },
+  "code": "2931979c7ab308733646b387e211370f189eaf3a3245ff8da36ab55fce6d7259",
+  "minimum_matured": 20,
+  "embargo": "Latest eligible endpoint strictly before each frozen monthly refit."
+}

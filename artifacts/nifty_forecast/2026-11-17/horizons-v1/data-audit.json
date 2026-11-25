@@ -1,0 +1,293 @@
+{
+  "start": "2024-11-17",
+  "exclusive_end": "2026-11-17",
+  "raw_nifty_sessions": 495,
+  "feature_rows": 475,
+  "features": [
+    "return1_risk_scaled",
+    "return2_risk_scaled",
+    "return5_risk_scaled",
+    "return10_risk_scaled",
+    "return20_risk_scaled",
+    "ema10_distance",
+    "ema20_distance",
+    "ema50_distance",
+    "ema200_distance",
+    "rsi14",
+    "daily_range",
+    "body",
+    "close_location",
+    "previous_gap",
+    "realized_vol20",
+    "vol_ratio5_20",
+    "atr_pct",
+    "bank_nifty_relative1",
+    "bank_nifty_relative5",
+    "nifty_auto_relative1",
+    "nifty_auto_relative5",
+    "nifty_energy_relative1",
+    "nifty_energy_relative5",
+    "nifty_financial_relative1",
+    "nifty_financial_relative5",
+    "nifty_fmcg_relative1",
+    "nifty_fmcg_relative5",
+    "nifty_it_relative1",
+    "nifty_it_relative5",
+    "nifty_metal_relative1",
+    "nifty_metal_relative5",
+    "nifty_pharma_relative1",
+    "nifty_pharma_relative5",
+    "nifty_psu_bank_relative1",
+    "nifty_psu_bank_relative5",
+    "nifty_realty_relative1",
+    "nifty_realty_relative5",
+    "nifty_500_relative1",
+    "nifty_500_relative5",
+    "sector_positive_fraction",
+    "sector_dispersion",
+    "vix_level",
+    "vix_change1",
+    "vix_change5",
+    "lagged_global_brent_return1",
+    "lagged_global_brent_return5",
+    "lagged_global_brent_vol20",
+    "lagged_global_dow_return1",
+    "lagged_global_dow_return5",
+    "lagged_global_dow_vol20",
+    "lagged_global_gift_nifty_return1",
+    "lagged_global_gift_nifty_return5",
+    "lagged_global_gift_nifty_vol20",
+    "lagged_global_hang_seng_return1",
+    "lagged_global_hang_seng_return5",
+    "lagged_global_hang_seng_vol20",
+    "lagged_global_sp500_return1",
+    "lagged_global_sp500_return5",
+    "lagged_global_sp500_vol20",
+    "lagged_global_usdinr_return1",
+    "lagged_global_usdinr_return5",
+    "lagged_global_usdinr_vol20",
+    "dii_cash_imbalance",
+    "fii_option_position_imbalance",
+    "fii_futures_position_imbalance",
+    "fii_futures_trade_imbalance",
+    "fii_cash_imbalance",
+    "fii_cash_imbalance_mean5",
+    "dii_cash_imbalance_mean5",
+    "fii_futures_position_change",
+    "fii_option_position_change"
+  ],
+  "groups": {
+    "trend": [
+      "return2_risk_scaled",
+      "return5_risk_scaled",
+      "return10_risk_scaled",
+      "return20_risk_scaled",
+      "ema10_distance",
+      "ema20_distance",
+      "ema50_distance",
+      "ema200_distance"
+    ],
+    "short_term_price": [
+      "return1_risk_scaled",
+      "rsi14"
+    ],
+    "candles_gaps": [
+      "daily_range",
+      "body",
+      "close_location",
+      "previous_gap"
+    ],
+    "volatility": [
+      "realized_vol20",
+      "vol_ratio5_20",
+      "atr_pct",
+      "vix_level",
+      "vix_change1",
+      "vix_change5"
+    ],
+    "banks_financials": [
+      "bank_nifty_relative1",
+      "bank_nifty_relative5",
+      "nifty_financial_relative1",
+      "nifty_financial_relative5",
+      "nifty_psu_bank_relative1",
+      "nifty_psu_bank_relative5"
+    ],
+    "other_sectors": [
+      "nifty_auto_relative1",
+      "nifty_auto_relative5",
+      "nifty_energy_relative1",
+      "nifty_energy_relative5",
+      "nifty_fmcg_relative1",
+      "nifty_fmcg_relative5",
+      "nifty_it_relative1",
+      "nifty_it_relative5",
+      "nifty_metal_relative1",
+      "nifty_metal_relative5",
+      "nifty_pharma_relative1",
+      "nifty_pharma_relative5",
+      "nifty_realty_relative1",
+      "nifty_realty_relative5"
+    ],
+    "participation": [
+      "nifty_500_relative1",
+      "nifty_500_relative5",
+      "sector_positive_fraction",
+      "sector_dispersion"
+    ],
+    "global_equities": [
+      "lagged_global_dow_return1",
+      "lagged_global_dow_return5",
+      "lagged_global_dow_vol20",
+      "lagged_global_hang_seng_return1",
+      "lagged_global_hang_seng_return5",
+      "lagged_global_hang_seng_vol20",
+      "lagged_global_sp500_return1",
+      "lagged_global_sp500_return5",
+      "lagged_global_sp500_vol20"
+    ],
+    "oil_currency": [
+      "lagged_global_brent_return1",
+      "lagged_global_brent_return5",
+      "lagged_global_brent_vol20",
+      "lagged_global_usdinr_return1",
+      "lagged_global_usdinr_return5",
+      "lagged_global_usdinr_vol20"
+    ],
+    "gift_nifty": [
+      "lagged_global_gift_nifty_return1",
+      "lagged_global_gift_nifty_return5",
+      "lagged_global_gift_nifty_vol20"
+    ],
+    "institutional_cash": [
+      "dii_cash_imbalance",
+      "fii_cash_imbalance",
+      "fii_cash_imbalance_mean5",
+      "dii_cash_imbalance_mean5"
+    ],
+    "fii_positioning": [
+      "fii_option_position_imbalance",
+      "fii_futures_position_imbalance",
+      "fii_futures_trade_imbalance",
+      "fii_futures_position_change",
+      "fii_option_position_change"
+    ]
+  },
+  "institutional": {
+    "first": "2026-04-01",
+    "last": "2026-11-16",
+    "observed_sessions": 156,
+    "duplicate_revisions": 0,
+    "columns": [
+      "dii_cash_imbalance",
+      "fii_option_position_imbalance",
+      "fii_futures_position_imbalance",
+      "fii_futures_trade_imbalance",
+      "fii_cash_imbalance",
+      "fii_cash_imbalance_mean5",
+      "dii_cash_imbalance_mean5",
+      "fii_futures_position_change",
+      "fii_option_position_change"
+    ],
+    "finite_counts": {
+      "dii_cash_imbalance": 156,
+      "fii_option_position_imbalance": 156,
+      "fii_futures_position_imbalance": 156,
+      "fii_futures_trade_imbalance": 156,
+      "fii_cash_imbalance": 156,
+      "fii_cash_imbalance_mean5": 152,
+      "dii_cash_imbalance_mean5": 152,
+      "fii_futures_position_change": 155,
+      "fii_option_position_change": 155
+    },
+    "unit_basis": "Common-scale-invariant ratios, not INR crore amounts",
+    "availability_assumption": "Session EOD institutional report available by next 00:30 IST; publication clock not reconstructed"
+  },
+  "future_sessions": [
+    "2026-11-17",
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20",
+    "2026-11-23",
+    "2026-11-25",
+    "2026-11-26",
+    "2026-11-27",
+    "2026-11-30",
+    "2026-12-01",
+    "2026-12-02",
+    "2026-12-03",
+    "2026-12-04",
+    "2026-12-07",
+    "2026-12-08",
+    "2026-12-09",
+    "2026-12-10",
+    "2026-12-11",
+    "2026-12-14",
+    "2026-12-15",
+    "2026-12-16"
+  ],
+  "calendar_sha256": "b81cfe144df0587ba5cd766ae7d6939d1314bc4e0313b28762102343739a4e17",
+  "provisional_bars": [
+    {
+      "factor": "bank_nifty",
+      "day": "2026-11-16",
+      "reported_at": "2026-11-16T10:30:00+00:00",
+      "basis": "Post-close quote OHLC; daily endpoint still ends on prior session"
+    },
+    {
+      "factor": "india_vix",
+      "day": "2026-11-16",
+      "reported_at": "2026-11-16T10:30:00+00:00",
+      "basis": "Post-close quote OHLC; daily endpoint still ends on prior session"
+    },
+    {
+      "factor": "nifty_auto",
+      "day": "2026-11-16",
+      "reported_at": "2026-11-16T10:30:00+00:00",
+      "basis": "Post-close quote OHLC; daily endpoint still ends on prior session"
+    },
+    {
+      "factor": "nifty_energy",
+      "day": "2026-11-16",
+      "reported_at": "2026-11-16T10:30:00+00:00",
+      "basis": "Post-close quote OHLC; daily endpoint still ends on prior session"
+    },
+    {
+      "factor": "nifty_financial",
+      "day": "2026-11-16",
+      "reported_at": "2026-11-16T10:30:00+00:00",
+      "basis": "Post-close quote OHLC; daily endpoint still ends on prior session"
+    },
+    {
+      "factor": "nifty_it",
+      "day": "2026-11-16",
+      "reported_at": "2026-11-16T10:30:00+00:00",
+      "basis": "Post-close quote OHLC; daily endpoint still ends on prior session"
+    },
+    {
+      "factor": "nifty_metal",
+      "day": "2026-11-16",
+      "reported_at": "2026-11-16T10:30:00+00:00",
+      "basis": "Post-close quote OHLC; daily endpoint still ends on prior session"
+    },
+    {
+      "factor": "nifty_psu_bank",
+      "day": "2026-11-16",
+      "reported_at": "2026-11-16T10:30:00+00:00",
+      "basis": "Post-close quote OHLC; daily endpoint still ends on prior session"
+    },
+    {
+      "factor": "nifty_realty",
+      "day": "2026-11-16",
+      "reported_at": "2026-11-16T10:30:00+00:00",
+      "basis": "Post-close quote OHLC; daily endpoint still ends on prior session"
+    },
+    {
+      "factor": "nifty_spot",
+      "day": "2026-11-16",
+      "reported_at": "2026-11-16T10:30:00+00:00",
+      "basis": "Post-close quote OHLC; daily endpoint still ends on prior session"
+    }
+  ],
+  "initialization": "All source series clipped before deriving features; same frozen context as the two-year daily study"
+}

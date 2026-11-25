@@ -1,0 +1,48 @@
+{
+  "frozen_at": "2026-11-15T18:29:04.719376+00:00",
+  "documents": {
+    "EXECUTION_COST_MODEL.md": "2ff049e98fb90dff720a087912b84331c991d55b9a7233eeb289306a296bc561",
+    "FORWARD_CAPTURE_STATUS.md": "fb8735108a4387767301e4c50ce629e8c6cbd773b41b06a8de8cd16fd639fe92",
+    "MARKET_DATA_AUDIT.md": "bb14ae280a786a855fd2686a57a44749892bfcdab9f6621b8fcb313d15e24fb8",
+    "ORDER_BOOK_FEATURES.md": "640537e5de9328ea0345ee32bdafed27e0b4dec17e83e218c8bfcb408e0ca589",
+    "README.md": "a389e7edf2b71da7a01e86b50361a5338f3c6959fbd9a1b55452af661e9de906",
+    "SHADOW_SIGNAL_PROTOCOL.md": "ce4de3ce5298285048759c5e343bda3649f17227f6e4420ab687837f089438a4",
+    "UNIVERSE_AND_SCANNER.md": "9bb4b9a01796c773be761f6ce681cd173cd8f4dc556071657ad2979640eead48",
+    "V3_FINDINGS.md": "3f4e3b59a1017562a3df1b7c1d9f6fef0b2b12df5daf469c714e84435b0ab665",
+    "V3_RESEARCH_PLAN.md": "563e7cb0195bafb4bdbf16093456a9b537054d13def3e3d63a076c753043c9a6"
+  },
+  "code": {
+    "archive.py": "970cba6f89902e0c2bf30375f46ae4ef1298fdd7f7b10aebb6c7166355456709",
+    "auth.py": "06c01f3857bc602fd4b4cb4bc6c7c0fd3880d9f71805877d74bafa885048a751",
+    "capture.py": "19b057be08fcbde71ce9a85eb7805427931c5d7b866a04d533aba63c10005157",
+    "common.py": "e336721d9d91e4d4face14afb69b61c25266f5a9922b8fda895b2f650bfe5eee",
+    "evaluate.py": "f773e8ec1fd1fb2695998943929f1bb2002642926da8b50165205861b8379ec7",
+    "execution.py": "fa78fa6bddb0b360e9ebfc65f2379636f10a4d070ea03fdb8dc7e5cc705370cb",
+    "features.py": "c8a4e67f5a1d5442a7373725d37ae5cd10f2a08c719b756fc15effa83e7347ea",
+    "metadata.py": "d9241e96076c0a15088891f9bf08dd11ab9501f03a964f75484c4d66041577ef",
+    "model.py": "3f4907895738a7cbfcf5bde3b87e9523b3dcc54bf67bd7d101994bc422f8abba",
+    "plot_audit.py": "fbb2402b97fdb0b759afa4701c25f03686310b39e3c2b68e27346144e5289396",
+    "quality.py": "025e4d931b82662601e8989255b05718ef7207bc3bbedac98d924703b14e2391",
+    "readiness.py": "25f3588dc5c16387d35828ad6aed4d8938192c31cbb5bf2f372f7d5b0ddf2d56",
+    "shadow.py": "dcf81f698adcad979affe73778067caf51d406514caa63a9780a9388f0a0681e",
+    "universe.py": "138a1749f5d3f4db40411d776448ac12f10de654228d7813e15936b9b9788c1b",
+    "verify.py": "b015dced1eff54e772419500b77c604937a494eedd8f5966ac5a4e09881d85f1",
+    "__init__.py": "ee95b6f06cc0a88bf2f26c607af7545f6ca6181d5acc69e46779e0acc37effa5"
+  },
+  "primary_hypotheses": [
+    "H3-A",
+    "H3-B",
+    "H3-C"
+  ],
+  "primary_horizon_seconds": 900,
+  "diagnostic_horizons_seconds": [
+    30,
+    60,
+    180,
+    300,
+    1800
+  ],
+  "scope_end": "2026-12-31",
+  "scheduling_enabled": false,
+  "real_orders_allowed": false
+}

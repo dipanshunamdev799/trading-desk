@@ -1,0 +1,86 @@
+{
+  "registered_at": "2026-11-24T12:03:17.648875+05:30",
+  "cohort": "primary",
+  "configurations": {
+    "A_STRUCTURE_LEVEL": {
+      "frame": "structure_level",
+      "parent": "B_ROT",
+      "hypothesis": "Economic state levels beyond rotation"
+    },
+    "A_STRUCTURE_CHANGE": {
+      "frame": "structure_change",
+      "parent": "A_STRUCTURE_LEVEL",
+      "hypothesis": "Use changes jointly with the same original levels"
+    },
+    "A_PARTICIPATION": {
+      "frame": "participation",
+      "parent": "B_ROT",
+      "hypothesis": "Broad index leadership, rank persistence and participation"
+    },
+    "A_RISK_STRUCTURE": {
+      "frame": "risk_structure",
+      "parent": "B_ROT",
+      "hypothesis": "Sector correlation, volatility and asymmetry transitions"
+    },
+    "A_ETF_ACTIVITY": {
+      "frame": "etf_activity",
+      "parent": "B_ROT",
+      "hypothesis": "Relative ETF turnover, volume shock and activity participation"
+    },
+    "A_ETF_EXPOSURE": {
+      "frame": "etf_exposure",
+      "parent": "A_ETF_ACTIVITY",
+      "hypothesis": "ETF underlying spread and volatility or price impact proxy beyond activity"
+    },
+    "A_ETF_GATE": {
+      "frame": "etf_gate",
+      "parent": "A_ETF_ACTIVITY",
+      "hypothesis": "Rotation intensity interacts with actual ETF activity"
+    },
+    "A_INTRADAY_BASE": {
+      "frame": "both_changes",
+      "parent": "B_ROT",
+      "eligible": "intraday",
+      "hypothesis": "Complete-session matched rotation parent"
+    },
+    "A_INTRADAY": {
+      "frame": "intra",
+      "parent": "A_INTRADAY_BASE",
+      "eligible": "intraday",
+      "hypothesis": "Opening, closing, reversal, path variance, asymmetry, range concentration"
+    },
+    "A_INTRADAY_STRICT_BASE": {
+      "frame": "both_changes",
+      "parent": "B_ROT",
+      "eligible": "intra_strict",
+      "hypothesis": "Matched parent excluding last-bar discrepancies beyond 10 bp"
+    },
+    "A_INTRADAY_STRICT": {
+      "frame": "intra",
+      "parent": "A_INTRADAY_STRICT_BASE",
+      "eligible": "intra_strict",
+      "hypothesis": "Intraday increment on 10-bp reconciliation subset"
+    },
+    "A_POSITION": {
+      "frame": "position",
+      "parent": "B_ROT",
+      "hypothesis": "NSE lagged positioning beyond domestic rotation"
+    },
+    "A_NATIVE_PANEL": {
+      "frame": "panel",
+      "parent": "B_ROT",
+      "hypothesis": "Aggregate sector-index common and residual components by date"
+    },
+    "A_STOCK_PROXY": {
+      "frame": "stock_proxy",
+      "parent": "B_ROT",
+      "diagnostic": true,
+      "hypothesis": "Current-selected stock breadth/volume sensitivity"
+    }
+  },
+  "seed": 20261125,
+  "source": {
+    "models.py": "37056bce809a9e7dbecd72cd0c5a5fe91249866e9c32fefbad0a75d78ad2280e",
+    "experiments.py": "4f9135a1a17f2d26d7611d439a1c749973f8f3ac301ed1004b690a5036180a35"
+  }
+}

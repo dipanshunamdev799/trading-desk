@@ -1,0 +1,48 @@
+{
+  "status": "ONE_STOCK_DAY_FEASIBILITY_ONLY",
+  "classification": "FORWARD_DATA_REQUIRED",
+  "source_rows": 29563,
+  "usable_book_updates": 29563,
+  "fresh_grid_fraction": 0.8634336416130698,
+  "source_sha256": "6ba8c3b04827e50969c8ff36dfdac266c387da9c1f3d2da73ce41a8d2c5c3e30",
+  "code": {
+    "script": "dba6bb492244219f3e994815c3e9d7fa6d232ee2ca9a06623d55302f3488e2bd",
+    "definition": "211724c5297446ef52050294a40f4ff6ce20ea63bbcd2f99ed78a67af5b7c9fb"
+  },
+  "metrics": [
+    {
+      "model": "price",
+      "train_episodes": 209,
+      "test_episodes": 201,
+      "mae_bps": 2.2821477302537114,
+      "correlation": -0.08930424986559755,
+      "directional_accuracy": 0.43283582089552236,
+      "eligible_long_quote_markouts": 0,
+      "mean_net_markout_bps": null
+    },
+    {
+      "model": "price_volume",
+      "train_episodes": 209,
+      "test_episodes": 201,
+      "mae_bps": 2.2823527813325204,
+      "correlation": -0.08990314572047042,
+      "directional_accuracy": 0.43283582089552236,
+      "eligible_long_quote_markouts": 0,
+      "mean_net_markout_bps": null
+    },
+    {
+      "model": "price_volume_depth",
+      "train_episodes": 209,
+      "test_episodes": 201,
+      "mae_bps": 2.258045272753026,
+      "correlation": 0.002820126749884216,
+      "directional_accuracy": 0.527363184079602,
+      "eligible_long_quote_markouts": 0,
+      "mean_net_markout_bps": null
+    }
+  ],
+  "stock": "RELIANCE",
+  "day": "2026-11-13",
+  "independent_days": 1,
+  "limitation": "Exposed retrospective single stock/day, conditional complete episodes, not portfolio returns, no fill guarantee or day-level inference"
+}

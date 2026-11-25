@@ -1,0 +1,145 @@
+{
+  "registered_at": "2026-11-24T11:39:46.570080+05:30",
+  "configurations": {
+    "F_DEF126": {
+      "parent": "C_DEF",
+      "frame": "native",
+      "rep": "defensive",
+      "window": 126,
+      "hypothesis": "Shorter training history"
+    },
+    "F_DEF189": {
+      "parent": "C_DEF",
+      "frame": "native",
+      "rep": "defensive",
+      "window": 189,
+      "hypothesis": "Intermediate training history"
+    },
+    "F_DEF_EMBARGO": {
+      "parent": "C_DEF",
+      "frame": "native",
+      "rep": "defensive",
+      "embargo": 3,
+      "hypothesis": "Move outer and inner endpoint cutoffs three observed sessions earlier"
+    },
+    "F_DEF_JOINT": {
+      "parent": "C_DEF",
+      "frame": "joint_perturb",
+      "rep": "defensive",
+      "hypothesis": "One common five-percent correlated-feature scale perturbation at query time"
+    },
+    "F_DEF_LAG": {
+      "parent": "C_DEF",
+      "frame": "def_lag",
+      "rep": "defensive",
+      "hypothesis": "Shift defensive block back one trading session"
+    },
+    "F_NO_BANKS": {
+      "parent": "C_DEF",
+      "frame": "nobanks",
+      "rep": "defensive",
+      "hypothesis": "Remove financial and banking group"
+    },
+    "F_NO_CYC": {
+      "parent": "C_DEF",
+      "frame": "nocycs",
+      "rep": "defensive",
+      "hypothesis": "Remove cyclical group"
+    },
+    "F_DEF_REV": {
+      "parent": "C_DEF",
+      "frame": "revision",
+      "rep": "defensive",
+      "hypothesis": "Synthetic one-basis-point sector source perturbation"
+    },
+    "F_LABEL_ROLL": {
+      "parent": "C_DEF",
+      "frame": "native",
+      "rep": "defensive",
+      "roll_target": 3,
+      "diagnostic": true,
+      "hypothesis": "Circular training-target displacement of three horizons"
+    },
+    "M_STATE_BASE": {
+      "parent": "C_RAW",
+      "frame": "m_price",
+      "eligible": "state",
+      "horizons": [
+        21
+      ],
+      "hypothesis": "Date matched price-only monthly control"
+    },
+    "M_STATE": {
+      "parent": "M_STATE_BASE",
+      "frame": "m_state",
+      "eligible": "state",
+      "horizons": [
+        21
+      ],
+      "hypothesis": "Reconstruct V6 weekly-state mechanism, complete state cohort"
+    },
+    "M_STATE_LAG5": {
+      "parent": "M_STATE",
+      "frame": "m_lag5",
+      "eligible": "state",
+      "horizons": [
+        21
+      ],
+      "hypothesis": "Causal five-session delayed weekly state"
+    },
+    "M_STATE_LAG21": {
+      "parent": "M_STATE",
+      "frame": "m_lag21",
+      "eligible": "state",
+      "horizons": [
+        21
+      ],
+      "hypothesis": "Causal 21-session delayed weekly state"
+    },
+    "M_STATE_SHIFT5": {
+      "parent": "M_STATE",
+      "frame": "m_state",
+      "eligible": "state",
+      "roll_state": 5,
+      "diagnostic": true,
+      "horizons": [
+        21
+      ],
+      "hypothesis": "Training-only circular input-state roll by five"
+    },
+    "M_STATE_SHIFT21": {
+      "parent": "M_STATE",
+      "frame": "m_state",
+      "eligible": "state",
+      "roll_state": 21,
+      "diagnostic": true,
+      "horizons": [
+        21
+      ],
+      "hypothesis": "Training-only circular input-state roll by 21"
+    },
+    "M_STATE_126": {
+      "parent": "M_STATE",
+      "frame": "m_state",
+      "eligible": "state",
+      "window": 126,
+      "horizons": [
+        21
+      ],
+      "hypothesis": "Shorter monthly state training"
+    },
+    "M_PERSIST": {
+      "parent": "C_NO_DEF",
+      "frame": "persist",
+      "horizons": [
+        21
+      ],
+      "hypothesis": "Slow breadth/correlation/volatility factors and shrunk Student law",
+      "law": "student"
+    }
+  },
+  "exposure": "2025\u20132026 historical research",
+  "fit_code_sha256": "42be493331e2264137df7c173ffa8e0af6b5758fb0193bfef8984d88293e278f",
+  "batch_code_sha256": "0d37a323f3450c6cfbffcb1d926fea47fcab60e398ab7b7f3dfd86cf77c1c85d",
+  "reason": "Fixed family tests registered before new results for this batch. All dates exposed by prior research."
+}

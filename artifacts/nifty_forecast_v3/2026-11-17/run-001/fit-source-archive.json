@@ -1,0 +1,13 @@
+{
+  "path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\nifty_forecast_v3\\2026-11-17\\run-001\\source-at-first-fit",
+  "source_hashes": {
+    "audit.py": "ccc26cffc46f5c7a00c96afa6322a333165dff256b79d0278a5cc25d02879406",
+    "audit_report.py": "a51e79becfa38dfb39a9c1668fa57f4b9be0adc0bfe847c74a1245d5aa6fb225",
+    "data.py": "5eeab2b6a1b14f8ba989e3893513108873a19aa2ad907b19acb27cf90dfaf20a",
+    "experiment.py": "cb9c04cbeff215408365f6afca59109a507c0464e9c1ff92b0ee83428a4a8ab2",
+    "features.py": "80280688329588d30bdf6fb60ddb7fb4c3d071097d7e09f67721d9d42c7c5232",
+    "models.py": "7ad5c656d7b6398f4284730ab5572132c3012a64e95471c6e3a0ddb3a288f820",
+    "__init__.py": "862d787de93b1412912015cef6fc7c75be9bb44e80f2c4e23e128068b90f1b57"
+  },
+  "note": "Exact code at controlled-batch fit time; later changes limited to validation guards/reporting and documented separately."
+}

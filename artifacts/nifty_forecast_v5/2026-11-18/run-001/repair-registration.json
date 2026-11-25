@@ -1,0 +1,9 @@
+{
+  "registered_at": "2026-11-18T22:40:07.719681+05:30",
+  "candidate": "I06_forest",
+  "reason": "Original fit read x_global_mean into unused model metadata even when all global inputs intentionally absent. Use zero metadata only in that case; no forest feature/target/parameter change.",
+  "old_models_sha256": "72f39521c01224a5dc133d946b0ae5a812c9f9295190bfe0a2d141e32da78b27",
+  "new_models_sha256": "7782a3aa06498c23e3767759e783274313f67701cfd34a4519b7c9bdcc92c353",
+  "original_failures_preserved": true,
+  "no_new_hypothesis": true
+}

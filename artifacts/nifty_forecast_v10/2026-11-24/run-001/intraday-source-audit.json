@@ -1,0 +1,526 @@
+{
+  "requests": [
+    {
+      "url": "https://api.upstox.com/v3/historical-candle/NSE_INDEX%7CNifty%20Bank/minutes/25/2025-03-31/2025-01-01",
+      "path": "sources\\intraday\\bank-2025-01-01.json",
+      "requested": "2026-11-24T13:47:12.729010+05:30",
+      "http": 200,
+      "response_date": "Tue, 24 Nov 2026 08:17:12 GMT",
+      "status": "ok",
+      "bytes": 63227,
+      "sha256": "8225577eed485d35cb8f61becb3c7dbd53469c667656d0a1a00cd9246e4af4c7",
+      "instrument": "bank"
+    },
+    {
+      "url": "https://api.upstox.com/v3/historical-candle/NSE_INDEX%7CNifty%20Bank/minutes/25/2025-06-30/2025-04-01",
+      "path": "sources\\intraday\\bank-2025-04-01.json",
+      "requested": "2026-11-24T13:47:12.728934+05:30",
+      "http": 200,
+      "response_date": "Tue, 24 Nov 2026 08:17:12 GMT",
+      "status": "ok",
+      "bytes": 62646,
+      "sha256": "22ed5ea2863ebe0622680fb7ad5e5cac398ef32dfe3b6a027c49374b2c87dd5d",
+      "instrument": "bank"
+    },
+    {
+      "url": "https://api.upstox.com/v3/historical-candle/NSE_INDEX%7CNifty%20Bank/minutes/25/2025-09-30/2025-07-01",
+      "path": "sources\\intraday\\bank-2025-07-01.json",
+      "requested": "2026-11-24T13:47:12.729457+05:30",
+      "http": 200,
+      "response_date": "Tue, 24 Nov 2026 08:17:12 GMT",
+      "status": "ok",
+      "bytes": 65319,
+      "sha256": "56be6f7c64caa70ad89091ef1f4c2d8f664e404138cdb531951e86308ebeb901",
+      "instrument": "bank"
+    },
+    {
+      "url": "https://api.upstox.com/v3/historical-candle/NSE_INDEX%7CNifty%20Bank/minutes/25/2025-12-31/2025-10-01",
+      "path": "sources\\intraday\\bank-2025-10-01.json",
+      "requested": "2026-11-24T13:47:12.729185+05:30",
+      "http": 200,
+      "response_date": "Tue, 24 Nov 2026 08:17:12 GMT",
+      "status": "ok",
+      "bytes": 62528,
+      "sha256": "6be5c5c664f0f0325390db84481a49c26c74c8ca710fcd8888a2652ad9ce5e1f",
+      "instrument": "bank"
+    },
+    {
+      "url": "https://api.upstox.com/v3/historical-candle/NSE_INDEX%7CNifty%20Bank/minutes/25/2026-03-31/2026-01-01",
+      "path": "sources\\intraday\\bank-2026-01-01.json",
+      "requested": "2026-11-24T13:47:12.829557+05:30",
+      "http": 200,
+      "response_date": "Tue, 24 Nov 2026 08:17:12 GMT",
+      "status": "ok",
+      "bytes": 61210,
+      "sha256": "dc3f75858c98185f3ee3e980dd7d2a14d308ced7effa4b05e964d6821662d28b",
+      "instrument": "bank"
+    },
+    {
+      "url": "https://api.upstox.com/v3/historical-candle/NSE_INDEX%7CNifty%20Bank/minutes/25/2026-06-30/2026-04-01",
+      "path": "sources\\intraday\\bank-2026-04-01.json",
+      "requested": "2026-11-24T13:47:12.842599+05:30",
+      "http": 200,
+      "response_date": "Tue, 24 Nov 2026 08:17:13 GMT",
+      "status": "ok",
+      "bytes": 61236,
+      "sha256": "6c04e412194caf2b1cecb0110db37bc1014998d16fcc72781bf6423e2b540f86",
+      "instrument": "bank"
+    },
+    {
+      "url": "https://api.upstox.com/v3/historical-candle/NSE_INDEX%7CNifty%20Bank/minutes/25/2026-09-30/2026-07-01",
+      "path": "sources\\intraday\\bank-2026-07-01.json",
+      "requested": "2026-11-24T13:47:12.847486+05:30",
+      "http": 200,
+      "response_date": "Tue, 24 Nov 2026 08:17:13 GMT",
+      "status": "ok",
+      "bytes": 66400,
+      "sha256": "653c5da013869b474c5ae0ddfcb877ee9b24e79ecc7ed25febc58b570b33bf23",
+      "instrument": "bank"
+    },
+    {
+      "url": "https://api.upstox.com/v3/historical-candle/NSE_INDEX%7CNifty%20Bank/minutes/25/2026-11-17/2026-10-01",
+      "path": "sources\\intraday\\bank-2026-10-01.json",
+      "requested": "2026-11-24T13:47:12.852394+05:30",
+      "http": 200,
+      "response_date": "Tue, 24 Nov 2026 08:17:13 GMT",
+      "status": "ok",
+      "bytes": 31860,
+      "sha256": "fc1cc9f7ef839bb8727cae749354a07828136aacf3e95d6953bf065a8f3cff06",
+      "instrument": "bank"
+    },
+    {
+      "url": "https://api.upstox.com/v3/historical-candle/NSE_INDEX%7CNifty%20Fin%20Service/minutes/25/2025-03-31/2025-01-01",
+      "path": "sources\\intraday\\financial-2025-01-01.json",
+      "requested": "2026-11-24T13:47:12.928778+05:30",
+      "http": 200,
+      "response_date": "Tue, 24 Nov 2026 08:17:13 GMT",
+      "status": "ok",
+      "bytes": 63236,
+      "sha256": "dc6a5c0d3fec30fdabdef70b66a39ecbd8a28f5380783512c7f61edf40bc3aea",
+      "instrument": "financial"
+    },
+    {
+      "url": "https://api.upstox.com/v3/historical-candle/NSE_INDEX%7CNifty%20Fin%20Service/minutes/25/2025-06-30/2025-04-01",
+      "path": "sources\\intraday\\financial-2025-04-01.json",
+      "requested": "2026-11-24T13:47:12.934507+05:30",
+      "http": 200,
+      "response_date": "Tue, 24 Nov 2026 08:17:13 GMT",
+      "status": "ok",
+      "bytes": 62652,
+      "sha256": "a2b57984ba4ceed9aadc43456b2588afd5defb9441f408ca748847eec478dff9",
+      "instrument": "financial"
+    },
+    {
+      "url": "https://api.upstox.com/v3/historical-candle/NSE_INDEX%7CNifty%20Fin%20Service/minutes/25/2025-09-30/2025-07-01",
+      "path": "sources\\intraday\\financial-2025-07-01.json",
+      "requested": "2026-11-24T13:47:12.955031+05:30",
+      "http": 200,
+      "response_date": "Tue, 24 Nov 2026 08:17:13 GMT",
+      "status": "ok",
+      "bytes": 65308,
+      "sha256": "85ce80089aa701531a99c99865601a5251018f81e3c3fb822b5afd0d2836bd02",
+      "instrument": "financial"
+    },
+    {
+      "url": "https://api.upstox.com/v3/historical-candle/NSE_INDEX%7CNifty%20Fin%20Service/minutes/25/2025-12-31/2025-10-01",
+      "path": "sources\\intraday\\financial-2025-10-01.json",
+      "requested": "2026-11-24T13:47:12.957490+05:30",
+      "http": 200,
+      "response_date": "Tue, 24 Nov 2026 08:17:13 GMT",
+      "status": "ok",
+      "bytes": 62498,
+      "sha256": "02ff97c73ef180308fc595438be279f1b0f296d8eefa23a0b9d5b1e26dcdd445",
+      "instrument": "financial"
+    },
+    {
+      "url": "https://api.upstox.com/v3/historical-candle/NSE_INDEX%7CNifty%20Fin%20Service/minutes/25/2026-03-31/2026-01-01",
+      "path": "sources\\intraday\\financial-2026-01-01.json",
+      "requested": "2026-11-24T13:47:13.032696+05:30",
+      "http": 200,
+      "response_date": "Tue, 24 Nov 2026 08:17:13 GMT",
+      "status": "ok",
+      "bytes": 61258,
+      "sha256": "b0ac381ff5d2aa8a9a3d41f06750adfefba27b182c6a61ca9b03c4df22d7b2ad",
+      "instrument": "financial"
+    },
+    {
+      "url": "https://api.upstox.com/v3/historical-candle/NSE_INDEX%7CNifty%20Fin%20Service/minutes/25/2026-06-30/2026-04-01",
+      "path": "sources\\intraday\\financial-2026-04-01.json",
+      "requested": "2026-11-24T13:47:13.036885+05:30",
+      "http": 200,
+      "response_date": "Tue, 24 Nov 2026 08:17:13 GMT",
+      "status": "ok",
+      "bytes": 61207,
+      "sha256": "d2f38d2a675d177dcad73170a73c63f108f906e3005b1604f1fb50df57066cad",
+      "instrument": "financial"
+    },
+    {
+      "url": "https://api.upstox.com/v3/historical-candle/NSE_INDEX%7CNifty%20Fin%20Service/minutes/25/2026-09-30/2026-07-01",
+      "path": "sources\\intraday\\financial-2026-07-01.json",
+      "requested": "2026-11-24T13:47:13.049704+05:30",
+      "http": 200,
+      "response_date": "Tue, 24 Nov 2026 08:17:13 GMT",
+      "status": "ok",
+      "bytes": 66302,
+      "sha256": "5d52c5d4f8dba3e1fc354fba443097fe56bc357670d6cce1fbaede377c862b58",
+      "instrument": "financial"
+    },
+    {
+      "url": "https://api.upstox.com/v3/historical-candle/NSE_INDEX%7CNifty%20Fin%20Service/minutes/25/2026-11-17/2026-10-01",
+      "path": "sources\\intraday\\financial-2026-10-01.json",
+      "requested": "2026-11-24T13:47:13.064480+05:30",
+      "http": 200,
+      "response_date": "Tue, 24 Nov 2026 08:17:13 GMT",
+      "status": "ok",
+      "bytes": 31862,
+      "sha256": "d873e831ea7beba91accf7ac58439b9fdb4b0df262ef68644c5513f01b5ef196",
+      "instrument": "financial"
+    },
+    {
+      "url": "https://api.upstox.com/v3/historical-candle/NSE_INDEX%7CNifty%20IT/minutes/25/2025-03-31/2025-01-01",
+      "path": "sources\\intraday\\it-2025-01-01.json",
+      "requested": "2026-11-24T13:47:13.127276+05:30",
+      "http": 200,
+      "response_date": "Tue, 24 Nov 2026 08:17:13 GMT",
+      "status": "ok",
+      "bytes": 63263,
+      "sha256": "743c01b2f5df12f135d1cef6a4dd635000f681d37d72a4116efc5f5710c2c09c",
+      "instrument": "it"
+    },
+    {
+      "url": "https://api.upstox.com/v3/historical-candle/NSE_INDEX%7CNifty%20IT/minutes/25/2025-06-30/2025-04-01",
+      "path": "sources\\intraday\\it-2025-04-01.json",
+      "requested": "2026-11-24T13:47:13.151691+05:30",
+      "http": 200,
+      "response_date": "Tue, 24 Nov 2026 08:17:13 GMT",
+      "status": "ok",
+      "bytes": 62686,
+      "sha256": "b595312db3051f40ba86c1008cd78308d42a0cbb1a9ede35df0f85c5afa7f28d",
+      "instrument": "it"
+    },
+    {
+      "url": "https://api.upstox.com/v3/historical-candle/NSE_INDEX%7CNifty%20IT/minutes/25/2025-09-30/2025-07-01",
+      "path": "sources\\intraday\\it-2025-07-01.json",
+      "requested": "2026-11-24T13:47:13.155511+05:30",
+      "http": 200,
+      "response_date": "Tue, 24 Nov 2026 08:17:13 GMT",
+      "status": "ok",
+      "bytes": 65354,
+      "sha256": "ea708fba5efd979a2d6bef0fbabf62a3084816d13dca90f2c9230badee7047ed",
+      "instrument": "it"
+    },
+    {
+      "url": "https://api.upstox.com/v3/historical-candle/NSE_INDEX%7CNifty%20IT/minutes/25/2025-12-31/2025-10-01",
+      "path": "sources\\intraday\\it-2025-10-01.json",
+      "requested": "2026-11-24T13:47:13.160937+05:30",
+      "http": 200,
+      "response_date": "Tue, 24 Nov 2026 08:17:13 GMT",
+      "status": "ok",
+      "bytes": 62453,
+      "sha256": "6e15b78bda285b2fcdeb1940f66a5d4bd8d6717bbd571cdd90bc73bf47e77f89",
+      "instrument": "it"
+    },
+    {
+      "url": "https://api.upstox.com/v3/historical-candle/NSE_INDEX%7CNifty%20IT/minutes/25/2026-03-31/2026-01-01",
+      "path": "sources\\intraday\\it-2026-01-01.json",
+      "requested": "2026-11-24T13:47:13.230750+05:30",
+      "http": 200,
+      "response_date": "Tue, 24 Nov 2026 08:17:13 GMT",
+      "status": "ok",
+      "bytes": 61243,
+      "sha256": "f34a45ee8f6ea2af3cd1ce4fcbff3415bd8326f1c3637fa9ea82ed7a73a5057a",
+      "instrument": "it"
+    },
+    {
+      "url": "https://api.upstox.com/v3/historical-candle/NSE_INDEX%7CNifty%20IT/minutes/25/2026-06-30/2026-04-01",
+      "path": "sources\\intraday\\it-2026-04-01.json",
+      "requested": "2026-11-24T13:47:13.280584+05:30",
+      "http": 200,
+      "response_date": "Tue, 24 Nov 2026 08:17:13 GMT",
+      "status": "ok",
+      "bytes": 61213,
+      "sha256": "d60181f0b2977f41c18b911fd621ff67d5fc8883090a5ef2cebcda320859310e",
+      "instrument": "it"
+    },
+    {
+      "url": "https://api.upstox.com/v3/historical-candle/NSE_INDEX%7CNifty%20IT/minutes/25/2026-09-30/2026-07-01",
+      "path": "sources\\intraday\\it-2026-07-01.json",
+      "requested": "2026-11-24T13:47:13.303627+05:30",
+      "http": 200,
+      "response_date": "Tue, 24 Nov 2026 08:17:13 GMT",
+      "status": "ok",
+      "bytes": 66359,
+      "sha256": "987fe9e7d6f682901abc12094251f279d23f80de3c20806ffc231638bc7ce67b",
+      "instrument": "it"
+    },
+    {
+      "url": "https://api.upstox.com/v3/historical-candle/NSE_INDEX%7CNifty%20IT/minutes/25/2026-11-17/2026-10-01",
+      "path": "sources\\intraday\\it-2026-10-01.json",
+      "requested": "2026-11-24T13:47:13.307353+05:30",
+      "http": 200,
+      "response_date": "Tue, 24 Nov 2026 08:17:13 GMT",
+      "status": "ok",
+      "bytes": 31818,
+      "sha256": "c8c27a1a364b27f8534876ba084ac2fd87bd75e5eb9e3bc5497d3e70c3d8cdf7",
+      "instrument": "it"
+    },
+    {
+      "url": "https://api.upstox.com/v3/historical-candle/NSE_INDEX%7CNifty%20Auto/minutes/25/2025-03-31/2025-01-01",
+      "path": "sources\\intraday\\auto-2025-01-01.json",
+      "requested": "2026-11-24T13:47:13.332764+05:30",
+      "http": 200,
+      "response_date": "Tue, 24 Nov 2026 08:17:13 GMT",
+      "status": "ok",
+      "bytes": 63233,
+      "sha256": "8559358be1b6562fbc6958b921979b3c0c363254ef95131524eab23712fb8bac",
+      "instrument": "auto"
+    },
+    {
+      "url": "https://api.upstox.com/v3/historical-candle/NSE_INDEX%7CNifty%20Auto/minutes/25/2025-06-30/2025-04-01",
+      "path": "sources\\intraday\\auto-2025-04-01.json",
+      "requested": "2026-11-24T13:47:13.380454+05:30",
+      "http": 200,
+      "response_date": "Tue, 24 Nov 2026 08:17:13 GMT",
+      "status": "ok",
+      "bytes": 62699,
+      "sha256": "173835b9f96ad9776a2bd80f69d39e028b66448bed7e0bddd67996b466056e09",
+      "instrument": "auto"
+    },
+    {
+      "url": "https://api.upstox.com/v3/historical-candle/NSE_INDEX%7CNifty%20Auto/minutes/25/2025-09-30/2025-07-01",
+      "path": "sources\\intraday\\auto-2025-07-01.json",
+      "requested": "2026-11-24T13:47:13.387238+05:30",
+      "http": 200,
+      "response_date": "Tue, 24 Nov 2026 08:17:13 GMT",
+      "status": "ok",
+      "bytes": 65257,
+      "sha256": "e3fdfc2eb7786797ed3a1da532d2a4f59cf44455442156f98aa1fbe5ea77ca7a",
+      "instrument": "auto"
+    },
+    {
+      "url": "https://api.upstox.com/v3/historical-candle/NSE_INDEX%7CNifty%20Auto/minutes/25/2025-12-31/2025-10-01",
+      "path": "sources\\intraday\\auto-2025-10-01.json",
+      "requested": "2026-11-24T13:47:13.414594+05:30",
+      "http": 200,
+      "response_date": "Tue, 24 Nov 2026 08:17:13 GMT",
+      "status": "ok",
+      "bytes": 62478,
+      "sha256": "f80bddd8d88e7732c927e9ba865bcfa63747b491f679b64b46c74d9e75473a75",
+      "instrument": "auto"
+    },
+    {
+      "url": "https://api.upstox.com/v3/historical-candle/NSE_INDEX%7CNifty%20Auto/minutes/25/2026-03-31/2026-01-01",
+      "path": "sources\\intraday\\auto-2026-01-01.json",
+      "requested": "2026-11-24T13:47:13.433531+05:30",
+      "http": 200,
+      "response_date": "Tue, 24 Nov 2026 08:17:13 GMT",
+      "status": "ok",
+      "bytes": 61211,
+      "sha256": "70668f31def6f06fcb00ca90d1acdced92e9ec30effa12a9500c989aa736867d",
+      "instrument": "auto"
+    },
+    {
+      "url": "https://api.upstox.com/v3/historical-candle/NSE_INDEX%7CNifty%20Auto/minutes/25/2026-06-30/2026-04-01",
+      "path": "sources\\intraday\\auto-2026-04-01.json",
+      "requested": "2026-11-24T13:47:13.485823+05:30",
+      "http": 200,
+      "response_date": "Tue, 24 Nov 2026 08:17:13 GMT",
+      "status": "ok",
+      "bytes": 61254,
+      "sha256": "f90ddaa3aa30133d458700f337317e5983741cc9fe8d9bcc501b16af1917f0a0",
+      "instrument": "auto"
+    },
+    {
+      "url": "https://api.upstox.com/v3/historical-candle/NSE_INDEX%7CNifty%20Auto/minutes/25/2026-09-30/2026-07-01",
+      "path": "sources\\intraday\\auto-2026-07-01.json",
+      "requested": "2026-11-24T13:47:13.515446+05:30",
+      "http": 200,
+      "response_date": "Tue, 24 Nov 2026 08:17:13 GMT",
+      "status": "ok",
+      "bytes": 66317,
+      "sha256": "3a678eb1f3772bb922397dfe9892723e99c54c80b89fa0e282a860ab422fa7c0",
+      "instrument": "auto"
+    },
+    {
+      "url": "https://api.upstox.com/v3/historical-candle/NSE_INDEX%7CNifty%20Auto/minutes/25/2026-11-17/2026-10-01",
+      "path": "sources\\intraday\\auto-2026-10-01.json",
+      "requested": "2026-11-24T13:47:13.531326+05:30",
+      "http": 200,
+      "response_date": "Tue, 24 Nov 2026 08:17:13 GMT",
+      "status": "ok",
+      "bytes": 31864,
+      "sha256": "c4b7f4298da610daaf83f100615111681ed22d416696760e1c23391166f70f84",
+      "instrument": "auto"
+    }
+  ],
+  "bars": {
+    "bank": 6972,
+    "financial": 6972,
+    "it": 6972,
+    "auto": 6972
+  },
+  "matched_complete": 458,
+  "excluded": [
+    {
+      "day": "2025-04-30",
+      "instrument": "bank",
+      "n": 16
+    },
+    {
+      "day": "2025-05-05",
+      "instrument": "bank",
+      "n": 16
+    },
+    {
+      "day": "2025-05-13",
+      "instrument": "bank",
+      "n": 16
+    },
+    {
+      "day": "2025-05-16",
+      "instrument": "bank",
+      "n": 16
+    },
+    {
+      "day": "2025-05-22",
+      "instrument": "bank",
+      "n": 16
+    },
+    {
+      "day": "2025-05-28",
+      "instrument": "bank",
+      "n": 16
+    },
+    {
+      "day": "2025-10-21",
+      "instrument": "bank",
+      "n": 3
+    },
+    {
+      "day": "2026-11-08",
+      "instrument": "bank",
+      "n": 3
+    },
+    {
+      "day": "2025-04-30",
+      "instrument": "financial",
+      "n": 16
+    },
+    {
+      "day": "2025-05-05",
+      "instrument": "financial",
+      "n": 16
+    },
+    {
+      "day": "2025-05-13",
+      "instrument": "financial",
+      "n": 16
+    },
+    {
+      "day": "2025-05-16",
+      "instrument": "financial",
+      "n": 16
+    },
+    {
+      "day": "2025-05-22",
+      "instrument": "financial",
+      "n": 16
+    },
+    {
+      "day": "2025-05-28",
+      "instrument": "financial",
+      "n": 16
+    },
+    {
+      "day": "2025-10-21",
+      "instrument": "financial",
+      "n": 3
+    },
+    {
+      "day": "2026-11-08",
+      "instrument": "financial",
+      "n": 3
+    },
+    {
+      "day": "2025-04-30",
+      "instrument": "it",
+      "n": 16
+    },
+    {
+      "day": "2025-05-05",
+      "instrument": "it",
+      "n": 16
+    },
+    {
+      "day": "2025-05-13",
+      "instrument": "it",
+      "n": 16
+    },
+    {
+      "day": "2025-05-16",
+      "instrument": "it",
+      "n": 16
+    },
+    {
+      "day": "2025-05-22",
+      "instrument": "it",
+      "n": 16
+    },
+    {
+      "day": "2025-05-28",
+      "instrument": "it",
+      "n": 16
+    },
+    {
+      "day": "2025-10-21",
+      "instrument": "it",
+      "n": 3
+    },
+    {
+      "day": "2026-11-08",
+      "instrument": "it",
+      "n": 3
+    },
+    {
+      "day": "2025-04-30",
+      "instrument": "auto",
+      "n": 16
+    },
+    {
+      "day": "2025-05-05",
+      "instrument": "auto",
+      "n": 16
+    },
+    {
+      "day": "2025-05-13",
+      "instrument": "auto",
+      "n": 16
+    },
+    {
+      "day": "2025-05-16",
+      "instrument": "auto",
+      "n": 16
+    },
+    {
+      "day": "2025-05-22",
+      "instrument": "auto",
+      "n": 16
+    },
+    {
+      "day": "2025-05-28",
+      "instrument": "auto",
+      "n": 16
+    },
+    {
+      "day": "2025-10-21",
+      "instrument": "auto",
+      "n": 3
+    },
+    {
+      "day": "2026-11-08",
+      "instrument": "auto",
+      "n": 3
+    }
+  ],
+  "session_rule": "Four authentic sector indices, exact 15 x 25-minute regular IST closes. First/last two bars represent 50 minutes. Daily NIFTY labels retain authoritative archived closing values."
+}

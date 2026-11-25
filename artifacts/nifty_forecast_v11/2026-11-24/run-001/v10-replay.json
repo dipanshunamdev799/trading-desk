@@ -1,0 +1,110 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "group": "models",
+      "rows": 9158,
+      "models": [
+        "BASE_ROTATION",
+        "C85_EARLIEST",
+        "C85_RECENT",
+        "C85_SPREAD",
+        "DATED_FUTURES",
+        "DATED_FUTURES_PARENT",
+        "DATED_STRADDLE",
+        "DATED_STRADDLE_PARENT",
+        "NEUTRAL",
+        "N_EQ_CONTROL",
+        "N_EQ_OFFICIAL",
+        "O126_GLS",
+        "O126_STAGGERED",
+        "OMAX_BLOCKMEAN",
+        "OMAX_PLAIN",
+        "S_ELASTIC",
+        "T_RAW",
+        "T_SIGNMAG",
+        "T_VOL_STUDENT"
+      ],
+      "max_delta": 2.7755575615628914e-17
+    },
+    {
+      "group": "transfer",
+      "rows": 2892,
+      "models": [
+        "X_ADAPT",
+        "X_MULTI",
+        "X_ONLY",
+        "X_RANDOM",
+        "X_SHIFT",
+        "X_UNRELATED"
+      ],
+      "max_delta": 0.0
+    }
+  ],
+  "mixtures": 964,
+  "mixture_weights": {
+    "J10_TARGET_BLEND": [
+      [
+        "T_SIGNMAG",
+        "T_VOL_STUDENT"
+      ],
+      [
+        0.5,
+        0.5
+      ],
+      "T_VOL_STUDENT"
+    ],
+    "J10_STRUCTURAL_BLEND": [
+      [
+        "BASE_ROTATION",
+        "S_ELASTIC",
+        "T_VOL_STUDENT"
+      ],
+      [
+        0.4,
+        0.3,
+        0.3
+      ],
+      "BASE_ROTATION"
+    ],
+    "J10_HISTORY_SHRINK": [
+      [
+        "BASE_ROTATION",
+        "S_ELASTIC",
+        "T_VOL_STUDENT",
+        "HISTORY"
+      ],
+      [
+        0.2,
+        0.15,
+        0.15,
+        0.5
+      ],
+      "J10_STRUCTURAL_BLEND"
+    ],
+    "J10_SMALL_BLEND": [
+      [
+        "C85_SPREAD",
+        "T_SIGNMAG",
+        "HISTORY"
+      ],
+      [
+        0.45,
+        0.35,
+        0.2
+      ],
+      "C85_SPREAD"
+    ],
+    "J10_TRANSFER_BLEND": [
+      [
+        "X_ADAPT",
+        "T_VOL_STUDENT"
+      ],
+      [
+        0.5,
+        0.5
+      ],
+      "X_ADAPT"
+    ]
+  }
+}

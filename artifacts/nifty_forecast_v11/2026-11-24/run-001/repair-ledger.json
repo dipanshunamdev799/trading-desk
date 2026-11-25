@@ -1,0 +1,452 @@
+[
+  {
+    "model": "O_SMALL_DISJOINT_RECENT",
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2025-10",
+    "cutoff": "2025-10-14",
+    "status": "unestimated",
+    "reason": "all the input arrays must have same number of dimensions, but the array at index 0 has 2 dimension(s) and the array at index 1 has 1 dimension(s)"
+  },
+  {
+    "model": "O_SMALL_DISJOINT_SPREAD",
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2025-10",
+    "cutoff": "2025-10-14",
+    "status": "unestimated",
+    "reason": "all the input arrays must have same number of dimensions, but the array at index 0 has 2 dimension(s) and the array at index 1 has 1 dimension(s)"
+  },
+  {
+    "model": "O_SMALL_DISJOINT_RECENT",
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2025-11",
+    "cutoff": "2025-10-31",
+    "status": "unestimated",
+    "reason": "all the input arrays must have same number of dimensions, but the array at index 0 has 2 dimension(s) and the array at index 1 has 1 dimension(s)"
+  },
+  {
+    "model": "O_SMALL_DISJOINT_SPREAD",
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2025-11",
+    "cutoff": "2025-10-31",
+    "status": "unestimated",
+    "reason": "all the input arrays must have same number of dimensions, but the array at index 0 has 2 dimension(s) and the array at index 1 has 1 dimension(s)"
+  },
+  {
+    "model": "O_SMALL_DISJOINT_RECENT",
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2025-12",
+    "cutoff": "2025-11-28",
+    "status": "unestimated",
+    "reason": "all the input arrays must have same number of dimensions, but the array at index 0 has 2 dimension(s) and the array at index 1 has 1 dimension(s)"
+  },
+  {
+    "model": "O_SMALL_DISJOINT_SPREAD",
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2025-12",
+    "cutoff": "2025-11-28",
+    "status": "unestimated",
+    "reason": "all the input arrays must have same number of dimensions, but the array at index 0 has 2 dimension(s) and the array at index 1 has 1 dimension(s)"
+  },
+  {
+    "model": "O_SMALL_DISJOINT_RECENT",
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2026-01",
+    "cutoff": "2025-12-31",
+    "status": "unestimated",
+    "reason": "all the input arrays must have same number of dimensions, but the array at index 0 has 2 dimension(s) and the array at index 1 has 1 dimension(s)"
+  },
+  {
+    "model": "O_SMALL_DISJOINT_SPREAD",
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2026-01",
+    "cutoff": "2025-12-31",
+    "status": "unestimated",
+    "reason": "all the input arrays must have same number of dimensions, but the array at index 0 has 2 dimension(s) and the array at index 1 has 1 dimension(s)"
+  },
+  {
+    "model": "O_SMALL_DISJOINT_RECENT",
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2026-02",
+    "cutoff": "2026-01-30",
+    "status": "unestimated",
+    "reason": "all the input arrays must have same number of dimensions, but the array at index 0 has 2 dimension(s) and the array at index 1 has 1 dimension(s)"
+  },
+  {
+    "model": "O_SMALL_DISJOINT_SPREAD",
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2026-02",
+    "cutoff": "2026-01-30",
+    "status": "unestimated",
+    "reason": "all the input arrays must have same number of dimensions, but the array at index 0 has 2 dimension(s) and the array at index 1 has 1 dimension(s)"
+  },
+  {
+    "model": "O_SMALL_DISJOINT_RECENT",
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2026-03",
+    "cutoff": "2026-02-27",
+    "status": "unestimated",
+    "reason": "all the input arrays must have same number of dimensions, but the array at index 0 has 2 dimension(s) and the array at index 1 has 1 dimension(s)"
+  },
+  {
+    "model": "O_SMALL_DISJOINT_SPREAD",
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2026-03",
+    "cutoff": "2026-02-27",
+    "status": "unestimated",
+    "reason": "all the input arrays must have same number of dimensions, but the array at index 0 has 2 dimension(s) and the array at index 1 has 1 dimension(s)"
+  },
+  {
+    "model": "O_SMALL_DISJOINT_RECENT",
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2026-04",
+    "cutoff": "2026-03-30",
+    "status": "unestimated",
+    "reason": "all the input arrays must have same number of dimensions, but the array at index 0 has 2 dimension(s) and the array at index 1 has 1 dimension(s)"
+  },
+  {
+    "model": "O_SMALL_DISJOINT_SPREAD",
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2026-04",
+    "cutoff": "2026-03-30",
+    "status": "unestimated",
+    "reason": "all the input arrays must have same number of dimensions, but the array at index 0 has 2 dimension(s) and the array at index 1 has 1 dimension(s)"
+  },
+  {
+    "model": "O_SMALL_DISJOINT_RECENT",
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2026-05",
+    "cutoff": "2026-04-30",
+    "status": "unestimated",
+    "reason": "all the input arrays must have same number of dimensions, but the array at index 0 has 2 dimension(s) and the array at index 1 has 1 dimension(s)"
+  },
+  {
+    "model": "O_SMALL_DISJOINT_SPREAD",
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2026-05",
+    "cutoff": "2026-04-30",
+    "status": "unestimated",
+    "reason": "all the input arrays must have same number of dimensions, but the array at index 0 has 2 dimension(s) and the array at index 1 has 1 dimension(s)"
+  },
+  {
+    "model": "O_SMALL_DISJOINT_RECENT",
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2026-06",
+    "cutoff": "2026-05-29",
+    "status": "unestimated",
+    "reason": "all the input arrays must have same number of dimensions, but the array at index 0 has 2 dimension(s) and the array at index 1 has 1 dimension(s)"
+  },
+  {
+    "model": "O_SMALL_DISJOINT_SPREAD",
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2026-06",
+    "cutoff": "2026-05-29",
+    "status": "unestimated",
+    "reason": "all the input arrays must have same number of dimensions, but the array at index 0 has 2 dimension(s) and the array at index 1 has 1 dimension(s)"
+  },
+  {
+    "model": "O_SMALL_DISJOINT_RECENT",
+    "horizon": 5,
+    "cohort": "later",
+    "fold": "2026-07",
+    "cutoff": "2026-06-30",
+    "status": "unestimated",
+    "reason": "all the input arrays must have same number of dimensions, but the array at index 0 has 2 dimension(s) and the array at index 1 has 1 dimension(s)"
+  },
+  {
+    "model": "O_SMALL_DISJOINT_SPREAD",
+    "horizon": 5,
+    "cohort": "later",
+    "fold": "2026-07",
+    "cutoff": "2026-06-30",
+    "status": "unestimated",
+    "reason": "all the input arrays must have same number of dimensions, but the array at index 0 has 2 dimension(s) and the array at index 1 has 1 dimension(s)"
+  },
+  {
+    "model": "O_SMALL_DISJOINT_RECENT",
+    "horizon": 5,
+    "cohort": "later",
+    "fold": "2026-08",
+    "cutoff": "2026-07-31",
+    "status": "unestimated",
+    "reason": "all the input arrays must have same number of dimensions, but the array at index 0 has 2 dimension(s) and the array at index 1 has 1 dimension(s)"
+  },
+  {
+    "model": "O_SMALL_DISJOINT_SPREAD",
+    "horizon": 5,
+    "cohort": "later",
+    "fold": "2026-08",
+    "cutoff": "2026-07-31",
+    "status": "unestimated",
+    "reason": "all the input arrays must have same number of dimensions, but the array at index 0 has 2 dimension(s) and the array at index 1 has 1 dimension(s)"
+  },
+  {
+    "model": "O_SMALL_DISJOINT_RECENT",
+    "horizon": 5,
+    "cohort": "later",
+    "fold": "2026-09",
+    "cutoff": "2026-08-31",
+    "status": "unestimated",
+    "reason": "all the input arrays must have same number of dimensions, but the array at index 0 has 2 dimension(s) and the array at index 1 has 1 dimension(s)"
+  },
+  {
+    "model": "O_SMALL_DISJOINT_SPREAD",
+    "horizon": 5,
+    "cohort": "later",
+    "fold": "2026-09",
+    "cutoff": "2026-08-31",
+    "status": "unestimated",
+    "reason": "all the input arrays must have same number of dimensions, but the array at index 0 has 2 dimension(s) and the array at index 1 has 1 dimension(s)"
+  },
+  {
+    "model": "O_SMALL_DISJOINT_RECENT",
+    "horizon": 5,
+    "cohort": "later",
+    "fold": "2026-10",
+    "cutoff": "2026-09-30",
+    "status": "unestimated",
+    "reason": "all the input arrays must have same number of dimensions, but the array at index 0 has 2 dimension(s) and the array at index 1 has 1 dimension(s)"
+  },
+  {
+    "model": "O_SMALL_DISJOINT_SPREAD",
+    "horizon": 5,
+    "cohort": "later",
+    "fold": "2026-10",
+    "cutoff": "2026-09-30",
+    "status": "unestimated",
+    "reason": "all the input arrays must have same number of dimensions, but the array at index 0 has 2 dimension(s) and the array at index 1 has 1 dimension(s)"
+  },
+  {
+    "model": "O_SMALL_DISJOINT_RECENT",
+    "horizon": 5,
+    "cohort": "later",
+    "fold": "2026-11",
+    "cutoff": "2026-10-30",
+    "status": "unestimated",
+    "reason": "all the input arrays must have same number of dimensions, but the array at index 0 has 2 dimension(s) and the array at index 1 has 1 dimension(s)"
+  },
+  {
+    "model": "O_SMALL_DISJOINT_SPREAD",
+    "horizon": 5,
+    "cohort": "later",
+    "fold": "2026-11",
+    "cutoff": "2026-10-30",
+    "status": "unestimated",
+    "reason": "all the input arrays must have same number of dimensions, but the array at index 0 has 2 dimension(s) and the array at index 1 has 1 dimension(s)"
+  },
+  {
+    "model": "O_SMALL_DISJOINT_RECENT",
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2025-12",
+    "cutoff": "2025-12-01",
+    "status": "unestimated",
+    "reason": "all the input arrays must have same number of dimensions, but the array at index 0 has 2 dimension(s) and the array at index 1 has 1 dimension(s)"
+  },
+  {
+    "model": "O_SMALL_DISJOINT_SPREAD",
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2025-12",
+    "cutoff": "2025-12-01",
+    "status": "unestimated",
+    "reason": "all the input arrays must have same number of dimensions, but the array at index 0 has 2 dimension(s) and the array at index 1 has 1 dimension(s)"
+  },
+  {
+    "model": "O_SMALL_DISJOINT_RECENT",
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2026-01",
+    "cutoff": "2025-12-31",
+    "status": "unestimated",
+    "reason": "all the input arrays must have same number of dimensions, but the array at index 0 has 2 dimension(s) and the array at index 1 has 1 dimension(s)"
+  },
+  {
+    "model": "O_SMALL_DISJOINT_SPREAD",
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2026-01",
+    "cutoff": "2025-12-31",
+    "status": "unestimated",
+    "reason": "all the input arrays must have same number of dimensions, but the array at index 0 has 2 dimension(s) and the array at index 1 has 1 dimension(s)"
+  },
+  {
+    "model": "O_SMALL_DISJOINT_RECENT",
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2026-02",
+    "cutoff": "2026-01-30",
+    "status": "unestimated",
+    "reason": "all the input arrays must have same number of dimensions, but the array at index 0 has 2 dimension(s) and the array at index 1 has 1 dimension(s)"
+  },
+  {
+    "model": "O_SMALL_DISJOINT_SPREAD",
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2026-02",
+    "cutoff": "2026-01-30",
+    "status": "unestimated",
+    "reason": "all the input arrays must have same number of dimensions, but the array at index 0 has 2 dimension(s) and the array at index 1 has 1 dimension(s)"
+  },
+  {
+    "model": "O_SMALL_DISJOINT_RECENT",
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2026-03",
+    "cutoff": "2026-02-27",
+    "status": "unestimated",
+    "reason": "all the input arrays must have same number of dimensions, but the array at index 0 has 2 dimension(s) and the array at index 1 has 1 dimension(s)"
+  },
+  {
+    "model": "O_SMALL_DISJOINT_SPREAD",
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2026-03",
+    "cutoff": "2026-02-27",
+    "status": "unestimated",
+    "reason": "all the input arrays must have same number of dimensions, but the array at index 0 has 2 dimension(s) and the array at index 1 has 1 dimension(s)"
+  },
+  {
+    "model": "O_SMALL_DISJOINT_RECENT",
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2026-04",
+    "cutoff": "2026-03-30",
+    "status": "unestimated",
+    "reason": "all the input arrays must have same number of dimensions, but the array at index 0 has 2 dimension(s) and the array at index 1 has 1 dimension(s)"
+  },
+  {
+    "model": "O_SMALL_DISJOINT_SPREAD",
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2026-04",
+    "cutoff": "2026-03-30",
+    "status": "unestimated",
+    "reason": "all the input arrays must have same number of dimensions, but the array at index 0 has 2 dimension(s) and the array at index 1 has 1 dimension(s)"
+  },
+  {
+    "model": "O_SMALL_DISJOINT_RECENT",
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2026-05",
+    "cutoff": "2026-04-30",
+    "status": "unestimated",
+    "reason": "all the input arrays must have same number of dimensions, but the array at index 0 has 2 dimension(s) and the array at index 1 has 1 dimension(s)"
+  },
+  {
+    "model": "O_SMALL_DISJOINT_SPREAD",
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2026-05",
+    "cutoff": "2026-04-30",
+    "status": "unestimated",
+    "reason": "all the input arrays must have same number of dimensions, but the array at index 0 has 2 dimension(s) and the array at index 1 has 1 dimension(s)"
+  },
+  {
+    "model": "O_SMALL_DISJOINT_RECENT",
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2026-06",
+    "cutoff": "2026-05-29",
+    "status": "unestimated",
+    "reason": "all the input arrays must have same number of dimensions, but the array at index 0 has 2 dimension(s) and the array at index 1 has 1 dimension(s)"
+  },
+  {
+    "model": "O_SMALL_DISJOINT_SPREAD",
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2026-06",
+    "cutoff": "2026-05-29",
+    "status": "unestimated",
+    "reason": "all the input arrays must have same number of dimensions, but the array at index 0 has 2 dimension(s) and the array at index 1 has 1 dimension(s)"
+  },
+  {
+    "model": "O_SMALL_DISJOINT_RECENT",
+    "horizon": 21,
+    "cohort": "later",
+    "fold": "2026-07",
+    "cutoff": "2026-06-30",
+    "status": "unestimated",
+    "reason": "all the input arrays must have same number of dimensions, but the array at index 0 has 2 dimension(s) and the array at index 1 has 1 dimension(s)"
+  },
+  {
+    "model": "O_SMALL_DISJOINT_SPREAD",
+    "horizon": 21,
+    "cohort": "later",
+    "fold": "2026-07",
+    "cutoff": "2026-06-30",
+    "status": "unestimated",
+    "reason": "all the input arrays must have same number of dimensions, but the array at index 0 has 2 dimension(s) and the array at index 1 has 1 dimension(s)"
+  },
+  {
+    "model": "O_SMALL_DISJOINT_RECENT",
+    "horizon": 21,
+    "cohort": "later",
+    "fold": "2026-08",
+    "cutoff": "2026-07-31",
+    "status": "unestimated",
+    "reason": "all the input arrays must have same number of dimensions, but the array at index 0 has 2 dimension(s) and the array at index 1 has 1 dimension(s)"
+  },
+  {
+    "model": "O_SMALL_DISJOINT_SPREAD",
+    "horizon": 21,
+    "cohort": "later",
+    "fold": "2026-08",
+    "cutoff": "2026-07-31",
+    "status": "unestimated",
+    "reason": "all the input arrays must have same number of dimensions, but the array at index 0 has 2 dimension(s) and the array at index 1 has 1 dimension(s)"
+  },
+  {
+    "model": "O_SMALL_DISJOINT_RECENT",
+    "horizon": 21,
+    "cohort": "later",
+    "fold": "2026-09",
+    "cutoff": "2026-08-31",
+    "status": "unestimated",
+    "reason": "all the input arrays must have same number of dimensions, but the array at index 0 has 2 dimension(s) and the array at index 1 has 1 dimension(s)"
+  },
+  {
+    "model": "O_SMALL_DISJOINT_SPREAD",
+    "horizon": 21,
+    "cohort": "later",
+    "fold": "2026-09",
+    "cutoff": "2026-08-31",
+    "status": "unestimated",
+    "reason": "all the input arrays must have same number of dimensions, but the array at index 0 has 2 dimension(s) and the array at index 1 has 1 dimension(s)"
+  },
+  {
+    "model": "O_SMALL_DISJOINT_RECENT",
+    "horizon": 21,
+    "cohort": "later",
+    "fold": "2026-10",
+    "cutoff": "2026-09-30",
+    "status": "unestimated",
+    "reason": "all the input arrays must have same number of dimensions, but the array at index 0 has 2 dimension(s) and the array at index 1 has 1 dimension(s)"
+  },
+  {
+    "model": "O_SMALL_DISJOINT_SPREAD",
+    "horizon": 21,
+    "cohort": "later",
+    "fold": "2026-10",
+    "cutoff": "2026-09-30",
+    "status": "unestimated",
+    "reason": "all the input arrays must have same number of dimensions, but the array at index 0 has 2 dimension(s) and the array at index 1 has 1 dimension(s)"
+  }
+]

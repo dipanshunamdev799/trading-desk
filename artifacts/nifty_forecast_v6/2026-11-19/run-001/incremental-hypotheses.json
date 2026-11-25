@@ -1,0 +1,812 @@
+[
+  {
+    "horizon": 5,
+    "model": "H_MULTISCALE",
+    "parent": "I03_nosize",
+    "metric": "brier",
+    "n": 92,
+    "gain": -0.001838598664103323,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 5,
+    "model": "H_MULTISCALE",
+    "parent": "I03_nosize",
+    "metric": "crps",
+    "n": 92,
+    "gain": -0.00010956044817531468,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 5,
+    "model": "H_MULTISCALE",
+    "parent": "I03_nosize",
+    "metric": "mae",
+    "n": 92,
+    "gain": 0.0003749157025035218,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 5,
+    "model": "H_DYNAMIC",
+    "parent": "I03_nosize",
+    "metric": "brier",
+    "n": 92,
+    "gain": -0.0011900859377567445,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 5,
+    "model": "H_DYNAMIC",
+    "parent": "I03_nosize",
+    "metric": "crps",
+    "n": 92,
+    "gain": -1.0988847715392596e-05,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 5,
+    "model": "H_DYNAMIC",
+    "parent": "I03_nosize",
+    "metric": "mae",
+    "n": 92,
+    "gain": -2.605345779460373e-05,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 5,
+    "model": "H_DYNAMIC_CORE",
+    "parent": "C_SMALL",
+    "metric": "brier",
+    "n": 92,
+    "gain": 0.03152686376482961,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 5,
+    "model": "H_DYNAMIC_CORE",
+    "parent": "C_SMALL",
+    "metric": "crps",
+    "n": 92,
+    "gain": 0.00045906811605850827,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 5,
+    "model": "H_DYNAMIC_CORE",
+    "parent": "C_SMALL",
+    "metric": "mae",
+    "n": 92,
+    "gain": 0.0006166997243323813,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 5,
+    "model": "H_WARNINGS",
+    "parent": "I03_nosize",
+    "metric": "brier",
+    "n": 92,
+    "gain": 4.766218081435015e-05,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 5,
+    "model": "H_WARNINGS",
+    "parent": "I03_nosize",
+    "metric": "crps",
+    "n": 92,
+    "gain": -2.6835242770925656e-05,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 5,
+    "model": "H_WARNINGS",
+    "parent": "I03_nosize",
+    "metric": "mae",
+    "n": 92,
+    "gain": 3.4112700572023625e-06,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 5,
+    "model": "H_CORRELATION",
+    "parent": "I03_nosize",
+    "metric": "brier",
+    "n": 92,
+    "gain": -0.003632872835124386,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 5,
+    "model": "H_CORRELATION",
+    "parent": "I03_nosize",
+    "metric": "crps",
+    "n": 92,
+    "gain": -5.841659226402976e-06,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 5,
+    "model": "H_CORRELATION",
+    "parent": "I03_nosize",
+    "metric": "mae",
+    "n": 92,
+    "gain": -4.869840910560283e-05,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 5,
+    "model": "H_ROTATION",
+    "parent": "I03_nosize",
+    "metric": "brier",
+    "n": 92,
+    "gain": -0.0018552203490091771,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 5,
+    "model": "H_ROTATION",
+    "parent": "I03_nosize",
+    "metric": "crps",
+    "n": 92,
+    "gain": -6.785477430236569e-05,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 5,
+    "model": "H_ROTATION",
+    "parent": "I03_nosize",
+    "metric": "mae",
+    "n": 92,
+    "gain": -7.631462840523955e-05,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 5,
+    "model": "Q_ETF_NOSIZE",
+    "parent": "I03_nosize",
+    "metric": "brier",
+    "n": 92,
+    "gain": -0.00943016941075948,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 5,
+    "model": "Q_ETF_NOSIZE",
+    "parent": "I03_nosize",
+    "metric": "crps",
+    "n": 92,
+    "gain": 0.00012463973643908594,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 5,
+    "model": "Q_ETF_NOSIZE",
+    "parent": "I03_nosize",
+    "metric": "mae",
+    "n": 92,
+    "gain": -2.5694307054089618e-05,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 5,
+    "model": "Q_ETF_VOLUME",
+    "parent": "I03_nosize",
+    "metric": "brier",
+    "n": 92,
+    "gain": -0.0011513020063097614,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 5,
+    "model": "Q_ETF_VOLUME",
+    "parent": "I03_nosize",
+    "metric": "crps",
+    "n": 92,
+    "gain": 0.00026225492210817466,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 5,
+    "model": "Q_ETF_VOLUME",
+    "parent": "I03_nosize",
+    "metric": "mae",
+    "n": 92,
+    "gain": 0.00021683700874799975,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 5,
+    "model": "Q_ETF_PRICE",
+    "parent": "I03_nosize",
+    "metric": "brier",
+    "n": 92,
+    "gain": -0.013463164251207731,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 5,
+    "model": "Q_ETF_PRICE",
+    "parent": "I03_nosize",
+    "metric": "crps",
+    "n": 92,
+    "gain": -0.00011087238560945388,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 5,
+    "model": "Q_ETF_PRICE",
+    "parent": "I03_nosize",
+    "metric": "mae",
+    "n": 92,
+    "gain": -0.00021207114806879503,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 5,
+    "model": "G_DIRECT",
+    "parent": "G_MATCHED",
+    "metric": "brier",
+    "n": 92,
+    "gain": 0.009530347791066627,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 5,
+    "model": "G_DIRECT",
+    "parent": "G_MATCHED",
+    "metric": "crps",
+    "n": 92,
+    "gain": 0.00024216132339757252,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 5,
+    "model": "G_DIRECT",
+    "parent": "G_MATCHED",
+    "metric": "mae",
+    "n": 92,
+    "gain": 0.0006493598430845536,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 5,
+    "model": "G_MEDIATED",
+    "parent": "G_MATCHED",
+    "metric": "brier",
+    "n": 92,
+    "gain": -0.00015660698325639113,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 5,
+    "model": "G_MEDIATED",
+    "parent": "G_MATCHED",
+    "metric": "crps",
+    "n": 92,
+    "gain": -0.00010375633437818577,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 5,
+    "model": "G_MEDIATED",
+    "parent": "G_MATCHED",
+    "metric": "mae",
+    "n": 92,
+    "gain": -0.00018669266229567324,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 5,
+    "model": "W2_NODEF_VOLUME",
+    "parent": "F_NO_DEFENSIVE",
+    "metric": "brier",
+    "n": 92,
+    "gain": -0.00550945438561899,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 5,
+    "model": "W2_NODEF_VOLUME",
+    "parent": "F_NO_DEFENSIVE",
+    "metric": "crps",
+    "n": 92,
+    "gain": 0.00019449408154306803,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 5,
+    "model": "W2_NODEF_VOLUME",
+    "parent": "F_NO_DEFENSIVE",
+    "metric": "mae",
+    "n": 92,
+    "gain": -4.327196474500464e-05,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 5,
+    "model": "W2_NOAUTO_VOLUME",
+    "parent": "F_DROP_TOP3",
+    "metric": "brier",
+    "n": 92,
+    "gain": -0.0075335617338722965,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 5,
+    "model": "W2_NOAUTO_VOLUME",
+    "parent": "F_DROP_TOP3",
+    "metric": "crps",
+    "n": 92,
+    "gain": 0.00023934947861461281,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 5,
+    "model": "W2_NOAUTO_VOLUME",
+    "parent": "F_DROP_TOP3",
+    "metric": "mae",
+    "n": 92,
+    "gain": 0.00013293137466169322,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 5,
+    "model": "W2_DEF_PC",
+    "parent": "I03_nosize",
+    "metric": "brier",
+    "n": 92,
+    "gain": 0.011838177601958669,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 5,
+    "model": "W2_DEF_PC",
+    "parent": "I03_nosize",
+    "metric": "crps",
+    "n": 92,
+    "gain": -0.00010748542135367484,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 5,
+    "model": "W2_DEF_PC",
+    "parent": "I03_nosize",
+    "metric": "mae",
+    "n": 92,
+    "gain": 8.974577257837706e-05,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 5,
+    "model": "W2_DEF_NORM",
+    "parent": "I03_nosize",
+    "metric": "brier",
+    "n": 92,
+    "gain": 0.012184028804758624,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 5,
+    "model": "W2_DEF_NORM",
+    "parent": "I03_nosize",
+    "metric": "crps",
+    "n": 92,
+    "gain": 0.00010361374094208483,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 5,
+    "model": "W2_DEF_NORM",
+    "parent": "I03_nosize",
+    "metric": "mae",
+    "n": 92,
+    "gain": 0.0003077725432717867,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 21,
+    "model": "H_MULTISCALE",
+    "parent": "I03_nosize",
+    "metric": "brier",
+    "n": 76,
+    "gain": 0.06846177944862156,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 21,
+    "model": "H_MULTISCALE",
+    "parent": "I03_nosize",
+    "metric": "crps",
+    "n": 76,
+    "gain": 0.002500148944225832,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 21,
+    "model": "H_MULTISCALE",
+    "parent": "I03_nosize",
+    "metric": "mae",
+    "n": 76,
+    "gain": 0.003111864014665859,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 21,
+    "model": "H_DYNAMIC",
+    "parent": "I03_nosize",
+    "metric": "brier",
+    "n": 76,
+    "gain": -0.004408193101802134,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 21,
+    "model": "H_DYNAMIC",
+    "parent": "I03_nosize",
+    "metric": "crps",
+    "n": 76,
+    "gain": -0.00016373318496564702,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 21,
+    "model": "H_DYNAMIC",
+    "parent": "I03_nosize",
+    "metric": "mae",
+    "n": 76,
+    "gain": -0.0003083252432084301,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 21,
+    "model": "H_DYNAMIC_CORE",
+    "parent": "C_SMALL",
+    "metric": "brier",
+    "n": 76,
+    "gain": 0.06810816724350564,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 21,
+    "model": "H_DYNAMIC_CORE",
+    "parent": "C_SMALL",
+    "metric": "crps",
+    "n": 76,
+    "gain": 0.003000412384383584,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 21,
+    "model": "H_DYNAMIC_CORE",
+    "parent": "C_SMALL",
+    "metric": "mae",
+    "n": 76,
+    "gain": 0.004175838428418069,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 21,
+    "model": "H_WARNINGS",
+    "parent": "I03_nosize",
+    "metric": "brier",
+    "n": 76,
+    "gain": -0.0036974939829733018,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 21,
+    "model": "H_WARNINGS",
+    "parent": "I03_nosize",
+    "metric": "crps",
+    "n": 76,
+    "gain": -9.491814700214666e-05,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 21,
+    "model": "H_WARNINGS",
+    "parent": "I03_nosize",
+    "metric": "mae",
+    "n": 76,
+    "gain": -0.00019614339533961214,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 21,
+    "model": "H_CORRELATION",
+    "parent": "I03_nosize",
+    "metric": "brier",
+    "n": 76,
+    "gain": 0.012628707184628227,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 21,
+    "model": "H_CORRELATION",
+    "parent": "I03_nosize",
+    "metric": "crps",
+    "n": 76,
+    "gain": 0.00018231888370115834,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 21,
+    "model": "H_CORRELATION",
+    "parent": "I03_nosize",
+    "metric": "mae",
+    "n": 76,
+    "gain": -9.556076781596329e-05,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 21,
+    "model": "H_ROTATION",
+    "parent": "I03_nosize",
+    "metric": "brier",
+    "n": 76,
+    "gain": -0.000781001362533338,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 21,
+    "model": "H_ROTATION",
+    "parent": "I03_nosize",
+    "metric": "crps",
+    "n": 76,
+    "gain": -0.00011063377921426116,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 21,
+    "model": "H_ROTATION",
+    "parent": "I03_nosize",
+    "metric": "mae",
+    "n": 76,
+    "gain": -0.0002494803771075957,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 21,
+    "model": "Q_ETF_NOSIZE",
+    "parent": "I03_nosize",
+    "metric": "brier",
+    "n": 76,
+    "gain": -0.034754116193260944,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 21,
+    "model": "Q_ETF_NOSIZE",
+    "parent": "I03_nosize",
+    "metric": "crps",
+    "n": 76,
+    "gain": 0.0004934225641350751,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 21,
+    "model": "Q_ETF_NOSIZE",
+    "parent": "I03_nosize",
+    "metric": "mae",
+    "n": 76,
+    "gain": 0.0019586108711207007,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 21,
+    "model": "Q_ETF_VOLUME",
+    "parent": "I03_nosize",
+    "metric": "brier",
+    "n": 76,
+    "gain": 0.0021935916179337033,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 21,
+    "model": "Q_ETF_VOLUME",
+    "parent": "I03_nosize",
+    "metric": "crps",
+    "n": 76,
+    "gain": -6.56173018832044e-05,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 21,
+    "model": "Q_ETF_VOLUME",
+    "parent": "I03_nosize",
+    "metric": "mae",
+    "n": 76,
+    "gain": 7.354691009831994e-05,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 21,
+    "model": "Q_ETF_PRICE",
+    "parent": "I03_nosize",
+    "metric": "brier",
+    "n": 76,
+    "gain": -0.03721146243585154,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 21,
+    "model": "Q_ETF_PRICE",
+    "parent": "I03_nosize",
+    "metric": "crps",
+    "n": 76,
+    "gain": 0.00044209958668451645,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 21,
+    "model": "Q_ETF_PRICE",
+    "parent": "I03_nosize",
+    "metric": "mae",
+    "n": 76,
+    "gain": 0.001755565063204546,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 21,
+    "model": "G_DIRECT",
+    "parent": "G_MATCHED",
+    "metric": "brier",
+    "n": 53,
+    "gain": -0.0037088476134971497,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 21,
+    "model": "G_DIRECT",
+    "parent": "G_MATCHED",
+    "metric": "crps",
+    "n": 53,
+    "gain": 0.0004916518373862486,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 21,
+    "model": "G_DIRECT",
+    "parent": "G_MATCHED",
+    "metric": "mae",
+    "n": 53,
+    "gain": 0.001568155997387577,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 21,
+    "model": "G_MEDIATED",
+    "parent": "G_MATCHED",
+    "metric": "brier",
+    "n": 53,
+    "gain": -0.002090358648983993,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 21,
+    "model": "G_MEDIATED",
+    "parent": "G_MATCHED",
+    "metric": "crps",
+    "n": 53,
+    "gain": -0.00037995373028349425,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 21,
+    "model": "G_MEDIATED",
+    "parent": "G_MATCHED",
+    "metric": "mae",
+    "n": 53,
+    "gain": -0.0005511925490207064,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 21,
+    "model": "M_WEEKSTATE",
+    "parent": "M2_WINDOW_SMALL",
+    "metric": "brier",
+    "n": 76,
+    "gain": 0.22675469642467097,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 21,
+    "model": "M_WEEKSTATE",
+    "parent": "M2_WINDOW_SMALL",
+    "metric": "crps",
+    "n": 76,
+    "gain": 0.009851470130907527,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 21,
+    "model": "M_WEEKSTATE",
+    "parent": "M2_WINDOW_SMALL",
+    "metric": "mae",
+    "n": 76,
+    "gain": 0.008905316854518328,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 21,
+    "model": "M2_LEVELS",
+    "parent": "M2_WINDOW_SMALL",
+    "metric": "brier",
+    "n": 76,
+    "gain": 0.18785135093410532,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 21,
+    "model": "M2_LEVELS",
+    "parent": "M2_WINDOW_SMALL",
+    "metric": "crps",
+    "n": 76,
+    "gain": 0.007553030135991459,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 21,
+    "model": "M2_LEVELS",
+    "parent": "M2_WINDOW_SMALL",
+    "metric": "mae",
+    "n": 76,
+    "gain": 0.0060380205222444845,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 21,
+    "model": "M2_SLOPES",
+    "parent": "M2_WINDOW_SMALL",
+    "metric": "brier",
+    "n": 76,
+    "gain": 0.02755624647179634,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 21,
+    "model": "M2_SLOPES",
+    "parent": "M2_WINDOW_SMALL",
+    "metric": "crps",
+    "n": 76,
+    "gain": 0.001103302105186019,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 21,
+    "model": "M2_SLOPES",
+    "parent": "M2_WINDOW_SMALL",
+    "metric": "mae",
+    "n": 76,
+    "gain": 0.0007608431050569457,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 21,
+    "model": "M2_STATE_LAG1",
+    "parent": "M_WEEKSTATE",
+    "metric": "brier",
+    "n": 76,
+    "gain": 0.0032542166364654375,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 21,
+    "model": "M2_STATE_LAG1",
+    "parent": "M_WEEKSTATE",
+    "metric": "crps",
+    "n": 76,
+    "gain": 0.00029267945527542647,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  },
+  {
+    "horizon": 21,
+    "model": "M2_STATE_LAG1",
+    "parent": "M_WEEKSTATE",
+    "metric": "mae",
+    "n": 76,
+    "gain": 0.0011292051694890698,
+    "status": "Exploratory matched parent comparison; inspect search-wide strong-control intervals separately"
+  }
+]

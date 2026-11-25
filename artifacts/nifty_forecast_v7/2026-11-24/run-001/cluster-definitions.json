@@ -1,0 +1,1933 @@
+[
+  {
+    "horizon": 5,
+    "fold": "2026-07",
+    "cutoff": "2026-06-30",
+    "members": [
+      "i_bank_nifty_rel21",
+      "i_nifty_financial_rel21"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-07",
+    "cutoff": "2026-06-30",
+    "members": [
+      "i_nifty_psu_bank_rel21"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-07",
+    "cutoff": "2026-06-30",
+    "members": [
+      "i_bank_nifty_rel5",
+      "i_nifty_financial_rel5"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-07",
+    "cutoff": "2026-06-30",
+    "members": [
+      "i_nifty_psu_bank_rel5"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-07",
+    "cutoff": "2026-06-30",
+    "members": [
+      "i_idx_NIFTY_HEALTHCARE_rel21",
+      "i_nifty_pharma_rel21"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-07",
+    "cutoff": "2026-06-30",
+    "members": [
+      "i_idx_NIFTY_HEALTHCARE_rel5",
+      "i_nifty_pharma_rel5"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-07",
+    "cutoff": "2026-06-30",
+    "members": [
+      "i_idx_Nifty_Infra_rel21"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-07",
+    "cutoff": "2026-06-30",
+    "members": [
+      "i_nifty_it_rel21"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-07",
+    "cutoff": "2026-06-30",
+    "members": [
+      "i_idx_Nifty_100_rel21",
+      "i_idx_Nifty_200_rel21",
+      "i_idx_Nifty_500_rel21",
+      "i_idx_Nifty_Next_50_rel21",
+      "i_nifty_energy_rel21"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-07",
+    "cutoff": "2026-06-30",
+    "members": [
+      "i_idx_Nifty_InfraLog_rel21"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-07",
+    "cutoff": "2026-06-30",
+    "members": [
+      "i_nifty_realty_rel21"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-07",
+    "cutoff": "2026-06-30",
+    "members": [
+      "i_idx_Nifty_Infra_rel5"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-07",
+    "cutoff": "2026-06-30",
+    "members": [
+      "i_nifty_it_rel5"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-07",
+    "cutoff": "2026-06-30",
+    "members": [
+      "i_idx_Nifty_100_rel5",
+      "i_idx_Nifty_200_rel5",
+      "i_idx_Nifty_500_rel5",
+      "i_idx_Nifty_Next_50_rel5"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-07",
+    "cutoff": "2026-06-30",
+    "members": [
+      "i_nifty_energy_rel5"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-07",
+    "cutoff": "2026-06-30",
+    "members": [
+      "i_idx_Nifty_InfraLog_rel5"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-07",
+    "cutoff": "2026-06-30",
+    "members": [
+      "i_nifty_realty_rel5"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-07",
+    "cutoff": "2026-06-30",
+    "members": [
+      "i_idx_Nifty_Commodities_rel5",
+      "i_nifty_metal_rel5"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-07",
+    "cutoff": "2026-06-30",
+    "members": [
+      "i_idx_Nifty_Commodities_rel21",
+      "i_nifty_metal_rel21"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-07",
+    "cutoff": "2026-06-30",
+    "members": [
+      "i_nifty_auto_rel5"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-07",
+    "cutoff": "2026-06-30",
+    "members": [
+      "i_nifty_auto_rel21"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-07",
+    "cutoff": "2026-06-30",
+    "members": [
+      "i_idx_Nifty_Consumption_rel21"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-07",
+    "cutoff": "2026-06-30",
+    "members": [
+      "i_nifty_fmcg_rel21"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-07",
+    "cutoff": "2026-06-30",
+    "members": [
+      "i_idx_Nifty_Consumption_rel5"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-07",
+    "cutoff": "2026-06-30",
+    "members": [
+      "i_nifty_fmcg_rel5"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-08",
+    "cutoff": "2026-07-31",
+    "members": [
+      "i_nifty_auto_rel5"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-08",
+    "cutoff": "2026-07-31",
+    "members": [
+      "i_nifty_auto_rel21"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-08",
+    "cutoff": "2026-07-31",
+    "members": [
+      "i_nifty_realty_rel5"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-08",
+    "cutoff": "2026-07-31",
+    "members": [
+      "i_nifty_realty_rel21"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-08",
+    "cutoff": "2026-07-31",
+    "members": [
+      "i_idx_Nifty_Commodities_rel5",
+      "i_nifty_metal_rel5"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-08",
+    "cutoff": "2026-07-31",
+    "members": [
+      "i_idx_Nifty_100_rel5",
+      "i_idx_Nifty_200_rel5",
+      "i_idx_Nifty_500_rel5",
+      "i_idx_Nifty_Next_50_rel5"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-08",
+    "cutoff": "2026-07-31",
+    "members": [
+      "i_idx_Nifty_InfraLog_rel5"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-08",
+    "cutoff": "2026-07-31",
+    "members": [
+      "i_nifty_energy_rel5"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-08",
+    "cutoff": "2026-07-31",
+    "members": [
+      "i_idx_Nifty_Commodities_rel21",
+      "i_nifty_metal_rel21"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-08",
+    "cutoff": "2026-07-31",
+    "members": [
+      "i_idx_Nifty_100_rel21",
+      "i_idx_Nifty_200_rel21",
+      "i_idx_Nifty_500_rel21",
+      "i_idx_Nifty_Next_50_rel21"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-08",
+    "cutoff": "2026-07-31",
+    "members": [
+      "i_nifty_energy_rel21"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-08",
+    "cutoff": "2026-07-31",
+    "members": [
+      "i_idx_Nifty_InfraLog_rel21"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-08",
+    "cutoff": "2026-07-31",
+    "members": [
+      "i_idx_Nifty_Infra_rel21"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-08",
+    "cutoff": "2026-07-31",
+    "members": [
+      "i_bank_nifty_rel21",
+      "i_nifty_financial_rel21"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-08",
+    "cutoff": "2026-07-31",
+    "members": [
+      "i_nifty_psu_bank_rel21"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-08",
+    "cutoff": "2026-07-31",
+    "members": [
+      "i_nifty_it_rel21"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-08",
+    "cutoff": "2026-07-31",
+    "members": [
+      "i_bank_nifty_rel5",
+      "i_nifty_financial_rel5"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-08",
+    "cutoff": "2026-07-31",
+    "members": [
+      "i_nifty_psu_bank_rel5"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-08",
+    "cutoff": "2026-07-31",
+    "members": [
+      "i_idx_Nifty_Infra_rel5"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-08",
+    "cutoff": "2026-07-31",
+    "members": [
+      "i_nifty_it_rel5"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-08",
+    "cutoff": "2026-07-31",
+    "members": [
+      "i_idx_NIFTY_HEALTHCARE_rel21",
+      "i_nifty_pharma_rel21"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-08",
+    "cutoff": "2026-07-31",
+    "members": [
+      "i_idx_NIFTY_HEALTHCARE_rel5",
+      "i_nifty_pharma_rel5"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-08",
+    "cutoff": "2026-07-31",
+    "members": [
+      "i_idx_Nifty_Consumption_rel21"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-08",
+    "cutoff": "2026-07-31",
+    "members": [
+      "i_nifty_fmcg_rel21"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-08",
+    "cutoff": "2026-07-31",
+    "members": [
+      "i_idx_Nifty_Consumption_rel5"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-08",
+    "cutoff": "2026-07-31",
+    "members": [
+      "i_nifty_fmcg_rel5"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-09",
+    "cutoff": "2026-08-31",
+    "members": [
+      "i_nifty_auto_rel5"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-09",
+    "cutoff": "2026-08-31",
+    "members": [
+      "i_nifty_auto_rel21"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-09",
+    "cutoff": "2026-08-31",
+    "members": [
+      "i_nifty_realty_rel5"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-09",
+    "cutoff": "2026-08-31",
+    "members": [
+      "i_nifty_realty_rel21"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-09",
+    "cutoff": "2026-08-31",
+    "members": [
+      "i_idx_Nifty_Commodities_rel5",
+      "i_nifty_metal_rel5"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-09",
+    "cutoff": "2026-08-31",
+    "members": [
+      "i_idx_Nifty_100_rel5",
+      "i_idx_Nifty_200_rel5",
+      "i_idx_Nifty_500_rel5",
+      "i_idx_Nifty_Next_50_rel5"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-09",
+    "cutoff": "2026-08-31",
+    "members": [
+      "i_idx_Nifty_InfraLog_rel5"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-09",
+    "cutoff": "2026-08-31",
+    "members": [
+      "i_nifty_energy_rel5"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-09",
+    "cutoff": "2026-08-31",
+    "members": [
+      "i_idx_Nifty_Commodities_rel21",
+      "i_nifty_metal_rel21"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-09",
+    "cutoff": "2026-08-31",
+    "members": [
+      "i_idx_Nifty_100_rel21",
+      "i_idx_Nifty_200_rel21",
+      "i_idx_Nifty_500_rel21",
+      "i_idx_Nifty_Next_50_rel21"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-09",
+    "cutoff": "2026-08-31",
+    "members": [
+      "i_idx_Nifty_InfraLog_rel21",
+      "i_nifty_energy_rel21"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-09",
+    "cutoff": "2026-08-31",
+    "members": [
+      "i_idx_Nifty_Infra_rel21"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-09",
+    "cutoff": "2026-08-31",
+    "members": [
+      "i_bank_nifty_rel21",
+      "i_nifty_financial_rel21"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-09",
+    "cutoff": "2026-08-31",
+    "members": [
+      "i_nifty_it_rel21"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-09",
+    "cutoff": "2026-08-31",
+    "members": [
+      "i_nifty_psu_bank_rel21"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-09",
+    "cutoff": "2026-08-31",
+    "members": [
+      "i_bank_nifty_rel5",
+      "i_nifty_financial_rel5"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-09",
+    "cutoff": "2026-08-31",
+    "members": [
+      "i_nifty_psu_bank_rel5"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-09",
+    "cutoff": "2026-08-31",
+    "members": [
+      "i_idx_Nifty_Infra_rel5"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-09",
+    "cutoff": "2026-08-31",
+    "members": [
+      "i_nifty_it_rel5"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-09",
+    "cutoff": "2026-08-31",
+    "members": [
+      "i_idx_NIFTY_HEALTHCARE_rel21",
+      "i_nifty_pharma_rel21"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-09",
+    "cutoff": "2026-08-31",
+    "members": [
+      "i_idx_NIFTY_HEALTHCARE_rel5",
+      "i_nifty_pharma_rel5"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-09",
+    "cutoff": "2026-08-31",
+    "members": [
+      "i_idx_Nifty_Consumption_rel21"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-09",
+    "cutoff": "2026-08-31",
+    "members": [
+      "i_nifty_fmcg_rel21"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-09",
+    "cutoff": "2026-08-31",
+    "members": [
+      "i_idx_Nifty_Consumption_rel5"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-09",
+    "cutoff": "2026-08-31",
+    "members": [
+      "i_nifty_fmcg_rel5"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-10",
+    "cutoff": "2026-09-30",
+    "members": [
+      "i_nifty_auto_rel5"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-10",
+    "cutoff": "2026-09-30",
+    "members": [
+      "i_nifty_auto_rel21"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-10",
+    "cutoff": "2026-09-30",
+    "members": [
+      "i_idx_Nifty_Consumption_rel21"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-10",
+    "cutoff": "2026-09-30",
+    "members": [
+      "i_nifty_fmcg_rel21"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-10",
+    "cutoff": "2026-09-30",
+    "members": [
+      "i_idx_Nifty_Consumption_rel5"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-10",
+    "cutoff": "2026-09-30",
+    "members": [
+      "i_nifty_fmcg_rel5"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-10",
+    "cutoff": "2026-09-30",
+    "members": [
+      "i_bank_nifty_rel21",
+      "i_nifty_financial_rel21"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-10",
+    "cutoff": "2026-09-30",
+    "members": [
+      "i_nifty_it_rel21"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-10",
+    "cutoff": "2026-09-30",
+    "members": [
+      "i_nifty_psu_bank_rel21"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-10",
+    "cutoff": "2026-09-30",
+    "members": [
+      "i_bank_nifty_rel5",
+      "i_nifty_financial_rel5"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-10",
+    "cutoff": "2026-09-30",
+    "members": [
+      "i_nifty_psu_bank_rel5"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-10",
+    "cutoff": "2026-09-30",
+    "members": [
+      "i_idx_Nifty_Infra_rel5"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-10",
+    "cutoff": "2026-09-30",
+    "members": [
+      "i_nifty_it_rel5"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-10",
+    "cutoff": "2026-09-30",
+    "members": [
+      "i_idx_NIFTY_HEALTHCARE_rel21",
+      "i_nifty_pharma_rel21"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-10",
+    "cutoff": "2026-09-30",
+    "members": [
+      "i_idx_NIFTY_HEALTHCARE_rel5",
+      "i_nifty_pharma_rel5"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-10",
+    "cutoff": "2026-09-30",
+    "members": [
+      "i_nifty_realty_rel5"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-10",
+    "cutoff": "2026-09-30",
+    "members": [
+      "i_nifty_realty_rel21"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-10",
+    "cutoff": "2026-09-30",
+    "members": [
+      "i_idx_Nifty_Commodities_rel5",
+      "i_nifty_metal_rel5"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-10",
+    "cutoff": "2026-09-30",
+    "members": [
+      "i_idx_Nifty_100_rel5",
+      "i_idx_Nifty_200_rel5",
+      "i_idx_Nifty_500_rel5",
+      "i_idx_Nifty_Next_50_rel5"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-10",
+    "cutoff": "2026-09-30",
+    "members": [
+      "i_idx_Nifty_InfraLog_rel5"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-10",
+    "cutoff": "2026-09-30",
+    "members": [
+      "i_nifty_energy_rel5"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-10",
+    "cutoff": "2026-09-30",
+    "members": [
+      "i_idx_Nifty_Commodities_rel21",
+      "i_nifty_metal_rel21"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-10",
+    "cutoff": "2026-09-30",
+    "members": [
+      "i_idx_Nifty_100_rel21",
+      "i_idx_Nifty_200_rel21",
+      "i_idx_Nifty_500_rel21",
+      "i_idx_Nifty_Next_50_rel21"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-10",
+    "cutoff": "2026-09-30",
+    "members": [
+      "i_idx_Nifty_InfraLog_rel21",
+      "i_nifty_energy_rel21"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-10",
+    "cutoff": "2026-09-30",
+    "members": [
+      "i_idx_Nifty_Infra_rel21"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-11",
+    "cutoff": "2026-10-30",
+    "members": [
+      "i_idx_NIFTY_HEALTHCARE_rel21",
+      "i_nifty_pharma_rel21"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-11",
+    "cutoff": "2026-10-30",
+    "members": [
+      "i_idx_NIFTY_HEALTHCARE_rel5",
+      "i_nifty_pharma_rel5"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-11",
+    "cutoff": "2026-10-30",
+    "members": [
+      "i_nifty_realty_rel5"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-11",
+    "cutoff": "2026-10-30",
+    "members": [
+      "i_nifty_realty_rel21"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-11",
+    "cutoff": "2026-10-30",
+    "members": [
+      "i_idx_Nifty_Infra_rel5"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-11",
+    "cutoff": "2026-10-30",
+    "members": [
+      "i_nifty_it_rel5"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-11",
+    "cutoff": "2026-10-30",
+    "members": [
+      "i_idx_Nifty_Commodities_rel5",
+      "i_nifty_metal_rel5"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-11",
+    "cutoff": "2026-10-30",
+    "members": [
+      "i_idx_Nifty_100_rel5",
+      "i_idx_Nifty_200_rel5",
+      "i_idx_Nifty_500_rel5",
+      "i_idx_Nifty_Next_50_rel5"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-11",
+    "cutoff": "2026-10-30",
+    "members": [
+      "i_idx_Nifty_InfraLog_rel5"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-11",
+    "cutoff": "2026-10-30",
+    "members": [
+      "i_nifty_energy_rel5"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-11",
+    "cutoff": "2026-10-30",
+    "members": [
+      "i_idx_Nifty_Commodities_rel21",
+      "i_nifty_metal_rel21"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-11",
+    "cutoff": "2026-10-30",
+    "members": [
+      "i_idx_Nifty_100_rel21",
+      "i_idx_Nifty_200_rel21",
+      "i_idx_Nifty_500_rel21",
+      "i_idx_Nifty_Next_50_rel21"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-11",
+    "cutoff": "2026-10-30",
+    "members": [
+      "i_idx_Nifty_InfraLog_rel21",
+      "i_nifty_energy_rel21"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-11",
+    "cutoff": "2026-10-30",
+    "members": [
+      "i_idx_Nifty_Infra_rel21"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-11",
+    "cutoff": "2026-10-30",
+    "members": [
+      "i_bank_nifty_rel5",
+      "i_nifty_financial_rel5"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-11",
+    "cutoff": "2026-10-30",
+    "members": [
+      "i_nifty_psu_bank_rel5"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-11",
+    "cutoff": "2026-10-30",
+    "members": [
+      "i_bank_nifty_rel21",
+      "i_nifty_financial_rel21"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-11",
+    "cutoff": "2026-10-30",
+    "members": [
+      "i_nifty_it_rel21"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-11",
+    "cutoff": "2026-10-30",
+    "members": [
+      "i_nifty_psu_bank_rel21"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-11",
+    "cutoff": "2026-10-30",
+    "members": [
+      "i_nifty_auto_rel5"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-11",
+    "cutoff": "2026-10-30",
+    "members": [
+      "i_nifty_auto_rel21"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-11",
+    "cutoff": "2026-10-30",
+    "members": [
+      "i_idx_Nifty_Consumption_rel21"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-11",
+    "cutoff": "2026-10-30",
+    "members": [
+      "i_nifty_fmcg_rel21"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-11",
+    "cutoff": "2026-10-30",
+    "members": [
+      "i_idx_Nifty_Consumption_rel5"
+    ]
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-11",
+    "cutoff": "2026-10-30",
+    "members": [
+      "i_nifty_fmcg_rel5"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-07",
+    "cutoff": "2026-06-30",
+    "members": [
+      "i_bank_nifty_rel21",
+      "i_nifty_financial_rel21"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-07",
+    "cutoff": "2026-06-30",
+    "members": [
+      "i_nifty_psu_bank_rel21"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-07",
+    "cutoff": "2026-06-30",
+    "members": [
+      "i_bank_nifty_rel5",
+      "i_nifty_financial_rel5"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-07",
+    "cutoff": "2026-06-30",
+    "members": [
+      "i_nifty_psu_bank_rel5"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-07",
+    "cutoff": "2026-06-30",
+    "members": [
+      "i_idx_NIFTY_HEALTHCARE_rel21",
+      "i_nifty_pharma_rel21"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-07",
+    "cutoff": "2026-06-30",
+    "members": [
+      "i_idx_NIFTY_HEALTHCARE_rel5",
+      "i_nifty_pharma_rel5"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-07",
+    "cutoff": "2026-06-30",
+    "members": [
+      "i_idx_Nifty_Infra_rel21"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-07",
+    "cutoff": "2026-06-30",
+    "members": [
+      "i_nifty_it_rel21"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-07",
+    "cutoff": "2026-06-30",
+    "members": [
+      "i_idx_Nifty_100_rel21",
+      "i_idx_Nifty_200_rel21",
+      "i_idx_Nifty_500_rel21",
+      "i_idx_Nifty_Next_50_rel21",
+      "i_nifty_energy_rel21"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-07",
+    "cutoff": "2026-06-30",
+    "members": [
+      "i_idx_Nifty_InfraLog_rel21"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-07",
+    "cutoff": "2026-06-30",
+    "members": [
+      "i_nifty_realty_rel21"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-07",
+    "cutoff": "2026-06-30",
+    "members": [
+      "i_idx_Nifty_Infra_rel5"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-07",
+    "cutoff": "2026-06-30",
+    "members": [
+      "i_nifty_it_rel5"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-07",
+    "cutoff": "2026-06-30",
+    "members": [
+      "i_idx_Nifty_100_rel5",
+      "i_idx_Nifty_200_rel5",
+      "i_idx_Nifty_500_rel5",
+      "i_idx_Nifty_Next_50_rel5"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-07",
+    "cutoff": "2026-06-30",
+    "members": [
+      "i_nifty_energy_rel5"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-07",
+    "cutoff": "2026-06-30",
+    "members": [
+      "i_idx_Nifty_InfraLog_rel5"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-07",
+    "cutoff": "2026-06-30",
+    "members": [
+      "i_nifty_realty_rel5"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-07",
+    "cutoff": "2026-06-30",
+    "members": [
+      "i_idx_Nifty_Commodities_rel5",
+      "i_nifty_metal_rel5"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-07",
+    "cutoff": "2026-06-30",
+    "members": [
+      "i_idx_Nifty_Commodities_rel21",
+      "i_nifty_metal_rel21"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-07",
+    "cutoff": "2026-06-30",
+    "members": [
+      "i_nifty_auto_rel5"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-07",
+    "cutoff": "2026-06-30",
+    "members": [
+      "i_nifty_auto_rel21"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-07",
+    "cutoff": "2026-06-30",
+    "members": [
+      "i_idx_Nifty_Consumption_rel21"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-07",
+    "cutoff": "2026-06-30",
+    "members": [
+      "i_nifty_fmcg_rel21"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-07",
+    "cutoff": "2026-06-30",
+    "members": [
+      "i_idx_Nifty_Consumption_rel5"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-07",
+    "cutoff": "2026-06-30",
+    "members": [
+      "i_nifty_fmcg_rel5"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-08",
+    "cutoff": "2026-07-31",
+    "members": [
+      "i_bank_nifty_rel21",
+      "i_nifty_financial_rel21"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-08",
+    "cutoff": "2026-07-31",
+    "members": [
+      "i_nifty_psu_bank_rel21"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-08",
+    "cutoff": "2026-07-31",
+    "members": [
+      "i_bank_nifty_rel5",
+      "i_nifty_financial_rel5"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-08",
+    "cutoff": "2026-07-31",
+    "members": [
+      "i_nifty_psu_bank_rel5"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-08",
+    "cutoff": "2026-07-31",
+    "members": [
+      "i_nifty_it_rel5"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-08",
+    "cutoff": "2026-07-31",
+    "members": [
+      "i_idx_Nifty_Commodities_rel5",
+      "i_nifty_metal_rel5"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-08",
+    "cutoff": "2026-07-31",
+    "members": [
+      "i_idx_Nifty_Commodities_rel21",
+      "i_nifty_metal_rel21"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-08",
+    "cutoff": "2026-07-31",
+    "members": [
+      "i_idx_Nifty_100_rel5",
+      "i_idx_Nifty_200_rel5",
+      "i_idx_Nifty_500_rel5",
+      "i_idx_Nifty_Next_50_rel5"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-08",
+    "cutoff": "2026-07-31",
+    "members": [
+      "i_nifty_energy_rel5"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-08",
+    "cutoff": "2026-07-31",
+    "members": [
+      "i_idx_Nifty_InfraLog_rel5"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-08",
+    "cutoff": "2026-07-31",
+    "members": [
+      "i_nifty_realty_rel5"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-08",
+    "cutoff": "2026-07-31",
+    "members": [
+      "i_idx_Nifty_Infra_rel5"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-08",
+    "cutoff": "2026-07-31",
+    "members": [
+      "i_idx_NIFTY_HEALTHCARE_rel21",
+      "i_nifty_pharma_rel21"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-08",
+    "cutoff": "2026-07-31",
+    "members": [
+      "i_idx_NIFTY_HEALTHCARE_rel5",
+      "i_nifty_pharma_rel5"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-08",
+    "cutoff": "2026-07-31",
+    "members": [
+      "i_idx_Nifty_Infra_rel21"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-08",
+    "cutoff": "2026-07-31",
+    "members": [
+      "i_nifty_it_rel21"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-08",
+    "cutoff": "2026-07-31",
+    "members": [
+      "i_idx_Nifty_100_rel21",
+      "i_idx_Nifty_200_rel21",
+      "i_idx_Nifty_500_rel21",
+      "i_idx_Nifty_Next_50_rel21",
+      "i_nifty_energy_rel21"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-08",
+    "cutoff": "2026-07-31",
+    "members": [
+      "i_idx_Nifty_InfraLog_rel21"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-08",
+    "cutoff": "2026-07-31",
+    "members": [
+      "i_nifty_realty_rel21"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-08",
+    "cutoff": "2026-07-31",
+    "members": [
+      "i_nifty_auto_rel5"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-08",
+    "cutoff": "2026-07-31",
+    "members": [
+      "i_nifty_auto_rel21"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-08",
+    "cutoff": "2026-07-31",
+    "members": [
+      "i_idx_Nifty_Consumption_rel21"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-08",
+    "cutoff": "2026-07-31",
+    "members": [
+      "i_nifty_fmcg_rel21"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-08",
+    "cutoff": "2026-07-31",
+    "members": [
+      "i_idx_Nifty_Consumption_rel5"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-08",
+    "cutoff": "2026-07-31",
+    "members": [
+      "i_nifty_fmcg_rel5"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-09",
+    "cutoff": "2026-08-31",
+    "members": [
+      "i_nifty_auto_rel5"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-09",
+    "cutoff": "2026-08-31",
+    "members": [
+      "i_nifty_auto_rel21"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-09",
+    "cutoff": "2026-08-31",
+    "members": [
+      "i_nifty_realty_rel5"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-09",
+    "cutoff": "2026-08-31",
+    "members": [
+      "i_nifty_realty_rel21"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-09",
+    "cutoff": "2026-08-31",
+    "members": [
+      "i_idx_Nifty_Commodities_rel21",
+      "i_nifty_metal_rel21"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-09",
+    "cutoff": "2026-08-31",
+    "members": [
+      "i_idx_Nifty_100_rel21",
+      "i_idx_Nifty_200_rel21",
+      "i_idx_Nifty_500_rel21",
+      "i_idx_Nifty_Next_50_rel21"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-09",
+    "cutoff": "2026-08-31",
+    "members": [
+      "i_nifty_energy_rel21"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-09",
+    "cutoff": "2026-08-31",
+    "members": [
+      "i_idx_Nifty_InfraLog_rel21"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-09",
+    "cutoff": "2026-08-31",
+    "members": [
+      "i_idx_Nifty_Commodities_rel5",
+      "i_nifty_metal_rel5"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-09",
+    "cutoff": "2026-08-31",
+    "members": [
+      "i_idx_Nifty_100_rel5",
+      "i_idx_Nifty_200_rel5",
+      "i_idx_Nifty_500_rel5",
+      "i_idx_Nifty_Next_50_rel5"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-09",
+    "cutoff": "2026-08-31",
+    "members": [
+      "i_idx_Nifty_InfraLog_rel5"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-09",
+    "cutoff": "2026-08-31",
+    "members": [
+      "i_nifty_energy_rel5"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-09",
+    "cutoff": "2026-08-31",
+    "members": [
+      "i_idx_Nifty_Infra_rel5"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-09",
+    "cutoff": "2026-08-31",
+    "members": [
+      "i_idx_Nifty_Infra_rel21"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-09",
+    "cutoff": "2026-08-31",
+    "members": [
+      "i_nifty_it_rel21"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-09",
+    "cutoff": "2026-08-31",
+    "members": [
+      "i_nifty_it_rel5"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-09",
+    "cutoff": "2026-08-31",
+    "members": [
+      "i_bank_nifty_rel21",
+      "i_nifty_financial_rel21"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-09",
+    "cutoff": "2026-08-31",
+    "members": [
+      "i_nifty_psu_bank_rel21"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-09",
+    "cutoff": "2026-08-31",
+    "members": [
+      "i_bank_nifty_rel5",
+      "i_nifty_financial_rel5"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-09",
+    "cutoff": "2026-08-31",
+    "members": [
+      "i_nifty_psu_bank_rel5"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-09",
+    "cutoff": "2026-08-31",
+    "members": [
+      "i_idx_NIFTY_HEALTHCARE_rel21",
+      "i_nifty_pharma_rel21"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-09",
+    "cutoff": "2026-08-31",
+    "members": [
+      "i_idx_NIFTY_HEALTHCARE_rel5",
+      "i_nifty_pharma_rel5"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-09",
+    "cutoff": "2026-08-31",
+    "members": [
+      "i_idx_Nifty_Consumption_rel21"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-09",
+    "cutoff": "2026-08-31",
+    "members": [
+      "i_nifty_fmcg_rel21"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-09",
+    "cutoff": "2026-08-31",
+    "members": [
+      "i_idx_Nifty_Consumption_rel5"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-09",
+    "cutoff": "2026-08-31",
+    "members": [
+      "i_nifty_fmcg_rel5"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-10",
+    "cutoff": "2026-09-30",
+    "members": [
+      "i_nifty_auto_rel5"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-10",
+    "cutoff": "2026-09-30",
+    "members": [
+      "i_nifty_auto_rel21"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-10",
+    "cutoff": "2026-09-30",
+    "members": [
+      "i_idx_Nifty_Consumption_rel21"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-10",
+    "cutoff": "2026-09-30",
+    "members": [
+      "i_nifty_fmcg_rel21"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-10",
+    "cutoff": "2026-09-30",
+    "members": [
+      "i_idx_Nifty_Consumption_rel5"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-10",
+    "cutoff": "2026-09-30",
+    "members": [
+      "i_nifty_fmcg_rel5"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-10",
+    "cutoff": "2026-09-30",
+    "members": [
+      "i_bank_nifty_rel21",
+      "i_nifty_financial_rel21"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-10",
+    "cutoff": "2026-09-30",
+    "members": [
+      "i_nifty_it_rel21"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-10",
+    "cutoff": "2026-09-30",
+    "members": [
+      "i_nifty_psu_bank_rel21"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-10",
+    "cutoff": "2026-09-30",
+    "members": [
+      "i_bank_nifty_rel5",
+      "i_nifty_financial_rel5"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-10",
+    "cutoff": "2026-09-30",
+    "members": [
+      "i_nifty_psu_bank_rel5"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-10",
+    "cutoff": "2026-09-30",
+    "members": [
+      "i_idx_Nifty_Infra_rel5"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-10",
+    "cutoff": "2026-09-30",
+    "members": [
+      "i_nifty_it_rel5"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-10",
+    "cutoff": "2026-09-30",
+    "members": [
+      "i_idx_NIFTY_HEALTHCARE_rel21",
+      "i_nifty_pharma_rel21"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-10",
+    "cutoff": "2026-09-30",
+    "members": [
+      "i_idx_NIFTY_HEALTHCARE_rel5",
+      "i_nifty_pharma_rel5"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-10",
+    "cutoff": "2026-09-30",
+    "members": [
+      "i_nifty_realty_rel5"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-10",
+    "cutoff": "2026-09-30",
+    "members": [
+      "i_nifty_realty_rel21"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-10",
+    "cutoff": "2026-09-30",
+    "members": [
+      "i_idx_Nifty_Commodities_rel5",
+      "i_nifty_metal_rel5"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-10",
+    "cutoff": "2026-09-30",
+    "members": [
+      "i_idx_Nifty_100_rel5",
+      "i_idx_Nifty_200_rel5",
+      "i_idx_Nifty_500_rel5",
+      "i_idx_Nifty_Next_50_rel5"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-10",
+    "cutoff": "2026-09-30",
+    "members": [
+      "i_idx_Nifty_InfraLog_rel5"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-10",
+    "cutoff": "2026-09-30",
+    "members": [
+      "i_nifty_energy_rel5"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-10",
+    "cutoff": "2026-09-30",
+    "members": [
+      "i_idx_Nifty_Commodities_rel21",
+      "i_nifty_metal_rel21"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-10",
+    "cutoff": "2026-09-30",
+    "members": [
+      "i_idx_Nifty_100_rel21",
+      "i_idx_Nifty_200_rel21",
+      "i_idx_Nifty_500_rel21",
+      "i_idx_Nifty_Next_50_rel21"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-10",
+    "cutoff": "2026-09-30",
+    "members": [
+      "i_idx_Nifty_InfraLog_rel21",
+      "i_nifty_energy_rel21"
+    ]
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-10",
+    "cutoff": "2026-09-30",
+    "members": [
+      "i_idx_Nifty_Infra_rel21"
+    ]
+  }
+]

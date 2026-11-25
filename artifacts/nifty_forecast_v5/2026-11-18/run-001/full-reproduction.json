@@ -1,0 +1,19 @@
+{
+  "completed": "2026-11-18T23:10:36.674463+05:30",
+  "destination": "artifacts\\nifty_forecast_v5\\2026-11-18\\reproduction-003",
+  "systems": 34,
+  "records": 11992,
+  "max_abs_differences": {
+    "p": 0.0,
+    "predicted_mean": 2.8189256484623115e-18,
+    "predicted_median": 3.469446951953614e-18,
+    "brier": 0.0,
+    "crps": 6.938893903907228e-18,
+    "coverage50": 0.0,
+    "coverage80": 0.0,
+    "pinball": 6.938893903907228e-18
+  },
+  "new_source_acquisition": false,
+  "fresh_forecast_reissued": false,
+  "note": "Current hardened code fixes unused Indian-forest metadata directly; original failed attempts remain in original run, reproduction has no need to repeat that bug. This is repeatability, not independent validation."
+}

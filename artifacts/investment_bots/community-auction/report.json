@@ -1,0 +1,1057 @@
+{
+  "version": "community-auction-exploratory-v1",
+  "code_sha256": "cd1e7a7d8bf6e4f1f2b75e3a7a68384aa90d4958bde7d9b3bb7fa6eeea85d3aa",
+  "source_manifest": [
+    {
+      "repository": "tkanhe/NSE-India-PreOpen-Market-Data",
+      "commit": "653479863adbc4e7ed87fbf67e62f01f04a59f04",
+      "file": "tkanhe.zip",
+      "sha256": "19b18f759974a2787d5bd669cf277e75f678318439fb83f9b9b2a9f8e1b3d073",
+      "bytes": 5235607,
+      "downloaded_at": "2026-11-15T04:17:40.163403+00:00"
+    },
+    {
+      "repository": "howutrade/nse-preopen-data",
+      "commit": "4d493e274a9000a16fe69c29610ff78376312333",
+      "file": "howutrade.zip",
+      "sha256": "a70808aa8c9d99518a3676209a9b9f6037626ec4d52f140b694440145aa94a54",
+      "bytes": 143278968,
+      "downloaded_at": "2026-11-15T04:20:49.183412+00:00"
+    },
+    {
+      "repository": "ferozmd53/nse-preopen-data",
+      "commit": "98f7a54c8b9f9b8d924481792d5e5b76d059662d",
+      "file": "ferozmd53.zip",
+      "sha256": "529f21942a4117b9f45b140842aee02f373653bc8765388c37b21c0e08813d98",
+      "bytes": 4757743,
+      "downloaded_at": "2026-11-15T04:20:58.993224+00:00"
+    }
+  ],
+  "archive_audit": {
+    "tkanhe": {
+      "source": "tkanhe",
+      "files": 1197,
+      "records": 208891,
+      "distinct_dates": 1197,
+      "first": "2018-05-11",
+      "last": "2023-03-31",
+      "duplicate_rows": 0,
+      "conflicting_duplicate_rows": 0,
+      "excluded_conflicting_keys": 0,
+      "rejected_rows": 0,
+      "wrong_or_unparseable_quote_date_rows_excluded": 0,
+      "positive_volume_rows": 206794,
+      "market_imbalance_rows": 0,
+      "zero_market_imbalance_rows": 0,
+      "verified_decision_capture_rows": 0,
+      "strict_status": "NOT_IDENTIFIABLE: no verified <=09:05 capture with freshness evidence"
+    },
+    "howutrade": {
+      "source": "howutrade",
+      "files": 482,
+      "records": 782802,
+      "distinct_dates": 482,
+      "first": "2022-06-09",
+      "last": "2024-05-28",
+      "duplicate_rows": 0,
+      "conflicting_duplicate_rows": 0,
+      "excluded_conflicting_keys": 0,
+      "rejected_rows": 0,
+      "wrong_or_unparseable_quote_date_rows_excluded": 4461,
+      "positive_volume_rows": 782794,
+      "market_imbalance_rows": 782802,
+      "zero_market_imbalance_rows": 130273,
+      "verified_decision_capture_rows": 0,
+      "strict_status": "NOT_IDENTIFIABLE: no verified <=09:05 capture with freshness evidence"
+    },
+    "ferozmd53": {
+      "source": "ferozmd53",
+      "files": 192,
+      "records": 19859,
+      "distinct_dates": 94,
+      "first": "2026-07-01",
+      "last": "2026-11-13",
+      "duplicate_rows": 20819,
+      "conflicting_duplicate_rows": 0,
+      "excluded_conflicting_keys": 0,
+      "rejected_rows": 0,
+      "wrong_or_unparseable_quote_date_rows_excluded": 0,
+      "positive_volume_rows": 19858,
+      "market_imbalance_rows": 0,
+      "zero_market_imbalance_rows": 0,
+      "verified_decision_capture_rows": 0,
+      "strict_status": "NOT_IDENTIFIABLE: no verified <=09:05 capture with freshness evidence"
+    }
+  },
+  "coverage": [
+    {
+      "source": "tkanhe",
+      "start": "2018-05-11",
+      "end": "2023-03-31",
+      "trading_sessions": 1213,
+      "observed_sessions": 1197,
+      "matched_stock_days": 182550,
+      "mapping": "Exact frozen symbol only; no inferred historical renames",
+      "excluded_ambiguous_symbols": [],
+      "incomplete_price_sessions": [
+        {
+          "session": "2018-11-07",
+          "missing": 297,
+          "required": 300
+        },
+        {
+          "session": "2018-11-09",
+          "missing": 2,
+          "required": 23
+        }
+      ]
+    },
+    {
+      "source": "howutrade",
+      "start": "2022-06-09",
+      "end": "2024-05-28",
+      "trading_sessions": 488,
+      "observed_sessions": 482,
+      "matched_stock_days": 656521,
+      "mapping": "Exact frozen symbol only; no inferred historical renames",
+      "excluded_ambiguous_symbols": [],
+      "incomplete_price_sessions": []
+    },
+    {
+      "source": "ferozmd53",
+      "start": "2026-07-01",
+      "end": "2026-11-13",
+      "trading_sessions": 95,
+      "observed_sessions": 94,
+      "matched_stock_days": 19782,
+      "mapping": "Exact frozen symbol only; no inferred historical renames",
+      "excluded_ambiguous_symbols": [],
+      "incomplete_price_sessions": []
+    }
+  ],
+  "strict_C0_R_X": {
+    "status": "NOT_IDENTIFIABLE",
+    "reason": "No verified capture-time/freshness evidence at the decision cutoff; no strict performance claimed"
+  },
+  "accounting": {
+    "capital_rupees": 1000000,
+    "cost_per_side": 0.00225,
+    "whole_shares": true,
+    "profits_reinvested": true,
+    "initial_positions": "Cash; first decision on prior trading close",
+    "end_positions": "Marked to market, no forced liquidation",
+    "final_volume_participation": 0.1,
+    "final_price_tolerance": 0.01,
+    "market_data": "Existing Upstox PostgreSQL candles; SELECT only",
+    "community_data_and_results": "Local files only; never sent to PostgreSQL"
+  },
+  "results": [
+    {
+      "total_return": 1.3524224259874957,
+      "cagr": 0.1912972788137588,
+      "final_value_rupees": 2352422.4259874956,
+      "max_drawdown": -0.3853046891026153,
+      "annualized_volatility": 0.245717674594695,
+      "sharpe_zero_rf": 0.8474922778345685,
+      "worst_day": -0.12956411891246,
+      "best_day": 0.07178515992514889,
+      "annual_returns": {
+        "2018": -0.08969759524000043,
+        "2019": 0.03724133891960579,
+        "2020": 0.44689137447998784,
+        "2021": 0.984765452850594,
+        "2022": -0.04491667620440398,
+        "2023": -0.09162866260648095
+      },
+      "rolling_252_sessions": {
+        "min": -0.24258542637171,
+        "median": 0.1434373703293259,
+        "max": 1.7373538577783147,
+        "positive_fraction": 0.6649323621227887
+      },
+      "rolling_756_sessions": {
+        "min": 1.2705614932673925,
+        "median": 1.8373118755222166,
+        "max": 2.291458217950066,
+        "positive_fraction": 1.0
+      },
+      "max_underwater_sessions": 477,
+      "worst_drawdown": {
+        "peak": "2018-08-28",
+        "trough": "2020-03-24",
+        "recovery": "2020-08-07"
+      },
+      "average_exposure": 0.9972353664742954,
+      "closed_positions": 853,
+      "win_rate": 0.44196951934349354,
+      "profit_factor": 1.414260264540722,
+      "source": "tkanhe",
+      "mode": "reference",
+      "start": "2018-05-11",
+      "end": "2023-03-31",
+      "filled_orders": 1726,
+      "attempts": 1822,
+      "gate_counts": {},
+      "cashflow_error_rupees": 4.423782229423523e-09,
+      "ending_holdings": 20,
+      "pending_sells": 0,
+      "average_holdings": 19.604286892003298,
+      "archive_observed_intents": 702,
+      "positive_quantity_intents": 1821,
+      "total_fees_rupees": 0.29116635401250013
+    },
+    {
+      "total_return": 0.5540107022199989,
+      "cagr": 0.09439896217364718,
+      "final_value_rupees": 1554010.702219999,
+      "max_drawdown": -0.20980926750696582,
+      "annualized_volatility": 0.1333837428365771,
+      "sharpe_zero_rf": 0.7534244452583433,
+      "worst_day": -0.05273204749170246,
+      "best_day": 0.0569378741149571,
+      "annual_returns": {
+        "2018": 0.01314708191999947,
+        "2019": -0.020227591892347352,
+        "2020": 0.09053552421372935,
+        "2021": 0.3567071314680448,
+        "2022": 0.12910818232520826,
+        "2023": -0.06288082830886177
+      },
+      "rolling_252_sessions": {
+        "min": -0.13672064352537483,
+        "median": 0.057978501371510394,
+        "max": 0.6176166449210281,
+        "positive_fraction": 0.7232049947970863
+      },
+      "rolling_756_sessions": {
+        "min": 0.3543853270750563,
+        "median": 0.5089388094283427,
+        "max": 0.7135317109351731,
+        "positive_fraction": 1.0
+      },
+      "max_underwater_sessions": 579,
+      "worst_drawdown": {
+        "peak": "2018-08-28",
+        "trough": "2020-03-23",
+        "recovery": "2021-01-01"
+      },
+      "average_exposure": 0.5606601946709503,
+      "closed_positions": 423,
+      "win_rate": 0.44208037825059104,
+      "profit_factor": 1.65303225833979,
+      "source": "tkanhe",
+      "mode": "coverage_only",
+      "start": "2018-05-11",
+      "end": "2023-03-31",
+      "filled_orders": 856,
+      "attempts": 4903,
+      "gate_counts": {
+        "missing_observation": 4042,
+        "coverage_only": 856
+      },
+      "cashflow_error_rupees": 1.1641532182693481e-09,
+      "ending_holdings": 10,
+      "pending_sells": 1,
+      "average_holdings": 10.746084089035449,
+      "archive_observed_intents": 856,
+      "positive_quantity_intents": 4898,
+      "total_fees_rupees": 0.1156670677799999
+    },
+    {
+      "total_return": 0.4363218895624992,
+      "cagr": 0.07690439596850918,
+      "final_value_rupees": 1436321.8895624992,
+      "max_drawdown": -0.14765958734631424,
+      "annualized_volatility": 0.09779810291285519,
+      "sharpe_zero_rf": 0.8181721442432771,
+      "worst_day": -0.042034337624615725,
+      "best_day": 0.040274539026070366,
+      "annual_returns": {
+        "2018": -0.03136422371250025,
+        "2019": 0.020285365336503602,
+        "2020": 0.10710020057206959,
+        "2021": 0.27599101404523374,
+        "2022": 0.06657952987840865,
+        "2023": -0.03541206252487139
+      },
+      "rolling_252_sessions": {
+        "min": -0.09737959541690355,
+        "median": 0.04358213366891106,
+        "max": 0.5548663260289382,
+        "positive_fraction": 0.7710718002081165
+      },
+      "rolling_756_sessions": {
+        "min": 0.34319155434281456,
+        "median": 0.4455567166276584,
+        "max": 0.5986551698006104,
+        "positive_fraction": 1.0
+      },
+      "max_underwater_sessions": 540,
+      "worst_drawdown": {
+        "peak": "2018-08-31",
+        "trough": "2020-03-23",
+        "recovery": "2020-11-10"
+      },
+      "average_exposure": 0.3822813047174799,
+      "closed_positions": 261,
+      "win_rate": 0.47509578544061304,
+      "profit_factor": 1.8923854025908182,
+      "source": "tkanhe",
+      "mode": "volume_proxy",
+      "start": "2018-05-11",
+      "end": "2023-03-31",
+      "filled_orders": 527,
+      "attempts": 5522,
+      "gate_counts": {
+        "missing_observation": 4206,
+        "price_mismatch": 578,
+        "proxy_pass": 527,
+        "participation_limit": 199,
+        "no_final_auction": 6
+      },
+      "cashflow_error_rupees": 8.731149137020111e-10,
+      "ending_holdings": 5,
+      "pending_sells": 1,
+      "average_holdings": 7.375927452596867,
+      "archive_observed_intents": 1310,
+      "positive_quantity_intents": 5516,
+      "total_fees_rupees": 0.07034246043749998
+    },
+    {
+      "total_return": 0.9719212822199985,
+      "cagr": 0.4118972210065026,
+      "final_value_rupees": 1971921.2822199985,
+      "max_drawdown": -0.2029959774166683,
+      "annualized_volatility": 0.22096765750836578,
+      "sharpe_zero_rf": 1.699104829751795,
+      "worst_day": -0.07298384598481478,
+      "best_day": 0.07202672438359992,
+      "annual_returns": {
+        "2022": 0.10944666244999945,
+        "2023": 0.5788959196598105,
+        "2024": 0.12571808652404504
+      },
+      "rolling_252_sessions": {
+        "min": 0.16053505441742733,
+        "median": 0.4672185731721573,
+        "max": 0.9710480455099804,
+        "positive_fraction": 1.0
+      },
+      "rolling_756_sessions": null,
+      "max_underwater_sessions": 141,
+      "worst_drawdown": {
+        "peak": "2022-12-14",
+        "trough": "2023-03-27",
+        "recovery": "2023-07-12"
+      },
+      "average_exposure": 0.9950458106535095,
+      "closed_positions": 351,
+      "win_rate": 0.49002849002849,
+      "profit_factor": 2.045566760583408,
+      "source": "howutrade",
+      "mode": "reference",
+      "start": "2022-06-09",
+      "end": "2024-05-28",
+      "filled_orders": 722,
+      "attempts": 760,
+      "gate_counts": {},
+      "cashflow_error_rupees": 1.6298145055770874e-09,
+      "ending_holdings": 20,
+      "pending_sells": 0,
+      "average_holdings": 19.610655737704917,
+      "archive_observed_intents": 717,
+      "positive_quantity_intents": 758,
+      "total_fees_rupees": 0.10301486777999998
+    },
+    {
+      "total_return": 0.9184615111774987,
+      "cagr": 0.3923210302863409,
+      "final_value_rupees": 1918461.5111774988,
+      "max_drawdown": -0.18944418461904244,
+      "annualized_volatility": 0.21332531006786382,
+      "sharpe_zero_rf": 1.6854524833440434,
+      "worst_day": -0.07167196076942739,
+      "best_day": 0.07097319680698155,
+      "annual_returns": {
+        "2022": 0.1187868228325002,
+        "2023": 0.5391900436963881,
+        "2024": 0.11407262438205623
+      },
+      "rolling_252_sessions": {
+        "min": 0.16901412935591487,
+        "median": 0.4343572703863038,
+        "max": 0.9180900821338911,
+        "positive_fraction": 1.0
+      },
+      "rolling_756_sessions": null,
+      "max_underwater_sessions": 141,
+      "worst_drawdown": {
+        "peak": "2022-12-14",
+        "trough": "2023-02-27",
+        "recovery": "2023-07-12"
+      },
+      "average_exposure": 0.972689850093069,
+      "closed_positions": 346,
+      "win_rate": 0.4797687861271676,
+      "profit_factor": 2.0101987475777894,
+      "source": "howutrade",
+      "mode": "coverage_only",
+      "start": "2022-06-09",
+      "end": "2024-05-28",
+      "filled_orders": 711,
+      "attempts": 794,
+      "gate_counts": {
+        "coverage_only": 729,
+        "missing_observation": 62
+      },
+      "cashflow_error_rupees": 1.1641532182693481e-09,
+      "ending_holdings": 19,
+      "pending_sells": 0,
+      "average_holdings": 19.153688524590162,
+      "archive_observed_intents": 729,
+      "positive_quantity_intents": 791,
+      "total_fees_rupees": 0.10096940882250001
+    },
+    {
+      "total_return": 0.5543575912249987,
+      "cagr": 0.25114413370082933,
+      "final_value_rupees": 1554357.5912249987,
+      "max_drawdown": -0.15837641166040695,
+      "annualized_volatility": 0.16564430257837995,
+      "sharpe_zero_rf": 1.458826762279473,
+      "worst_day": -0.04964333705784174,
+      "best_day": 0.04641696500153025,
+      "annual_returns": {
+        "2022": -0.0011059178000003556,
+        "2023": 0.40330424971107104,
+        "2024": 0.10886750784185373
+      },
+      "rolling_252_sessions": {
+        "min": 0.06786345668396598,
+        "median": 0.3319246806505205,
+        "max": 0.6608118053595542,
+        "positive_fraction": 1.0
+      },
+      "rolling_756_sessions": null,
+      "max_underwater_sessions": 133,
+      "worst_drawdown": {
+        "peak": "2022-12-13",
+        "trough": "2023-02-27",
+        "recovery": "2023-06-28"
+      },
+      "average_exposure": 0.7715458056550392,
+      "closed_positions": 271,
+      "win_rate": 0.4612546125461255,
+      "profit_factor": 1.8393678080262446,
+      "source": "howutrade",
+      "mode": "volume_proxy",
+      "start": "2022-06-09",
+      "end": "2024-05-28",
+      "filled_orders": 562,
+      "attempts": 1159,
+      "gate_counts": {
+        "proxy_pass": 562,
+        "price_mismatch": 381,
+        "participation_limit": 141,
+        "missing_observation": 72
+      },
+      "cashflow_error_rupees": 1.280568540096283e-09,
+      "ending_holdings": 20,
+      "pending_sells": 0,
+      "average_holdings": 14.915983606557377,
+      "archive_observed_intents": 1084,
+      "positive_quantity_intents": 1156,
+      "total_fees_rupees": 0.07291935877499993
+    },
+    {
+      "total_return": 0.22614113392499968,
+      "cagr": 0.10911941718404372,
+      "final_value_rupees": 1226141.1339249997,
+      "max_drawdown": -0.06156717826199942,
+      "annualized_volatility": 0.07565559425750219,
+      "sharpe_zero_rf": 1.4296780118005465,
+      "worst_day": -0.02273688859660017,
+      "best_day": 0.016542006204156356,
+      "annual_returns": {
+        "2022": 0.0025863431124995007,
+        "2023": 0.14079140313669836,
+        "2024": 0.07204357395652172
+      },
+      "rolling_252_sessions": {
+        "min": 0.000828563414488448,
+        "median": 0.10685493311195371,
+        "max": 0.2658044159999926,
+        "positive_fraction": 1.0
+      },
+      "rolling_756_sessions": null,
+      "max_underwater_sessions": 229,
+      "worst_drawdown": {
+        "peak": "2022-09-22",
+        "trough": "2023-02-28",
+        "recovery": "2023-08-28"
+      },
+      "average_exposure": 0.3303854728841067,
+      "closed_positions": 73,
+      "win_rate": 0.5205479452054794,
+      "profit_factor": 3.088385616536907,
+      "source": "howutrade",
+      "mode": "zero_imbalance_proxy",
+      "start": "2022-06-09",
+      "end": "2024-05-28",
+      "filled_orders": 150,
+      "attempts": 2847,
+      "gate_counts": {
+        "nonzero_market_imbalance": 2093,
+        "price_mismatch": 460,
+        "proxy_pass": 150,
+        "missing_observation": 102,
+        "participation_limit": 38
+      },
+      "cashflow_error_rupees": 4.0745362639427185e-10,
+      "ending_holdings": 4,
+      "pending_sells": 3,
+      "average_holdings": 6.288934426229508,
+      "archive_observed_intents": 2741,
+      "positive_quantity_intents": 2843,
+      "total_fees_rupees": 0.017751066075000013
+    },
+    {
+      "total_return": 0.09283418667249954,
+      "cagr": 0.27148349169661157,
+      "final_value_rupees": 1092834.1866724996,
+      "max_drawdown": -0.10003218117353108,
+      "annualized_volatility": 0.17473988912516755,
+      "sharpe_zero_rf": 1.4349113290016862,
+      "worst_day": -0.026989829454199477,
+      "best_day": 0.028159092406337294,
+      "annual_returns": {
+        "2026": 0.09283418667249954
+      },
+      "rolling_252_sessions": null,
+      "rolling_756_sessions": null,
+      "max_underwater_sessions": 26,
+      "worst_drawdown": {
+        "peak": "2026-10-07",
+        "trough": "2026-10-23",
+        "recovery": null
+      },
+      "average_exposure": 0.9902522426522626,
+      "closed_positions": 46,
+      "win_rate": 0.34782608695652173,
+      "profit_factor": 0.576196159617075,
+      "source": "ferozmd53",
+      "mode": "reference",
+      "start": "2026-07-01",
+      "end": "2026-11-13",
+      "filled_orders": 111,
+      "attempts": 117,
+      "gate_counts": {},
+      "cashflow_error_rupees": 2.9103830456733704e-10,
+      "ending_holdings": 19,
+      "pending_sells": 3,
+      "average_holdings": 19.68421052631579,
+      "archive_observed_intents": 40,
+      "positive_quantity_intents": 117,
+      "total_fees_rupees": 0.011988703327500003
+    },
+    {
+      "total_return": 0.03038179443500022,
+      "cagr": 0.08434452006435134,
+      "final_value_rupees": 1030381.7944350002,
+      "max_drawdown": -0.035463626346586175,
+      "annualized_volatility": 0.07037979479163349,
+      "sharpe_zero_rf": 1.16306814984388,
+      "worst_day": -0.01328055484511248,
+      "best_day": 0.010900712370081056,
+      "annual_returns": {
+        "2026": 0.03038179443500022
+      },
+      "rolling_252_sessions": null,
+      "rolling_756_sessions": null,
+      "max_underwater_sessions": 76,
+      "worst_drawdown": {
+        "peak": "2026-07-16",
+        "trough": "2026-10-23",
+        "recovery": "2026-11-05"
+      },
+      "average_exposure": 0.4478688375665323,
+      "closed_positions": 21,
+      "win_rate": 0.2857142857142857,
+      "profit_factor": 0.24139247930834526,
+      "source": "ferozmd53",
+      "mode": "coverage_only",
+      "start": "2026-07-01",
+      "end": "2026-11-13",
+      "filled_orders": 52,
+      "attempts": 346,
+      "gate_counts": {
+        "missing_observation": 294,
+        "coverage_only": 52
+      },
+      "cashflow_error_rupees": -1.6007106751203537e-10,
+      "ending_holdings": 10,
+      "pending_sells": 3,
+      "average_holdings": 8.947368421052632,
+      "archive_observed_intents": 52,
+      "positive_quantity_intents": 346,
+      "total_fees_rupees": 0.005623805565000001
+    },
+    {
+      "total_return": 0.03038179443500022,
+      "cagr": 0.08434452006435134,
+      "final_value_rupees": 1030381.7944350002,
+      "max_drawdown": -0.035463626346586175,
+      "annualized_volatility": 0.07037979479163349,
+      "sharpe_zero_rf": 1.16306814984388,
+      "worst_day": -0.01328055484511248,
+      "best_day": 0.010900712370081056,
+      "annual_returns": {
+        "2026": 0.03038179443500022
+      },
+      "rolling_252_sessions": null,
+      "rolling_756_sessions": null,
+      "max_underwater_sessions": 76,
+      "worst_drawdown": {
+        "peak": "2026-07-16",
+        "trough": "2026-10-23",
+        "recovery": "2026-11-05"
+      },
+      "average_exposure": 0.4478688375665323,
+      "closed_positions": 21,
+      "win_rate": 0.2857142857142857,
+      "profit_factor": 0.24139247930834526,
+      "source": "ferozmd53",
+      "mode": "volume_proxy",
+      "start": "2026-07-01",
+      "end": "2026-11-13",
+      "filled_orders": 52,
+      "attempts": 346,
+      "gate_counts": {
+        "missing_observation": 294,
+        "proxy_pass": 52
+      },
+      "cashflow_error_rupees": -1.6007106751203537e-10,
+      "ending_holdings": 10,
+      "pending_sells": 3,
+      "average_holdings": 8.947368421052632,
+      "archive_observed_intents": 52,
+      "positive_quantity_intents": 346,
+      "total_fees_rupees": 0.005623805565000001
+    }
+  ],
+  "sensitivity": [
+    {
+      "source": "tkanhe",
+      "mode": "volume_proxy",
+      "participation": 0.01,
+      "cost_per_side": 0.00225,
+      "total_return": 0.16056041289999934,
+      "cagr": 0.030937732291964837,
+      "final_value_rupees": 1160560.4128999994,
+      "max_drawdown": -0.10307625528651154,
+      "annualized_volatility": 0.06231947965854081,
+      "sharpe_zero_rf": 0.5275572537219481,
+      "worst_day": -0.031218140586631304,
+      "best_day": 0.02741391428383122,
+      "annual_returns": {
+        "2018": -0.011127999649999998,
+        "2019": -0.01053019381812259,
+        "2020": 0.05705365898703807,
+        "2021": 0.13516375565500582,
+        "2022": 0.019230518314865774,
+        "2023": -0.030166554305423254
+      },
+      "rolling_252_sessions": {
+        "min": -0.09524376768797371,
+        "median": 0.004736631495759314,
+        "max": 0.2502074573474595,
+        "positive_fraction": 0.5671175858480749
+      },
+      "rolling_756_sessions": {
+        "min": 0.12891628095433982,
+        "median": 0.1917328353189085,
+        "max": 0.25796769560872734,
+        "positive_fraction": 1.0
+      },
+      "max_underwater_sessions": 555,
+      "worst_drawdown": {
+        "peak": "2021-06-04",
+        "trough": "2022-06-20",
+        "recovery": null
+      },
+      "average_exposure": 0.205961208135399
+    },
+    {
+      "source": "tkanhe",
+      "mode": "volume_proxy",
+      "participation": 0.05,
+      "cost_per_side": 0.00225,
+      "total_return": 0.45091385272499696,
+      "cagr": 0.07913408107700715,
+      "final_value_rupees": 1450913.8527249969,
+      "max_drawdown": -0.14310784192906645,
+      "annualized_volatility": 0.09518634518455885,
+      "sharpe_zero_rf": 0.8600309884942313,
+      "worst_day": -0.041860182703992166,
+      "best_day": 0.040024353306001625,
+      "annual_returns": {
+        "2018": -0.03434191246250051,
+        "2019": 0.017415164220168977,
+        "2020": 0.10253787454396934,
+        "2021": 0.2829901196405529,
+        "2022": 0.07773700696535979,
+        "2023": -0.03129751522834745
+      },
+      "rolling_252_sessions": {
+        "min": -0.08948321869933984,
+        "median": 0.04354971824836151,
+        "max": 0.5510253719687819,
+        "positive_fraction": 0.7741935483870968
+      },
+      "rolling_756_sessions": {
+        "min": 0.37744450710256383,
+        "median": 0.4668680319268119,
+        "max": 0.6135158022265745,
+        "positive_fraction": 1.0
+      },
+      "max_underwater_sessions": 540,
+      "worst_drawdown": {
+        "peak": "2018-08-31",
+        "trough": "2020-03-23",
+        "recovery": "2020-11-10"
+      },
+      "average_exposure": 0.3596773400596312
+    },
+    {
+      "source": "tkanhe",
+      "mode": "volume_proxy",
+      "participation": 0.1,
+      "cost_per_side": 0.0045,
+      "total_return": 0.3493213267750028,
+      "cagr": 0.06322321475603099,
+      "final_value_rupees": 1349321.3267750028,
+      "max_drawdown": -0.16532241287787997,
+      "annualized_volatility": 0.09837130192953661,
+      "sharpe_zero_rf": 0.6819850932968125,
+      "worst_day": -0.04224109444555446,
+      "best_day": 0.0399532607344919,
+      "annual_returns": {
+        "2018": -0.0395659097749993,
+        "2019": 0.006288999460219102,
+        "2020": 0.09603294489582104,
+        "2021": 0.26015543665760754,
+        "2022": 0.052302729759604594,
+        "2023": -0.03941307737774602
+      },
+      "rolling_252_sessions": {
+        "min": -0.10907184551851823,
+        "median": 0.028918975585640938,
+        "max": 0.5414060423388187,
+        "positive_fraction": 0.6753381893860562
+      },
+      "rolling_756_sessions": {
+        "min": 0.2954474628195136,
+        "median": 0.39543147628247266,
+        "max": 0.5406680269230133,
+        "positive_fraction": 1.0
+      },
+      "max_underwater_sessions": 557,
+      "worst_drawdown": {
+        "peak": "2018-08-28",
+        "trough": "2020-03-23",
+        "recovery": "2020-12-01"
+      },
+      "average_exposure": 0.3840970197112272
+    },
+    {
+      "source": "howutrade",
+      "mode": "volume_proxy",
+      "participation": 0.01,
+      "cost_per_side": 0.00225,
+      "total_return": 0.28050150831249976,
+      "cagr": 0.1338322072318776,
+      "final_value_rupees": 1280501.5083124998,
+      "max_drawdown": -0.12439038492992716,
+      "annualized_volatility": 0.14292888007924465,
+      "sharpe_zero_rf": 0.9653565683185092,
+      "worst_day": -0.052609363929481345,
+      "best_day": 0.045188510173953755,
+      "annual_returns": {
+        "2022": -0.007190604012500046,
+        "2023": 0.21035478848613676,
+        "2024": 0.06561793900936319
+      },
+      "rolling_252_sessions": {
+        "min": -0.022173133969604297,
+        "median": 0.16154154120792452,
+        "max": 0.3913767903154928,
+        "positive_fraction": 0.961864406779661
+      },
+      "rolling_756_sessions": null,
+      "max_underwater_sessions": 170,
+      "worst_drawdown": {
+        "peak": "2022-12-13",
+        "trough": "2023-03-14",
+        "recovery": "2023-08-22"
+      },
+      "average_exposure": 0.5519718689428011
+    },
+    {
+      "source": "howutrade",
+      "mode": "volume_proxy",
+      "participation": 0.05,
+      "cost_per_side": 0.00225,
+      "total_return": 0.5189623549124989,
+      "cagr": 0.23658899285953083,
+      "final_value_rupees": 1518962.354912499,
+      "max_drawdown": -0.15638900662172428,
+      "annualized_volatility": 0.16294372126009826,
+      "sharpe_zero_rf": 1.407202660510391,
+      "worst_day": -0.05041220856501727,
+      "best_day": 0.05049271001339828,
+      "annual_returns": {
+        "2022": 0.007187374237499933,
+        "2023": 0.35985745740646435,
+        "2024": 0.10903014351974605
+      },
+      "rolling_252_sessions": {
+        "min": 0.05152021858495348,
+        "median": 0.2973937820635765,
+        "max": 0.6092302803943641,
+        "positive_fraction": 1.0
+      },
+      "rolling_756_sessions": null,
+      "max_underwater_sessions": 147,
+      "worst_drawdown": {
+        "peak": "2022-12-13",
+        "trough": "2023-03-14",
+        "recovery": "2023-07-19"
+      },
+      "average_exposure": 0.7407504866592807
+    },
+    {
+      "source": "howutrade",
+      "mode": "volume_proxy",
+      "participation": 0.1,
+      "cost_per_side": 0.0045,
+      "total_return": 0.4471511473000014,
+      "cagr": 0.20653690731142715,
+      "final_value_rupees": 1447151.1473000015,
+      "max_drawdown": -0.1714737558159496,
+      "annualized_volatility": 0.16633808989379825,
+      "sharpe_zero_rf": 1.2313963425485275,
+      "worst_day": -0.04971693965333568,
+      "best_day": 0.046618143558458947,
+      "annual_returns": {
+        "2022": -0.02204200584999938,
+        "2023": 0.3530322119050495,
+        "2024": 0.09366812833434546
+      },
+      "rolling_252_sessions": {
+        "min": 0.02299710552854206,
+        "median": 0.2805038940610438,
+        "max": 0.6150782529522747,
+        "positive_fraction": 1.0
+      },
+      "rolling_756_sessions": null,
+      "max_underwater_sessions": 143,
+      "worst_drawdown": {
+        "peak": "2022-12-13",
+        "trough": "2023-02-27",
+        "recovery": "2023-07-13"
+      },
+      "average_exposure": 0.7757261121906268
+    },
+    {
+      "source": "howutrade",
+      "mode": "zero_imbalance_proxy",
+      "participation": 0.01,
+      "cost_per_side": 0.00225,
+      "total_return": 0.2657061441124995,
+      "cagr": 0.127158064415686,
+      "final_value_rupees": 1265706.1441124994,
+      "max_drawdown": -0.07865850930963281,
+      "annualized_volatility": 0.07066213589523568,
+      "sharpe_zero_rf": 1.7577514375350443,
+      "worst_day": -0.022864358419108388,
+      "best_day": 0.01379218984397057,
+      "annual_returns": {
+        "2022": -0.024146530862500182,
+        "2023": 0.15905753002004186,
+        "2024": 0.11903400799376085
+      },
+      "rolling_252_sessions": {
+        "min": -0.047046843840942376,
+        "median": 0.12124644510624083,
+        "max": 0.3663742698702299,
+        "positive_fraction": 0.847457627118644
+      },
+      "rolling_756_sessions": null,
+      "max_underwater_sessions": 294,
+      "worst_drawdown": {
+        "peak": "2022-06-09",
+        "trough": "2023-02-28",
+        "recovery": "2023-08-17"
+      },
+      "average_exposure": 0.2746723729290726
+    },
+    {
+      "source": "howutrade",
+      "mode": "zero_imbalance_proxy",
+      "participation": 0.05,
+      "cost_per_side": 0.00225,
+      "total_return": 0.2402423755249996,
+      "cagr": 0.1155809136354844,
+      "final_value_rupees": 1240242.3755249996,
+      "max_drawdown": -0.05454921014093528,
+      "annualized_volatility": 0.06711109624193067,
+      "sharpe_zero_rf": 1.6906244511665205,
+      "worst_day": -0.020356314628108163,
+      "best_day": 0.016244508942189873,
+      "annual_returns": {
+        "2022": 0.0017757072124997553,
+        "2023": 0.14589807944054756,
+        "2024": 0.08041368960066575
+      },
+      "rolling_252_sessions": {
+        "min": 0.001701627055707311,
+        "median": 0.1045545770865034,
+        "max": 0.27126258497663724,
+        "positive_fraction": 1.0
+      },
+      "rolling_756_sessions": null,
+      "max_underwater_sessions": 211,
+      "worst_drawdown": {
+        "peak": "2022-09-22",
+        "trough": "2023-02-28",
+        "recovery": "2023-08-01"
+      },
+      "average_exposure": 0.28702201149007117
+    },
+    {
+      "source": "howutrade",
+      "mode": "zero_imbalance_proxy",
+      "participation": 0.1,
+      "cost_per_side": 0.0045,
+      "total_return": 0.2106623400250005,
+      "cagr": 0.1019844590932204,
+      "final_value_rupees": 1210662.3400250005,
+      "max_drawdown": -0.06622705512140625,
+      "annualized_volatility": 0.07610662246194108,
+      "sharpe_zero_rf": 1.3354228773047871,
+      "worst_day": -0.022964602272712686,
+      "best_day": 0.01659197517154376,
+      "annual_returns": {
+        "2022": -0.004227146124999637,
+        "2023": 0.1374584224377562,
+        "2024": 0.06887573869553476
+      },
+      "rolling_252_sessions": {
+        "min": -0.004631020443707556,
+        "median": 0.10285663548552593,
+        "max": 0.2579415656600721,
+        "positive_fraction": 0.9915254237288136
+      },
+      "rolling_756_sessions": null,
+      "max_underwater_sessions": 231,
+      "worst_drawdown": {
+        "peak": "2022-09-22",
+        "trough": "2023-02-28",
+        "recovery": "2023-08-30"
+      },
+      "average_exposure": 0.33668518482390886
+    },
+    {
+      "source": "ferozmd53",
+      "mode": "volume_proxy",
+      "participation": 0.01,
+      "cost_per_side": 0.00225,
+      "total_return": 0.027552425697500382,
+      "cagr": 0.07630745272858475,
+      "final_value_rupees": 1027552.4256975004,
+      "max_drawdown": -0.04078852311571768,
+      "annualized_volatility": 0.06887791439279942,
+      "sharpe_zero_rf": 1.081004520045334,
+      "worst_day": -0.011599227043044724,
+      "best_day": 0.010807312406952763,
+      "annual_returns": {
+        "2026": 0.027552425697500382
+      },
+      "rolling_252_sessions": null,
+      "rolling_756_sessions": null,
+      "max_underwater_sessions": 30,
+      "worst_drawdown": {
+        "peak": "2026-09-23",
+        "trough": "2026-10-23",
+        "recovery": "2026-11-08"
+      },
+      "average_exposure": 0.39720384666658115
+    },
+    {
+      "source": "ferozmd53",
+      "mode": "volume_proxy",
+      "participation": 0.05,
+      "cost_per_side": 0.00225,
+      "total_return": 0.030166380210000288,
+      "cagr": 0.0837312913019308,
+      "final_value_rupees": 1030166.3802100003,
+      "max_drawdown": -0.03567726070339983,
+      "annualized_volatility": 0.07049241309208815,
+      "sharpe_zero_rf": 1.1534514650454677,
+      "worst_day": -0.013279739540529079,
+      "best_day": 0.010900033848069812,
+      "annual_returns": {
+        "2026": 0.030166380210000288
+      },
+      "rolling_252_sessions": null,
+      "rolling_756_sessions": null,
+      "max_underwater_sessions": 76,
+      "worst_drawdown": {
+        "peak": "2026-07-16",
+        "trough": "2026-10-23",
+        "recovery": "2026-11-05"
+      },
+      "average_exposure": 0.44893768369705406
+    },
+    {
+      "source": "ferozmd53",
+      "mode": "volume_proxy",
+      "participation": 0.1,
+      "cost_per_side": 0.0045,
+      "total_return": 0.024781738395000197,
+      "cagr": 0.06847356783027947,
+      "final_value_rupees": 1024781.7383950002,
+      "max_drawdown": -0.03934264111593966,
+      "annualized_volatility": 0.07068248629236519,
+      "sharpe_zero_rf": 0.9538051968624236,
+      "worst_day": -0.013318772069401241,
+      "best_day": 0.010932972235643712,
+      "annual_returns": {
+        "2026": 0.024781738395000197
+      },
+      "rolling_252_sessions": null,
+      "rolling_756_sessions": null,
+      "max_underwater_sessions": 77,
+      "worst_drawdown": {
+        "peak": "2026-07-16",
+        "trough": "2026-10-23",
+        "recovery": "2026-11-06"
+      },
+      "average_exposure": 0.4492287872635591
+    }
+  ],
+  "market_panel_sha256": "d278eba12a88b02421553bdcfe786298bdac4d75b66d938ac2d1ff64837f510e",
+  "market_metadata_sha256": "893dab0d18ce88b7efb6a4c9b7dd55f17202133ef8a8d02884adc36626154c60",
+  "limitations": [
+    "All proxy variants use final-auction information unavailable at the 09:05 decision; not an executable historical C0-R-X result",
+    "Final volume substitutes for indicative quantity; ATO buy-minus-sell is only an assumed proxy for market imbalance",
+    "Missing/conflicting observations block buys and delay sells; no synthetic fallback fills",
+    "FO category archives cover cash equities eligible for derivatives, not the full momentum universe",
+    "Frozen retained universe/industry labels introduce survivorship and later-information bias",
+    "No dividends, spinoff credits or interest; older corporate actions incompletely audited",
+    "Missing daily prices retain last marks; this reference replay does not enforce the paper worker operational data-pause gate",
+    "No actual fills observed; no forced liquidation of outstanding holdings; windows overlap and are not independent",
+    "Research-only source terms; archives are not guaranteed accurate or complete"
+  ],
+  "real_orders_submitted": 0
+}

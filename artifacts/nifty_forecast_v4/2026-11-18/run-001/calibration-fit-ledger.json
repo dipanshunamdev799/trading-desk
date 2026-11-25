@@ -1,0 +1,102 @@
+[
+  {
+    "fold": "2026-07",
+    "model": "M05_lgbm",
+    "offset": -0.06179879325777059,
+    "inner_n": 42,
+    "inner_nonoverlap_n": 9,
+    "inner_up_frequency": 0.40476190476190477,
+    "outer_up_frequency": 0.5652173913043478,
+    "base_rate": 0.4801587301587302
+  },
+  {
+    "fold": "2026-07",
+    "model": "A00_sector",
+    "offset": -0.26973972573800153,
+    "inner_n": 42,
+    "inner_nonoverlap_n": 9,
+    "inner_up_frequency": 0.40476190476190477,
+    "outer_up_frequency": 0.5652173913043478,
+    "base_rate": 0.4801587301587302
+  },
+  {
+    "fold": "2026-08",
+    "model": "M05_lgbm",
+    "offset": 0.1933122489376977,
+    "inner_n": 42,
+    "inner_nonoverlap_n": 9,
+    "inner_up_frequency": 0.4523809523809524,
+    "outer_up_frequency": 0.14285714285714285,
+    "base_rate": 0.48412698412698413
+  },
+  {
+    "fold": "2026-08",
+    "model": "A00_sector",
+    "offset": -0.55737306259655,
+    "inner_n": 42,
+    "inner_nonoverlap_n": 9,
+    "inner_up_frequency": 0.4523809523809524,
+    "outer_up_frequency": 0.14285714285714285,
+    "base_rate": 0.48412698412698413
+  },
+  {
+    "fold": "2026-09",
+    "model": "M05_lgbm",
+    "offset": 0.20383879956687526,
+    "inner_n": 42,
+    "inner_nonoverlap_n": 9,
+    "inner_up_frequency": 0.4523809523809524,
+    "outer_up_frequency": 0.14285714285714285,
+    "base_rate": 0.48412698412698413
+  },
+  {
+    "fold": "2026-09",
+    "model": "A00_sector",
+    "offset": -0.2558885156555524,
+    "inner_n": 42,
+    "inner_nonoverlap_n": 9,
+    "inner_up_frequency": 0.4523809523809524,
+    "outer_up_frequency": 0.14285714285714285,
+    "base_rate": 0.48412698412698413
+  },
+  {
+    "fold": "2026-10",
+    "model": "M05_lgbm",
+    "offset": -0.2085612411594443,
+    "inner_n": 42,
+    "inner_nonoverlap_n": 9,
+    "inner_up_frequency": 0.2619047619047619,
+    "outer_up_frequency": 0.65,
+    "base_rate": 0.43253968253968256
+  },
+  {
+    "fold": "2026-10",
+    "model": "A00_sector",
+    "offset": -0.6409298120056813,
+    "inner_n": 42,
+    "inner_nonoverlap_n": 9,
+    "inner_up_frequency": 0.2619047619047619,
+    "outer_up_frequency": 0.65,
+    "base_rate": 0.43253968253968256
+  },
+  {
+    "fold": "2026-11",
+    "model": "M05_lgbm",
+    "offset": -0.3421788596776691,
+    "inner_n": 42,
+    "inner_nonoverlap_n": 9,
+    "inner_up_frequency": 0.2619047619047619,
+    "outer_up_frequency": 1.0,
+    "base_rate": 0.4126984126984127
+  },
+  {
+    "fold": "2026-11",
+    "model": "A00_sector",
+    "offset": -0.9999959801362373,
+    "inner_n": 42,
+    "inner_nonoverlap_n": 9,
+    "inner_up_frequency": 0.2619047619047619,
+    "outer_up_frequency": 1.0,
+    "base_rate": 0.4126984126984127
+  }
+]

@@ -1,0 +1,156 @@
+[
+  {
+    "horizon": 5,
+    "feature": "price_ret21",
+    "mi": 0.12680976552476553,
+    "shift_null_mean": 0.06439915409094898,
+    "interpretation": "Development diagnostic, no independent significance claim"
+  },
+  {
+    "horizon": 5,
+    "feature": "price_rv21",
+    "mi": 0.11420684935159375,
+    "shift_null_mean": 0.16511134862590654,
+    "interpretation": "Development diagnostic, no independent significance claim"
+  },
+  {
+    "horizon": 5,
+    "feature": "risk_vix",
+    "mi": 0.11812906976015913,
+    "shift_null_mean": 0.1305748821826932,
+    "interpretation": "Development diagnostic, no independent significance claim"
+  },
+  {
+    "horizon": 5,
+    "feature": "sector_participation",
+    "mi": 0.020571011580293952,
+    "shift_null_mean": 0.029092007138277885,
+    "interpretation": "Development diagnostic, no independent significance claim"
+  },
+  {
+    "horizon": 5,
+    "feature": "sector_dispersion",
+    "mi": 0.09132760689037234,
+    "shift_null_mean": 0.04954381965453784,
+    "interpretation": "Development diagnostic, no independent significance claim"
+  },
+  {
+    "horizon": 5,
+    "feature": "fo_oi_pcr",
+    "mi": 0.003081213267387195,
+    "shift_null_mean": 0.013574138559776827,
+    "interpretation": "Development diagnostic, no independent significance claim"
+  },
+  {
+    "horizon": 5,
+    "feature": "fo_fut_basis",
+    "mi": 0.029204524549222732,
+    "shift_null_mean": 0.05528117603379481,
+    "interpretation": "Development diagnostic, no independent significance claim"
+  },
+  {
+    "horizon": 5,
+    "feature": "etf_relative_volume",
+    "mi": 0.027082256607017907,
+    "shift_null_mean": 0.024033873345421973,
+    "interpretation": "Development diagnostic, no independent significance claim"
+  },
+  {
+    "horizon": 5,
+    "feature": "intraday_efficiency",
+    "mi": 0.0012433909691682565,
+    "shift_null_mean": 0.0150470942068897,
+    "interpretation": "Development diagnostic, no independent significance claim"
+  },
+  {
+    "horizon": 5,
+    "feature": "global_sp500_ret5",
+    "mi": 0.05326667368495963,
+    "shift_null_mean": 0.025625670450114678,
+    "interpretation": "Development diagnostic, no independent significance claim"
+  },
+  {
+    "horizon": 5,
+    "feature": "proxy_above_ema21",
+    "mi": 0.10355406813742363,
+    "shift_null_mean": 0.04777979963547765,
+    "interpretation": "Development diagnostic, no independent significance claim"
+  },
+  {
+    "horizon": 21,
+    "feature": "price_ret21",
+    "mi": 0.28881765976860807,
+    "shift_null_mean": 0.18049158034346882,
+    "interpretation": "Development diagnostic, no independent significance claim"
+  },
+  {
+    "horizon": 21,
+    "feature": "price_rv21",
+    "mi": 0.425801968039611,
+    "shift_null_mean": 0.31415966533141715,
+    "interpretation": "Development diagnostic, no independent significance claim"
+  },
+  {
+    "horizon": 21,
+    "feature": "risk_vix",
+    "mi": 0.38094576046501993,
+    "shift_null_mean": 0.28720718711439985,
+    "interpretation": "Development diagnostic, no independent significance claim"
+  },
+  {
+    "horizon": 21,
+    "feature": "sector_participation",
+    "mi": 0.09712957191895866,
+    "shift_null_mean": 0.04996927355370737,
+    "interpretation": "Development diagnostic, no independent significance claim"
+  },
+  {
+    "horizon": 21,
+    "feature": "sector_dispersion",
+    "mi": 0.030231035883322654,
+    "shift_null_mean": 0.04925461798385611,
+    "interpretation": "Development diagnostic, no independent significance claim"
+  },
+  {
+    "horizon": 21,
+    "feature": "fo_oi_pcr",
+    "mi": 0.03623906140384214,
+    "shift_null_mean": 0.02590195947316356,
+    "interpretation": "Development diagnostic, no independent significance claim"
+  },
+  {
+    "horizon": 21,
+    "feature": "fo_fut_basis",
+    "mi": 0.0650080252773293,
+    "shift_null_mean": 0.07504738938553164,
+    "interpretation": "Development diagnostic, no independent significance claim"
+  },
+  {
+    "horizon": 21,
+    "feature": "etf_relative_volume",
+    "mi": 0.0,
+    "shift_null_mean": 0.03466625803132617,
+    "interpretation": "Development diagnostic, no independent significance claim"
+  },
+  {
+    "horizon": 21,
+    "feature": "intraday_efficiency",
+    "mi": 0.037529641862504626,
+    "shift_null_mean": 0.016520840335981845,
+    "interpretation": "Development diagnostic, no independent significance claim"
+  },
+  {
+    "horizon": 21,
+    "feature": "global_sp500_ret5",
+    "mi": 0.028006017433187758,
+    "shift_null_mean": 0.07719100655988778,
+    "interpretation": "Development diagnostic, no independent significance claim"
+  },
+  {
+    "horizon": 21,
+    "feature": "proxy_above_ema21",
+    "mi": 0.0988659908130991,
+    "shift_null_mean": 0.11065570005144534,
+    "interpretation": "Development diagnostic, no independent significance claim"
+  }
+]

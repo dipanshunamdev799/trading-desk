@@ -1,0 +1,20 @@
+{
+  "start": "2025-01-01",
+  "last_completed_session": "2026-11-16",
+  "raw_sessions": 465,
+  "eligible_feature_rows": 402,
+  "feature_count": 129,
+  "first_origin": "2025-04-02",
+  "last_origin": "2026-11-16",
+  "files": {
+    "features.csv": "475e1ad8f63406c2b568b1418ff5be2bc6bc454a559fe5f00ce4f77651218953",
+    "price.csv": "9139b6a4f7f72003a16589753a59267b1dd1d948dd783f98c3e2ec03d60c492c",
+    "labels-5.csv": "7a5bab912a8a8efdadf256b93e2e78184ee36dbb7547711c7949d4de571dcb5d",
+    "labels-21.csv": "f0a6ff949cf6df0f382a9e6732097284a34323c99b2465815cae57b4e771f0bc"
+  },
+  "source_manifests": {
+    "upstox-acquisition.json": "d1b3d0cba6991ad88e3c1d88f6a9f01c99c830809a330526955c06d46dd70cb8",
+    "fo-acquisition.json": "e1e95191507f4fef6db69583df66313a3559786317252e854cf55136285a2282"
+  },
+  "exposure": "All historical origins are research-exposed; no independent confirmation set"
+}

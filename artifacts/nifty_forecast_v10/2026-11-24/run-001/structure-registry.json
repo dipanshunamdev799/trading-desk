@@ -1,0 +1,107 @@
+{
+  "registered_at": "2026-11-24T13:56:29.569533+05:30",
+  "configurations": {
+    "S_GROUPS": {
+      "frame": "native_rot",
+      "parent": "S_NATIVE_ROT",
+      "rep": "groups",
+      "hypothesis": "Economic family-specific penalty"
+    },
+    "S_NATIVE_ROT": {
+      "frame": "native_rot",
+      "parent": "BASE_NATIVE",
+      "hypothesis": "Equivalent native rotation covariates and uniform penalty"
+    },
+    "S_HIERARCHY": {
+      "frame": "native_rot",
+      "parent": "S_GROUPS",
+      "rep": "hierarchy",
+      "hypothesis": "Economic group and training correlation-cluster shrinkage"
+    },
+    "S_ELASTIC": {
+      "frame": "native_rot",
+      "parent": "S_NATIVE_ROT",
+      "rep": "cluster_elastic",
+      "kind": "elastic",
+      "hypothesis": "Cluster-balanced sparse coefficient fit"
+    },
+    "S_BAYES": {
+      "frame": "ten",
+      "parent": "BASE10",
+      "kind": "bayes",
+      "hypothesis": "Bayesian Ridge with zero-centered coefficient priors"
+    },
+    "S_POOL": {
+      "frame": "native_rot",
+      "parent": "S_NATIVE_ROT",
+      "rep": "pool",
+      "hypothesis": "Share standardized effects within economic-sector groups"
+    },
+    "S_RESIDUAL": {
+      "frame": "native_rot",
+      "parent": "S_POOL",
+      "rep": "factor_residual",
+      "hypothesis": "Group factors plus more strongly shrunk idiosyncratic components"
+    },
+    "S_LOWRANK": {
+      "frame": "twenty",
+      "parent": "BASE20",
+      "rep": "lowrank",
+      "hypothesis": "Project 20 real-time state inputs to five training-only directions"
+    },
+    "S_REMOVE_BANK": {
+      "frame": "no_banks",
+      "parent": "BASE10",
+      "diagnostic": true,
+      "hypothesis": "Remove residual financial leadership"
+    },
+    "S_LAG_ROTATION": {
+      "frame": "source_lag",
+      "parent": "BASE10",
+      "diagnostic": true,
+      "hypothesis": "Explicit one-observed-session source lag"
+    },
+    "S_COMMON": {
+      "frame": "common_factor",
+      "parent": "BASE10",
+      "hypothesis": "Causal NIFTY common factor component beyond 10-input control"
+    },
+    "S_RESID_FACTOR": {
+      "frame": "residual_factor",
+      "parent": "BASE10",
+      "hypothesis": "Active sector residual component beyond 10-input control"
+    },
+    "S_STATE_LEVEL": {
+      "frame": "state_level",
+      "parent": "BASE10",
+      "hypothesis": "Observed market-state levels"
+    },
+    "S_STATE_LAG": {
+      "frame": "state_lag",
+      "parent": "BASE10",
+      "hypothesis": "Ordinary previous-session states on same dates"
+    },
+    "S_STATE_EXPECTED": {
+      "frame": "state_transition",
+      "parent": "S_STATE_LAG",
+      "hypothesis": "Fit compact causal AR(1) transition per state variable"
+    },
+    "S_PERSIST": {
+      "frame": "persistent",
+      "parent": "BASE10",
+      "hypothesis": "21-session trailing market-risk and leadership factors"
+    },
+    "S_DISTRIBUTED": {
+      "frame": "distributed",
+      "parent": "BASE10",
+      "alpha": 180,
+      "hypothesis": "Strongly shrunk 0/5/10/21-day rotation lag design"
+    }
+  },
+  "seed": 20261130,
+  "code_hashes": {
+    "experiments.py": "48baf634853e2d9016ca7f0e79d5e8ae00c42fbde533b3c9bb9939b5960bdef8",
+    "estimators.py": "70396610d7201423c4151cb004e61a63986cec9a5ec73496a16aa1f45b7f0f09",
+    "targets.py": "9bb9d2060fef1bc2b1add51c129d8dc4e792afae782e6b5c8183f82a1ae5f752"
+  }
+}

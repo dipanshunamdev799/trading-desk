@@ -1,0 +1,72 @@
+{
+  "registered_at": "2026-11-24T11:39:34.851265+05:30",
+  "configurations": {
+    "A_BAL_RIDGE": {
+      "parent": "C_RAW",
+      "frame": "native",
+      "rep": "cluster_balance",
+      "alpha": 300,
+      "hypothesis": "Stronger penalty with cluster normalization"
+    },
+    "A_PCA_BAYES": {
+      "parent": "C_PCA_WHITE",
+      "frame": "native",
+      "rep": "pca_white",
+      "kind": "bayes",
+      "hypothesis": "Bayesian coefficient shrinkage on compressed inputs"
+    },
+    "A_PCA_HUBER": {
+      "parent": "C_PCA_WHITE",
+      "frame": "native",
+      "rep": "pca_white",
+      "kind": "huber",
+      "hypothesis": "Robust conditional location on compressed inputs"
+    },
+    "A_PCA_GAM": {
+      "parent": "C_PCA_WHITE",
+      "frame": "native",
+      "rep": "pca_white",
+      "kind": "gam",
+      "hypothesis": "Regularized quadratic spline basis"
+    },
+    "A_PCA_FOREST": {
+      "parent": "C_PCA_WHITE",
+      "frame": "native",
+      "rep": "pca_white",
+      "kind": "forest",
+      "hypothesis": "Shallow forest on compressed location inputs"
+    },
+    "A_PCA_BOOST": {
+      "parent": "C_PCA_WHITE",
+      "frame": "native",
+      "rep": "pca_white",
+      "kind": "boost",
+      "hypothesis": "Shallow histogram boosting on compressed inputs"
+    },
+    "A_PCA_RESID": {
+      "parent": "C_PCA_WHITE",
+      "frame": "native",
+      "rep": "pca_white",
+      "kind": "residual_boost",
+      "hypothesis": "Fit a shrunk nonlinear correction to factor Ridge residuals"
+    },
+    "A_PCA_EXPERTS": {
+      "parent": "C_PCA_WHITE",
+      "frame": "native",
+      "rep": "pca_white",
+      "kind": "experts",
+      "hypothesis": "Shrink volatility experts toward pooled model"
+    },
+    "A_PCA_INTERACT": {
+      "parent": "C_PCA_WHITE",
+      "frame": "native",
+      "rep": "pca_white",
+      "kind": "interaction",
+      "hypothesis": "Two fixed low-dimensional interactions"
+    }
+  },
+  "exposure": "2025\u20132026 historical research",
+  "fit_code_sha256": "42be493331e2264137df7c173ffa8e0af6b5758fb0193bfef8984d88293e278f",
+  "batch_code_sha256": "0d37a323f3450c6cfbffcb1d926fea47fcab60e398ab7b7f3dfd86cf77c1c85d",
+  "reason": "Fixed family tests registered before new results for this batch. All dates exposed by prior research."
+}

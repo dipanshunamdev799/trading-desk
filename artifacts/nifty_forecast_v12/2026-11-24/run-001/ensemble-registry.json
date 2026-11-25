@@ -1,0 +1,343 @@
+{
+  "registered_at": "2026-11-25T00:23:05.032193+05:30",
+  "code": "4a14247b9264b32d3923ef9bfaeea0eb749e2c9ca6f9426597ad9fa91a3a450a",
+  "forecast_archive": [
+    "V12_STAT",
+    "V12_IV_SCALE",
+    "V12_JOINT_IV",
+    "PH_NATIVE_PHASE_MIXTURE",
+    "V12_HIST",
+    "P12_Q_TILT"
+  ],
+  "models": {
+    "J12_EQUAL": {
+      "members": [
+        "V12_STAT",
+        "V12_IV_SCALE",
+        "V12_JOINT_IV",
+        "PH_NATIVE_PHASE_MIXTURE",
+        "V12_HIST"
+      ],
+      "weighting": "equal",
+      "parent": "V12_STAT",
+      "diagnostic": false
+    },
+    "J12_GROUP_BALANCED": {
+      "members": [
+        "V12_STAT",
+        "V12_IV_SCALE",
+        "V12_JOINT_IV",
+        "PH_NATIVE_PHASE_MIXTURE",
+        "V12_HIST"
+      ],
+      "weighting": "group",
+      "parent": "J12_EQUAL",
+      "diagnostic": false
+    },
+    "J12_SIMILARITY_CLUSTERS": {
+      "members": [
+        "V12_STAT",
+        "V12_IV_SCALE",
+        "V12_JOINT_IV",
+        "PH_NATIVE_PHASE_MIXTURE",
+        "V12_HIST"
+      ],
+      "weighting": "clusters",
+      "parent": "J12_EQUAL",
+      "diagnostic": false
+    },
+    "J12_CANONICAL": {
+      "members": [
+        "V12_STAT",
+        "V12_IV_SCALE",
+        "V12_JOINT_IV",
+        "PH_NATIVE_PHASE_MIXTURE",
+        "V12_HIST"
+      ],
+      "weighting": "canonical",
+      "parent": "J12_EQUAL",
+      "diagnostic": false
+    },
+    "J12_DUPLICATE_CANONICAL": {
+      "members": [
+        "V12_STAT",
+        "V12_IV_SCALE",
+        "V12_JOINT_IV",
+        "PH_NATIVE_PHASE_MIXTURE",
+        "V12_HIST",
+        "STAT_COPY",
+        "STAT_COPY_TWO"
+      ],
+      "weighting": "canonical",
+      "parent": "J12_CANONICAL",
+      "diagnostic": false
+    },
+    "J12_DUPLICATE_NAIVE": {
+      "members": [
+        "V12_STAT",
+        "V12_IV_SCALE",
+        "V12_JOINT_IV",
+        "PH_NATIVE_PHASE_MIXTURE",
+        "V12_HIST",
+        "STAT_COPY",
+        "STAT_COPY_TWO"
+      ],
+      "weighting": "equal",
+      "parent": "J12_EQUAL",
+      "diagnostic": true
+    },
+    "J12_PHASE_MARKET": {
+      "members": [
+        "PH_NATIVE_PHASE_MIXTURE",
+        "V12_IV_SCALE",
+        "V12_HIST"
+      ],
+      "weighting": [
+        0.5,
+        0.3,
+        0.2
+      ],
+      "parent": "PH_NATIVE_PHASE_MIXTURE",
+      "diagnostic": false
+    },
+    "J12_HISTORICAL_MARKET": {
+      "members": [
+        "V12_STAT",
+        "V12_IV_SCALE",
+        "V12_HIST"
+      ],
+      "weighting": [
+        0.45,
+        0.3,
+        0.25
+      ],
+      "parent": "V12_STAT",
+      "diagnostic": false
+    },
+    "J12_STACK_BRIER": {
+      "members": [
+        "V12_STAT",
+        "V12_IV_SCALE",
+        "V12_JOINT_IV",
+        "PH_NATIVE_PHASE_MIXTURE",
+        "V12_HIST"
+      ],
+      "weighting": "brier",
+      "parent": "J12_CANONICAL",
+      "diagnostic": false
+    },
+    "J12_STACK_CRPS": {
+      "members": [
+        "V12_STAT",
+        "V12_IV_SCALE",
+        "V12_JOINT_IV",
+        "PH_NATIVE_PHASE_MIXTURE",
+        "V12_HIST"
+      ],
+      "weighting": "crps",
+      "parent": "J12_CANONICAL",
+      "diagnostic": false
+    },
+    "J12_STACK_DEDUP": {
+      "members": [
+        "V12_STAT",
+        "V12_IV_SCALE",
+        "V12_JOINT_IV",
+        "PH_NATIVE_PHASE_MIXTURE",
+        "V12_HIST",
+        "STAT_COPY",
+        "STAT_COPY_TWO"
+      ],
+      "weighting": "crps_canonical",
+      "parent": "J12_STACK_CRPS",
+      "diagnostic": false
+    },
+    "J12_Q_EQUAL": {
+      "members": [
+        "V12_STAT",
+        "V12_IV_SCALE",
+        "V12_JOINT_IV",
+        "PH_NATIVE_PHASE_MIXTURE",
+        "V12_HIST",
+        "P12_Q_TILT"
+      ],
+      "weighting": "equal",
+      "parent": "J12_EQUAL",
+      "diagnostic": false
+    },
+    "J12_Q_GROUP": {
+      "members": [
+        "V12_STAT",
+        "V12_IV_SCALE",
+        "V12_JOINT_IV",
+        "PH_NATIVE_PHASE_MIXTURE",
+        "V12_HIST",
+        "P12_Q_TILT"
+      ],
+      "weighting": "group",
+      "parent": "J12_Q_EQUAL",
+      "diagnostic": false
+    },
+    "J12_Q_STACK": {
+      "members": [
+        "V12_STAT",
+        "V12_IV_SCALE",
+        "V12_JOINT_IV",
+        "PH_NATIVE_PHASE_MIXTURE",
+        "V12_HIST",
+        "P12_Q_TILT"
+      ],
+      "weighting": "crps",
+      "parent": "J12_Q_EQUAL",
+      "diagnostic": false
+    },
+    "J12_Q_CROSS": {
+      "members": [
+        "V12_STAT",
+        "P12_Q_TILT",
+        "V12_JOINT_IV"
+      ],
+      "weighting": [
+        0.55,
+        0.2,
+        0.25
+      ],
+      "parent": "P12_Q_PHYSICAL_MIX",
+      "diagnostic": false
+    },
+    "J12_Q_HISTORICAL": {
+      "members": [
+        "V12_STAT",
+        "P12_Q_TILT",
+        "V12_HIST"
+      ],
+      "weighting": [
+        0.45,
+        0.2,
+        0.35
+      ],
+      "parent": "P12_Q_HIST_FALLBACK",
+      "diagnostic": false
+    },
+    "J12_OMIT_V12_STAT": {
+      "members": [
+        "V12_IV_SCALE",
+        "V12_JOINT_IV",
+        "PH_NATIVE_PHASE_MIXTURE",
+        "V12_HIST"
+      ],
+      "weighting": "equal",
+      "parent": "J12_EQUAL",
+      "diagnostic": false
+    },
+    "J12_ADD_V12_STAT": {
+      "members": [
+        "V12_STAT",
+        "V12_HIST"
+      ],
+      "weighting": "equal",
+      "parent": "J12_STAT_HIST_CONTROL",
+      "diagnostic": false
+    },
+    "J12_OMIT_V12_IV_SCALE": {
+      "members": [
+        "V12_STAT",
+        "V12_JOINT_IV",
+        "PH_NATIVE_PHASE_MIXTURE",
+        "V12_HIST"
+      ],
+      "weighting": "equal",
+      "parent": "J12_EQUAL",
+      "diagnostic": false
+    },
+    "J12_ADD_V12_IV_SCALE": {
+      "members": [
+        "V12_STAT",
+        "V12_HIST",
+        "V12_IV_SCALE"
+      ],
+      "weighting": "equal",
+      "parent": "J12_STAT_HIST_CONTROL",
+      "diagnostic": false
+    },
+    "J12_OMIT_V12_JOINT_IV": {
+      "members": [
+        "V12_STAT",
+        "V12_IV_SCALE",
+        "PH_NATIVE_PHASE_MIXTURE",
+        "V12_HIST"
+      ],
+      "weighting": "equal",
+      "parent": "J12_EQUAL",
+      "diagnostic": false
+    },
+    "J12_ADD_V12_JOINT_IV": {
+      "members": [
+        "V12_STAT",
+        "V12_HIST",
+        "V12_JOINT_IV"
+      ],
+      "weighting": "equal",
+      "parent": "J12_STAT_HIST_CONTROL",
+      "diagnostic": false
+    },
+    "J12_OMIT_PH_NATIVE_PHASE_MIXTURE": {
+      "members": [
+        "V12_STAT",
+        "V12_IV_SCALE",
+        "V12_JOINT_IV",
+        "V12_HIST"
+      ],
+      "weighting": "equal",
+      "parent": "J12_EQUAL",
+      "diagnostic": false
+    },
+    "J12_ADD_PH_NATIVE_PHASE_MIXTURE": {
+      "members": [
+        "V12_STAT",
+        "V12_HIST",
+        "PH_NATIVE_PHASE_MIXTURE"
+      ],
+      "weighting": "equal",
+      "parent": "J12_STAT_HIST_CONTROL",
+      "diagnostic": false
+    },
+    "J12_OMIT_V12_HIST": {
+      "members": [
+        "V12_STAT",
+        "V12_IV_SCALE",
+        "V12_JOINT_IV",
+        "PH_NATIVE_PHASE_MIXTURE"
+      ],
+      "weighting": "equal",
+      "parent": "J12_EQUAL",
+      "diagnostic": false
+    },
+    "J12_ADD_V12_HIST": {
+      "members": [
+        "V12_STAT",
+        "V12_HIST"
+      ],
+      "weighting": "equal",
+      "parent": "J12_STAT_HIST_CONTROL",
+      "diagnostic": false
+    },
+    "J12_STAT_HIST_CONTROL": {
+      "members": [
+        "V12_STAT",
+        "V12_HIST"
+      ],
+      "weighting": [
+        0.5,
+        0.5
+      ],
+      "parent": "V12_STAT",
+      "diagnostic": false
+    }
+  },
+  "aliases": {
+    "STAT_COPY": "V12_STAT",
+    "STAT_COPY_TWO": "V12_STAT"
+  },
+  "min_mature": 20
+}

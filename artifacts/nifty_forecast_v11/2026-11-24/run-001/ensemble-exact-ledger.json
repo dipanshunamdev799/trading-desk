@@ -1,0 +1,1602 @@
+[
+  {
+    "model": "J11_BREADTH_ALL",
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2025-10",
+    "cutoff": "2025-10-14",
+    "queries": 12,
+    "status": "ok",
+    "reason": null,
+    "mature_dates": [],
+    "conditional_weights": {
+      "False": {
+        "weights": [
+          0.4,
+          0.3,
+          0.3
+        ],
+        "dates": [],
+        "status": "fixed"
+      },
+      "True": {
+        "weights": [
+          0.4,
+          0.3,
+          0.3
+        ],
+        "dates": [],
+        "status": "fixed"
+      }
+    }
+  },
+  {
+    "model": "J11_BREADTH_ALL_HIST",
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2025-10",
+    "cutoff": "2025-10-14",
+    "queries": 12,
+    "status": "ok",
+    "reason": null,
+    "mature_dates": [],
+    "conditional_weights": {
+      "False": {
+        "weights": [
+          0.2,
+          0.15,
+          0.15,
+          0.5
+        ],
+        "dates": [],
+        "status": "fixed"
+      },
+      "True": {
+        "weights": [
+          0.2,
+          0.15,
+          0.15,
+          0.5
+        ],
+        "dates": [],
+        "status": "fixed"
+      }
+    }
+  },
+  {
+    "model": "J11_BREADTH_ALL",
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2025-11",
+    "cutoff": "2025-10-31",
+    "queries": 19,
+    "status": "ok",
+    "reason": null,
+    "mature_dates": [],
+    "conditional_weights": {
+      "False": {
+        "weights": [
+          0.4,
+          0.3,
+          0.3
+        ],
+        "dates": [],
+        "status": "fixed"
+      },
+      "True": {
+        "weights": [
+          0.4,
+          0.3,
+          0.3
+        ],
+        "dates": [],
+        "status": "fixed"
+      }
+    }
+  },
+  {
+    "model": "J11_BREADTH_ALL_HIST",
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2025-11",
+    "cutoff": "2025-10-31",
+    "queries": 19,
+    "status": "ok",
+    "reason": null,
+    "mature_dates": [],
+    "conditional_weights": {
+      "False": {
+        "weights": [
+          0.2,
+          0.15,
+          0.15,
+          0.5
+        ],
+        "dates": [],
+        "status": "fixed"
+      },
+      "True": {
+        "weights": [
+          0.2,
+          0.15,
+          0.15,
+          0.5
+        ],
+        "dates": [],
+        "status": "fixed"
+      }
+    }
+  },
+  {
+    "model": "J11_BREADTH_ALL",
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2025-12",
+    "cutoff": "2025-11-28",
+    "queries": 22,
+    "status": "ok",
+    "reason": null,
+    "mature_dates": [],
+    "conditional_weights": {
+      "False": {
+        "weights": [
+          0.4,
+          0.3,
+          0.3
+        ],
+        "dates": [],
+        "status": "fixed"
+      },
+      "True": {
+        "weights": [
+          0.4,
+          0.3,
+          0.3
+        ],
+        "dates": [],
+        "status": "fixed"
+      }
+    }
+  },
+  {
+    "model": "J11_BREADTH_ALL_HIST",
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2025-12",
+    "cutoff": "2025-11-28",
+    "queries": 22,
+    "status": "ok",
+    "reason": null,
+    "mature_dates": [],
+    "conditional_weights": {
+      "False": {
+        "weights": [
+          0.2,
+          0.15,
+          0.15,
+          0.5
+        ],
+        "dates": [],
+        "status": "fixed"
+      },
+      "True": {
+        "weights": [
+          0.2,
+          0.15,
+          0.15,
+          0.5
+        ],
+        "dates": [],
+        "status": "fixed"
+      }
+    }
+  },
+  {
+    "model": "J11_BREADTH_ALL",
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2026-01",
+    "cutoff": "2025-12-31",
+    "queries": 20,
+    "status": "ok",
+    "reason": null,
+    "mature_dates": [],
+    "conditional_weights": {
+      "False": {
+        "weights": [
+          0.4,
+          0.3,
+          0.3
+        ],
+        "dates": [],
+        "status": "fixed"
+      },
+      "True": {
+        "weights": [
+          0.4,
+          0.3,
+          0.3
+        ],
+        "dates": [],
+        "status": "fixed"
+      }
+    }
+  },
+  {
+    "model": "J11_BREADTH_ALL_HIST",
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2026-01",
+    "cutoff": "2025-12-31",
+    "queries": 20,
+    "status": "ok",
+    "reason": null,
+    "mature_dates": [],
+    "conditional_weights": {
+      "False": {
+        "weights": [
+          0.2,
+          0.15,
+          0.15,
+          0.5
+        ],
+        "dates": [],
+        "status": "fixed"
+      },
+      "True": {
+        "weights": [
+          0.2,
+          0.15,
+          0.15,
+          0.5
+        ],
+        "dates": [],
+        "status": "fixed"
+      }
+    }
+  },
+  {
+    "model": "J11_BREADTH_ALL",
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2026-02",
+    "cutoff": "2026-01-30",
+    "queries": 21,
+    "status": "ok",
+    "reason": null,
+    "mature_dates": [],
+    "conditional_weights": {
+      "False": {
+        "weights": [
+          0.4,
+          0.3,
+          0.3
+        ],
+        "dates": [],
+        "status": "fixed"
+      },
+      "True": {
+        "weights": [
+          0.4,
+          0.3,
+          0.3
+        ],
+        "dates": [],
+        "status": "fixed"
+      }
+    }
+  },
+  {
+    "model": "J11_BREADTH_ALL_HIST",
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2026-02",
+    "cutoff": "2026-01-30",
+    "queries": 21,
+    "status": "ok",
+    "reason": null,
+    "mature_dates": [],
+    "conditional_weights": {
+      "False": {
+        "weights": [
+          0.2,
+          0.15,
+          0.15,
+          0.5
+        ],
+        "dates": [],
+        "status": "fixed"
+      },
+      "True": {
+        "weights": [
+          0.2,
+          0.15,
+          0.15,
+          0.5
+        ],
+        "dates": [],
+        "status": "fixed"
+      }
+    }
+  },
+  {
+    "model": "J11_BREADTH_ALL",
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2026-03",
+    "cutoff": "2026-02-27",
+    "queries": 19,
+    "status": "ok",
+    "reason": null,
+    "mature_dates": [],
+    "conditional_weights": {
+      "False": {
+        "weights": [
+          0.4,
+          0.3,
+          0.3
+        ],
+        "dates": [],
+        "status": "fixed"
+      },
+      "True": {
+        "weights": [
+          0.4,
+          0.3,
+          0.3
+        ],
+        "dates": [],
+        "status": "fixed"
+      }
+    }
+  },
+  {
+    "model": "J11_BREADTH_ALL_HIST",
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2026-03",
+    "cutoff": "2026-02-27",
+    "queries": 19,
+    "status": "ok",
+    "reason": null,
+    "mature_dates": [],
+    "conditional_weights": {
+      "False": {
+        "weights": [
+          0.2,
+          0.15,
+          0.15,
+          0.5
+        ],
+        "dates": [],
+        "status": "fixed"
+      },
+      "True": {
+        "weights": [
+          0.2,
+          0.15,
+          0.15,
+          0.5
+        ],
+        "dates": [],
+        "status": "fixed"
+      }
+    }
+  },
+  {
+    "model": "J11_BREADTH_ALL",
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2026-04",
+    "cutoff": "2026-03-30",
+    "queries": 20,
+    "status": "ok",
+    "reason": null,
+    "mature_dates": [],
+    "conditional_weights": {
+      "False": {
+        "weights": [
+          0.4,
+          0.3,
+          0.3
+        ],
+        "dates": [],
+        "status": "fixed"
+      },
+      "True": {
+        "weights": [
+          0.4,
+          0.3,
+          0.3
+        ],
+        "dates": [],
+        "status": "fixed"
+      }
+    }
+  },
+  {
+    "model": "J11_BREADTH_ALL_HIST",
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2026-04",
+    "cutoff": "2026-03-30",
+    "queries": 20,
+    "status": "ok",
+    "reason": null,
+    "mature_dates": [],
+    "conditional_weights": {
+      "False": {
+        "weights": [
+          0.2,
+          0.15,
+          0.15,
+          0.5
+        ],
+        "dates": [],
+        "status": "fixed"
+      },
+      "True": {
+        "weights": [
+          0.2,
+          0.15,
+          0.15,
+          0.5
+        ],
+        "dates": [],
+        "status": "fixed"
+      }
+    }
+  },
+  {
+    "model": "J11_BREADTH_ALL",
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2026-05",
+    "cutoff": "2026-04-30",
+    "queries": 19,
+    "status": "ok",
+    "reason": null,
+    "mature_dates": [],
+    "conditional_weights": {
+      "False": {
+        "weights": [
+          0.4,
+          0.3,
+          0.3
+        ],
+        "dates": [],
+        "status": "fixed"
+      },
+      "True": {
+        "weights": [
+          0.4,
+          0.3,
+          0.3
+        ],
+        "dates": [],
+        "status": "fixed"
+      }
+    }
+  },
+  {
+    "model": "J11_BREADTH_ALL_HIST",
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2026-05",
+    "cutoff": "2026-04-30",
+    "queries": 19,
+    "status": "ok",
+    "reason": null,
+    "mature_dates": [],
+    "conditional_weights": {
+      "False": {
+        "weights": [
+          0.2,
+          0.15,
+          0.15,
+          0.5
+        ],
+        "dates": [],
+        "status": "fixed"
+      },
+      "True": {
+        "weights": [
+          0.2,
+          0.15,
+          0.15,
+          0.5
+        ],
+        "dates": [],
+        "status": "fixed"
+      }
+    }
+  },
+  {
+    "model": "J11_BREADTH_ALL",
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2026-06",
+    "cutoff": "2026-05-29",
+    "queries": 21,
+    "status": "ok",
+    "reason": null,
+    "mature_dates": [],
+    "conditional_weights": {
+      "False": {
+        "weights": [
+          0.4,
+          0.3,
+          0.3
+        ],
+        "dates": [],
+        "status": "fixed"
+      },
+      "True": {
+        "weights": [
+          0.4,
+          0.3,
+          0.3
+        ],
+        "dates": [],
+        "status": "fixed"
+      }
+    }
+  },
+  {
+    "model": "J11_BREADTH_ALL_HIST",
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2026-06",
+    "cutoff": "2026-05-29",
+    "queries": 21,
+    "status": "ok",
+    "reason": null,
+    "mature_dates": [],
+    "conditional_weights": {
+      "False": {
+        "weights": [
+          0.2,
+          0.15,
+          0.15,
+          0.5
+        ],
+        "dates": [],
+        "status": "fixed"
+      },
+      "True": {
+        "weights": [
+          0.2,
+          0.15,
+          0.15,
+          0.5
+        ],
+        "dates": [],
+        "status": "fixed"
+      }
+    }
+  },
+  {
+    "model": "J11_BREADTH_ALL",
+    "horizon": 5,
+    "cohort": "later",
+    "fold": "2026-07",
+    "cutoff": "2026-06-30",
+    "queries": 23,
+    "status": "ok",
+    "reason": null,
+    "mature_dates": [],
+    "conditional_weights": {
+      "False": {
+        "weights": [
+          0.4,
+          0.3,
+          0.3
+        ],
+        "dates": [],
+        "status": "fixed"
+      },
+      "True": {
+        "weights": [
+          0.4,
+          0.3,
+          0.3
+        ],
+        "dates": [],
+        "status": "fixed"
+      }
+    }
+  },
+  {
+    "model": "J11_BREADTH_ALL_HIST",
+    "horizon": 5,
+    "cohort": "later",
+    "fold": "2026-07",
+    "cutoff": "2026-06-30",
+    "queries": 23,
+    "status": "ok",
+    "reason": null,
+    "mature_dates": [],
+    "conditional_weights": {
+      "False": {
+        "weights": [
+          0.2,
+          0.15,
+          0.15,
+          0.5
+        ],
+        "dates": [],
+        "status": "fixed"
+      },
+      "True": {
+        "weights": [
+          0.2,
+          0.15,
+          0.15,
+          0.5
+        ],
+        "dates": [],
+        "status": "fixed"
+      }
+    }
+  },
+  {
+    "model": "J11_BREADTH_ALL",
+    "horizon": 5,
+    "cohort": "later",
+    "fold": "2026-08",
+    "cutoff": "2026-07-31",
+    "queries": 21,
+    "status": "ok",
+    "reason": null,
+    "mature_dates": [],
+    "conditional_weights": {
+      "False": {
+        "weights": [
+          0.4,
+          0.3,
+          0.3
+        ],
+        "dates": [],
+        "status": "fixed"
+      },
+      "True": {
+        "weights": [
+          0.4,
+          0.3,
+          0.3
+        ],
+        "dates": [],
+        "status": "fixed"
+      }
+    }
+  },
+  {
+    "model": "J11_BREADTH_ALL_HIST",
+    "horizon": 5,
+    "cohort": "later",
+    "fold": "2026-08",
+    "cutoff": "2026-07-31",
+    "queries": 21,
+    "status": "ok",
+    "reason": null,
+    "mature_dates": [],
+    "conditional_weights": {
+      "False": {
+        "weights": [
+          0.2,
+          0.15,
+          0.15,
+          0.5
+        ],
+        "dates": [],
+        "status": "fixed"
+      },
+      "True": {
+        "weights": [
+          0.2,
+          0.15,
+          0.15,
+          0.5
+        ],
+        "dates": [],
+        "status": "fixed"
+      }
+    }
+  },
+  {
+    "model": "J11_BREADTH_ALL",
+    "horizon": 5,
+    "cohort": "later",
+    "fold": "2026-09",
+    "cutoff": "2026-08-31",
+    "queries": 21,
+    "status": "ok",
+    "reason": null,
+    "mature_dates": [],
+    "conditional_weights": {
+      "False": {
+        "weights": [
+          0.4,
+          0.3,
+          0.3
+        ],
+        "dates": [],
+        "status": "fixed"
+      },
+      "True": {
+        "weights": [
+          0.4,
+          0.3,
+          0.3
+        ],
+        "dates": [],
+        "status": "fixed"
+      }
+    }
+  },
+  {
+    "model": "J11_BREADTH_ALL_HIST",
+    "horizon": 5,
+    "cohort": "later",
+    "fold": "2026-09",
+    "cutoff": "2026-08-31",
+    "queries": 21,
+    "status": "ok",
+    "reason": null,
+    "mature_dates": [],
+    "conditional_weights": {
+      "False": {
+        "weights": [
+          0.2,
+          0.15,
+          0.15,
+          0.5
+        ],
+        "dates": [],
+        "status": "fixed"
+      },
+      "True": {
+        "weights": [
+          0.2,
+          0.15,
+          0.15,
+          0.5
+        ],
+        "dates": [],
+        "status": "fixed"
+      }
+    }
+  },
+  {
+    "model": "J11_BREADTH_ALL",
+    "horizon": 5,
+    "cohort": "later",
+    "fold": "2026-10",
+    "cutoff": "2026-09-30",
+    "queries": 20,
+    "status": "ok",
+    "reason": null,
+    "mature_dates": [],
+    "conditional_weights": {
+      "False": {
+        "weights": [
+          0.4,
+          0.3,
+          0.3
+        ],
+        "dates": [],
+        "status": "fixed"
+      },
+      "True": {
+        "weights": [
+          0.4,
+          0.3,
+          0.3
+        ],
+        "dates": [],
+        "status": "fixed"
+      }
+    }
+  },
+  {
+    "model": "J11_BREADTH_ALL_HIST",
+    "horizon": 5,
+    "cohort": "later",
+    "fold": "2026-10",
+    "cutoff": "2026-09-30",
+    "queries": 20,
+    "status": "ok",
+    "reason": null,
+    "mature_dates": [],
+    "conditional_weights": {
+      "False": {
+        "weights": [
+          0.2,
+          0.15,
+          0.15,
+          0.5
+        ],
+        "dates": [],
+        "status": "fixed"
+      },
+      "True": {
+        "weights": [
+          0.2,
+          0.15,
+          0.15,
+          0.5
+        ],
+        "dates": [],
+        "status": "fixed"
+      }
+    }
+  },
+  {
+    "model": "J11_BREADTH_ALL",
+    "horizon": 5,
+    "cohort": "later",
+    "fold": "2026-11",
+    "cutoff": "2026-10-30",
+    "queries": 7,
+    "status": "ok",
+    "reason": null,
+    "mature_dates": [],
+    "conditional_weights": {
+      "False": {
+        "weights": [
+          0.4,
+          0.3,
+          0.3
+        ],
+        "dates": [],
+        "status": "fixed"
+      },
+      "True": {
+        "weights": [
+          0.4,
+          0.3,
+          0.3
+        ],
+        "dates": [],
+        "status": "fixed"
+      }
+    }
+  },
+  {
+    "model": "J11_BREADTH_ALL_HIST",
+    "horizon": 5,
+    "cohort": "later",
+    "fold": "2026-11",
+    "cutoff": "2026-10-30",
+    "queries": 7,
+    "status": "ok",
+    "reason": null,
+    "mature_dates": [],
+    "conditional_weights": {
+      "False": {
+        "weights": [
+          0.2,
+          0.15,
+          0.15,
+          0.5
+        ],
+        "dates": [],
+        "status": "fixed"
+      },
+      "True": {
+        "weights": [
+          0.2,
+          0.15,
+          0.15,
+          0.5
+        ],
+        "dates": [],
+        "status": "fixed"
+      }
+    }
+  },
+  {
+    "model": "J11_BREADTH_ALL",
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2025-12",
+    "cutoff": "2025-12-01",
+    "queries": 21,
+    "status": "ok",
+    "reason": null,
+    "mature_dates": [],
+    "conditional_weights": {
+      "False": {
+        "weights": [
+          0.4,
+          0.3,
+          0.3
+        ],
+        "dates": [],
+        "status": "fixed"
+      },
+      "True": {
+        "weights": [
+          0.4,
+          0.3,
+          0.3
+        ],
+        "dates": [],
+        "status": "fixed"
+      }
+    }
+  },
+  {
+    "model": "J11_BREADTH_ALL_HIST",
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2025-12",
+    "cutoff": "2025-12-01",
+    "queries": 21,
+    "status": "ok",
+    "reason": null,
+    "mature_dates": [],
+    "conditional_weights": {
+      "False": {
+        "weights": [
+          0.2,
+          0.15,
+          0.15,
+          0.5
+        ],
+        "dates": [],
+        "status": "fixed"
+      },
+      "True": {
+        "weights": [
+          0.2,
+          0.15,
+          0.15,
+          0.5
+        ],
+        "dates": [],
+        "status": "fixed"
+      }
+    }
+  },
+  {
+    "model": "J11_BREADTH_ALL",
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2026-01",
+    "cutoff": "2025-12-31",
+    "queries": 20,
+    "status": "ok",
+    "reason": null,
+    "mature_dates": [],
+    "conditional_weights": {
+      "False": {
+        "weights": [
+          0.4,
+          0.3,
+          0.3
+        ],
+        "dates": [],
+        "status": "fixed"
+      },
+      "True": {
+        "weights": [
+          0.4,
+          0.3,
+          0.3
+        ],
+        "dates": [],
+        "status": "fixed"
+      }
+    }
+  },
+  {
+    "model": "J11_BREADTH_ALL_HIST",
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2026-01",
+    "cutoff": "2025-12-31",
+    "queries": 20,
+    "status": "ok",
+    "reason": null,
+    "mature_dates": [],
+    "conditional_weights": {
+      "False": {
+        "weights": [
+          0.2,
+          0.15,
+          0.15,
+          0.5
+        ],
+        "dates": [],
+        "status": "fixed"
+      },
+      "True": {
+        "weights": [
+          0.2,
+          0.15,
+          0.15,
+          0.5
+        ],
+        "dates": [],
+        "status": "fixed"
+      }
+    }
+  },
+  {
+    "model": "J11_BREADTH_ALL",
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2026-02",
+    "cutoff": "2026-01-30",
+    "queries": 21,
+    "status": "ok",
+    "reason": null,
+    "mature_dates": [],
+    "conditional_weights": {
+      "False": {
+        "weights": [
+          0.4,
+          0.3,
+          0.3
+        ],
+        "dates": [],
+        "status": "fixed"
+      },
+      "True": {
+        "weights": [
+          0.4,
+          0.3,
+          0.3
+        ],
+        "dates": [],
+        "status": "fixed"
+      }
+    }
+  },
+  {
+    "model": "J11_BREADTH_ALL_HIST",
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2026-02",
+    "cutoff": "2026-01-30",
+    "queries": 21,
+    "status": "ok",
+    "reason": null,
+    "mature_dates": [],
+    "conditional_weights": {
+      "False": {
+        "weights": [
+          0.2,
+          0.15,
+          0.15,
+          0.5
+        ],
+        "dates": [],
+        "status": "fixed"
+      },
+      "True": {
+        "weights": [
+          0.2,
+          0.15,
+          0.15,
+          0.5
+        ],
+        "dates": [],
+        "status": "fixed"
+      }
+    }
+  },
+  {
+    "model": "J11_BREADTH_ALL",
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2026-03",
+    "cutoff": "2026-02-27",
+    "queries": 19,
+    "status": "ok",
+    "reason": null,
+    "mature_dates": [],
+    "conditional_weights": {
+      "False": {
+        "weights": [
+          0.4,
+          0.3,
+          0.3
+        ],
+        "dates": [],
+        "status": "fixed"
+      },
+      "True": {
+        "weights": [
+          0.4,
+          0.3,
+          0.3
+        ],
+        "dates": [],
+        "status": "fixed"
+      }
+    }
+  },
+  {
+    "model": "J11_BREADTH_ALL_HIST",
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2026-03",
+    "cutoff": "2026-02-27",
+    "queries": 19,
+    "status": "ok",
+    "reason": null,
+    "mature_dates": [],
+    "conditional_weights": {
+      "False": {
+        "weights": [
+          0.2,
+          0.15,
+          0.15,
+          0.5
+        ],
+        "dates": [],
+        "status": "fixed"
+      },
+      "True": {
+        "weights": [
+          0.2,
+          0.15,
+          0.15,
+          0.5
+        ],
+        "dates": [],
+        "status": "fixed"
+      }
+    }
+  },
+  {
+    "model": "J11_BREADTH_ALL",
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2026-04",
+    "cutoff": "2026-03-30",
+    "queries": 20,
+    "status": "ok",
+    "reason": null,
+    "mature_dates": [],
+    "conditional_weights": {
+      "False": {
+        "weights": [
+          0.4,
+          0.3,
+          0.3
+        ],
+        "dates": [],
+        "status": "fixed"
+      },
+      "True": {
+        "weights": [
+          0.4,
+          0.3,
+          0.3
+        ],
+        "dates": [],
+        "status": "fixed"
+      }
+    }
+  },
+  {
+    "model": "J11_BREADTH_ALL_HIST",
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2026-04",
+    "cutoff": "2026-03-30",
+    "queries": 20,
+    "status": "ok",
+    "reason": null,
+    "mature_dates": [],
+    "conditional_weights": {
+      "False": {
+        "weights": [
+          0.2,
+          0.15,
+          0.15,
+          0.5
+        ],
+        "dates": [],
+        "status": "fixed"
+      },
+      "True": {
+        "weights": [
+          0.2,
+          0.15,
+          0.15,
+          0.5
+        ],
+        "dates": [],
+        "status": "fixed"
+      }
+    }
+  },
+  {
+    "model": "J11_BREADTH_ALL",
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2026-05",
+    "cutoff": "2026-04-30",
+    "queries": 19,
+    "status": "ok",
+    "reason": null,
+    "mature_dates": [],
+    "conditional_weights": {
+      "False": {
+        "weights": [
+          0.4,
+          0.3,
+          0.3
+        ],
+        "dates": [],
+        "status": "fixed"
+      },
+      "True": {
+        "weights": [
+          0.4,
+          0.3,
+          0.3
+        ],
+        "dates": [],
+        "status": "fixed"
+      }
+    }
+  },
+  {
+    "model": "J11_BREADTH_ALL_HIST",
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2026-05",
+    "cutoff": "2026-04-30",
+    "queries": 19,
+    "status": "ok",
+    "reason": null,
+    "mature_dates": [],
+    "conditional_weights": {
+      "False": {
+        "weights": [
+          0.2,
+          0.15,
+          0.15,
+          0.5
+        ],
+        "dates": [],
+        "status": "fixed"
+      },
+      "True": {
+        "weights": [
+          0.2,
+          0.15,
+          0.15,
+          0.5
+        ],
+        "dates": [],
+        "status": "fixed"
+      }
+    }
+  },
+  {
+    "model": "J11_BREADTH_ALL",
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2026-06",
+    "cutoff": "2026-05-29",
+    "queries": 21,
+    "status": "ok",
+    "reason": null,
+    "mature_dates": [],
+    "conditional_weights": {
+      "False": {
+        "weights": [
+          0.4,
+          0.3,
+          0.3
+        ],
+        "dates": [],
+        "status": "fixed"
+      },
+      "True": {
+        "weights": [
+          0.4,
+          0.3,
+          0.3
+        ],
+        "dates": [],
+        "status": "fixed"
+      }
+    }
+  },
+  {
+    "model": "J11_BREADTH_ALL_HIST",
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2026-06",
+    "cutoff": "2026-05-29",
+    "queries": 21,
+    "status": "ok",
+    "reason": null,
+    "mature_dates": [],
+    "conditional_weights": {
+      "False": {
+        "weights": [
+          0.2,
+          0.15,
+          0.15,
+          0.5
+        ],
+        "dates": [],
+        "status": "fixed"
+      },
+      "True": {
+        "weights": [
+          0.2,
+          0.15,
+          0.15,
+          0.5
+        ],
+        "dates": [],
+        "status": "fixed"
+      }
+    }
+  },
+  {
+    "model": "J11_BREADTH_ALL",
+    "horizon": 21,
+    "cohort": "later",
+    "fold": "2026-07",
+    "cutoff": "2026-06-30",
+    "queries": 23,
+    "status": "ok",
+    "reason": null,
+    "mature_dates": [],
+    "conditional_weights": {
+      "False": {
+        "weights": [
+          0.4,
+          0.3,
+          0.3
+        ],
+        "dates": [],
+        "status": "fixed"
+      },
+      "True": {
+        "weights": [
+          0.4,
+          0.3,
+          0.3
+        ],
+        "dates": [],
+        "status": "fixed"
+      }
+    }
+  },
+  {
+    "model": "J11_BREADTH_ALL_HIST",
+    "horizon": 21,
+    "cohort": "later",
+    "fold": "2026-07",
+    "cutoff": "2026-06-30",
+    "queries": 23,
+    "status": "ok",
+    "reason": null,
+    "mature_dates": [],
+    "conditional_weights": {
+      "False": {
+        "weights": [
+          0.2,
+          0.15,
+          0.15,
+          0.5
+        ],
+        "dates": [],
+        "status": "fixed"
+      },
+      "True": {
+        "weights": [
+          0.2,
+          0.15,
+          0.15,
+          0.5
+        ],
+        "dates": [],
+        "status": "fixed"
+      }
+    }
+  },
+  {
+    "model": "J11_BREADTH_ALL",
+    "horizon": 21,
+    "cohort": "later",
+    "fold": "2026-08",
+    "cutoff": "2026-07-31",
+    "queries": 21,
+    "status": "ok",
+    "reason": null,
+    "mature_dates": [],
+    "conditional_weights": {
+      "False": {
+        "weights": [
+          0.4,
+          0.3,
+          0.3
+        ],
+        "dates": [],
+        "status": "fixed"
+      },
+      "True": {
+        "weights": [
+          0.4,
+          0.3,
+          0.3
+        ],
+        "dates": [],
+        "status": "fixed"
+      }
+    }
+  },
+  {
+    "model": "J11_BREADTH_ALL_HIST",
+    "horizon": 21,
+    "cohort": "later",
+    "fold": "2026-08",
+    "cutoff": "2026-07-31",
+    "queries": 21,
+    "status": "ok",
+    "reason": null,
+    "mature_dates": [],
+    "conditional_weights": {
+      "False": {
+        "weights": [
+          0.2,
+          0.15,
+          0.15,
+          0.5
+        ],
+        "dates": [],
+        "status": "fixed"
+      },
+      "True": {
+        "weights": [
+          0.2,
+          0.15,
+          0.15,
+          0.5
+        ],
+        "dates": [],
+        "status": "fixed"
+      }
+    }
+  },
+  {
+    "model": "J11_BREADTH_ALL",
+    "horizon": 21,
+    "cohort": "later",
+    "fold": "2026-09",
+    "cutoff": "2026-08-31",
+    "queries": 21,
+    "status": "ok",
+    "reason": null,
+    "mature_dates": [],
+    "conditional_weights": {
+      "False": {
+        "weights": [
+          0.4,
+          0.3,
+          0.3
+        ],
+        "dates": [],
+        "status": "fixed"
+      },
+      "True": {
+        "weights": [
+          0.4,
+          0.3,
+          0.3
+        ],
+        "dates": [],
+        "status": "fixed"
+      }
+    }
+  },
+  {
+    "model": "J11_BREADTH_ALL_HIST",
+    "horizon": 21,
+    "cohort": "later",
+    "fold": "2026-09",
+    "cutoff": "2026-08-31",
+    "queries": 21,
+    "status": "ok",
+    "reason": null,
+    "mature_dates": [],
+    "conditional_weights": {
+      "False": {
+        "weights": [
+          0.2,
+          0.15,
+          0.15,
+          0.5
+        ],
+        "dates": [],
+        "status": "fixed"
+      },
+      "True": {
+        "weights": [
+          0.2,
+          0.15,
+          0.15,
+          0.5
+        ],
+        "dates": [],
+        "status": "fixed"
+      }
+    }
+  },
+  {
+    "model": "J11_BREADTH_ALL",
+    "horizon": 21,
+    "cohort": "later",
+    "fold": "2026-10",
+    "cutoff": "2026-09-30",
+    "queries": 11,
+    "status": "ok",
+    "reason": null,
+    "mature_dates": [],
+    "conditional_weights": {
+      "False": {
+        "weights": [
+          0.4,
+          0.3,
+          0.3
+        ],
+        "dates": [],
+        "status": "fixed"
+      },
+      "True": {
+        "weights": [
+          0.4,
+          0.3,
+          0.3
+        ],
+        "dates": [],
+        "status": "fixed"
+      }
+    }
+  },
+  {
+    "model": "J11_BREADTH_ALL_HIST",
+    "horizon": 21,
+    "cohort": "later",
+    "fold": "2026-10",
+    "cutoff": "2026-09-30",
+    "queries": 11,
+    "status": "ok",
+    "reason": null,
+    "mature_dates": [],
+    "conditional_weights": {
+      "False": {
+        "weights": [
+          0.2,
+          0.15,
+          0.15,
+          0.5
+        ],
+        "dates": [],
+        "status": "fixed"
+      },
+      "True": {
+        "weights": [
+          0.2,
+          0.15,
+          0.15,
+          0.5
+        ],
+        "dates": [],
+        "status": "fixed"
+      }
+    }
+  }
+]

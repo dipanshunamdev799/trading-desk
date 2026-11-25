@@ -1,0 +1,144 @@
+{
+  "registered_at": "2026-11-24T12:03:30.012172+05:30",
+  "cohort": "primary",
+  "configurations": {
+    "M_HIST": {
+      "frame": "m_price",
+      "parent": "E00",
+      "law": "history",
+      "hypothesis": "Mature state-eligible empirical sign frequency and full return law",
+      "horizons": [
+        21
+      ],
+      "eligible": "monthly"
+    },
+    "M_PRICE": {
+      "frame": "m_price",
+      "parent": "M_HIST",
+      "hypothesis": "Price and risk only",
+      "horizons": [
+        21
+      ],
+      "eligible": "monthly"
+    },
+    "M_ONLY_STATE": {
+      "frame": "m_only_state",
+      "parent": "M_HIST",
+      "hypothesis": "Current reconstructed weekly state without price predictors",
+      "horizons": [
+        21
+      ],
+      "eligible": "monthly"
+    },
+    "M_BOTH": {
+      "frame": "m_both",
+      "parent": "M_PRICE",
+      "hypothesis": "Current price and weekly state",
+      "horizons": [
+        21
+      ],
+      "eligible": "monthly"
+    },
+    "M_LAG_STATE": {
+      "frame": "m_lag_state",
+      "parent": "M_BOTH",
+      "hypothesis": "21-session lagged weekly state and current price",
+      "horizons": [
+        21
+      ],
+      "eligible": "monthly"
+    },
+    "M_LAG_PRICE": {
+      "frame": "m_lag_price",
+      "parent": "M_BOTH",
+      "hypothesis": "21-session lagged price and current weekly state",
+      "horizons": [
+        21
+      ],
+      "eligible": "monthly"
+    },
+    "M_ROLL_STATE": {
+      "frame": "m_both",
+      "parent": "M_BOTH",
+      "roll_group": "w_",
+      "diagnostic": true,
+      "hypothesis": "Training-only calendar-preserving state roll",
+      "horizons": [
+        21
+      ],
+      "eligible": "monthly"
+    },
+    "M_BLOCK_TARGET": {
+      "frame": "m_both",
+      "parent": "M_BOTH",
+      "permute_target": true,
+      "diagnostic": true,
+      "hypothesis": "Deterministic 21-session label block permutation in past partitions",
+      "horizons": [
+        21
+      ],
+      "eligible": "monthly"
+    },
+    "M_STATE_SMOOTH": {
+      "frame": "m_state_smooth",
+      "parent": "M_BOTH",
+      "hypothesis": "Trailing 21-session weekly-state averages",
+      "horizons": [
+        21
+      ],
+      "eligible": "monthly"
+    },
+    "M_INNOVATION": {
+      "frame": "m_innovation",
+      "parent": "M_BOTH",
+      "hypothesis": "Predict monthly outcomes from current state minus 21-session average",
+      "horizons": [
+        21
+      ],
+      "eligible": "monthly"
+    },
+    "M_PERSIST": {
+      "frame": "m_persist",
+      "parent": "M_PRICE",
+      "hypothesis": "Slow rotation, common market level and trailing price trends",
+      "horizons": [
+        21
+      ],
+      "eligible": "monthly"
+    },
+    "M_REVERT": {
+      "frame": "m_price",
+      "parent": "M_HIST",
+      "fixed_location": -0.25,
+      "hypothesis": "Shrink reversion against prior 21-session NIFTY return",
+      "horizons": [
+        21
+      ],
+      "eligible": "monthly"
+    },
+    "M_CONTINUE": {
+      "frame": "m_price",
+      "parent": "M_HIST",
+      "fixed_location": 0.25,
+      "hypothesis": "Shrink persistence toward prior 21-session NIFTY return",
+      "horizons": [
+        21
+      ],
+      "eligible": "monthly"
+    },
+    "M_LAG_RETURN": {
+      "frame": "m_lag_return",
+      "parent": "M_PRICE",
+      "hypothesis": "Recent non-contemporaneous realized return as simple delayed regime proxy",
+      "horizons": [
+        21
+      ],
+      "eligible": "monthly"
+    }
+  },
+  "seed": 20261125,
+  "source": {
+    "models.py": "37056bce809a9e7dbecd72cd0c5a5fe91249866e9c32fefbad0a75d78ad2280e",
+    "experiments.py": "4f9135a1a17f2d26d7611d439a1c749973f8f3ac301ed1004b690a5036180a35"
+  }
+}

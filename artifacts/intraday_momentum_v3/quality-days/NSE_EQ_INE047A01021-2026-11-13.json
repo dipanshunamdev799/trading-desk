@@ -1,0 +1,146 @@
+{
+  "key": "NSE_EQ|INE047A01021",
+  "day": "2026-11-13",
+  "group": "outside_v2_core",
+  "updates": 18415,
+  "exact_source_payload_duplicates": 0,
+  "valid_books": 18415,
+  "grid_seconds": 21300,
+  "fresh_valid_grid_fraction": 0.7503286384976526,
+  "receipt_minus_source_seconds": {
+    "min": -0.229581,
+    "p50": -0.01495,
+    "p95": 0.10379129999999993,
+    "p99": 0.4419253400000009,
+    "max": 7.142963
+  },
+  "interarrival_seconds": {
+    "min": 0.0008721351623535156,
+    "p50": 0.8999998569488525,
+    "p95": 3.103450059890737,
+    "p99": 5.7018701195716845,
+    "max": 2238.4883580207825
+  },
+  "gaps_over2s": 1721,
+  "spread_bps": {
+    "min": 0.3212799794377891,
+    "p50": 3.2189531964205242,
+    "p95": 5.490122638163719,
+    "p99": 7.1513224053106175,
+    "max": 9.6373156863375
+  },
+  "capacity": [
+    {
+      "capital": 100000,
+      "observations": 517,
+      "full_depth_fraction": 0.08897485493230174,
+      "quoted_roundtrip_bps": {
+        "min": 9.065967204084396,
+        "p50": 12.626952445507143,
+        "p95": 14.632992974944973,
+        "p99": 14.984713370597737,
+        "max": 15.118451969371044
+      },
+      "depth_fraction_assumption": 0.1
+    },
+    {
+      "capital": 500000,
+      "observations": 517,
+      "full_depth_fraction": 0.0019342359767891683,
+      "quoted_roundtrip_bps": {
+        "min": 7.48961226522255,
+        "p50": 7.48961226522255,
+        "p95": 7.48961226522255,
+        "p99": 7.48961226522255,
+        "max": 7.48961226522255
+      },
+      "depth_fraction_assumption": 0.1
+    },
+    {
+      "capital": 1000000,
+      "observations": 517,
+      "full_depth_fraction": 0.0,
+      "quoted_roundtrip_bps": null,
+      "depth_fraction_assumption": 0.1
+    }
+  ],
+  "latency_observation_bounds": [
+    {
+      "delay_seconds": 0.1,
+      "observations": 517,
+      "identified_fraction": 0.218568665377176,
+      "buy_adverse_bps": {
+        "min": -14.302431413341088,
+        "p50": 0.0,
+        "p95": 0.6597719969514415,
+        "p99": 3.569443950737294,
+        "max": 7.713073659854075
+      },
+      "sell_adverse_bps": {
+        "min": -10.276502135586618,
+        "p50": 0.0,
+        "p95": 1.1115928851905796,
+        "p99": 4.138803856825029,
+        "max": 14.333181314742927
+      }
+    },
+    {
+      "delay_seconds": 0.5,
+      "observations": 517,
+      "identified_fraction": 0.2011605415860735,
+      "buy_adverse_bps": {
+        "min": -14.302431413341088,
+        "p50": 0.0,
+        "p95": 3.2538722800741215,
+        "p99": 4.301030474207601,
+        "max": 7.905138339920903
+      },
+      "sell_adverse_bps": {
+        "min": -4.939897908776691,
+        "p50": 0.0,
+        "p95": 4.420264539899847,
+        "p99": 13.880189270270698,
+        "max": 14.333181314742927
+      }
+    },
+    {
+      "delay_seconds": 1,
+      "observations": 517,
+      "identified_fraction": 0.18568665377176016,
+      "buy_adverse_bps": {
+        "min": -14.251473731943243,
+        "p50": 0.0,
+        "p95": 3.2953072084218604,
+        "p99": 4.483307231462053,
+        "max": 7.905138339920903
+      },
+      "sell_adverse_bps": {
+        "min": -5.285936106247391,
+        "p50": 0.0,
+        "p95": 3.3853893929797207,
+        "p99": 4.370099237568676,
+        "max": 13.627514600906832
+      }
+    },
+    {
+      "delay_seconds": 5,
+      "observations": 517,
+      "identified_fraction": 0.7736943907156673,
+      "buy_adverse_bps": {
+        "min": -22.428812898193094,
+        "p50": 0.0,
+        "p95": 4.957636974669322,
+        "p99": 10.034144055583948,
+        "max": 22.793340380549143
+      },
+      "sell_adverse_bps": {
+        "min": -26.049394928610027,
+        "p50": 0.0,
+        "p95": 6.9694764578952375,
+        "p99": 15.88264491470736,
+        "max": 21.18851256641685
+      }
+    }
+  ],
+  "interpretation": "Retained, research-exposed archive quality and quoted capacity bounds only; no realized order fills or strategy profitability"
+}

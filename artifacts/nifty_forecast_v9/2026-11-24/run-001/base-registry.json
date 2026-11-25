@@ -1,0 +1,61 @@
+{
+  "at": "2026-11-24T12:59:12.473135+05:30",
+  "seed": 20261129,
+  "configuration": {
+    "P_HIST": {
+      "frame": "small",
+      "parent": "P_HIST",
+      "law": "history",
+      "hypothesis": "Mature empirical reference"
+    },
+    "P_NATIVE": {
+      "frame": "base",
+      "parent": "P_HIST",
+      "hypothesis": "Native 51-column Ridge"
+    },
+    "P_ROT": {
+      "frame": "residual",
+      "parent": "P_NATIVE",
+      "hypothesis": "V8 residualized rotation under common V9 fitting rules"
+    },
+    "P_STRUCTURE": {
+      "frame": "structure_change",
+      "parent": "P_ROT",
+      "hypothesis": "V8 structural changes under common rules"
+    },
+    "P_CLUSTER": {
+      "frame": "cluster_rot",
+      "parent": "P_ROT",
+      "kind": "elastic",
+      "rep": "cluster",
+      "dedup": true,
+      "hypothesis": "Canonical cluster-balanced Elastic Net with rotation"
+    },
+    "P_LIQ": {
+      "frame": "etf_activity",
+      "parent": "P_ROT",
+      "hypothesis": "Domestic plus normalized ETF activity"
+    },
+    "P_REVERT": {
+      "frame": "small",
+      "parent": "P_HIST",
+      "fixed_multiplier": -0.25,
+      "hypothesis": "Simple conservative price reversion"
+    },
+    "P_MOMENTUM": {
+      "frame": "small",
+      "parent": "P_HIST",
+      "fixed_multiplier": 0.25,
+      "hypothesis": "Simple conservative price continuation"
+    },
+    "P_COMPACT": {
+      "frame": "small_resid",
+      "parent": "P_HIST",
+      "hypothesis": "Compact native price, breadth and residualized rotation"
+    }
+  },
+  "source": {
+    "run_models.py": "ce5c6722020b74c7d170a9614a8caf1d120688bde6097a38e03be56189f55269",
+    "models.py": "f314c03bd91c21d55ed8ad01bc5c6f24c82843b63226615c8508078a2d361177"
+  }
+}

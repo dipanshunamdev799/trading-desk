@@ -1,0 +1,42 @@
+{
+  "counts": {
+    "5": {
+      "new_resolved_prior_origins": 4,
+      "origin_dates": [
+        "2026-11-11",
+        "2026-11-12",
+        "2026-11-13",
+        "2026-11-16"
+      ],
+      "endpoints": [
+        "2026-11-18",
+        "2026-11-19",
+        "2026-11-20",
+        "2026-11-23"
+      ]
+    },
+    "21": {
+      "new_resolved_prior_origins": 4,
+      "origin_dates": [
+        "2026-10-19",
+        "2026-10-21",
+        "2026-10-22",
+        "2026-10-23"
+      ],
+      "endpoints": [
+        "2026-11-18",
+        "2026-11-19",
+        "2026-11-20",
+        "2026-11-23"
+      ]
+    }
+  },
+  "new_2026_sessions": [
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20",
+    "2026-11-23"
+  ],
+  "official_overrides": [],
+  "meaning": "Historical origins from frozen features whose endpoints became resolved using the separate refreshed vintage. No post-Nov17 feature-origin target mature after only four sessions."
+}

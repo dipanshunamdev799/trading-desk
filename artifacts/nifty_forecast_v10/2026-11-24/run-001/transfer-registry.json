@@ -1,0 +1,138 @@
+{
+  "registered_at": "2026-11-24T13:58:54.729206+05:30",
+  "seed": 20261130,
+  "configurations": {
+    "X_ONLY": {
+      "mode": "only",
+      "parent": "BASE5",
+      "diagnostic": false,
+      "horizons": [
+        5,
+        21
+      ],
+      "hypothesis": "Instrument-normalized panel Ridge and NIFTY endpoint recalibration"
+    },
+    "X_POOL": {
+      "mode": "pooled",
+      "parent": "X_ONLY",
+      "diagnostic": false,
+      "horizons": [
+        5,
+        21
+      ],
+      "hypothesis": "Instrument-normalized panel Ridge and NIFTY endpoint recalibration"
+    },
+    "X_SECTORS": {
+      "mode": "sectors",
+      "parent": "X_ONLY",
+      "diagnostic": false,
+      "horizons": [
+        5,
+        21
+      ],
+      "hypothesis": "Instrument-normalized panel Ridge and NIFTY endpoint recalibration"
+    },
+    "X_ETFS": {
+      "mode": "etfs",
+      "parent": "X_ONLY",
+      "diagnostic": false,
+      "horizons": [
+        5,
+        21
+      ],
+      "hypothesis": "Instrument-normalized panel Ridge and NIFTY endpoint recalibration"
+    },
+    "X_GLOBAL": {
+      "mode": "global",
+      "parent": "X_ONLY",
+      "diagnostic": false,
+      "horizons": [
+        5,
+        21
+      ],
+      "hypothesis": "Instrument-normalized panel Ridge and NIFTY endpoint recalibration"
+    },
+    "X_ADJUST": {
+      "mode": "adjust",
+      "parent": "X_POOL",
+      "diagnostic": false,
+      "horizons": [
+        5,
+        21
+      ],
+      "hypothesis": "Instrument-normalized panel Ridge and NIFTY endpoint recalibration"
+    },
+    "X_FACTORS": {
+      "mode": "factors",
+      "parent": "X_ONLY",
+      "diagnostic": false,
+      "horizons": [
+        5,
+        21
+      ],
+      "hypothesis": "Instrument-normalized panel Ridge and NIFTY endpoint recalibration"
+    },
+    "X_ADAPT": {
+      "mode": "adapt",
+      "parent": "X_ONLY",
+      "diagnostic": false,
+      "horizons": [
+        5,
+        21
+      ],
+      "hypothesis": "Instrument-normalized panel Ridge and NIFTY endpoint recalibration"
+    },
+    "X_MULTI": {
+      "mode": "multi",
+      "parent": "X_ONLY",
+      "diagnostic": false,
+      "horizons": [
+        5,
+        21
+      ],
+      "hypothesis": "Instrument-normalized panel Ridge and NIFTY endpoint recalibration"
+    },
+    "X_MULTI_SHORT": {
+      "mode": "short",
+      "parent": "X_ONLY",
+      "diagnostic": false,
+      "horizons": [
+        5,
+        21
+      ],
+      "hypothesis": "Instrument-normalized panel Ridge and NIFTY endpoint recalibration"
+    },
+    "X_SHIFT": {
+      "mode": "shift",
+      "parent": "X_ADAPT",
+      "diagnostic": true,
+      "horizons": [
+        5,
+        21
+      ],
+      "hypothesis": "Instrument-normalized panel Ridge and NIFTY endpoint recalibration"
+    },
+    "X_RANDOM": {
+      "mode": "random",
+      "parent": "X_ADAPT",
+      "diagnostic": true,
+      "horizons": [
+        5,
+        21
+      ],
+      "hypothesis": "Instrument-normalized panel Ridge and NIFTY endpoint recalibration"
+    },
+    "X_UNRELATED": {
+      "mode": "unrelated",
+      "parent": "X_ONLY",
+      "diagnostic": true,
+      "horizons": [
+        5,
+        21
+      ],
+      "hypothesis": "Instrument-normalized panel Ridge and NIFTY endpoint recalibration"
+    }
+  },
+  "code_hash": "5985a1d19594cacd8d3276b90751496ff43fcabf1fc067f01bfaea1fcdf8e3f0",
+  "maturity": "Entire training date group uses 21-session purge. Foreign auxiliary late cutoff excludes two more eligible rows."
+}

@@ -1,0 +1,66 @@
+{
+  "forecast_count": 89145,
+  "parts": [
+    {
+      "batch": "breadth",
+      "forecasts": 15718,
+      "atoms": 4088538,
+      "path": "distribution-archive/breadth.npz",
+      "sha256": "5f4829c0a702ea2178d9f3b88a696ea7f47f1ff96325b519d13472e700c7d73e"
+    },
+    {
+      "batch": "distribution",
+      "forecasts": 15900,
+      "atoms": 4349520,
+      "path": "distribution-archive/distribution.npz",
+      "sha256": "d3910019faa658a6d77a0c932eadd50dedf223bfd25dbfd23250d5be876e8388"
+    },
+    {
+      "batch": "memory",
+      "forecasts": 25769,
+      "atoms": 6537266,
+      "path": "distribution-archive/memory.npz",
+      "sha256": "bb5eeb73a329619a1bbaf942095f8667ed9af32f924b27af159b4bed57d0c913"
+    },
+    {
+      "batch": "overlap",
+      "forecasts": 16388,
+      "atoms": 4039268,
+      "path": "distribution-archive/overlap.npz",
+      "sha256": "4cce4a70f1e7f98dd4242810569e05b13c8ef535f46ea731dd75049a8da091fd"
+    },
+    {
+      "batch": "disjoint",
+      "forecasts": 964,
+      "atoms": 237604,
+      "path": "distribution-archive/disjoint.npz",
+      "sha256": "ea59682ca093755ff9f91c211c71e4bd9368c429e070d1fca4c350d931094332"
+    },
+    {
+      "batch": "international",
+      "forecasts": 2410,
+      "atoms": 571914,
+      "path": "distribution-archive/international.npz",
+      "sha256": "3acbd2b92fdeaff21a6c382df6f74605cea7b0caf49492a2cfe59a4c7e2f85ec"
+    },
+    {
+      "batch": "legacy",
+      "forecasts": 1874,
+      "path": "legacy-laws.jsonl",
+      "sha256": "9798627709b5fa55b46dcc1b89fac49bd9bc27069c3212b5ee22508c9a92f3ad"
+    },
+    {
+      "batch": "ensemble",
+      "forecasts": 9158,
+      "path": "ensemble-laws.jsonl",
+      "sha256": "deea5667821c9872623bb55618a35b0c80d2315ae27191cf3332ea1568e4c649"
+    },
+    {
+      "batch": "ensemble-exact",
+      "forecasts": 964,
+      "path": "ensemble-exact-laws.jsonl",
+      "sha256": "759ae2112a52709c53e2426242622cc4ef9351c90885a574e3325db5f41d5967"
+    }
+  ],
+  "layout": "Keys are horizon, model, origin, endpoint. Atoms and weights for row i use offsets[i]:offsets[i+1]."
+}

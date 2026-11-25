@@ -1,0 +1,3018 @@
+{
+  "passed": true,
+  "v8_rows": 2949,
+  "folds": [
+    {
+      "model": "A_STRUCTURE_LEVEL",
+      "fold": "2026-07",
+      "horizon": 5,
+      "cohort": "primary",
+      "rows": 23,
+      "maximum_error": 0.0,
+      "artifact_hash": "f9142107c0442acc7e9875f86e780a8c388be744ed3eecac8ceee00d70abfdbd",
+      "spec": {
+        "frame": "structure_level",
+        "parent": "B_ROT",
+        "hypothesis": "Economic state levels beyond rotation",
+        "batch": "additional",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "A_STRUCTURE_CHANGE",
+      "fold": "2026-07",
+      "horizon": 5,
+      "cohort": "primary",
+      "rows": 23,
+      "maximum_error": 0.0,
+      "artifact_hash": "af245403e52c78d700eb33a3acee95087b865f032a8eec93d75bc77b5cb49fe2",
+      "spec": {
+        "frame": "structure_change",
+        "parent": "A_STRUCTURE_LEVEL",
+        "hypothesis": "Use changes jointly with the same original levels",
+        "batch": "additional",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "A_ETF_ACTIVITY",
+      "fold": "2026-07",
+      "horizon": 5,
+      "cohort": "primary",
+      "rows": 23,
+      "maximum_error": 0.0,
+      "artifact_hash": "1f47e1dd8efa0d2b26f23a1fe93156b7ce3114243374a5c0fc70c475211a3b99",
+      "spec": {
+        "frame": "etf_activity",
+        "parent": "B_ROT",
+        "hypothesis": "Relative ETF turnover, volume shock and activity participation",
+        "batch": "additional",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "A_INTRADAY_BASE",
+      "fold": "2026-07",
+      "horizon": 5,
+      "cohort": "primary",
+      "rows": 23,
+      "maximum_error": 0.0,
+      "artifact_hash": "02d90be58a32c08a91c561538c64b7195dd4db24f8ca02d41779b3b18fff8174",
+      "spec": {
+        "frame": "both_changes",
+        "parent": "B_ROT",
+        "eligible": "intraday",
+        "hypothesis": "Complete-session matched rotation parent",
+        "batch": "additional",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "A_INTRADAY",
+      "fold": "2026-07",
+      "horizon": 5,
+      "cohort": "primary",
+      "rows": 23,
+      "maximum_error": 0.0,
+      "artifact_hash": "e3d3e9a6859d734fcc165463e8927a59b011c53ca73cf83c7e74fbd1a8b77aeb",
+      "spec": {
+        "frame": "intra",
+        "parent": "A_INTRADAY_BASE",
+        "eligible": "intraday",
+        "hypothesis": "Opening, closing, reversal, path variance, asymmetry, range concentration",
+        "batch": "additional",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "A_STRUCTURE_LEVEL",
+      "fold": "2026-08",
+      "horizon": 5,
+      "cohort": "primary",
+      "rows": 21,
+      "maximum_error": 0.0,
+      "artifact_hash": "26517e94edea48c694bbb0bad339ea6e5e31f488c80eb4e77f6c00118bb029f2",
+      "spec": {
+        "frame": "structure_level",
+        "parent": "B_ROT",
+        "hypothesis": "Economic state levels beyond rotation",
+        "batch": "additional",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "A_STRUCTURE_CHANGE",
+      "fold": "2026-08",
+      "horizon": 5,
+      "cohort": "primary",
+      "rows": 21,
+      "maximum_error": 0.0,
+      "artifact_hash": "8f2def1c4eda582fd9fed8a6c3e0be1004e7fe82fb13adba934eb9e25f16f200",
+      "spec": {
+        "frame": "structure_change",
+        "parent": "A_STRUCTURE_LEVEL",
+        "hypothesis": "Use changes jointly with the same original levels",
+        "batch": "additional",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "A_ETF_ACTIVITY",
+      "fold": "2026-08",
+      "horizon": 5,
+      "cohort": "primary",
+      "rows": 21,
+      "maximum_error": 0.0,
+      "artifact_hash": "f841062b08bcdc93b6ef6d538392205b727262c54beb513f66a56698e620f8b5",
+      "spec": {
+        "frame": "etf_activity",
+        "parent": "B_ROT",
+        "hypothesis": "Relative ETF turnover, volume shock and activity participation",
+        "batch": "additional",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "A_INTRADAY_BASE",
+      "fold": "2026-08",
+      "horizon": 5,
+      "cohort": "primary",
+      "rows": 21,
+      "maximum_error": 0.0,
+      "artifact_hash": "2ed58ea6dd069af2be71e89361d81e788c7ca1684a88e68f8725c1cb8239c815",
+      "spec": {
+        "frame": "both_changes",
+        "parent": "B_ROT",
+        "eligible": "intraday",
+        "hypothesis": "Complete-session matched rotation parent",
+        "batch": "additional",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "A_INTRADAY",
+      "fold": "2026-08",
+      "horizon": 5,
+      "cohort": "primary",
+      "rows": 21,
+      "maximum_error": 0.0,
+      "artifact_hash": "33215e91e9b047d679d0a5cf69e817f80f6df22960c08f43181913c08d95dd41",
+      "spec": {
+        "frame": "intra",
+        "parent": "A_INTRADAY_BASE",
+        "eligible": "intraday",
+        "hypothesis": "Opening, closing, reversal, path variance, asymmetry, range concentration",
+        "batch": "additional",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "A_STRUCTURE_LEVEL",
+      "fold": "2026-09",
+      "horizon": 5,
+      "cohort": "primary",
+      "rows": 21,
+      "maximum_error": 0.0,
+      "artifact_hash": "066ce7ef34be73e130a5c3ecab7eadac38150dfe88eb0b33b0db493886c62a75",
+      "spec": {
+        "frame": "structure_level",
+        "parent": "B_ROT",
+        "hypothesis": "Economic state levels beyond rotation",
+        "batch": "additional",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "A_STRUCTURE_CHANGE",
+      "fold": "2026-09",
+      "horizon": 5,
+      "cohort": "primary",
+      "rows": 21,
+      "maximum_error": 0.0,
+      "artifact_hash": "c6ba6e8a14b93ade73625f6f7a1881fdf240e870fa1844d0ac2f5e853680b088",
+      "spec": {
+        "frame": "structure_change",
+        "parent": "A_STRUCTURE_LEVEL",
+        "hypothesis": "Use changes jointly with the same original levels",
+        "batch": "additional",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "A_ETF_ACTIVITY",
+      "fold": "2026-09",
+      "horizon": 5,
+      "cohort": "primary",
+      "rows": 21,
+      "maximum_error": 0.0,
+      "artifact_hash": "91f23f4d491b5a18e31e3445e50abc06e1a0475a95da4ea2f462e27079c507a9",
+      "spec": {
+        "frame": "etf_activity",
+        "parent": "B_ROT",
+        "hypothesis": "Relative ETF turnover, volume shock and activity participation",
+        "batch": "additional",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "A_INTRADAY_BASE",
+      "fold": "2026-09",
+      "horizon": 5,
+      "cohort": "primary",
+      "rows": 21,
+      "maximum_error": 0.0,
+      "artifact_hash": "3b17df5e44369f5299a79437ea13ca35e00387734bbbe2b1ed7ec5a0c62fcbfd",
+      "spec": {
+        "frame": "both_changes",
+        "parent": "B_ROT",
+        "eligible": "intraday",
+        "hypothesis": "Complete-session matched rotation parent",
+        "batch": "additional",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "A_INTRADAY",
+      "fold": "2026-09",
+      "horizon": 5,
+      "cohort": "primary",
+      "rows": 21,
+      "maximum_error": 0.0,
+      "artifact_hash": "9c759a2639fc0100a450b84fd9fc03dc16a97c6fbe145d485e4b124cce3e6393",
+      "spec": {
+        "frame": "intra",
+        "parent": "A_INTRADAY_BASE",
+        "eligible": "intraday",
+        "hypothesis": "Opening, closing, reversal, path variance, asymmetry, range concentration",
+        "batch": "additional",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "A_STRUCTURE_LEVEL",
+      "fold": "2026-10",
+      "horizon": 5,
+      "cohort": "primary",
+      "rows": 20,
+      "maximum_error": 0.0,
+      "artifact_hash": "37e9a0da090d5622ef09a2be3d6f138b3434ca4612d3809377407d3a49dbb9a1",
+      "spec": {
+        "frame": "structure_level",
+        "parent": "B_ROT",
+        "hypothesis": "Economic state levels beyond rotation",
+        "batch": "additional",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "A_STRUCTURE_CHANGE",
+      "fold": "2026-10",
+      "horizon": 5,
+      "cohort": "primary",
+      "rows": 20,
+      "maximum_error": 0.0,
+      "artifact_hash": "e665b0ee19eb53343cc23b88198a0d8607c101d8720f7c4ad6f3544e20c3b9d8",
+      "spec": {
+        "frame": "structure_change",
+        "parent": "A_STRUCTURE_LEVEL",
+        "hypothesis": "Use changes jointly with the same original levels",
+        "batch": "additional",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "A_ETF_ACTIVITY",
+      "fold": "2026-10",
+      "horizon": 5,
+      "cohort": "primary",
+      "rows": 20,
+      "maximum_error": 0.0,
+      "artifact_hash": "78a21e40dd5c7015135b11dac407f37f896beeab595c81ebde9b0652927ebacf",
+      "spec": {
+        "frame": "etf_activity",
+        "parent": "B_ROT",
+        "hypothesis": "Relative ETF turnover, volume shock and activity participation",
+        "batch": "additional",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "A_INTRADAY_BASE",
+      "fold": "2026-10",
+      "horizon": 5,
+      "cohort": "primary",
+      "rows": 20,
+      "maximum_error": 0.0,
+      "artifact_hash": "23793440363b838817ee536c51b38fdad43cfcbf1241d78411ef7c0778b3ac20",
+      "spec": {
+        "frame": "both_changes",
+        "parent": "B_ROT",
+        "eligible": "intraday",
+        "hypothesis": "Complete-session matched rotation parent",
+        "batch": "additional",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "A_INTRADAY",
+      "fold": "2026-10",
+      "horizon": 5,
+      "cohort": "primary",
+      "rows": 20,
+      "maximum_error": 0.0,
+      "artifact_hash": "c7bcdb407986e83021677c971522d47252ce0934f4a8060fe0c428f7ba4d19cd",
+      "spec": {
+        "frame": "intra",
+        "parent": "A_INTRADAY_BASE",
+        "eligible": "intraday",
+        "hypothesis": "Opening, closing, reversal, path variance, asymmetry, range concentration",
+        "batch": "additional",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "A_STRUCTURE_LEVEL",
+      "fold": "2026-11",
+      "horizon": 5,
+      "cohort": "primary",
+      "rows": 7,
+      "maximum_error": 0.0,
+      "artifact_hash": "ea92aa5b911c6b7bed6e752478cd494b324b77997913dbcbf53525161aeb39e7",
+      "spec": {
+        "frame": "structure_level",
+        "parent": "B_ROT",
+        "hypothesis": "Economic state levels beyond rotation",
+        "batch": "additional",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "A_STRUCTURE_CHANGE",
+      "fold": "2026-11",
+      "horizon": 5,
+      "cohort": "primary",
+      "rows": 7,
+      "maximum_error": 0.0,
+      "artifact_hash": "c55ab447038ef3506ad29bc309d6e4c4f6637a4ccc4fe6ad99ec507537c33bcb",
+      "spec": {
+        "frame": "structure_change",
+        "parent": "A_STRUCTURE_LEVEL",
+        "hypothesis": "Use changes jointly with the same original levels",
+        "batch": "additional",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "A_ETF_ACTIVITY",
+      "fold": "2026-11",
+      "horizon": 5,
+      "cohort": "primary",
+      "rows": 7,
+      "maximum_error": 0.0,
+      "artifact_hash": "fb37bd810f1b2372316281317eaeabc3c9c3d05d7eb1e74b0b2adcfb519eceff",
+      "spec": {
+        "frame": "etf_activity",
+        "parent": "B_ROT",
+        "hypothesis": "Relative ETF turnover, volume shock and activity participation",
+        "batch": "additional",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "A_INTRADAY_BASE",
+      "fold": "2026-11",
+      "horizon": 5,
+      "cohort": "primary",
+      "rows": 6,
+      "maximum_error": 0.0,
+      "artifact_hash": "545e426d9e534784aed2f8b856af8012767da7a74e448be13b09278a643ae427",
+      "spec": {
+        "frame": "both_changes",
+        "parent": "B_ROT",
+        "eligible": "intraday",
+        "hypothesis": "Complete-session matched rotation parent",
+        "batch": "additional",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "A_INTRADAY",
+      "fold": "2026-11",
+      "horizon": 5,
+      "cohort": "primary",
+      "rows": 6,
+      "maximum_error": 0.0,
+      "artifact_hash": "f810231dfda0ab86e32a11bb1c65b4f25beb2742b01a8785c9b9554a4d08f737",
+      "spec": {
+        "frame": "intra",
+        "parent": "A_INTRADAY_BASE",
+        "eligible": "intraday",
+        "hypothesis": "Opening, closing, reversal, path variance, asymmetry, range concentration",
+        "batch": "additional",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "A_ETF_ACTIVITY",
+      "fold": "2026-07",
+      "horizon": 21,
+      "cohort": "primary",
+      "rows": 23,
+      "maximum_error": 0.0,
+      "artifact_hash": "b211ef3e8294691ee44870678abaf97082b12494c1a9afbb6ce71e4837ff878c",
+      "spec": {
+        "frame": "etf_activity",
+        "parent": "B_ROT",
+        "hypothesis": "Relative ETF turnover, volume shock and activity participation",
+        "batch": "additional",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "A_INTRADAY_BASE",
+      "fold": "2026-07",
+      "horizon": 21,
+      "cohort": "primary",
+      "rows": 23,
+      "maximum_error": 0.0,
+      "artifact_hash": "bd74ac34b010f6d9e820d15608d9b5bd539ddb925159b4898e014ebfef8eba8a",
+      "spec": {
+        "frame": "both_changes",
+        "parent": "B_ROT",
+        "eligible": "intraday",
+        "hypothesis": "Complete-session matched rotation parent",
+        "batch": "additional",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "A_INTRADAY",
+      "fold": "2026-07",
+      "horizon": 21,
+      "cohort": "primary",
+      "rows": 23,
+      "maximum_error": 0.0,
+      "artifact_hash": "b768628d44e31a38138027f15a9a57487bf2399ca059530c22fa2249a58ec6a2",
+      "spec": {
+        "frame": "intra",
+        "parent": "A_INTRADAY_BASE",
+        "eligible": "intraday",
+        "hypothesis": "Opening, closing, reversal, path variance, asymmetry, range concentration",
+        "batch": "additional",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "A_ETF_ACTIVITY",
+      "fold": "2026-08",
+      "horizon": 21,
+      "cohort": "primary",
+      "rows": 21,
+      "maximum_error": 0.0,
+      "artifact_hash": "944f103843c64779d0c75a9a9c77d48ecc1fc911a90f2a0074603eb473495de0",
+      "spec": {
+        "frame": "etf_activity",
+        "parent": "B_ROT",
+        "hypothesis": "Relative ETF turnover, volume shock and activity participation",
+        "batch": "additional",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "A_INTRADAY_BASE",
+      "fold": "2026-08",
+      "horizon": 21,
+      "cohort": "primary",
+      "rows": 21,
+      "maximum_error": 0.0,
+      "artifact_hash": "539aed18dd691fa2d121aaeffd004b7422ceaa32766ea1646a39730e0d6028f4",
+      "spec": {
+        "frame": "both_changes",
+        "parent": "B_ROT",
+        "eligible": "intraday",
+        "hypothesis": "Complete-session matched rotation parent",
+        "batch": "additional",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "A_INTRADAY",
+      "fold": "2026-08",
+      "horizon": 21,
+      "cohort": "primary",
+      "rows": 21,
+      "maximum_error": 0.0,
+      "artifact_hash": "5bb3ee2ceadd48050140714807dfeebed4a27732df6041e7e6b2016d33730f57",
+      "spec": {
+        "frame": "intra",
+        "parent": "A_INTRADAY_BASE",
+        "eligible": "intraday",
+        "hypothesis": "Opening, closing, reversal, path variance, asymmetry, range concentration",
+        "batch": "additional",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "A_ETF_ACTIVITY",
+      "fold": "2026-09",
+      "horizon": 21,
+      "cohort": "primary",
+      "rows": 21,
+      "maximum_error": 0.0,
+      "artifact_hash": "aae9cc0ffb9331d598264a82e644677b8dd8c6a63759a4739751e516819e9a51",
+      "spec": {
+        "frame": "etf_activity",
+        "parent": "B_ROT",
+        "hypothesis": "Relative ETF turnover, volume shock and activity participation",
+        "batch": "additional",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "A_INTRADAY_BASE",
+      "fold": "2026-09",
+      "horizon": 21,
+      "cohort": "primary",
+      "rows": 21,
+      "maximum_error": 0.0,
+      "artifact_hash": "890375ecbb2746a2abd571f963b6356b4ca67f0b2f33f02f65d30d49fc91b6bd",
+      "spec": {
+        "frame": "both_changes",
+        "parent": "B_ROT",
+        "eligible": "intraday",
+        "hypothesis": "Complete-session matched rotation parent",
+        "batch": "additional",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "A_INTRADAY",
+      "fold": "2026-09",
+      "horizon": 21,
+      "cohort": "primary",
+      "rows": 21,
+      "maximum_error": 0.0,
+      "artifact_hash": "5ad5feb8df05253401bdeb4b86a61c2392ff64a0ac29891078a64c04dbfce3ea",
+      "spec": {
+        "frame": "intra",
+        "parent": "A_INTRADAY_BASE",
+        "eligible": "intraday",
+        "hypothesis": "Opening, closing, reversal, path variance, asymmetry, range concentration",
+        "batch": "additional",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "A_ETF_ACTIVITY",
+      "fold": "2026-10",
+      "horizon": 21,
+      "cohort": "primary",
+      "rows": 11,
+      "maximum_error": 0.0,
+      "artifact_hash": "9908c2d923869fdcafdd70e109711906fe330bdce0a175ed4114e7c2fb937961",
+      "spec": {
+        "frame": "etf_activity",
+        "parent": "B_ROT",
+        "hypothesis": "Relative ETF turnover, volume shock and activity participation",
+        "batch": "additional",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "A_INTRADAY_BASE",
+      "fold": "2026-10",
+      "horizon": 21,
+      "cohort": "primary",
+      "rows": 11,
+      "maximum_error": 0.0,
+      "artifact_hash": "7bf1608eb5725f4f96f5074d2a8cb17dc486805aeb9f9583698289045652501a",
+      "spec": {
+        "frame": "both_changes",
+        "parent": "B_ROT",
+        "eligible": "intraday",
+        "hypothesis": "Complete-session matched rotation parent",
+        "batch": "additional",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "A_INTRADAY",
+      "fold": "2026-10",
+      "horizon": 21,
+      "cohort": "primary",
+      "rows": 11,
+      "maximum_error": 0.0,
+      "artifact_hash": "db3e4e42fd6244521e47bb7cdda66124d199885060878307061d504c5f729f63",
+      "spec": {
+        "frame": "intra",
+        "parent": "A_INTRADAY_BASE",
+        "eligible": "intraday",
+        "hypothesis": "Opening, closing, reversal, path variance, asymmetry, range concentration",
+        "batch": "additional",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "E_HIST",
+      "fold": "2025-10",
+      "horizon": 5,
+      "cohort": "early",
+      "rows": 12,
+      "maximum_error": 0.0,
+      "artifact_hash": "fdf322418a6f0276fe5f5689dcc8dae4769d8d493f60686ad7ca7da3f41eb233",
+      "spec": {
+        "frame": "early_small",
+        "parent": "self",
+        "law": "history",
+        "hypothesis": "Mature historical law on earlier exposed origins",
+        "min_train": 85,
+        "min_inner": 40,
+        "residual_window": 28,
+        "batch": "coverage",
+        "cohort": "early"
+      }
+    },
+    {
+      "model": "E_SMALL_126",
+      "fold": "2025-10",
+      "horizon": 5,
+      "cohort": "early",
+      "rows": 12,
+      "maximum_error": 0.0,
+      "artifact_hash": "929291e1a506c5cf804420b2a81c0a1446060683cdfa6740637a9fbf36379712",
+      "spec": {
+        "frame": "early_small",
+        "parent": "E_SMALL",
+        "alpha": 150,
+        "window": 126,
+        "hypothesis": "Fixed short-window compact parent",
+        "min_train": 85,
+        "min_inner": 40,
+        "residual_window": 28,
+        "batch": "coverage",
+        "cohort": "early"
+      }
+    },
+    {
+      "model": "E_FULL_ROT",
+      "fold": "2025-10",
+      "horizon": 5,
+      "cohort": "early",
+      "rows": 12,
+      "maximum_error": 0.0,
+      "artifact_hash": "0e0475f8d3b87d46b1f32e696473d9168f5ce1e17c243e38868f636cc28aac1b",
+      "spec": {
+        "frame": "both_changes",
+        "parent": "E_HIST",
+        "hypothesis": "Full rotation on earlier eligible dates with unchanged maturity rules",
+        "min_train": 85,
+        "min_inner": 40,
+        "residual_window": 28,
+        "batch": "coverage",
+        "cohort": "early"
+      }
+    },
+    {
+      "model": "E_HIST",
+      "fold": "2025-11",
+      "horizon": 5,
+      "cohort": "early",
+      "rows": 19,
+      "maximum_error": 0.0,
+      "artifact_hash": "d42306c2cf1dac5f1f824488899c745435c0896a0347018e6249311de91c7673",
+      "spec": {
+        "frame": "early_small",
+        "parent": "self",
+        "law": "history",
+        "hypothesis": "Mature historical law on earlier exposed origins",
+        "min_train": 85,
+        "min_inner": 40,
+        "residual_window": 28,
+        "batch": "coverage",
+        "cohort": "early"
+      }
+    },
+    {
+      "model": "E_SMALL_126",
+      "fold": "2025-11",
+      "horizon": 5,
+      "cohort": "early",
+      "rows": 19,
+      "maximum_error": 0.0,
+      "artifact_hash": "3e4e3c4ce3b27d2610268e17f8b72619fcb4fd6dd809d400dca52a6ebdc4db99",
+      "spec": {
+        "frame": "early_small",
+        "parent": "E_SMALL",
+        "alpha": 150,
+        "window": 126,
+        "hypothesis": "Fixed short-window compact parent",
+        "min_train": 85,
+        "min_inner": 40,
+        "residual_window": 28,
+        "batch": "coverage",
+        "cohort": "early"
+      }
+    },
+    {
+      "model": "E_FULL_ROT",
+      "fold": "2025-11",
+      "horizon": 5,
+      "cohort": "early",
+      "rows": 19,
+      "maximum_error": 0.0,
+      "artifact_hash": "e9ce5d03add90335c2c5b3dc317249947f1a2e7226c1bde714761454a07bc0db",
+      "spec": {
+        "frame": "both_changes",
+        "parent": "E_HIST",
+        "hypothesis": "Full rotation on earlier eligible dates with unchanged maturity rules",
+        "min_train": 85,
+        "min_inner": 40,
+        "residual_window": 28,
+        "batch": "coverage",
+        "cohort": "early"
+      }
+    },
+    {
+      "model": "E_HIST",
+      "fold": "2025-12",
+      "horizon": 5,
+      "cohort": "early",
+      "rows": 22,
+      "maximum_error": 0.0,
+      "artifact_hash": "07f3064bba73b224ddc370a6776497d043814ffae0d065380c915286a1fd38d4",
+      "spec": {
+        "frame": "early_small",
+        "parent": "self",
+        "law": "history",
+        "hypothesis": "Mature historical law on earlier exposed origins",
+        "min_train": 85,
+        "min_inner": 40,
+        "residual_window": 28,
+        "batch": "coverage",
+        "cohort": "early"
+      }
+    },
+    {
+      "model": "E_SMALL_126",
+      "fold": "2025-12",
+      "horizon": 5,
+      "cohort": "early",
+      "rows": 22,
+      "maximum_error": 0.0,
+      "artifact_hash": "e7d637ac0fe66509edbabe009984bd3a84d1a93d6361a943d733623bebd2bebe",
+      "spec": {
+        "frame": "early_small",
+        "parent": "E_SMALL",
+        "alpha": 150,
+        "window": 126,
+        "hypothesis": "Fixed short-window compact parent",
+        "min_train": 85,
+        "min_inner": 40,
+        "residual_window": 28,
+        "batch": "coverage",
+        "cohort": "early"
+      }
+    },
+    {
+      "model": "E_FULL_ROT",
+      "fold": "2025-12",
+      "horizon": 5,
+      "cohort": "early",
+      "rows": 22,
+      "maximum_error": 0.0,
+      "artifact_hash": "33db6af20c4b32226432eb7833bdfea7ced76d0aa3fd751be52ebb2e0b7c77a9",
+      "spec": {
+        "frame": "both_changes",
+        "parent": "E_HIST",
+        "hypothesis": "Full rotation on earlier eligible dates with unchanged maturity rules",
+        "min_train": 85,
+        "min_inner": 40,
+        "residual_window": 28,
+        "batch": "coverage",
+        "cohort": "early"
+      }
+    },
+    {
+      "model": "E_HIST",
+      "fold": "2026-01",
+      "horizon": 5,
+      "cohort": "early",
+      "rows": 20,
+      "maximum_error": 0.0,
+      "artifact_hash": "b31acf1acebb4f94d44b4eec09f89d7a531fe1ea04f524d8628d15a0ad4b8b05",
+      "spec": {
+        "frame": "early_small",
+        "parent": "self",
+        "law": "history",
+        "hypothesis": "Mature historical law on earlier exposed origins",
+        "min_train": 85,
+        "min_inner": 40,
+        "residual_window": 28,
+        "batch": "coverage",
+        "cohort": "early"
+      }
+    },
+    {
+      "model": "E_SMALL_126",
+      "fold": "2026-01",
+      "horizon": 5,
+      "cohort": "early",
+      "rows": 20,
+      "maximum_error": 0.0,
+      "artifact_hash": "a553e61f0b332b33ec6219fbf62235ada2d182aef214711653e707497e1722e8",
+      "spec": {
+        "frame": "early_small",
+        "parent": "E_SMALL",
+        "alpha": 150,
+        "window": 126,
+        "hypothesis": "Fixed short-window compact parent",
+        "min_train": 85,
+        "min_inner": 40,
+        "residual_window": 28,
+        "batch": "coverage",
+        "cohort": "early"
+      }
+    },
+    {
+      "model": "E_FULL_ROT",
+      "fold": "2026-01",
+      "horizon": 5,
+      "cohort": "early",
+      "rows": 20,
+      "maximum_error": 0.0,
+      "artifact_hash": "bd406449ceef01e6c25140d060a5b7699a91d9a91a9053ad563edf17104fc752",
+      "spec": {
+        "frame": "both_changes",
+        "parent": "E_HIST",
+        "hypothesis": "Full rotation on earlier eligible dates with unchanged maturity rules",
+        "min_train": 85,
+        "min_inner": 40,
+        "residual_window": 28,
+        "batch": "coverage",
+        "cohort": "early"
+      }
+    },
+    {
+      "model": "E_HIST",
+      "fold": "2026-02",
+      "horizon": 5,
+      "cohort": "early",
+      "rows": 21,
+      "maximum_error": 0.0,
+      "artifact_hash": "4482e0ec2ba385106c429a0e154127aa17e0eb04593d69077733d1b700f98c00",
+      "spec": {
+        "frame": "early_small",
+        "parent": "self",
+        "law": "history",
+        "hypothesis": "Mature historical law on earlier exposed origins",
+        "min_train": 85,
+        "min_inner": 40,
+        "residual_window": 28,
+        "batch": "coverage",
+        "cohort": "early"
+      }
+    },
+    {
+      "model": "E_SMALL_126",
+      "fold": "2026-02",
+      "horizon": 5,
+      "cohort": "early",
+      "rows": 21,
+      "maximum_error": 0.0,
+      "artifact_hash": "5f5c21008e248f2a24c796b5dae7597027c7361ec8ce99d0e0eedaf2ada2ae5c",
+      "spec": {
+        "frame": "early_small",
+        "parent": "E_SMALL",
+        "alpha": 150,
+        "window": 126,
+        "hypothesis": "Fixed short-window compact parent",
+        "min_train": 85,
+        "min_inner": 40,
+        "residual_window": 28,
+        "batch": "coverage",
+        "cohort": "early"
+      }
+    },
+    {
+      "model": "E_FULL_ROT",
+      "fold": "2026-02",
+      "horizon": 5,
+      "cohort": "early",
+      "rows": 21,
+      "maximum_error": 0.0,
+      "artifact_hash": "3f98b2e8c28b19b7d803aad25b8d1d526990a7628eae1be691a2135b4b330acf",
+      "spec": {
+        "frame": "both_changes",
+        "parent": "E_HIST",
+        "hypothesis": "Full rotation on earlier eligible dates with unchanged maturity rules",
+        "min_train": 85,
+        "min_inner": 40,
+        "residual_window": 28,
+        "batch": "coverage",
+        "cohort": "early"
+      }
+    },
+    {
+      "model": "E_HIST",
+      "fold": "2026-03",
+      "horizon": 5,
+      "cohort": "early",
+      "rows": 19,
+      "maximum_error": 0.0,
+      "artifact_hash": "209e85f2a4cc03a0b19edc2203edd8df3742db9c71be72e120bc1f77e84c21b1",
+      "spec": {
+        "frame": "early_small",
+        "parent": "self",
+        "law": "history",
+        "hypothesis": "Mature historical law on earlier exposed origins",
+        "min_train": 85,
+        "min_inner": 40,
+        "residual_window": 28,
+        "batch": "coverage",
+        "cohort": "early"
+      }
+    },
+    {
+      "model": "E_SMALL_126",
+      "fold": "2026-03",
+      "horizon": 5,
+      "cohort": "early",
+      "rows": 19,
+      "maximum_error": 0.0,
+      "artifact_hash": "98b2be0b3017c25d9ddb680baa154fc05368ae9d1be6560e4e2cde30cfe7bd8f",
+      "spec": {
+        "frame": "early_small",
+        "parent": "E_SMALL",
+        "alpha": 150,
+        "window": 126,
+        "hypothesis": "Fixed short-window compact parent",
+        "min_train": 85,
+        "min_inner": 40,
+        "residual_window": 28,
+        "batch": "coverage",
+        "cohort": "early"
+      }
+    },
+    {
+      "model": "E_FULL_ROT",
+      "fold": "2026-03",
+      "horizon": 5,
+      "cohort": "early",
+      "rows": 19,
+      "maximum_error": 0.0,
+      "artifact_hash": "765944bb898ef173b3b86ec4bfb1fe47fdc0dbe1025ee3b23df73d657ef53f35",
+      "spec": {
+        "frame": "both_changes",
+        "parent": "E_HIST",
+        "hypothesis": "Full rotation on earlier eligible dates with unchanged maturity rules",
+        "min_train": 85,
+        "min_inner": 40,
+        "residual_window": 28,
+        "batch": "coverage",
+        "cohort": "early"
+      }
+    },
+    {
+      "model": "E_HIST",
+      "fold": "2026-04",
+      "horizon": 5,
+      "cohort": "early",
+      "rows": 20,
+      "maximum_error": 0.0,
+      "artifact_hash": "7bc2e3ae5eb27fedd495a41953307ee25e693e0354f588165b4d9c0cb1c26306",
+      "spec": {
+        "frame": "early_small",
+        "parent": "self",
+        "law": "history",
+        "hypothesis": "Mature historical law on earlier exposed origins",
+        "min_train": 85,
+        "min_inner": 40,
+        "residual_window": 28,
+        "batch": "coverage",
+        "cohort": "early"
+      }
+    },
+    {
+      "model": "E_SMALL_126",
+      "fold": "2026-04",
+      "horizon": 5,
+      "cohort": "early",
+      "rows": 20,
+      "maximum_error": 0.0,
+      "artifact_hash": "b821947700e76e5999b799a01224e2cf992ec8fe602a5dff9a0e3759e19febf5",
+      "spec": {
+        "frame": "early_small",
+        "parent": "E_SMALL",
+        "alpha": 150,
+        "window": 126,
+        "hypothesis": "Fixed short-window compact parent",
+        "min_train": 85,
+        "min_inner": 40,
+        "residual_window": 28,
+        "batch": "coverage",
+        "cohort": "early"
+      }
+    },
+    {
+      "model": "E_FULL_ROT",
+      "fold": "2026-04",
+      "horizon": 5,
+      "cohort": "early",
+      "rows": 20,
+      "maximum_error": 0.0,
+      "artifact_hash": "3cc8676419925617c5ad5fb6d40b64c7f7607ac1da0b21dd85a707531d4d2647",
+      "spec": {
+        "frame": "both_changes",
+        "parent": "E_HIST",
+        "hypothesis": "Full rotation on earlier eligible dates with unchanged maturity rules",
+        "min_train": 85,
+        "min_inner": 40,
+        "residual_window": 28,
+        "batch": "coverage",
+        "cohort": "early"
+      }
+    },
+    {
+      "model": "E_HIST",
+      "fold": "2026-05",
+      "horizon": 5,
+      "cohort": "early",
+      "rows": 19,
+      "maximum_error": 0.0,
+      "artifact_hash": "22901e465482504663c8303642218ffc827f5ae9da0a2e8fa46c025e47734168",
+      "spec": {
+        "frame": "early_small",
+        "parent": "self",
+        "law": "history",
+        "hypothesis": "Mature historical law on earlier exposed origins",
+        "min_train": 85,
+        "min_inner": 40,
+        "residual_window": 28,
+        "batch": "coverage",
+        "cohort": "early"
+      }
+    },
+    {
+      "model": "E_SMALL_126",
+      "fold": "2026-05",
+      "horizon": 5,
+      "cohort": "early",
+      "rows": 19,
+      "maximum_error": 0.0,
+      "artifact_hash": "ccd243854ee684a6fcb51f49fa580a7c18eb1e43ca3484815d3435ce6e28ed91",
+      "spec": {
+        "frame": "early_small",
+        "parent": "E_SMALL",
+        "alpha": 150,
+        "window": 126,
+        "hypothesis": "Fixed short-window compact parent",
+        "min_train": 85,
+        "min_inner": 40,
+        "residual_window": 28,
+        "batch": "coverage",
+        "cohort": "early"
+      }
+    },
+    {
+      "model": "E_FULL_ROT",
+      "fold": "2026-05",
+      "horizon": 5,
+      "cohort": "early",
+      "rows": 19,
+      "maximum_error": 0.0,
+      "artifact_hash": "00dad26ef89426648a7de2871811ac5e372efd6c3691b264e97db09665e22243",
+      "spec": {
+        "frame": "both_changes",
+        "parent": "E_HIST",
+        "hypothesis": "Full rotation on earlier eligible dates with unchanged maturity rules",
+        "min_train": 85,
+        "min_inner": 40,
+        "residual_window": 28,
+        "batch": "coverage",
+        "cohort": "early"
+      }
+    },
+    {
+      "model": "E_HIST",
+      "fold": "2026-06",
+      "horizon": 5,
+      "cohort": "early",
+      "rows": 21,
+      "maximum_error": 0.0,
+      "artifact_hash": "bcca1bf7152b84668d0b95dc517f2b794ad811d4a00a3e590a1b2f8757692d09",
+      "spec": {
+        "frame": "early_small",
+        "parent": "self",
+        "law": "history",
+        "hypothesis": "Mature historical law on earlier exposed origins",
+        "min_train": 85,
+        "min_inner": 40,
+        "residual_window": 28,
+        "batch": "coverage",
+        "cohort": "early"
+      }
+    },
+    {
+      "model": "E_SMALL_126",
+      "fold": "2026-06",
+      "horizon": 5,
+      "cohort": "early",
+      "rows": 21,
+      "maximum_error": 0.0,
+      "artifact_hash": "77fb0da932e8299db8b2c0dd91b30ae83e79d4b7d62626513bc8e50bb91a1239",
+      "spec": {
+        "frame": "early_small",
+        "parent": "E_SMALL",
+        "alpha": 150,
+        "window": 126,
+        "hypothesis": "Fixed short-window compact parent",
+        "min_train": 85,
+        "min_inner": 40,
+        "residual_window": 28,
+        "batch": "coverage",
+        "cohort": "early"
+      }
+    },
+    {
+      "model": "E_FULL_ROT",
+      "fold": "2026-06",
+      "horizon": 5,
+      "cohort": "early",
+      "rows": 21,
+      "maximum_error": 0.0,
+      "artifact_hash": "7d292384dc1da2186e3e18003b1731d01a5ef0e4e440729d8f283accc1d45cd4",
+      "spec": {
+        "frame": "both_changes",
+        "parent": "E_HIST",
+        "hypothesis": "Full rotation on earlier eligible dates with unchanged maturity rules",
+        "min_train": 85,
+        "min_inner": 40,
+        "residual_window": 28,
+        "batch": "coverage",
+        "cohort": "early"
+      }
+    },
+    {
+      "model": "E_HIST",
+      "fold": "2025-12",
+      "horizon": 21,
+      "cohort": "early",
+      "rows": 21,
+      "maximum_error": 0.0,
+      "artifact_hash": "121ae535478900e6010a3d3c69b874f94d3b090f3e78eca00c12d19893a33487",
+      "spec": {
+        "frame": "early_small",
+        "parent": "self",
+        "law": "history",
+        "hypothesis": "Mature historical law on earlier exposed origins",
+        "min_train": 85,
+        "min_inner": 40,
+        "residual_window": 28,
+        "batch": "coverage",
+        "cohort": "early"
+      }
+    },
+    {
+      "model": "E_SMALL_126",
+      "fold": "2025-12",
+      "horizon": 21,
+      "cohort": "early",
+      "rows": 21,
+      "maximum_error": 0.0,
+      "artifact_hash": "472a52bcec6262f0ee2be4179d0c49ef61e33c60ea0b31aab3bbb972d5062fb4",
+      "spec": {
+        "frame": "early_small",
+        "parent": "E_SMALL",
+        "alpha": 150,
+        "window": 126,
+        "hypothesis": "Fixed short-window compact parent",
+        "min_train": 85,
+        "min_inner": 40,
+        "residual_window": 28,
+        "batch": "coverage",
+        "cohort": "early"
+      }
+    },
+    {
+      "model": "E_FULL_ROT",
+      "fold": "2025-12",
+      "horizon": 21,
+      "cohort": "early",
+      "rows": 21,
+      "maximum_error": 0.0,
+      "artifact_hash": "510536f0d6c4410dab3afbc6961f2c86e56ccd1955b20bb4cb4e21c51cac30f2",
+      "spec": {
+        "frame": "both_changes",
+        "parent": "E_HIST",
+        "hypothesis": "Full rotation on earlier eligible dates with unchanged maturity rules",
+        "min_train": 85,
+        "min_inner": 40,
+        "residual_window": 28,
+        "batch": "coverage",
+        "cohort": "early"
+      }
+    },
+    {
+      "model": "E_HIST",
+      "fold": "2026-01",
+      "horizon": 21,
+      "cohort": "early",
+      "rows": 20,
+      "maximum_error": 0.0,
+      "artifact_hash": "6e2636369c773837344897abf87df642da39e4b032e79d466cf30ff6c809eaf8",
+      "spec": {
+        "frame": "early_small",
+        "parent": "self",
+        "law": "history",
+        "hypothesis": "Mature historical law on earlier exposed origins",
+        "min_train": 85,
+        "min_inner": 40,
+        "residual_window": 28,
+        "batch": "coverage",
+        "cohort": "early"
+      }
+    },
+    {
+      "model": "E_SMALL_126",
+      "fold": "2026-01",
+      "horizon": 21,
+      "cohort": "early",
+      "rows": 20,
+      "maximum_error": 0.0,
+      "artifact_hash": "fb34e9bd92ab36ceff5c0ad842906d533fa99e02409e8f371cff76cd449bf5ab",
+      "spec": {
+        "frame": "early_small",
+        "parent": "E_SMALL",
+        "alpha": 150,
+        "window": 126,
+        "hypothesis": "Fixed short-window compact parent",
+        "min_train": 85,
+        "min_inner": 40,
+        "residual_window": 28,
+        "batch": "coverage",
+        "cohort": "early"
+      }
+    },
+    {
+      "model": "E_FULL_ROT",
+      "fold": "2026-01",
+      "horizon": 21,
+      "cohort": "early",
+      "rows": 20,
+      "maximum_error": 0.0,
+      "artifact_hash": "83e6aac3954cee19810795ecd7bde151751f899725679ec677a8884de8054a57",
+      "spec": {
+        "frame": "both_changes",
+        "parent": "E_HIST",
+        "hypothesis": "Full rotation on earlier eligible dates with unchanged maturity rules",
+        "min_train": 85,
+        "min_inner": 40,
+        "residual_window": 28,
+        "batch": "coverage",
+        "cohort": "early"
+      }
+    },
+    {
+      "model": "E_HIST",
+      "fold": "2026-02",
+      "horizon": 21,
+      "cohort": "early",
+      "rows": 21,
+      "maximum_error": 0.0,
+      "artifact_hash": "92cd7ed6ed23f3b876361f33411adc2daae145310a28a45728ec98f0fb35837b",
+      "spec": {
+        "frame": "early_small",
+        "parent": "self",
+        "law": "history",
+        "hypothesis": "Mature historical law on earlier exposed origins",
+        "min_train": 85,
+        "min_inner": 40,
+        "residual_window": 28,
+        "batch": "coverage",
+        "cohort": "early"
+      }
+    },
+    {
+      "model": "E_SMALL_126",
+      "fold": "2026-02",
+      "horizon": 21,
+      "cohort": "early",
+      "rows": 21,
+      "maximum_error": 0.0,
+      "artifact_hash": "8f3a88f0d61556c1c5942ea6bc338b65753ebfaa84d51f640cffa54cb1a192ed",
+      "spec": {
+        "frame": "early_small",
+        "parent": "E_SMALL",
+        "alpha": 150,
+        "window": 126,
+        "hypothesis": "Fixed short-window compact parent",
+        "min_train": 85,
+        "min_inner": 40,
+        "residual_window": 28,
+        "batch": "coverage",
+        "cohort": "early"
+      }
+    },
+    {
+      "model": "E_FULL_ROT",
+      "fold": "2026-02",
+      "horizon": 21,
+      "cohort": "early",
+      "rows": 21,
+      "maximum_error": 0.0,
+      "artifact_hash": "f00c9e06c196e29c487847f375162a2907a530abf8219b6f9a9d45c4af06c2fe",
+      "spec": {
+        "frame": "both_changes",
+        "parent": "E_HIST",
+        "hypothesis": "Full rotation on earlier eligible dates with unchanged maturity rules",
+        "min_train": 85,
+        "min_inner": 40,
+        "residual_window": 28,
+        "batch": "coverage",
+        "cohort": "early"
+      }
+    },
+    {
+      "model": "E_HIST",
+      "fold": "2026-03",
+      "horizon": 21,
+      "cohort": "early",
+      "rows": 19,
+      "maximum_error": 0.0,
+      "artifact_hash": "ac39cfc1d0ddcb32b78e253cd9f5ff151a20294f980be2c9748cf9b830e42f20",
+      "spec": {
+        "frame": "early_small",
+        "parent": "self",
+        "law": "history",
+        "hypothesis": "Mature historical law on earlier exposed origins",
+        "min_train": 85,
+        "min_inner": 40,
+        "residual_window": 28,
+        "batch": "coverage",
+        "cohort": "early"
+      }
+    },
+    {
+      "model": "E_SMALL_126",
+      "fold": "2026-03",
+      "horizon": 21,
+      "cohort": "early",
+      "rows": 19,
+      "maximum_error": 0.0,
+      "artifact_hash": "42c8bfff105443cc7dbad7dc2bc6cfc94de51d2c7cb42bdef78223fa192f4c30",
+      "spec": {
+        "frame": "early_small",
+        "parent": "E_SMALL",
+        "alpha": 150,
+        "window": 126,
+        "hypothesis": "Fixed short-window compact parent",
+        "min_train": 85,
+        "min_inner": 40,
+        "residual_window": 28,
+        "batch": "coverage",
+        "cohort": "early"
+      }
+    },
+    {
+      "model": "E_FULL_ROT",
+      "fold": "2026-03",
+      "horizon": 21,
+      "cohort": "early",
+      "rows": 19,
+      "maximum_error": 0.0,
+      "artifact_hash": "c4760ef9acfd19578bfa4a41bfbd69aae003fd62d47269110fae99018f08d56a",
+      "spec": {
+        "frame": "both_changes",
+        "parent": "E_HIST",
+        "hypothesis": "Full rotation on earlier eligible dates with unchanged maturity rules",
+        "min_train": 85,
+        "min_inner": 40,
+        "residual_window": 28,
+        "batch": "coverage",
+        "cohort": "early"
+      }
+    },
+    {
+      "model": "E_HIST",
+      "fold": "2026-04",
+      "horizon": 21,
+      "cohort": "early",
+      "rows": 20,
+      "maximum_error": 0.0,
+      "artifact_hash": "14d780e53f8501808d42b530dfd85fec3a3819d4f577950cd5775ce3fd912cb4",
+      "spec": {
+        "frame": "early_small",
+        "parent": "self",
+        "law": "history",
+        "hypothesis": "Mature historical law on earlier exposed origins",
+        "min_train": 85,
+        "min_inner": 40,
+        "residual_window": 28,
+        "batch": "coverage",
+        "cohort": "early"
+      }
+    },
+    {
+      "model": "E_SMALL_126",
+      "fold": "2026-04",
+      "horizon": 21,
+      "cohort": "early",
+      "rows": 20,
+      "maximum_error": 0.0,
+      "artifact_hash": "a866ae7e47013b88bf898fd8f6077304f8acd181faed83eec1b88af138d55a61",
+      "spec": {
+        "frame": "early_small",
+        "parent": "E_SMALL",
+        "alpha": 150,
+        "window": 126,
+        "hypothesis": "Fixed short-window compact parent",
+        "min_train": 85,
+        "min_inner": 40,
+        "residual_window": 28,
+        "batch": "coverage",
+        "cohort": "early"
+      }
+    },
+    {
+      "model": "E_FULL_ROT",
+      "fold": "2026-04",
+      "horizon": 21,
+      "cohort": "early",
+      "rows": 20,
+      "maximum_error": 0.0,
+      "artifact_hash": "054a92a551cca5893951e14b1ab925f65cba42948097338de2870eec27559a6d",
+      "spec": {
+        "frame": "both_changes",
+        "parent": "E_HIST",
+        "hypothesis": "Full rotation on earlier eligible dates with unchanged maturity rules",
+        "min_train": 85,
+        "min_inner": 40,
+        "residual_window": 28,
+        "batch": "coverage",
+        "cohort": "early"
+      }
+    },
+    {
+      "model": "E_HIST",
+      "fold": "2026-05",
+      "horizon": 21,
+      "cohort": "early",
+      "rows": 19,
+      "maximum_error": 0.0,
+      "artifact_hash": "5b471614ee51b9359c90db22df4ef70387df1bae64a0d828067519ff913b1ce3",
+      "spec": {
+        "frame": "early_small",
+        "parent": "self",
+        "law": "history",
+        "hypothesis": "Mature historical law on earlier exposed origins",
+        "min_train": 85,
+        "min_inner": 40,
+        "residual_window": 28,
+        "batch": "coverage",
+        "cohort": "early"
+      }
+    },
+    {
+      "model": "E_SMALL_126",
+      "fold": "2026-05",
+      "horizon": 21,
+      "cohort": "early",
+      "rows": 19,
+      "maximum_error": 0.0,
+      "artifact_hash": "64a05281c5560fde49c39edc89a4198fd18dedc79e622e98c11cad2decb9e958",
+      "spec": {
+        "frame": "early_small",
+        "parent": "E_SMALL",
+        "alpha": 150,
+        "window": 126,
+        "hypothesis": "Fixed short-window compact parent",
+        "min_train": 85,
+        "min_inner": 40,
+        "residual_window": 28,
+        "batch": "coverage",
+        "cohort": "early"
+      }
+    },
+    {
+      "model": "E_FULL_ROT",
+      "fold": "2026-05",
+      "horizon": 21,
+      "cohort": "early",
+      "rows": 19,
+      "maximum_error": 0.0,
+      "artifact_hash": "c8ddd7879a36008df70c758c646a6e88bbd34be4333cb48fe9cba8db6d881799",
+      "spec": {
+        "frame": "both_changes",
+        "parent": "E_HIST",
+        "hypothesis": "Full rotation on earlier eligible dates with unchanged maturity rules",
+        "min_train": 85,
+        "min_inner": 40,
+        "residual_window": 28,
+        "batch": "coverage",
+        "cohort": "early"
+      }
+    },
+    {
+      "model": "E_HIST",
+      "fold": "2026-06",
+      "horizon": 21,
+      "cohort": "early",
+      "rows": 21,
+      "maximum_error": 0.0,
+      "artifact_hash": "56c5f4dbeeb775b6877fac8158fc7e0c230d0fbd99d620693670d5fa24e2f8c1",
+      "spec": {
+        "frame": "early_small",
+        "parent": "self",
+        "law": "history",
+        "hypothesis": "Mature historical law on earlier exposed origins",
+        "min_train": 85,
+        "min_inner": 40,
+        "residual_window": 28,
+        "batch": "coverage",
+        "cohort": "early"
+      }
+    },
+    {
+      "model": "E_SMALL_126",
+      "fold": "2026-06",
+      "horizon": 21,
+      "cohort": "early",
+      "rows": 21,
+      "maximum_error": 0.0,
+      "artifact_hash": "8a8755c11640a9b0ec54b92b7613903d40592aada7296f418ce12389a4d8cac1",
+      "spec": {
+        "frame": "early_small",
+        "parent": "E_SMALL",
+        "alpha": 150,
+        "window": 126,
+        "hypothesis": "Fixed short-window compact parent",
+        "min_train": 85,
+        "min_inner": 40,
+        "residual_window": 28,
+        "batch": "coverage",
+        "cohort": "early"
+      }
+    },
+    {
+      "model": "E_FULL_ROT",
+      "fold": "2026-06",
+      "horizon": 21,
+      "cohort": "early",
+      "rows": 21,
+      "maximum_error": 0.0,
+      "artifact_hash": "13217d0c8fc9539d1fd98879fe27e521bfcb17d1f44524545709b67aff7ac0e5",
+      "spec": {
+        "frame": "both_changes",
+        "parent": "E_HIST",
+        "hypothesis": "Full rotation on earlier eligible dates with unchanged maturity rules",
+        "min_train": 85,
+        "min_inner": 40,
+        "residual_window": 28,
+        "batch": "coverage",
+        "cohort": "early"
+      }
+    },
+    {
+      "model": "G_ROT_ELASTIC",
+      "fold": "2026-07",
+      "horizon": 5,
+      "cohort": "primary",
+      "rows": 23,
+      "maximum_error": 0.0,
+      "artifact_hash": "bbcf7c594a6f7087ae080d9c3fb8e028e15920d7f13a130ad06d4341dfd1f82e",
+      "spec": {
+        "frame": "both_changes",
+        "parent": "G_ROT_CLUSTER",
+        "dedup": true,
+        "rep": "cluster",
+        "kind": "elastic",
+        "hypothesis": "Combine cluster-balanced Elastic Net with domestic rotation",
+        "batch": "geometry",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "G_ROT_ELASTIC",
+      "fold": "2026-08",
+      "horizon": 5,
+      "cohort": "primary",
+      "rows": 21,
+      "maximum_error": 0.0,
+      "artifact_hash": "aded71ce6ee154b9893928740091ece221d14f3b3fdbaedf4208e461db5112e0",
+      "spec": {
+        "frame": "both_changes",
+        "parent": "G_ROT_CLUSTER",
+        "dedup": true,
+        "rep": "cluster",
+        "kind": "elastic",
+        "hypothesis": "Combine cluster-balanced Elastic Net with domestic rotation",
+        "batch": "geometry",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "G_ROT_ELASTIC",
+      "fold": "2026-09",
+      "horizon": 5,
+      "cohort": "primary",
+      "rows": 21,
+      "maximum_error": 0.0,
+      "artifact_hash": "a5656305b92dd3f596fcb929a24dbcc8581f8aef8e24fc28e3853ed00f672fd6",
+      "spec": {
+        "frame": "both_changes",
+        "parent": "G_ROT_CLUSTER",
+        "dedup": true,
+        "rep": "cluster",
+        "kind": "elastic",
+        "hypothesis": "Combine cluster-balanced Elastic Net with domestic rotation",
+        "batch": "geometry",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "G_ROT_ELASTIC",
+      "fold": "2026-10",
+      "horizon": 5,
+      "cohort": "primary",
+      "rows": 20,
+      "maximum_error": 0.0,
+      "artifact_hash": "cbdbcb3e15fef49bbddd1fa82456b02bed3f170a575489ec13b67bb0c7ef9d04",
+      "spec": {
+        "frame": "both_changes",
+        "parent": "G_ROT_CLUSTER",
+        "dedup": true,
+        "rep": "cluster",
+        "kind": "elastic",
+        "hypothesis": "Combine cluster-balanced Elastic Net with domestic rotation",
+        "batch": "geometry",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "G_ROT_ELASTIC",
+      "fold": "2026-11",
+      "horizon": 5,
+      "cohort": "primary",
+      "rows": 7,
+      "maximum_error": 0.0,
+      "artifact_hash": "d9bdd1e8114f0de5375a11762f8acfb56f6aea4d564a105f4f4e7e1caf02cd53",
+      "spec": {
+        "frame": "both_changes",
+        "parent": "G_ROT_CLUSTER",
+        "dedup": true,
+        "rep": "cluster",
+        "kind": "elastic",
+        "hypothesis": "Combine cluster-balanced Elastic Net with domestic rotation",
+        "batch": "geometry",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "G_MATCH5",
+      "fold": "2026-07",
+      "horizon": 5,
+      "cohort": "primary",
+      "rows": 23,
+      "maximum_error": 0.0,
+      "artifact_hash": "e826bd500ae66aec3628354fda8fdff491d04cfefde3625e477e2857dbf4c947",
+      "spec": {
+        "frame": "both_changes",
+        "parent": "B_ROT",
+        "horizons": [
+          5
+        ],
+        "eligible": "foreign5",
+        "hypothesis": "Matched origins for narrowly specified direct or intermediate foreign contributions",
+        "batch": "global",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "G_DIRECT5",
+      "fold": "2026-07",
+      "horizon": 5,
+      "cohort": "primary",
+      "rows": 23,
+      "maximum_error": 0.0,
+      "artifact_hash": "d5641555fb16614229087945ee824d95b911b635af2ba6c71021dc8cccda67d3",
+      "spec": {
+        "frame": "direct5",
+        "parent": "G_MATCH5",
+        "horizons": [
+          5
+        ],
+        "eligible": "foreign5",
+        "hypothesis": "Matched origins for narrowly specified direct or intermediate foreign contributions",
+        "batch": "global",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "G_MEDIATE5",
+      "fold": "2026-07",
+      "horizon": 5,
+      "cohort": "primary",
+      "rows": 23,
+      "maximum_error": 0.0,
+      "artifact_hash": "dd1fef2ab2859c5cddb0b1fc9200f99aa04cede2983fb443766b4b74580f6cd2",
+      "spec": {
+        "frame": "intermediate5",
+        "parent": "G_MATCH5",
+        "horizons": [
+          5
+        ],
+        "eligible": "foreign5",
+        "hypothesis": "Matched origins for narrowly specified direct or intermediate foreign contributions",
+        "batch": "global",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "G_CONDITIONAL5",
+      "fold": "2026-07",
+      "horizon": 5,
+      "cohort": "primary",
+      "rows": 23,
+      "maximum_error": 0.0,
+      "artifact_hash": "278e542244821a80134f4e6a141c789e1eb00b90e7b5e2ba3c51bf6d618af9c4",
+      "spec": {
+        "frame": "intermediate_gate5",
+        "parent": "G_MEDIATE5",
+        "horizons": [
+          5
+        ],
+        "eligible": "foreign5",
+        "hypothesis": "Matched origins for narrowly specified direct or intermediate foreign contributions",
+        "batch": "global",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "G_MATCH5",
+      "fold": "2026-08",
+      "horizon": 5,
+      "cohort": "primary",
+      "rows": 21,
+      "maximum_error": 0.0,
+      "artifact_hash": "a39a48368aa2c73f16f774a76def79c62ac839e7ba2ee0d2a2f68605f086f54e",
+      "spec": {
+        "frame": "both_changes",
+        "parent": "B_ROT",
+        "horizons": [
+          5
+        ],
+        "eligible": "foreign5",
+        "hypothesis": "Matched origins for narrowly specified direct or intermediate foreign contributions",
+        "batch": "global",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "G_DIRECT5",
+      "fold": "2026-08",
+      "horizon": 5,
+      "cohort": "primary",
+      "rows": 21,
+      "maximum_error": 0.0,
+      "artifact_hash": "e083c56147a1514cdc30550d034932b1132400fbedc291c4498bf8f6932e8d34",
+      "spec": {
+        "frame": "direct5",
+        "parent": "G_MATCH5",
+        "horizons": [
+          5
+        ],
+        "eligible": "foreign5",
+        "hypothesis": "Matched origins for narrowly specified direct or intermediate foreign contributions",
+        "batch": "global",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "G_MEDIATE5",
+      "fold": "2026-08",
+      "horizon": 5,
+      "cohort": "primary",
+      "rows": 21,
+      "maximum_error": 0.0,
+      "artifact_hash": "cb02600374322fb73827d2274c2a6e8a4dfb43653dc32f1d2927ce2434112279",
+      "spec": {
+        "frame": "intermediate5",
+        "parent": "G_MATCH5",
+        "horizons": [
+          5
+        ],
+        "eligible": "foreign5",
+        "hypothesis": "Matched origins for narrowly specified direct or intermediate foreign contributions",
+        "batch": "global",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "G_CONDITIONAL5",
+      "fold": "2026-08",
+      "horizon": 5,
+      "cohort": "primary",
+      "rows": 21,
+      "maximum_error": 0.0,
+      "artifact_hash": "9c3e1cde5dae6ec573f34d95c23cea34db174ea449528e744cbcc69995b704a2",
+      "spec": {
+        "frame": "intermediate_gate5",
+        "parent": "G_MEDIATE5",
+        "horizons": [
+          5
+        ],
+        "eligible": "foreign5",
+        "hypothesis": "Matched origins for narrowly specified direct or intermediate foreign contributions",
+        "batch": "global",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "G_MATCH5",
+      "fold": "2026-09",
+      "horizon": 5,
+      "cohort": "primary",
+      "rows": 21,
+      "maximum_error": 0.0,
+      "artifact_hash": "950a60d23f2ab2b3750987583cf7829ac6aaa09018a5142ad680b74b5e2319d4",
+      "spec": {
+        "frame": "both_changes",
+        "parent": "B_ROT",
+        "horizons": [
+          5
+        ],
+        "eligible": "foreign5",
+        "hypothesis": "Matched origins for narrowly specified direct or intermediate foreign contributions",
+        "batch": "global",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "G_DIRECT5",
+      "fold": "2026-09",
+      "horizon": 5,
+      "cohort": "primary",
+      "rows": 21,
+      "maximum_error": 0.0,
+      "artifact_hash": "c9d85c07a43a577fdfc74e34f84d6adbe23e92af8784a59793e477b752f3ef73",
+      "spec": {
+        "frame": "direct5",
+        "parent": "G_MATCH5",
+        "horizons": [
+          5
+        ],
+        "eligible": "foreign5",
+        "hypothesis": "Matched origins for narrowly specified direct or intermediate foreign contributions",
+        "batch": "global",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "G_MEDIATE5",
+      "fold": "2026-09",
+      "horizon": 5,
+      "cohort": "primary",
+      "rows": 21,
+      "maximum_error": 0.0,
+      "artifact_hash": "f50a9d6bf08c3e041a329a75fe77bdf5560b8ae8e7679be46f70346a73990490",
+      "spec": {
+        "frame": "intermediate5",
+        "parent": "G_MATCH5",
+        "horizons": [
+          5
+        ],
+        "eligible": "foreign5",
+        "hypothesis": "Matched origins for narrowly specified direct or intermediate foreign contributions",
+        "batch": "global",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "G_CONDITIONAL5",
+      "fold": "2026-09",
+      "horizon": 5,
+      "cohort": "primary",
+      "rows": 21,
+      "maximum_error": 0.0,
+      "artifact_hash": "66ec5e8ecedfcea877da81abca9b3813b09b106e706e697aed4d1ad2e7ff8c23",
+      "spec": {
+        "frame": "intermediate_gate5",
+        "parent": "G_MEDIATE5",
+        "horizons": [
+          5
+        ],
+        "eligible": "foreign5",
+        "hypothesis": "Matched origins for narrowly specified direct or intermediate foreign contributions",
+        "batch": "global",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "G_MATCH5",
+      "fold": "2026-10",
+      "horizon": 5,
+      "cohort": "primary",
+      "rows": 20,
+      "maximum_error": 0.0,
+      "artifact_hash": "7bc3883f4de7d61c03371a9c6f7d21d0b2dbd8b6aa2691d0ed9885934c638e7f",
+      "spec": {
+        "frame": "both_changes",
+        "parent": "B_ROT",
+        "horizons": [
+          5
+        ],
+        "eligible": "foreign5",
+        "hypothesis": "Matched origins for narrowly specified direct or intermediate foreign contributions",
+        "batch": "global",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "G_DIRECT5",
+      "fold": "2026-10",
+      "horizon": 5,
+      "cohort": "primary",
+      "rows": 20,
+      "maximum_error": 0.0,
+      "artifact_hash": "9991f9344ee52fa788b7c6b561f6877fed858615e1526dd182ded1e8544a6168",
+      "spec": {
+        "frame": "direct5",
+        "parent": "G_MATCH5",
+        "horizons": [
+          5
+        ],
+        "eligible": "foreign5",
+        "hypothesis": "Matched origins for narrowly specified direct or intermediate foreign contributions",
+        "batch": "global",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "G_MEDIATE5",
+      "fold": "2026-10",
+      "horizon": 5,
+      "cohort": "primary",
+      "rows": 20,
+      "maximum_error": 0.0,
+      "artifact_hash": "6ad447edbf42b78c0429fad41709e05e36c855a8b3ddcf558655b12c44c66180",
+      "spec": {
+        "frame": "intermediate5",
+        "parent": "G_MATCH5",
+        "horizons": [
+          5
+        ],
+        "eligible": "foreign5",
+        "hypothesis": "Matched origins for narrowly specified direct or intermediate foreign contributions",
+        "batch": "global",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "G_CONDITIONAL5",
+      "fold": "2026-10",
+      "horizon": 5,
+      "cohort": "primary",
+      "rows": 20,
+      "maximum_error": 0.0,
+      "artifact_hash": "54654b7e769c3b2c93500102f3b6778782d1c051c607f3eaaffedad82d83bd72",
+      "spec": {
+        "frame": "intermediate_gate5",
+        "parent": "G_MEDIATE5",
+        "horizons": [
+          5
+        ],
+        "eligible": "foreign5",
+        "hypothesis": "Matched origins for narrowly specified direct or intermediate foreign contributions",
+        "batch": "global",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "G_MATCH5",
+      "fold": "2026-11",
+      "horizon": 5,
+      "cohort": "primary",
+      "rows": 7,
+      "maximum_error": 0.0,
+      "artifact_hash": "dab51c4de4e3bb1c01d849853ea840c3bcb84c9477bdc337f254a547e9b26ef1",
+      "spec": {
+        "frame": "both_changes",
+        "parent": "B_ROT",
+        "horizons": [
+          5
+        ],
+        "eligible": "foreign5",
+        "hypothesis": "Matched origins for narrowly specified direct or intermediate foreign contributions",
+        "batch": "global",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "G_DIRECT5",
+      "fold": "2026-11",
+      "horizon": 5,
+      "cohort": "primary",
+      "rows": 7,
+      "maximum_error": 0.0,
+      "artifact_hash": "04f50ad2c45b857d02b397c9ecd5ce1193e84e5cfd9ad5daeac726671e5f00e6",
+      "spec": {
+        "frame": "direct5",
+        "parent": "G_MATCH5",
+        "horizons": [
+          5
+        ],
+        "eligible": "foreign5",
+        "hypothesis": "Matched origins for narrowly specified direct or intermediate foreign contributions",
+        "batch": "global",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "G_MEDIATE5",
+      "fold": "2026-11",
+      "horizon": 5,
+      "cohort": "primary",
+      "rows": 7,
+      "maximum_error": 0.0,
+      "artifact_hash": "7faef36a6c3df1a62e036022d7bb10859ac3d0619056b60e2e4c8704557a0cab",
+      "spec": {
+        "frame": "intermediate5",
+        "parent": "G_MATCH5",
+        "horizons": [
+          5
+        ],
+        "eligible": "foreign5",
+        "hypothesis": "Matched origins for narrowly specified direct or intermediate foreign contributions",
+        "batch": "global",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "G_CONDITIONAL5",
+      "fold": "2026-11",
+      "horizon": 5,
+      "cohort": "primary",
+      "rows": 7,
+      "maximum_error": 0.0,
+      "artifact_hash": "50f3d3d46fb95d415c1886bdf396f654c14f9e958e3eb7b6850382597c18e052",
+      "spec": {
+        "frame": "intermediate_gate5",
+        "parent": "G_MEDIATE5",
+        "horizons": [
+          5
+        ],
+        "eligible": "foreign5",
+        "hypothesis": "Matched origins for narrowly specified direct or intermediate foreign contributions",
+        "batch": "global",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "G_MATCH21",
+      "fold": "2026-08",
+      "horizon": 21,
+      "cohort": "primary",
+      "rows": 21,
+      "maximum_error": 0.0,
+      "artifact_hash": "b67692440bc5d2d2c9cbf4474a9393f52d474a45a7ace54e628f1235b5585d73",
+      "spec": {
+        "frame": "both_changes",
+        "parent": "B_ROT",
+        "horizons": [
+          21
+        ],
+        "eligible": "foreign21",
+        "hypothesis": "Matched origins for narrowly specified direct or intermediate foreign contributions",
+        "batch": "global",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "G_DIRECT21",
+      "fold": "2026-08",
+      "horizon": 21,
+      "cohort": "primary",
+      "rows": 21,
+      "maximum_error": 0.0,
+      "artifact_hash": "3206c76b79135e2a337e8defc7b453561feeef4c51b4cb41ab7ab3bdb84d7c39",
+      "spec": {
+        "frame": "direct21",
+        "parent": "G_MATCH21",
+        "horizons": [
+          21
+        ],
+        "eligible": "foreign21",
+        "hypothesis": "Matched origins for narrowly specified direct or intermediate foreign contributions",
+        "batch": "global",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "G_MEDIATE21",
+      "fold": "2026-08",
+      "horizon": 21,
+      "cohort": "primary",
+      "rows": 21,
+      "maximum_error": 0.0,
+      "artifact_hash": "e42dcb3a7ed40846caf57d9b1b6dccdf1ec5080944ac3b0eed31e18186e9dd45",
+      "spec": {
+        "frame": "intermediate21",
+        "parent": "G_MATCH21",
+        "horizons": [
+          21
+        ],
+        "eligible": "foreign21",
+        "hypothesis": "Matched origins for narrowly specified direct or intermediate foreign contributions",
+        "batch": "global",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "G_CONDITIONAL21",
+      "fold": "2026-08",
+      "horizon": 21,
+      "cohort": "primary",
+      "rows": 21,
+      "maximum_error": 0.0,
+      "artifact_hash": "fe4ac0bd8347e5c91f1ba94422dfc58b8244c909a0565402cf5158db1fafdb6c",
+      "spec": {
+        "frame": "intermediate_gate21",
+        "parent": "G_MEDIATE21",
+        "horizons": [
+          21
+        ],
+        "eligible": "foreign21",
+        "hypothesis": "Matched origins for narrowly specified direct or intermediate foreign contributions",
+        "batch": "global",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "G_MATCH21",
+      "fold": "2026-09",
+      "horizon": 21,
+      "cohort": "primary",
+      "rows": 21,
+      "maximum_error": 0.0,
+      "artifact_hash": "8fa65a4a7b0a033e82df60f0eedf3876f1f6ae405a9b44abcf2dbe88cf80b9d3",
+      "spec": {
+        "frame": "both_changes",
+        "parent": "B_ROT",
+        "horizons": [
+          21
+        ],
+        "eligible": "foreign21",
+        "hypothesis": "Matched origins for narrowly specified direct or intermediate foreign contributions",
+        "batch": "global",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "G_DIRECT21",
+      "fold": "2026-09",
+      "horizon": 21,
+      "cohort": "primary",
+      "rows": 21,
+      "maximum_error": 0.0,
+      "artifact_hash": "20d041d9230f1b31863aa2a4ab96b764645c231a6dec63da1c0e0e65f043f2c3",
+      "spec": {
+        "frame": "direct21",
+        "parent": "G_MATCH21",
+        "horizons": [
+          21
+        ],
+        "eligible": "foreign21",
+        "hypothesis": "Matched origins for narrowly specified direct or intermediate foreign contributions",
+        "batch": "global",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "G_MEDIATE21",
+      "fold": "2026-09",
+      "horizon": 21,
+      "cohort": "primary",
+      "rows": 21,
+      "maximum_error": 0.0,
+      "artifact_hash": "55d74996c406075b8d22eaf2b1e78b231d9085b04cba7b9b1800f97b7b899c8c",
+      "spec": {
+        "frame": "intermediate21",
+        "parent": "G_MATCH21",
+        "horizons": [
+          21
+        ],
+        "eligible": "foreign21",
+        "hypothesis": "Matched origins for narrowly specified direct or intermediate foreign contributions",
+        "batch": "global",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "G_CONDITIONAL21",
+      "fold": "2026-09",
+      "horizon": 21,
+      "cohort": "primary",
+      "rows": 21,
+      "maximum_error": 0.0,
+      "artifact_hash": "444eb6864b3da2271199177e22e20c2607668ffd867710f45df0039152da0333",
+      "spec": {
+        "frame": "intermediate_gate21",
+        "parent": "G_MEDIATE21",
+        "horizons": [
+          21
+        ],
+        "eligible": "foreign21",
+        "hypothesis": "Matched origins for narrowly specified direct or intermediate foreign contributions",
+        "batch": "global",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "G_MATCH21",
+      "fold": "2026-10",
+      "horizon": 21,
+      "cohort": "primary",
+      "rows": 11,
+      "maximum_error": 0.0,
+      "artifact_hash": "0eea9054c3220936c32c47b5cc47ab23e6a4f453d31bd7eba1fa9e1f2cccb33d",
+      "spec": {
+        "frame": "both_changes",
+        "parent": "B_ROT",
+        "horizons": [
+          21
+        ],
+        "eligible": "foreign21",
+        "hypothesis": "Matched origins for narrowly specified direct or intermediate foreign contributions",
+        "batch": "global",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "G_DIRECT21",
+      "fold": "2026-10",
+      "horizon": 21,
+      "cohort": "primary",
+      "rows": 11,
+      "maximum_error": 0.0,
+      "artifact_hash": "f442dd2ba72cb1209b0e39f1f9055d54e29573ccf2feedd34baf1f5d206a064b",
+      "spec": {
+        "frame": "direct21",
+        "parent": "G_MATCH21",
+        "horizons": [
+          21
+        ],
+        "eligible": "foreign21",
+        "hypothesis": "Matched origins for narrowly specified direct or intermediate foreign contributions",
+        "batch": "global",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "G_MEDIATE21",
+      "fold": "2026-10",
+      "horizon": 21,
+      "cohort": "primary",
+      "rows": 11,
+      "maximum_error": 0.0,
+      "artifact_hash": "a8be1836a3c4a21a9fda3e8f18ae1a4fd6f9652a9bcd15b48a2d5fa7e681695d",
+      "spec": {
+        "frame": "intermediate21",
+        "parent": "G_MATCH21",
+        "horizons": [
+          21
+        ],
+        "eligible": "foreign21",
+        "hypothesis": "Matched origins for narrowly specified direct or intermediate foreign contributions",
+        "batch": "global",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "G_CONDITIONAL21",
+      "fold": "2026-10",
+      "horizon": 21,
+      "cohort": "primary",
+      "rows": 11,
+      "maximum_error": 0.0,
+      "artifact_hash": "58271c992a5c8c1cec1787503772776830ba57c03304237cda85222115891fac",
+      "spec": {
+        "frame": "intermediate_gate21",
+        "parent": "G_MEDIATE21",
+        "horizons": [
+          21
+        ],
+        "eligible": "foreign21",
+        "hypothesis": "Matched origins for narrowly specified direct or intermediate foreign contributions",
+        "batch": "global",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "M_STATE_SMOOTH",
+      "fold": "2026-07",
+      "horizon": 21,
+      "cohort": "primary",
+      "rows": 23,
+      "maximum_error": 0.0,
+      "artifact_hash": "bf6bec85e447e5a89fe5861b002245ed9aa16a9cf7fcbd0edf4b07c28c5983e6",
+      "spec": {
+        "frame": "m_state_smooth",
+        "parent": "M_BOTH",
+        "hypothesis": "Trailing 21-session weekly-state averages",
+        "horizons": [
+          21
+        ],
+        "eligible": "monthly",
+        "batch": "monthly",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "M_STATE_SMOOTH",
+      "fold": "2026-08",
+      "horizon": 21,
+      "cohort": "primary",
+      "rows": 21,
+      "maximum_error": 0.0,
+      "artifact_hash": "947a9991fe8baded1ecbdcbb112ece2e1c146ed49d5675fb7946e33c9421f688",
+      "spec": {
+        "frame": "m_state_smooth",
+        "parent": "M_BOTH",
+        "hypothesis": "Trailing 21-session weekly-state averages",
+        "horizons": [
+          21
+        ],
+        "eligible": "monthly",
+        "batch": "monthly",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "M_STATE_SMOOTH",
+      "fold": "2026-09",
+      "horizon": 21,
+      "cohort": "primary",
+      "rows": 21,
+      "maximum_error": 0.0,
+      "artifact_hash": "7b013efb2b9490aa8e36db511ab639376e48c9e8360a3c81bf6d256952fa4a81",
+      "spec": {
+        "frame": "m_state_smooth",
+        "parent": "M_BOTH",
+        "hypothesis": "Trailing 21-session weekly-state averages",
+        "horizons": [
+          21
+        ],
+        "eligible": "monthly",
+        "batch": "monthly",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "M_STATE_SMOOTH",
+      "fold": "2026-10",
+      "horizon": 21,
+      "cohort": "primary",
+      "rows": 11,
+      "maximum_error": 0.0,
+      "artifact_hash": "40f28ea8a7b16b65491e503ef4ce404f82f2649137c2c1e1dfed6e0bc6d1c737",
+      "spec": {
+        "frame": "m_state_smooth",
+        "parent": "M_BOTH",
+        "hypothesis": "Trailing 21-session weekly-state averages",
+        "horizons": [
+          21
+        ],
+        "eligible": "monthly",
+        "batch": "monthly",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "R_RESIDUAL",
+      "fold": "2026-07",
+      "horizon": 5,
+      "cohort": "primary",
+      "rows": 23,
+      "maximum_error": 0.0,
+      "artifact_hash": "f8379153f62841f54dd567fde10ad6aaaee63ccda3d7a3c7f1cfd8ac68cbd6e8",
+      "spec": {
+        "frame": "residual",
+        "parent": "B_ROT",
+        "hypothesis": "Residualize spreads against NIFTY with lagged beta",
+        "batch": "rotation",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "R_RESIDUAL",
+      "fold": "2026-08",
+      "horizon": 5,
+      "cohort": "primary",
+      "rows": 21,
+      "maximum_error": 0.0,
+      "artifact_hash": "e9d968fe455c2059f7a15bd83831983ef0d83f250b86872750753528624786f6",
+      "spec": {
+        "frame": "residual",
+        "parent": "B_ROT",
+        "hypothesis": "Residualize spreads against NIFTY with lagged beta",
+        "batch": "rotation",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "R_RESIDUAL",
+      "fold": "2026-09",
+      "horizon": 5,
+      "cohort": "primary",
+      "rows": 21,
+      "maximum_error": 0.0,
+      "artifact_hash": "e182bcd292f6a81aaa9a62fc3ac06b83af7715e424a1fcf3e4c13ca2723c98f8",
+      "spec": {
+        "frame": "residual",
+        "parent": "B_ROT",
+        "hypothesis": "Residualize spreads against NIFTY with lagged beta",
+        "batch": "rotation",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "R_RESIDUAL",
+      "fold": "2026-10",
+      "horizon": 5,
+      "cohort": "primary",
+      "rows": 20,
+      "maximum_error": 0.0,
+      "artifact_hash": "f64a9808dddd43e5287869f7ca2cc8c6c3abb41d9e6367058d51b0e30e2e0e03",
+      "spec": {
+        "frame": "residual",
+        "parent": "B_ROT",
+        "hypothesis": "Residualize spreads against NIFTY with lagged beta",
+        "batch": "rotation",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "R_RESIDUAL",
+      "fold": "2026-11",
+      "horizon": 5,
+      "cohort": "primary",
+      "rows": 7,
+      "maximum_error": 0.0,
+      "artifact_hash": "726e1a54e1ec792498af4aa090c85ea3b5f00f4fd7277fec64b6e7eb3e28487e",
+      "spec": {
+        "frame": "residual",
+        "parent": "B_ROT",
+        "hypothesis": "Residualize spreads against NIFTY with lagged beta",
+        "batch": "rotation",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "MS_MATCH_ROLL",
+      "fold": "2026-08",
+      "horizon": 21,
+      "cohort": "primary",
+      "rows": 21,
+      "maximum_error": 0.0,
+      "artifact_hash": "89a44cdf67ac687ea89ffa0a6a682bde4e3e97b1db7037a211592a1cf9193d29",
+      "spec": {
+        "frame": "smooth_strict_current",
+        "parent": "MS_MATCH_NOW",
+        "roll_group": "w_",
+        "diagnostic": true,
+        "hypothesis": "22-style monthly mechanism control, train-only roll by 21",
+        "eligible": "smooth_ready",
+        "horizons": [
+          21
+        ],
+        "batch": "smoothmatch",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "MS_MATCH_ROLL",
+      "fold": "2026-09",
+      "horizon": 21,
+      "cohort": "primary",
+      "rows": 21,
+      "maximum_error": 0.0,
+      "artifact_hash": "d37a49ffa81fbcd3cdd90dd045d0eb5b62ce98604cd902f2c706b5d300ddc08e",
+      "spec": {
+        "frame": "smooth_strict_current",
+        "parent": "MS_MATCH_NOW",
+        "roll_group": "w_",
+        "diagnostic": true,
+        "hypothesis": "22-style monthly mechanism control, train-only roll by 21",
+        "eligible": "smooth_ready",
+        "horizons": [
+          21
+        ],
+        "batch": "smoothmatch",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "MS_MATCH_ROLL",
+      "fold": "2026-10",
+      "horizon": 21,
+      "cohort": "primary",
+      "rows": 11,
+      "maximum_error": 0.0,
+      "artifact_hash": "63dcb6f78bc1292e2eef9ad35cc58f9670545817baf1e2e8b105463064de175a",
+      "spec": {
+        "frame": "smooth_strict_current",
+        "parent": "MS_MATCH_NOW",
+        "roll_group": "w_",
+        "diagnostic": true,
+        "hypothesis": "22-style monthly mechanism control, train-only roll by 21",
+        "eligible": "smooth_ready",
+        "horizons": [
+          21
+        ],
+        "batch": "smoothmatch",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "W_RES_WINDOW",
+      "fold": "2026-07",
+      "horizon": 5,
+      "cohort": "primary",
+      "rows": 23,
+      "maximum_error": 0.0,
+      "artifact_hash": "11669832b097bf73abf0bc1b8c70d68d141fed9af3ffd505a95c6fbaa3c28c7f",
+      "spec": {
+        "frame": "residual",
+        "parent": "R_RESIDUAL",
+        "horizons": [
+          5
+        ],
+        "window": 189,
+        "hypothesis": "Adaptive window stress on preliminary V8 lead",
+        "batch": "stress",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "W_STRUCT_WINDOW",
+      "fold": "2026-07",
+      "horizon": 5,
+      "cohort": "primary",
+      "rows": 23,
+      "maximum_error": 0.0,
+      "artifact_hash": "b122aa32d539778061b37b2ca7a58e0ef7ebec3f08243938aaa65699022d6ccd",
+      "spec": {
+        "frame": "structure_change",
+        "parent": "A_STRUCTURE_CHANGE",
+        "horizons": [
+          5
+        ],
+        "window": 189,
+        "hypothesis": "Adaptive window stress on preliminary V8 lead",
+        "batch": "stress",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "W_STRUCT_EMBARGO",
+      "fold": "2026-07",
+      "horizon": 5,
+      "cohort": "primary",
+      "rows": 23,
+      "maximum_error": 0.0,
+      "artifact_hash": "0421b554a68d59fb49f63539028c8f4b70ead52e43e4e5cac02eb0d6d6f4b5f7",
+      "spec": {
+        "frame": "structure_change",
+        "parent": "A_STRUCTURE_CHANGE",
+        "horizons": [
+          5
+        ],
+        "embargo": 3,
+        "hypothesis": "Adaptive embargo stress on preliminary V8 lead",
+        "batch": "stress",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "W_RES_WINDOW",
+      "fold": "2026-08",
+      "horizon": 5,
+      "cohort": "primary",
+      "rows": 21,
+      "maximum_error": 0.0,
+      "artifact_hash": "1c107b73250afb9dfa6bb6dd86e31690baf7edbb4a18e87fccb79730afad56d9",
+      "spec": {
+        "frame": "residual",
+        "parent": "R_RESIDUAL",
+        "horizons": [
+          5
+        ],
+        "window": 189,
+        "hypothesis": "Adaptive window stress on preliminary V8 lead",
+        "batch": "stress",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "W_STRUCT_WINDOW",
+      "fold": "2026-08",
+      "horizon": 5,
+      "cohort": "primary",
+      "rows": 21,
+      "maximum_error": 0.0,
+      "artifact_hash": "e6a4207b140ef4c3d633502d6a47d2c59013715eb0b7f5aafe83ea064af52171",
+      "spec": {
+        "frame": "structure_change",
+        "parent": "A_STRUCTURE_CHANGE",
+        "horizons": [
+          5
+        ],
+        "window": 189,
+        "hypothesis": "Adaptive window stress on preliminary V8 lead",
+        "batch": "stress",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "W_STRUCT_EMBARGO",
+      "fold": "2026-08",
+      "horizon": 5,
+      "cohort": "primary",
+      "rows": 21,
+      "maximum_error": 0.0,
+      "artifact_hash": "68d240dc2f5415df5778af9a4ad213431271b98069c55ce5647b899824054dec",
+      "spec": {
+        "frame": "structure_change",
+        "parent": "A_STRUCTURE_CHANGE",
+        "horizons": [
+          5
+        ],
+        "embargo": 3,
+        "hypothesis": "Adaptive embargo stress on preliminary V8 lead",
+        "batch": "stress",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "W_RES_WINDOW",
+      "fold": "2026-09",
+      "horizon": 5,
+      "cohort": "primary",
+      "rows": 21,
+      "maximum_error": 0.0,
+      "artifact_hash": "0f1ecee70d469ab64781c674774efe18cd992062f04f3fb954209bb5c97bc3ec",
+      "spec": {
+        "frame": "residual",
+        "parent": "R_RESIDUAL",
+        "horizons": [
+          5
+        ],
+        "window": 189,
+        "hypothesis": "Adaptive window stress on preliminary V8 lead",
+        "batch": "stress",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "W_STRUCT_WINDOW",
+      "fold": "2026-09",
+      "horizon": 5,
+      "cohort": "primary",
+      "rows": 21,
+      "maximum_error": 0.0,
+      "artifact_hash": "44c9728d3b6c99a1024d223919542b04a4321f1dbb62600cd91ea2ecb117c596",
+      "spec": {
+        "frame": "structure_change",
+        "parent": "A_STRUCTURE_CHANGE",
+        "horizons": [
+          5
+        ],
+        "window": 189,
+        "hypothesis": "Adaptive window stress on preliminary V8 lead",
+        "batch": "stress",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "W_STRUCT_EMBARGO",
+      "fold": "2026-09",
+      "horizon": 5,
+      "cohort": "primary",
+      "rows": 21,
+      "maximum_error": 0.0,
+      "artifact_hash": "89dc18f4497e31bd44836a5f9f34ad145ff983eb12864c48961fa2d917efce9f",
+      "spec": {
+        "frame": "structure_change",
+        "parent": "A_STRUCTURE_CHANGE",
+        "horizons": [
+          5
+        ],
+        "embargo": 3,
+        "hypothesis": "Adaptive embargo stress on preliminary V8 lead",
+        "batch": "stress",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "W_RES_WINDOW",
+      "fold": "2026-10",
+      "horizon": 5,
+      "cohort": "primary",
+      "rows": 20,
+      "maximum_error": 0.0,
+      "artifact_hash": "9c556cc8ed88c8f43f0bd995568662bad45d000090a75149912dfa86127d5064",
+      "spec": {
+        "frame": "residual",
+        "parent": "R_RESIDUAL",
+        "horizons": [
+          5
+        ],
+        "window": 189,
+        "hypothesis": "Adaptive window stress on preliminary V8 lead",
+        "batch": "stress",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "W_STRUCT_WINDOW",
+      "fold": "2026-10",
+      "horizon": 5,
+      "cohort": "primary",
+      "rows": 20,
+      "maximum_error": 0.0,
+      "artifact_hash": "f7a2748a8bc68fc5b99f6032ed2d0a3c0df3976800e340d46edde5710d4ac625",
+      "spec": {
+        "frame": "structure_change",
+        "parent": "A_STRUCTURE_CHANGE",
+        "horizons": [
+          5
+        ],
+        "window": 189,
+        "hypothesis": "Adaptive window stress on preliminary V8 lead",
+        "batch": "stress",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "W_STRUCT_EMBARGO",
+      "fold": "2026-10",
+      "horizon": 5,
+      "cohort": "primary",
+      "rows": 20,
+      "maximum_error": 0.0,
+      "artifact_hash": "c917265b967f45754568813ef3498bed450697b84bab15ef91763e8511185e18",
+      "spec": {
+        "frame": "structure_change",
+        "parent": "A_STRUCTURE_CHANGE",
+        "horizons": [
+          5
+        ],
+        "embargo": 3,
+        "hypothesis": "Adaptive embargo stress on preliminary V8 lead",
+        "batch": "stress",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "W_RES_WINDOW",
+      "fold": "2026-11",
+      "horizon": 5,
+      "cohort": "primary",
+      "rows": 7,
+      "maximum_error": 0.0,
+      "artifact_hash": "d6b4a857147c58874a5fa352f83b8ed7c775a17ae258de0f174e4c1051341d12",
+      "spec": {
+        "frame": "residual",
+        "parent": "R_RESIDUAL",
+        "horizons": [
+          5
+        ],
+        "window": 189,
+        "hypothesis": "Adaptive window stress on preliminary V8 lead",
+        "batch": "stress",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "W_STRUCT_WINDOW",
+      "fold": "2026-11",
+      "horizon": 5,
+      "cohort": "primary",
+      "rows": 7,
+      "maximum_error": 0.0,
+      "artifact_hash": "b08cf9a7fd9272f45f9933a2ef426d5bdfb27c8102d118559a83e61223157df3",
+      "spec": {
+        "frame": "structure_change",
+        "parent": "A_STRUCTURE_CHANGE",
+        "horizons": [
+          5
+        ],
+        "window": 189,
+        "hypothesis": "Adaptive window stress on preliminary V8 lead",
+        "batch": "stress",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "W_STRUCT_EMBARGO",
+      "fold": "2026-11",
+      "horizon": 5,
+      "cohort": "primary",
+      "rows": 7,
+      "maximum_error": 0.0,
+      "artifact_hash": "702946ffd13113337087d625c053d1bb5e030898c7f87d1e570d24b0a0bd4ea6",
+      "spec": {
+        "frame": "structure_change",
+        "parent": "A_STRUCTURE_CHANGE",
+        "horizons": [
+          5
+        ],
+        "embargo": 3,
+        "hypothesis": "Adaptive embargo stress on preliminary V8 lead",
+        "batch": "stress",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "MS_ROLL",
+      "fold": "2026-07",
+      "horizon": 21,
+      "cohort": "primary",
+      "rows": 23,
+      "maximum_error": 0.0,
+      "artifact_hash": "bc9abb027405d3a87e70435b1e891006a87780257c591384eb39e9258ad0bbaa",
+      "spec": {
+        "frame": "m_state_smooth",
+        "parent": "M_STATE_SMOOTH",
+        "horizons": [
+          21
+        ],
+        "eligible": "monthly",
+        "roll_group": "w_",
+        "diagnostic": true,
+        "hypothesis": "Adaptive falsification of smoothed monthly state result",
+        "batch": "stress",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "MS_WINDOW",
+      "fold": "2026-07",
+      "horizon": 21,
+      "cohort": "primary",
+      "rows": 23,
+      "maximum_error": 0.0,
+      "artifact_hash": "439d87b41ee9566bf9b5cc7fec9a654cc65562afcc0da309f35871a1e4f1f935",
+      "spec": {
+        "frame": "m_state_smooth",
+        "parent": "M_STATE_SMOOTH",
+        "horizons": [
+          21
+        ],
+        "eligible": "monthly",
+        "window": 126,
+        "hypothesis": "Adaptive falsification of smoothed monthly state result",
+        "batch": "stress",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "MS_ROLL",
+      "fold": "2026-08",
+      "horizon": 21,
+      "cohort": "primary",
+      "rows": 21,
+      "maximum_error": 0.0,
+      "artifact_hash": "e852ff4b54f983880fa88a01194433b7909a08822e1545fada645854e660bf90",
+      "spec": {
+        "frame": "m_state_smooth",
+        "parent": "M_STATE_SMOOTH",
+        "horizons": [
+          21
+        ],
+        "eligible": "monthly",
+        "roll_group": "w_",
+        "diagnostic": true,
+        "hypothesis": "Adaptive falsification of smoothed monthly state result",
+        "batch": "stress",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "MS_WINDOW",
+      "fold": "2026-08",
+      "horizon": 21,
+      "cohort": "primary",
+      "rows": 21,
+      "maximum_error": 0.0,
+      "artifact_hash": "56fe1e531e9bcc0d44eac974ec2c6e6e2187d858f9bf9d768fab49ad97e30598",
+      "spec": {
+        "frame": "m_state_smooth",
+        "parent": "M_STATE_SMOOTH",
+        "horizons": [
+          21
+        ],
+        "eligible": "monthly",
+        "window": 126,
+        "hypothesis": "Adaptive falsification of smoothed monthly state result",
+        "batch": "stress",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "MS_ROLL",
+      "fold": "2026-09",
+      "horizon": 21,
+      "cohort": "primary",
+      "rows": 21,
+      "maximum_error": 0.0,
+      "artifact_hash": "45cd39cf08d70cb938126245cabb30fc880a5dc9becd00964369e0c06063df31",
+      "spec": {
+        "frame": "m_state_smooth",
+        "parent": "M_STATE_SMOOTH",
+        "horizons": [
+          21
+        ],
+        "eligible": "monthly",
+        "roll_group": "w_",
+        "diagnostic": true,
+        "hypothesis": "Adaptive falsification of smoothed monthly state result",
+        "batch": "stress",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "MS_WINDOW",
+      "fold": "2026-09",
+      "horizon": 21,
+      "cohort": "primary",
+      "rows": 21,
+      "maximum_error": 0.0,
+      "artifact_hash": "c5c56062ffc4f4ef311d145769f455faaebdbb6ff4ebb8ae41ab17d9d71a3737",
+      "spec": {
+        "frame": "m_state_smooth",
+        "parent": "M_STATE_SMOOTH",
+        "horizons": [
+          21
+        ],
+        "eligible": "monthly",
+        "window": 126,
+        "hypothesis": "Adaptive falsification of smoothed monthly state result",
+        "batch": "stress",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "MS_ROLL",
+      "fold": "2026-10",
+      "horizon": 21,
+      "cohort": "primary",
+      "rows": 11,
+      "maximum_error": 0.0,
+      "artifact_hash": "3426825f8c68ef7fbe308f4ad123d29b628a33feb45905be21eaf67fff4ae813",
+      "spec": {
+        "frame": "m_state_smooth",
+        "parent": "M_STATE_SMOOTH",
+        "horizons": [
+          21
+        ],
+        "eligible": "monthly",
+        "roll_group": "w_",
+        "diagnostic": true,
+        "hypothesis": "Adaptive falsification of smoothed monthly state result",
+        "batch": "stress",
+        "cohort": "primary"
+      }
+    },
+    {
+      "model": "MS_WINDOW",
+      "fold": "2026-10",
+      "horizon": 21,
+      "cohort": "primary",
+      "rows": 11,
+      "maximum_error": 0.0,
+      "artifact_hash": "05603b87043b7b377c5811c47886a83a43595c4775769da410057fb417f87430",
+      "spec": {
+        "frame": "m_state_smooth",
+        "parent": "M_STATE_SMOOTH",
+        "horizons": [
+          21
+        ],
+        "eligible": "monthly",
+        "window": 126,
+        "hypothesis": "Adaptive falsification of smoothed monthly state result",
+        "batch": "stress",
+        "cohort": "primary"
+      }
+    }
+  ],
+  "older_weekly_rows": 644,
+  "max_abs_error": 0.0,
+  "expected_v8_winners": [
+    "R_RESIDUAL",
+    "A_STRUCTURE_LEVEL",
+    "A_STRUCTURE_CHANGE",
+    "W_STRUCT_EMBARGO",
+    "G_ROT_ELASTIC"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "registered_at": "2026-11-19T16:17:08.785893+05:30",
+  "primary_scores": [
+    "brier",
+    "crps",
+    "mae"
+  ],
+  "strong_controls": [
+    "I03_nosize",
+    "I00",
+    "L01",
+    "V4_D02_student_shrunk",
+    "V4_D03_residual_shrunk",
+    "V4_M05_lgbm",
+    "V4_Z_neutral",
+    "E00"
+  ],
+  "uncertainty": "Shared chronological2H block bootstrap,2000 reps; standardized max across all models/scores/controls per horizon; monthly require8H origins; variable missing cohorts reindex common calendar and retain structural missingness",
+  "ranking": "Separate Brier andCRPS sorted/Pareto systems; NO custom composite ranking score",
+  "confidence_thresholds": [
+    0.55,
+    0.65,
+    0.75
+  ],
+  "confidence_other_rules": "Source-model agreement; interval80width<.8*training historical width; fixed before score inspection; matched baselines and coverage mandatory",
+  "status": "Exposed research only; monthly null comparison is mandatory before claiming mechanism"
+}

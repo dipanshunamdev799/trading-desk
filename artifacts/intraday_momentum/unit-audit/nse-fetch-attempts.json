@@ -1,0 +1,126 @@
+[
+  {
+    "day": "20250613",
+    "url": "https://archives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20250613_F_0000.csv.zip",
+    "status": 200,
+    "bytes": 168603,
+    "examples": [
+      {
+        "TckrSymb": "BAJFINANCE",
+        "ISIN": "INE296A01024",
+        "OpnPric": "9150.00",
+        "HghPric": "9365.50",
+        "LwPric": "9147.00",
+        "ClsPric": "9331.00",
+        "TtlTradgVol": "1018202"
+      },
+      {
+        "TckrSymb": "HDFCBANK",
+        "ISIN": "INE040A01034",
+        "OpnPric": "1920.00",
+        "HghPric": "1933.00",
+        "LwPric": "1913.00",
+        "ClsPric": "1917.60",
+        "TtlTradgVol": "6058881"
+      },
+      {
+        "TckrSymb": "IRB",
+        "ISIN": "INE821I01022",
+        "OpnPric": "49.05",
+        "HghPric": "50.23",
+        "LwPric": "48.62",
+        "ClsPric": "50.09",
+        "TtlTradgVol": "12859267"
+      },
+      {
+        "TckrSymb": "MSUMI",
+        "ISIN": "INE0FS801015",
+        "OpnPric": "60.00",
+        "HghPric": "61.60",
+        "LwPric": "59.73",
+        "ClsPric": "61.30",
+        "TtlTradgVol": "4291025"
+      },
+      {
+        "TckrSymb": "NESTLEIND",
+        "ISIN": "INE239A01024",
+        "OpnPric": "2362.00",
+        "HghPric": "2380.00",
+        "LwPric": "2346.80",
+        "ClsPric": "2376.80",
+        "TtlTradgVol": "414878"
+      },
+      {
+        "TckrSymb": "WIPRO",
+        "ISIN": "INE075A01022",
+        "OpnPric": "255.00",
+        "HghPric": "262.25",
+        "LwPric": "254.00",
+        "ClsPric": "260.21",
+        "TtlTradgVol": "8692116"
+      }
+    ]
+  },
+  {
+    "day": "20241202",
+    "url": "https://archives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20241202_F_0000.csv.zip",
+    "status": 200,
+    "bytes": 171827,
+    "examples": [
+      {
+        "TckrSymb": "WIPRO",
+        "ISIN": "INE075A01022",
+        "OpnPric": "582.45",
+        "HghPric": "585.55",
+        "LwPric": "578.20",
+        "ClsPric": "584.55",
+        "TtlTradgVol": "5597000"
+      },
+      {
+        "TckrSymb": "NESTLEIND",
+        "ISIN": "INE239A01024",
+        "OpnPric": "2242.80",
+        "HghPric": "2257.00",
+        "LwPric": "2223.10",
+        "ClsPric": "2251.85",
+        "TtlTradgVol": "468272"
+      },
+      {
+        "TckrSymb": "HDFCBANK",
+        "ISIN": "INE040A01034",
+        "OpnPric": "1803.50",
+        "HghPric": "1808.15",
+        "LwPric": "1775.00",
+        "ClsPric": "1804.70",
+        "TtlTradgVol": "7555438"
+      },
+      {
+        "TckrSymb": "MSUMI",
+        "ISIN": "INE0FS801015",
+        "OpnPric": "63.99",
+        "HghPric": "64.49",
+        "LwPric": "63.21",
+        "ClsPric": "63.96",
+        "TtlTradgVol": "2728930"
+      },
+      {
+        "TckrSymb": "BAJFINANCE",
+        "ISIN": "INE296A01024",
+        "OpnPric": "6595.00",
+        "HghPric": "6665.00",
+        "LwPric": "6491.00",
+        "ClsPric": "6650.65",
+        "TtlTradgVol": "920249"
+      },
+      {
+        "TckrSymb": "IRB",
+        "ISIN": "INE821I01022",
+        "OpnPric": "53.34",
+        "HghPric": "55.74",
+        "LwPric": "52.89",
+        "ClsPric": "54.82",
+        "TtlTradgVol": "24364208"
+      }
+    ]
+  }
+]

@@ -1,0 +1,34 @@
+{
+  "method": "2,000 shared circular block draws, max |standardized centered loss gain|",
+  "scope": {
+    "early": {
+      "comparison_count": 2178,
+      "calendar_origins": 173,
+      "critical_values": {
+        "5": 3.739605970342399,
+        "10": 3.737052332932605,
+        "15": 3.7287026829694025
+      }
+    },
+    "later": {
+      "comparison_count": 2886,
+      "calendar_origins": 92,
+      "critical_values": {
+        "5": 3.7002033974871456,
+        "10": 3.646916108837722,
+        "15": 3.6706809983440127
+      }
+    },
+    "combined": {
+      "comparison_count": 2178,
+      "calendar_origins": 265,
+      "critical_values": {
+        "5": 3.7853344659806205,
+        "10": 3.753538073016557,
+        "15": 3.7303288686589884
+      }
+    }
+  },
+  "monthly": "Point estimates and disjoint phases only. Small number of disjoint windows limits inference.",
+  "excluded_return_mismatches": []
+}

@@ -1,0 +1,13 @@
+{
+  "frozen": "2026-11-17",
+  "full_daily": 466,
+  "frozen_paths_daily": 403,
+  "intraday": 915,
+  "earlier_global_rows": 1145,
+  "source_first": "2025-01-01",
+  "sources": {
+    "v13_manifest": "2188efd5adcecedb4f71f8e536385d551ebdf622e4414bc38ebe82ae7728aadc",
+    "v12_option_laws": "4e99359c0c175de6a5ed033d881704b6195a6755b38e2f2503e3e7759f5790cf"
+  },
+  "scope": "Reused frozen V13 market data and complete authenticated intraday grids. Additional market periods are outside evaluation."
+}

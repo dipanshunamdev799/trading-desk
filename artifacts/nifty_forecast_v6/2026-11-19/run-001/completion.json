@@ -1,0 +1,31 @@
+{
+  "completed_at": "2026-11-20T20:45:19.586778+05:30",
+  "research_only": true,
+  "independently_validated": false,
+  "report_count": 13,
+  "unique_candidate_ids": 74,
+  "system_horizon_rows": 135,
+  "primary_prediction_rows": 11164,
+  "strong_benchmark_contrasts": 3240,
+  "replay_rows": 12732,
+  "replay_max_abs_difference": 0.0,
+  "complete_law_audit_max_abs_difference": 0.0,
+  "verification_checks": 23,
+  "preserved_prior_files": 6040,
+  "forward_snapshot_issued": false,
+  "trades_or_deployment": false,
+  "cohorts": [
+    {
+      "horizon": 5,
+      "first_origin": "2026-06-30",
+      "last_origin": "2026-11-08",
+      "last_endpoint": "2026-11-16"
+    },
+    {
+      "horizon": 21,
+      "first_origin": "2026-06-30",
+      "last_origin": "2026-10-15",
+      "last_endpoint": "2026-11-16"
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "registered_at": "2026-11-24T11:42:14.225710+05:30",
+  "configurations": {
+    "T_ROT_DOMESTIC": {
+      "parent": "C_NO_DEF",
+      "frame": "rotation_domestic",
+      "hypothesis": "Domestic rotation alone",
+      "horizons": [
+        5
+      ],
+      "selection": "Adaptive test prompted by V7 exposed S_ROTATION, L_DAILY and C_ELASTIC point scores"
+    },
+    "T_ROT_OTHER": {
+      "parent": "C_NO_DEF",
+      "frame": "rotation_other",
+      "hypothesis": "Global-relative and ETF activity change alone",
+      "horizons": [
+        5
+      ],
+      "selection": "Adaptive test prompted by V7 exposed S_ROTATION, L_DAILY and C_ELASTIC point scores"
+    },
+    "T_ROT_LAG5": {
+      "parent": "S_ROTATION",
+      "frame": "rotation_lag",
+      "diagnostic": true,
+      "hypothesis": "Five-session lag placebo for new inputs",
+      "horizons": [
+        5
+      ],
+      "selection": "Adaptive test prompted by V7 exposed S_ROTATION, L_DAILY and C_ELASTIC point scores"
+    },
+    "T_ROT_FOREIGN_LAG": {
+      "parent": "S_ROTATION",
+      "frame": "rotation_lag_global",
+      "hypothesis": "One extra session of staleness on the foreign-relative term",
+      "horizons": [
+        5
+      ],
+      "selection": "Adaptive test prompted by V7 exposed S_ROTATION, L_DAILY and C_ELASTIC point scores"
+    },
+    "T_ROT_REV": {
+      "parent": "S_ROTATION",
+      "frame": "rotation_revision",
+      "hypothesis": "Synthetic one-basis-point perturbation of native sources, rotation inputs fixed",
+      "horizons": [
+        5
+      ],
+      "selection": "Adaptive test prompted by V7 exposed S_ROTATION, L_DAILY and C_ELASTIC point scores"
+    },
+    "T_ROT_WINDOW": {
+      "parent": "S_ROTATION",
+      "frame": "rotation",
+      "window": 189,
+      "hypothesis": "Fixed latest 189 fit observations",
+      "horizons": [
+        5
+      ],
+      "selection": "Adaptive test prompted by V7 exposed S_ROTATION, L_DAILY and C_ELASTIC point scores"
+    },
+    "T_ROT_EMBARGO": {
+      "parent": "S_ROTATION",
+      "frame": "rotation",
+      "embargo": 3,
+      "hypothesis": "Earlier fully matured label cutoff",
+      "horizons": [
+        5
+      ],
+      "selection": "Adaptive test prompted by V7 exposed S_ROTATION, L_DAILY and C_ELASTIC point scores"
+    },
+    "T_DAY_OC": {
+      "parent": "C_NO_DEF",
+      "frame": "day_parts",
+      "hypothesis": "Opening/closing split without ETF terms",
+      "horizons": [
+        5
+      ],
+      "selection": "Adaptive test prompted by V7 exposed S_ROTATION, L_DAILY and C_ELASTIC point scores"
+    },
+    "T_DAY_ETF": {
+      "parent": "C_NO_DEF",
+      "frame": "day_etf",
+      "hypothesis": "Two ETF activity summaries without the open-close split",
+      "horizons": [
+        5
+      ],
+      "selection": "Adaptive test prompted by V7 exposed S_ROTATION, L_DAILY and C_ELASTIC point scores"
+    },
+    "T_DAY_LAG": {
+      "parent": "L_DAILY",
+      "frame": "daily_lag",
+      "diagnostic": true,
+      "hypothesis": "Lagged daily liquidity block",
+      "horizons": [
+        5
+      ],
+      "selection": "Adaptive test prompted by V7 exposed S_ROTATION, L_DAILY and C_ELASTIC point scores"
+    },
+    "T_DAY_WINDOW": {
+      "parent": "L_DAILY",
+      "frame": "daily",
+      "window": 189,
+      "hypothesis": "Fixed latest 189 fit observations",
+      "horizons": [
+        5
+      ],
+      "selection": "Adaptive test prompted by V7 exposed S_ROTATION, L_DAILY and C_ELASTIC point scores"
+    },
+    "T_DAY_STUDENT": {
+      "parent": "L_DAILY",
+      "frame": "daily",
+      "law": "student",
+      "hypothesis": "Same location, Student residual law",
+      "horizons": [
+        5
+      ],
+      "selection": "Adaptive test prompted by V7 exposed S_ROTATION, L_DAILY and C_ELASTIC point scores"
+    },
+    "T_RAW_ELASTIC": {
+      "parent": "C_ELASTIC",
+      "frame": "native",
+      "kind": "elastic",
+      "hypothesis": "Isolate cluster scaling from cross-model penalty change",
+      "horizons": [
+        5
+      ],
+      "selection": "Adaptive test prompted by V7 exposed S_ROTATION, L_DAILY and C_ELASTIC point scores"
+    },
+    "T_ELASTIC_WINDOW": {
+      "parent": "C_ELASTIC",
+      "frame": "native",
+      "rep": "cluster_balance",
+      "kind": "elastic",
+      "window": 189,
+      "hypothesis": "Fixed latest 189 fit observations",
+      "horizons": [
+        5
+      ],
+      "selection": "Adaptive test prompted by V7 exposed S_ROTATION, L_DAILY and C_ELASTIC point scores"
+    },
+    "T_ELASTIC_EMBARGO": {
+      "parent": "C_ELASTIC",
+      "frame": "native",
+      "rep": "cluster_balance",
+      "kind": "elastic",
+      "embargo": 3,
+      "hypothesis": "Earlier label cutoff sensitivity",
+      "horizons": [
+        5
+      ],
+      "selection": "Adaptive test prompted by V7 exposed S_ROTATION, L_DAILY and C_ELASTIC point scores"
+    }
+  },
+  "exposure": "2025\u20132026 historical research",
+  "fit_code_sha256": "42be493331e2264137df7c173ffa8e0af6b5758fb0193bfef8984d88293e278f",
+  "batch_code_sha256": "0d37a323f3450c6cfbffcb1d926fea47fcab60e398ab7b7f3dfd86cf77c1c85d",
+  "reason": "Fixed family tests registered before new results for this batch. All dates exposed by prior research."
+}

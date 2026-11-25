@@ -1,0 +1,26 @@
+{
+  "change": "Input schema/time guards, explicit contract-ID exclusion, intraday invalid-day rejection and corrected progress label",
+  "why": "Negative-control hardening; no parameter or model selection change",
+  "trained_data_affected": false,
+  "proof": "15 checks passed; exact feature rebuild and representative ridge/boosted forecast reproduction",
+  "original_code_preserved": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\nifty_forecast_v3\\2026-11-17\\run-001\\source-at-first-fit",
+  "current_code_hashes": {
+    "analyze.py": "52e267e8b26fd919a2b79757b5126e058cf9947c85647cca0e96daff8251ee29",
+    "audit.py": "4652276520cdd7d526056b4642d2f09494179cb086617b45320e41e70a0e0998",
+    "audit_report.py": "b1c45308604d86b13e1cc72c29ee2603dac0bd8943360c6c000976912d8e4d7e",
+    "data.py": "5eeab2b6a1b14f8ba989e3893513108873a19aa2ad907b19acb27cf90dfaf20a",
+    "discovery.py": "84755e15b5a54330efd418c196d50d0e94ea0fe08377aa6218720c163795cefa",
+    "experiment.py": "8ed9bdc195f31963ad7158f52f8684a912db9280d0a28470d029e88839428b4b",
+    "features.py": "e1534b009d51405a7fc046eb765e87f254c71d4c09ed34679a98db4fcd0237fb",
+    "freeze.py": "42f5d3a9803491fb64a06fb6a15d2277992cc9f6d994a2833ac6130498fc5103",
+    "legacy_diagnosis.py": "1ca3ca626e875dbb6803faaa9096c17af72cc5d7484948e55d40a9232da1ef4a",
+    "models.py": "672c6e41d03083e0eb660dbbd8716ce1223fb1b9e810c3d0ff44b6c263eaadfb",
+    "negative_controls.py": "316a13182da82c74c854cd71d2d8e8f3f58b21360df3f2deaa2fe581d5672662",
+    "reports.py": "86ba2efc6c3a4b3ccade2f2accc77c22609c15186ce55a6b4d953d38b571c8bf",
+    "reproduce.py": "0fb0a75ef281fdfe1f40fc077cc68c6c5e51f27569c7e95c03e9d77a9d854ed5",
+    "validation.py": "dd3aefce8241bfaf9c2fd9c33e096f9955519bf23a2abaf4fb52c918e5d86a3d",
+    "verify.py": "7140994d252240ed8b888effa3453b047e3f353061dbd780afe029d49bc63c79",
+    "__init__.py": "862d787de93b1412912015cef6fc7c75be9bb44e80f2c4e23e128068b90f1b57"
+  },
+  "delivery_note": "Later edits added report prose, documentation and a separate-output reproduction command; no fitted configurations, data, scores or frozen forecast were altered."
+}

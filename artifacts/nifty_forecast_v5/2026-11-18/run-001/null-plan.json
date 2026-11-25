@@ -1,0 +1,9 @@
+{
+  "registered_at": "2026-11-18T22:43:58.327454+05:30",
+  "model": "I00",
+  "seeds": [
+    301,
+    907
+  ],
+  "mechanism": "Shuffle only matured training labels; inner residual null labels shuffled separately; score actual future outcomes. Descriptive diagnostic, no selection."
+}

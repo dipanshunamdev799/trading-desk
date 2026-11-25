@@ -1,0 +1,189 @@
+{
+  "registered_at": "2026-11-24T13:54:29.063910+05:30",
+  "configurations": {
+    "C85_RECENT": {
+      "frame": "ten",
+      "parent": "BASE10",
+      "budget": 85,
+      "selection": "recent",
+      "hypothesis": "Equal 85-row training budget with recent composition"
+    },
+    "C85_EARLIEST": {
+      "frame": "ten",
+      "parent": "C85_RECENT",
+      "budget": 85,
+      "selection": "earliest",
+      "hypothesis": "Equal 85-row training budget with earliest composition"
+    },
+    "C85_SPREAD": {
+      "frame": "ten",
+      "parent": "C85_RECENT",
+      "budget": 85,
+      "selection": "spread",
+      "hypothesis": "Equal 85-row training budget with spread composition"
+    },
+    "C85_BLOCKS": {
+      "frame": "ten",
+      "parent": "C85_RECENT",
+      "budget": 85,
+      "selection": "blocks",
+      "hypothesis": "Equal 85-row training budget with blocks composition"
+    },
+    "C85_BALANCE_VOL": {
+      "frame": "ten",
+      "parent": "C85_RECENT",
+      "budget": 85,
+      "selection": "balance_vol",
+      "hypothesis": "Equal 85-row training budget with balance_vol composition"
+    },
+    "C85_BALANCE_TREND": {
+      "frame": "ten",
+      "parent": "C85_RECENT",
+      "budget": 85,
+      "selection": "balance_trend",
+      "hypothesis": "Equal 85-row training budget with balance_trend composition"
+    },
+    "C85_BALANCE_ROTATION": {
+      "frame": "ten",
+      "parent": "C85_RECENT",
+      "budget": 85,
+      "selection": "balance_rotation",
+      "hypothesis": "Equal 85-row training budget with balance_rotation composition"
+    },
+    "C85_ANALOGUES": {
+      "frame": "ten",
+      "parent": "C85_RECENT",
+      "budget": 85,
+      "selection": "analogues",
+      "hypothesis": "Equal 85-row training budget with analogues composition"
+    },
+    "C85_REPRESENTATIVE": {
+      "frame": "ten",
+      "parent": "C85_RECENT",
+      "budget": 85,
+      "selection": "representative",
+      "hypothesis": "Equal 85-row training budget with representative composition"
+    },
+    "C126_RECENT": {
+      "frame": "ten",
+      "parent": "BASE10",
+      "budget": 126,
+      "selection": "recent",
+      "hypothesis": "Equal 126-row training budget with recent composition"
+    },
+    "C126_EARLIEST": {
+      "frame": "ten",
+      "parent": "C126_RECENT",
+      "budget": 126,
+      "selection": "earliest",
+      "hypothesis": "Equal 126-row training budget with earliest composition"
+    },
+    "C126_SPREAD": {
+      "frame": "ten",
+      "parent": "C126_RECENT",
+      "budget": 126,
+      "selection": "spread",
+      "hypothesis": "Equal 126-row training budget with spread composition"
+    },
+    "C126_BLOCKS": {
+      "frame": "ten",
+      "parent": "C126_RECENT",
+      "budget": 126,
+      "selection": "blocks",
+      "hypothesis": "Equal 126-row training budget with blocks composition"
+    },
+    "C126_BALANCE_VOL": {
+      "frame": "ten",
+      "parent": "C126_RECENT",
+      "budget": 126,
+      "selection": "balance_vol",
+      "hypothesis": "Equal 126-row training budget with balance_vol composition"
+    },
+    "C126_BALANCE_TREND": {
+      "frame": "ten",
+      "parent": "C126_RECENT",
+      "budget": 126,
+      "selection": "balance_trend",
+      "hypothesis": "Equal 126-row training budget with balance_trend composition"
+    },
+    "C126_BALANCE_ROTATION": {
+      "frame": "ten",
+      "parent": "C126_RECENT",
+      "budget": 126,
+      "selection": "balance_rotation",
+      "hypothesis": "Equal 126-row training budget with balance_rotation composition"
+    },
+    "C126_ANALOGUES": {
+      "frame": "ten",
+      "parent": "C126_RECENT",
+      "budget": 126,
+      "selection": "analogues",
+      "hypothesis": "Equal 126-row training budget with analogues composition"
+    },
+    "C126_REPRESENTATIVE": {
+      "frame": "ten",
+      "parent": "C126_RECENT",
+      "budget": 126,
+      "selection": "representative",
+      "hypothesis": "Equal 126-row training budget with representative composition"
+    },
+    "C126_W_RECENCY": {
+      "frame": "ten",
+      "parent": "C126_RECENT",
+      "budget": 126,
+      "weight": "recency",
+      "hypothesis": "Equal training dates, predetermined mixture of uniform and state/time weights"
+    },
+    "C126_W_SIMILARITY": {
+      "frame": "ten",
+      "parent": "C126_RECENT",
+      "budget": 126,
+      "weight": "similarity",
+      "hypothesis": "Equal training dates, predetermined mixture of uniform and state/time weights"
+    },
+    "C126_W_BALANCE": {
+      "frame": "ten",
+      "parent": "C126_RECENT",
+      "budget": 126,
+      "weight": "balance",
+      "hypothesis": "Equal training dates, predetermined mixture of uniform and state/time weights"
+    },
+    "C126_W_ANALOGUE_RECENCY": {
+      "frame": "ten",
+      "parent": "C126_RECENT",
+      "budget": 126,
+      "weight": "analogue_recency",
+      "hypothesis": "Equal training dates, predetermined mixture of uniform and state/time weights"
+    },
+    "C85_OMIT_M1": {
+      "frame": "ten",
+      "parent": "C85_RECENT",
+      "budget": 85,
+      "omit_month": 1,
+      "diagnostic": true,
+      "hypothesis": "Leave one recent fitting month out then refill the same budget from older eligible dates"
+    },
+    "C85_OMIT_M2": {
+      "frame": "ten",
+      "parent": "C85_RECENT",
+      "budget": 85,
+      "omit_month": 2,
+      "diagnostic": true,
+      "hypothesis": "Leave one recent fitting month out then refill the same budget from older eligible dates"
+    },
+    "C85_OMIT_M3": {
+      "frame": "ten",
+      "parent": "C85_RECENT",
+      "budget": 85,
+      "omit_month": 3,
+      "diagnostic": true,
+      "hypothesis": "Leave one recent fitting month out then refill the same budget from older eligible dates"
+    }
+  },
+  "seed": 20261130,
+  "code_hashes": {
+    "experiments.py": "48baf634853e2d9016ca7f0e79d5e8ae00c42fbde533b3c9bb9939b5960bdef8",
+    "estimators.py": "70396610d7201423c4151cb004e61a63986cec9a5ec73496a16aa1f45b7f0f09",
+    "targets.py": "9bb9d2060fef1bc2b1add51c129d8dc4e792afae782e6b5c8183f82a1ae5f752"
+  }
+}

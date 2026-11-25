@@ -1,0 +1,45 @@
+{
+  "daily_sessions": 403,
+  "first": "2025-04-02",
+  "last": "2026-11-17",
+  "official_difference_gt_005": 0,
+  "current_intraday_reconciled": 395,
+  "intraday": [
+    {
+      "interval": 1,
+      "sessions": 403,
+      "complete": 394,
+      "reconciled": 393
+    },
+    {
+      "interval": 5,
+      "sessions": 403,
+      "complete": 396,
+      "reconciled": 395
+    },
+    {
+      "interval": 25,
+      "sessions": 403,
+      "complete": 396,
+      "reconciled": 395
+    }
+  ],
+  "global_inputs": [
+    "us_rv",
+    "us_shock",
+    "asia_rv",
+    "asia_shock",
+    "hk_rv",
+    "hk_shock",
+    "nasdaq_rv",
+    "nasdaq_shock",
+    "fx_rv",
+    "fx_shock",
+    "oil_rv",
+    "oil_shock",
+    "intl_dispersion"
+  ],
+  "implied_expiries": 2559,
+  "position_rows": 2559,
+  "daily_source": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\nifty_forecast_v6\\2026-11-19\\run-001\\price.csv"
+}

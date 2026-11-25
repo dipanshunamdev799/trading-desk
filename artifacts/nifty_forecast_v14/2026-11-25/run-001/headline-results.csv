@@ -1,0 +1,13 @@
+horizon,objective,metric,model,loss,n,disjoint
+5,volatility,mae,gjr_ivx,0.03740222941019167,265,53
+5,range,crps,V13_diffusion_iv,0.005792792349339701,265,53
+5,direction,brier,sign_shrinkage,0.2285288009643555,265,53
+5,endpoint_distribution,crps,sign_shrinkage,0.01045689904649218,265,53
+5,touch,brier,trend_shrink,0.1433709308336366,265,53
+5,joint,energy_score,V13_diffusion_iv,1.5621002426881136,265,53
+21,volatility,mae,V13_GJR,0.033179166716373894,217,11
+21,range,crps,gjr_student,0.015421706884085284,217,11
+21,direction,brier,domestic_location_gjr_scale,0.24504210652294248,217,11
+21,endpoint_distribution,crps,regime_state,0.024749575457601772,217,11
+21,touch,brier,trend_persistent,0.18108527572473623,217,11
+21,joint,energy_score,gjr_student,2.487703125036525,217,11

@@ -1,0 +1,56 @@
+{
+  "registered": "2026-11-24T14:40:26.639657+05:30",
+  "models": {
+    "I_CAP_PARENT": {
+      "frame": "rotation",
+      "parent": "B_ROT_EQ",
+      "plus": [
+        "BREADTH",
+        "US_CAP"
+      ]
+    },
+    "I_EQ": {
+      "frame": "rotation",
+      "parent": "I_CAP_PARENT",
+      "plus": [
+        "BREADTH",
+        "US_CAP",
+        "US_EQ"
+      ]
+    },
+    "I_DIVERGE": {
+      "frame": "rotation",
+      "parent": "I_CAP_PARENT",
+      "plus": [
+        "BREADTH",
+        "US_CAP",
+        "US_DIVERGE"
+      ]
+    },
+    "I_RISK_PARENT": {
+      "frame": "rotation",
+      "parent": "D_EQ_SCALE",
+      "target": "vol",
+      "extra": "scale",
+      "target_mask": true,
+      "plus": [
+        "BREADTH",
+        "US_CAP"
+      ]
+    },
+    "I_RISK_EQ": {
+      "frame": "rotation",
+      "parent": "I_RISK_PARENT",
+      "target": "vol",
+      "extra": "scale",
+      "target_mask": true,
+      "plus": [
+        "BREADTH",
+        "US_CAP",
+        "US_EQ"
+      ]
+    }
+  },
+  "seed": 20261124,
+  "source": "49b7ec838dcb03697560ab06309b2bd6f54b4905522d514a34df1791e7506674"
+}

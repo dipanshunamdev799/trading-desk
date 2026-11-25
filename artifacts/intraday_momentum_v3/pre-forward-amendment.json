@@ -1,0 +1,8 @@
+{
+  "at": "2026-11-15T18:32:55.528847+00:00",
+  "previous_sha256": "d892415a04078d1487569f300521516c17cb59d7c318a63b61782a67a9785a72",
+  "previous_version": "V3-initial",
+  "new_version": "V3.1-pre-forward-resume-guard",
+  "reason": "Persist hypothetical risk/capital state across manually restarted observation runs. No new alpha thresholds or outcomes; zero fresh open observations and no trained model.",
+  "fresh_open_observations": 0
+}

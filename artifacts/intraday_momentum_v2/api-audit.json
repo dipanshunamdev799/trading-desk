@@ -1,0 +1,67 @@
+{
+  "checked_at": "2026-11-15T16:00:09.658822+00:00",
+  "read_only_market_endpoints": true,
+  "real_orders_submitted": 0,
+  "candle_inventory": {
+    "status": "AGGREGATE_UNAVAILABLE",
+    "error_type": "QueryCanceled",
+    "alternative": "Daily frozen plan and per-request acquisition manifest retain coverage"
+  },
+  "market_status": {
+    "exchange": "NSE",
+    "status": "CLOSING_END",
+    "last_updated": 1794565800017
+  },
+  "quotes": {
+    "status": "VERIFIED",
+    "instruments": 100,
+    "fields": [
+      "average_price",
+      "cas_eligible",
+      "depth",
+      "indicative_equilibrium_price",
+      "indicative_equilibrium_quantity",
+      "indicative_imbalance_quantity_market",
+      "indicative_imbalance_quantity_total",
+      "instrument_token",
+      "last_price",
+      "last_trade_time",
+      "lower_circuit_limit",
+      "net_change",
+      "ohlc",
+      "oi",
+      "oi_day_high",
+      "oi_day_low",
+      "prev_close_price",
+      "previous_oi",
+      "reference_price",
+      "symbol",
+      "timestamp",
+      "total_buy_quantity",
+      "total_sell_quantity",
+      "upper_circuit_limit",
+      "volume",
+      "year_high",
+      "year_low"
+    ],
+    "bid_levels": [
+      5
+    ],
+    "ask_levels": [
+      5
+    ],
+    "last_trade_times": [
+      "1794565200115",
+      "1794565256522",
+      "1794565355147"
+    ]
+  },
+  "websocket": {
+    "connection": "UNVERIFIED",
+    "full": "UNVERIFIED",
+    "full_d30": "UNVERIFIED",
+    "market_closed_update_cadence": "NOT_MEASURABLE",
+    "error_type": "UpstoxAPIError",
+    "status_code": 401
+  }
+}

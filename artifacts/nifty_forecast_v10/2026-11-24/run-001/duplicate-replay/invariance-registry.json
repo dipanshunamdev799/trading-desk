@@ -1,0 +1,339 @@
+{
+  "registered_at": "2026-11-24T14:01:23.140555+05:30",
+  "configurations": {
+    "I_ridge_as_is": {
+      "method": "ridge",
+      "variant": "as_is",
+      "diagnostic": true,
+      "parent": "B_FULL",
+      "frame": "native"
+    },
+    "I_ridge_one_copy": {
+      "method": "ridge",
+      "variant": "one_copy",
+      "diagnostic": true,
+      "parent": "B_FULL",
+      "frame": "native"
+    },
+    "I_ridge_three_copies": {
+      "method": "ridge",
+      "variant": "three_copies",
+      "diagnostic": true,
+      "parent": "B_FULL",
+      "frame": "native"
+    },
+    "I_ridge_reordered": {
+      "method": "ridge",
+      "variant": "reordered",
+      "diagnostic": true,
+      "parent": "B_FULL",
+      "frame": "native"
+    },
+    "I_ridge_equivalent_units": {
+      "method": "ridge",
+      "variant": "equivalent_units",
+      "diagnostic": true,
+      "parent": "B_FULL",
+      "frame": "native"
+    },
+    "I_ridge_affine_copy": {
+      "method": "ridge",
+      "variant": "affine_copy",
+      "diagnostic": true,
+      "parent": "B_FULL",
+      "frame": "native"
+    },
+    "I_ridge_equivalent_formula": {
+      "method": "ridge",
+      "variant": "equivalent_formula",
+      "diagnostic": true,
+      "parent": "B_FULL",
+      "frame": "native"
+    },
+    "I_elastic_as_is": {
+      "method": "elastic",
+      "variant": "as_is",
+      "diagnostic": true,
+      "parent": "B_FULL",
+      "frame": "native"
+    },
+    "I_elastic_one_copy": {
+      "method": "elastic",
+      "variant": "one_copy",
+      "diagnostic": true,
+      "parent": "B_FULL",
+      "frame": "native"
+    },
+    "I_elastic_three_copies": {
+      "method": "elastic",
+      "variant": "three_copies",
+      "diagnostic": true,
+      "parent": "B_FULL",
+      "frame": "native"
+    },
+    "I_elastic_reordered": {
+      "method": "elastic",
+      "variant": "reordered",
+      "diagnostic": true,
+      "parent": "B_FULL",
+      "frame": "native"
+    },
+    "I_elastic_equivalent_units": {
+      "method": "elastic",
+      "variant": "equivalent_units",
+      "diagnostic": true,
+      "parent": "B_FULL",
+      "frame": "native"
+    },
+    "I_elastic_affine_copy": {
+      "method": "elastic",
+      "variant": "affine_copy",
+      "diagnostic": true,
+      "parent": "B_FULL",
+      "frame": "native"
+    },
+    "I_elastic_equivalent_formula": {
+      "method": "elastic",
+      "variant": "equivalent_formula",
+      "diagnostic": true,
+      "parent": "B_FULL",
+      "frame": "native"
+    },
+    "I_cluster_as_is": {
+      "method": "cluster",
+      "variant": "as_is",
+      "diagnostic": true,
+      "parent": "B_FULL",
+      "frame": "native"
+    },
+    "I_cluster_one_copy": {
+      "method": "cluster",
+      "variant": "one_copy",
+      "diagnostic": true,
+      "parent": "B_FULL",
+      "frame": "native"
+    },
+    "I_cluster_three_copies": {
+      "method": "cluster",
+      "variant": "three_copies",
+      "diagnostic": true,
+      "parent": "B_FULL",
+      "frame": "native"
+    },
+    "I_cluster_reordered": {
+      "method": "cluster",
+      "variant": "reordered",
+      "diagnostic": true,
+      "parent": "B_FULL",
+      "frame": "native"
+    },
+    "I_cluster_equivalent_units": {
+      "method": "cluster",
+      "variant": "equivalent_units",
+      "diagnostic": true,
+      "parent": "B_FULL",
+      "frame": "native"
+    },
+    "I_cluster_affine_copy": {
+      "method": "cluster",
+      "variant": "affine_copy",
+      "diagnostic": true,
+      "parent": "B_FULL",
+      "frame": "native"
+    },
+    "I_cluster_equivalent_formula": {
+      "method": "cluster",
+      "variant": "equivalent_formula",
+      "diagnostic": true,
+      "parent": "B_FULL",
+      "frame": "native"
+    },
+    "I_canonical_ridge_as_is": {
+      "method": "canonical_ridge",
+      "variant": "as_is",
+      "diagnostic": true,
+      "parent": "B_FULL",
+      "frame": "native"
+    },
+    "I_canonical_ridge_one_copy": {
+      "method": "canonical_ridge",
+      "variant": "one_copy",
+      "diagnostic": true,
+      "parent": "B_FULL",
+      "frame": "native"
+    },
+    "I_canonical_ridge_three_copies": {
+      "method": "canonical_ridge",
+      "variant": "three_copies",
+      "diagnostic": true,
+      "parent": "B_FULL",
+      "frame": "native"
+    },
+    "I_canonical_ridge_reordered": {
+      "method": "canonical_ridge",
+      "variant": "reordered",
+      "diagnostic": true,
+      "parent": "B_FULL",
+      "frame": "native"
+    },
+    "I_canonical_ridge_equivalent_units": {
+      "method": "canonical_ridge",
+      "variant": "equivalent_units",
+      "diagnostic": true,
+      "parent": "B_FULL",
+      "frame": "native"
+    },
+    "I_canonical_ridge_affine_copy": {
+      "method": "canonical_ridge",
+      "variant": "affine_copy",
+      "diagnostic": true,
+      "parent": "B_FULL",
+      "frame": "native"
+    },
+    "I_canonical_ridge_equivalent_formula": {
+      "method": "canonical_ridge",
+      "variant": "equivalent_formula",
+      "diagnostic": true,
+      "parent": "B_FULL",
+      "frame": "native"
+    },
+    "I_canonical_cluster_as_is": {
+      "method": "canonical_cluster",
+      "variant": "as_is",
+      "diagnostic": true,
+      "parent": "B_FULL",
+      "frame": "native"
+    },
+    "I_canonical_cluster_one_copy": {
+      "method": "canonical_cluster",
+      "variant": "one_copy",
+      "diagnostic": true,
+      "parent": "B_FULL",
+      "frame": "native"
+    },
+    "I_canonical_cluster_three_copies": {
+      "method": "canonical_cluster",
+      "variant": "three_copies",
+      "diagnostic": true,
+      "parent": "B_FULL",
+      "frame": "native"
+    },
+    "I_canonical_cluster_reordered": {
+      "method": "canonical_cluster",
+      "variant": "reordered",
+      "diagnostic": true,
+      "parent": "B_FULL",
+      "frame": "native"
+    },
+    "I_canonical_cluster_equivalent_units": {
+      "method": "canonical_cluster",
+      "variant": "equivalent_units",
+      "diagnostic": true,
+      "parent": "B_FULL",
+      "frame": "native"
+    },
+    "I_canonical_cluster_affine_copy": {
+      "method": "canonical_cluster",
+      "variant": "affine_copy",
+      "diagnostic": true,
+      "parent": "B_FULL",
+      "frame": "native"
+    },
+    "I_canonical_cluster_equivalent_formula": {
+      "method": "canonical_cluster",
+      "variant": "equivalent_formula",
+      "diagnostic": true,
+      "parent": "B_FULL",
+      "frame": "native"
+    },
+    "I_canonical_elastic_as_is": {
+      "method": "canonical_elastic",
+      "variant": "as_is",
+      "diagnostic": true,
+      "parent": "B_FULL",
+      "frame": "native"
+    },
+    "I_canonical_elastic_one_copy": {
+      "method": "canonical_elastic",
+      "variant": "one_copy",
+      "diagnostic": true,
+      "parent": "B_FULL",
+      "frame": "native"
+    },
+    "I_canonical_elastic_three_copies": {
+      "method": "canonical_elastic",
+      "variant": "three_copies",
+      "diagnostic": true,
+      "parent": "B_FULL",
+      "frame": "native"
+    },
+    "I_canonical_elastic_reordered": {
+      "method": "canonical_elastic",
+      "variant": "reordered",
+      "diagnostic": true,
+      "parent": "B_FULL",
+      "frame": "native"
+    },
+    "I_canonical_elastic_equivalent_units": {
+      "method": "canonical_elastic",
+      "variant": "equivalent_units",
+      "diagnostic": true,
+      "parent": "B_FULL",
+      "frame": "native"
+    },
+    "I_canonical_elastic_affine_copy": {
+      "method": "canonical_elastic",
+      "variant": "affine_copy",
+      "diagnostic": true,
+      "parent": "B_FULL",
+      "frame": "native"
+    },
+    "I_canonical_elastic_equivalent_formula": {
+      "method": "canonical_elastic",
+      "variant": "equivalent_formula",
+      "diagnostic": true,
+      "parent": "B_FULL",
+      "frame": "native"
+    },
+    "I_ridge_balanced_three": {
+      "method": "ridge",
+      "variant": "balanced_three",
+      "diagnostic": true,
+      "parent": "B_FULL",
+      "frame": "native"
+    }
+  },
+  "seed": 20261125,
+  "cohort": "primary",
+  "defensive_inputs": [
+    "i_idx_NIFTY_HEALTHCARE_rel5",
+    "i_idx_NIFTY_HEALTHCARE_rel21",
+    "i_nifty_fmcg_rel5",
+    "i_nifty_fmcg_rel21",
+    "i_nifty_pharma_rel5",
+    "i_nifty_pharma_rel21"
+  ],
+  "specs": {
+    "ridge": {},
+    "elastic": {
+      "kind": "elastic"
+    },
+    "cluster": {
+      "rep": "cluster"
+    },
+    "canonical_ridge": {
+      "dedup": true
+    },
+    "canonical_cluster": {
+      "dedup": true,
+      "rep": "cluster"
+    },
+    "canonical_elastic": {
+      "dedup": true,
+      "rep": "cluster",
+      "kind": "elastic"
+    }
+  },
+  "equivalence_tolerance": 1e-11,
+  "prediction_tolerance": 1e-10
+}

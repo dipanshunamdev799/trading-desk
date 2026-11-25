@@ -1,0 +1,209 @@
+{
+  "registered": "2026-11-24T14:31:16.587417+05:30",
+  "models": {
+    "O_COMPACT_PLAIN": {
+      "frame": "ten",
+      "parent": "B_TEN",
+      "overlap": "plain"
+    },
+    "O_COMPACT_PHASE0": {
+      "frame": "ten",
+      "parent": "B_TEN",
+      "overlap": "phase0"
+    },
+    "O_COMPACT_PHASE1": {
+      "frame": "ten",
+      "parent": "B_TEN",
+      "overlap": "phase1"
+    },
+    "O_COMPACT_STAGGERED": {
+      "frame": "ten",
+      "parent": "B_TEN",
+      "overlap": "staggered"
+    },
+    "O_COMPACT_OVERLAP_WEIGHT": {
+      "frame": "ten",
+      "parent": "B_TEN",
+      "overlap": "overlap_weight"
+    },
+    "O_COMPACT_GLS": {
+      "frame": "ten",
+      "parent": "B_TEN",
+      "overlap": "gls"
+    },
+    "O_COMPACT_GLS_EMPIRICAL": {
+      "frame": "ten",
+      "parent": "B_TEN",
+      "overlap": "gls_empirical"
+    },
+    "O_COMPACT_BLOCKMEAN": {
+      "frame": "ten",
+      "parent": "B_TEN",
+      "overlap": "blockmean"
+    },
+    "O_ROT_PLAIN": {
+      "frame": "rotation",
+      "parent": "B_ROT",
+      "overlap": "plain"
+    },
+    "O_ROT_PHASE0": {
+      "frame": "rotation",
+      "parent": "B_ROT",
+      "overlap": "phase0"
+    },
+    "O_ROT_PHASE1": {
+      "frame": "rotation",
+      "parent": "B_ROT",
+      "overlap": "phase1"
+    },
+    "O_ROT_STAGGERED": {
+      "frame": "rotation",
+      "parent": "B_ROT",
+      "overlap": "staggered"
+    },
+    "O_ROT_OVERLAP_WEIGHT": {
+      "frame": "rotation",
+      "parent": "B_ROT",
+      "overlap": "overlap_weight"
+    },
+    "O_ROT_GLS": {
+      "frame": "rotation",
+      "parent": "B_ROT",
+      "overlap": "gls"
+    },
+    "O_ROT_GLS_EMPIRICAL": {
+      "frame": "rotation",
+      "parent": "B_ROT",
+      "overlap": "gls_empirical"
+    },
+    "O_ROT_BLOCKMEAN": {
+      "frame": "rotation",
+      "parent": "B_ROT",
+      "overlap": "blockmean"
+    },
+    "O_NATIVE_PLAIN": {
+      "frame": "native",
+      "parent": "B_NATIVE",
+      "overlap": "plain"
+    },
+    "O_NATIVE_PHASE0": {
+      "frame": "native",
+      "parent": "B_NATIVE",
+      "overlap": "phase0"
+    },
+    "O_NATIVE_PHASE1": {
+      "frame": "native",
+      "parent": "B_NATIVE",
+      "overlap": "phase1"
+    },
+    "O_NATIVE_STAGGERED": {
+      "frame": "native",
+      "parent": "B_NATIVE",
+      "overlap": "staggered"
+    },
+    "O_NATIVE_OVERLAP_WEIGHT": {
+      "frame": "native",
+      "parent": "B_NATIVE",
+      "overlap": "overlap_weight"
+    },
+    "O_NATIVE_GLS": {
+      "frame": "native",
+      "parent": "B_NATIVE",
+      "overlap": "gls"
+    },
+    "O_NATIVE_GLS_EMPIRICAL": {
+      "frame": "native",
+      "parent": "B_NATIVE",
+      "overlap": "gls_empirical"
+    },
+    "O_NATIVE_BLOCKMEAN": {
+      "frame": "native",
+      "parent": "B_NATIVE",
+      "overlap": "blockmean"
+    },
+    "O85_RECENT_PLAIN": {
+      "frame": "rotation",
+      "parent": "M_RECENT_85",
+      "budget": 85,
+      "selection": "recent",
+      "overlap": "plain"
+    },
+    "O85_SPREAD_PLAIN": {
+      "frame": "rotation",
+      "parent": "M_SPREAD_85",
+      "budget": 85,
+      "selection": "spread",
+      "overlap": "plain"
+    },
+    "O85_RECENT_BLOCKMEAN": {
+      "frame": "rotation",
+      "parent": "M_RECENT_85",
+      "budget": 85,
+      "selection": "recent",
+      "overlap": "blockmean"
+    },
+    "O85_SPREAD_BLOCKMEAN": {
+      "frame": "rotation",
+      "parent": "M_SPREAD_85",
+      "budget": 85,
+      "selection": "spread",
+      "overlap": "blockmean"
+    },
+    "O85_RECENT_STAGGERED": {
+      "frame": "rotation",
+      "parent": "M_RECENT_85",
+      "budget": 85,
+      "selection": "recent",
+      "overlap": "staggered"
+    },
+    "O85_SPREAD_STAGGERED": {
+      "frame": "rotation",
+      "parent": "M_SPREAD_85",
+      "budget": 85,
+      "selection": "spread",
+      "overlap": "staggered"
+    },
+    "O85_RECENT_GLS": {
+      "frame": "rotation",
+      "parent": "M_RECENT_85",
+      "budget": 85,
+      "selection": "recent",
+      "overlap": "gls"
+    },
+    "O85_SPREAD_GLS": {
+      "frame": "rotation",
+      "parent": "M_SPREAD_85",
+      "budget": 85,
+      "selection": "spread",
+      "overlap": "gls"
+    },
+    "O85_RECENT_OVERLAP_WEIGHT": {
+      "frame": "rotation",
+      "parent": "M_RECENT_85",
+      "budget": 85,
+      "selection": "recent",
+      "overlap": "overlap_weight"
+    },
+    "O85_SPREAD_OVERLAP_WEIGHT": {
+      "frame": "rotation",
+      "parent": "M_SPREAD_85",
+      "budget": 85,
+      "selection": "spread",
+      "overlap": "overlap_weight"
+    },
+    "O_DISJOINT_RECENT": {
+      "frame": "rotation",
+      "parent": "B_ROT",
+      "selection": "disjoint_recent",
+      "budget": 14
+    },
+    "O_DISJOINT_SPREAD": {
+      "frame": "rotation",
+      "parent": "B_ROT",
+      "selection": "disjoint_spread",
+      "budget": 14
+    }
+  },
+  "seed": 20261124,
+  "source": "ed65ce5af5b1659eb7823eff8713976c65719205f7315a0f6bc93a9e253403df"
+}

@@ -1,0 +1,120 @@
+{
+  "passed": true,
+  "completed_at": "2026-11-24T13:13:31.466520+05:30",
+  "protected_files": 9475,
+  "checks": [
+    "Protected earlier files and frozen ledgers match",
+    "V8 winners and controlled experiments, plus prior reference laws reproduced",
+    "Causal financial/panel features and matrix hashes verified",
+    "Acquired inputs confined to 2025\u20132026",
+    "Unique model and outcome keys",
+    "Each forecast joined to its exact matured endpoint and vintage",
+    "Coherent law outcomes, ordered quantiles, bucket mass and endpoint price",
+    "Mature outer labels and purged residual-fitting partition",
+    "Saved model hashes match registrations",
+    "Reliability labels mature before gate fitting",
+    "Online error features reject all unresolved outcomes",
+    "Adaptive mixtures are convex combinations of complete laws",
+    "Every saved path block matured before its origin",
+    "Saved simulated blocks compound to the scored endpoint law",
+    "invariance exact duplicate tolerance",
+    "sector-alias exact duplicate tolerance",
+    "Monthly intervals withheld",
+    "24 refitted search nulls plus genuine search",
+    "Replayed 276 V9 forecasts and rejected future-label sentinel",
+    "Independent source reconciliation retained, with unavailable sources explicit",
+    "All sixteen requested reports and manifest verified"
+  ],
+  "refitted": [
+    {
+      "model": "T_KALMAN",
+      "fold": "2026-07",
+      "n": 23,
+      "max_error": 0.0
+    },
+    {
+      "model": "T_KALMAN",
+      "fold": "2026-08",
+      "n": 21,
+      "max_error": 0.0
+    },
+    {
+      "model": "T_KALMAN",
+      "fold": "2026-09",
+      "n": 21,
+      "max_error": 0.0
+    },
+    {
+      "model": "T_KALMAN",
+      "fold": "2026-10",
+      "n": 20,
+      "max_error": 0.0
+    },
+    {
+      "model": "T_KALMAN",
+      "fold": "2026-11",
+      "n": 7,
+      "max_error": 0.0
+    },
+    {
+      "model": "P_ROT",
+      "fold": "2026-07",
+      "n": 23,
+      "max_error": 0.0
+    },
+    {
+      "model": "P_STRUCTURE",
+      "fold": "2026-07",
+      "n": 23,
+      "max_error": 0.0
+    },
+    {
+      "model": "P_ROT",
+      "fold": "2026-08",
+      "n": 21,
+      "max_error": 0.0
+    },
+    {
+      "model": "P_STRUCTURE",
+      "fold": "2026-08",
+      "n": 21,
+      "max_error": 0.0
+    },
+    {
+      "model": "P_ROT",
+      "fold": "2026-09",
+      "n": 21,
+      "max_error": 0.0
+    },
+    {
+      "model": "P_STRUCTURE",
+      "fold": "2026-09",
+      "n": 21,
+      "max_error": 0.0
+    },
+    {
+      "model": "P_ROT",
+      "fold": "2026-10",
+      "n": 20,
+      "max_error": 0.0
+    },
+    {
+      "model": "P_STRUCTURE",
+      "fold": "2026-10",
+      "n": 20,
+      "max_error": 0.0
+    },
+    {
+      "model": "P_ROT",
+      "fold": "2026-11",
+      "n": 7,
+      "max_error": 0.0
+    },
+    {
+      "model": "P_STRUCTURE",
+      "fold": "2026-11",
+      "n": 7,
+      "max_error": 0.0
+    }
+  ]
+}

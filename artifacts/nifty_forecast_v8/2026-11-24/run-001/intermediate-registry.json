@@ -1,0 +1,48 @@
+{
+  "registered_at": "2026-11-24T12:06:13.611113+05:30",
+  "cohort": "diagnostic",
+  "configurations": {
+    "K_HIST": {
+      "frame": "base",
+      "parent": "self",
+      "law": "history",
+      "horizons": [
+        10,
+        15
+      ],
+      "hypothesis": "Diagnostic comparison on original 21-session query dates"
+    },
+    "K_BASE": {
+      "frame": "base",
+      "parent": "K_HIST",
+      "horizons": [
+        10,
+        15
+      ],
+      "hypothesis": "Diagnostic comparison on original 21-session query dates"
+    },
+    "K_ROT": {
+      "frame": "both_changes",
+      "parent": "K_BASE",
+      "horizons": [
+        10,
+        15
+      ],
+      "hypothesis": "Diagnostic comparison on original 21-session query dates"
+    },
+    "K_STRUCTURE": {
+      "frame": "structure_change",
+      "parent": "K_ROT",
+      "horizons": [
+        10,
+        15
+      ],
+      "hypothesis": "Diagnostic comparison on original 21-session query dates"
+    }
+  },
+  "seed": 20261125,
+  "source": {
+    "models.py": "37056bce809a9e7dbecd72cd0c5a5fe91249866e9c32fefbad0a75d78ad2280e",
+    "experiments.py": "4f9135a1a17f2d26d7611d439a1c749973f8f3ac301ed1004b690a5036180a35"
+  }
+}

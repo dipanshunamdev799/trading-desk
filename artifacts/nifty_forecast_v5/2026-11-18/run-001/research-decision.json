@@ -1,0 +1,29 @@
+{
+  "decision": "NO DEPLOYMENT; continue independent hypothesis validation",
+  "independent_edge": false,
+  "systems": 34,
+  "reports": [
+    "V5_DATA_UNIVERSE.md",
+    "V5_GLOBAL_MARKET_RESEARCH.md",
+    "V5_INDIAN_MARKET_INTERNALS.md",
+    "V5_DERIVATIVES_INTELLIGENCE.md",
+    "V5_CROSS_MARKET_FEATURES.md",
+    "V5_ADVANCED_MODEL_EXPERIMENTS.md",
+    "V5_CONDITIONAL_SIGNALS.md",
+    "V5_VALIDATION_AND_STRESS_TESTS.md",
+    "V5_SIGNAL_RANKING.md",
+    "V5_WEEKLY_MODEL_RESEARCH.md",
+    "V5_MONTHLY_MODEL_RESEARCH.md",
+    "V5_FINAL_COMPARISON.md",
+    "V5_RESEARCH_CONCLUSIONS.md",
+    "V5_NEXT_HYPOTHESES.md"
+  ],
+  "fresh_experimental_issue": "2026-11-18T22:51:50.449640+05:30",
+  "tests_passed": true,
+  "initial_fit_failures_preserved": 11,
+  "initial_failed_candidate_repaired": true,
+  "scope": [
+    "2025-01-01",
+    "2026-12-31"
+  ]
+}

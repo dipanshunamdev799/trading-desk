@@ -1,0 +1,108 @@
+{
+  "version": "V4-20261118-001",
+  "registered_at": "2026-11-18T09:28:01.980256+05:30",
+  "scope": [
+    "2025-01-01",
+    "2026-12-31"
+  ],
+  "historical_end": "2026-11-16",
+  "all_history_research_exposed": true,
+  "frozen_weekly": {
+    "M05_lgbm": {
+      "id": "M05_lgbm",
+      "kind": "lgbm",
+      "features": "full",
+      "parameters": {},
+      "research_only": false
+    },
+    "A00_sector": {
+      "id": "A00_sector",
+      "kind": "ridge",
+      "features": "sector",
+      "parameters": {
+        "alpha": 100
+      },
+      "research_only": false
+    },
+    "B00_empirical": {
+      "id": "B00_empirical",
+      "kind": "empirical",
+      "features": "price",
+      "parameters": {},
+      "research_only": false
+    }
+  },
+  "fixed_weekly_controls": {
+    "Z_reversion": ".45 if ret5>0 else .55",
+    "Z_neutral": 0.5
+  },
+  "frozen_training": "Exact V3 monthly refits, expanding matured labels, endpoint strictly before origin; min126; purged inner42/min80; no retuning",
+  "prospective_clock": "09:10:00 IST, prior complete NSE session; execution deadline 09:12:00; process must start before 09:10 and retrieve before decision",
+  "source_rule": "Actual local sent/received clocks plus server Date when available; immutable file hashes, revision checks; local clock is not external notarization",
+  "primary_weekly_comparisons": [
+    "M05_lgbm vs Z_reversion",
+    "M05_lgbm vs A00_sector",
+    "A00_sector vs Z_reversion"
+  ],
+  "distribution_candidates": {
+    "D00_empirical": "Latest252 matured return atoms, uniform weights; baseline",
+    "D01_regime_shrunk": "Latest252; causal ret21 sign x training-median RV21; conditional counts plus30 unconditional pseudoobservations",
+    "D02_student_shrunk": "Fixed df5 Student quantile atoms501; location .5*sectorRidge+.5*historicalmean; RMS inner residual scale, floor .005*sqrt(h/5)",
+    "D03_residual_shrunk": "Same shrunk location plus inner heldout sectorRidge residual atoms; no posthoc rescaling"
+  },
+  "distribution_status": "New exploratory algorithms; no outer-result selection; D00 and D03 retained for fixed monthly prospective comparison regardless of retrospective rank",
+  "calibration_diagnostics": {
+    "models": [
+      "M05_lgbm",
+      "A00_sector"
+    ],
+    "variants": [
+      "RAW",
+      "SHRINK50 toward matured latest252 base rate",
+      "OFFSET bounded[-1,1], inner logloss plus10*b^2/2"
+    ],
+    "activation": "NONE; raw frozen policies remain raw"
+  },
+  "lgbm_stress_variants": [
+    "rolling126",
+    "drop_sector",
+    "drop_fo",
+    "drop_institution",
+    "drop_global",
+    "drop_risk",
+    "drop_intraday",
+    "drop_etf"
+  ],
+  "stress_status": "Separate retrospective diagnostics, never eligible to replace frozen candidates",
+  "uncertainty": "Moving block2H,2000 reps, require8H rows; familywise standardized max-deviation intervals; disjoint phase sensitivity and leave-one-month-out",
+  "distribution_selection": "No adaptive selector and no tuning on outer results",
+  "primary_prospective": "First30 disjoint weekly /12 monthly for descriptive interim; qualification requires fixed final power-based N and no discretionary significance peeking",
+  "no_deployment": true,
+  "v3_design_sha256": "e53123f1004e94c0029f08c133bf4d20b72674809ffeb6c2384733f804e5aa8a",
+  "v3_dataset_sha256": "1e0ec0346b9cc99e85e8a051cff947d215496b8c4bdc858e99bd1e6a02747a4c",
+  "v3_source_hashes": {
+    "analyze.py": "52e267e8b26fd919a2b79757b5126e058cf9947c85647cca0e96daff8251ee29",
+    "audit.py": "4652276520cdd7d526056b4642d2f09494179cb086617b45320e41e70a0e0998",
+    "audit_report.py": "b1c45308604d86b13e1cc72c29ee2603dac0bd8943360c6c000976912d8e4d7e",
+    "data.py": "5eeab2b6a1b14f8ba989e3893513108873a19aa2ad907b19acb27cf90dfaf20a",
+    "discovery.py": "84755e15b5a54330efd418c196d50d0e94ea0fe08377aa6218720c163795cefa",
+    "experiment.py": "8ed9bdc195f31963ad7158f52f8684a912db9280d0a28470d029e88839428b4b",
+    "features.py": "e1534b009d51405a7fc046eb765e87f254c71d4c09ed34679a98db4fcd0237fb",
+    "freeze.py": "42f5d3a9803491fb64a06fb6a15d2277992cc9f6d994a2833ac6130498fc5103",
+    "legacy_diagnosis.py": "1ca3ca626e875dbb6803faaa9096c17af72cc5d7484948e55d40a9232da1ef4a",
+    "models.py": "672c6e41d03083e0eb660dbbd8716ce1223fb1b9e810c3d0ff44b6c263eaadfb",
+    "negative_controls.py": "316a13182da82c74c854cd71d2d8e8f3f58b21360df3f2deaa2fe581d5672662",
+    "reports.py": "86ba2efc6c3a4b3ccade2f2accc77c22609c15186ce55a6b4d953d38b571c8bf",
+    "reproduce.py": "0fb0a75ef281fdfe1f40fc077cc68c6c5e51f27569c7e95c03e9d77a9d854ed5",
+    "validation.py": "dd3aefce8241bfaf9c2fd9c33e096f9955519bf23a2abaf4fb52c918e5d86a3d",
+    "verify.py": "7140994d252240ed8b888effa3453b047e3f353061dbd780afe029d49bc63c79",
+    "__init__.py": "862d787de93b1412912015cef6fc7c75be9bb44e80f2c4e23e128068b90f1b57"
+  },
+  "v4_initial_code_hashes": {
+    "common.py": "b13303b618498d9f2208d1e3af4f3c030a3cd632bc9aa641d3e02bb41edf48b7",
+    "diagnostics.py": "31a7b1f08de44d51708e2c5aa29ad386d9f30d1ebae6bbf4fed29b6ee2f88045",
+    "distributions.py": "bdf0ee527930e17b354a803199a9e65da0f1d20c6c0fd966ee6941774d559017",
+    "reproduce.py": "938447028326846cc7f30540ac2bb6a4083a3531cbac632cdc36c71d54909b7c",
+    "__init__.py": "400bf2c57e05d6d222f5f85d4ac17252069e2283545e8a736b61e195dba6b553"
+  }
+}

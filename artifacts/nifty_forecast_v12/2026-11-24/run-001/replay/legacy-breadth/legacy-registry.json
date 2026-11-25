@@ -1,0 +1,30 @@
+{
+  "registered": "2026-11-25T00:12:59.836064+05:30",
+  "models": {
+    "V8_R_RESIDUAL_EQ": {
+      "parent": "V8_R_RESIDUAL",
+      "sources": "previous completed session official equal-weight/cap-weight spreads"
+    },
+    "V8_W_STRUCT_EMBARGO_EQ": {
+      "parent": "V8_W_STRUCT_EMBARGO",
+      "sources": "previous completed session official equal-weight/cap-weight spreads"
+    },
+    "V8_A_STRUCTURE_CHANGE_EQ": {
+      "parent": "V8_A_STRUCTURE_CHANGE",
+      "sources": "previous completed session official equal-weight/cap-weight spreads"
+    },
+    "P_CLUSTER_EQ": {
+      "parent": "P_CLUSTER",
+      "sources": "official breadth level/change pair"
+    },
+    "P_ROT_EQ": {
+      "parent": "P_ROT",
+      "sources": "official breadth level/change pair"
+    },
+    "P_STRUCTURE_EQ": {
+      "parent": "P_STRUCTURE",
+      "sources": "official breadth level/change pair"
+    }
+  },
+  "code": "a9c9b7099ed0b9607d46c569da80509bd8e8e47e41d7ce6431e346c2226b1e1a"
+}

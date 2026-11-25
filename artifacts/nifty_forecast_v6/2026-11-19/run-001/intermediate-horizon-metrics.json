@@ -1,0 +1,787 @@
+[
+  {
+    "horizon": 10,
+    "model": "A_STUDENT",
+    "n": 76,
+    "accuracy": 0.5263157894736842,
+    "rmse": 0.02031582473773115,
+    "brier": 0.2505458395911312,
+    "log_loss": 0.6945579772551964,
+    "mae": 0.01706136627474265,
+    "median_mae": 0.017422598549390843,
+    "crps": 0.012051941515532686,
+    "pinball": 0.005889665693486769,
+    "bucket_brier": 0.8357540801168936,
+    "coverage50": 0.5,
+    "coverage80": 0.7763157894736842,
+    "width50": 0.02982602179390248,
+    "width80": 0.057350060362812746,
+    "bucket_calibration": [
+      {
+        "bucket": 0,
+        "predicted": 0.023233218124279944,
+        "observed": 0.013157894736842105
+      },
+      {
+        "bucket": 1,
+        "predicted": 0.10106869157515552,
+        "observed": 0.23684210526315788
+      },
+      {
+        "bucket": 2,
+        "predicted": 0.20973593975587296,
+        "observed": 0.3026315789473684
+      },
+      {
+        "bucket": 3,
+        "predicted": 0.16483207186711543,
+        "observed": 0.21052631578947367
+      },
+      {
+        "bucket": 4,
+        "predicted": 0.22274376194017817,
+        "observed": 0.14473684210526316
+      },
+      {
+        "bucket": 5,
+        "predicted": 0.23144628377885637,
+        "observed": 0.09210526315789473
+      },
+      {
+        "bucket": 6,
+        "predicted": 0.046940032958539275,
+        "observed": 0.0
+      }
+    ],
+    "balanced_accuracy": 0.6307692307692307,
+    "mean_return": -0.00713004815879974,
+    "calibration_bins": [
+      {
+        "lo": 0,
+        "hi": 0.35,
+        "n": 3,
+        "predicted": 0.30058880576336927,
+        "observed": 0.0
+      },
+      {
+        "lo": 0.35,
+        "hi": 0.45,
+        "n": 8,
+        "predicted": 0.4145569236630646,
+        "observed": 0.125
+      },
+      {
+        "lo": 0.45,
+        "hi": 0.55,
+        "n": 15,
+        "predicted": 0.5120836796896648,
+        "observed": 0.2
+      },
+      {
+        "lo": 0.55,
+        "hi": 0.65,
+        "n": 27,
+        "predicted": 0.5936387169935244,
+        "observed": 0.2962962962962963
+      },
+      {
+        "lo": 0.65,
+        "hi": 1,
+        "n": 23,
+        "predicted": 0.719946510535256,
+        "observed": 0.6086956521739131
+      }
+    ],
+    "ece": 0.24324331714573216,
+    "disjoint_n": 8,
+    "relative_crps_gain": -0.039107073168093365,
+    "normalized_brier_gain": 0.00016982191713682537,
+    "intervals": "NOT ESTIMATED: too few dependent common-date outcomes"
+  },
+  {
+    "horizon": 10,
+    "model": "H_DYNAMIC_CORE",
+    "n": 76,
+    "accuracy": 0.39473684210526316,
+    "rmse": 0.021708342032834217,
+    "brier": 0.31016853165486463,
+    "log_loss": 0.820790696449514,
+    "mae": 0.017995622742808227,
+    "median_mae": 0.019017692447513047,
+    "crps": 0.01298943613039115,
+    "pinball": 0.006310104360674375,
+    "bucket_brier": 0.8626619178982509,
+    "coverage50": 0.39473684210526316,
+    "coverage80": 0.7763157894736842,
+    "width50": 0.026824249591531634,
+    "width80": 0.052281921294774145,
+    "bucket_calibration": [
+      {
+        "bucket": 0,
+        "predicted": 0.015481411862990808,
+        "observed": 0.013157894736842105
+      },
+      {
+        "bucket": 1,
+        "predicted": 0.12801796157059314,
+        "observed": 0.23684210526315788
+      },
+      {
+        "bucket": 2,
+        "predicted": 0.2675360275689221,
+        "observed": 0.3026315789473684
+      },
+      {
+        "bucket": 3,
+        "predicted": 0.17929720133667493,
+        "observed": 0.21052631578947367
+      },
+      {
+        "bucket": 4,
+        "predicted": 0.20752401837928142,
+        "observed": 0.14473684210526316
+      },
+      {
+        "bucket": 5,
+        "predicted": 0.18997754803675848,
+        "observed": 0.09210526315789473
+      },
+      {
+        "bucket": 6,
+        "predicted": 0.012165831244778614,
+        "observed": 0.0
+      }
+    ],
+    "balanced_accuracy": 0.34615384615384615,
+    "mean_return": -0.00713004815879974,
+    "calibration_bins": [
+      {
+        "lo": 0,
+        "hi": 0.35,
+        "n": 4,
+        "predicted": 0.30213293650793654,
+        "observed": 0.25
+      },
+      {
+        "lo": 0.35,
+        "hi": 0.45,
+        "n": 30,
+        "predicted": 0.39413359788359786,
+        "observed": 0.5333333333333333
+      },
+      {
+        "lo": 0.45,
+        "hi": 0.55,
+        "n": 16,
+        "predicted": 0.4937872023809524,
+        "observed": 0.4375
+      },
+      {
+        "lo": 0.55,
+        "hi": 0.65,
+        "n": 14,
+        "predicted": 0.5930413832199547,
+        "observed": 0.14285714285714285
+      },
+      {
+        "lo": 0.65,
+        "hi": 1,
+        "n": 12,
+        "predicted": 0.716170634920635,
+        "observed": 0.0
+      }
+    ],
+    "ece": 0.2655492898913952,
+    "disjoint_n": 8,
+    "relative_crps_gain": -0.11993697796815576,
+    "normalized_brier_gain": -0.059452870146596615,
+    "intervals": "NOT ESTIMATED: too few dependent common-date outcomes"
+  },
+  {
+    "horizon": 10,
+    "model": "J_EQUAL",
+    "n": 76,
+    "accuracy": 0.4605263157894737,
+    "rmse": 0.019750245556775115,
+    "brier": 0.2662418716268184,
+    "log_loss": 0.728521013809334,
+    "mae": 0.016564827901650078,
+    "median_mae": 0.0169112772629246,
+    "crps": 0.01186418942206865,
+    "pinball": 0.005814382425733351,
+    "bucket_brier": 0.8368494794360238,
+    "coverage50": 0.4605263157894737,
+    "coverage80": 0.7368421052631579,
+    "width50": 0.028015956074453053,
+    "width80": 0.05021171340124347,
+    "bucket_calibration": [
+      {
+        "bucket": 0,
+        "predicted": 0.015277777777777767,
+        "observed": 0.013157894736842105
+      },
+      {
+        "bucket": 1,
+        "predicted": 0.10643274853801164,
+        "observed": 0.23684210526315788
+      },
+      {
+        "bucket": 2,
+        "predicted": 0.2503289473684209,
+        "observed": 0.3026315789473684
+      },
+      {
+        "bucket": 3,
+        "predicted": 0.179908103592314,
+        "observed": 0.21052631578947367
+      },
+      {
+        "bucket": 4,
+        "predicted": 0.2205565998329155,
+        "observed": 0.14473684210526316
+      },
+      {
+        "bucket": 5,
+        "predicted": 0.20433375104427726,
+        "observed": 0.09210526315789473
+      },
+      {
+        "bucket": 6,
+        "predicted": 0.02316207184628237,
+        "observed": 0.0
+      }
+    ],
+    "balanced_accuracy": 0.4976923076923077,
+    "mean_return": -0.00713004815879974,
+    "calibration_bins": [
+      {
+        "lo": 0,
+        "hi": 0.35,
+        "n": 8,
+        "predicted": 0.300843253968254,
+        "observed": 0.375
+      },
+      {
+        "lo": 0.35,
+        "hi": 0.45,
+        "n": 12,
+        "predicted": 0.38265542328042335,
+        "observed": 0.16666666666666666
+      },
+      {
+        "lo": 0.45,
+        "hi": 0.55,
+        "n": 19,
+        "predicted": 0.4962301587301588,
+        "observed": 0.3684210526315789
+      },
+      {
+        "lo": 0.55,
+        "hi": 0.65,
+        "n": 16,
+        "predicted": 0.603546626984127,
+        "observed": 0.25
+      },
+      {
+        "lo": 0.65,
+        "hi": 1,
+        "n": 21,
+        "predicted": 0.7148337112622828,
+        "observed": 0.47619047619047616
+      }
+    ],
+    "ece": 0.21423350041771103,
+    "disjoint_n": 8,
+    "relative_crps_gain": -0.022919264086116255,
+    "normalized_brier_gain": -0.015526210118550376,
+    "intervals": "NOT ESTIMATED: too few dependent common-date outcomes"
+  },
+  {
+    "horizon": 10,
+    "model": "R_I03",
+    "n": 76,
+    "accuracy": 0.4868421052631579,
+    "rmse": 0.019465944710546218,
+    "brier": 0.2593311206670778,
+    "log_loss": 0.7120113621879357,
+    "mae": 0.01629037541575313,
+    "median_mae": 0.016761248017695123,
+    "crps": 0.011822144212695587,
+    "pinball": 0.005831961513352908,
+    "bucket_brier": 0.839955182060641,
+    "coverage50": 0.47368421052631576,
+    "coverage80": 0.7105263157894737,
+    "width50": 0.02903275925843136,
+    "width80": 0.051152881083847745,
+    "bucket_calibration": [
+      {
+        "bucket": 0,
+        "predicted": 0.015277777777777776,
+        "observed": 0.013157894736842105
+      },
+      {
+        "bucket": 1,
+        "predicted": 0.09686194653299914,
+        "observed": 0.23684210526315788
+      },
+      {
+        "bucket": 2,
+        "predicted": 0.242081766917293,
+        "observed": 0.3026315789473684
+      },
+      {
+        "bucket": 3,
+        "predicted": 0.1803153717627401,
+        "observed": 0.21052631578947367
+      },
+      {
+        "bucket": 4,
+        "predicted": 0.21892752715121125,
+        "observed": 0.14473684210526316
+      },
+      {
+        "bucket": 5,
+        "predicted": 0.21176639515455295,
+        "observed": 0.09210526315789473
+      },
+      {
+        "bucket": 6,
+        "predicted": 0.03476921470342524,
+        "observed": 0.0
+      }
+    ],
+    "balanced_accuracy": 0.5453846153846154,
+    "mean_return": -0.00713004815879974,
+    "calibration_bins": [
+      {
+        "lo": 0,
+        "hi": 0.35,
+        "n": 8,
+        "predicted": 0.3101934523809524,
+        "observed": 0.125
+      },
+      {
+        "lo": 0.35,
+        "hi": 0.45,
+        "n": 13,
+        "predicted": 0.4045940170940171,
+        "observed": 0.3076923076923077
+      },
+      {
+        "lo": 0.45,
+        "hi": 0.55,
+        "n": 14,
+        "predicted": 0.5054138321995466,
+        "observed": 0.35714285714285715
+      },
+      {
+        "lo": 0.55,
+        "hi": 0.65,
+        "n": 15,
+        "predicted": 0.5939682539682541,
+        "observed": 0.13333333333333333
+      },
+      {
+        "lo": 0.65,
+        "hi": 1,
+        "n": 26,
+        "predicted": 0.7317155067155069,
+        "observed": 0.5384615384615384
+      }
+    ],
+    "ece": 0.22041040100250642,
+    "disjoint_n": 8,
+    "relative_crps_gain": -0.019294165640685205,
+    "normalized_brier_gain": -0.00861545915880979,
+    "intervals": "NOT ESTIMATED: too few dependent common-date outcomes"
+  },
+  {
+    "horizon": 15,
+    "model": "A_STUDENT",
+    "n": 76,
+    "accuracy": 0.4868421052631579,
+    "rmse": 0.028666332773102647,
+    "brier": 0.272522632946199,
+    "log_loss": 0.7406708665996365,
+    "mae": 0.023229408000868132,
+    "median_mae": 0.02355084405554811,
+    "crps": 0.017378867896525516,
+    "pinball": 0.008556185329644883,
+    "bucket_brier": 0.8550765890214753,
+    "coverage50": 0.4473684210526316,
+    "coverage80": 0.7236842105263158,
+    "width50": 0.03644394360767391,
+    "width80": 0.07411738994244729,
+    "bucket_calibration": [
+      {
+        "bucket": 0,
+        "predicted": 0.03920462002887518,
+        "observed": 0.0
+      },
+      {
+        "bucket": 1,
+        "predicted": 0.11140300746671314,
+        "observed": 0.42105263157894735
+      },
+      {
+        "bucket": 2,
+        "predicted": 0.13649014342797947,
+        "observed": 0.15789473684210525
+      },
+      {
+        "bucket": 3,
+        "predicted": 0.1491810495690595,
+        "observed": 0.09210526315789473
+      },
+      {
+        "bucket": 4,
+        "predicted": 0.20633412812996693,
+        "observed": 0.17105263157894737
+      },
+      {
+        "bucket": 5,
+        "predicted": 0.24971781073631644,
+        "observed": 0.10526315789473684
+      },
+      {
+        "bucket": 6,
+        "predicted": 0.10766924064108711,
+        "observed": 0.05263157894736842
+      }
+    ],
+    "balanced_accuracy": 0.6020408163265306,
+    "mean_return": -0.006898802009529068,
+    "calibration_bins": [
+      {
+        "lo": 0,
+        "hi": 0.35,
+        "n": 1,
+        "predicted": 0.33547035189803265,
+        "observed": 0.0
+      },
+      {
+        "lo": 0.35,
+        "hi": 0.45,
+        "n": 5,
+        "predicted": 0.3946598780825713,
+        "observed": 0.0
+      },
+      {
+        "lo": 0.45,
+        "hi": 0.55,
+        "n": 9,
+        "predicted": 0.5058257134940427,
+        "observed": 0.1111111111111111
+      },
+      {
+        "lo": 0.55,
+        "hi": 0.65,
+        "n": 18,
+        "predicted": 0.6128353883808996,
+        "observed": 0.05555555555555555
+      },
+      {
+        "lo": 0.65,
+        "hi": 1,
+        "n": 43,
+        "predicted": 0.7069674811678813,
+        "observed": 0.5813953488372093
+      }
+    ],
+    "ece": 0.28015578743200475,
+    "disjoint_n": 6,
+    "relative_crps_gain": 0.013813328623950695,
+    "normalized_brier_gain": -0.01566686919820459,
+    "intervals": "NOT ESTIMATED: too few dependent common-date outcomes"
+  },
+  {
+    "horizon": 15,
+    "model": "H_DYNAMIC_CORE",
+    "n": 76,
+    "accuracy": 0.4473684210526316,
+    "rmse": 0.03175029918910265,
+    "brier": 0.29592748819800835,
+    "log_loss": 0.797141911214419,
+    "mae": 0.02642264650578803,
+    "median_mae": 0.027177043908925357,
+    "crps": 0.01922220550896179,
+    "pinball": 0.00937672661671937,
+    "bucket_brier": 0.9053255047754968,
+    "coverage50": 0.3684210526315789,
+    "coverage80": 0.6052631578947368,
+    "width50": 0.03179836611811813,
+    "width80": 0.05473596179297693,
+    "bucket_calibration": [
+      {
+        "bucket": 0,
+        "predicted": 0.027850877192982446,
+        "observed": 0.0
+      },
+      {
+        "bucket": 1,
+        "predicted": 0.15923924394319125,
+        "observed": 0.42105263157894735
+      },
+      {
+        "bucket": 2,
+        "predicted": 0.1948021094402672,
+        "observed": 0.15789473684210525
+      },
+      {
+        "bucket": 3,
+        "predicted": 0.17807017543859635,
+        "observed": 0.09210526315789473
+      },
+      {
+        "bucket": 4,
+        "predicted": 0.21527777777777768,
+        "observed": 0.17105263157894737
+      },
+      {
+        "bucket": 5,
+        "predicted": 0.20089285714285707,
+        "observed": 0.10526315789473684
+      },
+      {
+        "bucket": 6,
+        "predicted": 0.023866959064327488,
+        "observed": 0.05263157894736842
+      }
+    ],
+    "balanced_accuracy": 0.4467120181405896,
+    "mean_return": -0.006898802009529068,
+    "calibration_bins": [
+      {
+        "lo": 0.35,
+        "hi": 0.45,
+        "n": 24,
+        "predicted": 0.4127976190476191,
+        "observed": 0.4166666666666667
+      },
+      {
+        "lo": 0.45,
+        "hi": 0.55,
+        "n": 27,
+        "predicted": 0.4988536155202823,
+        "observed": 0.4444444444444444
+      },
+      {
+        "lo": 0.55,
+        "hi": 0.65,
+        "n": 15,
+        "predicted": 0.5965079365079365,
+        "observed": 0.2
+      },
+      {
+        "lo": 0.65,
+        "hi": 1,
+        "n": 10,
+        "predicted": 0.7805555555555557,
+        "observed": 0.2
+      }
+    ],
+    "ece": 0.17519841269841277,
+    "disjoint_n": 6,
+    "relative_crps_gain": -0.09078928387385427,
+    "normalized_brier_gain": -0.039071724450013945,
+    "intervals": "NOT ESTIMATED: too few dependent common-date outcomes"
+  },
+  {
+    "horizon": 15,
+    "model": "J_EQUAL",
+    "n": 76,
+    "accuracy": 0.4868421052631579,
+    "rmse": 0.029899592869230805,
+    "brier": 0.26018211036851396,
+    "log_loss": 0.7142944669049663,
+    "mae": 0.025183141124408028,
+    "median_mae": 0.02560963014651902,
+    "crps": 0.018818980505375466,
+    "pinball": 0.009226249640034788,
+    "bucket_brier": 0.9057485303453741,
+    "coverage50": 0.35526315789473684,
+    "coverage80": 0.6052631578947368,
+    "width50": 0.03523523687401762,
+    "width80": 0.06717326242625316,
+    "bucket_calibration": [
+      {
+        "bucket": 0,
+        "predicted": 0.027545426065162904,
+        "observed": 0.0
+      },
+      {
+        "bucket": 1,
+        "predicted": 0.11942878028404334,
+        "observed": 0.42105263157894735
+      },
+      {
+        "bucket": 2,
+        "predicted": 0.15886069340016695,
+        "observed": 0.15789473684210525
+      },
+      {
+        "bucket": 3,
+        "predicted": 0.1668703007518795,
+        "observed": 0.09210526315789473
+      },
+      {
+        "bucket": 4,
+        "predicted": 0.21680503341687535,
+        "observed": 0.17105263157894737
+      },
+      {
+        "bucket": 5,
+        "predicted": 0.20883458646616532,
+        "observed": 0.10526315789473684
+      },
+      {
+        "bucket": 6,
+        "predicted": 0.10165517961570596,
+        "observed": 0.05263157894736842
+      }
+    ],
+    "balanced_accuracy": 0.5687830687830688,
+    "mean_return": -0.006898802009529068,
+    "calibration_bins": [
+      {
+        "lo": 0,
+        "hi": 0.35,
+        "n": 5,
+        "predicted": 0.2935317460317461,
+        "observed": 0.0
+      },
+      {
+        "lo": 0.35,
+        "hi": 0.45,
+        "n": 10,
+        "predicted": 0.392638888888889,
+        "observed": 0.3
+      },
+      {
+        "lo": 0.45,
+        "hi": 0.55,
+        "n": 7,
+        "predicted": 0.4972222222222223,
+        "observed": 0.14285714285714285
+      },
+      {
+        "lo": 0.55,
+        "hi": 0.65,
+        "n": 15,
+        "predicted": 0.6070634920634921,
+        "observed": 0.06666666666666667
+      },
+      {
+        "lo": 0.65,
+        "hi": 1,
+        "n": 39,
+        "predicted": 0.7234737484737485,
+        "observed": 0.5641025641025641
+      }
+    ],
+    "ece": 0.25257936507936507,
+    "disjoint_n": 6,
+    "relative_crps_gain": -0.06790775174701807,
+    "normalized_brier_gain": -0.00332634662051956,
+    "intervals": "NOT ESTIMATED: too few dependent common-date outcomes"
+  },
+  {
+    "horizon": 15,
+    "model": "R_I03",
+    "n": 76,
+    "accuracy": 0.5263157894736842,
+    "rmse": 0.030997654256271753,
+    "brier": 0.2679562456074048,
+    "log_loss": 0.7322979666010607,
+    "mae": 0.026793878487721155,
+    "median_mae": 0.028056743169747593,
+    "crps": 0.019511486738142788,
+    "pinball": 0.009619836814889314,
+    "bucket_brier": 0.9208474321136836,
+    "coverage50": 0.32894736842105265,
+    "coverage80": 0.6973684210526315,
+    "width50": 0.0378837027379658,
+    "width80": 0.06948940441925439,
+    "bucket_calibration": [
+      {
+        "bucket": 0,
+        "predicted": 0.02723997493734335,
+        "observed": 0.0
+      },
+      {
+        "bucket": 1,
+        "predicted": 0.1258432539682539,
+        "observed": 0.42105263157894735
+      },
+      {
+        "bucket": 2,
+        "predicted": 0.1487808061821219,
+        "observed": 0.15789473684210525
+      },
+      {
+        "bucket": 3,
+        "predicted": 0.15974310776942346,
+        "observed": 0.09210526315789473
+      },
+      {
+        "bucket": 4,
+        "predicted": 0.20468880534669998,
+        "observed": 0.17105263157894737
+      },
+      {
+        "bucket": 5,
+        "predicted": 0.21718358395989967,
+        "observed": 0.10526315789473684
+      },
+      {
+        "bucket": 6,
+        "predicted": 0.11652046783625732,
+        "observed": 0.05263157894736842
+      }
+    ],
+    "balanced_accuracy": 0.5993953136810279,
+    "mean_return": -0.006898802009529068,
+    "calibration_bins": [
+      {
+        "lo": 0,
+        "hi": 0.35,
+        "n": 11,
+        "predicted": 0.2780122655122655,
+        "observed": 0.09090909090909091
+      },
+      {
+        "lo": 0.35,
+        "hi": 0.45,
+        "n": 9,
+        "predicted": 0.4123015873015874,
+        "observed": 0.3333333333333333
+      },
+      {
+        "lo": 0.45,
+        "hi": 0.55,
+        "n": 2,
+        "predicted": 0.49573412698412705,
+        "observed": 0.0
+      },
+      {
+        "lo": 0.55,
+        "hi": 0.65,
+        "n": 5,
+        "predicted": 0.593888888888889,
+        "observed": 0.2
+      },
+      {
+        "lo": 0.65,
+        "hi": 1,
+        "n": 49,
+        "predicted": 0.7339083252348562,
+        "observed": 0.4489795918367347
+      }
+    ],
+    "ece": 0.2590956558061823,
+    "disjoint_n": 6,
+    "relative_crps_gain": -0.10720492695234374,
+    "normalized_brier_gain": -0.011100481859410372,
+    "intervals": "NOT ESTIMATED: too few dependent common-date outcomes"
+  }
+]

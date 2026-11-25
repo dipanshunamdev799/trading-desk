@@ -1,0 +1,179 @@
+{
+  "registered_at": "2026-11-24T13:55:08.512678+05:30",
+  "configurations": {
+    "O85_PLAIN": {
+      "frame": "ten",
+      "parent": "BASE10",
+      "budget": 85,
+      "overlap": "plain",
+      "hypothesis": "Same source eligibility and train budget. Vary only temporal dependence treatment."
+    },
+    "O85_PHASE0": {
+      "frame": "ten",
+      "parent": "O85_PLAIN",
+      "budget": 85,
+      "overlap": "phase0",
+      "hypothesis": "Same source eligibility and train budget. Vary only temporal dependence treatment."
+    },
+    "O85_PHASE1": {
+      "frame": "ten",
+      "parent": "O85_PLAIN",
+      "budget": 85,
+      "overlap": "phase1",
+      "hypothesis": "Same source eligibility and train budget. Vary only temporal dependence treatment."
+    },
+    "O85_STAGGERED": {
+      "frame": "ten",
+      "parent": "O85_PLAIN",
+      "budget": 85,
+      "overlap": "staggered",
+      "hypothesis": "Same source eligibility and train budget. Vary only temporal dependence treatment."
+    },
+    "O85_OVERLAP_WEIGHT": {
+      "frame": "ten",
+      "parent": "O85_PLAIN",
+      "budget": 85,
+      "overlap": "overlap_weight",
+      "hypothesis": "Same source eligibility and train budget. Vary only temporal dependence treatment."
+    },
+    "O85_GLS": {
+      "frame": "ten",
+      "parent": "O85_PLAIN",
+      "budget": 85,
+      "overlap": "gls",
+      "hypothesis": "Same source eligibility and train budget. Vary only temporal dependence treatment."
+    },
+    "O85_GLS_STRONG": {
+      "frame": "ten",
+      "parent": "O85_PLAIN",
+      "budget": 85,
+      "overlap": "gls_strong",
+      "hypothesis": "Same source eligibility and train budget. Vary only temporal dependence treatment."
+    },
+    "O85_BLOCKMEAN": {
+      "frame": "ten",
+      "parent": "O85_PLAIN",
+      "budget": 85,
+      "overlap": "blockmean",
+      "hypothesis": "Same source eligibility and train budget. Vary only temporal dependence treatment."
+    },
+    "O126_PLAIN": {
+      "frame": "ten",
+      "parent": "BASE10",
+      "budget": 126,
+      "overlap": "plain",
+      "hypothesis": "Same source eligibility and train budget. Vary only temporal dependence treatment."
+    },
+    "O126_PHASE0": {
+      "frame": "ten",
+      "parent": "O126_PLAIN",
+      "budget": 126,
+      "overlap": "phase0",
+      "hypothesis": "Same source eligibility and train budget. Vary only temporal dependence treatment."
+    },
+    "O126_PHASE1": {
+      "frame": "ten",
+      "parent": "O126_PLAIN",
+      "budget": 126,
+      "overlap": "phase1",
+      "hypothesis": "Same source eligibility and train budget. Vary only temporal dependence treatment."
+    },
+    "O126_STAGGERED": {
+      "frame": "ten",
+      "parent": "O126_PLAIN",
+      "budget": 126,
+      "overlap": "staggered",
+      "hypothesis": "Same source eligibility and train budget. Vary only temporal dependence treatment."
+    },
+    "O126_OVERLAP_WEIGHT": {
+      "frame": "ten",
+      "parent": "O126_PLAIN",
+      "budget": 126,
+      "overlap": "overlap_weight",
+      "hypothesis": "Same source eligibility and train budget. Vary only temporal dependence treatment."
+    },
+    "O126_GLS": {
+      "frame": "ten",
+      "parent": "O126_PLAIN",
+      "budget": 126,
+      "overlap": "gls",
+      "hypothesis": "Same source eligibility and train budget. Vary only temporal dependence treatment."
+    },
+    "O126_GLS_STRONG": {
+      "frame": "ten",
+      "parent": "O126_PLAIN",
+      "budget": 126,
+      "overlap": "gls_strong",
+      "hypothesis": "Same source eligibility and train budget. Vary only temporal dependence treatment."
+    },
+    "O126_BLOCKMEAN": {
+      "frame": "ten",
+      "parent": "O126_PLAIN",
+      "budget": 126,
+      "overlap": "blockmean",
+      "hypothesis": "Same source eligibility and train budget. Vary only temporal dependence treatment."
+    },
+    "OMAX_PLAIN": {
+      "frame": "ten",
+      "parent": "BASE10",
+      "budget": null,
+      "overlap": "plain",
+      "hypothesis": "Same source eligibility and train budget. Vary only temporal dependence treatment."
+    },
+    "OMAX_PHASE0": {
+      "frame": "ten",
+      "parent": "OMAX_PLAIN",
+      "budget": null,
+      "overlap": "phase0",
+      "hypothesis": "Same source eligibility and train budget. Vary only temporal dependence treatment."
+    },
+    "OMAX_PHASE1": {
+      "frame": "ten",
+      "parent": "OMAX_PLAIN",
+      "budget": null,
+      "overlap": "phase1",
+      "hypothesis": "Same source eligibility and train budget. Vary only temporal dependence treatment."
+    },
+    "OMAX_STAGGERED": {
+      "frame": "ten",
+      "parent": "OMAX_PLAIN",
+      "budget": null,
+      "overlap": "staggered",
+      "hypothesis": "Same source eligibility and train budget. Vary only temporal dependence treatment."
+    },
+    "OMAX_OVERLAP_WEIGHT": {
+      "frame": "ten",
+      "parent": "OMAX_PLAIN",
+      "budget": null,
+      "overlap": "overlap_weight",
+      "hypothesis": "Same source eligibility and train budget. Vary only temporal dependence treatment."
+    },
+    "OMAX_GLS": {
+      "frame": "ten",
+      "parent": "OMAX_PLAIN",
+      "budget": null,
+      "overlap": "gls",
+      "hypothesis": "Same source eligibility and train budget. Vary only temporal dependence treatment."
+    },
+    "OMAX_GLS_STRONG": {
+      "frame": "ten",
+      "parent": "OMAX_PLAIN",
+      "budget": null,
+      "overlap": "gls_strong",
+      "hypothesis": "Same source eligibility and train budget. Vary only temporal dependence treatment."
+    },
+    "OMAX_BLOCKMEAN": {
+      "frame": "ten",
+      "parent": "OMAX_PLAIN",
+      "budget": null,
+      "overlap": "blockmean",
+      "hypothesis": "Same source eligibility and train budget. Vary only temporal dependence treatment."
+    }
+  },
+  "seed": 20261130,
+  "code_hashes": {
+    "experiments.py": "48baf634853e2d9016ca7f0e79d5e8ae00c42fbde533b3c9bb9939b5960bdef8",
+    "estimators.py": "70396610d7201423c4151cb004e61a63986cec9a5ec73496a16aa1f45b7f0f09",
+    "targets.py": "9bb9d2060fef1bc2b1add51c129d8dc4e792afae782e6b5c8183f82a1ae5f752"
+  }
+}

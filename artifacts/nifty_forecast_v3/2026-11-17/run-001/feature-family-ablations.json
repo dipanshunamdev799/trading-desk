@@ -1,0 +1,667 @@
+[
+  {
+    "horizon": 5,
+    "metric": "brier",
+    "comparison": "M00_ridge_price",
+    "full_context_improvement": -0.06782823898898306,
+    "paired_ci95": [
+      -0.13335583028086415,
+      0.0009297205956006776
+    ],
+    "proxy_cannot_validate_true_historical_breadth": false
+  },
+  {
+    "horizon": 5,
+    "metric": "brier",
+    "comparison": "A00_sector",
+    "full_context_improvement": -0.08068015137434977,
+    "paired_ci95": [
+      -0.1409159417272016,
+      -0.011333143906130197
+    ],
+    "proxy_cannot_validate_true_historical_breadth": false
+  },
+  {
+    "horizon": 5,
+    "metric": "brier",
+    "comparison": "A01_nofo",
+    "full_context_improvement": -0.042445974217916314,
+    "paired_ci95": [
+      -0.08176137395936685,
+      0.009957053351785877
+    ],
+    "proxy_cannot_validate_true_historical_breadth": false
+  },
+  {
+    "horizon": 5,
+    "metric": "brier",
+    "comparison": "A02_proxy",
+    "full_context_improvement": -0.011392493809846563,
+    "paired_ci95": [
+      -0.03948278690257355,
+      0.004263045949315001
+    ],
+    "proxy_cannot_validate_true_historical_breadth": true
+  },
+  {
+    "horizon": 5,
+    "metric": "brier",
+    "comparison": "A03_interact",
+    "full_context_improvement": 0.05929350704156741,
+    "paired_ci95": [
+      -0.0006992982458824628,
+      0.12797254737695127
+    ],
+    "proxy_cannot_validate_true_historical_breadth": false
+  },
+  {
+    "horizon": 5,
+    "metric": "brier",
+    "comparison": "M04_corr_ridge",
+    "full_context_improvement": -0.01063141583588009,
+    "paired_ci95": [
+      -0.020200843828838452,
+      -0.003266756780698427
+    ],
+    "proxy_cannot_validate_true_historical_breadth": false
+  },
+  {
+    "horizon": 5,
+    "metric": "brier",
+    "comparison": "M07_sequence",
+    "full_context_improvement": -0.07338208278643908,
+    "paired_ci95": [
+      -0.13939370640748622,
+      -0.0063028920798760485
+    ],
+    "proxy_cannot_validate_true_historical_breadth": false
+  },
+  {
+    "horizon": 5,
+    "metric": "mae",
+    "comparison": "M00_ridge_price",
+    "full_context_improvement": -0.0011854093022264963,
+    "paired_ci95": [
+      -0.004147097977769414,
+      0.0017560104879236996
+    ],
+    "proxy_cannot_validate_true_historical_breadth": false
+  },
+  {
+    "horizon": 5,
+    "metric": "mae",
+    "comparison": "A00_sector",
+    "full_context_improvement": -0.0019049818453591462,
+    "paired_ci95": [
+      -0.004067290490971961,
+      0.0005744914347423566
+    ],
+    "proxy_cannot_validate_true_historical_breadth": false
+  },
+  {
+    "horizon": 5,
+    "metric": "mae",
+    "comparison": "A01_nofo",
+    "full_context_improvement": -0.001483966066886737,
+    "paired_ci95": [
+      -0.003295761623615544,
+      0.0002780800718264052
+    ],
+    "proxy_cannot_validate_true_historical_breadth": false
+  },
+  {
+    "horizon": 5,
+    "metric": "mae",
+    "comparison": "A02_proxy",
+    "full_context_improvement": 7.853350041828618e-05,
+    "paired_ci95": [
+      -0.0005559417679453093,
+      0.0006739899051951744
+    ],
+    "proxy_cannot_validate_true_historical_breadth": true
+  },
+  {
+    "horizon": 5,
+    "metric": "mae",
+    "comparison": "A03_interact",
+    "full_context_improvement": 0.0024756170960904323,
+    "paired_ci95": [
+      0.0006642639154597129,
+      0.004781046849177466
+    ],
+    "proxy_cannot_validate_true_historical_breadth": false
+  },
+  {
+    "horizon": 5,
+    "metric": "mae",
+    "comparison": "M04_corr_ridge",
+    "full_context_improvement": -0.00016592477999787802,
+    "paired_ci95": [
+      -0.0003928546639030201,
+      6.0158161349057584e-05
+    ],
+    "proxy_cannot_validate_true_historical_breadth": false
+  },
+  {
+    "horizon": 5,
+    "metric": "mae",
+    "comparison": "M07_sequence",
+    "full_context_improvement": -0.0014131873173362317,
+    "paired_ci95": [
+      -0.004295498560127899,
+      0.0011456878504059926
+    ],
+    "proxy_cannot_validate_true_historical_breadth": false
+  },
+  {
+    "horizon": 5,
+    "metric": "crps",
+    "comparison": "M00_ridge_price",
+    "full_context_improvement": -0.0015367072053220723,
+    "paired_ci95": [
+      -0.005050016343044457,
+      0.0015031475429873157
+    ],
+    "proxy_cannot_validate_true_historical_breadth": false
+  },
+  {
+    "horizon": 5,
+    "metric": "crps",
+    "comparison": "A00_sector",
+    "full_context_improvement": -0.004408866838234004,
+    "paired_ci95": [
+      -0.007332733926123547,
+      -0.001552392284854497
+    ],
+    "proxy_cannot_validate_true_historical_breadth": false
+  },
+  {
+    "horizon": 5,
+    "metric": "crps",
+    "comparison": "A01_nofo",
+    "full_context_improvement": -0.003283386812822193,
+    "paired_ci95": [
+      -0.0048917390401903285,
+      -0.0013471513303105504
+    ],
+    "proxy_cannot_validate_true_historical_breadth": false
+  },
+  {
+    "horizon": 5,
+    "metric": "crps",
+    "comparison": "A02_proxy",
+    "full_context_improvement": 0.00042165931501687804,
+    "paired_ci95": [
+      -0.00015529328230788877,
+      0.0007416418360342372
+    ],
+    "proxy_cannot_validate_true_historical_breadth": true
+  },
+  {
+    "horizon": 5,
+    "metric": "crps",
+    "comparison": "A03_interact",
+    "full_context_improvement": 0.0031705928925223766,
+    "paired_ci95": [
+      0.0003863290067518497,
+      0.005496735622851575
+    ],
+    "proxy_cannot_validate_true_historical_breadth": false
+  },
+  {
+    "horizon": 5,
+    "metric": "crps",
+    "comparison": "M04_corr_ridge",
+    "full_context_improvement": -0.00013687800398270222,
+    "paired_ci95": [
+      -0.0003244524012891232,
+      8.627009678618002e-05
+    ],
+    "proxy_cannot_validate_true_historical_breadth": false
+  },
+  {
+    "horizon": 5,
+    "metric": "crps",
+    "comparison": "M07_sequence",
+    "full_context_improvement": -0.002139940808630562,
+    "paired_ci95": [
+      -0.00548231747868509,
+      0.0009226803139511194
+    ],
+    "proxy_cannot_validate_true_historical_breadth": false
+  },
+  {
+    "horizon": 5,
+    "metric": "qlike",
+    "comparison": "M00_ridge_price",
+    "full_context_improvement": 0.04188080834008314,
+    "paired_ci95": [
+      -0.12187594333353619,
+      0.11203850633509138
+    ],
+    "proxy_cannot_validate_true_historical_breadth": false
+  },
+  {
+    "horizon": 5,
+    "metric": "qlike",
+    "comparison": "A00_sector",
+    "full_context_improvement": -0.1222339856675693,
+    "paired_ci95": [
+      -0.20401666045289438,
+      -0.022623842411863448
+    ],
+    "proxy_cannot_validate_true_historical_breadth": false
+  },
+  {
+    "horizon": 5,
+    "metric": "qlike",
+    "comparison": "A01_nofo",
+    "full_context_improvement": -0.026109061585687376,
+    "paired_ci95": [
+      -0.07494545880709635,
+      0.051527741027215
+    ],
+    "proxy_cannot_validate_true_historical_breadth": false
+  },
+  {
+    "horizon": 5,
+    "metric": "qlike",
+    "comparison": "A02_proxy",
+    "full_context_improvement": -0.009643390897842496,
+    "paired_ci95": [
+      -0.06236457323757079,
+      0.08850322133605885
+    ],
+    "proxy_cannot_validate_true_historical_breadth": true
+  },
+  {
+    "horizon": 5,
+    "metric": "qlike",
+    "comparison": "A03_interact",
+    "full_context_improvement": 0.03204755864723491,
+    "paired_ci95": [
+      -0.04012576080976053,
+      0.08996738375104425
+    ],
+    "proxy_cannot_validate_true_historical_breadth": false
+  },
+  {
+    "horizon": 5,
+    "metric": "qlike",
+    "comparison": "M04_corr_ridge",
+    "full_context_improvement": -0.00947342615491401,
+    "paired_ci95": [
+      -0.014007210828904096,
+      0.0012818375010362592
+    ],
+    "proxy_cannot_validate_true_historical_breadth": false
+  },
+  {
+    "horizon": 5,
+    "metric": "qlike",
+    "comparison": "M07_sequence",
+    "full_context_improvement": 0.12480496935145978,
+    "paired_ci95": [
+      -0.15730435849946886,
+      0.20289562244373863
+    ],
+    "proxy_cannot_validate_true_historical_breadth": false
+  },
+  {
+    "horizon": 5,
+    "metric": "tail02_brier",
+    "comparison": "M00_ridge_price",
+    "full_context_improvement": -0.019352813464302173,
+    "paired_ci95": [
+      -0.05605594456585234,
+      0.017600612988153356
+    ],
+    "proxy_cannot_validate_true_historical_breadth": false
+  },
+  {
+    "horizon": 5,
+    "metric": "tail02_brier",
+    "comparison": "A00_sector",
+    "full_context_improvement": -0.02608646265104561,
+    "paired_ci95": [
+      -0.04948025095346499,
+      -0.010346685941076697
+    ],
+    "proxy_cannot_validate_true_historical_breadth": false
+  },
+  {
+    "horizon": 5,
+    "metric": "tail02_brier",
+    "comparison": "A01_nofo",
+    "full_context_improvement": -0.017206501359725287,
+    "paired_ci95": [
+      -0.03745561716467917,
+      -0.004042978787181057
+    ],
+    "proxy_cannot_validate_true_historical_breadth": false
+  },
+  {
+    "horizon": 5,
+    "metric": "tail02_brier",
+    "comparison": "A02_proxy",
+    "full_context_improvement": -0.003846773479069661,
+    "paired_ci95": [
+      -0.010948861285839773,
+      0.002487095855492227
+    ],
+    "proxy_cannot_validate_true_historical_breadth": true
+  },
+  {
+    "horizon": 5,
+    "metric": "tail02_brier",
+    "comparison": "A03_interact",
+    "full_context_improvement": 0.011637887974012249,
+    "paired_ci95": [
+      -0.0013488545803397763,
+      0.029824329935600115
+    ],
+    "proxy_cannot_validate_true_historical_breadth": false
+  },
+  {
+    "horizon": 5,
+    "metric": "tail02_brier",
+    "comparison": "M04_corr_ridge",
+    "full_context_improvement": -0.0006112817695631118,
+    "paired_ci95": [
+      -0.002622178478157516,
+      0.0012536475804172944
+    ],
+    "proxy_cannot_validate_true_historical_breadth": false
+  },
+  {
+    "horizon": 5,
+    "metric": "tail02_brier",
+    "comparison": "M07_sequence",
+    "full_context_improvement": -0.01781474602755379,
+    "paired_ci95": [
+      -0.05007528397320508,
+      0.015644045531386777
+    ],
+    "proxy_cannot_validate_true_historical_breadth": false
+  },
+  {
+    "horizon": 21,
+    "metric": "brier",
+    "comparison": "M00_ridge_price",
+    "full_context_improvement": -0.03870746362521345,
+    "paired_ci95": null,
+    "proxy_cannot_validate_true_historical_breadth": false
+  },
+  {
+    "horizon": 21,
+    "metric": "brier",
+    "comparison": "A00_sector",
+    "full_context_improvement": -0.03595612346561095,
+    "paired_ci95": null,
+    "proxy_cannot_validate_true_historical_breadth": false
+  },
+  {
+    "horizon": 21,
+    "metric": "brier",
+    "comparison": "A01_nofo",
+    "full_context_improvement": -0.07069775568780272,
+    "paired_ci95": null,
+    "proxy_cannot_validate_true_historical_breadth": false
+  },
+  {
+    "horizon": 21,
+    "metric": "brier",
+    "comparison": "A02_proxy",
+    "full_context_improvement": 0.005679638715435966,
+    "paired_ci95": null,
+    "proxy_cannot_validate_true_historical_breadth": true
+  },
+  {
+    "horizon": 21,
+    "metric": "brier",
+    "comparison": "A03_interact",
+    "full_context_improvement": 0.03308508374088439,
+    "paired_ci95": null,
+    "proxy_cannot_validate_true_historical_breadth": false
+  },
+  {
+    "horizon": 21,
+    "metric": "brier",
+    "comparison": "M04_corr_ridge",
+    "full_context_improvement": -0.006783685797242467,
+    "paired_ci95": null,
+    "proxy_cannot_validate_true_historical_breadth": false
+  },
+  {
+    "horizon": 21,
+    "metric": "brier",
+    "comparison": "M07_sequence",
+    "full_context_improvement": -0.040554250736942514,
+    "paired_ci95": null,
+    "proxy_cannot_validate_true_historical_breadth": false
+  },
+  {
+    "horizon": 21,
+    "metric": "mae",
+    "comparison": "M00_ridge_price",
+    "full_context_improvement": -0.005798378820003556,
+    "paired_ci95": null,
+    "proxy_cannot_validate_true_historical_breadth": false
+  },
+  {
+    "horizon": 21,
+    "metric": "mae",
+    "comparison": "A00_sector",
+    "full_context_improvement": -0.008237063560717697,
+    "paired_ci95": null,
+    "proxy_cannot_validate_true_historical_breadth": false
+  },
+  {
+    "horizon": 21,
+    "metric": "mae",
+    "comparison": "A01_nofo",
+    "full_context_improvement": -0.0007287097623515695,
+    "paired_ci95": null,
+    "proxy_cannot_validate_true_historical_breadth": false
+  },
+  {
+    "horizon": 21,
+    "metric": "mae",
+    "comparison": "A02_proxy",
+    "full_context_improvement": 0.0017908087587506542,
+    "paired_ci95": null,
+    "proxy_cannot_validate_true_historical_breadth": true
+  },
+  {
+    "horizon": 21,
+    "metric": "mae",
+    "comparison": "A03_interact",
+    "full_context_improvement": 0.0007320598310663389,
+    "paired_ci95": null,
+    "proxy_cannot_validate_true_historical_breadth": false
+  },
+  {
+    "horizon": 21,
+    "metric": "mae",
+    "comparison": "M04_corr_ridge",
+    "full_context_improvement": -0.0014936141921630059,
+    "paired_ci95": null,
+    "proxy_cannot_validate_true_historical_breadth": false
+  },
+  {
+    "horizon": 21,
+    "metric": "mae",
+    "comparison": "M07_sequence",
+    "full_context_improvement": -0.005931381909732662,
+    "paired_ci95": null,
+    "proxy_cannot_validate_true_historical_breadth": false
+  },
+  {
+    "horizon": 21,
+    "metric": "crps",
+    "comparison": "M00_ridge_price",
+    "full_context_improvement": -0.005530331568765086,
+    "paired_ci95": null,
+    "proxy_cannot_validate_true_historical_breadth": false
+  },
+  {
+    "horizon": 21,
+    "metric": "crps",
+    "comparison": "A00_sector",
+    "full_context_improvement": -0.013109585085647349,
+    "paired_ci95": null,
+    "proxy_cannot_validate_true_historical_breadth": false
+  },
+  {
+    "horizon": 21,
+    "metric": "crps",
+    "comparison": "A01_nofo",
+    "full_context_improvement": -0.0015904622452010849,
+    "paired_ci95": null,
+    "proxy_cannot_validate_true_historical_breadth": false
+  },
+  {
+    "horizon": 21,
+    "metric": "crps",
+    "comparison": "A02_proxy",
+    "full_context_improvement": 0.0008298464182292036,
+    "paired_ci95": null,
+    "proxy_cannot_validate_true_historical_breadth": true
+  },
+  {
+    "horizon": 21,
+    "metric": "crps",
+    "comparison": "A03_interact",
+    "full_context_improvement": 0.0005179411319306305,
+    "paired_ci95": null,
+    "proxy_cannot_validate_true_historical_breadth": false
+  },
+  {
+    "horizon": 21,
+    "metric": "crps",
+    "comparison": "M04_corr_ridge",
+    "full_context_improvement": -0.0017815274597573418,
+    "paired_ci95": null,
+    "proxy_cannot_validate_true_historical_breadth": false
+  },
+  {
+    "horizon": 21,
+    "metric": "crps",
+    "comparison": "M07_sequence",
+    "full_context_improvement": -0.00582204036393784,
+    "paired_ci95": null,
+    "proxy_cannot_validate_true_historical_breadth": false
+  },
+  {
+    "horizon": 21,
+    "metric": "qlike",
+    "comparison": "M00_ridge_price",
+    "full_context_improvement": -0.05428524047099326,
+    "paired_ci95": null,
+    "proxy_cannot_validate_true_historical_breadth": false
+  },
+  {
+    "horizon": 21,
+    "metric": "qlike",
+    "comparison": "A00_sector",
+    "full_context_improvement": -0.0828956491547272,
+    "paired_ci95": null,
+    "proxy_cannot_validate_true_historical_breadth": false
+  },
+  {
+    "horizon": 21,
+    "metric": "qlike",
+    "comparison": "A01_nofo",
+    "full_context_improvement": -0.042174397803022186,
+    "paired_ci95": null,
+    "proxy_cannot_validate_true_historical_breadth": false
+  },
+  {
+    "horizon": 21,
+    "metric": "qlike",
+    "comparison": "A02_proxy",
+    "full_context_improvement": 0.09977856970048626,
+    "paired_ci95": null,
+    "proxy_cannot_validate_true_historical_breadth": true
+  },
+  {
+    "horizon": 21,
+    "metric": "qlike",
+    "comparison": "A03_interact",
+    "full_context_improvement": 0.008325685180450204,
+    "paired_ci95": null,
+    "proxy_cannot_validate_true_historical_breadth": false
+  },
+  {
+    "horizon": 21,
+    "metric": "qlike",
+    "comparison": "M04_corr_ridge",
+    "full_context_improvement": 0.0006649319826603071,
+    "paired_ci95": null,
+    "proxy_cannot_validate_true_historical_breadth": false
+  },
+  {
+    "horizon": 21,
+    "metric": "qlike",
+    "comparison": "M07_sequence",
+    "full_context_improvement": -0.049826886649867105,
+    "paired_ci95": null,
+    "proxy_cannot_validate_true_historical_breadth": false
+  },
+  {
+    "horizon": 21,
+    "metric": "tail02_brier",
+    "comparison": "M00_ridge_price",
+    "full_context_improvement": -0.07208452516982027,
+    "paired_ci95": null,
+    "proxy_cannot_validate_true_historical_breadth": false
+  },
+  {
+    "horizon": 21,
+    "metric": "tail02_brier",
+    "comparison": "A00_sector",
+    "full_context_improvement": -0.0667312016185666,
+    "paired_ci95": null,
+    "proxy_cannot_validate_true_historical_breadth": false
+  },
+  {
+    "horizon": 21,
+    "metric": "tail02_brier",
+    "comparison": "A01_nofo",
+    "full_context_improvement": -0.12160548138135449,
+    "paired_ci95": null,
+    "proxy_cannot_validate_true_historical_breadth": false
+  },
+  {
+    "horizon": 21,
+    "metric": "tail02_brier",
+    "comparison": "A02_proxy",
+    "full_context_improvement": 0.03710708334360927,
+    "paired_ci95": null,
+    "proxy_cannot_validate_true_historical_breadth": true
+  },
+  {
+    "horizon": 21,
+    "metric": "tail02_brier",
+    "comparison": "A03_interact",
+    "full_context_improvement": 0.06317941468270302,
+    "paired_ci95": null,
+    "proxy_cannot_validate_true_historical_breadth": false
+  },
+  {
+    "horizon": 21,
+    "metric": "tail02_brier",
+    "comparison": "M04_corr_ridge",
+    "full_context_improvement": -0.01754252638488172,
+    "paired_ci95": null,
+    "proxy_cannot_validate_true_historical_breadth": false
+  },
+  {
+    "horizon": 21,
+    "metric": "tail02_brier",
+    "comparison": "M07_sequence",
+    "full_context_improvement": -0.05189141089291788,
+    "paired_ci95": null,
+    "proxy_cannot_validate_true_historical_breadth": false
+  }
+]

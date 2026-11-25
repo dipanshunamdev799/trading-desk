@@ -1,0 +1,323 @@
+{
+  "registered_at": "2026-11-24T12:06:20.599351+05:30",
+  "cohort": "primary",
+  "configurations": {
+    "W_RES_WINDOW": {
+      "frame": "residual",
+      "parent": "R_RESIDUAL",
+      "horizons": [
+        5
+      ],
+      "window": 189,
+      "hypothesis": "Adaptive window stress on preliminary V8 lead"
+    },
+    "W_RES_EMBARGO": {
+      "frame": "residual",
+      "parent": "R_RESIDUAL",
+      "horizons": [
+        5
+      ],
+      "embargo": 3,
+      "hypothesis": "Adaptive embargo stress on preliminary V8 lead"
+    },
+    "W_RES_PERTURB": {
+      "frame": "residual",
+      "parent": "R_RESIDUAL",
+      "horizons": [
+        5
+      ],
+      "perturb": true,
+      "hypothesis": "Adaptive perturb stress on preliminary V8 lead"
+    },
+    "W_RES_ALPHA": {
+      "frame": "residual",
+      "parent": "R_RESIDUAL",
+      "horizons": [
+        5
+      ],
+      "alpha": 150,
+      "hypothesis": "Adaptive alpha stress on preliminary V8 lead"
+    },
+    "W_RES_TARGET_NULL": {
+      "frame": "residual",
+      "parent": "R_RESIDUAL",
+      "horizons": [
+        5
+      ],
+      "permute_target": true,
+      "diagnostic": true,
+      "hypothesis": "Adaptive target_null stress on preliminary V8 lead"
+    },
+    "W_RES_LAG": {
+      "frame": "residual_lag",
+      "parent": "R_RESIDUAL",
+      "horizons": [
+        5
+      ],
+      "hypothesis": "Five-session genuine previous observations"
+    },
+    "W_RES_DEDUP": {
+      "frame": "residual",
+      "parent": "R_RESIDUAL",
+      "dedup": true,
+      "horizons": [
+        5
+      ],
+      "hypothesis": "Canonical base before controlled copy"
+    },
+    "W_RES_CLONE": {
+      "frame": "residual_clone",
+      "parent": "W_RES_DEDUP",
+      "dedup": true,
+      "horizons": [
+        5
+      ],
+      "diagnostic": true,
+      "hypothesis": "Copy rotation and three sector groups after canonicalization"
+    },
+    "W_RES_REVISION": {
+      "frame": "residual_revised",
+      "parent": "R_RESIDUAL",
+      "horizons": [
+        5
+      ],
+      "hypothesis": "One-basis-point native source revision with new inputs fixed"
+    },
+    "W_STRUCT_WINDOW": {
+      "frame": "structure_change",
+      "parent": "A_STRUCTURE_CHANGE",
+      "horizons": [
+        5
+      ],
+      "window": 189,
+      "hypothesis": "Adaptive window stress on preliminary V8 lead"
+    },
+    "W_STRUCT_EMBARGO": {
+      "frame": "structure_change",
+      "parent": "A_STRUCTURE_CHANGE",
+      "horizons": [
+        5
+      ],
+      "embargo": 3,
+      "hypothesis": "Adaptive embargo stress on preliminary V8 lead"
+    },
+    "W_STRUCT_PERTURB": {
+      "frame": "structure_change",
+      "parent": "A_STRUCTURE_CHANGE",
+      "horizons": [
+        5
+      ],
+      "perturb": true,
+      "hypothesis": "Adaptive perturb stress on preliminary V8 lead"
+    },
+    "W_STRUCT_ALPHA": {
+      "frame": "structure_change",
+      "parent": "A_STRUCTURE_CHANGE",
+      "horizons": [
+        5
+      ],
+      "alpha": 150,
+      "hypothesis": "Adaptive alpha stress on preliminary V8 lead"
+    },
+    "W_STRUCT_TARGET_NULL": {
+      "frame": "structure_change",
+      "parent": "A_STRUCTURE_CHANGE",
+      "horizons": [
+        5
+      ],
+      "permute_target": true,
+      "diagnostic": true,
+      "hypothesis": "Adaptive target_null stress on preliminary V8 lead"
+    },
+    "W_STRUCT_LAG": {
+      "frame": "structure_change_lag",
+      "parent": "A_STRUCTURE_CHANGE",
+      "horizons": [
+        5
+      ],
+      "hypothesis": "Five-session genuine previous observations"
+    },
+    "W_STRUCT_DEDUP": {
+      "frame": "structure_change",
+      "parent": "A_STRUCTURE_CHANGE",
+      "dedup": true,
+      "horizons": [
+        5
+      ],
+      "hypothesis": "Canonical base before controlled copy"
+    },
+    "W_STRUCT_CLONE": {
+      "frame": "structure_change_clone",
+      "parent": "W_STRUCT_DEDUP",
+      "dedup": true,
+      "horizons": [
+        5
+      ],
+      "diagnostic": true,
+      "hypothesis": "Copy rotation and three sector groups after canonicalization"
+    },
+    "W_STRUCT_REVISION": {
+      "frame": "structure_change_revised",
+      "parent": "A_STRUCTURE_CHANGE",
+      "horizons": [
+        5
+      ],
+      "hypothesis": "One-basis-point native source revision with new inputs fixed"
+    },
+    "W_LEVEL_WINDOW": {
+      "frame": "structure_level",
+      "parent": "A_STRUCTURE_LEVEL",
+      "horizons": [
+        5
+      ],
+      "window": 189,
+      "hypothesis": "Adaptive window stress on preliminary V8 lead"
+    },
+    "W_LEVEL_EMBARGO": {
+      "frame": "structure_level",
+      "parent": "A_STRUCTURE_LEVEL",
+      "horizons": [
+        5
+      ],
+      "embargo": 3,
+      "hypothesis": "Adaptive embargo stress on preliminary V8 lead"
+    },
+    "W_LEVEL_PERTURB": {
+      "frame": "structure_level",
+      "parent": "A_STRUCTURE_LEVEL",
+      "horizons": [
+        5
+      ],
+      "perturb": true,
+      "hypothesis": "Adaptive perturb stress on preliminary V8 lead"
+    },
+    "W_LEVEL_ALPHA": {
+      "frame": "structure_level",
+      "parent": "A_STRUCTURE_LEVEL",
+      "horizons": [
+        5
+      ],
+      "alpha": 150,
+      "hypothesis": "Adaptive alpha stress on preliminary V8 lead"
+    },
+    "W_LEVEL_TARGET_NULL": {
+      "frame": "structure_level",
+      "parent": "A_STRUCTURE_LEVEL",
+      "horizons": [
+        5
+      ],
+      "permute_target": true,
+      "diagnostic": true,
+      "hypothesis": "Adaptive target_null stress on preliminary V8 lead"
+    },
+    "W_LEVEL_LAG": {
+      "frame": "structure_level_lag",
+      "parent": "A_STRUCTURE_LEVEL",
+      "horizons": [
+        5
+      ],
+      "hypothesis": "Five-session genuine previous observations"
+    },
+    "W_LEVEL_DEDUP": {
+      "frame": "structure_level",
+      "parent": "A_STRUCTURE_LEVEL",
+      "dedup": true,
+      "horizons": [
+        5
+      ],
+      "hypothesis": "Canonical base before controlled copy"
+    },
+    "W_LEVEL_CLONE": {
+      "frame": "structure_level_clone",
+      "parent": "W_LEVEL_DEDUP",
+      "dedup": true,
+      "horizons": [
+        5
+      ],
+      "diagnostic": true,
+      "hypothesis": "Copy rotation and three sector groups after canonicalization"
+    },
+    "W_LEVEL_REVISION": {
+      "frame": "structure_level_revised",
+      "parent": "A_STRUCTURE_LEVEL",
+      "horizons": [
+        5
+      ],
+      "hypothesis": "One-basis-point native source revision with new inputs fixed"
+    },
+    "MS_LAG5": {
+      "frame": "smoothed_lag5",
+      "parent": "M_STATE_SMOOTH",
+      "horizons": [
+        21
+      ],
+      "eligible": "monthly",
+      "hypothesis": "Adaptive falsification of smoothed monthly state result"
+    },
+    "MS_LAG21": {
+      "frame": "smoothed_lag21",
+      "parent": "M_STATE_SMOOTH",
+      "horizons": [
+        21
+      ],
+      "eligible": "monthly",
+      "hypothesis": "Adaptive falsification of smoothed monthly state result"
+    },
+    "MS_STATE_ONLY": {
+      "frame": "smoothed_state_only",
+      "parent": "M_STATE_SMOOTH",
+      "horizons": [
+        21
+      ],
+      "eligible": "monthly",
+      "hypothesis": "Adaptive falsification of smoothed monthly state result"
+    },
+    "MS_ROLL": {
+      "frame": "m_state_smooth",
+      "parent": "M_STATE_SMOOTH",
+      "horizons": [
+        21
+      ],
+      "eligible": "monthly",
+      "roll_group": "w_",
+      "diagnostic": true,
+      "hypothesis": "Adaptive falsification of smoothed monthly state result"
+    },
+    "MS_PERMUTE": {
+      "frame": "m_state_smooth",
+      "parent": "M_STATE_SMOOTH",
+      "horizons": [
+        21
+      ],
+      "eligible": "monthly",
+      "permute_target": true,
+      "diagnostic": true,
+      "hypothesis": "Adaptive falsification of smoothed monthly state result"
+    },
+    "MS_WINDOW": {
+      "frame": "m_state_smooth",
+      "parent": "M_STATE_SMOOTH",
+      "horizons": [
+        21
+      ],
+      "eligible": "monthly",
+      "window": 126,
+      "hypothesis": "Adaptive falsification of smoothed monthly state result"
+    },
+    "MS_EMBARGO": {
+      "frame": "m_state_smooth",
+      "parent": "M_STATE_SMOOTH",
+      "horizons": [
+        21
+      ],
+      "eligible": "monthly",
+      "embargo": 3,
+      "hypothesis": "Adaptive falsification of smoothed monthly state result"
+    }
+  },
+  "seed": 20261125,
+  "source": {
+    "models.py": "37056bce809a9e7dbecd72cd0c5a5fe91249866e9c32fefbad0a75d78ad2280e",
+    "experiments.py": "4f9135a1a17f2d26d7611d439a1c749973f8f3ac301ed1004b690a5036180a35"
+  }
+}

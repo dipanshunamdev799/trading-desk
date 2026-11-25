@@ -1,0 +1,59 @@
+{
+  "provider": "fii",
+  "from_date": "2026-04-01",
+  "acquired_at": "2026-11-17T00:53:49.186402+05:30",
+  "ok": true,
+  "payload": {
+    "NSE_FO|INDEX_OPTIONS": [
+      {
+        "time_stamp": 1774981800000,
+        "buy_amount": 611507.21,
+        "sell_amount": 615967.2,
+        "buy_contracts": 4070312,
+        "sell_contracts": 4099523,
+        "oi_contracts": 2055697,
+        "oi_amount": 305041.81,
+        "total_long_contracts": 0,
+        "total_short_contracts": 0,
+        "total_call_long_contracts": 376141,
+        "total_put_long_contracts": 702669,
+        "total_call_short_contracts": 630531,
+        "total_put_short_contracts": 346355
+      }
+    ],
+    "NSE_FO|INDEX_FUTURES": [
+      {
+        "time_stamp": 1774981800000,
+        "buy_amount": 5079.42,
+        "sell_amount": 5157.91,
+        "buy_contracts": 33590,
+        "sell_contracts": 34365,
+        "oi_contracts": 391771,
+        "oi_amount": 58555.41,
+        "total_long_contracts": 63475,
+        "total_short_contracts": 328296,
+        "total_call_long_contracts": 0,
+        "total_put_long_contracts": 0,
+        "total_call_short_contracts": 0,
+        "total_put_short_contracts": 0
+      }
+    ],
+    "NSE_EQ|CASH": [
+      {
+        "time_stamp": 1774981800000,
+        "buy_amount": 17958.07,
+        "sell_amount": 26289.22,
+        "buy_contracts": 0,
+        "sell_contracts": 0,
+        "oi_contracts": 0,
+        "oi_amount": 0.0,
+        "total_long_contracts": 0,
+        "total_short_contracts": 0,
+        "total_call_long_contracts": 0,
+        "total_put_long_contracts": 0,
+        "total_call_short_contracts": 0,
+        "total_put_short_contracts": 0
+      }
+    ]
+  }
+}

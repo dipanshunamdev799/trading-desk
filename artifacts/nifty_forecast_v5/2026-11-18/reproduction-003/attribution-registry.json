@@ -1,0 +1,14 @@
+{
+  "registered_at": "2026-11-18T23:10:33.481096+05:30",
+  "reason": "Do not attribute improvement from coherent-law construction to newly acquired indices/global sources. Cross feature systems and law construction with cached unchanged estimators.",
+  "models": {
+    "AT00_old_newlaw": "Exact old V3/V4 price+sector mean model/residuals with V5 .65conditional/.35unconditional law",
+    "AT01_new_oldlaw": "Exact V5 I00 mean/residuals with V4 D03 .5mean+.5base location and raw residual law"
+  },
+  "reference_cells": [
+    "V4_D03_residual_shrunk (old/old)",
+    "I00 (new/new)"
+  ],
+  "new_model_fits": 0,
+  "status": "Postdiscovery attribution; all exposed, not independent confirmation"
+}

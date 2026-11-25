@@ -1,0 +1,26 @@
+[
+  {
+    "name": "index19.csv",
+    "url": "https://nsearchives.nseindia.com/content/indices/ind_close_all_19112026.csv",
+    "ok": false,
+    "sent": "2026-11-19T16:19:08.296103+05:30",
+    "received": "2026-11-19T16:19:08.649026+05:30",
+    "error": "HTTPError"
+  },
+  {
+    "name": "cash19.zip",
+    "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261119_F_0000.csv.zip",
+    "ok": false,
+    "sent": "2026-11-19T16:19:08.295898+05:30",
+    "received": "2026-11-19T16:19:08.600322+05:30",
+    "error": "HTTPError"
+  },
+  {
+    "name": "fo19.zip",
+    "url": "https://nsearchives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20261119_F_0000.csv.zip",
+    "ok": false,
+    "sent": "2026-11-19T16:19:08.295531+05:30",
+    "received": "2026-11-19T16:19:08.610256+05:30",
+    "error": "HTTPError"
+  }
+]

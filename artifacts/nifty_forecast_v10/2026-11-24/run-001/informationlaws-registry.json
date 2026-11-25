@@ -1,0 +1,115 @@
+{
+  "registered_at": "2026-11-24T14:00:15.854405+05:30",
+  "configurations": {
+    "N_RISK_MATCHED": {
+      "frame": "ten",
+      "parent": "T_VOL_RISK",
+      "target": "vol",
+      "law": "risk",
+      "common_target": true,
+      "hypothesis": "Corrected symmetric mature volatility mask after initial invalid-distribution failures"
+    },
+    "N_GLOBAL_RISK_MATCHED": {
+      "frame": "global",
+      "parent": "N_RISK_MATCHED",
+      "target": "vol",
+      "law": "risk",
+      "common_target": true,
+      "hypothesis": "Conservative global states on identical complete target dates"
+    },
+    "M_PERSIST_PLACEBO_5": {
+      "frame": "persistent",
+      "parent": "S_PERSIST",
+      "horizons": [
+        21
+      ],
+      "rotate": 5,
+      "diagnostic": true,
+      "alpha": 125,
+      "hypothesis": "Train-only circular state shift or chronological block-order permutation"
+    },
+    "M_PERSIST_PLACEBO_21": {
+      "frame": "persistent",
+      "parent": "S_PERSIST",
+      "horizons": [
+        21
+      ],
+      "rotate": 21,
+      "diagnostic": true,
+      "alpha": 125,
+      "hypothesis": "Train-only circular state shift or chronological block-order permutation"
+    },
+    "M_PERSIST_PLACEBO_42": {
+      "frame": "persistent",
+      "parent": "S_PERSIST",
+      "horizons": [
+        21
+      ],
+      "rotate": 42,
+      "diagnostic": true,
+      "alpha": 125,
+      "hypothesis": "Train-only circular state shift or chronological block-order permutation"
+    },
+    "M_PERSIST_PLACEBO_BLOCKS": {
+      "frame": "persistent",
+      "parent": "S_PERSIST",
+      "horizons": [
+        21
+      ],
+      "rotate": "blocks",
+      "diagnostic": true,
+      "alpha": 125,
+      "hypothesis": "Train-only circular state shift or chronological block-order permutation"
+    },
+    "M_DISTRIBUTED_PLACEBO_5": {
+      "frame": "distributed",
+      "parent": "S_DISTRIBUTED",
+      "horizons": [
+        21
+      ],
+      "rotate": 5,
+      "diagnostic": true,
+      "alpha": 180,
+      "hypothesis": "Train-only circular state shift or chronological block-order permutation"
+    },
+    "M_DISTRIBUTED_PLACEBO_21": {
+      "frame": "distributed",
+      "parent": "S_DISTRIBUTED",
+      "horizons": [
+        21
+      ],
+      "rotate": 21,
+      "diagnostic": true,
+      "alpha": 180,
+      "hypothesis": "Train-only circular state shift or chronological block-order permutation"
+    },
+    "M_DISTRIBUTED_PLACEBO_42": {
+      "frame": "distributed",
+      "parent": "S_DISTRIBUTED",
+      "horizons": [
+        21
+      ],
+      "rotate": 42,
+      "diagnostic": true,
+      "alpha": 180,
+      "hypothesis": "Train-only circular state shift or chronological block-order permutation"
+    },
+    "M_DISTRIBUTED_PLACEBO_BLOCKS": {
+      "frame": "distributed",
+      "parent": "S_DISTRIBUTED",
+      "horizons": [
+        21
+      ],
+      "rotate": "blocks",
+      "diagnostic": true,
+      "alpha": 180,
+      "hypothesis": "Train-only circular state shift or chronological block-order permutation"
+    }
+  },
+  "seed": 20261130,
+  "code_hashes": {
+    "experiments.py": "48baf634853e2d9016ca7f0e79d5e8ae00c42fbde533b3c9bb9939b5960bdef8",
+    "estimators.py": "70396610d7201423c4151cb004e61a63986cec9a5ec73496a16aa1f45b7f0f09",
+    "targets.py": "9bb9d2060fef1bc2b1add51c129d8dc4e792afae782e6b5c8183f82a1ae5f752"
+  }
+}

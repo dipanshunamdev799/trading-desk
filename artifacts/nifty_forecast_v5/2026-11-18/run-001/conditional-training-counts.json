@@ -1,0 +1,362 @@
+[
+  {
+    "horizon": 5,
+    "fold": "2026-07",
+    "condition": "global_weak_narrow",
+    "training_total": 300,
+    "training_conditional": 68,
+    "training_conditional_disjoint": 23
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-07",
+    "condition": "global_weak_broad",
+    "training_total": 300,
+    "training_conditional": 30,
+    "training_conditional_disjoint": 14
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-07",
+    "condition": "highvol_nearexpiry",
+    "training_total": 300,
+    "training_conditional": 42,
+    "training_conditional_disjoint": 27
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-07",
+    "condition": "concentrated_rally",
+    "training_total": 300,
+    "training_conditional": 19,
+    "training_conditional_disjoint": 10
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-07",
+    "condition": "oil_fx_up_highvol",
+    "training_total": 300,
+    "training_conditional": 56,
+    "training_conditional_disjoint": 16
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-08",
+    "condition": "global_weak_narrow",
+    "training_total": 323,
+    "training_conditional": 75,
+    "training_conditional_disjoint": 26
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-08",
+    "condition": "global_weak_broad",
+    "training_total": 323,
+    "training_conditional": 36,
+    "training_conditional_disjoint": 18
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-08",
+    "condition": "highvol_nearexpiry",
+    "training_total": 323,
+    "training_conditional": 43,
+    "training_conditional_disjoint": 28
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-08",
+    "condition": "concentrated_rally",
+    "training_total": 323,
+    "training_conditional": 24,
+    "training_conditional_disjoint": 12
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-08",
+    "condition": "oil_fx_up_highvol",
+    "training_total": 323,
+    "training_conditional": 66,
+    "training_conditional_disjoint": 18
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-09",
+    "condition": "global_weak_narrow",
+    "training_total": 344,
+    "training_conditional": 82,
+    "training_conditional_disjoint": 28
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-09",
+    "condition": "global_weak_broad",
+    "training_total": 344,
+    "training_conditional": 37,
+    "training_conditional_disjoint": 19
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-09",
+    "condition": "highvol_nearexpiry",
+    "training_total": 344,
+    "training_conditional": 46,
+    "training_conditional_disjoint": 31
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-09",
+    "condition": "concentrated_rally",
+    "training_total": 344,
+    "training_conditional": 24,
+    "training_conditional_disjoint": 12
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-09",
+    "condition": "oil_fx_up_highvol",
+    "training_total": 344,
+    "training_conditional": 66,
+    "training_conditional_disjoint": 18
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-10",
+    "condition": "global_weak_narrow",
+    "training_total": 365,
+    "training_conditional": 95,
+    "training_conditional_disjoint": 32
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-10",
+    "condition": "global_weak_broad",
+    "training_total": 365,
+    "training_conditional": 38,
+    "training_conditional_disjoint": 20
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-10",
+    "condition": "highvol_nearexpiry",
+    "training_total": 365,
+    "training_conditional": 49,
+    "training_conditional_disjoint": 33
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-10",
+    "condition": "concentrated_rally",
+    "training_total": 365,
+    "training_conditional": 24,
+    "training_conditional_disjoint": 12
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-10",
+    "condition": "oil_fx_up_highvol",
+    "training_total": 365,
+    "training_conditional": 68,
+    "training_conditional_disjoint": 19
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-11",
+    "condition": "global_weak_narrow",
+    "training_total": 385,
+    "training_conditional": 104,
+    "training_conditional_disjoint": 35
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-11",
+    "condition": "global_weak_broad",
+    "training_total": 385,
+    "training_conditional": 40,
+    "training_conditional_disjoint": 21
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-11",
+    "condition": "highvol_nearexpiry",
+    "training_total": 385,
+    "training_conditional": 49,
+    "training_conditional_disjoint": 33
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-11",
+    "condition": "concentrated_rally",
+    "training_total": 385,
+    "training_conditional": 24,
+    "training_conditional_disjoint": 12
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-11",
+    "condition": "oil_fx_up_highvol",
+    "training_total": 385,
+    "training_conditional": 71,
+    "training_conditional_disjoint": 20
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-07",
+    "condition": "global_weak_narrow",
+    "training_total": 284,
+    "training_conditional": 63,
+    "training_conditional_disjoint": 11
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-07",
+    "condition": "global_weak_broad",
+    "training_total": 284,
+    "training_conditional": 30,
+    "training_conditional_disjoint": 9
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-07",
+    "condition": "highvol_nearexpiry",
+    "training_total": 284,
+    "training_conditional": 42,
+    "training_conditional_disjoint": 8
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-07",
+    "condition": "concentrated_rally",
+    "training_total": 284,
+    "training_conditional": 19,
+    "training_conditional_disjoint": 6
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-07",
+    "condition": "oil_fx_up_highvol",
+    "training_total": 284,
+    "training_conditional": 58,
+    "training_conditional_disjoint": 7
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-08",
+    "condition": "global_weak_narrow",
+    "training_total": 307,
+    "training_conditional": 71,
+    "training_conditional_disjoint": 12
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-08",
+    "condition": "global_weak_broad",
+    "training_total": 307,
+    "training_conditional": 33,
+    "training_conditional_disjoint": 10
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-08",
+    "condition": "highvol_nearexpiry",
+    "training_total": 307,
+    "training_conditional": 42,
+    "training_conditional_disjoint": 8
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-08",
+    "condition": "concentrated_rally",
+    "training_total": 307,
+    "training_conditional": 19,
+    "training_conditional_disjoint": 6
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-08",
+    "condition": "oil_fx_up_highvol",
+    "training_total": 307,
+    "training_conditional": 56,
+    "training_conditional_disjoint": 7
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-09",
+    "condition": "global_weak_narrow",
+    "training_total": 328,
+    "training_conditional": 77,
+    "training_conditional_disjoint": 13
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-09",
+    "condition": "global_weak_broad",
+    "training_total": 328,
+    "training_conditional": 37,
+    "training_conditional_disjoint": 11
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-09",
+    "condition": "highvol_nearexpiry",
+    "training_total": 328,
+    "training_conditional": 44,
+    "training_conditional_disjoint": 8
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-09",
+    "condition": "concentrated_rally",
+    "training_total": 328,
+    "training_conditional": 24,
+    "training_conditional_disjoint": 7
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-09",
+    "condition": "oil_fx_up_highvol",
+    "training_total": 328,
+    "training_conditional": 66,
+    "training_conditional_disjoint": 8
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-10",
+    "condition": "global_weak_narrow",
+    "training_total": 349,
+    "training_conditional": 83,
+    "training_conditional_disjoint": 14
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-10",
+    "condition": "global_weak_broad",
+    "training_total": 349,
+    "training_conditional": 38,
+    "training_conditional_disjoint": 11
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-10",
+    "condition": "highvol_nearexpiry",
+    "training_total": 349,
+    "training_conditional": 46,
+    "training_conditional_disjoint": 9
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-10",
+    "condition": "concentrated_rally",
+    "training_total": 349,
+    "training_conditional": 24,
+    "training_conditional_disjoint": 7
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-10",
+    "condition": "oil_fx_up_highvol",
+    "training_total": 349,
+    "training_conditional": 66,
+    "training_conditional_disjoint": 8
+  }
+]

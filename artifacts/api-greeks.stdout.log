@@ -1,0 +1,146 @@
+INFO:     127.0.0.1:57440 - "GET /options/max-pain?instrument_key=NSE_INDEX%7CNifty+50&expiry=2026-10-27&as_of=2026-10-23 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57442 - "GET /options/max-pain?instrument_key=NSE_INDEX%7CNifty+50&expiry=2026-10-27&as_of=2026-10-25 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61766 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61620 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61619 - "GET /options/expiries?instrument_key=NSE_INDEX%7CNifty%2050&include_past=true&include_unverified=true&past_days=180 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60279 - "GET /options/max-pain/intraday?expiry=2026-10-27&as_of=2026-10-25&instrument_key=NSE_INDEX%7CNifty%2050 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60280 - "GET /options/max-pain?expiry=2026-10-27&as_of=2026-10-25&instrument_key=NSE_INDEX%7CNifty%2050 HTTP/1.1" 200 OK
+  rolling sessions to probe: 19
+  completed-expiry candidates: 0
+INFO:     127.0.0.1:60281 - "GET /options/max-pain/history?expiry=2026-10-27&as_of=2026-10-25&history_days=30&instrument_key=NSE_INDEX%7CNifty%2050 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50530 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53729 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55401 - "GET /options/max-pain/intraday?expiry=2026-10-27&as_of=2026-10-25&instrument_key=NSE_INDEX%7CNifty%2050 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58146 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50533 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55076 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58579 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51542 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52785 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54782 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53611 - "GET /options/max-pain/intraday?expiry=2026-10-27&as_of=2026-10-25&instrument_key=NSE_INDEX%7CNifty%2050 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51324 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61965 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58864 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59283 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59282 - "GET /options/expiries?instrument_key=NSE_INDEX%7CNifty%2050&include_past=true&include_unverified=true&past_days=180 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56914 - "GET /options/max-pain/intraday?expiry=2026-10-27&as_of=2026-10-25&instrument_key=NSE_INDEX%7CNifty%2050 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63087 - "GET /options/max-pain?expiry=2026-10-27&as_of=2026-10-25&instrument_key=NSE_INDEX%7CNifty%2050 HTTP/1.1" 200 OK
+  rolling sessions to probe: 19
+  completed-expiry candidates: 0
+INFO:     127.0.0.1:63088 - "GET /options/max-pain/history?expiry=2026-10-27&as_of=2026-10-25&history_days=30&instrument_key=NSE_INDEX%7CNifty%2050 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55833 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63280 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58054 - "GET /options/max-pain/intraday?expiry=2026-10-27&as_of=2026-10-25&instrument_key=NSE_INDEX%7CNifty%2050 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50531 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58689 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63079 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57821 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57337 - "GET /options/max-pain/intraday?expiry=2026-10-27&as_of=2026-09-23&instrument_key=NSE_INDEX%7CNifty%2050 HTTP/1.1" 200 OK
+  rolling sessions to probe: 22
+INFO:     127.0.0.1:62784 - "GET /options/max-pain?expiry=2026-10-27&as_of=2026-09-23&instrument_key=NSE_INDEX%7CNifty%2050 HTTP/1.1" 200 OK
+  completed-expiry candidates: 0
+INFO:     127.0.0.1:62785 - "GET /options/max-pain/history?expiry=2026-10-27&as_of=2026-09-23&history_days=30&instrument_key=NSE_INDEX%7CNifty%2050 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62924 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64117 - "GET /options/max-pain/intraday?expiry=2026-10-27&as_of=2026-10-23&instrument_key=NSE_INDEX%7CNifty%2050 HTTP/1.1" 200 OK
+  rolling sessions to probe: 21
+  completed-expiry candidates: 0
+INFO:     127.0.0.1:52431 - "GET /options/max-pain/history?expiry=2026-10-27&as_of=2026-10-23&history_days=30&instrument_key=NSE_INDEX%7CNifty%2050 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52430 - "GET /options/max-pain?expiry=2026-10-27&as_of=2026-10-23&instrument_key=NSE_INDEX%7CNifty%2050 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61453 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57791 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58367 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57385 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60281 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54723 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59521 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50061 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58539 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55552 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56947 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53616 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52186 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52944 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51100 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50882 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52739 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53361 - "GET /options/max-pain/intraday?expiry=2026-10-27&as_of=2026-10-25&instrument_key=NSE_INDEX%7CNifty%2050 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53362 - "GET /options/max-pain?expiry=2026-10-27&as_of=2026-10-25&instrument_key=NSE_INDEX%7CNifty%2050 HTTP/1.1" 200 OK
+  rolling sessions to probe: 19
+  completed-expiry candidates: 0
+INFO:     127.0.0.1:53363 - "GET /options/max-pain/history?expiry=2026-10-27&as_of=2026-10-25&history_days=30&instrument_key=NSE_INDEX%7CNifty%2050 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53364 - "GET /options/max-pain/intraday?expiry=2026-10-27&as_of=2026-10-02&instrument_key=NSE_INDEX%7CNifty%2050 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53365 - "GET /options/max-pain/intraday?expiry=2026-10-27&as_of=2026-10-23&instrument_key=NSE_INDEX%7CNifty%2050 HTTP/1.1" 200 OK
+  rolling sessions to probe: 21
+  completed-expiry candidates: 0
+INFO:     127.0.0.1:64264 - "GET /options/max-pain/history?expiry=2026-10-27&as_of=2026-10-23&history_days=30&instrument_key=NSE_INDEX%7CNifty%2050 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64265 - "GET /options/max-pain?expiry=2026-10-27&as_of=2026-10-23&instrument_key=NSE_INDEX%7CNifty%2050 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51387 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51386 - "GET /options/expiries?instrument_key=NSE_INDEX%7CNifty%2050&include_past=true&include_unverified=true&past_days=180 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54999 - "GET /options/max-pain/intraday?expiry=2026-10-27&as_of=2026-10-25&instrument_key=NSE_INDEX%7CNifty%2050 HTTP/1.1" 200 OK
+  rolling sessions to probe: 19
+  completed-expiry candidates: 0
+INFO:     127.0.0.1:51947 - "GET /options/max-pain?expiry=2026-10-27&as_of=2026-10-25&instrument_key=NSE_INDEX%7CNifty%2050 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51948 - "GET /options/max-pain/history?expiry=2026-10-27&as_of=2026-10-25&history_days=30&instrument_key=NSE_INDEX%7CNifty%2050 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51378 - "GET /options/max-pain/intraday?expiry=2026-10-27&as_of=2026-10-02&instrument_key=NSE_INDEX%7CNifty%2050 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51379 - "GET /options/max-pain/intraday?expiry=2026-10-27&as_of=2026-10-23&instrument_key=NSE_INDEX%7CNifty%2050 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53835 - "GET /health HTTP/1.1" 200 OK
+  rolling sessions to probe: 21
+  completed-expiry candidates: 0
+INFO:     127.0.0.1:59246 - "GET /options/max-pain/history?expiry=2026-10-27&as_of=2026-10-23&history_days=30&instrument_key=NSE_INDEX%7CNifty%2050 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59245 - "GET /options/max-pain?expiry=2026-10-27&as_of=2026-10-23&instrument_key=NSE_INDEX%7CNifty%2050 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54076 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55278 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63142 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49673 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50308 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56639 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63747 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60100 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49398 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57054 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56105 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55330 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51548 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57808 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61067 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56354 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58361 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51123 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53663 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55371 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58611 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53647 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57698 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51759 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64756 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59408 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56507 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62170 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60004 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52019 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60001 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49769 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60164 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49767 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65043 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60756 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61696 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63309 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63171 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53593 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59255 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62991 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56553 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57311 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54594 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62843 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59744 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63061 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51105 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52789 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58601 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62482 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64627 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51591 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57942 - "GET /health HTTP/1.1" 200 OK

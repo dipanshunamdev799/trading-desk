@@ -1,0 +1,5067 @@
+[
+  {
+    "horizon": 5,
+    "target": "direction",
+    "metric": "brier",
+    "model": "A00_sector",
+    "strongest_fixed_baseline": "Z_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": 0.016233034837543646,
+    "paired_ci95": [
+      -0.049710654356665704,
+      0.05867654380882026
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "direction",
+    "metric": "brier",
+    "model": "A01_nofo",
+    "strongest_fixed_baseline": "Z_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.022001142318889798,
+    "paired_ci95": [
+      -0.1096246779473547,
+      0.037007827719476465
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "direction",
+    "metric": "brier",
+    "model": "A02_proxy",
+    "strongest_fixed_baseline": "Z_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.05305462272695958,
+    "paired_ci95": [
+      -0.14133255199618047,
+      0.030985998378316344
+    ],
+    "research_only": true,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "direction",
+    "metric": "brier",
+    "model": "A03_interact",
+    "strongest_fixed_baseline": "Z_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.12374062357837355,
+    "paired_ci95": [
+      -0.26185134077767863,
+      -0.0040250556149481346
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "direction",
+    "metric": "brier",
+    "model": "B00_empirical",
+    "strongest_fixed_baseline": "Z_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.00905664963247777,
+    "paired_ci95": [
+      -0.028813650560868487,
+      0.0189295564743611
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "direction",
+    "metric": "brier",
+    "model": "B01_ewma",
+    "strongest_fixed_baseline": "Z_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.01086357192055448,
+    "paired_ci95": [
+      -0.044976287775919416,
+      0.033831816274610876
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "direction",
+    "metric": "brier",
+    "model": "B02_rv_scaled",
+    "strongest_fixed_baseline": "Z_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.009056649632477763,
+    "paired_ci95": [
+      -0.02881365056086844,
+      0.018929556474361064
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "direction",
+    "metric": "brier",
+    "model": "B03_vix_scaled",
+    "strongest_fixed_baseline": "Z_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.009056649632477763,
+    "paired_ci95": [
+      -0.02881365056086844,
+      0.018929556474361064
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "direction",
+    "metric": "brier",
+    "model": "B04_momentum",
+    "strongest_fixed_baseline": "Z_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.015659171228997692,
+    "paired_ci95": [
+      -0.031485998116662674,
+      0.01152449681530965
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "direction",
+    "metric": "brier",
+    "model": "B05_reversion",
+    "strongest_fixed_baseline": "Z_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.004465961246284154,
+    "paired_ci95": [
+      -0.03127503808125814,
+      0.028429782212691726
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "direction",
+    "metric": "brier",
+    "model": "B06_regime",
+    "strongest_fixed_baseline": "Z_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.017088199257581017,
+    "paired_ci95": [
+      -0.03639055026155848,
+      0.013445402229899393
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "direction",
+    "metric": "brier",
+    "model": "C_direction",
+    "strongest_fixed_baseline": "Z_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.02151124832680265,
+    "paired_ci95": [
+      -0.04580400492779885,
+      0.0014173633064333098
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "direction",
+    "metric": "brier",
+    "model": "C_distribution",
+    "strongest_fixed_baseline": "Z_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.014512400381414265,
+    "paired_ci95": [
+      -0.029828276772292186,
+      0.013810455864009575
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "direction",
+    "metric": "brier",
+    "model": "C_return",
+    "strongest_fixed_baseline": "Z_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.013162945042127306,
+    "paired_ci95": [
+      -0.033539800533492675,
+      0.01450964407702735
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "direction",
+    "metric": "brier",
+    "model": "C_tail",
+    "strongest_fixed_baseline": "Z_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.01888496580942408,
+    "paired_ci95": [
+      -0.03357429185627258,
+      0.007098661384980237
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "direction",
+    "metric": "brier",
+    "model": "C_volatility",
+    "strongest_fixed_baseline": "Z_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.003381080472099057,
+    "paired_ci95": [
+      -0.02399794439012629,
+      0.030445864927144003
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "direction",
+    "metric": "brier",
+    "model": "M00_ridge_price",
+    "strongest_fixed_baseline": "Z_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": 0.003381122452176941,
+    "paired_ci95": [
+      -0.03729944897984692,
+      0.0294145970866941
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "direction",
+    "metric": "brier",
+    "model": "M01_ridge_full",
+    "strongest_fixed_baseline": "Z_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.06444711653680611,
+    "paired_ci95": [
+      -0.16392025241026248,
+      0.024026134083754952
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "direction",
+    "metric": "brier",
+    "model": "M02_elastic001",
+    "strongest_fixed_baseline": "Z_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.01537474416355976,
+    "paired_ci95": [
+      -0.09631825881728218,
+      0.05242827310599601
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "direction",
+    "metric": "brier",
+    "model": "M03_elastic01",
+    "strongest_fixed_baseline": "Z_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.01537474416355976,
+    "paired_ci95": [
+      -0.09631825881728218,
+      0.05242827310599601
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "direction",
+    "metric": "brier",
+    "model": "M04_corr_ridge",
+    "strongest_fixed_baseline": "Z_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.05381570070092602,
+    "paired_ci95": [
+      -0.15272543611225442,
+      0.03675383189001471
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "direction",
+    "metric": "brier",
+    "model": "M05_lgbm",
+    "strongest_fixed_baseline": "Z_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": 0.023190089197523894,
+    "paired_ci95": [
+      -0.04576323378206721,
+      0.08437829064599389
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "direction",
+    "metric": "brier",
+    "model": "M06_analog30",
+    "strongest_fixed_baseline": "Z_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.0023521610324318686,
+    "paired_ci95": [
+      -0.018928014327416476,
+      0.017852455558712663
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "direction",
+    "metric": "brier",
+    "model": "M07_sequence",
+    "strongest_fixed_baseline": "Z_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": 0.008934966249632968,
+    "paired_ci95": [
+      -0.03298330982809023,
+      0.038203750930006976
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "direction",
+    "metric": "brier",
+    "model": "S_direction",
+    "strongest_fixed_baseline": "Z_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.006878962730956207,
+    "paired_ci95": [
+      -0.055912958432351736,
+      0.024816594592916737
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "direction",
+    "metric": "brier",
+    "model": "S_distribution",
+    "strongest_fixed_baseline": "Z_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.019813322267364677,
+    "paired_ci95": [
+      -0.05785844790162022,
+      0.022397262953579165
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "direction",
+    "metric": "brier",
+    "model": "S_return",
+    "strongest_fixed_baseline": "Z_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.016158228286971724,
+    "paired_ci95": [
+      -0.059322414678884994,
+      0.025312307847221636
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "direction",
+    "metric": "brier",
+    "model": "S_tail",
+    "strongest_fixed_baseline": "Z_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": 0.0006249279987471729,
+    "paired_ci95": [
+      -0.039696933208086434,
+      0.030752116002672716
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "direction",
+    "metric": "brier",
+    "model": "S_volatility",
+    "strongest_fixed_baseline": "Z_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.007698316769820987,
+    "paired_ci95": [
+      -0.06077349351765143,
+      0.030531713684372793
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "direction",
+    "metric": "brier",
+    "model": "Z_always_down",
+    "strongest_fixed_baseline": "Z_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.1581173913043478,
+    "paired_ci95": [
+      -0.3040086956521739,
+      0.03994239130434777
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "direction",
+    "metric": "brier",
+    "model": "Z_always_up",
+    "strongest_fixed_baseline": "Z_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.30420434782608696,
+    "paired_ci95": [
+      -0.4822478260869563,
+      -0.16958478260869594
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "direction",
+    "metric": "brier",
+    "model": "Z_momentum",
+    "strongest_fixed_baseline": "Z_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.002173913043478264,
+    "paired_ci95": [
+      -0.03043478260869567,
+      0.02394021739130421
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "direction",
+    "metric": "brier",
+    "model": "Z_neutral",
+    "strongest_fixed_baseline": "Z_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.0007608695652173781,
+    "paired_ci95": [
+      -0.018152173913043478,
+      0.015543478260869584
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "direction",
+    "metric": "brier",
+    "model": "Z_reversion",
+    "strongest_fixed_baseline": "Z_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": 0.0,
+    "paired_ci95": [
+      0.0,
+      0.0
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "direction",
+    "metric": "brier",
+    "model": "S_direction",
+    "strongest_fixed_baseline": "C_direction",
+    "baseline_selected_on_outer": false,
+    "mean_improvement": 0.014632285595846438,
+    "paired_ci95": [
+      -0.0387514920085859,
+      0.060534465286742944
+    ],
+    "n": 92,
+    "qualification": "NESTED_SELECTOR_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "return",
+    "metric": "mae",
+    "model": "A00_sector",
+    "strongest_fixed_baseline": "B06_regime",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": 0.001336611249775393,
+    "paired_ci95": [
+      -0.002248764208683812,
+      0.004795492172292749
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "return",
+    "metric": "mae",
+    "model": "A01_nofo",
+    "strongest_fixed_baseline": "B06_regime",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": 0.0009155954713029834,
+    "paired_ci95": [
+      -0.002426276078546667,
+      0.004564901527235085
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "return",
+    "metric": "mae",
+    "model": "A02_proxy",
+    "strongest_fixed_baseline": "B06_regime",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.0006469040960020398,
+    "paired_ci95": [
+      -0.00409400703877118,
+      0.0025781667927124966
+    ],
+    "research_only": true,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "return",
+    "metric": "mae",
+    "model": "A03_interact",
+    "strongest_fixed_baseline": "B06_regime",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.0030439876916741855,
+    "paired_ci95": [
+      -0.007950833031989056,
+      0.0009350301984508416
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "return",
+    "metric": "mae",
+    "model": "B00_empirical",
+    "strongest_fixed_baseline": "B06_regime",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.00014899413547783918,
+    "paired_ci95": [
+      -0.0009569631921456469,
+      0.00038380390946166564
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "return",
+    "metric": "mae",
+    "model": "B01_ewma",
+    "strongest_fixed_baseline": "B06_regime",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.00032651050021067975,
+    "paired_ci95": [
+      -0.001123906924097696,
+      0.00023068843298615311
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "return",
+    "metric": "mae",
+    "model": "B02_rv_scaled",
+    "strongest_fixed_baseline": "B06_regime",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.00044171742464301444,
+    "paired_ci95": [
+      -0.0011823133688063099,
+      0.00016460838367287354
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "return",
+    "metric": "mae",
+    "model": "B03_vix_scaled",
+    "strongest_fixed_baseline": "B06_regime",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.0004216212004660176,
+    "paired_ci95": [
+      -0.0011790086792932135,
+      0.00020129644882766026
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "return",
+    "metric": "mae",
+    "model": "B04_momentum",
+    "strongest_fixed_baseline": "B06_regime",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.0002973637926115323,
+    "paired_ci95": [
+      -0.0007614259611568091,
+      1.0303283773999378e-05
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "return",
+    "metric": "mae",
+    "model": "B05_reversion",
+    "strongest_fixed_baseline": "B06_regime",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -2.4528071664284332e-05,
+    "paired_ci95": [
+      -0.0008992495316499168,
+      0.0005556810956841374
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "return",
+    "metric": "mae",
+    "model": "B06_regime",
+    "strongest_fixed_baseline": "B06_regime",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": 0.0,
+    "paired_ci95": [
+      0.0,
+      0.0
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "return",
+    "metric": "mae",
+    "model": "C_direction",
+    "strongest_fixed_baseline": "B06_regime",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.0002812725448807473,
+    "paired_ci95": [
+      -0.0010902088932166173,
+      0.00031140875982972816
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "return",
+    "metric": "mae",
+    "model": "C_distribution",
+    "strongest_fixed_baseline": "B06_regime",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.00017508678619501816,
+    "paired_ci95": [
+      -0.0006815369961810574,
+      0.00016595251500431635
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "return",
+    "metric": "mae",
+    "model": "C_return",
+    "strongest_fixed_baseline": "B06_regime",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": 0.00016067891842668598,
+    "paired_ci95": [
+      -0.00026027443723408727,
+      0.00040594500176326174
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "return",
+    "metric": "mae",
+    "model": "C_tail",
+    "strongest_fixed_baseline": "B06_regime",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.0004826107755915056,
+    "paired_ci95": [
+      -0.001105861026010578,
+      -0.00011443929392924172
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "return",
+    "metric": "mae",
+    "model": "C_volatility",
+    "strongest_fixed_baseline": "B06_regime",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -5.738663865987479e-05,
+    "paired_ci95": [
+      -0.0007575007511904564,
+      0.0006044424054073242
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "return",
+    "metric": "mae",
+    "model": "M00_ridge_price",
+    "strongest_fixed_baseline": "B06_regime",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": 0.0006170387066427432,
+    "paired_ci95": [
+      -0.0005357994923051143,
+      0.0013290031636043044
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "return",
+    "metric": "mae",
+    "model": "M01_ridge_full",
+    "strongest_fixed_baseline": "B06_regime",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.0005683705955837531,
+    "paired_ci95": [
+      -0.004039312144182936,
+      0.0026233420212439904
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "return",
+    "metric": "mae",
+    "model": "M02_elastic001",
+    "strongest_fixed_baseline": "B06_regime",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.0007207896923842828,
+    "paired_ci95": [
+      -0.004877019671197923,
+      0.0027319796962703173
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "return",
+    "metric": "mae",
+    "model": "M03_elastic01",
+    "strongest_fixed_baseline": "B06_regime",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.0002958511187826553,
+    "paired_ci95": [
+      -0.0013880702793654324,
+      0.0003252930904306263
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "return",
+    "metric": "mae",
+    "model": "M04_corr_ridge",
+    "strongest_fixed_baseline": "B06_regime",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.00040244581558587523,
+    "paired_ci95": [
+      -0.0038711864829024346,
+      0.0026977092291005826
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "return",
+    "metric": "mae",
+    "model": "M05_lgbm",
+    "strongest_fixed_baseline": "B06_regime",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": 0.0010344467689328881,
+    "paired_ci95": [
+      -0.0007129706704380912,
+      0.0022295050923115747
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "return",
+    "metric": "mae",
+    "model": "M06_analog30",
+    "strongest_fixed_baseline": "B06_regime",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.0001180261715824012,
+    "paired_ci95": [
+      -0.001018267059125451,
+      0.00043473613399222554
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "return",
+    "metric": "mae",
+    "model": "M07_sequence",
+    "strongest_fixed_baseline": "B06_regime",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": 0.0008448167217524786,
+    "paired_ci95": [
+      -0.00031152815379050034,
+      0.001780436752053648
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "return",
+    "metric": "mae",
+    "model": "S_direction",
+    "strongest_fixed_baseline": "B06_regime",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": 6.112318076038796e-05,
+    "paired_ci95": [
+      -0.0024224993135045112,
+      0.002377843703462973
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "return",
+    "metric": "mae",
+    "model": "S_distribution",
+    "strongest_fixed_baseline": "B06_regime",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -1.0579714067485859e-05,
+    "paired_ci95": [
+      -0.001989822403128655,
+      0.0020279902281955886
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "return",
+    "metric": "mae",
+    "model": "S_return",
+    "strongest_fixed_baseline": "B06_regime",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": 5.2219053291908114e-05,
+    "paired_ci95": [
+      -0.0020297666894408067,
+      0.0021565069905860293
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "return",
+    "metric": "mae",
+    "model": "S_tail",
+    "strongest_fixed_baseline": "B06_regime",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": 0.0004132955376605533,
+    "paired_ci95": [
+      -0.0013070580012452826,
+      0.0018376072428777455
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "return",
+    "metric": "mae",
+    "model": "S_volatility",
+    "strongest_fixed_baseline": "B06_regime",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.00015981555541549252,
+    "paired_ci95": [
+      -0.002878438420322912,
+      0.002396759665264953
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "return",
+    "metric": "mae",
+    "model": "Z_always_down",
+    "strongest_fixed_baseline": "B06_regime",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.00014899413547783918,
+    "paired_ci95": [
+      -0.0009569631921456469,
+      0.00038380390946166564
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "return",
+    "metric": "mae",
+    "model": "Z_always_up",
+    "strongest_fixed_baseline": "B06_regime",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.00014899413547783918,
+    "paired_ci95": [
+      -0.0009569631921456469,
+      0.00038380390946166564
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "return",
+    "metric": "mae",
+    "model": "Z_momentum",
+    "strongest_fixed_baseline": "B06_regime",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.00014899413547783918,
+    "paired_ci95": [
+      -0.0009569631921456469,
+      0.00038380390946166564
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "return",
+    "metric": "mae",
+    "model": "Z_neutral",
+    "strongest_fixed_baseline": "B06_regime",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.00014899413547783918,
+    "paired_ci95": [
+      -0.0009569631921456469,
+      0.00038380390946166564
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "return",
+    "metric": "mae",
+    "model": "Z_reversion",
+    "strongest_fixed_baseline": "B06_regime",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.00014899413547783918,
+    "paired_ci95": [
+      -0.0009569631921456469,
+      0.00038380390946166564
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "return",
+    "metric": "mae",
+    "model": "S_return",
+    "strongest_fixed_baseline": "C_return",
+    "baseline_selected_on_outer": false,
+    "mean_improvement": -0.00010845986513477793,
+    "paired_ci95": [
+      -0.0020168399522934688,
+      0.0018341626153737594
+    ],
+    "n": 92,
+    "qualification": "NESTED_SELECTOR_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "distribution",
+    "metric": "crps",
+    "model": "A00_sector",
+    "strongest_fixed_baseline": "B05_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": 0.0009907880496794067,
+    "paired_ci95": [
+      -0.0003081995702051929,
+      0.0026270335724307243
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "distribution",
+    "metric": "crps",
+    "model": "A01_nofo",
+    "strongest_fixed_baseline": "B05_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.00013469197573240475,
+    "paired_ci95": [
+      -0.0023061166163768263,
+      0.0020676940901983463
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "distribution",
+    "metric": "crps",
+    "model": "A02_proxy",
+    "strongest_fixed_baseline": "B05_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.0038397381035714753,
+    "paired_ci95": [
+      -0.0074696753081845415,
+      0.00016533541600515907
+    ],
+    "research_only": true,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "distribution",
+    "metric": "crps",
+    "model": "A03_interact",
+    "strongest_fixed_baseline": "B05_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.0065886716810769725,
+    "paired_ci95": [
+      -0.012311511583665348,
+      -0.0006654938149862435
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "distribution",
+    "metric": "crps",
+    "model": "B00_empirical",
+    "strongest_fixed_baseline": "B05_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.00010405265159612622,
+    "paired_ci95": [
+      -0.00019381453623666672,
+      7.679260772285073e-05
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "distribution",
+    "metric": "crps",
+    "model": "B01_ewma",
+    "strongest_fixed_baseline": "B05_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.00030240912249138835,
+    "paired_ci95": [
+      -0.00047459288686585416,
+      -4.283848634148109e-05
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "distribution",
+    "metric": "crps",
+    "model": "B02_rv_scaled",
+    "strongest_fixed_baseline": "B05_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.0002535455522262371,
+    "paired_ci95": [
+      -0.0006988875165408942,
+      0.00017065186411714073
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "distribution",
+    "metric": "crps",
+    "model": "B03_vix_scaled",
+    "strongest_fixed_baseline": "B05_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.0001488666773304664,
+    "paired_ci95": [
+      -0.0004094423804872879,
+      0.00023445151994790333
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "distribution",
+    "metric": "crps",
+    "model": "B04_momentum",
+    "strongest_fixed_baseline": "B05_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.000295427990644389,
+    "paired_ci95": [
+      -0.0005898275022969964,
+      0.00020319829240513938
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "distribution",
+    "metric": "crps",
+    "model": "B05_reversion",
+    "strongest_fixed_baseline": "B05_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": 0.0,
+    "paired_ci95": [
+      0.0,
+      0.0
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "distribution",
+    "metric": "crps",
+    "model": "B06_regime",
+    "strongest_fixed_baseline": "B05_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.00020253275048775758,
+    "paired_ci95": [
+      -0.000566453247278574,
+      0.00042971126598299577
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "distribution",
+    "metric": "crps",
+    "model": "C_direction",
+    "strongest_fixed_baseline": "B05_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.00027756975134197315,
+    "paired_ci95": [
+      -0.00045680660750693514,
+      -3.200330706964644e-05
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "distribution",
+    "metric": "crps",
+    "model": "C_distribution",
+    "strongest_fixed_baseline": "B05_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -7.73451063609883e-05,
+    "paired_ci95": [
+      -0.000428481243952931,
+      0.0004382547134899236
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "distribution",
+    "metric": "crps",
+    "model": "C_return",
+    "strongest_fixed_baseline": "B05_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -3.789118311779705e-05,
+    "paired_ci95": [
+      -0.0005587621951066072,
+      0.00058327023058388
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "distribution",
+    "metric": "crps",
+    "model": "C_tail",
+    "strongest_fixed_baseline": "B05_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.0003596951527137161,
+    "paired_ci95": [
+      -0.0006217993009838771,
+      8.2781758730306e-05
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "distribution",
+    "metric": "crps",
+    "model": "C_volatility",
+    "strongest_fixed_baseline": "B05_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -1.6771260848181165e-05,
+    "paired_ci95": [
+      -9.764256548633483e-05,
+      0.0004223460276013793
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "distribution",
+    "metric": "crps",
+    "model": "M00_ridge_price",
+    "strongest_fixed_baseline": "B05_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.0018813715832325252,
+    "paired_ci95": [
+      -0.0026587933626422704,
+      -0.0005675549824837895
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "distribution",
+    "metric": "crps",
+    "model": "M01_ridge_full",
+    "strongest_fixed_baseline": "B05_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.003418078788554598,
+    "paired_ci95": [
+      -0.006945053749119238,
+      0.0003121495882338288
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "distribution",
+    "metric": "crps",
+    "model": "M02_elastic001",
+    "strongest_fixed_baseline": "B05_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.004084413217429834,
+    "paired_ci95": [
+      -0.007767179833636623,
+      -0.0001942032176243922
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "distribution",
+    "metric": "crps",
+    "model": "M03_elastic01",
+    "strongest_fixed_baseline": "B05_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.0014496800812584094,
+    "paired_ci95": [
+      -0.002292967588464791,
+      -0.00042916195350830823
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "distribution",
+    "metric": "crps",
+    "model": "M04_corr_ridge",
+    "strongest_fixed_baseline": "B05_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.003281200784571895,
+    "paired_ci95": [
+      -0.006712118258269982,
+      0.0002138199458669864
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "distribution",
+    "metric": "crps",
+    "model": "M05_lgbm",
+    "strongest_fixed_baseline": "B05_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": 0.0002861234414155891,
+    "paired_ci95": [
+      -0.0007809166801039268,
+      0.0012003470123469733
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "distribution",
+    "metric": "crps",
+    "model": "M06_analog30",
+    "strongest_fixed_baseline": "B05_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.00010679867904928637,
+    "paired_ci95": [
+      -0.0006667969323783428,
+      0.0004741829602027358
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "distribution",
+    "metric": "crps",
+    "model": "M07_sequence",
+    "strongest_fixed_baseline": "B05_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.0012781379799240355,
+    "paired_ci95": [
+      -0.0019568402531421015,
+      -0.00018430407118455046
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "distribution",
+    "metric": "crps",
+    "model": "S_direction",
+    "strongest_fixed_baseline": "B05_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": 0.0006716120817092007,
+    "paired_ci95": [
+      -0.0006117609079236209,
+      0.002181018276818895
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "distribution",
+    "metric": "crps",
+    "model": "S_distribution",
+    "strongest_fixed_baseline": "B05_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": 0.0008215090319704992,
+    "paired_ci95": [
+      -0.00020679413417778902,
+      0.0022670473904361508
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "distribution",
+    "metric": "crps",
+    "model": "S_return",
+    "strongest_fixed_baseline": "B05_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": 0.0008569568754400126,
+    "paired_ci95": [
+      -0.00030045043268736013,
+      0.0023927280968542913
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "distribution",
+    "metric": "crps",
+    "model": "S_tail",
+    "strongest_fixed_baseline": "B05_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": 0.00021748859770550204,
+    "paired_ci95": [
+      -0.0006830545062198266,
+      0.0011330600446255508
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "distribution",
+    "metric": "crps",
+    "model": "S_volatility",
+    "strongest_fixed_baseline": "B05_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -2.4218113780856265e-05,
+    "paired_ci95": [
+      -0.000683887228330161,
+      0.0014685273177299557
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "distribution",
+    "metric": "crps",
+    "model": "Z_always_down",
+    "strongest_fixed_baseline": "B05_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.00010405265159612622,
+    "paired_ci95": [
+      -0.00019381453623666672,
+      7.679260772285073e-05
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "distribution",
+    "metric": "crps",
+    "model": "Z_always_up",
+    "strongest_fixed_baseline": "B05_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.00010405265159612622,
+    "paired_ci95": [
+      -0.00019381453623666672,
+      7.679260772285073e-05
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "distribution",
+    "metric": "crps",
+    "model": "Z_momentum",
+    "strongest_fixed_baseline": "B05_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.00010405265159612622,
+    "paired_ci95": [
+      -0.00019381453623666672,
+      7.679260772285073e-05
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "distribution",
+    "metric": "crps",
+    "model": "Z_neutral",
+    "strongest_fixed_baseline": "B05_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.00010405265159612622,
+    "paired_ci95": [
+      -0.00019381453623666672,
+      7.679260772285073e-05
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "distribution",
+    "metric": "crps",
+    "model": "Z_reversion",
+    "strongest_fixed_baseline": "B05_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.00010405265159612622,
+    "paired_ci95": [
+      -0.00019381453623666672,
+      7.679260772285073e-05
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "distribution",
+    "metric": "crps",
+    "model": "S_distribution",
+    "strongest_fixed_baseline": "C_distribution",
+    "baseline_selected_on_outer": false,
+    "mean_improvement": 0.0008988541383314876,
+    "paired_ci95": [
+      5.1839485673724913e-05,
+      0.0020080633915911163
+    ],
+    "n": 92,
+    "qualification": "NESTED_SELECTOR_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "volatility",
+    "metric": "qlike",
+    "model": "A00_sector",
+    "strongest_fixed_baseline": "B03_vix_scaled",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": 2.2363544055434644e-05,
+    "paired_ci95": [
+      -0.15516046787422896,
+      0.2731580780895009
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "volatility",
+    "metric": "qlike",
+    "model": "A01_nofo",
+    "strongest_fixed_baseline": "B03_vix_scaled",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.0961025605378265,
+    "paired_ci95": [
+      -0.2718795673531695,
+      0.25011462404147755
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "volatility",
+    "metric": "qlike",
+    "model": "A02_proxy",
+    "strongest_fixed_baseline": "B03_vix_scaled",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.11256823122567136,
+    "paired_ci95": [
+      -0.25182379131912186,
+      0.18889568038753915
+    ],
+    "research_only": true,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "volatility",
+    "metric": "qlike",
+    "model": "A03_interact",
+    "strongest_fixed_baseline": "B03_vix_scaled",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.15425918077074877,
+    "paired_ci95": [
+      -0.3072589244700855,
+      0.16970213239786996
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "volatility",
+    "metric": "qlike",
+    "model": "B00_empirical",
+    "strongest_fixed_baseline": "B03_vix_scaled",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.07293330729471718,
+    "paired_ci95": [
+      -0.18725704072250982,
+      0.034420387205425534
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "volatility",
+    "metric": "qlike",
+    "model": "B01_ewma",
+    "strongest_fixed_baseline": "B03_vix_scaled",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.12561388421691888,
+    "paired_ci95": [
+      -0.25786265255680796,
+      -0.014124510804382802
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "volatility",
+    "metric": "qlike",
+    "model": "B02_rv_scaled",
+    "strongest_fixed_baseline": "B03_vix_scaled",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.15033254819051364,
+    "paired_ci95": [
+      -0.3959517973220646,
+      0.03872215033780934
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "volatility",
+    "metric": "qlike",
+    "model": "B03_vix_scaled",
+    "strongest_fixed_baseline": "B03_vix_scaled",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": 0.0,
+    "paired_ci95": [
+      0.0,
+      0.0
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "volatility",
+    "metric": "qlike",
+    "model": "B04_momentum",
+    "strongest_fixed_baseline": "B03_vix_scaled",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.13552312500758248,
+    "paired_ci95": [
+      -0.3029689969658278,
+      0.06765923720029922
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "volatility",
+    "metric": "qlike",
+    "model": "B05_reversion",
+    "strongest_fixed_baseline": "B03_vix_scaled",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.0556749515879368,
+    "paired_ci95": [
+      -0.19063918149477424,
+      0.05916760969666988
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "volatility",
+    "metric": "qlike",
+    "model": "B06_regime",
+    "strongest_fixed_baseline": "B03_vix_scaled",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.036964152392315264,
+    "paired_ci95": [
+      -0.1267040071669922,
+      0.05361206722339638
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "volatility",
+    "metric": "qlike",
+    "model": "C_direction",
+    "strongest_fixed_baseline": "B03_vix_scaled",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.09066282558993968,
+    "paired_ci95": [
+      -0.21939270705043734,
+      0.032666230052194246
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "volatility",
+    "metric": "qlike",
+    "model": "C_distribution",
+    "strongest_fixed_baseline": "B03_vix_scaled",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.03699172157462023,
+    "paired_ci95": [
+      -0.14750762804788484,
+      0.06968282442471348
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "volatility",
+    "metric": "qlike",
+    "model": "C_return",
+    "strongest_fixed_baseline": "B03_vix_scaled",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.021409649435438386,
+    "paired_ci95": [
+      -0.1047214949096318,
+      0.046606953976329066
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "volatility",
+    "metric": "qlike",
+    "model": "C_tail",
+    "strongest_fixed_baseline": "B03_vix_scaled",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.10976400741852581,
+    "paired_ci95": [
+      -0.29814862851729296,
+      0.054181150003863615
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "volatility",
+    "metric": "qlike",
+    "model": "C_volatility",
+    "strongest_fixed_baseline": "B03_vix_scaled",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.031758599893340636,
+    "paired_ci95": [
+      -0.1185833955621896,
+      0.05757010112352548
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "volatility",
+    "metric": "qlike",
+    "model": "M00_ridge_price",
+    "strongest_fixed_baseline": "B03_vix_scaled",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.164092430463597,
+    "paired_ci95": [
+      -0.3077770809333907,
+      0.1993424983380781
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "volatility",
+    "metric": "qlike",
+    "model": "M01_ridge_full",
+    "strongest_fixed_baseline": "B03_vix_scaled",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.12221162212351386,
+    "paired_ci95": [
+      -0.2599556034150943,
+      0.18566623881195185
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "volatility",
+    "metric": "qlike",
+    "model": "M02_elastic001",
+    "strongest_fixed_baseline": "B03_vix_scaled",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.12221162212351386,
+    "paired_ci95": [
+      -0.2599556034150943,
+      0.18566623881195185
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "volatility",
+    "metric": "qlike",
+    "model": "M03_elastic01",
+    "strongest_fixed_baseline": "B03_vix_scaled",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.12221162212351386,
+    "paired_ci95": [
+      -0.2599556034150943,
+      0.18566623881195185
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "volatility",
+    "metric": "qlike",
+    "model": "M04_corr_ridge",
+    "strongest_fixed_baseline": "B03_vix_scaled",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.11273819596859985,
+    "paired_ci95": [
+      -0.25329824988124544,
+      0.18995062014788425
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "volatility",
+    "metric": "qlike",
+    "model": "M05_lgbm",
+    "strongest_fixed_baseline": "B03_vix_scaled",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": 0.015035480053991567,
+    "paired_ci95": [
+      -0.09667650498405934,
+      0.13707566361817783
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "volatility",
+    "metric": "qlike",
+    "model": "M06_analog30",
+    "strongest_fixed_baseline": "B03_vix_scaled",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.1617666806777326,
+    "paired_ci95": [
+      -0.4005655700663036,
+      0.10326798015548731
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "volatility",
+    "metric": "qlike",
+    "model": "M07_sequence",
+    "strongest_fixed_baseline": "B03_vix_scaled",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.24701659147497365,
+    "paired_ci95": [
+      -0.38334487297337777,
+      0.20857038093552013
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "volatility",
+    "metric": "qlike",
+    "model": "S_direction",
+    "strongest_fixed_baseline": "B03_vix_scaled",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.024007024757894783,
+    "paired_ci95": [
+      -0.10265249920612197,
+      0.050729867294664825
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "volatility",
+    "metric": "qlike",
+    "model": "S_distribution",
+    "strongest_fixed_baseline": "B03_vix_scaled",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": 0.09833811546246046,
+    "paired_ci95": [
+      -0.04647229380927427,
+      0.29390381162352713
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "volatility",
+    "metric": "qlike",
+    "model": "S_return",
+    "strongest_fixed_baseline": "B03_vix_scaled",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": 0.10507098425258551,
+    "paired_ci95": [
+      -0.030211983247506048,
+      0.2912522931268109
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "volatility",
+    "metric": "qlike",
+    "model": "S_tail",
+    "strongest_fixed_baseline": "B03_vix_scaled",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.015690521685542004,
+    "paired_ci95": [
+      -0.11495820692891719,
+      0.0664034419270509
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "volatility",
+    "metric": "qlike",
+    "model": "S_volatility",
+    "strongest_fixed_baseline": "B03_vix_scaled",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.19009239898542435,
+    "paired_ci95": [
+      -0.34390871971879866,
+      0.07043721272282315
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "volatility",
+    "metric": "qlike",
+    "model": "Z_always_down",
+    "strongest_fixed_baseline": "B03_vix_scaled",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.07293330729471718,
+    "paired_ci95": [
+      -0.18725704072250982,
+      0.034420387205425534
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "volatility",
+    "metric": "qlike",
+    "model": "Z_always_up",
+    "strongest_fixed_baseline": "B03_vix_scaled",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.07293330729471718,
+    "paired_ci95": [
+      -0.18725704072250982,
+      0.034420387205425534
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "volatility",
+    "metric": "qlike",
+    "model": "Z_momentum",
+    "strongest_fixed_baseline": "B03_vix_scaled",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.07293330729471718,
+    "paired_ci95": [
+      -0.18725704072250982,
+      0.034420387205425534
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "volatility",
+    "metric": "qlike",
+    "model": "Z_neutral",
+    "strongest_fixed_baseline": "B03_vix_scaled",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.07293330729471718,
+    "paired_ci95": [
+      -0.18725704072250982,
+      0.034420387205425534
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "volatility",
+    "metric": "qlike",
+    "model": "Z_reversion",
+    "strongest_fixed_baseline": "B03_vix_scaled",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.07293330729471718,
+    "paired_ci95": [
+      -0.18725704072250982,
+      0.034420387205425534
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "volatility",
+    "metric": "qlike",
+    "model": "S_volatility",
+    "strongest_fixed_baseline": "C_volatility",
+    "baseline_selected_on_outer": false,
+    "mean_improvement": -0.1583337990920837,
+    "paired_ci95": [
+      -0.23708130675882247,
+      0.06541659740815352
+    ],
+    "n": 92,
+    "qualification": "NESTED_SELECTOR_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "tail",
+    "metric": "tail02_brier",
+    "model": "A00_sector",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.004892100229014598,
+    "paired_ci95": [
+      -0.03622387664289751,
+      0.02295410986691241
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "tail",
+    "metric": "tail02_brier",
+    "model": "A01_nofo",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.013772061520334914,
+    "paired_ci95": [
+      -0.05302516665749557,
+      0.020708109876830267
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "tail",
+    "metric": "tail02_brier",
+    "model": "A02_proxy",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.027131789400990543,
+    "paired_ci95": [
+      -0.07036147717500374,
+      0.008999214769595455
+    ],
+    "research_only": true,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "tail",
+    "metric": "tail02_brier",
+    "model": "A03_interact",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.04261645085407246,
+    "paired_ci95": [
+      -0.09325826672443734,
+      0.0005609488987308995
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "tail",
+    "metric": "tail02_brier",
+    "model": "B00_empirical",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.004549226607756849,
+    "paired_ci95": [
+      -0.01286000042928554,
+      0.004559603812393005
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "tail",
+    "metric": "tail02_brier",
+    "model": "B01_ewma",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.01027145916438804,
+    "paired_ci95": [
+      -0.022140037020843502,
+      0.001703413741316824
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "tail",
+    "metric": "tail02_brier",
+    "model": "B02_rv_scaled",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.004549226607756856,
+    "paired_ci95": [
+      -0.012860000429285541,
+      0.0045596038123929955
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "tail",
+    "metric": "tail02_brier",
+    "model": "B03_vix_scaled",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.004549226607756856,
+    "paired_ci95": [
+      -0.012860000429285541,
+      0.0045596038123929955
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "tail",
+    "metric": "tail02_brier",
+    "model": "B04_momentum",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": 0.0,
+    "paired_ci95": [
+      0.0,
+      0.0
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "tail",
+    "metric": "tail02_brier",
+    "model": "B05_reversion",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.004420565577520436,
+    "paired_ci95": [
+      -0.01283707848044541,
+      0.005004978594155
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "tail",
+    "metric": "tail02_brier",
+    "model": "B06_regime",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.0074755387683392354,
+    "paired_ci95": [
+      -0.013675435930126243,
+      -0.0003717857366633744
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "tail",
+    "metric": "tail02_brier",
+    "model": "C_direction",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.00418847945860669,
+    "paired_ci95": [
+      -0.012773903339719514,
+      0.005139080903803804
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "tail",
+    "metric": "tail02_brier",
+    "model": "C_distribution",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.0007404413727965519,
+    "paired_ci95": [
+      -0.002935938354615591,
+      0.002508653429221695
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "tail",
+    "metric": "tail02_brier",
+    "model": "C_return",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.008542424217577248,
+    "paired_ci95": [
+      -0.015076851381098573,
+      -0.0007076492872423279
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "tail",
+    "metric": "tail02_brier",
+    "model": "C_tail",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.00036195915462270474,
+    "paired_ci95": [
+      -0.003119842792112305,
+      0.0018454839040798
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "tail",
+    "metric": "tail02_brier",
+    "model": "C_volatility",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.0076875562651775985,
+    "paired_ci95": [
+      -0.014756101242926803,
+      -0.000924473237895303
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "tail",
+    "metric": "tail02_brier",
+    "model": "M00_ridge_price",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.011625749415758039,
+    "paired_ci95": [
+      -0.03711825320258309,
+      0.008680125678898481
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "tail",
+    "metric": "tail02_brier",
+    "model": "M01_ridge_full",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.030978562880060203,
+    "paired_ci95": [
+      -0.07110590131509265,
+      0.0027900957241450545
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "tail",
+    "metric": "tail02_brier",
+    "model": "M02_elastic001",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.030978562880060203,
+    "paired_ci95": [
+      -0.07110590131509265,
+      0.0027900957241450545
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "tail",
+    "metric": "tail02_brier",
+    "model": "M03_elastic01",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.030978562880060203,
+    "paired_ci95": [
+      -0.07110590131509265,
+      0.0027900957241450545
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "tail",
+    "metric": "tail02_brier",
+    "model": "M04_corr_ridge",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.030367281110497097,
+    "paired_ci95": [
+      -0.06928473321687022,
+      0.0017993683332543787
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "tail",
+    "metric": "tail02_brier",
+    "model": "M05_lgbm",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": 0.005676209291401881,
+    "paired_ci95": [
+      -0.012317382361482412,
+      0.02175932988255387
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "tail",
+    "metric": "tail02_brier",
+    "model": "M06_analog30",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.006756605274307362,
+    "paired_ci95": [
+      -0.032307491056413215,
+      0.014053617586635916
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "tail",
+    "metric": "tail02_brier",
+    "model": "M07_sequence",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.013163816852506425,
+    "paired_ci95": [
+      -0.03880323047886082,
+      0.007233986372244073
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "tail",
+    "metric": "tail02_brier",
+    "model": "S_direction",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.007150267723978201,
+    "paired_ci95": [
+      -0.037172590142218895,
+      0.015101684193126576
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "tail",
+    "metric": "tail02_brier",
+    "model": "S_distribution",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.002819371440249933,
+    "paired_ci95": [
+      -0.0326846381856758,
+      0.021403831151552255
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "tail",
+    "metric": "tail02_brier",
+    "model": "S_return",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.00531929655571294,
+    "paired_ci95": [
+      -0.03442441710623097,
+      0.019091531388031987
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "tail",
+    "metric": "tail02_brier",
+    "model": "S_tail",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.011093465909422246,
+    "paired_ci95": [
+      -0.04003887721270635,
+      0.008744912246828562
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "tail",
+    "metric": "tail02_brier",
+    "model": "S_volatility",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.009758867131441688,
+    "paired_ci95": [
+      -0.040512577954545506,
+      0.013833483050277744
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "tail",
+    "metric": "tail02_brier",
+    "model": "Z_always_down",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.004549226607756849,
+    "paired_ci95": [
+      -0.01286000042928554,
+      0.004559603812393005
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "tail",
+    "metric": "tail02_brier",
+    "model": "Z_always_up",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.004549226607756849,
+    "paired_ci95": [
+      -0.01286000042928554,
+      0.004559603812393005
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "tail",
+    "metric": "tail02_brier",
+    "model": "Z_momentum",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.004549226607756849,
+    "paired_ci95": [
+      -0.01286000042928554,
+      0.004559603812393005
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "tail",
+    "metric": "tail02_brier",
+    "model": "Z_neutral",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.004549226607756849,
+    "paired_ci95": [
+      -0.01286000042928554,
+      0.004559603812393005
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "tail",
+    "metric": "tail02_brier",
+    "model": "Z_reversion",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.004549226607756849,
+    "paired_ci95": [
+      -0.01286000042928554,
+      0.004559603812393005
+    ],
+    "research_only": false,
+    "n": 92,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "target": "tail",
+    "metric": "tail02_brier",
+    "model": "S_tail",
+    "strongest_fixed_baseline": "C_tail",
+    "baseline_selected_on_outer": false,
+    "mean_improvement": -0.01073150675479954,
+    "paired_ci95": [
+      -0.03931270094190508,
+      0.009360647207970762
+    ],
+    "n": 92,
+    "qualification": "NESTED_SELECTOR_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "direction",
+    "metric": "brier",
+    "model": "A00_sector",
+    "strongest_fixed_baseline": "Z_neutral",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.04396985993977152,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "direction",
+    "metric": "brier",
+    "model": "A01_nofo",
+    "strongest_fixed_baseline": "Z_neutral",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.009228227717579774,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "direction",
+    "metric": "brier",
+    "model": "A02_proxy",
+    "strongest_fixed_baseline": "Z_neutral",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.08560562212081844,
+    "paired_ci95": null,
+    "research_only": true,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "direction",
+    "metric": "brier",
+    "model": "A03_interact",
+    "strongest_fixed_baseline": "Z_neutral",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.11301106714626685,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "direction",
+    "metric": "brier",
+    "model": "B00_empirical",
+    "strongest_fixed_baseline": "Z_neutral",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.029282034451207296,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "direction",
+    "metric": "brier",
+    "model": "B01_ewma",
+    "strongest_fixed_baseline": "Z_neutral",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.055681752056712025,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "direction",
+    "metric": "brier",
+    "model": "B02_rv_scaled",
+    "strongest_fixed_baseline": "Z_neutral",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.029282034451207386,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "direction",
+    "metric": "brier",
+    "model": "B03_vix_scaled",
+    "strongest_fixed_baseline": "Z_neutral",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.029282034451207386,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "direction",
+    "metric": "brier",
+    "model": "B04_momentum",
+    "strongest_fixed_baseline": "Z_neutral",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.027688353853103385,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "direction",
+    "metric": "brier",
+    "model": "B05_reversion",
+    "strongest_fixed_baseline": "Z_neutral",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.025827762573345913,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "direction",
+    "metric": "brier",
+    "model": "B06_regime",
+    "strongest_fixed_baseline": "Z_neutral",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.019009546499690853,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "direction",
+    "metric": "brier",
+    "model": "C_direction",
+    "strongest_fixed_baseline": "Z_neutral",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.1641757292495573,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "direction",
+    "metric": "brier",
+    "model": "C_distribution",
+    "strongest_fixed_baseline": "Z_neutral",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.05972574016707742,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "direction",
+    "metric": "brier",
+    "model": "C_return",
+    "strongest_fixed_baseline": "Z_neutral",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.04734101414138961,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "direction",
+    "metric": "brier",
+    "model": "C_tail",
+    "strongest_fixed_baseline": "Z_neutral",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.04207091012174355,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "direction",
+    "metric": "brier",
+    "model": "C_volatility",
+    "strongest_fixed_baseline": "Z_neutral",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.03899264803164485,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "direction",
+    "metric": "brier",
+    "model": "M00_ridge_price",
+    "strongest_fixed_baseline": "Z_neutral",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.041218519780169015,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "direction",
+    "metric": "brier",
+    "model": "M01_ridge_full",
+    "strongest_fixed_baseline": "Z_neutral",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.0799259834053825,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "direction",
+    "metric": "brier",
+    "model": "M02_elastic001",
+    "strongest_fixed_baseline": "Z_neutral",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.07197512014330659,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "direction",
+    "metric": "brier",
+    "model": "M03_elastic01",
+    "strongest_fixed_baseline": "Z_neutral",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.07197512014330659,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "direction",
+    "metric": "brier",
+    "model": "M04_corr_ridge",
+    "strongest_fixed_baseline": "Z_neutral",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.07314229760814002,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "direction",
+    "metric": "brier",
+    "model": "M05_lgbm",
+    "strongest_fixed_baseline": "Z_neutral",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.056622123991302745,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "direction",
+    "metric": "brier",
+    "model": "M06_analog30",
+    "strongest_fixed_baseline": "Z_neutral",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.011961045744314494,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "direction",
+    "metric": "brier",
+    "model": "M07_sequence",
+    "strongest_fixed_baseline": "Z_neutral",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.03937173266843996,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "direction",
+    "metric": "brier",
+    "model": "S_direction",
+    "strongest_fixed_baseline": "Z_neutral",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": 0.007800148947690672,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "direction",
+    "metric": "brier",
+    "model": "S_distribution",
+    "strongest_fixed_baseline": "Z_neutral",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.1029282572337002,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "direction",
+    "metric": "brier",
+    "model": "S_return",
+    "strongest_fixed_baseline": "Z_neutral",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.08243081717015725,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "direction",
+    "metric": "brier",
+    "model": "S_tail",
+    "strongest_fixed_baseline": "Z_neutral",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.05644349212071326,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "direction",
+    "metric": "brier",
+    "model": "S_volatility",
+    "strongest_fixed_baseline": "Z_neutral",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.03020731160380004,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "direction",
+    "metric": "brier",
+    "model": "Z_always_down",
+    "strongest_fixed_baseline": "Z_neutral",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.141978947368421,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "direction",
+    "metric": "brier",
+    "model": "Z_always_up",
+    "strongest_fixed_baseline": "Z_neutral",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.31882105263157884,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "direction",
+    "metric": "brier",
+    "model": "Z_momentum",
+    "strongest_fixed_baseline": "Z_neutral",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.001184210526315808,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "direction",
+    "metric": "brier",
+    "model": "Z_neutral",
+    "strongest_fixed_baseline": "Z_neutral",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": 0.0,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "direction",
+    "metric": "brier",
+    "model": "Z_reversion",
+    "strongest_fixed_baseline": "Z_neutral",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.0038157894736842255,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "direction",
+    "metric": "brier",
+    "model": "S_direction",
+    "strongest_fixed_baseline": "C_direction",
+    "baseline_selected_on_outer": false,
+    "mean_improvement": 0.17197587819724794,
+    "paired_ci95": null,
+    "n": 76,
+    "qualification": "NESTED_SELECTOR_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "return",
+    "metric": "mae",
+    "model": "A00_sector",
+    "strongest_fixed_baseline": "B05_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": 0.002914356130872198,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "return",
+    "metric": "mae",
+    "model": "A01_nofo",
+    "strongest_fixed_baseline": "B05_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.004593997667493926,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "return",
+    "metric": "mae",
+    "model": "A02_proxy",
+    "strongest_fixed_baseline": "B05_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.00711351618859615,
+    "paired_ci95": null,
+    "research_only": true,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "return",
+    "metric": "mae",
+    "model": "A03_interact",
+    "strongest_fixed_baseline": "B05_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.006054767260911834,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "return",
+    "metric": "mae",
+    "model": "B00_empirical",
+    "strongest_fixed_baseline": "B05_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.0002681430898321654,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "return",
+    "metric": "mae",
+    "model": "B01_ewma",
+    "strongest_fixed_baseline": "B05_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.00258027080770103,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "return",
+    "metric": "mae",
+    "model": "B02_rv_scaled",
+    "strongest_fixed_baseline": "B05_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.0006659120712417275,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "return",
+    "metric": "mae",
+    "model": "B03_vix_scaled",
+    "strongest_fixed_baseline": "B05_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.000906471184335091,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "return",
+    "metric": "mae",
+    "model": "B04_momentum",
+    "strongest_fixed_baseline": "B05_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.0004758996622277898,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "return",
+    "metric": "mae",
+    "model": "B05_reversion",
+    "strongest_fixed_baseline": "B05_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": 0.0,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "return",
+    "metric": "mae",
+    "model": "B06_regime",
+    "strongest_fixed_baseline": "B05_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.0011148425078709786,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "return",
+    "metric": "mae",
+    "model": "C_direction",
+    "strongest_fixed_baseline": "B05_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": 0.001513575215114446,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "return",
+    "metric": "mae",
+    "model": "C_distribution",
+    "strongest_fixed_baseline": "B05_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.003189301007705033,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "return",
+    "metric": "mae",
+    "model": "C_return",
+    "strongest_fixed_baseline": "B05_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.0015922107311962452,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "return",
+    "metric": "mae",
+    "model": "C_tail",
+    "strongest_fixed_baseline": "B05_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.0011483592743321816,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "return",
+    "metric": "mae",
+    "model": "C_volatility",
+    "strongest_fixed_baseline": "B05_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.0027089965728348095,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "return",
+    "metric": "mae",
+    "model": "M00_ridge_price",
+    "strongest_fixed_baseline": "B05_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": 0.0004756713901580607,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "return",
+    "metric": "mae",
+    "model": "M01_ridge_full",
+    "strongest_fixed_baseline": "B05_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.0053227074298454954,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "return",
+    "metric": "mae",
+    "model": "M02_elastic001",
+    "strongest_fixed_baseline": "B05_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.008484354698464775,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "return",
+    "metric": "mae",
+    "model": "M03_elastic01",
+    "strongest_fixed_baseline": "B05_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.0025724082204239425,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "return",
+    "metric": "mae",
+    "model": "M04_corr_ridge",
+    "strongest_fixed_baseline": "B05_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.0038290932376824913,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "return",
+    "metric": "mae",
+    "model": "M05_lgbm",
+    "strongest_fixed_baseline": "B05_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.004901188842465493,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "return",
+    "metric": "mae",
+    "model": "M06_analog30",
+    "strongest_fixed_baseline": "B05_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": 8.94595019912425e-05,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "return",
+    "metric": "mae",
+    "model": "M07_sequence",
+    "strongest_fixed_baseline": "B05_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": 0.0006086744798871656,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "return",
+    "metric": "mae",
+    "model": "S_direction",
+    "strongest_fixed_baseline": "B05_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": 0.003530981814386944,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "return",
+    "metric": "mae",
+    "model": "S_distribution",
+    "strongest_fixed_baseline": "B05_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.003118251822211937,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "return",
+    "metric": "mae",
+    "model": "S_return",
+    "strongest_fixed_baseline": "B05_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.003527896319177234,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "return",
+    "metric": "mae",
+    "model": "S_tail",
+    "strongest_fixed_baseline": "B05_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.0011033900148920022,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "return",
+    "metric": "mae",
+    "model": "S_volatility",
+    "strongest_fixed_baseline": "B05_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": 0.0014971520335098337,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "return",
+    "metric": "mae",
+    "model": "Z_always_down",
+    "strongest_fixed_baseline": "B05_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.0002681430898321654,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "return",
+    "metric": "mae",
+    "model": "Z_always_up",
+    "strongest_fixed_baseline": "B05_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.0002681430898321654,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "return",
+    "metric": "mae",
+    "model": "Z_momentum",
+    "strongest_fixed_baseline": "B05_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.0002681430898321654,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "return",
+    "metric": "mae",
+    "model": "Z_neutral",
+    "strongest_fixed_baseline": "B05_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.0002681430898321654,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "return",
+    "metric": "mae",
+    "model": "Z_reversion",
+    "strongest_fixed_baseline": "B05_reversion",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.0002681430898321654,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "return",
+    "metric": "mae",
+    "model": "S_return",
+    "strongest_fixed_baseline": "C_return",
+    "baseline_selected_on_outer": false,
+    "mean_improvement": -0.0019356855879809883,
+    "paired_ci95": null,
+    "n": 76,
+    "qualification": "NESTED_SELECTOR_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "distribution",
+    "metric": "crps",
+    "model": "A00_sector",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.0014468449650126825,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "distribution",
+    "metric": "crps",
+    "model": "A01_nofo",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.012965967805458946,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "distribution",
+    "metric": "crps",
+    "model": "A02_proxy",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.01538627646888924,
+    "paired_ci95": null,
+    "research_only": true,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "distribution",
+    "metric": "crps",
+    "model": "A03_interact",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.015074371182590661,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "distribution",
+    "metric": "crps",
+    "model": "B00_empirical",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.000540524732227892,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "distribution",
+    "metric": "crps",
+    "model": "B01_ewma",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.00208024097102971,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "distribution",
+    "metric": "crps",
+    "model": "B02_rv_scaled",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.0008517156740425221,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "distribution",
+    "metric": "crps",
+    "model": "B03_vix_scaled",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.0003152075094669866,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "distribution",
+    "metric": "crps",
+    "model": "B04_momentum",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": 0.0,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "distribution",
+    "metric": "crps",
+    "model": "B05_reversion",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.0005315583355099688,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "distribution",
+    "metric": "crps",
+    "model": "B06_regime",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.0005701690534903446,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "distribution",
+    "metric": "crps",
+    "model": "C_direction",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": 8.82555738947549e-05,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "distribution",
+    "metric": "crps",
+    "model": "C_distribution",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.0023296307495566993,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "distribution",
+    "metric": "crps",
+    "model": "C_return",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.0018333953183890513,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "distribution",
+    "metric": "crps",
+    "model": "C_tail",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.0012332981636363697,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "distribution",
+    "metric": "crps",
+    "model": "C_volatility",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.0010067251671000413,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "distribution",
+    "metric": "crps",
+    "model": "M00_ridge_price",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.009026098481894947,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "distribution",
+    "metric": "crps",
+    "model": "M01_ridge_full",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.014556430050660032,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "distribution",
+    "metric": "crps",
+    "model": "M02_elastic001",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.011102149630575802,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "distribution",
+    "metric": "crps",
+    "model": "M03_elastic01",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.014035486042355669,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "distribution",
+    "metric": "crps",
+    "model": "M04_corr_ridge",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.01277490259090269,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "distribution",
+    "metric": "crps",
+    "model": "M05_lgbm",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.0017430874242614412,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "distribution",
+    "metric": "crps",
+    "model": "M06_analog30",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -6.157147719492932e-05,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "distribution",
+    "metric": "crps",
+    "model": "M07_sequence",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.008734389686722193,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "distribution",
+    "metric": "crps",
+    "model": "S_direction",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.00017892349710292742,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "distribution",
+    "metric": "crps",
+    "model": "S_distribution",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.007192265703887625,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "distribution",
+    "metric": "crps",
+    "model": "S_return",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.004383640165534145,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "distribution",
+    "metric": "crps",
+    "model": "S_tail",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.0036125774567389943,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "distribution",
+    "metric": "crps",
+    "model": "S_volatility",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": 0.0010129290548152182,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "distribution",
+    "metric": "crps",
+    "model": "Z_always_down",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.000540524732227892,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "distribution",
+    "metric": "crps",
+    "model": "Z_always_up",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.000540524732227892,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "distribution",
+    "metric": "crps",
+    "model": "Z_momentum",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.000540524732227892,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "distribution",
+    "metric": "crps",
+    "model": "Z_neutral",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.000540524732227892,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "distribution",
+    "metric": "crps",
+    "model": "Z_reversion",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.000540524732227892,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "distribution",
+    "metric": "crps",
+    "model": "S_distribution",
+    "strongest_fixed_baseline": "C_distribution",
+    "baseline_selected_on_outer": false,
+    "mean_improvement": -0.004862634954330926,
+    "paired_ci95": null,
+    "n": 76,
+    "qualification": "NESTED_SELECTOR_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "volatility",
+    "metric": "qlike",
+    "model": "A00_sector",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": 0.038965538901800004,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "volatility",
+    "metric": "qlike",
+    "model": "A01_nofo",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.0017557124499050197,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "volatility",
+    "metric": "qlike",
+    "model": "A02_proxy",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.14370867995341352,
+    "paired_ci95": null,
+    "research_only": true,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "volatility",
+    "metric": "qlike",
+    "model": "A03_interact",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.05225579543337742,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "volatility",
+    "metric": "qlike",
+    "model": "B00_empirical",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.07026045099609603,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "volatility",
+    "metric": "qlike",
+    "model": "B01_ewma",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.15432348705172003,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "volatility",
+    "metric": "qlike",
+    "model": "B02_rv_scaled",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.5501671011094869,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "volatility",
+    "metric": "qlike",
+    "model": "B03_vix_scaled",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.05406491355968803,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "volatility",
+    "metric": "qlike",
+    "model": "B04_momentum",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": 0.0,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "volatility",
+    "metric": "qlike",
+    "model": "B05_reversion",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.10075996153554465,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "volatility",
+    "metric": "qlike",
+    "model": "B06_regime",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.07218442265022622,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "volatility",
+    "metric": "qlike",
+    "model": "C_direction",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.07386498056594003,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "volatility",
+    "metric": "qlike",
+    "model": "C_distribution",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.10299073882343843,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "volatility",
+    "metric": "qlike",
+    "model": "C_return",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.5914445175602413,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "volatility",
+    "metric": "qlike",
+    "model": "C_tail",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.1277861069611964,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "volatility",
+    "metric": "qlike",
+    "model": "C_volatility",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.05205112509835543,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "volatility",
+    "metric": "qlike",
+    "model": "M00_ridge_price",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": 0.010355130218066059,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "volatility",
+    "metric": "qlike",
+    "model": "M01_ridge_full",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.04393011025292721,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "volatility",
+    "metric": "qlike",
+    "model": "M02_elastic001",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.04393011025292721,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "volatility",
+    "metric": "qlike",
+    "model": "M03_elastic01",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.04393011025292721,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "volatility",
+    "metric": "qlike",
+    "model": "M04_corr_ridge",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.04459504223558751,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "volatility",
+    "metric": "qlike",
+    "model": "M05_lgbm",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.03789428113020174,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "volatility",
+    "metric": "qlike",
+    "model": "M06_analog30",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.05421016345634856,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "volatility",
+    "metric": "qlike",
+    "model": "M07_sequence",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": 0.005896776396939903,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "volatility",
+    "metric": "qlike",
+    "model": "S_direction",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.051581698842567796,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "volatility",
+    "metric": "qlike",
+    "model": "S_distribution",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": 0.0032244522585976438,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "volatility",
+    "metric": "qlike",
+    "model": "S_return",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.002652328400876775,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "volatility",
+    "metric": "qlike",
+    "model": "S_tail",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": 0.03352334333096754,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "volatility",
+    "metric": "qlike",
+    "model": "S_volatility",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.09170024384693046,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "volatility",
+    "metric": "qlike",
+    "model": "Z_always_down",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.07026045099609603,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "volatility",
+    "metric": "qlike",
+    "model": "Z_always_up",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.07026045099609603,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "volatility",
+    "metric": "qlike",
+    "model": "Z_momentum",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.07026045099609603,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "volatility",
+    "metric": "qlike",
+    "model": "Z_neutral",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.07026045099609603,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "volatility",
+    "metric": "qlike",
+    "model": "Z_reversion",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.07026045099609603,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "volatility",
+    "metric": "qlike",
+    "model": "S_volatility",
+    "strongest_fixed_baseline": "C_volatility",
+    "baseline_selected_on_outer": false,
+    "mean_improvement": -0.03964911874857502,
+    "paired_ci95": null,
+    "n": 76,
+    "qualification": "NESTED_SELECTOR_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "tail",
+    "metric": "tail02_brier",
+    "model": "A00_sector",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.048295478932753454,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "tail",
+    "metric": "tail02_brier",
+    "model": "A01_nofo",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": 0.006578800830034413,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "tail",
+    "metric": "tail02_brier",
+    "model": "A02_proxy",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.15213376389492936,
+    "paired_ci95": null,
+    "research_only": true,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "tail",
+    "metric": "tail02_brier",
+    "model": "A03_interact",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.17820609523402306,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "tail",
+    "metric": "tail02_brier",
+    "model": "B00_empirical",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.006291182620945895,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "tail",
+    "metric": "tail02_brier",
+    "model": "B01_ewma",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.047170721665209484,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "tail",
+    "metric": "tail02_brier",
+    "model": "B02_rv_scaled",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.006291182620945921,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "tail",
+    "metric": "tail02_brier",
+    "model": "B03_vix_scaled",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.006291182620945921,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "tail",
+    "metric": "tail02_brier",
+    "model": "B04_momentum",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": 0.0,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "tail",
+    "metric": "tail02_brier",
+    "model": "B05_reversion",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.0007304985553527752,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "tail",
+    "metric": "tail02_brier",
+    "model": "B06_regime",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.034310771323581485,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "tail",
+    "metric": "tail02_brier",
+    "model": "C_direction",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.002672929187556143,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "tail",
+    "metric": "tail02_brier",
+    "model": "C_distribution",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.04202047086691595,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "tail",
+    "metric": "tail02_brier",
+    "model": "C_return",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.05682495825779129,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "tail",
+    "metric": "tail02_brier",
+    "model": "C_tail",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.05111415816162699,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "tail",
+    "metric": "tail02_brier",
+    "model": "C_volatility",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.035897262167435176,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "tail",
+    "metric": "tail02_brier",
+    "model": "M00_ridge_price",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.04294215538149978,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "tail",
+    "metric": "tail02_brier",
+    "model": "M01_ridge_full",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.11502668055132004,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "tail",
+    "metric": "tail02_brier",
+    "model": "M02_elastic001",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.11502668055132004,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "tail",
+    "metric": "tail02_brier",
+    "model": "M03_elastic01",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.11502668055132004,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "tail",
+    "metric": "tail02_brier",
+    "model": "M04_corr_ridge",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.09748415416643834,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "tail",
+    "metric": "tail02_brier",
+    "model": "M05_lgbm",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.06241746010778217,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "tail",
+    "metric": "tail02_brier",
+    "model": "M06_analog30",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.008357961108278958,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "tail",
+    "metric": "tail02_brier",
+    "model": "M07_sequence",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.06313526965840217,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "tail",
+    "metric": "tail02_brier",
+    "model": "S_direction",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": 0.020961329539125672,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "tail",
+    "metric": "tail02_brier",
+    "model": "S_distribution",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.20279449570437377,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "tail",
+    "metric": "tail02_brier",
+    "model": "S_return",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.18956471705106487,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "tail",
+    "metric": "tail02_brier",
+    "model": "S_tail",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.05114436664733956,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "tail",
+    "metric": "tail02_brier",
+    "model": "S_volatility",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.00782765302311828,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "tail",
+    "metric": "tail02_brier",
+    "model": "Z_always_down",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.006291182620945895,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "tail",
+    "metric": "tail02_brier",
+    "model": "Z_always_up",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.006291182620945895,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "tail",
+    "metric": "tail02_brier",
+    "model": "Z_momentum",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.006291182620945895,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "tail",
+    "metric": "tail02_brier",
+    "model": "Z_neutral",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.006291182620945895,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "tail",
+    "metric": "tail02_brier",
+    "model": "Z_reversion",
+    "strongest_fixed_baseline": "B04_momentum",
+    "baseline_selected_on_outer": true,
+    "mean_improvement": -0.006291182620945895,
+    "paired_ci95": null,
+    "research_only": false,
+    "n": 76,
+    "qualification": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "target": "tail",
+    "metric": "tail02_brier",
+    "model": "S_tail",
+    "strongest_fixed_baseline": "C_tail",
+    "baseline_selected_on_outer": false,
+    "mean_improvement": -3.020848571256168e-05,
+    "paired_ci95": null,
+    "n": 76,
+    "qualification": "NESTED_SELECTOR_RESEARCH_EXPOSED"
+  }
+]

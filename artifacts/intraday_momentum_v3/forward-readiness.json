@@ -1,0 +1,17 @@
+{
+  "checked_at": "2026-11-15T18:34:23.047744+00:00",
+  "fresh_open_observations": 0,
+  "excluded_closed_or_prefreeze_rows": 559,
+  "sessions": [],
+  "milestone_A_streaming_open_received": false,
+  "milestone_A_rest_open_received": false,
+  "milestone_B_streaming_quality": false,
+  "milestone_B_rest_quality": false,
+  "quality_pass_sessions_ws": 0,
+  "quality_pass_sessions_rest": 0,
+  "milestone_C_sufficient_evidence": false,
+  "shadow_funded_ready": false,
+  "predictor_frozen": false,
+  "status": "FORWARD_DATA_REQUIRED",
+  "explanation": "C additionally needs60freshregularsessions and1000embargoedstockepisodes across>=50days with matched controls. No claim of statistical independence across stocks."
+}

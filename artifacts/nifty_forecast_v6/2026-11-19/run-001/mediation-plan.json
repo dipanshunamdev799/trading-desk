@@ -1,0 +1,60 @@
+{
+  "registered_at": "2026-11-19T15:59:37.426392+05:30",
+  "targets": {
+    "IT": [
+      [
+        "p_ret5",
+        "p_ret21",
+        "i_nifty_it_rel5",
+        "i_nifty_it_rel21",
+        "p_rv21"
+      ],
+      [
+        "g_IXIX_ret1",
+        "g_IXIX_ret5"
+      ]
+    ],
+    "ENERGY": [
+      [
+        "p_ret5",
+        "p_ret21",
+        "i_nifty_energy_rel5",
+        "i_nifty_energy_rel21",
+        "p_rv21"
+      ],
+      [
+        "g_BZUSD_ret5",
+        "g_USDINR_ret5",
+        "x_oil_fx"
+      ]
+    ],
+    "BANKREL": [
+      [
+        "p_ret5",
+        "p_ret21",
+        "i_bank_nifty_rel5",
+        "i_bank_nifty_rel21",
+        "p_rv21"
+      ],
+      [
+        "x_global_mean",
+        "x_global_dispersion"
+      ]
+    ],
+    "MAGNITUDE": [
+      [
+        "p_rv21",
+        "p_vix",
+        "p_ret5"
+      ],
+      [
+        "x_global_vol",
+        "x_global_dispersion"
+      ]
+    ]
+  },
+  "kind": "Ridge alpha100; no search; sparse global increments over own-state controls",
+  "clock": "Existing exact causal global-source joins; US Tech100 provider proxy is not relabeled Nasdaq Composite",
+  "intermediate_uses": "Honest prior forecasts only; no in-sample fitted outcomes as NIFTY training features",
+  "interpretation": "Predictive precedence, not causation"
+}

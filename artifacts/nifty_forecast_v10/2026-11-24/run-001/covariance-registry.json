@@ -1,0 +1,53 @@
+{
+  "registered_at": "2026-11-24T14:01:23.176570+05:30",
+  "configurations": {
+    "EC_85_PLAIN": {
+      "frame": "ten",
+      "parent": "O85_PLAIN",
+      "budget": 85,
+      "overlap": "plain",
+      "hypothesis": "Training-only residual lag covariance shrunk toward analytical overlap and independent noise"
+    },
+    "EC_85_GLS_EMPIRICAL": {
+      "frame": "ten",
+      "parent": "EC_85_PLAIN",
+      "budget": 85,
+      "overlap": "gls_empirical",
+      "hypothesis": "Training-only residual lag covariance shrunk toward analytical overlap and independent noise"
+    },
+    "EC_126_PLAIN": {
+      "frame": "ten",
+      "parent": "O126_PLAIN",
+      "budget": 126,
+      "overlap": "plain",
+      "hypothesis": "Training-only residual lag covariance shrunk toward analytical overlap and independent noise"
+    },
+    "EC_126_GLS_EMPIRICAL": {
+      "frame": "ten",
+      "parent": "EC_126_PLAIN",
+      "budget": 126,
+      "overlap": "gls_empirical",
+      "hypothesis": "Training-only residual lag covariance shrunk toward analytical overlap and independent noise"
+    },
+    "EC_MAX_PLAIN": {
+      "frame": "ten",
+      "parent": "OMAX_PLAIN",
+      "budget": null,
+      "overlap": "plain",
+      "hypothesis": "Training-only residual lag covariance shrunk toward analytical overlap and independent noise"
+    },
+    "EC_MAX_GLS_EMPIRICAL": {
+      "frame": "ten",
+      "parent": "EC_MAX_PLAIN",
+      "budget": null,
+      "overlap": "gls_empirical",
+      "hypothesis": "Training-only residual lag covariance shrunk toward analytical overlap and independent noise"
+    }
+  },
+  "seed": 20261130,
+  "code_hashes": {
+    "experiments.py": "48baf634853e2d9016ca7f0e79d5e8ae00c42fbde533b3c9bb9939b5960bdef8",
+    "estimators.py": "30f13c215fbddb9ff179412a84586d60e83616b01283bd589523daab4520f9d3",
+    "targets.py": "9bb9d2060fef1bc2b1add51c129d8dc4e792afae782e6b5c8183f82a1ae5f752"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "state": "STOPPED",
+  "reason": "MANUAL_OR_BOUNDED_SHUTDOWN",
+  "checked_at": "2026-11-15T18:29:40.723600+00:00",
+  "pid": 22776,
+  "run": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\intraday_momentum_v3\\runs\\20261115-182920",
+  "transport": "rest_5s",
+  "rows_committed": 601,
+  "open_market_rows_committed": 0,
+  "frames": 4,
+  "raw_bytes": 781776,
+  "candidates": 0,
+  "queue_size": 0,
+  "elapsed_seconds": 20.015216,
+  "bytes_per_second": 39059.06628578994,
+  "silent_watch_keys": [],
+  "market": {
+    "active": false,
+    "phase": "MARKET_STATUS_STALE_OR_UNDATED",
+    "checked_at": "2026-11-15T18:29:21.236348+00:00",
+    "next_open_today": null
+  },
+  "real_orders_submitted": 0,
+  "unattended_scheduling": false,
+  "shadow_funded_gate": false,
+  "fresh_valid_book_rows": 0
+}

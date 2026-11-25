@@ -1,0 +1,123 @@
+{
+  "at": "2026-11-24T12:59:59.312075+05:30",
+  "seed": 20261129,
+  "configuration": {
+    "F_BANK_LEVEL": {
+      "frame": "bank_level",
+      "parent": "F_BASE",
+      "hypothesis": "Financial incremental or timing control on compact price/state parent"
+    },
+    "F_BANK_CHANGE": {
+      "frame": "bank_change",
+      "parent": "F_BASE",
+      "hypothesis": "Financial incremental or timing control on compact price/state parent"
+    },
+    "F_BANK_RESID42": {
+      "frame": "bank_resid42",
+      "parent": "F_BASE",
+      "hypothesis": "Financial incremental or timing control on compact price/state parent"
+    },
+    "F_BANK_RESID63": {
+      "frame": "bank_resid63",
+      "parent": "F_BASE",
+      "hypothesis": "Financial incremental or timing control on compact price/state parent"
+    },
+    "F_BANK_RESID84": {
+      "frame": "bank_resid84",
+      "parent": "F_BASE",
+      "hypothesis": "Financial incremental or timing control on compact price/state parent"
+    },
+    "F_FINANCIAL_PERSISTENCE": {
+      "frame": "financial_persistence",
+      "parent": "F_BASE",
+      "hypothesis": "Financial incremental or timing control on compact price/state parent"
+    },
+    "F_FINANCIAL_PANEL": {
+      "frame": "financial_panel",
+      "parent": "F_BASE",
+      "hypothesis": "Financial incremental or timing control on compact price/state parent"
+    },
+    "F_FINANCIAL_PANEL_NO_SIZE": {
+      "frame": "financial_panel_no_size",
+      "parent": "F_BASE",
+      "hypothesis": "Financial incremental or timing control on compact price/state parent"
+    },
+    "F_FINANCIAL_TRADE": {
+      "frame": "financial_trade",
+      "parent": "F_BASE",
+      "hypothesis": "Financial incremental or timing control on compact price/state parent"
+    },
+    "F_FINANCIAL_LAG": {
+      "frame": "financial_lag",
+      "parent": "F_BASE",
+      "hypothesis": "Financial incremental or timing control on compact price/state parent"
+    },
+    "F_FINANCIAL_REDUCED": {
+      "frame": "financial_reduced",
+      "parent": "F_BASE",
+      "hypothesis": "Financial incremental or timing control on compact price/state parent"
+    },
+    "F_BASE": {
+      "frame": "small",
+      "parent": "P_HIST",
+      "hypothesis": "Compact financially unaugmented reference"
+    },
+    "F_CLUSTER": {
+      "frame": "financial_panel",
+      "parent": "F_FINANCIAL_PANEL",
+      "alpha": 170,
+      "dedup": true,
+      "hypothesis": "Canonical features plus stronger shrinkage on richer correlated financial block"
+    },
+    "F_REMOVAL": {
+      "frame": "native_nobank",
+      "parent": "P_NATIVE",
+      "hypothesis": "Remove individual banking and financial feature family"
+    },
+    "I_LEVEL": {
+      "frame": "innovation_level",
+      "parent": "F_BASE",
+      "hypothesis": "Historical innovation alternatives to identical indicator levels"
+    },
+    "I_DELTA": {
+      "frame": "innovation_delta",
+      "parent": "I_LEVEL",
+      "hypothesis": "Historical innovation alternatives to identical indicator levels"
+    },
+    "I_AR": {
+      "frame": "innovation_ar",
+      "parent": "I_LEVEL",
+      "hypothesis": "Historical innovation alternatives to identical indicator levels"
+    },
+    "I_ROBUST": {
+      "frame": "innovation_robust",
+      "parent": "I_LEVEL",
+      "hypothesis": "Historical innovation alternatives to identical indicator levels"
+    },
+    "I_AR_NOGLOBAL": {
+      "frame": "innovation_ar_noglobal",
+      "parent": "I_LEVEL",
+      "hypothesis": "Historical innovation alternatives to identical indicator levels"
+    },
+    "X_NATIVE_PANEL": {
+      "frame": "panel_native",
+      "parent": "F_BASE",
+      "hypothesis": "Date-grouped native residual panel"
+    },
+    "X_ROT_PANEL": {
+      "frame": "panel_incr",
+      "parent": "P_COMPACT",
+      "hypothesis": "Native residual panel beyond compact rotation"
+    },
+    "X_STOCK_PROXY": {
+      "frame": "panel_proxy",
+      "parent": "F_BASE",
+      "diagnostic": true,
+      "hypothesis": "Later-selected panel, survivorship-exposed proxy"
+    }
+  },
+  "source": {
+    "run_models.py": "ce5c6722020b74c7d170a9614a8caf1d120688bde6097a38e03be56189f55269",
+    "models.py": "f314c03bd91c21d55ed8ad01bc5c6f24c82843b63226615c8508078a2d361177"
+  }
+}

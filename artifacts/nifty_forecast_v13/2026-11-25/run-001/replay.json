@@ -1,0 +1,31 @@
+{
+  "complete_laws": 3320,
+  "volatility_rows": 2890,
+  "source_parts": [
+    {
+      "path": "laws/phase.npz",
+      "forecasts": 27090,
+      "atoms": 8412394,
+      "sha256": "7d01be8eb42436f49a305c9321d3ccb3d7f15fd36d3af43439de1cc162b411e7"
+    },
+    {
+      "path": "laws/market.npz",
+      "forecasts": 20675,
+      "atoms": 25098626,
+      "sha256": "ca8947f4a1cac3a286cd9f3a1b399bcd079ff54d00559d7af40dc743550fafb9"
+    },
+    {
+      "path": "laws/priced.npz",
+      "forecasts": 9815,
+      "atoms": 6008635,
+      "sha256": "e5c38866b1c3309c1b7b2ad1c9448ffc549af638556538a741d7237fb60f849c"
+    },
+    {
+      "path": "laws/ensemble.npz",
+      "forecasts": 12924,
+      "atoms": 50975725,
+      "sha256": "d4616f1303bccdb4030f44c5bbd95e63b3d5245cb433210de2eb21c57c1326c7"
+    }
+  ],
+  "method": "Independently rescore exact endpoint atoms and V12 per-origin fitted volatility forecasts against rebuilt OHLC labels."
+}

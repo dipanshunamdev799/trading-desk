@@ -1,0 +1,314 @@
+{
+  "files": [
+    {
+      "horizon": 5,
+      "version": "BRACKET",
+      "path": "features/5-BRACKET.csv",
+      "rows_available": 402,
+      "hash": "344e00c7c6abee0d00786c2648ee91df8edc9db1f365092e5ef953ef02e3382c"
+    },
+    {
+      "horizon": 5,
+      "version": "FUTURE_FORWARD",
+      "path": "features/5-FUTURE_FORWARD.csv",
+      "rows_available": 403,
+      "hash": "dfaf96a2cbc4de557de071613d7d769392a48c25fcfd4da5f8345add1e15593b"
+    },
+    {
+      "horizon": 5,
+      "version": "LAG2",
+      "path": "features/5-LAG2.csv",
+      "rows_available": 403,
+      "hash": "276729151aa94e2809acaef3535d53fa94ba6a6cb6a596252541909bcd106714"
+    },
+    {
+      "horizon": 5,
+      "version": "LAG5",
+      "path": "features/5-LAG5.csv",
+      "rows_available": 403,
+      "hash": "12311c73b88337e46917ffed6adc9a596fe628383386e54021eed47736c1e8a4"
+    },
+    {
+      "horizon": 5,
+      "version": "LIQUID",
+      "path": "features/5-LIQUID.csv",
+      "rows_available": 403,
+      "hash": "b4c06f52cdd871f08a1da33335acd40ccecdf16595b6151436e1adf5584d5d26"
+    },
+    {
+      "horizon": 5,
+      "version": "LONGER",
+      "path": "features/5-LONGER.csv",
+      "rows_available": 403,
+      "hash": "8c93a334912d8d6acd6489d1a499fb264a9808cbe90a57b875a7b5eecd529e40"
+    },
+    {
+      "horizon": 5,
+      "version": "NATURAL",
+      "path": "features/5-NATURAL.csv",
+      "rows_available": 86,
+      "hash": "8cbf0eaf55b4db5f509fd2efbd171b637807b58a0e6d610aaf9fad028181a037"
+    },
+    {
+      "horizon": 5,
+      "version": "RATE_HIGH",
+      "path": "features/5-RATE_HIGH.csv",
+      "rows_available": 403,
+      "hash": "b5c3cd80c4645be74be9a1f513bc1f31212993707553fc485605aa8ffc7463c3"
+    },
+    {
+      "horizon": 5,
+      "version": "RATE_ZERO",
+      "path": "features/5-RATE_ZERO.csv",
+      "rows_available": 403,
+      "hash": "992db2e7b282524cb00726f700797d8a2b0e428f5cc7c2dfe2d34a5d6762e7d0"
+    },
+    {
+      "horizon": 5,
+      "version": "SAME_CLOSE",
+      "path": "features/5-SAME_CLOSE.csv",
+      "rows_available": 403,
+      "hash": "0f83bce9588261abbe22a927af63111ed5c1fdf1be7c3d16f728c2c82ea4a024"
+    },
+    {
+      "horizon": 5,
+      "version": "SETTLEMENT",
+      "path": "features/5-SETTLEMENT.csv",
+      "rows_available": 403,
+      "hash": "e4ba0f3c25f2a2e2ebcf86254f4633fc392a03e6b2c36525cbe03fc1a610a393"
+    },
+    {
+      "horizon": 5,
+      "version": "SMOOTH",
+      "path": "features/5-SMOOTH.csv",
+      "rows_available": 403,
+      "hash": "9f64a756d928118f8342af73e637885ffbdad01a232eb9400dc3e594e3cde651"
+    },
+    {
+      "horizon": 5,
+      "version": "TRADE",
+      "path": "features/5-TRADE.csv",
+      "rows_available": 403,
+      "hash": "b9c2e8e4c51d62065ea2af1ecfdce197d2b88eabf69c2d9c7b55a75f858e0d8b"
+    },
+    {
+      "horizon": 5,
+      "version": "TRUNCATED",
+      "path": "features/5-TRUNCATED.csv",
+      "rows_available": 403,
+      "hash": "598ac337b245cbdde4b1e2009c6ae46e54e8850e72da1a161dfdb25b2cdbe057"
+    },
+    {
+      "horizon": 21,
+      "version": "BRACKET",
+      "path": "features/21-BRACKET.csv",
+      "rows_available": 403,
+      "hash": "97595e4d8af017c7c3298607b5eeeb2d8c47c0c785500961ff2d30536bf84757"
+    },
+    {
+      "horizon": 21,
+      "version": "FUTURE_FORWARD",
+      "path": "features/21-FUTURE_FORWARD.csv",
+      "rows_available": 403,
+      "hash": "44e4761528797cb4cc5054423516245fcbe8071fedb4cf320cd20c77ca67c861"
+    },
+    {
+      "horizon": 21,
+      "version": "LAG2",
+      "path": "features/21-LAG2.csv",
+      "rows_available": 403,
+      "hash": "1ac337f19c684b123315d91f53c88dbe62524488493fb640aac2c979de7c2c33"
+    },
+    {
+      "horizon": 21,
+      "version": "LAG5",
+      "path": "features/21-LAG5.csv",
+      "rows_available": 403,
+      "hash": "249e9fa2e5f636b5aab975219912c291ca7431ed1a86c45aa2f149059faffde9"
+    },
+    {
+      "horizon": 21,
+      "version": "LIQUID",
+      "path": "features/21-LIQUID.csv",
+      "rows_available": 403,
+      "hash": "e55a100ceeeddf565990e5bff65d1e58e284ff30e6f2095192108d1f3157265e"
+    },
+    {
+      "horizon": 21,
+      "version": "LONGER",
+      "path": "features/21-LONGER.csv",
+      "rows_available": 376,
+      "hash": "673e91398ee738f42d14976f09b78208ee8fe1ba7b1a6678df4ca45452fa489b"
+    },
+    {
+      "horizon": 21,
+      "version": "NATURAL",
+      "path": "features/21-NATURAL.csv",
+      "rows_available": 43,
+      "hash": "1e8a065b3295a31ef32a14871f0bb2d0b14d240182652551b17d6bcbc9fbbe02"
+    },
+    {
+      "horizon": 21,
+      "version": "RATE_HIGH",
+      "path": "features/21-RATE_HIGH.csv",
+      "rows_available": 403,
+      "hash": "f30b0855d0dbde2af64b51fc31881d33d1099c5e0809563702b39100bebe125f"
+    },
+    {
+      "horizon": 21,
+      "version": "RATE_ZERO",
+      "path": "features/21-RATE_ZERO.csv",
+      "rows_available": 403,
+      "hash": "d068641f86cd41089c015ccae6270518ae929d5d9669352913557f7b48f01f82"
+    },
+    {
+      "horizon": 21,
+      "version": "SAME_CLOSE",
+      "path": "features/21-SAME_CLOSE.csv",
+      "rows_available": 403,
+      "hash": "51fdad759520eedee18b75b696dce7a12b1bedcaa68d0d94d67314e5cfa6ad83"
+    },
+    {
+      "horizon": 21,
+      "version": "SETTLEMENT",
+      "path": "features/21-SETTLEMENT.csv",
+      "rows_available": 403,
+      "hash": "a927fe566d2b73095ce62b63352b7ff3ae1e22178fc39cc57beab951be2a27a0"
+    },
+    {
+      "horizon": 21,
+      "version": "SMOOTH",
+      "path": "features/21-SMOOTH.csv",
+      "rows_available": 403,
+      "hash": "71cc6ddbffa79ac46ca9407f3286511a3d861e960e941c67b9bb2092c01e5568"
+    },
+    {
+      "horizon": 21,
+      "version": "TRADE",
+      "path": "features/21-TRADE.csv",
+      "rows_available": 403,
+      "hash": "fa42a8b413bf861173279fb5fd7bf1bdfbefa44f3af57496df188645705c509b"
+    },
+    {
+      "horizon": 21,
+      "version": "TRUNCATED",
+      "path": "features/21-TRUNCATED.csv",
+      "rows_available": 403,
+      "hash": "583ca1e024f6e34ed61049947f1d6679e23324a182505423d6e52f6bb8940127"
+    }
+  ],
+  "fomc_statement_dates": {
+    "2025": "01-29 03-19 05-07 06-18 07-30 09-17 10-29 12-10",
+    "2026": "01-28 03-18 04-29 06-17 07-29 09-16 10-28 12-09"
+  },
+  "rbi_releases": {
+    "2025-03-26": [
+      "2025-04-09 2025-06-06 2025-08-06 2025-10-01 2025-12-05 2026-02-06",
+      "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=60062"
+    ],
+    "2026-03-23": [
+      "2026-04-08 2026-06-05 2026-08-05 2026-10-07 2026-12-04",
+      "https://www.rbi.org.in/Scripts/FS_PressRelease.aspx?prid=62422"
+    ]
+  },
+  "index_review_notices": {
+    "2025-03-28": [
+      "2025-02-21",
+      "https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf",
+      "NIFTY50 and NIFTY50 Equal Weight"
+    ],
+    "2025-09-30": [
+      "2025-08-22",
+      "https://niftyindices.com/Press_Release/ind_prs22082025.pdf",
+      "NIFTY50 and broad indices"
+    ],
+    "2026-03-30": [
+      "2026-02-23",
+      "https://www.niftyindices.com/Press_Release/ind_prs23022026.pdf",
+      "broad-market review; no NIFTY50 replacements"
+    ]
+  },
+  "event_semantics": "Listed expiry and announced policy/review dates are planned information; rolls and prior moves are already observed. Retrospective surprises and realized outcome tails are excluded as features.",
+  "feature_families": {
+    "option_core": [
+      "iv_nearest",
+      "iv_over_rv",
+      "iv_term",
+      "iv_change",
+      "iv_skew"
+    ],
+    "trailing_realized": [
+      "lag_rv5",
+      "rv21",
+      "rv63",
+      "vix_level"
+    ],
+    "futures": [
+      "front_basis",
+      "curve_30d",
+      "same_contract_cash_gap",
+      "front_oi_change_over_volume",
+      "front_volume_share"
+    ],
+    "domestic": [
+      "breadth5",
+      "breadth21",
+      "finance",
+      "defensive",
+      "cash5",
+      "cash21",
+      "concentration",
+      "sector_dispersion"
+    ],
+    "cross_instrument": [
+      "cash_vs_basis",
+      "fin_vs_skew",
+      "breadth_vs_iv",
+      "position_vs_breadth",
+      "mom_vs_ivchange",
+      "conc_vs_skew",
+      "etf_vs_iv",
+      "parity_disagreement"
+    ],
+    "intraday": [
+      "intra_sector_risk",
+      "intra_late_risk_share",
+      "intra_sync",
+      "v11_mid_dispersion",
+      "v11_close_concentration"
+    ],
+    "ETF": [
+      "e_turn",
+      "e_activity",
+      "e_rv",
+      "e_shock"
+    ],
+    "global": [
+      "nasdaq5",
+      "vix_us",
+      "dgs10_change",
+      "usd_inr5",
+      "brent5",
+      "us_breadth5",
+      "q_global_shock",
+      "q_corr_change"
+    ],
+    "schedule": [
+      "near_weekly_expiry",
+      "near_monthly_expiry",
+      "roll_observed",
+      "fomc_during_window",
+      "rbi_during_window",
+      "index_review_during_window",
+      "fomc_recent",
+      "rbi_recent"
+    ],
+    "training_threshold_shocks": [
+      "prior_move",
+      "sector_shock",
+      "breadth_decay",
+      "iv_jump",
+      "global_jump"
+    ]
+  }
+}

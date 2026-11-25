@@ -1,0 +1,513 @@
+{
+  "registered_at": "2026-11-24T23:58:52.148428+05:30",
+  "models": {
+    "PH_NATIVE_00": {
+      "method": "phase",
+      "phase": 0,
+      "frame": "native",
+      "parent": "PH_NATIVE_PLAIN",
+      "horizons": [
+        5,
+        21
+      ]
+    },
+    "PH_NATIVE_01": {
+      "method": "phase",
+      "phase": 1,
+      "frame": "native",
+      "parent": "PH_NATIVE_PLAIN",
+      "horizons": [
+        5,
+        21
+      ]
+    },
+    "PH_NATIVE_02": {
+      "method": "phase",
+      "phase": 2,
+      "frame": "native",
+      "parent": "PH_NATIVE_PLAIN",
+      "horizons": [
+        5,
+        21
+      ]
+    },
+    "PH_NATIVE_03": {
+      "method": "phase",
+      "phase": 3,
+      "frame": "native",
+      "parent": "PH_NATIVE_PLAIN",
+      "horizons": [
+        5,
+        21
+      ]
+    },
+    "PH_NATIVE_04": {
+      "method": "phase",
+      "phase": 4,
+      "frame": "native",
+      "parent": "PH_NATIVE_PLAIN",
+      "horizons": [
+        5,
+        21
+      ]
+    },
+    "PH_NATIVE_05": {
+      "method": "phase",
+      "phase": 5,
+      "frame": "native",
+      "parent": "PH_NATIVE_PLAIN",
+      "horizons": [
+        21
+      ]
+    },
+    "PH_NATIVE_06": {
+      "method": "phase",
+      "phase": 6,
+      "frame": "native",
+      "parent": "PH_NATIVE_PLAIN",
+      "horizons": [
+        21
+      ]
+    },
+    "PH_NATIVE_07": {
+      "method": "phase",
+      "phase": 7,
+      "frame": "native",
+      "parent": "PH_NATIVE_PLAIN",
+      "horizons": [
+        21
+      ]
+    },
+    "PH_NATIVE_08": {
+      "method": "phase",
+      "phase": 8,
+      "frame": "native",
+      "parent": "PH_NATIVE_PLAIN",
+      "horizons": [
+        21
+      ]
+    },
+    "PH_NATIVE_09": {
+      "method": "phase",
+      "phase": 9,
+      "frame": "native",
+      "parent": "PH_NATIVE_PLAIN",
+      "horizons": [
+        21
+      ]
+    },
+    "PH_NATIVE_10": {
+      "method": "phase",
+      "phase": 10,
+      "frame": "native",
+      "parent": "PH_NATIVE_PLAIN",
+      "horizons": [
+        21
+      ]
+    },
+    "PH_NATIVE_11": {
+      "method": "phase",
+      "phase": 11,
+      "frame": "native",
+      "parent": "PH_NATIVE_PLAIN",
+      "horizons": [
+        21
+      ]
+    },
+    "PH_NATIVE_12": {
+      "method": "phase",
+      "phase": 12,
+      "frame": "native",
+      "parent": "PH_NATIVE_PLAIN",
+      "horizons": [
+        21
+      ]
+    },
+    "PH_NATIVE_13": {
+      "method": "phase",
+      "phase": 13,
+      "frame": "native",
+      "parent": "PH_NATIVE_PLAIN",
+      "horizons": [
+        21
+      ]
+    },
+    "PH_NATIVE_14": {
+      "method": "phase",
+      "phase": 14,
+      "frame": "native",
+      "parent": "PH_NATIVE_PLAIN",
+      "horizons": [
+        21
+      ]
+    },
+    "PH_NATIVE_15": {
+      "method": "phase",
+      "phase": 15,
+      "frame": "native",
+      "parent": "PH_NATIVE_PLAIN",
+      "horizons": [
+        21
+      ]
+    },
+    "PH_NATIVE_16": {
+      "method": "phase",
+      "phase": 16,
+      "frame": "native",
+      "parent": "PH_NATIVE_PLAIN",
+      "horizons": [
+        21
+      ]
+    },
+    "PH_NATIVE_17": {
+      "method": "phase",
+      "phase": 17,
+      "frame": "native",
+      "parent": "PH_NATIVE_PLAIN",
+      "horizons": [
+        21
+      ]
+    },
+    "PH_NATIVE_18": {
+      "method": "phase",
+      "phase": 18,
+      "frame": "native",
+      "parent": "PH_NATIVE_PLAIN",
+      "horizons": [
+        21
+      ]
+    },
+    "PH_NATIVE_19": {
+      "method": "phase",
+      "phase": 19,
+      "frame": "native",
+      "parent": "PH_NATIVE_PLAIN",
+      "horizons": [
+        21
+      ]
+    },
+    "PH_NATIVE_20": {
+      "method": "phase",
+      "phase": 20,
+      "frame": "native",
+      "parent": "PH_NATIVE_PLAIN",
+      "horizons": [
+        21
+      ]
+    },
+    "PH_NATIVE_PLAIN": {
+      "method": "plain",
+      "frame": "native",
+      "parent": "BASE_NATIVE"
+    },
+    "PH_NATIVE_BLOCKMEAN": {
+      "method": "blockmean",
+      "frame": "native",
+      "parent": "PH_NATIVE_PLAIN"
+    },
+    "PH_NATIVE_OVERLAP_WEIGHT": {
+      "method": "overlap_weight",
+      "frame": "native",
+      "parent": "PH_NATIVE_PLAIN"
+    },
+    "PH_NATIVE_PHASE_LOCATION": {
+      "method": "phase_location",
+      "frame": "native",
+      "parent": "PH_NATIVE_PLAIN"
+    },
+    "PH_NATIVE_PHASE_MIXTURE": {
+      "method": "phase_mixture",
+      "frame": "native",
+      "parent": "PH_NATIVE_PLAIN"
+    },
+    "PH_NATIVE_POOLED": {
+      "method": "pooled",
+      "frame": "native",
+      "parent": "PH_NATIVE_PLAIN"
+    },
+    "PH_NATIVE_SHARED": {
+      "method": "shared",
+      "frame": "native",
+      "parent": "PH_NATIVE_PLAIN"
+    },
+    "PH_ROT_PLAIN": {
+      "method": "plain",
+      "frame": "rotation",
+      "parent": "BASE_ROTATION"
+    },
+    "PH_ROT_BLOCKMEAN": {
+      "method": "blockmean",
+      "frame": "rotation",
+      "parent": "PH_ROT_PLAIN"
+    },
+    "PH_ROT_OVERLAP_WEIGHT": {
+      "method": "overlap_weight",
+      "frame": "rotation",
+      "parent": "PH_ROT_PLAIN"
+    },
+    "PH_ROT_PHASE_LOCATION": {
+      "method": "phase_location",
+      "frame": "rotation",
+      "parent": "PH_ROT_PLAIN"
+    },
+    "PH_ROT_PHASE_MIXTURE": {
+      "method": "phase_mixture",
+      "frame": "rotation",
+      "parent": "PH_ROT_PLAIN"
+    },
+    "PH_ROT_POOLED": {
+      "method": "pooled",
+      "frame": "rotation",
+      "parent": "PH_ROT_PLAIN"
+    },
+    "PH_ROT_SHARED": {
+      "method": "shared",
+      "frame": "rotation",
+      "parent": "PH_ROT_PLAIN"
+    },
+    "PH_MEM85_RECENT_PLAIN": {
+      "method": "plain",
+      "frame": "native",
+      "budget": 85,
+      "selection": "recent",
+      "parent": "PH_NATIVE_PLAIN",
+      "diagnostic": false
+    },
+    "PH_MEM85_RECENT_PHASE_MIXTURE": {
+      "method": "phase_mixture",
+      "frame": "native",
+      "budget": 85,
+      "selection": "recent",
+      "parent": "PH_MEM85_RECENT_PLAIN",
+      "diagnostic": false
+    },
+    "PH_MEM85_RECENT_BLOCKMEAN": {
+      "method": "blockmean",
+      "frame": "native",
+      "budget": 85,
+      "selection": "recent",
+      "parent": "PH_MEM85_RECENT_PLAIN",
+      "diagnostic": false
+    },
+    "PH_MEM85_SPREAD_PLAIN": {
+      "method": "plain",
+      "frame": "native",
+      "budget": 85,
+      "selection": "spread",
+      "parent": "PH_MEM85_RECENT_PLAIN",
+      "diagnostic": false
+    },
+    "PH_MEM85_SPREAD_PHASE_MIXTURE": {
+      "method": "phase_mixture",
+      "frame": "native",
+      "budget": 85,
+      "selection": "spread",
+      "parent": "PH_MEM85_RECENT_PLAIN",
+      "diagnostic": false
+    },
+    "PH_MEM85_SPREAD_BLOCKMEAN": {
+      "method": "blockmean",
+      "frame": "native",
+      "budget": 85,
+      "selection": "spread",
+      "parent": "PH_MEM85_RECENT_PLAIN",
+      "diagnostic": false
+    },
+    "PH_MEM85_DIVERSE_PLAIN": {
+      "method": "plain",
+      "frame": "native",
+      "budget": 85,
+      "selection": "diverse",
+      "parent": "PH_MEM85_RECENT_PLAIN",
+      "diagnostic": false
+    },
+    "PH_MEM85_DIVERSE_PHASE_MIXTURE": {
+      "method": "phase_mixture",
+      "frame": "native",
+      "budget": 85,
+      "selection": "diverse",
+      "parent": "PH_MEM85_RECENT_PLAIN",
+      "diagnostic": false
+    },
+    "PH_MEM85_DIVERSE_BLOCKMEAN": {
+      "method": "blockmean",
+      "frame": "native",
+      "budget": 85,
+      "selection": "diverse",
+      "parent": "PH_MEM85_RECENT_PLAIN",
+      "diagnostic": false
+    },
+    "PH_MEM85_RANDOM_BLOCKS_PLAIN": {
+      "method": "plain",
+      "frame": "native",
+      "budget": 85,
+      "selection": "random_blocks",
+      "parent": "PH_MEM85_RECENT_PLAIN",
+      "diagnostic": true
+    },
+    "PH_MEM85_RANDOM_BLOCKS_PHASE_MIXTURE": {
+      "method": "phase_mixture",
+      "frame": "native",
+      "budget": 85,
+      "selection": "random_blocks",
+      "parent": "PH_MEM85_RECENT_PLAIN",
+      "diagnostic": true
+    },
+    "PH_MEM85_RANDOM_BLOCKS_BLOCKMEAN": {
+      "method": "blockmean",
+      "frame": "native",
+      "budget": 85,
+      "selection": "random_blocks",
+      "parent": "PH_MEM85_RECENT_PLAIN",
+      "diagnostic": true
+    },
+    "PH_MEM85_PHASE_BALANCE_PLAIN": {
+      "method": "plain",
+      "frame": "native",
+      "budget": 85,
+      "selection": "phase_balance",
+      "parent": "PH_MEM85_RECENT_PLAIN",
+      "diagnostic": false
+    },
+    "PH_MEM85_PHASE_BALANCE_PHASE_MIXTURE": {
+      "method": "phase_mixture",
+      "frame": "native",
+      "budget": 85,
+      "selection": "phase_balance",
+      "parent": "PH_MEM85_RECENT_PLAIN",
+      "diagnostic": false
+    },
+    "PH_MEM85_PHASE_BALANCE_BLOCKMEAN": {
+      "method": "blockmean",
+      "frame": "native",
+      "budget": 85,
+      "selection": "phase_balance",
+      "parent": "PH_MEM85_RECENT_PLAIN",
+      "diagnostic": false
+    },
+    "PH_MEM126_RECENT_PLAIN": {
+      "method": "plain",
+      "frame": "native",
+      "budget": 126,
+      "selection": "recent",
+      "parent": "PH_NATIVE_PLAIN",
+      "diagnostic": false
+    },
+    "PH_MEM126_RECENT_PHASE_MIXTURE": {
+      "method": "phase_mixture",
+      "frame": "native",
+      "budget": 126,
+      "selection": "recent",
+      "parent": "PH_MEM126_RECENT_PLAIN",
+      "diagnostic": false
+    },
+    "PH_MEM126_RECENT_BLOCKMEAN": {
+      "method": "blockmean",
+      "frame": "native",
+      "budget": 126,
+      "selection": "recent",
+      "parent": "PH_MEM126_RECENT_PLAIN",
+      "diagnostic": false
+    },
+    "PH_MEM126_SPREAD_PLAIN": {
+      "method": "plain",
+      "frame": "native",
+      "budget": 126,
+      "selection": "spread",
+      "parent": "PH_MEM126_RECENT_PLAIN",
+      "diagnostic": false
+    },
+    "PH_MEM126_SPREAD_PHASE_MIXTURE": {
+      "method": "phase_mixture",
+      "frame": "native",
+      "budget": 126,
+      "selection": "spread",
+      "parent": "PH_MEM126_RECENT_PLAIN",
+      "diagnostic": false
+    },
+    "PH_MEM126_SPREAD_BLOCKMEAN": {
+      "method": "blockmean",
+      "frame": "native",
+      "budget": 126,
+      "selection": "spread",
+      "parent": "PH_MEM126_RECENT_PLAIN",
+      "diagnostic": false
+    },
+    "PH_MEM126_DIVERSE_PLAIN": {
+      "method": "plain",
+      "frame": "native",
+      "budget": 126,
+      "selection": "diverse",
+      "parent": "PH_MEM126_RECENT_PLAIN",
+      "diagnostic": false
+    },
+    "PH_MEM126_DIVERSE_PHASE_MIXTURE": {
+      "method": "phase_mixture",
+      "frame": "native",
+      "budget": 126,
+      "selection": "diverse",
+      "parent": "PH_MEM126_RECENT_PLAIN",
+      "diagnostic": false
+    },
+    "PH_MEM126_DIVERSE_BLOCKMEAN": {
+      "method": "blockmean",
+      "frame": "native",
+      "budget": 126,
+      "selection": "diverse",
+      "parent": "PH_MEM126_RECENT_PLAIN",
+      "diagnostic": false
+    },
+    "PH_MEM126_RANDOM_BLOCKS_PLAIN": {
+      "method": "plain",
+      "frame": "native",
+      "budget": 126,
+      "selection": "random_blocks",
+      "parent": "PH_MEM126_RECENT_PLAIN",
+      "diagnostic": true
+    },
+    "PH_MEM126_RANDOM_BLOCKS_PHASE_MIXTURE": {
+      "method": "phase_mixture",
+      "frame": "native",
+      "budget": 126,
+      "selection": "random_blocks",
+      "parent": "PH_MEM126_RECENT_PLAIN",
+      "diagnostic": true
+    },
+    "PH_MEM126_RANDOM_BLOCKS_BLOCKMEAN": {
+      "method": "blockmean",
+      "frame": "native",
+      "budget": 126,
+      "selection": "random_blocks",
+      "parent": "PH_MEM126_RECENT_PLAIN",
+      "diagnostic": true
+    },
+    "PH_MEM126_PHASE_BALANCE_PLAIN": {
+      "method": "plain",
+      "frame": "native",
+      "budget": 126,
+      "selection": "phase_balance",
+      "parent": "PH_MEM126_RECENT_PLAIN",
+      "diagnostic": false
+    },
+    "PH_MEM126_PHASE_BALANCE_PHASE_MIXTURE": {
+      "method": "phase_mixture",
+      "frame": "native",
+      "budget": 126,
+      "selection": "phase_balance",
+      "parent": "PH_MEM126_RECENT_PLAIN",
+      "diagnostic": false
+    },
+    "PH_MEM126_PHASE_BALANCE_BLOCKMEAN": {
+      "method": "blockmean",
+      "frame": "native",
+      "budget": 126,
+      "selection": "phase_balance",
+      "parent": "PH_MEM126_RECENT_PLAIN",
+      "diagnostic": false
+    }
+  },
+  "code": "b9230a140ef09c7426dd5182bc0090d8d90970dbe4ef558fce7c82b944d22058",
+  "phase_calendar_anchor": "2025-04-02",
+  "definition": "Observed session position from frozen V6 calendar modulo h; same anchor in every fold.",
+  "prespecified_default": "Equal complete-law phase mixture, with an ordinary overlapping and block-average control."
+}

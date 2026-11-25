@@ -1,0 +1,99 @@
+{
+  "files": {
+    "RESEARCH_PLAN.md": {
+      "sha256": "136178d8be00cf5e9d30cd719e59f161fc59d202ddf8731277a5aba5e1b95e16",
+      "bytes": 5857
+    },
+    "UPSTOX_DATA_AUDIT.md": {
+      "sha256": "8e40545870f32ecd1f57c80d0d6f0563b9a47e60311ad2d66d4c084e2e3bdfb6",
+      "bytes": 5988
+    },
+    "STRATEGY_DEFINITIONS.md": {
+      "sha256": "171d8ff44ab6c80a99f71486d42765a2aef0a251791c4844db5f4a9e76e5a6d2",
+      "bytes": 3626
+    },
+    "BACKTEST_REPORT.md": {
+      "sha256": "b155735121f418a43837c25d7bf18e15f6b6e7a60d7b031e96919b6d3fbcd4b4",
+      "bytes": 2656
+    },
+    "FORWARD_CAPTURE_PLAN.md": {
+      "sha256": "9cd802ee7ef9763d48bca2e2a0ba042e82e877cffb0720e3f269c72240123a1a",
+      "bytes": 2952
+    },
+    "FINAL_DECISION.md": {
+      "sha256": "787b082f94624694e24a7645cadc8c647e2819eafb5f7841b1dd80e4c45ebf55",
+      "bytes": 3917
+    },
+    "FINDINGS.md": {
+      "sha256": "f4e9240aaf03b60735ffde68eb17f781fe23c876bb5a3fb0a61314b1f2f8c77b",
+      "bytes": 15733
+    },
+    "METRIC_NOTES.md": {
+      "sha256": "08001550458242d812b49a816d7c65e948ad567566b9e4018f77e700bfada5e3",
+      "bytes": 1365
+    },
+    "metrics.csv": {
+      "sha256": "b9029f92657629e170ab5ec04d3f5fa07b865bef4b989c7226a658b4c79e89ec",
+      "bytes": 96362
+    },
+    "stress.csv": {
+      "sha256": "9215eca1904319241746a4ba6bf19784b4a53f1b8747467dceb5517ac495555d",
+      "bytes": 76576
+    },
+    "capacity-and-latency.csv": {
+      "sha256": "d58f160ee444727316f0cfce701f0dd26bddc5a6268d5b4f14a994b52b152e63",
+      "bytes": 153910
+    },
+    "segments.csv": {
+      "sha256": "37836990ab0ff07816b43776863a328215fc8e9148f0c8ad279570780f2f5c94",
+      "bytes": 81667
+    },
+    "signals.csv": {
+      "sha256": "388bd0fdc773d8c3f76914568b9ddbfa176f10e2e6cf2ad1d2b1ef11416b6ca2",
+      "bytes": 5452957
+    },
+    "rejections.csv": {
+      "sha256": "8f6b71b6cbf24867b7db675964a72cbaaaf9a7ad6c78117aa866e8b70f90bc55",
+      "bytes": 2865590
+    },
+    "trades.csv": {
+      "sha256": "c486011cd6eddfee2393810da586e770cf9c8202fc7507f7014b543794dddd8c",
+      "bytes": 15578999
+    },
+    "daily-equity.csv": {
+      "sha256": "1138db1cb7b90027c4a06fa4eb2f65354dc6320f75784735d9bf7b1f29780881",
+      "bytes": 1303817
+    },
+    "full-ranking.csv": {
+      "sha256": "7e68eb4666ef30855f9a5c93e431ba5c5856d6e73f0f0137fa94ecb3fea4de58",
+      "bytes": 24307
+    },
+    "independent-audit.json": {
+      "sha256": "a57c26af8ef4aeae9e8debab14fbc6e58384f237021d2bf0edf6d1297fc8c763",
+      "bytes": 476
+    },
+    "test-results.json": {
+      "sha256": "bb556c269e7c9c820d0802d3d4ad2206d9ad3a52afa977c484e7a31ad10bd762",
+      "bytes": 2636
+    },
+    "research-manifest.json": {
+      "sha256": "4190bc6a165cb76d24f57411b6752866f798f66ebb814e6e58092c85dae30f4e",
+      "bytes": 3205
+    },
+    "development-selection-frozen.json": {
+      "sha256": "f5b2ba56f3ca81ed5f7a068cb622e5b1120038b6f26f0c8df2a5022b39d1d7bc",
+      "bytes": 22211
+    },
+    "depth-diagnostic-asof.json": {
+      "sha256": "8293900cea4cd7d3d64f03af4536306e4407b22a43f5ec37d7dc8db4f0bf1336",
+      "bytes": 1762
+    },
+    "current-metadata-audit.json": {
+      "sha256": "d48c55114371e4a28d8fea6c8ba72b405ccc81916773eab5f7582f0d5f83eaf9",
+      "bytes": 8030
+    }
+  },
+  "frozen_source_hashes_match": true,
+  "no_real_orders": true,
+  "new_worker_activated": false
+}

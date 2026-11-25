@@ -1,0 +1,129 @@
+{
+  "scope": "bounded point coverage probes; not exhaustive count",
+  "keys": [
+    {
+      "symbol": "HDFCBANK",
+      "interval": "1day",
+      "first_observation": "2025-01-01 18:30:00+00:00",
+      "source": "upstox"
+    },
+    {
+      "symbol": "HDFCBANK",
+      "interval": "5minute",
+      "first_observation": "2025-01-01 03:45:00+00:00",
+      "source": "upstox"
+    },
+    {
+      "symbol": "HDFCBANK",
+      "interval": "1minute",
+      "first_observation": "2026-09-24 03:45:00+00:00",
+      "source": "upstox"
+    },
+    {
+      "symbol": "RELIANCE",
+      "interval": "1day",
+      "first_observation": "2025-01-01 18:30:00+00:00",
+      "source": "upstox"
+    },
+    {
+      "symbol": "RELIANCE",
+      "interval": "5minute",
+      "first_observation": "2025-01-01 03:45:00+00:00",
+      "source": "upstox"
+    },
+    {
+      "symbol": "RELIANCE",
+      "interval": "1minute",
+      "first_observation": "2026-09-24 03:45:00+00:00",
+      "source": "upstox"
+    },
+    {
+      "symbol": "ICICIBANK",
+      "interval": "1day",
+      "first_observation": "2025-01-01 18:30:00+00:00",
+      "source": "upstox"
+    },
+    {
+      "symbol": "ICICIBANK",
+      "interval": "5minute",
+      "first_observation": "2025-01-01 03:45:00+00:00",
+      "source": "upstox"
+    },
+    {
+      "symbol": "ICICIBANK",
+      "interval": "1minute",
+      "first_observation": "2026-09-24 03:45:00+00:00",
+      "source": "upstox"
+    },
+    {
+      "symbol": "NIFTY",
+      "interval": "1day",
+      "first_observation": "2025-01-01 18:30:00+00:00",
+      "source": "upstox"
+    },
+    {
+      "symbol": "NIFTY",
+      "interval": "5minute",
+      "first_observation": "2026-08-03 03:45:00+00:00",
+      "source": "upstox"
+    },
+    {
+      "symbol": "NIFTY",
+      "interval": "1minute",
+      "first_observation": "2026-01-01 03:45:00+00:00",
+      "source": "upstox"
+    }
+  ],
+  "retained_equity_depth_sample": [
+    {
+      "source_at": "2026-11-13 10:00:00.409000+00:00",
+      "instrument_key": "NSE_EQ|INE437A01024",
+      "feed_type": "live_feed"
+    },
+    {
+      "source_at": "2026-11-13 10:00:00.409000+00:00",
+      "instrument_key": "NSE_EQ|INE238A01034",
+      "feed_type": "live_feed"
+    },
+    {
+      "source_at": "2026-11-13 10:00:00.409000+00:00",
+      "instrument_key": "NSE_EQ|INE758E01017",
+      "feed_type": "live_feed"
+    },
+    {
+      "source_at": "2026-11-13 10:00:00.409000+00:00",
+      "instrument_key": "NSE_EQ|INE481G01011",
+      "feed_type": "live_feed"
+    },
+    {
+      "source_at": "2026-11-13 10:00:00.409000+00:00",
+      "instrument_key": "NSE_EQ|INE062A01020",
+      "feed_type": "live_feed"
+    },
+    {
+      "source_at": "2026-11-13 10:00:00.409000+00:00",
+      "instrument_key": "NSE_EQ|INE123W01016",
+      "feed_type": "live_feed"
+    },
+    {
+      "source_at": "2026-11-13 10:00:00.409000+00:00",
+      "instrument_key": "NSE_EQ|INE860A01027",
+      "feed_type": "live_feed"
+    },
+    {
+      "source_at": "2026-11-13 10:00:00.409000+00:00",
+      "instrument_key": "NSE_EQ|INE066A01021",
+      "feed_type": "live_feed"
+    },
+    {
+      "source_at": "2026-11-13 10:00:00.409000+00:00",
+      "instrument_key": "NSE_EQ|INE646L01027",
+      "feed_type": "live_feed"
+    },
+    {
+      "source_at": "2026-11-13 10:00:00.409000+00:00",
+      "instrument_key": "NSE_EQ|INE027H01010",
+      "feed_type": "live_feed"
+    }
+  ]
+}

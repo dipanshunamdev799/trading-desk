@@ -1,0 +1,290 @@
+{
+  "at": "2026-11-24T12:58:52.645026+05:30",
+  "seed": 20261129,
+  "configuration": {
+    "L_ROT_85": {
+      "frame": "both_changes",
+      "parent": "L_HIST_MAX",
+      "window": 85,
+      "law": "empirical",
+      "horizons": [
+        5
+      ],
+      "hypothesis": "Matched chronological sample-size curve, common 28-origin residual validation"
+    },
+    "L_ROT_126": {
+      "frame": "both_changes",
+      "parent": "L_HIST_MAX",
+      "window": 126,
+      "law": "empirical",
+      "horizons": [
+        5
+      ],
+      "hypothesis": "Matched chronological sample-size curve, common 28-origin residual validation"
+    },
+    "L_ROT_189": {
+      "frame": "both_changes",
+      "parent": "L_HIST_MAX",
+      "window": 189,
+      "law": "empirical",
+      "horizons": [
+        5
+      ],
+      "hypothesis": "Matched chronological sample-size curve, common 28-origin residual validation"
+    },
+    "L_ROT_252": {
+      "frame": "both_changes",
+      "parent": "L_HIST_MAX",
+      "window": 252,
+      "law": "empirical",
+      "horizons": [
+        5
+      ],
+      "hypothesis": "Matched chronological sample-size curve, common 28-origin residual validation"
+    },
+    "L_ROT_300": {
+      "frame": "both_changes",
+      "parent": "L_HIST_MAX",
+      "window": 300,
+      "law": "empirical",
+      "horizons": [
+        5
+      ],
+      "hypothesis": "Matched chronological sample-size curve, common 28-origin residual validation"
+    },
+    "L_ROT_MAX": {
+      "frame": "both_changes",
+      "parent": "L_HIST_MAX",
+      "window": null,
+      "law": "empirical",
+      "horizons": [
+        5
+      ],
+      "hypothesis": "Matched chronological sample-size curve, common 28-origin residual validation"
+    },
+    "L_RES_85": {
+      "frame": "residual",
+      "parent": "L_HIST_MAX",
+      "window": 85,
+      "law": "empirical",
+      "horizons": [
+        5
+      ],
+      "hypothesis": "Matched chronological sample-size curve, common 28-origin residual validation"
+    },
+    "L_RES_126": {
+      "frame": "residual",
+      "parent": "L_HIST_MAX",
+      "window": 126,
+      "law": "empirical",
+      "horizons": [
+        5
+      ],
+      "hypothesis": "Matched chronological sample-size curve, common 28-origin residual validation"
+    },
+    "L_RES_189": {
+      "frame": "residual",
+      "parent": "L_HIST_MAX",
+      "window": 189,
+      "law": "empirical",
+      "horizons": [
+        5
+      ],
+      "hypothesis": "Matched chronological sample-size curve, common 28-origin residual validation"
+    },
+    "L_RES_252": {
+      "frame": "residual",
+      "parent": "L_HIST_MAX",
+      "window": 252,
+      "law": "empirical",
+      "horizons": [
+        5
+      ],
+      "hypothesis": "Matched chronological sample-size curve, common 28-origin residual validation"
+    },
+    "L_RES_300": {
+      "frame": "residual",
+      "parent": "L_HIST_MAX",
+      "window": 300,
+      "law": "empirical",
+      "horizons": [
+        5
+      ],
+      "hypothesis": "Matched chronological sample-size curve, common 28-origin residual validation"
+    },
+    "L_RES_MAX": {
+      "frame": "residual",
+      "parent": "L_HIST_MAX",
+      "window": null,
+      "law": "empirical",
+      "horizons": [
+        5
+      ],
+      "hypothesis": "Matched chronological sample-size curve, common 28-origin residual validation"
+    },
+    "L_SMALL_85": {
+      "frame": "small_resid",
+      "parent": "L_HIST_MAX",
+      "window": 85,
+      "law": "empirical",
+      "horizons": [
+        5
+      ],
+      "hypothesis": "Matched chronological sample-size curve, common 28-origin residual validation"
+    },
+    "L_SMALL_126": {
+      "frame": "small_resid",
+      "parent": "L_HIST_MAX",
+      "window": 126,
+      "law": "empirical",
+      "horizons": [
+        5
+      ],
+      "hypothesis": "Matched chronological sample-size curve, common 28-origin residual validation"
+    },
+    "L_SMALL_189": {
+      "frame": "small_resid",
+      "parent": "L_HIST_MAX",
+      "window": 189,
+      "law": "empirical",
+      "horizons": [
+        5
+      ],
+      "hypothesis": "Matched chronological sample-size curve, common 28-origin residual validation"
+    },
+    "L_SMALL_252": {
+      "frame": "small_resid",
+      "parent": "L_HIST_MAX",
+      "window": 252,
+      "law": "empirical",
+      "horizons": [
+        5
+      ],
+      "hypothesis": "Matched chronological sample-size curve, common 28-origin residual validation"
+    },
+    "L_SMALL_300": {
+      "frame": "small_resid",
+      "parent": "L_HIST_MAX",
+      "window": 300,
+      "law": "empirical",
+      "horizons": [
+        5
+      ],
+      "hypothesis": "Matched chronological sample-size curve, common 28-origin residual validation"
+    },
+    "L_SMALL_MAX": {
+      "frame": "small_resid",
+      "parent": "L_HIST_MAX",
+      "window": null,
+      "law": "empirical",
+      "horizons": [
+        5
+      ],
+      "hypothesis": "Matched chronological sample-size curve, common 28-origin residual validation"
+    },
+    "L_HIST_85": {
+      "frame": "small",
+      "parent": "L_HIST_MAX",
+      "window": 85,
+      "law": "history",
+      "horizons": [
+        5
+      ],
+      "hypothesis": "Matched chronological sample-size curve, common 28-origin residual validation"
+    },
+    "L_HIST_126": {
+      "frame": "small",
+      "parent": "L_HIST_MAX",
+      "window": 126,
+      "law": "history",
+      "horizons": [
+        5
+      ],
+      "hypothesis": "Matched chronological sample-size curve, common 28-origin residual validation"
+    },
+    "L_HIST_189": {
+      "frame": "small",
+      "parent": "L_HIST_MAX",
+      "window": 189,
+      "law": "history",
+      "horizons": [
+        5
+      ],
+      "hypothesis": "Matched chronological sample-size curve, common 28-origin residual validation"
+    },
+    "L_HIST_252": {
+      "frame": "small",
+      "parent": "L_HIST_MAX",
+      "window": 252,
+      "law": "history",
+      "horizons": [
+        5
+      ],
+      "hypothesis": "Matched chronological sample-size curve, common 28-origin residual validation"
+    },
+    "L_HIST_300": {
+      "frame": "small",
+      "parent": "L_HIST_MAX",
+      "window": 300,
+      "law": "history",
+      "horizons": [
+        5
+      ],
+      "hypothesis": "Matched chronological sample-size curve, common 28-origin residual validation"
+    },
+    "L_HIST_MAX": {
+      "frame": "small",
+      "parent": "L_HIST_MAX",
+      "window": null,
+      "law": "history",
+      "horizons": [
+        5
+      ],
+      "hypothesis": "Matched chronological sample-size curve, common 28-origin residual validation"
+    },
+    "L_DESIGN_V28_A100": {
+      "frame": "both_changes",
+      "parent": "L_ROT_MAX",
+      "residual_window": 28,
+      "alpha": 100,
+      "horizons": [
+        5
+      ],
+      "hypothesis": "Same features and expanding history, change residual and regularization rules only"
+    },
+    "L_DESIGN_V28_A150": {
+      "frame": "both_changes",
+      "parent": "L_ROT_MAX",
+      "residual_window": 28,
+      "alpha": 150,
+      "horizons": [
+        5
+      ],
+      "hypothesis": "Same features and expanding history, change residual and regularization rules only"
+    },
+    "L_DESIGN_V42_A100": {
+      "frame": "both_changes",
+      "parent": "L_ROT_MAX",
+      "residual_window": 42,
+      "alpha": 100,
+      "horizons": [
+        5
+      ],
+      "hypothesis": "Same features and expanding history, change residual and regularization rules only"
+    },
+    "L_DESIGN_V42_A150": {
+      "frame": "both_changes",
+      "parent": "L_ROT_MAX",
+      "residual_window": 42,
+      "alpha": 150,
+      "horizons": [
+        5
+      ],
+      "hypothesis": "Same features and expanding history, change residual and regularization rules only"
+    }
+  },
+  "source": {
+    "run_models.py": "ce5c6722020b74c7d170a9614a8caf1d120688bde6097a38e03be56189f55269",
+    "models.py": "f314c03bd91c21d55ed8ad01bc5c6f24c82843b63226615c8508078a2d361177"
+  }
+}

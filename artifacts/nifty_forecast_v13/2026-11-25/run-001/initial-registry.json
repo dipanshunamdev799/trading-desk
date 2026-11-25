@@ -1,0 +1,33 @@
+{
+  "registered": "2026-11-25T00:43:10.454448+05:30",
+  "through": "2026-11-17",
+  "horizons": [
+    5,
+    21
+  ],
+  "barriers": [
+    0.005,
+    0.01,
+    0.02,
+    0.03,
+    0.05
+  ],
+  "paths": 512,
+  "seed": 131125,
+  "block_draws": 1500,
+  "block_lengths": [
+    5,
+    10,
+    21,
+    42
+  ],
+  "evaluation": "Frozen shared V12 origins, fully matured labels strictly before each origin, matched eligibility, no tuning on evaluation.",
+  "hypotheses": [
+    "range-based EWMA HAR ARCH/GARCH EGARCH GJR versus raw ATM IV",
+    "calendar-to-session IV and simple fixed variance blends",
+    "constant maturity shape, PCA, risk pricing gaps, unsigned OI, offshore volatility",
+    "empirical OHLC, risk-scaled OHLC, state nearest-neighbor OHLC, diffusion",
+    "separate direction location, confidence scaling and asymmetry"
+  ],
+  "decision": "MAE/QLIKE, range/pinball, barrier Brier and endpoint Brier/CRPS are distinct. Report gains versus strong matched baselines and both cohorts. Expand only to diagnose timing, missingness, benchmark performance or a competing mechanism. Label follow-ups."
+}

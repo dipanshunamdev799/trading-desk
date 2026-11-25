@@ -1,0 +1,1549 @@
+{
+  "version": "NIFTY_FORECAST_V3_RUN001",
+  "issued_at": "2026-11-17T09:55:34.610340+05:30",
+  "status": "LATE_ISSUED_ASOF_RECONSTRUCTION \u2014 NOT A FRESH PREMARKET FORECAST",
+  "genuinely_fresh_forward_confirmation": false,
+  "reference_close": 25291.1,
+  "reference_session": "2026-11-16",
+  "reference_source_timestamp": "2026-11-16T00:00:00+05:30",
+  "reference_source": "Upstox daily candle, corroborated by official NSE FO underlying on all465 dates",
+  "information_cutoff": {
+    "last_completed_indian_session": "2026-11-16",
+    "intended_historical_decision_clock": "00:30 IST on following trading session",
+    "actual_source_acquisition_last": "2026-11-17T09:31:39.461160+05:30",
+    "intraday_17nov_used": false,
+    "publication_clock_reconstruction": "ASSUMED, NOT VALIDATED",
+    "timing_note": "Issued after17Nov open, with only16Nov-completed-session inputs. Horizon includes the already-started17Nov session; no fresh premarket validation claim."
+  },
+  "scope": {
+    "start": "2025-01-01",
+    "end": "2026-11-16",
+    "pre2025_warmup": false
+  },
+  "qualified_predictive_edge": "NONE DEMONSTRATED",
+  "qualified_trading_utility": "NOT QUALIFIED; no trading strategy optimized",
+  "forecasts": {
+    "week": {
+      "horizon_trading_sessions": 5,
+      "expected_endpoint_date": "2026-11-23",
+      "positive_return_probability": 0.723668788636063,
+      "nonpositive_return_probability": 0.276331211363937,
+      "probability_status": "RAW MODEL ESTIMATE; NOT HISTORICALLY CALIBRATED OR INDEPENDENTLY VALIDATED",
+      "expected_return_regression": 0.0120013922337319,
+      "median_return_distribution": -0.0002711855413741436,
+      "expected_endpoint_price": 25594.628411122536,
+      "median_endpoint_price": 25284.241419354552,
+      "central50_endpoint_interval": [
+        24969.38722348604,
+        25656.79884584923
+      ],
+      "central80_endpoint_interval": [
+        24823.107681812173,
+        26331.551663329497
+      ],
+      "annualized_volatility_point": 0.1568,
+      "sqrt_time_horizon_move_proxy": 0.02208669785690523,
+      "expected_absolute_move_distribution": 0.017501936764007107,
+      "path_breach_below_minus2_probability": 0.08773129706039098,
+      "path_breach_below_minus5_probability": 0.0043828005202516404,
+      "return_bucket_probabilities": {
+        "below_-5pct": 0.0,
+        "-5_to_-2pct": 0.0945273631840796,
+        "-2_to_-0.5pct": 0.2885572139303483,
+        "-0.5_to_+0.5pct": 0.21393034825870647,
+        "+0.5_to_+2pct": 0.16417910447761194,
+        "+2_to_+5pct": 0.1691542288557214,
+        "above_+5pct": 0.06965174129353234
+      },
+      "scenarios": {
+        "bearish": "Endpoint below -0.5% reference return",
+        "neutral": "Endpoint between -0.5% and +0.5%",
+        "bullish": "Endpoint above +0.5%"
+      },
+      "scenario_probabilities_from_distribution": {
+        "bearish": 0.3830845771144279,
+        "neutral": 0.21393034825870647,
+        "bullish": 0.4029850746268657
+      },
+      "selected_models": {
+        "direction": "M05_lgbm",
+        "return": "A01_nofo",
+        "distribution": "A01_nofo",
+        "volatility": "B03_vix_scaled",
+        "tail": "M05_lgbm"
+      },
+      "selectors_use_only_purged_inner_validation": true,
+      "specific_selector_policy_oos": {
+        "direction": {
+          "n": 92,
+          "accuracy": 0.6304347826086957,
+          "balanced_accuracy": 0.6690856313497824,
+          "rmse": 0.021331360764055063,
+          "brier": 0.2561180931657388,
+          "log_loss": 0.7483203400324117,
+          "mae": 0.016163702917202146,
+          "median_mae": 0.01505149811800549,
+          "magnitude_mae": 0.01093949471927161,
+          "crps": 0.011431304008855924,
+          "pinball": 0.005770940635632891,
+          "bucket_brier": 0.8218118793874021,
+          "coverage50": 0.43478260869565216,
+          "coverage80": 0.6304347826086957,
+          "width50": 0.016995541640538004,
+          "width80": 0.03309442541751426,
+          "qlike": 0.38323191132179685,
+          "vol_mae": 0.04255249310567,
+          "tail02_brier": 0.13418963669938214,
+          "tail05_brier": 6.963649196775907e-05,
+          "calibration_bins": [
+            {
+              "lo": 0,
+              "hi": 0.35,
+              "n": 1,
+              "predicted": 0.2688221014351904,
+              "observed": 0.0
+            },
+            {
+              "lo": 0.35,
+              "hi": 0.45,
+              "n": 1,
+              "predicted": 0.44236980401978476,
+              "observed": 0.0
+            },
+            {
+              "lo": 0.45,
+              "hi": 0.55,
+              "n": 29,
+              "predicted": 0.4684782730135738,
+              "observed": 0.1724137931034483
+            },
+            {
+              "lo": 0.55,
+              "hi": 0.65,
+              "n": 31,
+              "predicted": 0.5615399873075656,
+              "observed": 0.5483870967741935
+            },
+            {
+              "lo": 0.65,
+              "hi": 1,
+              "n": 30,
+              "predicted": 0.8369960503350312,
+              "observed": 0.5666666666666667
+            }
+          ],
+          "ece": 0.19363785803732703,
+          "always_up_accuracy": 0.42391304347826086,
+          "always_down_accuracy": 0.5760869565217391,
+          "horizon": 5,
+          "model": "S_direction",
+          "split": "outer_exposed",
+          "nonoverlapping_n": 19,
+          "outcome_autocorrelation_ess": 23.452275793430964,
+          "origin_first": "2026-07-01",
+          "origin_last": "2026-11-09",
+          "research_only": false
+        },
+        "return": {
+          "n": 92,
+          "accuracy": 0.4891304347826087,
+          "balanced_accuracy": 0.4888727624576681,
+          "rmse": 0.02214403518569024,
+          "brier": 0.2653973587217543,
+          "log_loss": 0.7657850382441943,
+          "mae": 0.016172607044670627,
+          "median_mae": 0.014780676403169445,
+          "magnitude_mae": 0.01064327872797073,
+          "crps": 0.011245959215125112,
+          "pinball": 0.005694779143859346,
+          "bucket_brier": 0.7797826786465683,
+          "coverage50": 0.44565217391304346,
+          "coverage80": 0.6630434782608695,
+          "width50": 0.016123752458333737,
+          "width80": 0.03405781270147614,
+          "qlike": 0.2541539023113165,
+          "vol_mae": 0.03534349971784074,
+          "tail02_brier": 0.1323586655311169,
+          "tail05_brier": 8.62779853964095e-05,
+          "calibration_bins": [
+            {
+              "lo": 0,
+              "hi": 0.35,
+              "n": 4,
+              "predicted": 0.24560516170451874,
+              "observed": 0.0
+            },
+            {
+              "lo": 0.35,
+              "hi": 0.45,
+              "n": 37,
+              "predicted": 0.4321876561082621,
+              "observed": 0.5405405405405406
+            },
+            {
+              "lo": 0.45,
+              "hi": 0.55,
+              "n": 13,
+              "predicted": 0.5081695585600822,
+              "observed": 0.0
+            },
+            {
+              "lo": 0.55,
+              "hi": 0.65,
+              "n": 9,
+              "predicted": 0.608374071630275,
+              "observed": 0.3333333333333333
+            },
+            {
+              "lo": 0.65,
+              "hi": 1,
+              "n": 29,
+              "predicted": 0.8434358133409566,
+              "observed": 0.5517241379310345
+            }
+          ],
+          "ece": 0.24492050938753981,
+          "always_up_accuracy": 0.42391304347826086,
+          "always_down_accuracy": 0.5760869565217391,
+          "horizon": 5,
+          "model": "S_return",
+          "split": "outer_exposed",
+          "nonoverlapping_n": 19,
+          "outcome_autocorrelation_ess": 23.452275793430964,
+          "origin_first": "2026-07-01",
+          "origin_last": "2026-11-09",
+          "research_only": false
+        },
+        "distribution": {
+          "n": 92,
+          "accuracy": 0.4891304347826087,
+          "balanced_accuracy": 0.4888727624576681,
+          "rmse": 0.022318752710717822,
+          "brier": 0.2690524527021473,
+          "log_loss": 0.7735164445859246,
+          "mae": 0.016235405812030014,
+          "median_mae": 0.014826539324243493,
+          "magnitude_mae": 0.010493752001755346,
+          "crps": 0.011281407058594624,
+          "pinball": 0.0057239342242073445,
+          "bucket_brier": 0.7785219479070148,
+          "coverage50": 0.45652173913043476,
+          "coverage80": 0.6413043478260869,
+          "width50": 0.015626388653942048,
+          "width80": 0.03157286748407872,
+          "qlike": 0.2608867711014416,
+          "vol_mae": 0.033494891678741,
+          "tail02_brier": 0.12985874041565387,
+          "tail05_brier": 6.776454576115339e-05,
+          "calibration_bins": [
+            {
+              "lo": 0,
+              "hi": 0.35,
+              "n": 4,
+              "predicted": 0.24560516170451874,
+              "observed": 0.0
+            },
+            {
+              "lo": 0.35,
+              "hi": 0.45,
+              "n": 14,
+              "predicted": 0.3845123529142214,
+              "observed": 0.5
+            },
+            {
+              "lo": 0.45,
+              "hi": 0.55,
+              "n": 36,
+              "predicted": 0.4902659129995281,
+              "observed": 0.3611111111111111
+            },
+            {
+              "lo": 0.55,
+              "hi": 0.65,
+              "n": 9,
+              "predicted": 0.608374071630275,
+              "observed": 0.3333333333333333
+            },
+            {
+              "lo": 0.65,
+              "hi": 1,
+              "n": 29,
+              "predicted": 0.8434358133409566,
+              "observed": 0.5517241379310345
+            }
+          ],
+          "ece": 0.19765028049524136,
+          "always_up_accuracy": 0.42391304347826086,
+          "always_down_accuracy": 0.5760869565217391,
+          "horizon": 5,
+          "model": "S_distribution",
+          "split": "outer_exposed",
+          "nonoverlapping_n": 19,
+          "outcome_autocorrelation_ess": 23.452275793430964,
+          "origin_first": "2026-07-01",
+          "origin_last": "2026-11-09",
+          "research_only": false
+        },
+        "volatility": {
+          "n": 92,
+          "accuracy": 0.5434782608695652,
+          "balanced_accuracy": 0.5529753265602322,
+          "rmse": 0.021717805165586315,
+          "brier": 0.2569374472046036,
+          "log_loss": 0.7507345519907567,
+          "mae": 0.016384641653378024,
+          "median_mae": 0.01574430029747519,
+          "magnitude_mae": 0.01074276797086238,
+          "crps": 0.012127134204345982,
+          "pinball": 0.006178864745788319,
+          "bucket_brier": 0.829861077480863,
+          "coverage50": 0.3695652173913043,
+          "coverage80": 0.6304347826086957,
+          "width50": 0.016166551194488125,
+          "width80": 0.032824215707492374,
+          "qlike": 0.5493172855493265,
+          "vol_mae": 0.042755684161593345,
+          "tail02_brier": 0.13679823610684563,
+          "tail05_brier": 0.00010136101410151036,
+          "calibration_bins": [
+            {
+              "lo": 0,
+              "hi": 0.35,
+              "n": 1,
+              "predicted": 0.2688221014351904,
+              "observed": 0.0
+            },
+            {
+              "lo": 0.35,
+              "hi": 0.45,
+              "n": 14,
+              "predicted": 0.4468341363370442,
+              "observed": 0.14285714285714285
+            },
+            {
+              "lo": 0.45,
+              "hi": 0.55,
+              "n": 38,
+              "predicted": 0.49269352984706205,
+              "observed": 0.3684210526315789
+            },
+            {
+              "lo": 0.55,
+              "hi": 0.65,
+              "n": 5,
+              "predicted": 0.5835187001624763,
+              "observed": 0.6
+            },
+            {
+              "lo": 0.65,
+              "hi": 1,
+              "n": 34,
+              "predicted": 0.8435910619600273,
+              "observed": 0.5882352941176471
+            }
+          ],
+          "ece": 0.1957756168496817,
+          "always_up_accuracy": 0.42391304347826086,
+          "always_down_accuracy": 0.5760869565217391,
+          "horizon": 5,
+          "model": "S_volatility",
+          "split": "outer_exposed",
+          "nonoverlapping_n": 19,
+          "outcome_autocorrelation_ess": 23.452275793430964,
+          "origin_first": "2026-07-01",
+          "origin_last": "2026-11-09",
+          "research_only": false
+        },
+        "tail": {
+          "n": 92,
+          "accuracy": 0.4782608695652174,
+          "balanced_accuracy": 0.46927914852443153,
+          "rmse": 0.021470928797159956,
+          "brier": 0.2486142024360354,
+          "log_loss": 0.6911373210637651,
+          "mae": 0.01581153056030198,
+          "median_mae": 0.01580425750182694,
+          "magnitude_mae": 0.010915399545448958,
+          "crps": 0.011885427492859622,
+          "pinball": 0.005899744740589191,
+          "bucket_brier": 0.8064737958487898,
+          "coverage50": 0.4782608695652174,
+          "coverage80": 0.6956521739130435,
+          "width50": 0.0211797906149061,
+          "width80": 0.03944139130571079,
+          "qlike": 0.374915408249444,
+          "vol_mae": 0.04054787317005259,
+          "tail02_brier": 0.1381328348848262,
+          "tail05_brier": 6.55952759346859e-05,
+          "calibration_bins": [
+            {
+              "lo": 0,
+              "hi": 0.35,
+              "n": 2,
+              "predicted": 0.296639043914395,
+              "observed": 0.5
+            },
+            {
+              "lo": 0.35,
+              "hi": 0.45,
+              "n": 17,
+              "predicted": 0.4370856700030763,
+              "observed": 0.29411764705882354
+            },
+            {
+              "lo": 0.45,
+              "hi": 0.55,
+              "n": 56,
+              "predicted": 0.4965280740928681,
+              "observed": 0.375
+            },
+            {
+              "lo": 0.55,
+              "hi": 0.65,
+              "n": 5,
+              "predicted": 0.5910363405006329,
+              "observed": 0.8
+            },
+            {
+              "lo": 0.65,
+              "hi": 1,
+              "n": 12,
+              "predicted": 0.7256101387533597,
+              "observed": 0.6666666666666666
+            }
+          ],
+          "ece": 0.12385750449957902,
+          "always_up_accuracy": 0.42391304347826086,
+          "always_down_accuracy": 0.5760869565217391,
+          "horizon": 5,
+          "model": "S_tail",
+          "split": "outer_exposed",
+          "nonoverlapping_n": 19,
+          "outcome_autocorrelation_ess": 23.452275793430964,
+          "origin_first": "2026-07-01",
+          "origin_last": "2026-11-09",
+          "research_only": false
+        }
+      },
+      "specific_current_selected_model_oos_exploratory": {
+        "direction": {
+          "n": 92,
+          "accuracy": 0.6630434782608695,
+          "balanced_accuracy": 0.6330430575713595,
+          "rmse": 0.021320087058979215,
+          "brier": 0.22604904123725866,
+          "log_loss": 0.6454921671383669,
+          "mae": 0.015190379329029642,
+          "median_mae": 0.015463842518923743,
+          "magnitude_mae": 0.01052972054556078,
+          "crps": 0.011816792649149534,
+          "pinball": 0.005851851894301415,
+          "bucket_brier": 0.8111309126011731,
+          "coverage50": 0.42391304347826086,
+          "coverage80": 0.6304347826086957,
+          "width50": 0.020816341103501713,
+          "width80": 0.033625965417174004,
+          "qlike": 0.34418940650991053,
+          "vol_mae": 0.040404127887452665,
+          "tail02_brier": 0.12136315968400205,
+          "tail05_brier": 3.7762452760197845e-05,
+          "calibration_bins": [
+            {
+              "lo": 0,
+              "hi": 0.35,
+              "n": 35,
+              "predicted": 0.29356180673264987,
+              "observed": 0.2857142857142857
+            },
+            {
+              "lo": 0.35,
+              "hi": 0.45,
+              "n": 26,
+              "predicted": 0.3921476209747849,
+              "observed": 0.38461538461538464
+            },
+            {
+              "lo": 0.45,
+              "hi": 0.55,
+              "n": 13,
+              "predicted": 0.5059300558266492,
+              "observed": 0.46153846153846156
+            },
+            {
+              "lo": 0.55,
+              "hi": 0.65,
+              "n": 5,
+              "predicted": 0.591279040421463,
+              "observed": 1.0
+            },
+            {
+              "lo": 0.65,
+              "hi": 1,
+              "n": 13,
+              "predicted": 0.7234919803162624,
+              "observed": 0.6153846153846154
+            }
+          ],
+          "ece": 0.0488760070514966,
+          "always_up_accuracy": 0.42391304347826086,
+          "always_down_accuracy": 0.5760869565217391,
+          "horizon": 5,
+          "model": "M05_lgbm",
+          "split": "outer_exposed",
+          "nonoverlapping_n": 19,
+          "outcome_autocorrelation_ess": 23.452275793430964,
+          "origin_first": "2026-07-01",
+          "origin_last": "2026-11-09",
+          "research_only": false
+        },
+        "return": {
+          "n": 92,
+          "accuracy": 0.5434782608695652,
+          "balanced_accuracy": 0.5732946298984035,
+          "rmse": 0.019509339179566938,
+          "brier": 0.2712402727536724,
+          "log_loss": 0.7680020722071924,
+          "mae": 0.015309230626659545,
+          "median_mae": 0.015299780416460993,
+          "magnitude_mae": 0.011460705544125666,
+          "crps": 0.012237608066297527,
+          "pinball": 0.006223174982066344,
+          "bucket_brier": 0.8454504462330353,
+          "coverage50": 0.4673913043478261,
+          "coverage80": 0.6413043478260869,
+          "width50": 0.0208270652418589,
+          "width80": 0.03531509698271854,
+          "qlike": 0.45532744710172857,
+          "vol_mae": 0.03865352625110535,
+          "tail02_brier": 0.14081143049573885,
+          "tail05_brier": 6.0990596307802816e-05,
+          "calibration_bins": [
+            {
+              "lo": 0,
+              "hi": 0.35,
+              "n": 15,
+              "predicted": 0.2544351113325035,
+              "observed": 0.26666666666666666
+            },
+            {
+              "lo": 0.35,
+              "hi": 0.45,
+              "n": 9,
+              "predicted": 0.4075563662462911,
+              "observed": 0.4444444444444444
+            },
+            {
+              "lo": 0.45,
+              "hi": 0.55,
+              "n": 11,
+              "predicted": 0.5113785674873399,
+              "observed": 0.36363636363636365
+            },
+            {
+              "lo": 0.55,
+              "hi": 0.65,
+              "n": 12,
+              "predicted": 0.5803055369294929,
+              "observed": 0.16666666666666666
+            },
+            {
+              "lo": 0.65,
+              "hi": 1,
+              "n": 45,
+              "predicted": 0.8374808630405002,
+              "observed": 0.5555555555555556
+            }
+          ],
+          "ece": 0.21511886474057598,
+          "always_up_accuracy": 0.42391304347826086,
+          "always_down_accuracy": 0.5760869565217391,
+          "horizon": 5,
+          "model": "A01_nofo",
+          "split": "outer_exposed",
+          "nonoverlapping_n": 19,
+          "outcome_autocorrelation_ess": 23.452275793430964,
+          "origin_first": "2026-07-01",
+          "origin_last": "2026-11-09",
+          "research_only": false
+        },
+        "distribution": {
+          "n": 92,
+          "accuracy": 0.5434782608695652,
+          "balanced_accuracy": 0.5732946298984035,
+          "rmse": 0.019509339179566938,
+          "brier": 0.2712402727536724,
+          "log_loss": 0.7680020722071924,
+          "mae": 0.015309230626659545,
+          "median_mae": 0.015299780416460993,
+          "magnitude_mae": 0.011460705544125666,
+          "crps": 0.012237608066297527,
+          "pinball": 0.006223174982066344,
+          "bucket_brier": 0.8454504462330353,
+          "coverage50": 0.4673913043478261,
+          "coverage80": 0.6413043478260869,
+          "width50": 0.0208270652418589,
+          "width80": 0.03531509698271854,
+          "qlike": 0.45532744710172857,
+          "vol_mae": 0.03865352625110535,
+          "tail02_brier": 0.14081143049573885,
+          "tail05_brier": 6.0990596307802816e-05,
+          "calibration_bins": [
+            {
+              "lo": 0,
+              "hi": 0.35,
+              "n": 15,
+              "predicted": 0.2544351113325035,
+              "observed": 0.26666666666666666
+            },
+            {
+              "lo": 0.35,
+              "hi": 0.45,
+              "n": 9,
+              "predicted": 0.4075563662462911,
+              "observed": 0.4444444444444444
+            },
+            {
+              "lo": 0.45,
+              "hi": 0.55,
+              "n": 11,
+              "predicted": 0.5113785674873399,
+              "observed": 0.36363636363636365
+            },
+            {
+              "lo": 0.55,
+              "hi": 0.65,
+              "n": 12,
+              "predicted": 0.5803055369294929,
+              "observed": 0.16666666666666666
+            },
+            {
+              "lo": 0.65,
+              "hi": 1,
+              "n": 45,
+              "predicted": 0.8374808630405002,
+              "observed": 0.5555555555555556
+            }
+          ],
+          "ece": 0.21511886474057598,
+          "always_up_accuracy": 0.42391304347826086,
+          "always_down_accuracy": 0.5760869565217391,
+          "horizon": 5,
+          "model": "A01_nofo",
+          "split": "outer_exposed",
+          "nonoverlapping_n": 19,
+          "outcome_autocorrelation_ess": 23.452275793430964,
+          "origin_first": "2026-07-01",
+          "origin_last": "2026-11-09",
+          "research_only": false
+        },
+        "volatility": {
+          "n": 92,
+          "accuracy": 0.5760869565217391,
+          "balanced_accuracy": 0.5,
+          "rmse": 0.023658045620896687,
+          "brier": 0.25829578006726034,
+          "log_loss": 0.709964000724929,
+          "mae": 0.016646447298428547,
+          "median_mae": 0.016729847897386477,
+          "magnitude_mae": 0.01078965935247119,
+          "crps": 0.012251782767895592,
+          "pinball": 0.0061033726767941564,
+          "bucket_brier": 0.8045748975219082,
+          "coverage50": 0.5217391304347826,
+          "coverage80": 0.782608695652174,
+          "width50": 0.02496839961412867,
+          "width80": 0.05068317668189776,
+          "qlike": 0.35922488656390206,
+          "vol_mae": 0.04464814657387219,
+          "tail02_brier": 0.1315885955831608,
+          "tail05_brier": 6.298815822625343e-05,
+          "calibration_bins": [
+            {
+              "lo": 0.35,
+              "hi": 0.45,
+              "n": 27,
+              "predicted": 0.42739564961787185,
+              "observed": 0.7407407407407407
+            },
+            {
+              "lo": 0.45,
+              "hi": 0.55,
+              "n": 65,
+              "predicted": 0.4827228327228328,
+              "observed": 0.2923076923076923
+            }
+          ],
+          "ece": 0.22649240855762595,
+          "always_up_accuracy": 0.42391304347826086,
+          "always_down_accuracy": 0.5760869565217391,
+          "horizon": 5,
+          "model": "B03_vix_scaled",
+          "split": "outer_exposed",
+          "nonoverlapping_n": 19,
+          "outcome_autocorrelation_ess": 23.452275793430964,
+          "origin_first": "2026-07-01",
+          "origin_last": "2026-11-09",
+          "research_only": false
+        },
+        "tail": {
+          "n": 92,
+          "accuracy": 0.6630434782608695,
+          "balanced_accuracy": 0.6330430575713595,
+          "rmse": 0.021320087058979215,
+          "brier": 0.22604904123725866,
+          "log_loss": 0.6454921671383669,
+          "mae": 0.015190379329029642,
+          "median_mae": 0.015463842518923743,
+          "magnitude_mae": 0.01052972054556078,
+          "crps": 0.011816792649149534,
+          "pinball": 0.005851851894301415,
+          "bucket_brier": 0.8111309126011731,
+          "coverage50": 0.42391304347826086,
+          "coverage80": 0.6304347826086957,
+          "width50": 0.020816341103501713,
+          "width80": 0.033625965417174004,
+          "qlike": 0.34418940650991053,
+          "vol_mae": 0.040404127887452665,
+          "tail02_brier": 0.12136315968400205,
+          "tail05_brier": 3.7762452760197845e-05,
+          "calibration_bins": [
+            {
+              "lo": 0,
+              "hi": 0.35,
+              "n": 35,
+              "predicted": 0.29356180673264987,
+              "observed": 0.2857142857142857
+            },
+            {
+              "lo": 0.35,
+              "hi": 0.45,
+              "n": 26,
+              "predicted": 0.3921476209747849,
+              "observed": 0.38461538461538464
+            },
+            {
+              "lo": 0.45,
+              "hi": 0.55,
+              "n": 13,
+              "predicted": 0.5059300558266492,
+              "observed": 0.46153846153846156
+            },
+            {
+              "lo": 0.55,
+              "hi": 0.65,
+              "n": 5,
+              "predicted": 0.591279040421463,
+              "observed": 1.0
+            },
+            {
+              "lo": 0.65,
+              "hi": 1,
+              "n": 13,
+              "predicted": 0.7234919803162624,
+              "observed": 0.6153846153846154
+            }
+          ],
+          "ece": 0.0488760070514966,
+          "always_up_accuracy": 0.42391304347826086,
+          "always_down_accuracy": 0.5760869565217391,
+          "horizon": 5,
+          "model": "M05_lgbm",
+          "split": "outer_exposed",
+          "nonoverlapping_n": 19,
+          "outcome_autocorrelation_ess": 23.452275793430964,
+          "origin_first": "2026-07-01",
+          "origin_last": "2026-11-09",
+          "research_only": false
+        }
+      },
+      "effective_evaluation": {
+        "origins": 92,
+        "nonoverlapping": 19,
+        "outcome_acf_ess": 23.452275793430964,
+        "independence_guaranteed": false
+      },
+      "cross_target_consistency": {
+        "classifier_p_up": 0.723668788636063,
+        "distribution_p_up": 0.4975124378109453,
+        "distribution_mean": 0.005642470063509836,
+        "direct_return_mean": 0.0120013922337319,
+        "note": "Independent target selectors do not define a jointly calibrated distribution; discrepancies are not hidden"
+      },
+      "validation_status": {
+        "probabilities": "NOT VALIDATED",
+        "expected_return": "NOT VALIDATED",
+        "median_return": "NOT VALIDATED",
+        "endpoint_price": "NOT VALIDATED",
+        "intervals": "NOT VALIDATED",
+        "volatility": "NOT VALIDATED",
+        "tail_risk": "NOT VALIDATED",
+        "contributing_signals": "NOT VALIDATED"
+      },
+      "future_market_regime": "NOT VALIDATED: only causal origin-regime conditioning was tested",
+      "main_contributing_signals": "Training associations in model-contributions.json; no family has independently demonstrated incremental predictive importance",
+      "outcome": {
+        "endpoint_close": null,
+        "reference_close_revision": null,
+        "return": null,
+        "scored_at": null
+      }
+    },
+    "month": {
+      "horizon_trading_sessions": 21,
+      "expected_endpoint_date": "2026-12-16",
+      "positive_return_probability": 0.55,
+      "nonpositive_return_probability": 0.44999999999999996,
+      "probability_status": "RAW MODEL ESTIMATE; NOT HISTORICALLY CALIBRATED OR INDEPENDENTLY VALIDATED",
+      "expected_return_regression": 0.012245495918043994,
+      "median_return_distribution": -0.01989522135205336,
+      "expected_endpoint_price": 25600.802061812843,
+      "median_endpoint_price": 24787.927967263084,
+      "central50_endpoint_interval": [
+        24330.210782284954,
+        25934.543233847984
+      ],
+      "central80_endpoint_interval": [
+        23799.907834856356,
+        26938.98287009888
+      ],
+      "annualized_volatility_point": 0.07320337367133618,
+      "sqrt_time_horizon_move_proxy": 0.021131993747367354,
+      "expected_absolute_move_distribution": 0.03875257092114682,
+      "path_breach_below_minus2_probability": 0.593891286085661,
+      "path_breach_below_minus5_probability": 0.19658939990893062,
+      "return_bucket_probabilities": {
+        "below_-5pct": 0.1890547263681592,
+        "-5_to_-2pct": 0.2885572139303483,
+        "-2_to_-0.5pct": 0.1890547263681592,
+        "-0.5_to_+0.5pct": 0.06965174129353234,
+        "+0.5_to_+2pct": 0.0,
+        "+2_to_+5pct": 0.09950248756218906,
+        "above_+5pct": 0.16417910447761194
+      },
+      "scenarios": {
+        "bearish": "Endpoint below -0.5% reference return",
+        "neutral": "Endpoint between -0.5% and +0.5%",
+        "bullish": "Endpoint above +0.5%"
+      },
+      "scenario_probabilities_from_distribution": {
+        "bearish": 0.6666666666666667,
+        "neutral": 0.06965174129353234,
+        "bullish": 0.263681592039801
+      },
+      "selected_models": {
+        "direction": "Z_momentum",
+        "return": "A00_sector",
+        "distribution": "A00_sector",
+        "volatility": "M00_ridge_price",
+        "tail": "B01_ewma"
+      },
+      "selectors_use_only_purged_inner_validation": true,
+      "specific_selector_policy_oos": {
+        "direction": {
+          "n": 76,
+          "accuracy": 0.6052631578947368,
+          "balanced_accuracy": 0.6164874551971327,
+          "rmse": 0.04277830020060412,
+          "brier": 0.24219985105230932,
+          "log_loss": 0.6830270552291325,
+          "mae": 0.03359346617693568,
+          "median_mae": 0.03676914156601921,
+          "magnitude_mae": 0.023467739178828738,
+          "crps": 0.028007731604263852,
+          "pinball": 0.014062088451461391,
+          "bucket_brier": 0.8699198430471367,
+          "coverage50": 0.27631578947368424,
+          "coverage80": 0.5263157894736842,
+          "width50": 0.034507181898151884,
+          "width80": 0.06790119489538403,
+          "qlike": 0.17885461630924956,
+          "vol_mae": 0.028961886483487836,
+          "tail02_brier": 0.24428964515119592,
+          "tail05_brier": 0.18599995531004906,
+          "calibration_bins": [
+            {
+              "lo": 0,
+              "hi": 0.35,
+              "n": 4,
+              "predicted": 0.278068702068448,
+              "observed": 0.0
+            },
+            {
+              "lo": 0.35,
+              "hi": 0.45,
+              "n": 15,
+              "predicted": 0.39600091281231903,
+              "observed": 0.06666666666666667
+            },
+            {
+              "lo": 0.45,
+              "hi": 0.55,
+              "n": 17,
+              "predicted": 0.45914295818428463,
+              "observed": 0.5294117647058824
+            },
+            {
+              "lo": 0.55,
+              "hi": 0.65,
+              "n": 25,
+              "predicted": 0.5837328162810604,
+              "observed": 0.48
+            },
+            {
+              "lo": 0.65,
+              "hi": 1,
+              "n": 15,
+              "predicted": 0.8043938624864084,
+              "observed": 0.6
+            }
+          ],
+          "ece": 0.16981692836379444,
+          "always_up_accuracy": 0.40789473684210525,
+          "always_down_accuracy": 0.5921052631578947,
+          "horizon": 21,
+          "model": "S_direction",
+          "split": "outer_exposed",
+          "nonoverlapping_n": 4,
+          "outcome_autocorrelation_ess": 5.956599652496948,
+          "origin_first": "2026-07-01",
+          "origin_last": "2026-10-16",
+          "research_only": false
+        },
+        "return": {
+          "n": 76,
+          "accuracy": 0.4473684210526316,
+          "balanced_accuracy": 0.48315412186379925,
+          "rmse": 0.04946211406333066,
+          "brier": 0.33243081717015727,
+          "log_loss": 0.9039750036090833,
+          "mae": 0.04065234431049987,
+          "median_mae": 0.04043839652676129,
+          "magnitude_mae": 0.024824806340401653,
+          "crps": 0.03221244827269507,
+          "pinball": 0.01588812443754614,
+          "bucket_brier": 1.0015697891792672,
+          "coverage50": 0.10526315789473684,
+          "coverage80": 0.35526315789473684,
+          "width50": 0.027182073211259948,
+          "width80": 0.05330084751229293,
+          "qlike": 0.12992524586755858,
+          "vol_mae": 0.017546329168211756,
+          "tail02_brier": 0.4548156917413865,
+          "tail05_brier": 0.19333205701416378,
+          "calibration_bins": [
+            {
+              "lo": 0,
+              "hi": 0.35,
+              "n": 7,
+              "predicted": 0.26064831268655275,
+              "observed": 0.42857142857142855
+            },
+            {
+              "lo": 0.35,
+              "hi": 0.45,
+              "n": 10,
+              "predicted": 0.41573232777107405,
+              "observed": 0.5
+            },
+            {
+              "lo": 0.45,
+              "hi": 0.55,
+              "n": 11,
+              "predicted": 0.49423518427465923,
+              "observed": 0.36363636363636365
+            },
+            {
+              "lo": 0.55,
+              "hi": 0.65,
+              "n": 15,
+              "predicted": 0.6075307500598492,
+              "observed": 0.4666666666666667
+            },
+            {
+              "lo": 0.65,
+              "hi": 1,
+              "n": 33,
+              "predicted": 0.7708933734295448,
+              "observed": 0.36363636363636365
+            }
+          ],
+          "ece": 0.2500943175602284,
+          "always_up_accuracy": 0.40789473684210525,
+          "always_down_accuracy": 0.5921052631578947,
+          "horizon": 21,
+          "model": "S_return",
+          "split": "outer_exposed",
+          "nonoverlapping_n": 4,
+          "outcome_autocorrelation_ess": 5.956599652496948,
+          "origin_first": "2026-07-01",
+          "origin_last": "2026-10-16",
+          "research_only": false
+        },
+        "distribution": {
+          "n": 76,
+          "accuracy": 0.3684210526315789,
+          "balanced_accuracy": 0.4164874551971326,
+          "rmse": 0.04887353163223227,
+          "brier": 0.3529282572337002,
+          "log_loss": 0.9462790351745707,
+          "mae": 0.04024269981353457,
+          "median_mae": 0.042981853154427055,
+          "magnitude_mae": 0.024869286574296424,
+          "crps": 0.035021073811048554,
+          "pinball": 0.017336810078195777,
+          "bucket_brier": 1.0590612009343179,
+          "coverage50": 0.10526315789473684,
+          "coverage80": 0.3157894736842105,
+          "width50": 0.024583864401218545,
+          "width80": 0.05104496946644161,
+          "qlike": 0.12404846520808414,
+          "vol_mae": 0.0169699431279529,
+          "tail02_brier": 0.4680454703946954,
+          "tail05_brier": 0.19180305307925674,
+          "calibration_bins": [
+            {
+              "lo": 0,
+              "hi": 0.35,
+              "n": 3,
+              "predicted": 0.2374211268440257,
+              "observed": 1.0
+            },
+            {
+              "lo": 0.35,
+              "hi": 0.45,
+              "n": 8,
+              "predicted": 0.4049789274274352,
+              "observed": 0.5
+            },
+            {
+              "lo": 0.45,
+              "hi": 0.55,
+              "n": 12,
+              "predicted": 0.49576924969298936,
+              "observed": 0.4166666666666667
+            },
+            {
+              "lo": 0.55,
+              "hi": 0.65,
+              "n": 17,
+              "predicted": 0.6085244132399696,
+              "observed": 0.4117647058823529
+            },
+            {
+              "lo": 0.65,
+              "hi": 1,
+              "n": 36,
+              "predicted": 0.7592346292832316,
+              "observed": 0.3333333333333333
+            }
+          ],
+          "ece": 0.29834865625842283,
+          "always_up_accuracy": 0.40789473684210525,
+          "always_down_accuracy": 0.5921052631578947,
+          "horizon": 21,
+          "model": "S_distribution",
+          "split": "outer_exposed",
+          "nonoverlapping_n": 4,
+          "outcome_autocorrelation_ess": 5.956599652496948,
+          "origin_first": "2026-07-01",
+          "origin_last": "2026-10-16",
+          "research_only": false
+        },
+        "volatility": {
+          "n": 76,
+          "accuracy": 0.27631578947368424,
+          "balanced_accuracy": 0.328673835125448,
+          "rmse": 0.03941890724967532,
+          "brier": 0.28020731160379997,
+          "log_loss": 0.7380619345747811,
+          "mae": 0.0356272959578128,
+          "median_mae": 0.03992281834182366,
+          "magnitude_mae": 0.023081552479078785,
+          "crps": 0.026815879052345698,
+          "pinball": 0.012952638852294213,
+          "bucket_brier": 0.8841827781751104,
+          "coverage50": 0.27631578947368424,
+          "coverage80": 0.6052631578947368,
+          "width50": 0.03823435008507484,
+          "width80": 0.06576081383600321,
+          "qlike": 0.21897316131361227,
+          "vol_mae": 0.03499179620076763,
+          "tail02_brier": 0.2730786277134399,
+          "tail05_brier": 0.17408135062729035,
+          "calibration_bins": [
+            {
+              "lo": 0,
+              "hi": 0.35,
+              "n": 6,
+              "predicted": 0.2776243755962131,
+              "observed": 1.0
+            },
+            {
+              "lo": 0.35,
+              "hi": 0.45,
+              "n": 5,
+              "predicted": 0.42114887026347414,
+              "observed": 0.6
+            },
+            {
+              "lo": 0.45,
+              "hi": 0.55,
+              "n": 7,
+              "predicted": 0.5112459409855765,
+              "observed": 0.5714285714285714
+            },
+            {
+              "lo": 0.55,
+              "hi": 0.65,
+              "n": 41,
+              "predicted": 0.5831362323305213,
+              "observed": 0.12195121951219512
+            },
+            {
+              "lo": 0.65,
+              "hi": 1,
+              "n": 17,
+              "predicted": 0.8566866466296621,
+              "observed": 0.7647058823529411
+            }
+          ],
+          "ece": 0.34371113587449925,
+          "always_up_accuracy": 0.40789473684210525,
+          "always_down_accuracy": 0.5921052631578947,
+          "horizon": 21,
+          "model": "S_volatility",
+          "split": "outer_exposed",
+          "nonoverlapping_n": 4,
+          "outcome_autocorrelation_ess": 5.956599652496948,
+          "origin_first": "2026-07-01",
+          "origin_last": "2026-10-16",
+          "research_only": false
+        },
+        "tail": {
+          "n": 76,
+          "accuracy": 0.5131578947368421,
+          "balanced_accuracy": 0.5738351254480286,
+          "rmse": 0.046550127135151234,
+          "brier": 0.30644349212071326,
+          "log_loss": 0.8577406566851711,
+          "mae": 0.038227838006214626,
+          "median_mae": 0.04098359779413793,
+          "magnitude_mae": 0.029042163193071208,
+          "crps": 0.031441385563899915,
+          "pinball": 0.01567163275973949,
+          "bucket_brier": 1.0034906639882544,
+          "coverage50": 0.27631578947368424,
+          "coverage80": 0.39473684210526316,
+          "width50": 0.04230928719209528,
+          "width80": 0.06735099979536298,
+          "qlike": 0.09374957413571423,
+          "vol_mae": 0.018407776861614978,
+          "tail02_brier": 0.3163953413376612,
+          "tail05_brier": 0.18305797625002854,
+          "calibration_bins": [
+            {
+              "lo": 0,
+              "hi": 0.35,
+              "n": 4,
+              "predicted": 0.278068702068448,
+              "observed": 0.0
+            },
+            {
+              "lo": 0.35,
+              "hi": 0.45,
+              "n": 6,
+              "predicted": 0.41036567147882086,
+              "observed": 0.16666666666666666
+            },
+            {
+              "lo": 0.45,
+              "hi": 0.55,
+              "n": 7,
+              "predicted": 0.49560396075800933,
+              "observed": 0.42857142857142855
+            },
+            {
+              "lo": 0.55,
+              "hi": 0.65,
+              "n": 7,
+              "predicted": 0.610923301115798,
+              "observed": 0.14285714285714285
+            },
+            {
+              "lo": 0.65,
+              "hi": 1,
+              "n": 52,
+              "predicted": 0.8265284178483367,
+              "observed": 0.5
+            }
+          ],
+          "ece": 0.3065741762944326,
+          "always_up_accuracy": 0.40789473684210525,
+          "always_down_accuracy": 0.5921052631578947,
+          "horizon": 21,
+          "model": "S_tail",
+          "split": "outer_exposed",
+          "nonoverlapping_n": 4,
+          "outcome_autocorrelation_ess": 5.956599652496948,
+          "origin_first": "2026-07-01",
+          "origin_last": "2026-10-16",
+          "research_only": false
+        }
+      },
+      "specific_current_selected_model_oos_exploratory": {
+        "direction": {
+          "n": 76,
+          "accuracy": 0.5131578947368421,
+          "balanced_accuracy": 0.5086021505376344,
+          "rmse": 0.04879432541046885,
+          "brier": 0.25118421052631573,
+          "log_loss": 0.695531944599036,
+          "mae": 0.037392591081154794,
+          "median_mae": 0.038330355002323895,
+          "magnitude_mae": 0.022708065886579008,
+          "crps": 0.028369332839388813,
+          "pinball": 0.01400489556876963,
+          "bucket_brier": 0.8622988748324364,
+          "coverage50": 0.2631578947368421,
+          "coverage80": 0.618421052631579,
+          "width50": 0.03376567721986963,
+          "width80": 0.07274907789525827,
+          "qlike": 0.1975333684627778,
+          "vol_mae": 0.03179843936533277,
+          "tail02_brier": 0.2715421573112675,
+          "tail05_brier": 0.16346338730423948,
+          "calibration_bins": [
+            {
+              "lo": 0.45,
+              "hi": 0.55,
+              "n": 40,
+              "predicted": 0.45,
+              "observed": 0.4
+            },
+            {
+              "lo": 0.55,
+              "hi": 0.65,
+              "n": 36,
+              "predicted": 0.5500000000000002,
+              "observed": 0.4166666666666667
+            }
+          ],
+          "ece": 0.08947368421052637,
+          "always_up_accuracy": 0.40789473684210525,
+          "always_down_accuracy": 0.5921052631578947,
+          "horizon": 21,
+          "model": "Z_momentum",
+          "split": "outer_exposed",
+          "nonoverlapping_n": 4,
+          "outcome_autocorrelation_ess": 5.956599652496948,
+          "origin_first": "2026-07-01",
+          "origin_last": "2026-10-16",
+          "research_only": false
+        },
+        "return": {
+          "n": 76,
+          "accuracy": 0.5394736842105263,
+          "balanced_accuracy": 0.6060931899641577,
+          "rmse": 0.04040894757569516,
+          "brier": 0.2939698599397714,
+          "log_loss": 0.8191171438453771,
+          "mae": 0.034210091860450424,
+          "median_mae": 0.038282298299845856,
+          "magnitude_mae": 0.029184546999394573,
+          "crps": 0.029275653072173606,
+          "pinball": 0.01450972688889906,
+          "bucket_brier": 0.9806525112067315,
+          "coverage50": 0.27631578947368424,
+          "coverage80": 0.39473684210526316,
+          "width50": 0.0399645658565116,
+          "width80": 0.06341267158140018,
+          "qlike": 0.08830737856488177,
+          "vol_mae": 0.017670809664361586,
+          "tail02_brier": 0.3135464536230751,
+          "tail05_brier": 0.18249145355345328,
+          "calibration_bins": [
+            {
+              "lo": 0,
+              "hi": 0.35,
+              "n": 4,
+              "predicted": 0.278068702068448,
+              "observed": 0.0
+            },
+            {
+              "lo": 0.35,
+              "hi": 0.45,
+              "n": 6,
+              "predicted": 0.41036567147882086,
+              "observed": 0.16666666666666666
+            },
+            {
+              "lo": 0.45,
+              "hi": 0.55,
+              "n": 5,
+              "predicted": 0.5038177587117244,
+              "observed": 0.2
+            },
+            {
+              "lo": 0.55,
+              "hi": 0.65,
+              "n": 6,
+              "predicted": 0.6084209419380916,
+              "observed": 0.0
+            },
+            {
+              "lo": 0.65,
+              "hi": 1,
+              "n": 55,
+              "predicted": 0.8508823017988257,
+              "observed": 0.5272727272727272
+            }
+          ],
+          "ece": 0.3360869721219646,
+          "always_up_accuracy": 0.40789473684210525,
+          "always_down_accuracy": 0.5921052631578947,
+          "horizon": 21,
+          "model": "A00_sector",
+          "split": "outer_exposed",
+          "nonoverlapping_n": 4,
+          "outcome_autocorrelation_ess": 5.956599652496948,
+          "origin_first": "2026-07-01",
+          "origin_last": "2026-10-16",
+          "research_only": false
+        },
+        "distribution": {
+          "n": 76,
+          "accuracy": 0.5394736842105263,
+          "balanced_accuracy": 0.6060931899641577,
+          "rmse": 0.04040894757569516,
+          "brier": 0.2939698599397714,
+          "log_loss": 0.8191171438453771,
+          "mae": 0.034210091860450424,
+          "median_mae": 0.038282298299845856,
+          "magnitude_mae": 0.029184546999394573,
+          "crps": 0.029275653072173606,
+          "pinball": 0.01450972688889906,
+          "bucket_brier": 0.9806525112067315,
+          "coverage50": 0.27631578947368424,
+          "coverage80": 0.39473684210526316,
+          "width50": 0.0399645658565116,
+          "width80": 0.06341267158140018,
+          "qlike": 0.08830737856488177,
+          "vol_mae": 0.017670809664361586,
+          "tail02_brier": 0.3135464536230751,
+          "tail05_brier": 0.18249145355345328,
+          "calibration_bins": [
+            {
+              "lo": 0,
+              "hi": 0.35,
+              "n": 4,
+              "predicted": 0.278068702068448,
+              "observed": 0.0
+            },
+            {
+              "lo": 0.35,
+              "hi": 0.45,
+              "n": 6,
+              "predicted": 0.41036567147882086,
+              "observed": 0.16666666666666666
+            },
+            {
+              "lo": 0.45,
+              "hi": 0.55,
+              "n": 5,
+              "predicted": 0.5038177587117244,
+              "observed": 0.2
+            },
+            {
+              "lo": 0.55,
+              "hi": 0.65,
+              "n": 6,
+              "predicted": 0.6084209419380916,
+              "observed": 0.0
+            },
+            {
+              "lo": 0.65,
+              "hi": 1,
+              "n": 55,
+              "predicted": 0.8508823017988257,
+              "observed": 0.5272727272727272
+            }
+          ],
+          "ece": 0.3360869721219646,
+          "always_up_accuracy": 0.40789473684210525,
+          "always_down_accuracy": 0.5921052631578947,
+          "horizon": 21,
+          "model": "A00_sector",
+          "split": "outer_exposed",
+          "nonoverlapping_n": 4,
+          "outcome_autocorrelation_ess": 5.956599652496948,
+          "origin_first": "2026-07-01",
+          "origin_last": "2026-10-16",
+          "research_only": false
+        },
+        "volatility": {
+          "n": 76,
+          "accuracy": 0.42105263157894735,
+          "balanced_accuracy": 0.5010752688172043,
+          "rmse": 0.04596872711318286,
+          "brier": 0.29121851978016905,
+          "log_loss": 0.7837904386584963,
+          "mae": 0.03664877660116457,
+          "median_mae": 0.04837088607076302,
+          "magnitude_mae": 0.029129663293287266,
+          "crps": 0.036854906589055866,
+          "pinball": 0.018114970350754715,
+          "bucket_brier": 1.1253981467368577,
+          "coverage50": 0.02631578947368421,
+          "coverage80": 0.5,
+          "width50": 0.028983241715711452,
+          "width80": 0.06174467920041689,
+          "qlike": 0.11691778724861575,
+          "vol_mae": 0.023348534641078614,
+          "tail02_brier": 0.3081931300718214,
+          "tail05_brier": 0.18934252723301878,
+          "calibration_bins": [
+            {
+              "lo": 0.35,
+              "hi": 0.45,
+              "n": 3,
+              "predicted": 0.40078775589960935,
+              "observed": 0.3333333333333333
+            },
+            {
+              "lo": 0.45,
+              "hi": 0.55,
+              "n": 16,
+              "predicted": 0.5200904260764688,
+              "observed": 0.375
+            },
+            {
+              "lo": 0.55,
+              "hi": 0.65,
+              "n": 21,
+              "predicted": 0.608851202102367,
+              "observed": 0.38095238095238093
+            },
+            {
+              "lo": 0.65,
+              "hi": 1,
+              "n": 36,
+              "predicted": 0.7116856432455072,
+              "observed": 0.4444444444444444
+            }
+          ],
+          "ece": 0.22276800639355654,
+          "always_up_accuracy": 0.40789473684210525,
+          "always_down_accuracy": 0.5921052631578947,
+          "horizon": 21,
+          "model": "M00_ridge_price",
+          "split": "outer_exposed",
+          "nonoverlapping_n": 4,
+          "outcome_autocorrelation_ess": 5.956599652496948,
+          "origin_first": "2026-07-01",
+          "origin_last": "2026-10-16",
+          "research_only": false
+        },
+        "tail": {
+          "n": 76,
+          "accuracy": 0.09210526315789473,
+          "balanced_accuracy": 0.08781362007168458,
+          "rmse": 0.05075579165685219,
+          "brier": 0.30568175205671205,
+          "log_loss": 0.8060044422673689,
+          "mae": 0.03970471879902367,
+          "median_mae": 0.04000803359402211,
+          "magnitude_mae": 0.02326387449807305,
+          "crps": 0.029909049078190628,
+          "pinball": 0.014652528635524598,
+          "bucket_brier": 0.8937363457652817,
+          "coverage50": 0.2631578947368421,
+          "coverage80": 0.6710526315789473,
+          "width50": 0.03673590737356681,
+          "width80": 0.0841907120722168,
+          "qlike": 0.2815964045184017,
+          "vol_mae": 0.041940106279243404,
+          "tail02_brier": 0.31242169635553113,
+          "tail05_brier": 0.17143728474401868,
+          "calibration_bins": [
+            {
+              "lo": 0.45,
+              "hi": 0.55,
+              "n": 34,
+              "predicted": 0.48697144520831714,
+              "observed": 0.8529411764705882
+            },
+            {
+              "lo": 0.55,
+              "hi": 0.65,
+              "n": 42,
+              "predicted": 0.5940777005375022,
+              "observed": 0.047619047619047616
+            }
+          ],
+          "ece": 0.46571360901963554,
+          "always_up_accuracy": 0.40789473684210525,
+          "always_down_accuracy": 0.5921052631578947,
+          "horizon": 21,
+          "model": "B01_ewma",
+          "split": "outer_exposed",
+          "nonoverlapping_n": 4,
+          "outcome_autocorrelation_ess": 5.956599652496948,
+          "origin_first": "2026-07-01",
+          "origin_last": "2026-10-16",
+          "research_only": false
+        }
+      },
+      "effective_evaluation": {
+        "origins": 76,
+        "nonoverlapping": 4,
+        "outcome_acf_ess": 5.956599652496948,
+        "independence_guaranteed": false
+      },
+      "cross_target_consistency": {
+        "classifier_p_up": 0.55,
+        "distribution_p_up": 0.2835820895522388,
+        "distribution_mean": -0.008880452116101483,
+        "direct_return_mean": 0.012245495918043994,
+        "note": "Independent target selectors do not define a jointly calibrated distribution; discrepancies are not hidden"
+      },
+      "validation_status": {
+        "probabilities": "NOT VALIDATED",
+        "expected_return": "NOT VALIDATED",
+        "median_return": "NOT VALIDATED",
+        "endpoint_price": "NOT VALIDATED",
+        "intervals": "NOT VALIDATED",
+        "volatility": "NOT VALIDATED",
+        "tail_risk": "NOT VALIDATED",
+        "contributing_signals": "NOT VALIDATED"
+      },
+      "future_market_regime": "NOT VALIDATED: only causal origin-regime conditioning was tested",
+      "main_contributing_signals": "Training associations in model-contributions.json; no family has independently demonstrated incremental predictive importance",
+      "outcome": {
+        "endpoint_close": null,
+        "reference_close_revision": null,
+        "return": null,
+        "scored_at": null
+      }
+    }
+  },
+  "registry_sha256": "9bc44a1d026fc978b7f6cf83b507428422cc16f1d2325e52755842b981d56039",
+  "dataset_manifest_sha256": "1e0ec0346b9cc99e85e8a051cff947d215496b8c4bdc858e99bd1e6a02747a4c",
+  "fitted_source_archive": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\nifty_forecast_v3\\2026-11-17\\run-001\\source-at-first-fit",
+  "verification_sha256": "89f95fab9533f80c124a2daa9b82be35cae9b8139ed64a1f708d8de94765aa27",
+  "libraries": {
+    "python": "3.15.0",
+    "numpy": "2.5.4",
+    "pandas": "3.1.0",
+    "scipy": "1.18.1",
+    "scikit_learn": "1.9.1",
+    "lightgbm": "4.7.0"
+  },
+  "limitations": [
+    "All historical evaluation dates are research-exposed",
+    "No model/target improvement survives the simultaneous weekly uncertainty family; monthly sample too small",
+    "Direct distributions under-cover; nominal intervals are not coverage guarantees",
+    "Current-membership basket is research-only and excluded from primary selectors",
+    "FO/institutional historical publication clocks and vendor revision vintages are not archived",
+    "Next valid premarket freeze requires a not-yet-started origin and all necessary newly completed inputs"
+  ]
+}

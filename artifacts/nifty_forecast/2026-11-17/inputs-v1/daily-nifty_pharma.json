@@ -1,0 +1,15 @@
+{
+  "method": "get_historical_candles_v3",
+  "parameters": {
+    "instrument_key": "NSE_INDEX|Nifty Pharma",
+    "unit": "days",
+    "interval": 1,
+    "to_date": "2026-11-16",
+    "from_date": "2016-01-01"
+  },
+  "requested_at": "2026-11-17T00:32:05.034650+05:30",
+  "acquired_at": "2026-11-17T00:32:05.211258+05:30",
+  "ok": false,
+  "error_type": "UpstoxAPIError",
+  "error": "HTTP 400: [{'errorCode': 'UDAPI1148', 'message': 'Invalid date range', 'propertyPath': None, 'invalidValue': None, 'error_code': 'UDAPI1148', 'property_path': None, 'invalid_value': None}]"
+}

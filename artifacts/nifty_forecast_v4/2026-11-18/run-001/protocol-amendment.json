@@ -1,0 +1,18 @@
+{
+  "recorded_at": "2026-11-18T09:44:44.821976+05:30",
+  "primary_issues_before_freeze": 0,
+  "initial_planning_N": {
+    "weekly": 8550,
+    "monthly": 1103
+  },
+  "final_planning_N": {
+    "5": 14421,
+    "21": 1103
+  },
+  "reason": "Initial power example used tree-vs-reversion; final fixed gate uses maximum required N across all three primary weekly contrasts. No primary forecast or outcome existed during this planning amendment.",
+  "other_hardening": [
+    "Reject modifications to pinned sources/stop rules before primary execution",
+    "Reject future statistical threshold rewriting after protocol freeze"
+  ],
+  "late_rehearsal_excluded": true
+}

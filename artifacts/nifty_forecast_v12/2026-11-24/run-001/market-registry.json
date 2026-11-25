@@ -1,0 +1,756 @@
+{
+  "registered_at": "2026-11-25T00:18:23.785317+05:30",
+  "models": {
+    "V12_STAT": {
+      "kind": "stat",
+      "columns": [],
+      "parent": "J11_EXCLUDE_B_ROT"
+    },
+    "V12_NATIVE_STAT": {
+      "kind": "stat",
+      "columns": [],
+      "parent": "O_NATIVE_PHASE0",
+      "base": "O_NATIVE_PHASE0"
+    },
+    "V12_HIST": {
+      "kind": "stat",
+      "columns": [],
+      "parent": "HISTORY",
+      "base": "HISTORY"
+    },
+    "V12_NEUTRAL": {
+      "kind": "stat",
+      "columns": [],
+      "parent": "NEUTRAL",
+      "base": "NEUTRAL"
+    },
+    "V12_RV_PATH": {
+      "kind": "raw_rv",
+      "columns": [],
+      "parent": "V12_STAT"
+    },
+    "V12_RV_SCALE": {
+      "kind": "scale",
+      "columns": [
+        "lag_rv5",
+        "rv21",
+        "rv63",
+        "vix_level"
+      ],
+      "parent": "V12_STAT"
+    },
+    "V12_STRADDLE_SCALE": {
+      "kind": "scale",
+      "columns": [
+        "lag_rv5",
+        "rv21",
+        "rv63",
+        "vix_level",
+        "straddle_horizon_scaled"
+      ],
+      "parent": "V12_RV_SCALE",
+      "option": true
+    },
+    "V12_IV_LEVEL": {
+      "kind": "scale",
+      "columns": [
+        "lag_rv5",
+        "rv21",
+        "rv63",
+        "vix_level",
+        "iv_nearest"
+      ],
+      "parent": "V12_RV_SCALE",
+      "option": true
+    },
+    "V12_IV_SCALE": {
+      "kind": "scale",
+      "columns": [
+        "lag_rv5",
+        "rv21",
+        "rv63",
+        "vix_level",
+        "iv_nearest",
+        "iv_over_rv",
+        "iv_term",
+        "iv_change",
+        "iv_skew"
+      ],
+      "parent": "V12_IV_LEVEL",
+      "option": true
+    },
+    "V12_IV_NATIVE": {
+      "kind": "scale",
+      "columns": [
+        "lag_rv5",
+        "rv21",
+        "rv63",
+        "vix_level",
+        "iv_nearest",
+        "iv_over_rv",
+        "iv_term",
+        "iv_change",
+        "iv_skew"
+      ],
+      "parent": "V12_NATIVE_RV",
+      "option": true,
+      "base": "O_NATIVE_PHASE0"
+    },
+    "V12_NATIVE_RV": {
+      "kind": "scale",
+      "columns": [
+        "lag_rv5",
+        "rv21",
+        "rv63",
+        "vix_level"
+      ],
+      "parent": "V12_NATIVE_STAT",
+      "base": "O_NATIVE_PHASE0"
+    },
+    "V12_IV_NEUTRAL": {
+      "kind": "scale",
+      "columns": [
+        "lag_rv5",
+        "rv21",
+        "rv63",
+        "vix_level",
+        "iv_nearest",
+        "iv_over_rv",
+        "iv_term",
+        "iv_change",
+        "iv_skew"
+      ],
+      "parent": "V12_NEUTRAL_RV",
+      "option": true,
+      "base": "NEUTRAL"
+    },
+    "V12_NEUTRAL_RV": {
+      "kind": "scale",
+      "columns": [
+        "lag_rv5",
+        "rv21",
+        "rv63",
+        "vix_level"
+      ],
+      "parent": "V12_NEUTRAL",
+      "base": "NEUTRAL"
+    },
+    "V12_IV_ASYMMETRY": {
+      "kind": "asym",
+      "columns": [
+        "lag_rv5",
+        "rv21",
+        "rv63",
+        "vix_level",
+        "iv_nearest",
+        "iv_over_rv",
+        "iv_term",
+        "iv_change",
+        "iv_skew",
+        "iv_curvature"
+      ],
+      "parent": "V12_IV_SCALE",
+      "option": true
+    },
+    "V12_FUTURES_SCALE": {
+      "kind": "scale",
+      "columns": [
+        "lag_rv5",
+        "rv21",
+        "rv63",
+        "vix_level",
+        "iv_nearest",
+        "iv_over_rv",
+        "iv_term",
+        "iv_change",
+        "iv_skew",
+        "front_basis",
+        "curve_30d",
+        "same_contract_cash_gap",
+        "front_oi_change_over_volume",
+        "front_volume_share"
+      ],
+      "parent": "V12_IV_SCALE",
+      "option": true
+    },
+    "V12_GLOBAL_SCALE": {
+      "kind": "scale",
+      "columns": [
+        "lag_rv5",
+        "rv21",
+        "rv63",
+        "vix_level",
+        "iv_nearest",
+        "iv_over_rv",
+        "iv_term",
+        "iv_change",
+        "iv_skew",
+        "nasdaq5",
+        "vix_us",
+        "dgs10_change",
+        "usd_inr5",
+        "brent5",
+        "us_breadth5",
+        "q_global_shock",
+        "q_corr_change"
+      ],
+      "parent": "V12_IV_SCALE",
+      "option": true
+    },
+    "V12_INTRA_SCALE": {
+      "kind": "scale",
+      "columns": [
+        "lag_rv5",
+        "rv21",
+        "rv63",
+        "vix_level",
+        "iv_nearest",
+        "iv_over_rv",
+        "iv_term",
+        "iv_change",
+        "iv_skew",
+        "intra_sector_risk",
+        "intra_late_risk_share",
+        "intra_sync",
+        "v11_mid_dispersion",
+        "v11_close_concentration"
+      ],
+      "parent": "V12_IV_SCALE",
+      "option": true,
+      "eligible": [
+        "intra_sector_risk"
+      ]
+    },
+    "V12_ETF_SCALE": {
+      "kind": "scale",
+      "columns": [
+        "lag_rv5",
+        "rv21",
+        "rv63",
+        "vix_level",
+        "iv_nearest",
+        "iv_over_rv",
+        "iv_term",
+        "iv_change",
+        "iv_skew",
+        "e_turn",
+        "e_activity",
+        "e_rv",
+        "e_shock"
+      ],
+      "parent": "V12_IV_SCALE",
+      "option": true
+    },
+    "V12_SURFACE_TAIL_SCALE": {
+      "kind": "scale",
+      "columns": [
+        "lag_rv5",
+        "rv21",
+        "rv63",
+        "vix_level",
+        "iv_nearest",
+        "iv_over_rv",
+        "iv_term",
+        "iv_change",
+        "iv_skew",
+        "density_forward_skew",
+        "density_external_mass",
+        "density_priced_down5"
+      ],
+      "parent": "V12_IV_SCALE",
+      "option": true,
+      "density": true
+    },
+    "V12_DOM_LOCATION": {
+      "kind": "loc",
+      "columns": [
+        "breadth5",
+        "breadth21",
+        "finance",
+        "defensive",
+        "cash5",
+        "cash21",
+        "concentration",
+        "sector_dispersion"
+      ],
+      "parent": "V12_STAT"
+    },
+    "V12_FUTURES_LOCATION": {
+      "kind": "loc",
+      "columns": [
+        "breadth5",
+        "breadth21",
+        "finance",
+        "defensive",
+        "cash5",
+        "cash21",
+        "concentration",
+        "sector_dispersion",
+        "front_basis",
+        "curve_30d",
+        "same_contract_cash_gap",
+        "front_oi_change_over_volume",
+        "front_volume_share"
+      ],
+      "parent": "V12_DOM_LOCATION"
+    },
+    "V12_JOINT_LOCATION": {
+      "kind": "loc",
+      "columns": [
+        "breadth5",
+        "breadth21",
+        "finance",
+        "defensive",
+        "cash5",
+        "cash21",
+        "concentration",
+        "sector_dispersion",
+        "front_basis",
+        "curve_30d",
+        "same_contract_cash_gap",
+        "front_oi_change_over_volume",
+        "front_volume_share",
+        "iv_nearest",
+        "iv_over_rv",
+        "iv_term",
+        "iv_change",
+        "iv_skew",
+        "cash_vs_basis",
+        "fin_vs_skew",
+        "breadth_vs_iv",
+        "position_vs_breadth",
+        "mom_vs_ivchange",
+        "conc_vs_skew",
+        "etf_vs_iv",
+        "parity_disagreement"
+      ],
+      "parent": "V12_FUTURES_LOCATION",
+      "option": true
+    },
+    "V12_DOM_IV": {
+      "kind": "joint",
+      "columns": [
+        "lag_rv5",
+        "rv21",
+        "rv63",
+        "vix_level",
+        "iv_nearest",
+        "iv_over_rv",
+        "iv_term",
+        "iv_change",
+        "iv_skew"
+      ],
+      "parent": "V12_IV_SCALE",
+      "option": true,
+      "location": [
+        "breadth5",
+        "breadth21",
+        "finance",
+        "defensive",
+        "cash5",
+        "cash21",
+        "concentration",
+        "sector_dispersion"
+      ]
+    },
+    "V12_JOINT_IV": {
+      "kind": "joint",
+      "columns": [
+        "lag_rv5",
+        "rv21",
+        "rv63",
+        "vix_level",
+        "iv_nearest",
+        "iv_over_rv",
+        "iv_term",
+        "iv_change",
+        "iv_skew",
+        "cash_vs_basis",
+        "fin_vs_skew",
+        "breadth_vs_iv",
+        "position_vs_breadth",
+        "mom_vs_ivchange",
+        "conc_vs_skew",
+        "etf_vs_iv",
+        "parity_disagreement"
+      ],
+      "parent": "V12_DOM_IV",
+      "option": true,
+      "location": [
+        "breadth5",
+        "breadth21",
+        "finance",
+        "defensive",
+        "cash5",
+        "cash21",
+        "concentration",
+        "sector_dispersion",
+        "front_basis",
+        "curve_30d",
+        "same_contract_cash_gap",
+        "front_oi_change_over_volume",
+        "front_volume_share",
+        "cash_vs_basis",
+        "fin_vs_skew",
+        "breadth_vs_iv",
+        "position_vs_breadth",
+        "mom_vs_ivchange",
+        "conc_vs_skew",
+        "etf_vs_iv",
+        "parity_disagreement"
+      ]
+    },
+    "V12_EVENT_RV": {
+      "kind": "scale",
+      "columns": [
+        "lag_rv5",
+        "rv21",
+        "rv63",
+        "vix_level",
+        "near_weekly_expiry",
+        "near_monthly_expiry",
+        "roll_observed",
+        "fomc_during_window",
+        "rbi_during_window",
+        "index_review_during_window",
+        "fomc_recent",
+        "rbi_recent",
+        "prior_move",
+        "sector_shock",
+        "breadth_decay",
+        "iv_jump",
+        "global_jump"
+      ],
+      "parent": "V12_RV_SCALE",
+      "event": true
+    },
+    "V12_EVENT_HISTORY": {
+      "kind": "event_history",
+      "columns": [],
+      "parent": "V12_HIST",
+      "base": "HISTORY",
+      "event": true
+    },
+    "V12_EVENT_IV": {
+      "kind": "scale",
+      "columns": [
+        "lag_rv5",
+        "rv21",
+        "rv63",
+        "vix_level",
+        "iv_nearest",
+        "iv_over_rv",
+        "iv_term",
+        "iv_change",
+        "iv_skew",
+        "near_weekly_expiry",
+        "near_monthly_expiry",
+        "roll_observed",
+        "fomc_during_window",
+        "rbi_during_window",
+        "index_review_during_window",
+        "fomc_recent",
+        "rbi_recent",
+        "prior_move",
+        "sector_shock",
+        "breadth_decay",
+        "iv_jump",
+        "global_jump"
+      ],
+      "parent": "V12_EVENT_RV",
+      "event": true,
+      "option": true
+    },
+    "V12_EVENT_IV_INCREMENT": {
+      "kind": "scale",
+      "columns": [
+        "lag_rv5",
+        "rv21",
+        "rv63",
+        "vix_level",
+        "iv_nearest",
+        "iv_over_rv",
+        "iv_term",
+        "iv_change",
+        "iv_skew",
+        "near_weekly_expiry",
+        "near_monthly_expiry",
+        "roll_observed",
+        "fomc_during_window",
+        "rbi_during_window",
+        "index_review_during_window",
+        "fomc_recent",
+        "rbi_recent",
+        "prior_move",
+        "sector_shock",
+        "breadth_decay",
+        "iv_jump",
+        "global_jump"
+      ],
+      "parent": "V12_IV_SCALE",
+      "event": true,
+      "option": true
+    },
+    "V12_DIVERGENCE": {
+      "kind": "disagreement",
+      "columns": [],
+      "parent": "J11_EXCLUDE_B_ROT",
+      "option": true,
+      "density": true
+    },
+    "V12_IV_LAG2": {
+      "kind": "scale",
+      "columns": [
+        "lag_rv5",
+        "rv21",
+        "rv63",
+        "vix_level",
+        "iv_nearest",
+        "iv_over_rv",
+        "iv_term",
+        "iv_change",
+        "iv_skew"
+      ],
+      "parent": "V12_IV_SCALE",
+      "option": true,
+      "version": "LAG2",
+      "diagnostic": true
+    },
+    "V12_IV_LAG5": {
+      "kind": "scale",
+      "columns": [
+        "lag_rv5",
+        "rv21",
+        "rv63",
+        "vix_level",
+        "iv_nearest",
+        "iv_over_rv",
+        "iv_term",
+        "iv_change",
+        "iv_skew"
+      ],
+      "parent": "V12_IV_SCALE",
+      "option": true,
+      "version": "LAG5",
+      "diagnostic": true
+    },
+    "V12_IV_SAME_CLOSE": {
+      "kind": "scale",
+      "columns": [
+        "lag_rv5",
+        "rv21",
+        "rv63",
+        "vix_level",
+        "iv_nearest",
+        "iv_over_rv",
+        "iv_term",
+        "iv_change",
+        "iv_skew"
+      ],
+      "parent": "V12_IV_SCALE",
+      "option": true,
+      "version": "SAME_CLOSE",
+      "diagnostic": true
+    },
+    "V12_IV_LIQUID": {
+      "kind": "scale",
+      "columns": [
+        "lag_rv5",
+        "rv21",
+        "rv63",
+        "vix_level",
+        "iv_nearest",
+        "iv_over_rv",
+        "iv_term",
+        "iv_change",
+        "iv_skew"
+      ],
+      "parent": "V12_IV_SCALE",
+      "option": true,
+      "version": "LIQUID",
+      "diagnostic": false
+    },
+    "V12_IV_SETTLEMENT": {
+      "kind": "scale",
+      "columns": [
+        "lag_rv5",
+        "rv21",
+        "rv63",
+        "vix_level",
+        "iv_nearest",
+        "iv_over_rv",
+        "iv_term",
+        "iv_change",
+        "iv_skew"
+      ],
+      "parent": "V12_IV_SCALE",
+      "option": true,
+      "version": "SETTLEMENT",
+      "diagnostic": false
+    },
+    "V12_IV_BRACKET": {
+      "kind": "scale",
+      "columns": [
+        "lag_rv5",
+        "rv21",
+        "rv63",
+        "vix_level",
+        "iv_bracket",
+        "iv_term",
+        "iv_change",
+        "iv_skew"
+      ],
+      "parent": "V12_IV_SCALE",
+      "option": true,
+      "version": "BRACKET",
+      "diagnostic": false
+    },
+    "V12_IV_LONGER": {
+      "kind": "scale",
+      "columns": [
+        "lag_rv5",
+        "rv21",
+        "rv63",
+        "vix_level",
+        "iv_nearest",
+        "iv_over_rv",
+        "iv_term",
+        "iv_change",
+        "iv_skew"
+      ],
+      "parent": "V12_IV_SCALE",
+      "option": true,
+      "version": "LONGER",
+      "diagnostic": false
+    },
+    "V12_IV_FUTURE_FORWARD": {
+      "kind": "scale",
+      "columns": [
+        "lag_rv5",
+        "rv21",
+        "rv63",
+        "vix_level",
+        "iv_nearest",
+        "iv_over_rv",
+        "iv_term",
+        "iv_change",
+        "iv_skew"
+      ],
+      "parent": "V12_IV_SCALE",
+      "option": true,
+      "version": "FUTURE_FORWARD",
+      "diagnostic": false
+    },
+    "V12_IV_RATE_ZERO": {
+      "kind": "scale",
+      "columns": [
+        "lag_rv5",
+        "rv21",
+        "rv63",
+        "vix_level",
+        "iv_nearest",
+        "iv_over_rv",
+        "iv_term",
+        "iv_change",
+        "iv_skew"
+      ],
+      "parent": "V12_IV_SCALE",
+      "option": true,
+      "version": "RATE_ZERO",
+      "diagnostic": true
+    },
+    "V12_IV_RATE_HIGH": {
+      "kind": "scale",
+      "columns": [
+        "lag_rv5",
+        "rv21",
+        "rv63",
+        "vix_level",
+        "iv_nearest",
+        "iv_over_rv",
+        "iv_term",
+        "iv_change",
+        "iv_skew"
+      ],
+      "parent": "V12_IV_SCALE",
+      "option": true,
+      "version": "RATE_HIGH",
+      "diagnostic": true
+    },
+    "V12_CONTROL_ROLL21": {
+      "kind": "scale",
+      "columns": [
+        "lag_rv5",
+        "rv21",
+        "rv63",
+        "vix_level",
+        "iv_nearest",
+        "iv_over_rv",
+        "iv_term",
+        "iv_change",
+        "iv_skew"
+      ],
+      "parent": "V12_IV_SCALE",
+      "option": true,
+      "perturb": "roll21",
+      "diagnostic": true
+    },
+    "V12_CONTROL_ROLL42": {
+      "kind": "scale",
+      "columns": [
+        "lag_rv5",
+        "rv21",
+        "rv63",
+        "vix_level",
+        "iv_nearest",
+        "iv_over_rv",
+        "iv_term",
+        "iv_change",
+        "iv_skew"
+      ],
+      "parent": "V12_IV_SCALE",
+      "option": true,
+      "perturb": "roll42",
+      "diagnostic": true
+    },
+    "V12_CONTROL_PERMUTED": {
+      "kind": "scale",
+      "columns": [
+        "lag_rv5",
+        "rv21",
+        "rv63",
+        "vix_level",
+        "iv_nearest",
+        "iv_over_rv",
+        "iv_term",
+        "iv_change",
+        "iv_skew"
+      ],
+      "parent": "V12_IV_SCALE",
+      "option": true,
+      "perturb": "permuted",
+      "diagnostic": true
+    },
+    "V12_CONTROL_NOISE": {
+      "kind": "scale",
+      "columns": [
+        "lag_rv5",
+        "rv21",
+        "rv63",
+        "vix_level",
+        "noise_0",
+        "noise_1",
+        "noise_2",
+        "noise_3",
+        "noise_4"
+      ],
+      "parent": "V12_IV_SCALE",
+      "option": true,
+      "perturb": "noise",
+      "diagnostic": true
+    }
+  },
+  "implementation": "1f6aabdf2939a209143b86ea8b2e5f40666605dfcc6a30b9d878d9c9c93083e3",
+  "strict_maturity": "Train endpoints < first monthly refit origin. Fit scalers, variance heads, downside mapping and thresholds inside that fit.",
+  "default_prior": "V11 J11_EXCLUDE_B_ROT. Raw priced laws and merged raw diagnostics are explicitly labelled Q."
+}

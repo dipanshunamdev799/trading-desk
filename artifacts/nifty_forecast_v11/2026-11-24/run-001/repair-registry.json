@@ -1,0 +1,21 @@
+{
+  "registered": "2026-11-24T14:37:55.345603+05:30",
+  "models": {
+    "O_SMALL_DISJOINT_RECENT": {
+      "frame": "rotation",
+      "parent": "B_ROT",
+      "selection": "disjoint_recent",
+      "budget": 14,
+      "small_disjoint": true
+    },
+    "O_SMALL_DISJOINT_SPREAD": {
+      "frame": "rotation",
+      "parent": "B_ROT",
+      "selection": "disjoint_spread",
+      "budget": 14,
+      "small_disjoint": true
+    }
+  },
+  "seed": 20261124,
+  "source": "486d1b31df781f0f71462b55e92d4d4a6554a6c59c749b44697de35d68141151"
+}

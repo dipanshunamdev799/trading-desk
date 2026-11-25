@@ -1,0 +1,1034 @@
+[
+  {
+    "feature": "price_ret1",
+    "family": "price",
+    "classification": "usable with explicit limitations",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "price_ret5",
+    "family": "price",
+    "classification": "usable with explicit limitations",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "price_ret10",
+    "family": "price",
+    "classification": "usable with explicit limitations",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "price_ret21",
+    "family": "price",
+    "classification": "usable with explicit limitations",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "price_ret63",
+    "family": "price",
+    "classification": "usable with explicit limitations",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "price_rv5",
+    "family": "price",
+    "classification": "usable with explicit limitations",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "price_rv21",
+    "family": "price",
+    "classification": "usable with explicit limitations",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "price_rv63",
+    "family": "price",
+    "classification": "usable with explicit limitations",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "price_downvol21",
+    "family": "price",
+    "classification": "usable with explicit limitations",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "price_ema10",
+    "family": "price",
+    "classification": "usable with explicit limitations",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "price_ema21",
+    "family": "price",
+    "classification": "usable with explicit limitations",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "price_ema63",
+    "family": "price",
+    "classification": "usable with explicit limitations",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "price_rsi",
+    "family": "price",
+    "classification": "usable with explicit limitations",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "price_acceleration",
+    "family": "price",
+    "classification": "usable with explicit limitations",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "price_persistence",
+    "family": "price",
+    "classification": "usable with explicit limitations",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "price_rv_ratio",
+    "family": "price",
+    "classification": "usable with explicit limitations",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "price_atr",
+    "family": "price",
+    "classification": "usable with explicit limitations",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "price_body",
+    "family": "price",
+    "classification": "usable with explicit limitations",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "price_range",
+    "family": "price",
+    "classification": "usable with explicit limitations",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "price_close_location",
+    "family": "price",
+    "classification": "usable with explicit limitations",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "price_gap",
+    "family": "price",
+    "classification": "usable with explicit limitations",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "risk_vix",
+    "family": "risk",
+    "classification": "usable with explicit limitations",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "risk_vix_change5",
+    "family": "risk",
+    "classification": "usable with explicit limitations",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "risk_vix_acceleration",
+    "family": "risk",
+    "classification": "usable with explicit limitations",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "risk_implied_realized_spread",
+    "family": "risk",
+    "classification": "usable with explicit limitations",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "sector_nifty_auto_rel5",
+    "family": "sector",
+    "classification": "usable with explicit limitations",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "sector_nifty_auto_rel21",
+    "family": "sector",
+    "classification": "usable with explicit limitations",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "sector_nifty_energy_rel5",
+    "family": "sector",
+    "classification": "usable with explicit limitations",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "sector_nifty_energy_rel21",
+    "family": "sector",
+    "classification": "usable with explicit limitations",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "sector_nifty_financial_rel5",
+    "family": "sector",
+    "classification": "usable with explicit limitations",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "sector_nifty_financial_rel21",
+    "family": "sector",
+    "classification": "usable with explicit limitations",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "sector_nifty_fmcg_rel5",
+    "family": "sector",
+    "classification": "usable with explicit limitations",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "sector_nifty_fmcg_rel21",
+    "family": "sector",
+    "classification": "usable with explicit limitations",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "sector_nifty_it_rel5",
+    "family": "sector",
+    "classification": "usable with explicit limitations",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "sector_nifty_it_rel21",
+    "family": "sector",
+    "classification": "usable with explicit limitations",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "sector_nifty_metal_rel5",
+    "family": "sector",
+    "classification": "usable with explicit limitations",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "sector_nifty_metal_rel21",
+    "family": "sector",
+    "classification": "usable with explicit limitations",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "sector_nifty_pharma_rel5",
+    "family": "sector",
+    "classification": "usable with explicit limitations",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "sector_nifty_pharma_rel21",
+    "family": "sector",
+    "classification": "usable with explicit limitations",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "sector_nifty_psu_bank_rel5",
+    "family": "sector",
+    "classification": "usable with explicit limitations",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "sector_nifty_psu_bank_rel21",
+    "family": "sector",
+    "classification": "usable with explicit limitations",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "sector_nifty_realty_rel5",
+    "family": "sector",
+    "classification": "usable with explicit limitations",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "sector_nifty_realty_rel21",
+    "family": "sector",
+    "classification": "usable with explicit limitations",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "sector_bank_nifty_rel5",
+    "family": "sector",
+    "classification": "usable with explicit limitations",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "sector_bank_nifty_rel21",
+    "family": "sector",
+    "classification": "usable with explicit limitations",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "sector_participation",
+    "family": "sector",
+    "classification": "usable with explicit limitations",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "sector_dispersion",
+    "family": "sector",
+    "classification": "usable with explicit limitations",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "sector_breadth_change5",
+    "family": "sector",
+    "classification": "usable with explicit limitations",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "sector_divergence",
+    "family": "sector",
+    "classification": "usable with explicit limitations",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "sector_concentration",
+    "family": "sector",
+    "classification": "usable with explicit limitations",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "sector_nifty500_relative",
+    "family": "sector",
+    "classification": "usable with explicit limitations",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "global_brent_ret1",
+    "family": "global",
+    "classification": "usable with explicit limitations",
+    "availability": "strict preceding source calendar date",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "global_brent_ret5",
+    "family": "global",
+    "classification": "usable with explicit limitations",
+    "availability": "strict preceding source calendar date",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "global_brent_rv21",
+    "family": "global",
+    "classification": "usable with explicit limitations",
+    "availability": "strict preceding source calendar date",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "global_dow_ret1",
+    "family": "global",
+    "classification": "usable with explicit limitations",
+    "availability": "strict preceding source calendar date",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "global_dow_ret5",
+    "family": "global",
+    "classification": "usable with explicit limitations",
+    "availability": "strict preceding source calendar date",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "global_dow_rv21",
+    "family": "global",
+    "classification": "usable with explicit limitations",
+    "availability": "strict preceding source calendar date",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "global_gift_ret1",
+    "family": "global",
+    "classification": "usable with explicit limitations",
+    "availability": "strict preceding source calendar date",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "global_gift_ret5",
+    "family": "global",
+    "classification": "usable with explicit limitations",
+    "availability": "strict preceding source calendar date",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "global_gift_rv21",
+    "family": "global",
+    "classification": "usable with explicit limitations",
+    "availability": "strict preceding source calendar date",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "global_hang_seng_ret1",
+    "family": "global",
+    "classification": "usable with explicit limitations",
+    "availability": "strict preceding source calendar date",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "global_hang_seng_ret5",
+    "family": "global",
+    "classification": "usable with explicit limitations",
+    "availability": "strict preceding source calendar date",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "global_hang_seng_rv21",
+    "family": "global",
+    "classification": "usable with explicit limitations",
+    "availability": "strict preceding source calendar date",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "global_sp500_ret1",
+    "family": "global",
+    "classification": "usable with explicit limitations",
+    "availability": "strict preceding source calendar date",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "global_sp500_ret5",
+    "family": "global",
+    "classification": "usable with explicit limitations",
+    "availability": "strict preceding source calendar date",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "global_sp500_rv21",
+    "family": "global",
+    "classification": "usable with explicit limitations",
+    "availability": "strict preceding source calendar date",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "global_usdinr_ret1",
+    "family": "global",
+    "classification": "usable with explicit limitations",
+    "availability": "strict preceding source calendar date",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "global_usdinr_ret5",
+    "family": "global",
+    "classification": "usable with explicit limitations",
+    "availability": "strict preceding source calendar date",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "global_usdinr_rv21",
+    "family": "global",
+    "classification": "usable with explicit limitations",
+    "availability": "strict preceding source calendar date",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "etf_relative_volume",
+    "family": "etf",
+    "classification": "usable with explicit limitations",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "etf_relative_turnover",
+    "family": "etf",
+    "classification": "usable with explicit limitations",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "etf_tracking5",
+    "family": "etf",
+    "classification": "usable with explicit limitations",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "fo_fut_basis",
+    "family": "fo",
+    "classification": "usable with explicit limitations",
+    "availability": "extra one domestic session lag",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "fo_fut_oi_change",
+    "family": "fo",
+    "classification": "usable with explicit limitations",
+    "availability": "extra one domestic session lag",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "fo_fut_dte",
+    "family": "fo",
+    "classification": "usable with explicit limitations",
+    "availability": "extra one domestic session lag",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "fo_oi_pcr",
+    "family": "fo",
+    "classification": "usable with explicit limitations",
+    "availability": "extra one domestic session lag",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "fo_volume_pcr",
+    "family": "fo",
+    "classification": "usable with explicit limitations",
+    "availability": "extra one domestic session lag",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "fo_call_concentration",
+    "family": "fo",
+    "classification": "usable with explicit limitations",
+    "availability": "extra one domestic session lag",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "fo_put_concentration",
+    "family": "fo",
+    "classification": "usable with explicit limitations",
+    "availability": "extra one domestic session lag",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "fo_call_wall",
+    "family": "fo",
+    "classification": "usable with explicit limitations",
+    "availability": "extra one domestic session lag",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "fo_put_wall",
+    "family": "fo",
+    "classification": "usable with explicit limitations",
+    "availability": "extra one domestic session lag",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "fo_option_dte",
+    "family": "fo",
+    "classification": "usable with explicit limitations",
+    "availability": "extra one domestic session lag",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "fo_maxpain_distance",
+    "family": "fo",
+    "classification": "usable with explicit limitations",
+    "availability": "extra one domestic session lag",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "fo_matched_pcr_change",
+    "family": "fo",
+    "classification": "usable with explicit limitations",
+    "availability": "extra one domestic session lag",
+    "finite": 317,
+    "missing_fraction": 0.21144278606965175
+  },
+  {
+    "feature": "fo_fut_oi_log_change",
+    "family": "fo",
+    "classification": "usable with explicit limitations",
+    "availability": "extra one domestic session lag",
+    "finite": 383,
+    "missing_fraction": 0.0472636815920398
+  },
+  {
+    "feature": "fo_fut_roll_flag",
+    "family": "fo",
+    "classification": "usable with explicit limitations",
+    "availability": "extra one domestic session lag",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "institution_dii_cash_imbalance",
+    "family": "institution",
+    "classification": "usable with explicit limitations",
+    "availability": "extra one domestic session lag",
+    "finite": 155,
+    "missing_fraction": 0.6144278606965174
+  },
+  {
+    "feature": "institution_fii_option_position_imbalance",
+    "family": "institution",
+    "classification": "usable with explicit limitations",
+    "availability": "extra one domestic session lag",
+    "finite": 155,
+    "missing_fraction": 0.6144278606965174
+  },
+  {
+    "feature": "institution_fii_futures_position_imbalance",
+    "family": "institution",
+    "classification": "usable with explicit limitations",
+    "availability": "extra one domestic session lag",
+    "finite": 155,
+    "missing_fraction": 0.6144278606965174
+  },
+  {
+    "feature": "institution_fii_futures_trade_imbalance",
+    "family": "institution",
+    "classification": "usable with explicit limitations",
+    "availability": "extra one domestic session lag",
+    "finite": 155,
+    "missing_fraction": 0.6144278606965174
+  },
+  {
+    "feature": "institution_fii_cash_imbalance",
+    "family": "institution",
+    "classification": "usable with explicit limitations",
+    "availability": "extra one domestic session lag",
+    "finite": 155,
+    "missing_fraction": 0.6144278606965174
+  },
+  {
+    "feature": "institution_fii_cash_imbalance_mean5",
+    "family": "institution",
+    "classification": "usable with explicit limitations",
+    "availability": "extra one domestic session lag",
+    "finite": 151,
+    "missing_fraction": 0.6243781094527363
+  },
+  {
+    "feature": "institution_dii_cash_imbalance_mean5",
+    "family": "institution",
+    "classification": "usable with explicit limitations",
+    "availability": "extra one domestic session lag",
+    "finite": 151,
+    "missing_fraction": 0.6243781094527363
+  },
+  {
+    "feature": "institution_fii_futures_position_change",
+    "family": "institution",
+    "classification": "usable with explicit limitations",
+    "availability": "extra one domestic session lag",
+    "finite": 154,
+    "missing_fraction": 0.6169154228855721
+  },
+  {
+    "feature": "institution_fii_option_position_change",
+    "family": "institution",
+    "classification": "usable with explicit limitations",
+    "availability": "extra one domestic session lag",
+    "finite": 154,
+    "missing_fraction": 0.6169154228855721
+  },
+  {
+    "feature": "intraday_first_hour",
+    "family": "intraday",
+    "classification": "usable with explicit limitations",
+    "availability": "previous completed Indian session",
+    "finite": 399,
+    "missing_fraction": 0.007462686567164179
+  },
+  {
+    "feature": "intraday_last_hour",
+    "family": "intraday",
+    "classification": "usable with explicit limitations",
+    "availability": "previous completed Indian session",
+    "finite": 399,
+    "missing_fraction": 0.007462686567164179
+  },
+  {
+    "feature": "intraday_rv",
+    "family": "intraday",
+    "classification": "usable with explicit limitations",
+    "availability": "previous completed Indian session",
+    "finite": 399,
+    "missing_fraction": 0.007462686567164179
+  },
+  {
+    "feature": "intraday_efficiency",
+    "family": "intraday",
+    "classification": "usable with explicit limitations",
+    "availability": "previous completed Indian session",
+    "finite": 399,
+    "missing_fraction": 0.007462686567164179
+  },
+  {
+    "feature": "intraday_range",
+    "family": "intraday",
+    "classification": "usable with explicit limitations",
+    "availability": "previous completed Indian session",
+    "finite": 399,
+    "missing_fraction": 0.007462686567164179
+  },
+  {
+    "feature": "proxy_above_ema5",
+    "family": "proxy",
+    "classification": "research-only current-basket proxy",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "proxy_momentum_dispersion5",
+    "family": "proxy",
+    "classification": "research-only current-basket proxy",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "proxy_above_ema21",
+    "family": "proxy",
+    "classification": "research-only current-basket proxy",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "proxy_momentum_dispersion21",
+    "family": "proxy",
+    "classification": "research-only current-basket proxy",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "proxy_above_ema63",
+    "family": "proxy",
+    "classification": "research-only current-basket proxy",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "proxy_momentum_dispersion63",
+    "family": "proxy",
+    "classification": "research-only current-basket proxy",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "proxy_advance_fraction",
+    "family": "proxy",
+    "classification": "research-only current-basket proxy",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "proxy_dispersion",
+    "family": "proxy",
+    "classification": "research-only current-basket proxy",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "proxy_equalweight_relative",
+    "family": "proxy",
+    "classification": "research-only current-basket proxy",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "proxy_new_high_fraction",
+    "family": "proxy",
+    "classification": "research-only current-basket proxy",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "proxy_new_low_fraction",
+    "family": "proxy",
+    "classification": "research-only current-basket proxy",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "proxy_correlation",
+    "family": "proxy",
+    "classification": "research-only current-basket proxy",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "interaction_mom_risk",
+    "family": "interaction",
+    "classification": "usable with explicit limitations",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "interaction_breadth_return",
+    "family": "interaction",
+    "classification": "usable with explicit limitations",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "interaction_dispersion_risk",
+    "family": "interaction",
+    "classification": "usable with explicit limitations",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "interaction_fii_trend",
+    "family": "interaction",
+    "classification": "usable with explicit limitations",
+    "availability": "previous completed Indian session",
+    "finite": 155,
+    "missing_fraction": 0.6144278606965174
+  },
+  {
+    "feature": "sequence_price_ret1_lag1",
+    "family": "sequence",
+    "classification": "usable with explicit limitations",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "sequence_price_ret1_lag3",
+    "family": "sequence",
+    "classification": "usable with explicit limitations",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "sequence_price_ret1_lag5",
+    "family": "sequence",
+    "classification": "usable with explicit limitations",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "sequence_price_ret5_lag1",
+    "family": "sequence",
+    "classification": "usable with explicit limitations",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "sequence_price_ret5_lag3",
+    "family": "sequence",
+    "classification": "usable with explicit limitations",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "sequence_price_ret5_lag5",
+    "family": "sequence",
+    "classification": "usable with explicit limitations",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "sequence_price_rv21_lag1",
+    "family": "sequence",
+    "classification": "usable with explicit limitations",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "sequence_price_rv21_lag3",
+    "family": "sequence",
+    "classification": "usable with explicit limitations",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "sequence_price_rv21_lag5",
+    "family": "sequence",
+    "classification": "usable with explicit limitations",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "sequence_sector_participation_lag1",
+    "family": "sequence",
+    "classification": "usable with explicit limitations",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "sequence_sector_participation_lag3",
+    "family": "sequence",
+    "classification": "usable with explicit limitations",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "sequence_sector_participation_lag5",
+    "family": "sequence",
+    "classification": "usable with explicit limitations",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  },
+  {
+    "feature": "calendar_weekday",
+    "family": "calendar",
+    "classification": "usable with explicit limitations",
+    "availability": "previous completed Indian session",
+    "finite": 402,
+    "missing_fraction": 0.0
+  }
+]

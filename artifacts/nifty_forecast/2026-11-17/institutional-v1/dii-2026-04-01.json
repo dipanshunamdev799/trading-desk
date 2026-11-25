@@ -1,0 +1,25 @@
+{
+  "provider": "dii",
+  "from_date": "2026-04-01",
+  "acquired_at": "2026-11-17T00:53:49.825397+05:30",
+  "ok": true,
+  "payload": {
+    "NSE_EQ|CASH": [
+      {
+        "time_stamp": 1774981800000,
+        "buy_amount": 18536.73,
+        "sell_amount": 11364.93,
+        "buy_contracts": 0,
+        "sell_contracts": 0,
+        "oi_contracts": 0,
+        "oi_amount": 0.0,
+        "total_long_contracts": 0,
+        "total_short_contracts": 0,
+        "total_call_long_contracts": 0,
+        "total_put_long_contracts": 0,
+        "total_call_short_contracts": 0,
+        "total_put_short_contracts": 0
+      }
+    ]
+  }
+}

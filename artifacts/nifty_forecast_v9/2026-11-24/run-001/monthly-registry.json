@@ -1,0 +1,212 @@
+{
+  "at": "2026-11-24T13:00:36.369155+05:30",
+  "seed": 20261129,
+  "configuration": {
+    "M_FAST": {
+      "frame": "monthly_fast",
+      "parent": "P_COMPACT",
+      "horizons": [
+        21
+      ],
+      "hypothesis": "Month-scale representation and matched state availability"
+    },
+    "M_SLOW": {
+      "frame": "monthly_slow",
+      "parent": "M_FAST",
+      "horizons": [
+        21
+      ],
+      "hypothesis": "Month-scale representation and matched state availability"
+    },
+    "M_FAST_SLOW": {
+      "frame": "monthly_fast_slow",
+      "parent": "M_SLOW",
+      "horizons": [
+        21
+      ],
+      "hypothesis": "Month-scale representation and matched state availability"
+    },
+    "M_DISTRIBUTED": {
+      "frame": "monthly_lags",
+      "parent": "M_SLOW",
+      "alpha": 160,
+      "horizons": [
+        21
+      ],
+      "hypothesis": "Month-scale representation and matched state availability"
+    },
+    "M_MULTITASK": {
+      "frame": "monthly_lags",
+      "parent": "M_DISTRIBUTED",
+      "kind": "multitask",
+      "alpha": 160,
+      "horizons": [
+        21
+      ],
+      "hypothesis": "Month-scale representation and matched state availability"
+    },
+    "M_STATE_LAGS": {
+      "frame": "monthly_average_state_lags",
+      "parent": "M_SLOW_MATCH",
+      "eligible": "monthly_smooth",
+      "horizons": [
+        21
+      ],
+      "hypothesis": "Month-scale representation and matched state availability"
+    },
+    "M_SMOOTH": {
+      "frame": "monthly_slow_plus_state",
+      "parent": "M_SLOW_MATCH",
+      "eligible": "monthly_smooth",
+      "horizons": [
+        21
+      ],
+      "hypothesis": "Month-scale representation and matched state availability"
+    },
+    "M_SLOW_MATCH": {
+      "frame": "monthly_slow",
+      "parent": "M_SLOW",
+      "eligible": "monthly_smooth",
+      "horizons": [
+        21
+      ],
+      "hypothesis": "Month-scale representation and matched state availability"
+    },
+    "M_SHIFT_-42": {
+      "frame": "monthly_slow_plus_state",
+      "parent": "M_SMOOTH",
+      "horizons": [
+        21
+      ],
+      "eligible": "monthly_smooth",
+      "roll": -42,
+      "diagnostic": true,
+      "hypothesis": "Predeclared train-only phase shift"
+    },
+    "M_SHIFT_-21": {
+      "frame": "monthly_slow_plus_state",
+      "parent": "M_SMOOTH",
+      "horizons": [
+        21
+      ],
+      "eligible": "monthly_smooth",
+      "roll": -21,
+      "diagnostic": true,
+      "hypothesis": "Predeclared train-only phase shift"
+    },
+    "M_SHIFT_-10": {
+      "frame": "monthly_slow_plus_state",
+      "parent": "M_SMOOTH",
+      "horizons": [
+        21
+      ],
+      "eligible": "monthly_smooth",
+      "roll": -10,
+      "diagnostic": true,
+      "hypothesis": "Predeclared train-only phase shift"
+    },
+    "M_SHIFT_-5": {
+      "frame": "monthly_slow_plus_state",
+      "parent": "M_SMOOTH",
+      "horizons": [
+        21
+      ],
+      "eligible": "monthly_smooth",
+      "roll": -5,
+      "diagnostic": true,
+      "hypothesis": "Predeclared train-only phase shift"
+    },
+    "M_SHIFT_+5": {
+      "frame": "monthly_slow_plus_state",
+      "parent": "M_SMOOTH",
+      "horizons": [
+        21
+      ],
+      "eligible": "monthly_smooth",
+      "roll": 5,
+      "diagnostic": true,
+      "hypothesis": "Predeclared train-only phase shift"
+    },
+    "M_SHIFT_+10": {
+      "frame": "monthly_slow_plus_state",
+      "parent": "M_SMOOTH",
+      "horizons": [
+        21
+      ],
+      "eligible": "monthly_smooth",
+      "roll": 10,
+      "diagnostic": true,
+      "hypothesis": "Predeclared train-only phase shift"
+    },
+    "M_SHIFT_+21": {
+      "frame": "monthly_slow_plus_state",
+      "parent": "M_SMOOTH",
+      "horizons": [
+        21
+      ],
+      "eligible": "monthly_smooth",
+      "roll": 21,
+      "diagnostic": true,
+      "hypothesis": "Predeclared train-only phase shift"
+    },
+    "M_SHIFT_+42": {
+      "frame": "monthly_slow_plus_state",
+      "parent": "M_SMOOTH",
+      "horizons": [
+        21
+      ],
+      "eligible": "monthly_smooth",
+      "roll": 42,
+      "diagnostic": true,
+      "hypothesis": "Predeclared train-only phase shift"
+    },
+    "M_SHIFT_+63": {
+      "frame": "monthly_slow_plus_state",
+      "parent": "M_SMOOTH",
+      "horizons": [
+        21
+      ],
+      "eligible": "monthly_smooth",
+      "roll": 63,
+      "diagnostic": true,
+      "hypothesis": "Predeclared train-only phase shift"
+    },
+    "M_PERM_1": {
+      "frame": "monthly_slow_plus_state",
+      "parent": "M_SMOOTH",
+      "horizons": [
+        21
+      ],
+      "eligible": "monthly_smooth",
+      "permutation": 1,
+      "diagnostic": true,
+      "hypothesis": "Preserve within-block dependence while permuting training state blocks"
+    },
+    "M_PERM_2": {
+      "frame": "monthly_slow_plus_state",
+      "parent": "M_SMOOTH",
+      "horizons": [
+        21
+      ],
+      "eligible": "monthly_smooth",
+      "permutation": 2,
+      "diagnostic": true,
+      "hypothesis": "Preserve within-block dependence while permuting training state blocks"
+    },
+    "M_PERM_3": {
+      "frame": "monthly_slow_plus_state",
+      "parent": "M_SMOOTH",
+      "horizons": [
+        21
+      ],
+      "eligible": "monthly_smooth",
+      "permutation": 3,
+      "diagnostic": true,
+      "hypothesis": "Preserve within-block dependence while permuting training state blocks"
+    }
+  },
+  "source": {
+    "run_models.py": "ce5c6722020b74c7d170a9614a8caf1d120688bde6097a38e03be56189f55269",
+    "models.py": "f314c03bd91c21d55ed8ad01bc5c6f24c82843b63226615c8508078a2d361177"
+  }
+}

@@ -1,0 +1,2510 @@
+{
+  "manifest": {
+    "version": "investment-long-history-v2",
+    "start": "2016-11-15",
+    "end": "2026-11-13",
+    "warmup_start": "2015-11-16",
+    "dataset_sha256": "e69090e3b9ec872715249b80cc408aaa80ace6c034efad2f7c84f70d9e66791d",
+    "code_sha256": "d91d6c9be5eceedbe10a56b778b202f050e77a4883b4f632736c291d4ccd51eb",
+    "capital": 1000000.0,
+    "cost_per_side": 0.00225,
+    "classification": {
+      "original_panel": 2284,
+      "common_equity": 2004,
+      "fund_or_noncommon_removed": 280
+    },
+    "parameters": {
+      "holdings": 20,
+      "keep_rank": 40,
+      "rebalance_sessions": 5,
+      "industry_cap": 6,
+      "universe_size": 300,
+      "momentum_sessions": 63,
+      "volatility_sessions": 42,
+      "volatility_target": 0.15,
+      "exposure_band": 0.1
+    },
+    "universe": "Frozen retained 2026 stock snapshot; date-causal price/liquidity eligibility; survivorship biased",
+    "industry": "Frozen static 2026 labels; not point-in-time",
+    "accounting": "Fractional reference; no cash dividends; no leverage",
+    "shadow": "C0-R shadow starts on the first test decision; E=1 until 20 returns",
+    "signal_warmup": "Price indicators use pre-test observations; no positions/profits from warmup are carried into the test",
+    "phase_policy": "Phase 0 baseline fixed in advance; phases 1\u20134 are robustness checks, never selected for the headline"
+  },
+  "ranking": [
+    "C2-S",
+    "C0-R",
+    "C1-R"
+  ],
+  "strategies": {
+    "C0-R": {
+      "total_return": 6.716442697227014,
+      "cagr": 0.22688115451228996,
+      "final_value_rupees": 7716442.697227013,
+      "max_drawdown": -0.42060062384461305,
+      "annualized_volatility": 0.23244360755554508,
+      "sharpe_zero_rf": 1.0109229736040297,
+      "worst_day": -0.12083421678266038,
+      "best_day": 0.06200848117323532,
+      "annual_returns": {
+        "2016": -0.048120441668840774,
+        "2017": 0.6711600943825826,
+        "2018": -0.10980269005783683,
+        "2019": 0.07106889665537075,
+        "2020": 0.3165405211655685,
+        "2021": 1.1978038709222947,
+        "2022": -0.08940583857879425,
+        "2023": 0.6039929439806753,
+        "2024": 0.0668074235675713,
+        "2025": -0.07052942197668921,
+        "2026": 0.21406303901463364
+      },
+      "rolling_252_sessions": {
+        "min": -0.3020810761510031,
+        "median": 0.18689476878710787,
+        "max": 1.6844310142882355,
+        "positive_fraction": 0.6826750448833034
+      },
+      "rolling_756_sessions": {
+        "min": 0.025072194360287625,
+        "median": 0.8516762054792333,
+        "max": 2.787892815911403,
+        "positive_fraction": 1.0
+      },
+      "max_underwater_sessions": 673,
+      "worst_drawdown": {
+        "peak": "2018-01-15",
+        "trough": "2020-03-24",
+        "recovery": "2020-10-08"
+      },
+      "average_exposure": 0.9970616207176172,
+      "closed_positions": 1746,
+      "win_rate": 0.46334478808705615,
+      "profit_factor": 1.4202459307477646,
+      "cashflow_reconciliation_error_rupees": -8.381903171539307e-09,
+      "orders": 3512,
+      "independent_engine_max_error": 3.197442310920451e-14,
+      "holding_marks_without_current_close": 40
+    },
+    "C1-R": {
+      "total_return": 3.1990428067138508,
+      "cagr": 0.15440370446023133,
+      "final_value_rupees": 4199042.806713851,
+      "max_drawdown": -0.2664372808538271,
+      "annualized_volatility": 0.16300919624461094,
+      "sharpe_zero_rf": 0.976593886731653,
+      "worst_day": -0.07072123640060313,
+      "best_day": 0.0467970015993735,
+      "annual_returns": {
+        "2016": -0.028749679359297176,
+        "2017": 0.36966451595259,
+        "2018": -0.07441611690757577,
+        "2019": 0.05069531630334834,
+        "2020": 0.3175770225532295,
+        "2021": 0.5121834087390407,
+        "2022": -0.02663937704580588,
+        "2023": 0.536685317035061,
+        "2024": -0.002687846775039082,
+        "2025": 0.004789063707652641,
+        "2026": 0.0868438079277094
+      },
+      "rolling_252_sessions": {
+        "min": -0.21913185439849425,
+        "median": 0.12635000499358517,
+        "max": 0.9091069389189852,
+        "positive_fraction": 0.6768402154398564
+      },
+      "rolling_756_sessions": {
+        "min": 0.010025245895723511,
+        "median": 0.6322788127003987,
+        "max": 1.5121338556404296,
+        "positive_fraction": 1.0
+      },
+      "max_underwater_sessions": 585,
+      "worst_drawdown": {
+        "peak": "2024-07-05",
+        "trough": "2025-04-07",
+        "recovery": null
+      },
+      "average_exposure": 0.7729673642138069,
+      "closed_positions": 1780,
+      "win_rate": 0.4460674157303371,
+      "profit_factor": 1.4186964188028348,
+      "cashflow_reconciliation_error_rupees": -6.05359673500061e-09,
+      "orders": 7495,
+      "holding_marks_without_current_close": 40
+    },
+    "C2-S": {
+      "total_return": 7.125989798104474,
+      "cagr": 0.2332466589518012,
+      "final_value_rupees": 8125989.798104473,
+      "max_drawdown": -0.4590680504585427,
+      "annualized_volatility": 0.22865143404102398,
+      "sharpe_zero_rf": 1.046761412258783,
+      "worst_day": -0.12068769729671613,
+      "best_day": 0.08053513589936845,
+      "annual_returns": {
+        "2016": -0.011700689546600529,
+        "2017": 0.7501837699070499,
+        "2018": -0.13559387773077758,
+        "2019": 0.015472348744133724,
+        "2020": 0.40882472950099236,
+        "2021": 1.0101897384449696,
+        "2022": -0.05780374750754047,
+        "2023": 0.5901165158735437,
+        "2024": 0.08476457361399126,
+        "2025": -0.03575030700039472,
+        "2026": 0.2059487459382563
+      },
+      "rolling_252_sessions": {
+        "min": -0.25363171323559386,
+        "median": 0.19667082668135127,
+        "max": 1.6033817736048266,
+        "positive_fraction": 0.6624775583482945
+      },
+      "rolling_756_sessions": {
+        "min": 0.008143753011431887,
+        "median": 0.8556420361864624,
+        "max": 2.6224088859942865,
+        "positive_fraction": 1.0
+      },
+      "max_underwater_sessions": 673,
+      "worst_drawdown": {
+        "peak": "2018-01-15",
+        "trough": "2020-03-24",
+        "recovery": "2020-10-08"
+      },
+      "average_exposure": 0.9959944175349725,
+      "closed_positions": 8785,
+      "win_rate": 0.4645418326693227,
+      "profit_factor": 1.4298276740819482,
+      "cashflow_reconciliation_error_rupees": -7.450580596923828e-09,
+      "orders": 17665,
+      "holding_marks_without_current_close": 203
+    },
+    "NIFTY 50 PR": {
+      "total_return": 2.100999574517941,
+      "cagr": 0.11991183747435619,
+      "final_value_rupees": 3100999.574517941,
+      "max_drawdown": -0.3843985342533347,
+      "annualized_volatility": 0.16183043384409107,
+      "sharpe_zero_rf": 0.7922927141118691,
+      "worst_day": -0.12980464127060365,
+      "best_day": 0.08763205423192066,
+      "annual_returns": {
+        "2016": 0.00953943108732247,
+        "2017": 0.2864594786092991,
+        "2018": 0.03151262499169083,
+        "2019": 0.12022039023986086,
+        "2020": 0.14901651401780835,
+        "2021": 0.24119298371090903,
+        "2022": 0.043289606748856846,
+        "2023": 0.2002783715265697,
+        "2024": 0.08804770976559251,
+        "2025": 0.10508864528352957,
+        "2026": -0.037708193007164326
+      },
+      "rolling_252_sessions": {
+        "min": -0.32900270682525556,
+        "median": 0.0996870947584767,
+        "max": 0.882316612463454,
+        "positive_fraction": 0.8227109515260324
+      },
+      "rolling_756_sessions": {
+        "min": -0.14929352321759926,
+        "median": 0.4597939179754785,
+        "max": 1.3158306231726948,
+        "positive_fraction": 0.984338747099768
+      },
+      "max_underwater_sessions": 314,
+      "worst_drawdown": {
+        "peak": "2020-01-14",
+        "trough": "2020-03-23",
+        "recovery": "2020-11-09"
+      },
+      "forward_filled_reporting_marks": 0
+    },
+    "NIFTY 500 PR": {
+      "total_return": 2.431558097000629,
+      "cagr": 0.1313209071418604,
+      "final_value_rupees": 3431558.097000629,
+      "max_drawdown": -0.3830235109253165,
+      "annualized_volatility": 0.16123549738169785,
+      "sharpe_zero_rf": 0.8585983174498238,
+      "worst_day": -0.12808480328487037,
+      "best_day": 0.07690801316572404,
+      "annual_returns": {
+        "2016": 0.009593071590194402,
+        "2017": 0.3591467606117891,
+        "2018": -0.033785884001622635,
+        "2019": 0.07661286804798251,
+        "2020": 0.16670076798878486,
+        "2021": 0.30194559961105405,
+        "2022": 0.030184313359384207,
+        "2023": 0.2576437728374603,
+        "2024": 0.15164070481724634,
+        "2025": 0.06686584373910631,
+        "2026": -0.005753711007454365
+      },
+      "rolling_252_sessions": {
+        "min": -0.3393825560170365,
+        "median": 0.08736924440172644,
+        "max": 0.9210796091622617,
+        "positive_fraction": 0.7791741472172352
+      },
+      "rolling_756_sessions": {
+        "min": -0.1949398429339625,
+        "median": 0.5216048890412197,
+        "max": 1.3691414384110199,
+        "positive_fraction": 0.9651972157772621
+      },
+      "max_underwater_sessions": 528,
+      "worst_drawdown": {
+        "peak": "2020-01-17",
+        "trough": "2020-03-23",
+        "recovery": "2020-11-09"
+      },
+      "forward_filled_reporting_marks": 1
+    },
+    "C0-R-X": {
+      "status": "NOT_BACKTESTABLE",
+      "reason": "Historical pre-open auction evidence absent; no fill-performance estimate can be validated",
+      "auction_snapshots": 0,
+      "assumed_full_fill_reference": "C0-R is its assumed-full-fill reference, not an execution-validated C0-R-X result"
+    }
+  },
+  "sensitivity": {
+    "C0-R": {
+      "phases": [
+        {
+          "phase": 0,
+          "cagr": 0.22688115451228996,
+          "max_drawdown": -0.42060062384461305
+        },
+        {
+          "phase": 1,
+          "cagr": 0.23610727451070712,
+          "max_drawdown": -0.4498831565868151
+        },
+        {
+          "phase": 2,
+          "cagr": 0.23669818115259433,
+          "max_drawdown": -0.5070689221849427
+        },
+        {
+          "phase": 3,
+          "cagr": 0.23685556701731159,
+          "max_drawdown": -0.46861780563448885
+        },
+        {
+          "phase": 4,
+          "cagr": 0.22936939095586206,
+          "max_drawdown": -0.44629510483897783
+        }
+      ],
+      "costs": [
+        {
+          "cost_per_side": 0.0,
+          "cagr": 0.27143429749792247,
+          "max_drawdown": -0.3758460137791447
+        },
+        {
+          "cost_per_side": 0.0045,
+          "cagr": 0.18948025675221625,
+          "max_drawdown": -0.4799099406335037
+        }
+      ],
+      "whole_share": {
+        "cagr": 0.2334436258343089,
+        "max_drawdown": -0.4265428201091238,
+        "final_value_rupees": 8138968.584737482
+      },
+      "whole_day_missing_price_stress": {
+        "cagr": 0.2300727823006805,
+        "max_drawdown": -0.4236120834197996,
+        "final_value_rupees": 7919404.887926755
+      }
+    },
+    "C1-R": {
+      "phases": [
+        {
+          "phase": 0,
+          "cagr": 0.15440370446023133,
+          "max_drawdown": -0.2664372808538271
+        },
+        {
+          "phase": 1,
+          "cagr": 0.13987063056597648,
+          "max_drawdown": -0.32950333847452506
+        },
+        {
+          "phase": 2,
+          "cagr": 0.14637912901732708,
+          "max_drawdown": -0.3398533676654969
+        },
+        {
+          "phase": 3,
+          "cagr": 0.14644530155123214,
+          "max_drawdown": -0.3210842451814703
+        },
+        {
+          "phase": 4,
+          "cagr": 0.14223950795947604,
+          "max_drawdown": -0.3003318988737751
+        }
+      ],
+      "costs": [
+        {
+          "cost_per_side": 0.0,
+          "cagr": 0.1951101574344758,
+          "max_drawdown": -0.24619096463796375
+        },
+        {
+          "cost_per_side": 0.0045,
+          "cagr": 0.11110794546956737,
+          "max_drawdown": -0.3190229909992117
+        }
+      ],
+      "whole_share": {
+        "cagr": 0.1545834326342712,
+        "max_drawdown": -0.2810863282164927,
+        "final_value_rupees": 4205580.363102491
+      },
+      "whole_day_missing_price_stress": {
+        "cagr": 0.15017903520148668,
+        "max_drawdown": -0.2689264728001576,
+        "final_value_rupees": 4047981.8429993023
+      }
+    },
+    "C2-S": {
+      "phases": [
+        {
+          "phase": 0,
+          "cagr": 0.2332466589518012,
+          "max_drawdown": -0.4590680504585427
+        },
+        {
+          "phase": 1,
+          "cagr": 0.2342628020069164,
+          "max_drawdown": -0.45876219091992143
+        },
+        {
+          "phase": 2,
+          "cagr": 0.23501580912203712,
+          "max_drawdown": -0.4587110151277247
+        },
+        {
+          "phase": 3,
+          "cagr": 0.2346367036483179,
+          "max_drawdown": -0.45855979233241073
+        },
+        {
+          "phase": 4,
+          "cagr": 0.23423316818404616,
+          "max_drawdown": -0.458526702988852
+        }
+      ],
+      "costs": [
+        {
+          "cost_per_side": 0.0,
+          "cagr": 0.2812909044544889,
+          "max_drawdown": -0.40842638232398487
+        },
+        {
+          "cost_per_side": 0.0045,
+          "cagr": 0.18853986681646706,
+          "max_drawdown": -0.5053995147259057
+        }
+      ],
+      "whole_share": {
+        "cagr": 0.23552155055872737,
+        "max_drawdown": -0.4673428740489082,
+        "final_value_rupees": 8277030.748184981
+      },
+      "whole_day_missing_price_stress": {
+        "cagr": 0.23336763490410806,
+        "max_drawdown": -0.4556154608300991,
+        "final_value_rupees": 8133959.087299133
+      }
+    }
+  },
+  "large_move_events": [
+    {
+      "session": "2016-11-30",
+      "instrument_key": "NSE_EQ|INE505Y01010",
+      "symbol": "VINEETLAB",
+      "close_to_close_return": -0.9921121822962313,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2016-12-01",
+      "instrument_key": "NSE_EQ|INE505Y01010",
+      "symbol": "VINEETLAB",
+      "close_to_close_return": 128.86111111111111,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2016-12-06",
+      "instrument_key": "NSE_EQ|INE451F01024",
+      "symbol": "APOLSINHOT",
+      "close_to_close_return": 1.0979443772672308,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2016-12-06",
+      "instrument_key": "NSE_EQ|INE520H01022",
+      "symbol": "BEARDSELL",
+      "close_to_close_return": -0.829006490264603,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2016-12-29",
+      "instrument_key": "NSE_EQ|INE542Z01028",
+      "symbol": "KAPSTON",
+      "close_to_close_return": 0.4001388888888888,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2017-01-30",
+      "instrument_key": "NSE_EQ|INE505Y01010",
+      "symbol": "VINEETLAB",
+      "close_to_close_return": -0.992812362736094,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2017-01-31",
+      "instrument_key": "NSE_EQ|INE505Y01010",
+      "symbol": "VINEETLAB",
+      "close_to_close_return": 136.5111111111111,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2017-01-31",
+      "instrument_key": "NSE_EQ|INE162C01024",
+      "symbol": "PARASPETRO",
+      "close_to_close_return": -0.5,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2017-02-01",
+      "instrument_key": "NSE_EQ|INE162C01024",
+      "symbol": "PARASPETRO",
+      "close_to_close_return": 1.0,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2017-02-02",
+      "instrument_key": "NSE_EQ|INE162C01024",
+      "symbol": "PARASPETRO",
+      "close_to_close_return": 0.4999999999999998,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2017-02-06",
+      "instrument_key": "NSE_EQ|INE806C01018",
+      "symbol": "TIL",
+      "close_to_close_return": -0.9652650822669104,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2017-02-07",
+      "instrument_key": "NSE_EQ|INE806C01018",
+      "symbol": "TIL",
+      "close_to_close_return": 28.421052631578945,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2017-03-06",
+      "instrument_key": "NSE_EQ|INE806C01018",
+      "symbol": "TIL",
+      "close_to_close_return": -0.9644859813084112,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2017-03-07",
+      "instrument_key": "NSE_EQ|INE806C01018",
+      "symbol": "TIL",
+      "close_to_close_return": 27.07017543859649,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2017-03-27",
+      "instrument_key": "NSE_EQ|INE034D01049",
+      "symbol": "PTL",
+      "close_to_close_return": -0.6284584980237155,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2017-03-30",
+      "instrument_key": "NSE_EQ|INE505Y01010",
+      "symbol": "VINEETLAB",
+      "close_to_close_return": -0.9927612000321725,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2017-03-30",
+      "instrument_key": "NSE_EQ|INE520H01022",
+      "symbol": "BEARDSELL",
+      "close_to_close_return": 4.701585113714679,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2017-03-31",
+      "instrument_key": "NSE_EQ|INE505Y01010",
+      "symbol": "VINEETLAB",
+      "close_to_close_return": 142.44444444444446,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2017-04-06",
+      "instrument_key": "NSE_EQ|INE806C01018",
+      "symbol": "TIL",
+      "close_to_close_return": -0.9658682634730539,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2017-04-07",
+      "instrument_key": "NSE_EQ|INE806C01018",
+      "symbol": "TIL",
+      "close_to_close_return": 27.333333333333332,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2017-04-17",
+      "instrument_key": "NSE_EQ|INE069I01010",
+      "symbol": "EMBDL",
+      "close_to_close_return": 0.40009447331128944,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2017-05-04",
+      "instrument_key": "NSE_EQ|INE520H01022",
+      "symbol": "BEARDSELL",
+      "close_to_close_return": -0.8250770585645091,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2017-05-10",
+      "instrument_key": "NSE_EQ|INE358U01012",
+      "symbol": "ZOTA",
+      "close_to_close_return": -0.5935629953097201,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2017-05-12",
+      "instrument_key": "NSE_EQ|INE358U01012",
+      "symbol": "ZOTA",
+      "close_to_close_return": 1.3753943217665614,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2017-05-15",
+      "instrument_key": "NSE_EQ|INE358U01012",
+      "symbol": "ZOTA",
+      "close_to_close_return": -0.578187250996016,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2017-05-19",
+      "instrument_key": "NSE_EQ|INE358U01012",
+      "symbol": "ZOTA",
+      "close_to_close_return": 1.2527598020555768,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2017-05-23",
+      "instrument_key": "NSE_EQ|INE546V01010",
+      "symbol": "EIFFL",
+      "close_to_close_return": -0.9222614840989399,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2017-05-24",
+      "instrument_key": "NSE_EQ|INE546V01010",
+      "symbol": "EIFFL",
+      "close_to_close_return": 11.746753246753247,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2017-05-26",
+      "instrument_key": "NSE_EQ|INE358U01012",
+      "symbol": "ZOTA",
+      "close_to_close_return": -0.5128683327116748,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2017-05-29",
+      "instrument_key": "NSE_EQ|INE358U01012",
+      "symbol": "ZOTA",
+      "close_to_close_return": 1.306278713629403,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2017-05-30",
+      "instrument_key": "NSE_EQ|INE358U01012",
+      "symbol": "ZOTA",
+      "close_to_close_return": -0.5680610889774236,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2017-05-30",
+      "instrument_key": "NSE_EQ|INE451F01024",
+      "symbol": "APOLSINHOT",
+      "close_to_close_return": -0.4943820224719101,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2017-05-30",
+      "instrument_key": "NSE_EQ|INE365I01020",
+      "symbol": "NBIFIN",
+      "close_to_close_return": -0.5149931596841264,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2017-06-06",
+      "instrument_key": "NSE_EQ|INE806C01018",
+      "symbol": "TIL",
+      "close_to_close_return": -0.9718934911242604,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2017-06-07",
+      "instrument_key": "NSE_EQ|INE806C01018",
+      "symbol": "TIL",
+      "close_to_close_return": 34.91228070175438,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2017-06-23",
+      "instrument_key": "NSE_EQ|INE546V01010",
+      "symbol": "EIFFL",
+      "close_to_close_return": -0.9250972762645915,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2017-06-27",
+      "instrument_key": "NSE_EQ|INE546V01010",
+      "symbol": "EIFFL",
+      "close_to_close_return": 12.590909090909092,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2017-06-29",
+      "instrument_key": "NSE_EQ|INE558D01021",
+      "symbol": "CORALFINAC",
+      "close_to_close_return": -0.7952185462448684,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2017-07-06",
+      "instrument_key": "NSE_EQ|INE806C01018",
+      "symbol": "TIL",
+      "close_to_close_return": -0.975504941985389,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2017-07-07",
+      "instrument_key": "NSE_EQ|INE806C01018",
+      "symbol": "TIL",
+      "close_to_close_return": 40.824561403508774,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2017-08-09",
+      "instrument_key": "NSE_EQ|INE082W01014",
+      "symbol": "WEWIN",
+      "close_to_close_return": -0.7539170506912443,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2017-08-09",
+      "instrument_key": "NSE_EQ|INE546V01010",
+      "symbol": "EIFFL",
+      "close_to_close_return": -0.9344601586754053,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2017-08-10",
+      "instrument_key": "NSE_EQ|INE546V01010",
+      "symbol": "EIFFL",
+      "close_to_close_return": 13.526315789473685,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2017-08-11",
+      "instrument_key": "NSE_EQ|INE082W01014",
+      "symbol": "WEWIN",
+      "close_to_close_return": 2.707865168539326,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2017-08-23",
+      "instrument_key": "NSE_EQ|INE546V01010",
+      "symbol": "EIFFL",
+      "close_to_close_return": -0.9460595446584938,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2017-08-24",
+      "instrument_key": "NSE_EQ|INE546V01010",
+      "symbol": "EIFFL",
+      "close_to_close_return": 17.7012987012987,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2017-08-30",
+      "instrument_key": "NSE_EQ|INE505Y01010",
+      "symbol": "VINEETLAB",
+      "close_to_close_return": -0.9925391693608555,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2017-08-31",
+      "instrument_key": "NSE_EQ|INE505Y01010",
+      "symbol": "VINEETLAB",
+      "close_to_close_return": 149.97777777777776,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2017-09-06",
+      "instrument_key": "NSE_EQ|INE806C01018",
+      "symbol": "TIL",
+      "close_to_close_return": -0.9784172661870504,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2017-09-07",
+      "instrument_key": "NSE_EQ|INE806C01018",
+      "symbol": "TIL",
+      "close_to_close_return": 47.017543859649116,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2017-10-06",
+      "instrument_key": "NSE_EQ|INE546V01010",
+      "symbol": "EIFFL",
+      "close_to_close_return": -0.9332808192201654,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2017-10-06",
+      "instrument_key": "NSE_EQ|INE806C01018",
+      "symbol": "TIL",
+      "close_to_close_return": -0.9786516853932584,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2017-10-09",
+      "instrument_key": "NSE_EQ|INE806C01018",
+      "symbol": "TIL",
+      "close_to_close_return": 48.070175438596486,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2017-10-10",
+      "instrument_key": "NSE_EQ|INE546V01010",
+      "symbol": "EIFFL",
+      "close_to_close_return": 11.5,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2017-10-25",
+      "instrument_key": "NSE_EQ|INE160A01022",
+      "symbol": "PNB",
+      "close_to_close_return": 0.46201157742402343,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2017-10-25",
+      "instrument_key": "NSE_EQ|INE082W01014",
+      "symbol": "WEWIN",
+      "close_to_close_return": -0.7888888888888889,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2017-10-26",
+      "instrument_key": "NSE_EQ|INE082W01014",
+      "symbol": "WEWIN",
+      "close_to_close_return": 4.655870445344129,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2017-10-30",
+      "instrument_key": "NSE_EQ|INE505Y01010",
+      "symbol": "VINEETLAB",
+      "close_to_close_return": -0.9932042133876996,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2017-10-31",
+      "instrument_key": "NSE_EQ|INE505Y01010",
+      "symbol": "VINEETLAB",
+      "close_to_close_return": 146.16111111111113,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2017-11-06",
+      "instrument_key": "NSE_EQ|INE546V01010",
+      "symbol": "EIFFL",
+      "close_to_close_return": -0.9459993624481989,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2017-11-06",
+      "instrument_key": "NSE_EQ|INE806C01018",
+      "symbol": "TIL",
+      "close_to_close_return": -0.981342062193126,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2017-11-07",
+      "instrument_key": "NSE_EQ|INE546V01010",
+      "symbol": "EIFFL",
+      "close_to_close_return": 17.553719008264462,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2017-11-07",
+      "instrument_key": "NSE_EQ|INE806C01018",
+      "symbol": "TIL",
+      "close_to_close_return": 50.78947368421052,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2017-11-09",
+      "instrument_key": "NSE_EQ|INE546V01010",
+      "symbol": "EIFFL",
+      "close_to_close_return": -0.939873417721519,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2017-11-10",
+      "instrument_key": "NSE_EQ|INE546V01010",
+      "symbol": "EIFFL",
+      "close_to_close_return": 15.321052631578947,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2017-11-14",
+      "instrument_key": "NSE_EQ|INE164B01030",
+      "symbol": "KELLTONTEC",
+      "close_to_close_return": 0.9699646643109541,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2017-11-14",
+      "instrument_key": "NSE_EQ|INE190H01024",
+      "symbol": "SAKUMA",
+      "close_to_close_return": 8.503042596348886,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2017-11-22",
+      "instrument_key": "NSE_EQ|INE349W01017",
+      "symbol": "AVADHSUGAR",
+      "close_to_close_return": -0.49284943335132214,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2017-11-28",
+      "instrument_key": "NSE_EQ|INE082W01014",
+      "symbol": "WEWIN",
+      "close_to_close_return": -0.7670713201820941,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2017-11-28",
+      "instrument_key": "NSE_EQ|INE697V01011",
+      "symbol": "PANSARI",
+      "close_to_close_return": 0.9170984455958548,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2017-12-05",
+      "instrument_key": "NSE_EQ|INE082W01014",
+      "symbol": "WEWIN",
+      "close_to_close_return": 1.778781038374718,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2017-12-06",
+      "instrument_key": "NSE_EQ|INE546V01010",
+      "symbol": "EIFFL",
+      "close_to_close_return": -0.9395431834403997,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2017-12-06",
+      "instrument_key": "NSE_EQ|INE806C01018",
+      "symbol": "TIL",
+      "close_to_close_return": -0.9806122448979592,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2017-12-07",
+      "instrument_key": "NSE_EQ|INE546V01010",
+      "symbol": "EIFFL",
+      "close_to_close_return": 15.074380165289256,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2017-12-07",
+      "instrument_key": "NSE_EQ|INE806C01018",
+      "symbol": "TIL",
+      "close_to_close_return": 50.40350877192982,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2017-12-21",
+      "instrument_key": "NSE_EQ|INE082W01014",
+      "symbol": "WEWIN",
+      "close_to_close_return": -0.48304383788254757,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2017-12-22",
+      "instrument_key": "NSE_EQ|INE082W01014",
+      "symbol": "WEWIN",
+      "close_to_close_return": 0.9567999999999999,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-01-09",
+      "instrument_key": "NSE_EQ|INE082W01014",
+      "symbol": "WEWIN",
+      "close_to_close_return": -0.4397950469684031,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-01-09",
+      "instrument_key": "NSE_EQ|INE546V01010",
+      "symbol": "EIFFL",
+      "close_to_close_return": -0.9361344537815126,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-01-10",
+      "instrument_key": "NSE_EQ|INE082W01014",
+      "symbol": "WEWIN",
+      "close_to_close_return": 0.75,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-01-10",
+      "instrument_key": "NSE_EQ|INE546V01010",
+      "symbol": "EIFFL",
+      "close_to_close_return": 14.631578947368421,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-01-11",
+      "instrument_key": "NSE_EQ|INE592A01026",
+      "symbol": "ORIENTPPR",
+      "close_to_close_return": -0.4992819530876018,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-02-02",
+      "instrument_key": "NSE_EQ|INE512B01022",
+      "symbol": "FCSSOFT",
+      "close_to_close_return": 0.4999999999999998,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-02-06",
+      "instrument_key": "NSE_EQ|INE546V01010",
+      "symbol": "EIFFL",
+      "close_to_close_return": -0.9411805555555556,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-02-06",
+      "instrument_key": "NSE_EQ|INE806C01018",
+      "symbol": "TIL",
+      "close_to_close_return": -0.9812807881773399,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-02-07",
+      "instrument_key": "NSE_EQ|INE164B01030",
+      "symbol": "KELLTONTEC",
+      "close_to_close_return": -0.4750325662179766,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-02-07",
+      "instrument_key": "NSE_EQ|INE190H01024",
+      "symbol": "SAKUMA",
+      "close_to_close_return": -0.8965224766751484,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-02-07",
+      "instrument_key": "NSE_EQ|INE546V01010",
+      "symbol": "EIFFL",
+      "close_to_close_return": 15.528925619834709,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-02-07",
+      "instrument_key": "NSE_EQ|INE806C01018",
+      "symbol": "TIL",
+      "close_to_close_return": 51.315789473684205,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-02-09",
+      "instrument_key": "NSE_EQ|INE546V01010",
+      "symbol": "EIFFL",
+      "close_to_close_return": -0.9311594202898551,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-02-12",
+      "instrument_key": "NSE_EQ|INE546V01010",
+      "symbol": "EIFFL",
+      "close_to_close_return": 14.073684210526315,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-03-06",
+      "instrument_key": "NSE_EQ|INE546V01010",
+      "symbol": "EIFFL",
+      "close_to_close_return": -0.9392613840086053,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-03-06",
+      "instrument_key": "NSE_EQ|INE806C01018",
+      "symbol": "TIL",
+      "close_to_close_return": -0.979067205288285,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-03-07",
+      "instrument_key": "NSE_EQ|INE546V01010",
+      "symbol": "EIFFL",
+      "close_to_close_return": 16.060212514757968,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-03-07",
+      "instrument_key": "NSE_EQ|INE806C01018",
+      "symbol": "TIL",
+      "close_to_close_return": 44.94736842105262,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-03-09",
+      "instrument_key": "NSE_EQ|INE546V01010",
+      "symbol": "EIFFL",
+      "close_to_close_return": -0.9342560553633218,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-03-12",
+      "instrument_key": "NSE_EQ|INE546V01010",
+      "symbol": "EIFFL",
+      "close_to_close_return": 14.168421052631578,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-03-26",
+      "instrument_key": "NSE_EQ|INE959A01019",
+      "symbol": "PRIVISCL",
+      "close_to_close_return": -0.5,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-04-02",
+      "instrument_key": "NSE_EQ|INE959A01019",
+      "symbol": "PRIVISCL",
+      "close_to_close_return": 1.0,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-04-06",
+      "instrument_key": "NSE_EQ|INE546V01010",
+      "symbol": "EIFFL",
+      "close_to_close_return": -0.9397581792318634,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-04-06",
+      "instrument_key": "NSE_EQ|INE806C01018",
+      "symbol": "TIL",
+      "close_to_close_return": -0.9793028322440087,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-04-09",
+      "instrument_key": "NSE_EQ|INE806C01018",
+      "symbol": "TIL",
+      "close_to_close_return": 48.526315789473685,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-04-10",
+      "instrument_key": "NSE_EQ|INE546V01010",
+      "symbol": "EIFFL",
+      "close_to_close_return": 13.736842105263158,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-04-30",
+      "instrument_key": "NSE_EQ|INE505Y01010",
+      "symbol": "VINEETLAB",
+      "close_to_close_return": -0.9956507031363263,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-05-02",
+      "instrument_key": "NSE_EQ|INE505Y01010",
+      "symbol": "VINEETLAB",
+      "close_to_close_return": 225.67777777777778,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-05-04",
+      "instrument_key": "NSE_EQ|INE785M01021",
+      "symbol": "PCJEWELLER",
+      "close_to_close_return": 0.4370370370370371,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-05-04",
+      "instrument_key": "NSE_EQ|INE117Z01029",
+      "symbol": "NARMADA",
+      "close_to_close_return": -0.445141065830721,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-05-09",
+      "instrument_key": "NSE_EQ|INE546V01010",
+      "symbol": "EIFFL",
+      "close_to_close_return": -0.9318018664752333,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-05-10",
+      "instrument_key": "NSE_EQ|INE546V01010",
+      "symbol": "EIFFL",
+      "close_to_close_return": 13.563157894736841,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-06-06",
+      "instrument_key": "NSE_EQ|INE546V01010",
+      "symbol": "EIFFL",
+      "close_to_close_return": -0.9336206896551724,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-06-06",
+      "instrument_key": "NSE_EQ|INE806C01018",
+      "symbol": "TIL",
+      "close_to_close_return": -0.9730496453900709,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-06-07",
+      "instrument_key": "NSE_EQ|INE546V01010",
+      "symbol": "EIFFL",
+      "close_to_close_return": 14.785123966942146,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-06-07",
+      "instrument_key": "NSE_EQ|INE806C01018",
+      "symbol": "TIL",
+      "close_to_close_return": 36.08771929824562,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-06-14",
+      "instrument_key": "NSE_EQ|INE937C01029",
+      "symbol": "NILAINFRA",
+      "close_to_close_return": 4.080645161290322,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-06-25",
+      "instrument_key": "NSE_EQ|INE959A01019",
+      "symbol": "PRIVISCL",
+      "close_to_close_return": -0.5,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-07-03",
+      "instrument_key": "NSE_EQ|INE959A01019",
+      "symbol": "PRIVISCL",
+      "close_to_close_return": 1.0,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-07-04",
+      "instrument_key": "NSE_EQ|INE959A01019",
+      "symbol": "PRIVISCL",
+      "close_to_close_return": -0.5,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-07-05",
+      "instrument_key": "NSE_EQ|INE974Z01015",
+      "symbol": "PRITI",
+      "close_to_close_return": -0.7483028720626632,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-07-06",
+      "instrument_key": "NSE_EQ|INE546V01010",
+      "symbol": "EIFFL",
+      "close_to_close_return": -0.9392831541218638,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-07-06",
+      "instrument_key": "NSE_EQ|INE806C01018",
+      "symbol": "TIL",
+      "close_to_close_return": -0.9661921708185053,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-07-09",
+      "instrument_key": "NSE_EQ|INE959A01019",
+      "symbol": "PRIVISCL",
+      "close_to_close_return": 1.0,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-07-09",
+      "instrument_key": "NSE_EQ|INE806C01018",
+      "symbol": "TIL",
+      "close_to_close_return": 30.035087719298247,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-07-10",
+      "instrument_key": "NSE_EQ|INE546V01010",
+      "symbol": "EIFFL",
+      "close_to_close_return": 13.694736842105263,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-07-16",
+      "instrument_key": "NSE_EQ|INE959A01019",
+      "symbol": "PRIVISCL",
+      "close_to_close_return": -0.5,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-07-23",
+      "instrument_key": "NSE_EQ|INE959A01019",
+      "symbol": "PRIVISCL",
+      "close_to_close_return": 1.0,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-08-06",
+      "instrument_key": "NSE_EQ|INE546V01010",
+      "symbol": "EIFFL",
+      "close_to_close_return": -0.9365543071161049,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-08-06",
+      "instrument_key": "NSE_EQ|INE806C01018",
+      "symbol": "TIL",
+      "close_to_close_return": -0.9714428857715431,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-08-07",
+      "instrument_key": "NSE_EQ|INE546V01010",
+      "symbol": "EIFFL",
+      "close_to_close_return": 15.080283353010625,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-08-07",
+      "instrument_key": "NSE_EQ|INE806C01018",
+      "symbol": "TIL",
+      "close_to_close_return": 31.24561403508772,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-08-09",
+      "instrument_key": "NSE_EQ|INE546V01010",
+      "symbol": "EIFFL",
+      "close_to_close_return": -0.930172730613745,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-08-10",
+      "instrument_key": "NSE_EQ|INE546V01010",
+      "symbol": "EIFFL",
+      "close_to_close_return": 12.894736842105264,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-08-14",
+      "instrument_key": "NSE_EQ|INE645W01026",
+      "symbol": "AIRAN",
+      "close_to_close_return": -0.7969401947148818,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-08-29",
+      "instrument_key": "NSE_EQ|INE869Y01028",
+      "symbol": "TEMBO",
+      "close_to_close_return": -0.49640287769784175,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-09-05",
+      "instrument_key": "NSE_EQ|INE813V01022",
+      "symbol": "MCL",
+      "close_to_close_return": -0.6502222222222223,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-09-06",
+      "instrument_key": "NSE_EQ|INE546V01010",
+      "symbol": "EIFFL",
+      "close_to_close_return": -0.9348461538461539,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-09-06",
+      "instrument_key": "NSE_EQ|INE959A01019",
+      "symbol": "PRIVISCL",
+      "close_to_close_return": -0.5,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-09-06",
+      "instrument_key": "NSE_EQ|INE806C01018",
+      "symbol": "TIL",
+      "close_to_close_return": -0.9703742203742204,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-09-07",
+      "instrument_key": "NSE_EQ|INE546V01010",
+      "symbol": "EIFFL",
+      "close_to_close_return": 14.289256198347106,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-09-07",
+      "instrument_key": "NSE_EQ|INE959A01019",
+      "symbol": "PRIVISCL",
+      "close_to_close_return": 1.0,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-09-07",
+      "instrument_key": "NSE_EQ|INE806C01018",
+      "symbol": "TIL",
+      "close_to_close_return": 32.96491228070175,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-09-18",
+      "instrument_key": "NSE_EQ|INE721Z01010",
+      "symbol": "AARON",
+      "close_to_close_return": -0.549636803874092,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-09-28",
+      "instrument_key": "NSE_EQ|INE959A01019",
+      "symbol": "PRIVISCL",
+      "close_to_close_return": -0.5,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-10-01",
+      "instrument_key": "NSE_EQ|INE959A01019",
+      "symbol": "PRIVISCL",
+      "close_to_close_return": 1.0,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-10-05",
+      "instrument_key": "NSE_EQ|INE959A01019",
+      "symbol": "PRIVISCL",
+      "close_to_close_return": -0.5,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-10-10",
+      "instrument_key": "NSE_EQ|INE959A01019",
+      "symbol": "PRIVISCL",
+      "close_to_close_return": 1.0,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-10-11",
+      "instrument_key": "NSE_EQ|INE959A01019",
+      "symbol": "PRIVISCL",
+      "close_to_close_return": -0.5,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-10-15",
+      "instrument_key": "NSE_EQ|INE959A01019",
+      "symbol": "PRIVISCL",
+      "close_to_close_return": 1.0,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-10-16",
+      "instrument_key": "NSE_EQ|INE347W01011",
+      "symbol": "MAGADSUGAR",
+      "close_to_close_return": 0.4600443951165374,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-10-16",
+      "instrument_key": "NSE_EQ|INE546V01010",
+      "symbol": "EIFFL",
+      "close_to_close_return": -0.9040114613180515,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-10-17",
+      "instrument_key": "NSE_EQ|INE546V01010",
+      "symbol": "EIFFL",
+      "close_to_close_return": 9.233830845771143,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-10-17",
+      "instrument_key": "NSE_EQ|INE959A01019",
+      "symbol": "PRIVISCL",
+      "close_to_close_return": -0.5,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-10-19",
+      "instrument_key": "NSE_EQ|INE00PV01013",
+      "symbol": "AHLADA",
+      "close_to_close_return": 6.426283218056062,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-10-22",
+      "instrument_key": "NSE_EQ|INE00PV01013",
+      "symbol": "AHLADA",
+      "close_to_close_return": -0.8696078431372549,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-10-29",
+      "instrument_key": "NSE_EQ|INE959A01019",
+      "symbol": "PRIVISCL",
+      "close_to_close_return": 1.0,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-11-02",
+      "instrument_key": "NSE_EQ|INE959A01019",
+      "symbol": "PRIVISCL",
+      "close_to_close_return": -0.5,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-11-06",
+      "instrument_key": "NSE_EQ|INE806C01018",
+      "symbol": "TIL",
+      "close_to_close_return": -0.9659294680215182,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-11-12",
+      "instrument_key": "NSE_EQ|INE869Y01028",
+      "symbol": "TEMBO",
+      "close_to_close_return": -0.9577464788732395,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-11-16",
+      "instrument_key": "NSE_EQ|INE546V01010",
+      "symbol": "EIFFL",
+      "close_to_close_return": -0.9217898832684825,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-11-19",
+      "instrument_key": "NSE_EQ|INE00PV01013",
+      "symbol": "AHLADA",
+      "close_to_close_return": 6.1328671328671325,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-11-19",
+      "instrument_key": "NSE_EQ|INE546V01010",
+      "symbol": "EIFFL",
+      "close_to_close_return": 11.800995024875622,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-11-20",
+      "instrument_key": "NSE_EQ|INE00PV01013",
+      "symbol": "AHLADA",
+      "close_to_close_return": -0.861764705882353,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2018-11-28",
+      "instrument_key": "NSE_EQ|INE034A01011",
+      "symbol": "ARVIND",
+      "close_to_close_return": -0.563592525617842,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2019-02-06",
+      "instrument_key": "NSE_EQ|INE959A01019",
+      "symbol": "PRIVISCL",
+      "close_to_close_return": 1.0,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2019-02-13",
+      "instrument_key": "NSE_EQ|INE959A01019",
+      "symbol": "PRIVISCL",
+      "close_to_close_return": -0.5,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2019-02-18",
+      "instrument_key": "NSE_EQ|INE959A01019",
+      "symbol": "PRIVISCL",
+      "close_to_close_return": 1.0,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2019-04-04",
+      "instrument_key": "NSE_EQ|INE980Y01015",
+      "symbol": "SOUTHWEST",
+      "close_to_close_return": -0.46328671328671334,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2019-04-15",
+      "instrument_key": "NSE_EQ|INE263W01010",
+      "symbol": "MAHESHWARI",
+      "close_to_close_return": -0.46449829931972786,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2019-04-22",
+      "instrument_key": "NSE_EQ|INE645W01026",
+      "symbol": "AIRAN",
+      "close_to_close_return": -0.4899777282850779,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2019-05-02",
+      "instrument_key": "NSE_EQ|INE813V01022",
+      "symbol": "MCL",
+      "close_to_close_return": -0.4764890282131662,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2019-05-06",
+      "instrument_key": "NSE_EQ|INE813V01022",
+      "symbol": "MCL",
+      "close_to_close_return": 1.0321100917431192,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2019-05-06",
+      "instrument_key": "NSE_EQ|INE082W01014",
+      "symbol": "WEWIN",
+      "close_to_close_return": 0.48594377510040165,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2019-05-22",
+      "instrument_key": "NSE_EQ|INE082W01014",
+      "symbol": "WEWIN",
+      "close_to_close_return": 0.42886178861788604,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2019-05-30",
+      "instrument_key": "NSE_EQ|INE498A01018",
+      "symbol": "DCM",
+      "close_to_close_return": -0.4903306300686213,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2019-05-30",
+      "instrument_key": "NSE_EQ|INE530B01024",
+      "symbol": "IIFL",
+      "close_to_close_return": -0.5220715166461158,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2019-06-25",
+      "instrument_key": "NSE_EQ|INE985W01018",
+      "symbol": "CNL",
+      "close_to_close_return": -0.47504835589941974,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2019-08-13",
+      "instrument_key": "NSE_EQ|INE418N01035",
+      "symbol": "ESSENTIA",
+      "close_to_close_return": 0.4999999999999998,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2019-08-19",
+      "instrument_key": "NSE_EQ|INE415A01038",
+      "symbol": "AGI",
+      "close_to_close_return": -0.682192485846629,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2019-08-22",
+      "instrument_key": "NSE_EQ|INE082W01014",
+      "symbol": "WEWIN",
+      "close_to_close_return": 0.5749318801089915,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2019-08-28",
+      "instrument_key": "NSE_EQ|INE082W01014",
+      "symbol": "WEWIN",
+      "close_to_close_return": 0.5039370078740155,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2019-09-26",
+      "instrument_key": "NSE_EQ|INE082W01014",
+      "symbol": "WEWIN",
+      "close_to_close_return": 0.4890710382513661,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2019-10-07",
+      "instrument_key": "NSE_EQ|INE418N01035",
+      "symbol": "ESSENTIA",
+      "close_to_close_return": 0.4999999999999998,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2019-10-11",
+      "instrument_key": "NSE_EQ|INE055A01016",
+      "symbol": "ABREL",
+      "close_to_close_return": -0.553559283609159,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2019-10-31",
+      "instrument_key": "NSE_EQ|INE082W01014",
+      "symbol": "WEWIN",
+      "close_to_close_return": 0.47988505747126453,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2019-11-14",
+      "instrument_key": "NSE_EQ|INE082W01014",
+      "symbol": "WEWIN",
+      "close_to_close_return": 0.4109195402298853,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2019-11-20",
+      "instrument_key": "NSE_EQ|INE418N01035",
+      "symbol": "ESSENTIA",
+      "close_to_close_return": 0.4999999999999998,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2019-12-16",
+      "instrument_key": "NSE_EQ|INE418N01035",
+      "symbol": "ESSENTIA",
+      "close_to_close_return": 0.4999999999999998,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2020-01-07",
+      "instrument_key": "NSE_EQ|INE082W01014",
+      "symbol": "WEWIN",
+      "close_to_close_return": 0.5337423312883436,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2020-01-21",
+      "instrument_key": "NSE_EQ|INE495B01038",
+      "symbol": "SUVEN",
+      "close_to_close_return": -0.94706517824991,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2020-01-29",
+      "instrument_key": "NSE_EQ|INE082W01014",
+      "symbol": "WEWIN",
+      "close_to_close_return": 0.41369047619047605,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2020-02-04",
+      "instrument_key": "NSE_EQ|INE082W01014",
+      "symbol": "WEWIN",
+      "close_to_close_return": 0.4731861198738172,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2020-02-13",
+      "instrument_key": "NSE_EQ|INE082W01014",
+      "symbol": "WEWIN",
+      "close_to_close_return": 0.5828025477707008,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2020-02-17",
+      "instrument_key": "NSE_EQ|INE082W01014",
+      "symbol": "WEWIN",
+      "close_to_close_return": 0.6838709677419357,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2020-02-17",
+      "instrument_key": "NSE_EQ|INE959A01019",
+      "symbol": "PRIVISCL",
+      "close_to_close_return": 0.4999999999999998,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2020-02-18",
+      "instrument_key": "NSE_EQ|INE082W01014",
+      "symbol": "WEWIN",
+      "close_to_close_return": -0.43486590038314177,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2020-02-19",
+      "instrument_key": "NSE_EQ|INE669E01016",
+      "symbol": "IDEA",
+      "close_to_close_return": 0.40000000000000013,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2020-02-19",
+      "instrument_key": "NSE_EQ|INE082W01014",
+      "symbol": "WEWIN",
+      "close_to_close_return": 0.8542372881355933,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2020-02-19",
+      "instrument_key": "NSE_EQ|INE959A01019",
+      "symbol": "PRIVISCL",
+      "close_to_close_return": 0.4999999999999998,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2020-02-24",
+      "instrument_key": "NSE_EQ|INE082W01014",
+      "symbol": "WEWIN",
+      "close_to_close_return": -0.4744268077601411,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2020-02-26",
+      "instrument_key": "NSE_EQ|INE082W01014",
+      "symbol": "WEWIN",
+      "close_to_close_return": 0.9965986394557824,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2020-02-26",
+      "instrument_key": "NSE_EQ|INE959A01019",
+      "symbol": "PRIVISCL",
+      "close_to_close_return": 0.4999999999999998,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2020-03-02",
+      "instrument_key": "NSE_EQ|INE082W01014",
+      "symbol": "WEWIN",
+      "close_to_close_return": -0.4962264150943396,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2020-03-03",
+      "instrument_key": "NSE_EQ|INE082W01014",
+      "symbol": "WEWIN",
+      "close_to_close_return": 0.8838951310861423,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2020-03-03",
+      "instrument_key": "NSE_EQ|INE959A01019",
+      "symbol": "PRIVISCL",
+      "close_to_close_return": 0.4999999999999998,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2020-03-04",
+      "instrument_key": "NSE_EQ|INE082W01014",
+      "symbol": "WEWIN",
+      "close_to_close_return": -0.48310139165009935,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2020-03-04",
+      "instrument_key": "NSE_EQ|INE092A01019",
+      "symbol": "TATACHEM",
+      "close_to_close_return": -0.5623567011741819,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2020-03-06",
+      "instrument_key": "NSE_EQ|INE528G01035",
+      "symbol": "YESBANK",
+      "close_to_close_return": -0.5611413043478262,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2020-03-06",
+      "instrument_key": "NSE_EQ|INE082W01014",
+      "symbol": "WEWIN",
+      "close_to_close_return": 0.7638376383763836,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2020-03-11",
+      "instrument_key": "NSE_EQ|INE082W01014",
+      "symbol": "WEWIN",
+      "close_to_close_return": -0.5208791208791208,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2020-03-12",
+      "instrument_key": "NSE_EQ|INE082W01014",
+      "symbol": "WEWIN",
+      "close_to_close_return": 0.9816513761467891,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2020-03-13",
+      "instrument_key": "NSE_EQ|INE082W01014",
+      "symbol": "WEWIN",
+      "close_to_close_return": -0.5347222222222222,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2020-03-16",
+      "instrument_key": "NSE_EQ|INE528G01035",
+      "symbol": "YESBANK",
+      "close_to_close_return": 0.452054794520548,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2020-03-16",
+      "instrument_key": "NSE_EQ|INE082W01014",
+      "symbol": "WEWIN",
+      "close_to_close_return": 1.044776119402985,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2020-03-16",
+      "instrument_key": "NSE_EQ|INE080A01014",
+      "symbol": "WEIZMANIND",
+      "close_to_close_return": -0.4004282655246253,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2020-03-17",
+      "instrument_key": "NSE_EQ|INE528G01035",
+      "symbol": "YESBANK",
+      "close_to_close_return": 0.5808625336927222,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2020-03-18",
+      "instrument_key": "NSE_EQ|INE082W01014",
+      "symbol": "WEWIN",
+      "close_to_close_return": -0.5179487179487179,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2020-03-19",
+      "instrument_key": "NSE_EQ|INE082W01014",
+      "symbol": "WEWIN",
+      "close_to_close_return": 0.9840425531914891,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2020-03-23",
+      "instrument_key": "NSE_EQ|INE959A01019",
+      "symbol": "PRIVISCL",
+      "close_to_close_return": -0.5,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2020-03-24",
+      "instrument_key": "NSE_EQ|INE03QK01018",
+      "symbol": "COHANCE",
+      "close_to_close_return": -0.5271689497716895,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2020-03-24",
+      "instrument_key": "NSE_EQ|INE959A01019",
+      "symbol": "PRIVISCL",
+      "close_to_close_return": 1.0,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2020-03-26",
+      "instrument_key": "NSE_EQ|INE095A01012",
+      "symbol": "INDUSINDBK",
+      "close_to_close_return": 0.4467308330567539,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2020-06-11",
+      "instrument_key": "NSE_EQ|INE418N01035",
+      "symbol": "ESSENTIA",
+      "close_to_close_return": 0.4999999999999998,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2020-07-10",
+      "instrument_key": "NSE_EQ|INE959A01019",
+      "symbol": "PRIVISCL",
+      "close_to_close_return": 0.4999999999999998,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2020-07-15",
+      "instrument_key": "NSE_EQ|INE959A01019",
+      "symbol": "PRIVISCL",
+      "close_to_close_return": 0.4999999999999998,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2020-07-20",
+      "instrument_key": "NSE_EQ|INE0D6I01023",
+      "symbol": "KSOLVES",
+      "close_to_close_return": -0.7516587677725118,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2020-07-20",
+      "instrument_key": "NSE_EQ|INE959A01019",
+      "symbol": "PRIVISCL",
+      "close_to_close_return": 0.4999999999999998,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2020-07-23",
+      "instrument_key": "NSE_EQ|INE959A01019",
+      "symbol": "PRIVISCL",
+      "close_to_close_return": 0.4999999999999998,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2020-08-07",
+      "instrument_key": "NSE_EQ|INE959A01019",
+      "symbol": "PRIVISCL",
+      "close_to_close_return": 0.4999999999999998,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2020-08-21",
+      "instrument_key": "NSE_EQ|INE959A01019",
+      "symbol": "PRIVISCL",
+      "close_to_close_return": 3688.0000000000005,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2020-10-29",
+      "instrument_key": "NSE_EQ|INE060901027",
+      "symbol": "LIKHITHA",
+      "close_to_close_return": -0.5028125,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2020-12-23",
+      "instrument_key": "NSE_EQ|INE898S01029",
+      "symbol": "AURUM",
+      "close_to_close_return": -0.987590630228667,
+      "previous_close_weights": {
+        "C0-R": 0.04974871969155679,
+        "C1-R": 0.025283184337345093,
+        "C2-S": 0.050361185454029775
+      }
+    },
+    {
+      "session": "2021-02-02",
+      "instrument_key": "NSE_EQ|INE715Y01031",
+      "symbol": "SHRADHA",
+      "close_to_close_return": 0.9727891156462585,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2021-02-02",
+      "instrument_key": "NSE_EQ|INE032Z01020",
+      "symbol": "BSHSL",
+      "close_to_close_return": 9.313653136531364,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2021-02-02",
+      "instrument_key": "NSE_EQ|INE581X01021",
+      "symbol": "GLOBE",
+      "close_to_close_return": -0.6717171717171717,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2021-04-27",
+      "instrument_key": "NSE_EQ|INE715Y01031",
+      "symbol": "SHRADHA",
+      "close_to_close_return": -0.4979865771812081,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2021-04-27",
+      "instrument_key": "NSE_EQ|INE032Z01020",
+      "symbol": "BSHSL",
+      "close_to_close_return": -0.8961977186311787,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2021-05-20",
+      "instrument_key": "NSE_EQ|INE820Y01021",
+      "symbol": "AJOONI",
+      "close_to_close_return": 4.166666666666666,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2021-07-20",
+      "instrument_key": "NSE_EQ|INE820Y01021",
+      "symbol": "AJOONI",
+      "close_to_close_return": -0.8045563549160671,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2021-07-29",
+      "instrument_key": "NSE_EQ|INE032Z01020",
+      "symbol": "BSHSL",
+      "close_to_close_return": 9.2,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2021-09-06",
+      "instrument_key": "NSE_EQ|INE0D6I01023",
+      "symbol": "KSOLVES",
+      "close_to_close_return": -0.48519548503189924,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2021-10-12",
+      "instrument_key": "NSE_EQ|INE032Z01020",
+      "symbol": "BSHSL",
+      "close_to_close_return": -0.9008852629751779,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2022-01-10",
+      "instrument_key": "NSE_EQ|INE0A1101019",
+      "symbol": "DCI",
+      "close_to_close_return": -0.5458333333333334,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2022-03-29",
+      "instrument_key": "NSE_EQ|INE032Z01020",
+      "symbol": "BSHSL",
+      "close_to_close_return": 8.8380716934487,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2022-05-06",
+      "instrument_key": "NSE_EQ|INE626Z01029",
+      "symbol": "HARDWYN",
+      "close_to_close_return": 11.65196850393701,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2022-05-06",
+      "instrument_key": "NSE_EQ|INE060X01034",
+      "symbol": "DEVIT",
+      "close_to_close_return": 0.900974858902001,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2022-06-07",
+      "instrument_key": "NSE_EQ|INE663A01033",
+      "symbol": "SPLPETRO",
+      "close_to_close_return": -0.49103942652329746,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2022-06-21",
+      "instrument_key": "NSE_EQ|INE626Z01029",
+      "symbol": "HARDWYN",
+      "close_to_close_return": -0.9259030183077684,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2022-06-21",
+      "instrument_key": "NSE_EQ|INE032Z01020",
+      "symbol": "BSHSL",
+      "close_to_close_return": -0.8987828315182576,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2022-06-21",
+      "instrument_key": "NSE_EQ|INE060X01034",
+      "symbol": "DEVIT",
+      "close_to_close_return": -0.4791736087970676,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2022-07-14",
+      "instrument_key": "NSE_EQ|INE00LM01029",
+      "symbol": "SONAMLTD",
+      "close_to_close_return": -0.4909706546275394,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2022-09-06",
+      "instrument_key": "NSE_EQ|INE390H01020",
+      "symbol": "KAMDHENU",
+      "close_to_close_return": -0.4650735294117647,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2022-09-22",
+      "instrument_key": "NSE_EQ|INE715Y01031",
+      "symbol": "SHRADHA",
+      "close_to_close_return": 0.9966442953020136,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2022-09-22",
+      "instrument_key": "NSE_EQ|INE382T01030",
+      "symbol": "GVPTECH",
+      "close_to_close_return": 4.481481481481482,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2022-10-27",
+      "instrument_key": "NSE_EQ|INE584A01023",
+      "symbol": "NMDC",
+      "close_to_close_return": 0.9570552147239262,
+      "previous_close_weights": {
+        "C2-S": 0.009584694499279964
+      }
+    },
+    {
+      "session": "2022-11-22",
+      "instrument_key": "NSE_EQ|INE353A01023",
+      "symbol": "NDLVENTURE",
+      "close_to_close_return": -0.8422438465941614,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2022-12-06",
+      "instrument_key": "NSE_EQ|INE715Y01031",
+      "symbol": "SHRADHA",
+      "close_to_close_return": -0.5067567567567568,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2022-12-06",
+      "instrument_key": "NSE_EQ|INE382T01030",
+      "symbol": "GVPTECH",
+      "close_to_close_return": -0.7966008771929824,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2023-01-12",
+      "instrument_key": "NSE_EQ|INE01KI01027",
+      "symbol": "VINNY",
+      "close_to_close_return": -0.9543350817648873,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2023-03-10",
+      "instrument_key": "NSE_EQ|INE705X01026",
+      "symbol": "GOYALALUM",
+      "close_to_close_return": -0.8992990254744401,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2023-03-29",
+      "instrument_key": "NSE_EQ|INE771A01026",
+      "symbol": "MIRZAINT",
+      "close_to_close_return": -0.7658783783783784,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2023-06-08",
+      "instrument_key": "NSE_EQ|INE161A01038",
+      "symbol": "NIITLTD",
+      "close_to_close_return": -0.7613468179575728,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2023-12-05",
+      "instrument_key": "NSE_EQ|INE02PY01013",
+      "symbol": "BOROLTD",
+      "close_to_close_return": 0.5764631843927,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2024-09-20",
+      "instrument_key": "NSE_EQ|INE847C01020",
+      "symbol": "ROSSELLIND",
+      "close_to_close_return": -0.7251668945548138,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2024-10-25",
+      "instrument_key": "NSE_EQ|INE450E01029",
+      "symbol": "SUKHJITS",
+      "close_to_close_return": -0.5258278145695364,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2024-10-28",
+      "instrument_key": "NSE_EQ|INE885F01015",
+      "symbol": "MASKINVEST",
+      "close_to_close_return": 0.46899951399014106,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2024-12-06",
+      "instrument_key": "NSE_EQ|INE939A01011",
+      "symbol": "STAR",
+      "close_to_close_return": -0.5403858455944244,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2025-03-10",
+      "instrument_key": "NSE_EQ|INE087A01019",
+      "symbol": "KESORAMIND",
+      "close_to_close_return": -0.9525693630324346,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2025-04-07",
+      "instrument_key": "NSE_EQ|INE003A01024",
+      "symbol": "SIEMENS",
+      "close_to_close_return": -0.4293091728133275,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2025-04-15",
+      "instrument_key": "NSE_EQ|INE615P01015",
+      "symbol": "QUESS",
+      "close_to_close_return": -0.5070259547032567,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2025-05-14",
+      "instrument_key": "NSE_EQ|INE301A01014",
+      "symbol": "RAYMOND",
+      "close_to_close_return": -0.6476379211148756,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2025-05-22",
+      "instrument_key": "NSE_EQ|INE647O01011",
+      "symbol": "ABFRL",
+      "close_to_close_return": -0.6659230340211935,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2025-06-20",
+      "instrument_key": "NSE_EQ|INE235C01036",
+      "symbol": "SUMEETINDS",
+      "close_to_close_return": -0.7900285918513223,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2025-07-11",
+      "instrument_key": "NSE_EQ|INE771F01041",
+      "symbol": "FISCHER",
+      "close_to_close_return": -0.8910871946896952,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2025-08-14",
+      "instrument_key": "NSE_EQ|INE366I01010",
+      "symbol": "VRLLOG",
+      "close_to_close_return": -0.4974446337308347,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2025-09-24",
+      "instrument_key": "NSE_EQ|INE274V01019",
+      "symbol": "SHANKARA",
+      "close_to_close_return": -0.7554265522463403,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2025-10-14",
+      "instrument_key": "NSE_EQ|INE155A01022",
+      "symbol": "TMPV",
+      "close_to_close_return": -0.4015134317063943,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2025-10-15",
+      "instrument_key": "NSE_EQ|INE640A01023",
+      "symbol": "SKFINDIA",
+      "close_to_close_return": -0.5475401325772702,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2025-10-16",
+      "instrument_key": "NSE_EQ|INE296Q01012",
+      "symbol": "MONEYBOXX",
+      "close_to_close_return": -0.4586485123550176,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2025-11-12",
+      "instrument_key": "NSE_EQ|INE418H01029",
+      "symbol": "ALLCARGO",
+      "close_to_close_return": -0.6492471213463241,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2026-02-18",
+      "instrument_key": "NSE_EQ|INE888C01040",
+      "symbol": "SADHNANIQ",
+      "close_to_close_return": -0.7040998217468806,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2026-03-20",
+      "instrument_key": "NSE_EQ|INE843B01013",
+      "symbol": "MAHAPEXLTD",
+      "close_to_close_return": -0.5551615445232467,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2026-04-30",
+      "instrument_key": "NSE_EQ|INE205A01025",
+      "symbol": "VEDL",
+      "close_to_close_return": -0.6489788004136505,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2026-06-02",
+      "instrument_key": "NSE_EQ|INE878E01021",
+      "symbol": "SETCO",
+      "close_to_close_return": -0.44339622641509435,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2026-07-22",
+      "instrument_key": "NSE_EQ|INE256C01024",
+      "symbol": "TRIVENI",
+      "close_to_close_return": -0.41569459172852596,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2026-09-02",
+      "instrument_key": "NSE_EQ|INE560A01023",
+      "symbol": "INDIAGLYCO",
+      "close_to_close_return": -0.7875326077179096,
+      "previous_close_weights": {}
+    },
+    {
+      "session": "2026-09-07",
+      "instrument_key": "NSE_EQ|INE545A01024",
+      "symbol": "HEGAM",
+      "close_to_close_return": -0.6262272571232407,
+      "previous_close_weights": {}
+    }
+  ],
+  "incomplete_sessions": [
+    {
+      "session": "2017-10-19",
+      "missing": 296,
+      "required": 300
+    },
+    {
+      "session": "2018-11-07",
+      "missing": 297,
+      "required": 300
+    },
+    {
+      "session": "2018-11-09",
+      "missing": 2,
+      "required": 23
+    }
+  ],
+  "quality_policy": "Baseline uses the frozen economic engine; a separately reported stress masks all prices on the three >2% incomplete sessions. Paper operational gates would pause on those sessions.",
+  "universe_counts_by_year": {
+    "2016": {
+      "min": 300,
+      "median": 300.0
+    },
+    "2017": {
+      "min": 10,
+      "median": 300.0
+    },
+    "2018": {
+      "min": 23,
+      "median": 300.0
+    },
+    "2019": {
+      "min": 300,
+      "median": 300.0
+    },
+    "2020": {
+      "min": 300,
+      "median": 300.0
+    },
+    "2021": {
+      "min": 300,
+      "median": 300.0
+    },
+    "2022": {
+      "min": 300,
+      "median": 300.0
+    },
+    "2023": {
+      "min": 300,
+      "median": 300.0
+    },
+    "2024": {
+      "min": 300,
+      "median": 300.0
+    },
+    "2025": {
+      "min": 300,
+      "median": 300.0
+    },
+    "2026": {
+      "min": 300,
+      "median": 300.0
+    }
+  },
+  "limitations": [
+    "Survivorship bias: frozen retained stock list; delisted securities are not comprehensively represented",
+    "Static industry labels and frozen panel admission use later information",
+    "Price returns only; dividends, spinoff entitlements and cash interest are not credited",
+    "617 corporate-action records cover only a recent feed window; older split/demerger validation is incomplete",
+    "Official-opening-price fills are theoretical, not observed executable fills",
+    "C0-R-X cannot be validated without historical auction evidence",
+    "Reference engine replay: missing-bar sessions retain last valid marks; this is not a claim that all paper operational gates would have permitted uninterrupted processing",
+    "Retrospective versioned research; not an unbiased live-performance estimate"
+  ],
+  "generated_at": "2026-11-15T02:12:15.545407+05:30",
+  "real_orders_submitted": 0
+}

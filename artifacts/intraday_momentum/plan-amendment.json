@@ -1,0 +1,20 @@
+{
+  "amended_at": "2026-11-15T15:38:02.422302+05:30",
+  "reason": "Verified provider back-adjustment requires contemporaneous units for the lagged rupee price floor. Before all strategy P&L.",
+  "previous_plan_sha256": "974023901ea05ceef28ba4cbb76ee83b2c7e6f90b6515b99fe1faab3b1d88a51",
+  "previous_manifest_sha256": "e5e16f13451a727d0f17782dac238bb48b5b63a4254ee4c97e3b2ec7d0c586f3",
+  "new_plan_sha256": "fbd8541427cbc738781be3896126e29db676c2e76c386d768f2072e7318cb284",
+  "archived_at": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\intraday_momentum\\plan-versions\\v1-before-unit-correction",
+  "added_jobs": [
+    "NSE_EQ|INE0FS801015|2025-03",
+    "NSE_EQ|INE0FS801015|2025-04"
+  ],
+  "added_candidates": [
+    [
+      "NSE_EQ|INE0FS801015",
+      "2025-04-07"
+    ]
+  ],
+  "reused_source_jobs": 4853,
+  "old_requests_unchanged": true
+}

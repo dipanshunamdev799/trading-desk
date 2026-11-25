@@ -1,0 +1,49 @@
+{
+  "registered_at": "2026-11-24T12:04:06.396734+05:30",
+  "links": {
+    "technology": [
+      "NASDAQCOM"
+    ],
+    "volatility": [
+      "VIXCLS",
+      "x_global_vol"
+    ],
+    "oil_currency": [
+      "g_BZUSD_ret5",
+      "g_USDINR_ret5",
+      "x_oil_fx"
+    ],
+    "rates": [
+      "DGS10"
+    ],
+    "asia": [
+      "asian_dispersion",
+      "g_^HSI_ret5",
+      "g_^N225_ret5"
+    ]
+  },
+  "requested": {
+    "technology": [
+      "NASDAQCOM"
+    ],
+    "volatility": [
+      "VIXCLS",
+      "x_global_vol"
+    ],
+    "oil_currency": [
+      "g_BZUSD_ret5",
+      "g_USDINR_ret5",
+      "x_oil_fx"
+    ],
+    "rates": [
+      "DGS10"
+    ],
+    "asia": [
+      "asian_dispersion",
+      "g_^HSI_ret5",
+      "g_^N225_ret5"
+    ]
+  },
+  "targets": "IT relative to NIFTY, future synchrony, defensive-minus-cyclical return, Financial Services relative return, endpoint sector participation.",
+  "development": "V3 frozen development origins plus primary. Fit each targeted Ridge model on matured labels only."
+}

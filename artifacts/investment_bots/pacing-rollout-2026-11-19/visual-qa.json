@@ -1,0 +1,10 @@
+{
+  "visual_gate_status": "FAIL",
+  "visual_gate_open_findings": 50,
+  "waivers": [],
+  "page_overflow_check": "PASS",
+  "mobile_cut_text_check": "PASS",
+  "narrow_overflow_findings": [],
+  "source_report": "frontend/.taste-skill/gate/consistency/report.json",
+  "scope": "Paper allocation functionality complete. Full-site design findings remain, including marketing-layout rules and third-party shader-lint false positives."
+}

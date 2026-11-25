@@ -1,0 +1,183 @@
+{
+  "methods": [
+    "TRADE",
+    "LIQUID",
+    "SETTLEMENT",
+    "RATE_ZERO",
+    "RATE_HIGH",
+    "SMOOTH",
+    "TRUNCATED",
+    "FUTURE_FORWARD"
+  ],
+  "expiry_method_rows": 22392,
+  "date_expiries": 2799,
+  "density_archive": {
+    "path": "option-density-atoms.npz",
+    "forecasts": 19389,
+    "atoms": 1171912,
+    "sha256": "44c29c0a6ac8eb8250df6fd8390b9b0a10c7adb93e7a036e45991396948fecbc"
+  },
+  "iv_and_density_denominators": [
+    {
+      "method": "FUTURE_FORWARD",
+      "iv_status": "accepted",
+      "n": 2559
+    },
+    {
+      "method": "FUTURE_FORWARD",
+      "iv_status": "fewer than five near parity pairs",
+      "n": 216
+    },
+    {
+      "method": "FUTURE_FORWARD",
+      "iv_status": "no two traded sides",
+      "n": 13
+    },
+    {
+      "method": "FUTURE_FORWARD",
+      "iv_status": "too few valid two-sided IVs",
+      "n": 11
+    },
+    {
+      "method": "LIQUID",
+      "iv_status": "accepted",
+      "n": 2239
+    },
+    {
+      "method": "LIQUID",
+      "iv_status": "fewer than five near parity pairs",
+      "n": 407
+    },
+    {
+      "method": "LIQUID",
+      "iv_status": "no two traded sides",
+      "n": 148
+    },
+    {
+      "method": "LIQUID",
+      "iv_status": "too few valid two-sided IVs",
+      "n": 5
+    },
+    {
+      "method": "RATE_HIGH",
+      "iv_status": "accepted",
+      "n": 2559
+    },
+    {
+      "method": "RATE_HIGH",
+      "iv_status": "fewer than five near parity pairs",
+      "n": 216
+    },
+    {
+      "method": "RATE_HIGH",
+      "iv_status": "no two traded sides",
+      "n": 13
+    },
+    {
+      "method": "RATE_HIGH",
+      "iv_status": "too few valid two-sided IVs",
+      "n": 11
+    },
+    {
+      "method": "RATE_ZERO",
+      "iv_status": "accepted",
+      "n": 2559
+    },
+    {
+      "method": "RATE_ZERO",
+      "iv_status": "fewer than five near parity pairs",
+      "n": 216
+    },
+    {
+      "method": "RATE_ZERO",
+      "iv_status": "no two traded sides",
+      "n": 13
+    },
+    {
+      "method": "RATE_ZERO",
+      "iv_status": "too few valid two-sided IVs",
+      "n": 11
+    },
+    {
+      "method": "SETTLEMENT",
+      "iv_status": "accepted",
+      "n": 2559
+    },
+    {
+      "method": "SETTLEMENT",
+      "iv_status": "fewer than five near parity pairs",
+      "n": 216
+    },
+    {
+      "method": "SETTLEMENT",
+      "iv_status": "no two traded sides",
+      "n": 13
+    },
+    {
+      "method": "SETTLEMENT",
+      "iv_status": "too few valid two-sided IVs",
+      "n": 11
+    },
+    {
+      "method": "SMOOTH",
+      "iv_status": "accepted",
+      "n": 2559
+    },
+    {
+      "method": "SMOOTH",
+      "iv_status": "fewer than five near parity pairs",
+      "n": 216
+    },
+    {
+      "method": "SMOOTH",
+      "iv_status": "no two traded sides",
+      "n": 13
+    },
+    {
+      "method": "SMOOTH",
+      "iv_status": "too few valid two-sided IVs",
+      "n": 11
+    },
+    {
+      "method": "TRADE",
+      "iv_status": "accepted",
+      "n": 2559
+    },
+    {
+      "method": "TRADE",
+      "iv_status": "fewer than five near parity pairs",
+      "n": 216
+    },
+    {
+      "method": "TRADE",
+      "iv_status": "no two traded sides",
+      "n": 13
+    },
+    {
+      "method": "TRADE",
+      "iv_status": "too few valid two-sided IVs",
+      "n": 11
+    },
+    {
+      "method": "TRUNCATED",
+      "iv_status": "accepted",
+      "n": 2559
+    },
+    {
+      "method": "TRUNCATED",
+      "iv_status": "fewer than five near parity pairs",
+      "n": 216
+    },
+    {
+      "method": "TRUNCATED",
+      "iv_status": "no two traded sides",
+      "n": 13
+    },
+    {
+      "method": "TRUNCATED",
+      "iv_status": "too few valid two-sided IVs",
+      "n": 11
+    }
+  ],
+  "interpretation": "Risk-neutral conditional pricing diagnostics. F-normalized atom has mean one. Exact wings are not identified; constrained mass, clipping and acceptance details are logged."
+}

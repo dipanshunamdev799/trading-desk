@@ -1,0 +1,34 @@
+[
+  {
+    "series": "DGS10",
+    "ok": false,
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10&cosd=2025-01-01&coed=2026-11-18",
+    "sent": "2026-11-18T22:26:30.743584+05:30",
+    "received": "2026-11-18T22:26:51.045691+05:30",
+    "error": "ReadTimeout"
+  },
+  {
+    "series": "DGS2",
+    "ok": false,
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS2&cosd=2025-01-01&coed=2026-11-18",
+    "sent": "2026-11-18T22:26:51.046112+05:30",
+    "received": "2026-11-18T22:27:11.361192+05:30",
+    "error": "ReadTimeout"
+  },
+  {
+    "series": "DTWEXBGS",
+    "ok": false,
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DTWEXBGS&cosd=2025-01-01&coed=2026-11-18",
+    "sent": "2026-11-18T22:27:11.361659+05:30",
+    "received": "2026-11-18T22:27:31.775746+05:30",
+    "error": "ReadTimeout"
+  },
+  {
+    "series": "VIXCLS",
+    "ok": false,
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=VIXCLS&cosd=2025-01-01&coed=2026-11-18",
+    "sent": "2026-11-18T22:27:31.776298+05:30",
+    "received": "2026-11-18T22:27:52.074278+05:30",
+    "error": "ReadTimeout"
+  }
+]

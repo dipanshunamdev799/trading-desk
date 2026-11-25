@@ -1,0 +1,56 @@
+{
+  "generated_at": "2026-11-15T22:03:16.675003+05:30",
+  "plan_sha256": "3d8ca23fb92c523ac98fe752f96d77264b71dacd1fb8e7a6d9cfa2ddde2a7a9c",
+  "acquisition_sha256": "95a55d521251af23d8faf078987dd532c9ba571af85190b413c8f00a9338f6d5",
+  "code": {
+    "research\\intraday_momentum\\costs.py": "a4bd94f333f8b0e8e7205c77ea249ee758c98db20f4dcc7dcc1cacb5af4a180e",
+    "research\\intraday_momentum\\data.py": "ff98280bfba2e0cb42adb9fd14692cd68d8ebfc957d60b6e73f4a9e7fa359e29",
+    "research\\intraday_momentum\\engine.py": "7aeaff05adffdc584affab950b9c5ecdadca37fafa96c7e5e23372c3609cda0f",
+    "research\\intraday_momentum\\resolution.py": "ed96ad62b762044a3d08bb89bbd02e9acf3e85295d0e6ac84c219c6879467801",
+    "research\\intraday_momentum\\units.py": "9d531fb9c9e5171755402b55f1fd660b94a24adbda4d18a86819456efd408245",
+    "research\\intraday_momentum_v2\\__init__.py": "9c250c7b8dc47be167ee781c49f7899741470905b27f5a9c44fffcdf1c35b501",
+    "research\\intraday_momentum_v2\\capture.py": "5ef52c56dd6e741fc8c0be772127282c76eceaebbf01a6cef19d99953c00ecd2",
+    "research\\intraday_momentum_v2\\data.py": "06d91ba530a32b80f4427f60a48bef3342f45c5c1b101ab215e13776d774eda3",
+    "research\\intraday_momentum_v2\\FORWARD_CAPTURE_PLAN.md": "9cd802ee7ef9763d48bca2e2a0ba042e82e877cffb0720e3f269c72240123a1a",
+    "research\\intraday_momentum_v2\\H3_DIAGNOSTIC.md": "913f8dfb762c74384a00093e61bae28cebc64c88ec9202fd9a0233ae7cb2724d",
+    "research\\intraday_momentum_v2\\H3_IMPLEMENTATION_CORRECTION.md": "b7a58b9b229f02815abef4331c41f916c79f517634b37d7ee8f6986f98971486",
+    "research\\intraday_momentum_v2\\README.md": "85adf845bee207161b57b96450baaa372edece8969c446929e625e712130f365",
+    "research\\intraday_momentum_v2\\RESEARCH_PLAN.md": "136178d8be00cf5e9d30cd719e59f161fc59d202ddf8731277a5aba5e1b95e16",
+    "research\\intraday_momentum_v2\\resolution.py": "b31f27a72ef53ddec543417c71254cda41b916260178f8ffbf881dccd16bc0f9",
+    "research\\intraday_momentum_v2\\strategy.py": "6f9be38cc385fba389c521382315bd9b86f352d70d81686a6be1b996f1b69c7d",
+    "research\\intraday_momentum_v2\\STRATEGY_DEFINITIONS.md": "171d8ff44ab6c80a99f71486d42765a2aef0a251791c4844db5f4a9e76e5a6d2",
+    "research\\intraday_momentum_v2\\UPSTOX_DATA_AUDIT.md": "8e40545870f32ecd1f57c80d0d6f0563b9a47e60311ad2d66d4c084e2e3bdfb6",
+    "scripts\\run_intraday_momentum.py": "0753624670a316baca93d2de3b5581bceba8487a5bba76269603317950184049",
+    "scripts\\run_intraday_momentum_v2.py": "6bb4b383d3d4aa254d2432fe5bb8caa5d4398668e1ced463996cf170b1b100a5"
+  },
+  "data_sha256": "8d49e465a2f4b8635707b7eabd7472bcb496d92c45741cf580de8600fe01543b",
+  "records": 45740,
+  "calendar_days": 464,
+  "signals": 16154,
+  "periods": {
+    "development": [
+      "2025-01-01",
+      "2025-09-30"
+    ],
+    "validation": [
+      "2025-10-01",
+      "2026-03-31"
+    ],
+    "evaluation": [
+      "2026-04-01",
+      "2026-11-13"
+    ],
+    "full": [
+      "2025-01-01",
+      "2026-11-13"
+    ]
+  },
+  "missing_market_candidates": {},
+  "market_audit": {
+    "missing_or_duplicate_required_bars": 2
+  },
+  "python": "3.15.0",
+  "numpy": "2.5.4",
+  "pandas": "3.1.0",
+  "real_orders_submitted": 0
+}

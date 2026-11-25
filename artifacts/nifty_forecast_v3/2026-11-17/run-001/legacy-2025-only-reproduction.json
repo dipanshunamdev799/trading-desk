@@ -1,0 +1,336 @@
+{
+  "week": {
+    "data_start": "2025-01-01",
+    "no_pre2025_values_or_state": true,
+    "features": 71,
+    "fully_learned": {
+      "n": 54,
+      "origin_period": [
+        "2026-08-24",
+        "2026-11-09"
+      ],
+      "endpoint_period": [
+        "2026-08-28",
+        "2026-11-16"
+      ],
+      "nonoverlapping_n": 11,
+      "always_up_accuracy": 0.42592592592592593,
+      "always_down_accuracy": 0.5740740740740741,
+      "methods": {
+        "neutral": {
+          "n": 54,
+          "brier": 0.25,
+          "accuracy": 0.42592592592592593,
+          "log_loss": 0.6931471805599455,
+          "brier_improvement_vs_neutral": 0.0,
+          "paired_ci95": [
+            0.0,
+            0.0
+          ],
+          "first_half_brier": 0.25,
+          "second_half_brier": 0.25
+        },
+        "rolling_frequency": {
+          "n": 54,
+          "brier": 0.25124224026730024,
+          "accuracy": 0.5740740740740741,
+          "log_loss": 0.6956428767620472,
+          "brier_improvement_vs_neutral": -0.001242240267300221,
+          "paired_ci95": [
+            -0.012036414630136515,
+            0.011658513238777897
+          ],
+          "first_half_brier": 0.23780212700546832,
+          "second_half_brier": 0.2646823535291321
+        },
+        "equal_groups": {
+          "n": 54,
+          "brier": 0.24888285584586825,
+          "accuracy": 0.5740740740740741,
+          "log_loss": 0.6909231293877284,
+          "brier_improvement_vs_neutral": 0.0011171441541316617,
+          "paired_ci95": [
+            -0.016740437251405164,
+            0.018415356815733325
+          ],
+          "first_half_brier": 0.2312077539118297,
+          "second_half_brier": 0.266557957779907
+        },
+        "adaptive_groups": {
+          "n": 54,
+          "brier": 0.2451505758541779,
+          "accuracy": 0.5740740740740741,
+          "log_loss": 0.6833292370647341,
+          "brier_improvement_vs_neutral": 0.004849424145822063,
+          "paired_ci95": [
+            -0.008095533186809731,
+            0.015449371364449094
+          ],
+          "first_half_brier": 0.2360968598617785,
+          "second_half_brier": 0.25420429184657733
+        },
+        "calibrated_adaptive": {
+          "n": 54,
+          "brier": 0.24678866385063666,
+          "accuracy": 0.5740740740740741,
+          "log_loss": 0.686889124472824,
+          "brier_improvement_vs_neutral": 0.003211336149363329,
+          "paired_ci95": [
+            -0.053949187518278235,
+            0.06127093767472502
+          ],
+          "first_half_brier": 0.1792238431433134,
+          "second_half_brier": 0.31435348455795986
+        }
+      },
+      "median_mae_bps": 199.64884074265467,
+      "unconditional_median_mae_bps": 204.80058051325716,
+      "central50_coverage": 0.37037037037037035,
+      "central80_coverage": 0.6666666666666666,
+      "ci_block_length": 10,
+      "ci_minimum_origin_rows": 40,
+      "ci_note": "Conditional moving-block diagnostic"
+    },
+    "all_resolved": {
+      "n": 184,
+      "origin_period": [
+        "2026-02-11",
+        "2026-11-09"
+      ],
+      "endpoint_period": [
+        "2026-02-17",
+        "2026-11-16"
+      ],
+      "nonoverlapping_n": 37,
+      "always_up_accuracy": 0.4076086956521739,
+      "always_down_accuracy": 0.5923913043478262,
+      "methods": {
+        "neutral": {
+          "n": 184,
+          "brier": 0.25,
+          "accuracy": 0.4076086956521739,
+          "log_loss": 0.6931471805599453,
+          "brier_improvement_vs_neutral": 0.0,
+          "paired_ci95": [
+            0.0,
+            0.0
+          ],
+          "first_half_brier": 0.25,
+          "second_half_brier": 0.25
+        },
+        "rolling_frequency": {
+          "n": 184,
+          "brier": 0.25445179629198067,
+          "accuracy": 0.34782608695652173,
+          "log_loss": 0.7020619489272848,
+          "brier_improvement_vs_neutral": -0.004451796291980656,
+          "paired_ci95": [
+            -0.008561341193999103,
+            0.0007966434959519728
+          ],
+          "first_half_brier": 0.25765261107997256,
+          "second_half_brier": 0.2512509815039888
+        },
+        "equal_groups": {
+          "n": 184,
+          "brier": 0.24967214247650482,
+          "accuracy": 0.45108695652173914,
+          "log_loss": 0.6924944698898381,
+          "brier_improvement_vs_neutral": 0.0003278575234951616,
+          "paired_ci95": [
+            -0.004226122942596618,
+            0.005455044006546122
+          ],
+          "first_half_brier": 0.25,
+          "second_half_brier": 0.2493442849530097
+        },
+        "adaptive_groups": {
+          "n": 184,
+          "brier": 0.24857679943546526,
+          "accuracy": 0.45108695652173914,
+          "log_loss": 0.690265827577655,
+          "brier_improvement_vs_neutral": 0.0014232005645347361,
+          "paired_ci95": [
+            -0.0021025844275587378,
+            0.004752748478233577
+          ],
+          "first_half_brier": 0.25,
+          "second_half_brier": 0.2471535988709305
+        },
+        "calibrated_adaptive": {
+          "n": 184,
+          "brier": 0.24905754265181726,
+          "accuracy": 0.45108695652173914,
+          "log_loss": 0.6913105771430728,
+          "brier_improvement_vs_neutral": 0.0009424573481827163,
+          "paired_ci95": [
+            -0.013571345414475768,
+            0.01870793635206523
+          ],
+          "first_half_brier": 0.25,
+          "second_half_brier": 0.24811508530363457
+        }
+      },
+      "median_mae_bps": 173.87147914546395,
+      "unconditional_median_mae_bps": 176.0545359001581,
+      "central50_coverage": 0.43478260869565216,
+      "central80_coverage": 0.6902173913043478,
+      "ci_block_length": 10,
+      "ci_minimum_origin_rows": 40,
+      "ci_note": "Conditional moving-block diagnostic"
+    },
+    "notes": "Original old architecture on fresh 2025-only vintage; differs from old frozen source vintage and sample. Old 252+126 evidence gates leave very few monthly validation origins."
+  },
+  "month": {
+    "data_start": "2025-01-01",
+    "no_pre2025_values_or_state": true,
+    "features": 71,
+    "fully_learned": {
+      "n": 6,
+      "origin_period": [
+        "2026-10-09",
+        "2026-10-16"
+      ],
+      "endpoint_period": [
+        "2026-11-08",
+        "2026-11-16"
+      ],
+      "nonoverlapping_n": 1,
+      "always_up_accuracy": 1.0,
+      "always_down_accuracy": 0.0,
+      "methods": {
+        "neutral": {
+          "n": 6,
+          "brier": 0.25,
+          "accuracy": 1.0,
+          "log_loss": 0.6931471805599453,
+          "brier_improvement_vs_neutral": 0.0,
+          "paired_ci95": null,
+          "first_half_brier": 0.25,
+          "second_half_brier": 0.25
+        },
+        "rolling_frequency": {
+          "n": 6,
+          "brier": 0.17317743586074416,
+          "accuracy": 1.0,
+          "log_loss": 0.5381005808638318,
+          "brier_improvement_vs_neutral": 0.07682256413925584,
+          "paired_ci95": null,
+          "first_half_brier": 0.17136650578176912,
+          "second_half_brier": 0.1749883659397192
+        },
+        "equal_groups": {
+          "n": 6,
+          "brier": 0.15790701829910256,
+          "accuracy": 1.0,
+          "log_loss": 0.5063065005407842,
+          "brier_improvement_vs_neutral": 0.09209298170089746,
+          "paired_ci95": null,
+          "first_half_brier": 0.15493151063415211,
+          "second_half_brier": 0.16088252596405297
+        },
+        "adaptive_groups": {
+          "n": 6,
+          "brier": 0.21501016354819277,
+          "accuracy": 1.0,
+          "log_loss": 0.6229266922892784,
+          "brier_improvement_vs_neutral": 0.03498983645180722,
+          "paired_ci95": null,
+          "first_half_brier": 0.23179302393882673,
+          "second_half_brier": 0.19822730315755885
+        },
+        "calibrated_adaptive": {
+          "n": 6,
+          "brier": 0.23540033974454508,
+          "accuracy": 0.8333333333333334,
+          "log_loss": 0.6639055089433904,
+          "brier_improvement_vs_neutral": 0.01459966025545494,
+          "paired_ci95": null,
+          "first_half_brier": 0.24732462402525998,
+          "second_half_brier": 0.22347605546383012
+        }
+      },
+      "median_mae_bps": 1138.1121516927033,
+      "unconditional_median_mae_bps": 1131.0678311403526,
+      "central50_coverage": 0.0,
+      "central80_coverage": 0.0,
+      "ci_block_length": 42,
+      "ci_minimum_origin_rows": 168,
+      "ci_note": "Not estimated: too few independent horizon outcomes"
+    },
+    "all_resolved": {
+      "n": 152,
+      "origin_period": [
+        "2026-03-06",
+        "2026-10-16"
+      ],
+      "endpoint_period": [
+        "2026-04-08",
+        "2026-11-16"
+      ],
+      "nonoverlapping_n": 8,
+      "always_up_accuracy": 0.5131578947368421,
+      "always_down_accuracy": 0.48684210526315785,
+      "methods": {
+        "neutral": {
+          "n": 152,
+          "brier": 0.25,
+          "accuracy": 0.5131578947368421,
+          "log_loss": 0.6931471805599453,
+          "brier_improvement_vs_neutral": 0.0,
+          "paired_ci95": null,
+          "first_half_brier": 0.25,
+          "second_half_brier": 0.25
+        },
+        "rolling_frequency": {
+          "n": 152,
+          "brier": 0.2661149147888134,
+          "accuracy": 0.5131578947368421,
+          "log_loss": 0.7266758949855636,
+          "brier_improvement_vs_neutral": -0.01611491478881339,
+          "paired_ci95": null,
+          "first_half_brier": 0.23908470056803383,
+          "second_half_brier": 0.29314512900959294
+        },
+        "equal_groups": {
+          "n": 152,
+          "brier": 0.246364750722333,
+          "accuracy": 0.5131578947368421,
+          "log_loss": 0.685771890559189,
+          "brier_improvement_vs_neutral": 0.0036352492776670045,
+          "paired_ci95": null,
+          "first_half_brier": 0.25,
+          "second_half_brier": 0.24272950144466604
+        },
+        "adaptive_groups": {
+          "n": 152,
+          "brier": 0.24861882224532342,
+          "accuracy": 0.5131578947368421,
+          "log_loss": 0.69037531918084,
+          "brier_improvement_vs_neutral": 0.0013811777546766007,
+          "paired_ci95": null,
+          "first_half_brier": 0.25,
+          "second_half_brier": 0.24723764449064678
+        },
+        "calibrated_adaptive": {
+          "n": 152,
+          "brier": 0.2494236976214952,
+          "accuracy": 0.506578947368421,
+          "log_loss": 0.6919929040487655,
+          "brier_improvement_vs_neutral": 0.0005763023785048003,
+          "paired_ci95": null,
+          "first_half_brier": 0.25,
+          "second_half_brier": 0.24884739524299035
+        }
+      },
+      "median_mae_bps": 314.7782476849161,
+      "unconditional_median_mae_bps": 319.9478770432483,
+      "central50_coverage": 0.34868421052631576,
+      "central80_coverage": 0.7302631578947368,
+      "ci_block_length": 42,
+      "ci_minimum_origin_rows": 168,
+      "ci_note": "Not estimated: too few independent horizon outcomes"
+    },
+    "notes": "Original old architecture on fresh 2025-only vintage; differs from old frozen source vintage and sample. Old 252+126 evidence gates leave very few monthly validation origins."
+  }
+}

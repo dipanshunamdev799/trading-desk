@@ -1,0 +1,90 @@
+[
+  {
+    "horizon": 5,
+    "target": "BANKREL",
+    "n": 92,
+    "base_mae": 0.00882613939253777,
+    "global_mae": 0.008850203270156003,
+    "mae_improvement": -2.4063877618231302e-05,
+    "base_rmse": 0.0114641585576467,
+    "global_rmse": 0.011673943329392183,
+    "claim": "Exposed intermediate predictive test, not causal transmission"
+  },
+  {
+    "horizon": 5,
+    "target": "ENERGY",
+    "n": 92,
+    "base_mae": 0.014920057754147717,
+    "global_mae": 0.01464521221494997,
+    "mae_improvement": 0.0002748455391977484,
+    "base_rmse": 0.019696127834242648,
+    "global_rmse": 0.019157164474466835,
+    "claim": "Exposed intermediate predictive test, not causal transmission"
+  },
+  {
+    "horizon": 5,
+    "target": "IT",
+    "n": 92,
+    "base_mae": 0.030191596415244073,
+    "global_mae": 0.030019985585491078,
+    "mae_improvement": 0.00017161082975299357,
+    "base_rmse": 0.04129948393530246,
+    "global_rmse": 0.04120426334508943,
+    "claim": "Exposed intermediate predictive test, not causal transmission"
+  },
+  {
+    "horizon": 5,
+    "target": "MAGNITUDE",
+    "n": 92,
+    "base_mae": 0.010467519745185276,
+    "global_mae": 0.010720712988866087,
+    "mae_improvement": -0.00025319324368081004,
+    "base_rmse": 0.016232384787480045,
+    "global_rmse": 0.01642389322740748,
+    "claim": "Exposed intermediate predictive test, not causal transmission"
+  },
+  {
+    "horizon": 21,
+    "target": "BANKREL",
+    "n": 76,
+    "base_mae": 0.012800486453571895,
+    "global_mae": 0.01296316989426175,
+    "mae_improvement": -0.00016268344068985456,
+    "base_rmse": 0.016360470427941545,
+    "global_rmse": 0.01669732571693658,
+    "claim": "Exposed intermediate predictive test, not causal transmission"
+  },
+  {
+    "horizon": 21,
+    "target": "ENERGY",
+    "n": 76,
+    "base_mae": 0.03526871108837239,
+    "global_mae": 0.035744935900578305,
+    "mae_improvement": -0.00047622481220592266,
+    "base_rmse": 0.040809914361983834,
+    "global_rmse": 0.04098619392738471,
+    "claim": "Exposed intermediate predictive test, not causal transmission"
+  },
+  {
+    "horizon": 21,
+    "target": "IT",
+    "n": 76,
+    "base_mae": 0.09011932425690745,
+    "global_mae": 0.09058737075945231,
+    "mae_improvement": -0.0004680465025448559,
+    "base_rmse": 0.10554361873185959,
+    "global_rmse": 0.10686329529224324,
+    "claim": "Exposed intermediate predictive test, not causal transmission"
+  },
+  {
+    "horizon": 21,
+    "target": "MAGNITUDE",
+    "n": 76,
+    "base_mae": 0.024047959551713138,
+    "global_mae": 0.02477632181588031,
+    "mae_improvement": -0.0007283622641671783,
+    "base_rmse": 0.033413582717924155,
+    "global_rmse": 0.03358248022880468,
+    "claim": "Exposed intermediate predictive test, not causal transmission"
+  }
+]

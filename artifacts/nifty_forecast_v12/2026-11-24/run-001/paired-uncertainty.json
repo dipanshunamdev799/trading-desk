@@ -1,0 +1,63 @@
+{
+  "scopes": {
+    "early": {
+      "contrasts": 3896,
+      "calendar_dates": 173,
+      "max_t": {
+        "5": 3.875399034769554,
+        "10": 3.7833083577346516,
+        "15": 3.712203133883977
+      }
+    },
+    "later": {
+      "contrasts": 4710,
+      "calendar_dates": 92,
+      "max_t": {
+        "5": 3.8275560120211582,
+        "10": 3.656796877096135,
+        "15": 3.561947122644643
+      }
+    },
+    "combined": {
+      "contrasts": 3896,
+      "calendar_dates": 265,
+      "max_t": {
+        "5": 3.8398699785733634,
+        "10": 3.871477969958355,
+        "15": 3.796607688510096
+      }
+    }
+  },
+  "risk_and_magnitude_scopes": {
+    "early": {
+      "contrasts": 435,
+      "calendar_dates": 173,
+      "max_t": {
+        "5": 3.590196482234319,
+        "10": 3.5278003674987413,
+        "15": 3.4477492238808902
+      }
+    },
+    "later": {
+      "contrasts": 432,
+      "calendar_dates": 92,
+      "max_t": {
+        "5": 3.4735789610889936,
+        "10": 3.3945527716243533,
+        "15": 3.3052843162786387
+      }
+    },
+    "combined": {
+      "contrasts": 435,
+      "calendar_dates": 265,
+      "max_t": {
+        "5": 3.5614790311785662,
+        "10": 3.5338869702344624,
+        "15": 3.4523806109136417
+      }
+    }
+  },
+  "source_mismatch_rejections": [],
+  "method": "2,000 shared circular block draws by scope. Separate maxima for weekly Brier/CRPS and annualized path-volatility/absolute-move error contrasts with at least 35 exact origins.",
+  "monthly": "Disjoint phase and deletion metrics. No tight sampling intervals inferred from 11 disjoint windows."
+}

@@ -1,0 +1,2521 @@
+[
+  {
+    "batch": "distribution",
+    "horizon": 5,
+    "model": "D_STUDENT",
+    "fold": "2026-07",
+    "cohort": "primary",
+    "cutoff": "2026-06-30",
+    "status": "ok",
+    "training_n": 300,
+    "inner_n": 253,
+    "n": 23,
+    "train_cutoff": "2026-06-30",
+    "inner_cutoff": "2026-04-21",
+    "last_endpoint": "2026-06-29",
+    "inner_last_endpoint": "2026-04-20",
+    "artifact": "models\\distribution-5-2026-07-D_STUDENT.joblib",
+    "sha256": "3d8027ed5b1fc89e8075c27b7378509d8017d7db667e98ed350560d45e0b3e4d",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "distribution",
+    "horizon": 5,
+    "model": "D_RISK",
+    "fold": "2026-07",
+    "cohort": "primary",
+    "cutoff": "2026-06-30",
+    "status": "ok",
+    "training_n": 300,
+    "inner_n": 253,
+    "n": 23,
+    "train_cutoff": "2026-06-30",
+    "inner_cutoff": "2026-04-21",
+    "last_endpoint": "2026-06-29",
+    "inner_last_endpoint": "2026-04-20",
+    "artifact": "models\\distribution-5-2026-07-D_RISK.joblib",
+    "sha256": "0fb476deb96ff5dcfdfd9476c52edb894f7d0c06a34263ed9b55918e2ab6e5cc",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "distribution",
+    "horizon": 5,
+    "model": "D_FACTOR",
+    "fold": "2026-07",
+    "cohort": "primary",
+    "cutoff": "2026-06-30",
+    "status": "ok",
+    "training_n": 300,
+    "inner_n": 253,
+    "n": 23,
+    "train_cutoff": "2026-06-30",
+    "inner_cutoff": "2026-04-21",
+    "last_endpoint": "2026-06-29",
+    "inner_last_endpoint": "2026-04-20",
+    "artifact": "models\\distribution-5-2026-07-D_FACTOR.joblib",
+    "sha256": "22096522e84b6cfb64c33a1500a1c2dfb5161b9c729bce63418370c9879ac661",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "distribution",
+    "horizon": 5,
+    "model": "D_QUANTILE",
+    "fold": "2026-07",
+    "cohort": "primary",
+    "cutoff": "2026-06-30",
+    "status": "ok",
+    "training_n": 300,
+    "inner_n": 253,
+    "n": 23,
+    "train_cutoff": "2026-06-30",
+    "inner_cutoff": "2026-04-21",
+    "last_endpoint": "2026-06-29",
+    "inner_last_endpoint": "2026-04-20",
+    "artifact": "models\\distribution-5-2026-07-D_QUANTILE.joblib",
+    "sha256": "dd12f6d7240e9b881f24ea7261812312a548db4c894590388bc475fee2d793c3",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": [
+        [
+          "i_bank_nifty_rel21",
+          "i_nifty_financial_rel21"
+        ],
+        [
+          "i_nifty_psu_bank_rel21"
+        ],
+        [
+          "i_bank_nifty_rel5",
+          "i_nifty_financial_rel5"
+        ],
+        [
+          "i_nifty_psu_bank_rel5"
+        ],
+        [
+          "i_idx_Nifty_Consumption_rel21"
+        ],
+        [
+          "i_idx_Nifty_Consumption_rel5"
+        ],
+        [
+          "i_nifty_auto_rel21"
+        ],
+        [
+          "i_nifty_auto_rel5"
+        ],
+        [
+          "i_idx_Nifty_Infra_rel5"
+        ],
+        [
+          "i_nifty_it_rel5"
+        ],
+        [
+          "i_idx_Nifty_Infra_rel21"
+        ],
+        [
+          "i_nifty_it_rel21"
+        ],
+        [
+          "i_idx_Nifty_100_rel21",
+          "i_idx_Nifty_200_rel21",
+          "i_idx_Nifty_500_rel21",
+          "i_idx_Nifty_Next_50_rel21",
+          "i_nifty_energy_rel21"
+        ],
+        [
+          "i_idx_Nifty_InfraLog_rel21"
+        ],
+        [
+          "i_nifty_realty_rel21"
+        ],
+        [
+          "i_idx_Nifty_100_rel5",
+          "i_idx_Nifty_200_rel5",
+          "i_idx_Nifty_500_rel5",
+          "i_idx_Nifty_Next_50_rel5"
+        ],
+        [
+          "i_nifty_energy_rel5"
+        ],
+        [
+          "i_idx_Nifty_InfraLog_rel5"
+        ],
+        [
+          "i_nifty_realty_rel5"
+        ],
+        [
+          "i_idx_Nifty_Commodities_rel5",
+          "i_nifty_metal_rel5"
+        ],
+        [
+          "i_idx_Nifty_Commodities_rel21",
+          "i_nifty_metal_rel21"
+        ]
+      ]
+    }
+  },
+  {
+    "batch": "distribution",
+    "horizon": 5,
+    "model": "D_ELASTIC_RISK",
+    "fold": "2026-07",
+    "cohort": "primary",
+    "cutoff": "2026-06-30",
+    "status": "ok",
+    "training_n": 300,
+    "inner_n": 253,
+    "n": 23,
+    "train_cutoff": "2026-06-30",
+    "inner_cutoff": "2026-04-21",
+    "last_endpoint": "2026-06-29",
+    "inner_last_endpoint": "2026-04-20",
+    "artifact": "models\\distribution-5-2026-07-D_ELASTIC_RISK.joblib",
+    "sha256": "016bc5bcccc5b2910c825d3d8066d51ba2156e1aa10aeb0f8bd92cc87560c6a5",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": [
+        [
+          "i_bank_nifty_rel21",
+          "i_nifty_financial_rel21"
+        ],
+        [
+          "i_nifty_psu_bank_rel21"
+        ],
+        [
+          "i_bank_nifty_rel5",
+          "i_nifty_financial_rel5"
+        ],
+        [
+          "i_nifty_psu_bank_rel5"
+        ],
+        [
+          "i_idx_NIFTY_HEALTHCARE_rel21",
+          "i_nifty_pharma_rel21"
+        ],
+        [
+          "i_idx_NIFTY_HEALTHCARE_rel5",
+          "i_nifty_pharma_rel5"
+        ],
+        [
+          "i_idx_Nifty_Infra_rel21"
+        ],
+        [
+          "i_nifty_it_rel21"
+        ],
+        [
+          "i_idx_Nifty_100_rel21",
+          "i_idx_Nifty_200_rel21",
+          "i_idx_Nifty_500_rel21",
+          "i_idx_Nifty_Next_50_rel21",
+          "i_nifty_energy_rel21"
+        ],
+        [
+          "i_idx_Nifty_InfraLog_rel21"
+        ],
+        [
+          "i_nifty_realty_rel21"
+        ],
+        [
+          "i_idx_Nifty_Infra_rel5"
+        ],
+        [
+          "i_nifty_it_rel5"
+        ],
+        [
+          "i_idx_Nifty_100_rel5",
+          "i_idx_Nifty_200_rel5",
+          "i_idx_Nifty_500_rel5",
+          "i_idx_Nifty_Next_50_rel5"
+        ],
+        [
+          "i_nifty_energy_rel5"
+        ],
+        [
+          "i_idx_Nifty_InfraLog_rel5"
+        ],
+        [
+          "i_nifty_realty_rel5"
+        ],
+        [
+          "i_idx_Nifty_Commodities_rel5",
+          "i_nifty_metal_rel5"
+        ],
+        [
+          "i_idx_Nifty_Commodities_rel21",
+          "i_nifty_metal_rel21"
+        ],
+        [
+          "i_nifty_auto_rel21"
+        ],
+        [
+          "i_nifty_auto_rel5"
+        ],
+        [
+          "i_idx_Nifty_Consumption_rel21"
+        ],
+        [
+          "i_nifty_fmcg_rel21"
+        ],
+        [
+          "i_idx_Nifty_Consumption_rel5"
+        ],
+        [
+          "i_nifty_fmcg_rel5"
+        ]
+      ]
+    }
+  },
+  {
+    "batch": "distribution",
+    "horizon": 5,
+    "model": "D_STUDENT",
+    "fold": "2026-08",
+    "cohort": "primary",
+    "cutoff": "2026-07-31",
+    "status": "ok",
+    "training_n": 323,
+    "inner_n": 276,
+    "n": 21,
+    "train_cutoff": "2026-07-31",
+    "inner_cutoff": "2026-05-25",
+    "last_endpoint": "2026-07-30",
+    "inner_last_endpoint": "2026-05-22",
+    "artifact": "models\\distribution-5-2026-08-D_STUDENT.joblib",
+    "sha256": "e684b7cea591d718366ceafc7cee821722894274c03da0984c33d4b83f17785f",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "distribution",
+    "horizon": 5,
+    "model": "D_RISK",
+    "fold": "2026-08",
+    "cohort": "primary",
+    "cutoff": "2026-07-31",
+    "status": "ok",
+    "training_n": 323,
+    "inner_n": 276,
+    "n": 21,
+    "train_cutoff": "2026-07-31",
+    "inner_cutoff": "2026-05-25",
+    "last_endpoint": "2026-07-30",
+    "inner_last_endpoint": "2026-05-22",
+    "artifact": "models\\distribution-5-2026-08-D_RISK.joblib",
+    "sha256": "8b146f8bb06dc5237404fed7b71e9976fd0303dbc9117a7f1d15ac375748c293",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "distribution",
+    "horizon": 5,
+    "model": "D_FACTOR",
+    "fold": "2026-08",
+    "cohort": "primary",
+    "cutoff": "2026-07-31",
+    "status": "ok",
+    "training_n": 323,
+    "inner_n": 276,
+    "n": 21,
+    "train_cutoff": "2026-07-31",
+    "inner_cutoff": "2026-05-25",
+    "last_endpoint": "2026-07-30",
+    "inner_last_endpoint": "2026-05-22",
+    "artifact": "models\\distribution-5-2026-08-D_FACTOR.joblib",
+    "sha256": "85087335af0ca1acc09a61cd131b9a263eb7862d410d5e441cb5838315333d0f",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "distribution",
+    "horizon": 5,
+    "model": "D_QUANTILE",
+    "fold": "2026-08",
+    "cohort": "primary",
+    "cutoff": "2026-07-31",
+    "status": "ok",
+    "training_n": 323,
+    "inner_n": 276,
+    "n": 21,
+    "train_cutoff": "2026-07-31",
+    "inner_cutoff": "2026-05-25",
+    "last_endpoint": "2026-07-30",
+    "inner_last_endpoint": "2026-05-22",
+    "artifact": "models\\distribution-5-2026-08-D_QUANTILE.joblib",
+    "sha256": "4c723162369b37ecbb272cc42b4752e0851da75ffc78b7e56909d98b70e0951a",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": [
+        [
+          "i_idx_Nifty_Consumption_rel21"
+        ],
+        [
+          "i_idx_Nifty_Consumption_rel5"
+        ],
+        [
+          "i_nifty_auto_rel21"
+        ],
+        [
+          "i_nifty_auto_rel5"
+        ],
+        [
+          "i_nifty_realty_rel21"
+        ],
+        [
+          "i_nifty_realty_rel5"
+        ],
+        [
+          "i_idx_Nifty_Commodities_rel5",
+          "i_nifty_metal_rel5"
+        ],
+        [
+          "i_idx_Nifty_100_rel5",
+          "i_idx_Nifty_200_rel5",
+          "i_idx_Nifty_500_rel5",
+          "i_idx_Nifty_Next_50_rel5"
+        ],
+        [
+          "i_idx_Nifty_InfraLog_rel5"
+        ],
+        [
+          "i_nifty_energy_rel5"
+        ],
+        [
+          "i_idx_Nifty_Commodities_rel21",
+          "i_nifty_metal_rel21"
+        ],
+        [
+          "i_idx_Nifty_100_rel21",
+          "i_idx_Nifty_200_rel21",
+          "i_idx_Nifty_500_rel21",
+          "i_idx_Nifty_Next_50_rel21"
+        ],
+        [
+          "i_nifty_energy_rel21"
+        ],
+        [
+          "i_idx_Nifty_InfraLog_rel21"
+        ],
+        [
+          "i_idx_Nifty_Infra_rel21"
+        ],
+        [
+          "i_bank_nifty_rel21",
+          "i_nifty_financial_rel21"
+        ],
+        [
+          "i_nifty_psu_bank_rel21"
+        ],
+        [
+          "i_nifty_it_rel21"
+        ],
+        [
+          "i_bank_nifty_rel5",
+          "i_nifty_financial_rel5"
+        ],
+        [
+          "i_nifty_psu_bank_rel5"
+        ],
+        [
+          "i_idx_Nifty_Infra_rel5"
+        ],
+        [
+          "i_nifty_it_rel5"
+        ]
+      ]
+    }
+  },
+  {
+    "batch": "distribution",
+    "horizon": 5,
+    "model": "D_ELASTIC_RISK",
+    "fold": "2026-08",
+    "cohort": "primary",
+    "cutoff": "2026-07-31",
+    "status": "ok",
+    "training_n": 323,
+    "inner_n": 276,
+    "n": 21,
+    "train_cutoff": "2026-07-31",
+    "inner_cutoff": "2026-05-25",
+    "last_endpoint": "2026-07-30",
+    "inner_last_endpoint": "2026-05-22",
+    "artifact": "models\\distribution-5-2026-08-D_ELASTIC_RISK.joblib",
+    "sha256": "42af3094f7892fb301800147c973f7221710d9f369c6e80e2f7251a861273ea9",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": [
+        [
+          "i_nifty_auto_rel21"
+        ],
+        [
+          "i_nifty_auto_rel5"
+        ],
+        [
+          "i_nifty_realty_rel21"
+        ],
+        [
+          "i_nifty_realty_rel5"
+        ],
+        [
+          "i_idx_Nifty_Commodities_rel5",
+          "i_nifty_metal_rel5"
+        ],
+        [
+          "i_idx_Nifty_100_rel5",
+          "i_idx_Nifty_200_rel5",
+          "i_idx_Nifty_500_rel5",
+          "i_idx_Nifty_Next_50_rel5"
+        ],
+        [
+          "i_idx_Nifty_InfraLog_rel5"
+        ],
+        [
+          "i_nifty_energy_rel5"
+        ],
+        [
+          "i_idx_Nifty_Commodities_rel21",
+          "i_nifty_metal_rel21"
+        ],
+        [
+          "i_idx_Nifty_100_rel21",
+          "i_idx_Nifty_200_rel21",
+          "i_idx_Nifty_500_rel21",
+          "i_idx_Nifty_Next_50_rel21"
+        ],
+        [
+          "i_nifty_energy_rel21"
+        ],
+        [
+          "i_idx_Nifty_InfraLog_rel21"
+        ],
+        [
+          "i_idx_Nifty_Infra_rel21"
+        ],
+        [
+          "i_bank_nifty_rel21",
+          "i_nifty_financial_rel21"
+        ],
+        [
+          "i_nifty_psu_bank_rel21"
+        ],
+        [
+          "i_nifty_it_rel21"
+        ],
+        [
+          "i_bank_nifty_rel5",
+          "i_nifty_financial_rel5"
+        ],
+        [
+          "i_nifty_psu_bank_rel5"
+        ],
+        [
+          "i_idx_Nifty_Infra_rel5"
+        ],
+        [
+          "i_nifty_it_rel5"
+        ],
+        [
+          "i_idx_NIFTY_HEALTHCARE_rel21",
+          "i_nifty_pharma_rel21"
+        ],
+        [
+          "i_idx_NIFTY_HEALTHCARE_rel5",
+          "i_nifty_pharma_rel5"
+        ],
+        [
+          "i_idx_Nifty_Consumption_rel21"
+        ],
+        [
+          "i_nifty_fmcg_rel21"
+        ],
+        [
+          "i_idx_Nifty_Consumption_rel5"
+        ],
+        [
+          "i_nifty_fmcg_rel5"
+        ]
+      ]
+    }
+  },
+  {
+    "batch": "distribution",
+    "horizon": 5,
+    "model": "D_STUDENT",
+    "fold": "2026-09",
+    "cohort": "primary",
+    "cutoff": "2026-08-31",
+    "status": "ok",
+    "training_n": 344,
+    "inner_n": 297,
+    "n": 21,
+    "train_cutoff": "2026-08-31",
+    "inner_cutoff": "2026-06-24",
+    "last_endpoint": "2026-08-28",
+    "inner_last_endpoint": "2026-06-23",
+    "artifact": "models\\distribution-5-2026-09-D_STUDENT.joblib",
+    "sha256": "90e863c5e6c1fd7008d662b8a83b9036b99d7916126903ccaf3ead1b53abf983",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "distribution",
+    "horizon": 5,
+    "model": "D_RISK",
+    "fold": "2026-09",
+    "cohort": "primary",
+    "cutoff": "2026-08-31",
+    "status": "ok",
+    "training_n": 344,
+    "inner_n": 297,
+    "n": 21,
+    "train_cutoff": "2026-08-31",
+    "inner_cutoff": "2026-06-24",
+    "last_endpoint": "2026-08-28",
+    "inner_last_endpoint": "2026-06-23",
+    "artifact": "models\\distribution-5-2026-09-D_RISK.joblib",
+    "sha256": "5f8b357a24848c7e5eb11cf1f04ca9948eaa8702945c705348fb37d47680cf0d",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "distribution",
+    "horizon": 5,
+    "model": "D_FACTOR",
+    "fold": "2026-09",
+    "cohort": "primary",
+    "cutoff": "2026-08-31",
+    "status": "ok",
+    "training_n": 344,
+    "inner_n": 297,
+    "n": 21,
+    "train_cutoff": "2026-08-31",
+    "inner_cutoff": "2026-06-24",
+    "last_endpoint": "2026-08-28",
+    "inner_last_endpoint": "2026-06-23",
+    "artifact": "models\\distribution-5-2026-09-D_FACTOR.joblib",
+    "sha256": "6463db7fd52dab1c2648f38e078795e704768bc00523db5c8ca0eabe1b853b10",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "distribution",
+    "horizon": 5,
+    "model": "D_QUANTILE",
+    "fold": "2026-09",
+    "cohort": "primary",
+    "cutoff": "2026-08-31",
+    "status": "ok",
+    "training_n": 344,
+    "inner_n": 297,
+    "n": 21,
+    "train_cutoff": "2026-08-31",
+    "inner_cutoff": "2026-06-24",
+    "last_endpoint": "2026-08-28",
+    "inner_last_endpoint": "2026-06-23",
+    "artifact": "models\\distribution-5-2026-09-D_QUANTILE.joblib",
+    "sha256": "185f31bd8e1171c8d76b04626e691cf393b350806b161b54d401ca854ddd7dd3",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": [
+        [
+          "i_idx_Nifty_Consumption_rel21"
+        ],
+        [
+          "i_idx_Nifty_Consumption_rel5"
+        ],
+        [
+          "i_nifty_auto_rel21"
+        ],
+        [
+          "i_nifty_auto_rel5"
+        ],
+        [
+          "i_bank_nifty_rel21",
+          "i_nifty_financial_rel21"
+        ],
+        [
+          "i_nifty_it_rel21"
+        ],
+        [
+          "i_nifty_psu_bank_rel21"
+        ],
+        [
+          "i_bank_nifty_rel5",
+          "i_nifty_financial_rel5"
+        ],
+        [
+          "i_nifty_psu_bank_rel5"
+        ],
+        [
+          "i_idx_Nifty_Infra_rel5"
+        ],
+        [
+          "i_nifty_it_rel5"
+        ],
+        [
+          "i_nifty_realty_rel21"
+        ],
+        [
+          "i_nifty_realty_rel5"
+        ],
+        [
+          "i_idx_Nifty_Commodities_rel5",
+          "i_nifty_metal_rel5"
+        ],
+        [
+          "i_idx_Nifty_100_rel5",
+          "i_idx_Nifty_200_rel5",
+          "i_idx_Nifty_500_rel5",
+          "i_idx_Nifty_Next_50_rel5"
+        ],
+        [
+          "i_idx_Nifty_InfraLog_rel5"
+        ],
+        [
+          "i_nifty_energy_rel5"
+        ],
+        [
+          "i_idx_Nifty_Commodities_rel21",
+          "i_nifty_metal_rel21"
+        ],
+        [
+          "i_idx_Nifty_100_rel21",
+          "i_idx_Nifty_200_rel21",
+          "i_idx_Nifty_500_rel21",
+          "i_idx_Nifty_Next_50_rel21"
+        ],
+        [
+          "i_idx_Nifty_InfraLog_rel21",
+          "i_nifty_energy_rel21"
+        ],
+        [
+          "i_idx_Nifty_Infra_rel21"
+        ]
+      ]
+    }
+  },
+  {
+    "batch": "distribution",
+    "horizon": 5,
+    "model": "D_ELASTIC_RISK",
+    "fold": "2026-09",
+    "cohort": "primary",
+    "cutoff": "2026-08-31",
+    "status": "ok",
+    "training_n": 344,
+    "inner_n": 297,
+    "n": 21,
+    "train_cutoff": "2026-08-31",
+    "inner_cutoff": "2026-06-24",
+    "last_endpoint": "2026-08-28",
+    "inner_last_endpoint": "2026-06-23",
+    "artifact": "models\\distribution-5-2026-09-D_ELASTIC_RISK.joblib",
+    "sha256": "a83e358a326ad8c056b093715d52debb4a84ea343b1d8c7159f57acf144cd06d",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": [
+        [
+          "i_nifty_auto_rel21"
+        ],
+        [
+          "i_nifty_auto_rel5"
+        ],
+        [
+          "i_nifty_realty_rel21"
+        ],
+        [
+          "i_nifty_realty_rel5"
+        ],
+        [
+          "i_idx_Nifty_Commodities_rel5",
+          "i_nifty_metal_rel5"
+        ],
+        [
+          "i_idx_Nifty_100_rel5",
+          "i_idx_Nifty_200_rel5",
+          "i_idx_Nifty_500_rel5",
+          "i_idx_Nifty_Next_50_rel5"
+        ],
+        [
+          "i_idx_Nifty_InfraLog_rel5"
+        ],
+        [
+          "i_nifty_energy_rel5"
+        ],
+        [
+          "i_idx_Nifty_Commodities_rel21",
+          "i_nifty_metal_rel21"
+        ],
+        [
+          "i_idx_Nifty_100_rel21",
+          "i_idx_Nifty_200_rel21",
+          "i_idx_Nifty_500_rel21",
+          "i_idx_Nifty_Next_50_rel21"
+        ],
+        [
+          "i_idx_Nifty_InfraLog_rel21",
+          "i_nifty_energy_rel21"
+        ],
+        [
+          "i_idx_Nifty_Infra_rel21"
+        ],
+        [
+          "i_bank_nifty_rel21",
+          "i_nifty_financial_rel21"
+        ],
+        [
+          "i_nifty_it_rel21"
+        ],
+        [
+          "i_nifty_psu_bank_rel21"
+        ],
+        [
+          "i_bank_nifty_rel5",
+          "i_nifty_financial_rel5"
+        ],
+        [
+          "i_nifty_psu_bank_rel5"
+        ],
+        [
+          "i_idx_Nifty_Infra_rel5"
+        ],
+        [
+          "i_nifty_it_rel5"
+        ],
+        [
+          "i_idx_NIFTY_HEALTHCARE_rel21",
+          "i_nifty_pharma_rel21"
+        ],
+        [
+          "i_idx_NIFTY_HEALTHCARE_rel5",
+          "i_nifty_pharma_rel5"
+        ],
+        [
+          "i_idx_Nifty_Consumption_rel21"
+        ],
+        [
+          "i_nifty_fmcg_rel21"
+        ],
+        [
+          "i_idx_Nifty_Consumption_rel5"
+        ],
+        [
+          "i_nifty_fmcg_rel5"
+        ]
+      ]
+    }
+  },
+  {
+    "batch": "distribution",
+    "horizon": 5,
+    "model": "D_STUDENT",
+    "fold": "2026-10",
+    "cohort": "primary",
+    "cutoff": "2026-09-30",
+    "status": "ok",
+    "training_n": 365,
+    "inner_n": 318,
+    "n": 20,
+    "train_cutoff": "2026-09-30",
+    "inner_cutoff": "2026-07-24",
+    "last_endpoint": "2026-09-29",
+    "inner_last_endpoint": "2026-07-23",
+    "artifact": "models\\distribution-5-2026-10-D_STUDENT.joblib",
+    "sha256": "309a891449c9048edaf3ea1d9041d537416de7339a342b419d3752de629868b5",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "distribution",
+    "horizon": 5,
+    "model": "D_RISK",
+    "fold": "2026-10",
+    "cohort": "primary",
+    "cutoff": "2026-09-30",
+    "status": "ok",
+    "training_n": 365,
+    "inner_n": 318,
+    "n": 20,
+    "train_cutoff": "2026-09-30",
+    "inner_cutoff": "2026-07-24",
+    "last_endpoint": "2026-09-29",
+    "inner_last_endpoint": "2026-07-23",
+    "artifact": "models\\distribution-5-2026-10-D_RISK.joblib",
+    "sha256": "a6aad33d914aa5c4be80797db8f5cc4073e56749d4d6dba531c7cf5c8a07bfb4",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "distribution",
+    "horizon": 5,
+    "model": "D_FACTOR",
+    "fold": "2026-10",
+    "cohort": "primary",
+    "cutoff": "2026-09-30",
+    "status": "ok",
+    "training_n": 365,
+    "inner_n": 318,
+    "n": 20,
+    "train_cutoff": "2026-09-30",
+    "inner_cutoff": "2026-07-24",
+    "last_endpoint": "2026-09-29",
+    "inner_last_endpoint": "2026-07-23",
+    "artifact": "models\\distribution-5-2026-10-D_FACTOR.joblib",
+    "sha256": "8de4d6974dcb9ee7851576b13331214b6a93baf78a2c120b839546fff624cae2",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "distribution",
+    "horizon": 5,
+    "model": "D_QUANTILE",
+    "fold": "2026-10",
+    "cohort": "primary",
+    "cutoff": "2026-09-30",
+    "status": "ok",
+    "training_n": 365,
+    "inner_n": 318,
+    "n": 20,
+    "train_cutoff": "2026-09-30",
+    "inner_cutoff": "2026-07-24",
+    "last_endpoint": "2026-09-29",
+    "inner_last_endpoint": "2026-07-23",
+    "artifact": "models\\distribution-5-2026-10-D_QUANTILE.joblib",
+    "sha256": "b4930e01ff84d64206e9b254191090e68ecf010528b25454eddc4d5b674ee4f2",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": [
+        [
+          "i_idx_Nifty_Consumption_rel21"
+        ],
+        [
+          "i_idx_Nifty_Consumption_rel5"
+        ],
+        [
+          "i_nifty_auto_rel21"
+        ],
+        [
+          "i_nifty_auto_rel5"
+        ],
+        [
+          "i_nifty_realty_rel21"
+        ],
+        [
+          "i_nifty_realty_rel5"
+        ],
+        [
+          "i_idx_Nifty_Commodities_rel5",
+          "i_nifty_metal_rel5"
+        ],
+        [
+          "i_idx_Nifty_100_rel5",
+          "i_idx_Nifty_200_rel5",
+          "i_idx_Nifty_500_rel5",
+          "i_idx_Nifty_Next_50_rel5"
+        ],
+        [
+          "i_idx_Nifty_InfraLog_rel5"
+        ],
+        [
+          "i_nifty_energy_rel5"
+        ],
+        [
+          "i_idx_Nifty_Commodities_rel21",
+          "i_nifty_metal_rel21"
+        ],
+        [
+          "i_idx_Nifty_100_rel21",
+          "i_idx_Nifty_200_rel21",
+          "i_idx_Nifty_500_rel21",
+          "i_idx_Nifty_Next_50_rel21"
+        ],
+        [
+          "i_idx_Nifty_InfraLog_rel21",
+          "i_nifty_energy_rel21"
+        ],
+        [
+          "i_idx_Nifty_Infra_rel21"
+        ],
+        [
+          "i_bank_nifty_rel21",
+          "i_nifty_financial_rel21"
+        ],
+        [
+          "i_nifty_it_rel21"
+        ],
+        [
+          "i_nifty_psu_bank_rel21"
+        ],
+        [
+          "i_bank_nifty_rel5",
+          "i_nifty_financial_rel5"
+        ],
+        [
+          "i_nifty_psu_bank_rel5"
+        ],
+        [
+          "i_idx_Nifty_Infra_rel5"
+        ],
+        [
+          "i_nifty_it_rel5"
+        ]
+      ]
+    }
+  },
+  {
+    "batch": "distribution",
+    "horizon": 5,
+    "model": "D_ELASTIC_RISK",
+    "fold": "2026-10",
+    "cohort": "primary",
+    "cutoff": "2026-09-30",
+    "status": "ok",
+    "training_n": 365,
+    "inner_n": 318,
+    "n": 20,
+    "train_cutoff": "2026-09-30",
+    "inner_cutoff": "2026-07-24",
+    "last_endpoint": "2026-09-29",
+    "inner_last_endpoint": "2026-07-23",
+    "artifact": "models\\distribution-5-2026-10-D_ELASTIC_RISK.joblib",
+    "sha256": "1315b9e6a5d2fb224dc2af51b38a9d63f435a703a939741e55eb5841c0ba75dc",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": [
+        [
+          "i_nifty_auto_rel21"
+        ],
+        [
+          "i_nifty_auto_rel5"
+        ],
+        [
+          "i_idx_Nifty_Consumption_rel21"
+        ],
+        [
+          "i_nifty_fmcg_rel21"
+        ],
+        [
+          "i_idx_Nifty_Consumption_rel5"
+        ],
+        [
+          "i_nifty_fmcg_rel5"
+        ],
+        [
+          "i_bank_nifty_rel21",
+          "i_nifty_financial_rel21"
+        ],
+        [
+          "i_nifty_it_rel21"
+        ],
+        [
+          "i_nifty_psu_bank_rel21"
+        ],
+        [
+          "i_bank_nifty_rel5",
+          "i_nifty_financial_rel5"
+        ],
+        [
+          "i_nifty_psu_bank_rel5"
+        ],
+        [
+          "i_idx_Nifty_Infra_rel5"
+        ],
+        [
+          "i_nifty_it_rel5"
+        ],
+        [
+          "i_idx_NIFTY_HEALTHCARE_rel21",
+          "i_nifty_pharma_rel21"
+        ],
+        [
+          "i_idx_NIFTY_HEALTHCARE_rel5",
+          "i_nifty_pharma_rel5"
+        ],
+        [
+          "i_nifty_realty_rel21"
+        ],
+        [
+          "i_nifty_realty_rel5"
+        ],
+        [
+          "i_idx_Nifty_Commodities_rel5",
+          "i_nifty_metal_rel5"
+        ],
+        [
+          "i_idx_Nifty_100_rel5",
+          "i_idx_Nifty_200_rel5",
+          "i_idx_Nifty_500_rel5",
+          "i_idx_Nifty_Next_50_rel5"
+        ],
+        [
+          "i_idx_Nifty_InfraLog_rel5"
+        ],
+        [
+          "i_nifty_energy_rel5"
+        ],
+        [
+          "i_idx_Nifty_Commodities_rel21",
+          "i_nifty_metal_rel21"
+        ],
+        [
+          "i_idx_Nifty_100_rel21",
+          "i_idx_Nifty_200_rel21",
+          "i_idx_Nifty_500_rel21",
+          "i_idx_Nifty_Next_50_rel21"
+        ],
+        [
+          "i_idx_Nifty_InfraLog_rel21",
+          "i_nifty_energy_rel21"
+        ],
+        [
+          "i_idx_Nifty_Infra_rel21"
+        ]
+      ]
+    }
+  },
+  {
+    "batch": "distribution",
+    "horizon": 5,
+    "model": "D_STUDENT",
+    "fold": "2026-11",
+    "cohort": "primary",
+    "cutoff": "2026-10-30",
+    "status": "ok",
+    "training_n": 385,
+    "inner_n": 338,
+    "n": 7,
+    "train_cutoff": "2026-10-30",
+    "inner_cutoff": "2026-08-21",
+    "last_endpoint": "2026-10-29",
+    "inner_last_endpoint": "2026-08-20",
+    "artifact": "models\\distribution-5-2026-11-D_STUDENT.joblib",
+    "sha256": "67c82ffa13e7812004b13783077e9f3d738d8bf23c72e56faefdd93e816ea501",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "distribution",
+    "horizon": 5,
+    "model": "D_RISK",
+    "fold": "2026-11",
+    "cohort": "primary",
+    "cutoff": "2026-10-30",
+    "status": "ok",
+    "training_n": 385,
+    "inner_n": 338,
+    "n": 7,
+    "train_cutoff": "2026-10-30",
+    "inner_cutoff": "2026-08-21",
+    "last_endpoint": "2026-10-29",
+    "inner_last_endpoint": "2026-08-20",
+    "artifact": "models\\distribution-5-2026-11-D_RISK.joblib",
+    "sha256": "5d634761a102809851154312e16c413130436db4923546ff6d66e854fb9ec233",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "distribution",
+    "horizon": 5,
+    "model": "D_FACTOR",
+    "fold": "2026-11",
+    "cohort": "primary",
+    "cutoff": "2026-10-30",
+    "status": "ok",
+    "training_n": 385,
+    "inner_n": 338,
+    "n": 7,
+    "train_cutoff": "2026-10-30",
+    "inner_cutoff": "2026-08-21",
+    "last_endpoint": "2026-10-29",
+    "inner_last_endpoint": "2026-08-20",
+    "artifact": "models\\distribution-5-2026-11-D_FACTOR.joblib",
+    "sha256": "88ee3d17715f26f161a9b79237bb0a7f7d99ee4680fa329a57ca78aa24a3d039",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "distribution",
+    "horizon": 5,
+    "model": "D_QUANTILE",
+    "fold": "2026-11",
+    "cohort": "primary",
+    "cutoff": "2026-10-30",
+    "status": "ok",
+    "training_n": 385,
+    "inner_n": 338,
+    "n": 7,
+    "train_cutoff": "2026-10-30",
+    "inner_cutoff": "2026-08-21",
+    "last_endpoint": "2026-10-29",
+    "inner_last_endpoint": "2026-08-20",
+    "artifact": "models\\distribution-5-2026-11-D_QUANTILE.joblib",
+    "sha256": "3eabdeb1db41b4ec9ff2c99a1f151cc75609ed2873cef356bfc25f9cefaeb077",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": [
+        [
+          "i_nifty_realty_rel21"
+        ],
+        [
+          "i_nifty_realty_rel5"
+        ],
+        [
+          "i_idx_Nifty_Infra_rel5"
+        ],
+        [
+          "i_nifty_it_rel5"
+        ],
+        [
+          "i_idx_Nifty_Commodities_rel5",
+          "i_nifty_metal_rel5"
+        ],
+        [
+          "i_idx_Nifty_100_rel5",
+          "i_idx_Nifty_200_rel5",
+          "i_idx_Nifty_500_rel5",
+          "i_idx_Nifty_Next_50_rel5"
+        ],
+        [
+          "i_idx_Nifty_InfraLog_rel5"
+        ],
+        [
+          "i_nifty_energy_rel5"
+        ],
+        [
+          "i_idx_Nifty_Commodities_rel21",
+          "i_nifty_metal_rel21"
+        ],
+        [
+          "i_idx_Nifty_100_rel21",
+          "i_idx_Nifty_200_rel21",
+          "i_idx_Nifty_500_rel21",
+          "i_idx_Nifty_Next_50_rel21"
+        ],
+        [
+          "i_idx_Nifty_InfraLog_rel21",
+          "i_nifty_energy_rel21"
+        ],
+        [
+          "i_idx_Nifty_Infra_rel21"
+        ],
+        [
+          "i_idx_Nifty_Consumption_rel21"
+        ],
+        [
+          "i_idx_Nifty_Consumption_rel5"
+        ],
+        [
+          "i_nifty_auto_rel21"
+        ],
+        [
+          "i_nifty_auto_rel5"
+        ],
+        [
+          "i_bank_nifty_rel5",
+          "i_nifty_financial_rel5"
+        ],
+        [
+          "i_nifty_psu_bank_rel5"
+        ],
+        [
+          "i_bank_nifty_rel21",
+          "i_nifty_financial_rel21"
+        ],
+        [
+          "i_nifty_it_rel21"
+        ],
+        [
+          "i_nifty_psu_bank_rel21"
+        ]
+      ]
+    }
+  },
+  {
+    "batch": "distribution",
+    "horizon": 5,
+    "model": "D_ELASTIC_RISK",
+    "fold": "2026-11",
+    "cohort": "primary",
+    "cutoff": "2026-10-30",
+    "status": "ok",
+    "training_n": 385,
+    "inner_n": 338,
+    "n": 7,
+    "train_cutoff": "2026-10-30",
+    "inner_cutoff": "2026-08-21",
+    "last_endpoint": "2026-10-29",
+    "inner_last_endpoint": "2026-08-20",
+    "artifact": "models\\distribution-5-2026-11-D_ELASTIC_RISK.joblib",
+    "sha256": "4dd630c86a2a5fae23cfb35f5e8b4b793af092dffb41af634630ac48ffb1930f",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": [
+        [
+          "i_idx_NIFTY_HEALTHCARE_rel21",
+          "i_nifty_pharma_rel21"
+        ],
+        [
+          "i_idx_NIFTY_HEALTHCARE_rel5",
+          "i_nifty_pharma_rel5"
+        ],
+        [
+          "i_nifty_realty_rel21"
+        ],
+        [
+          "i_nifty_realty_rel5"
+        ],
+        [
+          "i_idx_Nifty_Infra_rel5"
+        ],
+        [
+          "i_nifty_it_rel5"
+        ],
+        [
+          "i_idx_Nifty_Commodities_rel5",
+          "i_nifty_metal_rel5"
+        ],
+        [
+          "i_idx_Nifty_100_rel5",
+          "i_idx_Nifty_200_rel5",
+          "i_idx_Nifty_500_rel5",
+          "i_idx_Nifty_Next_50_rel5"
+        ],
+        [
+          "i_idx_Nifty_InfraLog_rel5"
+        ],
+        [
+          "i_nifty_energy_rel5"
+        ],
+        [
+          "i_idx_Nifty_Commodities_rel21",
+          "i_nifty_metal_rel21"
+        ],
+        [
+          "i_idx_Nifty_100_rel21",
+          "i_idx_Nifty_200_rel21",
+          "i_idx_Nifty_500_rel21",
+          "i_idx_Nifty_Next_50_rel21"
+        ],
+        [
+          "i_idx_Nifty_InfraLog_rel21",
+          "i_nifty_energy_rel21"
+        ],
+        [
+          "i_idx_Nifty_Infra_rel21"
+        ],
+        [
+          "i_bank_nifty_rel5",
+          "i_nifty_financial_rel5"
+        ],
+        [
+          "i_nifty_psu_bank_rel5"
+        ],
+        [
+          "i_bank_nifty_rel21",
+          "i_nifty_financial_rel21"
+        ],
+        [
+          "i_nifty_it_rel21"
+        ],
+        [
+          "i_nifty_psu_bank_rel21"
+        ],
+        [
+          "i_nifty_auto_rel21"
+        ],
+        [
+          "i_nifty_auto_rel5"
+        ],
+        [
+          "i_idx_Nifty_Consumption_rel21"
+        ],
+        [
+          "i_nifty_fmcg_rel21"
+        ],
+        [
+          "i_idx_Nifty_Consumption_rel5"
+        ],
+        [
+          "i_nifty_fmcg_rel5"
+        ]
+      ]
+    }
+  },
+  {
+    "batch": "distribution",
+    "horizon": 21,
+    "model": "D_STUDENT",
+    "fold": "2026-07",
+    "cohort": "primary",
+    "cutoff": "2026-06-30",
+    "status": "ok",
+    "training_n": 284,
+    "inner_n": 221,
+    "n": 23,
+    "train_cutoff": "2026-06-30",
+    "inner_cutoff": "2026-03-24",
+    "last_endpoint": "2026-06-29",
+    "inner_last_endpoint": "2026-03-23",
+    "artifact": "models\\distribution-21-2026-07-D_STUDENT.joblib",
+    "sha256": "fea07c820db916ebcf668208ed76db16a529e5b4a5931ac3406708b847f6c102",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "distribution",
+    "horizon": 21,
+    "model": "D_RISK",
+    "fold": "2026-07",
+    "cohort": "primary",
+    "cutoff": "2026-06-30",
+    "status": "ok",
+    "training_n": 284,
+    "inner_n": 221,
+    "n": 23,
+    "train_cutoff": "2026-06-30",
+    "inner_cutoff": "2026-03-24",
+    "last_endpoint": "2026-06-29",
+    "inner_last_endpoint": "2026-03-23",
+    "artifact": "models\\distribution-21-2026-07-D_RISK.joblib",
+    "sha256": "cc77341cb898ed073419c4a71dc8fa2be3489cc1e216484c4736f6299718b24c",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "distribution",
+    "horizon": 21,
+    "model": "D_FACTOR",
+    "fold": "2026-07",
+    "cohort": "primary",
+    "cutoff": "2026-06-30",
+    "status": "ok",
+    "training_n": 284,
+    "inner_n": 221,
+    "n": 23,
+    "train_cutoff": "2026-06-30",
+    "inner_cutoff": "2026-03-24",
+    "last_endpoint": "2026-06-29",
+    "inner_last_endpoint": "2026-03-23",
+    "artifact": "models\\distribution-21-2026-07-D_FACTOR.joblib",
+    "sha256": "14ac1e5fbbaf7e144f95db3297239956f885ff32f507211293da11d0b34b32fb",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "distribution",
+    "horizon": 21,
+    "model": "D_QUANTILE",
+    "fold": "2026-07",
+    "cohort": "primary",
+    "cutoff": "2026-06-30",
+    "status": "ok",
+    "training_n": 284,
+    "inner_n": 221,
+    "n": 23,
+    "train_cutoff": "2026-06-30",
+    "inner_cutoff": "2026-03-24",
+    "last_endpoint": "2026-06-29",
+    "inner_last_endpoint": "2026-03-23",
+    "artifact": "models\\distribution-21-2026-07-D_QUANTILE.joblib",
+    "sha256": "8e63ae522f75f490ded5343499765be2d54f6b0a2513382730dbd26bcfab9251",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": [
+        [
+          "i_bank_nifty_rel21",
+          "i_nifty_financial_rel21"
+        ],
+        [
+          "i_nifty_psu_bank_rel21"
+        ],
+        [
+          "i_bank_nifty_rel5",
+          "i_nifty_financial_rel5"
+        ],
+        [
+          "i_nifty_psu_bank_rel5"
+        ],
+        [
+          "i_idx_Nifty_Consumption_rel21"
+        ],
+        [
+          "i_idx_Nifty_Consumption_rel5"
+        ],
+        [
+          "i_nifty_auto_rel21"
+        ],
+        [
+          "i_nifty_auto_rel5"
+        ],
+        [
+          "i_idx_Nifty_Infra_rel5"
+        ],
+        [
+          "i_nifty_it_rel5"
+        ],
+        [
+          "i_idx_Nifty_Infra_rel21"
+        ],
+        [
+          "i_nifty_it_rel21"
+        ],
+        [
+          "i_idx_Nifty_100_rel21",
+          "i_idx_Nifty_200_rel21",
+          "i_idx_Nifty_500_rel21",
+          "i_idx_Nifty_Next_50_rel21",
+          "i_nifty_energy_rel21"
+        ],
+        [
+          "i_idx_Nifty_InfraLog_rel21"
+        ],
+        [
+          "i_nifty_realty_rel21"
+        ],
+        [
+          "i_idx_Nifty_100_rel5",
+          "i_idx_Nifty_200_rel5",
+          "i_idx_Nifty_500_rel5",
+          "i_idx_Nifty_Next_50_rel5"
+        ],
+        [
+          "i_nifty_energy_rel5"
+        ],
+        [
+          "i_idx_Nifty_InfraLog_rel5"
+        ],
+        [
+          "i_nifty_realty_rel5"
+        ],
+        [
+          "i_idx_Nifty_Commodities_rel5",
+          "i_nifty_metal_rel5"
+        ],
+        [
+          "i_idx_Nifty_Commodities_rel21",
+          "i_nifty_metal_rel21"
+        ]
+      ]
+    }
+  },
+  {
+    "batch": "distribution",
+    "horizon": 21,
+    "model": "D_ELASTIC_RISK",
+    "fold": "2026-07",
+    "cohort": "primary",
+    "cutoff": "2026-06-30",
+    "status": "ok",
+    "training_n": 284,
+    "inner_n": 221,
+    "n": 23,
+    "train_cutoff": "2026-06-30",
+    "inner_cutoff": "2026-03-24",
+    "last_endpoint": "2026-06-29",
+    "inner_last_endpoint": "2026-03-23",
+    "artifact": "models\\distribution-21-2026-07-D_ELASTIC_RISK.joblib",
+    "sha256": "10a3d301edb6de008db987d4bcc94bf7c80f319e333304fa24ef657fb9cd0c73",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": [
+        [
+          "i_bank_nifty_rel21",
+          "i_nifty_financial_rel21"
+        ],
+        [
+          "i_nifty_psu_bank_rel21"
+        ],
+        [
+          "i_bank_nifty_rel5",
+          "i_nifty_financial_rel5"
+        ],
+        [
+          "i_nifty_psu_bank_rel5"
+        ],
+        [
+          "i_idx_NIFTY_HEALTHCARE_rel21",
+          "i_nifty_pharma_rel21"
+        ],
+        [
+          "i_idx_NIFTY_HEALTHCARE_rel5",
+          "i_nifty_pharma_rel5"
+        ],
+        [
+          "i_idx_Nifty_Infra_rel21"
+        ],
+        [
+          "i_nifty_it_rel21"
+        ],
+        [
+          "i_idx_Nifty_100_rel21",
+          "i_idx_Nifty_200_rel21",
+          "i_idx_Nifty_500_rel21",
+          "i_idx_Nifty_Next_50_rel21",
+          "i_nifty_energy_rel21"
+        ],
+        [
+          "i_idx_Nifty_InfraLog_rel21"
+        ],
+        [
+          "i_nifty_realty_rel21"
+        ],
+        [
+          "i_idx_Nifty_Infra_rel5"
+        ],
+        [
+          "i_nifty_it_rel5"
+        ],
+        [
+          "i_idx_Nifty_100_rel5",
+          "i_idx_Nifty_200_rel5",
+          "i_idx_Nifty_500_rel5",
+          "i_idx_Nifty_Next_50_rel5"
+        ],
+        [
+          "i_nifty_energy_rel5"
+        ],
+        [
+          "i_idx_Nifty_InfraLog_rel5"
+        ],
+        [
+          "i_nifty_realty_rel5"
+        ],
+        [
+          "i_idx_Nifty_Commodities_rel5",
+          "i_nifty_metal_rel5"
+        ],
+        [
+          "i_idx_Nifty_Commodities_rel21",
+          "i_nifty_metal_rel21"
+        ],
+        [
+          "i_nifty_auto_rel21"
+        ],
+        [
+          "i_nifty_auto_rel5"
+        ],
+        [
+          "i_idx_Nifty_Consumption_rel21"
+        ],
+        [
+          "i_nifty_fmcg_rel21"
+        ],
+        [
+          "i_idx_Nifty_Consumption_rel5"
+        ],
+        [
+          "i_nifty_fmcg_rel5"
+        ]
+      ]
+    }
+  },
+  {
+    "batch": "distribution",
+    "horizon": 21,
+    "model": "D_STUDENT",
+    "fold": "2026-08",
+    "cohort": "primary",
+    "cutoff": "2026-07-31",
+    "status": "ok",
+    "training_n": 307,
+    "inner_n": 244,
+    "n": 21,
+    "train_cutoff": "2026-07-31",
+    "inner_cutoff": "2026-04-30",
+    "last_endpoint": "2026-07-30",
+    "inner_last_endpoint": "2026-04-29",
+    "artifact": "models\\distribution-21-2026-08-D_STUDENT.joblib",
+    "sha256": "2c1659ba463bc93128b0f5d27b45ef3604109544849021745cab3e77bf884221",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "distribution",
+    "horizon": 21,
+    "model": "D_RISK",
+    "fold": "2026-08",
+    "cohort": "primary",
+    "cutoff": "2026-07-31",
+    "status": "ok",
+    "training_n": 307,
+    "inner_n": 244,
+    "n": 21,
+    "train_cutoff": "2026-07-31",
+    "inner_cutoff": "2026-04-30",
+    "last_endpoint": "2026-07-30",
+    "inner_last_endpoint": "2026-04-29",
+    "artifact": "models\\distribution-21-2026-08-D_RISK.joblib",
+    "sha256": "55c571360afce8c4a71d4efe7b85255aad0f92e76e748912d8d28432e1af90ad",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "distribution",
+    "horizon": 21,
+    "model": "D_FACTOR",
+    "fold": "2026-08",
+    "cohort": "primary",
+    "cutoff": "2026-07-31",
+    "status": "ok",
+    "training_n": 307,
+    "inner_n": 244,
+    "n": 21,
+    "train_cutoff": "2026-07-31",
+    "inner_cutoff": "2026-04-30",
+    "last_endpoint": "2026-07-30",
+    "inner_last_endpoint": "2026-04-29",
+    "artifact": "models\\distribution-21-2026-08-D_FACTOR.joblib",
+    "sha256": "20a7f04251e4a6ff4a69b86b681a8920455a2b1210d7eb4758be1f922ccefe90",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "distribution",
+    "horizon": 21,
+    "model": "D_QUANTILE",
+    "fold": "2026-08",
+    "cohort": "primary",
+    "cutoff": "2026-07-31",
+    "status": "ok",
+    "training_n": 307,
+    "inner_n": 244,
+    "n": 21,
+    "train_cutoff": "2026-07-31",
+    "inner_cutoff": "2026-04-30",
+    "last_endpoint": "2026-07-30",
+    "inner_last_endpoint": "2026-04-29",
+    "artifact": "models\\distribution-21-2026-08-D_QUANTILE.joblib",
+    "sha256": "d52bd505903f7baa768ebfbced2f8120d72d0ffbb2d2dc265e66e9c3494da981",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": [
+        [
+          "i_bank_nifty_rel21",
+          "i_nifty_financial_rel21"
+        ],
+        [
+          "i_nifty_psu_bank_rel21"
+        ],
+        [
+          "i_bank_nifty_rel5",
+          "i_nifty_financial_rel5"
+        ],
+        [
+          "i_nifty_psu_bank_rel5"
+        ],
+        [
+          "i_nifty_it_rel5"
+        ],
+        [
+          "i_idx_Nifty_Infra_rel21"
+        ],
+        [
+          "i_nifty_it_rel21"
+        ],
+        [
+          "i_idx_Nifty_100_rel21",
+          "i_idx_Nifty_200_rel21",
+          "i_idx_Nifty_500_rel21",
+          "i_idx_Nifty_Next_50_rel21",
+          "i_nifty_energy_rel21"
+        ],
+        [
+          "i_idx_Nifty_InfraLog_rel21"
+        ],
+        [
+          "i_nifty_realty_rel21"
+        ],
+        [
+          "i_idx_Nifty_Commodities_rel5",
+          "i_nifty_metal_rel5"
+        ],
+        [
+          "i_idx_Nifty_Commodities_rel21",
+          "i_nifty_metal_rel21"
+        ],
+        [
+          "i_idx_Nifty_100_rel5",
+          "i_idx_Nifty_200_rel5",
+          "i_idx_Nifty_500_rel5",
+          "i_idx_Nifty_Next_50_rel5"
+        ],
+        [
+          "i_nifty_energy_rel5"
+        ],
+        [
+          "i_idx_Nifty_InfraLog_rel5"
+        ],
+        [
+          "i_nifty_realty_rel5"
+        ],
+        [
+          "i_idx_Nifty_Infra_rel5"
+        ],
+        [
+          "i_idx_Nifty_Consumption_rel21"
+        ],
+        [
+          "i_idx_Nifty_Consumption_rel5"
+        ],
+        [
+          "i_nifty_auto_rel21"
+        ],
+        [
+          "i_nifty_auto_rel5"
+        ]
+      ]
+    }
+  },
+  {
+    "batch": "distribution",
+    "horizon": 21,
+    "model": "D_ELASTIC_RISK",
+    "fold": "2026-08",
+    "cohort": "primary",
+    "cutoff": "2026-07-31",
+    "status": "ok",
+    "training_n": 307,
+    "inner_n": 244,
+    "n": 21,
+    "train_cutoff": "2026-07-31",
+    "inner_cutoff": "2026-04-30",
+    "last_endpoint": "2026-07-30",
+    "inner_last_endpoint": "2026-04-29",
+    "artifact": "models\\distribution-21-2026-08-D_ELASTIC_RISK.joblib",
+    "sha256": "cabe365704335039edbf2bd74f23939e44aae0e26a3af7d04110911c34a1b50a",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": [
+        [
+          "i_bank_nifty_rel21",
+          "i_nifty_financial_rel21"
+        ],
+        [
+          "i_nifty_psu_bank_rel21"
+        ],
+        [
+          "i_bank_nifty_rel5",
+          "i_nifty_financial_rel5"
+        ],
+        [
+          "i_nifty_psu_bank_rel5"
+        ],
+        [
+          "i_nifty_it_rel5"
+        ],
+        [
+          "i_idx_Nifty_Commodities_rel5",
+          "i_nifty_metal_rel5"
+        ],
+        [
+          "i_idx_Nifty_Commodities_rel21",
+          "i_nifty_metal_rel21"
+        ],
+        [
+          "i_idx_Nifty_100_rel5",
+          "i_idx_Nifty_200_rel5",
+          "i_idx_Nifty_500_rel5",
+          "i_idx_Nifty_Next_50_rel5"
+        ],
+        [
+          "i_nifty_energy_rel5"
+        ],
+        [
+          "i_idx_Nifty_InfraLog_rel5"
+        ],
+        [
+          "i_nifty_realty_rel5"
+        ],
+        [
+          "i_idx_Nifty_Infra_rel5"
+        ],
+        [
+          "i_idx_NIFTY_HEALTHCARE_rel21",
+          "i_nifty_pharma_rel21"
+        ],
+        [
+          "i_idx_NIFTY_HEALTHCARE_rel5",
+          "i_nifty_pharma_rel5"
+        ],
+        [
+          "i_idx_Nifty_Infra_rel21"
+        ],
+        [
+          "i_nifty_it_rel21"
+        ],
+        [
+          "i_idx_Nifty_100_rel21",
+          "i_idx_Nifty_200_rel21",
+          "i_idx_Nifty_500_rel21",
+          "i_idx_Nifty_Next_50_rel21",
+          "i_nifty_energy_rel21"
+        ],
+        [
+          "i_idx_Nifty_InfraLog_rel21"
+        ],
+        [
+          "i_nifty_realty_rel21"
+        ],
+        [
+          "i_nifty_auto_rel21"
+        ],
+        [
+          "i_nifty_auto_rel5"
+        ],
+        [
+          "i_idx_Nifty_Consumption_rel21"
+        ],
+        [
+          "i_nifty_fmcg_rel21"
+        ],
+        [
+          "i_idx_Nifty_Consumption_rel5"
+        ],
+        [
+          "i_nifty_fmcg_rel5"
+        ]
+      ]
+    }
+  },
+  {
+    "batch": "distribution",
+    "horizon": 21,
+    "model": "D_STUDENT",
+    "fold": "2026-09",
+    "cohort": "primary",
+    "cutoff": "2026-08-31",
+    "status": "ok",
+    "training_n": 328,
+    "inner_n": 265,
+    "n": 21,
+    "train_cutoff": "2026-08-31",
+    "inner_cutoff": "2026-06-02",
+    "last_endpoint": "2026-08-28",
+    "inner_last_endpoint": "2026-06-01",
+    "artifact": "models\\distribution-21-2026-09-D_STUDENT.joblib",
+    "sha256": "f58a66bd205d1366d10530b2d3d077fb4290e967865b8af722ee49ef084e6f61",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "distribution",
+    "horizon": 21,
+    "model": "D_RISK",
+    "fold": "2026-09",
+    "cohort": "primary",
+    "cutoff": "2026-08-31",
+    "status": "ok",
+    "training_n": 328,
+    "inner_n": 265,
+    "n": 21,
+    "train_cutoff": "2026-08-31",
+    "inner_cutoff": "2026-06-02",
+    "last_endpoint": "2026-08-28",
+    "inner_last_endpoint": "2026-06-01",
+    "artifact": "models\\distribution-21-2026-09-D_RISK.joblib",
+    "sha256": "154f093694c907c46198b07c9927a8f8eec698aa9d70f50437ee5905ac505656",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "distribution",
+    "horizon": 21,
+    "model": "D_FACTOR",
+    "fold": "2026-09",
+    "cohort": "primary",
+    "cutoff": "2026-08-31",
+    "status": "ok",
+    "training_n": 328,
+    "inner_n": 265,
+    "n": 21,
+    "train_cutoff": "2026-08-31",
+    "inner_cutoff": "2026-06-02",
+    "last_endpoint": "2026-08-28",
+    "inner_last_endpoint": "2026-06-01",
+    "artifact": "models\\distribution-21-2026-09-D_FACTOR.joblib",
+    "sha256": "35f829691ed8e30e24fd2fe25e86cef5c85bc93bc079334f05ca22b6a046a6db",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "distribution",
+    "horizon": 21,
+    "model": "D_QUANTILE",
+    "fold": "2026-09",
+    "cohort": "primary",
+    "cutoff": "2026-08-31",
+    "status": "ok",
+    "training_n": 328,
+    "inner_n": 265,
+    "n": 21,
+    "train_cutoff": "2026-08-31",
+    "inner_cutoff": "2026-06-02",
+    "last_endpoint": "2026-08-28",
+    "inner_last_endpoint": "2026-06-01",
+    "artifact": "models\\distribution-21-2026-09-D_QUANTILE.joblib",
+    "sha256": "28c44ed6157a76ac10485ff242b99e661690f7a53b83b42b5ecfcc86cb6e663e",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": [
+        [
+          "i_idx_Nifty_Consumption_rel21"
+        ],
+        [
+          "i_idx_Nifty_Consumption_rel5"
+        ],
+        [
+          "i_nifty_auto_rel21"
+        ],
+        [
+          "i_nifty_auto_rel5"
+        ],
+        [
+          "i_idx_Nifty_Infra_rel21"
+        ],
+        [
+          "i_nifty_it_rel21"
+        ],
+        [
+          "i_nifty_it_rel5"
+        ],
+        [
+          "i_bank_nifty_rel21",
+          "i_nifty_financial_rel21"
+        ],
+        [
+          "i_nifty_psu_bank_rel21"
+        ],
+        [
+          "i_bank_nifty_rel5",
+          "i_nifty_financial_rel5"
+        ],
+        [
+          "i_nifty_psu_bank_rel5"
+        ],
+        [
+          "i_nifty_realty_rel21"
+        ],
+        [
+          "i_nifty_realty_rel5"
+        ],
+        [
+          "i_idx_Nifty_Commodities_rel21",
+          "i_nifty_metal_rel21"
+        ],
+        [
+          "i_idx_Nifty_100_rel21",
+          "i_idx_Nifty_200_rel21",
+          "i_idx_Nifty_500_rel21",
+          "i_idx_Nifty_Next_50_rel21"
+        ],
+        [
+          "i_nifty_energy_rel21"
+        ],
+        [
+          "i_idx_Nifty_InfraLog_rel21"
+        ],
+        [
+          "i_idx_Nifty_Commodities_rel5",
+          "i_nifty_metal_rel5"
+        ],
+        [
+          "i_idx_Nifty_100_rel5",
+          "i_idx_Nifty_200_rel5",
+          "i_idx_Nifty_500_rel5",
+          "i_idx_Nifty_Next_50_rel5"
+        ],
+        [
+          "i_idx_Nifty_InfraLog_rel5"
+        ],
+        [
+          "i_nifty_energy_rel5"
+        ],
+        [
+          "i_idx_Nifty_Infra_rel5"
+        ]
+      ]
+    }
+  },
+  {
+    "batch": "distribution",
+    "horizon": 21,
+    "model": "D_ELASTIC_RISK",
+    "fold": "2026-09",
+    "cohort": "primary",
+    "cutoff": "2026-08-31",
+    "status": "ok",
+    "training_n": 328,
+    "inner_n": 265,
+    "n": 21,
+    "train_cutoff": "2026-08-31",
+    "inner_cutoff": "2026-06-02",
+    "last_endpoint": "2026-08-28",
+    "inner_last_endpoint": "2026-06-01",
+    "artifact": "models\\distribution-21-2026-09-D_ELASTIC_RISK.joblib",
+    "sha256": "6ca6590f1ea3dacaeafbeea56ed48b9ddee081136c1fe88ad0bc7ca8f8d4c364",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": [
+        [
+          "i_nifty_auto_rel21"
+        ],
+        [
+          "i_nifty_auto_rel5"
+        ],
+        [
+          "i_nifty_realty_rel21"
+        ],
+        [
+          "i_nifty_realty_rel5"
+        ],
+        [
+          "i_idx_Nifty_Commodities_rel21",
+          "i_nifty_metal_rel21"
+        ],
+        [
+          "i_idx_Nifty_100_rel21",
+          "i_idx_Nifty_200_rel21",
+          "i_idx_Nifty_500_rel21",
+          "i_idx_Nifty_Next_50_rel21"
+        ],
+        [
+          "i_nifty_energy_rel21"
+        ],
+        [
+          "i_idx_Nifty_InfraLog_rel21"
+        ],
+        [
+          "i_idx_Nifty_Commodities_rel5",
+          "i_nifty_metal_rel5"
+        ],
+        [
+          "i_idx_Nifty_100_rel5",
+          "i_idx_Nifty_200_rel5",
+          "i_idx_Nifty_500_rel5",
+          "i_idx_Nifty_Next_50_rel5"
+        ],
+        [
+          "i_idx_Nifty_InfraLog_rel5"
+        ],
+        [
+          "i_nifty_energy_rel5"
+        ],
+        [
+          "i_idx_Nifty_Infra_rel5"
+        ],
+        [
+          "i_idx_Nifty_Infra_rel21"
+        ],
+        [
+          "i_nifty_it_rel21"
+        ],
+        [
+          "i_nifty_it_rel5"
+        ],
+        [
+          "i_bank_nifty_rel21",
+          "i_nifty_financial_rel21"
+        ],
+        [
+          "i_nifty_psu_bank_rel21"
+        ],
+        [
+          "i_bank_nifty_rel5",
+          "i_nifty_financial_rel5"
+        ],
+        [
+          "i_nifty_psu_bank_rel5"
+        ],
+        [
+          "i_idx_NIFTY_HEALTHCARE_rel21",
+          "i_nifty_pharma_rel21"
+        ],
+        [
+          "i_idx_NIFTY_HEALTHCARE_rel5",
+          "i_nifty_pharma_rel5"
+        ],
+        [
+          "i_idx_Nifty_Consumption_rel21"
+        ],
+        [
+          "i_nifty_fmcg_rel21"
+        ],
+        [
+          "i_idx_Nifty_Consumption_rel5"
+        ],
+        [
+          "i_nifty_fmcg_rel5"
+        ]
+      ]
+    }
+  },
+  {
+    "batch": "distribution",
+    "horizon": 21,
+    "model": "D_STUDENT",
+    "fold": "2026-10",
+    "cohort": "primary",
+    "cutoff": "2026-09-30",
+    "status": "ok",
+    "training_n": 349,
+    "inner_n": 286,
+    "n": 11,
+    "train_cutoff": "2026-09-30",
+    "inner_cutoff": "2026-07-02",
+    "last_endpoint": "2026-09-29",
+    "inner_last_endpoint": "2026-07-01",
+    "artifact": "models\\distribution-21-2026-10-D_STUDENT.joblib",
+    "sha256": "e5ac03f610634ab54dc5feacaf88c21cf83002fbbfd0865a69e19fe22bf85781",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "distribution",
+    "horizon": 21,
+    "model": "D_RISK",
+    "fold": "2026-10",
+    "cohort": "primary",
+    "cutoff": "2026-09-30",
+    "status": "ok",
+    "training_n": 349,
+    "inner_n": 286,
+    "n": 11,
+    "train_cutoff": "2026-09-30",
+    "inner_cutoff": "2026-07-02",
+    "last_endpoint": "2026-09-29",
+    "inner_last_endpoint": "2026-07-01",
+    "artifact": "models\\distribution-21-2026-10-D_RISK.joblib",
+    "sha256": "c30b4156c8285c8e24afd2c8e60106c0ded206f54dd86d21c1ec8a4f39f4007a",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "distribution",
+    "horizon": 21,
+    "model": "D_FACTOR",
+    "fold": "2026-10",
+    "cohort": "primary",
+    "cutoff": "2026-09-30",
+    "status": "ok",
+    "training_n": 349,
+    "inner_n": 286,
+    "n": 11,
+    "train_cutoff": "2026-09-30",
+    "inner_cutoff": "2026-07-02",
+    "last_endpoint": "2026-09-29",
+    "inner_last_endpoint": "2026-07-01",
+    "artifact": "models\\distribution-21-2026-10-D_FACTOR.joblib",
+    "sha256": "8646a1b12aba37c8d7645b22641fe12617f341076c0b55edde862927f6c07a0a",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": []
+    }
+  },
+  {
+    "batch": "distribution",
+    "horizon": 21,
+    "model": "D_QUANTILE",
+    "fold": "2026-10",
+    "cohort": "primary",
+    "cutoff": "2026-09-30",
+    "status": "ok",
+    "training_n": 349,
+    "inner_n": 286,
+    "n": 11,
+    "train_cutoff": "2026-09-30",
+    "inner_cutoff": "2026-07-02",
+    "last_endpoint": "2026-09-29",
+    "inner_last_endpoint": "2026-07-01",
+    "artifact": "models\\distribution-21-2026-10-D_QUANTILE.joblib",
+    "sha256": "a0643e8941d96effc0d0489ba1bcef67e5b3bbd9374c8a8ba3ad0915b652312d",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": [
+        [
+          "i_idx_Nifty_Consumption_rel21"
+        ],
+        [
+          "i_idx_Nifty_Consumption_rel5"
+        ],
+        [
+          "i_nifty_auto_rel21"
+        ],
+        [
+          "i_nifty_auto_rel5"
+        ],
+        [
+          "i_bank_nifty_rel21",
+          "i_nifty_financial_rel21"
+        ],
+        [
+          "i_nifty_it_rel21"
+        ],
+        [
+          "i_nifty_psu_bank_rel21"
+        ],
+        [
+          "i_bank_nifty_rel5",
+          "i_nifty_financial_rel5"
+        ],
+        [
+          "i_nifty_psu_bank_rel5"
+        ],
+        [
+          "i_idx_Nifty_Infra_rel5"
+        ],
+        [
+          "i_nifty_it_rel5"
+        ],
+        [
+          "i_nifty_realty_rel21"
+        ],
+        [
+          "i_nifty_realty_rel5"
+        ],
+        [
+          "i_idx_Nifty_Commodities_rel5",
+          "i_nifty_metal_rel5"
+        ],
+        [
+          "i_idx_Nifty_100_rel5",
+          "i_idx_Nifty_200_rel5",
+          "i_idx_Nifty_500_rel5",
+          "i_idx_Nifty_Next_50_rel5"
+        ],
+        [
+          "i_idx_Nifty_InfraLog_rel5"
+        ],
+        [
+          "i_nifty_energy_rel5"
+        ],
+        [
+          "i_idx_Nifty_Commodities_rel21",
+          "i_nifty_metal_rel21"
+        ],
+        [
+          "i_idx_Nifty_100_rel21",
+          "i_idx_Nifty_200_rel21",
+          "i_idx_Nifty_500_rel21",
+          "i_idx_Nifty_Next_50_rel21"
+        ],
+        [
+          "i_idx_Nifty_InfraLog_rel21",
+          "i_nifty_energy_rel21"
+        ],
+        [
+          "i_idx_Nifty_Infra_rel21"
+        ]
+      ]
+    }
+  },
+  {
+    "batch": "distribution",
+    "horizon": 21,
+    "model": "D_ELASTIC_RISK",
+    "fold": "2026-10",
+    "cohort": "primary",
+    "cutoff": "2026-09-30",
+    "status": "ok",
+    "training_n": 349,
+    "inner_n": 286,
+    "n": 11,
+    "train_cutoff": "2026-09-30",
+    "inner_cutoff": "2026-07-02",
+    "last_endpoint": "2026-09-29",
+    "inner_last_endpoint": "2026-07-01",
+    "artifact": "models\\distribution-21-2026-10-D_ELASTIC_RISK.joblib",
+    "sha256": "114a1938419f017c59ad604b19199114e3e2ff1b8798e4597c5878942e93e77f",
+    "warnings": [],
+    "metadata": {
+      "aliases": [],
+      "clusters": [
+        [
+          "i_nifty_auto_rel21"
+        ],
+        [
+          "i_nifty_auto_rel5"
+        ],
+        [
+          "i_idx_Nifty_Consumption_rel21"
+        ],
+        [
+          "i_nifty_fmcg_rel21"
+        ],
+        [
+          "i_idx_Nifty_Consumption_rel5"
+        ],
+        [
+          "i_nifty_fmcg_rel5"
+        ],
+        [
+          "i_bank_nifty_rel21",
+          "i_nifty_financial_rel21"
+        ],
+        [
+          "i_nifty_it_rel21"
+        ],
+        [
+          "i_nifty_psu_bank_rel21"
+        ],
+        [
+          "i_bank_nifty_rel5",
+          "i_nifty_financial_rel5"
+        ],
+        [
+          "i_nifty_psu_bank_rel5"
+        ],
+        [
+          "i_idx_Nifty_Infra_rel5"
+        ],
+        [
+          "i_nifty_it_rel5"
+        ],
+        [
+          "i_idx_NIFTY_HEALTHCARE_rel21",
+          "i_nifty_pharma_rel21"
+        ],
+        [
+          "i_idx_NIFTY_HEALTHCARE_rel5",
+          "i_nifty_pharma_rel5"
+        ],
+        [
+          "i_nifty_realty_rel21"
+        ],
+        [
+          "i_nifty_realty_rel5"
+        ],
+        [
+          "i_idx_Nifty_Commodities_rel5",
+          "i_nifty_metal_rel5"
+        ],
+        [
+          "i_idx_Nifty_100_rel5",
+          "i_idx_Nifty_200_rel5",
+          "i_idx_Nifty_500_rel5",
+          "i_idx_Nifty_Next_50_rel5"
+        ],
+        [
+          "i_idx_Nifty_InfraLog_rel5"
+        ],
+        [
+          "i_nifty_energy_rel5"
+        ],
+        [
+          "i_idx_Nifty_Commodities_rel21",
+          "i_nifty_metal_rel21"
+        ],
+        [
+          "i_idx_Nifty_100_rel21",
+          "i_idx_Nifty_200_rel21",
+          "i_idx_Nifty_500_rel21",
+          "i_idx_Nifty_Next_50_rel21"
+        ],
+        [
+          "i_idx_Nifty_InfraLog_rel21",
+          "i_nifty_energy_rel21"
+        ],
+        [
+          "i_idx_Nifty_Infra_rel21"
+        ]
+      ]
+    }
+  }
+]

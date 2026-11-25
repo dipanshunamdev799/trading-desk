@@ -1,0 +1,160 @@
+{
+  "registered_at": "2026-11-19T16:02:30.469085+05:30",
+  "specifications": {
+    "C_SMALL": {
+      "kind": "ridge",
+      "features": "small",
+      "hypothesis": "Compact static parent"
+    },
+    "H_MULTISCALE": {
+      "kind": "ridge",
+      "features": "multiscale",
+      "hypothesis": "Selected normalized cross-index divergences beyond native reference"
+    },
+    "H_DYNAMIC": {
+      "kind": "ridge",
+      "features": "dynamic_full",
+      "hypothesis": "Eight state-evolution variables add information"
+    },
+    "H_DYNAMIC_CORE": {
+      "kind": "ridge",
+      "features": "dynamic_core",
+      "hypothesis": "Small evolution system instead of large static states"
+    },
+    "H_WARNINGS": {
+      "kind": "ridge",
+      "features": "warning",
+      "hypothesis": "Banks/cyclicals weaken while headline rises"
+    },
+    "H_CORRELATION": {
+      "kind": "ridge",
+      "features": "correlation",
+      "hypothesis": "Sector synchronization/correlation breakdown"
+    },
+    "H_ROTATION": {
+      "kind": "ridge",
+      "features": "rotation",
+      "hypothesis": "Defensive/IT-financial/broad rotation"
+    },
+    "Q_ETF_NOSIZE": {
+      "kind": "ridge",
+      "features": "etf_full",
+      "hypothesis": "Cross I03 native block with all L01 ETF inputs"
+    },
+    "Q_ETF_VOLUME": {
+      "kind": "ridge",
+      "features": "etf_volume",
+      "hypothesis": "ETF activity separate from cross-asset price exposure"
+    },
+    "Q_ETF_PRICE": {
+      "kind": "ridge",
+      "features": "etf_price",
+      "hypothesis": "ETF return/variation separate from activity"
+    },
+    "A_ELASTIC": {
+      "kind": "elastic",
+      "features": "native",
+      "hypothesis": "Sparse conditional return estimator"
+    },
+    "A_HUBER": {
+      "kind": "huber",
+      "features": "native",
+      "hypothesis": "Robust loss reduces influential return shocks"
+    },
+    "A_BAYES": {
+      "kind": "bayes",
+      "features": "native",
+      "law": "bayes",
+      "hypothesis": "Regularized Bayesian predictive normal atoms"
+    },
+    "A_FOREST": {
+      "kind": "forest",
+      "features": "native",
+      "hypothesis": "Native-state empirical forest law"
+    },
+    "A_LGBM_QUANT": {
+      "kind": "lgbm_quantile",
+      "features": "native",
+      "hypothesis": "Native shallow boosting with direct quantiles"
+    },
+    "A_QUANTILE": {
+      "kind": "quantile",
+      "features": "native",
+      "hypothesis": "Regularized linear quantile law"
+    },
+    "A_GAM": {
+      "kind": "spline",
+      "features": "small",
+      "hypothesis": "Low-dimensional additive nonlinear response"
+    },
+    "A_STUDENT": {
+      "kind": "ridge",
+      "features": "native",
+      "law": "student",
+      "hypothesis": "Regularized heavy-tailed conditional law"
+    },
+    "R_VOL": {
+      "kind": "experts",
+      "features": "native",
+      "gate": "volatility",
+      "hypothesis": "Shrunk high/low-volatility experts"
+    },
+    "R_TREND": {
+      "kind": "experts",
+      "features": "native",
+      "gate": "trend",
+      "hypothesis": "Shrunk trend/sideways experts"
+    },
+    "G_MATCHED": {
+      "kind": "ridge",
+      "features": "matched_small",
+      "hypothesis": "Same mature training dates as mediator models"
+    },
+    "G_DIRECT": {
+      "kind": "ridge",
+      "features": "global_direct",
+      "hypothesis": "Sparse raw globals beyond date-matched domestic control"
+    },
+    "G_MEDIATED": {
+      "kind": "ridge",
+      "features": "mediated",
+      "hypothesis": "Honest global-sector correction forecasts beyond domestic control"
+    },
+    "M_WEEKSTATE": {
+      "kind": "ridge",
+      "features": "weekly_states",
+      "only_horizon": 21,
+      "hypothesis": "Past issued weekly-state evolution predicts month, no probability compounding"
+    },
+    "M_PERSIST": {
+      "kind": "ridge",
+      "features": "persistent",
+      "only_horizon": 21,
+      "hypothesis": "Slow persistent observed regimes, low-dimensional monthly law"
+    }
+  },
+  "joint_laws": [
+    "J_EQUAL",
+    "J_BRIER",
+    "J_CRPS",
+    "J_COMBINED",
+    "J_SIGN"
+  ],
+  "parameters": "Fixed Ridge100; ElasticNet.001/.5; Huber10/1.35; RF64/depth3/minleaf30; LGBM80/depth2/leaves4/minleaf40/.04/L2=10; GAM3knots/degree2; quantilealpha.005; Studentdf5; conditional.65/unconditional.35",
+  "mixtures": "Only prior honestly issued prequential laws, endpoint<current cutoff,last42; weights constrained .1\u2013.9; penalties Brier.05,CRPS.002,joint.25; equal-mixture benchmark",
+  "sign_tilt": "Shrink toward native logisticC.1 using beta learned from honest prior Brier with penalty.05, bounded0\u2013.75; reweight actual return atoms, not invent magnitudes",
+  "monthly_context": "Four disjoint windows; monthly-specific systems are not forced onto weekly",
+  "matched_training": "Direct/mediated/date-matched control share dates where intermediate forecast exists; no backfilled fitted sector outcomes",
+  "source_hashes": {
+    "common.py": "8bc60fd7286afe60ede177969bc97af6048139bdae3549b901a0b25406395641",
+    "engine.py": "cd49e136b6bce653904efe1b74d371b6b7c6d8a6645f71d748d820c4cf641524",
+    "experiments.py": "271159f94e56345966d4fbcbb3693d0f05d76a77b984461fb83400b464ba3540",
+    "features.py": "1e73f12fdc0c06b1dc6eee3aa4526d8e7486239c9e6c9d9be7da3df9f2e17091",
+    "forensics.py": "77e419920bab2bdd0ab912859c6b7e186eb5c5f1c0bf3dd87b46e3c44e8860bf",
+    "mediation.py": "b29a1da7a25d3179ace6a01ead3e2f71b8316913fbeb8b8f123edb32c423c2af",
+    "prequential.py": "660a0824ee5f7a6ad4e97bec2d258378db2d68277b3b489405eea228512fb84a",
+    "reproduce.py": "50721b9094be8555b7cb312a5754e567bed8be5aba06814a8b72d46d5060aed1",
+    "__init__.py": "3c3123544f682aa490557e93767376b5cef8cef2b87a26f317b45c8aa5529454"
+  },
+  "exposure": "All retrospective dates exposed; no independently validated claim"
+}

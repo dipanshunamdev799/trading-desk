@@ -1,0 +1,66 @@
+{
+  "registered_at": "2026-11-24T12:06:03.504738+05:30",
+  "cohort": "early",
+  "configurations": {
+    "E_HIST": {
+      "frame": "early_small",
+      "parent": "self",
+      "law": "history",
+      "hypothesis": "Mature historical law on earlier exposed origins",
+      "min_train": 85,
+      "min_inner": 40,
+      "residual_window": 28
+    },
+    "E_SMALL": {
+      "frame": "early_small",
+      "parent": "E_HIST",
+      "alpha": 150,
+      "hypothesis": "Compact earlier-market parent",
+      "min_train": 85,
+      "min_inner": 40,
+      "residual_window": 28
+    },
+    "E_ROT": {
+      "frame": "early_rotation",
+      "parent": "E_SMALL",
+      "alpha": 150,
+      "hypothesis": "Earlier compact rotation treatment",
+      "min_train": 85,
+      "min_inner": 40,
+      "residual_window": 28
+    },
+    "E_SMALL_126": {
+      "frame": "early_small",
+      "parent": "E_SMALL",
+      "alpha": 150,
+      "window": 126,
+      "hypothesis": "Fixed short-window compact parent",
+      "min_train": 85,
+      "min_inner": 40,
+      "residual_window": 28
+    },
+    "E_ROT_126": {
+      "frame": "early_rotation",
+      "parent": "E_SMALL_126",
+      "alpha": 150,
+      "window": 126,
+      "hypothesis": "Fixed short-window compact rotation treatment",
+      "min_train": 85,
+      "min_inner": 40,
+      "residual_window": 28
+    },
+    "E_FULL_ROT": {
+      "frame": "both_changes",
+      "parent": "E_HIST",
+      "hypothesis": "Full rotation on earlier eligible dates with unchanged maturity rules",
+      "min_train": 85,
+      "min_inner": 40,
+      "residual_window": 28
+    }
+  },
+  "seed": 20261125,
+  "source": {
+    "models.py": "37056bce809a9e7dbecd72cd0c5a5fe91249866e9c32fefbad0a75d78ad2280e",
+    "experiments.py": "4f9135a1a17f2d26d7611d439a1c749973f8f3ac301ed1004b690a5036180a35"
+  }
+}

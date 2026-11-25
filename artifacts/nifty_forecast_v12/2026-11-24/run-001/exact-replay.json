@@ -1,0 +1,87 @@
+{
+  "passed": true,
+  "forecasts": 10122,
+  "direct_refit_models": [
+    "B_CHANGE",
+    "B_NATIVE_EQ",
+    "B_ROT",
+    "B_ROT_EQ",
+    "B_SPARSE_EQ",
+    "B_STUD_EQ",
+    "D_EQ_SIGNMAG",
+    "D_EQ_STUDENT",
+    "L_EQ_CONC",
+    "M_EARLIEST_85",
+    "M_RECENT_85",
+    "M_SPREAD_85",
+    "O_NATIVE_PHASE0",
+    "O_NATIVE_PHASE1",
+    "O_NATIVE_STAGGERED",
+    "O_ROT_PHASE1"
+  ],
+  "complete_law_recipes": {
+    "J11_BREADTH_ALL": [
+      [
+        "B_ROT_EQ",
+        "B_SPARSE_EQ",
+        "B_STUD_EQ"
+      ],
+      [
+        0.4,
+        0.3,
+        0.3
+      ]
+    ],
+    "J11_BREADTH_ALL_HIST": [
+      [
+        "B_ROT_EQ",
+        "B_SPARSE_EQ",
+        "B_STUD_EQ",
+        "HISTORY"
+      ],
+      [
+        0.2,
+        0.15,
+        0.15,
+        0.5
+      ]
+    ],
+    "J11_EXCLUDE_B_ROT": [
+      [
+        "B_SPARSE_EQ",
+        "D_EQ_STUDENT",
+        "L_EQ_CONC",
+        "HISTORY",
+        "D_EQ_SIGNMAG"
+      ],
+      null
+    ],
+    "J10_STRUCTURAL_BLEND": [
+      [
+        "BASE_ROTATION",
+        "S_ELASTIC",
+        "T_VOL_STUDENT"
+      ],
+      [
+        0.4,
+        0.3,
+        0.3
+      ]
+    ],
+    "J10_HISTORY_SHRINK": [
+      [
+        "BASE_ROTATION",
+        "S_ELASTIC",
+        "T_VOL_STUDENT",
+        "HISTORY"
+      ],
+      [
+        0.2,
+        0.15,
+        0.15,
+        0.5
+      ]
+    ]
+  },
+  "max_abs_delta": 1.3877787807814457e-17
+}

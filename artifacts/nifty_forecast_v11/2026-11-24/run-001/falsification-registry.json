@@ -1,0 +1,47 @@
+{
+  "registered": "2026-11-24T14:40:53.534600+05:30",
+  "designs": {
+    "recent": {
+      "frame": "rotation",
+      "parent": "B_ROT",
+      "budget": 85
+    },
+    "spread": {
+      "frame": "rotation",
+      "parent": "B_ROT",
+      "budget": 85,
+      "selection": "spread"
+    },
+    "blocks": {
+      "frame": "rotation",
+      "parent": "B_ROT",
+      "budget": 85,
+      "selection": "random_blocks"
+    },
+    "learned": {
+      "frame": "rotation",
+      "parent": "B_ROT",
+      "budget": 85,
+      "selection": "usefulness"
+    },
+    "breadth": {
+      "frame": "rotation",
+      "parent": "B_ROT",
+      "plus": [
+        "BREADTH"
+      ]
+    },
+    "overlap": {
+      "frame": "rotation",
+      "parent": "B_ROT",
+      "plus": [
+        "BREADTH"
+      ],
+      "overlap": "blockmean"
+    }
+  },
+  "null_draws": 12,
+  "resampling_draws": 10,
+  "dates": "First query from three earlier and three later distinct monthly refit folds per horizon.",
+  "selection": "Compete all six methods under each null draw. Re-select historical dates with jittered history block merits and seeded random blocks."
+}

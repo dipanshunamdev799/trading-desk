@@ -1,0 +1,29 @@
+{
+  "checked_at": "2026-11-16T03:35:20.920578+00:00",
+  "credential": {
+    "present": true,
+    "claims_verified": false,
+    "expiry_ist": "2026-11-17T06:00:00+05:30",
+    "expired": false
+  },
+  "checks": [
+    {
+      "path": "/v1/live-data/quote",
+      "http_status": 403,
+      "status": "FAILURE",
+      "accepted": false
+    },
+    {
+      "path": "/v1/live-data/ltp",
+      "http_status": 403,
+      "status": "FAILURE",
+      "accepted": false
+    }
+  ],
+  "market_data_access_verified": false,
+  "fallback_enabled": false,
+  "postgres_writes": 0,
+  "orders_submitted": 0,
+  "scheduling_enabled": false,
+  "interpretation": "Only market-data entitlement was tested. A403 alone does not identify the exact missing permission. User reports a free API token; official free plan excludes live data."
+}

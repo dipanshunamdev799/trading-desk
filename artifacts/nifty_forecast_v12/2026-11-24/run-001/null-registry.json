@@ -1,0 +1,20 @@
+{
+  "registered_at": "2026-11-25T00:23:05.036330+05:30",
+  "code": "d60f44a76a07a769335875634b0cba23ac36f937cc8fae2c9af64b27c5c436a6",
+  "draws": 12,
+  "market_family": [
+    "V12_RV_SCALE",
+    "V12_STRADDLE_SCALE",
+    "V12_IV_SCALE",
+    "V12_JOINT_IV",
+    "V12_EVENT_IV",
+    "P12_Q_PHYSICAL_MIX"
+  ],
+  "phases": "All eligible deterministic training phases, no phase preselected for null ranking",
+  "ensemble_objectives": [
+    "brier",
+    "crps"
+  ],
+  "test_origins": "First origin in three evenly spaced earlier and three later monthly refits per horizon.",
+  "interpretation": "Fixed archived evaluation and statistical anchor. Representative matured-block label perturbations and re-selection, conditional on prior V1\u2013V12 exposure."
+}

@@ -1,0 +1,18 @@
+{
+  "at": "2026-11-24T12:59:58.199487+05:30",
+  "configuration": {
+    "PATH_EMPIRICAL": {
+      "parent": "P_HIST",
+      "hypothesis": "Historical intact close-to-close log return blocks"
+    },
+    "PATH_REGIME": {
+      "parent": "PATH_EMPIRICAL",
+      "hypothesis": "Reweight contiguous paths by query versus historical trend and volatility"
+    },
+    "PATH_AR_REGIME": {
+      "parent": "PATH_REGIME",
+      "hypothesis": "Ridge AR(2) daily recursion with contiguous residual blocks and regime weights"
+    }
+  },
+  "seed": 20261129
+}

@@ -1,0 +1,46 @@
+Forensics 5 2026-07 failed 1
+Forensics 5 2026-08 failed 1
+Forensics 5 2026-09 failed 1
+Forensics 5 2026-10 failed 1
+Forensics 5 2026-11 failed 1
+Forensics 21 2026-07 failed 2
+Forensics 21 2026-08 failed 3
+Forensics 21 2026-09 failed 3
+Forensics 21 2026-10 failed 3
+Forensics complete 33 variants 5477 rows
+V6 registered models 5 2026-07 failures 0
+V6 registered models 5 2026-08 failures 0
+V6 registered models 5 2026-09 failures 0
+V6 registered models 5 2026-10 failures 0
+V6 registered models 5 2026-11 failures 0
+V6 registered models 21 2026-07 failures 3
+V6 registered models 21 2026-08 failures 3
+V6 registered models 21 2026-09 failures 3
+V6 registered models 21 2026-10 failures 3
+Mechanism/architecture/integration batch complete 4787 records
+Intermediate diagnostic 10 2026-07
+Intermediate diagnostic 10 2026-08
+Intermediate diagnostic 10 2026-09
+Intermediate diagnostic 10 2026-10
+Intermediate diagnostic 15 2026-07
+Intermediate diagnostic 15 2026-08
+Intermediate diagnostic 15 2026-09
+Intermediate diagnostic 15 2026-10
+Monthly risk and10/15-session diagnostics complete
+C:\Users\ME\Desktop\trading-desk\.venv\Lib\site-packages\sklearn\linear_model\_huber.py:348: ConvergenceWarning: lbfgs failed to converge after 1000 iteration(s) (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT
+
+Increase the number of iterations to improve the convergence (max_iter=1000).
+You might also want to scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+Monthly-state attribution 2026-07
+Monthly-state attribution 2026-08
+Monthly-state attribution 2026-09
+Monthly-state attribution 2026-10
+Weekly defensive/volume follow-up 2026-07
+Weekly defensive/volume follow-up 2026-08
+Weekly defensive/volume follow-up 2026-09
+Weekly defensive/volume follow-up 2026-10
+Weekly defensive/volume follow-up 2026-11
+Monthly block-preserving falsification complete

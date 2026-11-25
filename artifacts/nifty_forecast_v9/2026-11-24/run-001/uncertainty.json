@@ -1,0 +1,21 @@
+{
+  "method": "2,000 shared circular block draws with max standardized deviations. Separate weekly cohort families. No CIs for small monthly windows or 4-observation refresh.",
+  "early": {
+    "contrasts": 2487,
+    "n": 173,
+    "block_critical_values": {
+      "5": 3.6870982871995532,
+      "10": 3.8440921949875544,
+      "15": 3.84679984431972
+    }
+  },
+  "later": {
+    "contrasts": 5739,
+    "n": 92,
+    "block_critical_values": {
+      "5": 3.7254633111251825,
+      "10": 3.6141765779802357,
+      "15": 3.5554326389072024
+    }
+  }
+}

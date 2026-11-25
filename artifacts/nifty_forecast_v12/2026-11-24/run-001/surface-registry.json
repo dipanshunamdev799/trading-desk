@@ -1,0 +1,113 @@
+{
+  "registered_at": "2026-11-24T23:58:31.693053+05:30",
+  "methods": [
+    {
+      "name": "TRADE",
+      "field": "close",
+      "minimum_volume": 10,
+      "rate": 0.06,
+      "bandwidth": 0.85,
+      "max_z": 3.0,
+      "tighter": false,
+      "actual_future": false
+    },
+    {
+      "name": "LIQUID",
+      "field": "close",
+      "minimum_volume": 150,
+      "rate": 0.06,
+      "bandwidth": 0.85,
+      "max_z": 3.0,
+      "tighter": true,
+      "actual_future": false
+    },
+    {
+      "name": "SETTLEMENT",
+      "field": "settlement",
+      "minimum_volume": 10,
+      "rate": 0.06,
+      "bandwidth": 0.85,
+      "max_z": 3.0,
+      "tighter": false,
+      "actual_future": false
+    },
+    {
+      "name": "RATE_ZERO",
+      "field": "close",
+      "minimum_volume": 10,
+      "rate": 0.0,
+      "bandwidth": 0.85,
+      "max_z": 3.0,
+      "tighter": false,
+      "actual_future": false
+    },
+    {
+      "name": "RATE_HIGH",
+      "field": "close",
+      "minimum_volume": 10,
+      "rate": 0.09,
+      "bandwidth": 0.85,
+      "max_z": 3.0,
+      "tighter": false,
+      "actual_future": false
+    },
+    {
+      "name": "SMOOTH",
+      "field": "close",
+      "minimum_volume": 10,
+      "rate": 0.06,
+      "bandwidth": 1.65,
+      "max_z": 3.0,
+      "tighter": false,
+      "actual_future": false
+    },
+    {
+      "name": "TRUNCATED",
+      "field": "close",
+      "minimum_volume": 10,
+      "rate": 0.06,
+      "bandwidth": 0.85,
+      "max_z": 1.95,
+      "tighter": false,
+      "actual_future": false
+    },
+    {
+      "name": "FUTURE_FORWARD",
+      "field": "close",
+      "minimum_volume": 10,
+      "rate": 0.06,
+      "bandwidth": 0.85,
+      "max_z": 3.0,
+      "tighter": false,
+      "actual_future": true
+    }
+  ],
+  "expiry_min_days": 2,
+  "expiry_max_days": 72,
+  "quote_columns": [
+    "TradDt",
+    "BizDt",
+    "TckrSymb",
+    "FinInstrmTp",
+    "FinInstrmId",
+    "XpryDt",
+    "FininstrmActlXpryDt",
+    "StrkPric",
+    "OptnTp",
+    "OpnPric",
+    "HghPric",
+    "LwPric",
+    "ClsPric",
+    "LastPric",
+    "PrvsClsgPric",
+    "SttlmPric",
+    "UndrlygPric",
+    "OpnIntrst",
+    "ChngInOpnIntrst",
+    "TtlTradgVol",
+    "TtlNbOfTxsExctd",
+    "NewBrdLotQty",
+    "SsnId"
+  ],
+  "implementation": "d0fcfad6e48854ac616803f8aa81298139d99d6aaebc7c81416fb7d6dce9cf57"
+}

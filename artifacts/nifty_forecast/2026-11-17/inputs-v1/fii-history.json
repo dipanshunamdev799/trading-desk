@@ -1,0 +1,20 @@
+{
+  "method": "get_fii_data",
+  "parameters": {
+    "data_types": [
+      "NSE_EQ|CASH",
+      "NSE_FO|INDEX_FUTURES",
+      "NSE_FO|INDEX_OPTIONS"
+    ],
+    "interval": "1D",
+    "from_date": "2016-01-01"
+  },
+  "requested_at": "2026-11-17T00:32:05.585536+05:30",
+  "acquired_at": "2026-11-17T00:32:05.796716+05:30",
+  "ok": true,
+  "payload": {
+    "NSE_FO|INDEX_OPTIONS": [],
+    "NSE_FO|INDEX_FUTURES": [],
+    "NSE_EQ|CASH": []
+  }
+}

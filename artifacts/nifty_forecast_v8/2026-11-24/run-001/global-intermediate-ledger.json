@@ -1,0 +1,1252 @@
+[
+  {
+    "horizon": 5,
+    "split": "early",
+    "fold": "2025-10",
+    "target": "technology",
+    "status": "ok",
+    "cutoff": "2025-10-14",
+    "last_endpoint": "2025-10-13",
+    "n": 127
+  },
+  {
+    "horizon": 5,
+    "split": "early",
+    "fold": "2025-10",
+    "target": "volatility",
+    "status": "ok",
+    "cutoff": "2025-10-14",
+    "last_endpoint": "2025-10-13",
+    "n": 127
+  },
+  {
+    "horizon": 5,
+    "split": "early",
+    "fold": "2025-10",
+    "target": "oil_currency",
+    "status": "ok",
+    "cutoff": "2025-10-14",
+    "last_endpoint": "2025-10-13",
+    "n": 127
+  },
+  {
+    "horizon": 5,
+    "split": "early",
+    "fold": "2025-10",
+    "target": "rates",
+    "status": "ok",
+    "cutoff": "2025-10-14",
+    "last_endpoint": "2025-10-13",
+    "n": 127
+  },
+  {
+    "horizon": 5,
+    "split": "early",
+    "fold": "2025-10",
+    "target": "asia",
+    "status": "ok",
+    "cutoff": "2025-10-14",
+    "last_endpoint": "2025-10-13",
+    "n": 127
+  },
+  {
+    "horizon": 5,
+    "split": "early",
+    "fold": "2025-11",
+    "target": "technology",
+    "status": "ok",
+    "cutoff": "2025-10-31",
+    "last_endpoint": "2025-10-30",
+    "n": 139
+  },
+  {
+    "horizon": 5,
+    "split": "early",
+    "fold": "2025-11",
+    "target": "volatility",
+    "status": "ok",
+    "cutoff": "2025-10-31",
+    "last_endpoint": "2025-10-30",
+    "n": 139
+  },
+  {
+    "horizon": 5,
+    "split": "early",
+    "fold": "2025-11",
+    "target": "oil_currency",
+    "status": "ok",
+    "cutoff": "2025-10-31",
+    "last_endpoint": "2025-10-30",
+    "n": 139
+  },
+  {
+    "horizon": 5,
+    "split": "early",
+    "fold": "2025-11",
+    "target": "rates",
+    "status": "ok",
+    "cutoff": "2025-10-31",
+    "last_endpoint": "2025-10-30",
+    "n": 139
+  },
+  {
+    "horizon": 5,
+    "split": "early",
+    "fold": "2025-11",
+    "target": "asia",
+    "status": "ok",
+    "cutoff": "2025-10-31",
+    "last_endpoint": "2025-10-30",
+    "n": 139
+  },
+  {
+    "horizon": 5,
+    "split": "early",
+    "fold": "2025-12",
+    "target": "technology",
+    "status": "ok",
+    "cutoff": "2025-11-28",
+    "last_endpoint": "2025-11-27",
+    "n": 158
+  },
+  {
+    "horizon": 5,
+    "split": "early",
+    "fold": "2025-12",
+    "target": "volatility",
+    "status": "ok",
+    "cutoff": "2025-11-28",
+    "last_endpoint": "2025-11-27",
+    "n": 158
+  },
+  {
+    "horizon": 5,
+    "split": "early",
+    "fold": "2025-12",
+    "target": "oil_currency",
+    "status": "ok",
+    "cutoff": "2025-11-28",
+    "last_endpoint": "2025-11-27",
+    "n": 158
+  },
+  {
+    "horizon": 5,
+    "split": "early",
+    "fold": "2025-12",
+    "target": "rates",
+    "status": "ok",
+    "cutoff": "2025-11-28",
+    "last_endpoint": "2025-11-27",
+    "n": 158
+  },
+  {
+    "horizon": 5,
+    "split": "early",
+    "fold": "2025-12",
+    "target": "asia",
+    "status": "ok",
+    "cutoff": "2025-11-28",
+    "last_endpoint": "2025-11-27",
+    "n": 158
+  },
+  {
+    "horizon": 5,
+    "split": "early",
+    "fold": "2026-01",
+    "target": "technology",
+    "status": "ok",
+    "cutoff": "2025-12-31",
+    "last_endpoint": "2025-12-30",
+    "n": 180
+  },
+  {
+    "horizon": 5,
+    "split": "early",
+    "fold": "2026-01",
+    "target": "volatility",
+    "status": "ok",
+    "cutoff": "2025-12-31",
+    "last_endpoint": "2025-12-30",
+    "n": 180
+  },
+  {
+    "horizon": 5,
+    "split": "early",
+    "fold": "2026-01",
+    "target": "oil_currency",
+    "status": "ok",
+    "cutoff": "2025-12-31",
+    "last_endpoint": "2025-12-30",
+    "n": 180
+  },
+  {
+    "horizon": 5,
+    "split": "early",
+    "fold": "2026-01",
+    "target": "rates",
+    "status": "ok",
+    "cutoff": "2025-12-31",
+    "last_endpoint": "2025-12-30",
+    "n": 180
+  },
+  {
+    "horizon": 5,
+    "split": "early",
+    "fold": "2026-01",
+    "target": "asia",
+    "status": "ok",
+    "cutoff": "2025-12-31",
+    "last_endpoint": "2025-12-30",
+    "n": 180
+  },
+  {
+    "horizon": 5,
+    "split": "early",
+    "fold": "2026-02",
+    "target": "technology",
+    "status": "ok",
+    "cutoff": "2026-01-30",
+    "last_endpoint": "2026-01-29",
+    "n": 200
+  },
+  {
+    "horizon": 5,
+    "split": "early",
+    "fold": "2026-02",
+    "target": "volatility",
+    "status": "ok",
+    "cutoff": "2026-01-30",
+    "last_endpoint": "2026-01-29",
+    "n": 200
+  },
+  {
+    "horizon": 5,
+    "split": "early",
+    "fold": "2026-02",
+    "target": "oil_currency",
+    "status": "ok",
+    "cutoff": "2026-01-30",
+    "last_endpoint": "2026-01-29",
+    "n": 200
+  },
+  {
+    "horizon": 5,
+    "split": "early",
+    "fold": "2026-02",
+    "target": "rates",
+    "status": "ok",
+    "cutoff": "2026-01-30",
+    "last_endpoint": "2026-01-29",
+    "n": 200
+  },
+  {
+    "horizon": 5,
+    "split": "early",
+    "fold": "2026-02",
+    "target": "asia",
+    "status": "ok",
+    "cutoff": "2026-01-30",
+    "last_endpoint": "2026-01-29",
+    "n": 200
+  },
+  {
+    "horizon": 5,
+    "split": "early",
+    "fold": "2026-03",
+    "target": "technology",
+    "status": "ok",
+    "cutoff": "2026-02-27",
+    "last_endpoint": "2026-02-26",
+    "n": 221
+  },
+  {
+    "horizon": 5,
+    "split": "early",
+    "fold": "2026-03",
+    "target": "volatility",
+    "status": "ok",
+    "cutoff": "2026-02-27",
+    "last_endpoint": "2026-02-26",
+    "n": 221
+  },
+  {
+    "horizon": 5,
+    "split": "early",
+    "fold": "2026-03",
+    "target": "oil_currency",
+    "status": "ok",
+    "cutoff": "2026-02-27",
+    "last_endpoint": "2026-02-26",
+    "n": 221
+  },
+  {
+    "horizon": 5,
+    "split": "early",
+    "fold": "2026-03",
+    "target": "rates",
+    "status": "ok",
+    "cutoff": "2026-02-27",
+    "last_endpoint": "2026-02-26",
+    "n": 221
+  },
+  {
+    "horizon": 5,
+    "split": "early",
+    "fold": "2026-03",
+    "target": "asia",
+    "status": "ok",
+    "cutoff": "2026-02-27",
+    "last_endpoint": "2026-02-26",
+    "n": 221
+  },
+  {
+    "horizon": 5,
+    "split": "early",
+    "fold": "2026-04",
+    "target": "technology",
+    "status": "ok",
+    "cutoff": "2026-03-30",
+    "last_endpoint": "2026-03-27",
+    "n": 240
+  },
+  {
+    "horizon": 5,
+    "split": "early",
+    "fold": "2026-04",
+    "target": "volatility",
+    "status": "ok",
+    "cutoff": "2026-03-30",
+    "last_endpoint": "2026-03-27",
+    "n": 240
+  },
+  {
+    "horizon": 5,
+    "split": "early",
+    "fold": "2026-04",
+    "target": "oil_currency",
+    "status": "ok",
+    "cutoff": "2026-03-30",
+    "last_endpoint": "2026-03-27",
+    "n": 240
+  },
+  {
+    "horizon": 5,
+    "split": "early",
+    "fold": "2026-04",
+    "target": "rates",
+    "status": "ok",
+    "cutoff": "2026-03-30",
+    "last_endpoint": "2026-03-27",
+    "n": 240
+  },
+  {
+    "horizon": 5,
+    "split": "early",
+    "fold": "2026-04",
+    "target": "asia",
+    "status": "ok",
+    "cutoff": "2026-03-30",
+    "last_endpoint": "2026-03-27",
+    "n": 240
+  },
+  {
+    "horizon": 5,
+    "split": "early",
+    "fold": "2026-05",
+    "target": "technology",
+    "status": "ok",
+    "cutoff": "2026-04-30",
+    "last_endpoint": "2026-04-29",
+    "n": 260
+  },
+  {
+    "horizon": 5,
+    "split": "early",
+    "fold": "2026-05",
+    "target": "volatility",
+    "status": "ok",
+    "cutoff": "2026-04-30",
+    "last_endpoint": "2026-04-29",
+    "n": 260
+  },
+  {
+    "horizon": 5,
+    "split": "early",
+    "fold": "2026-05",
+    "target": "oil_currency",
+    "status": "ok",
+    "cutoff": "2026-04-30",
+    "last_endpoint": "2026-04-29",
+    "n": 260
+  },
+  {
+    "horizon": 5,
+    "split": "early",
+    "fold": "2026-05",
+    "target": "rates",
+    "status": "ok",
+    "cutoff": "2026-04-30",
+    "last_endpoint": "2026-04-29",
+    "n": 260
+  },
+  {
+    "horizon": 5,
+    "split": "early",
+    "fold": "2026-05",
+    "target": "asia",
+    "status": "ok",
+    "cutoff": "2026-04-30",
+    "last_endpoint": "2026-04-29",
+    "n": 260
+  },
+  {
+    "horizon": 5,
+    "split": "early",
+    "fold": "2026-06",
+    "target": "technology",
+    "status": "ok",
+    "cutoff": "2026-05-29",
+    "last_endpoint": "2026-05-27",
+    "n": 279
+  },
+  {
+    "horizon": 5,
+    "split": "early",
+    "fold": "2026-06",
+    "target": "volatility",
+    "status": "ok",
+    "cutoff": "2026-05-29",
+    "last_endpoint": "2026-05-27",
+    "n": 279
+  },
+  {
+    "horizon": 5,
+    "split": "early",
+    "fold": "2026-06",
+    "target": "oil_currency",
+    "status": "ok",
+    "cutoff": "2026-05-29",
+    "last_endpoint": "2026-05-27",
+    "n": 279
+  },
+  {
+    "horizon": 5,
+    "split": "early",
+    "fold": "2026-06",
+    "target": "rates",
+    "status": "ok",
+    "cutoff": "2026-05-29",
+    "last_endpoint": "2026-05-27",
+    "n": 279
+  },
+  {
+    "horizon": 5,
+    "split": "early",
+    "fold": "2026-06",
+    "target": "asia",
+    "status": "ok",
+    "cutoff": "2026-05-29",
+    "last_endpoint": "2026-05-27",
+    "n": 279
+  },
+  {
+    "horizon": 5,
+    "split": "primary",
+    "fold": "2026-07",
+    "target": "technology",
+    "status": "ok",
+    "cutoff": "2026-06-30",
+    "last_endpoint": "2026-06-29",
+    "n": 300
+  },
+  {
+    "horizon": 5,
+    "split": "primary",
+    "fold": "2026-07",
+    "target": "volatility",
+    "status": "ok",
+    "cutoff": "2026-06-30",
+    "last_endpoint": "2026-06-29",
+    "n": 300
+  },
+  {
+    "horizon": 5,
+    "split": "primary",
+    "fold": "2026-07",
+    "target": "oil_currency",
+    "status": "ok",
+    "cutoff": "2026-06-30",
+    "last_endpoint": "2026-06-29",
+    "n": 300
+  },
+  {
+    "horizon": 5,
+    "split": "primary",
+    "fold": "2026-07",
+    "target": "rates",
+    "status": "ok",
+    "cutoff": "2026-06-30",
+    "last_endpoint": "2026-06-29",
+    "n": 300
+  },
+  {
+    "horizon": 5,
+    "split": "primary",
+    "fold": "2026-07",
+    "target": "asia",
+    "status": "ok",
+    "cutoff": "2026-06-30",
+    "last_endpoint": "2026-06-29",
+    "n": 300
+  },
+  {
+    "horizon": 5,
+    "split": "primary",
+    "fold": "2026-08",
+    "target": "technology",
+    "status": "ok",
+    "cutoff": "2026-07-31",
+    "last_endpoint": "2026-07-30",
+    "n": 323
+  },
+  {
+    "horizon": 5,
+    "split": "primary",
+    "fold": "2026-08",
+    "target": "volatility",
+    "status": "ok",
+    "cutoff": "2026-07-31",
+    "last_endpoint": "2026-07-30",
+    "n": 323
+  },
+  {
+    "horizon": 5,
+    "split": "primary",
+    "fold": "2026-08",
+    "target": "oil_currency",
+    "status": "ok",
+    "cutoff": "2026-07-31",
+    "last_endpoint": "2026-07-30",
+    "n": 323
+  },
+  {
+    "horizon": 5,
+    "split": "primary",
+    "fold": "2026-08",
+    "target": "rates",
+    "status": "ok",
+    "cutoff": "2026-07-31",
+    "last_endpoint": "2026-07-30",
+    "n": 323
+  },
+  {
+    "horizon": 5,
+    "split": "primary",
+    "fold": "2026-08",
+    "target": "asia",
+    "status": "ok",
+    "cutoff": "2026-07-31",
+    "last_endpoint": "2026-07-30",
+    "n": 323
+  },
+  {
+    "horizon": 5,
+    "split": "primary",
+    "fold": "2026-09",
+    "target": "technology",
+    "status": "ok",
+    "cutoff": "2026-08-31",
+    "last_endpoint": "2026-08-28",
+    "n": 344
+  },
+  {
+    "horizon": 5,
+    "split": "primary",
+    "fold": "2026-09",
+    "target": "volatility",
+    "status": "ok",
+    "cutoff": "2026-08-31",
+    "last_endpoint": "2026-08-28",
+    "n": 344
+  },
+  {
+    "horizon": 5,
+    "split": "primary",
+    "fold": "2026-09",
+    "target": "oil_currency",
+    "status": "ok",
+    "cutoff": "2026-08-31",
+    "last_endpoint": "2026-08-28",
+    "n": 344
+  },
+  {
+    "horizon": 5,
+    "split": "primary",
+    "fold": "2026-09",
+    "target": "rates",
+    "status": "ok",
+    "cutoff": "2026-08-31",
+    "last_endpoint": "2026-08-28",
+    "n": 344
+  },
+  {
+    "horizon": 5,
+    "split": "primary",
+    "fold": "2026-09",
+    "target": "asia",
+    "status": "ok",
+    "cutoff": "2026-08-31",
+    "last_endpoint": "2026-08-28",
+    "n": 344
+  },
+  {
+    "horizon": 5,
+    "split": "primary",
+    "fold": "2026-10",
+    "target": "technology",
+    "status": "ok",
+    "cutoff": "2026-09-30",
+    "last_endpoint": "2026-09-29",
+    "n": 365
+  },
+  {
+    "horizon": 5,
+    "split": "primary",
+    "fold": "2026-10",
+    "target": "volatility",
+    "status": "ok",
+    "cutoff": "2026-09-30",
+    "last_endpoint": "2026-09-29",
+    "n": 365
+  },
+  {
+    "horizon": 5,
+    "split": "primary",
+    "fold": "2026-10",
+    "target": "oil_currency",
+    "status": "ok",
+    "cutoff": "2026-09-30",
+    "last_endpoint": "2026-09-29",
+    "n": 365
+  },
+  {
+    "horizon": 5,
+    "split": "primary",
+    "fold": "2026-10",
+    "target": "rates",
+    "status": "ok",
+    "cutoff": "2026-09-30",
+    "last_endpoint": "2026-09-29",
+    "n": 365
+  },
+  {
+    "horizon": 5,
+    "split": "primary",
+    "fold": "2026-10",
+    "target": "asia",
+    "status": "ok",
+    "cutoff": "2026-09-30",
+    "last_endpoint": "2026-09-29",
+    "n": 365
+  },
+  {
+    "horizon": 5,
+    "split": "primary",
+    "fold": "2026-11",
+    "target": "technology",
+    "status": "ok",
+    "cutoff": "2026-10-30",
+    "last_endpoint": "2026-10-29",
+    "n": 385
+  },
+  {
+    "horizon": 5,
+    "split": "primary",
+    "fold": "2026-11",
+    "target": "volatility",
+    "status": "ok",
+    "cutoff": "2026-10-30",
+    "last_endpoint": "2026-10-29",
+    "n": 385
+  },
+  {
+    "horizon": 5,
+    "split": "primary",
+    "fold": "2026-11",
+    "target": "oil_currency",
+    "status": "ok",
+    "cutoff": "2026-10-30",
+    "last_endpoint": "2026-10-29",
+    "n": 385
+  },
+  {
+    "horizon": 5,
+    "split": "primary",
+    "fold": "2026-11",
+    "target": "rates",
+    "status": "ok",
+    "cutoff": "2026-10-30",
+    "last_endpoint": "2026-10-29",
+    "n": 385
+  },
+  {
+    "horizon": 5,
+    "split": "primary",
+    "fold": "2026-11",
+    "target": "asia",
+    "status": "ok",
+    "cutoff": "2026-10-30",
+    "last_endpoint": "2026-10-29",
+    "n": 385
+  },
+  {
+    "horizon": 21,
+    "split": "early",
+    "fold": "2025-12",
+    "target": "technology",
+    "status": "ok",
+    "cutoff": "2025-12-01",
+    "last_endpoint": "2025-11-28",
+    "n": 143
+  },
+  {
+    "horizon": 21,
+    "split": "early",
+    "fold": "2025-12",
+    "target": "volatility",
+    "status": "ok",
+    "cutoff": "2025-12-01",
+    "last_endpoint": "2025-11-28",
+    "n": 143
+  },
+  {
+    "horizon": 21,
+    "split": "early",
+    "fold": "2025-12",
+    "target": "oil_currency",
+    "status": "ok",
+    "cutoff": "2025-12-01",
+    "last_endpoint": "2025-11-28",
+    "n": 143
+  },
+  {
+    "horizon": 21,
+    "split": "early",
+    "fold": "2025-12",
+    "target": "rates",
+    "status": "ok",
+    "cutoff": "2025-12-01",
+    "last_endpoint": "2025-11-28",
+    "n": 143
+  },
+  {
+    "horizon": 21,
+    "split": "early",
+    "fold": "2025-12",
+    "target": "asia",
+    "status": "ok",
+    "cutoff": "2025-12-01",
+    "last_endpoint": "2025-11-28",
+    "n": 143
+  },
+  {
+    "horizon": 21,
+    "split": "early",
+    "fold": "2026-01",
+    "target": "technology",
+    "status": "ok",
+    "cutoff": "2025-12-31",
+    "last_endpoint": "2025-12-30",
+    "n": 164
+  },
+  {
+    "horizon": 21,
+    "split": "early",
+    "fold": "2026-01",
+    "target": "volatility",
+    "status": "ok",
+    "cutoff": "2025-12-31",
+    "last_endpoint": "2025-12-30",
+    "n": 164
+  },
+  {
+    "horizon": 21,
+    "split": "early",
+    "fold": "2026-01",
+    "target": "oil_currency",
+    "status": "ok",
+    "cutoff": "2025-12-31",
+    "last_endpoint": "2025-12-30",
+    "n": 164
+  },
+  {
+    "horizon": 21,
+    "split": "early",
+    "fold": "2026-01",
+    "target": "rates",
+    "status": "ok",
+    "cutoff": "2025-12-31",
+    "last_endpoint": "2025-12-30",
+    "n": 164
+  },
+  {
+    "horizon": 21,
+    "split": "early",
+    "fold": "2026-01",
+    "target": "asia",
+    "status": "ok",
+    "cutoff": "2025-12-31",
+    "last_endpoint": "2025-12-30",
+    "n": 164
+  },
+  {
+    "horizon": 21,
+    "split": "early",
+    "fold": "2026-02",
+    "target": "technology",
+    "status": "ok",
+    "cutoff": "2026-01-30",
+    "last_endpoint": "2026-01-29",
+    "n": 184
+  },
+  {
+    "horizon": 21,
+    "split": "early",
+    "fold": "2026-02",
+    "target": "volatility",
+    "status": "ok",
+    "cutoff": "2026-01-30",
+    "last_endpoint": "2026-01-29",
+    "n": 184
+  },
+  {
+    "horizon": 21,
+    "split": "early",
+    "fold": "2026-02",
+    "target": "oil_currency",
+    "status": "ok",
+    "cutoff": "2026-01-30",
+    "last_endpoint": "2026-01-29",
+    "n": 184
+  },
+  {
+    "horizon": 21,
+    "split": "early",
+    "fold": "2026-02",
+    "target": "rates",
+    "status": "ok",
+    "cutoff": "2026-01-30",
+    "last_endpoint": "2026-01-29",
+    "n": 184
+  },
+  {
+    "horizon": 21,
+    "split": "early",
+    "fold": "2026-02",
+    "target": "asia",
+    "status": "ok",
+    "cutoff": "2026-01-30",
+    "last_endpoint": "2026-01-29",
+    "n": 184
+  },
+  {
+    "horizon": 21,
+    "split": "early",
+    "fold": "2026-03",
+    "target": "technology",
+    "status": "ok",
+    "cutoff": "2026-02-27",
+    "last_endpoint": "2026-02-26",
+    "n": 205
+  },
+  {
+    "horizon": 21,
+    "split": "early",
+    "fold": "2026-03",
+    "target": "volatility",
+    "status": "ok",
+    "cutoff": "2026-02-27",
+    "last_endpoint": "2026-02-26",
+    "n": 205
+  },
+  {
+    "horizon": 21,
+    "split": "early",
+    "fold": "2026-03",
+    "target": "oil_currency",
+    "status": "ok",
+    "cutoff": "2026-02-27",
+    "last_endpoint": "2026-02-26",
+    "n": 205
+  },
+  {
+    "horizon": 21,
+    "split": "early",
+    "fold": "2026-03",
+    "target": "rates",
+    "status": "ok",
+    "cutoff": "2026-02-27",
+    "last_endpoint": "2026-02-26",
+    "n": 205
+  },
+  {
+    "horizon": 21,
+    "split": "early",
+    "fold": "2026-03",
+    "target": "asia",
+    "status": "ok",
+    "cutoff": "2026-02-27",
+    "last_endpoint": "2026-02-26",
+    "n": 205
+  },
+  {
+    "horizon": 21,
+    "split": "early",
+    "fold": "2026-04",
+    "target": "technology",
+    "status": "ok",
+    "cutoff": "2026-03-30",
+    "last_endpoint": "2026-03-27",
+    "n": 224
+  },
+  {
+    "horizon": 21,
+    "split": "early",
+    "fold": "2026-04",
+    "target": "volatility",
+    "status": "ok",
+    "cutoff": "2026-03-30",
+    "last_endpoint": "2026-03-27",
+    "n": 224
+  },
+  {
+    "horizon": 21,
+    "split": "early",
+    "fold": "2026-04",
+    "target": "oil_currency",
+    "status": "ok",
+    "cutoff": "2026-03-30",
+    "last_endpoint": "2026-03-27",
+    "n": 224
+  },
+  {
+    "horizon": 21,
+    "split": "early",
+    "fold": "2026-04",
+    "target": "rates",
+    "status": "ok",
+    "cutoff": "2026-03-30",
+    "last_endpoint": "2026-03-27",
+    "n": 224
+  },
+  {
+    "horizon": 21,
+    "split": "early",
+    "fold": "2026-04",
+    "target": "asia",
+    "status": "ok",
+    "cutoff": "2026-03-30",
+    "last_endpoint": "2026-03-27",
+    "n": 224
+  },
+  {
+    "horizon": 21,
+    "split": "early",
+    "fold": "2026-05",
+    "target": "technology",
+    "status": "ok",
+    "cutoff": "2026-04-30",
+    "last_endpoint": "2026-04-29",
+    "n": 244
+  },
+  {
+    "horizon": 21,
+    "split": "early",
+    "fold": "2026-05",
+    "target": "volatility",
+    "status": "ok",
+    "cutoff": "2026-04-30",
+    "last_endpoint": "2026-04-29",
+    "n": 244
+  },
+  {
+    "horizon": 21,
+    "split": "early",
+    "fold": "2026-05",
+    "target": "oil_currency",
+    "status": "ok",
+    "cutoff": "2026-04-30",
+    "last_endpoint": "2026-04-29",
+    "n": 244
+  },
+  {
+    "horizon": 21,
+    "split": "early",
+    "fold": "2026-05",
+    "target": "rates",
+    "status": "ok",
+    "cutoff": "2026-04-30",
+    "last_endpoint": "2026-04-29",
+    "n": 244
+  },
+  {
+    "horizon": 21,
+    "split": "early",
+    "fold": "2026-05",
+    "target": "asia",
+    "status": "ok",
+    "cutoff": "2026-04-30",
+    "last_endpoint": "2026-04-29",
+    "n": 244
+  },
+  {
+    "horizon": 21,
+    "split": "early",
+    "fold": "2026-06",
+    "target": "technology",
+    "status": "ok",
+    "cutoff": "2026-05-29",
+    "last_endpoint": "2026-05-27",
+    "n": 263
+  },
+  {
+    "horizon": 21,
+    "split": "early",
+    "fold": "2026-06",
+    "target": "volatility",
+    "status": "ok",
+    "cutoff": "2026-05-29",
+    "last_endpoint": "2026-05-27",
+    "n": 263
+  },
+  {
+    "horizon": 21,
+    "split": "early",
+    "fold": "2026-06",
+    "target": "oil_currency",
+    "status": "ok",
+    "cutoff": "2026-05-29",
+    "last_endpoint": "2026-05-27",
+    "n": 263
+  },
+  {
+    "horizon": 21,
+    "split": "early",
+    "fold": "2026-06",
+    "target": "rates",
+    "status": "ok",
+    "cutoff": "2026-05-29",
+    "last_endpoint": "2026-05-27",
+    "n": 263
+  },
+  {
+    "horizon": 21,
+    "split": "early",
+    "fold": "2026-06",
+    "target": "asia",
+    "status": "ok",
+    "cutoff": "2026-05-29",
+    "last_endpoint": "2026-05-27",
+    "n": 263
+  },
+  {
+    "horizon": 21,
+    "split": "primary",
+    "fold": "2026-07",
+    "target": "technology",
+    "status": "ok",
+    "cutoff": "2026-06-30",
+    "last_endpoint": "2026-06-29",
+    "n": 284
+  },
+  {
+    "horizon": 21,
+    "split": "primary",
+    "fold": "2026-07",
+    "target": "volatility",
+    "status": "ok",
+    "cutoff": "2026-06-30",
+    "last_endpoint": "2026-06-29",
+    "n": 284
+  },
+  {
+    "horizon": 21,
+    "split": "primary",
+    "fold": "2026-07",
+    "target": "oil_currency",
+    "status": "ok",
+    "cutoff": "2026-06-30",
+    "last_endpoint": "2026-06-29",
+    "n": 284
+  },
+  {
+    "horizon": 21,
+    "split": "primary",
+    "fold": "2026-07",
+    "target": "rates",
+    "status": "ok",
+    "cutoff": "2026-06-30",
+    "last_endpoint": "2026-06-29",
+    "n": 284
+  },
+  {
+    "horizon": 21,
+    "split": "primary",
+    "fold": "2026-07",
+    "target": "asia",
+    "status": "ok",
+    "cutoff": "2026-06-30",
+    "last_endpoint": "2026-06-29",
+    "n": 284
+  },
+  {
+    "horizon": 21,
+    "split": "primary",
+    "fold": "2026-08",
+    "target": "technology",
+    "status": "ok",
+    "cutoff": "2026-07-31",
+    "last_endpoint": "2026-07-30",
+    "n": 307
+  },
+  {
+    "horizon": 21,
+    "split": "primary",
+    "fold": "2026-08",
+    "target": "volatility",
+    "status": "ok",
+    "cutoff": "2026-07-31",
+    "last_endpoint": "2026-07-30",
+    "n": 307
+  },
+  {
+    "horizon": 21,
+    "split": "primary",
+    "fold": "2026-08",
+    "target": "oil_currency",
+    "status": "ok",
+    "cutoff": "2026-07-31",
+    "last_endpoint": "2026-07-30",
+    "n": 307
+  },
+  {
+    "horizon": 21,
+    "split": "primary",
+    "fold": "2026-08",
+    "target": "rates",
+    "status": "ok",
+    "cutoff": "2026-07-31",
+    "last_endpoint": "2026-07-30",
+    "n": 307
+  },
+  {
+    "horizon": 21,
+    "split": "primary",
+    "fold": "2026-08",
+    "target": "asia",
+    "status": "ok",
+    "cutoff": "2026-07-31",
+    "last_endpoint": "2026-07-30",
+    "n": 307
+  },
+  {
+    "horizon": 21,
+    "split": "primary",
+    "fold": "2026-09",
+    "target": "technology",
+    "status": "ok",
+    "cutoff": "2026-08-31",
+    "last_endpoint": "2026-08-28",
+    "n": 328
+  },
+  {
+    "horizon": 21,
+    "split": "primary",
+    "fold": "2026-09",
+    "target": "volatility",
+    "status": "ok",
+    "cutoff": "2026-08-31",
+    "last_endpoint": "2026-08-28",
+    "n": 328
+  },
+  {
+    "horizon": 21,
+    "split": "primary",
+    "fold": "2026-09",
+    "target": "oil_currency",
+    "status": "ok",
+    "cutoff": "2026-08-31",
+    "last_endpoint": "2026-08-28",
+    "n": 328
+  },
+  {
+    "horizon": 21,
+    "split": "primary",
+    "fold": "2026-09",
+    "target": "rates",
+    "status": "ok",
+    "cutoff": "2026-08-31",
+    "last_endpoint": "2026-08-28",
+    "n": 328
+  },
+  {
+    "horizon": 21,
+    "split": "primary",
+    "fold": "2026-09",
+    "target": "asia",
+    "status": "ok",
+    "cutoff": "2026-08-31",
+    "last_endpoint": "2026-08-28",
+    "n": 328
+  },
+  {
+    "horizon": 21,
+    "split": "primary",
+    "fold": "2026-10",
+    "target": "technology",
+    "status": "ok",
+    "cutoff": "2026-09-30",
+    "last_endpoint": "2026-09-29",
+    "n": 349
+  },
+  {
+    "horizon": 21,
+    "split": "primary",
+    "fold": "2026-10",
+    "target": "volatility",
+    "status": "ok",
+    "cutoff": "2026-09-30",
+    "last_endpoint": "2026-09-29",
+    "n": 349
+  },
+  {
+    "horizon": 21,
+    "split": "primary",
+    "fold": "2026-10",
+    "target": "oil_currency",
+    "status": "ok",
+    "cutoff": "2026-09-30",
+    "last_endpoint": "2026-09-29",
+    "n": 349
+  },
+  {
+    "horizon": 21,
+    "split": "primary",
+    "fold": "2026-10",
+    "target": "rates",
+    "status": "ok",
+    "cutoff": "2026-09-30",
+    "last_endpoint": "2026-09-29",
+    "n": 349
+  },
+  {
+    "horizon": 21,
+    "split": "primary",
+    "fold": "2026-10",
+    "target": "asia",
+    "status": "ok",
+    "cutoff": "2026-09-30",
+    "last_endpoint": "2026-09-29",
+    "n": 349
+  }
+]

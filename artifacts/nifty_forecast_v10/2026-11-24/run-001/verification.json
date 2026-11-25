@@ -1,0 +1,51 @@
+{
+  "passed": true,
+  "checked_at": "2026-11-24T14:19:59.063492+05:30",
+  "scored_predictions": 67514,
+  "registered_configurations": 155,
+  "chronological_fit_artifacts_verified": 3380,
+  "failed_or_ineligible_folds_retained": 258,
+  "complete_atom_laws_recomputed": 25102,
+  "source_receipt_hashes_checked": 964,
+  "cohorts": {
+    "5": {
+      "early": {
+        "n": 173,
+        "disjoint": 35
+      },
+      "later": {
+        "n": 92,
+        "disjoint": 19
+      },
+      "combined": {
+        "n": 265,
+        "disjoint": 53
+      }
+    },
+    "21": {
+      "early": {
+        "n": 141,
+        "disjoint": 7
+      },
+      "later": {
+        "n": 76,
+        "disjoint": 4
+      },
+      "combined": {
+        "n": 217,
+        "disjoint": 11
+      }
+    }
+  },
+  "protected_replays": 1796,
+  "legacy_required_copy_checks": 125,
+  "V10_copy_and_future_sentinel_checks": 54,
+  "checks": [
+    "All immutable forecast origin/endpoints and observed returns matched frozen registry",
+    "Every documented selection hash, label maturity, inner purge and row cap checked",
+    "NSE raw archive checksums, coverage masks and model feature matrices audited",
+    "Weighted law probability, point, CRPS, log score and central interval coverage recomputed",
+    "No V1\u2013V9 protected artifacts changed",
+    "Four post-freeze completed sessions separated from training data"
+  ]
+}

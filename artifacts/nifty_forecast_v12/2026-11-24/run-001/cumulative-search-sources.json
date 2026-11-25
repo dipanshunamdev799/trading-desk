@@ -1,0 +1,14 @@
+{
+  "V9_exact_config_lower_bound": 454,
+  "V9_saved_vector_lower_bound": 583,
+  "V10_configurations": 155,
+  "V10_distinct_vectors_different_schema": 266,
+  "V11_configurations": 205,
+  "note": "Analyst-selected overlapping history and changing schemas. Record these counts separately, rather than adding them as independent trials.",
+  "archives": [
+    "artifacts\\nifty_forecast_v8\\2026-11-24\\run-001",
+    "artifacts\\nifty_forecast_v9\\2026-11-24\\run-001",
+    "artifacts\\nifty_forecast_v10\\2026-11-24\\run-001",
+    "artifacts\\nifty_forecast_v11\\2026-11-24\\run-001"
+  ]
+}

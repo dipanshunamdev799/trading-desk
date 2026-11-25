@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "predictions": 1874,
+  "model_ids": [
+    "P_CLUSTER_EQ",
+    "P_ROT_EQ",
+    "P_STRUCTURE_EQ",
+    "V8_A_STRUCTURE_CHANGE_EQ",
+    "V8_R_RESIDUAL_EQ",
+    "V8_W_STRUCT_EMBARGO_EQ"
+  ],
+  "maximum_delta": 0.0
+}

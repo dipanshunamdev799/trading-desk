@@ -1,0 +1,227 @@
+[
+  {
+    "horizon": 5,
+    "fold": "2025-10",
+    "last_training_endpoint": "2025-10-13",
+    "query_first": "2025-10-14",
+    "inner_first": "2025-08-05",
+    "inner_fit_last_endpoint": "2025-08-04",
+    "residual_count": 42
+  },
+  {
+    "horizon": 5,
+    "fold": "2025-11",
+    "last_training_endpoint": "2025-10-30",
+    "query_first": "2025-10-31",
+    "inner_first": "2025-08-22",
+    "inner_fit_last_endpoint": "2025-08-21",
+    "residual_count": 42
+  },
+  {
+    "horizon": 5,
+    "fold": "2025-12",
+    "last_training_endpoint": "2025-11-27",
+    "query_first": "2025-11-28",
+    "inner_first": "2025-09-19",
+    "inner_fit_last_endpoint": "2025-09-18",
+    "residual_count": 42
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-01",
+    "last_training_endpoint": "2025-12-30",
+    "query_first": "2025-12-31",
+    "inner_first": "2025-10-23",
+    "inner_fit_last_endpoint": "2025-10-21",
+    "residual_count": 42
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-02",
+    "last_training_endpoint": "2026-01-29",
+    "query_first": "2026-01-30",
+    "inner_first": "2025-11-21",
+    "inner_fit_last_endpoint": "2025-11-20",
+    "residual_count": 42
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-03",
+    "last_training_endpoint": "2026-02-26",
+    "query_first": "2026-02-27",
+    "inner_first": "2025-12-22",
+    "inner_fit_last_endpoint": "2025-12-19",
+    "residual_count": 42
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-04",
+    "last_training_endpoint": "2026-03-27",
+    "query_first": "2026-03-30",
+    "inner_first": "2026-01-20",
+    "inner_fit_last_endpoint": "2026-01-19",
+    "residual_count": 42
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-05",
+    "last_training_endpoint": "2026-04-29",
+    "query_first": "2026-04-30",
+    "inner_first": "2026-02-17",
+    "inner_fit_last_endpoint": "2026-02-16",
+    "residual_count": 42
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-06",
+    "last_training_endpoint": "2026-05-27",
+    "query_first": "2026-05-29",
+    "inner_first": "2026-03-17",
+    "inner_fit_last_endpoint": "2026-03-16",
+    "residual_count": 42
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-07",
+    "last_training_endpoint": "2026-06-29",
+    "query_first": "2026-06-30",
+    "inner_first": "2026-04-21",
+    "inner_fit_last_endpoint": "2026-04-20",
+    "residual_count": 42
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-08",
+    "last_training_endpoint": "2026-07-30",
+    "query_first": "2026-07-31",
+    "inner_first": "2026-05-25",
+    "inner_fit_last_endpoint": "2026-05-22",
+    "residual_count": 42
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-09",
+    "last_training_endpoint": "2026-08-28",
+    "query_first": "2026-08-31",
+    "inner_first": "2026-06-24",
+    "inner_fit_last_endpoint": "2026-06-23",
+    "residual_count": 42
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-10",
+    "last_training_endpoint": "2026-09-29",
+    "query_first": "2026-09-30",
+    "inner_first": "2026-07-24",
+    "inner_fit_last_endpoint": "2026-07-23",
+    "residual_count": 42
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-11",
+    "last_training_endpoint": "2026-10-29",
+    "query_first": "2026-10-30",
+    "inner_first": "2026-08-21",
+    "inner_fit_last_endpoint": "2026-08-20",
+    "residual_count": 42
+  },
+  {
+    "horizon": 21,
+    "fold": "2025-12",
+    "last_training_endpoint": "2025-11-28",
+    "query_first": "2025-12-01",
+    "inner_first": "2025-08-29",
+    "inner_fit_last_endpoint": "2025-08-28",
+    "residual_count": 42
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-01",
+    "last_training_endpoint": "2025-12-30",
+    "query_first": "2025-12-31",
+    "inner_first": "2025-09-29",
+    "inner_fit_last_endpoint": "2025-09-26",
+    "residual_count": 42
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-02",
+    "last_training_endpoint": "2026-01-29",
+    "query_first": "2026-01-30",
+    "inner_first": "2025-10-29",
+    "inner_fit_last_endpoint": "2025-10-28",
+    "residual_count": 42
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-03",
+    "last_training_endpoint": "2026-02-26",
+    "query_first": "2026-02-27",
+    "inner_first": "2025-11-28",
+    "inner_fit_last_endpoint": "2025-11-27",
+    "residual_count": 42
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-04",
+    "last_training_endpoint": "2026-03-27",
+    "query_first": "2026-03-30",
+    "inner_first": "2025-12-26",
+    "inner_fit_last_endpoint": "2025-12-24",
+    "residual_count": 42
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-05",
+    "last_training_endpoint": "2026-04-29",
+    "query_first": "2026-04-30",
+    "inner_first": "2026-01-27",
+    "inner_fit_last_endpoint": "2026-01-23",
+    "residual_count": 42
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-06",
+    "last_training_endpoint": "2026-05-27",
+    "query_first": "2026-05-29",
+    "inner_first": "2026-02-20",
+    "inner_fit_last_endpoint": "2026-02-19",
+    "residual_count": 42
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-07",
+    "last_training_endpoint": "2026-06-29",
+    "query_first": "2026-06-30",
+    "inner_first": "2026-03-24",
+    "inner_fit_last_endpoint": "2026-03-23",
+    "residual_count": 42
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-08",
+    "last_training_endpoint": "2026-07-30",
+    "query_first": "2026-07-31",
+    "inner_first": "2026-04-30",
+    "inner_fit_last_endpoint": "2026-04-29",
+    "residual_count": 42
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-09",
+    "last_training_endpoint": "2026-08-28",
+    "query_first": "2026-08-31",
+    "inner_first": "2026-06-02",
+    "inner_fit_last_endpoint": "2026-06-01",
+    "residual_count": 42
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-10",
+    "last_training_endpoint": "2026-09-29",
+    "query_first": "2026-09-30",
+    "inner_first": "2026-07-02",
+    "inner_fit_last_endpoint": "2026-07-01",
+    "residual_count": 42
+  }
+]

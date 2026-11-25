@@ -1,0 +1,131 @@
+{
+  "checked_at": "2026-11-15T18:34:29.221794+00:00",
+  "protocol_sha256": "bbc03c6af68940fc0e6bff7dfdd7329cfa10fa55b4da7b2e85910fd10729b6aa",
+  "tests_run": 132,
+  "tests_passed": true,
+  "failures": 0,
+  "errors": 0,
+  "archive_totals_reconciled": true,
+  "metadata_states_reconciled": true,
+  "v2_delivery_preserved": {
+    "RESEARCH_PLAN.md": true,
+    "UPSTOX_DATA_AUDIT.md": true,
+    "STRATEGY_DEFINITIONS.md": true,
+    "BACKTEST_REPORT.md": true,
+    "FORWARD_CAPTURE_PLAN.md": true,
+    "FINAL_DECISION.md": true,
+    "FINDINGS.md": true,
+    "METRIC_NOTES.md": true,
+    "metrics.csv": true,
+    "stress.csv": true,
+    "capacity-and-latency.csv": true,
+    "segments.csv": true,
+    "signals.csv": true,
+    "rejections.csv": true,
+    "trades.csv": true,
+    "daily-equity.csv": true,
+    "full-ranking.csv": true,
+    "independent-audit.json": true,
+    "test-results.json": true,
+    "research-manifest.json": true,
+    "development-selection-frozen.json": true,
+    "depth-diagnostic-asof.json": true,
+    "current-metadata-audit.json": true
+  },
+  "v2_source_documents_preserved": {
+    "RESEARCH_PLAN.md": true,
+    "UPSTOX_DATA_AUDIT.md": true,
+    "STRATEGY_DEFINITIONS.md": true,
+    "FORWARD_CAPTURE_PLAN.md": true,
+    "H3_DIAGNOSTIC.md": true,
+    "H3_IMPLEMENTATION_CORRECTION.md": true
+  },
+  "v1_v2_frozen_source_preserved": {
+    "research\\intraday_momentum\\costs.py": true,
+    "research\\intraday_momentum\\data.py": true,
+    "research\\intraday_momentum\\engine.py": true,
+    "research\\intraday_momentum\\resolution.py": true,
+    "research\\intraday_momentum\\units.py": true,
+    "research\\intraday_momentum_v2\\__init__.py": true,
+    "research\\intraday_momentum_v2\\capture.py": true,
+    "research\\intraday_momentum_v2\\data.py": true,
+    "research\\intraday_momentum_v2\\FORWARD_CAPTURE_PLAN.md": true,
+    "research\\intraday_momentum_v2\\H3_DIAGNOSTIC.md": true,
+    "research\\intraday_momentum_v2\\H3_IMPLEMENTATION_CORRECTION.md": true,
+    "research\\intraday_momentum_v2\\README.md": true,
+    "research\\intraday_momentum_v2\\RESEARCH_PLAN.md": true,
+    "research\\intraday_momentum_v2\\resolution.py": true,
+    "research\\intraday_momentum_v2\\strategy.py": true,
+    "research\\intraday_momentum_v2\\STRATEGY_DEFINITIONS.md": true,
+    "research\\intraday_momentum_v2\\UPSTOX_DATA_AUDIT.md": true,
+    "scripts\\run_intraday_momentum.py": true,
+    "scripts\\run_intraday_momentum_v2.py": true
+  },
+  "no_orders": true,
+  "scheduler_enabled": false,
+  "test_source_sha256": "6cef08850f1f6895d37e832683303a03bd2d3978b42985107905cc300a208278",
+  "closed_smoke_runs": [
+    {
+      "run": "20261115-182906",
+      "protocol_sha256": "d892415a04078d1487569f300521516c17cb59d7c318a63b61782a67a9785a72",
+      "smoke_closed": false,
+      "seconds_limit": 4,
+      "actual_elapsed": 0.614119,
+      "rows_committed": 0,
+      "open_rows": 0,
+      "final_state": "STOPPED",
+      "fresh_valid_books": 0
+    },
+    {
+      "run": "20261115-182920",
+      "protocol_sha256": "d892415a04078d1487569f300521516c17cb59d7c318a63b61782a67a9785a72",
+      "smoke_closed": true,
+      "seconds_limit": 20,
+      "actual_elapsed": 20.015216,
+      "rows_committed": 601,
+      "open_rows": 0,
+      "final_state": "STOPPED",
+      "fresh_valid_books": 0
+    },
+    {
+      "run": "20261115-183401",
+      "protocol_sha256": "bbc03c6af68940fc0e6bff7dfdd7329cfa10fa55b4da7b2e85910fd10729b6aa",
+      "smoke_closed": true,
+      "seconds_limit": 40,
+      "actual_elapsed": 19.358343,
+      "rows_committed": 561,
+      "open_rows": 0,
+      "final_state": "STOPPED",
+      "fresh_valid_books": 0
+    }
+  ],
+  "manual_stop_verified": true,
+  "bounded_closed_exit_verified": true,
+  "observer_left_running": false,
+  "raw_response_counts": [
+    {
+      "method": "intraday_v3.market_status",
+      "responses": 3
+    },
+    {
+      "method": "intraday_v3.market_timings",
+      "responses": 3
+    },
+    {
+      "method": "intraday_v3.metadata.master",
+      "responses": 3
+    },
+    {
+      "method": "intraday_v3.metadata.mis",
+      "responses": 3
+    },
+    {
+      "method": "intraday_v3.metadata.suspended",
+      "responses": 3
+    },
+    {
+      "method": "intraday_v3.quotes",
+      "responses": 7
+    }
+  ]
+}

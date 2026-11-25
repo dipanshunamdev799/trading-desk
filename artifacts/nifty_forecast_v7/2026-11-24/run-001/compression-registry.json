@@ -1,0 +1,118 @@
+{
+  "registered_at": "2026-11-24T11:38:37.223095+05:30",
+  "configurations": {
+    "C_RAW": {
+      "parent": "I03_nosize",
+      "frame": "native",
+      "hypothesis": "Reproduce raw native ridge in V7 engine"
+    },
+    "C_DEF": {
+      "parent": "C_RAW",
+      "frame": "native",
+      "rep": "defensive",
+      "hypothesis": "Downweight six correlated defensive features"
+    },
+    "C_BANK_DEF": {
+      "parent": "C_DEF",
+      "frame": "native",
+      "rep": "defense_banks",
+      "hypothesis": "Also downweight overlapping banks and financial services proxies"
+    },
+    "C_NO_DEF": {
+      "parent": "C_RAW",
+      "frame": "nodef",
+      "hypothesis": "Remove defensive family completely"
+    },
+    "C_DUP": {
+      "parent": "C_RAW",
+      "frame": "native",
+      "rep": "duplicate",
+      "diagnostic": true,
+      "hypothesis": "Add exact copies of six defensive inputs to change Ridge penalty"
+    },
+    "C_DUP_BALANCED": {
+      "parent": "C_RAW",
+      "frame": "native",
+      "rep": "duplicate_balanced",
+      "diagnostic": true,
+      "hypothesis": "Normalize each original and its clone by sqrt(2) to restore the original fitted law"
+    },
+    "C_PRUNE": {
+      "parent": "C_RAW",
+      "frame": "native",
+      "rep": "prune",
+      "hypothesis": "Greedy removal above absolute training correlation .90"
+    },
+    "C_REPRESENT": {
+      "parent": "C_RAW",
+      "frame": "native",
+      "rep": "representative",
+      "hypothesis": "Average linkage at .75 similarity and retain cluster medoid"
+    },
+    "C_CLUSTER_MEAN": {
+      "parent": "C_RAW",
+      "frame": "native",
+      "rep": "cluster_mean",
+      "hypothesis": "Sign aligned equal-weight averages on training clusters"
+    },
+    "C_CLUSTER_BAL": {
+      "parent": "C_RAW",
+      "frame": "native",
+      "rep": "cluster_balance",
+      "hypothesis": "Keep features and scale by inverse square root of cluster size"
+    },
+    "C_FACTOR_GROUPS": {
+      "parent": "C_RAW",
+      "frame": "native",
+      "rep": "factor_groups",
+      "hypothesis": "Aggregate fixed economic groups with training sign alignment"
+    },
+    "C_PCA": {
+      "parent": "C_RAW",
+      "frame": "native",
+      "rep": "pca",
+      "hypothesis": "Retain six components of relative-return block with original variance scale"
+    },
+    "C_PCA_WHITE": {
+      "parent": "C_PCA",
+      "frame": "native",
+      "rep": "pca_white",
+      "hypothesis": "Whiten retained PCA eigenvalues"
+    },
+    "C_PCA_LW": {
+      "parent": "C_PCA_WHITE",
+      "frame": "native",
+      "rep": "pca_lw",
+      "hypothesis": "Use Ledoit-Wolf shrunk eigenvalues for whitening"
+    },
+    "C_PCA_ROLL": {
+      "parent": "C_PCA",
+      "frame": "native",
+      "rep": "pca_roll",
+      "hypothesis": "Estimate factor directions on last126 training observations"
+    },
+    "C_SPARSE": {
+      "parent": "C_PCA",
+      "frame": "native",
+      "rep": "sparse_pca",
+      "hypothesis": "Six sparse components with regularized projection"
+    },
+    "C_GROUP_LASSO": {
+      "parent": "C_RAW",
+      "frame": "native",
+      "kind": "group_lasso",
+      "hypothesis": "Group norm penalty plus L2 by economic family"
+    },
+    "C_ELASTIC": {
+      "parent": "C_CLUSTER_BAL",
+      "frame": "native",
+      "rep": "cluster_balance",
+      "kind": "elastic",
+      "hypothesis": "Soft sparsity with correlated feature groups balanced"
+    }
+  },
+  "exposure": "2025\u20132026 historical research",
+  "fit_code_sha256": "42be493331e2264137df7c173ffa8e0af6b5758fb0193bfef8984d88293e278f",
+  "batch_code_sha256": "0d37a323f3450c6cfbffcb1d926fea47fcab60e398ab7b7f3dfd86cf77c1c85d",
+  "reason": "Fixed family tests registered before new results for this batch. All dates exposed by prior research."
+}

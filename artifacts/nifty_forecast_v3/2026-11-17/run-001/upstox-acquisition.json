@@ -1,0 +1,428 @@
+{
+  "start": "2025-01-01",
+  "end": "2026-11-16",
+  "jobs": [
+    {
+      "name": "nifty_spot",
+      "ok": true,
+      "rows": 465
+    },
+    {
+      "name": "india_vix",
+      "ok": true,
+      "rows": 465
+    },
+    {
+      "name": "bank_nifty",
+      "ok": true,
+      "rows": 465
+    },
+    {
+      "name": "nifty_financial",
+      "ok": true,
+      "rows": 465
+    },
+    {
+      "name": "nifty_auto",
+      "ok": true,
+      "rows": 465
+    },
+    {
+      "name": "nifty_it",
+      "ok": true,
+      "rows": 465
+    },
+    {
+      "name": "nifty_fmcg",
+      "ok": true,
+      "rows": 465
+    },
+    {
+      "name": "nifty_pharma",
+      "ok": true,
+      "rows": 465
+    },
+    {
+      "name": "nifty_metal",
+      "ok": true,
+      "rows": 465
+    },
+    {
+      "name": "nifty_psu_bank",
+      "ok": true,
+      "rows": 465
+    },
+    {
+      "name": "nifty_realty",
+      "ok": true,
+      "rows": 465
+    },
+    {
+      "name": "nifty_energy",
+      "ok": true,
+      "rows": 465
+    },
+    {
+      "name": "niftybees",
+      "ok": true,
+      "rows": 465
+    },
+    {
+      "name": "global_sp500",
+      "ok": true,
+      "rows": 488
+    },
+    {
+      "name": "nifty_500",
+      "ok": true,
+      "rows": 465
+    },
+    {
+      "name": "global_dow",
+      "ok": true,
+      "rows": 473
+    },
+    {
+      "name": "global_gift",
+      "ok": true,
+      "rows": 494
+    },
+    {
+      "name": "global_hang_seng",
+      "ok": true,
+      "rows": 459
+    },
+    {
+      "name": "global_brent",
+      "ok": true,
+      "rows": 544
+    },
+    {
+      "name": "global_usdinr",
+      "ok": true,
+      "rows": 557
+    },
+    {
+      "name": "stock_ADANIENT",
+      "ok": true,
+      "rows": 465
+    },
+    {
+      "name": "stock_ADANIPORTS",
+      "ok": true,
+      "rows": 465
+    },
+    {
+      "name": "stock_APOLLOHOSP",
+      "ok": true,
+      "rows": 465
+    },
+    {
+      "name": "stock_ASIANPAINT",
+      "ok": true,
+      "rows": 465
+    },
+    {
+      "name": "stock_AXISBANK",
+      "ok": true,
+      "rows": 465
+    },
+    {
+      "name": "stock_BSE",
+      "ok": true,
+      "rows": 465
+    },
+    {
+      "name": "stock_BAJAJ-AUTO",
+      "ok": true,
+      "rows": 465
+    },
+    {
+      "name": "stock_BAJFINANCE",
+      "ok": true,
+      "rows": 465
+    },
+    {
+      "name": "stock_BEL",
+      "ok": true,
+      "rows": 465
+    },
+    {
+      "name": "stock_BAJAJFINSV",
+      "ok": true,
+      "rows": 465
+    },
+    {
+      "name": "stock_BHARTIARTL",
+      "ok": true,
+      "rows": 465
+    },
+    {
+      "name": "stock_COALINDIA",
+      "ok": true,
+      "rows": 465
+    },
+    {
+      "name": "stock_CIPLA",
+      "ok": true,
+      "rows": 465
+    },
+    {
+      "name": "stock_DRREDDY",
+      "ok": true,
+      "rows": 465
+    },
+    {
+      "name": "stock_EICHERMOT",
+      "ok": true,
+      "rows": 465
+    },
+    {
+      "name": "stock_ETERNAL",
+      "ok": true,
+      "rows": 465
+    },
+    {
+      "name": "stock_GRASIM",
+      "ok": true,
+      "rows": 465
+    },
+    {
+      "name": "stock_HCLTECH",
+      "ok": true,
+      "rows": 465
+    },
+    {
+      "name": "stock_HDFCBANK",
+      "ok": true,
+      "rows": 465
+    },
+    {
+      "name": "stock_HDFCLIFE",
+      "ok": true,
+      "rows": 465
+    },
+    {
+      "name": "stock_HINDALCO",
+      "ok": true,
+      "rows": 465
+    },
+    {
+      "name": "stock_HINDUNILVR",
+      "ok": true,
+      "rows": 465
+    },
+    {
+      "name": "stock_ICICIBANK",
+      "ok": true,
+      "rows": 465
+    },
+    {
+      "name": "stock_ITC",
+      "ok": true,
+      "rows": 465
+    },
+    {
+      "name": "stock_INFY",
+      "ok": true,
+      "rows": 465
+    },
+    {
+      "name": "stock_INDIGO",
+      "ok": true,
+      "rows": 465
+    },
+    {
+      "name": "stock_JIOFIN",
+      "ok": true,
+      "rows": 465
+    },
+    {
+      "name": "stock_JSWSTEEL",
+      "ok": true,
+      "rows": 465
+    },
+    {
+      "name": "stock_KOTAKBANK",
+      "ok": true,
+      "rows": 465
+    },
+    {
+      "name": "stock_LT",
+      "ok": true,
+      "rows": 465
+    },
+    {
+      "name": "stock_M&M",
+      "ok": true,
+      "rows": 465
+    },
+    {
+      "name": "stock_MARUTI",
+      "ok": true,
+      "rows": 465
+    },
+    {
+      "name": "stock_MAXHEALTH",
+      "ok": true,
+      "rows": 465
+    },
+    {
+      "name": "stock_NTPC",
+      "ok": true,
+      "rows": 465
+    },
+    {
+      "name": "stock_NESTLEIND",
+      "ok": true,
+      "rows": 465
+    },
+    {
+      "name": "stock_ONGC",
+      "ok": true,
+      "rows": 465
+    },
+    {
+      "name": "stock_POWERGRID",
+      "ok": true,
+      "rows": 465
+    },
+    {
+      "name": "stock_RELIANCE",
+      "ok": true,
+      "rows": 465
+    },
+    {
+      "name": "stock_SBILIFE",
+      "ok": true,
+      "rows": 465
+    },
+    {
+      "name": "stock_SHRIRAMFIN",
+      "ok": true,
+      "rows": 465
+    },
+    {
+      "name": "stock_SBIN",
+      "ok": true,
+      "rows": 465
+    },
+    {
+      "name": "stock_SUNPHARMA",
+      "ok": true,
+      "rows": 465
+    },
+    {
+      "name": "stock_TCS",
+      "ok": true,
+      "rows": 465
+    },
+    {
+      "name": "stock_TATACONSUM",
+      "ok": true,
+      "rows": 465
+    },
+    {
+      "name": "stock_TMPV",
+      "ok": true,
+      "rows": 465
+    },
+    {
+      "name": "stock_TATASTEEL",
+      "ok": true,
+      "rows": 465
+    },
+    {
+      "name": "stock_TECHM",
+      "ok": true,
+      "rows": 465
+    },
+    {
+      "name": "stock_TITAN",
+      "ok": true,
+      "rows": 465
+    },
+    {
+      "name": "stock_TRENT",
+      "ok": true,
+      "rows": 465
+    },
+    {
+      "name": "stock_ULTRACEMCO",
+      "ok": true,
+      "rows": 465
+    }
+  ],
+  "files": {
+    "artifacts\\nifty_forecast_v3\\2026-11-17\\run-001\\sources\\upstox\\bank_nifty.json": "7a505f8da9233c7146ea9c0b7adb9a22876870f9cc7947abcd6fc619ae5212a9",
+    "artifacts\\nifty_forecast_v3\\2026-11-17\\run-001\\sources\\upstox\\global_brent.json": "6fb453ac94b51cdf480c708d1f570d07d05ec82573e1d45033dcc6667df8a992",
+    "artifacts\\nifty_forecast_v3\\2026-11-17\\run-001\\sources\\upstox\\global_dow.json": "8c2bf1232b0f7101e3aa0fa0dff03197923cbf9c2de54da04d6e0b011557b395",
+    "artifacts\\nifty_forecast_v3\\2026-11-17\\run-001\\sources\\upstox\\global_gift.json": "e41efa9524928769ed676a80b524eb4c958d0782f8a16c888f53c144c0a3c214",
+    "artifacts\\nifty_forecast_v3\\2026-11-17\\run-001\\sources\\upstox\\global_hang_seng.json": "2d6031bd063e2775290c31ee80cd77c7300ad3127ff392a9b63fa6bb430a82b4",
+    "artifacts\\nifty_forecast_v3\\2026-11-17\\run-001\\sources\\upstox\\global_sp500.json": "e490b898e799b72181dd54ba3b5fda81c9699ef7e0ccd06c1aee7b04cdf96cc7",
+    "artifacts\\nifty_forecast_v3\\2026-11-17\\run-001\\sources\\upstox\\global_usdinr.json": "49bd5a127ae9ce6f95ceabeb20be060c433b4c1d02a389a44f8d1b9fe4799465",
+    "artifacts\\nifty_forecast_v3\\2026-11-17\\run-001\\sources\\upstox\\india_vix.json": "46f8057379dd78c44d98f4bae47f357311ea5a41949fc2735789490db3adfa5d",
+    "artifacts\\nifty_forecast_v3\\2026-11-17\\run-001\\sources\\upstox\\nifty_500.json": "c42ab260eb3e6e2b338a140a9425cc9b23afc62d513827e48586c79c5b3a1044",
+    "artifacts\\nifty_forecast_v3\\2026-11-17\\run-001\\sources\\upstox\\nifty_auto.json": "c3eca77db49ca1e4ad035517ddc35656ded51334032a93e09e7dfe0a49690dc1",
+    "artifacts\\nifty_forecast_v3\\2026-11-17\\run-001\\sources\\upstox\\nifty_energy.json": "6ebd901e1f288442024b832c679ed8c533e6e1cba18af60b74db264d34087508",
+    "artifacts\\nifty_forecast_v3\\2026-11-17\\run-001\\sources\\upstox\\nifty_financial.json": "3d386e4a05ac6bd0bb452261b62d3fb1b8dc79f30cf4ffc40c6b1c3fcb481263",
+    "artifacts\\nifty_forecast_v3\\2026-11-17\\run-001\\sources\\upstox\\nifty_fmcg.json": "2a0dab6b111a0d6a70e84af96a2a531d432174015bb6e9ba8b3318d5588dbc2a",
+    "artifacts\\nifty_forecast_v3\\2026-11-17\\run-001\\sources\\upstox\\nifty_it.json": "8f22e9789a9cf1762889094d9642ce1daa8207f51979d15a676fb5b532e920c1",
+    "artifacts\\nifty_forecast_v3\\2026-11-17\\run-001\\sources\\upstox\\nifty_metal.json": "4fa5798f55a1d719eeb0aca0f377e86693cbebfbcb30934b05779d1101e1b3fd",
+    "artifacts\\nifty_forecast_v3\\2026-11-17\\run-001\\sources\\upstox\\nifty_pharma.json": "92147e33147ee7a8cd2021d990908fe0f2f735a3be3f307e29a3f768aba99df1",
+    "artifacts\\nifty_forecast_v3\\2026-11-17\\run-001\\sources\\upstox\\nifty_psu_bank.json": "90079abee8c7b2646361a593723f2b1ad98145b829e1e118a3d10e1d5c71298e",
+    "artifacts\\nifty_forecast_v3\\2026-11-17\\run-001\\sources\\upstox\\nifty_realty.json": "006824971a5d5e43aa706220996c7652a95da62003b9bcfbbed7677ee7c2d280",
+    "artifacts\\nifty_forecast_v3\\2026-11-17\\run-001\\sources\\upstox\\nifty_spot.json": "ad355dec5ffb179d82d793e1e5ec270ff1427dd1f623dd849ec69d7490920209",
+    "artifacts\\nifty_forecast_v3\\2026-11-17\\run-001\\sources\\upstox\\niftybees.json": "493b0cce9549ae3b68e472c84b8b3dcaf7658b272eb300f12ede647c4a125f94",
+    "artifacts\\nifty_forecast_v3\\2026-11-17\\run-001\\sources\\upstox\\stock_ADANIENT.json": "f34e60b65f41ed70af60d53f4d31d9d6ec0f2275ef9a60a7c088ed1a4d9ed425",
+    "artifacts\\nifty_forecast_v3\\2026-11-17\\run-001\\sources\\upstox\\stock_ADANIPORTS.json": "3ba2f54cab6eb3773ba3fa8c09e429772bcd8f3b0290cb9ddb77fab8721d9772",
+    "artifacts\\nifty_forecast_v3\\2026-11-17\\run-001\\sources\\upstox\\stock_APOLLOHOSP.json": "9e7145e1cfd89894af91e37580735b1bb11d28d4533185f77bca65e2e6a4bd95",
+    "artifacts\\nifty_forecast_v3\\2026-11-17\\run-001\\sources\\upstox\\stock_ASIANPAINT.json": "e04c9a4a8a384b8658b66cbb717aed755cb2afb5af374add4d4bccc2f5648459",
+    "artifacts\\nifty_forecast_v3\\2026-11-17\\run-001\\sources\\upstox\\stock_AXISBANK.json": "e4812754019bff4720cf410084e662b1344179d53ad67b0b9dfdd0999595e91f",
+    "artifacts\\nifty_forecast_v3\\2026-11-17\\run-001\\sources\\upstox\\stock_BAJAJ-AUTO.json": "1a4385ff312280f2e2f1e750021c53b43efc238f7f13a5a2ab3216d44782cd23",
+    "artifacts\\nifty_forecast_v3\\2026-11-17\\run-001\\sources\\upstox\\stock_BAJAJFINSV.json": "91680fc42cd3c3d9aebd573d0c0a3cc9fd54614a1cef979653df30ddd2cae1f3",
+    "artifacts\\nifty_forecast_v3\\2026-11-17\\run-001\\sources\\upstox\\stock_BAJFINANCE.json": "8b88ca84d00ab565c1c6496fcb0e6fa54d4aaecbc23dbc9fda5cab82e9a45915",
+    "artifacts\\nifty_forecast_v3\\2026-11-17\\run-001\\sources\\upstox\\stock_BEL.json": "e263ba34bcd85001dfa29cee9a8e2e15230c60d69cdd503eae14567312f3799d",
+    "artifacts\\nifty_forecast_v3\\2026-11-17\\run-001\\sources\\upstox\\stock_BHARTIARTL.json": "a8088a7c6b40e0a21c1584396a31ff3650d995b91b158465d712c82466fd7629",
+    "artifacts\\nifty_forecast_v3\\2026-11-17\\run-001\\sources\\upstox\\stock_BSE.json": "74fa926df51ada0fd1f8521babd2307cd9ca7a6f7ebabc4f303987277e260298",
+    "artifacts\\nifty_forecast_v3\\2026-11-17\\run-001\\sources\\upstox\\stock_CIPLA.json": "71b89a5fcf486c02b9259f20eec4f4233a6dd1c916dabb05a52dbb828be93643",
+    "artifacts\\nifty_forecast_v3\\2026-11-17\\run-001\\sources\\upstox\\stock_COALINDIA.json": "da15aa9bb60d545b9c4ccbb2f44ac17a4823b8e3bda7cc9a4b0cf754f2a4ea96",
+    "artifacts\\nifty_forecast_v3\\2026-11-17\\run-001\\sources\\upstox\\stock_DRREDDY.json": "225d97cccdd710a04ce99649498eeaf2182a4802d7ec41fa2d6028b243014b22",
+    "artifacts\\nifty_forecast_v3\\2026-11-17\\run-001\\sources\\upstox\\stock_EICHERMOT.json": "e63175f613b2f7336d0cd6bc9d30f839729e16c43a5ae2eab9a5d2e526bd04b6",
+    "artifacts\\nifty_forecast_v3\\2026-11-17\\run-001\\sources\\upstox\\stock_ETERNAL.json": "afd4b4309344cd97466914bcaa3e5b232b380f6bff2f90ef0677c3cdd45ab442",
+    "artifacts\\nifty_forecast_v3\\2026-11-17\\run-001\\sources\\upstox\\stock_GRASIM.json": "3346e24807c02379da3e4d96ae972c6cdaa9a144cf973205e583fad31f88cc35",
+    "artifacts\\nifty_forecast_v3\\2026-11-17\\run-001\\sources\\upstox\\stock_HCLTECH.json": "0e462cfc3f24de90bad7e3316306aaccb6ca8c1428fabb9a9ae53706fbd66fd0",
+    "artifacts\\nifty_forecast_v3\\2026-11-17\\run-001\\sources\\upstox\\stock_HDFCBANK.json": "f78d822c511de511eb2583c68b6386f7943c10e7bfcfef7a231cac39464ad8bb",
+    "artifacts\\nifty_forecast_v3\\2026-11-17\\run-001\\sources\\upstox\\stock_HDFCLIFE.json": "8f6539229516efce8be9505cf96a134fc7a5c3f2759bac07002a5d0d4727ba55",
+    "artifacts\\nifty_forecast_v3\\2026-11-17\\run-001\\sources\\upstox\\stock_HINDALCO.json": "48e7b742eda05bd441113bb15c1da28a680fccc5e4de5c7b3b5696a495bee089",
+    "artifacts\\nifty_forecast_v3\\2026-11-17\\run-001\\sources\\upstox\\stock_HINDUNILVR.json": "489a93a7f43ef4c5e1a458079d264fa697af0008a7a59a36b6bf5e74172cace3",
+    "artifacts\\nifty_forecast_v3\\2026-11-17\\run-001\\sources\\upstox\\stock_ICICIBANK.json": "201ab44eeedf6091c30a9caec0b889bfaed52e768dc96573158cb62728c21580",
+    "artifacts\\nifty_forecast_v3\\2026-11-17\\run-001\\sources\\upstox\\stock_INDIGO.json": "c424e5e55cd914e1d3658bc9379e44d6bc4feaac878a353517f5d692036295c9",
+    "artifacts\\nifty_forecast_v3\\2026-11-17\\run-001\\sources\\upstox\\stock_INFY.json": "5df3d359af028d1ba990624849663f89ef815c2f6607452aee72dff1e5f1241d",
+    "artifacts\\nifty_forecast_v3\\2026-11-17\\run-001\\sources\\upstox\\stock_ITC.json": "33e13bfd4cfb19cc46d14aaf62e8a751ca75b84e4ab68427cd50c045f946b24c",
+    "artifacts\\nifty_forecast_v3\\2026-11-17\\run-001\\sources\\upstox\\stock_JIOFIN.json": "3be04c6256d76a71b71481a3980ddac8fa030488fc35f50096fdcaee1321cfa7",
+    "artifacts\\nifty_forecast_v3\\2026-11-17\\run-001\\sources\\upstox\\stock_JSWSTEEL.json": "f94398ef66b0e64a31786f00f658fc12d49771049662bd5c1c997ed5bfd5eb8e",
+    "artifacts\\nifty_forecast_v3\\2026-11-17\\run-001\\sources\\upstox\\stock_KOTAKBANK.json": "f52399cbb2a75c2b36610e0f0137bdfba1c14374b68106c94c88882f519b4707",
+    "artifacts\\nifty_forecast_v3\\2026-11-17\\run-001\\sources\\upstox\\stock_LT.json": "8749104850144978250a89e8e60d72857890fa708b2258348d46ecbf9a6fc668",
+    "artifacts\\nifty_forecast_v3\\2026-11-17\\run-001\\sources\\upstox\\stock_M&M.json": "2ac2481ba50a308a5841c198d6694d0891d957850c4dfe5e922cd5e490c178ad",
+    "artifacts\\nifty_forecast_v3\\2026-11-17\\run-001\\sources\\upstox\\stock_MARUTI.json": "e5e7bad991e4e6e762afad969e2c559c0537c930d0f7b8083d27e3e79daec494",
+    "artifacts\\nifty_forecast_v3\\2026-11-17\\run-001\\sources\\upstox\\stock_MAXHEALTH.json": "aaf1b8b22333608c912fc3845ec080435cc3e493de566480c10815d4ab57a61d",
+    "artifacts\\nifty_forecast_v3\\2026-11-17\\run-001\\sources\\upstox\\stock_NESTLEIND.json": "386fe9b5b82634f40665d76664b33246a35041365b3f654a9612623cbdc623f0",
+    "artifacts\\nifty_forecast_v3\\2026-11-17\\run-001\\sources\\upstox\\stock_NTPC.json": "9f562036ef532803772c86c8ac63b5415be6df060df9ffb73b0fd18ef527fdbd",
+    "artifacts\\nifty_forecast_v3\\2026-11-17\\run-001\\sources\\upstox\\stock_ONGC.json": "cb3176f0af82768e56da8fc2177522f8754817aafadddc158c8e9421bbf5c920",
+    "artifacts\\nifty_forecast_v3\\2026-11-17\\run-001\\sources\\upstox\\stock_POWERGRID.json": "aa38fed9700fee92c26422523217065ca0c6269cb0682d7ccb8941eb8c17917b",
+    "artifacts\\nifty_forecast_v3\\2026-11-17\\run-001\\sources\\upstox\\stock_RELIANCE.json": "43c72135ef2c4875035022bbc933dde381a37d668c37bbcf5ca1d0a41e615a97",
+    "artifacts\\nifty_forecast_v3\\2026-11-17\\run-001\\sources\\upstox\\stock_SBILIFE.json": "caf653ae63fa7581dccfc4960924d1f2720a82d2381ebf913e2335726099d88f",
+    "artifacts\\nifty_forecast_v3\\2026-11-17\\run-001\\sources\\upstox\\stock_SBIN.json": "625628ebec5005d821fe5bcfccad91910b8c12f89d341aab98d05f563e571ee0",
+    "artifacts\\nifty_forecast_v3\\2026-11-17\\run-001\\sources\\upstox\\stock_SHRIRAMFIN.json": "af56175820a3990460cc3703e794192c4d564db1078ab6c7b01497b82c49ca53",
+    "artifacts\\nifty_forecast_v3\\2026-11-17\\run-001\\sources\\upstox\\stock_SUNPHARMA.json": "d87b0de45c31d0a3baa28d73a99d4e640bc410bfee1647a1d693031eeabdf6de",
+    "artifacts\\nifty_forecast_v3\\2026-11-17\\run-001\\sources\\upstox\\stock_TATACONSUM.json": "8959cae97387126f46f7e767896d4ba03e513c0d84b3c0b62f6f3f9244f6bc23",
+    "artifacts\\nifty_forecast_v3\\2026-11-17\\run-001\\sources\\upstox\\stock_TATASTEEL.json": "74fd2eab6279754b6a63ebf0d931b6628a6ca1df05c46bcac3897d42d160fe42",
+    "artifacts\\nifty_forecast_v3\\2026-11-17\\run-001\\sources\\upstox\\stock_TCS.json": "79466fe5d17ba900b29c3772b24d9b2b04f7426af0d0860a6e2307d2c17f11b5",
+    "artifacts\\nifty_forecast_v3\\2026-11-17\\run-001\\sources\\upstox\\stock_TECHM.json": "6755e083672d449179bf619eecca376f0ca845cebbb724dbd7543f4ee7e65869",
+    "artifacts\\nifty_forecast_v3\\2026-11-17\\run-001\\sources\\upstox\\stock_TITAN.json": "dbd88b2f55228f9d1c850046dc04a9e7915f7f15fdbad369d91642b46fcdaa7b",
+    "artifacts\\nifty_forecast_v3\\2026-11-17\\run-001\\sources\\upstox\\stock_TMPV.json": "dab2a2f2c2bcf442b92abafdb4c7d5b460efc8f84029262bfecf3f2824886531",
+    "artifacts\\nifty_forecast_v3\\2026-11-17\\run-001\\sources\\upstox\\stock_TRENT.json": "c66903ba536491197f158451aaeb9237120840fec0c49aa45e934d7fef2d6e74",
+    "artifacts\\nifty_forecast_v3\\2026-11-17\\run-001\\sources\\upstox\\stock_ULTRACEMCO.json": "f214dfee0f8c293f050ed717bd3b0806d361675d47738969a5e145ba59c21d23"
+  }
+}

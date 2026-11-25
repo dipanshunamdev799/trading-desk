@@ -1,0 +1,54 @@
+{
+  "observed_through": "2026-11-23",
+  "post_frozen_dates": [
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20",
+    "2026-11-23"
+  ],
+  "official_overrides": [],
+  "additional_since_v9": [],
+  "historical_reconstruction": {
+    "5": {
+      "matured_frozen_origins": 4,
+      "checked_archived_rows": 16,
+      "dates": [
+        "2026-11-18",
+        "2026-11-19",
+        "2026-11-20",
+        "2026-11-23"
+      ]
+    },
+    "21": {
+      "matured_frozen_origins": 4,
+      "checked_archived_rows": 16,
+      "dates": [
+        "2026-11-18",
+        "2026-11-19",
+        "2026-11-20",
+        "2026-11-23"
+      ]
+    }
+  },
+  "known_previous_issued_forecasts": [
+    {
+      "origin": "2026-11-17",
+      "horizon": 21,
+      "expected_endpoint": "2026-12-17",
+      "mature_as_of_refresh": false,
+      "cohort": "LATE_DIAGNOSTIC",
+      "forecast_id": "27b9a03e5de25d2df52bde928809f67578a7954190925a06a419ab7580cb8f84",
+      "ledger_sha256": "cc6824eae248420a7c31014e234222fc46923159a82cf49c9769b09cbd74ffe6"
+    },
+    {
+      "origin": "2026-11-17",
+      "horizon": 5,
+      "expected_endpoint": "2026-11-25",
+      "mature_as_of_refresh": false,
+      "cohort": "LATE_DIAGNOSTIC",
+      "forecast_id": "27b9a03e5de25d2df52bde928809f67578a7954190925a06a419ab7580cb8f84",
+      "ledger_sha256": "cc6824eae248420a7c31014e234222fc46923159a82cf49c9769b09cbd74ffe6"
+    }
+  ],
+  "realized_endpoint_scoring": "Revalidated actual endpoints, returns and Brier of each immutable V9 historical reconstruction. The prior future issue remains pending."
+}

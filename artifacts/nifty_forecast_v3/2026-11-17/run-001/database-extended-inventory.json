@@ -1,0 +1,420 @@
+{
+  "responses": [
+    {
+      "method": "intraday_v3.metadata.suspended",
+      "captures": 3,
+      "min": "2026-11-15 17:24:17.957681+00:00",
+      "max": "2026-11-15 18:33:56.257924+00:00"
+    },
+    {
+      "method": "get_max_pain",
+      "captures": 1086,
+      "min": "2026-10-24 11:19:36.799960+00:00",
+      "max": "2026-11-17 03:50:36.829412+00:00"
+    },
+    {
+      "method": "ipo_public_subscriptions",
+      "captures": 6099,
+      "min": "2026-10-24 15:35:36.299516+00:00",
+      "max": "2026-11-10 19:17:52.102271+00:00"
+    },
+    {
+      "method": "get_oi_data",
+      "captures": 20,
+      "min": "2026-10-24 11:19:34.866303+00:00",
+      "max": "2026-10-30 04:43:45.459876+00:00"
+    },
+    {
+      "method": "candles",
+      "captures": 9030,
+      "min": "2026-10-24 11:19:34.138201+00:00",
+      "max": "2026-11-17 03:50:27.674114+00:00"
+    },
+    {
+      "method": "intraday_v2.metadata.mis",
+      "captures": 1,
+      "min": "2026-11-15 16:39:25.382534+00:00",
+      "max": "2026-11-15 16:39:25.382534+00:00"
+    },
+    {
+      "method": "tapetide.get_price_history",
+      "captures": 1,
+      "min": "2026-10-25 03:23:13.163437+00:00",
+      "max": "2026-10-25 03:23:13.163437+00:00"
+    },
+    {
+      "method": "tapetide.list_indices",
+      "captures": 20,
+      "min": "2026-10-25 03:21:23.522234+00:00",
+      "max": "2026-10-29 18:59:43.340694+00:00"
+    },
+    {
+      "method": "research_maxpain_convergence",
+      "captures": 2,
+      "min": "2026-10-25 06:32:58.750754+00:00",
+      "max": "2026-10-25 06:38:57.167789+00:00"
+    },
+    {
+      "method": "intraday_v3.metadata.master",
+      "captures": 3,
+      "min": "2026-11-15 17:23:52.356234+00:00",
+      "max": "2026-11-15 18:33:49.052520+00:00"
+    },
+    {
+      "method": "ipo_public_fundamentals",
+      "captures": 1189,
+      "min": "2026-10-24 15:35:38.550999+00:00",
+      "max": "2026-11-17 03:25:02.188945+00:00"
+    },
+    {
+      "method": "intraday_v2.metadata.timings",
+      "captures": 1,
+      "min": "2026-11-15 16:39:25.382534+00:00",
+      "max": "2026-11-15 16:39:25.382534+00:00"
+    },
+    {
+      "method": "get_market_timings",
+      "captures": 23,
+      "min": "2026-10-24 12:45:39.242747+00:00",
+      "max": "2026-11-17 03:23:45.929925+00:00"
+    },
+    {
+      "method": "get_option_chain",
+      "captures": 3569,
+      "min": "2026-10-24 17:09:33.395192+00:00",
+      "max": "2026-11-17 03:50:04.069255+00:00"
+    },
+    {
+      "method": "intraday_v3.market_timings",
+      "captures": 3,
+      "min": "2026-11-15 18:29:07.221121+00:00",
+      "max": "2026-11-15 18:34:05.035827+00:00"
+    },
+    {
+      "method": "ipo_public_gmp",
+      "captures": 57689,
+      "min": "2026-10-24 15:35:38.186513+00:00",
+      "max": "2026-11-17 03:52:35.025914+00:00"
+    },
+    {
+      "method": "get_market_status",
+      "captures": 20187,
+      "min": "2026-10-25 02:38:20.801234+00:00",
+      "max": "2026-11-17 03:55:20.164248+00:00"
+    },
+    {
+      "method": "intraday_v3.metadata.mis",
+      "captures": 3,
+      "min": "2026-11-15 17:24:16.142367+00:00",
+      "max": "2026-11-15 18:33:54.921478+00:00"
+    },
+    {
+      "method": "get_ltp_quotes_v3",
+      "captures": 2,
+      "min": "2026-10-24 11:37:10.580239+00:00",
+      "max": "2026-10-24 11:40:41.138709+00:00"
+    },
+    {
+      "method": "ipo_public_recommendations",
+      "captures": 5494,
+      "min": "2026-10-24 15:35:39.740827+00:00",
+      "max": "2026-11-17 03:25:04.115508+00:00"
+    },
+    {
+      "method": "research_nse_fo_eod",
+      "captures": 255,
+      "min": "2026-10-25 06:28:36.007890+00:00",
+      "max": "2026-10-25 06:32:57.362261+00:00"
+    },
+    {
+      "method": "ipo_public_index",
+      "captures": 1842,
+      "min": "2026-10-24 15:35:34.844607+00:00",
+      "max": "2026-11-17 03:51:20.203436+00:00"
+    },
+    {
+      "method": "get_ipo_details",
+      "captures": 34447,
+      "min": "2026-10-24 15:04:21.314867+00:00",
+      "max": "2026-11-17 03:52:33.401056+00:00"
+    },
+    {
+      "method": "get_fii_data",
+      "captures": 1940,
+      "min": "2026-10-24 17:09:33.607972+00:00",
+      "max": "2026-11-17 03:51:02.864365+00:00"
+    },
+    {
+      "method": "ipo_public_subscription_detail",
+      "captures": 20926,
+      "min": "2026-10-24 15:35:38.993528+00:00",
+      "max": "2026-11-17 03:54:38.714941+00:00"
+    },
+    {
+      "method": "tapetide.search_stocks",
+      "captures": 1,
+      "min": "2026-10-25 03:18:15.845451+00:00",
+      "max": "2026-10-25 03:18:15.845451+00:00"
+    },
+    {
+      "method": "tapetide.list_index_levels",
+      "captures": 27,
+      "min": "2026-10-25 03:21:24.310399+00:00",
+      "max": "2026-10-29 18:59:44.341232+00:00"
+    },
+    {
+      "method": "intraday_v3.quotes",
+      "captures": 7,
+      "min": "2026-11-15 18:29:21.483619+00:00",
+      "max": "2026-11-15 18:34:16.036289+00:00"
+    },
+    {
+      "method": "intraday_v3.market_status",
+      "captures": 3,
+      "min": "2026-11-15 18:29:07.119674+00:00",
+      "max": "2026-11-15 18:34:04.968861+00:00"
+    },
+    {
+      "method": "get_option_contracts",
+      "captures": 44,
+      "min": "2026-10-24 11:19:33.529522+00:00",
+      "max": "2026-11-17 03:23:45.552730+00:00"
+    },
+    {
+      "method": "get_nifty_nse_cash",
+      "captures": 1626,
+      "min": "2026-10-24 17:33:39.537082+00:00",
+      "max": "2026-11-13 19:21:27.976368+00:00"
+    },
+    {
+      "method": "intraday_v2.get_full_market_quotes_v3",
+      "captures": 7,
+      "min": "2026-11-15 16:00:21.038701+00:00",
+      "max": "2026-11-15 16:04:44.698503+00:00"
+    },
+    {
+      "method": "get_dii_data",
+      "captures": 1959,
+      "min": "2026-10-24 17:09:33.820104+00:00",
+      "max": "2026-11-17 03:51:03.042791+00:00"
+    },
+    {
+      "method": "get_full_market_quotes_v3",
+      "captures": 40925,
+      "min": "2026-10-24 11:56:42.333022+00:00",
+      "max": "2026-11-17 03:55:19.957522+00:00"
+    },
+    {
+      "method": "get_pcr",
+      "captures": 353,
+      "min": "2026-10-24 18:35:53.979517+00:00",
+      "max": "2026-11-17 03:50:04.601305+00:00"
+    },
+    {
+      "method": "intraday_v2.metadata.status",
+      "captures": 1,
+      "min": "2026-11-15 16:39:25.382534+00:00",
+      "max": "2026-11-15 16:39:25.382534+00:00"
+    },
+    {
+      "method": "tapetide.get_option_chain",
+      "captures": 31,
+      "min": "2026-10-25 03:23:52.128904+00:00",
+      "max": "2026-11-17 03:50:09.104342+00:00"
+    },
+    {
+      "method": "intraday_v2.metadata.suspended",
+      "captures": 1,
+      "min": "2026-11-15 16:39:25.382534+00:00",
+      "max": "2026-11-15 16:39:25.382534+00:00"
+    },
+    {
+      "method": "tapetide.get_stock_profile",
+      "captures": 1,
+      "min": "2026-10-25 03:18:16.472809+00:00",
+      "max": "2026-10-25 03:18:16.472809+00:00"
+    },
+    {
+      "method": "search_instruments",
+      "captures": 2,
+      "min": "2026-10-24 17:46:26.689942+00:00",
+      "max": "2026-10-30 05:17:12.062869+00:00"
+    },
+    {
+      "method": "tapetide.get_stock_quote",
+      "captures": 3,
+      "min": "2026-10-25 03:18:14.799576+00:00",
+      "max": "2026-10-25 03:23:49.777211+00:00"
+    },
+    {
+      "method": "get_ipos",
+      "captures": 12789,
+      "min": "2026-10-24 15:03:29.132565+00:00",
+      "max": "2026-11-17 03:54:36.033918+00:00"
+    }
+  ],
+  "dataset_counts": [
+    {
+      "method": "get_market_timings",
+      "requests": 19
+    },
+    {
+      "method": "get_max_pain",
+      "requests": 159
+    },
+    {
+      "method": "ipo_public_recommendations",
+      "requests": 42
+    },
+    {
+      "method": "ipo_public_subscriptions",
+      "requests": 2
+    },
+    {
+      "method": "research_nse_fo_eod",
+      "requests": 255
+    },
+    {
+      "method": "get_option_chain",
+      "requests": 24
+    },
+    {
+      "method": "get_oi_data",
+      "requests": 20
+    },
+    {
+      "method": "ipo_public_index",
+      "requests": 1
+    },
+    {
+      "method": "get_ipo_details",
+      "requests": 74
+    },
+    {
+      "method": "get_dii_data",
+      "requests": 19
+    },
+    {
+      "method": "get_full_market_quotes_v3",
+      "requests": 240
+    },
+    {
+      "method": "tapetide.get_price_history",
+      "requests": 1
+    },
+    {
+      "method": "get_fii_data",
+      "requests": 20
+    },
+    {
+      "method": "get_pcr",
+      "requests": 18
+    },
+    {
+      "method": "tapetide.list_indices",
+      "requests": 1
+    },
+    {
+      "method": "ipo_public_subscription_detail",
+      "requests": 45
+    },
+    {
+      "method": "tapetide.search_stocks",
+      "requests": 1
+    },
+    {
+      "method": "research_maxpain_convergence",
+      "requests": 2
+    },
+    {
+      "method": "ipo_public_gmp",
+      "requests": 46
+    },
+    {
+      "method": "tapetide.list_index_levels",
+      "requests": 9
+    },
+    {
+      "method": "tapetide.get_option_chain",
+      "requests": 3
+    },
+    {
+      "method": "get_market_status",
+      "requests": 17
+    },
+    {
+      "method": "tapetide.get_stock_profile",
+      "requests": 1
+    },
+    {
+      "method": "get_option_contracts",
+      "requests": 4
+    },
+    {
+      "method": "get_nifty_nse_cash",
+      "requests": 1
+    },
+    {
+      "method": "search_instruments",
+      "requests": 2
+    },
+    {
+      "method": "tapetide.get_stock_quote",
+      "requests": 1
+    },
+    {
+      "method": "ipo_public_fundamentals",
+      "requests": 42
+    },
+    {
+      "method": "get_ltp_quotes_v3",
+      "requests": 1
+    },
+    {
+      "method": "get_ipos",
+      "requests": 7
+    }
+  ],
+  "coverage_summary": [
+    {
+      "interval": "15minute",
+      "instruments": 1,
+      "min": "2026-07-30",
+      "max": "2026-10-30",
+      "checked_rows": 1568
+    },
+    {
+      "interval": "1day",
+      "instruments": 623,
+      "min": "2025-01-01",
+      "max": "2026-11-17",
+      "checked_rows": 4756
+    },
+    {
+      "interval": "1hour",
+      "instruments": 1,
+      "min": "2025-10-24",
+      "max": "2026-11-10",
+      "checked_rows": 1808
+    },
+    {
+      "interval": "1minute",
+      "instruments": 25,
+      "min": "2026-09-24",
+      "max": "2026-11-17",
+      "checked_rows": 144750
+    },
+    {
+      "interval": "5minute",
+      "instruments": 3,
+      "min": "2026-08-01",
+      "max": "2026-11-17",
+      "checked_rows": 5790
+    }
+  ],
+  "nifty_intraday": {
+    "bars": 34692,
+    "first": "2025-01-01 03:45:00+00:00",
+    "last": "2026-11-16 04:10:00+00:00"
+  }
+}

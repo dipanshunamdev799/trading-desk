@@ -1,0 +1,59 @@
+{
+  "registered_at": "2026-11-24T13:56:29.507508+05:30",
+  "configurations": {
+    "N_EQ_CONTROL": {
+      "frame": "ten",
+      "parent": "BASE10",
+      "eligible": "breadth_complete",
+      "hypothesis": "Complete official archive breadth comparison parent"
+    },
+    "N_EQ_OFFICIAL": {
+      "frame": "breadth",
+      "parent": "N_EQ_CONTROL",
+      "eligible": "breadth_complete",
+      "hypothesis": "Authentic equal-weight versus cap-weight index relatives"
+    },
+    "N_INTRA_CONTROL": {
+      "frame": "ten",
+      "parent": "BASE10",
+      "eligible": "intraday_complete",
+      "hypothesis": "Same complete synchronized session dates"
+    },
+    "N_INTRA_PANEL": {
+      "frame": "intraday",
+      "parent": "N_INTRA_CONTROL",
+      "eligible": "intraday_complete",
+      "hypothesis": "Four index open/close breadth, synchronization and volatility concentration"
+    },
+    "N_DERIV_RAW": {
+      "frame": "derivatives_raw",
+      "parent": "BASE10",
+      "hypothesis": "Lagged official futures/options basis and positioning"
+    },
+    "N_DERIV_STRUCT": {
+      "frame": "derivatives",
+      "parent": "N_DERIV_RAW",
+      "hypothesis": "Lagged basis residual and volume-adjusted OI, plus roll magnitude proxy"
+    },
+    "N_GLOBAL_RISK": {
+      "frame": "global",
+      "parent": "N_DOM_RISK",
+      "target": "vol",
+      "law": "risk",
+      "hypothesis": "Conservative foreign relative-risk information in a standardized target law"
+    },
+    "N_DOM_RISK": {
+      "frame": "ten",
+      "parent": "BASE10",
+      "target": "vol",
+      "law": "risk",
+      "hypothesis": "Exact normalized-law parent without global inputs"
+    }
+  },
+  "seed": 20261130,
+  "code_hashes": {
+    "experiments.py": "48baf634853e2d9016ca7f0e79d5e8ae00c42fbde533b3c9bb9939b5960bdef8",
+    "estimators.py": "70396610d7201423c4151cb004e61a63986cec9a5ec73496a16aa1f45b7f0f09",
+    "targets.py": "9bb9d2060fef1bc2b1add51c129d8dc4e792afae782e6b5c8183f82a1ae5f752"
+  }
+}

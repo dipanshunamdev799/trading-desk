@@ -1,0 +1,63 @@
+{
+  "registered_at": "2026-11-24T11:41:42.084732+05:30",
+  "configurations": {
+    "G_BASE5": {
+      "parent": "C_NO_DEF",
+      "frame": "nodef",
+      "eligible": "global5",
+      "horizons": [
+        5
+      ],
+      "hypothesis": "Compare targeted cross-market information on the exact intermediate-eligible cohorts"
+    },
+    "G_DIRECT5": {
+      "parent": "G_BASE5",
+      "frame": "global5_direct",
+      "eligible": "global5",
+      "horizons": [
+        5
+      ],
+      "hypothesis": "Compare targeted cross-market information on the exact intermediate-eligible cohorts"
+    },
+    "G_INTERMEDIATE5": {
+      "parent": "G_BASE5",
+      "frame": "global5_mediated",
+      "eligible": "global5",
+      "horizons": [
+        5
+      ],
+      "hypothesis": "Compare targeted cross-market information on the exact intermediate-eligible cohorts"
+    },
+    "G_BASE21": {
+      "parent": "C_NO_DEF",
+      "frame": "nodef",
+      "eligible": "global21",
+      "horizons": [
+        21
+      ],
+      "hypothesis": "Compare targeted cross-market information on the exact intermediate-eligible cohorts"
+    },
+    "G_DIRECT21": {
+      "parent": "G_BASE21",
+      "frame": "global21_direct",
+      "eligible": "global21",
+      "horizons": [
+        21
+      ],
+      "hypothesis": "Compare targeted cross-market information on the exact intermediate-eligible cohorts"
+    },
+    "G_INTERMEDIATE21": {
+      "parent": "G_BASE21",
+      "frame": "global21_mediated",
+      "eligible": "global21",
+      "horizons": [
+        21
+      ],
+      "hypothesis": "Compare targeted cross-market information on the exact intermediate-eligible cohorts"
+    }
+  },
+  "exposure": "2025\u20132026 historical research",
+  "fit_code_sha256": "42be493331e2264137df7c173ffa8e0af6b5758fb0193bfef8984d88293e278f",
+  "batch_code_sha256": "0d37a323f3450c6cfbffcb1d926fea47fcab60e398ab7b7f3dfd86cf77c1c85d",
+  "reason": "Fixed family tests registered before new results for this batch. All dates exposed by prior research."
+}

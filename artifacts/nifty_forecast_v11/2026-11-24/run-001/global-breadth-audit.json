@@ -1,0 +1,45 @@
+{
+  "series": [
+    {
+      "ticker": "RSP",
+      "valid": 471,
+      "rejected": 0,
+      "first": "2025-01-02",
+      "last": "2026-11-17",
+      "sha256": "4769f9cce4223a35d5a2a4293afdaf3abfd8520f8728bdd1ae7fddaeab1bfbf3",
+      "source": "https://www.nasdaq.com/market-activity/etf/rsp/historical"
+    },
+    {
+      "ticker": "SPY",
+      "valid": 471,
+      "rejected": 0,
+      "first": "2025-01-02",
+      "last": "2026-11-17",
+      "sha256": "76b5e52d3dec56a6964072354238668978f50c9fabbc0ee45a21e281a67e63ff",
+      "source": "https://www.nasdaq.com/market-activity/etf/spy/historical"
+    },
+    {
+      "ticker": "XLF",
+      "valid": 471,
+      "rejected": 0,
+      "first": "2025-01-02",
+      "last": "2026-11-17",
+      "sha256": "3b999293d8d214d89d1577efcfd41796b7494be54211c3e6aa3183606606ac9d",
+      "source": "https://www.nasdaq.com/market-activity/etf/xlf/historical"
+    },
+    {
+      "ticker": "XLK",
+      "valid": 471,
+      "rejected": 0,
+      "first": "2025-01-02",
+      "last": "2026-11-17",
+      "sha256": "7364e9794ef90b4bbac358683b535ce029e525a5c1b3cce3f069a84d2a67ba5c",
+      "source": "https://www.nasdaq.com/market-activity/etf/xlk/historical"
+    }
+  ],
+  "common_US_sessions": 471,
+  "matched_Indian_origins": 403,
+  "availability": "For each Indian 15:30 close, select the most recent US date strictly earlier than the Indian origin date.",
+  "methodology": "RSP/SPY are traded equal-weight/cap-weight fund proxies. XLF/XLK are financial/technology funds. Use exchange closes, not a total-return reconstruction.",
+  "source_limit": "Historical data downloaded now. Previous-session restriction is conservative for US equity closes. Raw dividend and split adjustments are not independently reconstructed."
+}

@@ -1,0 +1,472 @@
+{
+  "registered": "2026-11-24T14:31:16.518064+05:30",
+  "models": {
+    "M_RECENT_85": {
+      "frame": "rotation",
+      "parent": "B_ROT",
+      "budget": 85,
+      "selection": "recent",
+      "diagnostic": false
+    },
+    "M_EARLIEST_85": {
+      "frame": "rotation",
+      "parent": "M_RECENT_85",
+      "budget": 85,
+      "selection": "earliest",
+      "diagnostic": false
+    },
+    "M_SPREAD_85": {
+      "frame": "rotation",
+      "parent": "M_RECENT_85",
+      "budget": 85,
+      "selection": "spread",
+      "diagnostic": false
+    },
+    "M_BALANCE_VOL_85": {
+      "frame": "rotation",
+      "parent": "M_RECENT_85",
+      "budget": 85,
+      "selection": "balance_vol",
+      "diagnostic": false
+    },
+    "M_BALANCE_ROTATION_85": {
+      "frame": "rotation",
+      "parent": "M_RECENT_85",
+      "budget": 85,
+      "selection": "balance_rotation",
+      "diagnostic": false
+    },
+    "M_BLOCKS_85": {
+      "frame": "rotation",
+      "parent": "M_RECENT_85",
+      "budget": 85,
+      "selection": "blocks",
+      "diagnostic": false
+    },
+    "M_RANDOM_BLOCKS_85": {
+      "frame": "rotation",
+      "parent": "M_RECENT_85",
+      "budget": 85,
+      "selection": "random_blocks",
+      "diagnostic": true
+    },
+    "M_DIVERSE_85": {
+      "frame": "rotation",
+      "parent": "M_RECENT_85",
+      "budget": 85,
+      "selection": "diverse",
+      "diagnostic": false
+    },
+    "M_USEFULNESS_85": {
+      "frame": "rotation",
+      "parent": "M_RECENT_85",
+      "budget": 85,
+      "selection": "usefulness",
+      "diagnostic": false
+    },
+    "M_RECENT_126": {
+      "frame": "rotation",
+      "parent": "B_ROT",
+      "budget": 126,
+      "selection": "recent",
+      "diagnostic": false
+    },
+    "M_EARLIEST_126": {
+      "frame": "rotation",
+      "parent": "M_RECENT_126",
+      "budget": 126,
+      "selection": "earliest",
+      "diagnostic": false
+    },
+    "M_SPREAD_126": {
+      "frame": "rotation",
+      "parent": "M_RECENT_126",
+      "budget": 126,
+      "selection": "spread",
+      "diagnostic": false
+    },
+    "M_BALANCE_VOL_126": {
+      "frame": "rotation",
+      "parent": "M_RECENT_126",
+      "budget": 126,
+      "selection": "balance_vol",
+      "diagnostic": false
+    },
+    "M_BALANCE_ROTATION_126": {
+      "frame": "rotation",
+      "parent": "M_RECENT_126",
+      "budget": 126,
+      "selection": "balance_rotation",
+      "diagnostic": false
+    },
+    "M_BLOCKS_126": {
+      "frame": "rotation",
+      "parent": "M_RECENT_126",
+      "budget": 126,
+      "selection": "blocks",
+      "diagnostic": false
+    },
+    "M_RANDOM_BLOCKS_126": {
+      "frame": "rotation",
+      "parent": "M_RECENT_126",
+      "budget": 126,
+      "selection": "random_blocks",
+      "diagnostic": true
+    },
+    "M_DIVERSE_126": {
+      "frame": "rotation",
+      "parent": "M_RECENT_126",
+      "budget": 126,
+      "selection": "diverse",
+      "diagnostic": false
+    },
+    "M_USEFULNESS_126": {
+      "frame": "rotation",
+      "parent": "M_RECENT_126",
+      "budget": 126,
+      "selection": "usefulness",
+      "diagnostic": false
+    },
+    "M_RECENT_189": {
+      "frame": "rotation",
+      "parent": "B_ROT",
+      "budget": 189,
+      "selection": "recent",
+      "diagnostic": false
+    },
+    "M_EARLIEST_189": {
+      "frame": "rotation",
+      "parent": "M_RECENT_189",
+      "budget": 189,
+      "selection": "earliest",
+      "diagnostic": false
+    },
+    "M_SPREAD_189": {
+      "frame": "rotation",
+      "parent": "M_RECENT_189",
+      "budget": 189,
+      "selection": "spread",
+      "diagnostic": false
+    },
+    "M_BALANCE_VOL_189": {
+      "frame": "rotation",
+      "parent": "M_RECENT_189",
+      "budget": 189,
+      "selection": "balance_vol",
+      "diagnostic": false
+    },
+    "M_BALANCE_ROTATION_189": {
+      "frame": "rotation",
+      "parent": "M_RECENT_189",
+      "budget": 189,
+      "selection": "balance_rotation",
+      "diagnostic": false
+    },
+    "M_BLOCKS_189": {
+      "frame": "rotation",
+      "parent": "M_RECENT_189",
+      "budget": 189,
+      "selection": "blocks",
+      "diagnostic": false
+    },
+    "M_RANDOM_BLOCKS_189": {
+      "frame": "rotation",
+      "parent": "M_RECENT_189",
+      "budget": 189,
+      "selection": "random_blocks",
+      "diagnostic": true
+    },
+    "M_DIVERSE_189": {
+      "frame": "rotation",
+      "parent": "M_RECENT_189",
+      "budget": 189,
+      "selection": "diverse",
+      "diagnostic": false
+    },
+    "M_USEFULNESS_189": {
+      "frame": "rotation",
+      "parent": "M_RECENT_189",
+      "budget": 189,
+      "selection": "usefulness",
+      "diagnostic": false
+    },
+    "M_RECENT_252": {
+      "frame": "rotation",
+      "parent": "B_ROT",
+      "budget": 252,
+      "selection": "recent",
+      "diagnostic": false
+    },
+    "M_EARLIEST_252": {
+      "frame": "rotation",
+      "parent": "M_RECENT_252",
+      "budget": 252,
+      "selection": "earliest",
+      "diagnostic": false
+    },
+    "M_SPREAD_252": {
+      "frame": "rotation",
+      "parent": "M_RECENT_252",
+      "budget": 252,
+      "selection": "spread",
+      "diagnostic": false
+    },
+    "M_BALANCE_VOL_252": {
+      "frame": "rotation",
+      "parent": "M_RECENT_252",
+      "budget": 252,
+      "selection": "balance_vol",
+      "diagnostic": false
+    },
+    "M_BALANCE_ROTATION_252": {
+      "frame": "rotation",
+      "parent": "M_RECENT_252",
+      "budget": 252,
+      "selection": "balance_rotation",
+      "diagnostic": false
+    },
+    "M_BLOCKS_252": {
+      "frame": "rotation",
+      "parent": "M_RECENT_252",
+      "budget": 252,
+      "selection": "blocks",
+      "diagnostic": false
+    },
+    "M_RANDOM_BLOCKS_252": {
+      "frame": "rotation",
+      "parent": "M_RECENT_252",
+      "budget": 252,
+      "selection": "random_blocks",
+      "diagnostic": true
+    },
+    "M_DIVERSE_252": {
+      "frame": "rotation",
+      "parent": "M_RECENT_252",
+      "budget": 252,
+      "selection": "diverse",
+      "diagnostic": false
+    },
+    "M_USEFULNESS_252": {
+      "frame": "rotation",
+      "parent": "M_RECENT_252",
+      "budget": 252,
+      "selection": "usefulness",
+      "diagnostic": false
+    },
+    "M_RECENT_300": {
+      "frame": "rotation",
+      "parent": "B_ROT",
+      "budget": 300,
+      "selection": "recent",
+      "diagnostic": false
+    },
+    "M_EARLIEST_300": {
+      "frame": "rotation",
+      "parent": "M_RECENT_300",
+      "budget": 300,
+      "selection": "earliest",
+      "diagnostic": false
+    },
+    "M_SPREAD_300": {
+      "frame": "rotation",
+      "parent": "M_RECENT_300",
+      "budget": 300,
+      "selection": "spread",
+      "diagnostic": false
+    },
+    "M_BALANCE_VOL_300": {
+      "frame": "rotation",
+      "parent": "M_RECENT_300",
+      "budget": 300,
+      "selection": "balance_vol",
+      "diagnostic": false
+    },
+    "M_BALANCE_ROTATION_300": {
+      "frame": "rotation",
+      "parent": "M_RECENT_300",
+      "budget": 300,
+      "selection": "balance_rotation",
+      "diagnostic": false
+    },
+    "M_BLOCKS_300": {
+      "frame": "rotation",
+      "parent": "M_RECENT_300",
+      "budget": 300,
+      "selection": "blocks",
+      "diagnostic": false
+    },
+    "M_RANDOM_BLOCKS_300": {
+      "frame": "rotation",
+      "parent": "M_RECENT_300",
+      "budget": 300,
+      "selection": "random_blocks",
+      "diagnostic": true
+    },
+    "M_DIVERSE_300": {
+      "frame": "rotation",
+      "parent": "M_RECENT_300",
+      "budget": 300,
+      "selection": "diverse",
+      "diagnostic": false
+    },
+    "M_USEFULNESS_300": {
+      "frame": "rotation",
+      "parent": "M_RECENT_300",
+      "budget": 300,
+      "selection": "usefulness",
+      "diagnostic": false
+    },
+    "M_RECENT_MAX": {
+      "frame": "rotation",
+      "parent": "B_ROT",
+      "budget": null,
+      "selection": "recent",
+      "diagnostic": false
+    },
+    "M_EARLIEST_MAX": {
+      "frame": "rotation",
+      "parent": "M_RECENT_MAX",
+      "budget": null,
+      "selection": "earliest",
+      "diagnostic": false
+    },
+    "M_SPREAD_MAX": {
+      "frame": "rotation",
+      "parent": "M_RECENT_MAX",
+      "budget": null,
+      "selection": "spread",
+      "diagnostic": false
+    },
+    "M_BALANCE_VOL_MAX": {
+      "frame": "rotation",
+      "parent": "M_RECENT_MAX",
+      "budget": null,
+      "selection": "balance_vol",
+      "diagnostic": false
+    },
+    "M_BALANCE_ROTATION_MAX": {
+      "frame": "rotation",
+      "parent": "M_RECENT_MAX",
+      "budget": null,
+      "selection": "balance_rotation",
+      "diagnostic": false
+    },
+    "M_BLOCKS_MAX": {
+      "frame": "rotation",
+      "parent": "M_RECENT_MAX",
+      "budget": null,
+      "selection": "blocks",
+      "diagnostic": false
+    },
+    "M_RANDOM_BLOCKS_MAX": {
+      "frame": "rotation",
+      "parent": "M_RECENT_MAX",
+      "budget": null,
+      "selection": "random_blocks",
+      "diagnostic": true
+    },
+    "M_DIVERSE_MAX": {
+      "frame": "rotation",
+      "parent": "M_RECENT_MAX",
+      "budget": null,
+      "selection": "diverse",
+      "diagnostic": false
+    },
+    "M_USEFULNESS_MAX": {
+      "frame": "rotation",
+      "parent": "M_RECENT_MAX",
+      "budget": null,
+      "selection": "usefulness",
+      "diagnostic": false
+    },
+    "M_OMIT_RECENT1": {
+      "frame": "rotation",
+      "parent": "M_RECENT_85",
+      "budget": 85,
+      "selection": "recent",
+      "omit": 1,
+      "diagnostic": true
+    },
+    "M_OMIT_RECENT2": {
+      "frame": "rotation",
+      "parent": "M_RECENT_85",
+      "budget": 85,
+      "selection": "recent",
+      "omit": 2,
+      "diagnostic": true
+    },
+    "M_OMIT_RECENT3": {
+      "frame": "rotation",
+      "parent": "M_RECENT_85",
+      "budget": 85,
+      "selection": "recent",
+      "omit": 3,
+      "diagnostic": true
+    },
+    "M_OMIT_SPREAD1": {
+      "frame": "rotation",
+      "parent": "M_SPREAD_85",
+      "budget": 85,
+      "selection": "spread",
+      "omit": 1,
+      "diagnostic": true
+    },
+    "M_OMIT_SPREAD2": {
+      "frame": "rotation",
+      "parent": "M_SPREAD_85",
+      "budget": 85,
+      "selection": "spread",
+      "omit": 2,
+      "diagnostic": true
+    },
+    "M_OMIT_SPREAD3": {
+      "frame": "rotation",
+      "parent": "M_SPREAD_85",
+      "budget": 85,
+      "selection": "spread",
+      "omit": 3,
+      "diagnostic": true
+    },
+    "P_SHORT": {
+      "frame": "rotation",
+      "parent": "B_ROT",
+      "budget": 85
+    },
+    "P_RECENT_SHRINK": {
+      "frame": "rotation",
+      "parent": "B_ROT",
+      "persistent": "residual"
+    },
+    "P_RECENT_FREE": {
+      "frame": "rotation",
+      "parent": "B_ROT",
+      "persistent": "free"
+    },
+    "P_LONG_SHORT": {
+      "frame": "rotation",
+      "parent": "B_ROT",
+      "persistent": "mean"
+    },
+    "P_BLOCK_EXPERTS": {
+      "frame": "rotation",
+      "parent": "B_ROT",
+      "persistent": "blocks"
+    },
+    "P_HIER": {
+      "frame": "rotation",
+      "parent": "B_ROT",
+      "persistent": "hierarchical"
+    },
+    "P_BREADTH_PERSIST": {
+      "frame": "rotation",
+      "parent": "B_ROT_EQ",
+      "persistent": "residual",
+      "plus": [
+        "BREADTH",
+        "PERSIST"
+      ]
+    }
+  },
+  "seed": 20261124,
+  "source": "ed65ce5af5b1659eb7823eff8713976c65719205f7315a0f6bc93a9e253403df"
+}

@@ -1,0 +1,47 @@
+{
+  "registered_at": "2026-11-24T12:05:01.860918+05:30",
+  "cohort": "primary",
+  "configurations": {
+    "J_EQUAL": {
+      "parent": "B_ROT"
+    },
+    "J_LEARNED": {
+      "parent": "J_EQUAL"
+    },
+    "J_ADJUSTED": {
+      "parent": "J_LEARNED"
+    },
+    "J_GRID0": {
+      "parent": "J_EQUAL",
+      "diagnostic": true,
+      "weight": 0.0
+    },
+    "J_GRID1": {
+      "parent": "J_EQUAL",
+      "diagnostic": true,
+      "weight": 0.25
+    },
+    "J_GRID2": {
+      "parent": "J_EQUAL",
+      "diagnostic": true,
+      "weight": 0.5
+    },
+    "J_GRID3": {
+      "parent": "J_EQUAL",
+      "diagnostic": true,
+      "weight": 0.75
+    },
+    "J_GRID4": {
+      "parent": "J_EQUAL",
+      "diagnostic": true,
+      "weight": 1.0
+    }
+  },
+  "seed": 20261125,
+  "weights": "Recent 84 strictly matured reconstructed outcomes. Earliest subset fits candidate blend and tilt, last 18 are a chronological gate. Prior gate improvement and no coverage deterioration required for adjustment.",
+  "parents": [
+    "Ridge100 + rotation",
+    "cluster-balanced Elastic Net native"
+  ],
+  "fixed_grid": "0, .25, .5, .75, 1 for reporting, diagnostic only"
+}

@@ -1,0 +1,52 @@
+{
+  "at": "2026-11-24T13:03:37.055576+05:30",
+  "configs": {
+    "raw": [
+      "both_changes",
+      {}
+    ],
+    "residual": [
+      "residual",
+      {}
+    ],
+    "structure": [
+      "structure_change",
+      {}
+    ],
+    "compact": [
+      "small_resid",
+      {}
+    ],
+    "fin_panel": [
+      "financial_panel",
+      {}
+    ],
+    "ar_innovation": [
+      "innovation_ar",
+      {}
+    ],
+    "weighted": [
+      "small_resid",
+      {
+        "kind": "ew",
+        "half_life": 90
+      }
+    ],
+    "balanced": [
+      "cluster_rot",
+      {
+        "kind": "elastic",
+        "rep": "cluster",
+        "dedup": true
+      }
+    ]
+  },
+  "draws": 24,
+  "seed": 20261129,
+  "block_lengths": [
+    5,
+    10,
+    15
+  ],
+  "estimand": "Maximum Brier and CRPS gain for each refitted null search against same-date authentic historical law. Includes unpermuted search as draw -1."
+}

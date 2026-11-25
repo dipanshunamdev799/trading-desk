@@ -1,0 +1,1092 @@
+{
+  "schema": [
+    {
+      "table_name": "backtest_equity",
+      "column_name": "drawdown",
+      "data_type": "double precision"
+    },
+    {
+      "table_name": "backtest_equity",
+      "column_name": "equity",
+      "data_type": "double precision"
+    },
+    {
+      "table_name": "backtest_equity",
+      "column_name": "run_slug",
+      "data_type": "text"
+    },
+    {
+      "table_name": "backtest_equity",
+      "column_name": "ts",
+      "data_type": "timestamp with time zone"
+    },
+    {
+      "table_name": "backtest_runs",
+      "column_name": "created_at",
+      "data_type": "timestamp with time zone"
+    },
+    {
+      "table_name": "backtest_runs",
+      "column_name": "end_date",
+      "data_type": "date"
+    },
+    {
+      "table_name": "backtest_runs",
+      "column_name": "id",
+      "data_type": "bigint"
+    },
+    {
+      "table_name": "backtest_runs",
+      "column_name": "instrument_key",
+      "data_type": "text"
+    },
+    {
+      "table_name": "backtest_runs",
+      "column_name": "interval",
+      "data_type": "text"
+    },
+    {
+      "table_name": "backtest_runs",
+      "column_name": "metrics",
+      "data_type": "jsonb"
+    },
+    {
+      "table_name": "backtest_runs",
+      "column_name": "name",
+      "data_type": "text"
+    },
+    {
+      "table_name": "backtest_runs",
+      "column_name": "slug",
+      "data_type": "text"
+    },
+    {
+      "table_name": "backtest_runs",
+      "column_name": "source_path",
+      "data_type": "text"
+    },
+    {
+      "table_name": "backtest_runs",
+      "column_name": "start_date",
+      "data_type": "date"
+    },
+    {
+      "table_name": "backtest_runs",
+      "column_name": "strategy",
+      "data_type": "text"
+    },
+    {
+      "table_name": "backtest_trades",
+      "column_name": "entry_price",
+      "data_type": "double precision"
+    },
+    {
+      "table_name": "backtest_trades",
+      "column_name": "entry_ts",
+      "data_type": "timestamp with time zone"
+    },
+    {
+      "table_name": "backtest_trades",
+      "column_name": "exit_price",
+      "data_type": "double precision"
+    },
+    {
+      "table_name": "backtest_trades",
+      "column_name": "exit_ts",
+      "data_type": "timestamp with time zone"
+    },
+    {
+      "table_name": "backtest_trades",
+      "column_name": "extras",
+      "data_type": "jsonb"
+    },
+    {
+      "table_name": "backtest_trades",
+      "column_name": "fees",
+      "data_type": "double precision"
+    },
+    {
+      "table_name": "backtest_trades",
+      "column_name": "id",
+      "data_type": "bigint"
+    },
+    {
+      "table_name": "backtest_trades",
+      "column_name": "instrument_key",
+      "data_type": "text"
+    },
+    {
+      "table_name": "backtest_trades",
+      "column_name": "pnl",
+      "data_type": "double precision"
+    },
+    {
+      "table_name": "backtest_trades",
+      "column_name": "qty",
+      "data_type": "double precision"
+    },
+    {
+      "table_name": "backtest_trades",
+      "column_name": "run_slug",
+      "data_type": "text"
+    },
+    {
+      "table_name": "backtest_trades",
+      "column_name": "side",
+      "data_type": "text"
+    },
+    {
+      "table_name": "candle_coverage",
+      "column_name": "checked_at",
+      "data_type": "timestamp with time zone"
+    },
+    {
+      "table_name": "candle_coverage",
+      "column_name": "day",
+      "data_type": "date"
+    },
+    {
+      "table_name": "candle_coverage",
+      "column_name": "instrument_key",
+      "data_type": "text"
+    },
+    {
+      "table_name": "candle_coverage",
+      "column_name": "interval",
+      "data_type": "text"
+    },
+    {
+      "table_name": "candle_coverage",
+      "column_name": "row_count",
+      "data_type": "integer"
+    },
+    {
+      "table_name": "candle_coverage",
+      "column_name": "valid_until",
+      "data_type": "timestamp with time zone"
+    },
+    {
+      "table_name": "candles",
+      "column_name": "close",
+      "data_type": "double precision"
+    },
+    {
+      "table_name": "candles",
+      "column_name": "high",
+      "data_type": "double precision"
+    },
+    {
+      "table_name": "candles",
+      "column_name": "instrument_key",
+      "data_type": "text"
+    },
+    {
+      "table_name": "candles",
+      "column_name": "interval",
+      "data_type": "text"
+    },
+    {
+      "table_name": "candles",
+      "column_name": "low",
+      "data_type": "double precision"
+    },
+    {
+      "table_name": "candles",
+      "column_name": "oi",
+      "data_type": "double precision"
+    },
+    {
+      "table_name": "candles",
+      "column_name": "open",
+      "data_type": "double precision"
+    },
+    {
+      "table_name": "candles",
+      "column_name": "source",
+      "data_type": "text"
+    },
+    {
+      "table_name": "candles",
+      "column_name": "ts",
+      "data_type": "timestamp with time zone"
+    },
+    {
+      "table_name": "candles",
+      "column_name": "volume",
+      "data_type": "double precision"
+    },
+    {
+      "table_name": "candles_1h",
+      "column_name": "close",
+      "data_type": "double precision"
+    },
+    {
+      "table_name": "candles_1h",
+      "column_name": "high",
+      "data_type": "double precision"
+    },
+    {
+      "table_name": "candles_1h",
+      "column_name": "instrument_key",
+      "data_type": "text"
+    },
+    {
+      "table_name": "candles_1h",
+      "column_name": "interval",
+      "data_type": "text"
+    },
+    {
+      "table_name": "candles_1h",
+      "column_name": "low",
+      "data_type": "double precision"
+    },
+    {
+      "table_name": "candles_1h",
+      "column_name": "oi",
+      "data_type": "double precision"
+    },
+    {
+      "table_name": "candles_1h",
+      "column_name": "open",
+      "data_type": "double precision"
+    },
+    {
+      "table_name": "candles_1h",
+      "column_name": "ts",
+      "data_type": "timestamp with time zone"
+    },
+    {
+      "table_name": "candles_1h",
+      "column_name": "volume",
+      "data_type": "double precision"
+    },
+    {
+      "table_name": "credit_spread_account",
+      "column_name": "id",
+      "data_type": "integer"
+    },
+    {
+      "table_name": "credit_spread_account",
+      "column_name": "monitor_at",
+      "data_type": "timestamp with time zone"
+    },
+    {
+      "table_name": "credit_spread_account",
+      "column_name": "monitor_error",
+      "data_type": "text"
+    },
+    {
+      "table_name": "credit_spread_account",
+      "column_name": "settings",
+      "data_type": "jsonb"
+    },
+    {
+      "table_name": "credit_spread_marks",
+      "column_name": "payload",
+      "data_type": "jsonb"
+    },
+    {
+      "table_name": "credit_spread_marks",
+      "column_name": "quote_at",
+      "data_type": "timestamp with time zone"
+    },
+    {
+      "table_name": "credit_spread_marks",
+      "column_name": "trade_id",
+      "data_type": "text"
+    },
+    {
+      "table_name": "credit_spread_orders",
+      "column_name": "created_at",
+      "data_type": "timestamp with time zone"
+    },
+    {
+      "table_name": "credit_spread_orders",
+      "column_name": "id",
+      "data_type": "text"
+    },
+    {
+      "table_name": "credit_spread_orders",
+      "column_name": "payload",
+      "data_type": "jsonb"
+    },
+    {
+      "table_name": "credit_spread_orders",
+      "column_name": "request_id",
+      "data_type": "text"
+    },
+    {
+      "table_name": "credit_spread_orders",
+      "column_name": "trade_id",
+      "data_type": "text"
+    },
+    {
+      "table_name": "credit_spread_trades",
+      "column_name": "created_at",
+      "data_type": "timestamp with time zone"
+    },
+    {
+      "table_name": "credit_spread_trades",
+      "column_name": "id",
+      "data_type": "text"
+    },
+    {
+      "table_name": "credit_spread_trades",
+      "column_name": "payload",
+      "data_type": "jsonb"
+    },
+    {
+      "table_name": "credit_spread_trades",
+      "column_name": "request_id",
+      "data_type": "text"
+    },
+    {
+      "table_name": "credit_spread_trades",
+      "column_name": "status",
+      "data_type": "text"
+    },
+    {
+      "table_name": "instruments",
+      "column_name": "exchange",
+      "data_type": "text"
+    },
+    {
+      "table_name": "instruments",
+      "column_name": "expiry",
+      "data_type": "date"
+    },
+    {
+      "table_name": "instruments",
+      "column_name": "fetched_at",
+      "data_type": "timestamp with time zone"
+    },
+    {
+      "table_name": "instruments",
+      "column_name": "instrument_key",
+      "data_type": "text"
+    },
+    {
+      "table_name": "instruments",
+      "column_name": "instrument_type",
+      "data_type": "text"
+    },
+    {
+      "table_name": "instruments",
+      "column_name": "isin",
+      "data_type": "text"
+    },
+    {
+      "table_name": "instruments",
+      "column_name": "name",
+      "data_type": "text"
+    },
+    {
+      "table_name": "instruments",
+      "column_name": "option_type",
+      "data_type": "text"
+    },
+    {
+      "table_name": "instruments",
+      "column_name": "raw",
+      "data_type": "jsonb"
+    },
+    {
+      "table_name": "instruments",
+      "column_name": "segment",
+      "data_type": "text"
+    },
+    {
+      "table_name": "instruments",
+      "column_name": "strike",
+      "data_type": "double precision"
+    },
+    {
+      "table_name": "instruments",
+      "column_name": "trading_symbol",
+      "data_type": "text"
+    },
+    {
+      "table_name": "ipo_companies",
+      "column_name": "fetched_at",
+      "data_type": "timestamp with time zone"
+    },
+    {
+      "table_name": "ipo_companies",
+      "column_name": "id",
+      "data_type": "text"
+    },
+    {
+      "table_name": "ipo_companies",
+      "column_name": "payload",
+      "data_type": "jsonb"
+    },
+    {
+      "table_name": "ipo_companies",
+      "column_name": "source",
+      "data_type": "text"
+    },
+    {
+      "table_name": "ipo_feeds",
+      "column_name": "checked_at",
+      "data_type": "timestamp with time zone"
+    },
+    {
+      "table_name": "ipo_feeds",
+      "column_name": "ipo_ids",
+      "data_type": "jsonb"
+    },
+    {
+      "table_name": "ipo_feeds",
+      "column_name": "name",
+      "data_type": "text"
+    },
+    {
+      "table_name": "ipo_observations",
+      "column_name": "ipo_id",
+      "data_type": "text"
+    },
+    {
+      "table_name": "ipo_observations",
+      "column_name": "metric",
+      "data_type": "text"
+    },
+    {
+      "table_name": "ipo_observations",
+      "column_name": "observed_at",
+      "data_type": "timestamp with time zone"
+    },
+    {
+      "table_name": "ipo_observations",
+      "column_name": "payload",
+      "data_type": "jsonb"
+    },
+    {
+      "table_name": "ipo_observations",
+      "column_name": "reported_at",
+      "data_type": "timestamp with time zone"
+    },
+    {
+      "table_name": "ipo_observations",
+      "column_name": "source",
+      "data_type": "text"
+    },
+    {
+      "table_name": "ipo_observations",
+      "column_name": "value",
+      "data_type": "double precision"
+    },
+    {
+      "table_name": "ipo_research",
+      "column_name": "fetched_at",
+      "data_type": "timestamp with time zone"
+    },
+    {
+      "table_name": "ipo_research",
+      "column_name": "ipo_id",
+      "data_type": "text"
+    },
+    {
+      "table_name": "ipo_research",
+      "column_name": "kind",
+      "data_type": "text"
+    },
+    {
+      "table_name": "ipo_research",
+      "column_name": "payload",
+      "data_type": "jsonb"
+    },
+    {
+      "table_name": "ipo_research",
+      "column_name": "source_url",
+      "data_type": "text"
+    },
+    {
+      "table_name": "ipo_sync_state",
+      "column_name": "attempted_at",
+      "data_type": "timestamp with time zone"
+    },
+    {
+      "table_name": "ipo_sync_state",
+      "column_name": "error",
+      "data_type": "text"
+    },
+    {
+      "table_name": "ipo_sync_state",
+      "column_name": "source",
+      "data_type": "text"
+    },
+    {
+      "table_name": "ipo_sync_state",
+      "column_name": "succeeded_at",
+      "data_type": "timestamp with time zone"
+    },
+    {
+      "table_name": "market_datasets",
+      "column_name": "data_present",
+      "data_type": "boolean"
+    },
+    {
+      "table_name": "market_datasets",
+      "column_name": "fetched_at",
+      "data_type": "timestamp with time zone"
+    },
+    {
+      "table_name": "market_datasets",
+      "column_name": "method",
+      "data_type": "text"
+    },
+    {
+      "table_name": "market_datasets",
+      "column_name": "parameters",
+      "data_type": "jsonb"
+    },
+    {
+      "table_name": "market_datasets",
+      "column_name": "payload",
+      "data_type": "jsonb"
+    },
+    {
+      "table_name": "market_datasets",
+      "column_name": "request_key",
+      "data_type": "text"
+    },
+    {
+      "table_name": "market_datasets",
+      "column_name": "valid_until",
+      "data_type": "timestamp with time zone"
+    },
+    {
+      "table_name": "market_responses",
+      "column_name": "method",
+      "data_type": "text"
+    },
+    {
+      "table_name": "market_responses",
+      "column_name": "parameters",
+      "data_type": "jsonb"
+    },
+    {
+      "table_name": "market_responses",
+      "column_name": "payload",
+      "data_type": "jsonb"
+    },
+    {
+      "table_name": "market_responses",
+      "column_name": "recorded_at",
+      "data_type": "timestamp with time zone"
+    },
+    {
+      "table_name": "market_responses",
+      "column_name": "request_key",
+      "data_type": "text"
+    },
+    {
+      "table_name": "market_schema_migrations",
+      "column_name": "applied_at",
+      "data_type": "timestamp with time zone"
+    },
+    {
+      "table_name": "market_schema_migrations",
+      "column_name": "version",
+      "data_type": "text"
+    },
+    {
+      "table_name": "market_stream_chains",
+      "column_name": "expiry",
+      "data_type": "date"
+    },
+    {
+      "table_name": "market_stream_chains",
+      "column_name": "observed_at",
+      "data_type": "timestamp with time zone"
+    },
+    {
+      "table_name": "market_stream_chains",
+      "column_name": "payload",
+      "data_type": "jsonb"
+    },
+    {
+      "table_name": "market_stream_chains",
+      "column_name": "provenance",
+      "data_type": "jsonb"
+    },
+    {
+      "table_name": "market_stream_chains",
+      "column_name": "session_date",
+      "data_type": "date"
+    },
+    {
+      "table_name": "market_stream_chains",
+      "column_name": "underlying_key",
+      "data_type": "text"
+    },
+    {
+      "table_name": "market_stream_ticks",
+      "column_name": "feed_type",
+      "data_type": "text"
+    },
+    {
+      "table_name": "market_stream_ticks",
+      "column_name": "instrument_key",
+      "data_type": "text"
+    },
+    {
+      "table_name": "market_stream_ticks",
+      "column_name": "payload",
+      "data_type": "jsonb"
+    },
+    {
+      "table_name": "market_stream_ticks",
+      "column_name": "received_at",
+      "data_type": "timestamp with time zone"
+    },
+    {
+      "table_name": "market_stream_ticks",
+      "column_name": "source_at",
+      "data_type": "timestamp with time zone"
+    },
+    {
+      "table_name": "max_pain_points",
+      "column_name": "bucket_minutes",
+      "data_type": "integer"
+    },
+    {
+      "table_name": "max_pain_points",
+      "column_name": "expiry",
+      "data_type": "date"
+    },
+    {
+      "table_name": "max_pain_points",
+      "column_name": "fetched_at",
+      "data_type": "timestamp with time zone"
+    },
+    {
+      "table_name": "max_pain_points",
+      "column_name": "instrument_key",
+      "data_type": "text"
+    },
+    {
+      "table_name": "max_pain_points",
+      "column_name": "max_pain",
+      "data_type": "double precision"
+    },
+    {
+      "table_name": "max_pain_points",
+      "column_name": "spot",
+      "data_type": "double precision"
+    },
+    {
+      "table_name": "max_pain_points",
+      "column_name": "ts",
+      "data_type": "timestamp with time zone"
+    },
+    {
+      "table_name": "nifty_observations",
+      "column_name": "factor_id",
+      "data_type": "text"
+    },
+    {
+      "table_name": "nifty_observations",
+      "column_name": "observation_key",
+      "data_type": "text"
+    },
+    {
+      "table_name": "nifty_observations",
+      "column_name": "observed_at",
+      "data_type": "timestamp with time zone"
+    },
+    {
+      "table_name": "nifty_observations",
+      "column_name": "payload",
+      "data_type": "jsonb"
+    },
+    {
+      "table_name": "nifty_observations",
+      "column_name": "reported_at",
+      "data_type": "timestamp with time zone"
+    },
+    {
+      "table_name": "nifty_observations",
+      "column_name": "source",
+      "data_type": "text"
+    },
+    {
+      "table_name": "nifty_research_events",
+      "column_name": "event_at",
+      "data_type": "timestamp with time zone"
+    },
+    {
+      "table_name": "nifty_research_events",
+      "column_name": "event_key",
+      "data_type": "text"
+    },
+    {
+      "table_name": "nifty_research_events",
+      "column_name": "observed_at",
+      "data_type": "timestamp with time zone"
+    },
+    {
+      "table_name": "nifty_research_events",
+      "column_name": "payload",
+      "data_type": "jsonb"
+    },
+    {
+      "table_name": "nifty_research_state",
+      "column_name": "payload",
+      "data_type": "jsonb"
+    },
+    {
+      "table_name": "nifty_research_state",
+      "column_name": "saved_at",
+      "data_type": "timestamp with time zone"
+    },
+    {
+      "table_name": "nifty_research_state",
+      "column_name": "singleton",
+      "data_type": "boolean"
+    },
+    {
+      "table_name": "option_contracts",
+      "column_name": "expiry",
+      "data_type": "date"
+    },
+    {
+      "table_name": "option_contracts",
+      "column_name": "fetched_at",
+      "data_type": "timestamp with time zone"
+    },
+    {
+      "table_name": "option_contracts",
+      "column_name": "instrument_key",
+      "data_type": "text"
+    },
+    {
+      "table_name": "option_contracts",
+      "column_name": "lot_size",
+      "data_type": "integer"
+    },
+    {
+      "table_name": "option_contracts",
+      "column_name": "option_type",
+      "data_type": "text"
+    },
+    {
+      "table_name": "option_contracts",
+      "column_name": "raw",
+      "data_type": "jsonb"
+    },
+    {
+      "table_name": "option_contracts",
+      "column_name": "strike",
+      "data_type": "double precision"
+    },
+    {
+      "table_name": "option_contracts",
+      "column_name": "underlying_key",
+      "data_type": "text"
+    },
+    {
+      "table_name": "paper_fills",
+      "column_name": "fees",
+      "data_type": "double precision"
+    },
+    {
+      "table_name": "paper_fills",
+      "column_name": "filled_at",
+      "data_type": "timestamp with time zone"
+    },
+    {
+      "table_name": "paper_fills",
+      "column_name": "id",
+      "data_type": "bigint"
+    },
+    {
+      "table_name": "paper_fills",
+      "column_name": "order_id",
+      "data_type": "bigint"
+    },
+    {
+      "table_name": "paper_fills",
+      "column_name": "price",
+      "data_type": "double precision"
+    },
+    {
+      "table_name": "paper_fills",
+      "column_name": "qty",
+      "data_type": "double precision"
+    },
+    {
+      "table_name": "paper_orders",
+      "column_name": "avg_fill_price",
+      "data_type": "double precision"
+    },
+    {
+      "table_name": "paper_orders",
+      "column_name": "client_order_id",
+      "data_type": "text"
+    },
+    {
+      "table_name": "paper_orders",
+      "column_name": "created_at",
+      "data_type": "timestamp with time zone"
+    },
+    {
+      "table_name": "paper_orders",
+      "column_name": "filled_qty",
+      "data_type": "double precision"
+    },
+    {
+      "table_name": "paper_orders",
+      "column_name": "id",
+      "data_type": "bigint"
+    },
+    {
+      "table_name": "paper_orders",
+      "column_name": "instrument_key",
+      "data_type": "text"
+    },
+    {
+      "table_name": "paper_orders",
+      "column_name": "limit_price",
+      "data_type": "double precision"
+    },
+    {
+      "table_name": "paper_orders",
+      "column_name": "notes",
+      "data_type": "text"
+    },
+    {
+      "table_name": "paper_orders",
+      "column_name": "order_type",
+      "data_type": "text"
+    },
+    {
+      "table_name": "paper_orders",
+      "column_name": "qty",
+      "data_type": "double precision"
+    },
+    {
+      "table_name": "paper_orders",
+      "column_name": "side",
+      "data_type": "text"
+    },
+    {
+      "table_name": "paper_orders",
+      "column_name": "status",
+      "data_type": "text"
+    },
+    {
+      "table_name": "paper_orders",
+      "column_name": "updated_at",
+      "data_type": "timestamp with time zone"
+    },
+    {
+      "table_name": "paper_positions",
+      "column_name": "avg_price",
+      "data_type": "double precision"
+    },
+    {
+      "table_name": "paper_positions",
+      "column_name": "instrument_key",
+      "data_type": "text"
+    },
+    {
+      "table_name": "paper_positions",
+      "column_name": "qty",
+      "data_type": "double precision"
+    },
+    {
+      "table_name": "paper_positions",
+      "column_name": "realized_pnl",
+      "data_type": "double precision"
+    },
+    {
+      "table_name": "paper_positions",
+      "column_name": "updated_at",
+      "data_type": "timestamp with time zone"
+    }
+  ],
+  "methods": [
+    {
+      "method": "get_market_timings",
+      "n": 20,
+      "first": "2026-10-24 12:45:39.242747+00:00",
+      "last": "2026-11-18 02:55:41.952765+00:00"
+    },
+    {
+      "method": "get_max_pain",
+      "n": 159,
+      "first": "2026-10-24 11:19:36.799960+00:00",
+      "last": "2026-11-17 03:50:36.829412+00:00"
+    },
+    {
+      "method": "ipo_public_recommendations",
+      "n": 44,
+      "first": "2026-10-27 10:14:40.782381+00:00",
+      "last": "2026-11-18 16:55:23.312142+00:00"
+    },
+    {
+      "method": "ipo_public_subscriptions",
+      "n": 2,
+      "first": "2026-11-01 18:58:13.068433+00:00",
+      "last": "2026-11-18 17:03:21.172432+00:00"
+    },
+    {
+      "method": "research_nse_fo_eod",
+      "n": 255,
+      "first": "2026-10-25 06:28:36.007890+00:00",
+      "last": "2026-10-25 06:32:57.362261+00:00"
+    },
+    {
+      "method": "get_option_chain",
+      "n": 25,
+      "first": "2026-10-24 18:26:25.400977+00:00",
+      "last": "2026-11-18 17:02:35.570028+00:00"
+    },
+    {
+      "method": "get_oi_data",
+      "n": 20,
+      "first": "2026-10-24 11:19:34.866303+00:00",
+      "last": "2026-10-30 04:43:45.459876+00:00"
+    },
+    {
+      "method": "ipo_public_index",
+      "n": 1,
+      "first": "2026-11-18 17:01:08.619991+00:00",
+      "last": "2026-11-18 17:01:08.619991+00:00"
+    },
+    {
+      "method": "get_ipo_details",
+      "n": 76,
+      "first": "2026-10-24 15:04:21.314867+00:00",
+      "last": "2026-11-18 17:03:32.128112+00:00"
+    },
+    {
+      "method": "get_dii_data",
+      "n": 20,
+      "first": "2026-10-24 18:26:25.812211+00:00",
+      "last": "2026-11-18 17:02:35.995629+00:00"
+    },
+    {
+      "method": "get_full_market_quotes_v3",
+      "n": 255,
+      "first": "2026-10-24 11:56:42.333022+00:00",
+      "last": "2026-11-18 17:03:38.669699+00:00"
+    },
+    {
+      "method": "tapetide.get_price_history",
+      "n": 1,
+      "first": "2026-10-25 03:23:13.163437+00:00",
+      "last": "2026-10-25 03:23:13.163437+00:00"
+    },
+    {
+      "method": "get_fii_data",
+      "n": 21,
+      "first": "2026-10-24 17:33:39.655036+00:00",
+      "last": "2026-11-18 17:02:35.846422+00:00"
+    },
+    {
+      "method": "get_pcr",
+      "n": 18,
+      "first": "2026-10-24 18:35:53.979517+00:00",
+      "last": "2026-11-17 03:50:04.601305+00:00"
+    },
+    {
+      "method": "tapetide.list_indices",
+      "n": 1,
+      "first": "2026-10-29 18:59:43.340694+00:00",
+      "last": "2026-10-29 18:59:43.340694+00:00"
+    },
+    {
+      "method": "ipo_public_subscription_detail",
+      "n": 47,
+      "first": "2026-10-27 10:31:39.562975+00:00",
+      "last": "2026-11-18 17:02:20.333723+00:00"
+    },
+    {
+      "method": "tapetide.search_stocks",
+      "n": 1,
+      "first": "2026-10-25 03:18:15.845451+00:00",
+      "last": "2026-10-25 03:18:15.845451+00:00"
+    },
+    {
+      "method": "research_maxpain_convergence",
+      "n": 2,
+      "first": "2026-10-25 06:32:58.750754+00:00",
+      "last": "2026-10-25 06:38:57.167789+00:00"
+    },
+    {
+      "method": "ipo_public_gmp",
+      "n": 48,
+      "first": "2026-10-27 10:31:38.811392+00:00",
+      "last": "2026-11-18 17:03:32.823997+00:00"
+    },
+    {
+      "method": "tapetide.list_index_levels",
+      "n": 9,
+      "first": "2026-10-25 03:21:24.310399+00:00",
+      "last": "2026-10-29 18:59:44.341232+00:00"
+    },
+    {
+      "method": "tapetide.get_option_chain",
+      "n": 3,
+      "first": "2026-10-25 14:02:56.658915+00:00",
+      "last": "2026-11-17 03:50:09.104342+00:00"
+    },
+    {
+      "method": "get_market_status",
+      "n": 18,
+      "first": "2026-10-25 18:29:32.619325+00:00",
+      "last": "2026-11-18 17:03:38.476081+00:00"
+    },
+    {
+      "method": "tapetide.get_stock_profile",
+      "n": 1,
+      "first": "2026-10-25 03:18:16.472809+00:00",
+      "last": "2026-10-25 03:18:16.472809+00:00"
+    },
+    {
+      "method": "get_option_contracts",
+      "n": 4,
+      "first": "2026-10-24 11:19:33.529522+00:00",
+      "last": "2026-11-18 15:52:34.539441+00:00"
+    },
+    {
+      "method": "get_nifty_nse_cash",
+      "n": 1,
+      "first": "2026-11-13 19:21:27.976368+00:00",
+      "last": "2026-11-13 19:21:27.976368+00:00"
+    },
+    {
+      "method": "search_instruments",
+      "n": 2,
+      "first": "2026-10-24 17:46:26.689942+00:00",
+      "last": "2026-10-30 05:17:12.062869+00:00"
+    },
+    {
+      "method": "tapetide.get_stock_quote",
+      "n": 1,
+      "first": "2026-10-25 03:23:49.777211+00:00",
+      "last": "2026-10-25 03:23:49.777211+00:00"
+    },
+    {
+      "method": "ipo_public_fundamentals",
+      "n": 44,
+      "first": "2026-10-27 08:25:26.073672+00:00",
+      "last": "2026-11-18 15:54:32.816299+00:00"
+    },
+    {
+      "method": "get_ltp_quotes_v3",
+      "n": 1,
+      "first": "2026-10-24 11:40:41.138709+00:00",
+      "last": "2026-10-24 11:40:41.138709+00:00"
+    },
+    {
+      "method": "get_ipos",
+      "n": 7,
+      "first": "2026-10-24 15:03:29.132565+00:00",
+      "last": "2026-11-18 17:03:20.625624+00:00"
+    }
+  ],
+  "historical_identities": []
+}

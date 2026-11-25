@@ -1,0 +1,88 @@
+{
+  "target_date": "2026-11-17",
+  "decision_started_at": "2026-11-17T00:32:56.392281+05:30",
+  "frozen_at": "2026-11-17T00:33:17.687726+05:30",
+  "source": "Upstox read-only REST, retained dashboard, public context adapters",
+  "files": {
+    "daily-bank_nifty.json": {
+      "bytes": 377104,
+      "sha256": "4ec6f25e1a15f291162dc6545109401b0f8574b5320f2c449d4e60221aa1271a"
+    },
+    "daily-india_vix.json": {
+      "bytes": 351276,
+      "sha256": "484f9fccbd07c2a8fef83e2eb7bd5af4b110c3d5ce6c1888ae87d8193cbe4fb6"
+    },
+    "daily-nifty_500.json": {
+      "bytes": 373434,
+      "sha256": "ee16182b887c8a3ef444d4fb71bf2210aadc5f7605120adf461ca02c96a881c3"
+    },
+    "daily-nifty_auto.json": {
+      "bytes": 447004,
+      "sha256": "b705ded87a36d780d7eaf7a24ba50a6f872b0e46d0e74a6e3308bc5a423d947a"
+    },
+    "daily-nifty_energy.json": {
+      "bytes": 377092,
+      "sha256": "f59356f38398bf71f923ab1ba2b5c04d94432833600c7dcc93553735e11e4994"
+    },
+    "daily-nifty_financial.json": {
+      "bytes": 376284,
+      "sha256": "7fda6519b73e3272bf17dfa6be9766db9632f8686f4c7a41748422928b4bde25"
+    },
+    "daily-nifty_fmcg.json": {
+      "bytes": 377173,
+      "sha256": "c75d35a8d3985e47ed8fa3ea52d821aac745c6a307b0b1b358b86f8a8149a7e2"
+    },
+    "daily-nifty_it.json": {
+      "bytes": 377026,
+      "sha256": "e655ad62b87e4deb153e67f433189e5cb80b7ab7e4756c4276d889973cd515fe"
+    },
+    "daily-nifty_metal.json": {
+      "bytes": 368484,
+      "sha256": "7b192e1cdd2f0851084d45c64afbe4c157570f127a1e267d7025000f8737194d"
+    },
+    "daily-nifty_pharma.json": {
+      "bytes": 374265,
+      "sha256": "98bf68bb7686b748d2d4cc3936a4be1cc63d889d9a77f948dee7b2b58508e2f0"
+    },
+    "daily-nifty_psu_bank.json": {
+      "bytes": 367277,
+      "sha256": "f70399c3a39eea33916599ebc60a093ce368ef54980bfb06f5ce0dc452ee565d"
+    },
+    "daily-nifty_realty.json": {
+      "bytes": 358195,
+      "sha256": "f511cda91f6db8a391c037fde0901c78df48fdba7a33f0974d975bc9b34bcc15"
+    },
+    "daily-nifty_spot.json": {
+      "bytes": 376265,
+      "sha256": "7d75a067a7d86434d6bd524abc3f9324dcc247455a0f56668dc38490b5f1bcee"
+    },
+    "dashboard-fresh.json": {
+      "bytes": 1887365,
+      "sha256": "11a3926b1c095dff2f3f3e4827e1ae98acc9be8edbb3849abfa2b66a8bd72232"
+    },
+    "dashboard-retained.json": {
+      "bytes": 169488847,
+      "sha256": "39c5b3d40c4e757a749d98d0b37fa90157f3518c1687194ecb46ba2a1e8be35b"
+    },
+    "dii-history.json": {
+      "bytes": 14464,
+      "sha256": "7f11c2eefd1edcce5605bf451573a3536ca4fbf4109e4d83201608ce923185dc"
+    },
+    "fii-history.json": {
+      "bytes": 45294,
+      "sha256": "5e8c15166db70f92e58f6ebf0b38e0494760fcc3bdd682bcf28072b256f736df"
+    },
+    "market-holidays.json": {
+      "bytes": 232,
+      "sha256": "18a6dcbf7a22d70da941db0693fa74849b404332a22b58ef2d44df57c979f93b"
+    },
+    "market-status.json": {
+      "bytes": 320,
+      "sha256": "911762477dcb3154c526cf194971594720193434fdb01af9b502daa18baf6e38"
+    },
+    "nifty-news.json": {
+      "bytes": 314,
+      "sha256": "2cdf25d40dc859f4da9cc713cf1d439b6fdf74be7a7c292dc56d81f8edd9a276"
+    }
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "registered_at": "2026-11-24T14:27:12.853222+05:30",
+  "configurations": {
+    "NEUTRAL": {
+      "frame": "five",
+      "parent": "HISTORY",
+      "law": "neutral",
+      "hypothesis": "Same history magnitudes with fixed half mass for each sign",
+      "batch": "base",
+      "configuration_fingerprint": "c17e19eaae9329f2c595d82a1d21f4e680996f2432afe71734c978d649081518"
+    },
+    "BASE_ROTATION": {
+      "frame": "rotation",
+      "parent": "BASE_NATIVE",
+      "hypothesis": "Full native base plus residualized rotation, common V10 residual rules",
+      "batch": "base",
+      "configuration_fingerprint": "bb964d653c778617ae5cfe8effa8c378c9d9172fb95b1e7b8dd775ca5110c4fa"
+    },
+    "S_ELASTIC": {
+      "frame": "native_rot",
+      "parent": "S_NATIVE_ROT",
+      "rep": "cluster_elastic",
+      "kind": "elastic",
+      "hypothesis": "Cluster-balanced sparse coefficient fit",
+      "batch": "structure",
+      "configuration_fingerprint": "9efd3a23f78a11723266b1e8f88648947696fe6f67c3ee2a6a6eb87d6e386809"
+    },
+    "T_RAW": {
+      "frame": "ten",
+      "parent": "BASE10",
+      "target": "raw",
+      "common_target": true,
+      "hypothesis": "Compare transform on identical rows and convert to the same endpoint units",
+      "batch": "target",
+      "configuration_fingerprint": "5e115c13f5816fdc86b9c8bfbdccfa15d6d10cf3f585c3faa506241eaf826f2d"
+    },
+    "T_VOL_STUDENT": {
+      "frame": "ten",
+      "parent": "T_VOL",
+      "target": "vol",
+      "common_target": true,
+      "law": "student",
+      "hypothesis": "Conditional location and separately regularized return scale in one law",
+      "batch": "target",
+      "configuration_fingerprint": "31a1d707b83f9dca8d19a79902b576692a10f5eea2843dd0f7f5ad669210b689"
+    },
+    "T_SIGNMAG": {
+      "frame": "ten",
+      "parent": "T_RAW",
+      "target": "signmag",
+      "common_target": true,
+      "hypothesis": "Compare transform on identical rows and convert to the same endpoint units",
+      "batch": "target",
+      "configuration_fingerprint": "58febf2bdb3cfaf96167f604c3e6cd3a59c0c0ecebce1bc6d798776d79f80625"
+    },
+    "N_EQ_CONTROL": {
+      "frame": "ten",
+      "parent": "BASE10",
+      "eligible": "breadth_complete",
+      "hypothesis": "Complete official archive breadth comparison parent",
+      "batch": "new",
+      "configuration_fingerprint": "ffada994ba54d8e2903dead127527a7cdb40589575865a4091d13fcb77f6a9c8"
+    },
+    "N_EQ_OFFICIAL": {
+      "frame": "breadth",
+      "parent": "N_EQ_CONTROL",
+      "eligible": "breadth_complete",
+      "hypothesis": "Authentic equal-weight versus cap-weight index relatives",
+      "batch": "new",
+      "configuration_fingerprint": "3bd1ce08292fabdf411aa443764f63a23c5e6d4d903639eb8c21893d521d71f1"
+    },
+    "C85_RECENT": {
+      "frame": "ten",
+      "parent": "BASE10",
+      "budget": 85,
+      "selection": "recent",
+      "hypothesis": "Equal 85-row training budget with recent composition",
+      "batch": "composition",
+      "configuration_fingerprint": "0d76f2437e06d587bf0adfccc238b38f3a0895c33fc8fa317f3de79ad42dcb7f"
+    },
+    "C85_EARLIEST": {
+      "frame": "ten",
+      "parent": "C85_RECENT",
+      "budget": 85,
+      "selection": "earliest",
+      "hypothesis": "Equal 85-row training budget with earliest composition",
+      "batch": "composition",
+      "configuration_fingerprint": "81584f836ec257b42ca5d34b0b63cff82666db5f686207259ec3e74dd43c01a9"
+    },
+    "C85_SPREAD": {
+      "frame": "ten",
+      "parent": "C85_RECENT",
+      "budget": 85,
+      "selection": "spread",
+      "hypothesis": "Equal 85-row training budget with spread composition",
+      "batch": "composition",
+      "configuration_fingerprint": "a0a8be60445e70f6fcb2bdb11b2a2cddaa016aba752e3ab1b54785e7254cd153"
+    },
+    "OMAX_PLAIN": {
+      "frame": "ten",
+      "parent": "BASE10",
+      "budget": null,
+      "overlap": "plain",
+      "hypothesis": "Same source eligibility and train budget. Vary only temporal dependence treatment.",
+      "batch": "overlap",
+      "configuration_fingerprint": "3801cb728f01087e29b190d8d024d6e47e0931d58fcba747b03bcd57eff58d52"
+    },
+    "OMAX_BLOCKMEAN": {
+      "frame": "ten",
+      "parent": "OMAX_PLAIN",
+      "budget": null,
+      "overlap": "blockmean",
+      "hypothesis": "Same source eligibility and train budget. Vary only temporal dependence treatment.",
+      "batch": "overlap",
+      "configuration_fingerprint": "fc616065fd559c5e51f15711b9a0d4176c2db438536a499a4aac6f207678597c"
+    },
+    "O126_GLS": {
+      "frame": "ten",
+      "parent": "O126_PLAIN",
+      "budget": 126,
+      "overlap": "gls",
+      "hypothesis": "Same source eligibility and train budget. Vary only temporal dependence treatment.",
+      "batch": "overlap",
+      "configuration_fingerprint": "95e99ed12ed003a72ca1b5b357a49b50ca479826e1ecbf98c2bd4510400f340c"
+    },
+    "O126_STAGGERED": {
+      "frame": "ten",
+      "parent": "O126_PLAIN",
+      "budget": 126,
+      "overlap": "staggered",
+      "hypothesis": "Same source eligibility and train budget. Vary only temporal dependence treatment.",
+      "batch": "overlap",
+      "configuration_fingerprint": "80434acd0a486a6ed3cda11aa2efa0aad0a521404a1cd1835fd7eed393699f19"
+    },
+    "DATED_FUTURES_PARENT": {
+      "frame": "ten",
+      "parent": "BASE10",
+      "eligible": "DATED_FUTURES",
+      "hypothesis": "Exact dated derivative eligibility control",
+      "batch": "datedderivatives",
+      "configuration_fingerprint": "e977cf086a847b1d71c7d3e42f0b9ba0c4819874a29607b58601fd8bfff7b15b"
+    },
+    "DATED_FUTURES": {
+      "frame": "DATED_FUTURES",
+      "parent": "DATED_FUTURES_PARENT",
+      "eligible": "DATED_FUTURES",
+      "hypothesis": "One observed-session delayed derivative information with dated contract and expiry matching",
+      "batch": "datedderivatives",
+      "configuration_fingerprint": "c681071708e331c02644ccb9a3677ff5eb4ec1ce302ba13fe17c2b99ec19e6ca"
+    },
+    "DATED_STRADDLE_PARENT": {
+      "frame": "ten",
+      "parent": "BASE10",
+      "eligible": "DATED_STRADDLE",
+      "hypothesis": "Exact dated derivative eligibility control",
+      "batch": "datedderivatives",
+      "configuration_fingerprint": "c053dca4e6750f224aaea02fe3d6b901a1023f58d91174fc191878e4dc51dc5f"
+    },
+    "DATED_STRADDLE": {
+      "frame": "DATED_STRADDLE",
+      "parent": "DATED_STRADDLE_PARENT",
+      "eligible": "DATED_STRADDLE",
+      "hypothesis": "One observed-session delayed derivative information with dated contract and expiry matching",
+      "batch": "datedderivatives",
+      "configuration_fingerprint": "e254b1881082a567e921969ea83eda54d1e471a6cb456f5c4eac543d6efe6cb3"
+    }
+  },
+  "seed": 20261130,
+  "code_hashes": {
+    "experiments.py": "d45e8c107db6a6c3f702d0fdbdf5b889d000a7e372994af18ad4b1d2a2e653bb",
+    "estimators.py": "30f13c215fbddb9ff179412a84586d60e83616b01283bd589523daab4520f9d3",
+    "targets.py": "9bb9d2060fef1bc2b1add51c129d8dc4e792afae782e6b5c8183f82a1ae5f752"
+  }
+}

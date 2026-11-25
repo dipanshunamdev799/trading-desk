@@ -1,0 +1,31 @@
+{
+  "risk_rows": 14940,
+  "distribution_rows": 184198,
+  "joint_rows": 13014,
+  "event_rows": 517668,
+  "passage_rows": 208224,
+  "direct_touch_rows": 4820,
+  "interval_rows": 154240,
+  "matched": 49076,
+  "used_families": [
+    "volatility",
+    "direction",
+    "endpoint_return",
+    "range_path",
+    "volatility_transition",
+    "extremes",
+    "touch",
+    "passage_time",
+    "order",
+    "joint",
+    "interval",
+    "offshore_gap"
+  ],
+  "bootstrap": 1600,
+  "blocks": [
+    5,
+    10,
+    21,
+    42
+  ]
+}

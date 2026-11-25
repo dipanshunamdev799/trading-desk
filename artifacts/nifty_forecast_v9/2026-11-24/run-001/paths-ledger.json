@@ -1,0 +1,1277 @@
+[
+  {
+    "model": "PATH_EMPIRICAL",
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2025-10",
+    "cutoff": "2025-10-14",
+    "status": "ok",
+    "n": 12,
+    "last_endpoint": "2025-10-13",
+    "ar_last_observation": "2025-10-13",
+    "ar_intercept": 0.00025409552019292435,
+    "ar_coefficients": [
+      0.0017481386214425656,
+      0.013819999662699735
+    ],
+    "block_count": 127
+  },
+  {
+    "model": "PATH_REGIME",
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2025-10",
+    "cutoff": "2025-10-14",
+    "status": "ok",
+    "n": 12,
+    "last_endpoint": "2025-10-13",
+    "ar_last_observation": "2025-10-13",
+    "ar_intercept": 0.00025409552019292435,
+    "ar_coefficients": [
+      0.0017481386214425656,
+      0.013819999662699735
+    ],
+    "block_count": 127
+  },
+  {
+    "model": "PATH_AR_REGIME",
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2025-10",
+    "cutoff": "2025-10-14",
+    "status": "ok",
+    "n": 12,
+    "last_endpoint": "2025-10-13",
+    "ar_last_observation": "2025-10-13",
+    "ar_intercept": 0.00025409552019292435,
+    "ar_coefficients": [
+      0.0017481386214425656,
+      0.013819999662699735
+    ],
+    "block_count": 127
+  },
+  {
+    "model": "PATH_EMPIRICAL",
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2025-11",
+    "cutoff": "2025-10-31",
+    "status": "ok",
+    "n": 19,
+    "last_endpoint": "2025-10-30",
+    "ar_last_observation": "2025-10-30",
+    "ar_intercept": 0.0003606904221820309,
+    "ar_coefficients": [
+      0.002913565991277384,
+      0.015147625517207717
+    ],
+    "block_count": 139
+  },
+  {
+    "model": "PATH_REGIME",
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2025-11",
+    "cutoff": "2025-10-31",
+    "status": "ok",
+    "n": 19,
+    "last_endpoint": "2025-10-30",
+    "ar_last_observation": "2025-10-30",
+    "ar_intercept": 0.0003606904221820309,
+    "ar_coefficients": [
+      0.002913565991277384,
+      0.015147625517207717
+    ],
+    "block_count": 139
+  },
+  {
+    "model": "PATH_AR_REGIME",
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2025-11",
+    "cutoff": "2025-10-31",
+    "status": "ok",
+    "n": 19,
+    "last_endpoint": "2025-10-30",
+    "ar_last_observation": "2025-10-30",
+    "ar_intercept": 0.0003606904221820309,
+    "ar_coefficients": [
+      0.002913565991277384,
+      0.015147625517207717
+    ],
+    "block_count": 139
+  },
+  {
+    "model": "PATH_EMPIRICAL",
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2025-12",
+    "cutoff": "2025-11-28",
+    "status": "ok",
+    "n": 22,
+    "last_endpoint": "2025-11-27",
+    "ar_last_observation": "2025-11-27",
+    "ar_intercept": 0.00038840180416391707,
+    "ar_coefficients": [
+      0.004278496224135844,
+      0.013254262511859216
+    ],
+    "block_count": 158
+  },
+  {
+    "model": "PATH_REGIME",
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2025-12",
+    "cutoff": "2025-11-28",
+    "status": "ok",
+    "n": 22,
+    "last_endpoint": "2025-11-27",
+    "ar_last_observation": "2025-11-27",
+    "ar_intercept": 0.00038840180416391707,
+    "ar_coefficients": [
+      0.004278496224135844,
+      0.013254262511859216
+    ],
+    "block_count": 158
+  },
+  {
+    "model": "PATH_AR_REGIME",
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2025-12",
+    "cutoff": "2025-11-28",
+    "status": "ok",
+    "n": 22,
+    "last_endpoint": "2025-11-27",
+    "ar_last_observation": "2025-11-27",
+    "ar_intercept": 0.00038840180416391707,
+    "ar_coefficients": [
+      0.004278496224135844,
+      0.013254262511859216
+    ],
+    "block_count": 158
+  },
+  {
+    "model": "PATH_EMPIRICAL",
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2026-01",
+    "cutoff": "2025-12-31",
+    "status": "ok",
+    "n": 20,
+    "last_endpoint": "2025-12-30",
+    "ar_last_observation": "2025-12-30",
+    "ar_intercept": 0.0003104318068137246,
+    "ar_coefficients": [
+      0.007193902751111866,
+      0.010070137237730481
+    ],
+    "block_count": 180
+  },
+  {
+    "model": "PATH_REGIME",
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2026-01",
+    "cutoff": "2025-12-31",
+    "status": "ok",
+    "n": 20,
+    "last_endpoint": "2025-12-30",
+    "ar_last_observation": "2025-12-30",
+    "ar_intercept": 0.0003104318068137246,
+    "ar_coefficients": [
+      0.007193902751111866,
+      0.010070137237730481
+    ],
+    "block_count": 180
+  },
+  {
+    "model": "PATH_AR_REGIME",
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2026-01",
+    "cutoff": "2025-12-31",
+    "status": "ok",
+    "n": 20,
+    "last_endpoint": "2025-12-30",
+    "ar_last_observation": "2025-12-30",
+    "ar_intercept": 0.0003104318068137246,
+    "ar_coefficients": [
+      0.007193902751111866,
+      0.010070137237730481
+    ],
+    "block_count": 180
+  },
+  {
+    "model": "PATH_EMPIRICAL",
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2026-02",
+    "cutoff": "2026-01-30",
+    "status": "ok",
+    "n": 21,
+    "last_endpoint": "2026-01-29",
+    "ar_last_observation": "2026-01-29",
+    "ar_intercept": 0.00021235736157432749,
+    "ar_coefficients": [
+      0.009325922475944118,
+      0.009079132482630743
+    ],
+    "block_count": 200
+  },
+  {
+    "model": "PATH_REGIME",
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2026-02",
+    "cutoff": "2026-01-30",
+    "status": "ok",
+    "n": 21,
+    "last_endpoint": "2026-01-29",
+    "ar_last_observation": "2026-01-29",
+    "ar_intercept": 0.00021235736157432749,
+    "ar_coefficients": [
+      0.009325922475944118,
+      0.009079132482630743
+    ],
+    "block_count": 200
+  },
+  {
+    "model": "PATH_AR_REGIME",
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2026-02",
+    "cutoff": "2026-01-30",
+    "status": "ok",
+    "n": 21,
+    "last_endpoint": "2026-01-29",
+    "ar_last_observation": "2026-01-29",
+    "ar_intercept": 0.00021235736157432749,
+    "ar_coefficients": [
+      0.009325922475944118,
+      0.009079132482630743
+    ],
+    "block_count": 200
+  },
+  {
+    "model": "PATH_EMPIRICAL",
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2026-03",
+    "cutoff": "2026-02-27",
+    "status": "ok",
+    "n": 19,
+    "last_endpoint": "2026-02-26",
+    "ar_last_observation": "2026-02-26",
+    "ar_intercept": 0.00021205283983906684,
+    "ar_coefficients": [
+      0.008704115483638593,
+      -0.011824957435912104
+    ],
+    "block_count": 221
+  },
+  {
+    "model": "PATH_REGIME",
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2026-03",
+    "cutoff": "2026-02-27",
+    "status": "ok",
+    "n": 19,
+    "last_endpoint": "2026-02-26",
+    "ar_last_observation": "2026-02-26",
+    "ar_intercept": 0.00021205283983906684,
+    "ar_coefficients": [
+      0.008704115483638593,
+      -0.011824957435912104
+    ],
+    "block_count": 221
+  },
+  {
+    "model": "PATH_AR_REGIME",
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2026-03",
+    "cutoff": "2026-02-27",
+    "status": "ok",
+    "n": 19,
+    "last_endpoint": "2026-02-26",
+    "ar_last_observation": "2026-02-26",
+    "ar_intercept": 0.00021205283983906684,
+    "ar_coefficients": [
+      0.008704115483638593,
+      -0.011824957435912104
+    ],
+    "block_count": 221
+  },
+  {
+    "model": "PATH_EMPIRICAL",
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2026-04",
+    "cutoff": "2026-03-30",
+    "status": "ok",
+    "n": 20,
+    "last_endpoint": "2026-03-27",
+    "ar_last_observation": "2026-03-27",
+    "ar_intercept": -0.0001680261984851194,
+    "ar_coefficients": [
+      -0.010061324630854152,
+      -0.006804236180808905
+    ],
+    "block_count": 240
+  },
+  {
+    "model": "PATH_REGIME",
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2026-04",
+    "cutoff": "2026-03-30",
+    "status": "ok",
+    "n": 20,
+    "last_endpoint": "2026-03-27",
+    "ar_last_observation": "2026-03-27",
+    "ar_intercept": -0.0001680261984851194,
+    "ar_coefficients": [
+      -0.010061324630854152,
+      -0.006804236180808905
+    ],
+    "block_count": 240
+  },
+  {
+    "model": "PATH_AR_REGIME",
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2026-04",
+    "cutoff": "2026-03-30",
+    "status": "ok",
+    "n": 20,
+    "last_endpoint": "2026-03-27",
+    "ar_last_observation": "2026-03-27",
+    "ar_intercept": -0.0001680261984851194,
+    "ar_coefficients": [
+      -0.010061324630854152,
+      -0.006804236180808905
+    ],
+    "block_count": 240
+  },
+  {
+    "model": "PATH_EMPIRICAL",
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2026-05",
+    "cutoff": "2026-04-30",
+    "status": "ok",
+    "n": 19,
+    "last_endpoint": "2026-04-29",
+    "ar_last_observation": "2026-04-29",
+    "ar_intercept": 2.1414800990379654e-05,
+    "ar_coefficients": [
+      -0.01447301363375049,
+      0.00691966314577298
+    ],
+    "block_count": 252
+  },
+  {
+    "model": "PATH_REGIME",
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2026-05",
+    "cutoff": "2026-04-30",
+    "status": "ok",
+    "n": 19,
+    "last_endpoint": "2026-04-29",
+    "ar_last_observation": "2026-04-29",
+    "ar_intercept": 2.1414800990379654e-05,
+    "ar_coefficients": [
+      -0.01447301363375049,
+      0.00691966314577298
+    ],
+    "block_count": 252
+  },
+  {
+    "model": "PATH_AR_REGIME",
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2026-05",
+    "cutoff": "2026-04-30",
+    "status": "ok",
+    "n": 19,
+    "last_endpoint": "2026-04-29",
+    "ar_last_observation": "2026-04-29",
+    "ar_intercept": 2.1414800990379654e-05,
+    "ar_coefficients": [
+      -0.01447301363375049,
+      0.00691966314577298
+    ],
+    "block_count": 252
+  },
+  {
+    "model": "PATH_EMPIRICAL",
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2026-06",
+    "cutoff": "2026-05-29",
+    "status": "ok",
+    "n": 21,
+    "last_endpoint": "2026-05-27",
+    "ar_last_observation": "2026-05-27",
+    "ar_intercept": -1.2434595402845567e-05,
+    "ar_coefficients": [
+      -0.011500122152202061,
+      0.005945399269037194
+    ],
+    "block_count": 252
+  },
+  {
+    "model": "PATH_REGIME",
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2026-06",
+    "cutoff": "2026-05-29",
+    "status": "ok",
+    "n": 21,
+    "last_endpoint": "2026-05-27",
+    "ar_last_observation": "2026-05-27",
+    "ar_intercept": -1.2434595402845567e-05,
+    "ar_coefficients": [
+      -0.011500122152202061,
+      0.005945399269037194
+    ],
+    "block_count": 252
+  },
+  {
+    "model": "PATH_AR_REGIME",
+    "horizon": 5,
+    "cohort": "early",
+    "fold": "2026-06",
+    "cutoff": "2026-05-29",
+    "status": "ok",
+    "n": 21,
+    "last_endpoint": "2026-05-27",
+    "ar_last_observation": "2026-05-27",
+    "ar_intercept": -1.2434595402845567e-05,
+    "ar_coefficients": [
+      -0.011500122152202061,
+      0.005945399269037194
+    ],
+    "block_count": 252
+  },
+  {
+    "model": "PATH_EMPIRICAL",
+    "horizon": 5,
+    "cohort": "later",
+    "fold": "2026-07",
+    "cutoff": "2026-06-30",
+    "status": "ok",
+    "n": 23,
+    "last_endpoint": "2026-06-29",
+    "ar_last_observation": "2026-06-29",
+    "ar_intercept": -7.124705153174705e-06,
+    "ar_coefficients": [
+      -0.009693747363012232,
+      0.009186004717562793
+    ],
+    "block_count": 252
+  },
+  {
+    "model": "PATH_REGIME",
+    "horizon": 5,
+    "cohort": "later",
+    "fold": "2026-07",
+    "cutoff": "2026-06-30",
+    "status": "ok",
+    "n": 23,
+    "last_endpoint": "2026-06-29",
+    "ar_last_observation": "2026-06-29",
+    "ar_intercept": -7.124705153174705e-06,
+    "ar_coefficients": [
+      -0.009693747363012232,
+      0.009186004717562793
+    ],
+    "block_count": 252
+  },
+  {
+    "model": "PATH_AR_REGIME",
+    "horizon": 5,
+    "cohort": "later",
+    "fold": "2026-07",
+    "cutoff": "2026-06-30",
+    "status": "ok",
+    "n": 23,
+    "last_endpoint": "2026-06-29",
+    "ar_last_observation": "2026-06-29",
+    "ar_intercept": -7.124705153174705e-06,
+    "ar_coefficients": [
+      -0.009693747363012232,
+      0.009186004717562793
+    ],
+    "block_count": 252
+  },
+  {
+    "model": "PATH_EMPIRICAL",
+    "horizon": 5,
+    "cohort": "later",
+    "fold": "2026-08",
+    "cutoff": "2026-07-31",
+    "status": "ok",
+    "n": 21,
+    "last_endpoint": "2026-07-30",
+    "ar_last_observation": "2026-07-30",
+    "ar_intercept": 3.327365602924631e-05,
+    "ar_coefficients": [
+      -0.008015540412248121,
+      0.003969319648202826
+    ],
+    "block_count": 252
+  },
+  {
+    "model": "PATH_REGIME",
+    "horizon": 5,
+    "cohort": "later",
+    "fold": "2026-08",
+    "cutoff": "2026-07-31",
+    "status": "ok",
+    "n": 21,
+    "last_endpoint": "2026-07-30",
+    "ar_last_observation": "2026-07-30",
+    "ar_intercept": 3.327365602924631e-05,
+    "ar_coefficients": [
+      -0.008015540412248121,
+      0.003969319648202826
+    ],
+    "block_count": 252
+  },
+  {
+    "model": "PATH_AR_REGIME",
+    "horizon": 5,
+    "cohort": "later",
+    "fold": "2026-08",
+    "cutoff": "2026-07-31",
+    "status": "ok",
+    "n": 21,
+    "last_endpoint": "2026-07-30",
+    "ar_last_observation": "2026-07-30",
+    "ar_intercept": 3.327365602924631e-05,
+    "ar_coefficients": [
+      -0.008015540412248121,
+      0.003969319648202826
+    ],
+    "block_count": 252
+  },
+  {
+    "model": "PATH_EMPIRICAL",
+    "horizon": 5,
+    "cohort": "later",
+    "fold": "2026-09",
+    "cutoff": "2026-08-31",
+    "status": "ok",
+    "n": 21,
+    "last_endpoint": "2026-08-28",
+    "ar_last_observation": "2026-08-28",
+    "ar_intercept": 1.7052429162426203e-05,
+    "ar_coefficients": [
+      -0.008759579076958431,
+      0.00434614196779918
+    ],
+    "block_count": 252
+  },
+  {
+    "model": "PATH_REGIME",
+    "horizon": 5,
+    "cohort": "later",
+    "fold": "2026-09",
+    "cutoff": "2026-08-31",
+    "status": "ok",
+    "n": 21,
+    "last_endpoint": "2026-08-28",
+    "ar_last_observation": "2026-08-28",
+    "ar_intercept": 1.7052429162426203e-05,
+    "ar_coefficients": [
+      -0.008759579076958431,
+      0.00434614196779918
+    ],
+    "block_count": 252
+  },
+  {
+    "model": "PATH_AR_REGIME",
+    "horizon": 5,
+    "cohort": "later",
+    "fold": "2026-09",
+    "cutoff": "2026-08-31",
+    "status": "ok",
+    "n": 21,
+    "last_endpoint": "2026-08-28",
+    "ar_last_observation": "2026-08-28",
+    "ar_intercept": 1.7052429162426203e-05,
+    "ar_coefficients": [
+      -0.008759579076958431,
+      0.00434614196779918
+    ],
+    "block_count": 252
+  },
+  {
+    "model": "PATH_EMPIRICAL",
+    "horizon": 5,
+    "cohort": "later",
+    "fold": "2026-10",
+    "cutoff": "2026-09-30",
+    "status": "ok",
+    "n": 20,
+    "last_endpoint": "2026-09-29",
+    "ar_last_observation": "2026-09-29",
+    "ar_intercept": -0.00012912133409601878,
+    "ar_coefficients": [
+      -0.010347128089879736,
+      0.010581933358383252
+    ],
+    "block_count": 252
+  },
+  {
+    "model": "PATH_REGIME",
+    "horizon": 5,
+    "cohort": "later",
+    "fold": "2026-10",
+    "cutoff": "2026-09-30",
+    "status": "ok",
+    "n": 20,
+    "last_endpoint": "2026-09-29",
+    "ar_last_observation": "2026-09-29",
+    "ar_intercept": -0.00012912133409601878,
+    "ar_coefficients": [
+      -0.010347128089879736,
+      0.010581933358383252
+    ],
+    "block_count": 252
+  },
+  {
+    "model": "PATH_AR_REGIME",
+    "horizon": 5,
+    "cohort": "later",
+    "fold": "2026-10",
+    "cutoff": "2026-09-30",
+    "status": "ok",
+    "n": 20,
+    "last_endpoint": "2026-09-29",
+    "ar_last_observation": "2026-09-29",
+    "ar_intercept": -0.00012912133409601878,
+    "ar_coefficients": [
+      -0.010347128089879736,
+      0.010581933358383252
+    ],
+    "block_count": 252
+  },
+  {
+    "model": "PATH_EMPIRICAL",
+    "horizon": 5,
+    "cohort": "later",
+    "fold": "2026-11",
+    "cutoff": "2026-10-30",
+    "status": "ok",
+    "n": 7,
+    "last_endpoint": "2026-10-29",
+    "ar_last_observation": "2026-10-29",
+    "ar_intercept": -0.00010236968843237416,
+    "ar_coefficients": [
+      -0.016339787510813268,
+      0.011318862067722757
+    ],
+    "block_count": 252
+  },
+  {
+    "model": "PATH_REGIME",
+    "horizon": 5,
+    "cohort": "later",
+    "fold": "2026-11",
+    "cutoff": "2026-10-30",
+    "status": "ok",
+    "n": 7,
+    "last_endpoint": "2026-10-29",
+    "ar_last_observation": "2026-10-29",
+    "ar_intercept": -0.00010236968843237416,
+    "ar_coefficients": [
+      -0.016339787510813268,
+      0.011318862067722757
+    ],
+    "block_count": 252
+  },
+  {
+    "model": "PATH_AR_REGIME",
+    "horizon": 5,
+    "cohort": "later",
+    "fold": "2026-11",
+    "cutoff": "2026-10-30",
+    "status": "ok",
+    "n": 7,
+    "last_endpoint": "2026-10-29",
+    "ar_last_observation": "2026-10-29",
+    "ar_intercept": -0.00010236968843237416,
+    "ar_coefficients": [
+      -0.016339787510813268,
+      0.011318862067722757
+    ],
+    "block_count": 252
+  },
+  {
+    "model": "PATH_EMPIRICAL",
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2025-12",
+    "cutoff": "2025-12-01",
+    "status": "ok",
+    "n": 21,
+    "last_endpoint": "2025-11-28",
+    "ar_last_observation": "2025-11-28",
+    "ar_intercept": 0.0003839113540863389,
+    "ar_coefficients": [
+      0.0042779812733193786,
+      0.012970281072102494
+    ],
+    "block_count": 143
+  },
+  {
+    "model": "PATH_REGIME",
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2025-12",
+    "cutoff": "2025-12-01",
+    "status": "ok",
+    "n": 21,
+    "last_endpoint": "2025-11-28",
+    "ar_last_observation": "2025-11-28",
+    "ar_intercept": 0.0003839113540863389,
+    "ar_coefficients": [
+      0.0042779812733193786,
+      0.012970281072102494
+    ],
+    "block_count": 143
+  },
+  {
+    "model": "PATH_AR_REGIME",
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2025-12",
+    "cutoff": "2025-12-01",
+    "status": "ok",
+    "n": 21,
+    "last_endpoint": "2025-11-28",
+    "ar_last_observation": "2025-11-28",
+    "ar_intercept": 0.0003839113540863389,
+    "ar_coefficients": [
+      0.0042779812733193786,
+      0.012970281072102494
+    ],
+    "block_count": 143
+  },
+  {
+    "model": "PATH_EMPIRICAL",
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2026-01",
+    "cutoff": "2025-12-31",
+    "status": "ok",
+    "n": 20,
+    "last_endpoint": "2025-12-30",
+    "ar_last_observation": "2025-12-30",
+    "ar_intercept": 0.0003104318068137246,
+    "ar_coefficients": [
+      0.007193902751111866,
+      0.010070137237730481
+    ],
+    "block_count": 164
+  },
+  {
+    "model": "PATH_REGIME",
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2026-01",
+    "cutoff": "2025-12-31",
+    "status": "ok",
+    "n": 20,
+    "last_endpoint": "2025-12-30",
+    "ar_last_observation": "2025-12-30",
+    "ar_intercept": 0.0003104318068137246,
+    "ar_coefficients": [
+      0.007193902751111866,
+      0.010070137237730481
+    ],
+    "block_count": 164
+  },
+  {
+    "model": "PATH_AR_REGIME",
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2026-01",
+    "cutoff": "2025-12-31",
+    "status": "ok",
+    "n": 20,
+    "last_endpoint": "2025-12-30",
+    "ar_last_observation": "2025-12-30",
+    "ar_intercept": 0.0003104318068137246,
+    "ar_coefficients": [
+      0.007193902751111866,
+      0.010070137237730481
+    ],
+    "block_count": 164
+  },
+  {
+    "model": "PATH_EMPIRICAL",
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2026-02",
+    "cutoff": "2026-01-30",
+    "status": "ok",
+    "n": 21,
+    "last_endpoint": "2026-01-29",
+    "ar_last_observation": "2026-01-29",
+    "ar_intercept": 0.00021235736157432749,
+    "ar_coefficients": [
+      0.009325922475944118,
+      0.009079132482630743
+    ],
+    "block_count": 184
+  },
+  {
+    "model": "PATH_REGIME",
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2026-02",
+    "cutoff": "2026-01-30",
+    "status": "ok",
+    "n": 21,
+    "last_endpoint": "2026-01-29",
+    "ar_last_observation": "2026-01-29",
+    "ar_intercept": 0.00021235736157432749,
+    "ar_coefficients": [
+      0.009325922475944118,
+      0.009079132482630743
+    ],
+    "block_count": 184
+  },
+  {
+    "model": "PATH_AR_REGIME",
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2026-02",
+    "cutoff": "2026-01-30",
+    "status": "ok",
+    "n": 21,
+    "last_endpoint": "2026-01-29",
+    "ar_last_observation": "2026-01-29",
+    "ar_intercept": 0.00021235736157432749,
+    "ar_coefficients": [
+      0.009325922475944118,
+      0.009079132482630743
+    ],
+    "block_count": 184
+  },
+  {
+    "model": "PATH_EMPIRICAL",
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2026-03",
+    "cutoff": "2026-02-27",
+    "status": "ok",
+    "n": 19,
+    "last_endpoint": "2026-02-26",
+    "ar_last_observation": "2026-02-26",
+    "ar_intercept": 0.00021205283983906684,
+    "ar_coefficients": [
+      0.008704115483638593,
+      -0.011824957435912104
+    ],
+    "block_count": 205
+  },
+  {
+    "model": "PATH_REGIME",
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2026-03",
+    "cutoff": "2026-02-27",
+    "status": "ok",
+    "n": 19,
+    "last_endpoint": "2026-02-26",
+    "ar_last_observation": "2026-02-26",
+    "ar_intercept": 0.00021205283983906684,
+    "ar_coefficients": [
+      0.008704115483638593,
+      -0.011824957435912104
+    ],
+    "block_count": 205
+  },
+  {
+    "model": "PATH_AR_REGIME",
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2026-03",
+    "cutoff": "2026-02-27",
+    "status": "ok",
+    "n": 19,
+    "last_endpoint": "2026-02-26",
+    "ar_last_observation": "2026-02-26",
+    "ar_intercept": 0.00021205283983906684,
+    "ar_coefficients": [
+      0.008704115483638593,
+      -0.011824957435912104
+    ],
+    "block_count": 205
+  },
+  {
+    "model": "PATH_EMPIRICAL",
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2026-04",
+    "cutoff": "2026-03-30",
+    "status": "ok",
+    "n": 20,
+    "last_endpoint": "2026-03-27",
+    "ar_last_observation": "2026-03-27",
+    "ar_intercept": -0.0001680261984851194,
+    "ar_coefficients": [
+      -0.010061324630854152,
+      -0.006804236180808905
+    ],
+    "block_count": 224
+  },
+  {
+    "model": "PATH_REGIME",
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2026-04",
+    "cutoff": "2026-03-30",
+    "status": "ok",
+    "n": 20,
+    "last_endpoint": "2026-03-27",
+    "ar_last_observation": "2026-03-27",
+    "ar_intercept": -0.0001680261984851194,
+    "ar_coefficients": [
+      -0.010061324630854152,
+      -0.006804236180808905
+    ],
+    "block_count": 224
+  },
+  {
+    "model": "PATH_AR_REGIME",
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2026-04",
+    "cutoff": "2026-03-30",
+    "status": "ok",
+    "n": 20,
+    "last_endpoint": "2026-03-27",
+    "ar_last_observation": "2026-03-27",
+    "ar_intercept": -0.0001680261984851194,
+    "ar_coefficients": [
+      -0.010061324630854152,
+      -0.006804236180808905
+    ],
+    "block_count": 224
+  },
+  {
+    "model": "PATH_EMPIRICAL",
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2026-05",
+    "cutoff": "2026-04-30",
+    "status": "ok",
+    "n": 19,
+    "last_endpoint": "2026-04-29",
+    "ar_last_observation": "2026-04-29",
+    "ar_intercept": 2.1414800990379654e-05,
+    "ar_coefficients": [
+      -0.01447301363375049,
+      0.00691966314577298
+    ],
+    "block_count": 244
+  },
+  {
+    "model": "PATH_REGIME",
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2026-05",
+    "cutoff": "2026-04-30",
+    "status": "ok",
+    "n": 19,
+    "last_endpoint": "2026-04-29",
+    "ar_last_observation": "2026-04-29",
+    "ar_intercept": 2.1414800990379654e-05,
+    "ar_coefficients": [
+      -0.01447301363375049,
+      0.00691966314577298
+    ],
+    "block_count": 244
+  },
+  {
+    "model": "PATH_AR_REGIME",
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2026-05",
+    "cutoff": "2026-04-30",
+    "status": "ok",
+    "n": 19,
+    "last_endpoint": "2026-04-29",
+    "ar_last_observation": "2026-04-29",
+    "ar_intercept": 2.1414800990379654e-05,
+    "ar_coefficients": [
+      -0.01447301363375049,
+      0.00691966314577298
+    ],
+    "block_count": 244
+  },
+  {
+    "model": "PATH_EMPIRICAL",
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2026-06",
+    "cutoff": "2026-05-29",
+    "status": "ok",
+    "n": 21,
+    "last_endpoint": "2026-05-27",
+    "ar_last_observation": "2026-05-27",
+    "ar_intercept": -1.2434595402845567e-05,
+    "ar_coefficients": [
+      -0.011500122152202061,
+      0.005945399269037194
+    ],
+    "block_count": 252
+  },
+  {
+    "model": "PATH_REGIME",
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2026-06",
+    "cutoff": "2026-05-29",
+    "status": "ok",
+    "n": 21,
+    "last_endpoint": "2026-05-27",
+    "ar_last_observation": "2026-05-27",
+    "ar_intercept": -1.2434595402845567e-05,
+    "ar_coefficients": [
+      -0.011500122152202061,
+      0.005945399269037194
+    ],
+    "block_count": 252
+  },
+  {
+    "model": "PATH_AR_REGIME",
+    "horizon": 21,
+    "cohort": "early",
+    "fold": "2026-06",
+    "cutoff": "2026-05-29",
+    "status": "ok",
+    "n": 21,
+    "last_endpoint": "2026-05-27",
+    "ar_last_observation": "2026-05-27",
+    "ar_intercept": -1.2434595402845567e-05,
+    "ar_coefficients": [
+      -0.011500122152202061,
+      0.005945399269037194
+    ],
+    "block_count": 252
+  },
+  {
+    "model": "PATH_EMPIRICAL",
+    "horizon": 21,
+    "cohort": "later",
+    "fold": "2026-07",
+    "cutoff": "2026-06-30",
+    "status": "ok",
+    "n": 23,
+    "last_endpoint": "2026-06-29",
+    "ar_last_observation": "2026-06-29",
+    "ar_intercept": -7.124705153174705e-06,
+    "ar_coefficients": [
+      -0.009693747363012232,
+      0.009186004717562793
+    ],
+    "block_count": 252
+  },
+  {
+    "model": "PATH_REGIME",
+    "horizon": 21,
+    "cohort": "later",
+    "fold": "2026-07",
+    "cutoff": "2026-06-30",
+    "status": "ok",
+    "n": 23,
+    "last_endpoint": "2026-06-29",
+    "ar_last_observation": "2026-06-29",
+    "ar_intercept": -7.124705153174705e-06,
+    "ar_coefficients": [
+      -0.009693747363012232,
+      0.009186004717562793
+    ],
+    "block_count": 252
+  },
+  {
+    "model": "PATH_AR_REGIME",
+    "horizon": 21,
+    "cohort": "later",
+    "fold": "2026-07",
+    "cutoff": "2026-06-30",
+    "status": "ok",
+    "n": 23,
+    "last_endpoint": "2026-06-29",
+    "ar_last_observation": "2026-06-29",
+    "ar_intercept": -7.124705153174705e-06,
+    "ar_coefficients": [
+      -0.009693747363012232,
+      0.009186004717562793
+    ],
+    "block_count": 252
+  },
+  {
+    "model": "PATH_EMPIRICAL",
+    "horizon": 21,
+    "cohort": "later",
+    "fold": "2026-08",
+    "cutoff": "2026-07-31",
+    "status": "ok",
+    "n": 21,
+    "last_endpoint": "2026-07-30",
+    "ar_last_observation": "2026-07-30",
+    "ar_intercept": 3.327365602924631e-05,
+    "ar_coefficients": [
+      -0.008015540412248121,
+      0.003969319648202826
+    ],
+    "block_count": 252
+  },
+  {
+    "model": "PATH_REGIME",
+    "horizon": 21,
+    "cohort": "later",
+    "fold": "2026-08",
+    "cutoff": "2026-07-31",
+    "status": "ok",
+    "n": 21,
+    "last_endpoint": "2026-07-30",
+    "ar_last_observation": "2026-07-30",
+    "ar_intercept": 3.327365602924631e-05,
+    "ar_coefficients": [
+      -0.008015540412248121,
+      0.003969319648202826
+    ],
+    "block_count": 252
+  },
+  {
+    "model": "PATH_AR_REGIME",
+    "horizon": 21,
+    "cohort": "later",
+    "fold": "2026-08",
+    "cutoff": "2026-07-31",
+    "status": "ok",
+    "n": 21,
+    "last_endpoint": "2026-07-30",
+    "ar_last_observation": "2026-07-30",
+    "ar_intercept": 3.327365602924631e-05,
+    "ar_coefficients": [
+      -0.008015540412248121,
+      0.003969319648202826
+    ],
+    "block_count": 252
+  },
+  {
+    "model": "PATH_EMPIRICAL",
+    "horizon": 21,
+    "cohort": "later",
+    "fold": "2026-09",
+    "cutoff": "2026-08-31",
+    "status": "ok",
+    "n": 21,
+    "last_endpoint": "2026-08-28",
+    "ar_last_observation": "2026-08-28",
+    "ar_intercept": 1.7052429162426203e-05,
+    "ar_coefficients": [
+      -0.008759579076958431,
+      0.00434614196779918
+    ],
+    "block_count": 252
+  },
+  {
+    "model": "PATH_REGIME",
+    "horizon": 21,
+    "cohort": "later",
+    "fold": "2026-09",
+    "cutoff": "2026-08-31",
+    "status": "ok",
+    "n": 21,
+    "last_endpoint": "2026-08-28",
+    "ar_last_observation": "2026-08-28",
+    "ar_intercept": 1.7052429162426203e-05,
+    "ar_coefficients": [
+      -0.008759579076958431,
+      0.00434614196779918
+    ],
+    "block_count": 252
+  },
+  {
+    "model": "PATH_AR_REGIME",
+    "horizon": 21,
+    "cohort": "later",
+    "fold": "2026-09",
+    "cutoff": "2026-08-31",
+    "status": "ok",
+    "n": 21,
+    "last_endpoint": "2026-08-28",
+    "ar_last_observation": "2026-08-28",
+    "ar_intercept": 1.7052429162426203e-05,
+    "ar_coefficients": [
+      -0.008759579076958431,
+      0.00434614196779918
+    ],
+    "block_count": 252
+  },
+  {
+    "model": "PATH_EMPIRICAL",
+    "horizon": 21,
+    "cohort": "later",
+    "fold": "2026-10",
+    "cutoff": "2026-09-30",
+    "status": "ok",
+    "n": 11,
+    "last_endpoint": "2026-09-29",
+    "ar_last_observation": "2026-09-29",
+    "ar_intercept": -0.00012912133409601878,
+    "ar_coefficients": [
+      -0.010347128089879736,
+      0.010581933358383252
+    ],
+    "block_count": 252
+  },
+  {
+    "model": "PATH_REGIME",
+    "horizon": 21,
+    "cohort": "later",
+    "fold": "2026-10",
+    "cutoff": "2026-09-30",
+    "status": "ok",
+    "n": 11,
+    "last_endpoint": "2026-09-29",
+    "ar_last_observation": "2026-09-29",
+    "ar_intercept": -0.00012912133409601878,
+    "ar_coefficients": [
+      -0.010347128089879736,
+      0.010581933358383252
+    ],
+    "block_count": 252
+  },
+  {
+    "model": "PATH_AR_REGIME",
+    "horizon": 21,
+    "cohort": "later",
+    "fold": "2026-10",
+    "cutoff": "2026-09-30",
+    "status": "ok",
+    "n": 11,
+    "last_endpoint": "2026-09-29",
+    "ar_last_observation": "2026-09-29",
+    "ar_intercept": -0.00012912133409601878,
+    "ar_coefficients": [
+      -0.010347128089879736,
+      0.010581933358383252
+    ],
+    "block_count": 252
+  }
+]

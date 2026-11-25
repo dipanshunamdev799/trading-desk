@@ -1,0 +1,370 @@
+[
+  {
+    "horizon": 21,
+    "fold": "2026-07",
+    "model": "M_RISK_PANEL",
+    "status": "ok",
+    "cutoff": "2026-06-30",
+    "last_endpoint": "2026-06-29",
+    "panel_rows": 2556,
+    "panel_dates": 284,
+    "artifact": "artifacts\\nifty_forecast_v6\\2026-11-19\\run-001\\models\\h21-2026-07-M_RISK_PANEL.joblib",
+    "sha256": "7d6408c33617269dbbcc896cc71d801c54c74ade980a559c65bc52335e5f855e"
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-08",
+    "model": "M_RISK_PANEL",
+    "status": "ok",
+    "cutoff": "2026-07-31",
+    "last_endpoint": "2026-07-30",
+    "panel_rows": 2763,
+    "panel_dates": 307,
+    "artifact": "artifacts\\nifty_forecast_v6\\2026-11-19\\run-001\\models\\h21-2026-08-M_RISK_PANEL.joblib",
+    "sha256": "c30b96efc28228657283e1ebd261cc660dd46ba0bf54335020655935b6f3b608"
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-09",
+    "model": "M_RISK_PANEL",
+    "status": "ok",
+    "cutoff": "2026-08-31",
+    "last_endpoint": "2026-08-28",
+    "panel_rows": 2952,
+    "panel_dates": 328,
+    "artifact": "artifacts\\nifty_forecast_v6\\2026-11-19\\run-001\\models\\h21-2026-09-M_RISK_PANEL.joblib",
+    "sha256": "f5763bb1b4801f8e85c5c1514dfe4e5614b65b628508776a6486caf14a71182c"
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-10",
+    "model": "M_RISK_PANEL",
+    "status": "ok",
+    "cutoff": "2026-09-30",
+    "last_endpoint": "2026-09-29",
+    "panel_rows": 3141,
+    "panel_dates": 349,
+    "artifact": "artifacts\\nifty_forecast_v6\\2026-11-19\\run-001\\models\\h21-2026-10-M_RISK_PANEL.joblib",
+    "sha256": "72420cfe790019408c2564ebf7b0fad0f816d2bc642778e12ae11b4aace31263"
+  },
+  {
+    "horizon": 10,
+    "fold": "2026-07",
+    "model": "R_I03",
+    "status": "ok",
+    "cutoff": "2026-06-30",
+    "last_endpoint": "2026-06-29",
+    "artifact": "artifacts\\nifty_forecast_v6\\2026-11-19\\run-001\\models\\intermediate-h10-2026-07-R_I03.joblib",
+    "sha256": "f5fe3e94eb802316bb8fa33cce2a4c3dee97ed41e5829b03ae2ec852175f4c21"
+  },
+  {
+    "horizon": 10,
+    "fold": "2026-07",
+    "model": "H_DYNAMIC_CORE",
+    "status": "ok",
+    "cutoff": "2026-06-30",
+    "last_endpoint": "2026-06-29",
+    "artifact": "artifacts\\nifty_forecast_v6\\2026-11-19\\run-001\\models\\intermediate-h10-2026-07-H_DYNAMIC_CORE.joblib",
+    "sha256": "89e57fcc9e6242646e12487d0a99f8ceda7fc26ef0640c186097962e3a4eb83d"
+  },
+  {
+    "horizon": 10,
+    "fold": "2026-07",
+    "model": "A_STUDENT",
+    "status": "ok",
+    "cutoff": "2026-06-30",
+    "last_endpoint": "2026-06-29",
+    "artifact": "artifacts\\nifty_forecast_v6\\2026-11-19\\run-001\\models\\intermediate-h10-2026-07-A_STUDENT.joblib",
+    "sha256": "22d506b8c1ac003cb48063b9c2fe424823d35222f54bc48ab085299b792ceb3b"
+  },
+  {
+    "horizon": 10,
+    "fold": "2026-07",
+    "model": "R_L01",
+    "status": "ok",
+    "cutoff": "2026-06-30",
+    "last_endpoint": "2026-06-29",
+    "artifact": "artifacts\\nifty_forecast_v6\\2026-11-19\\run-001\\models\\intermediate-h10-2026-07-R_L01.joblib",
+    "sha256": "f04096769fb76142447bd79765b95f9541ceb9a5237034ff41c8c9b444793cd6"
+  },
+  {
+    "horizon": 10,
+    "fold": "2026-08",
+    "model": "R_I03",
+    "status": "ok",
+    "cutoff": "2026-07-31",
+    "last_endpoint": "2026-07-30",
+    "artifact": "artifacts\\nifty_forecast_v6\\2026-11-19\\run-001\\models\\intermediate-h10-2026-08-R_I03.joblib",
+    "sha256": "cbc1f1684c06d447605e57eac8152796559e4288096e5edb949ea0711fccae3a"
+  },
+  {
+    "horizon": 10,
+    "fold": "2026-08",
+    "model": "H_DYNAMIC_CORE",
+    "status": "ok",
+    "cutoff": "2026-07-31",
+    "last_endpoint": "2026-07-30",
+    "artifact": "artifacts\\nifty_forecast_v6\\2026-11-19\\run-001\\models\\intermediate-h10-2026-08-H_DYNAMIC_CORE.joblib",
+    "sha256": "2a2e44f9f4fb51610b566edd0db01a9dc473cf8da60d12504bd9ab434391fef9"
+  },
+  {
+    "horizon": 10,
+    "fold": "2026-08",
+    "model": "A_STUDENT",
+    "status": "ok",
+    "cutoff": "2026-07-31",
+    "last_endpoint": "2026-07-30",
+    "artifact": "artifacts\\nifty_forecast_v6\\2026-11-19\\run-001\\models\\intermediate-h10-2026-08-A_STUDENT.joblib",
+    "sha256": "da1fa58ae8a857d58ce9da5121a7b2a883c91b8123fe51fe9bc9094db179d3c3"
+  },
+  {
+    "horizon": 10,
+    "fold": "2026-08",
+    "model": "R_L01",
+    "status": "ok",
+    "cutoff": "2026-07-31",
+    "last_endpoint": "2026-07-30",
+    "artifact": "artifacts\\nifty_forecast_v6\\2026-11-19\\run-001\\models\\intermediate-h10-2026-08-R_L01.joblib",
+    "sha256": "2f784ff793fd9398bdd0586e9859011e786807ef08df6ac3c9f8b5e6c55c3221"
+  },
+  {
+    "horizon": 10,
+    "fold": "2026-09",
+    "model": "R_I03",
+    "status": "ok",
+    "cutoff": "2026-08-31",
+    "last_endpoint": "2026-08-28",
+    "artifact": "artifacts\\nifty_forecast_v6\\2026-11-19\\run-001\\models\\intermediate-h10-2026-09-R_I03.joblib",
+    "sha256": "d0f48db23a591e8dc046d565f4be040713391347aa7dbf7f446285693c511daa"
+  },
+  {
+    "horizon": 10,
+    "fold": "2026-09",
+    "model": "H_DYNAMIC_CORE",
+    "status": "ok",
+    "cutoff": "2026-08-31",
+    "last_endpoint": "2026-08-28",
+    "artifact": "artifacts\\nifty_forecast_v6\\2026-11-19\\run-001\\models\\intermediate-h10-2026-09-H_DYNAMIC_CORE.joblib",
+    "sha256": "8b9d31cfd7cd7b7d530511e58d4c189e7a520e0dd6670b99bb83d7f2fd8d581a"
+  },
+  {
+    "horizon": 10,
+    "fold": "2026-09",
+    "model": "A_STUDENT",
+    "status": "ok",
+    "cutoff": "2026-08-31",
+    "last_endpoint": "2026-08-28",
+    "artifact": "artifacts\\nifty_forecast_v6\\2026-11-19\\run-001\\models\\intermediate-h10-2026-09-A_STUDENT.joblib",
+    "sha256": "1b311828d8da115f77ea02be6e873d3afd16f1846121ab2925583bab151d1cec"
+  },
+  {
+    "horizon": 10,
+    "fold": "2026-09",
+    "model": "R_L01",
+    "status": "ok",
+    "cutoff": "2026-08-31",
+    "last_endpoint": "2026-08-28",
+    "artifact": "artifacts\\nifty_forecast_v6\\2026-11-19\\run-001\\models\\intermediate-h10-2026-09-R_L01.joblib",
+    "sha256": "ac17c016c7a7720256b0c3897381f5d0d00dcab32b6acd4f03273ac5ad826909"
+  },
+  {
+    "horizon": 10,
+    "fold": "2026-10",
+    "model": "R_I03",
+    "status": "ok",
+    "cutoff": "2026-09-30",
+    "last_endpoint": "2026-09-29",
+    "artifact": "artifacts\\nifty_forecast_v6\\2026-11-19\\run-001\\models\\intermediate-h10-2026-10-R_I03.joblib",
+    "sha256": "63f216ae1aa6372d25a13eda3e3160c67b3ac13138058db904437ba7ce21beed"
+  },
+  {
+    "horizon": 10,
+    "fold": "2026-10",
+    "model": "H_DYNAMIC_CORE",
+    "status": "ok",
+    "cutoff": "2026-09-30",
+    "last_endpoint": "2026-09-29",
+    "artifact": "artifacts\\nifty_forecast_v6\\2026-11-19\\run-001\\models\\intermediate-h10-2026-10-H_DYNAMIC_CORE.joblib",
+    "sha256": "9bcfa33039c3695bd623c0f54b590b4ed45a5bd433af3a54b2450060d7ce03a8"
+  },
+  {
+    "horizon": 10,
+    "fold": "2026-10",
+    "model": "A_STUDENT",
+    "status": "ok",
+    "cutoff": "2026-09-30",
+    "last_endpoint": "2026-09-29",
+    "artifact": "artifacts\\nifty_forecast_v6\\2026-11-19\\run-001\\models\\intermediate-h10-2026-10-A_STUDENT.joblib",
+    "sha256": "50f949443f956abcf9e96869275f8fc6099a8b5ccc98694a93a08a2756c36303"
+  },
+  {
+    "horizon": 10,
+    "fold": "2026-10",
+    "model": "R_L01",
+    "status": "ok",
+    "cutoff": "2026-09-30",
+    "last_endpoint": "2026-09-29",
+    "artifact": "artifacts\\nifty_forecast_v6\\2026-11-19\\run-001\\models\\intermediate-h10-2026-10-R_L01.joblib",
+    "sha256": "a9b1479f83e56a887740b367ccbeb5851004b0278d694709de3fef46c4ba8bf6"
+  },
+  {
+    "horizon": 15,
+    "fold": "2026-07",
+    "model": "R_I03",
+    "status": "ok",
+    "cutoff": "2026-06-30",
+    "last_endpoint": "2026-06-29",
+    "artifact": "artifacts\\nifty_forecast_v6\\2026-11-19\\run-001\\models\\intermediate-h15-2026-07-R_I03.joblib",
+    "sha256": "9a09ee5f54ec325021c7a6a2b4bbc06f0a66a6d4d9c7f2b6b102876760338701"
+  },
+  {
+    "horizon": 15,
+    "fold": "2026-07",
+    "model": "H_DYNAMIC_CORE",
+    "status": "ok",
+    "cutoff": "2026-06-30",
+    "last_endpoint": "2026-06-29",
+    "artifact": "artifacts\\nifty_forecast_v6\\2026-11-19\\run-001\\models\\intermediate-h15-2026-07-H_DYNAMIC_CORE.joblib",
+    "sha256": "0bff97841f0421b7ed603dfb7faf509e4d10d04fbab714a41c6adb1adecc41fa"
+  },
+  {
+    "horizon": 15,
+    "fold": "2026-07",
+    "model": "A_STUDENT",
+    "status": "ok",
+    "cutoff": "2026-06-30",
+    "last_endpoint": "2026-06-29",
+    "artifact": "artifacts\\nifty_forecast_v6\\2026-11-19\\run-001\\models\\intermediate-h15-2026-07-A_STUDENT.joblib",
+    "sha256": "279bc759956dcfb2cb514d97b45984f2396e215bc915b35e4a67d21bb3496789"
+  },
+  {
+    "horizon": 15,
+    "fold": "2026-07",
+    "model": "R_L01",
+    "status": "ok",
+    "cutoff": "2026-06-30",
+    "last_endpoint": "2026-06-29",
+    "artifact": "artifacts\\nifty_forecast_v6\\2026-11-19\\run-001\\models\\intermediate-h15-2026-07-R_L01.joblib",
+    "sha256": "7c77e5e1415048840eca2c5021c615e1a94cacb0d1a1560706f1694b1d1c29f5"
+  },
+  {
+    "horizon": 15,
+    "fold": "2026-08",
+    "model": "R_I03",
+    "status": "ok",
+    "cutoff": "2026-07-31",
+    "last_endpoint": "2026-07-30",
+    "artifact": "artifacts\\nifty_forecast_v6\\2026-11-19\\run-001\\models\\intermediate-h15-2026-08-R_I03.joblib",
+    "sha256": "747af624d5f85249eac3d278865974e66f3ee3dc6c336c96c9c2806b21107202"
+  },
+  {
+    "horizon": 15,
+    "fold": "2026-08",
+    "model": "H_DYNAMIC_CORE",
+    "status": "ok",
+    "cutoff": "2026-07-31",
+    "last_endpoint": "2026-07-30",
+    "artifact": "artifacts\\nifty_forecast_v6\\2026-11-19\\run-001\\models\\intermediate-h15-2026-08-H_DYNAMIC_CORE.joblib",
+    "sha256": "50729206c5e494679f8294bab7e9f57eb02f41d733a96db3d581fc4879d0fd40"
+  },
+  {
+    "horizon": 15,
+    "fold": "2026-08",
+    "model": "A_STUDENT",
+    "status": "ok",
+    "cutoff": "2026-07-31",
+    "last_endpoint": "2026-07-30",
+    "artifact": "artifacts\\nifty_forecast_v6\\2026-11-19\\run-001\\models\\intermediate-h15-2026-08-A_STUDENT.joblib",
+    "sha256": "9de8cf3d7932fdb5777db2c9c0b38973887d923ae30d1c820f326d17e6519c34"
+  },
+  {
+    "horizon": 15,
+    "fold": "2026-08",
+    "model": "R_L01",
+    "status": "ok",
+    "cutoff": "2026-07-31",
+    "last_endpoint": "2026-07-30",
+    "artifact": "artifacts\\nifty_forecast_v6\\2026-11-19\\run-001\\models\\intermediate-h15-2026-08-R_L01.joblib",
+    "sha256": "4304bd018f0b43a8436dcd13d3da9dc4c1f6b4f277411ed0c7686366fb2299ce"
+  },
+  {
+    "horizon": 15,
+    "fold": "2026-09",
+    "model": "R_I03",
+    "status": "ok",
+    "cutoff": "2026-08-31",
+    "last_endpoint": "2026-08-28",
+    "artifact": "artifacts\\nifty_forecast_v6\\2026-11-19\\run-001\\models\\intermediate-h15-2026-09-R_I03.joblib",
+    "sha256": "cb2cffd9610253bb65871c92dc74f042b66fb4eb832903e1bd47f3ae60ef42ca"
+  },
+  {
+    "horizon": 15,
+    "fold": "2026-09",
+    "model": "H_DYNAMIC_CORE",
+    "status": "ok",
+    "cutoff": "2026-08-31",
+    "last_endpoint": "2026-08-28",
+    "artifact": "artifacts\\nifty_forecast_v6\\2026-11-19\\run-001\\models\\intermediate-h15-2026-09-H_DYNAMIC_CORE.joblib",
+    "sha256": "a8ce36ce66cd35905bcc21d3efc94990bd6f311b7cfe4ae071afd16333fad469"
+  },
+  {
+    "horizon": 15,
+    "fold": "2026-09",
+    "model": "A_STUDENT",
+    "status": "ok",
+    "cutoff": "2026-08-31",
+    "last_endpoint": "2026-08-28",
+    "artifact": "artifacts\\nifty_forecast_v6\\2026-11-19\\run-001\\models\\intermediate-h15-2026-09-A_STUDENT.joblib",
+    "sha256": "eeeef9fd1a02535761dd618791ddf8827eecf1d2b40cefa54807414a3bf07527"
+  },
+  {
+    "horizon": 15,
+    "fold": "2026-09",
+    "model": "R_L01",
+    "status": "ok",
+    "cutoff": "2026-08-31",
+    "last_endpoint": "2026-08-28",
+    "artifact": "artifacts\\nifty_forecast_v6\\2026-11-19\\run-001\\models\\intermediate-h15-2026-09-R_L01.joblib",
+    "sha256": "fd9d4453829a6e5945a74de69fa358ec81bf5431a0dc2bfd1dcb5480776fcdc1"
+  },
+  {
+    "horizon": 15,
+    "fold": "2026-10",
+    "model": "R_I03",
+    "status": "ok",
+    "cutoff": "2026-09-30",
+    "last_endpoint": "2026-09-29",
+    "artifact": "artifacts\\nifty_forecast_v6\\2026-11-19\\run-001\\models\\intermediate-h15-2026-10-R_I03.joblib",
+    "sha256": "670f519811ea0debce1efbd1d61222ec04ca9df81a6115ddfa1de33ef39e7636"
+  },
+  {
+    "horizon": 15,
+    "fold": "2026-10",
+    "model": "H_DYNAMIC_CORE",
+    "status": "ok",
+    "cutoff": "2026-09-30",
+    "last_endpoint": "2026-09-29",
+    "artifact": "artifacts\\nifty_forecast_v6\\2026-11-19\\run-001\\models\\intermediate-h15-2026-10-H_DYNAMIC_CORE.joblib",
+    "sha256": "2902f289c0cbc16edd875452b24a5c09bd5e4cc4ecb30d43077aae4cdc675436"
+  },
+  {
+    "horizon": 15,
+    "fold": "2026-10",
+    "model": "A_STUDENT",
+    "status": "ok",
+    "cutoff": "2026-09-30",
+    "last_endpoint": "2026-09-29",
+    "artifact": "artifacts\\nifty_forecast_v6\\2026-11-19\\run-001\\models\\intermediate-h15-2026-10-A_STUDENT.joblib",
+    "sha256": "23906961c667506e9adf84e114c0ddacdf19ddd42344845f9e8ce6b6d815e232"
+  },
+  {
+    "horizon": 15,
+    "fold": "2026-10",
+    "model": "R_L01",
+    "status": "ok",
+    "cutoff": "2026-09-30",
+    "last_endpoint": "2026-09-29",
+    "artifact": "artifacts\\nifty_forecast_v6\\2026-11-19\\run-001\\models\\intermediate-h15-2026-10-R_L01.joblib",
+    "sha256": "a86bdd610ec0b5650229fc110f7934671608e794a21d587550646e1c6e6da9b5"
+  }
+]

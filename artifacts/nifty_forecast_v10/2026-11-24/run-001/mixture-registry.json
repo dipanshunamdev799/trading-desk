@@ -1,0 +1,74 @@
+{
+  "registered_at": "2026-11-24T14:02:16.301527+05:30",
+  "code_hash": "265d7f1b17d4e014fab154a53c54e99969548aab50880ce75595e23fdfa5a82a",
+  "configurations": {
+    "J10_TARGET_BLEND": {
+      "members": [
+        "T_SIGNMAG",
+        "T_VOL_STUDENT"
+      ],
+      "weights": [
+        0.5,
+        0.5
+      ],
+      "parent": "T_VOL_STUDENT",
+      "hypothesis": "Fixed complete-law mixture; adaptive wave registered after main families"
+    },
+    "J10_STRUCTURAL_BLEND": {
+      "members": [
+        "BASE_ROTATION",
+        "S_ELASTIC",
+        "T_VOL_STUDENT"
+      ],
+      "weights": [
+        0.4,
+        0.3,
+        0.3
+      ],
+      "parent": "BASE_ROTATION",
+      "hypothesis": "Fixed complete-law mixture; adaptive wave registered after main families"
+    },
+    "J10_HISTORY_SHRINK": {
+      "members": [
+        "BASE_ROTATION",
+        "S_ELASTIC",
+        "T_VOL_STUDENT",
+        "HISTORY"
+      ],
+      "weights": [
+        0.2,
+        0.15,
+        0.15,
+        0.5
+      ],
+      "parent": "J10_STRUCTURAL_BLEND",
+      "hypothesis": "Fixed complete-law mixture; adaptive wave registered after main families"
+    },
+    "J10_SMALL_BLEND": {
+      "members": [
+        "C85_SPREAD",
+        "T_SIGNMAG",
+        "HISTORY"
+      ],
+      "weights": [
+        0.45,
+        0.35,
+        0.2
+      ],
+      "parent": "C85_SPREAD",
+      "hypothesis": "Fixed complete-law mixture; adaptive wave registered after main families"
+    },
+    "J10_TRANSFER_BLEND": {
+      "members": [
+        "X_ADAPT",
+        "T_VOL_STUDENT"
+      ],
+      "weights": [
+        0.5,
+        0.5
+      ],
+      "parent": "X_ADAPT",
+      "hypothesis": "Fixed complete-law mixture; adaptive wave registered after main families"
+    }
+  }
+}

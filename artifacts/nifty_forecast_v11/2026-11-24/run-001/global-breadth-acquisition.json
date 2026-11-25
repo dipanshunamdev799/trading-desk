@@ -1,0 +1,42 @@
+[
+  {
+    "ticker": "RSP",
+    "url": "https://api.nasdaq.com/api/quote/RSP/historical?assetclass=etf&fromdate=2025-01-01&todate=2026-11-17&limit=600",
+    "received": "2026-11-24T14:38:49.013740+05:30",
+    "http": 200,
+    "bytes": 51243,
+    "official": "https://www.nasdaq.com/market-activity/etf/rsp/historical",
+    "admitted": false,
+    "rows": 471
+  },
+  {
+    "ticker": "SPY",
+    "url": "https://api.nasdaq.com/api/quote/SPY/historical?assetclass=etf&fromdate=2025-01-01&todate=2026-11-17&limit=600",
+    "received": "2026-11-24T14:38:49.469988+05:30",
+    "http": 200,
+    "bytes": 51354,
+    "official": "https://www.nasdaq.com/market-activity/etf/spy/historical",
+    "admitted": false,
+    "rows": 471
+  },
+  {
+    "ticker": "XLF",
+    "url": "https://api.nasdaq.com/api/quote/XLF/historical?assetclass=etf&fromdate=2025-01-01&todate=2026-11-17&limit=600",
+    "received": "2026-11-24T14:38:50.019934+05:30",
+    "http": 200,
+    "bytes": 49617,
+    "official": "https://www.nasdaq.com/market-activity/etf/xlf/historical",
+    "admitted": false,
+    "rows": 471
+  },
+  {
+    "ticker": "XLK",
+    "url": "https://api.nasdaq.com/api/quote/XLK/historical?assetclass=etf&fromdate=2025-01-01&todate=2026-11-17&limit=600",
+    "received": "2026-11-24T14:38:50.506747+05:30",
+    "http": 200,
+    "bytes": 51594,
+    "official": "https://www.nasdaq.com/market-activity/etf/xlk/historical",
+    "admitted": false,
+    "rows": 471
+  }
+]

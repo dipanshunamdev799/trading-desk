@@ -1,0 +1,101 @@
+{
+  "completed_at": "2026-11-20T20:43:56.667132+05:30",
+  "passed": true,
+  "checks": [
+    {
+      "name": "all 6040 prior V1\u2013V5 files unchanged",
+      "passed": true
+    },
+    {
+      "name": "exact named V5/V4 reconstruction",
+      "passed": true
+    },
+    {
+      "name": "336 prequential outer parent forecasts exactly reconstructed",
+      "passed": true
+    },
+    {
+      "name": "frozen dataset hashes",
+      "passed": true
+    },
+    {
+      "name": "403 native origins and 57 reference inputs",
+      "passed": true
+    },
+    {
+      "name": "2025\u20132026 feature/label scope",
+      "passed": true
+    },
+    {
+      "name": "all six horizon endpoints and return labels",
+      "passed": true
+    },
+    {
+      "name": "every fitted batch has mature/purged training labels",
+      "passed": true
+    },
+    {
+      "name": "model hashes match recorded ledgers",
+      "passed": true
+    },
+    {
+      "name": "oracle aliases, unavailable features, unmatured endpoints and pre2025 data rejected",
+      "passed": true
+    },
+    {
+      "name": "mutating future source prices leaves past native/evolution features unchanged",
+      "passed": true
+    },
+    {
+      "name": "all 964 parent laws have coherent probabilities and means",
+      "passed": true
+    },
+    {
+      "name": "coherent mixture weights learned only from resolved past forecasts",
+      "passed": true
+    },
+    {
+      "name": "weighted CRPS and cross-distribution distance match brute-force formulas",
+      "passed": true
+    },
+    {
+      "name": "all 11164 primary outputs have unique aligned targets and nested interval widths",
+      "passed": true
+    },
+    {
+      "name": "all complete endpoint laws recovered coherently; ordered quantiles; path risks not invented",
+      "passed": true
+    },
+    {
+      "name": "matched search families and withheld monthly confidence intervals",
+      "passed": true
+    },
+    {
+      "name": "exact source versions archived for original fitted batches",
+      "passed": true
+    },
+    {
+      "name": "six non-estimable fits and failed monthly mechanism retained",
+      "passed": true
+    },
+    {
+      "name": "10/15-session diagnostics preserve the same 76 origins",
+      "passed": true
+    },
+    {
+      "name": "fresh-folder full numerical replay",
+      "passed": true
+    },
+    {
+      "name": "all thirteen reports delivered",
+      "passed": true
+    },
+    {
+      "name": "report and root-index hashes match the delivery manifest",
+      "passed": true
+    }
+  ],
+  "require_replay": true,
+  "require_reports": true,
+  "prior_file_count": 6040
+}

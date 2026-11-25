@@ -1,0 +1,340 @@
+{
+  "checked_at": "2026-11-15T18:34:29.431508+00:00",
+  "files": {
+    "artifacts\\intraday_momentum_v3\\archive-coverage.csv": {
+      "sha256": "6ef3d940c93d5a18a8ad241cb6bbe44224d8b184ba8abf933e61cae07e7b4934",
+      "bytes": 664111
+    },
+    "artifacts\\intraday_momentum_v3\\archive-depth-type-sample.csv": {
+      "sha256": "7f49cef08e6ca4fb1b6f092ce97b363243ad5d2d94527c62393a35788761f5c5",
+      "bytes": 122035
+    },
+    "artifacts\\intraday_momentum_v3\\archive-inventory.json": {
+      "sha256": "c0a0439c17a7775cc22ff6c577a04785626c9218a49c6cf00f1f1ad903e643c0",
+      "bytes": 1143
+    },
+    "artifacts\\intraday_momentum_v3\\archive-quality.png": {
+      "sha256": "f5a6e60f328d30b34052da47e348159ea47a6fcf0e06a0fabef67bbcb94ec552",
+      "bytes": 137157
+    },
+    "artifacts\\intraday_momentum_v3\\auth-audit.json": {
+      "sha256": "d2b0307722fd6e78a139d7b5993147f39c3feb6a6f1046345ba89820b9287c7a",
+      "bytes": 1123
+    },
+    "artifacts\\intraday_momentum_v3\\calibration-status.json": {
+      "sha256": "755d456d3c5d15fb591e24f7971b508f8b4dea3c607a2d4c3076be5f51beb6f3",
+      "bytes": 90
+    },
+    "artifacts\\intraday_momentum_v3\\detailed-quality.csv": {
+      "sha256": "5f929710ae63313439e1e7b245d1ca492a52c485b7a319e0fcacf03df91f7475",
+      "bytes": 9749
+    },
+    "artifacts\\intraday_momentum_v3\\detailed-quality.json": {
+      "sha256": "6cda8fa27fedb172f730d7345738a14fa0f79389c3758065fe9bac91bfa9c197",
+      "bytes": 75548
+    },
+    "artifacts\\intraday_momentum_v3\\evaluation-status.json": {
+      "sha256": "c724683110e558579939a89ab32ed2246bda8ceb7d0925c7a4f9add05a6bc2e6",
+      "bytes": 400
+    },
+    "artifacts\\intraday_momentum_v3\\figure-provenance.json": {
+      "sha256": "fac86f56a61d536131d41e1e2f6d76d0c0e1ebc5bd90719cb80e3127a374a797",
+      "bytes": 386
+    },
+    "artifacts\\intraday_momentum_v3\\forward-readiness.json": {
+      "sha256": "7f4aff61852641ebd8054d6266fd7c22fd87e611e8299af1ea77c4119bf029d5",
+      "bytes": 727
+    },
+    "artifacts\\intraday_momentum_v3\\metadata-audit.json": {
+      "sha256": "a68ee0aa680a7bd8b96e27bccc9913970cfec708528d6611948b9a3c7536cd31",
+      "bytes": 2256
+    },
+    "artifacts\\intraday_momentum_v3\\metadata-reconciliation.csv": {
+      "sha256": "c6983d627799fec4ea4ef85cc47f5a10ac54c9ecfba88a83c67caa6bd0d7c4ec",
+      "bytes": 366132
+    },
+    "artifacts\\intraday_momentum_v3\\metadata-reconciliation.json": {
+      "sha256": "4b9800507447997a960ba6c80f6400eb473c29da7224e17b0ae6e75bac9ea9ce",
+      "bytes": 1338516
+    },
+    "artifacts\\intraday_momentum_v3\\model-status.json": {
+      "sha256": "fd0886e6669ac4fd691d1d91222b38221d36781e632bc83e7299595630f9493e",
+      "bytes": 128
+    },
+    "artifacts\\intraday_momentum_v3\\observer-health.json": {
+      "sha256": "853a24c2d940cfe642ffaf6d611859497b769e4b4bc16ebbe85570e3c2f52027",
+      "bytes": 843
+    },
+    "artifacts\\intraday_momentum_v3\\pre-forward-amendment.json": {
+      "sha256": "93f1f3aed690f730c4a99448d416cf35299a568a59d0db71faf78b364c81f4a1",
+      "bytes": 447
+    },
+    "artifacts\\intraday_momentum_v3\\protocol-frozen.json": {
+      "sha256": "bbc03c6af68940fc0e6bff7dfdd7329cfa10fa55b4da7b2e85910fd10729b6aa",
+      "bytes": 2703
+    },
+    "artifacts\\intraday_momentum_v3\\quality-selection.json": {
+      "sha256": "c253263684869511b193770a99ba66f87fa4f994c893f8798dcf0d80638425cd",
+      "bytes": 1910
+    },
+    "artifacts\\intraday_momentum_v3\\source-provenance.json": {
+      "sha256": "ca7608dc0e824503b1bd2bad8cb64eeb0a768c9ea1199fad13fbbe1350cd8c82",
+      "bytes": 2791
+    },
+    "artifacts\\intraday_momentum_v3\\test-output.json": {
+      "sha256": "1f2d57f333bac595da89f6eb617782eb7340f710d78a7f49f0c3d0b08518616c",
+      "bytes": 257
+    },
+    "artifacts\\intraday_momentum_v3\\universe-archive-comparison.json": {
+      "sha256": "2d52ab4e7204d62e955a004e6ffc6a82d8c4d6ddf21d6645030c1be9b5b2f46e",
+      "bytes": 266
+    },
+    "artifacts\\intraday_momentum_v3\\universe-current.json": {
+      "sha256": "1297abd59bf446522c4956f5245835a736be3509c73e5b19448e04be50a969a6",
+      "bytes": 390641
+    },
+    "artifacts\\intraday_momentum_v3\\universe-dispositions.json": {
+      "sha256": "a0c8d969f74b212bd16b78d4f7cb389efbb2ae6a0e6946c0549a51bd229ba654",
+      "bytes": 190
+    },
+    "artifacts\\intraday_momentum_v3\\verification.json": {
+      "sha256": "daf3275d3eef9c72b4169bd93a531138cd5e1c7830fa102dc304dbc97c0d6aba",
+      "bytes": 4387
+    },
+    "artifacts\\intraday_momentum_v3\\archive-chunks\\_hyper_6_530_chunk.json": {
+      "sha256": "f1088c263feed7b58c9cfa98352a5a494087e45adb4d88e59311e98874334e04",
+      "bytes": 776200
+    },
+    "artifacts\\intraday_momentum_v3\\archive-chunks\\_hyper_6_533_chunk.json": {
+      "sha256": "b19c297c904b3d37f7cd623a50a0fe8733627ca527deab48368112b153eb2ca9",
+      "bytes": 800541
+    },
+    "artifacts\\intraday_momentum_v3\\archive-chunks\\_hyper_6_541_chunk.json": {
+      "sha256": "6b245e8f25c8347f4feffea89e911172a376a041457a7a6d7f1dd26a38b179e2",
+      "bytes": 262255
+    },
+    "artifacts\\intraday_momentum_v3\\archive-chunks\\_hyper_6_545_chunk.json": {
+      "sha256": "831f7f3d424a2f90873eb3b5b39520356a0bfdbdc3f69245a7558d069d7b9872",
+      "bytes": 536392
+    },
+    "artifacts\\intraday_momentum_v3\\protocol-versions\\v3-initial-pre-forward.json": {
+      "sha256": "d892415a04078d1487569f300521516c17cb59d7c318a63b61782a67a9785a72",
+      "bytes": 2656
+    },
+    "artifacts\\intraday_momentum_v3\\quality-days\\NSE_EQ_INE002A01018-2026-10-29.json": {
+      "sha256": "c9e45fa38df1f55afd565dae9968256fc6f11386525e8e5b9972223d57e80ac4",
+      "bytes": 4260
+    },
+    "artifacts\\intraday_momentum_v3\\quality-days\\NSE_EQ_INE002A01018-2026-11-13.json": {
+      "sha256": "085d2db6f0e3e454dd4324e6bd1dd904fd1890ee2c7344a407e5509cd397ce6e",
+      "bytes": 4260
+    },
+    "artifacts\\intraday_momentum_v3\\quality-days\\NSE_EQ_INE019A01038-2026-10-29.json": {
+      "sha256": "635a325c94d511d24c953e280b7ba463602eae3c808c54e27b552d890e4ddb98",
+      "bytes": 4045
+    },
+    "artifacts\\intraday_momentum_v3\\quality-days\\NSE_EQ_INE019A01038-2026-11-13.json": {
+      "sha256": "ff8b3ee1b45551ca5320d185fc057ddeef8014b23ed24e2741053234686d3f46",
+      "bytes": 3884
+    },
+    "artifacts\\intraday_momentum_v3\\quality-days\\NSE_EQ_INE040A01034-2026-10-29.json": {
+      "sha256": "307d35c40324ddb031bbf2b44757ad975299491c00b405003fc2bc01d9c58efa",
+      "bytes": 4264
+    },
+    "artifacts\\intraday_momentum_v3\\quality-days\\NSE_EQ_INE040A01034-2026-11-13.json": {
+      "sha256": "17aee9a5f2bb2e8f7a967f2235f6519595b967f46dc5a9647cc81ed4404b7821",
+      "bytes": 4258
+    },
+    "artifacts\\intraday_momentum_v3\\quality-days\\NSE_EQ_INE047A01021-2026-10-29.json": {
+      "sha256": "a48fe4d3d87dafe274d2f20cc60c183d8194814c01e336177afc93f889d94322",
+      "bytes": 3889
+    },
+    "artifacts\\intraday_momentum_v3\\quality-days\\NSE_EQ_INE047A01021-2026-11-13.json": {
+      "sha256": "0f6140918c1938d438f6c81f718371e9c147f9d74082ab1094df641b8efdead7",
+      "bytes": 4073
+    },
+    "artifacts\\intraday_momentum_v3\\quality-days\\NSE_EQ_INE090A01021-2026-10-29.json": {
+      "sha256": "373597a9d50fb2f68e93d0db2ff6ab7028f2f1c270c92aedd04900534a2b46cf",
+      "bytes": 4266
+    },
+    "artifacts\\intraday_momentum_v3\\quality-days\\NSE_EQ_INE090A01021-2026-11-13.json": {
+      "sha256": "dac5a755d6b1d20debc2e0ec8c40901e272f62ef3caf02a7f7eee8d64a604f09",
+      "bytes": 4241
+    },
+    "artifacts\\intraday_momentum_v3\\quality-days\\NSE_EQ_INE118H01025-2026-10-29.json": {
+      "sha256": "5bfdf2a70cee2280f112d93fe0dba02a2e5ed391f593138b4f769a918924d52a",
+      "bytes": 4255
+    },
+    "artifacts\\intraday_momentum_v3\\quality-days\\NSE_EQ_INE118H01025-2026-11-13.json": {
+      "sha256": "f1bad8caa1b04b96cbbc920c520cd264c53cda7105b52ed61ac86e8db1d403d8",
+      "bytes": 4062
+    },
+    "artifacts\\intraday_momentum_v3\\quality-days\\NSE_EQ_INE192A01025-2026-10-29.json": {
+      "sha256": "c9f49e96838a7b599d69adf3750303f491912db87d2a5b660454d8a6a15fa9e0",
+      "bytes": 3856
+    },
+    "artifacts\\intraday_momentum_v3\\quality-days\\NSE_EQ_INE192A01025-2026-11-13.json": {
+      "sha256": "ad7f0fb3fab09ead2e59c9fec0de3ebb8449c88dc52acab59378b305048846e3",
+      "bytes": 3839
+    },
+    "artifacts\\intraday_momentum_v3\\quality-days\\NSE_EQ_INE758T01015-2026-10-29.json": {
+      "sha256": "61a6931694885bf28af5c27cedf691cbd26dad18a34cfa1133e46baada5dc81e",
+      "bytes": 4254
+    },
+    "artifacts\\intraday_momentum_v3\\quality-days\\NSE_EQ_INE758T01015-2026-11-13.json": {
+      "sha256": "8121b1b40831dcb9d2f017f58e229b614574b15bafa07bbad728d7e02e96cdc2",
+      "bytes": 4239
+    },
+    "artifacts\\intraday_momentum_v3\\universes\\2026-11-15.json": {
+      "sha256": "1b0f9146577b692b88b14f5de4a343abafa99be90ab9126b6fab7d12e9c29cfc",
+      "bytes": 390587
+    },
+    "artifacts\\intraday_momentum_v3\\universes\\2026-11-16.json": {
+      "sha256": "1297abd59bf446522c4956f5245835a736be3509c73e5b19448e04be50a969a6",
+      "bytes": 390641
+    },
+    "artifacts\\intraday_momentum_v3\\runs\\20261115-182906\\health.json": {
+      "sha256": "adafdb41dca08f4786f5c3a602dc08cbc42bc3495b773c7464cfd7c7d75446ca",
+      "bytes": 794
+    },
+    "artifacts\\intraday_momentum_v3\\runs\\20261115-182906\\manifest.json": {
+      "sha256": "ea30a9c419f60ea0e91045f64327ec0ddfd65caad47fd613206202a678d4666d",
+      "bytes": 2473
+    },
+    "artifacts\\intraday_momentum_v3\\runs\\20261115-182920\\health.json": {
+      "sha256": "17c987a36916e1b5950833bd2d23aeb5ecc79e03314463482ad8d85be2dd2c70",
+      "bytes": 821
+    },
+    "artifacts\\intraday_momentum_v3\\runs\\20261115-182920\\manifest.json": {
+      "sha256": "03a21fb81b1c852f6d27899757f753ee5055a6f97d5dd5a66b10b3c5e320bdc0",
+      "bytes": 3315
+    },
+    "artifacts\\intraday_momentum_v3\\runs\\20261115-183401\\health.json": {
+      "sha256": "853a24c2d940cfe642ffaf6d611859497b769e4b4bc16ebbe85570e3c2f52027",
+      "bytes": 843
+    },
+    "artifacts\\intraday_momentum_v3\\runs\\20261115-183401\\manifest.json": {
+      "sha256": "07a8caf8220dc0e054ba16a7bcfa40a21ef57a783951b3ac20f253c1b9ba22f4",
+      "bytes": 3342
+    },
+    "research\\intraday_momentum_v3\\archive.py": {
+      "sha256": "970cba6f89902e0c2bf30375f46ae4ef1298fdd7f7b10aebb6c7166355456709",
+      "bytes": 6810
+    },
+    "research\\intraday_momentum_v3\\auth.py": {
+      "sha256": "06c01f3857bc602fd4b4cb4bc6c7c0fd3880d9f71805877d74bafa885048a751",
+      "bytes": 5674
+    },
+    "research\\intraday_momentum_v3\\capture.py": {
+      "sha256": "100c367dde1173e4687f8b1950ed88cf72cb5a8c3afdd8bbf6e9a34a23602e10",
+      "bytes": 20427
+    },
+    "research\\intraday_momentum_v3\\common.py": {
+      "sha256": "e336721d9d91e4d4face14afb69b61c25266f5a9922b8fda895b2f650bfe5eee",
+      "bytes": 1380
+    },
+    "research\\intraday_momentum_v3\\evaluate.py": {
+      "sha256": "f773e8ec1fd1fb2695998943929f1bb2002642926da8b50165205861b8379ec7",
+      "bytes": 7759
+    },
+    "research\\intraday_momentum_v3\\execution.py": {
+      "sha256": "fa78fa6bddb0b360e9ebfc65f2379636f10a4d070ea03fdb8dc7e5cc705370cb",
+      "bytes": 3397
+    },
+    "research\\intraday_momentum_v3\\EXECUTION_COST_MODEL.md": {
+      "sha256": "2ff049e98fb90dff720a087912b84331c991d55b9a7233eeb289306a296bc561",
+      "bytes": 5746
+    },
+    "research\\intraday_momentum_v3\\features.py": {
+      "sha256": "c8a4e67f5a1d5442a7373725d37ae5cd10f2a08c719b756fc15effa83e7347ea",
+      "bytes": 8391
+    },
+    "research\\intraday_momentum_v3\\FORWARD_CAPTURE_STATUS.md": {
+      "sha256": "fb8735108a4387767301e4c50ce629e8c6cbd773b41b06a8de8cd16fd639fe92",
+      "bytes": 4961
+    },
+    "research\\intraday_momentum_v3\\MARKET_DATA_AUDIT.md": {
+      "sha256": "bb14ae280a786a855fd2686a57a44749892bfcdab9f6621b8fcb313d15e24fb8",
+      "bytes": 6652
+    },
+    "research\\intraday_momentum_v3\\metadata.py": {
+      "sha256": "d9241e96076c0a15088891f9bf08dd11ab9501f03a964f75484c4d66041577ef",
+      "bytes": 3962
+    },
+    "research\\intraday_momentum_v3\\model.py": {
+      "sha256": "3f4907895738a7cbfcf5bde3b87e9523b3dcc54bf67bd7d101994bc422f8abba",
+      "bytes": 8480
+    },
+    "research\\intraday_momentum_v3\\ORDER_BOOK_FEATURES.md": {
+      "sha256": "640537e5de9328ea0345ee32bdafed27e0b4dec17e83e218c8bfcb408e0ca589",
+      "bytes": 4976
+    },
+    "research\\intraday_momentum_v3\\plot_audit.py": {
+      "sha256": "fbb2402b97fdb0b759afa4701c25f03686310b39e3c2b68e27346144e5289396",
+      "bytes": 1417
+    },
+    "research\\intraday_momentum_v3\\quality.py": {
+      "sha256": "025e4d931b82662601e8989255b05718ef7207bc3bbedac98d924703b14e2391",
+      "bytes": 6746
+    },
+    "research\\intraday_momentum_v3\\readiness.py": {
+      "sha256": "95207672b8ddf21e9213f0892e0464f80dda3280ed0ef719aaa4db9bf6b9213b",
+      "bytes": 4995
+    },
+    "research\\intraday_momentum_v3\\README.md": {
+      "sha256": "a389e7edf2b71da7a01e86b50361a5338f3c6959fbd9a1b55452af661e9de906",
+      "bytes": 3429
+    },
+    "research\\intraday_momentum_v3\\shadow.py": {
+      "sha256": "487b40aa5f34e43952d1305714f2e7daf89d8c4df3573b19ca5544c361778ae3",
+      "bytes": 20288
+    },
+    "research\\intraday_momentum_v3\\SHADOW_SIGNAL_PROTOCOL.md": {
+      "sha256": "4e224ec9626d409916029ebfce7abc0b77ecca1371d852722a1a778e3d0f9de0",
+      "bytes": 9080
+    },
+    "research\\intraday_momentum_v3\\universe.py": {
+      "sha256": "138a1749f5d3f4db40411d776448ac12f10de654228d7813e15936b9b9788c1b",
+      "bytes": 6095
+    },
+    "research\\intraday_momentum_v3\\UNIVERSE_AND_SCANNER.md": {
+      "sha256": "9bb4b9a01796c773be761f6ce681cd173cd8f4dc556071657ad2979640eead48",
+      "bytes": 4265
+    },
+    "research\\intraday_momentum_v3\\V3_FINDINGS.md": {
+      "sha256": "c33316664f2821ce72735f5a65fe3e3569ac326f35eb0639ecfcb18ed25ecb1b",
+      "bytes": 5393
+    },
+    "research\\intraday_momentum_v3\\V3_RESEARCH_PLAN.md": {
+      "sha256": "563e7cb0195bafb4bdbf16093456a9b537054d13def3e3d63a076c753043c9a6",
+      "bytes": 6270
+    },
+    "research\\intraday_momentum_v3\\verify.py": {
+      "sha256": "b015dced1eff54e772419500b77c604937a494eedd8f5966ac5a4e09881d85f1",
+      "bytes": 4602
+    },
+    "research\\intraday_momentum_v3\\__init__.py": {
+      "sha256": "ee95b6f06cc0a88bf2f26c607af7545f6ca6181d5acc69e46779e0acc37effa5",
+      "bytes": 75
+    },
+    "artifacts\\intraday_momentum_v3\\COMPLETION.md": {
+      "sha256": "4a5f8e6a732bb39984f324669d9a760691fa3d04ded0ef20ce3f34d2e99caa7e",
+      "bytes": 1518
+    },
+    "scripts\\plot_intraday_v3_quality.py": {
+      "sha256": "de4dc9c6bf4025341033240c82a32dd5dc86ae2eebb35bace92b8020fbad8bd9",
+      "bytes": 1934
+    },
+    "artifacts\\intraday_momentum_v3\\auth-followup-2026-11-17.json": {
+      "sha256": "9431fddd7857e6ea6b38e305744ac20fb0d220756c36f29ea9a7f7e1661008ab",
+      "bytes": 740
+    },
+    "artifacts\\intraday_momentum_v3\\AUTH_FOLLOWUP_2026-11-17.md": {
+      "sha256": "f28e0a3b1939658189ebfd42cfcbc6e3d85afc24c95e2f58aaedee05076d11d7",
+      "bytes": 957
+    }
+  },
+  "protocol_frozen_at": "2026-11-15T18:33:00.411958+00:00",
+  "no_real_orders": true,
+  "last_followup_at": "2026-11-16T18:39:10.253113+00:00"
+}

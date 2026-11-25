@@ -1,0 +1,14 @@
+{
+  "registered_at": "2026-11-19T16:09:29.543685+05:30",
+  "motivation": "Initial M_WEEKSTATE exposed monthly Brier\u2248.17835/CRPS\u2248.02482. Test whether gain is feature information, shorter training window, levels or slopes; no tuning on final scores.",
+  "models": {
+    "M2_WINDOW_SMALL": "Only same four native price/risk inputs on exact weekly-state-eligible dates",
+    "M2_WINDOW_NATIVE": "Full57-native block on same dates",
+    "M2_LEVELS": "Price4+weekly-state levels only",
+    "M2_SLOPES": "Price4+weekly-state5-session slopes only",
+    "M2_STATE_LAG1": "Price4+weekly states delayed one extra session",
+    "M2_HUBER_WINDOW": "Robust native model on same eligible dates"
+  },
+  "negative_control": "Common21-session circular block shift of training state columns, separately inside inner/full past partitions; diagnostic only, not eligible to win",
+  "sample_limit": "All76origins are exposed and overlap into approximately four disjoint months"
+}

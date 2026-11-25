@@ -1,0 +1,46 @@
+{
+  "registered_at": "2026-11-24T12:02:58.219271+05:30",
+  "cohort": "primary",
+  "configurations": {
+    "D_STUDENT": {
+      "frame": "both_changes",
+      "parent": "B_ROT",
+      "law": "student",
+      "hypothesis": "Shrink Student df5 scale toward historical risk"
+    },
+    "D_RISK": {
+      "frame": "both_changes",
+      "parent": "B_ROT",
+      "law": "risk",
+      "hypothesis": "State-dependent empirical residual weights by trailing volatility"
+    },
+    "D_FACTOR": {
+      "frame": "both_changes",
+      "parent": "B_ROT",
+      "law": "factor",
+      "hypothesis": "Pool residuals conditionally on rotation magnitude"
+    },
+    "D_QUANTILE": {
+      "frame": "both_changes",
+      "parent": "B_ROT",
+      "dedup": true,
+      "rep": "cluster",
+      "law": "quantile",
+      "hypothesis": "Coherent interpolation of regularized conditional quantile estimates"
+    },
+    "D_ELASTIC_RISK": {
+      "frame": "native",
+      "parent": "G_ELASTIC",
+      "dedup": true,
+      "rep": "cluster",
+      "kind": "elastic",
+      "law": "risk",
+      "hypothesis": "Conditional residual scale on cluster balanced Elastic Net"
+    }
+  },
+  "seed": 20261125,
+  "source": {
+    "models.py": "37056bce809a9e7dbecd72cd0c5a5fe91249866e9c32fefbad0a75d78ad2280e",
+    "experiments.py": "4f9135a1a17f2d26d7611d439a1c749973f8f3ac301ed1004b690a5036180a35"
+  }
+}

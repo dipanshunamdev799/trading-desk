@@ -1,0 +1,181 @@
+{
+  "frozen_before_evaluation": true,
+  "seed": 20261117,
+  "configuration_count": 19,
+  "specifications": {
+    "B00_empirical": {
+      "id": "B00_empirical",
+      "kind": "empirical",
+      "features": "price",
+      "parameters": {},
+      "research_only": false
+    },
+    "B01_ewma": {
+      "id": "B01_ewma",
+      "kind": "ewma",
+      "features": "price",
+      "parameters": {},
+      "research_only": false
+    },
+    "B02_rv_scaled": {
+      "id": "B02_rv_scaled",
+      "kind": "rv_scaled",
+      "features": "price",
+      "parameters": {},
+      "research_only": false
+    },
+    "B03_vix_scaled": {
+      "id": "B03_vix_scaled",
+      "kind": "vix_scaled",
+      "features": "price",
+      "parameters": {},
+      "research_only": false
+    },
+    "B04_momentum": {
+      "id": "B04_momentum",
+      "kind": "momentum",
+      "features": "price",
+      "parameters": {},
+      "research_only": false
+    },
+    "B05_reversion": {
+      "id": "B05_reversion",
+      "kind": "reversion",
+      "features": "price",
+      "parameters": {},
+      "research_only": false
+    },
+    "B06_regime": {
+      "id": "B06_regime",
+      "kind": "regime",
+      "features": "price",
+      "parameters": {},
+      "research_only": false
+    },
+    "M00_ridge_price": {
+      "id": "M00_ridge_price",
+      "kind": "ridge",
+      "features": "price",
+      "parameters": {
+        "alpha": 100
+      },
+      "research_only": false
+    },
+    "M01_ridge_full": {
+      "id": "M01_ridge_full",
+      "kind": "ridge",
+      "features": "full",
+      "parameters": {
+        "alpha": 100
+      },
+      "research_only": false
+    },
+    "M02_elastic001": {
+      "id": "M02_elastic001",
+      "kind": "elastic",
+      "features": "full",
+      "parameters": {
+        "alpha": 0.001
+      },
+      "research_only": false
+    },
+    "M03_elastic01": {
+      "id": "M03_elastic01",
+      "kind": "elastic",
+      "features": "full",
+      "parameters": {
+        "alpha": 0.01
+      },
+      "research_only": false
+    },
+    "M04_corr_ridge": {
+      "id": "M04_corr_ridge",
+      "kind": "ridge",
+      "features": "pruned",
+      "parameters": {
+        "alpha": 100
+      },
+      "research_only": false
+    },
+    "M05_lgbm": {
+      "id": "M05_lgbm",
+      "kind": "lgbm",
+      "features": "full",
+      "parameters": {},
+      "research_only": false
+    },
+    "M06_analog30": {
+      "id": "M06_analog30",
+      "kind": "analogue",
+      "features": "full",
+      "parameters": {},
+      "research_only": false
+    },
+    "M07_sequence": {
+      "id": "M07_sequence",
+      "kind": "ridge",
+      "features": "sequence",
+      "parameters": {
+        "alpha": 100
+      },
+      "research_only": false
+    },
+    "A00_sector": {
+      "id": "A00_sector",
+      "kind": "ridge",
+      "features": "sector",
+      "parameters": {
+        "alpha": 100
+      },
+      "research_only": false
+    },
+    "A01_nofo": {
+      "id": "A01_nofo",
+      "kind": "ridge",
+      "features": "nofo",
+      "parameters": {
+        "alpha": 100
+      },
+      "research_only": false
+    },
+    "A02_proxy": {
+      "id": "A02_proxy",
+      "kind": "ridge",
+      "features": "proxy",
+      "parameters": {
+        "alpha": 100
+      },
+      "research_only": true
+    },
+    "A03_interact": {
+      "id": "A03_interact",
+      "kind": "ridge",
+      "features": "interaction",
+      "parameters": {
+        "alpha": 100
+      },
+      "research_only": false
+    }
+  },
+  "outer_start": "2026-07-01",
+  "history_start": "2025-01-01",
+  "design_sha256": "e53123f1004e94c0029f08c133bf4d20b72674809ffeb6c2384733f804e5aa8a",
+  "probability_clip": [
+    0.02,
+    0.98
+  ],
+  "tail_clip": [
+    0.001,
+    0.999
+  ],
+  "source_code_hashes": {
+    "audit.py": "ccc26cffc46f5c7a00c96afa6322a333165dff256b79d0278a5cc25d02879406",
+    "audit_report.py": "a51e79becfa38dfb39a9c1668fa57f4b9be0adc0bfe847c74a1245d5aa6fb225",
+    "data.py": "5eeab2b6a1b14f8ba989e3893513108873a19aa2ad907b19acb27cf90dfaf20a",
+    "experiment.py": "cb9c04cbeff215408365f6afca59109a507c0464e9c1ff92b0ee83428a4a8ab2",
+    "features.py": "80280688329588d30bdf6fb60ddb7fb4c3d071097d7e09f67721d9d42c7c5232",
+    "models.py": "7ad5c656d7b6398f4284730ab5572132c3012a64e95471c6e3a0ddb3a288f820",
+    "__init__.py": "862d787de93b1412912015cef6fc7c75be9bb44e80f2c4e23e128068b90f1b57"
+  },
+  "dataset_manifest_sha256": "1e0ec0346b9cc99e85e8a051cff947d215496b8c4bdc858e99bd1e6a02747a4c"
+}

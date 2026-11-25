@@ -1,0 +1,50 @@
+[
+  {
+    "symbol": "GOLDBEES",
+    "ok": true,
+    "key": "NSE_EQ|INF204KB17I5",
+    "url": "https://api.upstox.com/v3/historical-candle/NSE_EQ%7CINF204KB17I5/days/1/2026-11-18/2025-01-01",
+    "sent": "2026-11-18T22:38:57.590604+05:30",
+    "received": "2026-11-18T22:38:58.023955+05:30",
+    "server_date": "Wed, 18 Nov 2026 17:08:57 GMT",
+    "rows": 466,
+    "sha256": "eaab6e1b8b24f88dd32443ec9996d20d77a5cbd31ed183dad0938fe3e84a57c6",
+    "classification": "INR-traded ETF proxy; not foreign index/commodity spot; raw price adjustment vintage limited"
+  },
+  {
+    "symbol": "SILVERBEES",
+    "ok": true,
+    "key": "NSE_EQ|INF204KC1402",
+    "url": "https://api.upstox.com/v3/historical-candle/NSE_EQ%7CINF204KC1402/days/1/2026-11-18/2025-01-01",
+    "sent": "2026-11-18T22:38:58.051331+05:30",
+    "received": "2026-11-18T22:38:58.505407+05:30",
+    "server_date": "Wed, 18 Nov 2026 17:08:58 GMT",
+    "rows": 466,
+    "sha256": "1d90e098dbe6b340f8817cbd6bcd18490816f054e1dd983609ccd3959f724186",
+    "classification": "INR-traded ETF proxy; not foreign index/commodity spot; raw price adjustment vintage limited"
+  },
+  {
+    "symbol": "MON100",
+    "ok": true,
+    "key": "NSE_EQ|INF247L01AP3",
+    "url": "https://api.upstox.com/v3/historical-candle/NSE_EQ%7CINF247L01AP3/days/1/2026-11-18/2025-01-01",
+    "sent": "2026-11-18T22:38:58.556287+05:30",
+    "received": "2026-11-18T22:38:58.857646+05:30",
+    "server_date": "Wed, 18 Nov 2026 17:08:58 GMT",
+    "rows": 466,
+    "sha256": "af3c1331639d9ea4151fa3f6b4b1992523e8a33b34151bf4c262c168dda33ed5",
+    "classification": "INR-traded ETF proxy; not foreign index/commodity spot; raw price adjustment vintage limited"
+  },
+  {
+    "symbol": "HNGSNGBEES",
+    "ok": true,
+    "key": "NSE_EQ|INF204KB19I1",
+    "url": "https://api.upstox.com/v3/historical-candle/NSE_EQ%7CINF204KB19I1/days/1/2026-11-18/2025-01-01",
+    "sent": "2026-11-18T22:38:58.885937+05:30",
+    "received": "2026-11-18T22:38:59.250527+05:30",
+    "server_date": "Wed, 18 Nov 2026 17:08:59 GMT",
+    "rows": 466,
+    "sha256": "400bcbcb8aefbcf3b971b273fbbd62d64bfe3a39083c34d517c9838b1e068fde",
+    "classification": "INR-traded ETF proxy; not foreign index/commodity spot; raw price adjustment vintage limited"
+  }
+]

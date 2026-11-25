@@ -1,0 +1,50 @@
+{
+  "registered_at": "2026-11-24T11:39:24.249427+05:30",
+  "configurations": {
+    "S_SIMPLE": {
+      "parent": "C_NO_DEF",
+      "frame": "simple",
+      "hypothesis": "Synchronization and dispersion beyond best V6 Brier representation"
+    },
+    "S_NETWORK": {
+      "parent": "C_NO_DEF",
+      "frame": "network",
+      "hypothesis": "Spectral rank and network density beyond the V6 Brier representation"
+    },
+    "S_LEADERSHIP": {
+      "parent": "C_NO_DEF",
+      "frame": "leadership",
+      "hypothesis": "Leadership ranks and breadth beyond V6 Brier representation"
+    },
+    "S_LEVEL": {
+      "parent": "C_NO_DEF",
+      "frame": "level",
+      "hypothesis": "Prespecified six levels used in the state experiment"
+    },
+    "S_STATE": {
+      "parent": "S_LEVEL",
+      "frame": "state",
+      "hypothesis": "Changes, normalized state hazard and loading drift beyond corresponding levels"
+    },
+    "S_STATE_LAG": {
+      "parent": "S_LEVEL",
+      "frame": "state_lag",
+      "diagnostic": true,
+      "hypothesis": "Replace current changes with 5-session lag placebo"
+    },
+    "S_STATE_ACCEL": {
+      "parent": "S_LEVEL",
+      "frame": "state_accel",
+      "hypothesis": "Acceleration alone compared with the identical levels parent"
+    },
+    "S_ROTATION": {
+      "parent": "C_NO_DEF",
+      "frame": "rotation",
+      "hypothesis": "Financial, defensive and liquidity rotation under global changes"
+    }
+  },
+  "exposure": "2025\u20132026 historical research",
+  "fit_code_sha256": "42be493331e2264137df7c173ffa8e0af6b5758fb0193bfef8984d88293e278f",
+  "batch_code_sha256": "0d37a323f3450c6cfbffcb1d926fea47fcab60e398ab7b7f3dfd86cf77c1c85d",
+  "reason": "Fixed family tests registered before new results for this batch. All dates exposed by prior research."
+}

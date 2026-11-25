@@ -1,0 +1,166 @@
+{
+  "registered_at": "2026-11-25T00:18:23.785607+05:30",
+  "models": {
+    "Q12_RAW": {
+      "kind": "q_raw",
+      "columns": [],
+      "parent": "J11_EXCLUDE_B_ROT",
+      "diagnostic": true,
+      "density": true
+    },
+    "Q12_NATURALLY_ALIGNED": {
+      "kind": "q_raw",
+      "columns": [],
+      "parent": "J11_EXCLUDE_B_ROT",
+      "version": "NATURAL",
+      "diagnostic": true,
+      "density": true
+    },
+    "Q12_BLACK_ATM": {
+      "kind": "q_black",
+      "columns": [],
+      "parent": "Q12_RAW",
+      "diagnostic": true,
+      "density": true
+    },
+    "Q12_FIXED_UNCALIBRATED_MIX": {
+      "kind": "q_mix_raw",
+      "columns": [],
+      "parent": "J11_EXCLUDE_B_ROT",
+      "diagnostic": true,
+      "density": true
+    },
+    "P12_Q_LOCATION": {
+      "kind": "q_loc",
+      "columns": [],
+      "parent": "Q12_RAW",
+      "density": true
+    },
+    "P12_Q_SCALE": {
+      "kind": "q_scale",
+      "columns": [],
+      "parent": "P12_Q_LOCATION",
+      "density": true
+    },
+    "P12_Q_TILT": {
+      "kind": "q_tilt",
+      "columns": [],
+      "parent": "P12_Q_SCALE",
+      "density": true
+    },
+    "P12_Q_PHYSICAL_MIX": {
+      "kind": "q_mix",
+      "columns": [],
+      "parent": "J11_EXCLUDE_B_ROT",
+      "density": true
+    },
+    "P12_Q_HIST_FALLBACK": {
+      "kind": "q_fallback",
+      "columns": [],
+      "parent": "P12_Q_PHYSICAL_MIX",
+      "density": true
+    },
+    "Q12_LIQUID": {
+      "kind": "q_raw",
+      "columns": [],
+      "parent": "Q12_RAW",
+      "version": "LIQUID",
+      "density": true,
+      "diagnostic": true
+    },
+    "P12_Q_LIQUID": {
+      "kind": "q_mix",
+      "columns": [],
+      "parent": "P12_Q_PHYSICAL_MIX",
+      "version": "LIQUID",
+      "density": true
+    },
+    "Q12_SETTLEMENT": {
+      "kind": "q_raw",
+      "columns": [],
+      "parent": "Q12_RAW",
+      "version": "SETTLEMENT",
+      "density": true,
+      "diagnostic": true
+    },
+    "P12_Q_SETTLEMENT": {
+      "kind": "q_mix",
+      "columns": [],
+      "parent": "P12_Q_PHYSICAL_MIX",
+      "version": "SETTLEMENT",
+      "density": true
+    },
+    "Q12_SMOOTH": {
+      "kind": "q_raw",
+      "columns": [],
+      "parent": "Q12_RAW",
+      "version": "SMOOTH",
+      "density": true,
+      "diagnostic": true
+    },
+    "P12_Q_SMOOTH": {
+      "kind": "q_mix",
+      "columns": [],
+      "parent": "P12_Q_PHYSICAL_MIX",
+      "version": "SMOOTH",
+      "density": true
+    },
+    "Q12_TRUNCATED": {
+      "kind": "q_raw",
+      "columns": [],
+      "parent": "Q12_RAW",
+      "version": "TRUNCATED",
+      "density": true,
+      "diagnostic": true
+    },
+    "P12_Q_TRUNCATED": {
+      "kind": "q_mix",
+      "columns": [],
+      "parent": "P12_Q_PHYSICAL_MIX",
+      "version": "TRUNCATED",
+      "density": true
+    },
+    "Q12_LONGER": {
+      "kind": "q_raw",
+      "columns": [],
+      "parent": "Q12_RAW",
+      "version": "LONGER",
+      "density": true,
+      "diagnostic": true
+    },
+    "P12_Q_LONGER": {
+      "kind": "q_mix",
+      "columns": [],
+      "parent": "P12_Q_PHYSICAL_MIX",
+      "version": "LONGER",
+      "density": true
+    },
+    "Q12_LAG2": {
+      "kind": "q_raw",
+      "columns": [],
+      "parent": "Q12_RAW",
+      "version": "LAG2",
+      "density": true,
+      "diagnostic": true
+    },
+    "Q12_LAG5": {
+      "kind": "q_raw",
+      "columns": [],
+      "parent": "Q12_RAW",
+      "version": "LAG5",
+      "density": true,
+      "diagnostic": true
+    },
+    "Q12_FUTURE_FORWARD": {
+      "kind": "q_raw",
+      "columns": [],
+      "parent": "Q12_RAW",
+      "version": "FUTURE_FORWARD",
+      "density": true,
+      "diagnostic": true
+    }
+  },
+  "implementation": "1f6aabdf2939a209143b86ea8b2e5f40666605dfcc6a30b9d878d9c9c93083e3",
+  "strict_maturity": "Train endpoints < first monthly refit origin. Fit scalers, variance heads, downside mapping and thresholds inside that fit.",
+  "default_prior": "V11 J11_EXCLUDE_B_ROT. Raw priced laws and merged raw diagnostics are explicitly labelled Q."
+}

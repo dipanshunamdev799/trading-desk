@@ -1,0 +1,232 @@
+{
+  "registered": "2026-11-24T14:31:16.530185+05:30",
+  "models": {
+    "B_ROT": {
+      "frame": "rotation",
+      "parent": "BASE_ROTATION"
+    },
+    "B_NATIVE": {
+      "frame": "native",
+      "parent": "BASE_NATIVE"
+    },
+    "B_TEN": {
+      "frame": "ten",
+      "parent": "BASE10"
+    },
+    "B_SPARSE": {
+      "frame": "native_rot",
+      "parent": "S_ELASTIC",
+      "kind": "elastic",
+      "rep": "cluster_elastic"
+    },
+    "B_STUD": {
+      "frame": "ten",
+      "parent": "T_VOL_STUDENT",
+      "target": "vol",
+      "law": "student",
+      "target_mask": true
+    },
+    "B_ROT_EQ": {
+      "frame": "rotation",
+      "parent": "B_ROT",
+      "plus": [
+        "BREADTH"
+      ]
+    },
+    "B_NATIVE_EQ": {
+      "frame": "native",
+      "parent": "B_NATIVE",
+      "plus": [
+        "BREADTH"
+      ]
+    },
+    "B_TEN_EQ": {
+      "frame": "ten",
+      "parent": "B_TEN",
+      "plus": [
+        "BREADTH"
+      ]
+    },
+    "B_SPARSE_EQ": {
+      "frame": "native_rot",
+      "parent": "B_SPARSE",
+      "kind": "elastic",
+      "rep": "cluster_elastic",
+      "plus": [
+        "BREADTH"
+      ]
+    },
+    "B_STUD_EQ": {
+      "frame": "ten",
+      "parent": "B_STUD",
+      "target": "vol",
+      "law": "student",
+      "target_mask": true,
+      "plus": [
+        "BREADTH"
+      ]
+    },
+    "B_EQUAL_ONLY": {
+      "frame": "rotation",
+      "parent": "B_ROT",
+      "plus": [
+        "EQUAL"
+      ]
+    },
+    "B_CAP_ONLY": {
+      "frame": "rotation",
+      "parent": "B_ROT",
+      "plus": [
+        "CAP"
+      ]
+    },
+    "B_PAIR100": {
+      "frame": "rotation",
+      "parent": "B_ROT",
+      "plus": [
+        "PAIR100"
+      ]
+    },
+    "B_CHANGE": {
+      "frame": "rotation",
+      "parent": "B_ROT",
+      "plus": [
+        "CHANGE"
+      ]
+    },
+    "B_PERSIST": {
+      "frame": "rotation",
+      "parent": "B_ROT",
+      "plus": [
+        "PERSIST"
+      ]
+    },
+    "B_FIN_INTERACT": {
+      "frame": "rotation",
+      "parent": "B_ROT_EQ",
+      "plus": [
+        "BREADTH",
+        "INTERACT"
+      ]
+    },
+    "B_EQ_MOMO_DROP": {
+      "frame": "rotation",
+      "parent": "B_MOMO_DROP",
+      "plus": [
+        "BREADTH"
+      ],
+      "drop_mom": true
+    },
+    "B_MOMO_DROP": {
+      "frame": "rotation",
+      "parent": "B_ROT",
+      "drop_mom": true,
+      "diagnostic": true
+    },
+    "B_SIZE_RISK": {
+      "frame": "rotation",
+      "parent": "B_ROT",
+      "plus": [
+        "CONTROL"
+      ]
+    },
+    "B_EQ_SIZE_RISK": {
+      "frame": "rotation",
+      "parent": "B_SIZE_RISK",
+      "plus": [
+        "RESID"
+      ],
+      "residual": true
+    },
+    "B_EQ_CLOSE": {
+      "frame": "rotation",
+      "parent": "B_ROT",
+      "plus": [
+        "SAME_CLOSE"
+      ],
+      "diagnostic": true
+    },
+    "B_EQ_LAG5": {
+      "frame": "rotation",
+      "parent": "B_ROT",
+      "plus": [
+        "LAG5"
+      ],
+      "diagnostic": true
+    },
+    "B_EQ_SHIFT21": {
+      "frame": "rotation",
+      "parent": "B_ROT",
+      "plus": [
+        "BREADTH"
+      ],
+      "shift": 21,
+      "diagnostic": true
+    },
+    "B_EQ_SHIFT42": {
+      "frame": "rotation",
+      "parent": "B_ROT",
+      "plus": [
+        "BREADTH"
+      ],
+      "shift": 42,
+      "diagnostic": true
+    },
+    "B_EQ_PERM": {
+      "frame": "rotation",
+      "parent": "B_ROT",
+      "plus": [
+        "BREADTH"
+      ],
+      "shift": "blocks",
+      "diagnostic": true
+    },
+    "B_STYLE": {
+      "frame": "rotation",
+      "parent": "B_STYLE_PARENT",
+      "plus": [
+        "FACTOR"
+      ],
+      "mask": "FACTOR"
+    },
+    "B_STYLE_PARENT": {
+      "frame": "rotation",
+      "parent": "B_ROT",
+      "mask": "FACTOR"
+    },
+    "L_CONC": {
+      "frame": "rotation",
+      "parent": "B_ROT",
+      "plus": [
+        "CONC"
+      ]
+    },
+    "L_EQ_CONC": {
+      "frame": "rotation",
+      "parent": "B_ROT_EQ",
+      "plus": [
+        "BREADTH",
+        "CONC"
+      ]
+    },
+    "L_BASIC": {
+      "frame": "STATE",
+      "parent": "B_TEN"
+    },
+    "L_CHANGE": {
+      "frame": "STATE_CHANGE",
+      "parent": "L_BASIC"
+    },
+    "L_PERSIST": {
+      "frame": "STATE_PERSIST",
+      "parent": "L_BASIC"
+    },
+    "L_NO_FIN": {
+      "frame": "L_NO_FIN",
+      "parent": "L_BASIC",
+      "diagnostic": true
+    }
+  },
+  "seed": 20261124,
+  "source": "ed65ce5af5b1659eb7823eff8713976c65719205f7315a0f6bc93a9e253403df"
+}

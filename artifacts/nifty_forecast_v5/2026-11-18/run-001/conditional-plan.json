@@ -1,0 +1,14 @@
+{
+  "registered_at": "2026-11-18T22:43:58.637403+05:30",
+  "conditions": [
+    "global_weak_narrow",
+    "global_weak_broad",
+    "highvol_nearexpiry",
+    "concentrated_rally",
+    "oil_fx_up_highvol"
+  ],
+  "thresholds": "Training median volatility/concentration; breadth .5; positive oil/FX; near expiry<=2calendar days; trend>RV21*sqrt21",
+  "baseline": "Exact same causal condition, historical conditional return atoms plus30 unconditional pseudoobservations",
+  "complexity_limit": "No additional progressively narrower conditions",
+  "multiplicity": "32models x5conditions x2horizons inspected; intervals descriptive/unadjusted and cannot qualify conditional edge"
+}

@@ -1,0 +1,172 @@
+{
+  "experiment": "NIFTY 5/21-session learned forecasts, strict two-year history",
+  "issued_at": "2026-11-17T01:22:02.861152+05:30",
+  "forecast_date": "2026-11-17",
+  "reference_date": "2026-11-16",
+  "reference_close": 25291.1,
+  "history_window": {
+    "inclusive_start": "2024-11-17",
+    "exclusive_end": "2026-11-17"
+  },
+  "forecasts": {
+    "week": {
+      "horizon_sessions": 5,
+      "expected_endpoint_date": "2026-11-23",
+      "reference_close": 25291.1,
+      "up_probability": {
+        "neutral": 0.5,
+        "rolling_frequency": 0.4766949152542373,
+        "equal_groups": 0.48277589599647064,
+        "adaptive_groups": 0.5249465151348718,
+        "calibrated_adaptive": 0.47127452365307926
+      },
+      "primary_model": "calibrated_adaptive",
+      "calibration_intercept": -0.21652908441449323,
+      "calibration_slope": 1.0163366886146588,
+      "meta_training_n": 214,
+      "calibration_training_n": 214,
+      "group_weights": {
+        "neutral": 0.48975270670671106,
+        "trend": 0.0,
+        "short_term_price": 0.0,
+        "candles_gaps": 0.0,
+        "volatility": 0.0,
+        "banks_financials": 0.0,
+        "other_sectors": 0.24799100592049778,
+        "participation": 0.2622562873727911,
+        "global_equities": 0.0,
+        "oil_currency": 0.0,
+        "gift_nifty": 0.0,
+        "institutional_cash": 0.0,
+        "fii_positioning": 0.0
+      },
+      "return_distribution": {
+        "mean": 0.0008689411767804425,
+        "quantiles": {
+          "0.1": -0.023854892223483276,
+          "0.25": -0.010958492886859508,
+          "0.5": -0.0019865157913832414,
+          "0.75": 0.010396162075409698,
+          "0.9": 0.02693379494041432
+        },
+        "unconditional_quantiles": {
+          "0.1": -0.024228689542691917,
+          "0.25": -0.011465456419712666,
+          "0.5": -0.002804188938721308,
+          "0.75": 0.009250635914688554,
+          "0.9": 0.02576470708854047
+        },
+        "historical_n": 252,
+        "positive_n": 111,
+        "nonpositive_n": 141
+      },
+      "projected_median_level": 25240.858830468547,
+      "projected_mean_level": 25313.076478196068,
+      "closing_level_quantiles": {
+        "0.1": 24687.78353528666,
+        "0.25": 25013.947660549147,
+        "0.5": 25240.858830468547,
+        "0.75": 25554.03037466539,
+        "0.9": 25972.28530121751
+      },
+      "magnitude_last_observed_endpoint": "2026-11-16",
+      "outcome": {
+        "official_endpoint_date": null,
+        "official_reference_close": null,
+        "official_endpoint_close": null,
+        "return": null
+      }
+    },
+    "month": {
+      "horizon_sessions": 21,
+      "expected_endpoint_date": "2026-12-16",
+      "reference_close": 25291.1,
+      "up_probability": {
+        "neutral": 0.5,
+        "rolling_frequency": 0.5548245614035088,
+        "equal_groups": 0.5377174352042742,
+        "adaptive_groups": 0.5771465997793728,
+        "calibrated_adaptive": 0.5300506236321175
+      },
+      "primary_model": "calibrated_adaptive",
+      "calibration_intercept": -0.1358848848953259,
+      "calibration_slope": 0.8237110576918484,
+      "meta_training_n": 182,
+      "calibration_training_n": 182,
+      "group_weights": {
+        "neutral": 0.6802489834560087,
+        "trend": 0.0,
+        "short_term_price": 0.0,
+        "candles_gaps": 0.0,
+        "volatility": 0.0,
+        "banks_financials": 0.0,
+        "other_sectors": 0.3197510165439912,
+        "participation": 0.0,
+        "global_equities": 0.0,
+        "oil_currency": 0.0,
+        "gift_nifty": 0.0,
+        "institutional_cash": 0.0,
+        "fii_positioning": 0.0
+      },
+      "return_distribution": {
+        "mean": -0.002787501552216461,
+        "quantiles": {
+          "0.1": -0.051878595087825864,
+          "0.25": -0.028649269601965656,
+          "0.5": 0.00163542280679427,
+          "0.75": 0.015266091923193701,
+          "0.9": 0.042623159348878455
+        },
+        "unconditional_quantiles": {
+          "0.1": -0.05398207831849441,
+          "0.25": -0.030027001483713095,
+          "0.5": -0.0004348293747568066,
+          "0.75": 0.013656087898095803,
+          "0.9": 0.04049535159646762
+        },
+        "historical_n": 252,
+        "positive_n": 123,
+        "nonpositive_n": 129
+      },
+      "projected_median_level": 25332.461641748912,
+      "projected_mean_level": 25220.601019492737,
+      "closing_level_quantiles": {
+        "0.1": 23979.033263774287,
+        "0.25": 24566.528457569726,
+        "0.5": 25332.461641748912,
+        "0.75": 25677.19625743868,
+        "0.9": 26369.086585408415
+      },
+      "magnitude_last_observed_endpoint": "2026-11-16",
+      "outcome": {
+        "official_endpoint_date": null,
+        "official_reference_close": null,
+        "official_endpoint_close": null,
+        "return": null
+      }
+    }
+  },
+  "input_manifests": {
+    "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\nifty_forecast\\2026-11-17\\inputs-v2\\manifest.json": "292fec90c23e694b0578bfe88e40559e7ef973f879ac0d6b82da1680169d192f",
+    "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\nifty_forecast\\2026-11-17\\supplement-v1\\manifest.json": "408d52997a241b4a24a8da24a08c07bffd06bebf0bf87dcff354910e77a30129",
+    "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\nifty_forecast\\2026-11-17\\institutional-v1\\manifest.json": "82677dbdaff0fe7595d7652df6943468d5b31678cbb46db66e3b52b1582b1316"
+  },
+  "calendar_path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\nifty_forecast\\2026-11-17\\horizon-calendar-v1.json",
+  "calendar_sha256": "b81cfe144df0587ba5cd766ae7d6939d1314bc4e0313b28762102343739a4e17",
+  "comparison_daily_forecast_path": "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\nifty_forecast\\2026-11-17\\two-year-v1\\forecast.json",
+  "comparison_daily_forecast_sha256": "513a3348aba26a88e0082fabc7a0b0f5cf00a0d8dd418ada51505400d947967c",
+  "source_code_hashes": {
+    "horizons.py": "8bd9348327da25ba603170e7a32bbf824ebf86c50db003e6ce67a4fac499bf4b",
+    "HORIZON_PROTOCOL.md": "a85f81b84ec64084ac65dac7ee09c421d4a86099745bc27a4653e0de6f202336",
+    "two_year.py": "d6d113e9e6643b004c5985e4654c1c548ef3b462ad8a998a63a6ccf4c493bd55",
+    "adaptive.py": "d38755d6ce750b5e05d2a77ba2ea180bd986193c94ea4bf5a837f8ccb7de42e3",
+    "engine.py": "d89c17625cb2d8d35715e8a33932ec2bded9d7cd0133b8a142995b37337596d9"
+  },
+  "limits": [
+    "Horizon labels overlap and are not independent observations",
+    "Only matured full-horizon returns can fit models, weights, calibration or magnitude distributions",
+    "Two-year history leaves few fully learned monthly evaluation periods",
+    "Move-size distributions reweight historical conditional sizes; they are not guaranteed price ranges",
+    "Conservative global daily lag, reconstructed institutional publication and provisional Monday quote as previously disclosed"
+  ]
+}

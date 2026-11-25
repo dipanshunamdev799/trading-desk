@@ -1,0 +1,626 @@
+{
+  "intercept": 0.10190940960639404,
+  "note": "Conditional model contributions; correlated features prevent causal attribution",
+  "contributions": [
+    {
+      "feature": "return10_risk_scaled",
+      "log_odds_contribution": -0.42191880052199326,
+      "coefficient": -0.18512850268222256
+    },
+    {
+      "feature": "bank_nifty_relative5",
+      "log_odds_contribution": -0.24695684270840948,
+      "coefficient": -0.11161897517407247
+    },
+    {
+      "feature": "rsi14",
+      "log_odds_contribution": 0.24586948429888128,
+      "coefficient": 0.12739011237291242
+    },
+    {
+      "feature": "nifty_it_relative5",
+      "log_odds_contribution": 0.24491938326015641,
+      "coefficient": -0.21552495715237455
+    },
+    {
+      "feature": "lagged_global_hang_seng_return5",
+      "log_odds_contribution": 0.22979067470545972,
+      "coefficient": -0.22238863236120188
+    },
+    {
+      "feature": "return20_risk_scaled",
+      "log_odds_contribution": 0.21532141358202542,
+      "coefficient": 0.12189473181999094
+    },
+    {
+      "feature": "nifty_auto_relative5",
+      "log_odds_contribution": 0.17671090528917938,
+      "coefficient": -0.15799902620959455
+    },
+    {
+      "feature": "lagged_global_sp500_vol20",
+      "log_odds_contribution": 0.1695590757206785,
+      "coefficient": 0.19777553495844016
+    },
+    {
+      "feature": "nifty_fmcg_relative1",
+      "log_odds_contribution": -0.1576336468612084,
+      "coefficient": -0.11935665316798347
+    },
+    {
+      "feature": "nifty_realty_relative1",
+      "log_odds_contribution": -0.154536190963534,
+      "coefficient": 0.13106153715467483
+    },
+    {
+      "feature": "nifty_metal_relative5",
+      "log_odds_contribution": 0.11881902985522316,
+      "coefficient": -0.10970299140630808
+    },
+    {
+      "feature": "nifty_metal_relative1",
+      "log_odds_contribution": -0.11349484474990558,
+      "coefficient": 0.07939256706423009
+    },
+    {
+      "feature": "nifty_auto_relative1",
+      "log_odds_contribution": -0.10915338381768692,
+      "coefficient": 0.05754980046880117
+    },
+    {
+      "feature": "ema50_distance",
+      "log_odds_contribution": 0.10313132995979928,
+      "coefficient": 0.06664219933453895
+    },
+    {
+      "feature": "lagged_global_dow_vol20",
+      "log_odds_contribution": -0.08981517165276406,
+      "coefficient": -0.1251094958776943
+    },
+    {
+      "feature": "ema10_distance",
+      "log_odds_contribution": -0.07899287945018255,
+      "coefficient": -0.05965797291154089
+    },
+    {
+      "feature": "nifty_pharma_relative1",
+      "log_odds_contribution": 0.07494988345798757,
+      "coefficient": -0.03904568184573489
+    },
+    {
+      "feature": "body",
+      "log_odds_contribution": -0.0738727997608248,
+      "coefficient": -0.14404536390059192
+    },
+    {
+      "feature": "vix_change5",
+      "log_odds_contribution": -0.07142750258810358,
+      "coefficient": 0.05195985755652192
+    },
+    {
+      "feature": "nifty_energy_relative1",
+      "log_odds_contribution": 0.06505797134168409,
+      "coefficient": -0.0733648504299477
+    },
+    {
+      "feature": "vol_ratio5_20",
+      "log_odds_contribution": 0.06338665570953839,
+      "coefficient": -0.06269835941211875
+    },
+    {
+      "feature": "lagged_global_dow_return5",
+      "log_odds_contribution": 0.060563928473032456,
+      "coefficient": 0.19414711475658766
+    },
+    {
+      "feature": "lagged_global_dow_return1",
+      "log_odds_contribution": -0.05985822123618496,
+      "coefficient": 0.18780638871935082
+    },
+    {
+      "feature": "return5_risk_scaled",
+      "log_odds_contribution": 0.058594945837441,
+      "coefficient": 0.13058711102868945
+    },
+    {
+      "feature": "nifty_financial_relative5",
+      "log_odds_contribution": -0.05446183707907845,
+      "coefficient": -0.03967459697167594
+    },
+    {
+      "feature": "ema20_distance",
+      "log_odds_contribution": -0.05375482245054867,
+      "coefficient": -0.028930263156955783
+    },
+    {
+      "feature": "nifty_energy_relative5",
+      "log_odds_contribution": 0.051334623231117725,
+      "coefficient": -0.2030811388866018
+    },
+    {
+      "feature": "nifty_psu_bank_relative5",
+      "log_odds_contribution": -0.04900264432156875,
+      "coefficient": -0.028669632933124748
+    },
+    {
+      "feature": "close_location",
+      "log_odds_contribution": 0.044342118231043254,
+      "coefficient": 0.0663225896842282
+    },
+    {
+      "feature": "daily_range",
+      "log_odds_contribution": -0.04161087956225155,
+      "coefficient": 0.041747232252693216
+    },
+    {
+      "feature": "return1_risk_scaled",
+      "log_odds_contribution": 0.04112270050506302,
+      "coefficient": 0.07121407491639545
+    },
+    {
+      "feature": "lagged_global_hang_seng_return1",
+      "log_odds_contribution": -0.037122655312401116,
+      "coefficient": 0.03804171680206438
+    },
+    {
+      "feature": "lagged_global_sp500_return5",
+      "log_odds_contribution": -0.03676576465213466,
+      "coefficient": -0.04664556311390437
+    },
+    {
+      "feature": "atr_pct",
+      "log_odds_contribution": 0.03576630876936726,
+      "coefficient": 0.0840305920905803
+    },
+    {
+      "feature": "vix_change1",
+      "log_odds_contribution": 0.03567811529003583,
+      "coefficient": 0.20169765184651028
+    },
+    {
+      "feature": "lagged_global_usdinr_return5",
+      "log_odds_contribution": -0.0350673844766776,
+      "coefficient": -0.0736621991883333
+    },
+    {
+      "feature": "lagged_global_gift_nifty_return1",
+      "log_odds_contribution": -0.03283873864280855,
+      "coefficient": 0.12867747205263166
+    },
+    {
+      "feature": "lagged_global_usdinr_return1",
+      "log_odds_contribution": -0.028091927396681232,
+      "coefficient": -0.04058741948040893
+    },
+    {
+      "feature": "nifty_fmcg_relative5",
+      "log_odds_contribution": -0.024588439507460813,
+      "coefficient": -0.05469589147690787
+    },
+    {
+      "feature": "lagged_global_hang_seng_vol20",
+      "log_odds_contribution": -0.022470134724377477,
+      "coefficient": -0.06525526717276071
+    },
+    {
+      "feature": "realized_vol20",
+      "log_odds_contribution": 0.02229629863878913,
+      "coefficient": 0.057744908048644315
+    },
+    {
+      "feature": "sector_dispersion",
+      "log_odds_contribution": 0.01881852288528728,
+      "coefficient": 0.11737342230207841
+    },
+    {
+      "feature": "bank_nifty_relative1",
+      "log_odds_contribution": 0.015810950641336616,
+      "coefficient": 0.03521395994205044
+    },
+    {
+      "feature": "lagged_global_brent_vol20",
+      "log_odds_contribution": 0.015751448782632828,
+      "coefficient": 0.011902403471550058
+    },
+    {
+      "feature": "lagged_global_brent_return1",
+      "log_odds_contribution": 0.015629749441880867,
+      "coefficient": -0.08572492034824276
+    },
+    {
+      "feature": "vix_level",
+      "log_odds_contribution": -0.01386772165905902,
+      "coefficient": -0.08255324727838005
+    },
+    {
+      "feature": "nifty_realty_relative5",
+      "log_odds_contribution": -0.012203884458470041,
+      "coefficient": -0.07510763255080681
+    },
+    {
+      "feature": "lagged_global_gift_nifty_return5",
+      "log_odds_contribution": -0.010384523674272991,
+      "coefficient": -0.02373425227834495
+    },
+    {
+      "feature": "return2_risk_scaled",
+      "log_odds_contribution": 0.0095148779154646,
+      "coefficient": -0.13763536499921383
+    },
+    {
+      "feature": "lagged_global_sp500_return1",
+      "log_odds_contribution": -0.009451872496929812,
+      "coefficient": 0.01268023093894154
+    },
+    {
+      "feature": "sector_positive_fraction",
+      "log_odds_contribution": -0.007878130931185072,
+      "coefficient": 0.09732669557339071
+    },
+    {
+      "feature": "lagged_global_brent_return5",
+      "log_odds_contribution": 0.007632804055988827,
+      "coefficient": -0.022006598118943014
+    },
+    {
+      "feature": "previous_gap",
+      "log_odds_contribution": -0.0069962466180395,
+      "coefficient": -0.026336014514455473
+    },
+    {
+      "feature": "nifty_it_relative1",
+      "log_odds_contribution": -0.0050445299177921295,
+      "coefficient": 0.014444390611109121
+    },
+    {
+      "feature": "lagged_global_gift_nifty_vol20",
+      "log_odds_contribution": 0.004612962596049017,
+      "coefficient": 0.008622586110481298
+    },
+    {
+      "feature": "ema200_distance",
+      "log_odds_contribution": -0.004529837757168674,
+      "coefficient": -0.07450376692483873
+    },
+    {
+      "feature": "nifty_500_relative5",
+      "log_odds_contribution": 0.004242997898758193,
+      "coefficient": 0.2389564290087765
+    },
+    {
+      "feature": "nifty_500_relative1",
+      "log_odds_contribution": -0.003739774724799477,
+      "coefficient": -0.06830058807794805
+    },
+    {
+      "feature": "nifty_pharma_relative5",
+      "log_odds_contribution": -0.003395123119319991,
+      "coefficient": 0.00333194986116462
+    },
+    {
+      "feature": "lagged_global_usdinr_vol20",
+      "log_odds_contribution": -0.00298363462138789,
+      "coefficient": -0.05160247648187835
+    },
+    {
+      "feature": "nifty_financial_relative1",
+      "log_odds_contribution": 0.0029674314457565705,
+      "coefficient": -0.08448731276755077
+    },
+    {
+      "feature": "nifty_psu_bank_relative1",
+      "log_odds_contribution": -0.0014598770110280366,
+      "coefficient": 0.012071109882244743
+    },
+    {
+      "feature": "return1_risk_scaled_missing",
+      "log_odds_contribution": 0.0,
+      "coefficient": 0.0
+    },
+    {
+      "feature": "return2_risk_scaled_missing",
+      "log_odds_contribution": 0.0,
+      "coefficient": 0.0
+    },
+    {
+      "feature": "return5_risk_scaled_missing",
+      "log_odds_contribution": 0.0,
+      "coefficient": 0.0
+    },
+    {
+      "feature": "return10_risk_scaled_missing",
+      "log_odds_contribution": 0.0,
+      "coefficient": 0.0
+    },
+    {
+      "feature": "return20_risk_scaled_missing",
+      "log_odds_contribution": 0.0,
+      "coefficient": 0.0
+    },
+    {
+      "feature": "ema10_distance_missing",
+      "log_odds_contribution": 0.0,
+      "coefficient": 0.0
+    },
+    {
+      "feature": "ema20_distance_missing",
+      "log_odds_contribution": 0.0,
+      "coefficient": 0.0
+    },
+    {
+      "feature": "ema50_distance_missing",
+      "log_odds_contribution": 0.0,
+      "coefficient": 0.0
+    },
+    {
+      "feature": "ema200_distance_missing",
+      "log_odds_contribution": 0.0,
+      "coefficient": 0.0
+    },
+    {
+      "feature": "rsi14_missing",
+      "log_odds_contribution": 0.0,
+      "coefficient": 0.0
+    },
+    {
+      "feature": "daily_range_missing",
+      "log_odds_contribution": 0.0,
+      "coefficient": 0.0
+    },
+    {
+      "feature": "body_missing",
+      "log_odds_contribution": 0.0,
+      "coefficient": 0.0
+    },
+    {
+      "feature": "close_location_missing",
+      "log_odds_contribution": 0.0,
+      "coefficient": 0.0
+    },
+    {
+      "feature": "previous_gap_missing",
+      "log_odds_contribution": 0.0,
+      "coefficient": 0.0
+    },
+    {
+      "feature": "realized_vol20_missing",
+      "log_odds_contribution": 0.0,
+      "coefficient": 0.0
+    },
+    {
+      "feature": "vol_ratio5_20_missing",
+      "log_odds_contribution": 0.0,
+      "coefficient": 0.0
+    },
+    {
+      "feature": "atr_pct_missing",
+      "log_odds_contribution": 0.0,
+      "coefficient": 0.0
+    },
+    {
+      "feature": "bank_nifty_relative1_missing",
+      "log_odds_contribution": 0.0,
+      "coefficient": 0.0
+    },
+    {
+      "feature": "bank_nifty_relative5_missing",
+      "log_odds_contribution": 0.0,
+      "coefficient": 0.0
+    },
+    {
+      "feature": "nifty_auto_relative1_missing",
+      "log_odds_contribution": 0.0,
+      "coefficient": 0.0
+    },
+    {
+      "feature": "nifty_auto_relative5_missing",
+      "log_odds_contribution": 0.0,
+      "coefficient": 0.0
+    },
+    {
+      "feature": "nifty_energy_relative1_missing",
+      "log_odds_contribution": 0.0,
+      "coefficient": 0.0
+    },
+    {
+      "feature": "nifty_energy_relative5_missing",
+      "log_odds_contribution": 0.0,
+      "coefficient": 0.0
+    },
+    {
+      "feature": "nifty_financial_relative1_missing",
+      "log_odds_contribution": 0.0,
+      "coefficient": 0.0
+    },
+    {
+      "feature": "nifty_financial_relative5_missing",
+      "log_odds_contribution": 0.0,
+      "coefficient": 0.0
+    },
+    {
+      "feature": "nifty_fmcg_relative1_missing",
+      "log_odds_contribution": 0.0,
+      "coefficient": 0.0
+    },
+    {
+      "feature": "nifty_fmcg_relative5_missing",
+      "log_odds_contribution": 0.0,
+      "coefficient": 0.0
+    },
+    {
+      "feature": "nifty_it_relative1_missing",
+      "log_odds_contribution": 0.0,
+      "coefficient": 0.0
+    },
+    {
+      "feature": "nifty_it_relative5_missing",
+      "log_odds_contribution": 0.0,
+      "coefficient": 0.0
+    },
+    {
+      "feature": "nifty_metal_relative1_missing",
+      "log_odds_contribution": 0.0,
+      "coefficient": 0.0
+    },
+    {
+      "feature": "nifty_metal_relative5_missing",
+      "log_odds_contribution": 0.0,
+      "coefficient": 0.0
+    },
+    {
+      "feature": "nifty_pharma_relative1_missing",
+      "log_odds_contribution": 0.0,
+      "coefficient": 0.0
+    },
+    {
+      "feature": "nifty_pharma_relative5_missing",
+      "log_odds_contribution": 0.0,
+      "coefficient": 0.0
+    },
+    {
+      "feature": "nifty_psu_bank_relative1_missing",
+      "log_odds_contribution": 0.0,
+      "coefficient": 0.0
+    },
+    {
+      "feature": "nifty_psu_bank_relative5_missing",
+      "log_odds_contribution": 0.0,
+      "coefficient": 0.0
+    },
+    {
+      "feature": "nifty_realty_relative1_missing",
+      "log_odds_contribution": 0.0,
+      "coefficient": 0.0
+    },
+    {
+      "feature": "nifty_realty_relative5_missing",
+      "log_odds_contribution": 0.0,
+      "coefficient": 0.0
+    },
+    {
+      "feature": "nifty_500_relative1_missing",
+      "log_odds_contribution": 0.0,
+      "coefficient": 0.0
+    },
+    {
+      "feature": "nifty_500_relative5_missing",
+      "log_odds_contribution": 0.0,
+      "coefficient": 0.0
+    },
+    {
+      "feature": "sector_positive_fraction_missing",
+      "log_odds_contribution": 0.0,
+      "coefficient": 0.0
+    },
+    {
+      "feature": "sector_dispersion_missing",
+      "log_odds_contribution": 0.0,
+      "coefficient": 0.0
+    },
+    {
+      "feature": "vix_level_missing",
+      "log_odds_contribution": 0.0,
+      "coefficient": 0.0
+    },
+    {
+      "feature": "vix_change1_missing",
+      "log_odds_contribution": 0.0,
+      "coefficient": 0.0
+    },
+    {
+      "feature": "vix_change5_missing",
+      "log_odds_contribution": 0.0,
+      "coefficient": 0.0
+    },
+    {
+      "feature": "lagged_global_brent_return1_missing",
+      "log_odds_contribution": 0.0,
+      "coefficient": 0.0
+    },
+    {
+      "feature": "lagged_global_brent_return5_missing",
+      "log_odds_contribution": 0.0,
+      "coefficient": 0.0
+    },
+    {
+      "feature": "lagged_global_brent_vol20_missing",
+      "log_odds_contribution": 0.0,
+      "coefficient": 0.0
+    },
+    {
+      "feature": "lagged_global_dow_return1_missing",
+      "log_odds_contribution": 0.0,
+      "coefficient": 0.0
+    },
+    {
+      "feature": "lagged_global_dow_return5_missing",
+      "log_odds_contribution": 0.0,
+      "coefficient": 0.0
+    },
+    {
+      "feature": "lagged_global_dow_vol20_missing",
+      "log_odds_contribution": 0.0,
+      "coefficient": 0.0
+    },
+    {
+      "feature": "lagged_global_gift_nifty_return1_missing",
+      "log_odds_contribution": 0.0,
+      "coefficient": 0.0
+    },
+    {
+      "feature": "lagged_global_gift_nifty_return5_missing",
+      "log_odds_contribution": 0.0,
+      "coefficient": 0.0
+    },
+    {
+      "feature": "lagged_global_gift_nifty_vol20_missing",
+      "log_odds_contribution": 0.0,
+      "coefficient": 0.0
+    },
+    {
+      "feature": "lagged_global_hang_seng_return1_missing",
+      "log_odds_contribution": 0.0,
+      "coefficient": 0.036484087181345874
+    },
+    {
+      "feature": "lagged_global_hang_seng_return5_missing",
+      "log_odds_contribution": 0.0,
+      "coefficient": 0.036484087181345874
+    },
+    {
+      "feature": "lagged_global_hang_seng_vol20_missing",
+      "log_odds_contribution": 0.0,
+      "coefficient": 0.036484087181345874
+    },
+    {
+      "feature": "lagged_global_sp500_return1_missing",
+      "log_odds_contribution": 0.0,
+      "coefficient": 0.0
+    },
+    {
+      "feature": "lagged_global_sp500_return5_missing",
+      "log_odds_contribution": 0.0,
+      "coefficient": 0.0
+    },
+    {
+      "feature": "lagged_global_sp500_vol20_missing",
+      "log_odds_contribution": 0.0,
+      "coefficient": 0.0
+    },
+    {
+      "feature": "lagged_global_usdinr_return1_missing",
+      "log_odds_contribution": -0.0,
+      "coefficient": -0.13459224350832022
+    },
+    {
+      "feature": "lagged_global_usdinr_return5_missing",
+      "log_odds_contribution": -0.0,
+      "coefficient": -0.13459224350832022
+    },
+    {
+      "feature": "lagged_global_usdinr_vol20_missing",
+      "log_odds_contribution": -0.0,
+      "coefficient": -0.13459224350832036
+    }
+  ]
+}

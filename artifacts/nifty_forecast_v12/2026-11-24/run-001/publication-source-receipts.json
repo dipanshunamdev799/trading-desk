@@ -1,0 +1,82 @@
+[
+  {
+    "name": "nse-2025-calendar",
+    "source": "https://nsearchives.nseindia.com/content/circulars/CMTR65587.pdf",
+    "http_status": 200,
+    "retrieved": "2026-11-25T00:00:37.744562+05:30",
+    "path": "sources/docs/nse-2025-calendar.pdf",
+    "sha256": "1e0f85615fbbcde9243dd6cafbbad4d9b581b8d2467fd9e27c0a4fe42a720c7d"
+  },
+  {
+    "name": "nse-2026-calendar",
+    "source": "https://nsearchives.nseindia.com/content/circulars/CMTR71775.pdf",
+    "http_status": 200,
+    "retrieved": "2026-11-25T00:00:38.049641+05:30",
+    "path": "sources/docs/nse-2026-calendar.pdf",
+    "sha256": "aa97e0afc0ce394097f2fc62631c68e3c2e4c7c23541ed35f21d9fc06b0dcacb"
+  },
+  {
+    "name": "fomc-schedule-2025-26",
+    "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240809a.htm",
+    "http_status": 200,
+    "retrieved": "2026-11-25T00:00:38.553904+05:30",
+    "path": "sources/docs/fomc-schedule-2025-26.html",
+    "sha256": "b91fad3dc50fa6902b20d9f14915514eb95d27199b1f4aaef3b559798aee88d5"
+  },
+  {
+    "name": "rbi-2025-schedule",
+    "source": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=60062",
+    "http_status": 200,
+    "retrieved": "2026-11-25T00:00:39.205986+05:30",
+    "path": "sources/docs/rbi-2025-schedule.html",
+    "sha256": "2fac634a98424c657602e05f64039225d70ed0daba2b85f2072355db9c50753e"
+  },
+  {
+    "name": "rbi-2026-schedule",
+    "source": "https://www.rbi.org.in/Scripts/FS_PressRelease.aspx?prid=62422",
+    "http_status": 200,
+    "retrieved": "2026-11-25T00:00:40.359126+05:30",
+    "path": "sources/docs/rbi-2026-schedule.html",
+    "sha256": "dcb636e219ec2f274cee29953537bb84dba98ff509a57bda827a8a82101f9fce"
+  },
+  {
+    "name": "india-vix-methodology",
+    "source": "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/India_VIX_comp_meth.pdf",
+    "http_status": 200,
+    "retrieved": "2026-11-25T00:00:40.851496+05:30",
+    "path": "sources/docs/india-vix-methodology.pdf",
+    "sha256": "ca0ce0d0cfa9a4fccead232bd4941fdc3e34cee903c0dbf3f3e343c27aa2b145"
+  },
+  {
+    "name": "index-review-calendar",
+    "source": "https://www.niftyindices.com/resources/index-rebalancing-schedule",
+    "http_status": 200,
+    "retrieved": "2026-11-25T00:00:41.705062+05:30",
+    "path": "sources/docs/index-review-calendar.html",
+    "sha256": "9f78b0b9e0cf54f2d95a4c049e4a62e455f08e579264cadead71efa2c7d3dabc"
+  },
+  {
+    "name": "nse-amendment-2026-01-15",
+    "source": "https://nsearchives.nseindia.com/content/circulars/CMTR72260.pdf",
+    "http_status": 200,
+    "retrieved": "2026-11-25T00:00:42.237198+05:30",
+    "path": "sources/docs/nse-amendment-2026-01-15.pdf",
+    "sha256": "c5d32a838b46d5044717b830a4793479a51a40f8e4e19d3896c65682d15b6ebc"
+  },
+  {
+    "name": "nse-amendment-2026-02-01",
+    "source": "https://nsearchives.nseindia.com/content/circulars/CMTR72349.pdf",
+    "http_status": 200,
+    "retrieved": "2026-11-25T00:00:42.510521+05:30",
+    "path": "sources/docs/nse-amendment-2026-02-01.pdf",
+    "sha256": "70458f7b8126f47584d4bc402a78dde357e42dbebaa5d53cfce0c70c82dabfc3"
+  },
+  {
+    "name": "nse-amendment-2025-10-21",
+    "source": "https://nsearchives.nseindia.com/content/circulars/CMTR70319.pdf",
+    "http_status": 200,
+    "retrieved": "2026-11-25T00:00:43.685932+05:30",
+    "path": "sources/docs/nse-amendment-2025-10-21.pdf",
+    "sha256": "19b7d88003cb05eb8c6abdc8d1bfad5df821a17e4f9ae36f75e327a68a48d258"
+  }
+]

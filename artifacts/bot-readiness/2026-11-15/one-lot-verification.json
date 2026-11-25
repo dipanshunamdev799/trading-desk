@@ -1,0 +1,43 @@
+{
+  "verified_at": "2026-11-15T12:12:09.493156+05:30",
+  "running_paper_workers": 11,
+  "max_lots": 1,
+  "fixed_unit_cap": null,
+  "per_trade_loss_budget": 15000,
+  "daily_loss_budget": 30000,
+  "ui_verified": {
+    "Maximum lots": 1,
+    "Maximum planned trade loss": 15000,
+    "Maximum daily loss": 30000,
+    "mode": "Paper"
+  },
+  "dynamic_contract_lot_sizes_tested": [
+    25,
+    65,
+    175,
+    1000
+  ],
+  "fno_tests_passed": 46,
+  "production_build": "passed",
+  "assets": {
+    "ok": true,
+    "pages": [
+      "/trading-bots",
+      "/investment-bots"
+    ],
+    "assets": [
+      "/_next/static/css/6007cbd5214f4730.css",
+      "/_next/static/css/5a8e036a6fe382b7.css",
+      "/_next/static/css/c871a040c0c6ac67.css",
+      "/_next/static/chunks/fd9d1056-c4b50fce1a8bd188.js",
+      "/_next/static/chunks/117-ccc9672aa0aa5965.js",
+      "/_next/static/chunks/main-app-d1c6bbe720ae54d1.js",
+      "/_next/static/chunks/448-125c62288d3064d9.js",
+      "/_next/static/chunks/752-568fcead53444c1e.js",
+      "/_next/static/chunks/app/trading-bots/page-5765a8d2b7ef479e.js",
+      "/_next/static/chunks/polyfills-42372ed130431b0a.js",
+      "/_next/static/chunks/webpack-b2dcc9b59e77e972.js",
+      "/_next/static/chunks/app/investment-bots/page-05c7d1ee2390643f.js"
+    ]
+  }
+}

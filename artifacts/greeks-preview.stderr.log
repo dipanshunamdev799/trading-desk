@@ -1,0 +1,10 @@
+127.0.0.1 - - [24/Oct/2026 19:18:20] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [24/Oct/2026 19:18:20] "GET /fixture.js HTTP/1.1" 200 -
+127.0.0.1 - - [24/Oct/2026 19:18:20] "GET /style.css HTTP/1.1" 200 -
+127.0.0.1 - - [24/Oct/2026 19:18:20] "GET /react.js HTTP/1.1" 200 -
+127.0.0.1 - - [24/Oct/2026 19:18:20] "GET /react-dom.js HTTP/1.1" 200 -
+127.0.0.1 - - [24/Oct/2026 19:18:22] "GET /echarts.js HTTP/1.1" 200 -
+127.0.0.1 - - [24/Oct/2026 19:18:22] code 404, message File not found
+127.0.0.1 - - [24/Oct/2026 19:18:22] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [24/Oct/2026 19:23:58] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [24/Oct/2026 19:23:58] "GET /fixture.js HTTP/1.1" 200 -

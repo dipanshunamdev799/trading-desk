@@ -1,0 +1,868 @@
+strategy,dimension,bucket,trades,sessions,net_pnl,mean_net_bps,sparse,selection_use
+H1-F-main-long,time,morning,605,326,-638124.2168943841,-24.480003925823006,False,False
+H1-F-main-long,market_direction,down,141,100,-203631.93594642624,-30.98052822680863,False,False
+H1-F-main-long,market_volatility,normal,405,217,-437418.3258416989,-25.012796082055093,False,False
+H1-F-main-long,liquidity,ADV>=100crore,594,323,-632579.3752026208,-25.21535856849867,False,False
+H1-F-main-long,price,>=500,413,277,-411917.56919391965,-22.834779431309293,False,False
+H1-F-main-long,sector,Industrial Manufacturing,17,17,-38688.93780265932,-37.905769781594536,True,False
+H1-F-main-long,gap,intraday_built,578,314,-600388.3731237528,-24.583708195795488,False,False
+H1-F-main-long,rvol,<3,327,234,-343297.77701267006,-23.947977630528193,False,False
+H1-F-main-long,trend_efficiency,trend,469,302,-516497.83922412543,-25.203974838525788,False,False
+H1-F-main-long,entry_stage,3-5%,247,176,-282895.0665830575,-27.195594801013094,False,False
+H1-F-main-long,market_direction,up,476,256,-446692.16840301343,-23.08772713010934,False,False
+H1-F-main-long,sector,Healthcare Services,11,11,-6357.852408203608,-13.056411563349712,True,False
+H1-F-main-long,entry_stage,<3%,370,256,-367429.0377663821,-23.35324507584278,False,False
+H1-F-main-long,sector,Finance,44,41,-26775.213318459853,-18.477345576922254,False,False
+H1-F-main-long,rvol,>=3,290,211,-307026.32733676955,-25.955254857687397,False,False
+H1-F-main-long,sector,Financial Technology (Fintech),19,19,-19546.626900649426,-16.832469152605835,True,False
+H1-F-main-long,sector,Automobiles,40,38,-33394.27384136768,-25.37945081551686,False,False
+H1-F-main-long,price,<500,204,159,-238406.53515552,-29.05514063128101,False,False
+H1-F-main-long,sector,Oil,2,2,-7507.041308000747,-64.38829127191028,True,False
+H1-F-main-long,trend_efficiency,range,26,26,-22277.45845519933,-17.924433621678187,True,False
+H1-F-main-long,sector,Petroleum Products,18,17,-7324.04644972065,-13.388599216892006,True,False
+H1-F-main-long,sector,Diversified FMCG,6,6,-9817.644101789861,-33.230624608996784,True,False
+H1-F-main-long,sector,IT - Software,59,48,-36794.544685136076,-19.03913230539876,False,False
+H1-F-main-long,trend_efficiency,mixed,122,108,-111548.80667011486,-25.174697708851127,False,False
+H1-F-main-long,sector,Metals & Minerals Trading,10,10,12400.118008261354,28.818568407774308,True,False
+H1-F-main-long,sector,Transport Infrastructure,10,10,-16537.906616332384,-39.31710226965276,True,False
+H1-F-main-long,sector,Power,34,31,-9189.393828606613,-11.739985342200951,False,False
+H1-F-main-long,sector,Banks,45,43,-62462.28746135893,-33.49742463905607,False,False
+H1-F-main-long,sector,Transport Services,4,4,2658.728362617667,-3.9172988793815344,True,False
+H1-F-main-long,time,midday,12,12,-12199.88745505556,-45.63418489909535,True,False
+H1-F-main-long,sector,Electrical Equipment,33,31,-45183.24310993782,-28.303491504814765,False,False
+H1-F-main-long,sector,Construction,11,11,-22848.439340206776,-30.384408820885497,True,False
+H1-F-main-long,sector,Food Products,5,5,-3816.0229760418333,-25.260878641772656,True,False
+H1-F-main-long,sector,Aerospace & Defense,20,20,-24609.766319889943,-24.654000473569855,True,False
+H1-F-main-long,sector,Consumer Durables,38,36,-47186.682120654514,-24.976993318445114,False,False
+H1-F-main-long,sector,Realty,25,25,-29476.93465493018,-39.08276636974115,True,False
+H1-F-main-long,sector,Retailing,19,18,-29703.150924950507,-36.42441549529334,True,False
+H1-F-main-long,gap,gap>=2%,39,35,-49935.731225686846,-29.45203222416081,False,False
+H1-F-main-long,sector,Telecom - Services,18,18,-11686.036026053474,-15.669963514096729,True,False
+H1-F-main-long,sector,Ferrous Metals,19,18,-25956.98906157552,-26.433577489000648,True,False
+H1-F-main-long,sector,Leisure Services,5,5,-2447.2727626448022,-6.4042532185064145,True,False
+H1-F-main-long,sector,Capital Markets,30,29,-52823.30616302184,-40.397751352108585,True,False
+H1-F-main-long,sector,Pharmaceuticals & Biotechnology,14,14,-6307.46299936377,-15.835633866984859,True,False
+H1-F-main-long,sector,Gas,4,4,-10044.601020018526,-27.40625104562055,True,False
+H1-F-main-long,sector,Cement & Cement Products,3,3,-7097.715710671,-48.6438064029499,True,False
+H1-F-main-long,sector,Diversified Metals,12,12,-19427.801786216158,-36.22506486858053,True,False
+H1-F-main-long,sector,Non - Ferrous Metals,11,11,-14292.81558428871,-23.57076176611963,True,False
+H1-F-main-long,sector,Beverages,8,8,-11623.984555618017,-34.160773062460784,True,False
+H1-F-main-long,market_volatility,high,54,25,-50297.28788029817,-27.001810716959906,True,False
+H1-F-main-long,sector,Consumable Fuels,7,7,-5821.157219031754,-26.777859104208204,True,False
+H1-F-main-long,sector,Auto Components,6,6,-1982.499470175361,-12.45172120832604,True,False
+H1-F-main-long,market_volatility,low,158,86,-162608.49062744257,-23.859065835214665,False,False
+H1-F-main-long,liquidity,ADV<100crore,23,23,-17744.729146818856,-16.52563496625449,True,False
+H1-F-main-long,sector,Minerals & Mining,4,4,-7857.418573508485,-46.55106938657262,True,False
+H1-F-main-long,sector,Industrial Products,2,2,-5708.160725598461,-64.5484206278071,True,False
+H1-F-main-long,sector,Insurance,4,4,-5085.720893636068,-36.554655222359756,True,False
+H1-S-main-long,time,morning,297,255,-217442.089169996,-17.15429804761349,False,False
+H1-S-main-long,market_direction,up,252,203,-196565.82073436107,-18.01266848454711,False,False
+H1-S-main-long,market_volatility,normal,212,174,-187533.16099888374,-20.394883273465425,False,False
+H1-S-main-long,liquidity,ADV>=100crore,301,251,-267858.34588952677,-20.496799990929617,False,False
+H1-S-main-long,price,>=500,215,191,-158405.5585733341,-16.500188882370566,False,False
+H1-S-main-long,sector,Healthcare Services,5,5,-13442.459576424268,-51.42088948519937,True,False
+H1-S-main-long,gap,intraday_built,289,245,-246730.44907608646,-19.398370463798035,False,False
+H1-S-main-long,rvol,<3,187,168,-152478.3894330577,-16.484661078203708,False,False
+H1-S-main-long,trend_efficiency,trend,228,214,-190156.97101980762,-19.370485864172807,False,False
+H1-S-main-long,entry_stage,<3%,216,196,-155080.9790390234,-15.884594421351203,False,False
+H1-S-main-long,sector,Finance,22,20,-11825.950573960656,-12.83543642464225,True,False
+H1-S-main-long,rvol,>=3,125,117,-98879.56309578342,-21.190076351437316,False,False
+H1-S-main-long,entry_stage,3-5%,96,86,-96276.97348981768,-23.961653859811435,False,False
+H1-S-main-long,sector,Consumer Durables,21,21,1762.4946694115206,0.19886996675267893,True,False
+H1-S-main-long,market_direction,down,60,60,-54792.13179448004,-19.869978457464768,False,False
+H1-S-main-long,sector,Petroleum Products,7,7,-6944.936005060809,-21.614222207374887,True,False
+H1-S-main-long,price,<500,97,92,-92952.393955507,-22.513923256124603,False,False
+H1-S-main-long,sector,IT - Software,35,31,-40699.74478957932,-25.69474007274299,False,False
+H1-S-main-long,trend_efficiency,mixed,69,68,-73738.56051146326,-23.322748268095882,False,False
+H1-S-main-long,sector,Ferrous Metals,10,10,-4266.968124218152,-10.347563705655578,True,False
+H1-S-main-long,sector,Transport Infrastructure,5,5,-6393.349812376661,-35.63159551036331,True,False
+H1-S-main-long,sector,Capital Markets,13,13,-34123.02510930957,-63.92066828750741,True,False
+H1-S-main-long,gap,gap>=2%,23,21,-4627.503452754647,-5.446178326788126,True,False
+H1-S-main-long,trend_efficiency,range,15,15,12537.579002429788,19.623282798417154,True,False
+H1-S-main-long,sector,Leisure Services,5,5,16452.012760428675,77.65576161942016,True,False
+H1-S-main-long,sector,Consumable Fuels,4,4,-735.4091572877262,11.85852284867353,True,False
+H1-S-main-long,sector,Financial Technology (Fintech),6,6,-2043.000647184363,-4.55934014296128,True,False
+H1-S-main-long,sector,Banks,25,25,-37417.113741505425,-38.64509614694315,True,False
+H1-S-main-long,sector,Power,12,12,16381.459876174837,37.21015665920758,True,False
+H1-S-main-long,time,midday,15,15,-33915.86335884509,-42.437643027503434,True,False
+H1-S-main-long,sector,Electrical Equipment,16,15,-15558.07168626047,-15.168479337487184,True,False
+H1-S-main-long,sector,Construction,9,9,-4105.300534859887,-11.833783944239327,True,False
+H1-S-main-long,sector,Automobiles,24,24,-5599.322089922034,-3.4047416746921804,True,False
+H1-S-main-long,sector,Aerospace & Defense,9,8,-12085.945380692978,-28.798668325001227,True,False
+H1-S-main-long,sector,Realty,9,9,-14919.299765418014,-38.69083289635441,True,False
+H1-S-main-long,sector,Retailing,6,6,-17293.574826749413,-82.24559086534848,True,False
+H1-S-main-long,sector,Pharmaceuticals & Biotechnology,13,13,-13767.37794944072,-20.540716159692217,True,False
+H1-S-main-long,sector,Transport Services,4,4,-6094.797664052444,-48.13719658670994,True,False
+H1-S-main-long,sector,Cement & Cement Products,3,3,-7573.882807019068,-75.46023853913289,True,False
+H1-S-main-long,sector,Diversified FMCG,6,6,-12690.677921649827,-44.188326866350714,True,False
+H1-S-main-long,market_volatility,high,27,22,-26746.476363454807,-25.392590618706656,True,False
+H1-S-main-long,sector,Beverages,4,4,2003.045336205862,9.853151365829936,True,False
+H1-S-main-long,sector,Telecom - Services,6,6,16274.218315473898,56.03587193607323,True,False
+H1-S-main-long,sector,Non - Ferrous Metals,5,5,-8698.881822996727,-42.324171598611336,True,False
+H1-S-main-long,sector,Industrial Products,1,1,-4573.467050111118,-99.30660215525907,True,False
+H1-S-main-long,market_volatility,low,73,64,-37078.31516650255,-9.891451573616543,False,False
+H1-S-main-long,sector,Food Products,2,2,-6907.810650334525,-72.07125130741514,True,False
+H1-S-main-long,sector,Industrial Manufacturing,5,5,-10603.455010871581,-52.43076464992637,True,False
+H1-S-main-long,sector,Diversified Metals,4,4,-5370.756318528726,-34.71218188152234,True,False
+H1-S-main-long,liquidity,ADV<100crore,11,11,16500.393360685644,39.83142106509616,True,False
+H1-S-main-long,sector,Metals & Minerals Trading,5,5,919.0281375198263,1.6825851969928234,True,False
+H1-S-main-long,sector,Auto Components,3,3,-6227.305883652334,-63.92986735963459,True,False
+H1-S-main-long,sector,Minerals & Mining,2,2,-2294.2930379571144,-29.16339060958186,True,False
+H1-S-main-long,sector,Oil,1,1,1354.3462827712672,43.068439032925255,True,False
+H1-S-main-long,sector,Insurance,4,4,2871.7322505589764,23.550460615550236,True,False
+H1-S-main-long,sector,Gas,1,1,2879.8877800379796,146.1422461754997,True,False
+H1-A-main-long,time,morning,361,300,-378464.5275484366,-26.680528313137305,False,False
+H1-A-main-long,market_direction,up,282,229,-251152.10985411264,-21.973059957347985,False,False
+H1-A-main-long,market_volatility,normal,243,200,-244819.69909560765,-26.345802634064878,False,False
+H1-A-main-long,liquidity,ADV>=100crore,359,292,-395454.48492050986,-27.12845107461375,False,False
+H1-A-main-long,price,>=500,246,220,-259094.5799008524,-26.634691588734285,False,False
+H1-A-main-long,sector,Healthcare Services,8,8,-2777.7549264288373,10.309211013757714,True,False
+H1-A-main-long,gap,intraday_built,350,284,-378231.3902441053,-26.968897724321213,False,False
+H1-A-main-long,rvol,<3,222,191,-262036.735065469,-27.111318837530735,False,False
+H1-A-main-long,trend_efficiency,trend,289,260,-304308.7387279435,-28.115170628121227,False,False
+H1-A-main-long,entry_stage,<3%,285,237,-305678.34332267125,-26.433992313315827,False,False
+H1-A-main-long,sector,Finance,30,29,-29167.669352962184,-23.75771428054089,True,False
+H1-A-main-long,rvol,>=3,152,141,-130236.30124169448,-24.963818253756312,False,False
+H1-A-main-long,time,midday,13,13,-13808.508758726854,-13.964802727708856,True,False
+H1-A-main-long,sector,Automobiles,26,26,-7783.117326325734,-19.650894275110122,True,False
+H1-A-main-long,sector,Consumer Durables,27,27,-17820.63962083847,-19.321172552532662,True,False
+H1-A-main-long,market_direction,down,92,82,-141120.92645305084,-39.31315487533316,False,False
+H1-A-main-long,trend_efficiency,range,16,16,-19511.486263846236,-29.41074369914214,True,False
+H1-A-main-long,sector,Petroleum Products,8,8,-3418.240819656491,-5.930766971712935,True,False
+H1-A-main-long,sector,Diversified FMCG,6,6,-7829.673909350061,-16.7666555633553,True,False
+H1-A-main-long,price,<500,128,118,-133178.45640631107,-25.477179888079284,False,False
+H1-A-main-long,sector,IT - Software,38,37,-25454.750934579562,-20.969551878277475,False,False
+H1-A-main-long,trend_efficiency,mixed,69,65,-68452.81131537376,-17.64285428680396,False,False
+H1-A-main-long,entry_stage,3-5%,89,84,-86594.69298449226,-25.612644350649134,False,False
+H1-A-main-long,sector,Telecom - Services,9,9,-97.20520433283338,-13.835878087448968,True,False
+H1-A-main-long,sector,Power,17,17,6024.640528550502,7.376470092142826,True,False
+H1-A-main-long,sector,Banks,31,30,-49024.35250331217,-30.789042761106693,False,False
+H1-A-main-long,sector,Capital Markets,13,13,-45374.98867823182,-82.86705339011951,True,False
+H1-A-main-long,sector,Realty,18,18,-28025.97535532431,-41.90832933476059,True,False
+H1-A-main-long,sector,Aerospace & Defense,13,12,-30390.072733727033,-60.47825727841333,True,False
+H1-A-main-long,sector,Construction,5,5,4067.9719335876234,28.520628229781114,True,False
+H1-A-main-long,sector,Retailing,9,9,-1468.1189882840488,0.5581123347696573,True,False
+H1-A-main-long,sector,Electrical Equipment,21,19,-34026.12087353239,-35.03188580473563,True,False
+H1-A-main-long,sector,Ferrous Metals,11,11,-18282.531163231874,-50.0021242845911,True,False
+H1-A-main-long,sector,Pharmaceuticals & Biotechnology,9,9,-6471.833601156958,-20.15086910510934,True,False
+H1-A-main-long,gap,gap>=2%,24,23,-14041.646063058148,-15.587456374598206,True,False
+H1-A-main-long,sector,Financial Technology (Fintech),5,5,4331.106717164,33.8000057673987,True,False
+H1-A-main-long,sector,Leisure Services,3,3,7369.127782606841,60.64827338141216,True,False
+H1-A-main-long,sector,Non - Ferrous Metals,8,8,-13944.925170475384,-46.752657850409605,True,False
+H1-A-main-long,market_volatility,high,27,22,-29629.730296957296,-32.012668214308036,True,False
+H1-A-main-long,sector,Food Products,5,5,-10896.20687615465,-67.80281392370462,True,False
+H1-A-main-long,sector,Insurance,7,7,-9051.346224713538,-31.76998541500436,True,False
+H1-A-main-long,sector,Consumable Fuels,5,5,5199.839172443708,29.560833249529168,True,False
+H1-A-main-long,sector,Beverages,5,5,-7042.151107807375,-30.452385527544624,True,False
+H1-A-main-long,sector,Industrial Products,2,2,-8586.33305140044,-106.70952173834857,True,False
+H1-A-main-long,sector,Diversified Metals,8,8,-20380.631023876467,-58.66189300282589,True,False
+H1-A-main-long,sector,Industrial Manufacturing,6,6,-8279.26820055187,-35.48990109640854,True,False
+H1-A-main-long,market_volatility,low,104,80,-117823.60691459854,-24.488856486910567,False,False
+H1-A-main-long,liquidity,ADV<100crore,15,15,3181.4486133463834,-4.9399480477632,True,False
+H1-A-main-long,sector,Cement & Cement Products,2,2,-4676.449303136056,-77.43119880426285,True,False
+H1-A-main-long,sector,Transport Infrastructure,3,3,-11138.88637650065,-75.89002353499886,True,False
+H1-A-main-long,sector,Metals & Minerals Trading,5,5,-9721.8593188344,-48.08590570015125,True,False
+H1-A-main-long,sector,Auto Components,3,3,-3592.2772134494903,-40.97068037369581,True,False
+H1-A-main-long,sector,Minerals & Mining,6,6,-7906.0531313958545,-32.10129838408406,True,False
+H1-A-main-long,sector,Oil,1,1,2046.9453816228715,58.54019921073464,True,False
+H1-A-main-long,sector,Transport Services,1,1,1316.7651664319383,49.908742491215776,True,False
+H2-F-main-long,time,morning,502,305,-450836.01608529175,-22.671948235896945,False,False
+H2-F-main-long,market_direction,up,637,264,-559268.1999429722,-24.95813724897791,False,False
+H2-F-main-long,market_volatility,normal,543,226,-470719.4302978597,-23.98594663338271,False,False
+H2-F-main-long,liquidity,ADV>=100crore,802,343,-701406.7177005308,-24.074047177150785,False,False
+H2-F-main-long,price,>=500,528,296,-465094.69311070634,-23.396512590822592,False,False
+H2-F-main-long,sector,Banks,69,62,-58816.61364086603,-29.004115905269064,False,False
+H2-F-main-long,gap,intraday_built,751,337,-637297.3548638746,-24.11626923807901,False,False
+H2-F-main-long,rvol,<3,554,304,-426448.9953147641,-22.81449982261118,False,False
+H2-F-main-long,trend_efficiency,trend,143,128,-138063.49658605148,-26.652864407316954,False,False
+H2-F-main-long,entry_stage,<3%,586,329,-541193.074200467,-25.851770940030807,False,False
+H2-F-main-long,market_direction,down,198,136,-161631.08718603512,-21.330722537128604,False,False
+H2-F-main-long,price,<500,307,219,-255804.59401830097,-25.304422938097925,False,False
+H2-F-main-long,sector,Oil,5,5,13012.903343849883,29.939971579086922,True,False
+H2-F-main-long,rvol,>=3,281,205,-294450.2918142432,-26.628411345992166,False,False
+H2-F-main-long,trend_efficiency,range,261,198,-221631.99191003817,-24.688297563693517,False,False
+H2-F-main-long,sector,Consumer Durables,60,57,-76605.62824274202,-32.394178316956236,False,False
+H2-F-main-long,entry_stage,3-5%,233,186,-168519.72112079847,-18.88107114584332,False,False
+H2-F-main-long,trend_efficiency,mixed,431,287,-361203.79863291763,-22.892833446821484,False,False
+H2-F-main-long,sector,Automobiles,40,38,-37821.22076222383,-25.215997805224838,False,False
+H2-F-main-long,sector,IT - Software,58,50,-46866.36137218239,-18.46292860720383,False,False
+H2-F-main-long,time,midday,333,252,-270063.27104371553,-26.247743169760135,False,False
+H2-F-main-long,sector,Non - Ferrous Metals,19,19,-11443.407848772375,-19.49029555401844,True,False
+H2-F-main-long,sector,Ferrous Metals,31,28,-29023.56301991989,-24.673213792662647,True,False
+H2-F-main-long,sector,Electrical Equipment,43,40,-22045.238265739743,-17.637496323236046,False,False
+H2-F-main-long,sector,Retailing,28,28,-18904.670686271656,-15.657097970281162,True,False
+H2-F-main-long,gap,gap>=2%,84,66,-83601.9322651327,-23.934503478012537,False,False
+H2-F-main-long,sector,Finance,53,46,-54381.45315642029,-30.584148134130025,False,False
+H2-F-main-long,sector,Healthcare Services,14,14,-23510.80651619088,-36.36506997496163,True,False
+H2-F-main-long,sector,Capital Markets,45,43,-10638.604058268496,-5.216053661623463,False,False
+H2-F-main-long,sector,Cement & Cement Products,5,5,-6995.660621271554,-26.34129875152189,True,False
+H2-F-main-long,sector,Construction,17,17,-17738.30576863293,-20.21967259111056,True,False
+H2-F-main-long,sector,Power,35,32,-10933.229212038097,-12.87933799981361,False,False
+H2-F-main-long,sector,Telecom - Services,34,32,-52371.21384256468,-43.95185761867965,False,False
+H2-F-main-long,sector,Realty,34,30,-22247.690073954433,-21.94849608941151,False,False
+H2-F-main-long,sector,Aerospace & Defense,18,18,-25482.315671123226,-29.883345399877175,True,False
+H2-F-main-long,sector,Pharmaceuticals & Biotechnology,25,24,-13776.616293110621,-17.820571530584115,True,False
+H2-F-main-long,entry_stage,>=5%,16,15,-11186.491807741868,-35.83682138192774,True,False
+H2-F-main-long,sector,Beverages,13,13,-18605.457104645284,-31.743266661529223,True,False
+H2-F-main-long,sector,Industrial Products,8,8,660.3921375058306,-2.5217169928422045,True,False
+H2-F-main-long,sector,Petroleum Products,33,27,-45437.17653498884,-39.505160482680516,True,False
+H2-F-main-long,sector,Industrial Manufacturing,23,23,-31225.24083820709,-35.46575226849084,True,False
+H2-F-main-long,sector,Financial Technology (Fintech),24,24,-18495.935322265283,-24.160442486009014,True,False
+H2-F-main-long,sector,Insurance,10,9,-7532.534118469595,-18.267604802538024,True,False
+H2-F-main-long,sector,Minerals & Mining,6,6,-6344.647924296247,-8.22635040763022,True,False
+H2-F-main-long,sector,Leisure Services,7,7,-5262.712641311129,-26.744013485175426,True,False
+H2-F-main-long,sector,Auto Components,13,13,-12129.150751217152,-21.028416270709155,True,False
+H2-F-main-long,sector,Diversified Metals,14,14,-12844.686445267602,-25.564835546819783,True,False
+H2-F-main-long,market_volatility,high,71,26,-29854.82112363958,-15.913995339526469,True,False
+H2-F-main-long,sector,Transport Infrastructure,11,11,9309.127100180562,2.036696349393944,True,False
+H2-F-main-long,sector,Consumable Fuels,8,8,-11675.786434107105,-41.85687874749024,True,False
+H2-F-main-long,sector,Gas,3,3,-3366.791918859532,-1.1497009765836406,True,False
+H2-F-main-long,sector,Transport Services,7,7,-9031.281377375813,-26.425321639505892,True,False
+H2-F-main-long,market_volatility,low,221,94,-220325.03570750798,-27.002505877453387,False,False
+H2-F-main-long,sector,Diversified FMCG,10,9,-4685.511048841361,-17.8047226374131,True,False
+H2-F-main-long,liquidity,ADV<100crore,33,32,-19492.569428476472,-24.679716784104954,False,False
+H2-F-main-long,sector,Metals & Minerals Trading,8,8,-13357.141507817225,-59.537292068028925,True,False
+H2-F-main-long,sector,Food Products,4,4,-4285.056690581173,-15.561488772344951,True,False
+H2-S-main-long,time,morning,407,292,-295112.76976442325,-20.87139001031733,False,False
+H2-S-main-long,market_direction,up,579,257,-497717.97867521737,-24.290311788756203,False,False
+H2-S-main-long,market_volatility,normal,488,222,-377832.4691092073,-21.947817054517724,False,False
+H2-S-main-long,liquidity,ADV>=100crore,719,335,-597112.6346166758,-22.695972741719586,False,False
+H2-S-main-long,price,>=500,490,282,-382693.88728517946,-20.035815965323213,False,False
+H2-S-main-long,sector,Banks,69,61,-76922.30188110315,-29.278282981424358,False,False
+H2-S-main-long,gap,intraday_built,691,329,-548477.5105686471,-22.689832391771546,False,False
+H2-S-main-long,rvol,<3,492,285,-359449.5866592352,-20.45127044003775,False,False
+H2-S-main-long,trend_efficiency,trend,121,110,-108029.52410258392,-23.123925805775514,False,False
+H2-S-main-long,entry_stage,<3%,534,315,-468237.747363487,-24.890990201475475,False,False
+H2-S-main-long,market_direction,down,179,126,-122181.36865559044,-18.751769972239973,False,False
+H2-S-main-long,price,<500,268,204,-237205.4600456284,-28.369804207882183,False,False
+H2-S-main-long,sector,Oil,7,7,5667.391846605359,29.593743387977756,True,False
+H2-S-main-long,rvol,>=3,266,193,-260449.76067157264,-27.664031181286553,False,False
+H2-S-main-long,trend_efficiency,range,236,185,-170245.61683159755,-20.251261687407812,False,False
+H2-S-main-long,trend_efficiency,mixed,401,277,-341624.20639662637,-24.547043815445683,False,False
+H2-S-main-long,entry_stage,3-5%,210,171,-150909.57342551567,-18.866899748077497,False,False
+H2-S-main-long,sector,Automobiles,35,34,-35918.72280352947,-19.36750447580147,False,False
+H2-S-main-long,sector,IT - Software,53,44,-48000.65800014312,-20.44803708600848,False,False
+H2-S-main-long,time,midday,351,272,-324786.57756638457,-25.430204035674198,False,False
+H2-S-main-long,sector,Transport Infrastructure,9,9,6634.078149270398,0.8412956024789793,True,False
+H2-S-main-long,sector,Minerals & Mining,7,7,-971.554810565844,-13.385875073304579,True,False
+H2-S-main-long,sector,Realty,32,32,-181.02927450263206,3.059685513664599,False,False
+H2-S-main-long,sector,Capital Markets,39,38,-24548.006080688978,-20.45725508681941,False,False
+H2-S-main-long,sector,Healthcare Services,10,10,-8739.622028450829,-14.18175560575294,True,False
+H2-S-main-long,sector,Cement & Cement Products,2,2,-5894.199973320858,-44.15468354556366,True,False
+H2-S-main-long,sector,Construction,14,14,-10719.260183577071,-25.8842071746129,True,False
+H2-S-main-long,sector,Retailing,23,23,-8627.061306487622,-6.455857109985336,True,False
+H2-S-main-long,sector,Power,33,31,-2911.589788562205,-12.149304579384278,False,False
+H2-S-main-long,sector,Telecom - Services,27,26,-28529.909627359884,-29.147437882839856,True,False
+H2-S-main-long,sector,Electrical Equipment,36,35,-37300.99007486606,-26.57441094697948,False,False
+H2-S-main-long,entry_stage,>=5%,14,13,-752.026541805119,-11.915688288329957,True,False
+H2-S-main-long,sector,Finance,56,52,-57662.134101084186,-33.60712978805769,False,False
+H2-S-main-long,sector,Consumer Durables,53,51,-63441.75551909043,-31.46205335263758,False,False
+H2-S-main-long,sector,Aerospace & Defense,19,19,-10440.397399864241,-9.022654508321294,True,False
+H2-S-main-long,sector,Ferrous Metals,24,22,-19782.43081094644,-21.59266749322656,True,False
+H2-S-main-long,sector,Pharmaceuticals & Biotechnology,25,25,-25421.85940641726,-26.96699323756838,True,False
+H2-S-main-long,sector,Non - Ferrous Metals,16,15,-11291.591741467439,-29.6255313646938,True,False
+H2-S-main-long,gap,gap>=2%,67,53,-71421.83676216078,-25.99974877621878,False,False
+H2-S-main-long,sector,Petroleum Products,27,24,-16534.13000585595,-26.598477013317567,True,False
+H2-S-main-long,sector,Industrial Manufacturing,25,25,-3845.53318901075,-4.624358398934298,True,False
+H2-S-main-long,sector,Insurance,13,12,-10839.484681201278,-18.748575840028135,True,False
+H2-S-main-long,sector,Financial Technology (Fintech),26,26,-15474.089289931253,-21.660930651900294,True,False
+H2-S-main-long,sector,Auto Components,11,11,-10451.924679882242,-28.595735379788792,True,False
+H2-S-main-long,sector,Leisure Services,6,6,-6379.9195957526435,-38.744407811418725,True,False
+H2-S-main-long,sector,Diversified Metals,12,12,-16906.80837818814,-33.41702002383908,True,False
+H2-S-main-long,market_volatility,high,68,26,-41150.37327604251,-19.51109551132378,True,False
+H2-S-main-long,sector,Industrial Products,4,4,-8105.350678755987,-66.66430909042751,True,False
+H2-S-main-long,sector,Metals & Minerals Trading,9,9,-15773.298215789833,-55.56847817791028,True,False
+H2-S-main-long,sector,Beverages,10,10,-14844.418868710318,-34.63883530248639,True,False
+H2-S-main-long,sector,Gas,3,3,-3457.9729619412533,-24.0389076360515,True,False
+H2-S-main-long,market_volatility,low,202,92,-200916.50494555806,-26.65033729379273,False,False
+H2-S-main-long,liquidity,ADV<100crore,39,38,-22786.712714132096,-28.26289613908755,False,False
+H2-S-main-long,sector,Diversified FMCG,10,10,-10845.689935923763,-37.82360110082201,True,False
+H2-S-main-long,sector,Transport Services,4,4,-8626.187337524232,-60.857609950179175,True,False
+H2-S-main-long,sector,Consumable Fuels,6,6,-10999.95079490836,-48.53800767330568,True,False
+H2-S-main-long,sector,Food Products,3,3,-1810.9839012798702,-33.389142975433614,True,False
+H2-A-main-long,time,morning,385,294,-290224.44931490486,-22.692529243387497,False,False
+H2-A-main-long,market_direction,up,536,257,-483256.0000063431,-25.631555794808765,False,False
+H2-A-main-long,market_volatility,normal,453,218,-364419.95149863436,-23.703438098994987,False,False
+H2-A-main-long,liquidity,ADV>=100crore,669,328,-540696.0753482607,-22.82917861178815,False,False
+H2-A-main-long,price,>=500,436,273,-409569.8349398442,-25.332530297560186,False,False
+H2-A-main-long,sector,Banks,64,57,-62706.55060493997,-26.367697695372193,False,False
+H2-A-main-long,gap,intraday_built,636,324,-501393.7158426054,-23.211986406492358,False,False
+H2-A-main-long,rvol,<3,466,276,-326379.1663107643,-20.804562719452473,False,False
+H2-A-main-long,trend_efficiency,trend,102,96,-102811.38401119238,-30.141514722659686,False,False
+H2-A-main-long,entry_stage,<3%,498,305,-426592.18530640955,-24.432122228162243,False,False
+H2-A-main-long,market_direction,down,162,123,-90466.5356828801,-17.435986717282724,False,False
+H2-A-main-long,price,<500,262,204,-164152.700749379,-21.061681467484952,False,False
+H2-A-main-long,sector,Oil,5,5,18244.92554684787,51.73200036922594,True,False
+H2-A-main-long,rvol,>=3,232,177,-247343.3693784589,-29.604385892036404,False,False
+H2-A-main-long,trend_efficiency,range,229,173,-193809.56656838118,-26.367105054763208,False,False
+H2-A-main-long,sector,Consumer Durables,50,47,-59473.45543180156,-31.957235746396524,False,False
+H2-A-main-long,trend_efficiency,mixed,367,258,-277101.58510964963,-20.301477370477485,False,False
+H2-A-main-long,sector,Electrical Equipment,38,36,-17254.089402927304,-10.896040851349339,False,False
+H2-A-main-long,sector,Automobiles,30,30,-16727.16842097191,-19.335737589980578,False,False
+H2-A-main-long,sector,IT - Software,44,41,-47393.04263934498,-24.6746091822259,False,False
+H2-A-main-long,time,midday,313,243,-283498.08637431834,-25.00485621569684,False,False
+H2-A-main-long,sector,Non - Ferrous Metals,16,16,-16583.883207161503,-32.41086142599889,True,False
+H2-A-main-long,sector,Transport Infrastructure,7,7,8995.941897462868,27.329086668343898,True,False
+H2-A-main-long,sector,Capital Markets,35,34,-15716.069852064868,-16.58734936902871,False,False
+H2-A-main-long,gap,gap>=2%,62,47,-72328.81984661781,-29.037425801421936,False,False
+H2-A-main-long,entry_stage,3-5%,189,155,-128719.82421328832,-21.361310809694935,False,False
+H2-A-main-long,sector,Insurance,12,12,-3860.8479699237682,-10.345235176447128,True,False
+H2-A-main-long,sector,Healthcare Services,9,9,-5273.795165489454,-22.118129541479192,True,False
+H2-A-main-long,sector,Cement & Cement Products,3,3,-5673.928790970622,-47.596283863010484,True,False
+H2-A-main-long,sector,Construction,15,15,1074.6489342585176,-7.507237473442533,True,False
+H2-A-main-long,sector,Industrial Products,6,6,-6708.68814685633,-29.137973616005834,True,False
+H2-A-main-long,sector,Power,33,31,-23476.631630347096,-28.82855958989108,False,False
+H2-A-main-long,sector,Realty,29,27,-22813.144270388897,-26.564749172892576,True,False
+H2-A-main-long,entry_stage,>=5%,11,11,-18410.526169525325,-32.60537650546908,True,False
+H2-A-main-long,sector,Finance,45,41,-47339.79735733897,-28.816680574230876,False,False
+H2-A-main-long,sector,Pharmaceuticals & Biotechnology,23,23,-17500.403635130526,-15.125125230196572,True,False
+H2-A-main-long,sector,Telecom - Services,23,22,-38147.109747072565,-47.405339699286735,True,False
+H2-A-main-long,sector,Ferrous Metals,24,24,-951.3675166550752,-0.8591240532131567,True,False
+H2-A-main-long,sector,Petroleum Products,32,29,-26858.272309291828,-20.512172150847096,True,False
+H2-A-main-long,sector,Industrial Manufacturing,22,22,-48890.07761081054,-63.057977976882945,True,False
+H2-A-main-long,sector,Retailing,21,21,-4958.657483456212,-5.785452865612981,True,False
+H2-A-main-long,sector,Financial Technology (Fintech),23,23,-19033.75501430328,-27.675834078964098,True,False
+H2-A-main-long,sector,Minerals & Mining,7,7,-6197.7816068513675,-24.834147780416174,True,False
+H2-A-main-long,sector,Aerospace & Defense,16,16,-10344.931547611031,-5.066850579956476,True,False
+H2-A-main-long,sector,Auto Components,11,11,-9384.37261330319,-27.876833562271074,True,False
+H2-A-main-long,sector,Gas,4,4,6077.3860133541,43.970366777116396,True,False
+H2-A-main-long,sector,Leisure Services,5,5,-9874.834347526494,-48.432492687533035,True,False
+H2-A-main-long,market_volatility,high,62,26,-34340.294229385945,-17.30401226468407,True,False
+H2-A-main-long,sector,Metals & Minerals Trading,6,6,-9283.900929238202,-51.81698570270601,True,False
+H2-A-main-long,sector,Consumable Fuels,8,8,-16372.335428760493,-48.10709865005373,True,False
+H2-A-main-long,market_volatility,low,183,89,-174962.2899612029,-25.97069691236151,False,False
+H2-A-main-long,liquidity,ADV<100crore,29,27,-33026.46034096256,-44.49735389417326,True,False
+H2-A-main-long,sector,Diversified FMCG,7,7,-4707.596263578697,-29.233032337236864,True,False
+H2-A-main-long,sector,Diversified Metals,10,10,-10377.364746796997,-26.203759579487116,True,False
+H2-A-main-long,sector,Beverages,9,9,-16340.933478370787,-52.26201468285506,True,False
+H2-A-main-long,sector,Transport Services,4,4,-7074.070946134039,-48.73097049900946,True,False
+H2-A-main-long,sector,Food Products,2,2,-816.5799657280163,-30.403814240685136,True,False
+H4-F-main-long,time,midday,45,40,-49892.01261479951,-14.938154480039286,False,False
+H4-F-main-long,market_direction,up,96,70,-146250.9193931596,-21.29762710065692,False,False
+H4-F-main-long,market_volatility,normal,78,56,-110412.1404240886,-19.509645347920955,False,False
+H4-F-main-long,liquidity,ADV>=100crore,100,76,-176848.72251910155,-24.513572373635306,False,False
+H4-F-main-long,price,>=500,79,65,-131601.48606381507,-22.817845970330147,False,False
+H4-F-main-long,sector,Finance,12,10,-11677.816269359577,-11.093134859726794,True,False
+H4-F-main-long,gap,intraday_built,69,59,-88075.94471492364,-17.297118769060898,False,False
+H4-F-main-long,rvol,>=3,82,63,-111097.43492625737,-18.20734067067371,False,False
+H4-F-main-long,trend_efficiency,trend,74,61,-116474.49132548382,-22.79557391236216,False,False
+H4-F-main-long,entry_stage,>=5%,110,80,-170707.48222047737,-21.66230625496085,False,False
+H4-F-main-long,time,morning,65,55,-120815.46960567785,-26.317488252983477,False,False
+H4-F-main-long,price,<500,31,28,-39105.996156662295,-18.717543754503616,True,False
+H4-F-main-long,sector,Power,8,7,-181.54659565551242,2.561287974149092,True,False
+H4-F-main-long,gap,gap>=2%,41,30,-82631.53750555372,-29.008597389768095,False,False
+H4-F-main-long,sector,Metals & Minerals Trading,4,4,14390.321440658045,48.22033457062629,True,False
+H4-F-main-long,sector,Capital Markets,16,15,-51151.29240026147,-43.11268139369761,True,False
+H4-F-main-long,trend_efficiency,mixed,33,27,-40848.567346017735,-15.25716028843795,True,False
+H4-F-main-long,sector,Insurance,1,1,-5075.720246825242,-64.07675079268094,True,False
+H4-F-main-long,sector,Construction,4,4,-14476.361180820495,-56.17628343067696,True,False
+H4-F-main-long,trend_efficiency,range,3,3,-13384.423548975807,-64.16497633748077,True,False
+H4-F-main-long,sector,Consumer Durables,10,10,-23028.528135172444,-35.179517193122514,True,False
+H4-F-main-long,sector,IT - Software,12,11,-52644.76373283747,-62.264366399049884,True,False
+H4-F-main-long,sector,Electrical Equipment,6,6,5537.251346122115,14.846690911972688,True,False
+H4-F-main-long,market_direction,down,14,12,-24456.562827317775,-24.162963313044944,True,False
+H4-F-main-long,rvol,<3,28,24,-59610.04729422,-31.780419751801784,True,False
+H4-F-main-long,sector,Financial Technology (Fintech),3,3,-2668.0621416961512,-14.205589617911224,True,False
+H4-F-main-long,sector,Industrial Manufacturing,5,5,9293.200168100435,25.71345697428768,True,False
+H4-F-main-long,market_volatility,high,18,11,-35257.76981252895,-27.635946115246206,True,False
+H4-F-main-long,sector,Realty,3,3,-3306.4083214492102,-14.210000503196403,True,False
+H4-F-main-long,sector,Petroleum Products,1,1,-4771.717622001002,-64.11509190099345,True,False
+H4-F-main-long,liquidity,ADV<100crore,10,10,6141.240298624186,6.850354931783711,True,False
+H4-F-main-long,sector,Telecom - Services,2,2,2053.5520277220485,10.757988913532749,True,False
+H4-F-main-long,sector,Pharmaceuticals & Biotechnology,2,2,-4069.2585256578895,-26.72498124806883,True,False
+H4-F-main-long,market_volatility,low,14,13,-25037.571983859805,-25.975308630959116,True,False
+H4-F-main-long,sector,Retailing,3,3,2026.9780820357996,7.914982066230841,True,False
+H4-F-main-long,sector,Healthcare Services,2,2,-8947.233043526543,-64.15961139650017,True,False
+H4-F-main-long,sector,Food Products,1,1,60.35798592913872,0.821301932529405,True,False
+H4-F-main-long,sector,Banks,1,1,6145.9453974057415,85.66812301246352,True,False
+H4-F-main-long,sector,Non - Ferrous Metals,2,2,-6861.029084694705,-48.50911752896948,True,False
+H4-F-main-long,sector,Consumable Fuels,1,1,-4530.845058778846,-64.14916280379855,True,False
+H4-F-main-long,sector,Diversified Metals,1,1,-4503.997244351632,-64.15318848927723,True,False
+H4-F-main-long,sector,Oil,1,1,5926.273146013453,85.64392827922354,True,False
+H4-F-main-long,sector,Transport Infrastructure,1,1,-4468.506124594502,-64.15858522615889,True,False
+H4-F-main-long,sector,Aerospace & Defense,2,2,-7652.618692565048,-57.24398427242363,True,False
+H4-F-main-long,sector,Automobiles,1,1,-4383.092958448863,-64.17193520841718,True,False
+H4-F-main-long,sector,Auto Components,2,2,1119.196746486421,10.710954060441104,True,False
+H4-F-main-long,sector,Industrial Products,1,1,-4268.43985003343,-64.1907046891466,True,False
+H4-F-main-long,sector,Ferrous Metals,1,1,5739.446581439616,85.62190567964255,True,False
+H4-F-main-long,sector,Gas,1,1,-4332.767913660144,-64.18005009103074,True,False
+H4-S-main-long,time,midday,38,38,-43001.79081707921,-20.318096130156835,False,False
+H4-S-main-long,market_direction,up,71,59,-101317.83451377794,-28.676837908857692,False,False
+H4-S-main-long,market_volatility,normal,58,47,-56793.057973028066,-19.76454593460227,False,False
+H4-S-main-long,liquidity,ADV>=100crore,74,64,-95084.44841110615,-24.536166624746933,False,False
+H4-S-main-long,price,>=500,59,52,-91584.60927845852,-29.27593723581241,False,False
+H4-S-main-long,sector,Finance,9,9,5831.637617310154,25.0917931570234,True,False
+H4-S-main-long,gap,intraday_built,50,45,-60494.85368594268,-24.37414822909357,False,False
+H4-S-main-long,rvol,>=3,60,54,-64998.635772508045,-21.282925396924824,False,False
+H4-S-main-long,trend_efficiency,trend,50,45,-60476.1718037085,-24.027168737242864,False,False
+H4-S-main-long,entry_stage,>=5%,81,67,-90405.90754649667,-22.252033361254572,False,False
+H4-S-main-long,price,<500,22,21,1178.7017319618496,-3.4152002431222006,True,False
+H4-S-main-long,trend_efficiency,mixed,28,25,-15330.439974797719,-11.621454637114457,True,False
+H4-S-main-long,sector,Capital Markets,12,12,-35977.80157355114,-67.7164231046227,True,False
+H4-S-main-long,time,morning,43,39,-47404.11672941746,-23.96109417013165,False,False
+H4-S-main-long,sector,Construction,4,4,-309.852054462812,-12.463098531851589,True,False
+H4-S-main-long,gap,gap>=2%,31,27,-29911.053860553988,-18.82926744538522,True,False
+H4-S-main-long,trend_efficiency,range,3,3,-14599.29576799045,-91.88517852009078,True,False
+H4-S-main-long,sector,Electrical Equipment,5,5,728.7680357398042,3.7662850975289017,True,False
+H4-S-main-long,market_direction,down,10,9,10911.926967281272,23.36407892672756,True,False
+H4-S-main-long,rvol,<3,21,19,-25407.271773988625,-25.020913259339565,True,False
+H4-S-main-long,sector,Power,2,2,-3007.2258881541725,-16.39367153825876,True,False
+H4-S-main-long,sector,Financial Technology (Fintech),4,4,-4485.529515071399,-19.0889338414908,True,False
+H4-S-main-long,sector,Industrial Manufacturing,4,4,11956.996577031105,75.68449390859413,True,False
+H4-S-main-long,market_volatility,high,14,11,-27957.05355795475,-40.650503161643385,True,False
+H4-S-main-long,sector,IT - Software,10,9,-31148.568172012754,-63.342019215625626,True,False
+H4-S-main-long,sector,Consumer Durables,6,6,-12234.286632151043,-45.052238978852074,True,False
+H4-S-main-long,sector,Realty,3,3,-283.65639491977936,-9.529200170209753,True,False
+H4-S-main-long,sector,Petroleum Products,1,1,-65.74604240107361,-1.4443324730139593,True,False
+H4-S-main-long,liquidity,ADV<100crore,7,7,4678.540864609481,1.8945182813789603,True,False
+H4-S-main-long,sector,Telecom - Services,2,2,2347.2906065410334,-0.697420919833796,True,False
+H4-S-main-long,sector,Pharmaceuticals & Biotechnology,2,2,-4075.988881581018,-22.729700293803788,True,False
+H4-S-main-long,market_volatility,low,9,9,-5655.796015513855,-9.662665976853484,True,False
+H4-S-main-long,sector,Retailing,3,3,1461.7741141746883,14.011445831050525,True,False
+H4-S-main-long,sector,Healthcare Services,2,2,-6174.550541986936,-50.579038125961326,True,False
+H4-S-main-long,sector,Food Products,1,1,-4771.603645305603,-71.34722920946757,True,False
+H4-S-main-long,sector,Banks,1,1,-650.776767526196,-9.789934340336288,True,False
+H4-S-main-long,sector,Non - Ferrous Metals,2,2,-570.4620007550611,-9.603151649137232,True,False
+H4-S-main-long,sector,Consumable Fuels,1,1,2028.5169608961737,34.39407204689476,True,False
+H4-S-main-long,sector,Diversified Metals,1,1,-4770.416920649787,-103.42080263063978,True,False
+H4-S-main-long,sector,Oil,1,1,540.7966012538711,15.161098492774736,True,False
+H4-S-main-long,sector,Metals & Minerals Trading,1,1,-2741.160737975008,-74.5574972272414,True,False
+H4-S-main-long,sector,Industrial Products,1,1,-4585.850324233228,-104.14981267725116,True,False
+H4-S-main-long,sector,Aerospace & Defense,1,1,-1771.2081353965884,-41.18831046423916,True,False
+H4-S-main-long,sector,Auto Components,1,1,6904.5926288203045,127.7409816468652,True,False
+H4-S-main-long,sector,Automobiles,1,1,-4581.596460130199,-92.11041411151935,True,False
+H4-A-main-long,time,midday,42,38,-63321.36542601112,-17.196320301307555,False,False
+H4-A-main-long,market_direction,up,82,64,-132843.996840406,-23.935763579522952,False,False
+H4-A-main-long,market_volatility,normal,67,51,-96676.06726416413,-19.138840986563935,False,False
+H4-A-main-long,liquidity,ADV>=100crore,83,68,-148946.44197946697,-27.433496507040196,False,False
+H4-A-main-long,price,>=500,66,58,-110967.37241730104,-23.897074247955334,False,False
+H4-A-main-long,sector,Finance,9,9,-17885.473448640216,-29.889806371892334,True,False
+H4-A-main-long,gap,intraday_built,57,51,-81972.18804269683,-19.9684232255281,False,False
+H4-A-main-long,rvol,>=3,67,57,-94266.45052315289,-20.54144424874458,False,False
+H4-A-main-long,trend_efficiency,trend,57,52,-88500.58342790317,-22.804575602581647,False,False
+H4-A-main-long,entry_stage,>=5%,91,72,-140147.73181269038,-22.003251814294156,False,False
+H4-A-main-long,time,morning,49,47,-76826.36638667926,-26.123478825425536,False,False
+H4-A-main-long,sector,Metals & Minerals Trading,4,4,13975.09590580457,69.52331752906461,True,False
+H4-A-main-long,price,<500,25,24,-29180.35939538934,-17.003560589428666,True,False
+H4-A-main-long,trend_efficiency,mixed,31,26,-50868.924446684716,-24.434475986221024,True,False
+H4-A-main-long,sector,Capital Markets,13,13,-54344.46925117769,-73.1542907082239,True,False
+H4-A-main-long,gap,gap>=2%,34,28,-58175.543769993565,-25.4145820954608,True,False
+H4-A-main-long,rvol,<3,24,22,-45881.281289537495,-26.084131268120075,True,False
+H4-A-main-long,sector,Insurance,1,1,-4973.420945477974,-121.41868262426661,True,False
+H4-A-main-long,sector,Construction,3,3,8079.3215509447855,61.13420737746504,True,False
+H4-A-main-long,trend_efficiency,range,3,3,-778.2239381025065,18.344549939745786,True,False
+H4-A-main-long,sector,IT - Software,11,10,-32039.10275956676,-42.471915222697014,True,False
+H4-A-main-long,sector,Electrical Equipment,5,5,-1008.0283331106501,-0.11771250519140893,True,False
+H4-A-main-long,market_direction,down,9,8,-7303.7349722843965,-4.39592239776514,True,False
+H4-A-main-long,sector,Financial Technology (Fintech),3,3,-11723.554837837915,-64.21628697892112,True,False
+H4-A-main-long,sector,Industrial Manufacturing,4,4,22146.630937260063,107.89463422038247,True,False
+H4-A-main-long,market_volatility,high,14,11,-27781.32378953269,-35.468420010796606,True,False
+H4-A-main-long,sector,Consumer Durables,7,7,-17940.661931618437,-36.45217985301738,True,False
+H4-A-main-long,sector,Realty,3,3,-485.7725264666624,16.280158947043052,True,False
+H4-A-main-long,sector,Petroleum Products,1,1,-4837.278489980099,-107.67194379687182,True,False
+H4-A-main-long,liquidity,ADV<100crore,8,8,8798.710166776564,34.335536872946065,True,False
+H4-A-main-long,sector,Telecom - Services,2,2,-3722.839271105637,-25.441450430793132,True,False
+H4-A-main-long,sector,Pharmaceuticals & Biotechnology,2,2,-5979.325246699067,-32.48585870508619,True,False
+H4-A-main-long,market_volatility,low,10,10,-15690.340758993567,-22.343568884983274,True,False
+H4-A-main-long,sector,Retailing,3,3,6532.33140405459,44.408087874705,True,False
+H4-A-main-long,sector,Healthcare Services,2,2,-9185.248680873905,-62.35268698072473,True,False
+H4-A-main-long,sector,Food Products,1,1,118.91934431276485,2.8980548912745494,True,False
+H4-A-main-long,sector,Power,4,4,-5525.485700890514,-26.609596830202086,True,False
+H4-A-main-long,sector,Banks,1,1,-4736.466988873039,-70.14517013652552,True,False
+H4-A-main-long,sector,Non - Ferrous Metals,2,2,-9197.381737882155,-88.71993719641864,True,False
+H4-A-main-long,sector,Consumable Fuels,1,1,2448.162301698908,40.28926937690011,True,False
+H4-A-main-long,sector,Diversified Metals,1,1,-4629.48523719788,-90.75599923745115,True,False
+H4-A-main-long,sector,Oil,1,1,4758.468513682403,75.71644130303356,True,False
+H4-A-main-long,sector,Transport Infrastructure,1,1,-4584.6284556944265,-61.897983029416636,True,False
+H4-A-main-long,sector,Automobiles,2,2,-5835.500889837009,-49.35683729581541,True,False
+H4-A-main-long,sector,Industrial Products,1,1,-4382.8485083395535,-85.56896939940574,True,False
+H4-A-main-long,sector,Ferrous Metals,1,1,7400.7409352789755,185.01733790188356,True,False
+H4-A-main-long,sector,Gas,1,1,-4425.493962793207,-122.17504950006754,True,False
+H4-A-main-long,sector,Auto Components,1,1,1835.0644983353461,37.03732453065261,True,False
+H5-F-main-long,time,morning,39,35,-70066.18971490087,-40.32582436540453,False,False
+H5-F-main-long,market_direction,down,60,46,-98524.6697107227,-38.07237288400754,False,False
+H5-F-main-long,market_volatility,normal,42,30,-88227.33323081493,-44.71970381852335,False,False
+H5-F-main-long,liquidity,ADV>=100crore,56,45,-97596.89279248202,-38.59065833877221,False,False
+H5-F-main-long,price,>=500,44,36,-74634.26837002738,-38.62592583613201,False,False
+H5-F-main-long,sector,Food Products,2,2,-1607.469603533614,-10.254641735847727,True,False
+H5-F-main-long,gap,intraday_built,56,44,-88234.27031558781,-36.077076780806394,False,False
+H5-F-main-long,rvol,<3,54,45,-89579.25970734881,-38.18786544068673,False,False
+H5-F-main-long,trend_efficiency,mixed,8,8,-6779.278289221451,-9.251454769536751,True,False
+H5-F-main-long,entry_stage,<3%,57,45,-88709.24466605161,-36.68072945369814,False,False
+H5-F-main-long,sector,Consumer Durables,2,2,-3194.8016412116885,-51.64541951886146,True,False
+H5-F-main-long,trend_efficiency,range,49,38,-85940.0848203751,-40.94925514336286,False,False
+H5-F-main-long,time,midday,21,19,-28458.47999582182,-33.88739156141315,True,False
+H5-F-main-long,sector,Beverages,1,1,-4981.785780541746,-64.08809356126463,True,False
+H5-F-main-long,sector,Financial Technology (Fintech),1,1,-4960.485707415977,-64.0907259097192,True,False
+H5-F-main-long,sector,Diversified FMCG,4,4,-6098.507036409896,-27.029646518092342,True,False
+H5-F-main-long,sector,Banks,8,7,-25840.677058808924,-53.96003021404499,True,False
+H5-F-main-long,price,<500,16,13,-23890.40134069532,-36.550102265665274,True,False
+H5-F-main-long,sector,Power,5,5,-8509.869521220471,-58.41522641424636,True,False
+H5-F-main-long,sector,Cement & Cement Products,2,2,-2780.169874388896,-55.05969421544387,True,False
+H5-F-main-long,gap,gap>=2%,4,2,-10290.399395134886,-66.00651832882366,True,False
+H5-F-main-long,entry_stage,3-5%,3,1,-9815.425044671085,-64.51359805988619,True,False
+H5-F-main-long,rvol,>=3,6,6,-8945.410003373883,-37.03293987389485,True,False
+H5-F-main-long,sector,Telecom - Services,4,4,-4630.230988683542,-27.80895548515528,True,False
+H5-F-main-long,market_volatility,low,9,8,-10101.427319192968,-17.89231698112031,True,False
+H5-F-main-long,sector,Finance,7,6,-10444.417088455857,-42.897836037664305,True,False
+H5-F-main-long,sector,Retailing,3,3,1927.8119568278385,27.530298147405215,True,False
+H5-F-main-long,sector,Automobiles,2,2,-8496.462938399403,-64.20488965206209,True,False
+H5-F-main-long,trend_efficiency,trend,3,3,-5805.306601126143,-67.93907761979288,True,False
+H5-F-main-long,sector,Healthcare Services,5,5,-7741.827482445111,-37.83841458989714,True,False
+H5-F-main-long,liquidity,ADV<100crore,4,4,-927.7769182406794,-30.816376517302267,True,False
+H5-F-main-long,sector,Capital Markets,1,1,-2163.69460210644,-64.89657895441705,True,False
+H5-F-main-long,sector,Realty,3,3,-1411.5894624532577,-52.75377584411573,True,False
+H5-F-main-long,sector,Pharmaceuticals & Biotechnology,2,2,354.9465128725767,-10.568304269381596,True,False
+H5-F-main-long,sector,Insurance,2,2,-3506.1122065648437,-65.47163743776808,True,False
+H5-F-main-long,sector,Non - Ferrous Metals,2,2,-6579.074950475177,-45.48322060909727,True,False
+H5-F-main-long,sector,Consumable Fuels,1,1,-504.83720268075024,-17.138483542230098,True,False
+H5-F-main-long,market_volatility,high,9,8,-195.90916071480177,-27.231551092487717,True,False
+H5-F-main-long,sector,IT - Software,3,3,2644.584965372488,13.168421301317386,True,False
+H5-S-main-long,time,morning,37,30,-46012.30609432486,-26.21163847511915,False,False
+H5-S-main-long,market_direction,down,54,40,-71347.45246882208,-29.145371315861652,False,False
+H5-S-main-long,market_volatility,normal,37,26,-51437.12579036439,-30.284424528193576,True,False
+H5-S-main-long,liquidity,ADV>=100crore,51,40,-69284.25551127749,-27.66287130309608,False,False
+H5-S-main-long,price,>=500,41,33,-49501.14103820393,-25.706609714747923,False,False
+H5-S-main-long,sector,Food Products,3,3,-322.25803236689524,4.326516027671893,True,False
+H5-S-main-long,gap,intraday_built,49,38,-61736.974641883426,-27.702070724926486,False,False
+H5-S-main-long,rvol,<3,48,39,-61952.45456501297,-27.619448969862287,False,False
+H5-S-main-long,trend_efficiency,mixed,8,8,-3046.7895210679303,-0.03996521318018509,True,False
+H5-S-main-long,entry_stage,<3%,51,39,-62125.113178583706,-27.55172924090252,False,False
+H5-S-main-long,sector,Consumer Durables,2,2,-3402.0257695288465,-54.58527937732746,True,False
+H5-S-main-long,trend_efficiency,range,43,31,-62897.418467828305,-33.06428688061239,False,False
+H5-S-main-long,sector,Diversified FMCG,4,4,-4181.305783649672,-18.050636707263823,True,False
+H5-S-main-long,sector,Banks,8,6,-26930.796044247356,-49.77210646580636,True,False
+H5-S-main-long,time,midday,17,16,-25335.14637449723,-35.53055455747771,True,False
+H5-S-main-long,price,<500,13,11,-21846.31143061815,-39.99069636552803,True,False
+H5-S-main-long,sector,Power,4,4,-3704.762860096691,-23.276859094593135,True,False
+H5-S-main-long,sector,Cement & Cement Products,2,2,-1848.2508767846512,-40.15246357707993,True,False
+H5-S-main-long,gap,gap>=2%,5,3,-9610.477826938659,-43.289717107026284,True,False
+H5-S-main-long,entry_stage,3-5%,3,1,-9222.339290238375,-56.23728659016683,True,False
+H5-S-main-long,rvol,>=3,6,6,-9394.997903809108,-41.35275008385658,True,False
+H5-S-main-long,sector,Telecom - Services,2,2,-5039.724372726605,-71.1654930458512,True,False
+H5-S-main-long,market_volatility,low,9,7,-15905.230736341326,-28.409066225366683,True,False
+H5-S-main-long,sector,Finance,7,6,-7471.934116515436,-28.54082321953872,True,False
+H5-S-main-long,sector,Petroleum Products,1,1,853.8453050834053,8.888195627620997,True,False
+H5-S-main-long,sector,Automobiles,2,2,-6353.485389163936,-50.65832600007744,True,False
+H5-S-main-long,trend_efficiency,trend,3,3,-5403.244479925849,-50.588664494918305,True,False
+H5-S-main-long,sector,Healthcare Services,4,4,-6466.100803703402,-37.747655783770696,True,False
+H5-S-main-long,sector,Capital Markets,1,1,-1855.332644529374,-55.64775238390356,True,False
+H5-S-main-long,liquidity,ADV<100crore,3,3,-2063.1969575445905,-54.347871532876376,True,False
+H5-S-main-long,sector,Realty,3,3,-2063.1969575445905,-54.347871532876376,True,False
+H5-S-main-long,sector,Pharmaceuticals & Biotechnology,2,2,2733.520580362174,31.97297496147804,True,False
+H5-S-main-long,sector,Insurance,2,2,-987.7638852251225,-24.580636907542477,True,False
+H5-S-main-long,sector,Non - Ferrous Metals,1,1,-3600.2816755395083,-99.28032684910858,True,False
+H5-S-main-long,sector,Consumable Fuels,1,1,-706.4773334366416,-23.983870617632217,True,False
+H5-S-main-long,market_volatility,high,8,7,-4005.0959421163607,-24.70559343563336,True,False
+H5-S-main-long,sector,IT - Software,3,3,-4718.232084110432,-27.73948374517113,True,False
+H5-S-main-long,sector,Construction,1,1,2614.4273407890564,68.04505477242097,True,False
+H5-S-main-long,sector,Retailing,1,1,2102.6829341124394,94.01283464373324,True,False
+H5-A-main-long,time,morning,35,32,-45110.71986925469,-24.270935731002176,False,False
+H5-A-main-long,market_direction,down,48,37,-62700.71139398891,-29.703940481301775,False,False
+H5-A-main-long,market_volatility,normal,34,26,-49930.66002103706,-32.724733668524784,True,False
+H5-A-main-long,liquidity,ADV>=100crore,44,36,-61867.28113690369,-30.780403894337827,False,False
+H5-A-main-long,price,>=500,35,29,-38870.125254052604,-27.898021364406322,True,False
+H5-A-main-long,sector,Food Products,2,2,-444.4242894818626,3.9776390342527144,True,False
+H5-A-main-long,gap,intraday_built,45,36,-52731.0925306102,-28.141351607868092,False,False
+H5-A-main-long,rvol,<3,44,37,-53286.12034106251,-27.398351367989026,False,False
+H5-A-main-long,trend_efficiency,mixed,8,7,-6973.659811271749,-11.87308788318185,True,False
+H5-A-main-long,entry_stage,<3%,45,36,-52731.0925306102,-28.141351607868092,False,False
+H5-A-main-long,sector,Consumer Durables,1,1,-3025.2009696917203,-85.83620997046523,True,False
+H5-A-main-long,trend_efficiency,range,38,29,-53026.17690315344,-32.588607722804355,True,False
+H5-A-main-long,time,midday,13,13,-17589.99152473422,-44.331260962877636,True,False
+H5-A-main-long,sector,Beverages,1,1,-4979.68614633579,-120.11453035273199,True,False
+H5-A-main-long,sector,Financial Technology (Fintech),1,1,7229.781390056371,184.98961610901674,True,False
+H5-A-main-long,sector,Diversified FMCG,2,2,-3215.4392913061383,-3.9453062071819858,True,False
+H5-A-main-long,sector,Banks,6,4,-19667.940390675754,-41.593537278984826,True,False
+H5-A-main-long,price,<500,13,12,-23830.586139936306,-34.56603041140492,True,False
+H5-A-main-long,sector,Power,4,4,-6356.928017407435,-42.842655046981676,True,False
+H5-A-main-long,sector,Cement & Cement Products,1,1,-1624.6066632884188,-41.76416594948004,True,False
+H5-A-main-long,gap,gap>=2%,3,1,-9969.618863378706,-53.142773582807024,True,False
+H5-A-main-long,entry_stage,3-5%,3,1,-9969.618863378706,-53.142773582807024,True,False
+H5-A-main-long,rvol,>=3,4,4,-9414.591052926402,-55.06542072774208,True,False
+H5-A-main-long,sector,Telecom - Services,3,3,-3892.365338016005,-17.53769350611877,True,False
+H5-A-main-long,market_volatility,low,7,5,-8608.283980860833,-15.333870263680861,True,False
+H5-A-main-long,sector,Finance,7,6,-8580.63064095691,-38.770463166887794,True,False
+H5-A-main-long,sector,Retailing,2,2,-2096.2507613385637,-35.38383290178532,True,False
+H5-A-main-long,sector,Automobiles,2,2,-3596.1063111723265,-42.6782021988053,True,False
+H5-A-main-long,trend_efficiency,trend,2,2,-2700.8746795637167,-46.21867328523256,True,False
+H5-A-main-long,sector,Healthcare Services,4,4,-4486.048798429287,-34.90453899933857,True,False
+H5-A-main-long,liquidity,ADV<100crore,4,4,-833.4302570852143,-17.862842937905263,True,False
+H5-A-main-long,sector,Capital Markets,1,1,-1599.4918884132064,-47.97421573372808,True,False
+H5-A-main-long,sector,Realty,3,3,-2048.150823554797,-53.10542616035385,True,False
+H5-A-main-long,sector,Pharmaceuticals & Biotechnology,3,3,922.4146901883693,-0.32996278830662124,True,False
+H5-A-main-long,sector,Insurance,2,2,-987.7638852251225,-24.580636907542477,True,False
+H5-A-main-long,sector,Non - Ferrous Metals,1,1,497.48194528978263,8.588851511881545,True,False
+H5-A-main-long,market_volatility,high,7,6,-4161.767392091013,-29.40158664669665,True,False
+H5-A-main-long,sector,IT - Software,2,2,-4749.355204230093,-36.79766048155565,True,False
+H1-F-price_only-long,time,morning,805,346,-681375.6413608997,-23.09286387456463,False,False
+H1-F-price_only-long,market_direction,down,203,125,-210030.3984685105,-25.668151152284665,False,False
+H1-F-price_only-long,market_volatility,normal,547,232,-450266.94392587885,-22.682758453669482,False,False
+H1-F-price_only-long,liquidity,ADV>=100crore,792,345,-686704.8893998618,-23.191919018548813,False,False
+H1-F-price_only-long,price,>=500,550,314,-435903.9709321858,-21.588368150779075,False,False
+H1-F-price_only-long,sector,Industrial Manufacturing,28,28,-36033.34483054624,-21.638190920673274,True,False
+H1-F-price_only-long,gap,intraday_built,779,344,-644676.3488562288,-22.61408507144211,False,False
+H1-F-price_only-long,rvol,<3,580,316,-485058.8896401712,-22.507888773766528,False,False
+H1-F-price_only-long,trend_efficiency,trend,621,331,-550668.9143526506,-23.651402356452117,False,False
+H1-F-price_only-long,entry_stage,<3%,601,319,-484964.53884154937,-22.472825213469072,False,False
+H1-F-price_only-long,price,<500,270,198,-265811.08180258656,-26.436667051099857,False,False
+H1-F-price_only-long,sector,Finance,53,49,-9209.404244148149,-9.287908826745777,False,False
+H1-F-price_only-long,trend_efficiency,mixed,177,147,-153860.3964250083,-23.27498760867014,False,False
+H1-F-price_only-long,market_direction,up,617,278,-491684.6542662619,-22.36769514232037,False,False
+H1-F-price_only-long,rvol,>=3,240,189,-216656.16309460116,-24.82052957475361,False,False
+H1-F-price_only-long,entry_stage,3-5%,219,158,-216750.51389322305,-25.13851430790201,False,False
+H1-F-price_only-long,sector,Automobiles,49,45,-48830.58746615743,-27.92743423161715,False,False
+H1-F-price_only-long,sector,Oil,5,5,-15888.287918650918,-51.30216059350183,True,False
+H1-F-price_only-long,sector,Capital Markets,51,48,-69984.30086987079,-37.55641893624676,False,False
+H1-F-price_only-long,sector,Industrial Products,4,4,-5397.406754177859,-36.604294063496425,True,False
+H1-F-price_only-long,sector,Healthcare Services,14,14,-3820.9468316843922,-9.379950654145997,True,False
+H1-F-price_only-long,trend_efficiency,range,22,20,2814.258042886561,-9.28676893791257,True,False
+H1-F-price_only-long,sector,Petroleum Products,19,18,2665.694053828143,-3.231905131814808,True,False
+H1-F-price_only-long,sector,Diversified FMCG,7,7,-1925.786500208065,1.4523624405384368,True,False
+H1-F-price_only-long,sector,Consumer Durables,65,62,-85539.3241468989,-25.5762656230558,False,False
+H1-F-price_only-long,sector,IT - Software,73,56,-56288.03560967923,-26.350875709763187,False,False
+H1-F-price_only-long,sector,Metals & Minerals Trading,14,14,3651.695585604856,5.84766054265137,True,False
+H1-F-price_only-long,sector,Transport Infrastructure,14,14,-21504.51942501966,-34.438275473309126,True,False
+H1-F-price_only-long,sector,Power,43,37,-4663.709941302431,-16.292275393219047,False,False
+H1-F-price_only-long,sector,Banks,61,55,-61762.051092174275,-30.511956649193024,False,False
+H1-F-price_only-long,sector,Diversified Metals,12,12,-27785.302055717184,-45.49191761813386,True,False
+H1-F-price_only-long,sector,Transport Services,8,8,1232.222127160459,-21.858731501186984,True,False
+H1-F-price_only-long,time,midday,15,15,-20339.411373872663,-28.116477846728284,True,False
+H1-F-price_only-long,sector,Construction,8,8,-26468.231041687362,-52.130519803362944,True,False
+H1-F-price_only-long,sector,Realty,29,28,-13516.643095812651,-19.566533577286908,True,False
+H1-F-price_only-long,sector,Food Products,4,4,-5222.294145038333,-9.761232951305729,True,False
+H1-F-price_only-long,sector,Electrical Equipment,42,37,-40969.6366446151,-24.53494584864269,False,False
+H1-F-price_only-long,sector,Telecom - Services,28,28,-20030.23496896412,-18.74342497907899,True,False
+H1-F-price_only-long,gap,gap>=2%,41,33,-57038.70387854363,-34.0275686846841,False,False
+H1-F-price_only-long,sector,Ferrous Metals,20,20,-29564.196875643112,-31.932823792258063,True,False
+H1-F-price_only-long,sector,Aerospace & Defense,18,17,1869.9451662870113,-9.898664996780361,True,False
+H1-F-price_only-long,sector,Financial Technology (Fintech),33,33,-17914.56869376112,-19.19758294842435,False,False
+H1-F-price_only-long,sector,Minerals & Mining,6,6,-3642.319993187824,-20.171318248717988,True,False
+H1-F-price_only-long,sector,Leisure Services,4,4,-8945.287457421346,-39.629996917710116,True,False
+H1-F-price_only-long,sector,Retailing,23,22,-10163.46438958752,-15.982487223156625,True,False
+H1-F-price_only-long,sector,Beverages,12,12,-16901.347778866344,-35.74337329833179,True,False
+H1-F-price_only-long,sector,Pharmaceuticals & Biotechnology,17,17,-9638.170860627404,-19.776283007494754,True,False
+H1-F-price_only-long,sector,Auto Components,11,11,-3824.75854999247,-13.831445769857384,True,False
+H1-F-price_only-long,sector,Cement & Cement Products,3,3,-7083.335023639158,-48.74239345719249,True,False
+H1-F-price_only-long,market_volatility,high,69,25,-66573.44992377312,-25.959992297423383,True,False
+H1-F-price_only-long,sector,Gas,7,7,-12744.479275746735,-26.192662571544577,True,False
+H1-F-price_only-long,sector,Non - Ferrous Metals,19,19,-20586.05441296964,-23.70740809840403,True,False
+H1-F-price_only-long,liquidity,ADV<100crore,28,28,-15010.163334910585,-22.98224014409974,True,False
+H1-F-price_only-long,market_volatility,low,204,92,-184874.6588851204,-23.59212864728448,False,False
+H1-F-price_only-long,sector,Insurance,8,8,-4678.402203187773,-12.67476920845258,True,False
+H1-F-price_only-long,sector,Consumable Fuels,8,8,-10608.176570669317,-37.522215432128725,True,False
+H1-F-no_market-long,time,morning,730,398,-684190.3190336557,-23.795958403634554,False,False
+H1-F-no_market-long,market_direction,down,261,172,-254520.72112562097,-23.956235893806017,False,False
+H1-F-no_market-long,market_volatility,normal,484,260,-460333.91176239436,-24.19728774270965,False,False
+H1-F-no_market-long,liquidity,ADV>=100crore,722,392,-681494.0814207311,-24.529523311012873,False,False
+H1-F-no_market-long,price,>=500,487,331,-431397.31607159215,-22.049863139215333,False,False
+H1-F-no_market-long,sector,Industrial Manufacturing,22,22,-41665.35253808184,-32.717421453987164,True,False
+H1-F-no_market-long,gap,intraday_built,704,383,-649140.0157185681,-24.037731946313723,False,False
+H1-F-no_market-long,rvol,<3,388,282,-373789.19429567154,-23.826250153940503,False,False
+H1-F-no_market-long,trend_efficiency,trend,546,350,-535321.936297157,-24.64900941184314,False,False
+H1-F-no_market-long,entry_stage,3-5%,264,194,-269747.6743116593,-26.407098279011763,False,False
+H1-F-no_market-long,market_direction,up,486,258,-446615.0064841663,-24.321686869255768,False,False
+H1-F-no_market-long,sector,Healthcare Services,14,14,-21313.572089577883,-31.74123852331087,True,False
+H1-F-no_market-long,entry_stage,<3%,483,330,-431388.053298128,-22.98435495048151,False,False
+H1-F-no_market-long,sector,Finance,47,44,-25011.014233618956,-19.109568266909662,False,False
+H1-F-no_market-long,rvol,>=3,359,261,-327346.5333141158,-24.591454949896256,False,False
+H1-F-no_market-long,sector,Financial Technology (Fintech),24,23,-12099.88093845566,-11.596516164030346,True,False
+H1-F-no_market-long,sector,Automobiles,40,38,-21226.05394422144,-19.479917098839472,False,False
+H1-F-no_market-long,sector,Consumer Durables,47,43,-44562.32494375988,-20.176912139265596,False,False
+H1-F-no_market-long,gap,gap>=2%,43,40,-51995.71189121916,-26.75242084969333,False,False
+H1-F-no_market-long,time,midday,17,17,-16945.408576131653,-41.286338358144015,True,False
+H1-F-no_market-long,trend_efficiency,mixed,158,141,-129376.48586861519,-23.034222075418786,False,False
+H1-F-no_market-long,price,<500,260,204,-269738.41153819516,-28.21013091516848,False,False
+H1-F-no_market-long,sector,Oil,4,4,-13510.090171583252,-64.48870169823006,True,False
+H1-F-no_market-long,trend_efficiency,range,43,42,-36437.30544401516,-22.677933952538375,False,False
+H1-F-no_market-long,sector,Petroleum Products,22,21,-13833.090649952504,-17.961969673947255,True,False
+H1-F-no_market-long,sector,Diversified FMCG,9,9,-4486.540107594121,-10.116986944733009,True,False
+H1-F-no_market-long,sector,IT - Software,62,52,-46864.27681133971,-22.445071885869048,False,False
+H1-F-no_market-long,sector,Metals & Minerals Trading,14,14,11694.916212122536,19.10904656294206,True,False
+H1-F-no_market-long,sector,Transport Infrastructure,11,11,-15897.479177654719,-26.06434981171918,True,False
+H1-F-no_market-long,sector,Power,44,40,-12373.88659866352,-11.717833493190087,False,False
+H1-F-no_market-long,sector,Banks,56,53,-87645.93616921738,-38.77689589465286,False,False
+H1-F-no_market-long,sector,Telecom - Services,31,31,-23397.869468813817,-22.47307726702708,False,False
+H1-F-no_market-long,sector,Transport Services,6,6,3233.444602895129,-1.2323747996598666,True,False
+H1-F-no_market-long,sector,Electrical Equipment,39,38,-51418.81687174776,-32.65690358097653,False,False
+H1-F-no_market-long,sector,Construction,12,12,-17237.348790675096,-16.21174394237842,True,False
+H1-F-no_market-long,sector,Food Products,8,8,-2256.3858767270067,-21.339019217736784,True,False
+H1-F-no_market-long,sector,Aerospace & Defense,25,25,-21626.031862999986,-20.675624031027997,True,False
+H1-F-no_market-long,sector,Realty,30,29,-34602.29683144207,-36.05856500338539,True,False
+H1-F-no_market-long,sector,Retailing,22,21,-25179.266573689736,-30.407420199851927,True,False
+H1-F-no_market-long,sector,Ferrous Metals,20,19,-27802.397732255038,-28.398228266977515,True,False
+H1-F-no_market-long,sector,Capital Markets,38,37,-51510.59500610266,-36.60435329262924,False,False
+H1-F-no_market-long,sector,Leisure Services,5,5,-354.8978033191547,9.612172756310368,True,False
+H1-F-no_market-long,sector,Non - Ferrous Metals,14,14,-9259.415319835018,-11.922928810455497,True,False
+H1-F-no_market-long,sector,Pharmaceuticals & Biotechnology,18,16,-8959.872040166716,-16.339936086153106,True,False
+H1-F-no_market-long,sector,Gas,4,4,-8158.47593315972,-22.153906745834654,True,False
+H1-F-no_market-long,sector,Cement & Cement Products,4,4,-6885.794542051913,-37.38816581563201,True,False
+H1-F-no_market-long,sector,Diversified Metals,16,16,-20581.832891207287,-38.81489172363005,True,False
+H1-F-no_market-long,sector,Beverages,7,7,-16257.351418552344,-51.34750826090977,True,False
+H1-F-no_market-long,market_volatility,high,73,33,-58320.72112603079,-24.838325774957568,False,False
+H1-F-no_market-long,sector,Consumable Fuels,10,10,-9168.415679740476,-31.86798426144776,True,False
+H1-F-no_market-long,liquidity,ADV<100crore,25,25,-19641.646189056202,-14.50406224761513,True,False
+H1-F-no_market-long,sector,Industrial Products,4,4,-6389.80490351231,-45.09526155949459,True,False
+H1-F-no_market-long,market_volatility,low,190,107,-182481.09472136214,-23.938064935254197,False,False
+H1-F-no_market-long,sector,Auto Components,7,7,-3351.2160153282002,-20.030133866252093,True,False
+H1-F-no_market-long,sector,Minerals & Mining,5,5,-4272.808725578751,-20.32397670654799,True,False
+H1-F-no_market-long,sector,Insurance,6,6,-6903.695764179044,-36.79317346992229,True,False
+H1-F-peers-long,time,morning,372,245,-492491.9466667838,-25.405932048368793,False,False
+H1-F-peers-long,market_direction,up,312,203,-381585.32205627766,-23.906156850764344,False,False
+H1-F-peers-long,market_volatility,normal,254,162,-349548.20932223264,-26.4766506454953,False,False
+H1-F-peers-long,liquidity,ADV>=100crore,372,244,-498862.9523424825,-26.08493498049638,False,False
+H1-F-peers-long,price,>=500,268,198,-395090.90821963607,-27.5399017798019,False,False
+H1-F-peers-long,sector,Finance,57,51,-38107.90070244309,-16.531169727115252,False,False
+H1-F-peers-long,gap,intraday_built,359,238,-504205.4253742264,-26.790930096231143,False,False
+H1-F-peers-long,rvol,>=3,168,139,-210567.1147956469,-25.032679312631586,False,False
+H1-F-peers-long,trend_efficiency,trend,294,221,-358024.6537029257,-24.230597761664868,False,False
+H1-F-peers-long,entry_stage,3-5%,147,116,-212182.3638792238,-29.10346774762942,False,False
+H1-F-peers-long,sector,Automobiles,45,40,-43970.3613175385,-23.369936174081825,False,False
+H1-F-peers-long,entry_stage,<3%,234,183,-292130.57207796414,-23.18466064555538,False,False
+H1-F-peers-long,time,midday,9,9,-11820.989290404066,-28.045958663143452,True,False
+H1-F-peers-long,sector,Consumer Durables,35,33,-46156.775025416384,-19.841990169957796,False,False
+H1-F-peers-long,market_direction,down,69,56,-122727.61390091023,-32.5318755438117,False,False
+H1-F-peers-long,sector,Petroleum Products,18,17,-16452.61525767745,-18.961939483469784,True,False
+H1-F-peers-long,rvol,<3,213,168,-293745.82116154104,-25.81187899267313,False,False
+H1-F-peers-long,price,<500,113,97,-109222.02773755183,-20.555103300659937,False,False
+H1-F-peers-long,sector,IT - Software,69,54,-50992.09554186693,-18.76190677534608,False,False
+H1-F-peers-long,trend_efficiency,mixed,74,67,-132569.0879933692,-31.981600611668775,False,False
+H1-F-peers-long,sector,Banks,48,44,-93236.32454790386,-35.36510901384044,False,False
+H1-F-peers-long,sector,Power,31,24,-33567.24577300136,-17.024494120446064,True,False
+H1-F-peers-long,sector,Capital Markets,36,36,-86910.67617859712,-39.42156467703265,False,False
+H1-F-peers-long,gap,gap>=2%,22,20,-107.51058296151268,-3.8852929733865023,True,False
+H1-F-peers-long,trend_efficiency,range,13,13,-13719.194260892998,-16.38355098219408,True,False
+H1-F-peers-long,sector,Electrical Equipment,25,22,-65172.79497215376,-44.770538162529505,True,False
+H1-F-peers-long,sector,Pharmaceuticals & Biotechnology,17,15,-29746.146640589453,-36.20094592339948,True,False
+H1-F-peers-long,market_volatility,high,36,21,-35846.26573785397,-23.53677223303221,True,False
+H1-F-peers-long,market_volatility,low,91,66,-118918.46089710131,-23.41788225952217,False,False
+H1-F-peers-long,liquidity,ADV<100crore,9,9,-5449.983614705415,0.019495864796948266,True,False
+H2-S-no_failure-long,time,morning,388,292,-292259.05749004113,-22.107472302104597,False,False
+H2-S-no_failure-long,market_direction,up,563,255,-500258.8271818551,-24.236508829116357,False,False
+H2-S-no_failure-long,market_volatility,normal,481,222,-395916.22801747615,-22.475836343633013,False,False
+H2-S-no_failure-long,liquidity,ADV>=100crore,709,335,-596529.1346299661,-22.538538513566973,False,False
+H2-S-no_failure-long,price,>=500,478,280,-386164.0244659723,-20.013241908790224,False,False
+H2-S-no_failure-long,sector,Banks,68,60,-86132.5728406248,-32.42914396662426,False,False
+H2-S-no_failure-long,gap,intraday_built,678,331,-572824.1424943301,-23.496706194658096,False,False
+H2-S-no_failure-long,rvol,<3,487,284,-374397.80157811363,-20.316867571006906,False,False
+H2-S-no_failure-long,trend_efficiency,trend,112,103,-95623.14397717235,-21.369028951603273,False,False
+H2-S-no_failure-long,entry_stage,<3%,518,315,-476705.1792414537,-25.199975791584027,False,False
+H2-S-no_failure-long,market_direction,down,182,130,-118502.70655203174,-18.923301633250237,False,False
+H2-S-no_failure-long,price,<500,267,203,-232597.5092679145,-28.17552709978399,False,False
+H2-S-no_failure-long,sector,Oil,7,7,5641.916930660853,30.089268173309296,True,False
+H2-S-no_failure-long,rvol,>=3,258,189,-244363.7321557732,-27.887135120014296,False,False
+H2-S-no_failure-long,trend_efficiency,range,236,180,-167426.51538827413,-18.661806373257235,False,False
+H2-S-no_failure-long,trend_efficiency,mixed,397,271,-355711.87436844036,-25.923621716311786,False,False
+H2-S-no_failure-long,entry_stage,3-5%,212,168,-138201.67575874593,-17.793497117881163,False,False
+H2-S-no_failure-long,sector,Automobiles,33,33,-35265.85891855815,-19.173358464936534,False,False
+H2-S-no_failure-long,sector,IT - Software,53,45,-39912.29351321458,-17.010860576645396,False,False
+H2-S-no_failure-long,time,midday,357,274,-326502.47624384565,-23.841725811841645,False,False
+H2-S-no_failure-long,sector,Transport Infrastructure,10,10,4513.288864496421,-2.0222367208448113,True,False
+H2-S-no_failure-long,sector,Minerals & Mining,8,8,1647.272199721147,5.095693561622609,True,False
+H2-S-no_failure-long,sector,Realty,30,30,6399.4124115705745,7.744290358713835,False,False
+H2-S-no_failure-long,sector,Capital Markets,39,38,-22358.237722940466,-22.162739337346984,False,False
+H2-S-no_failure-long,sector,Healthcare Services,9,9,-7156.544659649921,-14.143665242950267,True,False
+H2-S-no_failure-long,sector,Cement & Cement Products,2,2,-6917.7749373721435,-58.40001120111393,True,False
+H2-S-no_failure-long,sector,Construction,14,14,-9754.842188747616,-18.909575247900083,True,False
+H2-S-no_failure-long,sector,Retailing,22,22,-7600.243112620723,-6.61212558865709,True,False
+H2-S-no_failure-long,sector,Power,31,30,-3143.7604617353118,-15.18386828612468,False,False
+H2-S-no_failure-long,sector,Telecom - Services,24,23,-28485.820478840764,-34.476248702650416,True,False
+H2-S-no_failure-long,sector,Electrical Equipment,34,33,-30301.34461886276,-25.978689277970428,False,False
+H2-S-no_failure-long,entry_stage,>=5%,15,14,-3854.678733687167,-17.559101267514723,True,False
+H2-S-no_failure-long,sector,Finance,58,52,-60746.194325218305,-30.78159528941993,False,False
+H2-S-no_failure-long,sector,Consumer Durables,50,49,-55431.270567200576,-29.163609797611787,False,False
+H2-S-no_failure-long,sector,Aerospace & Defense,20,20,-11295.283027176836,-9.875754504429882,True,False
+H2-S-no_failure-long,sector,Diversified Metals,15,15,-22317.20342866975,-36.06333680312212,True,False
+H2-S-no_failure-long,sector,Ferrous Metals,22,21,-17870.844316716702,-22.04615018783073,True,False
+H2-S-no_failure-long,sector,Non - Ferrous Metals,15,14,-9695.989062628993,-32.62909242652668,True,False
+H2-S-no_failure-long,gap,gap>=2%,67,51,-45937.39123955675,-17.289978627848715,False,False
+H2-S-no_failure-long,sector,Petroleum Products,27,23,-25905.3560924703,-36.48526225460131,True,False
+H2-S-no_failure-long,sector,Industrial Manufacturing,23,23,-8659.356468161193,-4.928491223980606,True,False
+H2-S-no_failure-long,sector,Insurance,14,13,-11583.165554626725,-18.033717726325637,True,False
+H2-S-no_failure-long,sector,Financial Technology (Fintech),26,26,-18314.335681503773,-21.770597004665607,True,False
+H2-S-no_failure-long,sector,Auto Components,11,11,-11740.615551576366,-30.33297461602465,True,False
+H2-S-no_failure-long,sector,Leisure Services,5,5,-7673.821285670955,-30.87213459784018,True,False
+H2-S-no_failure-long,market_volatility,high,67,26,-38357.61932992185,-18.393750862396264,True,False
+H2-S-no_failure-long,sector,Industrial Products,5,5,-9992.234845672305,-62.53217536385424,True,False
+H2-S-no_failure-long,sector,Metals & Minerals Trading,8,8,-17766.651642839926,-68.5396999824926,True,False
+H2-S-no_failure-long,sector,Beverages,12,12,-18008.027804276535,-37.05887673484623,True,False
+H2-S-no_failure-long,sector,Pharmaceuticals & Biotechnology,23,23,-24833.09152984085,-26.997315458927254,True,False
+H2-S-no_failure-long,sector,Gas,3,3,-5997.261996942593,-48.081461073385604,True,False
+H2-S-no_failure-long,market_volatility,low,197,92,-184487.68638648881,-25.61389227906611,False,False
+H2-S-no_failure-long,liquidity,ADV<100crore,36,36,-22232.399103920758,-30.815876720140736,False,False
+H2-S-no_failure-long,sector,Diversified FMCG,12,12,-1094.0058816102005,-9.318036210929867,True,False
+H2-S-no_failure-long,sector,Transport Services,4,4,-8549.986614294628,-60.869615442810186,True,False
+H2-S-no_failure-long,sector,Consumable Fuels,6,6,-10131.229564213258,-51.19526220498711,True,False
+H2-S-no_failure-long,sector,Food Products,2,2,-2328.205445857806,-9.207814048957282,True,False
+B8-B-baseline-long,time,morning,64,46,-38545.252553592545,-13.852047886059735,False,False
+B8-B-baseline-long,market_direction,down,15,12,5546.347053424099,8.636393083088747,True,False
+B8-B-baseline-long,market_volatility,normal,47,35,-20824.31011203993,-10.144421120714895,False,False
+B8-B-baseline-long,liquidity,ADV>=100crore,59,44,-42838.48422928676,-16.69993685425148,False,False
+B8-B-baseline-long,price,>=500,40,30,-25997.181264362564,-14.876180742997576,False,False
+B8-B-baseline-long,sector,Retailing,4,4,-19650.5940161055,-114.51710212804181,True,False
+B8-B-baseline-long,gap,gap>=2%,40,30,-46653.57212645351,-27.003187525308835,False,False
+B8-B-baseline-long,rvol,>=3,59,47,-33148.43265064272,-13.011075090350325,False,False
+B8-B-baseline-long,trend_efficiency,trend,59,45,-27398.327149981225,-10.682810922817719,False,False
+B8-B-baseline-long,entry_stage,>=5%,65,47,-39419.97466666162,-13.959099764598813,False,False
+B8-B-baseline-long,market_direction,up,50,36,-44966.32172008572,-20.73774761890508,False,False
+B8-B-baseline-long,price,<500,25,23,-13422.793402299054,-12.491770199160793,True,False
+B8-B-baseline-long,sector,Power,3,2,2390.8872387791444,18.65620170183192,True,False
+B8-B-baseline-long,sector,Metals & Minerals Trading,2,2,-1290.3302544739195,-14.640270239143824,True,False
+B8-B-baseline-long,gap,intraday_built,25,22,7233.5974597918885,6.911440652537217,True,False
+B8-B-baseline-long,sector,Insurance,1,1,3667.000175213389,85.22901215384746,True,False
+B8-B-baseline-long,sector,Banks,1,1,1419.4831093513837,32.86003712937587,True,False
+B8-B-baseline-long,sector,IT - Software,6,5,3142.4102589613067,11.691866935218151,True,False
+B8-B-baseline-long,sector,Industrial Manufacturing,7,6,-4337.581616827767,-13.629627798176667,True,False
+B8-B-baseline-long,sector,Consumer Durables,8,8,20083.10894875497,60.23710204328097,True,False
+B8-B-baseline-long,sector,Construction,4,4,6320.909956501994,35.29440430444869,True,False
+B8-B-baseline-long,sector,Capital Markets,5,5,-1431.4416396007648,-6.967919814974382,True,False
+B8-B-baseline-long,rvol,<3,6,6,-6271.5420160189005,-23.281342394708957,True,False
+B8-B-baseline-long,sector,Auto Components,2,2,-6825.530143112956,-78.16958507974732,True,False
+B8-B-baseline-long,trend_efficiency,range,3,3,-6202.883073604676,-47.92946188897428,True,False
+B8-B-baseline-long,market_volatility,high,10,5,-16130.056990229936,-37.67457635190231,True,False
+B8-B-baseline-long,trend_efficiency,mixed,3,3,-5818.764443075715,-44.422418195251545,True,False
+B8-B-baseline-long,sector,Financial Technology (Fintech),2,2,-5912.659006607713,-67.64979667389115,True,False
+B8-B-baseline-long,liquidity,ADV<100crore,6,6,3418.5095626251405,12.992464950319045,True,False
+B8-B-baseline-long,sector,Telecom - Services,4,4,-2365.7918711918983,-14.640311603560303,True,False
+B8-B-baseline-long,sector,Electrical Equipment,3,3,-6251.316224156333,-47.944141890372464,True,False
+B8-B-baseline-long,market_volatility,low,8,7,-2465.607564391751,-6.7259910632874504,True,False
+B8-B-baseline-long,sector,Automobiles,2,1,-3652.4843977410696,-41.74180784758535,True,False
+B8-B-baseline-long,sector,Ferrous Metals,2,2,-1396.0212199929342,-14.653463174791085,True,False
+B8-B-baseline-long,sector,Non - Ferrous Metals,2,2,-9747.302669925131,-114.52587742818957,True,False
+B8-B-baseline-long,sector,Finance,2,2,-2673.0422150087156,-31.59765612376834,True,False
+B8-B-baseline-long,sector,Transport Services,2,2,-1236.2770984798667,-14.652230013784674,True,False
+B8-B-baseline-long,sector,Petroleum Products,1,1,17.47357875161157,0.41009717724180067,True,False
+B8-B-baseline-long,sector,Pharmaceuticals & Biotechnology,1,1,-4856.328708037907,-114.52967966966715,True,False
+B8-B-baseline-long,sector,Diversified Metals,1,1,-4834.54685171294,-114.53474434913095,True,False
+B8-B-baseline-long,time,midday,1,1,-874.7221130690746,-20.810419991099746,True,False
+B10-B-baseline-long,time,morning,26,24,-28002.494288523583,-24.89327500812656,True,False
+B10-B-baseline-long,market_direction,down,5,5,-5572.434347892541,-25.543721151896722,True,False
+B10-B-baseline-long,market_volatility,normal,21,18,-21733.714417491356,-23.839544339040206,True,False
+B10-B-baseline-long,liquidity,ADV>=100crore,24,21,-26677.425968553176,-25.74758085736274,True,False
+B10-B-baseline-long,price,>=500,13,12,-8942.933840085985,-15.585352355130178,True,False
+B10-B-baseline-long,sector,Retailing,3,3,-14686.524249634835,-114.52098994871987,True,False
+B10-B-baseline-long,gap,gap>=2%,18,16,-33454.18269237117,-43.06025675490489,True,False
+B10-B-baseline-long,rvol,>=3,26,23,-29200.15012013286,-25.912825931876018,True,False
+B10-B-baseline-long,trend_efficiency,trend,26,24,-28002.494288523583,-24.89327500812656,True,False
+B10-B-baseline-long,entry_stage,>=5%,27,24,-32942.88397789509,-28.21243359087703,True,False
+B10-B-baseline-long,market_direction,up,22,19,-27370.449630002553,-28.818959145190743,True,False
+B10-B-baseline-long,price,<500,14,14,-23999.95013780911,-39.93758045264196,True,False
+B10-B-baseline-long,sector,Power,2,1,-1291.9322726094583,-14.631767867274569,True,False
+B10-B-baseline-long,sector,Insurance,1,1,-3233.8643319905987,-74.71888079408293,True,False
+B10-B-baseline-long,time,midday,1,1,-4940.389689371513,-114.51055674238927,True,False
+B10-B-baseline-long,sector,Construction,4,4,-601.9928537154078,-3.3010345374150525,True,False
+B10-B-baseline-long,trend_efficiency,mixed,1,1,-4940.389689371513,-114.51055674238927,True,False
+B10-B-baseline-long,sector,IT - Software,3,2,3293.6410140682483,25.782070104086475,True,False
+B10-B-baseline-long,gap,intraday_built,9,9,511.29871447607275,1.4832127371786816,True,False
+B10-B-baseline-long,sector,Consumer Durables,5,5,989.9372569686952,5.313155214722036,True,False
+B10-B-baseline-long,sector,Capital Markets,1,1,3670.8822508566386,85.23015757057904,True,False
+B10-B-baseline-long,liquidity,ADV<100crore,3,3,-6265.458009341919,-47.93125545899138,True,False
+B10-B-baseline-long,sector,Telecom - Services,3,3,-6265.458009341919,-47.93125545899138,True,False
+B10-B-baseline-long,sector,Electrical Equipment,1,1,-4948.730734843206,-114.50869501933599,True,False
+B10-B-baseline-long,market_volatility,low,4,4,-2556.5753522898285,-14.646404435473944,True,False
+B10-B-baseline-long,sector,Metals & Minerals Trading,1,1,3644.735596473753,85.22239640684414,True,False
+B10-B-baseline-long,market_volatility,high,2,2,-8652.594208113911,-101.25982904596984,True,False
+B10-B-baseline-long,sector,Industrial Manufacturing,1,1,-4909.860350351677,-114.51742536703625,True,False
+B10-B-baseline-long,sector,Finance,1,1,-3742.7338577622345,-88.00223272490344,True,False
+B10-B-baseline-long,rvol,<3,1,1,-3742.7338577622345,-88.00223272490344,True,False
+B10-B-baseline-long,sector,Ferrous Metals,1,1,-4860.983436013095,-114.52860330427093,True,False

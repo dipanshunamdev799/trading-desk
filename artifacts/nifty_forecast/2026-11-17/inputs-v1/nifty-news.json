@@ -1,0 +1,14 @@
+{
+  "method": "get_news",
+  "parameters": {
+    "category": "instrument_keys",
+    "instrument_keys": [
+      "NSE_INDEX|Nifty 50"
+    ],
+    "page_size": 30
+  },
+  "requested_at": "2026-11-17T00:32:05.597787+05:30",
+  "acquired_at": "2026-11-17T00:32:05.777050+05:30",
+  "ok": true,
+  "payload": {}
+}

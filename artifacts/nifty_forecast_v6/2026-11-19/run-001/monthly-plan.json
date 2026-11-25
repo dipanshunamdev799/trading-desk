@@ -1,0 +1,18 @@
+{
+  "registered_at": "2026-11-19T16:04:46.550665+05:30",
+  "M_RISK_PANEL": "Native-sector date-balanced futureRMS/originRV log-ratio Ridge100, ratio clipped.5\u20132; shrunk monthly mean and Studentdf5 endpoint law mixed65/35 with historical. Not independent stock-date monthly outcomes.",
+  "diagnostic_horizons": [
+    10,
+    15
+  ],
+  "common_dates": "Same76 original monthly origins; primary5/21 unchanged",
+  "diagnostic_models": [
+    "R_I03",
+    "H_DYNAMIC_CORE",
+    "A_STUDENT",
+    "J_EQUAL"
+  ],
+  "monthly_independent_windows": 4,
+  "no_compounded_weekly_probabilities": true,
+  "no_horizon_selection_for_primary": true
+}

@@ -1,0 +1,93 @@
+{
+  "registered_at": "2026-11-24T12:02:43.161180+05:30",
+  "cohort": "primary",
+  "configurations": {
+    "R_BANK": {
+      "frame": "bank_change",
+      "parent": "B_NATIVE",
+      "hypothesis": "Bank-financial spread change alone"
+    },
+    "R_DEF": {
+      "frame": "def_change",
+      "parent": "B_NATIVE",
+      "hypothesis": "Defensive-cyclical spread change alone"
+    },
+    "R_LEVEL": {
+      "frame": "levels",
+      "parent": "B_NATIVE",
+      "hypothesis": "Original spread levels"
+    },
+    "R_LEVEL_CHANGE": {
+      "frame": "levels_changes",
+      "parent": "B_ROT",
+      "hypothesis": "Add original levels to changes"
+    },
+    "R_RESIDUAL": {
+      "frame": "residual",
+      "parent": "B_ROT",
+      "hypothesis": "Residualize spreads against NIFTY with lagged beta"
+    },
+    "R_NORMAL": {
+      "frame": "normalized",
+      "parent": "B_ROT",
+      "hypothesis": "Scale changes by trailing spread volatility"
+    },
+    "R_SLOPE": {
+      "frame": "slopes",
+      "parent": "B_ROT",
+      "hypothesis": "Smooth 10-session slope of each spread"
+    },
+    "R_ACCEL": {
+      "frame": "acceleration",
+      "parent": "B_ROT",
+      "hypothesis": "Second five-session differences"
+    },
+    "R_SWITCH": {
+      "frame": "switch",
+      "parent": "B_ROT",
+      "hypothesis": "Change in signs of relative leadership"
+    },
+    "R_EXTREME": {
+      "frame": "extremes",
+      "parent": "B_ROT",
+      "hypothesis": "Large normalized changes defined by fixed 1.5 threshold"
+    },
+    "R_INTERACT": {
+      "frame": "interactions",
+      "parent": "B_ROT",
+      "hypothesis": "Rotation dependence on bandwidth and volatility"
+    },
+    "R_LAG1": {
+      "frame": "lag1",
+      "parent": "B_ROT",
+      "hypothesis": "One older observed session"
+    },
+    "R_LAG5": {
+      "frame": "lag5",
+      "parent": "B_ROT",
+      "hypothesis": "Five-session delayed genuine domestic rotation"
+    },
+    "R_LAG10": {
+      "frame": "lag10",
+      "parent": "B_ROT",
+      "hypothesis": "Ten-session delayed genuine rotation"
+    },
+    "R_SMOOTH": {
+      "frame": "average",
+      "parent": "B_ROT",
+      "hypothesis": "Ten-session smoothed levels"
+    },
+    "R_WRAP": {
+      "frame": "both_changes",
+      "parent": "B_ROT",
+      "roll_group": "r_",
+      "diagnostic": true,
+      "hypothesis": "Train-only circular roll of two rotation inputs"
+    }
+  },
+  "seed": 20261125,
+  "source": {
+    "models.py": "37056bce809a9e7dbecd72cd0c5a5fe91249866e9c32fefbad0a75d78ad2280e",
+    "experiments.py": "4f9135a1a17f2d26d7611d439a1c749973f8f3ac301ed1004b690a5036180a35"
+  }
+}

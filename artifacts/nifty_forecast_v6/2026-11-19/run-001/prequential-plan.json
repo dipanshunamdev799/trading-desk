@@ -1,0 +1,10 @@
+{
+  "registered_at": "2026-11-19T15:58:19.368240+05:30",
+  "parents": [
+    "I03_nosize",
+    "L01"
+  ],
+  "rule": "Exact original monthly prequential origins, fully matured/embargoed fitting; inner42 heldout residuals; cache every law before downstream mixture fitting",
+  "classifier": "Native logisticC=.1, max_iter3000; independent probability diagnostic, never assigned to an invented return law",
+  "mixture_training": "Only cached origin forecasts with endpoint strictly before current refit; latest42; regularized weights only, no test outcomes"
+}

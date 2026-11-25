@@ -1,0 +1,19 @@
+{
+  "registered_at": "2026-11-24T11:41:50.572250+05:30",
+  "configurations": {
+    "J_EQUAL": {
+      "parent": "C_NO_DEF",
+      "hypothesis": "Equal complete-law mixture of V6 winner representations"
+    },
+    "J_JOINT": {
+      "parent": "J_EQUAL",
+      "hypothesis": "Regularized joint fit of training CRPS and Brier, only matured reconstructed forecasts"
+    },
+    "J_TILT": {
+      "parent": "C_NO_DEF",
+      "hypothesis": "Train-only shrinkage on sign log odds by reweighting positive return atoms"
+    }
+  },
+  "training_origin_window": 42,
+  "penalties": "w in [.1,.9], CRPS/.02 + Brier/.25 + .25(w-.5)^2. Tilt in [-.5,.5], Brier+.15*tilt^2."
+}

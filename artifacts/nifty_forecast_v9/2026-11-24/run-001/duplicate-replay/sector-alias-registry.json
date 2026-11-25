@@ -1,0 +1,68 @@
+{
+  "registered_at": "2026-11-24T13:06:16.568354+05:30",
+  "configurations": {
+    "IS_cluster_as_is": {
+      "method": "cluster",
+      "variant": "as_is",
+      "diagnostic": true,
+      "parent": "B_FULL",
+      "frame": "native"
+    },
+    "IS_cluster_one_copy": {
+      "method": "cluster",
+      "variant": "one_copy",
+      "diagnostic": true,
+      "parent": "B_FULL",
+      "frame": "native"
+    },
+    "IS_cluster_three_copies": {
+      "method": "cluster",
+      "variant": "three_copies",
+      "diagnostic": true,
+      "parent": "B_FULL",
+      "frame": "native"
+    },
+    "IS_canonical_cluster_as_is": {
+      "method": "canonical_cluster",
+      "variant": "as_is",
+      "diagnostic": true,
+      "parent": "B_FULL",
+      "frame": "native"
+    },
+    "IS_canonical_cluster_one_copy": {
+      "method": "canonical_cluster",
+      "variant": "one_copy",
+      "diagnostic": true,
+      "parent": "B_FULL",
+      "frame": "native"
+    },
+    "IS_canonical_cluster_three_copies": {
+      "method": "canonical_cluster",
+      "variant": "three_copies",
+      "diagnostic": true,
+      "parent": "B_FULL",
+      "frame": "native"
+    }
+  },
+  "seed": 20261125,
+  "cohort": "primary",
+  "defensive_inputs": [
+    "i_idx_NIFTY_HEALTHCARE_rel5",
+    "i_idx_NIFTY_HEALTHCARE_rel21",
+    "i_nifty_fmcg_rel5",
+    "i_nifty_fmcg_rel21",
+    "i_nifty_pharma_rel5",
+    "i_nifty_pharma_rel21"
+  ],
+  "specs": {
+    "cluster": {
+      "rep": "cluster"
+    },
+    "canonical_cluster": {
+      "dedup": true,
+      "rep": "cluster"
+    }
+  },
+  "equivalence_tolerance": 1e-11,
+  "prediction_tolerance": 1e-10
+}

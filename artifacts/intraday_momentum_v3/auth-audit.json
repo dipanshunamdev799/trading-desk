@@ -1,0 +1,46 @@
+{
+  "checked_at": "2026-11-16T18:38:02.864553+00:00",
+  "credential": {
+    "present": true,
+    "whitespace": false,
+    "has_bearer_prefix": false,
+    "local_decode": "UNVERIFIED_JWT_METADATA_ONLY",
+    "iat_utc": "2026-09-16T01:25:56+00:00",
+    "exp_utc": "2027-09-16T22:00:00+00:00",
+    "expired_by_local_clock": false
+  },
+  "method": "Read-only GET; no credential rotation or account changes",
+  "rest_quote": {
+    "status": "VERIFIED",
+    "instruments": 1
+  },
+  "account_entitlement": {
+    "status_code": 401,
+    "error_codes": [
+      "UDAPI1221"
+    ]
+  },
+  "authorization": [
+    {
+      "path": "/v3/feed/market-data-feed/authorize",
+      "status_code": 200
+    }
+  ],
+  "socket": {
+    "connection": "VERIFIED",
+    "modes": {
+      "full": {
+        "frames": 2,
+        "max_levels": 0,
+        "entitlement": "UNVERIFIED"
+      },
+      "full_d30": {
+        "frames": 0,
+        "max_levels": 0,
+        "entitlement": "UNVERIFIED"
+      }
+    }
+  },
+  "interpretation": "Read endpoint accepted; socket test separate",
+  "required_intervention": null
+}

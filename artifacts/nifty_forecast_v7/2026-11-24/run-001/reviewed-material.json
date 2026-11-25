@@ -1,0 +1,167 @@
+[
+  {
+    "path": "NIFTY_V6_RESEARCH.md",
+    "bytes": 2632,
+    "sha256": "6bb3c8778c803bc1f636ba44040b34362fe6cfa8bd891d40f85bb59173a8671f"
+  },
+  {
+    "path": "artifacts\\nifty_forecast_v6\\2026-11-19\\run-001\\V6_COHERENT_DISTRIBUTIONS.md",
+    "bytes": 11805,
+    "sha256": "2a99891a6281ad4a5af28b2c66cbc3a3f1efd6dc25c6e60c0820a5f85952ff41"
+  },
+  {
+    "path": "artifacts\\nifty_forecast_v6\\2026-11-19\\run-001\\V6_COMPLETE_MODEL_COMPARISON.md",
+    "bytes": 30032,
+    "sha256": "6c6bb2a75b10c080f4dd5b01df28f33ddefe80ae327f86f3c769215888126816"
+  },
+  {
+    "path": "artifacts\\nifty_forecast_v6\\2026-11-19\\run-001\\V6_CONDITIONAL_FORECASTING.md",
+    "bytes": 6764,
+    "sha256": "992902f8b4d31c950b02fd0afc5ad0d00fd1003d52e5215e8f39c7e21e1bbe72"
+  },
+  {
+    "path": "artifacts\\nifty_forecast_v6\\2026-11-19\\run-001\\V6_FINAL_RESEARCH_DECISION.md",
+    "bytes": 6596,
+    "sha256": "006d693d44a402ed6841ceb2bb160c4bb5d6d1d24dc50f821daf04cd84bd6250"
+  },
+  {
+    "path": "artifacts\\nifty_forecast_v6\\2026-11-19\\run-001\\V6_GLOBAL_INCREMENTAL_RESEARCH.md",
+    "bytes": 7346,
+    "sha256": "1f5660279a971dd4b9eb73171d60835ac09464aeed3988ea64440202eefe5640"
+  },
+  {
+    "path": "artifacts\\nifty_forecast_v6\\2026-11-19\\run-001\\V6_INDIAN_INTERNALS_DEEP_DIVE.md",
+    "bytes": 9497,
+    "sha256": "713bafbaa620e192ced0194a8c75736fd088741007c8a9d1c9d686e73227ab49"
+  },
+  {
+    "path": "artifacts\\nifty_forecast_v6\\2026-11-19\\run-001\\V6_MARKET_STATE_EVOLUTION.md",
+    "bytes": 8808,
+    "sha256": "a7e06daca8b4cd952fd5a933245c821ac705f6651258a4e6b21fc38c9b23d805"
+  },
+  {
+    "path": "artifacts\\nifty_forecast_v6\\2026-11-19\\run-001\\V6_MODEL_ARCHITECTURES.md",
+    "bytes": 8316,
+    "sha256": "8c3cd97642fa14dca99ff3cac1dd8200189281a91602d3d6b0b082cb059c528e"
+  },
+  {
+    "path": "artifacts\\nifty_forecast_v6\\2026-11-19\\run-001\\V6_MONTHLY_RESEARCH.md",
+    "bytes": 9140,
+    "sha256": "a3cfb69e58756d0381daea6eacbcb0688dc277e701194acc5f0bb6d099071034"
+  },
+  {
+    "path": "artifacts\\nifty_forecast_v6\\2026-11-19\\run-001\\V6_NEXT_EXPERIMENTS.md",
+    "bytes": 5287,
+    "sha256": "e675d713c0c534a18b6fdbb5f1464e6555f2eb626a7a446d56d3788d697f9842"
+  },
+  {
+    "path": "artifacts\\nifty_forecast_v6\\2026-11-19\\run-001\\V6_SIGNAL_RANKING.md",
+    "bytes": 5739,
+    "sha256": "2d00fe6003353c89a2dac6d7ac8419637424ab451a4ac11d1bf326e53ca22e5d"
+  },
+  {
+    "path": "artifacts\\nifty_forecast_v6\\2026-11-19\\run-001\\V6_VALIDATION_AND_LEAKAGE_AUDIT.md",
+    "bytes": 9242,
+    "sha256": "38aea01e437e97c33e67e2d5c1270e45cd0c177896006a28e4b79bfebacd509e"
+  },
+  {
+    "path": "artifacts\\nifty_forecast_v6\\2026-11-19\\run-001\\V6_WINNER_FORENSICS.md",
+    "bytes": 21582,
+    "sha256": "bd21153ca1ec491e535d6dafda30e35ba01d632d51a124976daed16a108a2934"
+  },
+  {
+    "path": "research\\nifty_forecast_v6\\__init__.py",
+    "bytes": 70,
+    "sha256": "3c3123544f682aa490557e93767376b5cef8cef2b87a26f317b45c8aa5529454"
+  },
+  {
+    "path": "research\\nifty_forecast_v6\\analyze.py",
+    "bytes": 11742,
+    "sha256": "a4dc646da29c5abae8c49a0804639e60773f10ab2920347e6b6f0fec02131b17"
+  },
+  {
+    "path": "research\\nifty_forecast_v6\\common.py",
+    "bytes": 2373,
+    "sha256": "8bc60fd7286afe60ede177969bc97af6048139bdae3549b901a0b25406395641"
+  },
+  {
+    "path": "research\\nifty_forecast_v6\\distribution_audit.py",
+    "bytes": 6969,
+    "sha256": "eb82abc94158826fe53ad125acc296b079717a16ac827bbffa903e2cdaac211c"
+  },
+  {
+    "path": "research\\nifty_forecast_v6\\engine.py",
+    "bytes": 8144,
+    "sha256": "a65ea6bff70ad85ad9a5c736c27e035aa43e2c77fcb7f328b93c98af7b69bff3"
+  },
+  {
+    "path": "research\\nifty_forecast_v6\\experiments.py",
+    "bytes": 13779,
+    "sha256": "271159f94e56345966d4fbcbb3693d0f05d76a77b984461fb83400b464ba3540"
+  },
+  {
+    "path": "research\\nifty_forecast_v6\\features.py",
+    "bytes": 5062,
+    "sha256": "1e73f12fdc0c06b1dc6eee3aa4526d8e7486239c9e6c9d9be7da3df9f2e17091"
+  },
+  {
+    "path": "research\\nifty_forecast_v6\\figures.py",
+    "bytes": 2949,
+    "sha256": "9bb96646791042dacd07e7af08e8c54d19da741a682a744b2f1c4c9102f4a037"
+  },
+  {
+    "path": "research\\nifty_forecast_v6\\followups.py",
+    "bytes": 4808,
+    "sha256": "79f8bc827b8e469694a70d1ea86f49de179b887a70610bfd50b242701d5928aa"
+  },
+  {
+    "path": "research\\nifty_forecast_v6\\forensic_audit.py",
+    "bytes": 6382,
+    "sha256": "5c7dc6ab5c909880632fc1e79b59c1e871a6de8709fbf40eb7624d7b3b7d1348"
+  },
+  {
+    "path": "research\\nifty_forecast_v6\\forensics.py",
+    "bytes": 11658,
+    "sha256": "77e419920bab2bdd0ab912859c6b7e186eb5c5f1c0bf3dd87b46e3c44e8860bf"
+  },
+  {
+    "path": "research\\nifty_forecast_v6\\mediation.py",
+    "bytes": 4584,
+    "sha256": "b29a1da7a25d3179ace6a01ead3e2f71b8316913fbeb8b8f123edb32c423c2af"
+  },
+  {
+    "path": "research\\nifty_forecast_v6\\monthly.py",
+    "bytes": 6631,
+    "sha256": "74b2042801d62ba7bc5af8ca49ef2840a998d858983f01aa5ece9c36305bdc10"
+  },
+  {
+    "path": "research\\nifty_forecast_v6\\monthly_followup.py",
+    "bytes": 4101,
+    "sha256": "4fc9be597db5ee32ce9407b0a36eed233b98ed61ecb19768e1ede4f3eab745ae"
+  },
+  {
+    "path": "research\\nifty_forecast_v6\\prequential.py",
+    "bytes": 4663,
+    "sha256": "660a0824ee5f7a6ad4e97bec2d258378db2d68277b3b489405eea228512fb84a"
+  },
+  {
+    "path": "research\\nifty_forecast_v6\\replay.py",
+    "bytes": 3140,
+    "sha256": "a2167302fe717838f8c0ab3f26f58e53a434194a57c07f4369bf3c61b7d5895b"
+  },
+  {
+    "path": "research\\nifty_forecast_v6\\reporting.py",
+    "bytes": 77381,
+    "sha256": "c30ab72da8752ac305dfc50496dabad0e4e172a65018ee703df2767deee04981"
+  },
+  {
+    "path": "research\\nifty_forecast_v6\\reproduce.py",
+    "bytes": 4686,
+    "sha256": "50721b9094be8555b7cb312a5754e567bed8be5aba06814a8b72d46d5060aed1"
+  },
+  {
+    "path": "research\\nifty_forecast_v6\\verify.py",
+    "bytes": 11446,
+    "sha256": "c043aee67db56c14f40d9773452d876005749961cf8ff961b4879117ca59c6ce"
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "predictions": 70504,
+  "complete_forecasts_recomputed": 70504,
+  "priced_expiry_distributions_checked": 19389,
+  "max_priced_forward_moment_error": 1.5735006560522952e-11,
+  "distinct_fit_artifacts": 1923,
+  "attempts_with_coefficients": 3024,
+  "simplex_fit_records": 675,
+  "ensemble_exact_copy_checks": 964,
+  "casewise_timing_and_copy_checks": 24,
+  "protected_files": 20298,
+  "daily_options_archives": 466,
+  "external_timestamp_rows": 1823,
+  "source_alignment_rows": 11284,
+  "unestimated_folds": 2,
+  "checks": [
+    "Complete endpoint outcomes on frozen origins",
+    "Forecast points, masses, quantiles and interval scores recomputed",
+    "Option density normalization and martingale/price-fit constraints checked",
+    "Historical source lag and earlier realized maturity independently checked",
+    "V1\u2013V11 manifest files matched"
+  ]
+}

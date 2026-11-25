@@ -1,0 +1,245 @@
+[
+  {
+    "horizon": 5,
+    "fold": "2026-07",
+    "model": "G_BASE5",
+    "batch": "global",
+    "cutoff": "2026-06-30",
+    "status": "failed",
+    "reason": "ValueError: Insufficient strictly eligible train/query observations"
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-07",
+    "model": "G_DIRECT5",
+    "batch": "global",
+    "cutoff": "2026-06-30",
+    "status": "failed",
+    "reason": "ValueError: Insufficient strictly eligible train/query observations"
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-07",
+    "model": "G_INTERMEDIATE5",
+    "batch": "global",
+    "cutoff": "2026-06-30",
+    "status": "failed",
+    "reason": "ValueError: Insufficient strictly eligible train/query observations"
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-08",
+    "model": "G_BASE5",
+    "batch": "global",
+    "cutoff": "2026-07-31",
+    "status": "failed",
+    "reason": "ValueError: Insufficient strictly eligible train/query observations"
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-08",
+    "model": "G_DIRECT5",
+    "batch": "global",
+    "cutoff": "2026-07-31",
+    "status": "failed",
+    "reason": "ValueError: Insufficient strictly eligible train/query observations"
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-08",
+    "model": "G_INTERMEDIATE5",
+    "batch": "global",
+    "cutoff": "2026-07-31",
+    "status": "failed",
+    "reason": "ValueError: Insufficient strictly eligible train/query observations"
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-09",
+    "model": "G_BASE5",
+    "batch": "global",
+    "cutoff": "2026-08-31",
+    "status": "failed",
+    "reason": "ValueError: Insufficient strictly eligible train/query observations"
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-09",
+    "model": "G_DIRECT5",
+    "batch": "global",
+    "cutoff": "2026-08-31",
+    "status": "failed",
+    "reason": "ValueError: Insufficient strictly eligible train/query observations"
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-09",
+    "model": "G_INTERMEDIATE5",
+    "batch": "global",
+    "cutoff": "2026-08-31",
+    "status": "failed",
+    "reason": "ValueError: Insufficient strictly eligible train/query observations"
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-10",
+    "model": "G_BASE5",
+    "batch": "global",
+    "cutoff": "2026-09-30",
+    "status": "failed",
+    "reason": "ValueError: Insufficient strictly eligible train/query observations"
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-10",
+    "model": "G_DIRECT5",
+    "batch": "global",
+    "cutoff": "2026-09-30",
+    "status": "failed",
+    "reason": "ValueError: Insufficient strictly eligible train/query observations"
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-10",
+    "model": "G_INTERMEDIATE5",
+    "batch": "global",
+    "cutoff": "2026-09-30",
+    "status": "failed",
+    "reason": "ValueError: Insufficient strictly eligible train/query observations"
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-11",
+    "model": "G_BASE5",
+    "batch": "global",
+    "cutoff": "2026-10-30",
+    "status": "failed",
+    "reason": "ValueError: Insufficient strictly eligible train/query observations"
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-11",
+    "model": "G_DIRECT5",
+    "batch": "global",
+    "cutoff": "2026-10-30",
+    "status": "failed",
+    "reason": "ValueError: Insufficient strictly eligible train/query observations"
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-11",
+    "model": "G_INTERMEDIATE5",
+    "batch": "global",
+    "cutoff": "2026-10-30",
+    "status": "failed",
+    "reason": "ValueError: Insufficient strictly eligible train/query observations"
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-07",
+    "model": "G_BASE21",
+    "batch": "global",
+    "cutoff": "2026-06-30",
+    "status": "failed",
+    "reason": "ValueError: Insufficient strictly eligible train/query observations"
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-07",
+    "model": "G_DIRECT21",
+    "batch": "global",
+    "cutoff": "2026-06-30",
+    "status": "failed",
+    "reason": "ValueError: Insufficient strictly eligible train/query observations"
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-07",
+    "model": "G_INTERMEDIATE21",
+    "batch": "global",
+    "cutoff": "2026-06-30",
+    "status": "failed",
+    "reason": "ValueError: Insufficient strictly eligible train/query observations"
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-08",
+    "model": "G_BASE21",
+    "batch": "global",
+    "cutoff": "2026-07-31",
+    "status": "failed",
+    "reason": "ValueError: Insufficient strictly eligible train/query observations"
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-08",
+    "model": "G_DIRECT21",
+    "batch": "global",
+    "cutoff": "2026-07-31",
+    "status": "failed",
+    "reason": "ValueError: Insufficient strictly eligible train/query observations"
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-08",
+    "model": "G_INTERMEDIATE21",
+    "batch": "global",
+    "cutoff": "2026-07-31",
+    "status": "failed",
+    "reason": "ValueError: Insufficient strictly eligible train/query observations"
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-09",
+    "model": "G_BASE21",
+    "batch": "global",
+    "cutoff": "2026-08-31",
+    "status": "failed",
+    "reason": "ValueError: Insufficient strictly eligible train/query observations"
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-09",
+    "model": "G_DIRECT21",
+    "batch": "global",
+    "cutoff": "2026-08-31",
+    "status": "failed",
+    "reason": "ValueError: Insufficient strictly eligible train/query observations"
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-09",
+    "model": "G_INTERMEDIATE21",
+    "batch": "global",
+    "cutoff": "2026-08-31",
+    "status": "failed",
+    "reason": "ValueError: Insufficient strictly eligible train/query observations"
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-10",
+    "model": "G_BASE21",
+    "batch": "global",
+    "cutoff": "2026-09-30",
+    "status": "failed",
+    "reason": "ValueError: Insufficient strictly eligible train/query observations"
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-10",
+    "model": "G_DIRECT21",
+    "batch": "global",
+    "cutoff": "2026-09-30",
+    "status": "failed",
+    "reason": "ValueError: Insufficient strictly eligible train/query observations"
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-10",
+    "model": "G_INTERMEDIATE21",
+    "batch": "global",
+    "cutoff": "2026-09-30",
+    "status": "failed",
+    "reason": "ValueError: Insufficient strictly eligible train/query observations"
+  }
+]

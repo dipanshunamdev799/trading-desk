@@ -1,0 +1,18 @@
+# V11 Signal Discoveries
+
+The strongest evidence is an observed effect conditional on a specific historical model and chronology. The classifications account for source provenance, exact parent results, sensitivity and search exposure. No independent forecasting edge was established.
+
+| hypothesis | status | evidence |
+| --- | --- | --- |
+| Official lagged breadth in rotation/structure | Exploratory lead | Gains on both V9 weekly cohorts in two exact designs. |
+| Official breadth in cluster-balanced rotation | Mixed | Weekly Brier worsened in both cohorts; later distribution score improved. |
+| Index and sector concentration proxies | Exploratory lead | Chronologically valid proxy information; individual weighted contributions remain unavailable. |
+| Training-memory composition versus redundancy | Exploratory lead | Changing dates at equal budget changes errors and effective support. |
+| Learned historical usefulness and recent residual | Inconclusive | Compare alternative phases, fixed spread and training-window removal. |
+| Native disjoint phase | Exploratory lead | Improved combined weekly point Brier with phase sensitivity and exposed selection. |
+| Complete-law ensembles and tail modeling | Exploratory lead | Probability scores, CRPS and calibration favor different combinations. |
+| Cross-market or derivative scale inputs | Inconclusive | Endpoint performance and path-volatility outcomes have separate measured effects. |
+| Monthly direction | Unresolved | Few disjoint windows and competitive placebo outcomes. |
+| Purging and duplicate robustness | Methodological result | Existing exact-copy invariance extends to new breadth fits. |
+
+[Paired increments](incremental-comparisons.csv) · [Phase and episode stability](stress-comparisons.csv).

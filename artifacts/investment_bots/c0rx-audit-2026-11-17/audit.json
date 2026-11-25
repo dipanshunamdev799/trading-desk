@@ -1,0 +1,137 @@
+{
+  "checked_at": "2026-11-17T09:40:24.796398+05:30",
+  "control": {
+    "id": "C0_R_X",
+    "enabled": 1,
+    "status": "RUNNING",
+    "error": "",
+    "checked_at": "2026-11-17T09:35:20.473612+05:30"
+  },
+  "kill_switch": false,
+  "record_checksums_match": true,
+  "last_refresh": "2026-11-16",
+  "last_integrity": {
+    "checked_at": "2026-11-17T09:35:20.473612+05:30",
+    "integrity": {
+      "ca_causality": {
+        "bad_print_pre_exclusion_events": [],
+        "events": 20,
+        "kinds": {
+          "suspected_unadjusted_corporate_action": 20
+        },
+        "note": "persistent moves: excluded t..t+5 only (causal). Bad prints: spec excludes t-5..t+5 (look-ahead) - see causal_bad_print_variant in reproduce.py for its effect",
+        "pass": true
+      },
+      "classification": {
+        "panel_isin_prefixes": {
+          "IN9": 1,
+          "INE": 2004,
+          "INF": 279
+        },
+        "pass": true,
+        "rejected_in_universe": [],
+        "universe_isin_prefixes": {
+          "INE": 468
+        }
+      },
+      "db_duplicates": {
+        "duplicate_daily_instrument_dates_in_store": 0,
+        "handling": "Panel readers select one latest timestamp per instrument/session",
+        "pass": true
+      },
+      "delisted": {
+        "pass": true,
+        "survivorship_note": "Upstox master lists current instruments only; stocks delisted before 2026-11 are absent from the panel entirely (cannot be tested here)",
+        "symbols": [],
+        "universe_instruments_with_data_ending_early": 0
+      },
+      "holdings_missing": {
+        "holding_days_without_close": 0,
+        "pass": true
+      },
+      "panel_candles": {
+        "dates_unique_sorted": true,
+        "flat_repeat_bars_universe_cells": 0,
+        "ohlc_inconsistent_universe_cells": 0,
+        "pass": true,
+        "zero_volume_universe_cells": 0
+      },
+      "pit_liquidity": {
+        "max_rel_err": 0.0,
+        "pass": true
+      },
+      "split_bonus": {
+        "pass": true,
+        "split_bonus_events_matched": 19,
+        "unadjusted_suspects": []
+      },
+      "universe_ties": {
+        "boundary_ties": 0,
+        "pass": true
+      }
+    },
+    "score_max_error": 0.0,
+    "score_missing_mismatches": 0,
+    "session": "2026-11-16",
+    "universe_mismatches": 0
+  },
+  "real_orders_submitted": 0,
+  "production_writes": 0,
+  "strategy_rules_changed": false,
+  "last_processed_session": "2026-11-16",
+  "metrics": {
+    "cash": 1000000.0,
+    "drawdown": 0.0,
+    "equity": 1000000.0,
+    "exposure": 0.0,
+    "fees": 0.0,
+    "realized_pnl": 0.0,
+    "total_pnl": 0.0,
+    "unrealized_pnl": 0
+  },
+  "execution_session": "2026-11-16",
+  "previous_decision_session": "2026-11-13",
+  "initial_candidates": 20,
+  "gate_counts": {
+    "uncertain_market_imbalance": 20
+  },
+  "all_classifications_match": true,
+  "pure_nonrebalance_replay_matches": true,
+  "snapshot_count": 14,
+  "snapshot_checksums_match": true,
+  "decision_snapshot": {
+    "label": "09:04:30",
+    "received_at": "2026-11-16T09:04:44.643513+05:30"
+  },
+  "postmatch_snapshot": {
+    "label": "09:12:30",
+    "received_at": "2026-11-16T09:12:41.616703+05:30"
+  },
+  "pending_buys": 0,
+  "pending_sells": 0,
+  "holdings": 0,
+  "offset_from_anchor": 1,
+  "verification": {
+    "investment_tests_run": 40,
+    "investment_tests_passed": 40,
+    "failed": 0,
+    "stored_candidate_gate_replay_passed": true
+  },
+  "calendar_check": {
+    "source": "Upstox market timings API, read-only check on2026-11-17",
+    "verified_sessions": [
+      "2026-11-17",
+      "2026-11-18",
+      "2026-11-19",
+      "2026-11-20",
+      "2026-11-23"
+    ],
+    "closed_dates": [
+      "2026-11-21",
+      "2026-11-22"
+    ],
+    "next_scheduled_decision": "2026-11-20",
+    "next_possible_execution": "2026-11-23",
+    "convention": "Conditional on eligible signals and contemporaneous auction evidence; records are reconciled the following morning."
+  }
+}

@@ -1,0 +1,506 @@
+[
+  {
+    "horizon": 5,
+    "fold": "2026-07",
+    "target": "it",
+    "cutoff": "2026-06-30",
+    "last_endpoint": "2026-06-29",
+    "n": 300
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-07",
+    "target": "energy",
+    "cutoff": "2026-06-30",
+    "last_endpoint": "2026-06-29",
+    "n": 300
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-07",
+    "target": "synchrony",
+    "cutoff": "2026-06-30",
+    "last_endpoint": "2026-06-29",
+    "n": 300
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-07",
+    "target": "breadth",
+    "cutoff": "2026-06-30",
+    "last_endpoint": "2026-06-29",
+    "n": 300
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-07",
+    "target": "magnitude",
+    "cutoff": "2026-06-30",
+    "last_endpoint": "2026-06-29",
+    "n": 300
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-07",
+    "target": "volatility",
+    "cutoff": "2026-06-30",
+    "last_endpoint": "2026-06-29",
+    "n": 300
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-07",
+    "target": "large_move",
+    "cutoff": "2026-06-30",
+    "last_endpoint": "2026-06-29",
+    "n": 300
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-08",
+    "target": "it",
+    "cutoff": "2026-07-31",
+    "last_endpoint": "2026-07-30",
+    "n": 323
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-08",
+    "target": "energy",
+    "cutoff": "2026-07-31",
+    "last_endpoint": "2026-07-30",
+    "n": 323
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-08",
+    "target": "synchrony",
+    "cutoff": "2026-07-31",
+    "last_endpoint": "2026-07-30",
+    "n": 323
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-08",
+    "target": "breadth",
+    "cutoff": "2026-07-31",
+    "last_endpoint": "2026-07-30",
+    "n": 323
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-08",
+    "target": "magnitude",
+    "cutoff": "2026-07-31",
+    "last_endpoint": "2026-07-30",
+    "n": 323
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-08",
+    "target": "volatility",
+    "cutoff": "2026-07-31",
+    "last_endpoint": "2026-07-30",
+    "n": 323
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-08",
+    "target": "large_move",
+    "cutoff": "2026-07-31",
+    "last_endpoint": "2026-07-30",
+    "n": 323
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-09",
+    "target": "it",
+    "cutoff": "2026-08-31",
+    "last_endpoint": "2026-08-28",
+    "n": 344
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-09",
+    "target": "energy",
+    "cutoff": "2026-08-31",
+    "last_endpoint": "2026-08-28",
+    "n": 344
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-09",
+    "target": "synchrony",
+    "cutoff": "2026-08-31",
+    "last_endpoint": "2026-08-28",
+    "n": 344
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-09",
+    "target": "breadth",
+    "cutoff": "2026-08-31",
+    "last_endpoint": "2026-08-28",
+    "n": 344
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-09",
+    "target": "magnitude",
+    "cutoff": "2026-08-31",
+    "last_endpoint": "2026-08-28",
+    "n": 344
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-09",
+    "target": "volatility",
+    "cutoff": "2026-08-31",
+    "last_endpoint": "2026-08-28",
+    "n": 344
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-09",
+    "target": "large_move",
+    "cutoff": "2026-08-31",
+    "last_endpoint": "2026-08-28",
+    "n": 344
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-10",
+    "target": "it",
+    "cutoff": "2026-09-30",
+    "last_endpoint": "2026-09-29",
+    "n": 365
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-10",
+    "target": "energy",
+    "cutoff": "2026-09-30",
+    "last_endpoint": "2026-09-29",
+    "n": 365
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-10",
+    "target": "synchrony",
+    "cutoff": "2026-09-30",
+    "last_endpoint": "2026-09-29",
+    "n": 365
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-10",
+    "target": "breadth",
+    "cutoff": "2026-09-30",
+    "last_endpoint": "2026-09-29",
+    "n": 365
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-10",
+    "target": "magnitude",
+    "cutoff": "2026-09-30",
+    "last_endpoint": "2026-09-29",
+    "n": 365
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-10",
+    "target": "volatility",
+    "cutoff": "2026-09-30",
+    "last_endpoint": "2026-09-29",
+    "n": 365
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-10",
+    "target": "large_move",
+    "cutoff": "2026-09-30",
+    "last_endpoint": "2026-09-29",
+    "n": 365
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-11",
+    "target": "it",
+    "cutoff": "2026-10-30",
+    "last_endpoint": "2026-10-29",
+    "n": 385
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-11",
+    "target": "energy",
+    "cutoff": "2026-10-30",
+    "last_endpoint": "2026-10-29",
+    "n": 385
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-11",
+    "target": "synchrony",
+    "cutoff": "2026-10-30",
+    "last_endpoint": "2026-10-29",
+    "n": 385
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-11",
+    "target": "breadth",
+    "cutoff": "2026-10-30",
+    "last_endpoint": "2026-10-29",
+    "n": 385
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-11",
+    "target": "magnitude",
+    "cutoff": "2026-10-30",
+    "last_endpoint": "2026-10-29",
+    "n": 385
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-11",
+    "target": "volatility",
+    "cutoff": "2026-10-30",
+    "last_endpoint": "2026-10-29",
+    "n": 385
+  },
+  {
+    "horizon": 5,
+    "fold": "2026-11",
+    "target": "large_move",
+    "cutoff": "2026-10-30",
+    "last_endpoint": "2026-10-29",
+    "n": 385
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-07",
+    "target": "it",
+    "cutoff": "2026-06-30",
+    "last_endpoint": "2026-06-29",
+    "n": 284
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-07",
+    "target": "energy",
+    "cutoff": "2026-06-30",
+    "last_endpoint": "2026-06-29",
+    "n": 284
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-07",
+    "target": "synchrony",
+    "cutoff": "2026-06-30",
+    "last_endpoint": "2026-06-29",
+    "n": 284
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-07",
+    "target": "breadth",
+    "cutoff": "2026-06-30",
+    "last_endpoint": "2026-06-29",
+    "n": 284
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-07",
+    "target": "magnitude",
+    "cutoff": "2026-06-30",
+    "last_endpoint": "2026-06-29",
+    "n": 284
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-07",
+    "target": "volatility",
+    "cutoff": "2026-06-30",
+    "last_endpoint": "2026-06-29",
+    "n": 284
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-07",
+    "target": "large_move",
+    "cutoff": "2026-06-30",
+    "last_endpoint": "2026-06-29",
+    "n": 284
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-08",
+    "target": "it",
+    "cutoff": "2026-07-31",
+    "last_endpoint": "2026-07-30",
+    "n": 307
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-08",
+    "target": "energy",
+    "cutoff": "2026-07-31",
+    "last_endpoint": "2026-07-30",
+    "n": 307
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-08",
+    "target": "synchrony",
+    "cutoff": "2026-07-31",
+    "last_endpoint": "2026-07-30",
+    "n": 307
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-08",
+    "target": "breadth",
+    "cutoff": "2026-07-31",
+    "last_endpoint": "2026-07-30",
+    "n": 307
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-08",
+    "target": "magnitude",
+    "cutoff": "2026-07-31",
+    "last_endpoint": "2026-07-30",
+    "n": 307
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-08",
+    "target": "volatility",
+    "cutoff": "2026-07-31",
+    "last_endpoint": "2026-07-30",
+    "n": 307
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-08",
+    "target": "large_move",
+    "cutoff": "2026-07-31",
+    "last_endpoint": "2026-07-30",
+    "n": 307
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-09",
+    "target": "it",
+    "cutoff": "2026-08-31",
+    "last_endpoint": "2026-08-28",
+    "n": 328
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-09",
+    "target": "energy",
+    "cutoff": "2026-08-31",
+    "last_endpoint": "2026-08-28",
+    "n": 328
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-09",
+    "target": "synchrony",
+    "cutoff": "2026-08-31",
+    "last_endpoint": "2026-08-28",
+    "n": 328
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-09",
+    "target": "breadth",
+    "cutoff": "2026-08-31",
+    "last_endpoint": "2026-08-28",
+    "n": 328
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-09",
+    "target": "magnitude",
+    "cutoff": "2026-08-31",
+    "last_endpoint": "2026-08-28",
+    "n": 328
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-09",
+    "target": "volatility",
+    "cutoff": "2026-08-31",
+    "last_endpoint": "2026-08-28",
+    "n": 328
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-09",
+    "target": "large_move",
+    "cutoff": "2026-08-31",
+    "last_endpoint": "2026-08-28",
+    "n": 328
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-10",
+    "target": "it",
+    "cutoff": "2026-09-30",
+    "last_endpoint": "2026-09-29",
+    "n": 349
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-10",
+    "target": "energy",
+    "cutoff": "2026-09-30",
+    "last_endpoint": "2026-09-29",
+    "n": 349
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-10",
+    "target": "synchrony",
+    "cutoff": "2026-09-30",
+    "last_endpoint": "2026-09-29",
+    "n": 349
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-10",
+    "target": "breadth",
+    "cutoff": "2026-09-30",
+    "last_endpoint": "2026-09-29",
+    "n": 349
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-10",
+    "target": "magnitude",
+    "cutoff": "2026-09-30",
+    "last_endpoint": "2026-09-29",
+    "n": 349
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-10",
+    "target": "volatility",
+    "cutoff": "2026-09-30",
+    "last_endpoint": "2026-09-29",
+    "n": 349
+  },
+  {
+    "horizon": 21,
+    "fold": "2026-10",
+    "target": "large_move",
+    "cutoff": "2026-09-30",
+    "last_endpoint": "2026-09-29",
+    "n": 349
+  }
+]

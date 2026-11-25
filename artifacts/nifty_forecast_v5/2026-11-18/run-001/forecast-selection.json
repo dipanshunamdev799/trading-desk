@@ -1,0 +1,9 @@
+{
+  "selected_at": "2026-11-18T22:51:35.747567+05:30",
+  "status": "POSTSELECTED EXPLORATORY; no independent validation",
+  "weekly_distribution": "L01, lowest exposed CRPS among usable V5 systems",
+  "weekly_direction_alternative": "I03_nosize, best exposed Brier; retain its own full law",
+  "monthly_default": "E00 simple historical law; higher complexity failed calibration",
+  "monthly_research_alternative": "I01_legacy best V5 exposed CRPS, but severe undercoverage",
+  "reference_strategy": "Official NSE18Nov index OHLC + cash ETF OHLC/volume, independently crosschecked with official FO underlying. No fake broker candle or overwritten history."
+}

@@ -1,0 +1,79 @@
+{
+  "python": "3.15.0 (tags/v3.15.0:d220409, Oct  9 2026, 11:55:56) [MSC v.1951 64 bit (AMD64)]",
+  "libraries": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "pandas": "3.1.0",
+    "scikit-learn": "1.9.1",
+    "joblib": "1.6.0",
+    "matplotlib": "3.11.2",
+    "requests": "2.34.2"
+  },
+  "registered_code": [
+    {
+      "file": "experiments.py",
+      "registered_hash": "48baf634853e2d9016ca7f0e79d5e8ae00c42fbde533b3c9bb9939b5960bdef8",
+      "exact_snapshot": true,
+      "registries": [
+        "base-registry.json",
+        "composition-registry.json",
+        "covariance-registry.json",
+        "finalcurve-registry.json",
+        "informationlaws-registry.json",
+        "new-registry.json",
+        "overlap-registry.json",
+        "structure-registry.json",
+        "target-registry.json"
+      ]
+    },
+    {
+      "file": "experiments.py",
+      "registered_hash": "d45e8c107db6a6c3f702d0fdbdf5b889d000a7e372994af18ad4b1d2a2e653bb",
+      "exact_snapshot": true,
+      "registries": [
+        "datedderivatives-registry.json"
+      ]
+    },
+    {
+      "file": "estimators.py",
+      "registered_hash": "70396610d7201423c4151cb004e61a63986cec9a5ec73496a16aa1f45b7f0f09",
+      "exact_snapshot": true,
+      "registries": [
+        "base-registry.json",
+        "composition-registry.json",
+        "finalcurve-registry.json",
+        "informationlaws-registry.json",
+        "new-registry.json",
+        "overlap-registry.json",
+        "structure-registry.json",
+        "target-registry.json"
+      ]
+    },
+    {
+      "file": "estimators.py",
+      "registered_hash": "30f13c215fbddb9ff179412a84586d60e83616b01283bd589523daab4520f9d3",
+      "exact_snapshot": true,
+      "registries": [
+        "covariance-registry.json",
+        "datedderivatives-registry.json"
+      ]
+    },
+    {
+      "file": "targets.py",
+      "registered_hash": "9bb9d2060fef1bc2b1add51c129d8dc4e792afae782e6b5c8183f82a1ae5f752",
+      "exact_snapshot": true,
+      "registries": [
+        "base-registry.json",
+        "composition-registry.json",
+        "covariance-registry.json",
+        "datedderivatives-registry.json",
+        "finalcurve-registry.json",
+        "informationlaws-registry.json",
+        "new-registry.json",
+        "overlap-registry.json",
+        "structure-registry.json",
+        "target-registry.json"
+      ]
+    }
+  ]
+}

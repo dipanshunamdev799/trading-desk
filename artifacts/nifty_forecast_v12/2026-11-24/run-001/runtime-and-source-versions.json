@@ -1,0 +1,38 @@
+{
+  "python": "3.15.0 (tags/v3.15.0:d220409, Oct  9 2026, 11:55:56) [MSC v.1951 64 bit (AMD64)]",
+  "libraries": {
+    "numpy": "2.5.4",
+    "pandas": "3.1.0",
+    "scikit-learn": "1.9.1",
+    "scipy": "1.18.1",
+    "joblib": "1.6.0",
+    "matplotlib": "3.11.2",
+    "requests": "2.34.2"
+  },
+  "registered_sources": [
+    {
+      "batch": "market",
+      "file": "market.py",
+      "sha256": "1f6aabdf2939a209143b86ea8b2e5f40666605dfcc6a30b9d878d9c9c93083e3",
+      "exact": true
+    },
+    {
+      "batch": "priced",
+      "file": "market.py",
+      "sha256": "1f6aabdf2939a209143b86ea8b2e5f40666605dfcc6a30b9d878d9c9c93083e3",
+      "exact": true
+    },
+    {
+      "batch": "phase",
+      "file": "phase.py",
+      "sha256": "b9230a140ef09c7426dd5182bc0090d8d90970dbe4ef558fce7c82b944d22058",
+      "exact": true
+    },
+    {
+      "batch": "surface",
+      "file": "options.py",
+      "sha256": "d0fcfad6e48854ac616803f8aa81298139d99d6aaebc7c81416fb7d6dce9cf57",
+      "exact": true
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "registered_at": "2026-11-24T12:06:44.960938+05:30",
+  "cohort": "primary",
+  "configurations": {
+    "MS_MATCH_PRICE": {
+      "frame": "m_price",
+      "parent": "M_HIST",
+      "hypothesis": "Price parent on exact dates that have complete 21-lagged smoothed state",
+      "eligible": "smooth_ready",
+      "horizons": [
+        21
+      ]
+    },
+    "MS_MATCH_NOW": {
+      "frame": "smooth_strict_current",
+      "parent": "MS_MATCH_PRICE",
+      "hypothesis": "Current smoothed state on the fully common availability cohort",
+      "eligible": "smooth_ready",
+      "horizons": [
+        21
+      ]
+    },
+    "MS_MATCH_LAG5": {
+      "frame": "smooth_strict_lag5",
+      "parent": "MS_MATCH_NOW",
+      "hypothesis": "Five-session genuine delay on fully common dates",
+      "eligible": "smooth_ready",
+      "horizons": [
+        21
+      ]
+    },
+    "MS_MATCH_LAG21": {
+      "frame": "smooth_strict_lag",
+      "parent": "MS_MATCH_NOW",
+      "hypothesis": "21-session genuine delay on fully common dates",
+      "eligible": "smooth_ready",
+      "horizons": [
+        21
+      ]
+    },
+    "MS_MATCH_ROLL": {
+      "frame": "smooth_strict_current",
+      "parent": "MS_MATCH_NOW",
+      "roll_group": "w_",
+      "diagnostic": true,
+      "hypothesis": "22-style monthly mechanism control, train-only roll by 21",
+      "eligible": "smooth_ready",
+      "horizons": [
+        21
+      ]
+    }
+  },
+  "seed": 20261125,
+  "source": {
+    "models.py": "37056bce809a9e7dbecd72cd0c5a5fe91249866e9c32fefbad0a75d78ad2280e",
+    "experiments.py": "4f9135a1a17f2d26d7611d439a1c749973f8f3ac301ed1004b690a5036180a35"
+  }
+}

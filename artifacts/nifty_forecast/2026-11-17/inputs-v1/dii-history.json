@@ -1,0 +1,13 @@
+{
+  "method": "get_dii_data",
+  "parameters": {
+    "interval": "1D",
+    "from_date": "2016-01-01"
+  },
+  "requested_at": "2026-11-17T00:32:05.593072+05:30",
+  "acquired_at": "2026-11-17T00:32:05.783438+05:30",
+  "ok": true,
+  "payload": {
+    "NSE_EQ|CASH": []
+  }
+}

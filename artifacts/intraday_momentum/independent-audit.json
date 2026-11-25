@@ -1,0 +1,58 @@
+{
+  "audit_date": "2026-11-15",
+  "auditor": "intraday_primary_sources independent review agent",
+  "status": "PASS_WITH_MODEL_LIMITATIONS",
+  "mode": "Read-only reconciliation of completed local artifacts; no strategy rerun, PostgreSQL mutation or real order",
+  "counts": {
+    "base_portfolios": 24,
+    "base_trade_ledger_rows": 13252,
+    "base_daily_equity_rows": 11880,
+    "base_summary_rows": 120,
+    "stress_summary_rows": 60,
+    "descriptive_event_rows": 4404,
+    "reported_execution_failures": 0,
+    "audit_discrepancies": 0
+  },
+  "maximum_numeric_reconciliation_difference": 4.0745362639427185e-10,
+  "checks": [
+    "Independently recomputed every base-trade brokerage, combined exchange/IPFT, SEBI, GST, STT, stamp and total fee component",
+    "Recomputed 10bps adverse entry/exit fills, gross and net P&L, modeled slippage attribution and trade equity",
+    "Verified positive integer shares, entry cash collateral, decision-volume cap and entry risk-room constraints",
+    "Verified next-open entries within 09:30-11:30, no overlapping positions, no same-stock daily reentry and at most three entries per day",
+    "Reconciled daily and terminal cash and independently recomputed all 120 base summary statistics from trade/equity CSVs",
+    "Reconciled all 60 reported stress-summary rows to stress.csv; stress trade ledgers are not exported and were not independently recomputed",
+    "Reconciled all descriptive event counts and rates for full and chronological periods, exclusions, ambiguity counts, target/reversal levels and event identifiers",
+    "Verified current frozen code, runner, plan and acquisition file hashes against the research manifest"
+  ],
+  "volume_gate_ablation": {
+    "scope": "Observed simulated executions only; not a population claim about volume filters",
+    "long_only_both_stops": "Exactly identical full-period and development trade ledgers after excluding strategy ID",
+    "minimum_executed_rvol": 1.5233260544191796,
+    "long_short_diagnostics": "Different ledgers for both stops, consistent with distinct signal mechanisms",
+    "candidate_rejection_reason_audit": "Not performed; no reason is assigned to the identical long-only executions"
+  },
+  "fixed_path_cost_attribution": {
+    "strategy": "cross10-sl100-long_only",
+    "trades": 417,
+    "gross_before_slippage": 190513.30929438272,
+    "modeled_slippage_rupees": 322769.13580927695,
+    "fees_rupees": 76535.80220778994,
+    "net_pnl_rupees": -208791.62872268423,
+    "ambiguous_trades": 5,
+    "interpretation": "Attribution for the same fixed entries and quantities, not a separately rerun zero-cost strategy"
+  },
+  "assessment": {
+    "all_full_period_base_portfolios_lost": true,
+    "all_primary_reported_period_slices_lost": true,
+    "development_selection": null,
+    "paper_candidate": false,
+    "selected_model_confidence_interval": null,
+    "selected_model_one_minute_audit": "NO_DEVELOPMENT_CANDIDATE",
+    "conclusion": "No tested configuration qualifies for paper-bot selection under the frozen rule"
+  },
+  "limits": [
+    "Ledger rows span dependent strategy variants and are not independent observations",
+    "Arithmetic consistency does not certify historical tradability, fills, depth, price bands, short eligibility or universal data coverage",
+    "The audit does not remove the cohort, historical fee-plan, corporate-action, five-minute execution or pseudo-out-of-sample limitations disclosed in the report"
+  ]
+}

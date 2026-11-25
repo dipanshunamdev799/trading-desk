@@ -1,0 +1,1058 @@
+[
+  {
+    "name": "p_ret1",
+    "family": "p",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "p_ret3",
+    "family": "p",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "p_ret5",
+    "family": "p",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "p_ret10",
+    "family": "p",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "p_ret21",
+    "family": "p",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "p_ret63",
+    "family": "p",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "p_rv5",
+    "family": "p",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "p_rv21",
+    "family": "p",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "p_rv63",
+    "family": "p",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "p_trend",
+    "family": "p",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "p_range",
+    "family": "p",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "p_acceleration",
+    "family": "p",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "p_vix",
+    "family": "p",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "i_bank_nifty_rel5",
+    "family": "i",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "i_bank_nifty_rel21",
+    "family": "i",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "i_idx_Nifty_100_rel5",
+    "family": "i",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "i_idx_Nifty_100_rel21",
+    "family": "i",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "i_idx_Nifty_200_rel5",
+    "family": "i",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "i_idx_Nifty_200_rel21",
+    "family": "i",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "i_idx_Nifty_500_rel5",
+    "family": "i",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "i_idx_Nifty_500_rel21",
+    "family": "i",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "i_idx_Nifty_Commodities_rel5",
+    "family": "i",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "i_idx_Nifty_Commodities_rel21",
+    "family": "i",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "i_idx_Nifty_Consumption_rel5",
+    "family": "i",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "i_idx_Nifty_Consumption_rel21",
+    "family": "i",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "i_idx_NIFTY_HEALTHCARE_rel5",
+    "family": "i",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "i_idx_NIFTY_HEALTHCARE_rel21",
+    "family": "i",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "i_idx_Nifty_Infra_rel5",
+    "family": "i",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "i_idx_Nifty_Infra_rel21",
+    "family": "i",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "i_idx_Nifty_InfraLog_rel5",
+    "family": "i",
+    "missing_fraction": 0.38213399503722084,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "i_idx_Nifty_InfraLog_rel21",
+    "family": "i",
+    "missing_fraction": 0.4218362282878412,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "i_idx_NIFTY_MIDCAP_100_rel5",
+    "family": "i",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "i_idx_NIFTY_MIDCAP_100_rel21",
+    "family": "i",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "i_idx_NIFTY_MIDCAP_150_rel5",
+    "family": "i",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "i_idx_NIFTY_MIDCAP_150_rel21",
+    "family": "i",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "i_idx_Nifty_Midcap_50_rel5",
+    "family": "i",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "i_idx_Nifty_Midcap_50_rel21",
+    "family": "i",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "i_idx_Nifty_Next_50_rel5",
+    "family": "i",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "i_idx_Nifty_Next_50_rel21",
+    "family": "i",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "i_idx_Nifty_Smallcap_500_rel5",
+    "family": "i",
+    "missing_fraction": 0.684863523573201,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "i_idx_Nifty_Smallcap_500_rel21",
+    "family": "i",
+    "missing_fraction": 0.7245657568238213,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "i_nifty_auto_rel5",
+    "family": "i",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "i_nifty_auto_rel21",
+    "family": "i",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "i_nifty_energy_rel5",
+    "family": "i",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "i_nifty_energy_rel21",
+    "family": "i",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "i_nifty_financial_rel5",
+    "family": "i",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "i_nifty_financial_rel21",
+    "family": "i",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "i_nifty_fmcg_rel5",
+    "family": "i",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "i_nifty_fmcg_rel21",
+    "family": "i",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "i_nifty_it_rel5",
+    "family": "i",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "i_nifty_it_rel21",
+    "family": "i",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "i_nifty_metal_rel5",
+    "family": "i",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "i_nifty_metal_rel21",
+    "family": "i",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "i_nifty_pharma_rel5",
+    "family": "i",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "i_nifty_pharma_rel21",
+    "family": "i",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "i_nifty_psu_bank_rel5",
+    "family": "i",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "i_nifty_psu_bank_rel21",
+    "family": "i",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "i_nifty_realty_rel5",
+    "family": "i",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "i_nifty_realty_rel21",
+    "family": "i",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "i_participation",
+    "family": "i",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "i_dispersion",
+    "family": "i",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "i_acceleration",
+    "family": "i",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "i_concentration",
+    "family": "i",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "i_leadership_persistence",
+    "family": "i",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "i_defensive_cyclical",
+    "family": "i",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "g_^DJI_ret1",
+    "family": "g",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "g_^DJI_ret3",
+    "family": "g",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "g_^DJI_ret5",
+    "family": "g",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "g_^DJI_ret21",
+    "family": "g",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "g_^FCHI_ret1",
+    "family": "g",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "g_^FCHI_ret3",
+    "family": "g",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "g_^FCHI_ret5",
+    "family": "g",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "g_^FCHI_ret21",
+    "family": "g",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "g_^FTSE_ret1",
+    "family": "g",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "g_^FTSE_ret3",
+    "family": "g",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "g_^FTSE_ret5",
+    "family": "g",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "g_^FTSE_ret21",
+    "family": "g",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "g_^GDAXI_ret1",
+    "family": "g",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "g_^GDAXI_ret3",
+    "family": "g",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "g_^GDAXI_ret5",
+    "family": "g",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "g_^GDAXI_ret21",
+    "family": "g",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "g_^GSPC_ret1",
+    "family": "g",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "g_^GSPC_ret3",
+    "family": "g",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "g_^GSPC_ret5",
+    "family": "g",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "g_^GSPC_ret21",
+    "family": "g",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "g_^HSI_ret1",
+    "family": "g",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "g_^HSI_ret3",
+    "family": "g",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "g_^HSI_ret5",
+    "family": "g",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "g_^HSI_ret21",
+    "family": "g",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "g_^N225_ret1",
+    "family": "g",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "g_^N225_ret3",
+    "family": "g",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "g_^N225_ret5",
+    "family": "g",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "g_^N225_ret21",
+    "family": "g",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "g_BZUSD_ret1",
+    "family": "g",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "g_BZUSD_ret3",
+    "family": "g",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "g_BZUSD_ret5",
+    "family": "g",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "g_BZUSD_ret21",
+    "family": "g",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "g_CLUSD_ret1",
+    "family": "g",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "g_CLUSD_ret3",
+    "family": "g",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "g_CLUSD_ret5",
+    "family": "g",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "g_CLUSD_ret21",
+    "family": "g",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "g_DOW_FUTURES_ret1",
+    "family": "g",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "g_DOW_FUTURES_ret3",
+    "family": "g",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "g_DOW_FUTURES_ret5",
+    "family": "g",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "g_DOW_FUTURES_ret21",
+    "family": "g",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "g_IXIX_ret1",
+    "family": "g",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "g_IXIX_ret3",
+    "family": "g",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "g_IXIX_ret5",
+    "family": "g",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "g_IXIX_ret21",
+    "family": "g",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "g_SGX_NIFTY_ret1",
+    "family": "g",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "g_SGX_NIFTY_ret3",
+    "family": "g",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "g_SGX_NIFTY_ret5",
+    "family": "g",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "g_SGX_NIFTY_ret21",
+    "family": "g",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "g_USDINR_ret1",
+    "family": "g",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "g_USDINR_ret3",
+    "family": "g",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "g_USDINR_ret5",
+    "family": "g",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "g_USDINR_ret21",
+    "family": "g",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "x_global_mean",
+    "family": "x",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "x_global_dispersion",
+    "family": "x",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "x_india_relative",
+    "family": "x",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "x_oil_fx",
+    "family": "x",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "x_global_breadth",
+    "family": "x",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "x_tech_it",
+    "family": "x",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "x_asia_europe",
+    "family": "x",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "x_equity_oil",
+    "family": "x",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "x_india_global_corr21",
+    "family": "x",
+    "missing_fraction": 1.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "x_corr_change",
+    "family": "x",
+    "missing_fraction": 1.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "x_global_corr21",
+    "family": "x",
+    "missing_fraction": 1.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "x_global_vol",
+    "family": "x",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "d_fut_basis",
+    "family": "d",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "d_fut_oi_change",
+    "family": "d",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "d_fut_dte",
+    "family": "d",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "d_oi_pcr",
+    "family": "d",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "d_volume_pcr",
+    "family": "d",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "d_call_concentration",
+    "family": "d",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "d_put_concentration",
+    "family": "d",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "d_call_wall",
+    "family": "d",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "d_put_wall",
+    "family": "d",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "d_option_dte",
+    "family": "d",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "d_maxpain_distance",
+    "family": "d",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "d_matched_pcr_change",
+    "family": "d",
+    "missing_fraction": 0.2109181141439206,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "d_fut_oi_log_change",
+    "family": "d",
+    "missing_fraction": 0.04714640198511166,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "d_fut_roll_flag",
+    "family": "d",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "d_price_oi",
+    "family": "d",
+    "missing_fraction": 0.04714640198511166,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "d_concentration_risk",
+    "family": "d",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "d_position_expiry",
+    "family": "d",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "d_basis_z",
+    "family": "d",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "d_oi_z",
+    "family": "d",
+    "missing_fraction": 1.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "s_dispersion5",
+    "family": "s",
+    "missing_fraction": 0.0,
+    "classification": "SURVIVORSHIP_RESEARCH_ONLY"
+  },
+  {
+    "name": "s_positive5",
+    "family": "s",
+    "missing_fraction": 0.0,
+    "classification": "SURVIVORSHIP_RESEARCH_ONLY"
+  },
+  {
+    "name": "s_dispersion21",
+    "family": "s",
+    "missing_fraction": 0.0,
+    "classification": "SURVIVORSHIP_RESEARCH_ONLY"
+  },
+  {
+    "name": "s_positive21",
+    "family": "s",
+    "missing_fraction": 0.0,
+    "classification": "SURVIVORSHIP_RESEARCH_ONLY"
+  },
+  {
+    "name": "s_advance",
+    "family": "s",
+    "missing_fraction": 0.0,
+    "classification": "SURVIVORSHIP_RESEARCH_ONLY"
+  },
+  {
+    "name": "s_newhigh",
+    "family": "s",
+    "missing_fraction": 0.0,
+    "classification": "SURVIVORSHIP_RESEARCH_ONLY"
+  },
+  {
+    "name": "s_newlow",
+    "family": "s",
+    "missing_fraction": 0.0,
+    "classification": "SURVIVORSHIP_RESEARCH_ONLY"
+  },
+  {
+    "name": "s_breadth_acceleration",
+    "family": "s",
+    "missing_fraction": 0.0,
+    "classification": "SURVIVORSHIP_RESEARCH_ONLY"
+  },
+  {
+    "name": "s_equalweight_relative",
+    "family": "s",
+    "missing_fraction": 0.0,
+    "classification": "SURVIVORSHIP_RESEARCH_ONLY"
+  },
+  {
+    "name": "s_common_correlation",
+    "family": "s",
+    "missing_fraction": 0.0,
+    "classification": "SURVIVORSHIP_RESEARCH_ONLY"
+  },
+  {
+    "name": "l_p_ret1_1",
+    "family": "l",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "l_p_ret1_3",
+    "family": "l",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "l_p_ret1_5",
+    "family": "l",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "l_p_ret5_1",
+    "family": "l",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "l_p_ret5_3",
+    "family": "l",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "l_p_ret5_5",
+    "family": "l",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "l_p_rv21_1",
+    "family": "l",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "l_p_rv21_3",
+    "family": "l",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "l_p_rv21_5",
+    "family": "l",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "l_i_participation_1",
+    "family": "l",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "l_i_participation_3",
+    "family": "l",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "l_i_participation_5",
+    "family": "l",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "l_x_global_mean_1",
+    "family": "l",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "l_x_global_mean_3",
+    "family": "l",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "l_x_global_mean_5",
+    "family": "l",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "l_d_oi_pcr_1",
+    "family": "l",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "l_d_oi_pcr_3",
+    "family": "l",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  },
+  {
+    "name": "l_d_oi_pcr_5",
+    "family": "l",
+    "missing_fraction": 0.0,
+    "classification": "CAUSAL_WITH_PUBLICATION_VINTAGE_LIMITATIONS"
+  }
+]

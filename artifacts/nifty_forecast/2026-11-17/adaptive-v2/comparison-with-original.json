@@ -1,0 +1,38 @@
+{
+  "close_return": {
+    "adaptive_groups": {
+      "paired_brier_improvement_vs_original": 0.005156665837346982,
+      "paired_ci95": [
+        -0.0028184944921641406,
+        0.012081600308674419
+      ],
+      "matched_sessions": 504
+    },
+    "calibrated_adaptive": {
+      "paired_brier_improvement_vs_original": 0.0030844221353300448,
+      "paired_ci95": [
+        -0.005199608263561141,
+        0.010875382358698706
+      ],
+      "matched_sessions": 504
+    }
+  },
+  "intraday_return": {
+    "adaptive_groups": {
+      "paired_brier_improvement_vs_original": -8.85252957945541e-06,
+      "paired_ci95": [
+        -0.005162228959230813,
+        0.004292812381706199
+      ],
+      "matched_sessions": 504
+    },
+    "calibrated_adaptive": {
+      "paired_brier_improvement_vs_original": -0.001195401666412886,
+      "paired_ci95": [
+        -0.007192746901921808,
+        0.003961850085509137
+      ],
+      "matched_sessions": 504
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-11-17T01:01:51.605976+05:30",
+  "files": {
+    "catalog-eligibility.json": "b22162882a696f697479283df9c26344cc259ce3b506c48ef96ce76a6be4499d",
+    "daily-weights-close_return.csv": "bd574f4a125211f8c3c7fe0350c014ec034c6ffc03dcbb8bdf57a8bff5e6b990",
+    "daily-weights-intraday_return.csv": "9698264c60eff1d0e64a7ae0630b99b4809dd7033ac6e2227036bd2cc497f231",
+    "data-audit.json": "08c0341a0dfc679703e21f714631213cd8ea256a0da1dd51a45121c68be3fd42",
+    "evaluation-close_return.csv": "0c144d936725ae0e4362bcd7261f319bc71ba37e27f9dd18582e3fa74a2d9aca",
+    "evaluation-intraday_return.csv": "e7376fa438d5a940a6c0b26e4aa4961274fefd3753210d6f79d4bc07eef06bec",
+    "expert-fits-close_return.json": "f8aa8d0881a0af4a424fd45a603c9ccdcdec35688cb5783dc24c01678bfdb7ca",
+    "expert-fits-intraday_return.json": "f4a05d981d36373938219a1d2f45831d4755dff14c5643727547089f2ceee3cb",
+    "expert-predictions-close_return.csv": "fa8ddefac34667fbf3e7174ba729423fa8a2ca8ee161002239e08e35e24832a4",
+    "expert-predictions-intraday_return.csv": "401138943b416e84db7b9ec0fdaecd7a69f49a96aa6985472b2f436b7cb875d5",
+    "expert-training-counts-close_return.csv": "016f4de12202b579f91de3727cd1a043ec12c78e59efec2b53dea10b82370224",
+    "expert-training-counts-intraday_return.csv": "016f4de12202b579f91de3727cd1a043ec12c78e59efec2b53dea10b82370224",
+    "feature-panel.csv": "8f0b1e8735b39b971056a2f716888a5a3bf3aa1e5a238f7d752e13d5cde8ddcb",
+    "forecast.json": "701d6ca108f934ffe83738a38fadfdc67094a234494813d766cd2c591c2d0e71",
+    "group-weights.csv": "ca3cf32d1f27dafc012da7148e66359e1eef1c331cb5c78b91d8803b03cc99ca",
+    "input-coefficients.csv": "a17fc5970529c1755f617b48818d9f80f4942d13b90d93525c985946a73506f7",
+    "labels.csv": "bfe80126d272653553983be9963d6949a9938730f45c93da8a335a570596c56a",
+    "prequential-close_return.csv": "2fa2dab039bc3f773d1aa36b4a3160fdcb3249a4cf400db4eb5a2133cbdd6f75",
+    "prequential-intraday_return.csv": "70f4e6137dac8c22da0b3ca2d0a1efacdec084e517d40ee945a7a3c0d94cec4b",
+    "validation.json": "4e1388faa0f4c987e7d79ca46c4c41e92dc8f22dcc6827d44b86cacd978ec115"
+  }
+}

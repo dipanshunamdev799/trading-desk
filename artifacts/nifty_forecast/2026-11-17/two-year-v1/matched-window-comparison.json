@@ -1,0 +1,12 @@
+{
+  "close_return": {
+    "matched_n": 96,
+    "two_year_brier": 0.25165058642771104,
+    "longer_history_brier": 0.2507744065775548
+  },
+  "intraday_return": {
+    "matched_n": 96,
+    "two_year_brier": 0.25322236945229465,
+    "longer_history_brier": 0.2518268060032329
+  }
+}

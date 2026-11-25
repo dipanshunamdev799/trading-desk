@@ -1,0 +1,304 @@
+{
+  "series": {
+    "bank_nifty": {
+      "raw_rows": 2446,
+      "sessions": 2446,
+      "invalid_rows_rejected": 0,
+      "duplicate_rows": 0,
+      "conflicting_duplicate_sessions": 0,
+      "first": "2017-01-02",
+      "last": "2026-11-13"
+    },
+    "india_vix": {
+      "raw_rows": 2445,
+      "sessions": 2445,
+      "invalid_rows_rejected": 0,
+      "duplicate_rows": 0,
+      "conflicting_duplicate_sessions": 0,
+      "first": "2017-01-02",
+      "last": "2026-11-13"
+    },
+    "nifty_500": {
+      "raw_rows": 2445,
+      "sessions": 2445,
+      "invalid_rows_rejected": 0,
+      "duplicate_rows": 0,
+      "conflicting_duplicate_sessions": 0,
+      "first": "2017-01-02",
+      "last": "2026-11-13"
+    },
+    "nifty_auto": {
+      "raw_rows": 2920,
+      "sessions": 2446,
+      "invalid_rows_rejected": 0,
+      "duplicate_rows": 474,
+      "conflicting_duplicate_sessions": 248,
+      "first": "2017-01-02",
+      "last": "2026-11-13"
+    },
+    "nifty_energy": {
+      "raw_rows": 2446,
+      "sessions": 2446,
+      "invalid_rows_rejected": 0,
+      "duplicate_rows": 0,
+      "conflicting_duplicate_sessions": 0,
+      "first": "2017-01-02",
+      "last": "2026-11-13"
+    },
+    "nifty_financial": {
+      "raw_rows": 2446,
+      "sessions": 2446,
+      "invalid_rows_rejected": 0,
+      "duplicate_rows": 0,
+      "conflicting_duplicate_sessions": 0,
+      "first": "2017-01-02",
+      "last": "2026-11-13"
+    },
+    "nifty_fmcg": {
+      "raw_rows": 2447,
+      "sessions": 2447,
+      "invalid_rows_rejected": 0,
+      "duplicate_rows": 0,
+      "conflicting_duplicate_sessions": 0,
+      "first": "2017-01-02",
+      "last": "2026-11-16"
+    },
+    "nifty_it": {
+      "raw_rows": 2446,
+      "sessions": 2446,
+      "invalid_rows_rejected": 0,
+      "duplicate_rows": 0,
+      "conflicting_duplicate_sessions": 0,
+      "first": "2017-01-02",
+      "last": "2026-11-13"
+    },
+    "nifty_metal": {
+      "raw_rows": 2446,
+      "sessions": 2446,
+      "invalid_rows_rejected": 0,
+      "duplicate_rows": 0,
+      "conflicting_duplicate_sessions": 0,
+      "first": "2017-01-02",
+      "last": "2026-11-13"
+    },
+    "nifty_pharma": {
+      "raw_rows": 2447,
+      "sessions": 2447,
+      "invalid_rows_rejected": 0,
+      "duplicate_rows": 0,
+      "conflicting_duplicate_sessions": 0,
+      "first": "2017-01-02",
+      "last": "2026-11-16"
+    },
+    "nifty_psu_bank": {
+      "raw_rows": 2446,
+      "sessions": 2446,
+      "invalid_rows_rejected": 0,
+      "duplicate_rows": 0,
+      "conflicting_duplicate_sessions": 0,
+      "first": "2017-01-02",
+      "last": "2026-11-13"
+    },
+    "nifty_realty": {
+      "raw_rows": 2446,
+      "sessions": 2446,
+      "invalid_rows_rejected": 0,
+      "duplicate_rows": 0,
+      "conflicting_duplicate_sessions": 0,
+      "first": "2017-01-02",
+      "last": "2026-11-13"
+    },
+    "nifty_spot": {
+      "raw_rows": 2446,
+      "sessions": 2446,
+      "invalid_rows_rejected": 0,
+      "duplicate_rows": 0,
+      "conflicting_duplicate_sessions": 0,
+      "first": "2017-01-02",
+      "last": "2026-11-13"
+    },
+    "global_brent": {
+      "raw_rows": 1860,
+      "sessions": 1805,
+      "invalid_rows_rejected": 55,
+      "duplicate_rows": 0,
+      "conflicting_duplicate_sessions": 0,
+      "first": "2020-04-03",
+      "last": "2026-11-13"
+    },
+    "global_dow": {
+      "raw_rows": 1686,
+      "sessions": 1671,
+      "invalid_rows_rejected": 15,
+      "duplicate_rows": 0,
+      "conflicting_duplicate_sessions": 0,
+      "first": "2020-04-03",
+      "last": "2026-11-13"
+    },
+    "global_gift_nifty": {
+      "raw_rows": 1765,
+      "sessions": 1754,
+      "invalid_rows_rejected": 11,
+      "duplicate_rows": 0,
+      "conflicting_duplicate_sessions": 0,
+      "first": "2020-03-30",
+      "last": "2026-11-13"
+    },
+    "global_hang_seng": {
+      "raw_rows": 1627,
+      "sessions": 1621,
+      "invalid_rows_rejected": 6,
+      "duplicate_rows": 0,
+      "conflicting_duplicate_sessions": 0,
+      "first": "2020-04-03",
+      "last": "2026-11-16"
+    },
+    "global_sp500": {
+      "raw_rows": 1694,
+      "sessions": 1690,
+      "invalid_rows_rejected": 4,
+      "duplicate_rows": 0,
+      "conflicting_duplicate_sessions": 0,
+      "first": "2020-04-03",
+      "last": "2026-11-13"
+    },
+    "global_usdinr": {
+      "raw_rows": 1899,
+      "sessions": 1813,
+      "invalid_rows_rejected": 86,
+      "duplicate_rows": 0,
+      "conflicting_duplicate_sessions": 0,
+      "first": "2020-04-03",
+      "last": "2026-11-13"
+    }
+  },
+  "provisional_bars": [
+    {
+      "factor": "bank_nifty",
+      "day": "2026-11-16",
+      "reported_at": "2026-11-16T10:30:00+00:00",
+      "basis": "Post-close quote OHLC; daily endpoint still ends on prior session"
+    },
+    {
+      "factor": "india_vix",
+      "day": "2026-11-16",
+      "reported_at": "2026-11-16T10:30:00+00:00",
+      "basis": "Post-close quote OHLC; daily endpoint still ends on prior session"
+    },
+    {
+      "factor": "nifty_auto",
+      "day": "2026-11-16",
+      "reported_at": "2026-11-16T10:30:00+00:00",
+      "basis": "Post-close quote OHLC; daily endpoint still ends on prior session"
+    },
+    {
+      "factor": "nifty_energy",
+      "day": "2026-11-16",
+      "reported_at": "2026-11-16T10:30:00+00:00",
+      "basis": "Post-close quote OHLC; daily endpoint still ends on prior session"
+    },
+    {
+      "factor": "nifty_financial",
+      "day": "2026-11-16",
+      "reported_at": "2026-11-16T10:30:00+00:00",
+      "basis": "Post-close quote OHLC; daily endpoint still ends on prior session"
+    },
+    {
+      "factor": "nifty_it",
+      "day": "2026-11-16",
+      "reported_at": "2026-11-16T10:30:00+00:00",
+      "basis": "Post-close quote OHLC; daily endpoint still ends on prior session"
+    },
+    {
+      "factor": "nifty_metal",
+      "day": "2026-11-16",
+      "reported_at": "2026-11-16T10:30:00+00:00",
+      "basis": "Post-close quote OHLC; daily endpoint still ends on prior session"
+    },
+    {
+      "factor": "nifty_psu_bank",
+      "day": "2026-11-16",
+      "reported_at": "2026-11-16T10:30:00+00:00",
+      "basis": "Post-close quote OHLC; daily endpoint still ends on prior session"
+    },
+    {
+      "factor": "nifty_realty",
+      "day": "2026-11-16",
+      "reported_at": "2026-11-16T10:30:00+00:00",
+      "basis": "Post-close quote OHLC; daily endpoint still ends on prior session"
+    },
+    {
+      "factor": "nifty_spot",
+      "day": "2026-11-16",
+      "reported_at": "2026-11-16T10:30:00+00:00",
+      "basis": "Post-close quote OHLC; daily endpoint still ends on prior session"
+    }
+  ],
+  "feature_count": 62,
+  "core_features": [
+    "return1_risk_scaled",
+    "return2_risk_scaled",
+    "return5_risk_scaled",
+    "return10_risk_scaled",
+    "return20_risk_scaled",
+    "ema10_distance",
+    "ema20_distance",
+    "ema50_distance",
+    "ema200_distance",
+    "rsi14",
+    "daily_range",
+    "body",
+    "close_location",
+    "previous_gap",
+    "realized_vol20",
+    "vol_ratio5_20",
+    "atr_pct"
+  ],
+  "context_features": [
+    "bank_nifty_relative1",
+    "bank_nifty_relative5",
+    "nifty_auto_relative1",
+    "nifty_auto_relative5",
+    "nifty_energy_relative1",
+    "nifty_energy_relative5",
+    "nifty_financial_relative1",
+    "nifty_financial_relative5",
+    "nifty_fmcg_relative1",
+    "nifty_fmcg_relative5",
+    "nifty_it_relative1",
+    "nifty_it_relative5",
+    "nifty_metal_relative1",
+    "nifty_metal_relative5",
+    "nifty_pharma_relative1",
+    "nifty_pharma_relative5",
+    "nifty_psu_bank_relative1",
+    "nifty_psu_bank_relative5",
+    "nifty_realty_relative1",
+    "nifty_realty_relative5",
+    "nifty_500_relative1",
+    "nifty_500_relative5",
+    "sector_positive_fraction",
+    "sector_dispersion",
+    "vix_level",
+    "vix_change1",
+    "vix_change5",
+    "lagged_global_brent_return1",
+    "lagged_global_brent_return5",
+    "lagged_global_brent_vol20",
+    "lagged_global_dow_return1",
+    "lagged_global_dow_return5",
+    "lagged_global_dow_vol20",
+    "lagged_global_gift_nifty_return1",
+    "lagged_global_gift_nifty_return5",
+    "lagged_global_gift_nifty_vol20",
+    "lagged_global_hang_seng_return1",
+    "lagged_global_hang_seng_return5",
+    "lagged_global_hang_seng_vol20",
+    "lagged_global_sp500_return1",
+    "lagged_global_sp500_return5",
+    "lagged_global_sp500_vol20",
+    "lagged_global_usdinr_return1",
+    "lagged_global_usdinr_return5",
+    "lagged_global_usdinr_vol20"
+  ]
+}

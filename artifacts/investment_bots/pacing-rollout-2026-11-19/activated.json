@@ -1,0 +1,836 @@
+{
+  "bots": [
+    {
+      "definition": {
+        "id": "C0_R",
+        "name": "C0-R",
+        "title": "Volatility-adjusted momentum",
+        "description": "20-stock portfolio, reviewed every five sessions. Retain holdings inside the top 40.",
+        "fingerprint": "b7e95c049fc97184",
+        "books": 1,
+        "category": "investment",
+        "mode": "paper",
+        "capital": 1000000.0,
+        "day0": "2026-11-13",
+        "window_end": "2026-12-31",
+        "source_config_version": "124623e3a4b1db81",
+        "implementation": "staged-paper-v1",
+        "verification": "Paced paper sizing and execution limits; original research verification applies to the source strategy only",
+        "specification_sha256": "2025e1957b51b66ceaf9d4f955660ac64610c4625d206b5e6567809e079276a5",
+        "parameters": {
+          "universe": 300,
+          "momentum_sessions": 63,
+          "volatility_sessions": 42,
+          "holdings_per_book": 20,
+          "retain_below_rank": 40,
+          "industry_cap": 6,
+          "rebalance_sessions": 5,
+          "cost_per_side": 0.00225
+        },
+        "paper_fingerprint": "6a28c0eea7882eeeb338c1b74cd6285733e270972d22554c7c18a6fe44e29956"
+      },
+      "state": {
+        "id": "C0_R",
+        "enabled": true,
+        "status": "WAITING_FIRST_SESSION",
+        "error": "",
+        "checked_at": "2026-11-19T15:57:44.275289+05:30",
+        "mode": "paper"
+      },
+      "metrics": {
+        "equity": 1000000.0,
+        "cash": 1000000.0,
+        "total_pnl": 0.0,
+        "realized_pnl": 0.0,
+        "unrealized_pnl": 0,
+        "fees": 0.0,
+        "exposure": 0.0,
+        "drawdown": 0.0
+      },
+      "positions": [],
+      "orders": [],
+      "last_session": null,
+      "events": [
+        {
+          "id": 32,
+          "at": "2026-11-19T16:03:15.933300+05:30",
+          "bot_id": null,
+          "kind": "PAPER_TEST_STARTED",
+          "message": "20261119-160315-aced0dcd: fresh; 10% daily buys, 50% entry exposure, 2 buys/day. Earlier runs retained."
+        },
+        {
+          "id": 28,
+          "at": "2026-11-19T15:52:27.185233+05:30",
+          "bot_id": "C0_R",
+          "kind": "SESSION",
+          "message": "2026-11-18: 0 whole-share intents; 0 execution evaluations"
+        },
+        {
+          "id": 24,
+          "at": "2026-11-18T08:37:46.938266+05:30",
+          "bot_id": "C0_R",
+          "kind": "SESSION",
+          "message": "2026-11-17: 0 whole-share intents; 0 execution evaluations"
+        },
+        {
+          "id": 22,
+          "at": "2026-11-18T07:45:16.291205+05:30",
+          "bot_id": "C0_R",
+          "kind": "BLOCKED",
+          "message": "ConnectionError: HTTPSConnectionPool(host='api.upstox.com', port=443): Max retries exceeded with url: /v3/historical-candle/NSE_INDEX%7CNifty%2050/days/1/2026-11-17/2026-11-16 (Caused by NameResolutionError(\"HTTPSConnection(host='api.upstox.com', port=443): Failed to resolve 'api.upstox.com' ([Errno 11001] getaddrinfo failed)\"))"
+        },
+        {
+          "id": 18,
+          "at": "2026-11-17T09:04:24.788220+05:30",
+          "bot_id": "C0_R",
+          "kind": "SESSION",
+          "message": "2026-11-16: 0 whole-share intents; 20 execution evaluations"
+        },
+        {
+          "id": 12,
+          "at": "2026-11-16T07:45:10.705631+05:30",
+          "bot_id": "C0_R",
+          "kind": "BLOCKED",
+          "message": "ConnectionError: HTTPSConnectionPool(host='api.upstox.com', port=443): Max retries exceeded with url: /v3/historical-candle/NSE_INDEX%7CNifty%2050/days/1/2026-11-15/2026-11-13 (Caused by NameResolutionError(\"HTTPSConnection(host='api.upstox.com', port=443): Failed to resolve 'api.upstox.com' ([Errno 11001] getaddrinfo failed)\"))"
+        },
+        {
+          "id": 11,
+          "at": "2026-11-15T13:46:50.215441+05:30",
+          "bot_id": null,
+          "kind": "GLOBAL_CONTROL",
+          "message": "start"
+        },
+        {
+          "id": 10,
+          "at": "2026-11-15T13:46:07.247205+05:30",
+          "bot_id": null,
+          "kind": "GLOBAL_CONTROL",
+          "message": "pause"
+        },
+        {
+          "id": 6,
+          "at": "2026-11-15T00:46:54.795797+05:30",
+          "bot_id": "C0_R",
+          "kind": "SESSION",
+          "message": "2026-11-13: 20 whole-share intents; 0 execution evaluations"
+        },
+        {
+          "id": 5,
+          "at": "2026-11-15T00:07:13.237233+05:30",
+          "bot_id": null,
+          "kind": "STORAGE_MIGRATION",
+          "message": "Initial startup controls and diagnostics moved to the application PostgreSQL; no portfolio records existed in the retired local journals"
+        },
+        {
+          "id": 1,
+          "at": "2026-11-14T23:55:32.123146+05:30",
+          "bot_id": "C0_R",
+          "kind": "AWAITING_DATA",
+          "message": "DataBlocked: Frozen research inputs missing: import the original 2,284-stock panel bundle"
+        }
+      ],
+      "history": [],
+      "accounting": "Fractional reference ledger; whole-share intents are a separate report",
+      "real_orders_submitted": 0,
+      "paper_test": {
+        "id": "20261119-160315-aced0dcd",
+        "created_at": "2026-11-19T16:03:15.914358+05:30",
+        "starts_on": "2026-11-19",
+        "mode": "fresh",
+        "policy": {
+          "daily_buy_fraction": 0.1,
+          "max_buy_orders": 2,
+          "max_exposure": 0.5,
+          "max_position_fraction": 0.05
+        },
+        "latest_allocation": null
+      },
+      "archived_reference": false
+    },
+    {
+      "definition": {
+        "id": "C1_R",
+        "name": "C1-R",
+        "title": "Momentum with volatility targeting",
+        "description": "C0-R selection with a 15% annual volatility target and a 10-point exposure adjustment band.",
+        "fingerprint": "973ea8e007246aba",
+        "books": 1,
+        "category": "investment",
+        "mode": "paper",
+        "capital": 1000000.0,
+        "day0": "2026-11-13",
+        "window_end": "2026-12-31",
+        "source_config_version": "124623e3a4b1db81",
+        "implementation": "staged-paper-v1",
+        "verification": "Paced paper sizing and execution limits; original research verification applies to the source strategy only",
+        "specification_sha256": "653d34b9f57d7162a0ffb54c677dd93e864b819acf7607a446b48f00251048a8",
+        "parameters": {
+          "universe": 300,
+          "momentum_sessions": 63,
+          "volatility_sessions": 42,
+          "holdings_per_book": 20,
+          "retain_below_rank": 40,
+          "industry_cap": 6,
+          "rebalance_sessions": 5,
+          "cost_per_side": 0.00225
+        },
+        "paper_fingerprint": "da5cf51206847cd3a9f9e12994f713a36500306328da3fabd920f52e0d552bb4"
+      },
+      "state": {
+        "id": "C1_R",
+        "enabled": true,
+        "status": "WAITING_FIRST_SESSION",
+        "error": "",
+        "checked_at": "2026-11-19T15:57:44.275289+05:30",
+        "mode": "paper"
+      },
+      "metrics": {
+        "equity": 1000000.0,
+        "cash": 1000000.0,
+        "total_pnl": 0.0,
+        "realized_pnl": 0.0,
+        "unrealized_pnl": 0,
+        "fees": 0.0,
+        "exposure": 0.0,
+        "drawdown": 0.0
+      },
+      "positions": [],
+      "orders": [],
+      "last_session": null,
+      "events": [
+        {
+          "id": 32,
+          "at": "2026-11-19T16:03:15.933300+05:30",
+          "bot_id": null,
+          "kind": "PAPER_TEST_STARTED",
+          "message": "20261119-160315-aced0dcd: fresh; 10% daily buys, 50% entry exposure, 2 buys/day. Earlier runs retained."
+        },
+        {
+          "id": 29,
+          "at": "2026-11-19T15:52:27.461119+05:30",
+          "bot_id": "C1_R",
+          "kind": "SESSION",
+          "message": "2026-11-18: 0 whole-share intents; 0 execution evaluations"
+        },
+        {
+          "id": 25,
+          "at": "2026-11-18T08:37:47.238653+05:30",
+          "bot_id": "C1_R",
+          "kind": "SESSION",
+          "message": "2026-11-17: 0 whole-share intents; 0 execution evaluations"
+        },
+        {
+          "id": 23,
+          "at": "2026-11-18T07:45:16.303722+05:30",
+          "bot_id": "C1_R",
+          "kind": "BLOCKED",
+          "message": "ConnectionError: HTTPSConnectionPool(host='api.upstox.com', port=443): Max retries exceeded with url: /v3/historical-candle/NSE_INDEX%7CNifty%2050/days/1/2026-11-17/2026-11-16 (Caused by NameResolutionError(\"HTTPSConnection(host='api.upstox.com', port=443): Failed to resolve 'api.upstox.com' ([Errno 11001] getaddrinfo failed)\"))"
+        },
+        {
+          "id": 19,
+          "at": "2026-11-17T09:04:25.155338+05:30",
+          "bot_id": "C1_R",
+          "kind": "SESSION",
+          "message": "2026-11-16: 0 whole-share intents; 20 execution evaluations"
+        },
+        {
+          "id": 13,
+          "at": "2026-11-16T07:45:10.915934+05:30",
+          "bot_id": "C1_R",
+          "kind": "BLOCKED",
+          "message": "ConnectionError: HTTPSConnectionPool(host='api.upstox.com', port=443): Max retries exceeded with url: /v3/historical-candle/NSE_INDEX%7CNifty%2050/days/1/2026-11-15/2026-11-13 (Caused by NameResolutionError(\"HTTPSConnection(host='api.upstox.com', port=443): Failed to resolve 'api.upstox.com' ([Errno 11001] getaddrinfo failed)\"))"
+        },
+        {
+          "id": 11,
+          "at": "2026-11-15T13:46:50.215441+05:30",
+          "bot_id": null,
+          "kind": "GLOBAL_CONTROL",
+          "message": "start"
+        },
+        {
+          "id": 10,
+          "at": "2026-11-15T13:46:07.247205+05:30",
+          "bot_id": null,
+          "kind": "GLOBAL_CONTROL",
+          "message": "pause"
+        },
+        {
+          "id": 7,
+          "at": "2026-11-15T00:46:54.865971+05:30",
+          "bot_id": "C1_R",
+          "kind": "SESSION",
+          "message": "2026-11-13: 20 whole-share intents; 0 execution evaluations"
+        },
+        {
+          "id": 5,
+          "at": "2026-11-15T00:07:13.237233+05:30",
+          "bot_id": null,
+          "kind": "STORAGE_MIGRATION",
+          "message": "Initial startup controls and diagnostics moved to the application PostgreSQL; no portfolio records existed in the retired local journals"
+        },
+        {
+          "id": 2,
+          "at": "2026-11-14T23:55:32.130343+05:30",
+          "bot_id": "C1_R",
+          "kind": "AWAITING_DATA",
+          "message": "DataBlocked: Frozen research inputs missing: import the original 2,284-stock panel bundle"
+        }
+      ],
+      "history": [],
+      "accounting": "Fractional reference ledger; whole-share intents are a separate report",
+      "real_orders_submitted": 0,
+      "paper_test": {
+        "id": "20261119-160315-aced0dcd",
+        "created_at": "2026-11-19T16:03:15.914358+05:30",
+        "starts_on": "2026-11-19",
+        "mode": "fresh",
+        "policy": {
+          "daily_buy_fraction": 0.1,
+          "max_buy_orders": 2,
+          "max_exposure": 0.5,
+          "max_position_fraction": 0.05
+        },
+        "latest_allocation": null
+      },
+      "archived_reference": false
+    },
+    {
+      "definition": {
+        "id": "C2_S",
+        "name": "C2-S",
+        "title": "Five staggered momentum books",
+        "description": "Five independent \u20b92 lakh books, each holding up to 20 stocks on a different rebalance phase.",
+        "fingerprint": "a5a369d9565d8938",
+        "books": 5,
+        "category": "investment",
+        "mode": "paper",
+        "capital": 1000000.0,
+        "day0": "2026-11-13",
+        "window_end": "2026-12-31",
+        "source_config_version": "124623e3a4b1db81",
+        "implementation": "staged-paper-v1",
+        "verification": "Paced paper sizing and execution limits; original research verification applies to the source strategy only",
+        "specification_sha256": "40a76331dab54c69bacdb718c608eba071c7275c08dc97df920c36bfec79072f",
+        "parameters": {
+          "universe": 300,
+          "momentum_sessions": 63,
+          "volatility_sessions": 42,
+          "holdings_per_book": 20,
+          "retain_below_rank": 40,
+          "industry_cap": 6,
+          "rebalance_sessions": 5,
+          "cost_per_side": 0.00225
+        },
+        "paper_fingerprint": "9efe7cda371ccc325fe39ddbc90eb3a2ccb03278488bf836df9213d4062c76ed"
+      },
+      "state": {
+        "id": "C2_S",
+        "enabled": true,
+        "status": "WAITING_FIRST_SESSION",
+        "error": "",
+        "checked_at": "2026-11-19T15:57:44.275289+05:30",
+        "mode": "paper"
+      },
+      "metrics": {
+        "equity": 1000000.0,
+        "cash": 1000000.0,
+        "total_pnl": 0.0,
+        "realized_pnl": 0.0,
+        "unrealized_pnl": 0,
+        "fees": 0.0,
+        "exposure": 0.0,
+        "drawdown": 0.0
+      },
+      "positions": [],
+      "orders": [],
+      "last_session": null,
+      "events": [
+        {
+          "id": 32,
+          "at": "2026-11-19T16:03:15.933300+05:30",
+          "bot_id": null,
+          "kind": "PAPER_TEST_STARTED",
+          "message": "20261119-160315-aced0dcd: fresh; 10% daily buys, 50% entry exposure, 2 buys/day. Earlier runs retained."
+        },
+        {
+          "id": 30,
+          "at": "2026-11-19T15:52:28.070386+05:30",
+          "bot_id": "C2_S",
+          "kind": "SESSION",
+          "message": "2026-11-18: 20 whole-share intents; 20 execution evaluations"
+        },
+        {
+          "id": 26,
+          "at": "2026-11-18T08:37:47.543866+05:30",
+          "bot_id": "C2_S",
+          "kind": "SESSION",
+          "message": "2026-11-17: 20 whole-share intents; 20 execution evaluations"
+        },
+        {
+          "id": 20,
+          "at": "2026-11-18T07:45:16.066004+05:30",
+          "bot_id": "C2_S",
+          "kind": "BLOCKED",
+          "message": "ConnectionError: HTTPSConnectionPool(host='api.upstox.com', port=443): Max retries exceeded with url: /v3/historical-candle/NSE_INDEX%7CNifty%2050/days/1/2026-11-17/2026-11-16 (Caused by NameResolutionError(\"HTTPSConnection(host='api.upstox.com', port=443): Failed to resolve 'api.upstox.com' ([Errno 11001] getaddrinfo failed)\"))"
+        },
+        {
+          "id": 16,
+          "at": "2026-11-17T09:04:23.190983+05:30",
+          "bot_id": "C2_S",
+          "kind": "SESSION",
+          "message": "2026-11-16: 20 whole-share intents; 20 execution evaluations"
+        },
+        {
+          "id": 14,
+          "at": "2026-11-16T07:45:10.930628+05:30",
+          "bot_id": "C2_S",
+          "kind": "BLOCKED",
+          "message": "ConnectionError: HTTPSConnectionPool(host='api.upstox.com', port=443): Max retries exceeded with url: /v3/historical-candle/NSE_INDEX%7CNifty%2050/days/1/2026-11-15/2026-11-13 (Caused by NameResolutionError(\"HTTPSConnection(host='api.upstox.com', port=443): Failed to resolve 'api.upstox.com' ([Errno 11001] getaddrinfo failed)\"))"
+        },
+        {
+          "id": 11,
+          "at": "2026-11-15T13:46:50.215441+05:30",
+          "bot_id": null,
+          "kind": "GLOBAL_CONTROL",
+          "message": "start"
+        },
+        {
+          "id": 10,
+          "at": "2026-11-15T13:46:07.247205+05:30",
+          "bot_id": null,
+          "kind": "GLOBAL_CONTROL",
+          "message": "pause"
+        },
+        {
+          "id": 8,
+          "at": "2026-11-15T00:46:54.921580+05:30",
+          "bot_id": "C2_S",
+          "kind": "SESSION",
+          "message": "2026-11-13: 20 whole-share intents; 0 execution evaluations"
+        },
+        {
+          "id": 5,
+          "at": "2026-11-15T00:07:13.237233+05:30",
+          "bot_id": null,
+          "kind": "STORAGE_MIGRATION",
+          "message": "Initial startup controls and diagnostics moved to the application PostgreSQL; no portfolio records existed in the retired local journals"
+        },
+        {
+          "id": 3,
+          "at": "2026-11-14T23:55:32.137380+05:30",
+          "bot_id": "C2_S",
+          "kind": "AWAITING_DATA",
+          "message": "DataBlocked: Frozen research inputs missing: import the original 2,284-stock panel bundle"
+        }
+      ],
+      "history": [],
+      "accounting": "Fractional reference ledger; whole-share intents are a separate report",
+      "real_orders_submitted": 0,
+      "paper_test": {
+        "id": "20261119-160315-aced0dcd",
+        "created_at": "2026-11-19T16:03:15.914358+05:30",
+        "starts_on": "2026-11-19",
+        "mode": "fresh",
+        "policy": {
+          "daily_buy_fraction": 0.1,
+          "max_buy_orders": 2,
+          "max_exposure": 0.5,
+          "max_position_fraction": 0.05
+        },
+        "latest_allocation": null
+      },
+      "archived_reference": false
+    },
+    {
+      "definition": {
+        "id": "C0_R_X",
+        "name": "C0-R-X",
+        "title": "Momentum with auction evidence",
+        "description": "C0-R mechanics; simulated fills require prospective auction evidence classified as likely.",
+        "fingerprint": "3d1228a7750225ed",
+        "books": 1,
+        "category": "investment",
+        "mode": "paper",
+        "capital": 1000000.0,
+        "day0": "2026-11-13",
+        "window_end": "2026-12-31",
+        "source_config_version": "124623e3a4b1db81",
+        "implementation": "staged-paper-v1",
+        "verification": "Paced paper sizing and execution limits; original research verification applies to the source strategy only",
+        "specification_sha256": "40b31d6ea59f92a73370d48c5357058a3b5cefeb9f7e9ace5587a32f839d5ef4",
+        "parameters": {
+          "universe": 300,
+          "momentum_sessions": 63,
+          "volatility_sessions": 42,
+          "holdings_per_book": 20,
+          "retain_below_rank": 40,
+          "industry_cap": 6,
+          "rebalance_sessions": 5,
+          "cost_per_side": 0.00225
+        },
+        "paper_fingerprint": "7d0d93b844ed21e14b5662c3d86987e7a83755cc4a4cc8b98325ff87baa8b5d2"
+      },
+      "state": {
+        "id": "C0_R_X",
+        "enabled": true,
+        "status": "WAITING_FIRST_SESSION",
+        "error": "",
+        "checked_at": "2026-11-19T15:57:44.275289+05:30",
+        "mode": "paper"
+      },
+      "metrics": {
+        "equity": 1000000.0,
+        "cash": 1000000.0,
+        "total_pnl": 0.0,
+        "realized_pnl": 0.0,
+        "unrealized_pnl": 0,
+        "fees": 0.0,
+        "exposure": 0.0,
+        "drawdown": 0.0
+      },
+      "positions": [],
+      "orders": [],
+      "last_session": null,
+      "events": [
+        {
+          "id": 32,
+          "at": "2026-11-19T16:03:15.933300+05:30",
+          "bot_id": null,
+          "kind": "PAPER_TEST_STARTED",
+          "message": "20261119-160315-aced0dcd: fresh; 10% daily buys, 50% entry exposure, 2 buys/day. Earlier runs retained."
+        },
+        {
+          "id": 31,
+          "at": "2026-11-19T15:52:28.683191+05:30",
+          "bot_id": "C0_R_X",
+          "kind": "SESSION",
+          "message": "2026-11-18: 0 whole-share intents; 0 execution evaluations"
+        },
+        {
+          "id": 27,
+          "at": "2026-11-18T08:37:48.149822+05:30",
+          "bot_id": "C0_R_X",
+          "kind": "SESSION",
+          "message": "2026-11-17: 0 whole-share intents; 0 execution evaluations"
+        },
+        {
+          "id": 21,
+          "at": "2026-11-18T07:45:16.278373+05:30",
+          "bot_id": "C0_R_X",
+          "kind": "BLOCKED",
+          "message": "ConnectionError: HTTPSConnectionPool(host='api.upstox.com', port=443): Max retries exceeded with url: /v3/historical-candle/NSE_INDEX%7CNifty%2050/days/1/2026-11-17/2026-11-16 (Caused by NameResolutionError(\"HTTPSConnection(host='api.upstox.com', port=443): Failed to resolve 'api.upstox.com' ([Errno 11001] getaddrinfo failed)\"))"
+        },
+        {
+          "id": 17,
+          "at": "2026-11-17T09:04:24.362008+05:30",
+          "bot_id": "C0_R_X",
+          "kind": "SESSION",
+          "message": "2026-11-16: 0 whole-share intents; 20 execution evaluations"
+        },
+        {
+          "id": 15,
+          "at": "2026-11-16T07:45:10.944262+05:30",
+          "bot_id": "C0_R_X",
+          "kind": "BLOCKED",
+          "message": "ConnectionError: HTTPSConnectionPool(host='api.upstox.com', port=443): Max retries exceeded with url: /v3/historical-candle/NSE_INDEX%7CNifty%2050/days/1/2026-11-15/2026-11-13 (Caused by NameResolutionError(\"HTTPSConnection(host='api.upstox.com', port=443): Failed to resolve 'api.upstox.com' ([Errno 11001] getaddrinfo failed)\"))"
+        },
+        {
+          "id": 11,
+          "at": "2026-11-15T13:46:50.215441+05:30",
+          "bot_id": null,
+          "kind": "GLOBAL_CONTROL",
+          "message": "start"
+        },
+        {
+          "id": 10,
+          "at": "2026-11-15T13:46:07.247205+05:30",
+          "bot_id": null,
+          "kind": "GLOBAL_CONTROL",
+          "message": "pause"
+        },
+        {
+          "id": 9,
+          "at": "2026-11-15T00:46:54.965551+05:30",
+          "bot_id": "C0_R_X",
+          "kind": "SESSION",
+          "message": "2026-11-13: 20 whole-share intents; 0 execution evaluations"
+        },
+        {
+          "id": 5,
+          "at": "2026-11-15T00:07:13.237233+05:30",
+          "bot_id": null,
+          "kind": "STORAGE_MIGRATION",
+          "message": "Initial startup controls and diagnostics moved to the application PostgreSQL; no portfolio records existed in the retired local journals"
+        },
+        {
+          "id": 4,
+          "at": "2026-11-14T23:55:32.144464+05:30",
+          "bot_id": "C0_R_X",
+          "kind": "AWAITING_DATA",
+          "message": "DataBlocked: Frozen research inputs missing: import the original 2,284-stock panel bundle"
+        }
+      ],
+      "history": [],
+      "accounting": "Fractional reference ledger; whole-share intents are a separate report",
+      "real_orders_submitted": 0,
+      "paper_test": {
+        "id": "20261119-160315-aced0dcd",
+        "created_at": "2026-11-19T16:03:15.914358+05:30",
+        "starts_on": "2026-11-19",
+        "mode": "fresh",
+        "policy": {
+          "daily_buy_fraction": 0.1,
+          "max_buy_orders": 2,
+          "max_exposure": 0.5,
+          "max_position_fraction": 0.05
+        },
+        "latest_allocation": null
+      },
+      "archived_reference": false
+    }
+  ],
+  "global_controls": {
+    "kill_switch": false
+  },
+  "inputs": {
+    "ready": true,
+    "panel_count": 2284,
+    "last_refresh": "2026-11-18",
+    "requirement": "Original 2,284-stock panel, static industries, daily bars and corporate actions",
+    "parity_verified": true,
+    "storage": "PostgreSQL",
+    "research_archive": {
+      "daily_panel_present": false,
+      "filename": "swing_2025_2026.zip",
+      "files_imported": 84,
+      "frozen_hash_checks": {
+        "phase5/sim5.py": true,
+        "phase6/p6common.py": true,
+        "phase6/paper6.py": true,
+        "phase7/integrity.py": true,
+        "phase7/p7common.py": true,
+        "phase7/paper7.py": true
+      },
+      "missing": [
+        "research/swing_mtf/phase2/dpanel.py and its frozen daily cache/metadata",
+        "research/market_data.duckdb corporate_actions export"
+      ],
+      "note": "panel25.npz is an intraday cache for 643 instruments, not the 2,284-column daily panel",
+      "sha256": "a387510e05585f5cf8831e40bf01a1d088cc3328313619492b8ce41bcdadf6ed"
+    },
+    "import_summary": {
+      "corporate_actions": 617,
+      "daily_rows": 1087045,
+      "first_session": "2025-01-01",
+      "imported_at": "2026-11-15T00:37:40.945168+05:30",
+      "inserted_rows": 1084853,
+      "last_session": "2026-11-13",
+      "metadata_ready": true,
+      "panel_comparison": {
+        "fields": {
+          "c": {
+            "max_relative_error": 0.0,
+            "missing_cells": 0
+          },
+          "h": {
+            "max_relative_error": 0.0,
+            "missing_cells": 0
+          },
+          "l": {
+            "max_relative_error": 0.0,
+            "missing_cells": 0
+          },
+          "nifty": {
+            "max_relative_error": 0.0,
+            "missing_cells": 0
+          },
+          "o": {
+            "max_relative_error": 0.0,
+            "missing_cells": 0
+          },
+          "v": {
+            "max_relative_error": 0.0,
+            "missing_cells": 0
+          }
+        },
+        "first_session": "2025-01-01",
+        "instruments": 2284,
+        "last_session": "2026-11-13",
+        "passed": true,
+        "sessions": 464
+      },
+      "runtime_storage": "PostgreSQL",
+      "source_read_only": true,
+      "sources": {
+        "dpanel.npz.zip": "6dc39e5a1e68c6f379e5f4d10e9b9c73bcd62af898f515e3359c992c90d2ca2a",
+        "dpanel.py": "cca2bd9a3fa841d369d312c0309f5f3fddd8bf46fc7242f004acd24a2c98025d",
+        "dpanel_meta.csv": "3cb96d9aff1a95e331803dc26bf0f826f259e41e32297f5724f9de19cbd08a5e",
+        "market_data.duckdb": "e20b49d7814e381bb35eb2bb179295f9e28c34679703f23aac5fb5ef5666c349"
+      }
+    },
+    "verification": {
+      "auction_classifier_cases_matched": 1152,
+      "c0_closed_positions": 247,
+      "c0_historical_return": 0.5442439307942586,
+      "c0_orders_matched": 512,
+      "c0x_note": "Portfolio mechanics compared with a deterministic synthetic gate; prospective auction evidence is still required",
+      "day_zero_intents_matched": 80,
+      "equity_max_errors": {
+        "C0_R": 2.4424906541753444e-15,
+        "C0_R_X_synthetic_gate": 8.881784197001252e-16,
+        "C1_R": 1.1102230246251565e-15,
+        "C2_S": 8.881784197001252e-16
+      },
+      "first_session": "2025-01-01",
+      "instruments": 2284,
+      "integrity": {
+        "ca_causality": {
+          "bad_print_pre_exclusion_events": [],
+          "events": 20,
+          "kinds": {
+            "suspected_unadjusted_corporate_action": 20
+          },
+          "note": "persistent moves: excluded t..t+5 only (causal). Bad prints: spec excludes t-5..t+5 (look-ahead) - see causal_bad_print_variant in reproduce.py for its effect",
+          "pass": true
+        },
+        "classification": {
+          "panel_isin_prefixes": {
+            "IN9": 1,
+            "INE": 2004,
+            "INF": 279
+          },
+          "pass": true,
+          "rejected_in_universe": [],
+          "universe_isin_prefixes": {
+            "INE": 468
+          }
+        },
+        "db_duplicates": {
+          "duplicate_daily_instrument_dates_in_store": 0,
+          "handling": "Panel readers select one latest timestamp per instrument/session",
+          "pass": true
+        },
+        "delisted": {
+          "pass": true,
+          "survivorship_note": "Upstox master lists current instruments only; stocks delisted before 2026-11 are absent from the panel entirely (cannot be tested here)",
+          "symbols": [],
+          "universe_instruments_with_data_ending_early": 0
+        },
+        "holdings_missing": {
+          "holding_days_without_close": 0,
+          "pass": true
+        },
+        "panel_candles": {
+          "dates_unique_sorted": true,
+          "flat_repeat_bars_universe_cells": 0,
+          "ohlc_inconsistent_universe_cells": 0,
+          "pass": true,
+          "zero_volume_universe_cells": 0
+        },
+        "pit_liquidity": {
+          "max_rel_err": 0.0,
+          "pass": true
+        },
+        "split_bonus": {
+          "pass": true,
+          "split_bonus_events_matched": 19,
+          "unadjusted_suspects": []
+        },
+        "universe_ties": {
+          "boundary_ties": 0,
+          "pass": true
+        }
+      },
+      "last_session": "2026-11-13",
+      "passed": true,
+      "real_orders_submitted": 0,
+      "score_max_error": 0.0,
+      "score_missing_mismatches": 0,
+      "sessions": 464,
+      "universe_mismatches": 0,
+      "verified_at": "2026-11-15T00:56:13.009398+05:30"
+    },
+    "integrity": {
+      "checked_at": "2026-11-19T15:57:44.275289+05:30",
+      "integrity": {
+        "ca_causality": {
+          "bad_print_pre_exclusion_events": [],
+          "events": 20,
+          "kinds": {
+            "suspected_unadjusted_corporate_action": 20
+          },
+          "note": "persistent moves: excluded t..t+5 only (causal). Bad prints: spec excludes t-5..t+5 (look-ahead) - see causal_bad_print_variant in reproduce.py for its effect",
+          "pass": true
+        },
+        "classification": {
+          "panel_isin_prefixes": {
+            "IN9": 1,
+            "INE": 2004,
+            "INF": 279
+          },
+          "pass": true,
+          "rejected_in_universe": [],
+          "universe_isin_prefixes": {
+            "INE": 468
+          }
+        },
+        "db_duplicates": {
+          "duplicate_daily_instrument_dates_in_store": 0,
+          "handling": "Panel readers select one latest timestamp per instrument/session",
+          "pass": true
+        },
+        "delisted": {
+          "pass": true,
+          "survivorship_note": "Upstox master lists current instruments only; stocks delisted before 2026-11 are absent from the panel entirely (cannot be tested here)",
+          "symbols": [],
+          "universe_instruments_with_data_ending_early": 0
+        },
+        "holdings_missing": {
+          "holding_days_without_close": 0,
+          "pass": true
+        },
+        "panel_candles": {
+          "dates_unique_sorted": true,
+          "flat_repeat_bars_universe_cells": 0,
+          "ohlc_inconsistent_universe_cells": 0,
+          "pass": true,
+          "zero_volume_universe_cells": 0
+        },
+        "pit_liquidity": {
+          "max_rel_err": 0.0,
+          "pass": true
+        },
+        "split_bonus": {
+          "pass": true,
+          "split_bonus_events_matched": 19,
+          "unadjusted_suspects": []
+        },
+        "universe_ties": {
+          "boundary_ties": 0,
+          "pass": true
+        }
+      },
+      "score_max_error": 0.0,
+      "score_missing_mismatches": 0,
+      "session": "2026-11-18",
+      "universe_mismatches": 0
+    }
+  },
+  "as_of": "2026-11-19T16:03:16.270482+05:30",
+  "busy": false,
+  "category": "investment",
+  "mode": "paper",
+  "paper_testing": {
+    "id": "20261119-160315-aced0dcd",
+    "starts_on": "2026-11-19",
+    "created_at": "2026-11-19T16:03:15.914358+05:30",
+    "policy": {
+      "daily_buy_fraction": 0.1,
+      "max_buy_orders": 2,
+      "max_exposure": 0.5,
+      "max_position_fraction": 0.05
+    },
+    "mode": "fresh",
+    "version": "staged-paper-v1"
+  }
+}

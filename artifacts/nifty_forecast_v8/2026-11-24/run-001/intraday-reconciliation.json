@@ -1,0 +1,53 @@
+{
+  "received_bars": 6976,
+  "source": "Upstox historical NSE_INDEX|Nifty 50, 25-minute bar start times",
+  "full_regular_sessions": 396,
+  "excluded_sessions": [
+    "2025-04-25",
+    "2025-04-30",
+    "2025-05-08",
+    "2025-05-13",
+    "2025-05-21",
+    "2025-10-21",
+    "2026-11-08"
+  ],
+  "grid_ist": "09:15 to 15:30 (15 bars)",
+  "daily_reference": "Frozen native daily NIFTY close from V6, not overwritten",
+  "median_abs_close_difference": 7.150000000001455,
+  "max_abs_close_difference": 85.69999999999709,
+  "over_10bp": 49,
+  "archive_hashes": [
+    {
+      "archive": "2025-01-01.json",
+      "sha256": "d6bc6b9309fb3f9ebc7e09921a79ea29dfdd27c5e50f1627d7d2fda40c673c83"
+    },
+    {
+      "archive": "2025-04-01.json",
+      "sha256": "b94ed2f77c950d13292b1db4527acc177fe6b7996ce8b1c0973cade0665cf945"
+    },
+    {
+      "archive": "2025-07-01.json",
+      "sha256": "19715432a4c0b4ea6a25d983582db7125eb49f603348f25762a4f36d8647f7da"
+    },
+    {
+      "archive": "2025-10-01.json",
+      "sha256": "1c314049835850184d305d76ce8cdc849659cc56e9a08e6238b07a4ee2086671"
+    },
+    {
+      "archive": "2026-01-01.json",
+      "sha256": "ba9c8ce39c3e3165baf4c107a15c012947c9bd95b73b6e1914ba7192cdd63d71"
+    },
+    {
+      "archive": "2026-04-01.json",
+      "sha256": "4fd4f5e4f6da91f0e3fa6d7e2d013dcbd7731820d249a59b1f94acd8d8874bcb"
+    },
+    {
+      "archive": "2026-07-01.json",
+      "sha256": "42627758f804261c2368b3ba7cf5f848d534c08f1b91e10291a08682d9bca32c"
+    },
+    {
+      "archive": "2026-10-01.json",
+      "sha256": "ed6e95c6e4ed4867f938f57d96682ad628d9d6b0c20dd986044f7ef07fd78fb7"
+    }
+  ]
+}

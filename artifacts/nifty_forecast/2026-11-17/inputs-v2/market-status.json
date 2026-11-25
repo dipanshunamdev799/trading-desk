@@ -1,0 +1,14 @@
+{
+  "method": "get_market_status",
+  "parameters": {
+    "exchange": "NSE"
+  },
+  "requested_at": "2026-11-17T00:33:03.659071+05:30",
+  "acquired_at": "2026-11-17T00:33:03.860404+05:30",
+  "ok": true,
+  "payload": {
+    "exchange": "NSE",
+    "status": "CLOSING_END",
+    "last_updated": 1794825000025
+  }
+}

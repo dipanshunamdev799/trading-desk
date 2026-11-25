@@ -1,0 +1,68 @@
+{
+  "passed": true,
+  "barrier_forecasts": 737942,
+  "distribution_forecasts": 116310,
+  "path_artifacts_verified": 2410,
+  "causal_fit_checks": 17360,
+  "timing_sentinels": [
+    {
+      "horizon": 5,
+      "cutoff": "2026-03-12",
+      "training": 229,
+      "exact_copy": true,
+      "mutated_future_ignored": true
+    },
+    {
+      "horizon": 21,
+      "cutoff": "2026-05-04",
+      "training": 245,
+      "exact_copy": true,
+      "mutated_future_ignored": true
+    }
+  ],
+  "protected": 22519,
+  "foreign_clock_rows": 2757,
+  "fitted_v12_replay": {
+    "forecasts": 2890,
+    "maximum_difference": 0.0,
+    "model_ids": {
+      "V12_RV_PATH": "prior_trailing",
+      "V12_RV_SCALE": "prior_fitted_rv",
+      "V12_IV_SCALE": "prior_fitted_iv",
+      "V12_IV_LAG5": "prior_fitted_lag5",
+      "V12_ETF_SCALE": "prior_etf",
+      "V12_INTRA_SCALE": "prior_intraday"
+    }
+  },
+  "v12_replay": {
+    "complete_laws": 3320,
+    "volatility_rows": 2890,
+    "source_parts": [
+      {
+        "path": "laws/phase.npz",
+        "forecasts": 27090,
+        "atoms": 8412394,
+        "sha256": "7d01be8eb42436f49a305c9321d3ccb3d7f15fd36d3af43439de1cc162b411e7"
+      },
+      {
+        "path": "laws/market.npz",
+        "forecasts": 20675,
+        "atoms": 25098626,
+        "sha256": "ca8947f4a1cac3a286cd9f3a1b399bcd079ff54d00559d7af40dc743550fafb9"
+      },
+      {
+        "path": "laws/priced.npz",
+        "forecasts": 9815,
+        "atoms": 6008635,
+        "sha256": "e5c38866b1c3309c1b7b2ad1c9448ffc549af638556538a741d7237fb60f849c"
+      },
+      {
+        "path": "laws/ensemble.npz",
+        "forecasts": 12924,
+        "atoms": 50975725,
+        "sha256": "d4616f1303bccdb4030f44c5bbd95e63b3d5245cb433210de2eb21c57c1326c7"
+      }
+    ],
+    "method": "Independently rescore exact endpoint atoms and V12 per-origin fitted volatility forecasts against rebuilt OHLC labels."
+  }
+}

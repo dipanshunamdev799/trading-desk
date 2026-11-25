@@ -1,0 +1,115 @@
+{
+  "requests": [
+    {
+      "url": "https://api.upstox.com/v3/historical-candle/NSE_INDEX%7CNifty%2050/minutes/25/2025-03-31/2025-01-01",
+      "sent": "2026-11-24T11:34:31.075295+05:30",
+      "rows": 930,
+      "status": 200,
+      "server_date": "Tue, 24 Nov 2026 06:04:31 GMT",
+      "received": "2026-11-24T11:34:31.170504+05:30",
+      "sha256": "d6bc6b9309fb3f9ebc7e09921a79ea29dfdd27c5e50f1627d7d2fda40c673c83"
+    },
+    {
+      "url": "https://api.upstox.com/v3/historical-candle/NSE_INDEX%7CNifty%2050/minutes/25/2025-06-30/2025-04-01",
+      "sent": "2026-11-24T11:34:31.183508+05:30",
+      "rows": 925,
+      "status": 200,
+      "server_date": "Tue, 24 Nov 2026 06:04:31 GMT",
+      "received": "2026-11-24T11:34:31.276277+05:30",
+      "sha256": "b94ed2f77c950d13292b1db4527acc177fe6b7996ce8b1c0973cade0665cf945"
+    },
+    {
+      "url": "https://api.upstox.com/v3/historical-candle/NSE_INDEX%7CNifty%2050/minutes/25/2025-09-30/2025-07-01",
+      "sent": "2026-11-24T11:34:31.288242+05:30",
+      "rows": 960,
+      "status": 200,
+      "server_date": "Tue, 24 Nov 2026 06:04:31 GMT",
+      "received": "2026-11-24T11:34:31.386794+05:30",
+      "sha256": "19715432a4c0b4ea6a25d983582db7125eb49f603348f25762a4f36d8647f7da"
+    },
+    {
+      "url": "https://api.upstox.com/v3/historical-candle/NSE_INDEX%7CNifty%2050/minutes/25/2025-12-31/2025-10-01",
+      "sent": "2026-11-24T11:34:31.406847+05:30",
+      "rows": 918,
+      "status": 200,
+      "server_date": "Tue, 24 Nov 2026 06:04:31 GMT",
+      "received": "2026-11-24T11:34:31.483180+05:30",
+      "sha256": "1c314049835850184d305d76ce8cdc849659cc56e9a08e6238b07a4ee2086671"
+    },
+    {
+      "url": "https://api.upstox.com/v3/historical-candle/NSE_INDEX%7CNifty%2050/minutes/25/2026-03-31/2026-01-01",
+      "sent": "2026-11-24T11:34:31.499502+05:30",
+      "rows": 900,
+      "status": 200,
+      "server_date": "Tue, 24 Nov 2026 06:04:31 GMT",
+      "received": "2026-11-24T11:34:31.590760+05:30",
+      "sha256": "ba9c8ce39c3e3165baf4c107a15c012947c9bd95b73b6e1914ba7192cdd63d71"
+    },
+    {
+      "url": "https://api.upstox.com/v3/historical-candle/NSE_INDEX%7CNifty%2050/minutes/25/2026-06-30/2026-04-01",
+      "sent": "2026-11-24T11:34:31.602777+05:30",
+      "rows": 900,
+      "status": 200,
+      "server_date": "Tue, 24 Nov 2026 06:04:31 GMT",
+      "received": "2026-11-24T11:34:31.683789+05:30",
+      "sha256": "4fd4f5e4f6da91f0e3fa6d7e2d013dcbd7731820d249a59b1f94acd8d8874bcb"
+    },
+    {
+      "url": "https://api.upstox.com/v3/historical-candle/NSE_INDEX%7CNifty%2050/minutes/25/2026-09-30/2026-07-01",
+      "sent": "2026-11-24T11:34:31.696689+05:30",
+      "rows": 975,
+      "status": 200,
+      "server_date": "Tue, 24 Nov 2026 06:04:31 GMT",
+      "received": "2026-11-24T11:34:31.791043+05:30",
+      "sha256": "42627758f804261c2368b3ba7cf5f848d534c08f1b91e10291a08682d9bca32c"
+    },
+    {
+      "url": "https://api.upstox.com/v3/historical-candle/NSE_INDEX%7CNifty%2050/minutes/25/2026-11-17/2026-10-01",
+      "sent": "2026-11-24T11:34:31.803035+05:30",
+      "rows": 468,
+      "status": 200,
+      "server_date": "Tue, 24 Nov 2026 06:04:31 GMT",
+      "received": "2026-11-24T11:34:31.877184+05:30",
+      "sha256": "ed6e95c6e4ed4867f938f57d96682ad628d9d6b0c20dd986044f7ef07fd78fb7"
+    }
+  ],
+  "complete_sessions": 396,
+  "rejected": [
+    {
+      "day": "2025-04-25",
+      "rows": 17,
+      "reason": "incomplete/nonregular grid or invalid OHLC"
+    },
+    {
+      "day": "2025-04-30",
+      "rows": 17,
+      "reason": "incomplete/nonregular grid or invalid OHLC"
+    },
+    {
+      "day": "2025-05-08",
+      "rows": 17,
+      "reason": "incomplete/nonregular grid or invalid OHLC"
+    },
+    {
+      "day": "2025-05-13",
+      "rows": 17,
+      "reason": "incomplete/nonregular grid or invalid OHLC"
+    },
+    {
+      "day": "2025-05-21",
+      "rows": 17,
+      "reason": "incomplete/nonregular grid or invalid OHLC"
+    },
+    {
+      "day": "2025-10-21",
+      "rows": 3,
+      "reason": "incomplete/nonregular grid or invalid OHLC"
+    },
+    {
+      "day": "2026-11-08",
+      "rows": 3,
+      "reason": "incomplete/nonregular grid or invalid OHLC"
+    }
+  ],
+  "features": "25-minute close increments over exact 15-bar 09:15 to 15:30 IST grid. Opening/closing proxies each span 50 minutes. Provider index volume excluded."
+}

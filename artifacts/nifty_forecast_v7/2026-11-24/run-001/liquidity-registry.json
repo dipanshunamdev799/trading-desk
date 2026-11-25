@@ -1,0 +1,42 @@
+{
+  "registered_at": "2026-11-24T11:39:43.563483+05:30",
+  "configurations": {
+    "L_ETF": {
+      "parent": "C_NO_DEF",
+      "frame": "nodef_etf",
+      "hypothesis": "Add five genuine ETF volume ratios without defensive duplication"
+    },
+    "L_DAILY": {
+      "parent": "C_NO_DEF",
+      "frame": "daily",
+      "hypothesis": "Opening versus closing behavior and ETF activity change from the same historical sessions"
+    },
+    "L_POSITION": {
+      "parent": "C_NO_DEF",
+      "frame": "position",
+      "hypothesis": "Lagged archive futures basis/OI and options positioning"
+    },
+    "L_INTRADAY_BASE": {
+      "parent": "C_NO_DEF",
+      "frame": "nodef",
+      "eligible": "intraday",
+      "hypothesis": "Identical date availability as complete-session intraday treatment"
+    },
+    "L_INTRADAY": {
+      "parent": "L_INTRADAY_BASE",
+      "frame": "intraday",
+      "eligible": "intraday",
+      "hypothesis": "Complete-session intraday volatility and opening/closing behavior"
+    },
+    "L_STOCK_PROXY": {
+      "parent": "C_NO_DEF",
+      "frame": "stock",
+      "diagnostic": true,
+      "hypothesis": "Current liquid-stock basket sensitivity with survivorship exposure"
+    }
+  },
+  "exposure": "2025\u20132026 historical research",
+  "fit_code_sha256": "42be493331e2264137df7c173ffa8e0af6b5758fb0193bfef8984d88293e278f",
+  "batch_code_sha256": "0d37a323f3450c6cfbffcb1d926fea47fcab60e398ab7b7f3dfd86cf77c1c85d",
+  "reason": "Fixed family tests registered before new results for this batch. All dates exposed by prior research."
+}

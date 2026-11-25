@@ -1,0 +1,56 @@
+{
+  "at": "2026-11-24T13:01:38.870173+05:30",
+  "configuration": {
+    "J9_EQUAL": {
+      "parent": "P_HIST",
+      "hypothesis": "Equal coherent blend across seven distinct experts"
+    },
+    "J9_STATIC": {
+      "parent": "J9_EQUAL",
+      "hypothesis": "Fixed 50/50 blend of equal experts and empirical history"
+    },
+    "J9_PERFORMANCE": {
+      "parent": "J9_EQUAL",
+      "hypothesis": "Recent resolved loss weighting, shrunk 60% to equal"
+    },
+    "J9_DOMESTIC_GATE": {
+      "parent": "J9_EQUAL",
+      "hypothesis": "Regularized domestic predictability ranking with shrinkage"
+    },
+    "J9_GLOBAL_GATE": {
+      "parent": "J9_DOMESTIC_GATE",
+      "hypothesis": "Same gate with conservative global state inputs"
+    },
+    "J9_OOD": {
+      "parent": "J9_EQUAL",
+      "hypothesis": "In unfamiliar states reduce expert weights toward the empirical history law"
+    },
+    "J9_REGIME": {
+      "parent": "J9_EQUAL",
+      "hypothesis": "Select pooled past expert weights by current volatility regime"
+    },
+    "J9_REL_SHRINK": {
+      "parent": "J9_STATIC",
+      "hypothesis": "Shrink toward history when conditional gain forecast is weak"
+    }
+  },
+  "experts": [
+    "P_NATIVE",
+    "P_ROT",
+    "P_STRUCTURE",
+    "P_CLUSTER",
+    "P_LIQ",
+    "P_REVERT",
+    "P_HIST"
+  ],
+  "targets": [
+    "loss difference versus history",
+    "Brier",
+    "CRPS",
+    "correct sign",
+    "central interval coverage",
+    "realized volatility"
+  ],
+  "strict_maturity": "Expert prediction belongs to past origin. Its loss can enter gate only once outcome endpoint is strictly before fit origin. Recent diagnostics use the same test.",
+  "gate": "Last 126 matured prequential rows, min 35. Ridge50, Equal/learned weight .60/.40; Brier/.25 + CRPS/.02."
+}

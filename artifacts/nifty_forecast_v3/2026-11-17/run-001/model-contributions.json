@@ -1,0 +1,1947 @@
+{
+  "5": [
+    {
+      "target": "direction",
+      "model": "M05_lgbm",
+      "kind": "training gain, not causal/test importance",
+      "features": [
+        {
+          "feature": "sector_nifty_pharma_rel21",
+          "value": 539.0448217391968
+        },
+        {
+          "feature": "global_usdinr_rv21",
+          "value": 203.04181051254272
+        },
+        {
+          "feature": "sector_nifty500_relative",
+          "value": 158.41267919540405
+        },
+        {
+          "feature": "global_dow_ret5",
+          "value": 128.9377899169922
+        },
+        {
+          "feature": "risk_vix",
+          "value": 125.52649021148682
+        },
+        {
+          "feature": "sector_nifty_metal_rel21",
+          "value": 121.19492053985596
+        },
+        {
+          "feature": "sector_nifty_auto_rel21",
+          "value": 101.4376106262207
+        },
+        {
+          "feature": "price_ret63",
+          "value": 86.90423107147217
+        },
+        {
+          "feature": "sector_nifty_metal_rel5",
+          "value": 84.09572076797485
+        },
+        {
+          "feature": "sector_nifty_financial_rel21",
+          "value": 73.71276950836182
+        },
+        {
+          "feature": "sector_nifty_psu_bank_rel21",
+          "value": 65.18885946273804
+        },
+        {
+          "feature": "price_ret10",
+          "value": 55.59459924697876
+        },
+        {
+          "feature": "price_rsi",
+          "value": 55.50501012802124
+        },
+        {
+          "feature": "sector_bank_nifty_rel5",
+          "value": 40.59488010406494
+        },
+        {
+          "feature": "global_dow_rv21",
+          "value": 33.328099727630615
+        },
+        {
+          "feature": "global_brent_ret5",
+          "value": 29.654060125350952
+        },
+        {
+          "feature": "sector_nifty_energy_rel5",
+          "value": 26.07886028289795
+        },
+        {
+          "feature": "global_dow_ret1",
+          "value": 25.70442008972168
+        },
+        {
+          "feature": "global_gift_rv21",
+          "value": 24.80888032913208
+        },
+        {
+          "feature": "risk_vix_change5",
+          "value": 23.617949962615967
+        },
+        {
+          "feature": "price_downvol21",
+          "value": 19.166500091552734
+        },
+        {
+          "feature": "global_brent_rv21",
+          "value": 16.996310234069824
+        },
+        {
+          "feature": "sector_bank_nifty_rel21",
+          "value": 15.336519718170166
+        },
+        {
+          "feature": "global_sp500_ret5",
+          "value": 13.250699996948242
+        },
+        {
+          "feature": "sector_divergence",
+          "value": 12.873509883880615
+        },
+        {
+          "feature": "price_ema21",
+          "value": 9.113969802856445
+        },
+        {
+          "feature": "sector_dispersion",
+          "value": 6.403200149536133
+        },
+        {
+          "feature": "global_hang_seng_ret5",
+          "value": 6.392049789428711
+        },
+        {
+          "feature": "intraday_range",
+          "value": 6.109039783477783
+        },
+        {
+          "feature": "price_range",
+          "value": 5.12060022354126
+        },
+        {
+          "feature": "fo_volume_pcr",
+          "value": 4.547920227050781
+        },
+        {
+          "feature": "sector_nifty_fmcg_rel5",
+          "value": 1.1626499891281128
+        },
+        {
+          "feature": "global_gift_ret5",
+          "value": 1.1556400060653687
+        },
+        {
+          "feature": "price_ret1",
+          "value": 0.0
+        },
+        {
+          "feature": "price_ret5",
+          "value": 0.0
+        },
+        {
+          "feature": "price_ret21",
+          "value": 0.0
+        },
+        {
+          "feature": "price_rv5",
+          "value": 0.0
+        },
+        {
+          "feature": "price_rv21",
+          "value": 0.0
+        },
+        {
+          "feature": "price_rv63",
+          "value": 0.0
+        },
+        {
+          "feature": "price_ema10",
+          "value": 0.0
+        },
+        {
+          "feature": "price_ema63",
+          "value": 0.0
+        },
+        {
+          "feature": "price_acceleration",
+          "value": 0.0
+        },
+        {
+          "feature": "price_persistence",
+          "value": 0.0
+        },
+        {
+          "feature": "price_rv_ratio",
+          "value": 0.0
+        },
+        {
+          "feature": "price_atr",
+          "value": 0.0
+        },
+        {
+          "feature": "price_body",
+          "value": 0.0
+        },
+        {
+          "feature": "price_close_location",
+          "value": 0.0
+        },
+        {
+          "feature": "price_gap",
+          "value": 0.0
+        },
+        {
+          "feature": "risk_vix_acceleration",
+          "value": 0.0
+        },
+        {
+          "feature": "risk_implied_realized_spread",
+          "value": 0.0
+        },
+        {
+          "feature": "sector_nifty_auto_rel5",
+          "value": 0.0
+        },
+        {
+          "feature": "sector_nifty_energy_rel21",
+          "value": 0.0
+        },
+        {
+          "feature": "sector_nifty_financial_rel5",
+          "value": 0.0
+        },
+        {
+          "feature": "sector_nifty_fmcg_rel21",
+          "value": 0.0
+        },
+        {
+          "feature": "sector_nifty_it_rel5",
+          "value": 0.0
+        },
+        {
+          "feature": "sector_nifty_it_rel21",
+          "value": 0.0
+        },
+        {
+          "feature": "sector_nifty_pharma_rel5",
+          "value": 0.0
+        },
+        {
+          "feature": "sector_nifty_psu_bank_rel5",
+          "value": 0.0
+        },
+        {
+          "feature": "sector_nifty_realty_rel5",
+          "value": 0.0
+        },
+        {
+          "feature": "sector_nifty_realty_rel21",
+          "value": 0.0
+        },
+        {
+          "feature": "sector_participation",
+          "value": 0.0
+        },
+        {
+          "feature": "sector_breadth_change5",
+          "value": 0.0
+        },
+        {
+          "feature": "sector_concentration",
+          "value": 0.0
+        },
+        {
+          "feature": "global_brent_ret1",
+          "value": 0.0
+        },
+        {
+          "feature": "global_gift_ret1",
+          "value": 0.0
+        },
+        {
+          "feature": "global_hang_seng_ret1",
+          "value": 0.0
+        },
+        {
+          "feature": "global_hang_seng_rv21",
+          "value": 0.0
+        },
+        {
+          "feature": "global_sp500_ret1",
+          "value": 0.0
+        },
+        {
+          "feature": "global_sp500_rv21",
+          "value": 0.0
+        },
+        {
+          "feature": "global_usdinr_ret1",
+          "value": 0.0
+        },
+        {
+          "feature": "global_usdinr_ret5",
+          "value": 0.0
+        },
+        {
+          "feature": "etf_relative_volume",
+          "value": 0.0
+        },
+        {
+          "feature": "etf_relative_turnover",
+          "value": 0.0
+        },
+        {
+          "feature": "etf_tracking5",
+          "value": 0.0
+        },
+        {
+          "feature": "fo_fut_basis",
+          "value": 0.0
+        },
+        {
+          "feature": "fo_fut_oi_change",
+          "value": 0.0
+        },
+        {
+          "feature": "fo_fut_dte",
+          "value": 0.0
+        },
+        {
+          "feature": "fo_oi_pcr",
+          "value": 0.0
+        },
+        {
+          "feature": "fo_call_concentration",
+          "value": 0.0
+        },
+        {
+          "feature": "fo_put_concentration",
+          "value": 0.0
+        },
+        {
+          "feature": "fo_call_wall",
+          "value": 0.0
+        },
+        {
+          "feature": "fo_put_wall",
+          "value": 0.0
+        },
+        {
+          "feature": "fo_option_dte",
+          "value": 0.0
+        },
+        {
+          "feature": "fo_maxpain_distance",
+          "value": 0.0
+        },
+        {
+          "feature": "fo_matched_pcr_change",
+          "value": 0.0
+        },
+        {
+          "feature": "fo_fut_oi_log_change",
+          "value": 0.0
+        },
+        {
+          "feature": "fo_fut_roll_flag",
+          "value": 0.0
+        },
+        {
+          "feature": "institution_dii_cash_imbalance",
+          "value": 0.0
+        },
+        {
+          "feature": "institution_fii_option_position_imbalance",
+          "value": 0.0
+        },
+        {
+          "feature": "institution_fii_futures_position_imbalance",
+          "value": 0.0
+        },
+        {
+          "feature": "institution_fii_futures_trade_imbalance",
+          "value": 0.0
+        },
+        {
+          "feature": "institution_fii_cash_imbalance",
+          "value": 0.0
+        },
+        {
+          "feature": "institution_fii_cash_imbalance_mean5",
+          "value": 0.0
+        },
+        {
+          "feature": "institution_dii_cash_imbalance_mean5",
+          "value": 0.0
+        },
+        {
+          "feature": "institution_fii_futures_position_change",
+          "value": 0.0
+        },
+        {
+          "feature": "institution_fii_option_position_change",
+          "value": 0.0
+        },
+        {
+          "feature": "intraday_first_hour",
+          "value": 0.0
+        },
+        {
+          "feature": "intraday_last_hour",
+          "value": 0.0
+        },
+        {
+          "feature": "intraday_rv",
+          "value": 0.0
+        },
+        {
+          "feature": "intraday_efficiency",
+          "value": 0.0
+        },
+        {
+          "feature": "calendar_weekday",
+          "value": 0.0
+        }
+      ]
+    },
+    {
+      "target": "return",
+      "model": "A01_nofo",
+      "kind": "signed standardized training coefficient, not causal",
+      "features": [
+        {
+          "feature": "sector_nifty_pharma_rel21",
+          "value": -0.005132625276868542
+        },
+        {
+          "feature": "sector_nifty_it_rel21",
+          "value": 0.004137557095868007
+        },
+        {
+          "feature": "price_ret63",
+          "value": -0.0028470953634952573
+        },
+        {
+          "feature": "price_ret10",
+          "value": -0.002831157591833277
+        },
+        {
+          "feature": "sector_nifty_energy_rel21",
+          "value": -0.002433885134739574
+        },
+        {
+          "feature": "global_hang_seng_rv21",
+          "value": 0.0024054671665820555
+        },
+        {
+          "feature": "sector_nifty_pharma_rel5",
+          "value": 0.002261490954320686
+        },
+        {
+          "feature": "sector_nifty_it_rel5",
+          "value": -0.002186464667834171
+        },
+        {
+          "feature": "sector_nifty_auto_rel21",
+          "value": -0.0021657192904685893
+        },
+        {
+          "feature": "global_brent_rv21",
+          "value": -0.0020592774812412066
+        },
+        {
+          "feature": "sector_nifty_financial_rel21",
+          "value": -0.0019354092808242852
+        },
+        {
+          "feature": "sector_nifty_metal_rel21",
+          "value": -0.001935272031622403
+        },
+        {
+          "feature": "global_brent_ret5",
+          "value": -0.0017619053314441048
+        },
+        {
+          "feature": "price_persistence",
+          "value": -0.0015348062927542175
+        },
+        {
+          "feature": "global_sp500_rv21",
+          "value": 0.0014930259552847962
+        },
+        {
+          "feature": "sector_breadth_change5",
+          "value": 0.0014754934718603462
+        },
+        {
+          "feature": "global_gift_ret5",
+          "value": 0.0014694726787769887
+        },
+        {
+          "feature": "sector_nifty500_relative",
+          "value": -0.0014281915120541119
+        },
+        {
+          "feature": "sector_nifty_realty_rel21",
+          "value": 0.0014008464294111
+        },
+        {
+          "feature": "sector_bank_nifty_rel21",
+          "value": -0.0013887146713889478
+        },
+        {
+          "feature": "risk_vix",
+          "value": 0.0012122329400694586
+        },
+        {
+          "feature": "sector_nifty_metal_rel5",
+          "value": -0.0011539372058636198
+        },
+        {
+          "feature": "sector_nifty_financial_rel5",
+          "value": 0.0011389154848409585
+        },
+        {
+          "feature": "price_rv_ratio",
+          "value": -0.0011116838838385352
+        },
+        {
+          "feature": "risk_implied_realized_spread",
+          "value": 0.0010875106107100009
+        },
+        {
+          "feature": "global_usdinr_ret5",
+          "value": 0.0010318472667775562
+        },
+        {
+          "feature": "sector_divergence",
+          "value": -0.0010161409402756711
+        },
+        {
+          "feature": "sector_bank_nifty_rel5",
+          "value": 0.001014922000724298
+        },
+        {
+          "feature": "sector_nifty_energy_rel5",
+          "value": -0.0010091692557271292
+        },
+        {
+          "feature": "sector_nifty_fmcg_rel5",
+          "value": 0.0010035576617180744
+        },
+        {
+          "feature": "global_usdinr_rv21",
+          "value": 0.000961491562627642
+        },
+        {
+          "feature": "price_atr",
+          "value": 0.0008700997892939125
+        },
+        {
+          "feature": "price_downvol21",
+          "value": 0.000783407437766993
+        },
+        {
+          "feature": "sector_nifty_psu_bank_rel5",
+          "value": -0.0007825474440066982
+        },
+        {
+          "feature": "etf_relative_turnover",
+          "value": -0.0007693906750810527
+        },
+        {
+          "feature": "price_rv63",
+          "value": 0.0007253202898897822
+        },
+        {
+          "feature": "sector_nifty_realty_rel5",
+          "value": -0.0006661440089229535
+        },
+        {
+          "feature": "price_range",
+          "value": 0.00063867411087809
+        },
+        {
+          "feature": "global_sp500_ret1",
+          "value": -0.0006346487339214051
+        },
+        {
+          "feature": "price_gap",
+          "value": -0.0006285814010322916
+        },
+        {
+          "feature": "etf_relative_volume",
+          "value": -0.0006247960677318029
+        },
+        {
+          "feature": "intraday_range",
+          "value": 0.000622135471129662
+        },
+        {
+          "feature": "sector_participation",
+          "value": -0.0005986002697312369
+        },
+        {
+          "feature": "price_acceleration",
+          "value": -0.0005609719391811555
+        },
+        {
+          "feature": "global_dow_rv21",
+          "value": -0.0005449129128475054
+        },
+        {
+          "feature": "price_rv5",
+          "value": 0.0005449038114601456
+        },
+        {
+          "feature": "price_ret1",
+          "value": -0.0005439750671778792
+        },
+        {
+          "feature": "sector_dispersion",
+          "value": 0.0005369240650403197
+        },
+        {
+          "feature": "intraday_last_hour",
+          "value": -0.0005267465100012252
+        },
+        {
+          "feature": "global_dow_ret5",
+          "value": -0.00047863226169029725
+        },
+        {
+          "feature": "risk_vix_acceleration",
+          "value": -0.0004705676725206328
+        },
+        {
+          "feature": "intraday_rv",
+          "value": 0.0004699612808453607
+        },
+        {
+          "feature": "price_ret5",
+          "value": -0.00046650038388025686
+        },
+        {
+          "feature": "global_gift_ret1",
+          "value": 0.0004463284309404139
+        },
+        {
+          "feature": "global_brent_ret1",
+          "value": -0.0004448019936166156
+        },
+        {
+          "feature": "global_hang_seng_ret1",
+          "value": 0.00042685014321124467
+        },
+        {
+          "feature": "sector_nifty_psu_bank_rel21",
+          "value": 0.00042134663148789313
+        },
+        {
+          "feature": "calendar_weekday",
+          "value": -0.00040763938770564814
+        },
+        {
+          "feature": "price_rsi",
+          "value": -0.0003901346719377215
+        },
+        {
+          "feature": "price_ema21",
+          "value": 0.00027545059395807825
+        },
+        {
+          "feature": "sector_nifty_auto_rel5",
+          "value": 0.00023536862622589337
+        },
+        {
+          "feature": "price_ema63",
+          "value": 0.00022044313336892917
+        },
+        {
+          "feature": "etf_tracking5",
+          "value": 0.00021741687093774893
+        },
+        {
+          "feature": "global_gift_rv21",
+          "value": -0.0001995351659138325
+        },
+        {
+          "feature": "price_close_location",
+          "value": 0.00019758763914469628
+        },
+        {
+          "feature": "sector_concentration",
+          "value": -0.00018494934250284155
+        },
+        {
+          "feature": "price_body",
+          "value": 0.0001824103839961885
+        },
+        {
+          "feature": "price_rv21",
+          "value": 0.000170582914240291
+        },
+        {
+          "feature": "global_sp500_ret5",
+          "value": 0.00013550176514913768
+        },
+        {
+          "feature": "global_dow_ret1",
+          "value": -0.00011920901646897827
+        },
+        {
+          "feature": "intraday_first_hour",
+          "value": -0.00011504273961689785
+        },
+        {
+          "feature": "sector_nifty_fmcg_rel21",
+          "value": -0.00011148833161998798
+        },
+        {
+          "feature": "global_usdinr_ret1",
+          "value": 9.212731726895431e-05
+        },
+        {
+          "feature": "risk_vix_change5",
+          "value": 8.800721724341423e-05
+        },
+        {
+          "feature": "price_ret21",
+          "value": 3.733965768001579e-05
+        },
+        {
+          "feature": "global_hang_seng_ret5",
+          "value": -2.248925668008608e-05
+        },
+        {
+          "feature": "intraday_efficiency",
+          "value": 2.160437320361942e-05
+        },
+        {
+          "feature": "price_ema10",
+          "value": 1.549528459340267e-05
+        }
+      ]
+    },
+    {
+      "target": "distribution",
+      "model": "A01_nofo",
+      "kind": "signed standardized training coefficient, not causal",
+      "features": [
+        {
+          "feature": "sector_nifty_pharma_rel21",
+          "value": -0.005132625276868542
+        },
+        {
+          "feature": "sector_nifty_it_rel21",
+          "value": 0.004137557095868007
+        },
+        {
+          "feature": "price_ret63",
+          "value": -0.0028470953634952573
+        },
+        {
+          "feature": "price_ret10",
+          "value": -0.002831157591833277
+        },
+        {
+          "feature": "sector_nifty_energy_rel21",
+          "value": -0.002433885134739574
+        },
+        {
+          "feature": "global_hang_seng_rv21",
+          "value": 0.0024054671665820555
+        },
+        {
+          "feature": "sector_nifty_pharma_rel5",
+          "value": 0.002261490954320686
+        },
+        {
+          "feature": "sector_nifty_it_rel5",
+          "value": -0.002186464667834171
+        },
+        {
+          "feature": "sector_nifty_auto_rel21",
+          "value": -0.0021657192904685893
+        },
+        {
+          "feature": "global_brent_rv21",
+          "value": -0.0020592774812412066
+        },
+        {
+          "feature": "sector_nifty_financial_rel21",
+          "value": -0.0019354092808242852
+        },
+        {
+          "feature": "sector_nifty_metal_rel21",
+          "value": -0.001935272031622403
+        },
+        {
+          "feature": "global_brent_ret5",
+          "value": -0.0017619053314441048
+        },
+        {
+          "feature": "price_persistence",
+          "value": -0.0015348062927542175
+        },
+        {
+          "feature": "global_sp500_rv21",
+          "value": 0.0014930259552847962
+        },
+        {
+          "feature": "sector_breadth_change5",
+          "value": 0.0014754934718603462
+        },
+        {
+          "feature": "global_gift_ret5",
+          "value": 0.0014694726787769887
+        },
+        {
+          "feature": "sector_nifty500_relative",
+          "value": -0.0014281915120541119
+        },
+        {
+          "feature": "sector_nifty_realty_rel21",
+          "value": 0.0014008464294111
+        },
+        {
+          "feature": "sector_bank_nifty_rel21",
+          "value": -0.0013887146713889478
+        },
+        {
+          "feature": "risk_vix",
+          "value": 0.0012122329400694586
+        },
+        {
+          "feature": "sector_nifty_metal_rel5",
+          "value": -0.0011539372058636198
+        },
+        {
+          "feature": "sector_nifty_financial_rel5",
+          "value": 0.0011389154848409585
+        },
+        {
+          "feature": "price_rv_ratio",
+          "value": -0.0011116838838385352
+        },
+        {
+          "feature": "risk_implied_realized_spread",
+          "value": 0.0010875106107100009
+        },
+        {
+          "feature": "global_usdinr_ret5",
+          "value": 0.0010318472667775562
+        },
+        {
+          "feature": "sector_divergence",
+          "value": -0.0010161409402756711
+        },
+        {
+          "feature": "sector_bank_nifty_rel5",
+          "value": 0.001014922000724298
+        },
+        {
+          "feature": "sector_nifty_energy_rel5",
+          "value": -0.0010091692557271292
+        },
+        {
+          "feature": "sector_nifty_fmcg_rel5",
+          "value": 0.0010035576617180744
+        },
+        {
+          "feature": "global_usdinr_rv21",
+          "value": 0.000961491562627642
+        },
+        {
+          "feature": "price_atr",
+          "value": 0.0008700997892939125
+        },
+        {
+          "feature": "price_downvol21",
+          "value": 0.000783407437766993
+        },
+        {
+          "feature": "sector_nifty_psu_bank_rel5",
+          "value": -0.0007825474440066982
+        },
+        {
+          "feature": "etf_relative_turnover",
+          "value": -0.0007693906750810527
+        },
+        {
+          "feature": "price_rv63",
+          "value": 0.0007253202898897822
+        },
+        {
+          "feature": "sector_nifty_realty_rel5",
+          "value": -0.0006661440089229535
+        },
+        {
+          "feature": "price_range",
+          "value": 0.00063867411087809
+        },
+        {
+          "feature": "global_sp500_ret1",
+          "value": -0.0006346487339214051
+        },
+        {
+          "feature": "price_gap",
+          "value": -0.0006285814010322916
+        },
+        {
+          "feature": "etf_relative_volume",
+          "value": -0.0006247960677318029
+        },
+        {
+          "feature": "intraday_range",
+          "value": 0.000622135471129662
+        },
+        {
+          "feature": "sector_participation",
+          "value": -0.0005986002697312369
+        },
+        {
+          "feature": "price_acceleration",
+          "value": -0.0005609719391811555
+        },
+        {
+          "feature": "global_dow_rv21",
+          "value": -0.0005449129128475054
+        },
+        {
+          "feature": "price_rv5",
+          "value": 0.0005449038114601456
+        },
+        {
+          "feature": "price_ret1",
+          "value": -0.0005439750671778792
+        },
+        {
+          "feature": "sector_dispersion",
+          "value": 0.0005369240650403197
+        },
+        {
+          "feature": "intraday_last_hour",
+          "value": -0.0005267465100012252
+        },
+        {
+          "feature": "global_dow_ret5",
+          "value": -0.00047863226169029725
+        },
+        {
+          "feature": "risk_vix_acceleration",
+          "value": -0.0004705676725206328
+        },
+        {
+          "feature": "intraday_rv",
+          "value": 0.0004699612808453607
+        },
+        {
+          "feature": "price_ret5",
+          "value": -0.00046650038388025686
+        },
+        {
+          "feature": "global_gift_ret1",
+          "value": 0.0004463284309404139
+        },
+        {
+          "feature": "global_brent_ret1",
+          "value": -0.0004448019936166156
+        },
+        {
+          "feature": "global_hang_seng_ret1",
+          "value": 0.00042685014321124467
+        },
+        {
+          "feature": "sector_nifty_psu_bank_rel21",
+          "value": 0.00042134663148789313
+        },
+        {
+          "feature": "calendar_weekday",
+          "value": -0.00040763938770564814
+        },
+        {
+          "feature": "price_rsi",
+          "value": -0.0003901346719377215
+        },
+        {
+          "feature": "price_ema21",
+          "value": 0.00027545059395807825
+        },
+        {
+          "feature": "sector_nifty_auto_rel5",
+          "value": 0.00023536862622589337
+        },
+        {
+          "feature": "price_ema63",
+          "value": 0.00022044313336892917
+        },
+        {
+          "feature": "etf_tracking5",
+          "value": 0.00021741687093774893
+        },
+        {
+          "feature": "global_gift_rv21",
+          "value": -0.0001995351659138325
+        },
+        {
+          "feature": "price_close_location",
+          "value": 0.00019758763914469628
+        },
+        {
+          "feature": "sector_concentration",
+          "value": -0.00018494934250284155
+        },
+        {
+          "feature": "price_body",
+          "value": 0.0001824103839961885
+        },
+        {
+          "feature": "price_rv21",
+          "value": 0.000170582914240291
+        },
+        {
+          "feature": "global_sp500_ret5",
+          "value": 0.00013550176514913768
+        },
+        {
+          "feature": "global_dow_ret1",
+          "value": -0.00011920901646897827
+        },
+        {
+          "feature": "intraday_first_hour",
+          "value": -0.00011504273961689785
+        },
+        {
+          "feature": "sector_nifty_fmcg_rel21",
+          "value": -0.00011148833161998798
+        },
+        {
+          "feature": "global_usdinr_ret1",
+          "value": 9.212731726895431e-05
+        },
+        {
+          "feature": "risk_vix_change5",
+          "value": 8.800721724341423e-05
+        },
+        {
+          "feature": "price_ret21",
+          "value": 3.733965768001579e-05
+        },
+        {
+          "feature": "global_hang_seng_ret5",
+          "value": -2.248925668008608e-05
+        },
+        {
+          "feature": "intraday_efficiency",
+          "value": 2.160437320361942e-05
+        },
+        {
+          "feature": "price_ema10",
+          "value": 1.549528459340267e-05
+        }
+      ]
+    },
+    {
+      "target": "tail",
+      "model": "M05_lgbm",
+      "kind": "training gain, not causal/test importance",
+      "features": [
+        {
+          "feature": "sector_nifty_metal_rel21",
+          "value": 0.17688279133290052
+        },
+        {
+          "feature": "price_ret63",
+          "value": 0.09697355958633125
+        },
+        {
+          "feature": "sector_nifty_it_rel21",
+          "value": 0.0935025600483641
+        },
+        {
+          "feature": "sector_nifty500_relative",
+          "value": 0.08501761965453625
+        },
+        {
+          "feature": "sector_nifty_auto_rel21",
+          "value": 0.0849816205445677
+        },
+        {
+          "feature": "sector_nifty_pharma_rel21",
+          "value": 0.07822794932872057
+        },
+        {
+          "feature": "global_gift_rv21",
+          "value": 0.0738756696227938
+        },
+        {
+          "feature": "risk_vix",
+          "value": 0.05361495027318597
+        },
+        {
+          "feature": "price_rv63",
+          "value": 0.038826799718663096
+        },
+        {
+          "feature": "fo_put_wall",
+          "value": 0.03555247001349926
+        },
+        {
+          "feature": "sector_nifty_energy_rel5",
+          "value": 0.02014958020299673
+        },
+        {
+          "feature": "sector_nifty_energy_rel21",
+          "value": 0.01662217010743916
+        },
+        {
+          "feature": "sector_bank_nifty_rel21",
+          "value": 0.013342819642275572
+        },
+        {
+          "feature": "global_brent_ret1",
+          "value": 0.013084030011668801
+        },
+        {
+          "feature": "price_gap",
+          "value": 0.012008330086246133
+        },
+        {
+          "feature": "global_usdinr_rv21",
+          "value": 0.011336490046232939
+        },
+        {
+          "feature": "global_sp500_ret5",
+          "value": 0.009257019963115454
+        },
+        {
+          "feature": "global_brent_ret5",
+          "value": 0.007885369937866926
+        },
+        {
+          "feature": "global_hang_seng_ret5",
+          "value": 0.007586729945614934
+        },
+        {
+          "feature": "global_dow_rv21",
+          "value": 0.007498490042053163
+        },
+        {
+          "feature": "sector_divergence",
+          "value": 0.007375479908660054
+        },
+        {
+          "feature": "sector_nifty_psu_bank_rel21",
+          "value": 0.006322219967842102
+        },
+        {
+          "feature": "sector_nifty_fmcg_rel21",
+          "value": 0.00467494991607964
+        },
+        {
+          "feature": "global_sp500_rv21",
+          "value": 0.004407419823110104
+        },
+        {
+          "feature": "global_dow_ret5",
+          "value": 0.004247759934514761
+        },
+        {
+          "feature": "price_ret10",
+          "value": 0.004137630108743906
+        },
+        {
+          "feature": "sector_participation",
+          "value": 0.0017600200371816754
+        },
+        {
+          "feature": "fo_volume_pcr",
+          "value": 0.0017563099972903728
+        },
+        {
+          "feature": "sector_nifty_financial_rel21",
+          "value": 0.001596549991518259
+        },
+        {
+          "feature": "price_rv_ratio",
+          "value": 0.0014917500084266067
+        },
+        {
+          "feature": "price_ret1",
+          "value": 0.0
+        },
+        {
+          "feature": "price_ret5",
+          "value": 0.0
+        },
+        {
+          "feature": "price_ret21",
+          "value": 0.0
+        },
+        {
+          "feature": "price_rv5",
+          "value": 0.0
+        },
+        {
+          "feature": "price_rv21",
+          "value": 0.0
+        },
+        {
+          "feature": "price_downvol21",
+          "value": 0.0
+        },
+        {
+          "feature": "price_ema10",
+          "value": 0.0
+        },
+        {
+          "feature": "price_ema21",
+          "value": 0.0
+        },
+        {
+          "feature": "price_ema63",
+          "value": 0.0
+        },
+        {
+          "feature": "price_rsi",
+          "value": 0.0
+        },
+        {
+          "feature": "price_acceleration",
+          "value": 0.0
+        },
+        {
+          "feature": "price_persistence",
+          "value": 0.0
+        },
+        {
+          "feature": "price_atr",
+          "value": 0.0
+        },
+        {
+          "feature": "price_body",
+          "value": 0.0
+        },
+        {
+          "feature": "price_range",
+          "value": 0.0
+        },
+        {
+          "feature": "price_close_location",
+          "value": 0.0
+        },
+        {
+          "feature": "risk_vix_change5",
+          "value": 0.0
+        },
+        {
+          "feature": "risk_vix_acceleration",
+          "value": 0.0
+        },
+        {
+          "feature": "risk_implied_realized_spread",
+          "value": 0.0
+        },
+        {
+          "feature": "sector_nifty_auto_rel5",
+          "value": 0.0
+        },
+        {
+          "feature": "sector_nifty_financial_rel5",
+          "value": 0.0
+        },
+        {
+          "feature": "sector_nifty_fmcg_rel5",
+          "value": 0.0
+        },
+        {
+          "feature": "sector_nifty_it_rel5",
+          "value": 0.0
+        },
+        {
+          "feature": "sector_nifty_metal_rel5",
+          "value": 0.0
+        },
+        {
+          "feature": "sector_nifty_pharma_rel5",
+          "value": 0.0
+        },
+        {
+          "feature": "sector_nifty_psu_bank_rel5",
+          "value": 0.0
+        },
+        {
+          "feature": "sector_nifty_realty_rel5",
+          "value": 0.0
+        },
+        {
+          "feature": "sector_nifty_realty_rel21",
+          "value": 0.0
+        },
+        {
+          "feature": "sector_bank_nifty_rel5",
+          "value": 0.0
+        },
+        {
+          "feature": "sector_dispersion",
+          "value": 0.0
+        },
+        {
+          "feature": "sector_breadth_change5",
+          "value": 0.0
+        },
+        {
+          "feature": "sector_concentration",
+          "value": 0.0
+        },
+        {
+          "feature": "global_brent_rv21",
+          "value": 0.0
+        },
+        {
+          "feature": "global_dow_ret1",
+          "value": 0.0
+        },
+        {
+          "feature": "global_gift_ret1",
+          "value": 0.0
+        },
+        {
+          "feature": "global_gift_ret5",
+          "value": 0.0
+        },
+        {
+          "feature": "global_hang_seng_ret1",
+          "value": 0.0
+        },
+        {
+          "feature": "global_hang_seng_rv21",
+          "value": 0.0
+        },
+        {
+          "feature": "global_sp500_ret1",
+          "value": 0.0
+        },
+        {
+          "feature": "global_usdinr_ret1",
+          "value": 0.0
+        },
+        {
+          "feature": "global_usdinr_ret5",
+          "value": 0.0
+        },
+        {
+          "feature": "etf_relative_volume",
+          "value": 0.0
+        },
+        {
+          "feature": "etf_relative_turnover",
+          "value": 0.0
+        },
+        {
+          "feature": "etf_tracking5",
+          "value": 0.0
+        },
+        {
+          "feature": "fo_fut_basis",
+          "value": 0.0
+        },
+        {
+          "feature": "fo_fut_oi_change",
+          "value": 0.0
+        },
+        {
+          "feature": "fo_fut_dte",
+          "value": 0.0
+        },
+        {
+          "feature": "fo_oi_pcr",
+          "value": 0.0
+        },
+        {
+          "feature": "fo_call_concentration",
+          "value": 0.0
+        },
+        {
+          "feature": "fo_put_concentration",
+          "value": 0.0
+        },
+        {
+          "feature": "fo_call_wall",
+          "value": 0.0
+        },
+        {
+          "feature": "fo_option_dte",
+          "value": 0.0
+        },
+        {
+          "feature": "fo_maxpain_distance",
+          "value": 0.0
+        },
+        {
+          "feature": "fo_matched_pcr_change",
+          "value": 0.0
+        },
+        {
+          "feature": "fo_fut_oi_log_change",
+          "value": 0.0
+        },
+        {
+          "feature": "fo_fut_roll_flag",
+          "value": 0.0
+        },
+        {
+          "feature": "institution_dii_cash_imbalance",
+          "value": 0.0
+        },
+        {
+          "feature": "institution_fii_option_position_imbalance",
+          "value": 0.0
+        },
+        {
+          "feature": "institution_fii_futures_position_imbalance",
+          "value": 0.0
+        },
+        {
+          "feature": "institution_fii_futures_trade_imbalance",
+          "value": 0.0
+        },
+        {
+          "feature": "institution_fii_cash_imbalance",
+          "value": 0.0
+        },
+        {
+          "feature": "institution_fii_cash_imbalance_mean5",
+          "value": 0.0
+        },
+        {
+          "feature": "institution_dii_cash_imbalance_mean5",
+          "value": 0.0
+        },
+        {
+          "feature": "institution_fii_futures_position_change",
+          "value": 0.0
+        },
+        {
+          "feature": "institution_fii_option_position_change",
+          "value": 0.0
+        },
+        {
+          "feature": "intraday_first_hour",
+          "value": 0.0
+        },
+        {
+          "feature": "intraday_last_hour",
+          "value": 0.0
+        },
+        {
+          "feature": "intraday_rv",
+          "value": 0.0
+        },
+        {
+          "feature": "intraday_efficiency",
+          "value": 0.0
+        },
+        {
+          "feature": "intraday_range",
+          "value": 0.0
+        },
+        {
+          "feature": "calendar_weekday",
+          "value": 0.0
+        }
+      ]
+    }
+  ],
+  "21": [
+    {
+      "target": "return",
+      "model": "A00_sector",
+      "kind": "signed standardized training coefficient, not causal",
+      "features": [
+        {
+          "feature": "sector_nifty_fmcg_rel21",
+          "value": 0.008345413242346856
+        },
+        {
+          "feature": "price_ret10",
+          "value": -0.006485952132127533
+        },
+        {
+          "feature": "sector_nifty_pharma_rel5",
+          "value": -0.005790173701357948
+        },
+        {
+          "feature": "sector_nifty_metal_rel21",
+          "value": -0.005581100183109437
+        },
+        {
+          "feature": "sector_nifty_it_rel5",
+          "value": 0.005534809547286004
+        },
+        {
+          "feature": "sector_nifty_pharma_rel21",
+          "value": -0.005313320646114318
+        },
+        {
+          "feature": "price_ret63",
+          "value": -0.005266371358238533
+        },
+        {
+          "feature": "sector_nifty_energy_rel21",
+          "value": -0.0050479346225764206
+        },
+        {
+          "feature": "sector_nifty_it_rel21",
+          "value": 0.0047909649123987555
+        },
+        {
+          "feature": "sector_nifty_auto_rel21",
+          "value": -0.004465885722940073
+        },
+        {
+          "feature": "sector_nifty_auto_rel5",
+          "value": -0.003720955633670416
+        },
+        {
+          "feature": "price_rv63",
+          "value": 0.0037200431209028248
+        },
+        {
+          "feature": "sector_nifty_metal_rel5",
+          "value": -0.0033820532526574903
+        },
+        {
+          "feature": "price_ret5",
+          "value": -0.0032971506462670637
+        },
+        {
+          "feature": "price_range",
+          "value": 0.002987792065887452
+        },
+        {
+          "feature": "sector_nifty_psu_bank_rel21",
+          "value": 0.0029013124900176108
+        },
+        {
+          "feature": "price_close_location",
+          "value": -0.0028298013331171604
+        },
+        {
+          "feature": "price_acceleration",
+          "value": -0.0027758605012112953
+        },
+        {
+          "feature": "price_rv5",
+          "value": 0.002558123180530693
+        },
+        {
+          "feature": "sector_nifty_fmcg_rel5",
+          "value": -0.002393869223040967
+        },
+        {
+          "feature": "sector_nifty_energy_rel5",
+          "value": -0.0023553137484099776
+        },
+        {
+          "feature": "sector_nifty_psu_bank_rel5",
+          "value": 0.0022536351529801515
+        },
+        {
+          "feature": "sector_breadth_change5",
+          "value": 0.0021709547851756633
+        },
+        {
+          "feature": "sector_bank_nifty_rel5",
+          "value": 0.0020354333538501164
+        },
+        {
+          "feature": "price_downvol21",
+          "value": 0.0019442476309978144
+        },
+        {
+          "feature": "price_ret21",
+          "value": -0.0016302946949446732
+        },
+        {
+          "feature": "price_body",
+          "value": 0.0016210665578247833
+        },
+        {
+          "feature": "sector_nifty_financial_rel21",
+          "value": -0.0016169330601043831
+        },
+        {
+          "feature": "price_persistence",
+          "value": 0.0015690799750211054
+        },
+        {
+          "feature": "price_ema21",
+          "value": 0.0014943970697848315
+        },
+        {
+          "feature": "price_rsi",
+          "value": 0.0013585535772216075
+        },
+        {
+          "feature": "price_rv_ratio",
+          "value": 0.001302934529651085
+        },
+        {
+          "feature": "sector_nifty_realty_rel5",
+          "value": 0.0012754626073232852
+        },
+        {
+          "feature": "price_ema10",
+          "value": 0.0011288819574120416
+        },
+        {
+          "feature": "price_ema63",
+          "value": -0.0010440065325358569
+        },
+        {
+          "feature": "sector_nifty500_relative",
+          "value": 0.0009833910804431893
+        },
+        {
+          "feature": "sector_concentration",
+          "value": 0.0009732086211123944
+        },
+        {
+          "feature": "sector_bank_nifty_rel21",
+          "value": -0.0008984435780908237
+        },
+        {
+          "feature": "price_rv21",
+          "value": -0.0008840232005750723
+        },
+        {
+          "feature": "sector_divergence",
+          "value": -0.000800823190615116
+        },
+        {
+          "feature": "price_ret1",
+          "value": -0.0007326947094101331
+        },
+        {
+          "feature": "sector_participation",
+          "value": 0.0004900585587742862
+        },
+        {
+          "feature": "sector_dispersion",
+          "value": -0.0004246186214230443
+        },
+        {
+          "feature": "price_gap",
+          "value": -0.0003976124492180283
+        },
+        {
+          "feature": "sector_nifty_financial_rel5",
+          "value": -0.0003267813178331537
+        },
+        {
+          "feature": "price_atr",
+          "value": -0.00011512061481509138
+        },
+        {
+          "feature": "sector_nifty_realty_rel21",
+          "value": 8.089884583492881e-05
+        }
+      ]
+    },
+    {
+      "target": "distribution",
+      "model": "A00_sector",
+      "kind": "signed standardized training coefficient, not causal",
+      "features": [
+        {
+          "feature": "sector_nifty_fmcg_rel21",
+          "value": 0.008345413242346856
+        },
+        {
+          "feature": "price_ret10",
+          "value": -0.006485952132127533
+        },
+        {
+          "feature": "sector_nifty_pharma_rel5",
+          "value": -0.005790173701357948
+        },
+        {
+          "feature": "sector_nifty_metal_rel21",
+          "value": -0.005581100183109437
+        },
+        {
+          "feature": "sector_nifty_it_rel5",
+          "value": 0.005534809547286004
+        },
+        {
+          "feature": "sector_nifty_pharma_rel21",
+          "value": -0.005313320646114318
+        },
+        {
+          "feature": "price_ret63",
+          "value": -0.005266371358238533
+        },
+        {
+          "feature": "sector_nifty_energy_rel21",
+          "value": -0.0050479346225764206
+        },
+        {
+          "feature": "sector_nifty_it_rel21",
+          "value": 0.0047909649123987555
+        },
+        {
+          "feature": "sector_nifty_auto_rel21",
+          "value": -0.004465885722940073
+        },
+        {
+          "feature": "sector_nifty_auto_rel5",
+          "value": -0.003720955633670416
+        },
+        {
+          "feature": "price_rv63",
+          "value": 0.0037200431209028248
+        },
+        {
+          "feature": "sector_nifty_metal_rel5",
+          "value": -0.0033820532526574903
+        },
+        {
+          "feature": "price_ret5",
+          "value": -0.0032971506462670637
+        },
+        {
+          "feature": "price_range",
+          "value": 0.002987792065887452
+        },
+        {
+          "feature": "sector_nifty_psu_bank_rel21",
+          "value": 0.0029013124900176108
+        },
+        {
+          "feature": "price_close_location",
+          "value": -0.0028298013331171604
+        },
+        {
+          "feature": "price_acceleration",
+          "value": -0.0027758605012112953
+        },
+        {
+          "feature": "price_rv5",
+          "value": 0.002558123180530693
+        },
+        {
+          "feature": "sector_nifty_fmcg_rel5",
+          "value": -0.002393869223040967
+        },
+        {
+          "feature": "sector_nifty_energy_rel5",
+          "value": -0.0023553137484099776
+        },
+        {
+          "feature": "sector_nifty_psu_bank_rel5",
+          "value": 0.0022536351529801515
+        },
+        {
+          "feature": "sector_breadth_change5",
+          "value": 0.0021709547851756633
+        },
+        {
+          "feature": "sector_bank_nifty_rel5",
+          "value": 0.0020354333538501164
+        },
+        {
+          "feature": "price_downvol21",
+          "value": 0.0019442476309978144
+        },
+        {
+          "feature": "price_ret21",
+          "value": -0.0016302946949446732
+        },
+        {
+          "feature": "price_body",
+          "value": 0.0016210665578247833
+        },
+        {
+          "feature": "sector_nifty_financial_rel21",
+          "value": -0.0016169330601043831
+        },
+        {
+          "feature": "price_persistence",
+          "value": 0.0015690799750211054
+        },
+        {
+          "feature": "price_ema21",
+          "value": 0.0014943970697848315
+        },
+        {
+          "feature": "price_rsi",
+          "value": 0.0013585535772216075
+        },
+        {
+          "feature": "price_rv_ratio",
+          "value": 0.001302934529651085
+        },
+        {
+          "feature": "sector_nifty_realty_rel5",
+          "value": 0.0012754626073232852
+        },
+        {
+          "feature": "price_ema10",
+          "value": 0.0011288819574120416
+        },
+        {
+          "feature": "price_ema63",
+          "value": -0.0010440065325358569
+        },
+        {
+          "feature": "sector_nifty500_relative",
+          "value": 0.0009833910804431893
+        },
+        {
+          "feature": "sector_concentration",
+          "value": 0.0009732086211123944
+        },
+        {
+          "feature": "sector_bank_nifty_rel21",
+          "value": -0.0008984435780908237
+        },
+        {
+          "feature": "price_rv21",
+          "value": -0.0008840232005750723
+        },
+        {
+          "feature": "sector_divergence",
+          "value": -0.000800823190615116
+        },
+        {
+          "feature": "price_ret1",
+          "value": -0.0007326947094101331
+        },
+        {
+          "feature": "sector_participation",
+          "value": 0.0004900585587742862
+        },
+        {
+          "feature": "sector_dispersion",
+          "value": -0.0004246186214230443
+        },
+        {
+          "feature": "price_gap",
+          "value": -0.0003976124492180283
+        },
+        {
+          "feature": "sector_nifty_financial_rel5",
+          "value": -0.0003267813178331537
+        },
+        {
+          "feature": "price_atr",
+          "value": -0.00011512061481509138
+        },
+        {
+          "feature": "sector_nifty_realty_rel21",
+          "value": 8.089884583492881e-05
+        }
+      ]
+    },
+    {
+      "target": "volatility",
+      "model": "M00_ridge_price",
+      "kind": "signed standardized training coefficient, not causal",
+      "features": [
+        {
+          "feature": "price_ret10",
+          "value": -0.006090771957224091
+        },
+        {
+          "feature": "price_range",
+          "value": 0.004961346347951348
+        },
+        {
+          "feature": "price_downvol21",
+          "value": 0.004374188626879617
+        },
+        {
+          "feature": "price_close_location",
+          "value": -0.0030584474222506955
+        },
+        {
+          "feature": "price_body",
+          "value": 0.0029199985216422316
+        },
+        {
+          "feature": "price_rv_ratio",
+          "value": 0.0025936485243213776
+        },
+        {
+          "feature": "price_rsi",
+          "value": 0.0025246674902397
+        },
+        {
+          "feature": "price_ret21",
+          "value": -0.0023830491538574788
+        },
+        {
+          "feature": "price_ema21",
+          "value": 0.0023223079589886004
+        },
+        {
+          "feature": "price_rv21",
+          "value": -0.0022521521431706775
+        },
+        {
+          "feature": "price_rv5",
+          "value": 0.0021403252259811403
+        },
+        {
+          "feature": "price_ret63",
+          "value": -0.0020545516971832824
+        },
+        {
+          "feature": "price_ema10",
+          "value": 0.0016132718917658611
+        },
+        {
+          "feature": "price_ret5",
+          "value": -0.0014216674087314729
+        },
+        {
+          "feature": "price_rv63",
+          "value": 0.0010737021053081376
+        },
+        {
+          "feature": "price_persistence",
+          "value": 0.0006908690325589272
+        },
+        {
+          "feature": "price_gap",
+          "value": 0.0005782945007552902
+        },
+        {
+          "feature": "price_ret1",
+          "value": -0.00028385939717264766
+        },
+        {
+          "feature": "price_acceleration",
+          "value": -0.0002716787526988935
+        },
+        {
+          "feature": "price_ema63",
+          "value": 0.0001212161532532572
+        },
+        {
+          "feature": "price_atr",
+          "value": -5.7365277055192384e-05
+        }
+      ]
+    }
+  ]
+}

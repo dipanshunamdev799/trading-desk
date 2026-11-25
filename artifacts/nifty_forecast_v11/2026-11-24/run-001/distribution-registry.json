@@ -1,0 +1,296 @@
+{
+  "registered": "2026-11-24T14:31:16.547123+05:30",
+  "models": {
+    "D_ROT_RAW": {
+      "frame": "rotation",
+      "parent": "B_ROT",
+      "plus": [],
+      "target_mask": true
+    },
+    "D_ROT_VOL": {
+      "frame": "rotation",
+      "parent": "D_ROT_RAW",
+      "plus": [],
+      "target_mask": true,
+      "target": "vol"
+    },
+    "D_ROT_STUDENT": {
+      "frame": "rotation",
+      "parent": "D_ROT_RAW",
+      "plus": [],
+      "target_mask": true,
+      "target": "vol",
+      "law": "student"
+    },
+    "D_ROT_SIGNMAG": {
+      "frame": "rotation",
+      "parent": "D_ROT_RAW",
+      "plus": [],
+      "target_mask": true,
+      "target": "signmag"
+    },
+    "D_ROT_ASYM": {
+      "frame": "rotation",
+      "parent": "D_ROT_RAW",
+      "plus": [],
+      "target_mask": true,
+      "target": "vol",
+      "extra": "asym"
+    },
+    "D_ROT_TAIL": {
+      "frame": "rotation",
+      "parent": "D_ROT_RAW",
+      "plus": [],
+      "target_mask": true,
+      "target": "vol",
+      "extra": "tail"
+    },
+    "D_ROT_SCALE": {
+      "frame": "rotation",
+      "parent": "D_ROT_RAW",
+      "plus": [],
+      "target_mask": true,
+      "target": "vol",
+      "extra": "scale"
+    },
+    "D_ROT_SHARED": {
+      "frame": "rotation",
+      "parent": "D_ROT_RAW",
+      "plus": [],
+      "target_mask": true,
+      "target": "split",
+      "shared_rank": 1
+    },
+    "D_EQ_RAW": {
+      "frame": "rotation",
+      "parent": "B_ROT",
+      "plus": [
+        "BREADTH"
+      ],
+      "target_mask": true
+    },
+    "D_EQ_VOL": {
+      "frame": "rotation",
+      "parent": "D_EQ_RAW",
+      "plus": [
+        "BREADTH"
+      ],
+      "target_mask": true,
+      "target": "vol"
+    },
+    "D_EQ_STUDENT": {
+      "frame": "rotation",
+      "parent": "D_EQ_RAW",
+      "plus": [
+        "BREADTH"
+      ],
+      "target_mask": true,
+      "target": "vol",
+      "law": "student"
+    },
+    "D_EQ_SIGNMAG": {
+      "frame": "rotation",
+      "parent": "D_EQ_RAW",
+      "plus": [
+        "BREADTH"
+      ],
+      "target_mask": true,
+      "target": "signmag"
+    },
+    "D_EQ_ASYM": {
+      "frame": "rotation",
+      "parent": "D_EQ_RAW",
+      "plus": [
+        "BREADTH"
+      ],
+      "target_mask": true,
+      "target": "vol",
+      "extra": "asym"
+    },
+    "D_EQ_TAIL": {
+      "frame": "rotation",
+      "parent": "D_EQ_RAW",
+      "plus": [
+        "BREADTH"
+      ],
+      "target_mask": true,
+      "target": "vol",
+      "extra": "tail"
+    },
+    "D_EQ_SCALE": {
+      "frame": "rotation",
+      "parent": "D_EQ_RAW",
+      "plus": [
+        "BREADTH"
+      ],
+      "target_mask": true,
+      "target": "vol",
+      "extra": "scale"
+    },
+    "D_EQ_SHARED": {
+      "frame": "rotation",
+      "parent": "D_EQ_RAW",
+      "plus": [
+        "BREADTH"
+      ],
+      "target_mask": true,
+      "target": "split",
+      "shared_rank": 1
+    },
+    "D_NATIVE_RAW": {
+      "frame": "native",
+      "parent": "B_ROT",
+      "plus": [],
+      "target_mask": true
+    },
+    "D_NATIVE_VOL": {
+      "frame": "native",
+      "parent": "D_NATIVE_RAW",
+      "plus": [],
+      "target_mask": true,
+      "target": "vol"
+    },
+    "D_NATIVE_STUDENT": {
+      "frame": "native",
+      "parent": "D_NATIVE_RAW",
+      "plus": [],
+      "target_mask": true,
+      "target": "vol",
+      "law": "student"
+    },
+    "D_NATIVE_SIGNMAG": {
+      "frame": "native",
+      "parent": "D_NATIVE_RAW",
+      "plus": [],
+      "target_mask": true,
+      "target": "signmag"
+    },
+    "D_NATIVE_ASYM": {
+      "frame": "native",
+      "parent": "D_NATIVE_RAW",
+      "plus": [],
+      "target_mask": true,
+      "target": "vol",
+      "extra": "asym"
+    },
+    "D_NATIVE_TAIL": {
+      "frame": "native",
+      "parent": "D_NATIVE_RAW",
+      "plus": [],
+      "target_mask": true,
+      "target": "vol",
+      "extra": "tail"
+    },
+    "D_NATIVE_SCALE": {
+      "frame": "native",
+      "parent": "D_NATIVE_RAW",
+      "plus": [],
+      "target_mask": true,
+      "target": "vol",
+      "extra": "scale"
+    },
+    "D_NATIVE_SHARED": {
+      "frame": "native",
+      "parent": "D_NATIVE_RAW",
+      "plus": [],
+      "target_mask": true,
+      "target": "split",
+      "shared_rank": 1
+    },
+    "D_DERIV_RISK_PARENT": {
+      "frame": "rotation",
+      "parent": "D_ROT_SCALE",
+      "target": "vol",
+      "extra": "scale",
+      "mask": "DERIV",
+      "target_mask": true
+    },
+    "D_DERIV_RISK": {
+      "frame": "rotation",
+      "parent": "D_DERIV_RISK_PARENT",
+      "plus": [
+        "DERIV"
+      ],
+      "scale_only": true,
+      "target": "vol",
+      "extra": "scale",
+      "mask": "DERIV",
+      "target_mask": true
+    },
+    "D_INTRA_PARENT": {
+      "frame": "rotation",
+      "parent": "D_ROT_SCALE",
+      "target": "vol",
+      "extra": "scale",
+      "mask": "INTRADAY",
+      "target_mask": true
+    },
+    "D_INTRA": {
+      "frame": "rotation",
+      "parent": "D_INTRA_PARENT",
+      "plus": [
+        "INTRADAY"
+      ],
+      "scale_only": false,
+      "target": "vol",
+      "extra": "scale",
+      "mask": "INTRADAY",
+      "target_mask": true
+    },
+    "D_GLOBAL_RISK_PARENT": {
+      "frame": "rotation",
+      "parent": "D_ROT_SCALE",
+      "target": "vol",
+      "extra": "scale",
+      "mask": "GLOBAL",
+      "target_mask": true
+    },
+    "D_GLOBAL_RISK": {
+      "frame": "rotation",
+      "parent": "D_GLOBAL_RISK_PARENT",
+      "plus": [
+        "GLOBAL"
+      ],
+      "scale_only": true,
+      "target": "vol",
+      "extra": "scale",
+      "mask": "GLOBAL",
+      "target_mask": true
+    },
+    "D_ETF_PARENT": {
+      "frame": "rotation",
+      "parent": "D_ROT_SCALE",
+      "target": "vol",
+      "extra": "scale",
+      "mask": "ETF",
+      "target_mask": true
+    },
+    "D_ETF": {
+      "frame": "rotation",
+      "parent": "D_ETF_PARENT",
+      "plus": [
+        "ETF"
+      ],
+      "scale_only": false,
+      "target": "vol",
+      "extra": "scale",
+      "mask": "ETF",
+      "target_mask": true
+    },
+    "D_INTRA_TIMING": {
+      "frame": "rotation",
+      "parent": "D_INTRA_PARENT",
+      "plus": [
+        "INTRADAY"
+      ],
+      "target": "vol",
+      "extra": "scale",
+      "mask": "INTRADAY",
+      "target_mask": true,
+      "shift": 5,
+      "diagnostic": true
+    }
+  },
+  "seed": 20261124,
+  "source": "ed65ce5af5b1659eb7823eff8713976c65719205f7315a0f6bc93a9e253403df"
+}

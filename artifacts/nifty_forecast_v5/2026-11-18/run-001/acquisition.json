@@ -1,0 +1,1519 @@
+{
+  "requested": 189,
+  "results": [
+    {
+      "name": "india_vix",
+      "family": "domestic",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "bank_nifty",
+      "family": "domestic",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "nifty_spot",
+      "family": "domestic",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "nifty_financial",
+      "family": "domestic",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "nifty_auto",
+      "family": "domestic",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "nifty_it",
+      "family": "domestic",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "nifty_fmcg",
+      "family": "domestic",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "nifty_pharma",
+      "family": "domestic",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "nifty_metal",
+      "family": "domestic",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "nifty_realty",
+      "family": "domestic",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "nifty_energy",
+      "family": "domestic",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "nifty_psu_bank",
+      "family": "domestic",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "idx_NIFTY_HEALTHCARE",
+      "family": "domestic",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "idx_NIFTY_MIDCAP_150",
+      "family": "domestic",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "idx_NIFTY_MIDCAP_100",
+      "family": "domestic",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "idx_Nifty_100",
+      "family": "domestic",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "idx_Nifty_500",
+      "family": "domestic",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "idx_Nifty_200",
+      "family": "domestic",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "idx_Nifty_Commodities",
+      "family": "domestic",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "idx_Nifty_Consumption",
+      "family": "domestic",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "idx_Nifty_Infra",
+      "family": "domestic",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "idx_Nifty_InfraLog",
+      "family": "domestic",
+      "ok": true,
+      "rows": 254,
+      "error": null
+    },
+    {
+      "name": "idx_Nifty_Midcap_50",
+      "family": "domestic",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "idx_Nifty_Next_50",
+      "family": "domestic",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "idx_Nifty_Smallcap_500",
+      "family": "domestic",
+      "ok": true,
+      "rows": 132,
+      "error": null
+    },
+    {
+      "name": "niftybees",
+      "family": "etf",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "g_^HSI",
+      "family": "global",
+      "ok": true,
+      "rows": 460,
+      "error": null
+    },
+    {
+      "name": "g_^DJI",
+      "family": "global",
+      "ok": true,
+      "rows": 474,
+      "error": null
+    },
+    {
+      "name": "g_^FTSE",
+      "family": "global",
+      "ok": true,
+      "rows": 485,
+      "error": null
+    },
+    {
+      "name": "g_USDINR",
+      "family": "global",
+      "ok": true,
+      "rows": 558,
+      "error": null
+    },
+    {
+      "name": "g_BZUSD",
+      "family": "global",
+      "ok": true,
+      "rows": 545,
+      "error": null
+    },
+    {
+      "name": "g_^GSPC",
+      "family": "global",
+      "ok": true,
+      "rows": 489,
+      "error": null
+    },
+    {
+      "name": "g_SGX_NIFTY",
+      "family": "global",
+      "ok": true,
+      "rows": 495,
+      "error": null
+    },
+    {
+      "name": "g_^GDAXI",
+      "family": "global",
+      "ok": true,
+      "rows": 486,
+      "error": null
+    },
+    {
+      "name": "g_IXIX",
+      "family": "global",
+      "ok": true,
+      "rows": 490,
+      "error": null
+    },
+    {
+      "name": "g_^FCHI",
+      "family": "global",
+      "ok": true,
+      "rows": 482,
+      "error": null
+    },
+    {
+      "name": "g_CLUSD",
+      "family": "global",
+      "ok": true,
+      "rows": 545,
+      "error": null
+    },
+    {
+      "name": "g_DOW_FUTURES",
+      "family": "global",
+      "ok": true,
+      "rows": 507,
+      "error": null
+    },
+    {
+      "name": "g_^N225",
+      "family": "global",
+      "ok": true,
+      "rows": 456,
+      "error": null
+    },
+    {
+      "name": "s_ADANIENT",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_ADANIPORTS",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_APOLLOHOSP",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_ASIANPAINT",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_AXISBANK",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_BAJAJ-AUTO",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_BAJFINANCE",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_BSE",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_BAJAJFINSV",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_BEL",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_BHARTIARTL",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_CIPLA",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_DRREDDY",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_COALINDIA",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_EICHERMOT",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_ETERNAL",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_HCLTECH",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_HDFCBANK",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_GRASIM",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_HDFCLIFE",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_HINDUNILVR",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_HINDALCO",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_ICICIBANK",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_ITC",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_INFY",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_INDIGO",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_JSWSTEEL",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_JIOFIN",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_KOTAKBANK",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_LT",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_M&M",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_MARUTI",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_MAXHEALTH",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_NTPC",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_NESTLEIND",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_ONGC",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_POWERGRID",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_SBILIFE",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_SHRIRAMFIN",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_RELIANCE",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_SBIN",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_TCS",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_SUNPHARMA",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_TATACONSUM",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_TMPV",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_TECHM",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_TITAN",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_TATASTEEL",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_TRENT",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_ULTRACEMCO",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_360ONE",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_AADHARHFC",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_AARTIIND",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_ABB",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_ABBOTINDIA",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_ABCAPITAL",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_ABDL",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_ABREL",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_AAVAS",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_ABSLAMC",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_ACE",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_ACC",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_ACMESOLAR",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_ADANIENSOL",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_ACUTAAS",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_AEGISLOG",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_ADANIPOWER",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_ADANIGREEN",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_AEGISVOPAK",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 364,
+      "error": null
+    },
+    {
+      "name": "s_AFCONS",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_AETHER",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_AFFLE",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_AIIL",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_AIAENG",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_AJANTPHARM",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_ALKEM",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_AMBER",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_AMBUJACEM",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_ANANTRAJ",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_ANANDRATHI",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_ANGELONE",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_APARINDS",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_ANURAS",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_ANTHEM",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 329,
+      "error": null
+    },
+    {
+      "name": "s_APOLLOTYRE",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_APLAPOLLO",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_APTUS",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_ASAHIINDIA",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_ARE&M",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_ASHOKLEY",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_ASTERDM",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_ASTRAL",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_ATGL",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_ATHERENERG",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 383,
+      "error": null
+    },
+    {
+      "name": "s_ATUL",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_AUBANK",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_AVANTIFEED",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_AUROPHARMA",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_AWL",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_BAJAJHLDNG",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_BAJAJHFL",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_AZAD",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_BALKRISIND",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_BALRAMCHIN",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_BANDHANBNK",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_BANKBARODA",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_BATAINDIA",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_BANKINDIA",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_BBOX",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_BELRISE",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 367,
+      "error": null
+    },
+    {
+      "name": "s_BEML",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_BERGEPAINT",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_BDL",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_BHARTIHEXA",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_BHARATCOAL",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 206,
+      "error": null
+    },
+    {
+      "name": "s_BHARATFORG",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_BIOCON",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_BHEL",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_BLS",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_BLUESTARCO",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_BOSCHLTD",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_BPCL",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_BRIGADE",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_BRITANNIA",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_BSOFT",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_CANBK",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_CANFINHOME",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_CANHLIFE",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 268,
+      "error": null
+    },
+    {
+      "name": "s_CAPLIPOINT",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_CAMS",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_CARBORUNIV",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_CARTRADE",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_CASTROLIND",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_CDSL",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_CCL",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_CEATLTD",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_CEMPRO",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_CENTRALBK",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_CESC",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_CGCL",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_CGPOWER",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_CHAMBLFERT",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_CHENNPETRO",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_CHOICEIN",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_CHOLAFIN",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_CHOLAHLDNG",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_CIEINDIA",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_CLEAN",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 466,
+      "error": null
+    },
+    {
+      "name": "s_CLEANMAX",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 176,
+      "error": null
+    },
+    {
+      "name": "s_CMPDI",
+      "family": "stock_proxy",
+      "ok": true,
+      "rows": 158,
+      "error": null
+    }
+  ],
+  "files": {
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\bank_nifty.json": "cd07ea49d26ecb73a4cf96a609fdd1975c39964429b7a70ad52fabfec1ef9047",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\g_BZUSD.json": "d9151fc12fbc819163c84a5e835b1d6ae0ae228dee7a2d0d547f5334b1de911f",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\g_CLUSD.json": "1af4a0ddd81df6c910275026e2f0ab1c4ebe386c0dd328c18bfb7ba1700bb4f7",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\g_DOW_FUTURES.json": "a0d25dcda0b77a68e50b9f160e22a50a5bd62820d186038bb5a6936e4c9f8099",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\g_IXIX.json": "573213076737e2da4e295cc35614bd0a31c409366d679681b2271b46a589484a",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\g_SGX_NIFTY.json": "6b25b28f986f5ec2d69f1c21094382a9df0bb5ed436a85a938f41dbe6105e439",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\g_USDINR.json": "393fa63d93dc4334967fccbb54e4ee514f3e165d59071096b7814291b11938e4",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\g_^DJI.json": "c7da073334e3165c56fdc798c332ed0abf3ebfe95eb9605c3895462cd56c44d8",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\g_^FCHI.json": "bcbdc3e0a3e3ba428a5afd50b96065c0daf0b35c5fa03675cd9a870e4829647a",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\g_^FTSE.json": "ad1b31184f0f443cabde65735c43436688fb959160fd2f44611f78c928ca9395",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\g_^GDAXI.json": "a1c7c30ab60857f308223c42994def29c36574f8531e08746c71c8480bec78d2",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\g_^GSPC.json": "e5a22867403d59a94235106bb1288f5ed13f0a3bfa3531dd7c8e3f53ee5cb062",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\g_^HSI.json": "a123dd90a4ad7cc28f15897989d7da6a54f4dbccedd196d56bec30baa0fa15a7",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\g_^N225.json": "09ba9cb648ca3af4d71145e604734f054a53d5161dc0fcb7382de13e0d898fd5",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\idx_Nifty_100.json": "da22b98a87a851e23bcd82c9656aa669a90645e484617f3ced56de9c3363ea7d",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\idx_Nifty_200.json": "feff58b704ed19366522ff048b7db5da76fd1844408a2608c4fb1596d3114998",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\idx_Nifty_500.json": "4adf966a5d6128da357bfb719a29ce0a35ab837ee4dfc1bd4b489a10527d6724",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\idx_Nifty_Commodities.json": "53c6127938b37d5417826f54b56c93577fb7e89854141985a9f5c1d67faf10cb",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\idx_Nifty_Consumption.json": "622c0f6333f66344dad6ac061f083354b74e6647d219a80dc666ac1c59cdf9a2",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\idx_NIFTY_HEALTHCARE.json": "eaf957e38ba7831f7dad339264feabb9c093f7e7ee5231d90e4179fc50beeca6",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\idx_Nifty_Infra.json": "47c78e6b4a1ef937ae71d88ffb43ffbcbb628487c6e49c5777d046daa5fe4af8",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\idx_Nifty_InfraLog.json": "590aad80d0fefc480811eb1efa5387561f22dc609cd50a3f7b74cd95bfbcc4da",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\idx_NIFTY_MIDCAP_100.json": "9002618cdbcba54902a25098d7f796ef27c38582765a798e4c1385bb5362c9ae",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\idx_NIFTY_MIDCAP_150.json": "18b5b374de2cc495d32074aaae828da4a03a2793f8c922eb0f5e7b8b8b21afa0",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\idx_Nifty_Midcap_50.json": "90db811480b020d14a00565ab5a3d1d63e4c613bc8c444e99ea09c062fa03d92",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\idx_Nifty_Next_50.json": "6528cde029838077cf957a730bda189192fbf48c2f5b52d3ca8d48017b4b1107",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\idx_Nifty_Smallcap_500.json": "29ebc9638665900a9aca3ac4b7a9bd0ac81ceab1f01cd6627a4fa6bd417ed0d0",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\india_vix.json": "4bff47665a93750ad3e02b50f5e13a3061f12030878563988e9da9f273a490ab",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\niftybees.json": "465fb1b37354dac0ee143e8a3fc3b21c075a2e4f6d2d321381db487913830275",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\nifty_auto.json": "360055ad8769aa2e360f7f0058c7edb7031a41f5ecde6b765950c1d0ccb4931d",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\nifty_energy.json": "bd9235a985ee57fd4d573fb8068908130d90cc1574083af2c8c7fe8d2318d4c4",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\nifty_financial.json": "dc0fa3144a40d9e1f34c5e8454f4159ff168acf9f8903d5103abfe737216c1fd",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\nifty_fmcg.json": "43b1fa40365ae1923c696ceff3ea9b06716d12690c3c029cb05f9ad9c2d17570",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\nifty_it.json": "58caddd159449e48991d2dd2048896ffd4a55710304c16a1f81eeea7fdb75c12",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\nifty_metal.json": "026493f21e5e65715ab9eacc0ed93d9cb2d53c1756d11b9cb02a59db01f50dbb",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\nifty_pharma.json": "4a5d8f22b584b3860252c5c6ed6f5bab60b5127888f910566e0229181ca6cf5f",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\nifty_psu_bank.json": "8b2db27e6cb4714b5105502e2265dd73574edf5a17f9a2040080b10c101ca2f5",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\nifty_realty.json": "7d52af7d83034940c26dbba3c67493143c464ba3042e34094e83e4c2da5dc846",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\nifty_spot.json": "299cabd7bd2da21819b094b9a23d5ccbff332250ef4bf6748b6b3899f7c519ec",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_360ONE.json": "c564fb75d2bf9c3fef771d6d17b05c4fc0372547d1aba2e2b18b70fca3681fe0",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_AADHARHFC.json": "a4ebb0b57d257f3683bf41de2bd82e1bbb8ef662f2460fe9d405bed0efbc0fdf",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_AARTIIND.json": "f3b9b340271662328e7f0b2acdc48b742467d63bb6c5bc4476967b5c85f9a08e",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_AAVAS.json": "370b0179c61c976824989a798a618a0f3169d6c5d5a71fb943f8c8cd229ec3ec",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_ABB.json": "d2d54d04b8bd8c37218f3de483baaf2fdb31026cfc41a30ce73be7d0b85b4bb7",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_ABBOTINDIA.json": "a897a146f79c20f90d11ff1c0a82a22ea81d12580c74b00190bf84596d0e0245",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_ABCAPITAL.json": "bba9951b0e31d9b73307742b772f5b4d3ae7d4c461f8651c1e0ed74a833304f0",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_ABDL.json": "fdc0a1079ef38d33b7a8afc3dc5c678766ac4b68b591b54b641345478c757160",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_ABREL.json": "4648db38c8ce4fb437fcba65eb75e16faa27facf6c146c1609a44ec48fc3342f",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_ABSLAMC.json": "9f768fd8cd1162aa387ea4d8bbdf63463aec723b17f95c9121005d26e28acd64",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_ACC.json": "d4dd6372a2205ea3d292e844037ec6fc61512f53e8f5a367e029d622d0dc8d89",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_ACE.json": "0d9b3ccd7107d9d17214d491156f8a59d1775215f45e8371b68bb8128a7fc490",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_ACMESOLAR.json": "7986027bf65f4d301a6d244c5d5c6e7b69ac94be15206770b475b5492b48372f",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_ACUTAAS.json": "a28859f1bb7e09116cccc40217ebbf3ffd59e643f949efe0f84b9a2bf08f0c85",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_ADANIENSOL.json": "f74b99572eb19e0feea0cb79f3555fb1bde443e0c00faea97ca29eadaf6ef491",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_ADANIENT.json": "90699669fd7980966ae59b7fc56a710faa4eabc0d2dff7b7b4894bbf00308e17",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_ADANIGREEN.json": "590828ef8e30550a739ded23f1661022c2a3ffd4a59b8b07b8f86d71bdf38b8e",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_ADANIPORTS.json": "1662da92835dee1f1fd843c53fc81cf860f9a3a803065af10f60e3b854986774",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_ADANIPOWER.json": "65f02ba88fa6ef5a8e5d42e92aeee4bf53808757d95cd593b4206e6c6909c361",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_AEGISLOG.json": "ccebb6f3a23209df1856c23a2171cc34d137b3278b2d301ec0d65e8f0aad529b",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_AEGISVOPAK.json": "a764dcd3cdfbb52f7e4a6efeacf5c943fadc09beb5a91ac016b0a13873a356f1",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_AETHER.json": "b8367a7902eb7ad87b07c19fe9e74a4f59470d9a99ff1dc4a6b9b7cb270decbd",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_AFCONS.json": "cbf9792f7859c6681bf398a7ca132aa3caad03e5d5bffeb4e4131740ae2b4a13",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_AFFLE.json": "4a8211bba503a29156a88004c6d52e5aefc61355f5e658da5ee8bb9a79983343",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_AIAENG.json": "163d8057712456b0dc0f066958f3ca30657bd6c7525f7bce583b2725ad9f3c32",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_AIIL.json": "9960e0f68b3f8103d8a48bd21b880e46831b71effbde6355fa68fa6ab709e008",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_AJANTPHARM.json": "4a528ae53d81ee50ce0fc552e4360cf1b98fc03634c533cc5150f90daa074881",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_ALKEM.json": "3025da10b1a81bacce047037821d07ea017197cc99b7cd4b6493f028613f91fc",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_AMBER.json": "c24b4233c815a30564488ced7c2556f952db4009b5d2c432d134b8b308cde62e",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_AMBUJACEM.json": "2e3d2f8f9ff98aacfadcb8ce9f4389277cb44a16b2a175bc92921bd6d5eb6b26",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_ANANDRATHI.json": "a3746b2e05ce7533a19e173f6e803bfa98dc18f1ade325e51a5096ecd6d0c5a3",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_ANANTRAJ.json": "ddf470c47a1bc3cf6ee9e77ca97be33244d2301ad2a3cf8e231e87c5fa07b61c",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_ANGELONE.json": "bb37ebdcf188149bd8b16c3c8f3b7b2bf63190d443454413e8796b36a82368fd",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_ANTHEM.json": "1e2bfee685bc25c79796b58d03151594557d63576a7ab4ee9a6f3353a5bd47ce",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_ANURAS.json": "bfb4a66b9eb18d9502a64125bfda204f1d6bc9f5f6e978026a287055a08d2971",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_APARINDS.json": "ac42a67f1dc60c71cd8b2848d0d66a834063ed2728391bcea6ddbb948792161a",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_APLAPOLLO.json": "89d743803bb2e4c8a4a7793e78e626d21fbd678ae891f3f5c6ac91db2319eb62",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_APOLLOHOSP.json": "b3fedf67dd70747a24f9dcaa53683547c98743237f63754a5d2b5bdaea016e01",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_APOLLOTYRE.json": "95b007f4a536493e23490588ffa4d1443dcc1c4de52fcee8b896d894005e0f5a",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_APTUS.json": "a11d5007c89578faaf22d444402b27884633891840b3a29802a911ad55d4717e",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_ARE&M.json": "1dd2efe63c38a25412e18f5b84d9951275e718cd11b6250775585fb3f1cdf6c7",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_ASAHIINDIA.json": "8a4cbc3cd013a4ff10770a374cbc8c484f314474e4483d755c42d1e482d0ba71",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_ASHOKLEY.json": "2db1ffa06f8153e2359daaafc5aefc970f963422c1470f4f2224795082a0ab22",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_ASIANPAINT.json": "21b28f4ba4aba0427c91e2eba6af36455eb397ac8e6b4269600ced53629662a6",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_ASTERDM.json": "ca2819659f23277185b8c761befab42f039646be20d81e5adce875cbc183fdfe",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_ASTRAL.json": "b973501fe91b12860a262b384ae8ebd5249ae66f3f892a8ed7ae05dfa17fe19d",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_ATGL.json": "2d036c67550710c07049e99ad4e84ef4ef3d56d9e3076c1c53a74b2e68d5e09b",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_ATHERENERG.json": "268294c500c31a1083c3ef44d7cbf41bd0923a17351fa709de64a569604071a7",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_ATUL.json": "9afec1866e02baa47322163e5cd2982c15aa1db0787759cc895880fa406a6d0c",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_AUBANK.json": "0468058124228463b633a867d268c42d909cdc2ee9b747cbd03b25bd3fe28748",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_AUROPHARMA.json": "6d4b24ccba4fdb3c8e46c8d011a3f83fc228d46c52e80a466936ffe98ae8f955",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_AVANTIFEED.json": "a7f08b3550a53835f821166cd9b2afb15d51cfcc9f842e247c91667eddafd6cc",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_AWL.json": "209af74a6d1cb340912569e118c995b5691904f12a0fb33539cd7c6e5c1262ed",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_AXISBANK.json": "561271790dc273276b8da6132f145bf23f7a8d22c74e38eacbb2c6677a0c6538",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_AZAD.json": "b42954a506669c106bec994ff9c51af30575fd0b58a090924b02bfb252a1c34e",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_BAJAJ-AUTO.json": "592926635595f7425299badd828ef2d747f537df3017c093d5f56d89ac361507",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_BAJAJFINSV.json": "eb79ea58e9d543ff1ab802b09891990251fd0edc4ae195afef9a015c3b8f6113",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_BAJAJHFL.json": "695e934795de27fcb68a831f5a5ec0f4b23df6e4b60f0f57f11d1e93f27fc867",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_BAJAJHLDNG.json": "51559908e27a2c2bc55822ae9c87c66047f7b7dbbeff1897f3d08b5274d5b010",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_BAJFINANCE.json": "8d71e0e87faa833a016de7df602639a21b765dd51bee77bf9dceec78305970fc",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_BALKRISIND.json": "001c3079bd48c21970274966e48de5cb2493c2b65158c07ac864cbe23aa5c772",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_BALRAMCHIN.json": "3123827643e0c07fa706587008d0e1053e249b8dc2763e946034424b1542496b",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_BANDHANBNK.json": "1f17ad6b95eda917dbabc390ec8b9ed3000bc5d4c0c32f28ef827a3709e2bcf2",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_BANKBARODA.json": "66c21eb73d8535d03a27530b8523bb90cce93d43ab4b302d615391c524ef6b6b",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_BANKINDIA.json": "3f18da0093b7dfb5e7b69bb9d805a9c9774ca7fe8a9d2338141f1d59a96ae44e",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_BATAINDIA.json": "35a6ac4d7619ba3acecc431c3cc4d8bedde61d9ca6f9ad591adbe33016e2028d",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_BBOX.json": "ed095612ed03940f89b95a624534d446bd2461dcbc6708da97fb398610f2e7f7",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_BDL.json": "6535a3b09e4a9c00ba8cc00130cdff622b55703db24315d5e2b779825dd0ab3b",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_BEL.json": "8c5afca7ce6cec6f6df551f2251418ad0b1da97f32962d968ba1a4a3af24dee4",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_BELRISE.json": "9328618ece8770baf5c043d9ef029368ee5e9759e924e141230b8df5f4b736ee",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_BEML.json": "b5724c8d6c627ecbbb20f10156ffdd177e9971b20aef729887037bbe9632c5a3",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_BERGEPAINT.json": "1d37ffbafbc4b53409e5ebed4045b7574dcd74fdc57a87c125b0a50123f4190f",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_BHARATCOAL.json": "f357141959fdf5d57559bb311ae913ee5329a31dd19033d37524e5b2bb01bf68",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_BHARATFORG.json": "4f5cdd4c03e94c8d1cf22062a47d59cad930e829ba4318ea9eb4009bd17dc559",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_BHARTIARTL.json": "20f45ecf15808d6c91d4bbefd4f874607efd2fbd93b905953d5f13c7acfb3035",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_BHARTIHEXA.json": "350d32575fb6482969b43c74745e5741ccd788e31f568a8297d5a618bf68cfae",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_BHEL.json": "7281390bbf823d10788f6e17f63ad21d122b9edbf72b3cd2b716a8eb50e62e55",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_BIOCON.json": "eec6f07c8ef099d635c305506e2b2a6972cdaa7098deffe0b8cfecb61063ca72",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_BLS.json": "6aabb26226911fa15702cd55f596b37f1e41ca919c925fed9457756d9c4c0def",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_BLUESTARCO.json": "c72cde848ed85c7a6ea57f5a9b446cd4d2e618630ed56affef6a174f9eb35899",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_BOSCHLTD.json": "d30210b915a72f4b883bae88541d2687e313bcf1d464b98ae23e9f3532e0306d",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_BPCL.json": "7bc46628a0fd6007d4243a31322bd51c1c56e83774b8e1c6685cff9f739b43bf",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_BRIGADE.json": "6fdb6637315ff85d24f5e69e42049fda1e358f507574c25272ed75daefc0151d",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_BRITANNIA.json": "60154e121a0e8f3f2aecf51ab5953b78af9bfce3aff1274dde46bc3910b81922",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_BSE.json": "cf46ff2b10bc5153b79d8c65c0efb5000e0287059957e53e5a44d6b8fa240a30",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_BSOFT.json": "f7ff1e4215bd58697bbaa24eba7260847b4524d59f11f436bdecdce5f8d44efb",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_CAMS.json": "4e634e71e02a450be1b7700b6817665410df2bd32ac2b78226e2769ce6b52922",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_CANBK.json": "7de084b52c7cad4e11e1eec2f84693b29efaf3bbc69b089b6e8a8d754f58a87c",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_CANFINHOME.json": "f87b0513e6c426b88a53414f20d3a75fa35acc3147f3eaa6bba834efc5ecd2c5",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_CANHLIFE.json": "283492e311cf7dff7c82e520075465585739f3e1200743ccca10d2dc7a5202db",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_CAPLIPOINT.json": "061c2c29ee6c7b0dcaaf0139bbb556e91430a416d177b5ed1a52f354eee0ad18",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_CARBORUNIV.json": "ddc9b50c26b57336640a6bbdaf416cd92afaffb42ba039757c971f6e38ed09aa",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_CARTRADE.json": "ca8e75a489a932f037bd84c29b3d4a4c70b4f1abf352471b366a2da8ec439995",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_CASTROLIND.json": "1c5baaba2a10b64f2d68001e45c614263762e95176f102e06afd3075a4ec5bc7",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_CCL.json": "2f47fe4ed2283344d8066b6dc68b0cb7f63d96865f64c32c25d0444fad22b05b",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_CDSL.json": "83f904e45d93240d6916f793b425a7e8e9923fe1f365514ff83ad141b7552847",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_CEATLTD.json": "6f52ffbece518976b4630b5365aad0483c68eefaea83a719afec92b23fa3911d",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_CEMPRO.json": "ab3a8b24b63e18fb8698a0f6d81813247ce9a9630575906c8780791c3e5aad2c",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_CENTRALBK.json": "9c10df0ce856626e10090152b9aa8677d50c7957004ad50e711941b80ea430be",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_CESC.json": "0f68490a0aad7c0d7117ff5bcaabe3b6ec9d5e184f82be450c8a6771799a32cb",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_CGCL.json": "8a4d12e5a9912145abd4bdb0b0aff850f330998fd05e283a2333691a97087cf9",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_CGPOWER.json": "6a811398a22049225e86981644235a98f27e6009fa68dba8c7b9dbe34c80cdc5",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_CHAMBLFERT.json": "671f8d67b2589034452c6a6c8a7d50b19c0597d33fb7650b2d21c281bbe7bdd8",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_CHENNPETRO.json": "2ad52eb5f6144acca60ad2a02ca3b811e8023acb0f603c7cd17e835e902c3ba8",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_CHOICEIN.json": "9231f0a26590cc8ec630d3742cb0a5c92ee48d33fd5fa41551cbbfa76d041d9b",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_CHOLAFIN.json": "60220d6186e30ff69a0ece1c20819b142dbcdebecb64da5aa2c2b6ddb351685f",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_CHOLAHLDNG.json": "dbbc1cbbcc69957e3f6bd2a9c05878af2ed6bbe08d056eed7f32d05aebbbf1b9",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_CIEINDIA.json": "9147d3fdecbb388d38880d5f7a1cf50606e2111c1a1061ef12cd8e1fdfc9ee25",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_CIPLA.json": "9f3d70a5d4f8cb51d164e3ec79dd4b41fbebcab8eaaa843a2a94177ea755a108",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_CLEAN.json": "65b77e98c070accb952a2a8fc50fc8c4852263ab3a1b2d641b7ebba607f02049",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_CLEANMAX.json": "867a8a3e672c514e81bd14cf287dc22fa3db0d1a41d8f38674e3ce69879ce825",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_CMPDI.json": "df64835a32efd2879592d09db5e2754b71afe3df59cb6b715752cdb439d90291",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_COALINDIA.json": "399eadedb3c43e0ef27e115505dc7c78ee5294c313ea1628352a4942960cde50",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_DRREDDY.json": "d7a7dda757214398ca10b3f7ef97a50e320e82bb66fc534a0b9843f22e59b691",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_EICHERMOT.json": "fc0ac0757a6a591bc76587ddd8fc1176de43314c70f37557233abe0f0d312872",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_ETERNAL.json": "fed786c26c582d1bddb0d98afa376a5ee37537bce7f40a10c3a9b4581b913763",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_GRASIM.json": "b09fd25db4d4d95fd8da20dbe350d4c178b9729cc20b1eb8c5b5f7e1cd38682c",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_HCLTECH.json": "4983beaf065d3abf4b991a2c832859b74ad44a674294f73b790430005054ae21",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_HDFCBANK.json": "a58fff79b00164ac734a8f9d4d04afc4af4e1885ec8e2e27a7d497c19d7830a9",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_HDFCLIFE.json": "c54cfab2b853a0fcf2bc26dfbc6a96dcd86253c7641592a1ee775be6bb01989a",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_HINDALCO.json": "0600f40befb7455821cd0831ea46c75357fb85f1f6567bc745d7b6fcc83fd85f",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_HINDUNILVR.json": "2e84d9503481e55286fbbc8bfd8f38b4783379be5eecf548602880466f5e4258",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_ICICIBANK.json": "3e8e6a8e89489bd7bae5cbc88f810ed22d0b9cc4ecf305f0ced8453c022516ca",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_INDIGO.json": "8980900e2b1a07e883e3c8d6904ba79993d2466a5ca646da32bf0b8dc7334429",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_INFY.json": "175f635545e7e419b2357f5c9b841d73ddc0a47412a9936f5a1a8f8de8b58ece",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_ITC.json": "0190f6e5f1b5cc82d860e725b1a0b12985db59001883269c2e1a662664e8273b",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_JIOFIN.json": "b8f3a1aa4ee493bfb913663416bfc41bdff180674f9eff7ff4646ce82cb081f1",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_JSWSTEEL.json": "f86faf42b61abb8c103cc9e25240d62591246282769378fb58f50755f8aeafb3",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_KOTAKBANK.json": "b7390fbe0be7b18b62f662bfe2e482fc6cf7244018bb59541e13ee9d0441fc9e",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_LT.json": "8b0181036edf2f9f44650287d6acf7020aedfa60e5eb669c9d213644ce555043",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_M&M.json": "4cf0ce60103ce1cc3e9aabe7037979fb52a5dcdc2330ced8d283bec41413a5e7",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_MARUTI.json": "54f9e64aac7429f55940634871ffb63fa51b6a61e8e148fd1b28c67e55c5b8a5",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_MAXHEALTH.json": "135019dd5a9d4f5b763e6cc5547360c66a7eb1e588b0e52288f998975c15a375",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_NESTLEIND.json": "d630c135780790a8495d5c04833c101ff860d04420f418a33bb8f5edf9bbb4b9",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_NTPC.json": "0e0bfbb7a562e6c6967ba4be1e5f75b3a5ac3069075559f5e0b34510eec5cd7a",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_ONGC.json": "ec30a12458a4e456e60894c872ed0a2b43db92eaf8218643f2c11a0a7f6f19e4",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_POWERGRID.json": "301529521f247c30ad6baabf5c80646fb1fecf7fbcd41ed167b9b4ce11c91b85",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_RELIANCE.json": "a59433d607482c3748da4321156dc72488e9e83b6ed5fa19211b99a1820c5ed6",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_SBILIFE.json": "e4f0cf1f5d958d598e1838c478c7c130e2ab3a49f641cde442e46b2e43d890c7",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_SBIN.json": "d5cfa5eade9971b09d92d7fdac279e0463b75bae637d1e74046998dc75d6796b",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_SHRIRAMFIN.json": "33ddaf61f990afa708e207812d68e918567243fb353302725225e53c262260a4",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_SUNPHARMA.json": "999516ad9e473042ba7cc0d8b491fedb03a4d46cc6e54380c9b36dbafbd2d398",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_TATACONSUM.json": "2253b83044e5c785c1d8970480f739fdf4ef27da2b641462a41e4f16c616f26f",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_TATASTEEL.json": "88b3a5203004a0c1ee5434b7def128ba3c92ae698a24bad11252e24444e1ca1c",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_TCS.json": "f3cb9a2230d6d53da27d3da8f1c59d0ada7a25fea1ae2536a83ce0942e004c59",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_TECHM.json": "211aaef6552a2fd15a542651402b108bc2b5a7b1fe00fa340ea9d2389deec961",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_TITAN.json": "b954d561cbfd57891c65bee494c869cc7d36d3001bc2be26954386869ddde6e0",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_TMPV.json": "04dd342cdac7087f2d4f21b4749c7dc6e655072f25e57cda9d8e9a1507d88b60",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_TRENT.json": "c2abcd3b4516a8889e79995e7f29be5aa50bcb943942d629fd94206ca8673d0a",
+    "artifacts\\nifty_forecast_v5\\2026-11-18\\run-001\\sources\\s_ULTRACEMCO.json": "2d29766557e9fa06dbeae4290d38b57b66d67afabf8a21bf349bbcada7574831"
+  }
+}

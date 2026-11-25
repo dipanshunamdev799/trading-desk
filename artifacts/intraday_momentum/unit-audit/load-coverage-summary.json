@@ -1,0 +1,124 @@
+{
+  "candidate_count": 4300,
+  "loaded": 4293,
+  "counts": {
+    "missing_or_duplicate_required_bars": 329,
+    "candidate_session_missing_or_quarantined": 7
+  },
+  "by_period": {
+    "development": {
+      "loaded": 2177
+    },
+    "final": {
+      "loaded": 1395,
+      "candidate_session_missing_or_quarantined": 5
+    },
+    "validation": {
+      "loaded": 721,
+      "candidate_session_missing_or_quarantined": 2
+    }
+  },
+  "rvol_prior_sessions": {
+    "18": 3,
+    "19": 291,
+    "20": 3999
+  },
+  "quarantined_candidates": [
+    {
+      "key": "NSE_EQ|INE168P01015",
+      "symbol": "EMCURE",
+      "day": "2026-11-08",
+      "raw_prev_close": 2212.8,
+      "price_factor": 1.0,
+      "prev_close": 2212.8,
+      "adv": 201795667.79999998,
+      "status": "candidate_session_missing_or_quarantined"
+    },
+    {
+      "key": "NSE_EQ|INE914M01019",
+      "symbol": "ASTERDM",
+      "day": "2026-11-08",
+      "raw_prev_close": 713.15,
+      "price_factor": 1.0,
+      "prev_close": 713.15,
+      "adv": 794830683.15,
+      "status": "candidate_session_missing_or_quarantined"
+    },
+    {
+      "key": "NSE_EQ|INE235A01022",
+      "symbol": "FINCABLES",
+      "day": "2026-11-08",
+      "raw_prev_close": 1091.0,
+      "price_factor": 1.0,
+      "prev_close": 1091.0,
+      "adv": 873447290.2,
+      "status": "candidate_session_missing_or_quarantined"
+    },
+    {
+      "key": "NSE_EQ|INE672A01026",
+      "symbol": "TATAINVEST",
+      "day": "2025-10-21",
+      "raw_prev_close": 805.0,
+      "price_factor": 1.0,
+      "prev_close": 805.0,
+      "adv": 367479000.0,
+      "status": "candidate_session_missing_or_quarantined"
+    },
+    {
+      "key": "NSE_EQ|INE777K01022",
+      "symbol": "RRKABEL",
+      "day": "2026-11-08",
+      "raw_prev_close": 1920.9,
+      "price_factor": 1.0,
+      "prev_close": 1920.9,
+      "adv": 914849328.8000001,
+      "status": "candidate_session_missing_or_quarantined"
+    },
+    {
+      "key": "NSE_EQ|INE700A01033",
+      "symbol": "JUBLPHARMA",
+      "day": "2025-10-21",
+      "raw_prev_close": 1096.3,
+      "price_factor": 1.0,
+      "prev_close": 1096.3,
+      "adv": 161708409.20000002,
+      "status": "candidate_session_missing_or_quarantined"
+    },
+    {
+      "key": "NSE_EQ|INE361B01024",
+      "symbol": "DIVISLAB",
+      "day": "2026-11-08",
+      "raw_prev_close": 10320.5,
+      "price_factor": 1.0,
+      "prev_close": 10320.5,
+      "adv": 4677639030.0,
+      "status": "candidate_session_missing_or_quarantined"
+    }
+  ],
+  "scope": "Read-only summary of frozen loader audit; global missing-bar counter includes all fetched history sessions, not only7 candidate exclusions.",
+  "quarantined_observed_source_sessions": [
+    {
+      "day": "2025-10-21",
+      "symbols": [
+        "TATAINVEST",
+        "JUBLPHARMA"
+      ],
+      "bars": 12,
+      "first_bar_ist": "13:45",
+      "last_bar_ist": "14:40"
+    },
+    {
+      "day": "2026-11-08",
+      "symbols": [
+        "EMCURE",
+        "ASTERDM",
+        "FINCABLES",
+        "RRKABEL",
+        "DIVISLAB"
+      ],
+      "bars": 14,
+      "first_bar_ist": "14:20",
+      "last_bar_ist": "15:25"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "calendar_sources": {
+    "2025": "https://nsearchives.nseindia.com/content/circulars/CMTR65587.pdf",
+    "2026": "https://nsearchives.nseindia.com/content/circulars/CMTR71775.pdf"
+  },
+  "amendments": [
+    [
+      "2026-01-12",
+      "2026-01-15",
+      false,
+      "https://nsearchives.nseindia.com/content/circulars/CMTR72260.pdf"
+    ],
+    [
+      "2026-01-16",
+      "2026-02-01",
+      true,
+      "https://nsearchives.nseindia.com/content/circulars/CMTR72349.pdf"
+    ],
+    [
+      "2025-09-22",
+      "2025-10-21",
+      true,
+      "https://nsearchives.nseindia.com/content/circulars/CMTR70319.pdf"
+    ]
+  ],
+  "calendar_note": "Planned endpoints use published weekday/holiday rules and as-known special-session notices. Histories label actual endpoints independently. Incomplete notice coverage appears as planned/realized disagreement.",
+  "natural_subset": "Exact listed versus scheduled date, additionally actual target agreement in retrospective scoring.",
+  "volume_and_timing": "One observed archive-session lag by default; no forward-filling gaps. The same-close source variant is diagnostic."
+}

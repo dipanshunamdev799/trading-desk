@@ -1,0 +1,52 @@
+{
+  "protocol": "intraday-stock-momentum-v1",
+  "plan_sha256": "fbd8541427cbc738781be3896126e29db676c2e76c386d768f2072e7318cb284",
+  "acquisition_sha256": "fcacae3c3a1600b50cce944528562eed5b2035d13cbb080d3e82247c884070fe",
+  "code": {
+    "data.py": "ff98280bfba2e0cb42adb9fd14692cd68d8ebfc957d60b6e73f4a9e7fa359e29",
+    "engine.py": "7aeaff05adffdc584affab950b9c5ecdadca37fafa96c7e5e23372c3609cda0f",
+    "signals.py": "0d0bfbcf0b710a966e01118a001fde58baa49adceda676a85dcc82284f715759",
+    "costs.py": "a4bd94f333f8b0e8e7205c77ea249ee758c98db20f4dcc7dcc1cacb5af4a180e",
+    "events.py": "7c44b14a7929caa4cd36cdee760b02258ab62bf3ecc47bcc7a9150131771725f",
+    "units.py": "9d531fb9c9e5171755402b55f1fd660b94a24adbda4d18a86819456efd408245",
+    "resolution.py": "ed96ad62b762044a3d08bb89bbd02e9acf3e85295d0e6ac84c219c6879467801",
+    "PROTOCOL.md": "bc0291de7d59f9a97f9773a2aa0aab8037fca3bd6cbf042cd63db81fd259f8aa",
+    "SOURCES.md": "6956ca1cde33d2cd15c0d6768c6d982baa02ce2b656b0a45c0466c014b45d267"
+  },
+  "runner_sha256": "0753624670a316baca93d2de3b5581bceba8487a5bba76269603317950184049",
+  "data_sha256": "f75813e7da57f2dc59e8f28bcb020e4920d8162c3f69147b50834897a18352a4",
+  "candidate_sessions": 4293,
+  "signals": 8366,
+  "calendar_sessions": 495,
+  "periods": {
+    "development": [
+      "2024-11-14",
+      "2025-08-31"
+    ],
+    "validation": [
+      "2025-09-01",
+      "2026-02-28"
+    ],
+    "final": [
+      "2026-03-01",
+      "2026-11-13"
+    ],
+    "full": [
+      "2024-11-14",
+      "2026-11-13"
+    ],
+    "last_year": [
+      "2025-11-14",
+      "2026-11-13"
+    ]
+  },
+  "generated_at": "2026-11-15T15:47:11.368970+05:30",
+  "environment": {
+    "python": "3.15.0",
+    "numpy": "2.5.4",
+    "pandas": "3.1.0"
+  },
+  "storage": "Primary Upstox prices read from PostgreSQL; all experiment outputs local",
+  "real_orders_submitted": 0,
+  "study_fingerprint": "40c1bbd3208e6bc97365df226ef16117ed6a40ba39dec5f41e71b0742c70067b"
+}

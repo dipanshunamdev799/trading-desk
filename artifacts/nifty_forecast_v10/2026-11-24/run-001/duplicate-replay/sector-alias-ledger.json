@@ -1,0 +1,882 @@
+[
+  {
+    "model": "IS_cluster_as_is",
+    "fold": "2026-07",
+    "horizon": 5,
+    "status": "ok",
+    "cutoff": "2026-06-30",
+    "train_cutoff": "2026-06-30",
+    "inner_cutoff": "2026-04-21",
+    "last_endpoint": "2026-06-29",
+    "inner_last_endpoint": "2026-04-20",
+    "aliases": [],
+    "warnings": []
+  },
+  {
+    "model": "IS_cluster_one_copy",
+    "fold": "2026-07",
+    "horizon": 5,
+    "status": "ok",
+    "cutoff": "2026-06-30",
+    "train_cutoff": "2026-06-30",
+    "inner_cutoff": "2026-04-21",
+    "last_endpoint": "2026-06-29",
+    "inner_last_endpoint": "2026-04-20",
+    "aliases": [],
+    "warnings": []
+  },
+  {
+    "model": "IS_cluster_three_copies",
+    "fold": "2026-07",
+    "horizon": 5,
+    "status": "ok",
+    "cutoff": "2026-06-30",
+    "train_cutoff": "2026-06-30",
+    "inner_cutoff": "2026-04-21",
+    "last_endpoint": "2026-06-29",
+    "inner_last_endpoint": "2026-04-20",
+    "aliases": [],
+    "warnings": []
+  },
+  {
+    "model": "IS_canonical_cluster_as_is",
+    "fold": "2026-07",
+    "horizon": 5,
+    "status": "ok",
+    "cutoff": "2026-06-30",
+    "train_cutoff": "2026-06-30",
+    "inner_cutoff": "2026-04-21",
+    "last_endpoint": "2026-06-29",
+    "inner_last_endpoint": "2026-04-20",
+    "aliases": [],
+    "warnings": []
+  },
+  {
+    "model": "IS_canonical_cluster_one_copy",
+    "fold": "2026-07",
+    "horizon": 5,
+    "status": "ok",
+    "cutoff": "2026-06-30",
+    "train_cutoff": "2026-06-30",
+    "inner_cutoff": "2026-04-21",
+    "last_endpoint": "2026-06-29",
+    "inner_last_endpoint": "2026-04-20",
+    "aliases": [
+      [
+        "i_zz_zz_alias0_i_idx_NIFTY_HEALTHCARE_rel21",
+        "i_idx_NIFTY_HEALTHCARE_rel21"
+      ],
+      [
+        "i_zz_zz_alias0_i_idx_NIFTY_HEALTHCARE_rel5",
+        "i_idx_NIFTY_HEALTHCARE_rel5"
+      ],
+      [
+        "i_zz_zz_alias0_i_nifty_fmcg_rel21",
+        "i_nifty_fmcg_rel21"
+      ],
+      [
+        "i_zz_zz_alias0_i_nifty_fmcg_rel5",
+        "i_nifty_fmcg_rel5"
+      ],
+      [
+        "i_zz_zz_alias0_i_nifty_pharma_rel21",
+        "i_nifty_pharma_rel21"
+      ],
+      [
+        "i_zz_zz_alias0_i_nifty_pharma_rel5",
+        "i_nifty_pharma_rel5"
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "model": "IS_canonical_cluster_three_copies",
+    "fold": "2026-07",
+    "horizon": 5,
+    "status": "ok",
+    "cutoff": "2026-06-30",
+    "train_cutoff": "2026-06-30",
+    "inner_cutoff": "2026-04-21",
+    "last_endpoint": "2026-06-29",
+    "inner_last_endpoint": "2026-04-20",
+    "aliases": [
+      [
+        "i_zz_zz_alias0_i_idx_NIFTY_HEALTHCARE_rel21",
+        "i_idx_NIFTY_HEALTHCARE_rel21"
+      ],
+      [
+        "i_zz_zz_alias0_i_idx_NIFTY_HEALTHCARE_rel5",
+        "i_idx_NIFTY_HEALTHCARE_rel5"
+      ],
+      [
+        "i_zz_zz_alias0_i_nifty_fmcg_rel21",
+        "i_nifty_fmcg_rel21"
+      ],
+      [
+        "i_zz_zz_alias0_i_nifty_fmcg_rel5",
+        "i_nifty_fmcg_rel5"
+      ],
+      [
+        "i_zz_zz_alias0_i_nifty_pharma_rel21",
+        "i_nifty_pharma_rel21"
+      ],
+      [
+        "i_zz_zz_alias0_i_nifty_pharma_rel5",
+        "i_nifty_pharma_rel5"
+      ],
+      [
+        "i_zz_zz_alias1_i_idx_NIFTY_HEALTHCARE_rel21",
+        "i_idx_NIFTY_HEALTHCARE_rel21"
+      ],
+      [
+        "i_zz_zz_alias1_i_idx_NIFTY_HEALTHCARE_rel5",
+        "i_idx_NIFTY_HEALTHCARE_rel5"
+      ],
+      [
+        "i_zz_zz_alias1_i_nifty_fmcg_rel21",
+        "i_nifty_fmcg_rel21"
+      ],
+      [
+        "i_zz_zz_alias1_i_nifty_fmcg_rel5",
+        "i_nifty_fmcg_rel5"
+      ],
+      [
+        "i_zz_zz_alias1_i_nifty_pharma_rel21",
+        "i_nifty_pharma_rel21"
+      ],
+      [
+        "i_zz_zz_alias1_i_nifty_pharma_rel5",
+        "i_nifty_pharma_rel5"
+      ],
+      [
+        "i_zz_zz_alias2_i_idx_NIFTY_HEALTHCARE_rel21",
+        "i_idx_NIFTY_HEALTHCARE_rel21"
+      ],
+      [
+        "i_zz_zz_alias2_i_idx_NIFTY_HEALTHCARE_rel5",
+        "i_idx_NIFTY_HEALTHCARE_rel5"
+      ],
+      [
+        "i_zz_zz_alias2_i_nifty_fmcg_rel21",
+        "i_nifty_fmcg_rel21"
+      ],
+      [
+        "i_zz_zz_alias2_i_nifty_fmcg_rel5",
+        "i_nifty_fmcg_rel5"
+      ],
+      [
+        "i_zz_zz_alias2_i_nifty_pharma_rel21",
+        "i_nifty_pharma_rel21"
+      ],
+      [
+        "i_zz_zz_alias2_i_nifty_pharma_rel5",
+        "i_nifty_pharma_rel5"
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "model": "IS_cluster_as_is",
+    "fold": "2026-08",
+    "horizon": 5,
+    "status": "ok",
+    "cutoff": "2026-07-31",
+    "train_cutoff": "2026-07-31",
+    "inner_cutoff": "2026-05-25",
+    "last_endpoint": "2026-07-30",
+    "inner_last_endpoint": "2026-05-22",
+    "aliases": [],
+    "warnings": []
+  },
+  {
+    "model": "IS_cluster_one_copy",
+    "fold": "2026-08",
+    "horizon": 5,
+    "status": "ok",
+    "cutoff": "2026-07-31",
+    "train_cutoff": "2026-07-31",
+    "inner_cutoff": "2026-05-25",
+    "last_endpoint": "2026-07-30",
+    "inner_last_endpoint": "2026-05-22",
+    "aliases": [],
+    "warnings": []
+  },
+  {
+    "model": "IS_cluster_three_copies",
+    "fold": "2026-08",
+    "horizon": 5,
+    "status": "ok",
+    "cutoff": "2026-07-31",
+    "train_cutoff": "2026-07-31",
+    "inner_cutoff": "2026-05-25",
+    "last_endpoint": "2026-07-30",
+    "inner_last_endpoint": "2026-05-22",
+    "aliases": [],
+    "warnings": []
+  },
+  {
+    "model": "IS_canonical_cluster_as_is",
+    "fold": "2026-08",
+    "horizon": 5,
+    "status": "ok",
+    "cutoff": "2026-07-31",
+    "train_cutoff": "2026-07-31",
+    "inner_cutoff": "2026-05-25",
+    "last_endpoint": "2026-07-30",
+    "inner_last_endpoint": "2026-05-22",
+    "aliases": [],
+    "warnings": []
+  },
+  {
+    "model": "IS_canonical_cluster_one_copy",
+    "fold": "2026-08",
+    "horizon": 5,
+    "status": "ok",
+    "cutoff": "2026-07-31",
+    "train_cutoff": "2026-07-31",
+    "inner_cutoff": "2026-05-25",
+    "last_endpoint": "2026-07-30",
+    "inner_last_endpoint": "2026-05-22",
+    "aliases": [
+      [
+        "i_zz_zz_alias0_i_idx_NIFTY_HEALTHCARE_rel21",
+        "i_idx_NIFTY_HEALTHCARE_rel21"
+      ],
+      [
+        "i_zz_zz_alias0_i_idx_NIFTY_HEALTHCARE_rel5",
+        "i_idx_NIFTY_HEALTHCARE_rel5"
+      ],
+      [
+        "i_zz_zz_alias0_i_nifty_fmcg_rel21",
+        "i_nifty_fmcg_rel21"
+      ],
+      [
+        "i_zz_zz_alias0_i_nifty_fmcg_rel5",
+        "i_nifty_fmcg_rel5"
+      ],
+      [
+        "i_zz_zz_alias0_i_nifty_pharma_rel21",
+        "i_nifty_pharma_rel21"
+      ],
+      [
+        "i_zz_zz_alias0_i_nifty_pharma_rel5",
+        "i_nifty_pharma_rel5"
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "model": "IS_canonical_cluster_three_copies",
+    "fold": "2026-08",
+    "horizon": 5,
+    "status": "ok",
+    "cutoff": "2026-07-31",
+    "train_cutoff": "2026-07-31",
+    "inner_cutoff": "2026-05-25",
+    "last_endpoint": "2026-07-30",
+    "inner_last_endpoint": "2026-05-22",
+    "aliases": [
+      [
+        "i_zz_zz_alias0_i_idx_NIFTY_HEALTHCARE_rel21",
+        "i_idx_NIFTY_HEALTHCARE_rel21"
+      ],
+      [
+        "i_zz_zz_alias0_i_idx_NIFTY_HEALTHCARE_rel5",
+        "i_idx_NIFTY_HEALTHCARE_rel5"
+      ],
+      [
+        "i_zz_zz_alias0_i_nifty_fmcg_rel21",
+        "i_nifty_fmcg_rel21"
+      ],
+      [
+        "i_zz_zz_alias0_i_nifty_fmcg_rel5",
+        "i_nifty_fmcg_rel5"
+      ],
+      [
+        "i_zz_zz_alias0_i_nifty_pharma_rel21",
+        "i_nifty_pharma_rel21"
+      ],
+      [
+        "i_zz_zz_alias0_i_nifty_pharma_rel5",
+        "i_nifty_pharma_rel5"
+      ],
+      [
+        "i_zz_zz_alias1_i_idx_NIFTY_HEALTHCARE_rel21",
+        "i_idx_NIFTY_HEALTHCARE_rel21"
+      ],
+      [
+        "i_zz_zz_alias1_i_idx_NIFTY_HEALTHCARE_rel5",
+        "i_idx_NIFTY_HEALTHCARE_rel5"
+      ],
+      [
+        "i_zz_zz_alias1_i_nifty_fmcg_rel21",
+        "i_nifty_fmcg_rel21"
+      ],
+      [
+        "i_zz_zz_alias1_i_nifty_fmcg_rel5",
+        "i_nifty_fmcg_rel5"
+      ],
+      [
+        "i_zz_zz_alias1_i_nifty_pharma_rel21",
+        "i_nifty_pharma_rel21"
+      ],
+      [
+        "i_zz_zz_alias1_i_nifty_pharma_rel5",
+        "i_nifty_pharma_rel5"
+      ],
+      [
+        "i_zz_zz_alias2_i_idx_NIFTY_HEALTHCARE_rel21",
+        "i_idx_NIFTY_HEALTHCARE_rel21"
+      ],
+      [
+        "i_zz_zz_alias2_i_idx_NIFTY_HEALTHCARE_rel5",
+        "i_idx_NIFTY_HEALTHCARE_rel5"
+      ],
+      [
+        "i_zz_zz_alias2_i_nifty_fmcg_rel21",
+        "i_nifty_fmcg_rel21"
+      ],
+      [
+        "i_zz_zz_alias2_i_nifty_fmcg_rel5",
+        "i_nifty_fmcg_rel5"
+      ],
+      [
+        "i_zz_zz_alias2_i_nifty_pharma_rel21",
+        "i_nifty_pharma_rel21"
+      ],
+      [
+        "i_zz_zz_alias2_i_nifty_pharma_rel5",
+        "i_nifty_pharma_rel5"
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "model": "IS_cluster_as_is",
+    "fold": "2026-09",
+    "horizon": 5,
+    "status": "ok",
+    "cutoff": "2026-08-31",
+    "train_cutoff": "2026-08-31",
+    "inner_cutoff": "2026-06-24",
+    "last_endpoint": "2026-08-28",
+    "inner_last_endpoint": "2026-06-23",
+    "aliases": [],
+    "warnings": []
+  },
+  {
+    "model": "IS_cluster_one_copy",
+    "fold": "2026-09",
+    "horizon": 5,
+    "status": "ok",
+    "cutoff": "2026-08-31",
+    "train_cutoff": "2026-08-31",
+    "inner_cutoff": "2026-06-24",
+    "last_endpoint": "2026-08-28",
+    "inner_last_endpoint": "2026-06-23",
+    "aliases": [],
+    "warnings": []
+  },
+  {
+    "model": "IS_cluster_three_copies",
+    "fold": "2026-09",
+    "horizon": 5,
+    "status": "ok",
+    "cutoff": "2026-08-31",
+    "train_cutoff": "2026-08-31",
+    "inner_cutoff": "2026-06-24",
+    "last_endpoint": "2026-08-28",
+    "inner_last_endpoint": "2026-06-23",
+    "aliases": [],
+    "warnings": []
+  },
+  {
+    "model": "IS_canonical_cluster_as_is",
+    "fold": "2026-09",
+    "horizon": 5,
+    "status": "ok",
+    "cutoff": "2026-08-31",
+    "train_cutoff": "2026-08-31",
+    "inner_cutoff": "2026-06-24",
+    "last_endpoint": "2026-08-28",
+    "inner_last_endpoint": "2026-06-23",
+    "aliases": [],
+    "warnings": []
+  },
+  {
+    "model": "IS_canonical_cluster_one_copy",
+    "fold": "2026-09",
+    "horizon": 5,
+    "status": "ok",
+    "cutoff": "2026-08-31",
+    "train_cutoff": "2026-08-31",
+    "inner_cutoff": "2026-06-24",
+    "last_endpoint": "2026-08-28",
+    "inner_last_endpoint": "2026-06-23",
+    "aliases": [
+      [
+        "i_zz_zz_alias0_i_idx_NIFTY_HEALTHCARE_rel21",
+        "i_idx_NIFTY_HEALTHCARE_rel21"
+      ],
+      [
+        "i_zz_zz_alias0_i_idx_NIFTY_HEALTHCARE_rel5",
+        "i_idx_NIFTY_HEALTHCARE_rel5"
+      ],
+      [
+        "i_zz_zz_alias0_i_nifty_fmcg_rel21",
+        "i_nifty_fmcg_rel21"
+      ],
+      [
+        "i_zz_zz_alias0_i_nifty_fmcg_rel5",
+        "i_nifty_fmcg_rel5"
+      ],
+      [
+        "i_zz_zz_alias0_i_nifty_pharma_rel21",
+        "i_nifty_pharma_rel21"
+      ],
+      [
+        "i_zz_zz_alias0_i_nifty_pharma_rel5",
+        "i_nifty_pharma_rel5"
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "model": "IS_canonical_cluster_three_copies",
+    "fold": "2026-09",
+    "horizon": 5,
+    "status": "ok",
+    "cutoff": "2026-08-31",
+    "train_cutoff": "2026-08-31",
+    "inner_cutoff": "2026-06-24",
+    "last_endpoint": "2026-08-28",
+    "inner_last_endpoint": "2026-06-23",
+    "aliases": [
+      [
+        "i_zz_zz_alias0_i_idx_NIFTY_HEALTHCARE_rel21",
+        "i_idx_NIFTY_HEALTHCARE_rel21"
+      ],
+      [
+        "i_zz_zz_alias0_i_idx_NIFTY_HEALTHCARE_rel5",
+        "i_idx_NIFTY_HEALTHCARE_rel5"
+      ],
+      [
+        "i_zz_zz_alias0_i_nifty_fmcg_rel21",
+        "i_nifty_fmcg_rel21"
+      ],
+      [
+        "i_zz_zz_alias0_i_nifty_fmcg_rel5",
+        "i_nifty_fmcg_rel5"
+      ],
+      [
+        "i_zz_zz_alias0_i_nifty_pharma_rel21",
+        "i_nifty_pharma_rel21"
+      ],
+      [
+        "i_zz_zz_alias0_i_nifty_pharma_rel5",
+        "i_nifty_pharma_rel5"
+      ],
+      [
+        "i_zz_zz_alias1_i_idx_NIFTY_HEALTHCARE_rel21",
+        "i_idx_NIFTY_HEALTHCARE_rel21"
+      ],
+      [
+        "i_zz_zz_alias1_i_idx_NIFTY_HEALTHCARE_rel5",
+        "i_idx_NIFTY_HEALTHCARE_rel5"
+      ],
+      [
+        "i_zz_zz_alias1_i_nifty_fmcg_rel21",
+        "i_nifty_fmcg_rel21"
+      ],
+      [
+        "i_zz_zz_alias1_i_nifty_fmcg_rel5",
+        "i_nifty_fmcg_rel5"
+      ],
+      [
+        "i_zz_zz_alias1_i_nifty_pharma_rel21",
+        "i_nifty_pharma_rel21"
+      ],
+      [
+        "i_zz_zz_alias1_i_nifty_pharma_rel5",
+        "i_nifty_pharma_rel5"
+      ],
+      [
+        "i_zz_zz_alias2_i_idx_NIFTY_HEALTHCARE_rel21",
+        "i_idx_NIFTY_HEALTHCARE_rel21"
+      ],
+      [
+        "i_zz_zz_alias2_i_idx_NIFTY_HEALTHCARE_rel5",
+        "i_idx_NIFTY_HEALTHCARE_rel5"
+      ],
+      [
+        "i_zz_zz_alias2_i_nifty_fmcg_rel21",
+        "i_nifty_fmcg_rel21"
+      ],
+      [
+        "i_zz_zz_alias2_i_nifty_fmcg_rel5",
+        "i_nifty_fmcg_rel5"
+      ],
+      [
+        "i_zz_zz_alias2_i_nifty_pharma_rel21",
+        "i_nifty_pharma_rel21"
+      ],
+      [
+        "i_zz_zz_alias2_i_nifty_pharma_rel5",
+        "i_nifty_pharma_rel5"
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "model": "IS_cluster_as_is",
+    "fold": "2026-10",
+    "horizon": 5,
+    "status": "ok",
+    "cutoff": "2026-09-30",
+    "train_cutoff": "2026-09-30",
+    "inner_cutoff": "2026-07-24",
+    "last_endpoint": "2026-09-29",
+    "inner_last_endpoint": "2026-07-23",
+    "aliases": [],
+    "warnings": []
+  },
+  {
+    "model": "IS_cluster_one_copy",
+    "fold": "2026-10",
+    "horizon": 5,
+    "status": "ok",
+    "cutoff": "2026-09-30",
+    "train_cutoff": "2026-09-30",
+    "inner_cutoff": "2026-07-24",
+    "last_endpoint": "2026-09-29",
+    "inner_last_endpoint": "2026-07-23",
+    "aliases": [],
+    "warnings": []
+  },
+  {
+    "model": "IS_cluster_three_copies",
+    "fold": "2026-10",
+    "horizon": 5,
+    "status": "ok",
+    "cutoff": "2026-09-30",
+    "train_cutoff": "2026-09-30",
+    "inner_cutoff": "2026-07-24",
+    "last_endpoint": "2026-09-29",
+    "inner_last_endpoint": "2026-07-23",
+    "aliases": [],
+    "warnings": []
+  },
+  {
+    "model": "IS_canonical_cluster_as_is",
+    "fold": "2026-10",
+    "horizon": 5,
+    "status": "ok",
+    "cutoff": "2026-09-30",
+    "train_cutoff": "2026-09-30",
+    "inner_cutoff": "2026-07-24",
+    "last_endpoint": "2026-09-29",
+    "inner_last_endpoint": "2026-07-23",
+    "aliases": [],
+    "warnings": []
+  },
+  {
+    "model": "IS_canonical_cluster_one_copy",
+    "fold": "2026-10",
+    "horizon": 5,
+    "status": "ok",
+    "cutoff": "2026-09-30",
+    "train_cutoff": "2026-09-30",
+    "inner_cutoff": "2026-07-24",
+    "last_endpoint": "2026-09-29",
+    "inner_last_endpoint": "2026-07-23",
+    "aliases": [
+      [
+        "i_zz_zz_alias0_i_idx_NIFTY_HEALTHCARE_rel21",
+        "i_idx_NIFTY_HEALTHCARE_rel21"
+      ],
+      [
+        "i_zz_zz_alias0_i_idx_NIFTY_HEALTHCARE_rel5",
+        "i_idx_NIFTY_HEALTHCARE_rel5"
+      ],
+      [
+        "i_zz_zz_alias0_i_nifty_fmcg_rel21",
+        "i_nifty_fmcg_rel21"
+      ],
+      [
+        "i_zz_zz_alias0_i_nifty_fmcg_rel5",
+        "i_nifty_fmcg_rel5"
+      ],
+      [
+        "i_zz_zz_alias0_i_nifty_pharma_rel21",
+        "i_nifty_pharma_rel21"
+      ],
+      [
+        "i_zz_zz_alias0_i_nifty_pharma_rel5",
+        "i_nifty_pharma_rel5"
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "model": "IS_canonical_cluster_three_copies",
+    "fold": "2026-10",
+    "horizon": 5,
+    "status": "ok",
+    "cutoff": "2026-09-30",
+    "train_cutoff": "2026-09-30",
+    "inner_cutoff": "2026-07-24",
+    "last_endpoint": "2026-09-29",
+    "inner_last_endpoint": "2026-07-23",
+    "aliases": [
+      [
+        "i_zz_zz_alias0_i_idx_NIFTY_HEALTHCARE_rel21",
+        "i_idx_NIFTY_HEALTHCARE_rel21"
+      ],
+      [
+        "i_zz_zz_alias0_i_idx_NIFTY_HEALTHCARE_rel5",
+        "i_idx_NIFTY_HEALTHCARE_rel5"
+      ],
+      [
+        "i_zz_zz_alias0_i_nifty_fmcg_rel21",
+        "i_nifty_fmcg_rel21"
+      ],
+      [
+        "i_zz_zz_alias0_i_nifty_fmcg_rel5",
+        "i_nifty_fmcg_rel5"
+      ],
+      [
+        "i_zz_zz_alias0_i_nifty_pharma_rel21",
+        "i_nifty_pharma_rel21"
+      ],
+      [
+        "i_zz_zz_alias0_i_nifty_pharma_rel5",
+        "i_nifty_pharma_rel5"
+      ],
+      [
+        "i_zz_zz_alias1_i_idx_NIFTY_HEALTHCARE_rel21",
+        "i_idx_NIFTY_HEALTHCARE_rel21"
+      ],
+      [
+        "i_zz_zz_alias1_i_idx_NIFTY_HEALTHCARE_rel5",
+        "i_idx_NIFTY_HEALTHCARE_rel5"
+      ],
+      [
+        "i_zz_zz_alias1_i_nifty_fmcg_rel21",
+        "i_nifty_fmcg_rel21"
+      ],
+      [
+        "i_zz_zz_alias1_i_nifty_fmcg_rel5",
+        "i_nifty_fmcg_rel5"
+      ],
+      [
+        "i_zz_zz_alias1_i_nifty_pharma_rel21",
+        "i_nifty_pharma_rel21"
+      ],
+      [
+        "i_zz_zz_alias1_i_nifty_pharma_rel5",
+        "i_nifty_pharma_rel5"
+      ],
+      [
+        "i_zz_zz_alias2_i_idx_NIFTY_HEALTHCARE_rel21",
+        "i_idx_NIFTY_HEALTHCARE_rel21"
+      ],
+      [
+        "i_zz_zz_alias2_i_idx_NIFTY_HEALTHCARE_rel5",
+        "i_idx_NIFTY_HEALTHCARE_rel5"
+      ],
+      [
+        "i_zz_zz_alias2_i_nifty_fmcg_rel21",
+        "i_nifty_fmcg_rel21"
+      ],
+      [
+        "i_zz_zz_alias2_i_nifty_fmcg_rel5",
+        "i_nifty_fmcg_rel5"
+      ],
+      [
+        "i_zz_zz_alias2_i_nifty_pharma_rel21",
+        "i_nifty_pharma_rel21"
+      ],
+      [
+        "i_zz_zz_alias2_i_nifty_pharma_rel5",
+        "i_nifty_pharma_rel5"
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "model": "IS_cluster_as_is",
+    "fold": "2026-11",
+    "horizon": 5,
+    "status": "ok",
+    "cutoff": "2026-10-30",
+    "train_cutoff": "2026-10-30",
+    "inner_cutoff": "2026-08-21",
+    "last_endpoint": "2026-10-29",
+    "inner_last_endpoint": "2026-08-20",
+    "aliases": [],
+    "warnings": []
+  },
+  {
+    "model": "IS_cluster_one_copy",
+    "fold": "2026-11",
+    "horizon": 5,
+    "status": "ok",
+    "cutoff": "2026-10-30",
+    "train_cutoff": "2026-10-30",
+    "inner_cutoff": "2026-08-21",
+    "last_endpoint": "2026-10-29",
+    "inner_last_endpoint": "2026-08-20",
+    "aliases": [],
+    "warnings": []
+  },
+  {
+    "model": "IS_cluster_three_copies",
+    "fold": "2026-11",
+    "horizon": 5,
+    "status": "ok",
+    "cutoff": "2026-10-30",
+    "train_cutoff": "2026-10-30",
+    "inner_cutoff": "2026-08-21",
+    "last_endpoint": "2026-10-29",
+    "inner_last_endpoint": "2026-08-20",
+    "aliases": [],
+    "warnings": []
+  },
+  {
+    "model": "IS_canonical_cluster_as_is",
+    "fold": "2026-11",
+    "horizon": 5,
+    "status": "ok",
+    "cutoff": "2026-10-30",
+    "train_cutoff": "2026-10-30",
+    "inner_cutoff": "2026-08-21",
+    "last_endpoint": "2026-10-29",
+    "inner_last_endpoint": "2026-08-20",
+    "aliases": [],
+    "warnings": []
+  },
+  {
+    "model": "IS_canonical_cluster_one_copy",
+    "fold": "2026-11",
+    "horizon": 5,
+    "status": "ok",
+    "cutoff": "2026-10-30",
+    "train_cutoff": "2026-10-30",
+    "inner_cutoff": "2026-08-21",
+    "last_endpoint": "2026-10-29",
+    "inner_last_endpoint": "2026-08-20",
+    "aliases": [
+      [
+        "i_zz_zz_alias0_i_idx_NIFTY_HEALTHCARE_rel21",
+        "i_idx_NIFTY_HEALTHCARE_rel21"
+      ],
+      [
+        "i_zz_zz_alias0_i_idx_NIFTY_HEALTHCARE_rel5",
+        "i_idx_NIFTY_HEALTHCARE_rel5"
+      ],
+      [
+        "i_zz_zz_alias0_i_nifty_fmcg_rel21",
+        "i_nifty_fmcg_rel21"
+      ],
+      [
+        "i_zz_zz_alias0_i_nifty_fmcg_rel5",
+        "i_nifty_fmcg_rel5"
+      ],
+      [
+        "i_zz_zz_alias0_i_nifty_pharma_rel21",
+        "i_nifty_pharma_rel21"
+      ],
+      [
+        "i_zz_zz_alias0_i_nifty_pharma_rel5",
+        "i_nifty_pharma_rel5"
+      ]
+    ],
+    "warnings": []
+  },
+  {
+    "model": "IS_canonical_cluster_three_copies",
+    "fold": "2026-11",
+    "horizon": 5,
+    "status": "ok",
+    "cutoff": "2026-10-30",
+    "train_cutoff": "2026-10-30",
+    "inner_cutoff": "2026-08-21",
+    "last_endpoint": "2026-10-29",
+    "inner_last_endpoint": "2026-08-20",
+    "aliases": [
+      [
+        "i_zz_zz_alias0_i_idx_NIFTY_HEALTHCARE_rel21",
+        "i_idx_NIFTY_HEALTHCARE_rel21"
+      ],
+      [
+        "i_zz_zz_alias0_i_idx_NIFTY_HEALTHCARE_rel5",
+        "i_idx_NIFTY_HEALTHCARE_rel5"
+      ],
+      [
+        "i_zz_zz_alias0_i_nifty_fmcg_rel21",
+        "i_nifty_fmcg_rel21"
+      ],
+      [
+        "i_zz_zz_alias0_i_nifty_fmcg_rel5",
+        "i_nifty_fmcg_rel5"
+      ],
+      [
+        "i_zz_zz_alias0_i_nifty_pharma_rel21",
+        "i_nifty_pharma_rel21"
+      ],
+      [
+        "i_zz_zz_alias0_i_nifty_pharma_rel5",
+        "i_nifty_pharma_rel5"
+      ],
+      [
+        "i_zz_zz_alias1_i_idx_NIFTY_HEALTHCARE_rel21",
+        "i_idx_NIFTY_HEALTHCARE_rel21"
+      ],
+      [
+        "i_zz_zz_alias1_i_idx_NIFTY_HEALTHCARE_rel5",
+        "i_idx_NIFTY_HEALTHCARE_rel5"
+      ],
+      [
+        "i_zz_zz_alias1_i_nifty_fmcg_rel21",
+        "i_nifty_fmcg_rel21"
+      ],
+      [
+        "i_zz_zz_alias1_i_nifty_fmcg_rel5",
+        "i_nifty_fmcg_rel5"
+      ],
+      [
+        "i_zz_zz_alias1_i_nifty_pharma_rel21",
+        "i_nifty_pharma_rel21"
+      ],
+      [
+        "i_zz_zz_alias1_i_nifty_pharma_rel5",
+        "i_nifty_pharma_rel5"
+      ],
+      [
+        "i_zz_zz_alias2_i_idx_NIFTY_HEALTHCARE_rel21",
+        "i_idx_NIFTY_HEALTHCARE_rel21"
+      ],
+      [
+        "i_zz_zz_alias2_i_idx_NIFTY_HEALTHCARE_rel5",
+        "i_idx_NIFTY_HEALTHCARE_rel5"
+      ],
+      [
+        "i_zz_zz_alias2_i_nifty_fmcg_rel21",
+        "i_nifty_fmcg_rel21"
+      ],
+      [
+        "i_zz_zz_alias2_i_nifty_fmcg_rel5",
+        "i_nifty_fmcg_rel5"
+      ],
+      [
+        "i_zz_zz_alias2_i_nifty_pharma_rel21",
+        "i_nifty_pharma_rel21"
+      ],
+      [
+        "i_zz_zz_alias2_i_nifty_pharma_rel5",
+        "i_nifty_pharma_rel5"
+      ]
+    ],
+    "warnings": []
+  }
+]

@@ -1,0 +1,492 @@
+[
+  {
+    "identity": "nifty_spot",
+    "family": "domestic",
+    "overlap_n": 465,
+    "changed_closes": 0,
+    "max_abs_close_difference": 0.0
+  },
+  {
+    "identity": "india_vix",
+    "family": "domestic",
+    "overlap_n": 465,
+    "changed_closes": 0,
+    "max_abs_close_difference": 0.0
+  },
+  {
+    "identity": "bank_nifty",
+    "family": "domestic",
+    "overlap_n": 465,
+    "changed_closes": 0,
+    "max_abs_close_difference": 0.0
+  },
+  {
+    "identity": "nifty_financial",
+    "family": "domestic",
+    "overlap_n": 465,
+    "changed_closes": 0,
+    "max_abs_close_difference": 0.0
+  },
+  {
+    "identity": "nifty_it",
+    "family": "domestic",
+    "overlap_n": 465,
+    "changed_closes": 0,
+    "max_abs_close_difference": 0.0
+  },
+  {
+    "identity": "nifty_auto",
+    "family": "domestic",
+    "overlap_n": 465,
+    "changed_closes": 0,
+    "max_abs_close_difference": 0.0
+  },
+  {
+    "identity": "nifty_fmcg",
+    "family": "domestic",
+    "overlap_n": 465,
+    "changed_closes": 0,
+    "max_abs_close_difference": 0.0
+  },
+  {
+    "identity": "nifty_pharma",
+    "family": "domestic",
+    "overlap_n": 465,
+    "changed_closes": 0,
+    "max_abs_close_difference": 0.0
+  },
+  {
+    "identity": "nifty_metal",
+    "family": "domestic",
+    "overlap_n": 465,
+    "changed_closes": 0,
+    "max_abs_close_difference": 0.0
+  },
+  {
+    "identity": "nifty_energy",
+    "family": "domestic",
+    "overlap_n": 465,
+    "changed_closes": 0,
+    "max_abs_close_difference": 0.0
+  },
+  {
+    "identity": "nifty_realty",
+    "family": "domestic",
+    "overlap_n": 465,
+    "changed_closes": 0,
+    "max_abs_close_difference": 0.0
+  },
+  {
+    "identity": "nifty_psu_bank",
+    "family": "domestic",
+    "overlap_n": 465,
+    "changed_closes": 0,
+    "max_abs_close_difference": 0.0
+  },
+  {
+    "identity": "idx_Nifty_500",
+    "family": "domestic",
+    "overlap_n": 465,
+    "changed_closes": 0,
+    "max_abs_close_difference": 0.0
+  },
+  {
+    "identity": "niftybees",
+    "family": "etf",
+    "overlap_n": 465,
+    "changed_closes": 0,
+    "max_abs_close_difference": 0.0
+  },
+  {
+    "identity": "g_^HSI",
+    "family": "global",
+    "overlap_n": 454,
+    "changed_closes": 0,
+    "max_abs_close_difference": 0.0
+  },
+  {
+    "identity": "g_^DJI",
+    "family": "global",
+    "overlap_n": 463,
+    "changed_closes": 0,
+    "max_abs_close_difference": 0.0
+  },
+  {
+    "identity": "g_USDINR",
+    "family": "global",
+    "overlap_n": 557,
+    "changed_closes": 0,
+    "max_abs_close_difference": 0.0
+  },
+  {
+    "identity": "g_BZUSD",
+    "family": "global",
+    "overlap_n": 544,
+    "changed_closes": 0,
+    "max_abs_close_difference": 0.0
+  },
+  {
+    "identity": "g_^GSPC",
+    "family": "global",
+    "overlap_n": 488,
+    "changed_closes": 0,
+    "max_abs_close_difference": 0.0
+  },
+  {
+    "identity": "g_SGX_NIFTY",
+    "family": "global",
+    "overlap_n": 491,
+    "changed_closes": 0,
+    "max_abs_close_difference": 0.0
+  },
+  {
+    "identity": "s_ADANIENT",
+    "family": "stock_proxy",
+    "overlap_n": 465,
+    "changed_closes": 0,
+    "max_abs_close_difference": 0.0
+  },
+  {
+    "identity": "s_ADANIPORTS",
+    "family": "stock_proxy",
+    "overlap_n": 465,
+    "changed_closes": 0,
+    "max_abs_close_difference": 0.0
+  },
+  {
+    "identity": "s_APOLLOHOSP",
+    "family": "stock_proxy",
+    "overlap_n": 465,
+    "changed_closes": 0,
+    "max_abs_close_difference": 0.0
+  },
+  {
+    "identity": "s_ASIANPAINT",
+    "family": "stock_proxy",
+    "overlap_n": 465,
+    "changed_closes": 0,
+    "max_abs_close_difference": 0.0
+  },
+  {
+    "identity": "s_AXISBANK",
+    "family": "stock_proxy",
+    "overlap_n": 465,
+    "changed_closes": 0,
+    "max_abs_close_difference": 0.0
+  },
+  {
+    "identity": "s_BSE",
+    "family": "stock_proxy",
+    "overlap_n": 465,
+    "changed_closes": 0,
+    "max_abs_close_difference": 0.0
+  },
+  {
+    "identity": "s_BAJAJ-AUTO",
+    "family": "stock_proxy",
+    "overlap_n": 465,
+    "changed_closes": 0,
+    "max_abs_close_difference": 0.0
+  },
+  {
+    "identity": "s_BAJFINANCE",
+    "family": "stock_proxy",
+    "overlap_n": 465,
+    "changed_closes": 0,
+    "max_abs_close_difference": 0.0
+  },
+  {
+    "identity": "s_BAJAJFINSV",
+    "family": "stock_proxy",
+    "overlap_n": 465,
+    "changed_closes": 0,
+    "max_abs_close_difference": 0.0
+  },
+  {
+    "identity": "s_BEL",
+    "family": "stock_proxy",
+    "overlap_n": 465,
+    "changed_closes": 0,
+    "max_abs_close_difference": 0.0
+  },
+  {
+    "identity": "s_BHARTIARTL",
+    "family": "stock_proxy",
+    "overlap_n": 465,
+    "changed_closes": 0,
+    "max_abs_close_difference": 0.0
+  },
+  {
+    "identity": "s_CIPLA",
+    "family": "stock_proxy",
+    "overlap_n": 465,
+    "changed_closes": 0,
+    "max_abs_close_difference": 0.0
+  },
+  {
+    "identity": "s_COALINDIA",
+    "family": "stock_proxy",
+    "overlap_n": 465,
+    "changed_closes": 0,
+    "max_abs_close_difference": 0.0
+  },
+  {
+    "identity": "s_DRREDDY",
+    "family": "stock_proxy",
+    "overlap_n": 465,
+    "changed_closes": 0,
+    "max_abs_close_difference": 0.0
+  },
+  {
+    "identity": "s_EICHERMOT",
+    "family": "stock_proxy",
+    "overlap_n": 465,
+    "changed_closes": 0,
+    "max_abs_close_difference": 0.0
+  },
+  {
+    "identity": "s_ETERNAL",
+    "family": "stock_proxy",
+    "overlap_n": 465,
+    "changed_closes": 0,
+    "max_abs_close_difference": 0.0
+  },
+  {
+    "identity": "s_GRASIM",
+    "family": "stock_proxy",
+    "overlap_n": 465,
+    "changed_closes": 0,
+    "max_abs_close_difference": 0.0
+  },
+  {
+    "identity": "s_HCLTECH",
+    "family": "stock_proxy",
+    "overlap_n": 465,
+    "changed_closes": 0,
+    "max_abs_close_difference": 0.0
+  },
+  {
+    "identity": "s_HDFCBANK",
+    "family": "stock_proxy",
+    "overlap_n": 465,
+    "changed_closes": 0,
+    "max_abs_close_difference": 0.0
+  },
+  {
+    "identity": "s_HDFCLIFE",
+    "family": "stock_proxy",
+    "overlap_n": 465,
+    "changed_closes": 0,
+    "max_abs_close_difference": 0.0
+  },
+  {
+    "identity": "s_HINDALCO",
+    "family": "stock_proxy",
+    "overlap_n": 465,
+    "changed_closes": 0,
+    "max_abs_close_difference": 0.0
+  },
+  {
+    "identity": "s_HINDUNILVR",
+    "family": "stock_proxy",
+    "overlap_n": 465,
+    "changed_closes": 0,
+    "max_abs_close_difference": 0.0
+  },
+  {
+    "identity": "s_ICICIBANK",
+    "family": "stock_proxy",
+    "overlap_n": 465,
+    "changed_closes": 0,
+    "max_abs_close_difference": 0.0
+  },
+  {
+    "identity": "s_ITC",
+    "family": "stock_proxy",
+    "overlap_n": 465,
+    "changed_closes": 0,
+    "max_abs_close_difference": 0.0
+  },
+  {
+    "identity": "s_INFY",
+    "family": "stock_proxy",
+    "overlap_n": 465,
+    "changed_closes": 0,
+    "max_abs_close_difference": 0.0
+  },
+  {
+    "identity": "s_INDIGO",
+    "family": "stock_proxy",
+    "overlap_n": 465,
+    "changed_closes": 0,
+    "max_abs_close_difference": 0.0
+  },
+  {
+    "identity": "s_JSWSTEEL",
+    "family": "stock_proxy",
+    "overlap_n": 465,
+    "changed_closes": 0,
+    "max_abs_close_difference": 0.0
+  },
+  {
+    "identity": "s_JIOFIN",
+    "family": "stock_proxy",
+    "overlap_n": 465,
+    "changed_closes": 0,
+    "max_abs_close_difference": 0.0
+  },
+  {
+    "identity": "s_KOTAKBANK",
+    "family": "stock_proxy",
+    "overlap_n": 465,
+    "changed_closes": 0,
+    "max_abs_close_difference": 0.0
+  },
+  {
+    "identity": "s_LT",
+    "family": "stock_proxy",
+    "overlap_n": 465,
+    "changed_closes": 0,
+    "max_abs_close_difference": 0.0
+  },
+  {
+    "identity": "s_M&M",
+    "family": "stock_proxy",
+    "overlap_n": 465,
+    "changed_closes": 0,
+    "max_abs_close_difference": 0.0
+  },
+  {
+    "identity": "s_MARUTI",
+    "family": "stock_proxy",
+    "overlap_n": 465,
+    "changed_closes": 0,
+    "max_abs_close_difference": 0.0
+  },
+  {
+    "identity": "s_MAXHEALTH",
+    "family": "stock_proxy",
+    "overlap_n": 465,
+    "changed_closes": 0,
+    "max_abs_close_difference": 0.0
+  },
+  {
+    "identity": "s_NTPC",
+    "family": "stock_proxy",
+    "overlap_n": 465,
+    "changed_closes": 0,
+    "max_abs_close_difference": 0.0
+  },
+  {
+    "identity": "s_NESTLEIND",
+    "family": "stock_proxy",
+    "overlap_n": 465,
+    "changed_closes": 0,
+    "max_abs_close_difference": 0.0
+  },
+  {
+    "identity": "s_ONGC",
+    "family": "stock_proxy",
+    "overlap_n": 465,
+    "changed_closes": 0,
+    "max_abs_close_difference": 0.0
+  },
+  {
+    "identity": "s_POWERGRID",
+    "family": "stock_proxy",
+    "overlap_n": 465,
+    "changed_closes": 0,
+    "max_abs_close_difference": 0.0
+  },
+  {
+    "identity": "s_RELIANCE",
+    "family": "stock_proxy",
+    "overlap_n": 465,
+    "changed_closes": 0,
+    "max_abs_close_difference": 0.0
+  },
+  {
+    "identity": "s_SBILIFE",
+    "family": "stock_proxy",
+    "overlap_n": 465,
+    "changed_closes": 0,
+    "max_abs_close_difference": 0.0
+  },
+  {
+    "identity": "s_SHRIRAMFIN",
+    "family": "stock_proxy",
+    "overlap_n": 465,
+    "changed_closes": 0,
+    "max_abs_close_difference": 0.0
+  },
+  {
+    "identity": "s_SBIN",
+    "family": "stock_proxy",
+    "overlap_n": 465,
+    "changed_closes": 0,
+    "max_abs_close_difference": 0.0
+  },
+  {
+    "identity": "s_SUNPHARMA",
+    "family": "stock_proxy",
+    "overlap_n": 465,
+    "changed_closes": 0,
+    "max_abs_close_difference": 0.0
+  },
+  {
+    "identity": "s_TCS",
+    "family": "stock_proxy",
+    "overlap_n": 465,
+    "changed_closes": 0,
+    "max_abs_close_difference": 0.0
+  },
+  {
+    "identity": "s_TATACONSUM",
+    "family": "stock_proxy",
+    "overlap_n": 465,
+    "changed_closes": 0,
+    "max_abs_close_difference": 0.0
+  },
+  {
+    "identity": "s_TMPV",
+    "family": "stock_proxy",
+    "overlap_n": 465,
+    "changed_closes": 0,
+    "max_abs_close_difference": 0.0
+  },
+  {
+    "identity": "s_TATASTEEL",
+    "family": "stock_proxy",
+    "overlap_n": 465,
+    "changed_closes": 0,
+    "max_abs_close_difference": 0.0
+  },
+  {
+    "identity": "s_TECHM",
+    "family": "stock_proxy",
+    "overlap_n": 465,
+    "changed_closes": 0,
+    "max_abs_close_difference": 0.0
+  },
+  {
+    "identity": "s_TITAN",
+    "family": "stock_proxy",
+    "overlap_n": 465,
+    "changed_closes": 0,
+    "max_abs_close_difference": 0.0
+  },
+  {
+    "identity": "s_TRENT",
+    "family": "stock_proxy",
+    "overlap_n": 465,
+    "changed_closes": 0,
+    "max_abs_close_difference": 0.0
+  },
+  {
+    "identity": "s_ULTRACEMCO",
+    "family": "stock_proxy",
+    "overlap_n": 465,
+    "changed_closes": 0,
+    "max_abs_close_difference": 0.0
+  }
+]

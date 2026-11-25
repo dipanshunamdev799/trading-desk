@@ -1,0 +1,767 @@
+[
+  {
+    "horizon": 5,
+    "type": "distribution",
+    "model": "D01_regime_shrunk",
+    "metric": "crps",
+    "baseline": "D00_empirical",
+    "n": 92,
+    "mean_improvement": -9.338601934086359e-05,
+    "paired95": [
+      -0.000422900887524137,
+      0.00039708620099365846
+    ],
+    "familywise95": [
+      -0.0007613651871813566,
+      0.0005745931484996296
+    ],
+    "family_contrasts": 30,
+    "status": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "type": "distribution",
+    "model": "D02_student_shrunk",
+    "metric": "crps",
+    "baseline": "D00_empirical",
+    "n": 92,
+    "mean_improvement": 0.0013146992810091932,
+    "paired95": [
+      -0.00043027975843166555,
+      0.0031028709947232913
+    ],
+    "familywise95": [
+      -0.0015683123379336532,
+      0.00419771089995204
+    ],
+    "family_contrasts": 30,
+    "status": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "type": "distribution",
+    "model": "D03_residual_shrunk",
+    "metric": "crps",
+    "baseline": "D00_empirical",
+    "n": 92,
+    "mean_improvement": 0.0003283876222113821,
+    "paired95": [
+      -0.0002186697549433804,
+      0.001580768521109589
+    ],
+    "familywise95": [
+      -0.0010965953504874372,
+      0.0017533705949102014
+    ],
+    "family_contrasts": 30,
+    "status": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "type": "distribution",
+    "model": "D01_regime_shrunk",
+    "metric": "brier",
+    "baseline": "D00_empirical",
+    "n": 92,
+    "mean_improvement": -0.008031549625103175,
+    "paired95": [
+      -0.03125560811510099,
+      0.01545040823778159
+    ],
+    "familywise95": [
+      -0.04689587972295854,
+      0.03083278047275219
+    ],
+    "family_contrasts": 30,
+    "status": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "type": "distribution",
+    "model": "D02_student_shrunk",
+    "metric": "brier",
+    "baseline": "D00_empirical",
+    "n": 92,
+    "mean_improvement": 0.03853669544209952,
+    "paired95": [
+      -0.00886025648249206,
+      0.08083775371967031
+    ],
+    "familywise95": [
+      -0.034605122649781946,
+      0.11167851353398098
+    ],
+    "family_contrasts": 30,
+    "status": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "type": "distribution",
+    "model": "D03_residual_shrunk",
+    "metric": "brier",
+    "baseline": "D00_empirical",
+    "n": 92,
+    "mean_improvement": 0.052039001993712135,
+    "paired95": [
+      0.03190565880136275,
+      0.10035915659540785
+    ],
+    "familywise95": [
+      -0.004585266291577746,
+      0.1086632702790021
+    ],
+    "family_contrasts": 30,
+    "status": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "type": "distribution",
+    "model": "D01_regime_shrunk",
+    "metric": "pinball",
+    "baseline": "D00_empirical",
+    "n": 92,
+    "mean_improvement": 6.073364092668877e-05,
+    "paired95": [
+      -0.00011052808374238305,
+      0.000320173901723319
+    ],
+    "familywise95": [
+      -0.0002900213949206763,
+      0.00041148867677405374
+    ],
+    "family_contrasts": 30,
+    "status": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "type": "distribution",
+    "model": "D02_student_shrunk",
+    "metric": "pinball",
+    "baseline": "D00_empirical",
+    "n": 92,
+    "mean_improvement": 0.0006945749895167521,
+    "paired95": [
+      -0.0002751145325425196,
+      0.0016686370193021993
+    ],
+    "familywise95": [
+      -0.0008872690451692962,
+      0.002276419024202801
+    ],
+    "family_contrasts": 30,
+    "status": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "type": "distribution",
+    "model": "D03_residual_shrunk",
+    "metric": "pinball",
+    "baseline": "D00_empirical",
+    "n": 92,
+    "mean_improvement": 9.29105746493875e-05,
+    "paired95": [
+      -0.00019023479622925466,
+      0.0007029249419371361
+    ],
+    "familywise95": [
+      -0.0006151489647986202,
+      0.0008009701140973952
+    ],
+    "family_contrasts": 30,
+    "status": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "type": "distribution",
+    "model": "D01_regime_shrunk",
+    "metric": "mae",
+    "baseline": "D00_empirical",
+    "n": 92,
+    "mean_improvement": 0.00014899413547783918,
+    "paired95": [
+      -0.00038380390946166553,
+      0.0009569631921456469
+    ],
+    "familywise95": [
+      -0.000970006646849734,
+      0.0012679949178054123
+    ],
+    "family_contrasts": 30,
+    "status": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "type": "distribution",
+    "model": "D02_student_shrunk",
+    "metric": "mae",
+    "baseline": "D00_empirical",
+    "n": 92,
+    "mean_improvement": 0.0016670809220492007,
+    "paired95": [
+      -8.727546614937662e-05,
+      0.003540376170287075
+    ],
+    "familywise95": [
+      -0.0013556499091206772,
+      0.0046898117532190794
+    ],
+    "family_contrasts": 30,
+    "status": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "type": "distribution",
+    "model": "D03_residual_shrunk",
+    "metric": "mae",
+    "baseline": "D00_empirical",
+    "n": 92,
+    "mean_improvement": 0.0016879751655058744,
+    "paired95": [
+      0.0011152201140194006,
+      0.0033109285079908958
+    ],
+    "familywise95": [
+      -8.201012655798326e-05,
+      0.0034579604575697346
+    ],
+    "family_contrasts": 30,
+    "status": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "type": "distribution",
+    "model": "D01_regime_shrunk",
+    "metric": "bucket_brier",
+    "baseline": "D00_empirical",
+    "n": 92,
+    "mean_improvement": -0.004620230629317873,
+    "paired95": [
+      -0.03269219285275947,
+      0.02223248834474776
+    ],
+    "familywise95": [
+      -0.05052327159139944,
+      0.04128281033276368
+    ],
+    "family_contrasts": 30,
+    "status": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "type": "distribution",
+    "model": "D02_student_shrunk",
+    "metric": "bucket_brier",
+    "baseline": "D00_empirical",
+    "n": 92,
+    "mean_improvement": -0.00020336720985377705,
+    "paired95": [
+      -0.05325814449990492,
+      0.044255296571869086
+    ],
+    "familywise95": [
+      -0.08449595038216891,
+      0.08408921596246137
+    ],
+    "family_contrasts": 30,
+    "status": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "type": "distribution",
+    "model": "D03_residual_shrunk",
+    "metric": "bucket_brier",
+    "baseline": "D00_empirical",
+    "n": 92,
+    "mean_improvement": 0.020850792007624186,
+    "paired95": [
+      -0.04147741121408332,
+      0.10612815728143116
+    ],
+    "familywise95": [
+      -0.10255209611383757,
+      0.14425368012908593
+    ],
+    "family_contrasts": 30,
+    "status": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "type": "frozen_binary",
+    "model": "M05_lgbm",
+    "metric": "brier",
+    "baseline": "Z_reversion",
+    "n": 92,
+    "mean_improvement": 0.023190089197523894,
+    "paired95": [
+      -0.04576323378206721,
+      0.08437829064599389
+    ],
+    "familywise95": [
+      -0.08619228819893077,
+      0.13257246659397856
+    ],
+    "family_contrasts": 30,
+    "status": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "type": "frozen_binary",
+    "model": "M05_lgbm",
+    "metric": "brier",
+    "baseline": "A00_sector",
+    "n": 92,
+    "mean_improvement": 0.006957054359980245,
+    "paired95": [
+      -0.05663951593779259,
+      0.08044119061882955
+    ],
+    "familywise95": [
+      -0.10298515642989813,
+      0.11689926514985859
+    ],
+    "family_contrasts": 30,
+    "status": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "type": "frozen_binary",
+    "model": "A00_sector",
+    "metric": "brier",
+    "baseline": "Z_reversion",
+    "n": 92,
+    "mean_improvement": 0.016233034837543646,
+    "paired95": [
+      -0.049710654356665704,
+      0.05867654380882026
+    ],
+    "familywise95": [
+      -0.06944029588703095,
+      0.10190636556211825
+    ],
+    "family_contrasts": 30,
+    "status": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "type": "stress",
+    "model": "drop_etf",
+    "metric": "brier",
+    "baseline": "M05_lgbm",
+    "n": 92,
+    "mean_improvement": 0.0,
+    "paired95": [
+      0.0,
+      0.0
+    ],
+    "familywise95": [
+      -3.1734142157032152e-12,
+      3.1734142157032152e-12
+    ],
+    "family_contrasts": 30,
+    "status": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "type": "stress",
+    "model": "drop_fo",
+    "metric": "brier",
+    "baseline": "M05_lgbm",
+    "n": 92,
+    "mean_improvement": -0.002098542815088404,
+    "paired95": [
+      -0.005028205440186792,
+      2.4139121305246976e-05
+    ],
+    "familywise95": [
+      -0.006455961115552751,
+      0.002258875485375943
+    ],
+    "family_contrasts": 30,
+    "status": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "type": "stress",
+    "model": "drop_global",
+    "metric": "brier",
+    "baseline": "M05_lgbm",
+    "n": 92,
+    "mean_improvement": -0.00016291451709152927,
+    "paired95": [
+      -0.02565277499290727,
+      0.015024081797906477
+    ],
+    "familywise95": [
+      -0.03173576912804467,
+      0.03140994009386161
+    ],
+    "family_contrasts": 30,
+    "status": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "type": "stress",
+    "model": "drop_institution",
+    "metric": "brier",
+    "baseline": "M05_lgbm",
+    "n": 92,
+    "mean_improvement": 0.0,
+    "paired95": [
+      0.0,
+      0.0
+    ],
+    "familywise95": [
+      -3.1734142157032152e-12,
+      3.1734142157032152e-12
+    ],
+    "family_contrasts": 30,
+    "status": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "type": "stress",
+    "model": "drop_intraday",
+    "metric": "brier",
+    "baseline": "M05_lgbm",
+    "n": 92,
+    "mean_improvement": -3.3334090791936973e-05,
+    "paired95": [
+      -0.0018361348402351752,
+      0.0011710801882385449
+    ],
+    "familywise95": [
+      -0.002481954920406162,
+      0.0024152867388222885
+    ],
+    "family_contrasts": 30,
+    "status": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "type": "stress",
+    "model": "drop_risk",
+    "metric": "brier",
+    "baseline": "M05_lgbm",
+    "n": 92,
+    "mean_improvement": -0.005346947333102082,
+    "paired95": [
+      -0.011836060751542272,
+      0.00018306768519912265
+    ],
+    "familywise95": [
+      -0.014506601715554464,
+      0.0038127070493503
+    ],
+    "family_contrasts": 30,
+    "status": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "type": "stress",
+    "model": "drop_sector",
+    "metric": "brier",
+    "baseline": "M05_lgbm",
+    "n": 92,
+    "mean_improvement": -0.016072386463602345,
+    "paired95": [
+      -0.06381442463648748,
+      0.02833333674262588
+    ],
+    "familywise95": [
+      -0.09061065800311685,
+      0.05846588507591214
+    ],
+    "family_contrasts": 30,
+    "status": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "type": "stress",
+    "model": "rolling126",
+    "metric": "brier",
+    "baseline": "M05_lgbm",
+    "n": 92,
+    "mean_improvement": -0.01425042364564696,
+    "paired95": [
+      -0.04882038366457281,
+      0.0281195641172009
+    ],
+    "familywise95": [
+      -0.07593409174161901,
+      0.04743324445032509
+    ],
+    "family_contrasts": 30,
+    "status": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "type": "calibration",
+    "model": "A00_sector|OFFSET",
+    "metric": "brier",
+    "baseline": "A00_sector",
+    "n": 92,
+    "mean_improvement": 0.022388914226923205,
+    "paired95": [
+      0.003994131712496663,
+      0.052470203037657204
+    ],
+    "familywise95": [
+      -0.017341994563350595,
+      0.062119823017197005
+    ],
+    "family_contrasts": 30,
+    "status": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "type": "calibration",
+    "model": "A00_sector|SHRINK50",
+    "metric": "brier",
+    "baseline": "A00_sector",
+    "n": 92,
+    "mean_improvement": 0.008293920502178528,
+    "paired95": [
+      -0.016287158907362032,
+      0.04989786023969761
+    ],
+    "familywise95": [
+      -0.04281509894202104,
+      0.0594029399463781
+    ],
+    "family_contrasts": 30,
+    "status": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "type": "calibration",
+    "model": "M05_lgbm|OFFSET",
+    "metric": "brier",
+    "baseline": "M05_lgbm",
+    "n": 92,
+    "mean_improvement": -0.01840093366754852,
+    "paired95": [
+      -0.02616968126421432,
+      -0.009089270068316396
+    ],
+    "familywise95": [
+      -0.03229711647078642,
+      -0.004504750864310618
+    ],
+    "family_contrasts": 30,
+    "status": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 5,
+    "type": "calibration",
+    "model": "M05_lgbm|SHRINK50",
+    "metric": "brier",
+    "baseline": "M05_lgbm",
+    "n": 92,
+    "mean_improvement": -0.008609427092658979,
+    "paired95": [
+      -0.030868024398852993,
+      0.020000078443372087
+    ],
+    "familywise95": [
+      -0.051603122688971576,
+      0.0343842685036536
+    ],
+    "family_contrasts": 30,
+    "status": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "type": "distribution",
+    "model": "D01_regime_shrunk",
+    "metric": "crps",
+    "baseline": "D00_empirical",
+    "n": 76,
+    "mean_improvement": -3.242020607253871e-05,
+    "paired95": null,
+    "familywise95": null,
+    "family_contrasts": 15,
+    "status": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "type": "distribution",
+    "model": "D02_student_shrunk",
+    "metric": "crps",
+    "baseline": "D00_empirical",
+    "n": 76,
+    "mean_improvement": 0.0008100278493042201,
+    "paired95": null,
+    "familywise95": null,
+    "family_contrasts": 15,
+    "status": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "type": "distribution",
+    "model": "D03_residual_shrunk",
+    "metric": "crps",
+    "baseline": "D00_empirical",
+    "n": 76,
+    "mean_improvement": -0.0022240890394297223,
+    "paired95": null,
+    "familywise95": null,
+    "family_contrasts": 15,
+    "status": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "type": "distribution",
+    "model": "D01_regime_shrunk",
+    "metric": "brier",
+    "baseline": "D00_empirical",
+    "n": 76,
+    "mean_improvement": 0.010272487951516404,
+    "paired95": null,
+    "familywise95": null,
+    "family_contrasts": 15,
+    "status": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "type": "distribution",
+    "model": "D02_student_shrunk",
+    "metric": "brier",
+    "baseline": "D00_empirical",
+    "n": 76,
+    "mean_improvement": 0.01864237249976615,
+    "paired95": null,
+    "familywise95": null,
+    "family_contrasts": 15,
+    "status": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "type": "distribution",
+    "model": "D03_residual_shrunk",
+    "metric": "brier",
+    "baseline": "D00_empirical",
+    "n": 76,
+    "mean_improvement": -0.004037872458925116,
+    "paired95": null,
+    "familywise95": null,
+    "family_contrasts": 15,
+    "status": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "type": "distribution",
+    "model": "D01_regime_shrunk",
+    "metric": "pinball",
+    "baseline": "D00_empirical",
+    "n": 76,
+    "mean_improvement": -0.000279327646366045,
+    "paired95": null,
+    "familywise95": null,
+    "family_contrasts": 15,
+    "status": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "type": "distribution",
+    "model": "D02_student_shrunk",
+    "metric": "pinball",
+    "baseline": "D00_empirical",
+    "n": 76,
+    "mean_improvement": 4.0700210550104634e-05,
+    "paired95": null,
+    "familywise95": null,
+    "family_contrasts": 15,
+    "status": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "type": "distribution",
+    "model": "D03_residual_shrunk",
+    "metric": "pinball",
+    "baseline": "D00_empirical",
+    "n": 76,
+    "mean_improvement": -0.0012134163291049008,
+    "paired95": null,
+    "familywise95": null,
+    "family_contrasts": 15,
+    "status": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "type": "distribution",
+    "model": "D01_regime_shrunk",
+    "metric": "mae",
+    "baseline": "D00_empirical",
+    "n": 76,
+    "mean_improvement": -0.0008466994180388126,
+    "paired95": null,
+    "familywise95": null,
+    "family_contrasts": 15,
+    "status": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "type": "distribution",
+    "model": "D02_student_shrunk",
+    "metric": "mae",
+    "baseline": "D00_empirical",
+    "n": 76,
+    "mean_improvement": 0.002278650048330713,
+    "paired95": null,
+    "familywise95": null,
+    "family_contrasts": 15,
+    "status": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "type": "distribution",
+    "model": "D03_residual_shrunk",
+    "metric": "mae",
+    "baseline": "D00_empirical",
+    "n": 76,
+    "mean_improvement": 0.0009856786336064525,
+    "paired95": null,
+    "familywise95": null,
+    "family_contrasts": 15,
+    "status": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "type": "distribution",
+    "model": "D01_regime_shrunk",
+    "metric": "bucket_brier",
+    "baseline": "D00_empirical",
+    "n": 76,
+    "mean_improvement": -0.008643951467573715,
+    "paired95": null,
+    "familywise95": null,
+    "family_contrasts": 15,
+    "status": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "type": "distribution",
+    "model": "D02_student_shrunk",
+    "metric": "bucket_brier",
+    "baseline": "D00_empirical",
+    "n": 76,
+    "mean_improvement": -0.08323104738263973,
+    "paired95": null,
+    "familywise95": null,
+    "family_contrasts": 15,
+    "status": "EXPLORATORY_RESEARCH_EXPOSED"
+  },
+  {
+    "horizon": 21,
+    "type": "distribution",
+    "model": "D03_residual_shrunk",
+    "metric": "bucket_brier",
+    "baseline": "D00_empirical",
+    "n": 76,
+    "mean_improvement": -0.14623819800824814,
+    "paired95": null,
+    "familywise95": null,
+    "family_contrasts": 15,
+    "status": "EXPLORATORY_RESEARCH_EXPOSED"
+  }
+]

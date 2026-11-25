@@ -1,0 +1,54 @@
+{
+  "registered_at": "2026-11-24T13:55:44.100578+05:30",
+  "configurations": {
+    "HISTORY": {
+      "frame": "five",
+      "parent": "self",
+      "law": "history",
+      "hypothesis": "Last up-to-252 mature endpoint outcomes"
+    },
+    "NEUTRAL": {
+      "frame": "five",
+      "parent": "HISTORY",
+      "law": "neutral",
+      "hypothesis": "Same history magnitudes with fixed half mass for each sign"
+    },
+    "REVERSION": {
+      "frame": "five",
+      "parent": "HISTORY",
+      "law": "revert",
+      "hypothesis": "Fixed contrarian quarter of recent endpoint move with shrunk historical residuals"
+    },
+    "BASE5": {
+      "frame": "five",
+      "parent": "HISTORY",
+      "hypothesis": "Four price/risk/breadth plus one residual financial input"
+    },
+    "BASE10": {
+      "frame": "ten",
+      "parent": "BASE5",
+      "hypothesis": "Five additional rotation, liquidity and structure inputs"
+    },
+    "BASE20": {
+      "frame": "twenty",
+      "parent": "BASE10",
+      "hypothesis": "Expand to 20 prechosen structural fields"
+    },
+    "BASE_NATIVE": {
+      "frame": "native",
+      "parent": "BASE20",
+      "hypothesis": "Frozen native market internals, canonical Ridge"
+    },
+    "BASE_ROTATION": {
+      "frame": "rotation",
+      "parent": "BASE_NATIVE",
+      "hypothesis": "Full native base plus residualized rotation, common V10 residual rules"
+    }
+  },
+  "seed": 20261130,
+  "code_hashes": {
+    "experiments.py": "48baf634853e2d9016ca7f0e79d5e8ae00c42fbde533b3c9bb9939b5960bdef8",
+    "estimators.py": "70396610d7201423c4151cb004e61a63986cec9a5ec73496a16aa1f45b7f0f09",
+    "targets.py": "9bb9d2060fef1bc2b1add51c129d8dc4e792afae782e6b5c8183f82a1ae5f752"
+  }
+}

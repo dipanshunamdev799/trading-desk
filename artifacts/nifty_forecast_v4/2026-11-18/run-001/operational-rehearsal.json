@@ -1,0 +1,12 @@
+{
+  "first_attempt": "FAILED before issuance: mixed timestamp strings in pandas conversion",
+  "fix": "Explicit mixed datetime parsing with regression test",
+  "successful_rehearsal_forecast_hash": "27b9a03e5de25d2df52bde928809f67578a7954190925a06a419ab7580cb8f84",
+  "primary_eligible": false,
+  "later_hardening": [
+    "Check all domestic sources for stale data",
+    "Explicit matched baseline deltas in future resolutions",
+    "Source snapshots and reject code changes during issuance"
+  ],
+  "source_archive_verified": true
+}

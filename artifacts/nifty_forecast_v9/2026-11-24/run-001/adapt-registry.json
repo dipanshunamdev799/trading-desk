@@ -1,0 +1,115 @@
+{
+  "at": "2026-11-24T12:59:33.232293+05:30",
+  "seed": 20261129,
+  "configuration": {
+    "T_EW90": {
+      "frame": "small_resid",
+      "parent": "P_COMPACT",
+      "kind": "ew",
+      "half_life": 90,
+      "hypothesis": "Recency-weighted expanding Ridge"
+    },
+    "T_EW45": {
+      "frame": "small_resid",
+      "parent": "P_COMPACT",
+      "kind": "ew",
+      "half_life": 45,
+      "hypothesis": "More rapid EW adaptation"
+    },
+    "T_KALMAN": {
+      "frame": "small_resid",
+      "parent": "P_COMPACT",
+      "kind": "kalman",
+      "hypothesis": "Shrunk dynamic coefficient random walk with matured outcomes"
+    },
+    "T_KALMAN_SLOW": {
+      "frame": "small_resid",
+      "parent": "T_KALMAN",
+      "kind": "kalman",
+      "process": 4e-05,
+      "hypothesis": "Lower coefficient process variance"
+    },
+    "T_STATIC_BLEND": {
+      "frame": "small_resid",
+      "parent": "P_COMPACT",
+      "kind": "blend",
+      "hypothesis": "Equal 126-date and expanding conditional locations"
+    },
+    "T_CHANGE_WINDOW": {
+      "frame": "small_resid",
+      "parent": "T_STATIC_BLEND",
+      "kind": "trigger",
+      "hypothesis": "Causal feature-shift triggered short/long fit mix"
+    },
+    "T_RECENT126": {
+      "frame": "small_resid",
+      "parent": "P_COMPACT",
+      "window": 126,
+      "hypothesis": "Fixed rolling 126, no fallback to expanding"
+    },
+    "T_EXPERT_PARENT": {
+      "frame": "small_state",
+      "parent": "P_COMPACT",
+      "hypothesis": "State-informed comparison without segmentation"
+    },
+    "T_VOL_EXPERT": {
+      "frame": "small_state",
+      "parent": "T_EXPERT_PARENT",
+      "kind": "expert",
+      "gate": "s_vol",
+      "hypothesis": "Shrunk volatility gated experts"
+    },
+    "T_TREND_EXPERT": {
+      "frame": "small_state",
+      "parent": "T_EXPERT_PARENT",
+      "kind": "expert",
+      "gate": "s_trend",
+      "hypothesis": "Shrunk trend gated experts"
+    },
+    "T_BREADTH_EXPERT": {
+      "frame": "small_state",
+      "parent": "T_EXPERT_PARENT",
+      "kind": "expert",
+      "gate": "s_breadth",
+      "hypothesis": "Shrunk breadth gated experts"
+    },
+    "T_STUDENT": {
+      "frame": "small_resid",
+      "parent": "P_COMPACT",
+      "law": "student",
+      "hypothesis": "Student-t conditional residual law"
+    },
+    "T_RISK_STUDENT": {
+      "frame": "small_resid",
+      "parent": "T_STUDENT",
+      "law": "student_scale",
+      "hypothesis": "Volatility-dependent Student-t scale"
+    },
+    "T_RISK_LAW": {
+      "frame": "small_resid",
+      "parent": "P_COMPACT",
+      "law": "risk",
+      "hypothesis": "Same-regime reweighted residuals"
+    },
+    "T_GLOBAL_DIRECT": {
+      "frame": "global_side",
+      "parent": "P_COMPACT",
+      "hypothesis": "Compact divergence and shock additions"
+    },
+    "T_GLOBAL_LAW": {
+      "frame": "risk_global",
+      "parent": "T_GLOBAL_LOCATION",
+      "law": "global_risk",
+      "hypothesis": "Global shock-conditioned empirical residual weights"
+    },
+    "T_GLOBAL_LOCATION": {
+      "frame": "risk_global",
+      "parent": "P_COMPACT",
+      "hypothesis": "Same predictors without global scale conditioning"
+    }
+  },
+  "source": {
+    "run_models.py": "ce5c6722020b74c7d170a9614a8caf1d120688bde6097a38e03be56189f55269",
+    "models.py": "f314c03bd91c21d55ed8ad01bc5c6f24c82843b63226615c8508078a2d361177"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "registered_at": "2026-11-19T16:13:03.607184+05:30",
+  "weekly_motivation": "Forensic removal of influential defensive columns improved exposed Brier; test fixed group compression/normalization and combinations with actual ETF volume, not arbitrary coefficient tuning.",
+  "systems": {
+    "W2_NODEF_VOLUME": "I03 minus defensive column family plus5ETF volume ratios",
+    "W2_NOAUTO_VOLUME": "I03 minus training-selected auto21 feature plus5ETF volumes",
+    "W2_DEF_PC": "Train-only whitened1PC of six defensive columns, retain other native features",
+    "W2_DEF_NORM": "Scale standardized defensive group by1/sqrt(group_size), fixed Ridge100"
+  },
+  "monthly_nulls": {
+    "state_block_shifts": [
+      5,
+      21,
+      42
+    ],
+    "target_block_shifts": [
+      21,
+      42,
+      63
+    ]
+  },
+  "nulls_not_candidates": true,
+  "status": "Newly registered exposed-data follow-up; no independent confirmation"
+}

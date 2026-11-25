@@ -1,0 +1,152 @@
+{
+  "key": "NSE_EQ|INE002A01018",
+  "day": "2026-11-13",
+  "group": "v2_core",
+  "updates": 29563,
+  "exact_source_payload_duplicates": 0,
+  "valid_books": 29563,
+  "grid_seconds": 21300,
+  "fresh_valid_grid_fraction": 0.8591079812206572,
+  "receipt_minus_source_seconds": {
+    "min": -0.232558,
+    "p50": -0.015572,
+    "p95": 0.09651659999999988,
+    "p99": 0.4648151800000046,
+    "max": 8.846665
+  },
+  "interarrival_seconds": {
+    "min": 0.0008220672607421875,
+    "p50": 0.5917184352874756,
+    "p95": 1.1977051138877848,
+    "p99": 2.988276965618133,
+    "max": 2234.8853578567505
+  },
+  "gaps_over2s": 784,
+  "spread_bps": {
+    "min": 0.7404390803739888,
+    "p50": 2.231727926823158,
+    "p95": 3.743832119836771,
+    "p99": 4.488911285460702,
+    "max": 5.271282804322794
+  },
+  "capacity": [
+    {
+      "capital": 100000,
+      "observations": 610,
+      "full_depth_fraction": 0.9918032786885246,
+      "quoted_roundtrip_bps": {
+        "min": 9.048411465916015,
+        "p50": 11.689965472760157,
+        "p95": 13.40054296032425,
+        "p99": 13.82942859047478,
+        "max": 14.426753441247584
+      },
+      "depth_fraction_assumption": 0.1
+    },
+    {
+      "capital": 500000,
+      "observations": 610,
+      "full_depth_fraction": 0.6262295081967213,
+      "quoted_roundtrip_bps": {
+        "min": 5.238261877032696,
+        "p50": 9.414908433151165,
+        "p95": 11.270060067228574,
+        "p99": 11.873942799143732,
+        "max": 13.184872946961935
+      },
+      "depth_fraction_assumption": 0.1
+    },
+    {
+      "capital": 1000000,
+      "observations": 610,
+      "full_depth_fraction": 0.1377049180327869,
+      "quoted_roundtrip_bps": {
+        "min": 4.966147034022985,
+        "p50": 9.188064972469661,
+        "p95": 11.163010769738277,
+        "p99": 11.687961055228111,
+        "max": 12.22750772297726
+      },
+      "depth_fraction_assumption": 0.1
+    }
+  ],
+  "latency_observation_bounds": [
+    {
+      "delay_seconds": 0.1,
+      "observations": 610,
+      "identified_fraction": 0.2819672131147541,
+      "buy_adverse_bps": {
+        "min": -2.9873039581784777,
+        "p50": 0.0,
+        "p95": 0.747521034406784,
+        "p99": 2.233821009461523,
+        "max": 2.9879734070359376
+      },
+      "sell_adverse_bps": {
+        "min": -2.2319767874412477,
+        "p50": 0.0,
+        "p95": 0.7464190916395275,
+        "p99": 1.710183586466346,
+        "max": 3.7678975131871795
+      }
+    },
+    {
+      "delay_seconds": 0.5,
+      "observations": 610,
+      "identified_fraction": 0.3377049180327869,
+      "buy_adverse_bps": {
+        "min": -2.9841838257238518,
+        "p50": 0.0,
+        "p95": 0.752722602861966,
+        "p99": 2.9850746268667017,
+        "max": 2.9933398189041505
+      },
+      "sell_adverse_bps": {
+        "min": -3.016591251886469,
+        "p50": 0.0,
+        "p95": 0.7463522067235884,
+        "p99": 2.911294527661684,
+        "max": 3.7647767487380968
+      }
+    },
+    {
+      "delay_seconds": 1,
+      "observations": 610,
+      "identified_fraction": 0.28688524590163933,
+      "buy_adverse_bps": {
+        "min": -7.510326699211589,
+        "p50": 0.0,
+        "p95": 1.49403387582292,
+        "p99": 2.9850746268667017,
+        "max": 5.204074046538665
+      },
+      "sell_adverse_bps": {
+        "min": -5.20639642989984,
+        "p50": 0.0,
+        "p95": 2.9720192386157858,
+        "p99": 4.465480367208086,
+        "max": 4.510599909788304
+      }
+    },
+    {
+      "delay_seconds": 5,
+      "observations": 610,
+      "identified_fraction": 0.9147540983606557,
+      "buy_adverse_bps": {
+        "min": -11.133377866844318,
+        "p50": 0.0,
+        "p95": 3.7249779809143124,
+        "p99": 6.622672213841334,
+        "max": 17.11818993748171
+      },
+      "sell_adverse_bps": {
+        "min": -17.094017094017033,
+        "p50": 0.0,
+        "p95": 2.365604925208082,
+        "p99": 4.79620698124928,
+        "max": 14.124293785309217
+      }
+    }
+  ],
+  "interpretation": "Retained, research-exposed archive quality and quoted capacity bounds only; no realized order fills or strategy profitability"
+}

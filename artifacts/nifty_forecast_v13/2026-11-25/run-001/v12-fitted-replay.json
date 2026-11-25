@@ -1,0 +1,12 @@
+{
+  "forecasts": 2890,
+  "maximum_difference": 0.0,
+  "model_ids": {
+    "V12_RV_PATH": "prior_trailing",
+    "V12_RV_SCALE": "prior_fitted_rv",
+    "V12_IV_SCALE": "prior_fitted_iv",
+    "V12_IV_LAG5": "prior_fitted_lag5",
+    "V12_ETF_SCALE": "prior_etf",
+    "V12_INTRA_SCALE": "prior_intraday"
+  }
+}

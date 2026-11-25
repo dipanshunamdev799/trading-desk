@@ -1,0 +1,17 @@
+      stage  rs_filter random_cell observed_cell  seeds  observed_return_pct  random_mean_return_pct  random_q05  random_median  random_q95  random_min  random_max  conditional_upper_p  percentile  actual_trades  random_mean_trades  actual_exposure_pct  random_mean_exposure_pct  actual_turnover  random_mean_turnover
+   two_year          0           B             A   1000            12.839422                9.871816    2.417991       9.854086   17.298882   -5.693855   23.247864             0.263736        73.7            113             115.122            12.263024                 12.888754        15.922491             16.772844
+   two_year          0           D             C   1000           -17.688213              -17.596332  -29.872644     -17.802945   -4.656698  -38.879286    7.973785             0.496503        50.4            572             546.963            66.245838                 66.039857        80.345633             75.176555
+   two_year          1           B             A   1000             9.216465               10.324282    3.285951      10.284273   17.360992   -3.588634   26.338260             0.602398        39.8            114             113.406            11.817233                 12.748975        15.464880             16.662478
+   two_year          1           D             C   1000           -23.557874              -17.841648  -28.846324     -18.302579   -5.331435  -39.528581    6.462185             0.770230        23.0            495             487.523            55.715595                 57.222367        66.373255             65.045247
+final_reset          0           B             A   1000             1.273600                0.586054   -2.776526       0.502709    3.951812   -5.319351    7.761865             0.368631        63.2             27              27.169             9.687063                 10.559536         3.423171              4.027723
+final_reset          0           D             C   1000            -8.380553               -6.138191  -13.161340      -6.317848    1.291002  -21.261000   11.413146             0.679321        32.1            151             144.424            64.513018                 66.680851        20.956992             21.602872
+final_reset          1           B             A   1000             1.273600                0.275370   -3.239779       0.178613    4.128854   -6.189608    7.217283             0.307692        69.3             27              27.605             9.687063                 10.339366         3.423171              3.951594
+final_reset          1           D             C   1000            -9.564612               -4.973666  -12.646859      -5.001358    2.880668  -16.666898   10.104543             0.827173        17.3            138             138.338            60.439895                 61.318529        19.293137             20.165338
+      stage                  test  observed_pct  null_mean_pct  conditional_upper_p   holm_p
+   two_year   EMA_given_expansion      9.216465      10.324282             0.602398 1.000000
+   two_year EMA_without_expansion    -23.557874     -17.841648             0.770230 1.000000
+   two_year  EMA_gate_interaction     32.774339      28.165930             0.265734 0.797203
+final_reset   EMA_given_expansion      1.273600       0.275370             0.307692 0.615385
+final_reset EMA_without_expansion     -9.564612      -4.973666             0.827173 0.827173
+final_reset  EMA_gate_interaction     10.838213       5.249036             0.103896 0.311688
+INFERENCE_COMPLETE

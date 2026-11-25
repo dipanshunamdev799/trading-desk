@@ -1,0 +1,188 @@
+{
+  "registered_at": "2026-11-18T22:31:36.487381+05:30",
+  "scope": [
+    "2025-01-01",
+    "2026-11-18"
+  ],
+  "exposure": "All historical observations research-exposed",
+  "specifications": {
+    "E00": {
+      "kind": "empirical",
+      "features": "price",
+      "hypothesis": "Unconditional return law",
+      "research_only": false
+    },
+    "P00": {
+      "kind": "ridge",
+      "features": "price",
+      "hypothesis": "Price-only coherent control",
+      "research_only": false
+    },
+    "G00": {
+      "kind": "ridge",
+      "features": "global",
+      "hypothesis": "Global-only predictive information",
+      "research_only": false
+    },
+    "I00": {
+      "kind": "ridge",
+      "features": "indian",
+      "hypothesis": "Native broad/sector internal structure",
+      "research_only": false
+    },
+    "C00": {
+      "kind": "ridge",
+      "features": "combined",
+      "hypothesis": "Global increment beyond Indian prices/sectors",
+      "research_only": false
+    },
+    "F00": {
+      "kind": "pca",
+      "features": "combined",
+      "hypothesis": "Five static train-only joint factors",
+      "research_only": false
+    },
+    "F01": {
+      "kind": "rolling_pca",
+      "features": "combined",
+      "hypothesis": "Causal rolling126 loading adaptation",
+      "research_only": false
+    },
+    "N00": {
+      "kind": "spline",
+      "features": "core",
+      "hypothesis": "Low-complexity additive nonlinear response",
+      "research_only": false
+    },
+    "N01": {
+      "kind": "forest",
+      "features": "combined",
+      "hypothesis": "Shallow randomized conditional return law",
+      "research_only": false
+    },
+    "N02": {
+      "kind": "kernel",
+      "features": "core",
+      "hypothesis": "Regularized smooth joint-state interaction",
+      "research_only": false
+    },
+    "R00": {
+      "kind": "regime",
+      "features": "core",
+      "hypothesis": "Global-risk x domestic-volatility conditional law",
+      "research_only": false
+    },
+    "A00": {
+      "kind": "cosine",
+      "features": "joint_derivatives",
+      "hypothesis": "Angular state analogue with shrinkage",
+      "research_only": false
+    },
+    "A01": {
+      "kind": "manhattan",
+      "features": "joint_derivatives",
+      "hypothesis": "Robust L1 state analogue with shrinkage",
+      "research_only": false
+    },
+    "S00": {
+      "kind": "ridge",
+      "features": "sequence",
+      "hypothesis": "Cross-market evolution beyond static state",
+      "research_only": false
+    },
+    "T00": {
+      "kind": "sector_transfer",
+      "features": "core",
+      "hypothesis": "Date-grouped shared sector-to-NIFTY mapping",
+      "research_only": false
+    },
+    "T01": {
+      "kind": "stock_transfer",
+      "features": "core",
+      "hypothesis": "Wider equity transfer, survivorship-exposed",
+      "research_only": true
+    },
+    "M00": {
+      "kind": "multitask",
+      "features": "core",
+      "hypothesis": "Normalized shared1/3/5/21-session tasks",
+      "research_only": false
+    },
+    "D00": {
+      "kind": "ridge",
+      "features": "derivatives",
+      "hypothesis": "Price x positioning x expiry risk",
+      "research_only": false
+    },
+    "D01": {
+      "kind": "ridge",
+      "features": "joint_derivatives",
+      "hypothesis": "Derivative increment beyond global/Indian state",
+      "research_only": false
+    },
+    "BR00": {
+      "kind": "ridge",
+      "features": "proxy",
+      "hypothesis": "Wider current-stock participation proxy",
+      "research_only": true
+    }
+  },
+  "stage1": [
+    "E00",
+    "P00",
+    "G00",
+    "I00",
+    "C00",
+    "F00",
+    "T00",
+    "T01",
+    "BR00"
+  ],
+  "stage2": [
+    "F01",
+    "N00",
+    "N01",
+    "N02",
+    "R00",
+    "A00",
+    "A01",
+    "S00",
+    "M00",
+    "D00",
+    "D01"
+  ],
+  "parameters": {
+    "ridge_alpha": 100,
+    "kernel_alpha": 10,
+    "kernel_gamma": "1/d",
+    "PCA_components": 5,
+    "rolling_PCA_window": 126,
+    "spline_knots": 3,
+    "spline_degree": 2,
+    "forest_trees": 64,
+    "forest_depth": 3,
+    "forest_minleaf": 30,
+    "forest_maxfeatures": 0.7,
+    "analog_k": 40,
+    "conditional_unconditional_mixture": [
+      0.65,
+      0.35
+    ],
+    "regime_unconditional_pseudocount": 50,
+    "seed": 202611185
+  },
+  "validation": "Exact V3 prequential origins, monthly refit, min126 mature labels and80 inner fit, last42 purged residual origins; endpoints strictly before refit origin",
+  "primary_comparisons": "All primary metrics matched92 weekly/76monthly V3 outer origins; V5 latest source vintage explicitly different",
+  "selection": "Historical outer leaderboard is descriptive postselection. No independent claims. No automated hyperparameter tuning.",
+  "stage2_rule": "Execute registered mechanisms even if stage1 inconclusive; no unregistered expansion. Later expansions need separate prospective registry before scores.",
+  "source_hashes": {
+    "common.py": "1617c68d99a96336c0c1a2d947a744ef7c739e56c45a82a01e81ce57b6e33053",
+    "data.py": "0c42c0fb8c6ea80785e7d059bbed0a78b8c79a56ec66d6f13957c87787438c30",
+    "experiment.py": "afa944329b1aa42adc119fa604978eea6d8de867e65fa65edd34e56154b0c7f0",
+    "extras.py": "189379bf5dd7c4fca8fe4bdba787c81a8ce66d7f2abf7cfd4791f3b4b575d58b",
+    "features.py": "f430a267473392523807f4faaf0b0811bbbc80905d63b13e28f9aa812b5fc039",
+    "models.py": "72f39521c01224a5dc133d946b0ae5a812c9f9295190bfe0a2d141e32da78b27",
+    "__init__.py": "9ba13724e2bc22c8d03df89e0bf302ecf43cba58521f14b3e97b807154c3bbfc"
+  },
+  "dataset_manifest_sha256": "462248f49736f861abd326b1ac834582ce9e8c81700719f58b08e56897e4345e"
+}

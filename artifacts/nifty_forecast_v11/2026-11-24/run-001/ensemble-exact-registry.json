@@ -1,0 +1,38 @@
+{
+  "registered": "2026-11-24T14:37:55.370067+05:30",
+  "models": {
+    "J11_BREADTH_ALL": {
+      "parent": "J10_STRUCTURAL_BLEND",
+      "experts": [
+        "B_ROT_EQ",
+        "B_SPARSE_EQ",
+        "B_STUD_EQ"
+      ],
+      "policy": [
+        0.4,
+        0.3,
+        0.3
+      ],
+      "diagnostic": false
+    },
+    "J11_BREADTH_ALL_HIST": {
+      "parent": "J10_HISTORY_SHRINK",
+      "experts": [
+        "B_ROT_EQ",
+        "B_SPARSE_EQ",
+        "B_STUD_EQ",
+        "HISTORY"
+      ],
+      "policy": [
+        0.2,
+        0.15,
+        0.15,
+        0.5
+      ],
+      "diagnostic": false
+    }
+  },
+  "code": "76ff5e642e7df2d3f26b9ff6965ec8102baff5db6d8e493e49b8b8d04531067a",
+  "minimum_matured": 20,
+  "embargo": "Latest eligible endpoint strictly before each frozen monthly refit."
+}

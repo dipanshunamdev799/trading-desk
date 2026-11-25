@@ -1,0 +1,7 @@
+{
+  "conditional_tests": 114,
+  "min_q": 0.04051172707889126,
+  "q_under_05": 14,
+  "exact_effects_note": "New exact-feature-effects.csv uses training-median replacements. Earlier forensic influence CSV standardized-zero formula is a training-MEAN replacement proxy despite its legacy column label.",
+  "source_revision_note": "Actual observed overlap is measured; synthetic1bp study is explicitly a sensitivity scenario, not a claim an exchange/vendor revised prices."
+}

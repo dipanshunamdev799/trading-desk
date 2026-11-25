@@ -1,0 +1,154 @@
+gate: 50 FAIL open (page unchanged since the last run: results reused, not a new round)
+  FAIL shader-lint      chunks/208-a8e756fe5e426610.js "this"  [1440]
+       a shader uses "this" as a name (line 1: ),n+":"+i+";"}).join(c)+d}).join(c)+d}).join(c),f||g?["<![CDATA[",f,g,"]]>"].join(c):"");i): GLSL ES reserves it, so a strict GPU rejects the whole shader and the picture stays emp
+       fix: rename it (flat, smooth, centroid, sample, patch, input, output, filter and the rest are GLSL ES reserved words)
+  FAIL shader-lint      chunks/208-a8e756fe5e426610.js "__clipPaths"  [1440]
+       a shader uses "__clipPaths" as a name (line 1: ),n+":"+i+";"}).join(c)+d}).join(c)+d}).join(c),f||g?["<![CDATA[",f,g,"]]>"].join(c):"");i): GLSL ES reserves it, so a strict GPU rejects the whole shader and the picture st
+       fix: rename it (flat, smooth, centroid, sample, patch, input, output, filter and the rest are GLSL ES reserved words)
+  FAIL shader-lint      chunks/208-a8e756fe5e426610.js "filter"  [1440]
+       a shader uses "filter" as a name (line 1: ),n+":"+i+";"}).join(c)+d}).join(c)+d}).join(c),f||g?["<![CDATA[",f,g,"]]>"].join(c):"");i): GLSL ES reserves it, so a strict GPU rejects the whole shader and the picture stays e
+       fix: rename it (flat, smooth, centroid, sample, patch, input, output, filter and the rest are GLSL ES reserved words)
+  FAIL shader-lint      chunks/208-a8e756fe5e426610.js "__wrappedMethods"  [1440]
+       a shader uses "__wrappedMethods" as a name (line 1: ),n+":"+i+";"}).join(c)+d}).join(c)+d}).join(c),f||g?["<![CDATA[",f,g,"]]>"].join(c):"");i): GLSL ES reserves it, so a strict GPU rejects the whole shader and the pictu
+       fix: rename it (flat, smooth, centroid, sample, patch, input, output, filter and the rest are GLSL ES reserved words)
+  FAIL shader-lint      chunks/208-a8e756fe5e426610.js "__ec__"  [1440]
+       a shader uses "__ec__" as a name (line 1: ),n+":"+i+";"}).join(c)+d}).join(c)+d}).join(c),f||g?["<![CDATA[",f,g,"]]>"].join(c):"");i): GLSL ES reserves it, so a strict GPU rejects the whole shader and the picture stays e
+       fix: rename it (flat, smooth, centroid, sample, patch, input, output, filter and the rest are GLSL ES reserved words)
+  FAIL shader-lint      chunks/208-a8e756fe5e426610.js "__"  [1440]
+       a shader uses "__" as a name (line 1: ),n+":"+i+";"}).join(c)+d}).join(c)+d}).join(c),f||g?["<![CDATA[",f,g,"]]>"].join(c):"");i): GLSL ES reserves it, so a strict GPU rejects the whole shader and the picture stays empty
+       fix: rename it (flat, smooth, centroid, sample, patch, input, output, filter and the rest are GLSL ES reserved words)
+  FAIL shader-lint      chunks/208-a8e756fe5e426610.js "smooth"  [1440]
+       a shader uses "smooth" as a name (line 1: ),n+":"+i+";"}).join(c)+d}).join(c)+d}).join(c),f||g?["<![CDATA[",f,g,"]]>"].join(c):"");i): GLSL ES reserves it, so a strict GPU rejects the whole shader and the picture stays e
+       fix: rename it (flat, smooth, centroid, sample, patch, input, output, filter and the rest are GLSL ES reserved words)
+  FAIL shader-lint      chunks/208-a8e756fe5e426610.js "__isEmptyBrush"  [1440]
+       a shader uses "__isEmptyBrush" as a name (line 1: ),n+":"+i+";"}).join(c)+d}).join(c)+d}).join(c),f||g?["<![CDATA[",f,g,"]]>"].join(c):"");i): GLSL ES reserves it, so a strict GPU rejects the whole shader and the picture
+       fix: rename it (flat, smooth, centroid, sample, patch, input, output, filter and the rest are GLSL ES reserved words)
+  FAIL hero-fill        main#desk-main > div.bots.investment-bots > div.bot-heading "Investment bots"  [1440, 390]
+       the next section shows on the first screen: it starts at 275px on a 900px screen (the hero ends at 185px)
+       fix: let the hero fill the first screen alone (min-height: 100svh, less above it): nothing of the next section on load
+  FAIL flush            main#desk-main > div.bots.investment-bots > div.bot-stats > div:nth-of-type(1) "Paper allo  [1440, 390]
+       its first line sits 0px under the top edge of div.bot-stats, where the ground changes
+       fix: give the section its padding at the edge where the ground changes (the closing call keeps a clear gap above the footer)
+  FAIL flush            div.bots.investment-bots > div.bot-workspace > div.bot-list > button.bot-card:nth-of-type(  [1440]
+       its button sits 0px above the lower edge of div.bot-list, where the ground changes to section.panel.bot-detail
+       fix: give the section its padding at the edge where the ground changes (the closing call keeps a clear gap above the footer)
+  FAIL text-only        main#desk-main > div.bots.investment-bots > div.bot-workspace > section.panel.bot-detail "  [1440]
+       the closing section is only text: no picture, icon, mock or effect in it
+       fix: give the section a visual: a photograph that fits, the real icons, or a UI fragment on a ground
+  FAIL card-visual      main#desk-main > div.bots.investment-bots > div.bot-stats "Paper allocation ₹40,00,000.00   [1440]
+       4 cards hold only text: no picture, icon, UI fragment or effect in any of them
+       fix: give the cards a visual: an inset panel with a UI fragment, a photograph or real icons
+  FAIL card-visual      main#desk-main > div.bots.investment-bots > div.bot-workspace > div.bot-list "C0-R PAPER V  [1440, 390]
+       4 cards hold only text: no picture, icon, UI fragment or effect in any of them
+       fix: give the cards a visual: an inset panel with a UI fragment, a photograph or real icons
+  FAIL button-styles    (one screen)  [1440, 390]
+       4 button styles on one screen: soft, fill #163029, outline #24483c ("Investment bots"); soft, fill #194c43, outline #52cdbb ("Investment bots"); soft, outline #34445c ("F&O bots"); soft, fill #1a2330, outline #a85953 ("P
+       fix: one primary and one secondary button: one shape, one height per size, one label size
+  FAIL button-styles    (the page)  [1440, 390]
+       4 button styles on the page: soft, fill #163029, outline #24483c x5 ("Investment bots"); soft, outline #34445c x1 ("F&O bots"); soft, fill #194c43, outline #52cdbb x2 ("Investment bots"); soft, fill #1a2330, outline #a85
+       fix: one primary and one secondary button: one shape, one height per size, one label size
+  FAIL button-styles    section.panel.bot-detail > div.bot-detail-body > div.bot-controls > button:nth-of-type(1)   [1440]
+       one button style (soft, fill #1a2330, outline #243041) in 2 heights: 33, 44px ("Start portfolio" 44px, "Run paper cycle" 33px)
+       fix: one primary and one secondary button: one shape, one height per size, one label size
+  FAIL cta              main#desk-main > section.desk-page-guide  [1440, 390]
+       the hero has no button (the nav's does not count)
+       fix: add the action: a button in the hero, one on every priced item, one in the closing section
+  FAIL heading-scale    div.bots.investment-bots > div.bot-heading > div:nth-of-type(1) > h2 "Investment bots"  [1440, 390]
+       an h2 at 28px, as large as the h1 (13px) or larger (and 1 more like it: "C0-R · Volatility-adjust")
+       fix: size headings by level: the h1 largest, one size per level, each level below the one above
+  FAIL heading-scale    section.paper-policy > dl > div:nth-of-type(1) > dd "Up to 10.00%"  [1440, 390]
+       the figure "Up to 10.00%" is set at 24px, larger than the h1 (13px) (and 1 more like it: "50.00%")
+       fix: set figures below the h1: a stat reads as data, not as the headline
+  FAIL text-contrast    header.topbar > div.desk-topbar-title > span.desk-breadcrumb > span "/"  [1440]
+       a caption, label or muted line in #65778a on #0d1218 reads 4.08:1 (needs 4.5:1)
+       fix: body text in the ink at 7:1 or more; grey (4.5:1 or more) only for captions and labels
+  FAIL text-contrast    section.paper-policy > div.paper-policy-heading > div > p "Fresh test from 2026-11-19. Eac  [1440, 390]
+       body text in #8b9aab on #111820 reads 6.22:1 (needs 7:1)
+       fix: body text in the ink at 7:1 or more; grey (4.5:1 or more) only for captions and labels
+  FAIL focus-ring       .desk-shell .content:focus  [1440]
+       ".desk-shell .content:focus" in 5a8e036a6fe382b7.css removes the focus outline and sets nothing in its place
+       fix: keep the kit's :focus-visible ring, or put a change of the same strength (a 2px line in --action) in the rule that removes it
+  FAIL focus-ring       .desk-search-header input:focus  [1440]
+       ".desk-search-header input:focus" in 5a8e036a6fe382b7.css removes the focus outline and sets nothing in its place
+       fix: keep the kit's :focus-visible ring, or put a change of the same strength (a 2px line in --action) in the rule that removes it
+  FAIL moment-none      (the page)  [1440]
+       a software page (--type) deals no moment: every kind carries one, two on a long page (moments.md)
+       fix: deal one (moments.mjs pick --page software) and mount it in its own section
+  FAIL hero-screen      main#desk-main > section.desk-page-guide "Follow four paper stock portfolios with "  [1440]
+       the hero ends at 185px on a 900px screen, 715px above the fold: it ends at the fold, 1px either way (SR-1)
+       fix: make the hero exactly one screen (height: 100svh, its content fitted inside), never taller or shorter
+  FAIL hero-screen      main#desk-main > div.bots.investment-bots "F&O botsInvestment botsNSE CASH EQUITY ·"  [1440]
+       691px of the next section shows on the first screen (from 209px on a 900px screen): nothing below the hero shows at load (SR-1)
+       fix: end the hero at the fold so nothing of the next section shows at load (hero height: 100svh)
+  FAIL section-height   main#desk-main > div.bots.investment-bots "F&O botsInvestment botsNSE CASH EQUITY ·"  [1440]
+       the section is 1637px tall (1.8 screens), 163px short of two screens (1800px): every section after the hero is one screen or two, 2px either way (SR-2)
+       fix: set the section to one screen or two (height: calc(var(--h,1) * 100vh), --h 1 or 2) and cut or split its content to fit
+  FAIL one-section      main#desk-main > section.desk-page-guide "Follow four paper stock portfolios with "  [1440]
+       the screen at scroll 0px (stride 0) shows 85px of section 1 and the content of 2 sections, over 24px each beside section 2: a screen shows one section (another may peek 8px, 24px WARN) (SR-4)
+       fix: make each section exactly one screen or two, so a screen shows one section and no neighbour peeks
+  FAIL one-heading      div.bot-workspace > section.panel.bot-detail > div.panel-header > h2 "C0-R · Volatility-ad  [1440]
+       the section holds 2 h2 headings: one per section, first in its .wrap (SR-5)
+       fix: give each section one h2, first in its .wrap, and the hero only its h1
+  FAIL container-edges  div.app-shell.desk-shell > div.main > header.topbar "Advanced tools/Investment botsFind a   [1440]
+       the nav's content runs 272px from the left and 34px from the right (read from its outermost blocks: no .wrap): 272 and 34px are not one margin; the margin is 64-120px at 1440px (one container, equal margins, 2px either w
+       fix: use one container on every section and the nav (.wrap): one margin left and right, 64-120px on a desktop, 16-24px on a phone
+  FAIL container-edges  main#desk-main > section.desk-page-guide "Follow four paper stock portfolios with "  [1440]
+       the content of section 1 runs 273px from the left and 35px from the right (read from its outermost blocks: no .wrap): 273 and 35px are not one margin; the margin is 64-120px at 1440px (one container, equal margins, 2px e
+       fix: use one container on every section and the nav (.wrap): one margin left and right, 64-120px on a desktop, 16-24px on a phone
+  FAIL container-edges  main#desk-main > div.bots.investment-bots "F&O botsInvestment botsNSE CASH EQUITY ·"  [1440]
+       the content of section 2 runs 272px from the left and 34px from the right (read from its outermost blocks: no .wrap): 272 and 34px are not one margin; the margin is 64-120px at 1440px (one container, equal margins, 2px e
+       fix: use one container on every section and the nav (.wrap): one margin left and right, 64-120px on a desktop, 16-24px on a phone
+  FAIL container-edges  div.app-shell.desk-shell "Skip to contentTradingDeskRESEARCH & PRA"  [1440]
+       a <div> at the top of the page, outside header.nav, main, footer.closing and nav.actionbar (SR-6)
+       fix: build the page as header.nav, a main of sections (each one in-flow .wrap plus background layers) and footer.closing
+  FAIL container-edges  section.panel.bot-detail > div.bot-detail-body > div.bot-exports > a:nth-of-type(1) "Expor  [1440]
+       1 text block starts on a left line at x 664, 391px from the container's left: text starts on the container's left, or on one split line (x 755, 852, 948) (SR-6)
+       fix: start the text on the container's left, or on the one split line every split shares
+  FAIL container-edges  div.bot-workspace > section.panel.bot-detail > div.panel-header > h2 "C0-R · Volatility-ad  [1440]
+       the h2 starts 385px right of the container's left: every h1 and h2 starts on it, 2px either way (and 3 more like it: x 398, x 296, x 290) (SR-6)
+       fix: start the text on the container's left, or on the one split line every split shares
+  FAIL container-edges  main#desk-main > div.bots.investment-bots > div.bot-workspace > section.panel.bot-detail "  [1440]
+       a box over half the container wide runs 642-1406px, not on the container's lines at 272-1406px (SR-6)
+       fix: run the picture or box from the container's left line to its right line, or put it in a row or a split
+  FAIL row-lines        div.bot-workspace > section.panel.bot-detail > div.bot-detail-body > dl.investment-metrics  [1440]
+       a row of 3 items: its first item starts at 663px, the container's left line at 272px; its last item ends at 1385px, the container's right line at 1406px (2px either way) (SR-7)
+       fix: start the row's first item on the container's left line and end its last on the right line, every item one height
+  FAIL row-lines        main#desk-main > div.bots.investment-bots > section.paper-policy > dl "New buys per tradin  [1440]
+       a row of 3 items: its first item starts at 295px, the container's left line at 272px; its last item ends at 1385px, the container's right line at 1406px (2px either way) (SR-7)
+       fix: start the row's first item on the container's left line and end its last on the right line, every item one height
+  FAIL flush            div.bots.investment-bots > div.bot-heading > div:nth-of-type(1) > p.bot-eyebrow "NSE CASH   [390]
+       its first line sits 11px under the top edge of div.bot-heading, where the ground changes
+       fix: give the section its padding at the edge where the ground changes (the closing call keeps a clear gap above the footer)
+  FAIL flush            main#desk-main > div.bots.investment-bots > div.bot-global-controls > button.bot-start "St  [390]
+       its first line sits 0px under the top edge of div.bot-global-controls, where the ground changes
+       fix: give the section its padding at the edge where the ground changes (the closing call keeps a clear gap above the footer)
+  FAIL flush            main#desk-main > div.bots.investment-bots > div.bot-global-controls > button:nth-of-type(3  [390]
+       its button sits 0px above the rule on top of section.paper-policy
+       fix: give the section its padding at the edge where the ground changes (the closing call keeps a clear gap above the footer)
+  FAIL flush            div.bot-workspace > section.panel.bot-detail > div.panel-header > h2 "C0-R · Volatility-ad  [390]
+       its first line sits 11px under the top edge of section.panel.bot-detail, where the ground changes
+       fix: give the section its padding at the edge where the ground changes (the closing call keeps a clear gap above the footer)
+  FAIL overlap-text     main#desk-main > div.bots.investment-bots > div.bot-workspace > section.panel.bot-detail "  [390]
+       lies over the text "Five staggered momentum books" (button.bot-card:nth-of-type(3) > p:nth-of-type(1))
+       fix: move the box off the text (or the text off the box)
+  FAIL no-visual        main#desk-main > div.bots.investment-bots > section.paper-policy "Gradual paper deployment  [390]
+       no picture, effect or mock in this section; a feature section needs a visual
+       fix: give the section a visual: a UI fragment on a ground, real icons, or a photograph that fits
+  FAIL no-visual        main#desk-main > div.bots.investment-bots > div.bot-workspace > div.bot-list "C0-R PAPER V  [390]
+       no picture, effect or mock in this section; a feature section needs a visual
+       fix: give the section a visual: a UI fragment on a ground, real icons, or a photograph that fits
+  FAIL no-visual        main#desk-main > div.bots.investment-bots > div.bot-workspace > section.panel.bot-detail "  [390]
+       no picture, effect or mock in this section; a feature section needs a visual
+       fix: give the section a visual: a UI fragment on a ground, real icons, or a photograph that fits
+  FAIL button-styles    main#desk-main > div.bots.investment-bots > div.bot-global-controls > button:nth-of-type(3  [390]
+       one button style (soft, fill #1a2330, outline #243041) in 2 heights: 33, 44px ("Run paper cycle" 44px, "View original run archive" 33px)
+       fix: one primary and one secondary button: one shape, one height per size, one label size
+  FAIL section-gaps     main#desk-main > section.desk-page-guide / main#desk-main > div.bots.investment-bots > div  [390]
+       109px between these sections, +88% against the median 58px of gaps at a change of ground
+       fix: use one gap between sections (all within 25% of each other)
+  FAIL container        page  [1440, 390]
+       no .wrap
+       fix: put the content in one .wrap
+  33 WARN (not blocking), first: flush section.desk-page-guide > details > summ; flush div.bots.investment-bots > div.bot-headi; flush section.paper-policy > div.paper-policy-; flush main#desk-main > div.bots.investment-bot; flush main#desk-main > div.bots.investment-bot
+A FAIL you judge false: add {"check": "<id>", "target": "<its where, enough to name that one finding>", "reason": "<why, 12+ characters>"} to .taste-skill/waivers.json (one finding each, 5 at most, never for kit-edited or checker-gaming); it goes in your report. Never edit the kit's files or hide the page from the checker.
+GATE: FAIL 50 (round 2 of 3)

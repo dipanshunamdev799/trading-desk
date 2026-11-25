@@ -1,0 +1,239 @@
+{
+  "experiment": "NIFTY pre-market ensemble v1",
+  "target_date": "2026-11-17",
+  "issued_at": "2026-11-17T00:38:26.366320+05:30",
+  "input_freeze_times": [
+    "2026-11-17T00:33:17.687726+05:30",
+    "2026-11-17T00:34:15.755857+05:30"
+  ],
+  "input_manifests": {
+    "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\nifty_forecast\\2026-11-17\\inputs-v2\\manifest.json": "292fec90c23e694b0578bfe88e40559e7ef973f879ac0d6b82da1680169d192f",
+    "C:\\Users\\ME\\Desktop\\trading-desk\\artifacts\\nifty_forecast\\2026-11-17\\supplement-v1\\manifest.json": "408d52997a241b4a24a8da24a08c07bffd06bebf0bf87dcff354910e77a30129"
+  },
+  "source_code_hashes": {
+    "engine.py": "bc13317fe1aae02f10d0ac1e102754cbff49e6163f9d0a4d30a803dd07089e8d",
+    "PROTOCOL.md": "1c7e8014b7712899c0b526de6d09c7866e3c2d0dc1cbecc54eb696e109827391"
+  },
+  "features": [
+    "return1_risk_scaled",
+    "return2_risk_scaled",
+    "return5_risk_scaled",
+    "return10_risk_scaled",
+    "return20_risk_scaled",
+    "ema10_distance",
+    "ema20_distance",
+    "ema50_distance",
+    "ema200_distance",
+    "rsi14",
+    "daily_range",
+    "body",
+    "close_location",
+    "previous_gap",
+    "realized_vol20",
+    "vol_ratio5_20",
+    "atr_pct",
+    "bank_nifty_relative1",
+    "bank_nifty_relative5",
+    "nifty_auto_relative1",
+    "nifty_auto_relative5",
+    "nifty_energy_relative1",
+    "nifty_energy_relative5",
+    "nifty_financial_relative1",
+    "nifty_financial_relative5",
+    "nifty_fmcg_relative1",
+    "nifty_fmcg_relative5",
+    "nifty_it_relative1",
+    "nifty_it_relative5",
+    "nifty_metal_relative1",
+    "nifty_metal_relative5",
+    "nifty_pharma_relative1",
+    "nifty_pharma_relative5",
+    "nifty_psu_bank_relative1",
+    "nifty_psu_bank_relative5",
+    "nifty_realty_relative1",
+    "nifty_realty_relative5",
+    "nifty_500_relative1",
+    "nifty_500_relative5",
+    "sector_positive_fraction",
+    "sector_dispersion",
+    "vix_level",
+    "vix_change1",
+    "vix_change5",
+    "lagged_global_brent_return1",
+    "lagged_global_brent_return5",
+    "lagged_global_brent_vol20",
+    "lagged_global_dow_return1",
+    "lagged_global_dow_return5",
+    "lagged_global_dow_vol20",
+    "lagged_global_gift_nifty_return1",
+    "lagged_global_gift_nifty_return5",
+    "lagged_global_gift_nifty_vol20",
+    "lagged_global_hang_seng_return1",
+    "lagged_global_hang_seng_return5",
+    "lagged_global_hang_seng_vol20",
+    "lagged_global_sp500_return1",
+    "lagged_global_sp500_return5",
+    "lagged_global_sp500_vol20",
+    "lagged_global_usdinr_return1",
+    "lagged_global_usdinr_return5",
+    "lagged_global_usdinr_vol20"
+  ],
+  "levels": {
+    "reference_close": 25291.1,
+    "reference_day": "2026-11-16",
+    "previous_session_high": 25337.6,
+    "previous_session_low": 25172.1,
+    "previous_session_open": 25206.15,
+    "prior20_high": 25424.35,
+    "prior20_low": 22372.0,
+    "median_high_excursion_level": 25392.993432924635,
+    "median_low_excursion_level": 25174.65764234516
+  },
+  "forecasts": {
+    "close_return": {
+      "up_probability": {
+        "climatology": 0.5213946117274167,
+        "yesterday": 0.55,
+        "trend20": 0.55,
+        "price_logistic": 0.5479553033110175,
+        "context_logistic": 0.5445652548010042,
+        "nonlinear64": 0.6749120654559229,
+        "analog60": 0.5746462812617471,
+        "ensemble": 0.5980412005062247
+      },
+      "prior252_mean": -3.473831577131539e-06,
+      "prior252_median": -0.00012073725637568034,
+      "prior252_quantiles": {
+        "0.1": -0.011203954556508865,
+        "0.25": -0.004676360375125782,
+        "0.5": -0.00012073725637568034,
+        "0.75": 0.005468331868912324,
+        "0.9": 0.010580828431600731
+      },
+      "analog60_mean": 8.714019512274368e-05,
+      "analog60_quantiles_unweighted": {
+        "0.1": -0.01003505292926351,
+        "0.25": -0.005070794212232055,
+        "0.5": 0.0007820236794368052,
+        "0.75": 0.005791346983738288,
+        "0.9": 0.007663535215127817
+      },
+      "training_last_target": "2026-11-16",
+      "training_n": 1260,
+      "closing_level_quantiles": {
+        "0.1": 25007.739664915876,
+        "0.25": 25172.829702116655,
+        "0.5": 25288.046421975276,
+        "0.75": 25429.400128129848,
+        "0.9": 25558.700789946455
+      }
+    },
+    "intraday_return": {
+      "up_probability": {
+        "climatology": 0.47702060221870046,
+        "yesterday": 0.55,
+        "trend20": 0.55,
+        "price_logistic": 0.43488105463007026,
+        "context_logistic": 0.536126112621759,
+        "nonlinear64": 0.5882350950761253,
+        "analog60": 0.5122445779242873,
+        "ensemble": 0.5455352618740572
+      },
+      "prior252_mean": -0.0001945194184123512,
+      "prior252_median": -0.00012168740653734078,
+      "prior252_quantiles": {
+        "0.1": -0.00842931171992003,
+        "0.25": -0.003802844234004371,
+        "0.5": -0.00012168740653734078,
+        "0.75": 0.0037528367732404533,
+        "0.9": 0.008160311370233233
+      },
+      "analog60_mean": -0.00015397681781473258,
+      "analog60_quantiles_unweighted": {
+        "0.1": -0.00849279108044847,
+        "0.25": -0.0037601780957641218,
+        "0.5": 0.0007888898473892292,
+        "0.75": 0.0037862782929709016,
+        "0.9": 0.007014365852171501
+      },
+      "training_last_target": "2026-11-16",
+      "training_n": 1260
+    }
+  },
+  "provisional_reference": true,
+  "provisional_bars": [
+    {
+      "factor": "bank_nifty",
+      "day": "2026-11-16",
+      "reported_at": "2026-11-16T10:30:00+00:00",
+      "basis": "Post-close quote OHLC; daily endpoint still ends on prior session"
+    },
+    {
+      "factor": "india_vix",
+      "day": "2026-11-16",
+      "reported_at": "2026-11-16T10:30:00+00:00",
+      "basis": "Post-close quote OHLC; daily endpoint still ends on prior session"
+    },
+    {
+      "factor": "nifty_auto",
+      "day": "2026-11-16",
+      "reported_at": "2026-11-16T10:30:00+00:00",
+      "basis": "Post-close quote OHLC; daily endpoint still ends on prior session"
+    },
+    {
+      "factor": "nifty_energy",
+      "day": "2026-11-16",
+      "reported_at": "2026-11-16T10:30:00+00:00",
+      "basis": "Post-close quote OHLC; daily endpoint still ends on prior session"
+    },
+    {
+      "factor": "nifty_financial",
+      "day": "2026-11-16",
+      "reported_at": "2026-11-16T10:30:00+00:00",
+      "basis": "Post-close quote OHLC; daily endpoint still ends on prior session"
+    },
+    {
+      "factor": "nifty_it",
+      "day": "2026-11-16",
+      "reported_at": "2026-11-16T10:30:00+00:00",
+      "basis": "Post-close quote OHLC; daily endpoint still ends on prior session"
+    },
+    {
+      "factor": "nifty_metal",
+      "day": "2026-11-16",
+      "reported_at": "2026-11-16T10:30:00+00:00",
+      "basis": "Post-close quote OHLC; daily endpoint still ends on prior session"
+    },
+    {
+      "factor": "nifty_psu_bank",
+      "day": "2026-11-16",
+      "reported_at": "2026-11-16T10:30:00+00:00",
+      "basis": "Post-close quote OHLC; daily endpoint still ends on prior session"
+    },
+    {
+      "factor": "nifty_realty",
+      "day": "2026-11-16",
+      "reported_at": "2026-11-16T10:30:00+00:00",
+      "basis": "Post-close quote OHLC; daily endpoint still ends on prior session"
+    },
+    {
+      "factor": "nifty_spot",
+      "day": "2026-11-16",
+      "reported_at": "2026-11-16T10:30:00+00:00",
+      "basis": "Post-close quote OHLC; daily endpoint still ends on prior session"
+    }
+  ],
+  "outcome": {
+    "official_close": null,
+    "official_open": null,
+    "close_direction_correct": null,
+    "intraday_direction_correct": null
+  },
+  "limits": [
+    "Exploratory historical reconstruction, not a vintage replay",
+    "Monday inputs reconstructed from post-close quotes while daily endpoint ends Friday",
+    "Global fitted features use safely completed daily sessions; current partial US session is commentary only",
+    "Unknown-time options and unverified cash units are not fitted predictors",
+    "Probability estimates are not independently established calibrated confidence"
+  ]
+}

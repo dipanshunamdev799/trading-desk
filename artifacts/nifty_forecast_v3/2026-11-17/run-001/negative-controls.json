@@ -1,0 +1,419 @@
+[
+  {
+    "horizon": 5,
+    "seed": 20261117,
+    "metrics": {
+      "n": 91,
+      "accuracy": 0.4065934065934066,
+      "balanced_accuracy": 0.42725918570009935,
+      "rmse": 0.024751518198062313,
+      "brier": 0.33588952427927565,
+      "log_loss": 0.9236883231503153,
+      "mae": 0.01753101448223662,
+      "median_mae": 0.017491030531574886,
+      "magnitude_mae": 0.010990696633315897,
+      "crps": 0.013112635167839665,
+      "pinball": 0.006514791888887581,
+      "bucket_brier": 0.8103052611851899,
+      "coverage50": 0.4175824175824176,
+      "coverage80": 0.7252747252747253,
+      "width50": 0.02027264715021229,
+      "width80": 0.04036827479034028,
+      "qlike": 0.4673548591629042,
+      "vol_mae": 0.04124545360870189,
+      "tail02_brier": 0.15890053366221576,
+      "tail05_brier": 4.990188342156715e-05,
+      "calibration_bins": [
+        {
+          "lo": 0,
+          "hi": 0.35,
+          "n": 14,
+          "predicted": 0.2527906247473863,
+          "observed": 0.35714285714285715
+        },
+        {
+          "lo": 0.35,
+          "hi": 0.45,
+          "n": 12,
+          "predicted": 0.3992348957843661,
+          "observed": 0.5833333333333334
+        },
+        {
+          "lo": 0.45,
+          "hi": 0.55,
+          "n": 15,
+          "predicted": 0.5038958400418373,
+          "observed": 0.6
+        },
+        {
+          "lo": 0.55,
+          "hi": 0.65,
+          "n": 13,
+          "predicted": 0.5984571390517319,
+          "observed": 0.3076923076923077
+        },
+        {
+          "lo": 0.65,
+          "hi": 1,
+          "n": 37,
+          "predicted": 0.7839892907755025,
+          "observed": 0.35135135135135137
+        }
+      ],
+      "ece": 0.27361781835014004,
+      "always_up_accuracy": 0.4175824175824176,
+      "always_down_accuracy": 0.5824175824175823
+    },
+    "direction_improvement_ci95": [
+      -0.14173925860396316,
+      -0.043995923406155185
+    ],
+    "interpretation": "Negative control for direction only; no model selection from these results"
+  },
+  {
+    "horizon": 5,
+    "seed": 20261118,
+    "metrics": {
+      "n": 91,
+      "accuracy": 0.5494505494505495,
+      "balanced_accuracy": 0.5490338164251207,
+      "rmse": 0.02219949132758735,
+      "brier": 0.28395240383587994,
+      "log_loss": 0.7907134277903294,
+      "mae": 0.016518714887984325,
+      "median_mae": 0.016516444275132096,
+      "magnitude_mae": 0.0107090979209671,
+      "crps": 0.012079135937543947,
+      "pinball": 0.00596653166654653,
+      "bucket_brier": 0.8235048039013289,
+      "coverage50": 0.3956043956043956,
+      "coverage80": 0.7472527472527473,
+      "width50": 0.020295107946112747,
+      "width80": 0.041609407087455225,
+      "qlike": 0.4673548591629042,
+      "vol_mae": 0.04124545360870189,
+      "tail02_brier": 0.15890053366221576,
+      "tail05_brier": 4.990188342156715e-05,
+      "calibration_bins": [
+        {
+          "lo": 0,
+          "hi": 0.35,
+          "n": 34,
+          "predicted": 0.18984906739934373,
+          "observed": 0.47058823529411764
+        },
+        {
+          "lo": 0.35,
+          "hi": 0.45,
+          "n": 10,
+          "predicted": 0.40203033883264866,
+          "observed": 0.5
+        },
+        {
+          "lo": 0.45,
+          "hi": 0.55,
+          "n": 9,
+          "predicted": 0.49757757193710084,
+          "observed": 0.3333333333333333
+        },
+        {
+          "lo": 0.55,
+          "hi": 0.65,
+          "n": 14,
+          "predicted": 0.6069529442032545,
+          "observed": 0.35714285714285715
+        },
+        {
+          "lo": 0.65,
+          "hi": 1,
+          "n": 24,
+          "predicted": 0.7845776832519319,
+          "observed": 0.6666666666666666
+        }
+      ],
+      "ece": 0.20143112180683145,
+      "always_up_accuracy": 0.4945054945054945,
+      "always_down_accuracy": 0.5054945054945055
+    },
+    "direction_improvement_ci95": [
+      -0.07766770671411924,
+      -0.0029321704282756246
+    ],
+    "interpretation": "Negative control for direction only; no model selection from these results"
+  },
+  {
+    "horizon": 5,
+    "seed": 20261119,
+    "metrics": {
+      "n": 91,
+      "accuracy": 0.4065934065934066,
+      "balanced_accuracy": 0.4081237911025145,
+      "rmse": 0.025838124863034603,
+      "brier": 0.35750162853543455,
+      "log_loss": 0.979604535095289,
+      "mae": 0.01914427206642544,
+      "median_mae": 0.019295376244243687,
+      "magnitude_mae": 0.01128751675827957,
+      "crps": 0.0140581295796417,
+      "pinball": 0.006990965167494422,
+      "bucket_brier": 0.8560728150837307,
+      "coverage50": 0.3516483516483517,
+      "coverage80": 0.7032967032967034,
+      "width50": 0.020446222295787485,
+      "width80": 0.03979655089463207,
+      "qlike": 0.4673548591629042,
+      "vol_mae": 0.04124545360870189,
+      "tail02_brier": 0.15890053366221576,
+      "tail05_brier": 4.990188342156715e-05,
+      "calibration_bins": [
+        {
+          "lo": 0,
+          "hi": 0.35,
+          "n": 28,
+          "predicted": 0.2382105124781342,
+          "observed": 0.6428571428571429
+        },
+        {
+          "lo": 0.35,
+          "hi": 0.45,
+          "n": 6,
+          "predicted": 0.38549063472220396,
+          "observed": 0.3333333333333333
+        },
+        {
+          "lo": 0.45,
+          "hi": 0.55,
+          "n": 11,
+          "predicted": 0.49603993786851536,
+          "observed": 0.45454545454545453
+        },
+        {
+          "lo": 0.55,
+          "hi": 0.65,
+          "n": 13,
+          "predicted": 0.6067495734489244,
+          "observed": 0.5384615384615384
+        },
+        {
+          "lo": 0.65,
+          "hi": 1,
+          "n": 33,
+          "predicted": 0.8170226912062826,
+          "observed": 0.36363636363636365
+        }
+      ],
+      "ece": 0.3071316707707965,
+      "always_up_accuracy": 0.4835164835164835,
+      "always_down_accuracy": 0.5164835164835164
+    },
+    "direction_improvement_ci95": [
+      -0.14148195554428206,
+      -0.061696911282072026
+    ],
+    "interpretation": "Negative control for direction only; no model selection from these results"
+  },
+  {
+    "horizon": 21,
+    "seed": 20261117,
+    "metrics": {
+      "n": 75,
+      "accuracy": 0.4533333333333333,
+      "balanced_accuracy": 0.467296511627907,
+      "rmse": 0.05270556405302635,
+      "brier": 0.3448184659783724,
+      "log_loss": 0.9565082116928566,
+      "mae": 0.039763827652146526,
+      "median_mae": 0.03983872301545502,
+      "magnitude_mae": 0.0223896003567013,
+      "crps": 0.030122523322028562,
+      "pinball": 0.015126474663349139,
+      "bucket_brier": 0.883611791787332,
+      "coverage50": 0.30666666666666664,
+      "coverage80": 0.5866666666666667,
+      "width50": 0.034317686410777835,
+      "width80": 0.0714722595938115,
+      "qlike": 0.16929097562066697,
+      "vol_mae": 0.022866695237659444,
+      "tail02_brier": 0.3820961934574085,
+      "tail05_brier": 0.17961336435506584,
+      "calibration_bins": [
+        {
+          "lo": 0,
+          "hi": 0.35,
+          "n": 20,
+          "predicted": 0.19778717147027,
+          "observed": 0.45
+        },
+        {
+          "lo": 0.35,
+          "hi": 0.45,
+          "n": 8,
+          "predicted": 0.391781916672463,
+          "observed": 0.5
+        },
+        {
+          "lo": 0.45,
+          "hi": 0.55,
+          "n": 8,
+          "predicted": 0.5135023759857831,
+          "observed": 0.75
+        },
+        {
+          "lo": 0.55,
+          "hi": 0.65,
+          "n": 7,
+          "predicted": 0.6091183396368336,
+          "observed": 0.2857142857142857
+        },
+        {
+          "lo": 0.65,
+          "hi": 1,
+          "n": 32,
+          "predicted": 0.7962062037433308,
+          "observed": 0.34375
+        }
+      ],
+      "ece": 0.3272587883543074,
+      "always_up_accuracy": 0.4266666666666667,
+      "always_down_accuracy": 0.5733333333333333
+    },
+    "direction_improvement_ci95": null,
+    "interpretation": "Negative control for direction only; no model selection from these results"
+  },
+  {
+    "horizon": 21,
+    "seed": 20261118,
+    "metrics": {
+      "n": 75,
+      "accuracy": 0.5333333333333333,
+      "balanced_accuracy": 0.5337837837837838,
+      "rmse": 0.048420766073134704,
+      "brier": 0.28088859897001245,
+      "log_loss": 0.7741009255477028,
+      "mae": 0.03744126285890068,
+      "median_mae": 0.03742037058495714,
+      "magnitude_mae": 0.022599887864433878,
+      "crps": 0.02781857295340364,
+      "pinball": 0.013927025059204881,
+      "bucket_brier": 0.8673237461118951,
+      "coverage50": 0.28,
+      "coverage80": 0.5866666666666667,
+      "width50": 0.034144996247023135,
+      "width80": 0.07183790084703243,
+      "qlike": 0.16929097562066697,
+      "vol_mae": 0.022866695237659444,
+      "tail02_brier": 0.3820961934574085,
+      "tail05_brier": 0.17961336435506584,
+      "calibration_bins": [
+        {
+          "lo": 0,
+          "hi": 0.35,
+          "n": 19,
+          "predicted": 0.2145365867889575,
+          "observed": 0.5263157894736842
+        },
+        {
+          "lo": 0.35,
+          "hi": 0.45,
+          "n": 10,
+          "predicted": 0.37914477954779924,
+          "observed": 0.4
+        },
+        {
+          "lo": 0.45,
+          "hi": 0.55,
+          "n": 12,
+          "predicted": 0.49276102314332987,
+          "observed": 0.4166666666666667
+        },
+        {
+          "lo": 0.55,
+          "hi": 0.65,
+          "n": 15,
+          "predicted": 0.5996797923521906,
+          "observed": 0.4
+        },
+        {
+          "lo": 0.65,
+          "hi": 1,
+          "n": 19,
+          "predicted": 0.7687276029366485,
+          "observed": 0.631578947368421
+        }
+      ],
+      "ece": 0.16862014232441272,
+      "always_up_accuracy": 0.49333333333333335,
+      "always_down_accuracy": 0.5066666666666666
+    },
+    "direction_improvement_ci95": null,
+    "interpretation": "Negative control for direction only; no model selection from these results"
+  },
+  {
+    "horizon": 21,
+    "seed": 20261119,
+    "metrics": {
+      "n": 75,
+      "accuracy": 0.37333333333333335,
+      "balanced_accuracy": 0.375,
+      "rmse": 0.052089598157820584,
+      "brier": 0.3285011668261516,
+      "log_loss": 0.8791654807597812,
+      "mae": 0.04054512498788003,
+      "median_mae": 0.04054809933729959,
+      "magnitude_mae": 0.023103040725179696,
+      "crps": 0.030382844483083826,
+      "pinball": 0.01523726708804673,
+      "bucket_brier": 0.9180756251907957,
+      "coverage50": 0.29333333333333333,
+      "coverage80": 0.5333333333333333,
+      "width50": 0.03423084994770427,
+      "width80": 0.07100803456108944,
+      "qlike": 0.16929097562066697,
+      "vol_mae": 0.022866695237659444,
+      "tail02_brier": 0.3820961934574085,
+      "tail05_brier": 0.17961336435506584,
+      "calibration_bins": [
+        {
+          "lo": 0,
+          "hi": 0.35,
+          "n": 26,
+          "predicted": 0.2419532652323347,
+          "observed": 0.6153846153846154
+        },
+        {
+          "lo": 0.35,
+          "hi": 0.45,
+          "n": 4,
+          "predicted": 0.3901055267187327,
+          "observed": 0.5
+        },
+        {
+          "lo": 0.45,
+          "hi": 0.55,
+          "n": 9,
+          "predicted": 0.5140848444291546,
+          "observed": 0.4444444444444444
+        },
+        {
+          "lo": 0.55,
+          "hi": 0.65,
+          "n": 11,
+          "predicted": 0.5900484016322549,
+          "observed": 0.18181818181818182
+        },
+        {
+          "lo": 0.65,
+          "hi": 1,
+          "n": 25,
+          "predicted": 0.7934733980035757,
+          "observed": 0.48
+        }
+      ],
+      "ece": 0.3080389861998794,
+      "always_up_accuracy": 0.48,
+      "always_down_accuracy": 0.52
+    },
+    "direction_improvement_ci95": null,
+    "interpretation": "Negative control for direction only; no model selection from these results"
+  }
+]

@@ -1,0 +1,27 @@
+INFO:     Started server process [8792]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:63998 - "WebSocket /market/live" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:60078 - "WebSocket /market/live" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:54717 - "WebSocket /market/live" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:60225 - "WebSocket /market/live" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:64624 - "WebSocket /market/live" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:59710 - "WebSocket /market/live" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:57877 - "WebSocket /market/live" [accepted]
+INFO:     connection open
+  [warn] daily candles: HTTP 400: [{'errorCode': 'UDAPI1148', 'message': 'Invalid date range', 'propertyPath': None, 'invalidValue': None, 'error_code': 'UDAPI1148', 'property_path': None, 'invalid_value': None}]
+  [warn] daily candles: HTTP 400: [{'errorCode': 'UDAPI1148', 'message': 'Invalid date range', 'propertyPath': None, 'invalidValue': None, 'error_code': 'UDAPI1148', 'property_path': None, 'invalid_value': None}]
+  [warn] daily candles: HTTP 400: [{'errorCode': 'UDAPI1148', 'message': 'Invalid date range', 'propertyPath': None, 'invalidValue': None, 'error_code': 'UDAPI1148', 'property_path': None, 'invalid_value': None}]
+  [warn] daily candles: HTTP 400: [{'errorCode': 'UDAPI1148', 'message': 'Invalid date range', 'propertyPath': None, 'invalidValue': None, 'error_code': 'UDAPI1148', 'property_path': None, 'invalid_value': None}]
+  [warn] daily candles: HTTP 400: [{'errorCode': 'UDAPI1148', 'message': 'Invalid date range', 'propertyPath': None, 'invalidValue': None, 'error_code': 'UDAPI1148', 'property_path': None, 'invalid_value': None}]
+  [warn] daily candles: HTTP 400: [{'errorCode': 'UDAPI1148', 'message': 'Invalid date range', 'propertyPath': None, 'invalidValue': None, 'error_code': 'UDAPI1148', 'property_path': None, 'invalid_value': None}]
+  [warn] daily candles: HTTP 400: [{'errorCode': 'UDAPI1148', 'message': 'Invalid date range', 'propertyPath': None, 'invalidValue': None, 'error_code': 'UDAPI1148', 'property_path': None, 'invalid_value': None}]
+INFO:     127.0.0.1:56400 - "WebSocket /market/live" [accepted]
+INFO:     connection open

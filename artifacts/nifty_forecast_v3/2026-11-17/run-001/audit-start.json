@@ -1,0 +1,14 @@
+{
+  "issued_at": "2026-11-17T09:21:09.259072+05:30",
+  "constraint": "2025-2026 only; no pre-2025 market values or fitted state in V3",
+  "legacy_artifacts_reviewed": 223,
+  "prior_forecast_hashes": {
+    "artifacts\\nifty_forecast\\2026-11-17\\adaptive-v1\\forecast.json": "58939cd43f65379bf9190fdc6edd7a1ef8bcef735ab448c331ccf05b65216fb2",
+    "artifacts\\nifty_forecast\\2026-11-17\\adaptive-v2\\forecast.json": "701d6ca108f934ffe83738a38fadfdc67094a234494813d766cd2c591c2d0e71",
+    "artifacts\\nifty_forecast\\2026-11-17\\horizons-v1\\forecast.json": "9d68613ee6e57271c3181a87fd4b1eba41075f46e99929a58a94e1f43bd7f99c",
+    "artifacts\\nifty_forecast\\2026-11-17\\horizons-v2\\forecast.json": "73d184c9294b12b3669c8d0706c7f00cb322ad2728f81ae3bd8a40b70abbd770",
+    "artifacts\\nifty_forecast\\2026-11-17\\run-v2\\forecast.json": "deebf91c82b27cfe4832c4cf160ae1945ee304e44fac3743c909ec72d57047c5",
+    "artifacts\\nifty_forecast\\2026-11-17\\run-v3\\forecast.json": "43441f1d1af75cd8f036e19b7a0664c83604be458c562191e786c972d4152f10",
+    "artifacts\\nifty_forecast\\2026-11-17\\two-year-v1\\forecast.json": "513a3348aba26a88e0082fabc7a0b0f5cf00a0d8dd418ada51505400d947967c"
+  }
+}

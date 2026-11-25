@@ -1,0 +1,122 @@
+{
+  "tomorrow_calendar": {
+    "ok": true,
+    "timings": [
+      {
+        "exchange": "NSCOM",
+        "start_time": 1794799800000,
+        "end_time": 1794853500000
+      },
+      {
+        "exchange": "NFO",
+        "start_time": 1794800700000,
+        "end_time": 1794823800000
+      },
+      {
+        "exchange": "BSE",
+        "start_time": 1794800700000,
+        "end_time": 1794823200000
+      },
+      {
+        "exchange": "BFO",
+        "start_time": 1794800700000,
+        "end_time": 1794823800000
+      },
+      {
+        "exchange": "NSE",
+        "start_time": 1794800700000,
+        "end_time": 1794823200000
+      },
+      {
+        "exchange": "NSE_EG",
+        "start_time": 1794799800000,
+        "end_time": 1794853500000
+      },
+      {
+        "exchange": "CDS",
+        "start_time": 1794799800000,
+        "end_time": 1794828600000
+      },
+      {
+        "exchange": "BCD",
+        "start_time": 1794799800000,
+        "end_time": 1794828600000
+      },
+      {
+        "exchange": "MCX",
+        "start_time": 1794799800000,
+        "end_time": 1794853500000
+      }
+    ]
+  },
+  "nifty_5minute_history": {
+    "ok": true,
+    "bars": 300,
+    "latest": "2026-11-13T15:25:00+05:30"
+  },
+  "stock_v3_quote": {
+    "ok": true,
+    "quotes": 1,
+    "fields": [
+      "ohlc",
+      "depth",
+      "timestamp",
+      "instrument_token",
+      "symbol",
+      "last_price",
+      "volume",
+      "average_price",
+      "oi",
+      "net_change",
+      "total_buy_quantity",
+      "total_sell_quantity",
+      "lower_circuit_limit",
+      "upper_circuit_limit",
+      "last_trade_time",
+      "oi_day_high",
+      "oi_day_low",
+      "prev_close_price",
+      "year_high",
+      "year_low",
+      "previous_oi",
+      "indicative_equilibrium_price",
+      "reference_price",
+      "indicative_equilibrium_quantity",
+      "indicative_imbalance_quantity_total",
+      "indicative_imbalance_quantity_market",
+      "cas_eligible"
+    ]
+  },
+  "nifty_contracts": {
+    "ok": true,
+    "contracts": 2242,
+    "eligible_next_expiry": "2026-11-17"
+  },
+  "option_v2_quotes": {
+    "ok": true,
+    "quotes": 2
+  },
+  "paper_sizing_examples": [
+    {
+      "type": "CE",
+      "expiry": "2026-11-17",
+      "strike": 25150.0,
+      "lot": 65,
+      "retained_ask": 137.75,
+      "estimated_no_stop_one_lot_budget": 9067.78,
+      "default_budget": 1250,
+      "last_trade_time": "1794564599958"
+    },
+    {
+      "type": "PE",
+      "expiry": "2026-11-17",
+      "strike": 25150.0,
+      "lot": 65,
+      "retained_ask": 137.6,
+      "estimated_no_stop_one_lot_budget": 9058.01,
+      "default_budget": 1250,
+      "last_trade_time": "1794564599954"
+    }
+  ],
+  "token_expiry_unverified_claim": "2027-09-16T22:00:00+00:00"
+}
