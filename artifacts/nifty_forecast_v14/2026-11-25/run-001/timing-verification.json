@@ -1,0 +1,50 @@
+{
+  "sentinels": [
+    {
+      "horizon": 5,
+      "origin": "2025-10-14",
+      "mature": 127,
+      "exact_feature_copy": true,
+      "changed_unmatured_labels_no_effect": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-12-16",
+      "mature": 170,
+      "exact_feature_copy": true,
+      "changed_unmatured_labels_no_effect": true
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-03-18",
+      "mature": 180,
+      "exact_feature_copy": true,
+      "changed_unmatured_labels_no_effect": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2025-12-01",
+      "mature": 143,
+      "exact_feature_copy": true,
+      "changed_unmatured_labels_no_effect": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-02-02",
+      "mature": 180,
+      "exact_feature_copy": true,
+      "changed_unmatured_labels_no_effect": true
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-05-08",
+      "mature": 180,
+      "exact_feature_copy": true,
+      "changed_unmatured_labels_no_effect": true
+    }
+  ],
+  "signal_fits": 496,
+  "calibration_rows": 154240,
+  "earlier_foreign_clocks": 1145,
+  "extra_market_clocks": 806
+}

@@ -1,0 +1,147 @@
+{
+  "timestamp": "2026-11-25T01:23:06.806181+05:30",
+  "vintage": "2026-11-17",
+  "first_observation": "2025-01-01",
+  "frequency": "observed NSE cash sessions",
+  "reference": "official origin close; next session 09:10 IST cutoff",
+  "horizons": [
+    5,
+    21
+  ],
+  "original_n": {
+    "5": 265,
+    "21": 217
+  },
+  "earliest_only_mature": "target endpoint strictly before origin",
+  "fixed_barriers": [
+    0.005,
+    0.01,
+    0.02,
+    0.03,
+    0.05
+  ],
+  "iv_relative_barriers": [
+    0.5,
+    1.0,
+    1.5,
+    2.0
+  ],
+  "coverage": [
+    0.5,
+    0.8,
+    0.9,
+    0.95
+  ],
+  "quantiles": [
+    0.025,
+    0.05,
+    0.1,
+    0.25,
+    0.5,
+    0.75,
+    0.9,
+    0.95,
+    0.975
+  ],
+  "main_paths": 2048,
+  "random_seed": 141125,
+  "session_steps": 24,
+  "convergence_paths": [
+    512,
+    2048,
+    8192
+  ],
+  "convergence_steps": [
+    12,
+    24,
+    48,
+    96
+  ],
+  "block_resamples": 1600,
+  "block_lengths": [
+    5,
+    10,
+    21,
+    42
+  ],
+  "risks": [
+    "garch_gauss",
+    "gjr_gauss",
+    "gjr_student",
+    "gjr_skew",
+    "egarch_student",
+    "gjr_ivx",
+    "gjr_vixx",
+    "gjr_t_short",
+    "gjr_t_perturbed",
+    "blend_gjr_iv",
+    "latent_kalman",
+    "latent_iv",
+    "two_state",
+    "component_risk",
+    "har",
+    "har_iv",
+    "intraday_har",
+    "overnight_decomposition",
+    "offshore_gap"
+  ],
+  "paths": [
+    "constant_iv",
+    "calibrated_iv",
+    "gjr_gauss",
+    "gjr_iv",
+    "gjr_student",
+    "gjr_skew",
+    "latent_sv",
+    "regime_state",
+    "historical_innov",
+    "separate_gap",
+    "jump_diffusion",
+    "jump_1m",
+    "jump_shift",
+    "jump_no_episode",
+    "widened_gauss",
+    "trend_persistent",
+    "trend_shrink",
+    "simple_drift",
+    "iv_scaled_blocks",
+    "trend_blocks",
+    "intraday_blocks",
+    "path_mixture",
+    "joint_pit",
+    "joint_tail_width"
+  ],
+  "events": [
+    "historical",
+    "persist",
+    "iv_raw",
+    "gjr_control",
+    "iv_scaled_hist",
+    "domestic",
+    "surface",
+    "surface_lag5",
+    "surface_shift21",
+    "surface_permuted",
+    "surface_liquid",
+    "surface_truncated",
+    "intraday",
+    "jump_1m",
+    "jump_shift21",
+    "offshore_opening",
+    "domestic_global_interaction",
+    "markov_state",
+    "gaussian_process",
+    "student_process",
+    "empirical_joint",
+    "calibrated_joint",
+    "logistic_barrier"
+  ],
+  "calibration": [
+    "asymmetric normalized residual",
+    "rolling conformal-style",
+    "risk-conditioned intervals",
+    "reweight complete paths by rolling PIT ranks",
+    "learn modest width from matured outcomes"
+  ],
+  "search": "Run both horizons on pre-existing origins. Keep exact denominators. Re-evaluate against the strongest relevant V13 baselines. Use separate direction, endpoint, variance, path, passage, calibration and joint-quality losses. Representative fixed-budget null selects within family; extend only to audit an identified mechanism."
+}

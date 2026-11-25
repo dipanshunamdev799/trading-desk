@@ -1,0 +1,3964 @@
+[
+  {
+    "origin": "2025-10-14",
+    "fit_first": "2025-01-02",
+    "fit_last": "2025-10-14",
+    "method": "garch_gauss",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "normal",
+      "omega": 0.006327292291491257,
+      "alpha": 0.07420070059789122,
+      "beta": 0.9146365269600246,
+      "gamma": 3.88569998135574e-18,
+      "xi": 3.88569998135574e-18,
+      "nu": 8.0,
+      "skew": 0.0,
+      "exog": "none",
+      "initial": 0.79249299511728,
+      "ok": true,
+      "objective": 1.1242057095321967,
+      "raw_parameters": [
+        -5.062882892398882,
+        2.4882468440884224,
+        5.0,
+        -15.0,
+        -15.0,
+        8.0,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2025-10-14",
+    "fit_first": "2025-01-02",
+    "fit_last": "2025-10-14",
+    "method": "gjr_gauss",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "normal",
+      "omega": 0.04738084552166238,
+      "alpha": 0.06681178165097731,
+      "beta": 0.7938894794380307,
+      "gamma": 0.11664576835014766,
+      "xi": 1.1130404054956086e-17,
+      "nu": 8.0,
+      "skew": 0.0,
+      "exog": "none",
+      "initial": 0.79249299511728,
+      "ok": true,
+      "objective": 1.1143980270839227,
+      "raw_parameters": [
+        -3.049537234871209,
+        1.3309753640631246,
+        3.806040183947852,
+        1.8882376483942531,
+        -15.0,
+        8.0,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    }
+  },
+  {
+    "origin": "2025-10-14",
+    "fit_first": "2025-01-02",
+    "fit_last": "2025-10-14",
+    "method": "gjr_student",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "student",
+      "omega": 0.10870763932141536,
+      "alpha": 0.04988100841536098,
+      "beta": 0.6149349951002322,
+      "gamma": 0.31452473214187515,
+      "xi": 9.873349005766831e-18,
+      "nu": 9.904332581532787,
+      "skew": 0.0,
+      "exog": "none",
+      "initial": 0.79249299511728,
+      "ok": true,
+      "objective": 1.0826306632006129,
+      "raw_parameters": [
+        -2.2190932083785593,
+        1.1585776248257058,
+        3.6704538505865916,
+        3.0,
+        -15.0,
+        9.904332581532787,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2025-10-14",
+    "fit_first": "2025-01-02",
+    "fit_last": "2025-10-14",
+    "method": "gjr_skew",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "skew",
+      "omega": 0.10999598433344257,
+      "alpha": 0.048792034706551926,
+      "beta": 0.611600811300401,
+      "gamma": 0.31873811754346626,
+      "xi": 1.0005612768563542e-17,
+      "nu": 10.059211955480208,
+      "skew": 0.014045992557722108,
+      "exog": "none",
+      "initial": 0.79249299511728,
+      "ok": true,
+      "objective": 1.0825797441251013,
+      "raw_parameters": [
+        -2.2073114199156962,
+        1.123197258827571,
+        3.6517099830925095,
+        3.0,
+        -15.0,
+        10.059211955480208,
+        0.014045992557722108
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2025-10-14",
+    "fit_first": "2025-01-02",
+    "fit_last": "2025-10-14",
+    "method": "egarch_student",
+    "parameters": {
+      "form": "egarch",
+      "distribution": "student",
+      "mu": -0.6414456792470373,
+      "beta": 0.8529308891832971,
+      "alpha": 0.36232099009969687,
+      "leverage": -0.18351887569765526,
+      "nu": 9.542033138996093,
+      "skew": 0.0,
+      "exog": "none",
+      "initial": 0.79249299511728,
+      "ok": true,
+      "objective": 1.0874142592916005,
+      "raw_parameters": [
+        -0.6414456792470373,
+        0.8529308891832971,
+        0.36232099009969687,
+        -0.18351887569765526,
+        9.542033138996093
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2025-10-14",
+    "fit_first": "2025-01-02",
+    "fit_last": "2025-10-14",
+    "method": "gjr_ivx",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "student",
+      "omega": 0.09580011948935106,
+      "alpha": 0.0004908145812358532,
+      "beta": 0.026797568144769975,
+      "gamma": 0.35662473031575803,
+      "xi": 0.5382435444234149,
+      "nu": 12.744425696807111,
+      "skew": 0.0,
+      "exog": "iv",
+      "initial": 0.79249299511728,
+      "ok": true,
+      "objective": 1.074107285884656,
+      "raw_parameters": [
+        -2.3454913467268614,
+        -5.0,
+        -1.0,
+        1.5883729107881752,
+        2.0,
+        12.744425696807111,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2025-10-14",
+    "fit_first": "2025-01-02",
+    "fit_last": "2025-10-14",
+    "method": "gjr_vixx",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "student",
+      "omega": 0.07099821633881907,
+      "alpha": 0.04022140069014921,
+      "beta": 0.5780382708821179,
+      "gamma": 0.26574679298177173,
+      "xi": 0.09776278169523714,
+      "nu": 10.383683876874366,
+      "skew": 0.0,
+      "exog": "vix",
+      "initial": 0.79249299511728,
+      "ok": true,
+      "objective": 1.0801200146004286,
+      "raw_parameters": [
+        -2.6451005242448478,
+        1.1118552601026004,
+        3.7770961297314227,
+        3.0,
+        2.0,
+        10.383683876874366,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2025-10-14",
+    "fit_first": "2025-03-13",
+    "fit_last": "2025-10-14",
+    "method": "gjr_t_short",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "student",
+      "omega": 0.09555865573334028,
+      "alpha": 0.058768480460180975,
+      "beta": 0.5552073907758011,
+      "gamma": 0.36295372675566284,
+      "xi": 1.1393599456547412e-17,
+      "nu": 15.78411828990313,
+      "skew": 0.0,
+      "exog": "none",
+      "initial": 1.5877652746688833,
+      "ok": true,
+      "objective": 1.0231520355692367,
+      "raw_parameters": [
+        -2.348015023876086,
+        1.1793303129476995,
+        3.4250663693830807,
+        3.0,
+        -15.0,
+        15.78411828990313,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2025-10-14",
+    "fit_first": "2025-01-02",
+    "fit_last": "2025-10-14",
+    "method": "latent_kalman",
+    "parameters": {
+      "vector": [
+        -1.6213899659393667,
+        0.9248407144538782,
+        0.03190838094979504,
+        -0.1259097886807861,
+        0.6249011224791784
+      ],
+      "optimizer_success": true
+    }
+  },
+  {
+    "origin": "2025-10-14",
+    "fit_first": "2025-01-02",
+    "fit_last": "2025-10-14",
+    "method": "two_state",
+    "parameters": {
+      "states": [
+        0.37593170698674994,
+        1.9505897955128666
+      ],
+      "transition": [
+        [
+          0.9607676494847878,
+          0.039232350515212275
+        ],
+        [
+          0.21044477394628283,
+          0.7895552260537171
+        ]
+      ]
+    }
+  },
+  {
+    "origin": "2025-11-03",
+    "fit_first": "2025-01-02",
+    "fit_last": "2025-11-03",
+    "method": "garch_gauss",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "normal",
+      "omega": 0.0063268347097968835,
+      "alpha": 0.07190014872163566,
+      "beta": 0.9166690135885728,
+      "gamma": 4.054718249968968e-18,
+      "xi": 4.054718249968968e-18,
+      "nu": 8.0,
+      "skew": 0.0,
+      "exog": "none",
+      "initial": 0.79249299511728,
+      "ok": true,
+      "objective": 1.1035585870762663,
+      "raw_parameters": [
+        -5.062955213736344,
+        2.414173525061779,
+        4.959641654153468,
+        -15.0,
+        -15.0,
+        8.0,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2025-11-03",
+    "fit_first": "2025-01-02",
+    "fit_last": "2025-11-03",
+    "method": "gjr_gauss",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "normal",
+      "omega": 0.026664650661183658,
+      "alpha": 0.028937076251276877,
+      "beta": 0.8726814514414034,
+      "gamma": 0.08698390042590735,
+      "xi": 4.033743769373847e-18,
+      "nu": 8.0,
+      "skew": 0.0,
+      "exog": "none",
+      "initial": 0.79249299511728,
+      "ok": true,
+      "objective": 1.0940938776993145,
+      "raw_parameters": [
+        -3.6244165360398175,
+        1.509205163306469,
+        4.915652074874091,
+        2.6098045241060843,
+        -15.0,
+        8.0,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    }
+  },
+  {
+    "origin": "2025-11-03",
+    "fit_first": "2025-01-02",
+    "fit_last": "2025-11-03",
+    "method": "gjr_student",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "student",
+      "omega": 0.10818287757079699,
+      "alpha": 0.046065568170528794,
+      "beta": 0.6121890254320458,
+      "gamma": 0.32077496146049295,
+      "xi": 1.0069552003885762e-17,
+      "nu": 11.283579407227261,
+      "skew": 0.0,
+      "exog": "none",
+      "initial": 0.79249299511728,
+      "ok": true,
+      "objective": 1.065751124572062,
+      "raw_parameters": [
+        -2.2239321730516477,
+        1.0593259539533482,
+        3.646301277272276,
+        3.0,
+        -15.0,
+        11.283579407227261,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2025-11-03",
+    "fit_first": "2025-01-02",
+    "fit_last": "2025-11-03",
+    "method": "gjr_skew",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "skew",
+      "omega": 0.1082917232771925,
+      "alpha": 0.045988700006919146,
+      "beta": 0.6118309229753505,
+      "gamma": 0.3211893032193233,
+      "xi": 1.0082558741908354e-17,
+      "nu": 11.302282006997377,
+      "skew": 0.0015455791757161014,
+      "exog": "none",
+      "initial": 0.79249299511728,
+      "ok": true,
+      "objective": 1.0657505350296446,
+      "raw_parameters": [
+        -2.2229265519289676,
+        1.0563650353251668,
+        3.644425295731686,
+        3.0,
+        -15.0,
+        11.302282006997377,
+        0.0015455791757161014
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2025-11-03",
+    "fit_first": "2025-01-02",
+    "fit_last": "2025-11-03",
+    "method": "egarch_student",
+    "parameters": {
+      "form": "egarch",
+      "distribution": "student",
+      "mu": -0.6480568969206679,
+      "beta": 0.8505870658508123,
+      "alpha": 0.35415883475153187,
+      "leverage": -0.19181288870271687,
+      "nu": 11.229921481653646,
+      "skew": 0.0,
+      "exog": "none",
+      "initial": 0.79249299511728,
+      "ok": true,
+      "objective": 1.0701294270110335,
+      "raw_parameters": [
+        -0.6480568969206679,
+        0.8505870658508123,
+        0.35415883475153187,
+        -0.19181288870271687,
+        11.229921481653646
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2025-11-03",
+    "fit_first": "2025-01-02",
+    "fit_last": "2025-11-03",
+    "method": "gjr_ivx",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "student",
+      "omega": 0.09313172975808713,
+      "alpha": 0.0004887761717939311,
+      "beta": 0.026686274760230933,
+      "gamma": 0.3592759762790245,
+      "xi": 0.5360081570389496,
+      "nu": 14.725692961474282,
+      "skew": 0.0,
+      "exog": "iv",
+      "initial": 0.79249299511728,
+      "ok": true,
+      "objective": 1.057044178649839,
+      "raw_parameters": [
+        -2.373740339034811,
+        -5.0,
+        -1.0,
+        1.599941450004003,
+        2.0,
+        14.725692961474282,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2025-11-03",
+    "fit_first": "2025-01-02",
+    "fit_last": "2025-11-03",
+    "method": "gjr_vixx",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "student",
+      "omega": 0.07175471447546108,
+      "alpha": 0.037387855655768125,
+      "beta": 0.5728829957654307,
+      "gamma": 0.2738409378124105,
+      "xi": 0.09725447327360436,
+      "nu": 11.966609284806758,
+      "skew": 0.0,
+      "exog": "vix",
+      "initial": 0.79249299511728,
+      "ok": true,
+      "objective": 1.063413579213859,
+      "raw_parameters": [
+        -2.634501719525948,
+        1.008798517713808,
+        3.7381340811031696,
+        3.0,
+        1.9647835602238137,
+        11.966609284806758,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2025-11-03",
+    "fit_first": "2025-04-03",
+    "fit_last": "2025-11-03",
+    "method": "gjr_t_short",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "student",
+      "omega": 0.173492727983148,
+      "alpha": 0.03264135668523285,
+      "beta": 0.2653784355302241,
+      "gamma": 0.6639253128428791,
+      "xi": 2.0841497210158287e-17,
+      "nu": 22.0,
+      "skew": 0.0,
+      "exog": "none",
+      "initial": 1.9985087683828686,
+      "ok": true,
+      "objective": 0.9039187318126359,
+      "raw_parameters": [
+        -1.7516195941154227,
+        -0.012589568148293973,
+        2.082987203393189,
+        3.0,
+        -15.0,
+        22.0,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2025-11-03",
+    "fit_first": "2025-01-02",
+    "fit_last": "2025-11-03",
+    "method": "latent_kalman",
+    "parameters": {
+      "vector": [
+        -1.5854533690899018,
+        0.927016583189903,
+        0.02993446681653093,
+        -0.115297627115524,
+        0.6068083260782451
+      ],
+      "optimizer_success": true
+    }
+  },
+  {
+    "origin": "2025-11-03",
+    "fit_first": "2025-01-02",
+    "fit_last": "2025-11-03",
+    "method": "two_state",
+    "parameters": {
+      "states": [
+        0.36797151590278876,
+        1.928062899041372
+      ],
+      "transition": [
+        [
+          0.9633699338828583,
+          0.03663006611714177
+        ],
+        [
+          0.20799930916506157,
+          0.7920006908349385
+        ]
+      ]
+    }
+  },
+  {
+    "origin": "2025-12-01",
+    "fit_first": "2025-01-02",
+    "fit_last": "2025-12-01",
+    "method": "garch_gauss",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "normal",
+      "omega": 0.00566736970455048,
+      "alpha": 0.06720008784200193,
+      "beta": 0.9211887741477948,
+      "gamma": 4.168399707177776e-18,
+      "xi": 4.168399707177776e-18,
+      "nu": 8.0,
+      "skew": 0.0,
+      "exog": "none",
+      "initial": 0.79249299511728,
+      "ok": true,
+      "objective": 1.0685049077836077,
+      "raw_parameters": [
+        -5.173030165780611,
+        2.3189187507235602,
+        4.936909177776612,
+        -15.0,
+        -15.0,
+        8.0,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2025-12-01",
+    "fit_first": "2025-01-02",
+    "fit_last": "2025-12-01",
+    "method": "gjr_gauss",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "normal",
+      "omega": 0.12386319930150454,
+      "alpha": 0.047457681222527144,
+      "beta": 0.5337953984358448,
+      "gamma": 0.39412461136989724,
+      "xi": 1.2372094917044298e-17,
+      "nu": 8.0,
+      "skew": 0.0,
+      "exog": "none",
+      "initial": 0.79249299511728,
+      "ok": true,
+      "objective": 1.0417512011053593,
+      "raw_parameters": [
+        -2.088577553824343,
+        0.8831712604962786,
+        3.303345484736563,
+        3.0,
+        -15.0,
+        8.0,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2025-12-01",
+    "fit_first": "2025-01-02",
+    "fit_last": "2025-12-01",
+    "method": "gjr_student",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "student",
+      "omega": 0.10002270478183531,
+      "alpha": 0.04135043393684967,
+      "beta": 0.619912104925457,
+      "gamma": 0.317909670631174,
+      "xi": 9.979606719875064e-18,
+      "nu": 11.459954688621933,
+      "skew": 0.0,
+      "exog": "none",
+      "initial": 0.79249299511728,
+      "ok": true,
+      "objective": 1.0345227969331898,
+      "raw_parameters": [
+        -2.3023580709471476,
+        0.9603156278451848,
+        3.6678104139300176,
+        3.0,
+        -15.0,
+        11.459954688621933,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2025-12-01",
+    "fit_first": "2025-01-02",
+    "fit_last": "2025-12-01",
+    "method": "gjr_skew",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "skew",
+      "omega": 0.10085779657548648,
+      "alpha": 0.040697691794029746,
+      "beta": 0.6168077493537601,
+      "gamma": 0.3214885847059663,
+      "xi": 1.0091953585196094e-17,
+      "nu": 11.67720815375747,
+      "skew": 0.014493831856888028,
+      "exog": "none",
+      "initial": 0.79249299511728,
+      "ok": true,
+      "objective": 1.0344705764421107,
+      "raw_parameters": [
+        -2.2940437089385775,
+        0.9332093414734175,
+        3.6515953492838036,
+        3.0,
+        -15.0,
+        11.67720815375747,
+        0.014493831856888028
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2025-12-01",
+    "fit_first": "2025-01-02",
+    "fit_last": "2025-12-01",
+    "method": "egarch_student",
+    "parameters": {
+      "form": "egarch",
+      "distribution": "student",
+      "mu": -0.7124945923331177,
+      "beta": 0.8628110907155314,
+      "alpha": 0.3492479685663713,
+      "leverage": -0.1926048177923643,
+      "nu": 11.708489697954649,
+      "skew": 0.0,
+      "exog": "none",
+      "initial": 0.79249299511728,
+      "ok": true,
+      "objective": 1.038330110233635,
+      "raw_parameters": [
+        -0.7124945923331177,
+        0.8628110907155314,
+        0.3492479685663713,
+        -0.1926048177923643,
+        11.708489697954649
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2025-12-01",
+    "fit_first": "2025-01-02",
+    "fit_last": "2025-12-01",
+    "method": "gjr_ivx",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "student",
+      "omega": 0.078323684851747,
+      "alpha": 0.0004895636660575915,
+      "beta": 0.026729270490188504,
+      "gamma": 0.35825172622175616,
+      "xi": 0.5368717493605517,
+      "nu": 14.724653103361607,
+      "skew": 0.0,
+      "exog": "iv",
+      "initial": 0.79249299511728,
+      "ok": true,
+      "objective": 1.0260927348696356,
+      "raw_parameters": [
+        -2.546905233197752,
+        -5.0,
+        -1.0,
+        1.595476647201797,
+        2.0,
+        14.724653103361607,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2025-12-01",
+    "fit_first": "2025-01-02",
+    "fit_last": "2025-12-01",
+    "method": "gjr_vixx",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "student",
+      "omega": 0.0668057111560515,
+      "alpha": 0.034154677870379915,
+      "beta": 0.5789640446450065,
+      "gamma": 0.2782308518699434,
+      "xi": 0.08979812717057227,
+      "nu": 12.139789426341574,
+      "skew": 0.0,
+      "exog": "vix",
+      "initial": 0.79249299511728,
+      "ok": true,
+      "objective": 1.0323480846852022,
+      "raw_parameters": [
+        -2.7059667057460652,
+        0.9024483852276763,
+        3.73278920507888,
+        3.0,
+        1.8691129480219393,
+        12.139789426341574,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2025-12-01",
+    "fit_first": "2025-05-06",
+    "fit_last": "2025-12-01",
+    "method": "gjr_t_short",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "student",
+      "omega": 0.08339226767504271,
+      "alpha": 0.0010751234911990624,
+      "beta": 0.6350946701862221,
+      "gamma": 0.1992677325683346,
+      "xi": 1.0060600275583985e-16,
+      "nu": 22.0,
+      "skew": 0.0,
+      "exog": "none",
+      "initial": 1.0689320413769559,
+      "ok": true,
+      "objective": 0.7967375725715846,
+      "raw_parameters": [
+        -2.484199687644124,
+        -5.0,
+        1.3813385441718307,
+        0.22221377977325865,
+        -15.0,
+        22.0,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2025-12-01",
+    "fit_first": "2025-01-02",
+    "fit_last": "2025-12-01",
+    "method": "latent_kalman",
+    "parameters": {
+      "vector": [
+        -1.6895733062014426,
+        0.934798360359937,
+        0.02332206525061945,
+        -0.11511560725071539,
+        0.6
+      ],
+      "optimizer_success": true
+    }
+  },
+  {
+    "origin": "2025-12-01",
+    "fit_first": "2025-01-02",
+    "fit_last": "2025-12-01",
+    "method": "two_state",
+    "parameters": {
+      "states": [
+        0.3501243659744907,
+        1.872337465624597
+      ],
+      "transition": [
+        [
+          0.9659455145521897,
+          0.0340544854478103
+        ],
+        [
+          0.20327151418716757,
+          0.7967284858128325
+        ]
+      ]
+    }
+  },
+  {
+    "origin": "2026-01-01",
+    "fit_first": "2025-01-02",
+    "fit_last": "2026-01-01",
+    "method": "garch_gauss",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "normal",
+      "omega": 0.004534686423244646,
+      "alpha": 0.06312976771958267,
+      "beta": 0.9256333637349858,
+      "gamma": 3.932418439663394e-18,
+      "xi": 3.932418439663394e-18,
+      "nu": 8.0,
+      "skew": 0.0,
+      "exog": "none",
+      "initial": 0.79249299511728,
+      "ok": true,
+      "objective": 1.0309490120932219,
+      "raw_parameters": [
+        -5.395999343727524,
+        2.3147141922227723,
+        5.0,
+        -15.0,
+        -15.0,
+        8.0,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2026-01-01",
+    "fit_first": "2025-01-02",
+    "fit_last": "2026-01-01",
+    "method": "gjr_gauss",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "normal",
+      "omega": 0.018049703941326326,
+      "alpha": 0.030424353234909936,
+      "beta": 0.8935789860287932,
+      "gamma": 0.06497577288893837,
+      "xi": 3.7962400877345665e-18,
+      "nu": 8.0,
+      "skew": 0.0,
+      "exog": "none",
+      "initial": 0.79249299511728,
+      "ok": true,
+      "objective": 1.0247513513123923,
+      "raw_parameters": [
+        -4.0146259964803495,
+        1.620008649565744,
+        5.0,
+        2.3787797442348135,
+        -15.0,
+        8.0,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2026-01-01",
+    "fit_first": "2025-01-02",
+    "fit_last": "2026-01-01",
+    "method": "gjr_student",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "student",
+      "omega": 0.08499677298498128,
+      "alpha": 0.03879370625334041,
+      "beta": 0.654180571737588,
+      "gamma": 0.2877018884207064,
+      "xi": 9.031344322755826e-18,
+      "nu": 11.643759716390424,
+      "skew": 0.0,
+      "exog": "none",
+      "initial": 0.79249299511728,
+      "ok": true,
+      "objective": 1.0047852773762325,
+      "raw_parameters": [
+        -2.4651419880950782,
+        0.9963331891166657,
+        3.821458582532266,
+        3.0,
+        -15.0,
+        11.643759716390424,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2026-01-01",
+    "fit_first": "2025-01-02",
+    "fit_last": "2026-01-01",
+    "method": "gjr_skew",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "skew",
+      "omega": 0.050328432508023366,
+      "alpha": 0.005653027630883049,
+      "beta": 0.8034559267116638,
+      "gamma": 0.1760213677653686,
+      "xi": 6.2229471494635055e-18,
+      "nu": 8.352655448508383,
+      "skew": 0.010203873303518927,
+      "exog": "none",
+      "initial": 0.79249299511728,
+      "ok": true,
+      "objective": 1.0077420744856993,
+      "raw_parameters": [
+        -2.9891851029660987,
+        -0.5572759523580257,
+        4.399455114172936,
+        2.881138177560896,
+        -15.0,
+        8.352655448508383,
+        0.010203873303518927
+      ],
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    }
+  },
+  {
+    "origin": "2026-01-01",
+    "fit_first": "2025-01-02",
+    "fit_last": "2026-01-01",
+    "method": "egarch_student",
+    "parameters": {
+      "form": "egarch",
+      "distribution": "student",
+      "mu": -0.8359841940470913,
+      "beta": 0.975076488547133,
+      "alpha": 0.16340022506999616,
+      "leverage": -0.11113450400189619,
+      "nu": 10.820952247123422,
+      "skew": 0.0,
+      "exog": "none",
+      "initial": 0.79249299511728,
+      "ok": true,
+      "objective": 1.008546241386631,
+      "raw_parameters": [
+        -0.8359841940470913,
+        0.975076488547133,
+        0.16340022506999616,
+        -0.11113450400189619,
+        10.820952247123422
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2026-01-01",
+    "fit_first": "2025-01-02",
+    "fit_last": "2026-01-01",
+    "method": "gjr_ivx",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "student",
+      "omega": 0.056732436279116304,
+      "alpha": 0.0005316575837362167,
+      "beta": 0.02902752052308891,
+      "gamma": 0.3035025050749502,
+      "xi": 0.5830333352550902,
+      "nu": 16.405130945055145,
+      "skew": 0.0,
+      "exog": "iv",
+      "initial": 0.79249299511728,
+      "ok": true,
+      "objective": 0.9944091207648105,
+      "raw_parameters": [
+        -2.869409163402438,
+        -5.0,
+        -1.0,
+        1.3471455008781534,
+        2.0,
+        16.405130945055145,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2026-01-01",
+    "fit_first": "2025-01-02",
+    "fit_last": "2026-01-01",
+    "method": "gjr_vixx",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "student",
+      "omega": 0.050439975878479516,
+      "alpha": 0.029046710764135397,
+      "beta": 0.5986812209139405,
+      "gamma": 0.24914318470435737,
+      "xi": 0.10404757551514214,
+      "nu": 12.98351358552142,
+      "skew": 0.0,
+      "exog": "vix",
+      "initial": 0.79249299511728,
+      "ok": true,
+      "objective": 1.0012785018068229,
+      "raw_parameters": [
+        -2.986971246107588,
+        0.7240569987631471,
+        3.7498810195857475,
+        2.8731795187502334,
+        2.0,
+        12.98351358552142,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2026-01-01",
+    "fit_first": "2025-06-05",
+    "fit_last": "2026-01-01",
+    "method": "gjr_t_short",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "student",
+      "omega": 0.09024654164607622,
+      "alpha": 0.0016689044166947895,
+      "beta": 0.5957264588455672,
+      "gamma": 0.14991726001582142,
+      "xi": 1.5616978302461974e-16,
+      "nu": 22.0,
+      "skew": 0.0,
+      "exog": "none",
+      "initial": 0.3499775563383849,
+      "ok": true,
+      "objective": 0.7408893584097775,
+      "raw_parameters": [
+        -2.4052100022144325,
+        -5.0,
+        0.877614226807373,
+        -0.5020838312197782,
+        -15.0,
+        22.0,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2026-01-01",
+    "fit_first": "2025-01-02",
+    "fit_last": "2026-01-01",
+    "method": "latent_kalman",
+    "parameters": {
+      "vector": [
+        -1.892057275726086,
+        0.9442970956198501,
+        0.02140714303515024,
+        -0.11348405329872942,
+        0.6
+      ],
+      "optimizer_success": true
+    }
+  },
+  {
+    "origin": "2026-01-01",
+    "fit_first": "2025-01-02",
+    "fit_last": "2026-01-01",
+    "method": "two_state",
+    "parameters": {
+      "states": [
+        0.3315776207360936,
+        1.80499004919743
+      ],
+      "transition": [
+        [
+          0.9684589831867388,
+          0.03154101681326109
+        ],
+        [
+          0.19646489770673672,
+          0.8035351022932633
+        ]
+      ]
+    }
+  },
+  {
+    "origin": "2026-02-01",
+    "fit_first": "2025-01-02",
+    "fit_last": "2026-02-01",
+    "method": "garch_gauss",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "normal",
+      "omega": 0.008912704588011461,
+      "alpha": 0.06806326214293451,
+      "beta": 0.9163612246343185,
+      "gamma": 6.667984566789885e-18,
+      "xi": 6.667984566789885e-18,
+      "nu": 8.0,
+      "skew": 0.0,
+      "exog": "none",
+      "initial": 0.79249299511728,
+      "ok": true,
+      "objective": 1.0439870757666347,
+      "raw_parameters": [
+        -4.720277538328587,
+        1.8618963428662496,
+        4.461869381519485,
+        -15.0,
+        -15.0,
+        8.0,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2026-02-01",
+    "fit_first": "2025-01-02",
+    "fit_last": "2026-02-01",
+    "method": "gjr_gauss",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "normal",
+      "omega": 0.11028006815791354,
+      "alpha": 0.032447596261737044,
+      "beta": 0.5863254502077884,
+      "gamma": 0.3583840617463561,
+      "xi": 1.1250151603753523e-17,
+      "nu": 8.0,
+      "skew": 0.0,
+      "exog": "none",
+      "initial": 0.79249299511728,
+      "ok": true,
+      "objective": 1.0265872866701176,
+      "raw_parameters": [
+        -2.2047320747825396,
+        0.5980211557291795,
+        3.492269801656022,
+        3.0,
+        -15.0,
+        8.0,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2026-02-01",
+    "fit_first": "2025-01-02",
+    "fit_last": "2026-02-01",
+    "method": "gjr_student",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "student",
+      "omega": 0.060617520066692125,
+      "alpha": 0.024826613326611947,
+      "beta": 0.7584210973165544,
+      "gamma": 0.20170975213673695,
+      "xi": 6.3319369740831096e-18,
+      "nu": 9.407528799306444,
+      "skew": 0.0,
+      "exog": "none",
+      "initial": 0.79249299511728,
+      "ok": true,
+      "objective": 1.015999599167056,
+      "raw_parameters": [
+        -2.803171317679693,
+        0.9050864022974526,
+        4.324408975243056,
+        3.0,
+        -15.0,
+        9.407528799306444,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2026-02-01",
+    "fit_first": "2025-01-02",
+    "fit_last": "2026-02-01",
+    "method": "gjr_skew",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "skew",
+      "omega": 0.06907464685164465,
+      "alpha": 0.025841208290957485,
+      "beta": 0.7319496670536693,
+      "gamma": 0.2252379272152468,
+      "xi": 7.547979761876978e-18,
+      "nu": 9.413913997484672,
+      "skew": -0.004511853016942911,
+      "exog": "none",
+      "initial": 0.79249299511728,
+      "ok": true,
+      "objective": 1.0160386629802807,
+      "raw_parameters": [
+        -2.672567520720729,
+        0.7694668869714726,
+        4.113208199405871,
+        2.934653746447796,
+        -15.0,
+        9.413913997484672,
+        -0.004511853016942911
+      ],
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    }
+  },
+  {
+    "origin": "2026-02-01",
+    "fit_first": "2025-01-02",
+    "fit_last": "2026-02-01",
+    "method": "egarch_student",
+    "parameters": {
+      "form": "egarch",
+      "distribution": "student",
+      "mu": -0.7493328747548739,
+      "beta": 0.9762879985635577,
+      "alpha": 0.14144515137206237,
+      "leverage": -0.11389190768555504,
+      "nu": 10.357685392468175,
+      "skew": 0.0,
+      "exog": "none",
+      "initial": 0.79249299511728,
+      "ok": true,
+      "objective": 1.01694939640964,
+      "raw_parameters": [
+        -0.7493328747548739,
+        0.9762879985635577,
+        0.14144515137206237,
+        -0.11389190768555504,
+        10.357685392468175
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2026-02-01",
+    "fit_first": "2025-01-02",
+    "fit_last": "2026-02-01",
+    "method": "gjr_ivx",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "student",
+      "omega": 0.05743550254784456,
+      "alpha": 0.0005565903906717816,
+      "beta": 0.0303888056569043,
+      "gamma": 0.2710737876733619,
+      "xi": 0.6103754780733256,
+      "nu": 16.35923078003736,
+      "skew": 0.0,
+      "exog": "iv",
+      "initial": 0.79249299511728,
+      "ok": true,
+      "objective": 1.0013878596439876,
+      "raw_parameters": [
+        -2.8570926555693963,
+        -5.0,
+        -1.0,
+        1.1883167574291567,
+        2.0,
+        16.35923078003736,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2026-02-01",
+    "fit_first": "2025-01-02",
+    "fit_last": "2026-02-01",
+    "method": "gjr_vixx",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "student",
+      "omega": 0.04275523483837334,
+      "alpha": 0.015207674034222672,
+      "beta": 0.6138220626944799,
+      "gamma": 0.21553520702306175,
+      "xi": 0.13250275796888433,
+      "nu": 10.970632848127668,
+      "skew": 0.0,
+      "exog": "vix",
+      "initial": 0.79249299511728,
+      "ok": true,
+      "objective": 1.0122440949404532,
+      "raw_parameters": [
+        -3.152263638736436,
+        -0.16480328894869822,
+        3.533101625905946,
+        2.4865208097875238,
+        2.0,
+        10.970632848127668,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2026-02-01",
+    "fit_first": "2025-07-03",
+    "fit_last": "2026-02-01",
+    "method": "gjr_t_short",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "student",
+      "omega": 0.01897648834491368,
+      "alpha": 4.087910249468415e-05,
+      "beta": 0.9004221528215585,
+      "gamma": 0.08846997133343278,
+      "xi": 3.825312284498281e-18,
+      "nu": 22.0,
+      "skew": 0.0,
+      "exog": "none",
+      "initial": 0.23262422417093942,
+      "ok": true,
+      "objective": 0.8113705525564449,
+      "raw_parameters": [
+        -3.9645545216268747,
+        -5.0,
+        5.0,
+        2.6797994754280974,
+        -15.0,
+        22.0,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2026-02-01",
+    "fit_first": "2025-01-14",
+    "fit_last": "2026-02-01",
+    "method": "latent_kalman",
+    "parameters": {
+      "vector": [
+        -1.795055083311851,
+        0.9370276982035829,
+        0.02613885848655521,
+        -0.12729833003439825,
+        0.6
+      ],
+      "optimizer_success": true
+    }
+  },
+  {
+    "origin": "2026-02-01",
+    "fit_first": "2025-01-14",
+    "fit_last": "2026-02-01",
+    "method": "two_state",
+    "parameters": {
+      "states": [
+        0.3263911920103905,
+        1.7474067659387256
+      ],
+      "transition": [
+        [
+          0.9647946850337009,
+          0.03520531496629907
+        ],
+        [
+          0.19062282428880642,
+          0.8093771757111936
+        ]
+      ]
+    }
+  },
+  {
+    "origin": "2026-03-02",
+    "fit_first": "2025-01-02",
+    "fit_last": "2026-03-02",
+    "method": "garch_gauss",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "normal",
+      "omega": 0.009625896994760925,
+      "alpha": 0.07622169395738876,
+      "beta": 0.9097017720493418,
+      "gamma": 5.722860660500777e-18,
+      "xi": 5.722860660500777e-18,
+      "nu": 8.0,
+      "skew": 0.0,
+      "exog": "none",
+      "initial": 0.79249299511728,
+      "ok": true,
+      "objective": 1.071650393403552,
+      "raw_parameters": [
+        -4.643298208889729,
+        2.127953718840333,
+        4.607424421838147,
+        -15.0,
+        -15.0,
+        8.0,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2026-03-02",
+    "fit_first": "2025-01-02",
+    "fit_last": "2026-03-02",
+    "method": "gjr_gauss",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "normal",
+      "omega": 0.11144249967434969,
+      "alpha": 0.01895089591630869,
+      "beta": 0.5996976686061734,
+      "gamma": 0.358502640028366,
+      "xi": 1.1253873933488341e-17,
+      "nu": 8.0,
+      "skew": 0.0,
+      "exog": "none",
+      "initial": 0.79249299511728,
+      "ok": true,
+      "objective": 1.049541219430031,
+      "raw_parameters": [
+        -2.1942465190877996,
+        0.05991518420792157,
+        3.5144896184583088,
+        3.0,
+        -15.0,
+        8.0,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2026-03-02",
+    "fit_first": "2025-01-02",
+    "fit_last": "2026-03-02",
+    "method": "gjr_student",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "student",
+      "omega": 0.07411837087712447,
+      "alpha": 0.01654005285580718,
+      "beta": 0.7240831691878877,
+      "gamma": 0.24231273714563126,
+      "xi": 7.606518591047657e-18,
+      "nu": 10.169012636177127,
+      "skew": 0.0,
+      "exog": "none",
+      "initial": 0.79249299511728,
+      "ok": true,
+      "objective": 1.040618584623114,
+      "raw_parameters": [
+        -2.6020918573380416,
+        0.3155556911181914,
+        4.094677066249537,
+        3.0,
+        -15.0,
+        10.169012636177127,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2026-03-02",
+    "fit_first": "2025-01-02",
+    "fit_last": "2026-03-02",
+    "method": "gjr_skew",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "skew",
+      "omega": 0.07281339472917192,
+      "alpha": 0.017605520928461862,
+      "beta": 0.7278446036117614,
+      "gamma": 0.23771475471474388,
+      "xi": 7.462181816787064e-18,
+      "nu": 9.955001661272838,
+      "skew": -0.037061657637994,
+      "exog": "none",
+      "initial": 0.79249299511728,
+      "ok": true,
+      "objective": 1.040262246877777,
+      "raw_parameters": [
+        -2.6198553471716495,
+        0.39714109668856057,
+        4.119016123551785,
+        3.0,
+        -15.0,
+        9.955001661272838,
+        -0.037061657637994
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2026-03-02",
+    "fit_first": "2025-01-02",
+    "fit_last": "2026-03-02",
+    "method": "egarch_student",
+    "parameters": {
+      "form": "egarch",
+      "distribution": "student",
+      "mu": -0.6860225687236267,
+      "beta": 0.9788669942563668,
+      "alpha": 0.1343825652354316,
+      "leverage": -0.12730596444189768,
+      "nu": 10.84526695001213,
+      "skew": 0.0,
+      "exog": "none",
+      "initial": 0.79249299511728,
+      "ok": true,
+      "objective": 1.0414650573470146,
+      "raw_parameters": [
+        -0.6860225687236267,
+        0.9788669942563668,
+        0.1343825652354316,
+        -0.12730596444189768,
+        10.84526695001213
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2026-03-02",
+    "fit_first": "2025-01-02",
+    "fit_last": "2026-03-02",
+    "method": "gjr_ivx",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "student",
+      "omega": 0.05398018767278186,
+      "alpha": 0.0005887949864871073,
+      "beta": 0.03214711701098622,
+      "gamma": 0.22918705829601804,
+      "xi": 0.6456921056981981,
+      "nu": 16.706396709530384,
+      "skew": 0.0,
+      "exog": "iv",
+      "initial": 0.79249299511728,
+      "ok": true,
+      "objective": 1.0257822017799993,
+      "raw_parameters": [
+        -2.919138194688766,
+        -5.0,
+        -1.0,
+        0.9642157449707689,
+        2.0,
+        16.706396709530384,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2026-03-02",
+    "fit_first": "2025-01-02",
+    "fit_last": "2026-03-02",
+    "method": "gjr_vixx",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "student",
+      "omega": 0.05034716762644061,
+      "alpha": 0.0007903396567238984,
+      "beta": 0.5980128773060275,
+      "gamma": 0.23861574644644687,
+      "xi": 0.138796916573904,
+      "nu": 11.764406163951197,
+      "skew": 0.0,
+      "exog": "vix",
+      "initial": 0.79249299511728,
+      "ok": true,
+      "objective": 1.0368911399610439,
+      "raw_parameters": [
+        -2.9888129150951848,
+        -3.16830431364144,
+        3.460600454734815,
+        2.541842669711025,
+        2.0,
+        11.764406163951197,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2026-03-02",
+    "fit_first": "2025-08-01",
+    "fit_last": "2026-03-02",
+    "method": "gjr_t_short",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "student",
+      "omega": 0.031145106710010775,
+      "alpha": 4.878613088311888e-05,
+      "beta": 0.8422813035514652,
+      "gamma": 0.14542940651289638,
+      "xi": 4.565222189127162e-18,
+      "nu": 22.0,
+      "skew": 0.0,
+      "exog": "none",
+      "initial": 0.3395744539895857,
+      "ok": true,
+      "objective": 0.8814026885926951,
+      "raw_parameters": [
+        -3.469098134049412,
+        -5.0,
+        4.756423257906561,
+        3.0,
+        -15.0,
+        22.0,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2026-03-02",
+    "fit_first": "2025-02-11",
+    "fit_last": "2026-03-02",
+    "method": "latent_kalman",
+    "parameters": {
+      "vector": [
+        -1.7615550622825031,
+        0.9108184680511207,
+        0.03944878245428043,
+        -0.1617488500471167,
+        0.6
+      ],
+      "optimizer_success": true
+    }
+  },
+  {
+    "origin": "2026-03-02",
+    "fit_first": "2025-02-11",
+    "fit_last": "2026-03-02",
+    "method": "two_state",
+    "parameters": {
+      "states": [
+        0.32071035507028295,
+        1.7971812036046904
+      ],
+      "transition": [
+        [
+          0.9606480255379812,
+          0.03935197446201872
+        ],
+        [
+          0.19820186207529134,
+          0.8017981379247087
+        ]
+      ]
+    }
+  },
+  {
+    "origin": "2026-04-01",
+    "fit_first": "2025-01-15",
+    "fit_last": "2026-04-01",
+    "method": "garch_gauss",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "normal",
+      "omega": 0.010891770165521078,
+      "alpha": 0.09580335391725574,
+      "beta": 0.8929231526264328,
+      "gamma": 3.955510873606128e-18,
+      "xi": 3.955510873606128e-18,
+      "nu": 8.0,
+      "skew": 0.0,
+      "exog": "none",
+      "initial": 0.5104532470184142,
+      "ok": true,
+      "objective": 1.1361186726901187,
+      "raw_parameters": [
+        -4.519747805612402,
+        2.7259643243898593,
+        4.958167152335152,
+        -15.0,
+        -15.0,
+        8.0,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    }
+  },
+  {
+    "origin": "2026-04-01",
+    "fit_first": "2025-01-15",
+    "fit_last": "2026-04-01",
+    "method": "gjr_gauss",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "normal",
+      "omega": 0.08656003722838569,
+      "alpha": 0.020527463850953713,
+      "beta": 0.681566251763721,
+      "gamma": 0.27901494808915456,
+      "xi": 8.758649730182437e-18,
+      "nu": 8.0,
+      "skew": 0.0,
+      "exog": "none",
+      "initial": 0.5104532470184142,
+      "ok": true,
+      "objective": 1.115718160463341,
+      "raw_parameters": [
+        -2.446917033796423,
+        0.3904983318268382,
+        3.893128103265201,
+        3.0,
+        -15.0,
+        8.0,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2026-04-01",
+    "fit_first": "2025-01-15",
+    "fit_last": "2026-04-01",
+    "method": "gjr_student",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "student",
+      "omega": 0.07172588965368495,
+      "alpha": 0.02288471879482361,
+      "beta": 0.728119877850549,
+      "gamma": 0.2324237082992215,
+      "xi": 7.296088843714917e-18,
+      "nu": 11.673643406006049,
+      "skew": 0.0,
+      "exog": "none",
+      "initial": 0.5104532470184142,
+      "ok": true,
+      "objective": 1.1058004960775443,
+      "raw_parameters": [
+        -2.634903513515301,
+        0.6819073514478745,
+        4.141903667186164,
+        3.0,
+        -15.0,
+        11.673643406006049,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2026-04-01",
+    "fit_first": "2025-01-15",
+    "fit_last": "2026-04-01",
+    "method": "gjr_skew",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "skew",
+      "omega": 0.07112104924675222,
+      "alpha": 0.024520409434570935,
+      "beta": 0.7293942818259582,
+      "gamma": 0.2296516274622181,
+      "xi": 7.209069545138465e-18,
+      "nu": 11.331502709398642,
+      "skew": -0.057998440108149724,
+      "exog": "none",
+      "initial": 0.5104532470184142,
+      "ok": true,
+      "objective": 1.1049419482888805,
+      "raw_parameters": [
+        -2.6433719346970106,
+        0.7629423114592354,
+        4.1556509413317535,
+        3.0,
+        -15.0,
+        11.331502709398642,
+        -0.057998440108149724
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2026-04-01",
+    "fit_first": "2025-01-15",
+    "fit_last": "2026-04-01",
+    "method": "egarch_student",
+    "parameters": {
+      "form": "egarch",
+      "distribution": "student",
+      "mu": -0.41470508535037715,
+      "beta": 0.987,
+      "alpha": 0.1314576800153524,
+      "leverage": -0.1473404575290247,
+      "nu": 14.089524548857645,
+      "skew": 0.0,
+      "exog": "none",
+      "initial": 0.5104532470184142,
+      "ok": true,
+      "objective": 1.0999322315331475,
+      "raw_parameters": [
+        -0.41470508535037715,
+        0.987,
+        0.1314576800153524,
+        -0.1473404575290247,
+        14.089524548857645
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2026-04-01",
+    "fit_first": "2025-01-15",
+    "fit_last": "2026-04-01",
+    "method": "gjr_ivx",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "student",
+      "omega": 0.05079199246433141,
+      "alpha": 0.000432002430186425,
+      "beta": 0.25540342584910186,
+      "gamma": 0.20130153685264515,
+      "xi": 0.47374818946410896,
+      "nu": 21.004172930656487,
+      "skew": 0.0,
+      "exog": "iv",
+      "initial": 0.5104532470184142,
+      "ok": true,
+      "objective": 1.0932582968977995,
+      "raw_parameters": [
+        -2.9800165654772965,
+        -5.0,
+        1.3821684224921094,
+        1.1441280325769905,
+        2.0,
+        21.004172930656487,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2026-04-01",
+    "fit_first": "2025-01-15",
+    "fit_last": "2026-04-01",
+    "method": "gjr_vixx",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "student",
+      "omega": 0.053793337982268576,
+      "alpha": 0.012529903377120412,
+      "beta": 0.6643837612617004,
+      "gamma": 0.22437317466471463,
+      "xi": 0.08254227810951763,
+      "nu": 13.389351966024567,
+      "skew": 0.0,
+      "exog": "vix",
+      "initial": 0.5104532470184142,
+      "ok": true,
+      "objective": 1.1033623368148109,
+      "raw_parameters": [
+        -2.922605648807745,
+        0.11480743354464443,
+        4.085549312222485,
+        3.0,
+        2.0,
+        13.389351966024567,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2026-04-01",
+    "fit_first": "2025-09-01",
+    "fit_last": "2026-04-01",
+    "method": "gjr_t_short",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "student",
+      "omega": 0.039106728433861634,
+      "alpha": 5.426892060547163e-05,
+      "beta": 0.8251181368042355,
+      "gamma": 0.1617733723270141,
+      "xi": 5.078280979519251e-18,
+      "nu": 22.0,
+      "skew": 0.0,
+      "exog": "none",
+      "initial": 0.22760233991389497,
+      "ok": true,
+      "objective": 1.0763812498821408,
+      "raw_parameters": [
+        -3.241460744087889,
+        -5.0,
+        4.6293301526549175,
+        3.0,
+        -15.0,
+        22.0,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2026-04-01",
+    "fit_first": "2025-03-11",
+    "fit_last": "2026-04-01",
+    "method": "latent_kalman",
+    "parameters": {
+      "vector": [
+        -1.9236772405272167,
+        0.926545686296376,
+        0.041558209974762436,
+        -0.1792037866278807,
+        0.6049691084813696
+      ],
+      "optimizer_success": true
+    }
+  },
+  {
+    "origin": "2026-04-01",
+    "fit_first": "2025-03-11",
+    "fit_last": "2026-04-01",
+    "method": "two_state",
+    "parameters": {
+      "states": [
+        0.3116445922915422,
+        2.178363102077925
+      ],
+      "transition": [
+        [
+          0.9657795717512391,
+          0.034220428248760926
+        ],
+        [
+          0.11020878420327358,
+          0.8897912157967264
+        ]
+      ]
+    }
+  },
+  {
+    "origin": "2026-05-04",
+    "fit_first": "2025-02-11",
+    "fit_last": "2026-05-04",
+    "method": "garch_gauss",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "normal",
+      "omega": 0.012900291941033109,
+      "alpha": 0.10669271793561501,
+      "beta": 0.8823619738505715,
+      "gamma": 3.748586246315561e-18,
+      "xi": 3.748586246315561e-18,
+      "nu": 8.0,
+      "skew": 0.0,
+      "exog": "none",
+      "initial": 0.4761066690683952,
+      "ok": true,
+      "objective": 1.177276310794345,
+      "raw_parameters": [
+        -4.350505336782752,
+        2.8873505349462234,
+        5.0,
+        -15.0,
+        -15.0,
+        8.0,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2026-05-04",
+    "fit_first": "2025-02-11",
+    "fit_last": "2026-05-04",
+    "method": "gjr_gauss",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "normal",
+      "omega": 0.0634318486854813,
+      "alpha": 0.01931576037567301,
+      "beta": 0.7598034657269983,
+      "gamma": 0.20564243969299914,
+      "xi": 6.455389258770528e-18,
+      "nu": 8.0,
+      "skew": 0.0,
+      "exog": "none",
+      "initial": 0.4761066690683952,
+      "ok": true,
+      "objective": 1.152025954993226,
+      "raw_parameters": [
+        -2.7577891984751997,
+        0.6347824314305867,
+        4.306920871090724,
+        3.0,
+        -15.0,
+        8.0,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2026-05-04",
+    "fit_first": "2025-02-11",
+    "fit_last": "2026-05-04",
+    "method": "gjr_student",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "student",
+      "omega": 0.06100086525694276,
+      "alpha": 0.005005357334867423,
+      "beta": 0.7895243141353274,
+      "gamma": 0.18888227921420583,
+      "xi": 7.306400395719484e-18,
+      "nu": 8.6932590553597,
+      "skew": 0.0,
+      "exog": "none",
+      "initial": 0.4761066690683952,
+      "ok": true,
+      "objective": 1.1427963191959822,
+      "raw_parameters": [
+        -2.7968672303693802,
+        -0.839465529848763,
+        4.221456294454358,
+        2.7911496240551483,
+        -15.0,
+        8.6932590553597,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    }
+  },
+  {
+    "origin": "2026-05-04",
+    "fit_first": "2025-02-11",
+    "fit_last": "2026-05-04",
+    "method": "gjr_skew",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "skew",
+      "omega": 0.05462414398241945,
+      "alpha": 0.02479386435207393,
+      "beta": 0.7856866976919746,
+      "gamma": 0.17576844249265647,
+      "xi": 5.517604816359061e-18,
+      "nu": 11.16301460934799,
+      "skew": -0.10050422735968674,
+      "exog": "none",
+      "initial": 0.4761066690683952,
+      "ok": true,
+      "objective": 1.138250655468728,
+      "raw_parameters": [
+        -2.907279296491561,
+        1.0414287562707032,
+        4.497390648388192,
+        3.0,
+        -15.0,
+        11.16301460934799,
+        -0.10050422735968674
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2026-05-04",
+    "fit_first": "2025-02-11",
+    "fit_last": "2026-05-04",
+    "method": "egarch_student",
+    "parameters": {
+      "form": "egarch",
+      "distribution": "student",
+      "mu": -0.5576728028686077,
+      "beta": 0.9764367696168331,
+      "alpha": 0.14140132008728337,
+      "leverage": -0.16459401671123722,
+      "nu": 14.012547136713456,
+      "skew": 0.0,
+      "exog": "none",
+      "initial": 0.4761066690683952,
+      "ok": true,
+      "objective": 1.1351046514944216,
+      "raw_parameters": [
+        -0.5576728028686077,
+        0.9764367696168331,
+        0.14140132008728337,
+        -0.16459401671123722,
+        14.012547136713456
+      ],
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    }
+  },
+  {
+    "origin": "2026-05-04",
+    "fit_first": "2025-02-11",
+    "fit_last": "2026-05-04",
+    "method": "gjr_ivx",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "student",
+      "omega": 0.053708285051886434,
+      "alpha": 0.0004019537679381123,
+      "beta": 0.2886972371885537,
+      "gamma": 0.20544975045443734,
+      "xi": 0.4407958300761918,
+      "nu": 21.151443808254147,
+      "skew": 0.0,
+      "exog": "iv",
+      "initial": 0.4761066690683952,
+      "ok": true,
+      "objective": 1.1284439444121326,
+      "raw_parameters": [
+        -2.924188005347642,
+        -5.0,
+        1.5767967188936018,
+        1.2366196828052995,
+        2.0,
+        21.151443808254147,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2026-05-04",
+    "fit_first": "2025-02-11",
+    "fit_last": "2026-05-04",
+    "method": "gjr_vixx",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "student",
+      "omega": 0.04806149452095755,
+      "alpha": 0.012856021350480482,
+      "beta": 0.7062108677195645,
+      "gamma": 0.19769259540888268,
+      "xi": 0.06839798075762991,
+      "nu": 13.613505687962247,
+      "skew": 0.0,
+      "exog": "vix",
+      "initial": 0.4761066690683952,
+      "ok": true,
+      "objective": 1.1385722979960329,
+      "raw_parameters": [
+        -3.0352739521752605,
+        0.2670990133720394,
+        4.27320059658453,
+        3.0,
+        1.9386300273031263,
+        13.613505687962247,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    }
+  },
+  {
+    "origin": "2026-05-04",
+    "fit_first": "2025-09-29",
+    "fit_last": "2026-05-04",
+    "method": "gjr_t_short",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "student",
+      "omega": 0.03862516021506504,
+      "alpha": 4.8392833567419835e-05,
+      "beta": 0.8435124701203854,
+      "gamma": 0.1442570037383812,
+      "xi": 4.528418909177476e-18,
+      "nu": 22.0,
+      "skew": 0.0,
+      "exog": "none",
+      "initial": 0.25074236168929187,
+      "ok": true,
+      "objective": 1.1911948620192225,
+      "raw_parameters": [
+        -3.2538513958099813,
+        -5.0,
+        4.765978228670429,
+        3.0,
+        -15.0,
+        22.0,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2026-05-04",
+    "fit_first": "2025-04-11",
+    "fit_last": "2026-05-04",
+    "method": "latent_kalman",
+    "parameters": {
+      "vector": [
+        -1.9086211429913955,
+        0.9274529880912171,
+        0.032232553112674374,
+        -0.16422322777263665,
+        0.6043542111775564
+      ],
+      "optimizer_success": true
+    }
+  },
+  {
+    "origin": "2026-05-04",
+    "fit_first": "2025-04-11",
+    "fit_last": "2026-05-04",
+    "method": "two_state",
+    "parameters": {
+      "states": [
+        0.3171074830778409,
+        2.2771617463008873
+      ],
+      "transition": [
+        [
+          0.9713663516585455,
+          0.02863364834145459
+        ],
+        [
+          0.12453787162799454,
+          0.8754621283720053
+        ]
+      ]
+    }
+  },
+  {
+    "origin": "2026-06-01",
+    "fit_first": "2025-03-11",
+    "fit_last": "2026-06-01",
+    "method": "garch_gauss",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "normal",
+      "omega": 0.009169957222908753,
+      "alpha": 0.09255055054048107,
+      "beta": 0.8959954451552541,
+      "gamma": 4.069325070888093e-18,
+      "xi": 4.069325070888093e-18,
+      "nu": 8.0,
+      "skew": 0.0,
+      "exog": "none",
+      "initial": 1.5704974322344196,
+      "ok": true,
+      "objective": 1.1696166573149331,
+      "raw_parameters": [
+        -4.691822657620091,
+        2.6630542270315165,
+        4.93323456888609,
+        -15.0,
+        -15.0,
+        8.0,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    }
+  },
+  {
+    "origin": "2026-06-01",
+    "fit_first": "2025-03-11",
+    "fit_last": "2026-06-01",
+    "method": "gjr_gauss",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "normal",
+      "omega": 0.030325574163397498,
+      "alpha": 0.023877680223638603,
+      "beta": 0.8571493102559561,
+      "gamma": 0.10819758289759816,
+      "xi": 3.641473919646141e-18,
+      "nu": 8.0,
+      "skew": 0.0,
+      "exog": "none",
+      "initial": 1.5704974322344196,
+      "ok": true,
+      "objective": 1.1514387035032907,
+      "raw_parameters": [
+        -3.4957638906660526,
+        1.4193320129835107,
+        5.0,
+        2.9303468991954804,
+        -15.0,
+        8.0,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    }
+  },
+  {
+    "origin": "2026-06-01",
+    "fit_first": "2025-03-11",
+    "fit_last": "2026-06-01",
+    "method": "gjr_student",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "student",
+      "omega": 0.04851037991016481,
+      "alpha": 0.014842940453528585,
+      "beta": 0.8009955700103554,
+      "gamma": 0.1706645994550722,
+      "xi": 5.357388405911594e-18,
+      "nu": 13.083364179304496,
+      "skew": 0.0,
+      "exog": "none",
+      "initial": 1.5704974322344196,
+      "ok": true,
+      "objective": 1.138842800197646,
+      "raw_parameters": [
+        -3.025977485171164,
+        0.5578241381500191,
+        4.546155192749123,
+        3.0,
+        -15.0,
+        13.083364179304496,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2026-06-01",
+    "fit_first": "2025-03-11",
+    "fit_last": "2026-06-01",
+    "method": "gjr_skew",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "skew",
+      "omega": 0.05439415932580077,
+      "alpha": 0.007878841961966795,
+      "beta": 0.7965865988371247,
+      "gamma": 0.18129832855210257,
+      "xi": 5.823551266436972e-18,
+      "nu": 8.710599591617791,
+      "skew": -0.10663344234958341,
+      "exog": "none",
+      "initial": 1.5704974322344196,
+      "ok": true,
+      "objective": 1.1381699468873405,
+      "raw_parameters": [
+        -2.911498496218855,
+        -0.1589529300541919,
+        4.457201983671743,
+        2.9770100344968857,
+        -15.0,
+        8.710599591617791,
+        -0.10663344234958341
+      ],
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    }
+  },
+  {
+    "origin": "2026-06-01",
+    "fit_first": "2025-03-11",
+    "fit_last": "2026-06-01",
+    "method": "egarch_student",
+    "parameters": {
+      "form": "egarch",
+      "distribution": "student",
+      "mu": -0.8139832730264182,
+      "beta": 0.9791178485363853,
+      "alpha": 0.10612264312572556,
+      "leverage": -0.16559585847365849,
+      "nu": 17.827054510259483,
+      "skew": 0.0,
+      "exog": "none",
+      "initial": 1.5704974322344196,
+      "ok": true,
+      "objective": 1.1263700263387035,
+      "raw_parameters": [
+        -0.8139832730264182,
+        0.9791178485363853,
+        0.10612264312572556,
+        -0.16559585847365849,
+        17.827054510259483
+      ],
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    }
+  },
+  {
+    "origin": "2026-06-01",
+    "fit_first": "2025-03-11",
+    "fit_last": "2026-06-01",
+    "method": "gjr_ivx",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "student",
+      "omega": 0.04904820319377299,
+      "alpha": 0.0003889231433403141,
+      "beta": 0.24345290934475464,
+      "gamma": 0.2669308400934519,
+      "xi": 0.4265060150672128,
+      "nu": 22.0,
+      "skew": 0.0,
+      "exog": "iv",
+      "initial": 1.5704974322344196,
+      "ok": true,
+      "objective": 1.1205316907367466,
+      "raw_parameters": [
+        -3.0149517257768452,
+        -5.0,
+        1.4392970628837676,
+        1.5313631288248608,
+        2.0,
+        22.0,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2026-06-01",
+    "fit_first": "2025-03-11",
+    "fit_last": "2026-06-01",
+    "method": "gjr_vixx",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "student",
+      "omega": 0.030366799381128292,
+      "alpha": 0.00013140884855475707,
+      "beta": 0.6134846986477563,
+      "gamma": 0.21777378951959508,
+      "xi": 0.14410730063605026,
+      "nu": 18.887653800625426,
+      "skew": 0.0,
+      "exog": "vix",
+      "initial": 1.5704974322344196,
+      "ok": true,
+      "objective": 1.1310978253681379,
+      "raw_parameters": [
+        -3.4944053929944894,
+        -5.0,
+        3.4485971573600147,
+        2.412898695889754,
+        2.0,
+        18.887653800625426,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2026-06-01",
+    "fit_first": "2025-10-28",
+    "fit_last": "2026-06-01",
+    "method": "gjr_t_short",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "student",
+      "omega": 0.04197454459588861,
+      "alpha": 4.43696770723029e-05,
+      "beta": 0.8561064431291223,
+      "gamma": 0.1322641432511436,
+      "xi": 4.151947092918029e-18,
+      "nu": 22.0,
+      "skew": 0.0,
+      "exog": "none",
+      "initial": 0.22624504100880546,
+      "ok": true,
+      "objective": 1.2732903025449986,
+      "raw_parameters": [
+        -3.170691925490405,
+        -5.0,
+        4.867593709542645,
+        3.0,
+        -15.0,
+        22.0,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2026-06-01",
+    "fit_first": "2025-05-13",
+    "fit_last": "2026-06-01",
+    "method": "latent_kalman",
+    "parameters": {
+      "vector": [
+        -2.6034656572044783,
+        0.9468700527217766,
+        0.013009046496501232,
+        -0.1934724280774308,
+        0.6
+      ],
+      "optimizer_success": true
+    }
+  },
+  {
+    "origin": "2026-06-01",
+    "fit_first": "2025-05-13",
+    "fit_last": "2026-06-01",
+    "method": "two_state",
+    "parameters": {
+      "states": [
+        0.32842770617561073,
+        1.9283521743756153
+      ],
+      "transition": [
+        [
+          0.9703893584322364,
+          0.029610641567763635
+        ],
+        [
+          0.12014449753722155,
+          0.8798555024627784
+        ]
+      ]
+    }
+  },
+  {
+    "origin": "2026-07-01",
+    "fit_first": "2025-04-15",
+    "fit_last": "2026-07-01",
+    "method": "garch_gauss",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "normal",
+      "omega": 0.010060980360451829,
+      "alpha": 0.07943299093589298,
+      "beta": 0.903117003406322,
+      "gamma": 7.849873933682614e-18,
+      "xi": 7.849873933682614e-18,
+      "nu": 8.0,
+      "skew": 0.0,
+      "exog": "none",
+      "initial": 1.364064560419108,
+      "ok": true,
+      "objective": 1.125980900432519,
+      "raw_parameters": [
+        -4.599090667721457,
+        1.8531927075753891,
+        4.284131039550625,
+        -15.0,
+        -15.0,
+        8.0,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2026-07-01",
+    "fit_first": "2025-04-15",
+    "fit_last": "2026-07-01",
+    "method": "gjr_gauss",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "normal",
+      "omega": 0.02424665064001869,
+      "alpha": 0.0062724528398716,
+      "beta": 0.8900066650546978,
+      "gamma": 0.09272406436745917,
+      "xi": 3.781063602723001e-18,
+      "nu": 8.0,
+      "skew": 0.0,
+      "exog": "none",
+      "initial": 1.364064560419108,
+      "ok": true,
+      "objective": 1.1062035189885444,
+      "raw_parameters": [
+        -3.719476789075179,
+        0.0449385291527778,
+        5.0,
+        2.7383990813989327,
+        -15.0,
+        8.0,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2026-07-01",
+    "fit_first": "2025-04-15",
+    "fit_last": "2026-07-01",
+    "method": "gjr_student",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "student",
+      "omega": 0.030845285584434133,
+      "alpha": 0.008816418327047541,
+      "beta": 0.8635029309542843,
+      "gamma": 0.11686241373634328,
+      "xi": 3.6684663511763924e-18,
+      "nu": 13.833495745291337,
+      "skew": 0.0,
+      "exog": "none",
+      "initial": 1.364064560419108,
+      "ok": true,
+      "objective": 1.0958130137150504,
+      "raw_parameters": [
+        -3.4787713576688226,
+        0.41561841032149827,
+        5.0,
+        3.0,
+        -15.0,
+        13.833495745291337,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2026-07-01",
+    "fit_first": "2025-04-15",
+    "fit_last": "2026-07-01",
+    "method": "gjr_skew",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "skew",
+      "omega": 0.03092862416099116,
+      "alpha": 0.008267530630633258,
+      "beta": 0.8639835373478874,
+      "gamma": 0.11692745673874688,
+      "xi": 3.670508137393777e-18,
+      "nu": 12.866116345499861,
+      "skew": -0.05088299700354459,
+      "exog": "none",
+      "initial": 1.364064560419108,
+      "ok": true,
+      "objective": 1.0952698775244174,
+      "raw_parameters": [
+        -3.4760731756220493,
+        0.3507821561849791,
+        5.0,
+        3.0,
+        -15.0,
+        12.866116345499861,
+        -0.05088299700354459
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2026-07-01",
+    "fit_first": "2025-04-15",
+    "fit_last": "2026-07-01",
+    "method": "egarch_student",
+    "parameters": {
+      "form": "egarch",
+      "distribution": "student",
+      "mu": -0.9217137580478573,
+      "beta": 0.9776551723719431,
+      "alpha": 0.08229239268303168,
+      "leverage": -0.14622946544629425,
+      "nu": 17.546695805756876,
+      "skew": 0.0,
+      "exog": "none",
+      "initial": 1.364064560419108,
+      "ok": true,
+      "objective": 1.0864015673658165,
+      "raw_parameters": [
+        -0.9217137580478573,
+        0.9776551723719431,
+        0.08229239268303168,
+        -0.14622946544629425,
+        17.546695805756876
+      ],
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    }
+  },
+  {
+    "origin": "2026-07-01",
+    "fit_first": "2025-04-15",
+    "fit_last": "2026-07-01",
+    "method": "gjr_ivx",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "student",
+      "omega": 0.0348381127520487,
+      "alpha": 0.00037457038510791454,
+      "beta": 0.2955390643117119,
+      "gamma": 0.23272888666838948,
+      "xi": 0.4107663044746564,
+      "nu": 22.0,
+      "skew": 0.0,
+      "exog": "iv",
+      "initial": 1.364064560419108,
+      "ok": true,
+      "objective": 1.0769430346888933,
+      "raw_parameters": [
+        -3.3570432974647786,
+        -5.0,
+        1.6707765749119878,
+        1.4318497490252013,
+        2.0,
+        22.0,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2026-07-01",
+    "fit_first": "2025-04-15",
+    "fit_last": "2026-07-01",
+    "method": "gjr_vixx",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "student",
+      "omega": 0.00033546262790251185,
+      "alpha": 0.00024418286107757243,
+      "beta": 0.49854049705628484,
+      "gamma": 0.1921963480938137,
+      "xi": 0.2677790221775958,
+      "nu": 22.0,
+      "skew": 0.0,
+      "exog": "vix",
+      "initial": 1.364064560419108,
+      "ok": true,
+      "objective": 1.0839817506423854,
+      "raw_parameters": [
+        -8.0,
+        -5.0,
+        2.621522727654394,
+        1.668355399529268,
+        2.0,
+        22.0,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2026-07-01",
+    "fit_first": "2025-11-27",
+    "fit_last": "2026-07-01",
+    "method": "gjr_t_short",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "student",
+      "omega": 0.04701841392027532,
+      "alpha": 4.2347284307705206e-05,
+      "beta": 0.86243728308559,
+      "gamma": 0.1262354753865807,
+      "xi": 3.962699203057873e-18,
+      "nu": 22.0,
+      "skew": 0.0,
+      "exog": "none",
+      "initial": 0.18723744291181327,
+      "ok": true,
+      "objective": 1.3226220088034972,
+      "raw_parameters": [
+        -3.0572159684622195,
+        -5.0,
+        4.921613415904353,
+        3.0,
+        -15.0,
+        22.0,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2026-07-01",
+    "fit_first": "2025-06-11",
+    "fit_last": "2026-07-01",
+    "method": "latent_kalman",
+    "parameters": {
+      "vector": [
+        -2.5914655603822934,
+        0.9473427928304627,
+        0.014257759382499367,
+        -0.1954505092416342,
+        0.6
+      ],
+      "optimizer_success": true
+    }
+  },
+  {
+    "origin": "2026-07-01",
+    "fit_first": "2025-06-11",
+    "fit_last": "2026-07-01",
+    "method": "two_state",
+    "parameters": {
+      "states": [
+        0.3274583428293518,
+        1.962818459849067
+      ],
+      "transition": [
+        [
+          0.9675161482205314,
+          0.0324838517794686
+        ],
+        [
+          0.12797878979969946,
+          0.8720212102003005
+        ]
+      ]
+    }
+  },
+  {
+    "origin": "2026-08-03",
+    "fit_first": "2025-05-20",
+    "fit_last": "2026-08-03",
+    "method": "garch_gauss",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "normal",
+      "omega": 0.009228399126980659,
+      "alpha": 0.08213950300323904,
+      "beta": 0.9055545777733839,
+      "gamma": 4.6064673743593814e-18,
+      "xi": 4.6064673743593814e-18,
+      "nu": 8.0,
+      "skew": 0.0,
+      "exog": "none",
+      "initial": 0.4301308235334392,
+      "ok": true,
+      "objective": 1.098765041622844,
+      "raw_parameters": [
+        -4.6854696878742015,
+        2.4197341857958743,
+        4.819862677030226,
+        -15.0,
+        -15.0,
+        8.0,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2026-08-03",
+    "fit_first": "2025-05-20",
+    "fit_last": "2026-08-03",
+    "method": "gjr_gauss",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "normal",
+      "omega": 0.027037907809539973,
+      "alpha": 4.026344067188801e-05,
+      "beta": 0.8868612987405708,
+      "gamma": 0.1021228133923031,
+      "xi": 3.7677009723579286e-18,
+      "nu": 8.0,
+      "skew": 0.0,
+      "exog": "none",
+      "initial": 0.4301308235334392,
+      "ok": true,
+      "objective": 1.0844468957818825,
+      "raw_parameters": [
+        -3.6105154047084342,
+        -5.0,
+        5.0,
+        2.838487542983009,
+        -15.0,
+        8.0,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    }
+  },
+  {
+    "origin": "2026-08-03",
+    "fit_first": "2025-05-20",
+    "fit_last": "2026-08-03",
+    "method": "gjr_student",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "student",
+      "omega": 0.023407940545846256,
+      "alpha": 0.022766162022446263,
+      "beta": 0.8883029347205205,
+      "gamma": 0.07766713503795374,
+      "xi": 3.949378997979351e-18,
+      "nu": 9.47853857489625,
+      "skew": 0.0,
+      "exog": "none",
+      "initial": 0.4301308235334392,
+      "ok": true,
+      "objective": 1.087828138382941,
+      "raw_parameters": [
+        -3.7546799746150508,
+        1.2904933557969742,
+        4.954530871578286,
+        2.517650239469769,
+        -15.0,
+        9.47853857489625,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    }
+  },
+  {
+    "origin": "2026-08-03",
+    "fit_first": "2025-05-20",
+    "fit_last": "2026-08-03",
+    "method": "gjr_skew",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "skew",
+      "omega": 0.02739337726092903,
+      "alpha": 4.021723965427029e-05,
+      "beta": 0.8858436536063289,
+      "gamma": 0.10314736156654113,
+      "xi": 3.763377655321495e-18,
+      "nu": 22.0,
+      "skew": -0.12510541743433573,
+      "exog": "none",
+      "initial": 0.4301308235334392,
+      "ok": true,
+      "objective": 1.0788084946008327,
+      "raw_parameters": [
+        -3.5974540006091784,
+        -5.0,
+        5.0,
+        2.849618188746355,
+        -15.0,
+        22.0,
+        -0.12510541743433573
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2026-08-03",
+    "fit_first": "2025-05-20",
+    "fit_last": "2026-08-03",
+    "method": "egarch_student",
+    "parameters": {
+      "form": "egarch",
+      "distribution": "student",
+      "mu": -0.9068089214559959,
+      "beta": 0.9797547845965585,
+      "alpha": 0.04419930905760636,
+      "leverage": -0.1531198396596285,
+      "nu": 22.0,
+      "skew": 0.0,
+      "exog": "none",
+      "initial": 0.4301308235334392,
+      "ok": true,
+      "objective": 1.0712561905897249,
+      "raw_parameters": [
+        -0.9068089214559959,
+        0.9797547845965585,
+        0.04419930905760636,
+        -0.1531198396596285,
+        22.0
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2026-08-03",
+    "fit_first": "2025-05-20",
+    "fit_last": "2026-08-03",
+    "method": "gjr_ivx",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "student",
+      "omega": 0.02495418170887779,
+      "alpha": 0.00038645815313582613,
+      "beta": 0.37340806141104854,
+      "gamma": 0.14004717999421026,
+      "xi": 0.42380282507376993,
+      "nu": 22.0,
+      "skew": 0.0,
+      "exog": "iv",
+      "initial": 0.4301308235334392,
+      "ok": true,
+      "objective": 1.0693346789295564,
+      "raw_parameters": [
+        -3.690713867266281,
+        -5.0,
+        1.8734035082184906,
+        0.8927110539300368,
+        2.0,
+        22.0,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2026-08-03",
+    "fit_first": "2025-05-20",
+    "fit_last": "2026-08-03",
+    "method": "gjr_vixx",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "student",
+      "omega": 0.00033546262790251185,
+      "alpha": 0.0001902103231730422,
+      "beta": 0.6361001472727127,
+      "gamma": 0.12188897998113005,
+      "xi": 0.2085909474669511,
+      "nu": 22.0,
+      "skew": 0.0,
+      "exog": "vix",
+      "initial": 0.4301308235334392,
+      "ok": true,
+      "objective": 1.0792130562844875,
+      "raw_parameters": [
+        -8.0,
+        -5.0,
+        3.1149808701951582,
+        1.4627354852630428,
+        2.0,
+        22.0,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2026-08-03",
+    "fit_first": "2025-12-31",
+    "fit_last": "2026-08-03",
+    "method": "gjr_t_short",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "student",
+      "omega": 0.06881716329191084,
+      "alpha": 4.420869879599728e-05,
+      "beta": 0.8566103648804254,
+      "gamma": 0.13178427377265015,
+      "xi": 4.136883352759611e-18,
+      "nu": 22.0,
+      "skew": 0.0,
+      "exog": "none",
+      "initial": 0.752199795288996,
+      "ok": true,
+      "objective": 1.4037438929157182,
+      "raw_parameters": [
+        -2.676302098702228,
+        -5.0,
+        4.8718168690547206,
+        3.0,
+        -15.0,
+        22.0,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2026-08-03",
+    "fit_first": "2025-07-14",
+    "fit_last": "2026-08-03",
+    "method": "latent_kalman",
+    "parameters": {
+      "vector": [
+        -2.7855419621258233,
+        0.9523450704275166,
+        0.007661074585484456,
+        -0.20370626788357826,
+        0.6
+      ],
+      "optimizer_success": true
+    }
+  },
+  {
+    "origin": "2026-08-03",
+    "fit_first": "2025-07-14",
+    "fit_last": "2026-08-03",
+    "method": "two_state",
+    "parameters": {
+      "states": [
+        0.339263879592978,
+        1.9478313794006958
+      ],
+      "transition": [
+        [
+          0.9590155933368485,
+          0.04098440666315154
+        ],
+        [
+          0.14258347115102885,
+          0.8574165288489711
+        ]
+      ]
+    }
+  },
+  {
+    "origin": "2026-09-01",
+    "fit_first": "2025-06-18",
+    "fit_last": "2026-09-01",
+    "method": "garch_gauss",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "normal",
+      "omega": 0.009449518578753063,
+      "alpha": 0.09058652831102318,
+      "beta": 0.8940412942846501,
+      "gamma": 6.539778959123851e-18,
+      "xi": 6.539778959123851e-18,
+      "nu": 8.0,
+      "skew": 0.0,
+      "exog": "none",
+      "initial": 0.2677192689485228,
+      "ok": true,
+      "objective": 1.070080126971477,
+      "raw_parameters": [
+        -4.661791482821473,
+        2.1671785361659057,
+        4.456624992893626,
+        -15.0,
+        -15.0,
+        8.0,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2026-09-01",
+    "fit_first": "2025-06-18",
+    "fit_last": "2026-09-01",
+    "method": "gjr_gauss",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "normal",
+      "omega": 0.024791212468824656,
+      "alpha": 4.0181834877102944e-05,
+      "beta": 0.8850638114930796,
+      "gamma": 0.10393249361939441,
+      "xi": 3.760064609761217e-18,
+      "nu": 8.0,
+      "skew": 0.0,
+      "exog": "none",
+      "initial": 0.2677192689485228,
+      "ok": true,
+      "objective": 1.0538868298789241,
+      "raw_parameters": [
+        -3.697266024537501,
+        -5.0,
+        5.0,
+        2.858081842780751,
+        -15.0,
+        8.0,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2026-09-01",
+    "fit_first": "2025-06-18",
+    "fit_last": "2026-09-01",
+    "method": "gjr_student",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "student",
+      "omega": 0.0256092514024933,
+      "alpha": 3.9988800449670173e-05,
+      "beta": 0.8808119452800116,
+      "gamma": 0.10821320171608054,
+      "xi": 3.742001175841999e-18,
+      "nu": 19.124753964610345,
+      "skew": 0.0,
+      "exog": "none",
+      "initial": 0.2677192689485228,
+      "ok": true,
+      "objective": 1.0505759408534185,
+      "raw_parameters": [
+        -3.664801609869802,
+        -5.0,
+        5.0,
+        2.9032592239635253,
+        -15.0,
+        19.124753964610345,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2026-09-01",
+    "fit_first": "2025-06-18",
+    "fit_last": "2026-09-01",
+    "method": "gjr_skew",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "skew",
+      "omega": 0.02497199937661428,
+      "alpha": 4.008654254022135e-05,
+      "beta": 0.88296485809425,
+      "gamma": 0.10604568494731577,
+      "xi": 3.751147512157641e-18,
+      "nu": 19.50455181408325,
+      "skew": -0.10905792358214944,
+      "exog": "none",
+      "initial": 0.2677192689485228,
+      "ok": true,
+      "objective": 1.0477641055168077,
+      "raw_parameters": [
+        -3.6900001067460275,
+        -5.0,
+        5.0,
+        2.8805845898273126,
+        -15.0,
+        19.50455181408325,
+        -0.10905792358214944
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2026-09-01",
+    "fit_first": "2025-06-18",
+    "fit_last": "2026-09-01",
+    "method": "egarch_student",
+    "parameters": {
+      "form": "egarch",
+      "distribution": "student",
+      "mu": -0.9535789174987491,
+      "beta": 0.9795857178427229,
+      "alpha": 0.05175991486042261,
+      "leverage": -0.1479561788694203,
+      "nu": 22.0,
+      "skew": 0.0,
+      "exog": "none",
+      "initial": 0.2677192689485228,
+      "ok": true,
+      "objective": 1.040640686282636,
+      "raw_parameters": [
+        -0.9535789174987491,
+        0.9795857178427229,
+        0.05175991486042261,
+        -0.1479561788694203,
+        22.0
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2026-09-01",
+    "fit_first": "2025-06-18",
+    "fit_last": "2026-09-01",
+    "method": "gjr_ivx",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "student",
+      "omega": 0.014734273511567756,
+      "alpha": 0.0003808700614349725,
+      "beta": 0.39539825001357026,
+      "gamma": 0.125020012477563,
+      "xi": 0.417674738422275,
+      "nu": 22.0,
+      "skew": 0.0,
+      "exog": "iv",
+      "initial": 0.2677192689485228,
+      "ok": true,
+      "objective": 1.0369773401493687,
+      "raw_parameters": [
+        -4.217578967600221,
+        -5.0,
+        1.9451904929905361,
+        0.7937708324355152,
+        2.0,
+        22.0,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2026-09-01",
+    "fit_first": "2025-06-18",
+    "fit_last": "2026-09-01",
+    "method": "gjr_vixx",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "student",
+      "omega": 0.016687090448793383,
+      "alpha": 3.8085491831282534e-05,
+      "beta": 0.836012345072952,
+      "gamma": 0.1115313680793202,
+      "xi": 0.041765813197240625,
+      "nu": 22.0,
+      "skew": 0.0,
+      "exog": "vix",
+      "initial": 0.2677192689485228,
+      "ok": true,
+      "objective": 1.0482032513714257,
+      "raw_parameters": [
+        -4.093119885517242,
+        -5.0,
+        4.9965652410083035,
+        2.9822277405994613,
+        2.0,
+        22.0,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2026-09-01",
+    "fit_first": "2026-02-01",
+    "fit_last": "2026-09-01",
+    "method": "gjr_t_short",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "student",
+      "omega": 0.02938952119401483,
+      "alpha": 0.022218268137574975,
+      "beta": 0.8765355238418656,
+      "gamma": 0.08956635292858255,
+      "xi": 4.2117266295775834e-18,
+      "nu": 8.660742606501731,
+      "skew": 0.0,
+      "exog": "none",
+      "initial": 1.1010714778086947,
+      "ok": true,
+      "objective": 1.2944220014625614,
+      "raw_parameters": [
+        -3.527117090143194,
+        1.2018185450751824,
+        4.876880938242386,
+        2.5958834296075315,
+        -15.0,
+        8.660742606501731,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    }
+  },
+  {
+    "origin": "2026-09-01",
+    "fit_first": "2025-08-12",
+    "fit_last": "2026-09-01",
+    "method": "latent_kalman",
+    "parameters": {
+      "vector": [
+        -2.6774511726880177,
+        0.9504767210195351,
+        0.009317201287033684,
+        -0.19880846409502842,
+        0.6
+      ],
+      "optimizer_success": true
+    }
+  },
+  {
+    "origin": "2026-09-01",
+    "fit_first": "2025-08-12",
+    "fit_last": "2026-09-01",
+    "method": "two_state",
+    "parameters": {
+      "states": [
+        0.31404731571997035,
+        1.8942514877902448
+      ],
+      "transition": [
+        [
+          0.9573654656396775,
+          0.042634534360322544
+        ],
+        [
+          0.1449978484800178,
+          0.8550021515199822
+        ]
+      ]
+    }
+  },
+  {
+    "origin": "2026-10-01",
+    "fit_first": "2025-07-17",
+    "fit_last": "2026-10-01",
+    "method": "garch_gauss",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "normal",
+      "omega": 0.013219117471683771,
+      "alpha": 0.0904240565687393,
+      "beta": 0.8904144033959837,
+      "gamma": 8.929016342591755e-18,
+      "xi": 8.929016342591755e-18,
+      "nu": 8.0,
+      "skew": 0.0,
+      "exog": "none",
+      "initial": 0.31639190908607534,
+      "ok": true,
+      "objective": 1.0977249177859179,
+      "raw_parameters": [
+        -4.326091203845665,
+        1.8539805025773954,
+        4.141157134246094,
+        -15.0,
+        -15.0,
+        8.0,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2026-10-01",
+    "fit_first": "2025-07-17",
+    "fit_last": "2026-10-01",
+    "method": "gjr_gauss",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "normal",
+      "omega": 0.02667731518206345,
+      "alpha": 4.0139926020163026e-05,
+      "beta": 0.8841407074891929,
+      "gamma": 0.1048618593579908,
+      "xi": 3.756142936938228e-18,
+      "nu": 8.0,
+      "skew": 0.0,
+      "exog": "none",
+      "initial": 0.31639190908607534,
+      "ok": true,
+      "objective": 1.0800918517682314,
+      "raw_parameters": [
+        -3.62394169335573,
+        -5.0,
+        5.0,
+        2.8680276374618487,
+        -15.0,
+        8.0,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2026-10-01",
+    "fit_first": "2025-07-17",
+    "fit_last": "2026-10-01",
+    "method": "gjr_student",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "student",
+      "omega": 0.027334170278891703,
+      "alpha": 3.997284742756683e-05,
+      "beta": 0.8804605565843284,
+      "gamma": 0.10856697400319353,
+      "xi": 3.740508352181432e-18,
+      "nu": 16.331977430910122,
+      "skew": 0.0,
+      "exog": "none",
+      "initial": 0.31639190908607534,
+      "ok": true,
+      "objective": 1.0760287929531478,
+      "raw_parameters": [
+        -3.5996177008953225,
+        -5.0,
+        5.0,
+        2.906922124143181,
+        -15.0,
+        16.331977430910122,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2026-10-01",
+    "fit_first": "2025-07-17",
+    "fit_last": "2026-10-01",
+    "method": "gjr_skew",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "skew",
+      "omega": 0.0260354592616211,
+      "alpha": 4.0149615307681174e-05,
+      "beta": 0.8843541282492876,
+      "gamma": 0.10464699089083862,
+      "xi": 3.757049623932544e-18,
+      "nu": 16.70037805417904,
+      "skew": -0.13190901341928116,
+      "exog": "none",
+      "initial": 0.31639190908607534,
+      "ok": true,
+      "objective": 1.071814727369353,
+      "raw_parameters": [
+        -3.6482958523607287,
+        -5.0,
+        5.0,
+        2.865735114462422,
+        -15.0,
+        16.70037805417904,
+        -0.13190901341928116
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2026-10-01",
+    "fit_first": "2025-07-17",
+    "fit_last": "2026-10-01",
+    "method": "egarch_student",
+    "parameters": {
+      "form": "egarch",
+      "distribution": "student",
+      "mu": -0.961621855234778,
+      "beta": 0.97960554574086,
+      "alpha": 0.07843648673699748,
+      "leverage": -0.13233627613929366,
+      "nu": 20.474597173102214,
+      "skew": 0.0,
+      "exog": "none",
+      "initial": 0.31639190908607534,
+      "ok": true,
+      "objective": 1.0687096026642222,
+      "raw_parameters": [
+        -0.961621855234778,
+        0.97960554574086,
+        0.07843648673699748,
+        -0.13233627613929366,
+        20.474597173102214
+      ],
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    }
+  },
+  {
+    "origin": "2026-10-01",
+    "fit_first": "2025-07-17",
+    "fit_last": "2026-10-01",
+    "method": "gjr_ivx",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "student",
+      "omega": 0.01827760688962735,
+      "alpha": 0.0002716606810804698,
+      "beta": 0.5629539405185566,
+      "gamma": 0.09354426820315097,
+      "xi": 0.29791211071410184,
+      "nu": 22.0,
+      "skew": 0.0,
+      "exog": "iv",
+      "initial": 0.31639190908607534,
+      "ok": true,
+      "objective": 1.0633017102339801,
+      "raw_parameters": [
+        -4.0020786356603075,
+        -5.0,
+        2.6363993014758877,
+        0.8416362684523027,
+        2.0,
+        22.0,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2026-10-01",
+    "fit_first": "2025-07-17",
+    "fit_last": "2026-10-01",
+    "method": "gjr_vixx",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "student",
+      "omega": 0.007649058200688867,
+      "alpha": 0.00010942512586703692,
+      "beta": 0.7517862366171207,
+      "gamma": 0.10686498825088776,
+      "xi": 0.11999922139100032,
+      "nu": 18.83921941918771,
+      "skew": 0.0,
+      "exog": "vix",
+      "initial": 0.31639190908607534,
+      "ok": true,
+      "objective": 1.0732449851705066,
+      "raw_parameters": [
+        -4.8731727497435395,
+        -5.0,
+        3.8349667693700358,
+        1.8840809913316015,
+        2.0,
+        18.83921941918771,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2026-10-01",
+    "fit_first": "2026-03-02",
+    "fit_last": "2026-10-01",
+    "method": "gjr_t_short",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "student",
+      "omega": 0.012656577721062543,
+      "alpha": 0.00019166642149620518,
+      "beta": 0.9390988993138202,
+      "gamma": 0.049159482528286946,
+      "xi": 4.12982104713092e-18,
+      "nu": 8.182584283802225,
+      "skew": 0.0,
+      "exog": "none",
+      "initial": 2.9379439484797585,
+      "ok": true,
+      "objective": 1.1945534777944147,
+      "raw_parameters": [
+        -4.369578221000689,
+        -3.53145648713492,
+        4.965463116613975,
+        2.015612077235768,
+        -15.0,
+        8.182584283802225,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    }
+  },
+  {
+    "origin": "2026-10-01",
+    "fit_first": "2025-09-12",
+    "fit_last": "2026-10-01",
+    "method": "latent_kalman",
+    "parameters": {
+      "vector": [
+        -2.6941098327054154,
+        0.9531287712612322,
+        0.009561360199893372,
+        -0.1900595800412025,
+        0.6
+      ],
+      "optimizer_success": true
+    }
+  },
+  {
+    "origin": "2026-10-01",
+    "fit_first": "2025-09-12",
+    "fit_last": "2026-10-01",
+    "method": "two_state",
+    "parameters": {
+      "states": [
+        0.3242704616626093,
+        1.8469227909823347
+      ],
+      "transition": [
+        [
+          0.9515004907736242,
+          0.04849950922637586
+        ],
+        [
+          0.14897361695033237,
+          0.8510263830496676
+        ]
+      ]
+    }
+  },
+  {
+    "origin": "2026-11-02",
+    "fit_first": "2025-08-14",
+    "fit_last": "2026-11-02",
+    "method": "garch_gauss",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "normal",
+      "omega": 0.013112209046466615,
+      "alpha": 0.09659667753370063,
+      "beta": 0.8879999493209559,
+      "gamma": 6.5594482380767455e-18,
+      "xi": 6.5594482380767455e-18,
+      "nu": 8.0,
+      "skew": 0.0,
+      "exog": "none",
+      "initial": 0.2587088264101851,
+      "ok": true,
+      "objective": 1.1308584693754091,
+      "raw_parameters": [
+        -4.33421149452656,
+        2.2284142521073256,
+        4.446841591462586,
+        -15.0,
+        -15.0,
+        8.0,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2026-11-02",
+    "fit_first": "2025-08-14",
+    "fit_last": "2026-11-02",
+    "method": "gjr_gauss",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "normal",
+      "omega": 0.028055812738137217,
+      "alpha": 4.02145337293461e-05,
+      "beta": 0.8857840516435429,
+      "gamma": 0.10320736783011844,
+      "xi": 3.7631244450692694e-18,
+      "nu": 8.0,
+      "skew": 0.0,
+      "exog": "none",
+      "initial": 0.2587088264101851,
+      "ok": true,
+      "objective": 1.1150677528000206,
+      "raw_parameters": [
+        -3.573559440741057,
+        -5.0,
+        5.0,
+        2.8502670573412714,
+        -15.0,
+        8.0,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2026-11-02",
+    "fit_first": "2025-08-14",
+    "fit_last": "2026-11-02",
+    "method": "gjr_student",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "student",
+      "omega": 0.02858091454331226,
+      "alpha": 4.005536311357785e-05,
+      "beta": 0.8822780855197853,
+      "gamma": 0.10673711613841429,
+      "xi": 3.748229858968496e-18,
+      "nu": 17.36397953204141,
+      "skew": 0.0,
+      "exog": "none",
+      "initial": 0.2587088264101851,
+      "ok": true,
+      "objective": 1.111614482465616,
+      "raw_parameters": [
+        -3.555016107576282,
+        -5.0,
+        5.0,
+        2.88786165689466,
+        -15.0,
+        17.36397953204141,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2026-11-02",
+    "fit_first": "2025-08-14",
+    "fit_last": "2026-11-02",
+    "method": "gjr_skew",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "skew",
+      "omega": 0.027713490301507115,
+      "alpha": 4.018575930694724e-05,
+      "beta": 0.8851502528128091,
+      "gamma": 0.10384546593820418,
+      "xi": 3.760431843109723e-18,
+      "nu": 17.915608480225973,
+      "skew": -0.09280567195419291,
+      "exog": "none",
+      "initial": 0.2587088264101851,
+      "ok": true,
+      "objective": 1.109469510512053,
+      "raw_parameters": [
+        -3.585835969847072,
+        -5.0,
+        5.0,
+        2.857146481863195,
+        -15.0,
+        17.915608480225973,
+        -0.09280567195419291
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2026-11-02",
+    "fit_first": "2025-08-14",
+    "fit_last": "2026-11-02",
+    "method": "egarch_student",
+    "parameters": {
+      "form": "egarch",
+      "distribution": "student",
+      "mu": -0.8224604233809215,
+      "beta": 0.9782068588074873,
+      "alpha": 0.06274600830759469,
+      "leverage": -0.13865867885214359,
+      "nu": 22.0,
+      "skew": 0.0,
+      "exog": "none",
+      "initial": 0.2587088264101851,
+      "ok": true,
+      "objective": 1.0975422145559435,
+      "raw_parameters": [
+        -0.8224604233809215,
+        0.9782068588074873,
+        0.06274600830759469,
+        -0.13865867885214359,
+        22.0
+      ],
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    }
+  },
+  {
+    "origin": "2026-11-02",
+    "fit_first": "2025-08-14",
+    "fit_last": "2026-11-02",
+    "method": "gjr_ivx",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "student",
+      "omega": 0.02408272531093591,
+      "alpha": 0.027107116790706192,
+      "beta": 0.8774094954980584,
+      "gamma": 0.08024512506323359,
+      "xi": 0.003809435693170489,
+      "nu": 9.357191219026037,
+      "skew": 0.0,
+      "exog": "iv",
+      "initial": 0.2587088264101851,
+      "ok": true,
+      "objective": 1.1146261259478696,
+      "raw_parameters": [
+        -3.7262604875811434,
+        1.4390042171578943,
+        4.9161817225328805,
+        2.5242939248349723,
+        -0.5233110223141961,
+        9.357191219026037,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    }
+  },
+  {
+    "origin": "2026-11-02",
+    "fit_first": "2025-08-14",
+    "fit_last": "2026-11-02",
+    "method": "gjr_vixx",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "student",
+      "omega": 0.021868419949308517,
+      "alpha": 0.0003986059150312577,
+      "beta": 0.8334909274479189,
+      "gamma": 0.11393079981125591,
+      "xi": 0.04133020081574358,
+      "nu": 21.61966136592656,
+      "skew": 0.0,
+      "exog": "vix",
+      "initial": 0.2587088264101851,
+      "ok": true,
+      "objective": 1.1094975194934662,
+      "raw_parameters": [
+        -3.8227116943058754,
+        -2.6861324085412845,
+        4.959272440501898,
+        2.969240868140052,
+        1.9552431106048986,
+        21.61966136592656,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    }
+  },
+  {
+    "origin": "2026-11-02",
+    "fit_first": "2026-04-02",
+    "fit_last": "2026-11-02",
+    "method": "gjr_t_short",
+    "parameters": {
+      "form": "gjr",
+      "distribution": "student",
+      "omega": 0.02007932126443193,
+      "alpha": 4.219583226960258e-05,
+      "beta": 0.9294250561698028,
+      "gamma": 0.05927033122983354,
+      "xi": 3.948526892353605e-18,
+      "nu": 12.695935502615617,
+      "skew": 0.0,
+      "exog": "none",
+      "initial": 1.2562956177072258,
+      "ok": true,
+      "objective": 1.1243336229031284,
+      "raw_parameters": [
+        -3.9080647863020097,
+        -5.0,
+        5.0,
+        2.247542688475881,
+        -15.0,
+        12.695935502615617,
+        0.0
+      ],
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "origin": "2026-11-02",
+    "fit_first": "2025-10-13",
+    "fit_last": "2026-11-02",
+    "method": "latent_kalman",
+    "parameters": {
+      "vector": [
+        -2.4814816500293158,
+        0.9502131738511899,
+        0.011466617765916043,
+        -0.18126944043014712,
+        0.6
+      ],
+      "optimizer_success": true
+    }
+  },
+  {
+    "origin": "2026-11-02",
+    "fit_first": "2025-10-13",
+    "fit_last": "2026-11-02",
+    "method": "two_state",
+    "parameters": {
+      "states": [
+        0.3324139480699217,
+        1.6672901404591889
+      ],
+      "transition": [
+        [
+          0.938032106495514,
+          0.061967893504485914
+        ],
+        [
+          0.13331357918907055,
+          0.8666864208109295
+        ]
+      ]
+    }
+  }
+]

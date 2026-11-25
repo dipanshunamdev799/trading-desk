@@ -1,0 +1,4855 @@
+{
+  "n": 256,
+  "tick": 1e-05,
+  "models": [
+    "frozen",
+    "zero_remaining",
+    "price_only",
+    "historical",
+    "iv_restart",
+    "gjr_restart",
+    "refit",
+    "incremental",
+    "domestic",
+    "domestic_stale",
+    "full",
+    "derivatives_first",
+    "full_stale_surface",
+    "full_stale_global",
+    "full_delayed",
+    "full_permuted",
+    "full_noise",
+    "particle",
+    "hybrid",
+    "vol_state",
+    "analogue",
+    "vol_only_shock",
+    "shock_persistence",
+    "sign_magnitude",
+    "heavy_tail",
+    "episode_tail"
+  ],
+  "files": [
+    {
+      "horizon": 5,
+      "origin": "2025-10-14",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2025-10-14.npz",
+      "sha256": "681c1f254dbc92ebb015af1b0a75a4ce8f3068b114954daf6b9db273b92b03b0",
+      "frozen_file": "joint-paths/2025-10-14.npz",
+      "frozen_sha256": "008eb1af027d98a3042e571bc56ba55303450636ddb4e5724167fb2420a280be",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-10-15",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2025-10-15.npz",
+      "sha256": "6909f0b6c54529a3e530f3f33c022459e981be96608b63486ef2d815ce8b38eb",
+      "frozen_file": "joint-paths/2025-10-15.npz",
+      "frozen_sha256": "fcfe62d075bb8f0b096e279eb0815f479997f60e8bed539001d8c775c42dd096",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-10-16",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2025-10-16.npz",
+      "sha256": "a92736e240b5817f0a7c1196c691eb37b93f78f5238d8e3a7cc7926014efa33a",
+      "frozen_file": "joint-paths/2025-10-16.npz",
+      "frozen_sha256": "1d94a64a6459e9ff151aae6a5db52b061d915b9f253c40179ed308b172390b97",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-10-17",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2025-10-17.npz",
+      "sha256": "5c27e78c590d0f7f85bfbf96532af31c2b081bcce7c369c75ae02a486f19ed2e",
+      "frozen_file": "joint-paths/2025-10-17.npz",
+      "frozen_sha256": "4d2f0cc4d5946f99d2cfd512419fe8909ba5bf93a5dfae70d594a5c6d5590d9f",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-10-20",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2025-10-20.npz",
+      "sha256": "ed7641fac463928a9dcc8270835fc925205f24d1cb8540da6bc493d197ebe501",
+      "frozen_file": "joint-paths/2025-10-20.npz",
+      "frozen_sha256": "72df4460fc6f71d8d69e40afc6a51cab0146de00a2cef13a157c01cc16c00890",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-10-21",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2025-10-21.npz",
+      "sha256": "337f1bfd2566e3f9c7c417e6d6258531036ee95bfd26762635d3208279630522",
+      "frozen_file": "joint-paths/2025-10-21.npz",
+      "frozen_sha256": "567652dc871cbaed4429f024e010e16a66bdd8ac53e6a8305dd846eccb51f0dc",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-10-23",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2025-10-23.npz",
+      "sha256": "da5528167b41d4a1ca36c742c5c12b9732ab47995a236de78386f6501a656a04",
+      "frozen_file": "joint-paths/2025-10-23.npz",
+      "frozen_sha256": "74d9acfc828939b98584e1b62cb77df5514913b2f6c9d26298f50fa0af50421d",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-10-24",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2025-10-24.npz",
+      "sha256": "f0cd5fd4386bd87116201f98d602330dc30ec15f0957d37450d153a4120e86b6",
+      "frozen_file": "joint-paths/2025-10-24.npz",
+      "frozen_sha256": "b470af8a0e082c19d92dd52db58323e4413b95a5f6fd6f7931aa5a054d623be2",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-10-27",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2025-10-27.npz",
+      "sha256": "bb1d86879aae78c4deb6c8855e6951101d97fe07a2fa2c9829c76aec2ed1e3f8",
+      "frozen_file": "joint-paths/2025-10-27.npz",
+      "frozen_sha256": "b6d52d8a2370d76762bf8c5d376b90d6f76a1f0d188bcf65867ee5b31665cc40",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-10-28",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2025-10-28.npz",
+      "sha256": "776e17346cb1cd654fc7f632f9bf13d16268e987acaaed2cdfe3e4b76b27c3ae",
+      "frozen_file": "joint-paths/2025-10-28.npz",
+      "frozen_sha256": "613910831ec416cfe0a9c8ce0630aadbe341523ec9f323b457c2f880f6fae499",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-10-29",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2025-10-29.npz",
+      "sha256": "b4b30b347658fbd15493cd1141c352e35886869ff9d7d9cadae211691f32ad94",
+      "frozen_file": "joint-paths/2025-10-29.npz",
+      "frozen_sha256": "bf072b648f88933cc30d7cdd17b3a5182eb075bcb78ad1fa9b5ece75d11524bf",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-10-30",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2025-10-30.npz",
+      "sha256": "1d27f9d042545fc78492b709a236818096c1b0f200d7952bfbf9585ee4cdd71b",
+      "frozen_file": "joint-paths/2025-10-30.npz",
+      "frozen_sha256": "8a319e02c506f31fc8354a4ad96edec22529dd43f6d1c81a08e73523918ddc6a",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-10-31",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2025-10-31.npz",
+      "sha256": "c69c7f613218cc29627238b09306cc750145c15d7e630d46b44b1c9ef6ed2df0",
+      "frozen_file": "joint-paths/2025-10-31.npz",
+      "frozen_sha256": "643c1187a0c1b8293228982066e39b0dfeb79715c6158b0cd1ccdf0d52b38f4d",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-11-03",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2025-11-03.npz",
+      "sha256": "18b1f4f28783e1ce1d40c85221feba2dc967d90cc8787487d5619c25eb1c73d6",
+      "frozen_file": "joint-paths/2025-11-03.npz",
+      "frozen_sha256": "1a5135fb696e817e7d9ac8bf0de554aee4479c08f583fe9f58e21ed98910f1e0",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-11-04",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2025-11-04.npz",
+      "sha256": "82947054fc03a96e829257483ef72d358442dbd3715f71b6248118b48c14f1ef",
+      "frozen_file": "joint-paths/2025-11-04.npz",
+      "frozen_sha256": "21c3f96a860eebeec30623fc7f654be66ced54138eaf53507b076a1b0902af0f",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-11-06",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2025-11-06.npz",
+      "sha256": "ffb07f1fc576b1de1ca8a1259548c2108ffd3b83ab45cee25653e6e4c0aafcad",
+      "frozen_file": "joint-paths/2025-11-06.npz",
+      "frozen_sha256": "4e0524b75dc6fa7900f0357ac875a6fa05dcc6b0b6c3273b573795ec450cf3ad",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-11-07",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2025-11-07.npz",
+      "sha256": "f0c2900ff0c6e908b6ad6153d44b8da12c6ba131d2c5edd7fdfc6de7a737bbae",
+      "frozen_file": "joint-paths/2025-11-07.npz",
+      "frozen_sha256": "fb759158245c8abea3bf0d3b7685d564d63af49c0b4100df9ee0fa924b8571df",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-11-10",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2025-11-10.npz",
+      "sha256": "5108d91a0673a5b0675d6e3ec31669483927a69ba972d0b068196f4a864334d0",
+      "frozen_file": "joint-paths/2025-11-10.npz",
+      "frozen_sha256": "08ee3de3625600e664a0cbd1fc818ae592ed038c60c6ba7716678c5a51dab820",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-11-11",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2025-11-11.npz",
+      "sha256": "e456061507eff2a8ab172266eeb3ca95240b96fd12dcf19dbdc8f9858627df15",
+      "frozen_file": "joint-paths/2025-11-11.npz",
+      "frozen_sha256": "9c6b36789bc7560ebba61405a9cc89220b3274e3757c9aa1f74facc2fa48a118",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-11-12",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2025-11-12.npz",
+      "sha256": "a510bd4b1f85efd4a35218abbac0359cd0cafbb105fb2132ae687b9a71155b52",
+      "frozen_file": "joint-paths/2025-11-12.npz",
+      "frozen_sha256": "f9b9a7512ca34e8e23611c0d921b8879be16fcbd3fdfd4fa1b000d45cb651172",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-11-13",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2025-11-13.npz",
+      "sha256": "21ab63ac1fba30ccd516102393453463559b310c0ff87e83e70eb8a2d9a37609",
+      "frozen_file": "joint-paths/2025-11-13.npz",
+      "frozen_sha256": "8d3bc53faa7087b4bd5c4054591a7f4e4cdfc39707ff306b808414ce194b4b56",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-11-14",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2025-11-14.npz",
+      "sha256": "0588174cb8029a911fd6c893e44c56d339cc36fc1714d61b9cf23cb581b0928f",
+      "frozen_file": "joint-paths/2025-11-14.npz",
+      "frozen_sha256": "af4b604a91b0107bf7c8b057f154290ba7a24b49fbfcaa5eb457da2bf3128a9d",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-11-17",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2025-11-17.npz",
+      "sha256": "22da606ee646c36027496cf1617b9e01b424a3e4fea5f91b354827aa2c3c271b",
+      "frozen_file": "joint-paths/2025-11-17.npz",
+      "frozen_sha256": "e1d2ca86ddc751400a28874f95b082f9fa7b9d16891367b05272492d01a15def",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-11-18",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2025-11-18.npz",
+      "sha256": "9bcaae96a4e5a02d4b4f7ceaea5410e1b59aa6d594d4a1c2ade95c7bb9adeb80",
+      "frozen_file": "joint-paths/2025-11-18.npz",
+      "frozen_sha256": "ecfb5818a995ce709ee2ef88276ad8bc7344d6bd29b121f8772ee2fd63a523dd",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-11-19",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2025-11-19.npz",
+      "sha256": "6d7b044bac2977c62efe6bf352b0a74b36294d05d6d6db4a57317a8a41b15a10",
+      "frozen_file": "joint-paths/2025-11-19.npz",
+      "frozen_sha256": "40d2e025fd33dac2ac73601acd1ed6e4f36bc6f8ade048bd436704c9080c9f17",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-11-20",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2025-11-20.npz",
+      "sha256": "6583ede0bffc6d0bd14742f4d94c19a5ffc2dc9e68559eccdb70ddd358ebca50",
+      "frozen_file": "joint-paths/2025-11-20.npz",
+      "frozen_sha256": "8898a945d5f30b79af98b3dd576a6de8a89a355578c31163c200f55072367991",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-11-21",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2025-11-21.npz",
+      "sha256": "de791df49c84c4feffdf5e079c83e14d86d98eb03edb043675a7565895ead7e9",
+      "frozen_file": "joint-paths/2025-11-21.npz",
+      "frozen_sha256": "14768061e388de91b3824231154f9c03a46e421c17571448755f4ee181c72953",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-11-24",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2025-11-24.npz",
+      "sha256": "f0d238075bfcae73adc8b225b1e5cc41dbd69f15527c3389df612a7d86a2d1e6",
+      "frozen_file": "joint-paths/2025-11-24.npz",
+      "frozen_sha256": "dfe96e1e0d769c1cd77401115c957234414d6a573d003166cf6d52d48b175acd",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-11-25",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2025-11-25.npz",
+      "sha256": "f0637e2d17feb7942ae68ecfced43d3c94478ed3afb3369ca166634d6c7801f2",
+      "frozen_file": "joint-paths/2025-11-25.npz",
+      "frozen_sha256": "fe566dd63319df3b5e453c146312776af92cedd96559d005430dc8f3c59cf93f",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-11-26",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2025-11-26.npz",
+      "sha256": "ec7af47f0af6577aa9cb439f70b1e1f8efa6e0afb08508437c714a569bb8d63a",
+      "frozen_file": "joint-paths/2025-11-26.npz",
+      "frozen_sha256": "dc7ff765ddebe13740d9047f92bbe18f8cf0cb753067b4d656754c163afe01cd",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-11-27",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2025-11-27.npz",
+      "sha256": "682174abf782510219d68ebad3a33a54100f0b076d3afe464e475ee9fa7ca5be",
+      "frozen_file": "joint-paths/2025-11-27.npz",
+      "frozen_sha256": "c3773963fe457f3d8160642723b47079eaca4c46b5bc62fcf5b4b15b0fe7939c",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-11-28",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2025-11-28.npz",
+      "sha256": "15ad0fff66028ec5f215f97b9f3a1fd3da9982badd0b54036fbaa4cfef6605a5",
+      "frozen_file": "joint-paths/2025-11-28.npz",
+      "frozen_sha256": "6b65b7f8ec7e6a00df77efc814078e79d338bc880893a3404b505f29b81aa5eb",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-12-01",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2025-12-01.npz",
+      "sha256": "695c64cc497dceb30fba6cc13e8f1d88a5b3df836dc9f5c5c96f0afdaf50be0d",
+      "frozen_file": "joint-paths/2025-12-01.npz",
+      "frozen_sha256": "e96aa6809bd4914995d7d25db7402f0bc188ff2b6c104a933ddb14fe647b6a23",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-12-02",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2025-12-02.npz",
+      "sha256": "2e3d14791a8c4b2aff5f8bffa8acfbb5a21094731c9670b6b601c45ef89e7fe0",
+      "frozen_file": "joint-paths/2025-12-02.npz",
+      "frozen_sha256": "eba451d96a39eb227df4e230bbb9495b8b86c6c87c6bf61a75272659ca48a59e",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-12-03",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2025-12-03.npz",
+      "sha256": "de6c05e2dc98bd19d3bf7c86dd9737cb83d151d820561c97eb56350cc349f70b",
+      "frozen_file": "joint-paths/2025-12-03.npz",
+      "frozen_sha256": "58e4113f6920d3e4195a8cb729ad2c2617f13a88ff66b8df08ca5fcfb16e5847",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-12-04",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2025-12-04.npz",
+      "sha256": "cc4d5919aa3c73b2909b0d56803a0fd544766587abb0cb244658f01fc78885bb",
+      "frozen_file": "joint-paths/2025-12-04.npz",
+      "frozen_sha256": "ea147ea0ce6b01f19e0ecaf275f9a8f939150c81491be6633134da3ee0b7769e",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-12-05",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2025-12-05.npz",
+      "sha256": "c942c8d4fa2e2f8257fe327d4630e3f5fa00c8286f89636486ccaa38d7f9cbdd",
+      "frozen_file": "joint-paths/2025-12-05.npz",
+      "frozen_sha256": "8793331485e60be1044749a142450ed068d8ad5b2903101ddbf5bdedcf7946a0",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-12-08",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2025-12-08.npz",
+      "sha256": "d84976b02b3ac6b6283e0329e12036a4c205386bef73bbc2cf487acbe6e69ad1",
+      "frozen_file": "joint-paths/2025-12-08.npz",
+      "frozen_sha256": "691111fd7cdefa545612a851a88a809c63626108e96fc6f07973b316190aa170",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-12-09",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2025-12-09.npz",
+      "sha256": "14158167821931a00dd917083679655ba9e2041a609fca1828f3c6deb1bc9ea4",
+      "frozen_file": "joint-paths/2025-12-09.npz",
+      "frozen_sha256": "9310bcbf73d2a7b9de2ea4b6d5324841277c821c866deaa62260930929390e8c",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-12-10",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2025-12-10.npz",
+      "sha256": "9760b41e0fc876e7e09e937c21bb7bb988c9780dfea9222d8b651b08e757f677",
+      "frozen_file": "joint-paths/2025-12-10.npz",
+      "frozen_sha256": "ba7a230a54f778bab21afb0507221eadae67051e4fe56fd9d576bb3232cb478c",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-12-11",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2025-12-11.npz",
+      "sha256": "cf26deba34c3dd0e64cedf40cb733a27ce2a883cd3829174868e2e1fd97da666",
+      "frozen_file": "joint-paths/2025-12-11.npz",
+      "frozen_sha256": "c9887941109a607ba242399ad85c3f611e0f5b5a6d13f13009db6a4c0dacbd53",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-12-12",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2025-12-12.npz",
+      "sha256": "a1c6bb2930229ce8d56377f55b86c1996aafedd33e8d924948b10e24a32b017c",
+      "frozen_file": "joint-paths/2025-12-12.npz",
+      "frozen_sha256": "2c6e7c74a2a1cae7f6f78f26c2f3ba85bbb514f6694f4860848f0692cfc14ff2",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-12-15",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2025-12-15.npz",
+      "sha256": "8b27ef97ee87e1b133a651107ed29432e9612c9b463d0baec6b8d70f27398fa9",
+      "frozen_file": "joint-paths/2025-12-15.npz",
+      "frozen_sha256": "6d7de0fa98db9957d52fb05e384ac76c3614ac5af98d15a342638157c11c55a8",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-12-16",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2025-12-16.npz",
+      "sha256": "51addd57b424bb77fcaea3e4cffccf54903ab4ec3eeff8c1691abce39549d9ba",
+      "frozen_file": "joint-paths/2025-12-16.npz",
+      "frozen_sha256": "dcc9fe681f86ca7767345134d151fd0d189eeba000f7690fe6e5e3820417ab72",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-12-17",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2025-12-17.npz",
+      "sha256": "0a32d098b66f9df73bfebb34f1d3ef66074bb609adc01ae9d02a0efaa9deb44e",
+      "frozen_file": "joint-paths/2025-12-17.npz",
+      "frozen_sha256": "1cc182744c75c1e623f5f26b796a0e7124d4bf63f68bf9cd951bbbdccbbd15d6",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-12-18",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2025-12-18.npz",
+      "sha256": "551cb97f61d3636c8a12aebaf145a0b22333e626ba82789458a69efb2f8286ff",
+      "frozen_file": "joint-paths/2025-12-18.npz",
+      "frozen_sha256": "ca095010ebb60b97bcf0580902f5b35adada70974584fe7602a52ee13965c272",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-12-19",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2025-12-19.npz",
+      "sha256": "d844d34a18af67340587d600ee22f77d0891c7e20814ea360a1aa6d846f01d5b",
+      "frozen_file": "joint-paths/2025-12-19.npz",
+      "frozen_sha256": "0cf28f0f813560da2ee9c351ef5d00da3136ce92ce30f03a63babf7f4d023754",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-12-22",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2025-12-22.npz",
+      "sha256": "d7dd0919374d8626382790c9a4282f69d4f36b349389f8c053c5450a88e06a26",
+      "frozen_file": "joint-paths/2025-12-22.npz",
+      "frozen_sha256": "519d0351a4c0a5ef32779a4bc415fa6169869f79062d51c392556d7c09b5b843",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-12-23",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2025-12-23.npz",
+      "sha256": "691e661da6b5aeacca3ad0629d9a0aa0a3a5317570b15eaa1f06e4edf6d7fa2e",
+      "frozen_file": "joint-paths/2025-12-23.npz",
+      "frozen_sha256": "04079d74dfe3ffe7c9b77a5a0fbe828bbbcab4d833ddabd14ff31baa4d0a1ceb",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-12-24",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2025-12-24.npz",
+      "sha256": "cbf68909e0c8e1de9283f61501f7792fdd09cdaef2b8bf27466286b2eccdb4ca",
+      "frozen_file": "joint-paths/2025-12-24.npz",
+      "frozen_sha256": "b447d8e004aa9b2b221cf8424b985a050e46f14df907f57736ba62ab50ad64e5",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-12-26",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2025-12-26.npz",
+      "sha256": "7564f0f464a87e09aec1414fc57699f4cab241b73997eb2b052d827f7a4d4de2",
+      "frozen_file": "joint-paths/2025-12-26.npz",
+      "frozen_sha256": "5fc5d69fe4c3a29933e9caa6508f44241b45c933916ab6527a98f96c2bdfff46",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-12-29",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2025-12-29.npz",
+      "sha256": "31acaaeffab2fdf49fd50960b47d50586614a5334da203aad8415f5bbbd2c61f",
+      "frozen_file": "joint-paths/2025-12-29.npz",
+      "frozen_sha256": "43762fbd89a48cc2956aa0fdd2265c204ded2f317001ae8dca4b4a57f2bb2c0d",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-12-30",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2025-12-30.npz",
+      "sha256": "8771cf424960d56184380a2edd70d59d9bfb78528558e0e40ee5160df1ea1ca9",
+      "frozen_file": "joint-paths/2025-12-30.npz",
+      "frozen_sha256": "03e54b8f5d9b754fe6973ae892190b906a092f1d983bf42ef3f55cd5d70df401",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2025-12-31",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2025-12-31.npz",
+      "sha256": "f47fade950287b077c46c36b62402a4e870e251740660075fa394e5caaed8fea",
+      "frozen_file": "joint-paths/2025-12-31.npz",
+      "frozen_sha256": "ff70e619e7914c8bd1aafd542409509914973c116c36003d23d9aceefa49417d",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-01-01",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-01-01.npz",
+      "sha256": "9172b4dd9573f734ea36e13a7683c0be3370f403a4c6b771705a7d09f14ea5c2",
+      "frozen_file": "joint-paths/2026-01-01.npz",
+      "frozen_sha256": "7a0d2c2e455f256d76176154c72aa2b731f5265433bf635f9ffe41f77ea27bd5",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-01-02",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-01-02.npz",
+      "sha256": "e69b6d833e95d2be82868ac776bff294c7dd6c59f29746f980bfac89ee1c4aac",
+      "frozen_file": "joint-paths/2026-01-02.npz",
+      "frozen_sha256": "4ba1d27a46bd84923b92a85b04a907035b0465e83a963f1f009bbb65ddb4a8bb",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-01-05",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-01-05.npz",
+      "sha256": "a2698c785aaaae8cdec32b8b052fc83f81090f953a5cf8eff140b1e932e217bc",
+      "frozen_file": "joint-paths/2026-01-05.npz",
+      "frozen_sha256": "1f23b956f5fa0f693f72eed59c0af3447f825a36d5201cd61edbf08d8c5e1762",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-01-06",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-01-06.npz",
+      "sha256": "8882c3a279a0db356bbcb6aa9c14e64df5f8e4abfe0f970679654fa8ee8d7bc5",
+      "frozen_file": "joint-paths/2026-01-06.npz",
+      "frozen_sha256": "0d4fe5e12b592f26ba066dff583d2695dc2c68ad87349990a4c2e1315eeb94e6",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-01-07",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-01-07.npz",
+      "sha256": "6e191958ce344eeb60a54a88e0405d6f319ad1fdcec31f544fa70ebb1eed4a23",
+      "frozen_file": "joint-paths/2026-01-07.npz",
+      "frozen_sha256": "9434df72559a364e276575b71af0414065e06d984e0113b46e6ecdcf493bd824",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-01-08",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-01-08.npz",
+      "sha256": "6c8c2379dac450acac55ae1c4caaf83347a656ef7aee420dd3478e647a87f6a2",
+      "frozen_file": "joint-paths/2026-01-08.npz",
+      "frozen_sha256": "c9e0e91c8b5ae527f577949a4bb52242f326c0045ebb7e062afae2c861c16b0b",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-01-09",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-01-09.npz",
+      "sha256": "9fa9d40155567c24098a3e0354d3a0bfb441b0f50ac99278e730dde6ddc5e995",
+      "frozen_file": "joint-paths/2026-01-09.npz",
+      "frozen_sha256": "e7c5aae3829f95f744db2542cd5e0e040302af40a7d8900e0fbe3e0c21211cef",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-01-12",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-01-12.npz",
+      "sha256": "14e4e6d251d1729b548938da3e7542dd66bfb9873d889fc7f01f928558947749",
+      "frozen_file": "joint-paths/2026-01-12.npz",
+      "frozen_sha256": "a901d1fc14c1c7bb72fac4c5ecbda9360af3e35aa778df7c15ec74bd6bba5274",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-01-13",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-01-13.npz",
+      "sha256": "a4a8402eb8e009e00f62bbaf4b048498b406f2b52de4cff774f5fb8eabd64111",
+      "frozen_file": "joint-paths/2026-01-13.npz",
+      "frozen_sha256": "571836ad1bd2c9069745717d5ec49355d6c04feb2d0a36748e87659ed5c19927",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-01-14",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-01-14.npz",
+      "sha256": "faba2f970700cf15131ec13ed2c34b1d41ddaa7228a6ba45093c06ac91456a47",
+      "frozen_file": "joint-paths/2026-01-14.npz",
+      "frozen_sha256": "607efb2b4c7e583957a88f526fc496f6dc267fdc2082e7d9c564d721be9db5ce",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-01-16",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-01-16.npz",
+      "sha256": "01ba340eab4d4bc8ef30daf64083653e0adb5c089e247f4f6661fa33ee9cb41f",
+      "frozen_file": "joint-paths/2026-01-16.npz",
+      "frozen_sha256": "9cb2d4a1bdb292ea1881ab1d49db8668fd61ce2cb2ef83c560e8fd812ffc0956",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-01-19",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-01-19.npz",
+      "sha256": "161fe45d7ede2dbaf684734754551462109d26b3182c8f66693bb98101385c46",
+      "frozen_file": "joint-paths/2026-01-19.npz",
+      "frozen_sha256": "2fda107a7eb976b414c40041adc3a7606ee0032690233f17b2eb4df7edaf37cf",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-01-20",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-01-20.npz",
+      "sha256": "46fdd10c1ed97fe6f925c1061fb16bb37395d89a6810ba8de82e09376007f953",
+      "frozen_file": "joint-paths/2026-01-20.npz",
+      "frozen_sha256": "f4aeb28333f1a593d216d9d20d2838caf87055eaa7d67586815c0b299c22d1cc",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-01-21",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-01-21.npz",
+      "sha256": "e7b704554452fea0ec3b3200085b9541826c826698cc0e3e783a87af672a6a6f",
+      "frozen_file": "joint-paths/2026-01-21.npz",
+      "frozen_sha256": "7ca67af93877c107a95be2d2610f1301ad469263e996540ed7e62edc9c4646c5",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-01-22",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-01-22.npz",
+      "sha256": "1b7b5f5658e6ac95d6864d9f9b9181b7a04f804891f79dacc1ef632a2781d090",
+      "frozen_file": "joint-paths/2026-01-22.npz",
+      "frozen_sha256": "7d9ae67fac0a0ff21ef8fc6aebbe05ddf8f746bfb1294784669d6c27f34b7032",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-01-23",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-01-23.npz",
+      "sha256": "309e64da9be66685ad22696c39b5d8e97d6bd3eeb904c7b2e115b7ee83ddb3d7",
+      "frozen_file": "joint-paths/2026-01-23.npz",
+      "frozen_sha256": "3cba2a6370677e489d08e6004c50e22c9a19ba2ba9818e26608c4e2814ff40e0",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-01-27",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-01-27.npz",
+      "sha256": "f5fe820f5193d904281ef531b662eff63b4e6b3a79d2a0f8082afd58281885fd",
+      "frozen_file": "joint-paths/2026-01-27.npz",
+      "frozen_sha256": "af3e3bd500f71228541c3ef5c9abd10189b3594502df0dac10ebf14a16194853",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-01-28",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-01-28.npz",
+      "sha256": "f416c1f822d4087c3406112903cdd38dde01419069d932eed5f64de2130d5653",
+      "frozen_file": "joint-paths/2026-01-28.npz",
+      "frozen_sha256": "17ddfb3cebeaa25b23bf1a52d37793792aed0cee17e876beee7e439c0e613527",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-01-29",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-01-29.npz",
+      "sha256": "829d81cadcc8e72c6cb18dfb8313ebd8848a062bf7073bf3e04b71269f00f185",
+      "frozen_file": "joint-paths/2026-01-29.npz",
+      "frozen_sha256": "d0d3ceefbd47dcb35eabcbb15f13e35fd6be2ad79278339602dc9854d3c77623",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-01-30",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-01-30.npz",
+      "sha256": "ecca04a6788d9799dd7f2271d95b810bd0a5a5bd14d440630ddac6e15beb9f4b",
+      "frozen_file": "joint-paths/2026-01-30.npz",
+      "frozen_sha256": "ae746711e8ca1f2e6d281a25822860dfc84ab7b1a5aaa4a93c65786232b48ffd",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-02-01",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-02-01.npz",
+      "sha256": "002945c8c3b21cb0f13f83802b89ec39a227faec4993a749ba253ba97bc98ca8",
+      "frozen_file": "joint-paths/2026-02-01.npz",
+      "frozen_sha256": "394bd35dfb154a530e8af1726b76c69aa649f9e49b2621bbca1f314bb2603b1c",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-02-02",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-02-02.npz",
+      "sha256": "ef4d55c65fb5476c948cc2c61d5887f03a2fa7ac9e00ee23b5163e45277722a9",
+      "frozen_file": "joint-paths/2026-02-02.npz",
+      "frozen_sha256": "88a44dfdf39087c1a3c0b4741213c03ea3d51131344e500a62a31e25f093bcfd",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-02-03",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-02-03.npz",
+      "sha256": "fdd453537a25bd5e0255909942f1928a3e46029d4aa050e2250c819feb539a94",
+      "frozen_file": "joint-paths/2026-02-03.npz",
+      "frozen_sha256": "6014aa69eb397b4a807a4312aed1765b42ae03abb0b964d32d297ddde288bb02",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-02-04",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-02-04.npz",
+      "sha256": "790eaf365d7c1868a75353c9ba1264369ade2d0bf590a0c24476ca63622989a6",
+      "frozen_file": "joint-paths/2026-02-04.npz",
+      "frozen_sha256": "4b058538b13851bc0ee988ec3508c462a2e73e25cbbfc8869637ab74eb7ae6c6",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-02-05",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-02-05.npz",
+      "sha256": "1ae51987f5859b6ae4eabf7376ef44f60b9a091e194949e8c44c5d5e403f8dcb",
+      "frozen_file": "joint-paths/2026-02-05.npz",
+      "frozen_sha256": "544ec18f6743aad7b36d57e737f60568742fca090a3a1538702190bede7e1f19",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-02-06",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-02-06.npz",
+      "sha256": "971b39a7278af583f0e9c3d5030f1cc674f524b61c6b4620845be50dd70581e3",
+      "frozen_file": "joint-paths/2026-02-06.npz",
+      "frozen_sha256": "2a78fe74fde2b437dc472704ee9be41d57447c69e213857cb50d84a6074bf08b",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-02-09",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-02-09.npz",
+      "sha256": "b824eef74d1827fa937efb7614f5d3dc1f5d24028dea882df471635889edbffe",
+      "frozen_file": "joint-paths/2026-02-09.npz",
+      "frozen_sha256": "ee7c35f9e4049620c4456b7bbc5da76b6a03dc958a56164145f1835ea643362f",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-02-10",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-02-10.npz",
+      "sha256": "45d522baac09001131507c3c2355c5a656ee51dc724f9d7273a15e7ffb14b6d8",
+      "frozen_file": "joint-paths/2026-02-10.npz",
+      "frozen_sha256": "18269a5c78acd94f2304bf33b70b89983e487f5fec84cf567510ac8d9330cecf",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-02-11",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-02-11.npz",
+      "sha256": "c5813cec028e62d789f82b813e62c08e9e3247516c83b3c33d5c079d11a8d04a",
+      "frozen_file": "joint-paths/2026-02-11.npz",
+      "frozen_sha256": "101e6b18b37df51ed5ca408480e8fd9f43acbb81d7c745672e5a6461e2e8ccfe",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-02-12",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-02-12.npz",
+      "sha256": "8ac3e32cb888af3934f75a8f0c376252508fa72d2fc501d0241a57da5e264032",
+      "frozen_file": "joint-paths/2026-02-12.npz",
+      "frozen_sha256": "3c3605a211ddd7f27767887b223922db47d5a1d2f450d28e740e348e65be19e9",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-02-13",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-02-13.npz",
+      "sha256": "a1c998f268272119082af4cbc6a4d466402e8aa55a994b0914fdc6a08b3994b0",
+      "frozen_file": "joint-paths/2026-02-13.npz",
+      "frozen_sha256": "9d562484765dfca374b8df4b5df2cf3d6f4a8d96e934d1d6d69c399cb05b9068",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-02-16",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-02-16.npz",
+      "sha256": "46c3029a5cfe2cc86f2c48f6397c5f3be745b9f8b90a0f243d54a788a8007a94",
+      "frozen_file": "joint-paths/2026-02-16.npz",
+      "frozen_sha256": "78c84e57df653125d3bdec8670523d08b64c7be96dcb990e92bb579301ea3e50",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-02-17",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-02-17.npz",
+      "sha256": "a958c05e4348aee087fa64924552c2f02bddc11a12c0136e65aa7b45af732e22",
+      "frozen_file": "joint-paths/2026-02-17.npz",
+      "frozen_sha256": "f394748c6073c5e6182b411d09929e4b7652c6b768a4275e555bd34f0931fc80",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-02-18",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-02-18.npz",
+      "sha256": "5e9a5d180e3b28bf4c2efa7532e7421a84887f51bf2968bc3c3338db4b12f185",
+      "frozen_file": "joint-paths/2026-02-18.npz",
+      "frozen_sha256": "268ae9505ff52c44b89c512ae0165eb22727a895809868b85dd181c51603ffa6",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-02-19",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-02-19.npz",
+      "sha256": "f392db5d67d454dd1ca6dba1380d43bda17397506031e59760ae33b99fbc55c0",
+      "frozen_file": "joint-paths/2026-02-19.npz",
+      "frozen_sha256": "ed16a27a6b208e528eff1649e0bd6029f570f28d4dbd57cb8db59769ee32b2f4",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-02-20",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-02-20.npz",
+      "sha256": "775bff7944375d98af9f2e95d280bd88e521e771761528a09b05acab4a1fbc92",
+      "frozen_file": "joint-paths/2026-02-20.npz",
+      "frozen_sha256": "3f481350545ccb56c973b0627ce860aba4c07e65afcaddab5bf11f85f2fcafc3",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-02-23",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-02-23.npz",
+      "sha256": "137d901758a3066f73dbd701c38bf11db42670a9d9c7932d6334e7bb235e5d45",
+      "frozen_file": "joint-paths/2026-02-23.npz",
+      "frozen_sha256": "b0d3bb9654b1103863df9c6b5f9fa999f921883584e4b2e8ec3daea19d014f2e",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-02-24",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-02-24.npz",
+      "sha256": "d15622fdd84fa2208b09d81f621f3baf527e8668ecfcfe703ad78ba1001147e8",
+      "frozen_file": "joint-paths/2026-02-24.npz",
+      "frozen_sha256": "b5d165c711355f4df5985595947a53450e3b7fe2f9aeef56f6e29d727d2de4d4",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-02-25",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-02-25.npz",
+      "sha256": "940672301e8a696722514ccff092d02f3be8896dfd72c3e64bec6ba4434984d8",
+      "frozen_file": "joint-paths/2026-02-25.npz",
+      "frozen_sha256": "9c8b3ed6de368e15d6c65cd7127ced68c0a7ae57d40885d20247274f53fac424",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-02-26",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-02-26.npz",
+      "sha256": "dee77bba5517a24abc7a4a4826023982152f6ec48622d4dc54df1067c208076b",
+      "frozen_file": "joint-paths/2026-02-26.npz",
+      "frozen_sha256": "4672cf3151d87935ff0f81ba7757af5a1af2b447e264f819fd5b3c5afba7f623",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-02-27",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-02-27.npz",
+      "sha256": "6470c21f3e6f0e65a04c7f1d65d508366d8b855fb34abfe41a8cba9a4a4ad5d1",
+      "frozen_file": "joint-paths/2026-02-27.npz",
+      "frozen_sha256": "904f5e8bd87b04f0b64af9c501891bae2fedbfe18d56580389b103edf6be71c0",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-03-02",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-03-02.npz",
+      "sha256": "b12cd4a7f1d358e409ba13f2aecfeb5e57b1ec54830a74749df2d70ecae9dd2d",
+      "frozen_file": "joint-paths/2026-03-02.npz",
+      "frozen_sha256": "f8dd2b74b4dbc191398166430f370c07ca9165fec5efba3f6470ded7bbb11339",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-03-04",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-03-04.npz",
+      "sha256": "befb2fd2c9dd6aa279a8eac382891d95a2abb6fca99aac330fc6e279b8449cd5",
+      "frozen_file": "joint-paths/2026-03-04.npz",
+      "frozen_sha256": "86565004d47930e739943510c2175e32a7df78ad7df95ca0a276e76c6820c4f9",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-03-05",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-03-05.npz",
+      "sha256": "a3a906e8efb261ea0dd2dc784ff4d63d44a1a0b1fdebf73be9e3297d94dd95cc",
+      "frozen_file": "joint-paths/2026-03-05.npz",
+      "frozen_sha256": "7b07e71be6679fc8352c0a06db63bcc7f7cfcbe1dfd643e3c2b2e4e25b448eb5",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-03-06",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-03-06.npz",
+      "sha256": "79cca6a10a578c8f561b955b9026a609928cf2f0d73f5f658074db2eb4e084b6",
+      "frozen_file": "joint-paths/2026-03-06.npz",
+      "frozen_sha256": "9a94b5ab4bd55d0bf7d388f9be7763a18cfa14a25fd6270b1346a139d0baf377",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-03-09",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-03-09.npz",
+      "sha256": "5c38bcb4beaa00e224cb2033e8c504989e624fa98cb3b320ca161c2da9a89d29",
+      "frozen_file": "joint-paths/2026-03-09.npz",
+      "frozen_sha256": "800f29d7a30c251a3094c31541be389eb9b7806e5a30bc15ce55ee17838b980c",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-03-10",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-03-10.npz",
+      "sha256": "00f747c0a38d2f8d215710701197edfb581c870eae281b8625acaf8e34e7a084",
+      "frozen_file": "joint-paths/2026-03-10.npz",
+      "frozen_sha256": "08c69056784462e08464b3ebe85b69cdab1a7ead0732c7c35592472a93095dcc",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-03-11",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-03-11.npz",
+      "sha256": "02e07ecbb615197bdcf49c3966e36ea4aa07c78b41926e9fb13fafbb8aeb5a8e",
+      "frozen_file": "joint-paths/2026-03-11.npz",
+      "frozen_sha256": "24ad213208a1889a351c3264508530fc3da323c2d9bf43015d4598281589d39c",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-03-12",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-03-12.npz",
+      "sha256": "5c1513d3380948e2b7d719dada8df3b67ea8b45bbe1c043d747d11fe10fab602",
+      "frozen_file": "joint-paths/2026-03-12.npz",
+      "frozen_sha256": "131972b4b7860c255192104e7fa3ce9b39043c6f0701d3606a8298e525b9872f",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-03-13",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-03-13.npz",
+      "sha256": "035a023ba577ff6f583b47bce3aff04a529af35d9de5cb3c5e44aca49652b2f2",
+      "frozen_file": "joint-paths/2026-03-13.npz",
+      "frozen_sha256": "78138283209ab8a0520a9628ce5e07232b3c3bb750881d3e0042740aecf29d21",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-03-16",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-03-16.npz",
+      "sha256": "76843e50f3f475cdddbff69df6927da58298479ba28da14edea89d10c746758d",
+      "frozen_file": "joint-paths/2026-03-16.npz",
+      "frozen_sha256": "9665ae7da85f3908a827ad107507fd9b814298cff2ca6c8409ba0219875a2a7d",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-03-17",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-03-17.npz",
+      "sha256": "34c012a6d32e8461687c386c1d92cb01b748ded42db34006a4b0906500481ca8",
+      "frozen_file": "joint-paths/2026-03-17.npz",
+      "frozen_sha256": "75ebab7b0b04b863297ceaba61894e6e164344b62883555648de0f8574f2f4b7",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-03-18",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-03-18.npz",
+      "sha256": "69019f21f49579b2d6fcfa4d7a9e337192f00f129bba6728ac37e2a71004381b",
+      "frozen_file": "joint-paths/2026-03-18.npz",
+      "frozen_sha256": "26a263f42649137a267fff5327e98b49ece585804fb3171b655d136c26f50779",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-03-19",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-03-19.npz",
+      "sha256": "a5d6049e6b8b368ed5212a47bbda541a47c4a0a131d6d4396f736334e68ad1bb",
+      "frozen_file": "joint-paths/2026-03-19.npz",
+      "frozen_sha256": "13f62117f0d7b122fe5fc476a57274562dc7330f71f364294bab5202557aad7a",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-03-20",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-03-20.npz",
+      "sha256": "f7ddc0dc731b6a67dfa30d5c3970ae5ae55ad2e53e4932463c57030e46db9ff3",
+      "frozen_file": "joint-paths/2026-03-20.npz",
+      "frozen_sha256": "34539813d7f0aaf58cd084402058750fd52773b966802b68f311eae2c85068a2",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-03-23",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-03-23.npz",
+      "sha256": "c99a5672efdcea151d2ed8bed5567b983610c3c6d527d5eb877e3c3f69b4f1d6",
+      "frozen_file": "joint-paths/2026-03-23.npz",
+      "frozen_sha256": "fbc78ab42561019bbdceac93ecc7b633b5775614afd46fdf98cd6333acdef841",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-03-24",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-03-24.npz",
+      "sha256": "3da529be9c953376c417c9cc20539083ddd224adf666efcf2cf443b4d3130bd4",
+      "frozen_file": "joint-paths/2026-03-24.npz",
+      "frozen_sha256": "aa99f0e982b80b2933ac5ff54b591f25e2291f73433bd624dfd4bba996620acb",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-03-25",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-03-25.npz",
+      "sha256": "d72bafc1b0908cd58477ba5d9a4bfe43b917e0da6264f04d407ad89fc4559c6f",
+      "frozen_file": "joint-paths/2026-03-25.npz",
+      "frozen_sha256": "19a162d760eeabc10d8cf03c938a93897c1a1432c6f073238ca2d065444183c6",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-03-27",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-03-27.npz",
+      "sha256": "c2b9bdc509046af3d8d0e8bda6b3dce2868b166069e3897f83740c6c822c19d2",
+      "frozen_file": "joint-paths/2026-03-27.npz",
+      "frozen_sha256": "662b5985d1d0701c91bb1e1500be88d62ea714961d65eaa4e2493c49e9aac559",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-03-30",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-03-30.npz",
+      "sha256": "22ee515fdd4d702eb6e770cf5da0436f99f2eb5bf5cbc3117ce0900ed611a836",
+      "frozen_file": "joint-paths/2026-03-30.npz",
+      "frozen_sha256": "421b7b3180c037fac58b3a93bf69bb575151a62fadff69a033b44cf10c37fc95",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-04-01",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-04-01.npz",
+      "sha256": "19ce3f7bdad0b92729958918d0f0f99946471757932a5799b0528fdaef39c3f8",
+      "frozen_file": "joint-paths/2026-04-01.npz",
+      "frozen_sha256": "119de622a6a9c131399890a34daef12f2a9bc819e9e4eec70b57b51a586437e4",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-04-02",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-04-02.npz",
+      "sha256": "dd7d41912afe7497ed6b64f15095f7c95899f40d93253954230a8da252f40c01",
+      "frozen_file": "joint-paths/2026-04-02.npz",
+      "frozen_sha256": "f79d1eb8e937b6a8b05ac3c5edbb988e9d34e4636594e2e8b4906584feec68af",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-04-06",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-04-06.npz",
+      "sha256": "60e2b649bcb1182d247c5a1182e6402a856501eb162bad7b6732cbc3605cb80e",
+      "frozen_file": "joint-paths/2026-04-06.npz",
+      "frozen_sha256": "8f7c8b84e62a7d40b51aa9a4698359f9c942178aa8db6b02a63a88be882b2fae",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-04-07",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-04-07.npz",
+      "sha256": "535d0aba0b340bf034f58a177b05a13b7fcec7af5b84c626357190049f73e1f7",
+      "frozen_file": "joint-paths/2026-04-07.npz",
+      "frozen_sha256": "99d4457df13670c2d5b1f04c55262f228f876744c36cfa26c72d2a353445074c",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-04-08",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-04-08.npz",
+      "sha256": "bd6d9956b1daf1614d36338bd233b315d446ed019e2a952267290ababac84f0f",
+      "frozen_file": "joint-paths/2026-04-08.npz",
+      "frozen_sha256": "ff4bd369ba7b1de1a37ff5c922711fc0c02f0dbdfbfcbb17583fd834bded5684",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-04-09",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-04-09.npz",
+      "sha256": "22d5e18515bdf05a660c4dbe7ee3d69a7d34094849d99bf8aea5fe68694d717b",
+      "frozen_file": "joint-paths/2026-04-09.npz",
+      "frozen_sha256": "58b2a50f0eb12add5c811ce7ff6f0a3937d35530e754f176c20660f3775bde24",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-04-10",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-04-10.npz",
+      "sha256": "b429d08b3fbef654cfa79c9408c5d0a98230979b527ea1a1145a502a406d818a",
+      "frozen_file": "joint-paths/2026-04-10.npz",
+      "frozen_sha256": "9ba67a96f33c7c3dcbc39ca65329dd4be2ae97378a2eb29d02e075241fdf526b",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-04-13",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-04-13.npz",
+      "sha256": "a6c3b8ebeb300d7705e1d3bf2e6d170952e0c1e10ae99abe8c75c971131cd958",
+      "frozen_file": "joint-paths/2026-04-13.npz",
+      "frozen_sha256": "7cd050f4c2c0efa4b69a4140612dd1d86da626ed85e9f54e5bdabdd30a32d17a",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-04-15",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-04-15.npz",
+      "sha256": "821de4b924e8f5e616fdd04357170e1dadffb4b9234565ab51ab1836e4766eb5",
+      "frozen_file": "joint-paths/2026-04-15.npz",
+      "frozen_sha256": "1757cca408a1761b5decfecfce03959d9aa307a526837d19017a805445cec004",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-04-16",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-04-16.npz",
+      "sha256": "c9f885daeb609fc63513fe4ec1fb7d06bd0bb02642c1bd1dd0448f5eca541b5b",
+      "frozen_file": "joint-paths/2026-04-16.npz",
+      "frozen_sha256": "935254e862d79895ca74512a5be7600875c7873ee62bfd50597c75d1a344e5eb",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-04-17",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-04-17.npz",
+      "sha256": "4a258b497d038ed6bedc1f39fc86aa5c3e22cac8a548f3d2dd46448221a62568",
+      "frozen_file": "joint-paths/2026-04-17.npz",
+      "frozen_sha256": "f75eec8224110081edf2e3436398327b535dcf39bf2b893c7c81f698138d2a65",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-04-20",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-04-20.npz",
+      "sha256": "ef57f99794b48faae215ad13148dc79b8d82b9ff1342336e9c2f4f848da2d309",
+      "frozen_file": "joint-paths/2026-04-20.npz",
+      "frozen_sha256": "5f593443784fbe251f08bb08a939f83eeb3d1529a43985a76cbf37ed651e556f",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-04-21",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-04-21.npz",
+      "sha256": "94725fdddd03dec7cb76f5af1b892b4e817077f43ab79030cc8a6ff1e3b22b47",
+      "frozen_file": "joint-paths/2026-04-21.npz",
+      "frozen_sha256": "9e61a50648e4d0dd19b64468e3d580652e2287a21239d0bf122d71736a5f22f1",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-04-22",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-04-22.npz",
+      "sha256": "654c49160fabe773dff30d20054c7d38cc3109165a6139046797287b488862fe",
+      "frozen_file": "joint-paths/2026-04-22.npz",
+      "frozen_sha256": "8d4368b873d39f281ca7cc3f88f2afeee446e789be69f86d32192fb93227fbf3",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-04-23",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-04-23.npz",
+      "sha256": "f164854470c74d250e0cbc50f696bedd03e06f352eae6cba755229fa41b8263a",
+      "frozen_file": "joint-paths/2026-04-23.npz",
+      "frozen_sha256": "d4e5ee6f7346a85c58caf41bab12d8f9015900007327a796cfc39a3806d60d53",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-04-24",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-04-24.npz",
+      "sha256": "3b287772216c7a285ab0f29588c8ce0d94761248d14b77068ec19323c14bd24b",
+      "frozen_file": "joint-paths/2026-04-24.npz",
+      "frozen_sha256": "856a5604d8632cab8323ccd7130d89f33147374a9d1e86603b501cdfbe08167c",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-04-27",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-04-27.npz",
+      "sha256": "9cbfed4207241666d0332bfe095fa10bf7c8bf41ddb282d5c1a1b9a819cdbd94",
+      "frozen_file": "joint-paths/2026-04-27.npz",
+      "frozen_sha256": "b503b1f057ff4e0b21948dacd74fa26c56d1f09c433156052214998e60ac9e1f",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-04-28",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-04-28.npz",
+      "sha256": "3b6ba882e0f40773cd31353c181cdb556abb0c49b8b3a18ba31ff3b88afbf36c",
+      "frozen_file": "joint-paths/2026-04-28.npz",
+      "frozen_sha256": "6a7afda3b2b26f8a93886d2d6ca3070d7d4ad4acb122a333f4f825011806cc59",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-04-29",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-04-29.npz",
+      "sha256": "7cdb5f9de91a48cfc2a1c723a678e4d98f094d34f43fae5795e69c00b32edba0",
+      "frozen_file": "joint-paths/2026-04-29.npz",
+      "frozen_sha256": "5c9da14f28b28df03c5e91786991b12ff312ab290cdcc95d8467a6f54a8df389",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-04-30",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-04-30.npz",
+      "sha256": "f562636dd1f24ef093532ea3dc02e330a55724a6182854d8005d40550ff08a15",
+      "frozen_file": "joint-paths/2026-04-30.npz",
+      "frozen_sha256": "11a424cea16c2b69b9b9a11dd57a5701426be411bce4e7d503e9b699402d284e",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-05-04",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-05-04.npz",
+      "sha256": "864414c4648bb020f3640ff443eeae9645e0e9701a6bd1d5db0b4a96b6a1bbb4",
+      "frozen_file": "joint-paths/2026-05-04.npz",
+      "frozen_sha256": "f877bcad064f2fcb133e4323cca865d5b5a1ecfa1f549a33481bdd72c4e07233",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-05-05",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-05-05.npz",
+      "sha256": "c0cb7d4297607bce5e3b33e87bd1c0f0b2ff0dfe1e451d08ca70581e15a3704c",
+      "frozen_file": "joint-paths/2026-05-05.npz",
+      "frozen_sha256": "52ef351e2a755ccde8964a33544aaadf7532bb7f4d6c83837bdf8fbb22f840ef",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-05-06",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-05-06.npz",
+      "sha256": "a94735c264b321c5930edbf2a1268de2f8bacdf670881b0f43e4962aead2ebd7",
+      "frozen_file": "joint-paths/2026-05-06.npz",
+      "frozen_sha256": "f97793627d44024c08b5d6f29ddcb8fb5e7831f37be208374c14b9aa7f32ef8c",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-05-07",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-05-07.npz",
+      "sha256": "bdaeb6e4b10db6cb242ee300a31e8500c842e4e5f848b1aeb4bb6446150b21e0",
+      "frozen_file": "joint-paths/2026-05-07.npz",
+      "frozen_sha256": "537861c491a0c86ef92e542ee757d60e87aca6580dae68a4e1e24c7916eb892a",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-05-08",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-05-08.npz",
+      "sha256": "328a46d23d4fb650c3f608db9c014896fa200747d751fbe0a28ec446571dd542",
+      "frozen_file": "joint-paths/2026-05-08.npz",
+      "frozen_sha256": "b9c3a0b733c3fffb898e78c140268c10209ea786e95a05664772ba63bda9ed77",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-05-11",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-05-11.npz",
+      "sha256": "2c97624fc718309736c09874711a45cfc5f5012dbb13555448d8238ae34eef41",
+      "frozen_file": "joint-paths/2026-05-11.npz",
+      "frozen_sha256": "f22212ef884cae9bbdf8ac05cae1fb9f87603d37a1a2c6e9ba668018eae76108",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-05-12",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-05-12.npz",
+      "sha256": "bc7d2f20fc657058764e465d154ab04249a1b30b96817b593fcbdf5a012e0069",
+      "frozen_file": "joint-paths/2026-05-12.npz",
+      "frozen_sha256": "b70389c3be8ae1dadd09c6e1835e14ddc807bf98890cf182f169a999fb214365",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-05-13",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-05-13.npz",
+      "sha256": "3be1bd103d71484b9b03ee55680c537974b1d77b6828fcd92f84b3e272f2efe5",
+      "frozen_file": "joint-paths/2026-05-13.npz",
+      "frozen_sha256": "576ce4833d934ebeadfac9dbd3c0bcff6cb31764dc289b4a47abace4aa3038f2",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-05-14",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-05-14.npz",
+      "sha256": "874211b38036f3acdbb9efe137a5f999199a7dc992ec0518b0fde8a2c8a54a3b",
+      "frozen_file": "joint-paths/2026-05-14.npz",
+      "frozen_sha256": "9de0f0240b9bae58fc9e551d02140c2cc63301de6cd8b21c91dcbf09c8cf5c3d",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-05-15",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-05-15.npz",
+      "sha256": "8f5f2047e3c533bb0c49b0be5decc7b9f9111371ec459ef10fb68488ca2d29b8",
+      "frozen_file": "joint-paths/2026-05-15.npz",
+      "frozen_sha256": "741d74a759b2f6f7f309b138dac90128bb5ce67be0a3247bf8e07c6b54a84057",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-05-18",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-05-18.npz",
+      "sha256": "f877e18c7d6f4068fb1fa24285ff498dca8a0d585b246ad1f8c2067b647930a1",
+      "frozen_file": "joint-paths/2026-05-18.npz",
+      "frozen_sha256": "3a293ff15b1e01f5ac9f33b3f031003d96ac96549329bbd886267e81b6120056",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-05-19",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-05-19.npz",
+      "sha256": "08a8a9c1469de62942ad3006ea51eb31694483861fa5dfba228dcbfb36e605fa",
+      "frozen_file": "joint-paths/2026-05-19.npz",
+      "frozen_sha256": "cff4896884cadb56b94d6ffaffba290b6c15476dadff8dc16b0d8df622a04f99",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-05-20",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-05-20.npz",
+      "sha256": "2f3b376d2af222e91593b11c0b6070ccf0b4957de2f236ecd3a81e8e281c38fe",
+      "frozen_file": "joint-paths/2026-05-20.npz",
+      "frozen_sha256": "9ca5539bd0e7cea4173de0747e3ad351d4f607d465dd684d0a237b7b31d09e00",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-05-21",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-05-21.npz",
+      "sha256": "1760223091587932c23d675cc0ec3bae023bdee9faa25458d7b0bda59531eb13",
+      "frozen_file": "joint-paths/2026-05-21.npz",
+      "frozen_sha256": "03537a7b84e21cb82fb6cd42ff57c3547149232862571facbed0b18c5d46959c",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-05-22",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-05-22.npz",
+      "sha256": "d696db582574997d06ebd3d739b430e422bc5c7f5f2ff8e04f429def58eca2d1",
+      "frozen_file": "joint-paths/2026-05-22.npz",
+      "frozen_sha256": "88ac9329e45bd979b418c8fc4e64d1f478470adda1e42576349fcfb21a342fff",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-05-25",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-05-25.npz",
+      "sha256": "e8f1a4105ef9e2b55a20769a6000d208f60b0d164cbdd5f2d0a3e2e89b98587a",
+      "frozen_file": "joint-paths/2026-05-25.npz",
+      "frozen_sha256": "f2fd5988442006b897934253d3759826419a67715727bd496ba772f620c4a120",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-05-26",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-05-26.npz",
+      "sha256": "c5de15510a4d413da9455c3f8f66261f62a66f447d0c322236e15d5083606d90",
+      "frozen_file": "joint-paths/2026-05-26.npz",
+      "frozen_sha256": "e9d7528da20879e965eb76a9e9cf1b9698b86318eb70dc9c7e622826d06dd6b8",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-05-27",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-05-27.npz",
+      "sha256": "7584a8bf5caebf144aa7fd04dd3e6483a6437e6a40ef5d6d8c155c0eb2021671",
+      "frozen_file": "joint-paths/2026-05-27.npz",
+      "frozen_sha256": "b2aa49f7d25915aaa2a6d865a35abdba1f43770f465d317948f35e4adea83bc2",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-05-29",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-05-29.npz",
+      "sha256": "9c59b9705178c12998d09465385feecf93ef82f9130fb760050d3abaeb763089",
+      "frozen_file": "joint-paths/2026-05-29.npz",
+      "frozen_sha256": "6c2aa75fae2ee0b234b0ccbb18a50e838f90d61803788b96a4da979771c5c434",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-06-01",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-06-01.npz",
+      "sha256": "547dade4488d4d60b07da7c9b994e3b2fd48d69ef8cbec51f73cb68c79fc0a12",
+      "frozen_file": "joint-paths/2026-06-01.npz",
+      "frozen_sha256": "0711298ed9a68b52df551f9df33637ead3b936d567a3775e70cd3f85275ec0ee",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-06-02",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-06-02.npz",
+      "sha256": "527377b3432341ff07e07b3b0287403cd056d482588da99356a43a6a68fd2844",
+      "frozen_file": "joint-paths/2026-06-02.npz",
+      "frozen_sha256": "3367be32008e1fcdb2f3ce4658754b33397e027ad3a36805ae50e97ea354a22e",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-06-03",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-06-03.npz",
+      "sha256": "69904e16c48f4eab2de76b1866810a42a46ccb64b224031c1d6d058148918e96",
+      "frozen_file": "joint-paths/2026-06-03.npz",
+      "frozen_sha256": "532a653c8122074f95d1045a7d77cc853c613c949bbb824d3c7002171774e804",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-06-04",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-06-04.npz",
+      "sha256": "b009eddfb2bed796f5e162acf6fce35d6b9e8601aae2352038807175916d764b",
+      "frozen_file": "joint-paths/2026-06-04.npz",
+      "frozen_sha256": "c3e1c3fe09311f0292e11f5886e2a9b20930cc1b7347202d9dd05451af36297d",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-06-05",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-06-05.npz",
+      "sha256": "8b91723b27913f8b1cc264583d3c6c7838592131f5d8b6ce507a641e7ff1ac3d",
+      "frozen_file": "joint-paths/2026-06-05.npz",
+      "frozen_sha256": "465897d9988ee4a02c064cc4f47276407d7ef448cc067bc9c6a94981a960a85d",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-06-08",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-06-08.npz",
+      "sha256": "5ff12575d464b15b0baf1e7b9e269bc81309d7376c969ec61bacfd116d4111e5",
+      "frozen_file": "joint-paths/2026-06-08.npz",
+      "frozen_sha256": "a4379f6860f44f8fc636c4d2b37908bea8bd04f8f3e4430dc97b604c2bfb3c1f",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-06-09",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-06-09.npz",
+      "sha256": "5ff0bebfa3a42b994017c38d6a097215f59cdce24b311da638f982f1cd100425",
+      "frozen_file": "joint-paths/2026-06-09.npz",
+      "frozen_sha256": "1e63877a98729ec1b0a5c6a40fd0e09ac06d0c2bf73c1e695886996f2c3cfbcb",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-06-10",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-06-10.npz",
+      "sha256": "1d098c23e31453cb8c474fe52c64f5f38a5ea40599e38fa0a5c4fb57d614efc2",
+      "frozen_file": "joint-paths/2026-06-10.npz",
+      "frozen_sha256": "cf12e69f266db3ffd81c9a134db4d3c1f71b1e167b5e93430a6b4239e36c7c70",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-06-11",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-06-11.npz",
+      "sha256": "c82f7da70db91f2fa73702eb80dfb5db494093686649d3328c62fa8333bda8ff",
+      "frozen_file": "joint-paths/2026-06-11.npz",
+      "frozen_sha256": "0770c598a8a74c19ff2023fc624170dc67dbf162acc5014be6060a086c7cf014",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-06-12",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-06-12.npz",
+      "sha256": "c72b2fcab41a9fde6635ae631efdf4951dc145c44f5f14a8a90391e3a3662f83",
+      "frozen_file": "joint-paths/2026-06-12.npz",
+      "frozen_sha256": "57f5b51a1e4c0730e16b8cd847a5b63e94235ae496616430dfabd4922355c083",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-06-15",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-06-15.npz",
+      "sha256": "83846d4e64d6d110fbb0234822dc3d8c66efbc3f230256c316d1c5f84ae176bd",
+      "frozen_file": "joint-paths/2026-06-15.npz",
+      "frozen_sha256": "c5ec7280f617e8c623ff948a521d35a4cbce4f2001896ce631eedec720146593",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-06-16",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-06-16.npz",
+      "sha256": "26751505bfaf5fc6596689f829b03ab40312ca3006f598d97dd10690568652fa",
+      "frozen_file": "joint-paths/2026-06-16.npz",
+      "frozen_sha256": "7011bc56980f41478572e1bf1a64f64678cb043e0fc9e3d528770db3fcdfcd6c",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-06-17",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-06-17.npz",
+      "sha256": "c875daf4715d145ddef4e3cc934e82950186065d1d5ba9edf3e5f9312261b1ce",
+      "frozen_file": "joint-paths/2026-06-17.npz",
+      "frozen_sha256": "2f3cf293accd71bde82aa213966835e3b693c5421b54ac3aec151a34ad5c511d",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-06-18",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-06-18.npz",
+      "sha256": "c02856cd95446c9e80f024c7ef1932d9a8d9d78f3bb9ec4bffbb3111a6e3002a",
+      "frozen_file": "joint-paths/2026-06-18.npz",
+      "frozen_sha256": "db2c8885f410c5ffdcc903c748cb631bd29d1c97e37382863fb4646b95b1d7f1",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-06-19",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-06-19.npz",
+      "sha256": "28d2f588c5a5b2db21762141536cf1e777d5633af6122527e42bb257ebaeb8d2",
+      "frozen_file": "joint-paths/2026-06-19.npz",
+      "frozen_sha256": "6c72e2813a3bc4c01cac5a70933cc2a3c65f613332bb54bbfb9ce6f362bc5da1",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-06-22",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-06-22.npz",
+      "sha256": "184c7bb25ef38dac5dee9a310ea3df257487e29344d98dd9c92b9261845fac38",
+      "frozen_file": "joint-paths/2026-06-22.npz",
+      "frozen_sha256": "ab4dd55d4378a9e10e49c7f12babd06c8f76aaa6de3c561541666f3375daa1ce",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-06-23",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-06-23.npz",
+      "sha256": "e42432e2036776dfc11ec32ae177c7d4a1cdcf6eae1c73595cc18afcaaaf28f6",
+      "frozen_file": "joint-paths/2026-06-23.npz",
+      "frozen_sha256": "b5948f091a628cbf38215af740fbeedf2e245b9b4b88809343d2d70d63f0c4ab",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-06-24",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-06-24.npz",
+      "sha256": "95833a62ea75ac49d5010436296775526104882d447a01b07e0ac922003d8fed",
+      "frozen_file": "joint-paths/2026-06-24.npz",
+      "frozen_sha256": "a563e5deafc7570dca95aec254149b45e39a1da9a156b64413b41d618372bc5b",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-06-25",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-06-25.npz",
+      "sha256": "000a15f01b7b0842c2e24b3f3d04c157c37770c758a73d2da985e9c5213072c2",
+      "frozen_file": "joint-paths/2026-06-25.npz",
+      "frozen_sha256": "e1661dd0f0c3726123438d329a1d5fad9d96cb63bf083833af558d1c3103e5eb",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-06-29",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-06-29.npz",
+      "sha256": "4606ff0443f28ada5b7ec56e70b4533a2106ce969a5554e4495d0cf42cc2db6d",
+      "frozen_file": "joint-paths/2026-06-29.npz",
+      "frozen_sha256": "33ce0e086d6613b9521a399e69544f0e5c20e576dfb5038174d4e3ab6f38d971",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-06-30",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-06-30.npz",
+      "sha256": "f6bb3cd38d0311bfaf43cc6e298dced8bbe834ed1b043ee93abfa6c8bf469e62",
+      "frozen_file": "joint-paths/2026-06-30.npz",
+      "frozen_sha256": "caf2195d59434ef2ef028125e47fe8cd688c64a887d925d98997d8f2d16dc2fa",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-07-01",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-07-01.npz",
+      "sha256": "cc3f91024941821015d0b34068b5436e5fce009ef6dc25fbb8835cab0153a97f",
+      "frozen_file": "joint-paths/2026-07-01.npz",
+      "frozen_sha256": "067737c1b1e110e7dcc84ceb10d65aebd892750506247cb7eebc9556e85dac52",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-07-02",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-07-02.npz",
+      "sha256": "8c019816dba15f910dabeefc5de6b6c7d153afa46f32569ee79ff8318a3f18b9",
+      "frozen_file": "joint-paths/2026-07-02.npz",
+      "frozen_sha256": "1a5f15dca515c9427443824efb87c1732d76410a90f386ed91d6b26f5007a2f8",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-07-03",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-07-03.npz",
+      "sha256": "d5d1499d361772058bba76ba0bc8acb71792795c0e1452dfad6d949013e8b8ef",
+      "frozen_file": "joint-paths/2026-07-03.npz",
+      "frozen_sha256": "a0c627c5b0f77139f24ff4c4ab9991f29397e8a0515406bf9796b87a1eb99197",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-07-06",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-07-06.npz",
+      "sha256": "cf52785311dfa78e2aa5825b20b1d587f98a2955cb8be5bbc0d299686bbc89d1",
+      "frozen_file": "joint-paths/2026-07-06.npz",
+      "frozen_sha256": "af6ef80eaa572ce1b58f50129cc36999ce173ab71528997b3e5dc920326999d4",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-07-07",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-07-07.npz",
+      "sha256": "a1b84140c0ee1a2b7ba1be30a2755bda706584d5f9f021508b6ddacd2135e602",
+      "frozen_file": "joint-paths/2026-07-07.npz",
+      "frozen_sha256": "e2665b3e59335b46d851fd4ef0d747671925a6c4e522874c694c33dd239c3fa5",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-07-08",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-07-08.npz",
+      "sha256": "90eaf8ac78c2eb72ecc59625de7f655d268aa70766aa2651c2400cdbec7c628d",
+      "frozen_file": "joint-paths/2026-07-08.npz",
+      "frozen_sha256": "5dc98ca8497b2a53b039f3d24881b0cf0fbc3644c17249d44e3290374d122dc7",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-07-09",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-07-09.npz",
+      "sha256": "c9ee7f69356093efadce4a39dac4af1752501b1028bcb6db8035d682929bef71",
+      "frozen_file": "joint-paths/2026-07-09.npz",
+      "frozen_sha256": "ae62a4ce8f80aa388735904c5b8ba0a96d9d9f71196288d5c6a75477fc7999cb",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-07-10",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-07-10.npz",
+      "sha256": "44cc40dac9de8c1ba604b76c34f5855ec5d8bab3767801a6005b9d7241a1fb6e",
+      "frozen_file": "joint-paths/2026-07-10.npz",
+      "frozen_sha256": "2f1382eb653c4dcf888afa100ae7b2be92046a6757fd259f58e7f7d78f4cedcc",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-07-13",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-07-13.npz",
+      "sha256": "9a73b2e9973d4bee2ce465abdf31ef907c3b2e620ef359497d1b5d18160c363a",
+      "frozen_file": "joint-paths/2026-07-13.npz",
+      "frozen_sha256": "3cb077b0c02bd21959e0c118178082414fc059aed1805e4a82b13526328674b4",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-07-14",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-07-14.npz",
+      "sha256": "89209d7c39fc572ccd93270c5761d89e7d51199ca2bff1f26a45e999f15116e8",
+      "frozen_file": "joint-paths/2026-07-14.npz",
+      "frozen_sha256": "a9fad8a1d0960cec5cf0d313650f7be0c05e0645eda32d76ff641bce2b914f45",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-07-15",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-07-15.npz",
+      "sha256": "66c917a95548ffdc8de4624cd7648a09174928d4c7830d656e56fe1c6a39378a",
+      "frozen_file": "joint-paths/2026-07-15.npz",
+      "frozen_sha256": "9e76650d65c2c123c85a7f010590ffdba77d3cb27001f9e954e74a33bec6b1c8",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-07-16",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-07-16.npz",
+      "sha256": "a9937b545e5152a4e77d5c26442f418372382bb6f654b2ab820772dc30c2ef92",
+      "frozen_file": "joint-paths/2026-07-16.npz",
+      "frozen_sha256": "1f18c7b63c52814d7f158afe2c3e001841236dd531abea4267bcec0851f71db8",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-07-17",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-07-17.npz",
+      "sha256": "761b7314242f759f35f4898537e67b11769abe58c7ba182450c40881af85e15a",
+      "frozen_file": "joint-paths/2026-07-17.npz",
+      "frozen_sha256": "b45d4a3989b5e6dbb468130755ad3034e5669b84a27be1948bad120c07bd1ddb",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-07-20",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-07-20.npz",
+      "sha256": "9a098ddc3895509df371d309ef600d4dcba41b5cbc47a5ec869e60cd1fa9e2a7",
+      "frozen_file": "joint-paths/2026-07-20.npz",
+      "frozen_sha256": "03fc74dec55dda56a08e65adb00d7ca1865a50399032c82fc0d6b97417f0ce86",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-07-21",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-07-21.npz",
+      "sha256": "14d1d5a8df3f629dbfc427cb146667bb50c7e7d1d1a6d7e18eec44df01ecf9cf",
+      "frozen_file": "joint-paths/2026-07-21.npz",
+      "frozen_sha256": "f8fbc2ab5e6da9ae0f6590541a42c3a4dcecd00eaa38c91f8189acbd504554f1",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-07-22",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-07-22.npz",
+      "sha256": "65047aa12f520f697a5b1143561527947c3ba3e18493ecc3afc257f27dbf5bae",
+      "frozen_file": "joint-paths/2026-07-22.npz",
+      "frozen_sha256": "4172357f0544a5aa8b19d2a21ab2a5a4243d0fe8506cf0d6fc78d1d6c88091be",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-07-23",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-07-23.npz",
+      "sha256": "05d6947a414552c2be60c022eaf2d3100831bc91fb9555ee4318627e78cb216e",
+      "frozen_file": "joint-paths/2026-07-23.npz",
+      "frozen_sha256": "be942f4707e302636e09a93315e5a49ce80328b371191122281ef721d0728cb6",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-07-24",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-07-24.npz",
+      "sha256": "4017043d89c94f13e6936e27b2c8e1eea177567c52b702197f9338c716881aa9",
+      "frozen_file": "joint-paths/2026-07-24.npz",
+      "frozen_sha256": "49451be82681423e6d903cc81b674491de47185ade7bf504e93ef3edc21d58fe",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-07-27",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-07-27.npz",
+      "sha256": "387b75bbe6bd44ed04f596257f3892add882c2f22e6cf78e44f637e4557f8356",
+      "frozen_file": "joint-paths/2026-07-27.npz",
+      "frozen_sha256": "6307ec385ed2f33210d5e787de73667d602500e29206aecffd6bfefb9aa391ba",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-07-28",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-07-28.npz",
+      "sha256": "675826d1225ff8adf13d29fa0e09b748120d17d2fa1b3bf032dbf5759a25003f",
+      "frozen_file": "joint-paths/2026-07-28.npz",
+      "frozen_sha256": "75662286861b5ea9db8ac5af976549a8b8857204dc9c66695f0182139809be1b",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-07-29",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-07-29.npz",
+      "sha256": "bfe41a09dc6a700b1ed6e8585bbe96cda9d7992b47def3ba2b6c15fd4c61353d",
+      "frozen_file": "joint-paths/2026-07-29.npz",
+      "frozen_sha256": "0519922c7f6edade17a990a8f83a1a2e0b1a3d1ebc453243c7c24f2a6b7fbcdb",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-07-30",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-07-30.npz",
+      "sha256": "a7e6e4823848202d360434531ca56f1eee852dcaba5486f7d3ca40f56f37c0c1",
+      "frozen_file": "joint-paths/2026-07-30.npz",
+      "frozen_sha256": "27b519c78435f1cbc6d1bc10cd80a645f69f7f91ebfe5b5932e01150e0026b10",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-07-31",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-07-31.npz",
+      "sha256": "830b1e795632edf09f7ab63d540afe7ec97c8f3da5bbf9134dc7ffe4d6a47b24",
+      "frozen_file": "joint-paths/2026-07-31.npz",
+      "frozen_sha256": "5d482fc2fba438a529d3d5fe65c086588130771aa2499eaef275068fa147bd17",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-08-03",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-08-03.npz",
+      "sha256": "f375a4f6b5d47cd6a766d56160cf36bac36f33348b04c0f814d3518213b969b9",
+      "frozen_file": "joint-paths/2026-08-03.npz",
+      "frozen_sha256": "5fb3676c9e8aae34ee2c1cfa5bff4ae9f3f09804b071ea173c09cd32c4032d30",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-08-04",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-08-04.npz",
+      "sha256": "13be4511e3224e968e37da3ca25e43f3099a2b681a02746293e27422be4917aa",
+      "frozen_file": "joint-paths/2026-08-04.npz",
+      "frozen_sha256": "06d8472fd679d8b55e93ef695691ab3596f49a170a1c8a0d934c88900e238e95",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-08-05",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-08-05.npz",
+      "sha256": "d6f2216892b9e5457f349769500da9496672f792e13f77a7496ee86c57aed82e",
+      "frozen_file": "joint-paths/2026-08-05.npz",
+      "frozen_sha256": "1e4061a4b4e207bea0e238e98dbe020500a639eca2da54402481e2cbabd53365",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-08-06",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-08-06.npz",
+      "sha256": "81c505a7adc3aebbd8492621583c85cf65c8bf4664baf91db2cc52adfb812e1a",
+      "frozen_file": "joint-paths/2026-08-06.npz",
+      "frozen_sha256": "9d69cbe04695936944df9e80daafd0a2270301b11066bd92c16f7ca6d39e9d7f",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-08-07",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-08-07.npz",
+      "sha256": "736d3c183ad394d2a2745190ad0ca1f89cb5056bed128ff42cc0a11a218eb236",
+      "frozen_file": "joint-paths/2026-08-07.npz",
+      "frozen_sha256": "1ef26f22d0e97eb121eac36c1083756bbfbfdba60a94ad875bcb6842d9437980",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-08-10",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-08-10.npz",
+      "sha256": "37a26612254092d949e697d6a786cf1a33fb7425edad3822fc1bd75b92d5b31c",
+      "frozen_file": "joint-paths/2026-08-10.npz",
+      "frozen_sha256": "4bf31f27357e7077762d0cfbb9e27b6e26affd410366f489c9b9e030bb5a1f8f",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-08-11",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-08-11.npz",
+      "sha256": "ab454ec1fd559b93eae16049fd3a8baefec8a14b54e0708d6bcc60e9624f1d06",
+      "frozen_file": "joint-paths/2026-08-11.npz",
+      "frozen_sha256": "10b2f213f46482451dd8bbdc668216ae830dd30bcb0e298e179aea9cd418a5e3",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-08-12",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-08-12.npz",
+      "sha256": "ae8c41d80adf3c18e4403285a00d4ca68ad6e365c478983876a96ba773d0eaec",
+      "frozen_file": "joint-paths/2026-08-12.npz",
+      "frozen_sha256": "771c6c0094d21d4416ddf3dea75bf14a245b71158e43e2c701b9e5259df89caa",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-08-13",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-08-13.npz",
+      "sha256": "5aa5ea838a1136dbd44719af508c859aafd5381c84bead1c7f0744bb81be1480",
+      "frozen_file": "joint-paths/2026-08-13.npz",
+      "frozen_sha256": "0058edf9acd9dc4ee53c0c610d966567bcc7690cd4532a7b17afc0785c0d4355",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-08-14",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-08-14.npz",
+      "sha256": "73efcfaf3a92ce1d7b85fe0b4cbfcce31b6edf01c140d6e2386dd38d2b8c1746",
+      "frozen_file": "joint-paths/2026-08-14.npz",
+      "frozen_sha256": "694f598f455ec9ea93ce9299addeacd32b3b81c14df152796bf971e17376ede9",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-08-17",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-08-17.npz",
+      "sha256": "02bb8af1ae6a917536adb3114d491c76ccd65a3aa8ac1ae0e57feac7b2128714",
+      "frozen_file": "joint-paths/2026-08-17.npz",
+      "frozen_sha256": "f383035e068e9324d3299876b09318403b2614086e58751f13ab430d8f088a9f",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-08-18",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-08-18.npz",
+      "sha256": "329a01fc6714146be22fea954d40e59fdf6e3801e04cdfe31987ab34987c7e20",
+      "frozen_file": "joint-paths/2026-08-18.npz",
+      "frozen_sha256": "5dcfd2e2fc127f901a423fc39b01617d3d5bb45c9eba9100c6b9c54eed1bde27",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-08-19",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-08-19.npz",
+      "sha256": "dd9d74afcfa61e04e3ae072ee989f0e104e3854e72547f68c4eda738f4a19440",
+      "frozen_file": "joint-paths/2026-08-19.npz",
+      "frozen_sha256": "56d8ebe4f10120357f3660d21683d3c5e7bc879bb02f026327691581ec1f53ea",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-08-20",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-08-20.npz",
+      "sha256": "9758030d4f37eac332a418794c225bd3b65d93f593a0984eb3474f2cfe3a9cff",
+      "frozen_file": "joint-paths/2026-08-20.npz",
+      "frozen_sha256": "951a5849d4cbdd23db16f4cf427db79e1a9a39d78d8a96a63354d696c033464e",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-08-21",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-08-21.npz",
+      "sha256": "9fdbf1159b22db09e9619de2fc7c1eedda9ec7c4494813bebecfa22aa91abbb6",
+      "frozen_file": "joint-paths/2026-08-21.npz",
+      "frozen_sha256": "a8fedcd9c9309aad349377157f78479fc9246930cb2199785282e8c9a167b44b",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-08-24",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-08-24.npz",
+      "sha256": "369cc575ac4fcf4602dd0825238dfca5c9933f9c3f58538e87fd67790f1935fb",
+      "frozen_file": "joint-paths/2026-08-24.npz",
+      "frozen_sha256": "b92bafc63b3de82012d588c9d4dcaf968ea6fea1ef8937b58e1c248c9ded1d78",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-08-25",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-08-25.npz",
+      "sha256": "6ad2deba5c32851e501134d0cded86b3070ab2cecd6ebd1624b462a3d6feaefd",
+      "frozen_file": "joint-paths/2026-08-25.npz",
+      "frozen_sha256": "d1b64b5895c6339c3866c5bd391913e042a8df2e6c5b2dcbc52114fee2dc1c9f",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-08-26",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-08-26.npz",
+      "sha256": "659e4bdd52b4984fcae0511374c40c878dfcd394dac3776851c3a03a27595af7",
+      "frozen_file": "joint-paths/2026-08-26.npz",
+      "frozen_sha256": "26e73fefa1afc57691d066707f5271272f4a3e0be57d7799964294b1aea62ddf",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-08-27",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-08-27.npz",
+      "sha256": "16bf27e6a58239c237c680e60956f5f41aa48abd7702d30426a4bf5ad34d5a2e",
+      "frozen_file": "joint-paths/2026-08-27.npz",
+      "frozen_sha256": "d201319157c60a3f21e089619162555c523c345690859605f3807f698763d4f7",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-08-28",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-08-28.npz",
+      "sha256": "eeeb6714b9ef5ad84e19c2c1262aa52484860dc4c3775edcce36d03974759d66",
+      "frozen_file": "joint-paths/2026-08-28.npz",
+      "frozen_sha256": "64fee24b229721cfe87d911d3bbb8599b5206e09836e66214fad67d352a5b86a",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-08-31",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-08-31.npz",
+      "sha256": "d5f6aafded278d1f2da0db4f57cb94ac0ce1efc857bebf25a269e4e2274997ea",
+      "frozen_file": "joint-paths/2026-08-31.npz",
+      "frozen_sha256": "7de7212c265482aa702157556fef92347164f1ab1154961147b30a52d7560900",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-09-01",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-09-01.npz",
+      "sha256": "b7325bfecdf667e9b4245509af1b190d2c004024aa17fb47c8de89575d1856fc",
+      "frozen_file": "joint-paths/2026-09-01.npz",
+      "frozen_sha256": "29df41acf52f4544d9924fa84cb721fa786d0322ea4047b8ef15ef24f0f96ed7",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-09-02",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-09-02.npz",
+      "sha256": "dc6077b21ac4d8e524e4a2dabaadda176f1dc00ff7e6d80b0b81c3e514e11e31",
+      "frozen_file": "joint-paths/2026-09-02.npz",
+      "frozen_sha256": "8293431db361d7bf5ae18b1eda2d6768126dd5ca26ff0a336f3e73b4476b4b66",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-09-03",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-09-03.npz",
+      "sha256": "3c6da63651759f2f08e46197abb5da55967d6dc146ccafb88ece3b59742f3dd1",
+      "frozen_file": "joint-paths/2026-09-03.npz",
+      "frozen_sha256": "4d3bfe341879417996558bc2334435ab72efc1a00ae5e54d067925dfcc56472e",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-09-04",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-09-04.npz",
+      "sha256": "8066186259ef11c2da8279f55f5bcebf54d529390cdb7cda395bf0ed29a3c938",
+      "frozen_file": "joint-paths/2026-09-04.npz",
+      "frozen_sha256": "3510e9508f74b862ab7c59385d3ecee1c872f7bd2beee92b4ac44f6a3469c70c",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-09-07",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-09-07.npz",
+      "sha256": "4de65651047bd1c7c4cda506cd2404aea73ea7147ef186a62815369a8b8ddcee",
+      "frozen_file": "joint-paths/2026-09-07.npz",
+      "frozen_sha256": "044d8e4c423bf4a815e649130ae2f016430dcfef0af8c15ffc3d771c0c925362",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-09-08",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-09-08.npz",
+      "sha256": "72f0193c5005324309e65cb1b09518b30952c5e86856a2c95a4c05c1659aeeda",
+      "frozen_file": "joint-paths/2026-09-08.npz",
+      "frozen_sha256": "4b3a80b6e251e277a022501743ad75e984c59994501d9ccb74af3b2a7e092003",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-09-09",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-09-09.npz",
+      "sha256": "dc55da410773a98760fd8204968719abef11fe8d13be451f0c422fef0a444c69",
+      "frozen_file": "joint-paths/2026-09-09.npz",
+      "frozen_sha256": "cb5a862c343e99d275f379a5417f8a67a108a42b31f0589687b0ffb1451f3998",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-09-10",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-09-10.npz",
+      "sha256": "81947fc1b252732fee4635b5e3704c1ec979a446c2d663e1f1df150e37d0592e",
+      "frozen_file": "joint-paths/2026-09-10.npz",
+      "frozen_sha256": "e8d532cef18392519f34f521e08490de803d4ccb7f11e61a6111db01e5ecfaa5",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-09-11",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-09-11.npz",
+      "sha256": "776653b37c9bb44f6e4657d24183f3611eedb29f75822cbd73e9f6fc9a5253da",
+      "frozen_file": "joint-paths/2026-09-11.npz",
+      "frozen_sha256": "b45e8918fc23a280a2bf76d8375fc8bad8b6e45c82b04148874c52cb60ad2fbc",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-09-15",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-09-15.npz",
+      "sha256": "27fb832d59847d9ffaab113c1a3ccdf71025c00c8436fa58cfad7f5d55769ef8",
+      "frozen_file": "joint-paths/2026-09-15.npz",
+      "frozen_sha256": "f84b512a89960212ce0baac7d52c9fe93a1688eb446bf44e2f8c9b0d37cdc11a",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-09-16",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-09-16.npz",
+      "sha256": "059c07b5aeea13c276481953329f376aca1b30f4cb145ba7a38833acce0be07b",
+      "frozen_file": "joint-paths/2026-09-16.npz",
+      "frozen_sha256": "cfccd583d711dbc7ef5f0f6c32e66812d28bb83ec65e8be47bd6dba2b989ae6b",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-09-17",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-09-17.npz",
+      "sha256": "1c5b0d7899ad7098a4bf61ccd0928d73d279d8378eb339af23b54564b4338af5",
+      "frozen_file": "joint-paths/2026-09-17.npz",
+      "frozen_sha256": "9ce464e61550679b6bd0d2f6b5d03b1781e5794412105b69dede84a01052304b",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-09-18",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-09-18.npz",
+      "sha256": "af386ef131d5bb593131aa785131ad283767c0d499f512ea235b8f2fa0d1780e",
+      "frozen_file": "joint-paths/2026-09-18.npz",
+      "frozen_sha256": "f75dbada37e7ef167e5596c31a1c21358c292c3c6cc02eec992160578a31af68",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-09-21",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-09-21.npz",
+      "sha256": "37c83411ca83f427317ae49e1dfb49f253101c915c6db93fe78a0f45fbe60dbd",
+      "frozen_file": "joint-paths/2026-09-21.npz",
+      "frozen_sha256": "b093a5baab0a0f75925163b51868d65b1bde49224a9c350731cc81c14b0ec373",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-09-22",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-09-22.npz",
+      "sha256": "dd6da966e1ff078f288e5b3f44e5f108444d251a83888395e2cf5857a32a7d88",
+      "frozen_file": "joint-paths/2026-09-22.npz",
+      "frozen_sha256": "8ebe4d67f849f16ca2856c124ea7873860c041e2da948637b437111fbaadd1b7",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-09-23",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-09-23.npz",
+      "sha256": "35340cf9054a115301a43c3d386d258941af44a6c41af5d93ec9729f99bb8f63",
+      "frozen_file": "joint-paths/2026-09-23.npz",
+      "frozen_sha256": "f0d3e26fe64f52e1bc12184648df3bf80bf8298d66698c6b172742af79526e65",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-09-24",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-09-24.npz",
+      "sha256": "f182d1911d271204278935cb46d253e19c7a78f35a601802161953a906a53bcb",
+      "frozen_file": "joint-paths/2026-09-24.npz",
+      "frozen_sha256": "4e407cce7fcb933e657e542a0fb66daaaf5ed015451e132492061debcc12e857",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-09-25",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-09-25.npz",
+      "sha256": "4fc973b52fdd3aef6b13ccbed35aad0ea09e8b9aa4e80d585a3b38bb0e550dc9",
+      "frozen_file": "joint-paths/2026-09-25.npz",
+      "frozen_sha256": "0688abd9a0802c6083e11bf960bbe5aa72bbd2bfe5bbb33333eb0bfe7ccd4a3c",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-09-28",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-09-28.npz",
+      "sha256": "e8167416ee251a8bb8423b607aecf9144fc5d0ebc144b2f5fcc3946ada0cfd6f",
+      "frozen_file": "joint-paths/2026-09-28.npz",
+      "frozen_sha256": "a03527704d5920a463d78fcf8238139bb86e87d75b725688c0cf4dc17789298c",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-09-29",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-09-29.npz",
+      "sha256": "ef88c91db723f50fd007705afd8a6dfd8bfad0e6f0f864f493492b164c976ef4",
+      "frozen_file": "joint-paths/2026-09-29.npz",
+      "frozen_sha256": "e9ed333fd0611e814c842cdc07ed7e73ac01f73e4fabf07b2a38e9848623a40b",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-09-30",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-09-30.npz",
+      "sha256": "e360b2a6c530e963ec57252083991b6d4e8f0742916fd6ff5f2db8a6180a9f52",
+      "frozen_file": "joint-paths/2026-09-30.npz",
+      "frozen_sha256": "abbc687656579a8290b1079688c9da8c2a5567cf5f9cbfe8f1bf18ad5c13a0cf",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-10-01",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-10-01.npz",
+      "sha256": "f21be96ff020f9546f11913c4dcf74b2ab1288fe7701c7f289dedf5255c33ae0",
+      "frozen_file": "joint-paths/2026-10-01.npz",
+      "frozen_sha256": "595949e9729b1cb11c5a1ba278426706dcf115dd7a721346efaaef8ec6ea85bc",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-10-05",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-10-05.npz",
+      "sha256": "5df2f2648f21f66c34c07390428964783897f2d1c7fde8be32a0d112b8c58649",
+      "frozen_file": "joint-paths/2026-10-05.npz",
+      "frozen_sha256": "f478fc3db6735a63c96f678e3aca02c8d3d3f730a801fdd72f32083fc86ef0f5",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-10-06",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-10-06.npz",
+      "sha256": "f13898cb968bc53515db80ad6bcdcee04baf171f680952956a39c67fa30f1a93",
+      "frozen_file": "joint-paths/2026-10-06.npz",
+      "frozen_sha256": "a33671984fd900380318c03e8a43cf01e02e37fe7603f29469b0fd0060267b71",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-10-07",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-10-07.npz",
+      "sha256": "85c366b9590ded325df920f73eeb259ada132f5716feab3edd36e623be4b9a7f",
+      "frozen_file": "joint-paths/2026-10-07.npz",
+      "frozen_sha256": "88c23ddcdd2c900ef36ddf7a82bf5c0f3b6adb92f2141a479d5152b81f249902",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-10-08",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-10-08.npz",
+      "sha256": "63e6dcaba3d5c8653f6c8074ae12ab6e4b3245640d6f2a27782614de0ae3d8a7",
+      "frozen_file": "joint-paths/2026-10-08.npz",
+      "frozen_sha256": "bbc1444482ca15c31d57773fdab7be556a3b1fcdaea30feebaf83e35aa2a77e9",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-10-09",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-10-09.npz",
+      "sha256": "93578d6c5af72c7ba35db63f09a083ff8e66fc5075828f17283938fd7dd8887a",
+      "frozen_file": "joint-paths/2026-10-09.npz",
+      "frozen_sha256": "c7620ecb87117a415c1721447fbb8688e5231e89ac5c126970b27742ef91921e",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-10-12",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-10-12.npz",
+      "sha256": "326f6ae6b52851bbab8eba9fd926c515be7d7f4f2446f13d0ed63664748dd724",
+      "frozen_file": "joint-paths/2026-10-12.npz",
+      "frozen_sha256": "ab0fdc24b73004b7b448bbd83e6e93cb4683ef4cd5d8b0e57534a732ca540d64",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-10-13",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-10-13.npz",
+      "sha256": "50fd1a201548b12f2d35f2589b6d2eccc9096e85da45f18bd91eb9848eca83c6",
+      "frozen_file": "joint-paths/2026-10-13.npz",
+      "frozen_sha256": "9cd8eca261611c3b97692bd223f0ef9d833acefac2b65e4ec0ed5daf0aa5daaa",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-10-14",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-10-14.npz",
+      "sha256": "61052258dd3b085918b0310313e8b97a008ec5ce00575cc0af4ed9054dae00d7",
+      "frozen_file": "joint-paths/2026-10-14.npz",
+      "frozen_sha256": "ec5ba0a4b3c3219572352fc65d5d3fe9488bae487f23b84c04200eacc189061c",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-10-15",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-10-15.npz",
+      "sha256": "c7aed64b7b78c8ff7d129398f4f46628b1fbc0e8afd1cad55690b754cb093c12",
+      "frozen_file": "joint-paths/2026-10-15.npz",
+      "frozen_sha256": "0d15bae8416f53db42800bd1b7862173aa199138f3a62693ec4ec30cf615e585",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-10-16",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-10-16.npz",
+      "sha256": "2d405fec1cf723c8d2c150ecc6d7e0ca941ba370c83d44d0473f57f9104afe13",
+      "frozen_file": "joint-paths/2026-10-16.npz",
+      "frozen_sha256": "b4654799a5e369e34300d6001b06e5e1edc8bad3030235a740dd58b596b4db1e",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-10-19",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-10-19.npz",
+      "sha256": "c31e29479c26e42329f84b8bfa140d4ea5e619cb6689034fa35a5a2ca6590ab0",
+      "frozen_file": "joint-paths/2026-10-19.npz",
+      "frozen_sha256": "a003e5e349da6e8a26d168941de25f83591f241e9eebe1c7fda4dd60f04da3d6",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-10-21",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-10-21.npz",
+      "sha256": "e5c5399cf45b6edc689acac405b7cb9a04d8593cd0b98cbd36075f5cee7bf664",
+      "frozen_file": "joint-paths/2026-10-21.npz",
+      "frozen_sha256": "3774d1eda8b3a818106b050139aa53bbb2b6b8f891398f33c79e243e2a4e4191",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-10-22",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-10-22.npz",
+      "sha256": "8b4928143b9e85ec315635e3a3602df0ca6bdb4d0aff555f0ed801a199467b55",
+      "frozen_file": "joint-paths/2026-10-22.npz",
+      "frozen_sha256": "33782e492bf6f5223da9d41a50ee4085741ddfa07cf46962975493e4a4b07cde",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-10-23",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-10-23.npz",
+      "sha256": "014c3ed8ca5d398fc3a20e44034948b7a4eacba452c58b8616806d7c8e5302bf",
+      "frozen_file": "joint-paths/2026-10-23.npz",
+      "frozen_sha256": "bde0896e2c7ec8064855ded85fa4218341023de8b6c583b9e90e288131bfbe5a",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-10-26",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-10-26.npz",
+      "sha256": "5088a66b1aa0332631afa1fb0d61cfc43e3907b7bbc750c497b7fa996cdbeceb",
+      "frozen_file": "joint-paths/2026-10-26.npz",
+      "frozen_sha256": "93120332639f43738e7a7d7bce5044d7baecfee25997a774bdfa708f48596031",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-10-27",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-10-27.npz",
+      "sha256": "d8b2df23686746cd6daa59c8a34b7d3220139dc8822d8857fc41f2868f6a1ada",
+      "frozen_file": "joint-paths/2026-10-27.npz",
+      "frozen_sha256": "ed85f3fd50b27d519a58ca6060cd3f213439611559906508501c5322512ac3dd",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-10-28",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-10-28.npz",
+      "sha256": "4c672d5ea05561313d01459159c1a8e574142ba9e5a4f2bec0a3b3f70c4fd9a5",
+      "frozen_file": "joint-paths/2026-10-28.npz",
+      "frozen_sha256": "4720ea9dd6e2dfb240c7f8d3fbf4aa00b75a5a534662cba1094ff681954a0ac6",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-10-29",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-10-29.npz",
+      "sha256": "fa2e1c07cae94ea3c6372a5dda127ad986d5c9da2219625ca41d28f0e321943f",
+      "frozen_file": "joint-paths/2026-10-29.npz",
+      "frozen_sha256": "82b3540453d04761e47857161241c000ee36730141ff50409757d4730de6f49b",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-10-30",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-10-30.npz",
+      "sha256": "cfbaae9d93a676e7bcc53d29637517c2a9f6908b5c760099cae00ca32a7ad681",
+      "frozen_file": "joint-paths/2026-10-30.npz",
+      "frozen_sha256": "34fc9379fb7f2cc1c9d137b42d4f7c913df4a58bbb94541683e0608bfb179812",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-11-02",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-11-02.npz",
+      "sha256": "fd77b152a58d472099589b771774affe1d0c1ad39e6957cec1b612a3b3106701",
+      "frozen_file": "joint-paths/2026-11-02.npz",
+      "frozen_sha256": "d6d7dff871d1598b82fc5600fe9bb0ba120e119365d9b1c6eb0b935e8da94957",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-11-03",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-11-03.npz",
+      "sha256": "7209e02a914b009766da1e39383979efe4471f043fed522c0bb6fbdb73760505",
+      "frozen_file": "joint-paths/2026-11-03.npz",
+      "frozen_sha256": "44576a15d26b66ff6828c766a9ca0bf494a1af69183f1d87e6ada2e8a838de10",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-11-04",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-11-04.npz",
+      "sha256": "6e5d2c529406831c5021ea4521c2eca2a522995add0d34e9e5d23a261a867216",
+      "frozen_file": "joint-paths/2026-11-04.npz",
+      "frozen_sha256": "399b2bc34de5f4d8de6d6d558ad39289581859f0cadaf30a2c46f72910d8dc02",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-11-05",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-11-05.npz",
+      "sha256": "eb2fb1c83731dd3e20e95fa66457c306ff0d3061301224100163e7726e32d516",
+      "frozen_file": "joint-paths/2026-11-05.npz",
+      "frozen_sha256": "3d04d1160beb40d9bb627bb26d5d6928a90940f643d0d67047e888047db78580",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-11-06",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-11-06.npz",
+      "sha256": "09e391ed9016d3848c9dc45bb185e2c4392b3803e988a9ca2f06f57b9d481d17",
+      "frozen_file": "joint-paths/2026-11-06.npz",
+      "frozen_sha256": "840a732b022a6c2081e705f85156a43d560a156da55a40149951235d73e48cbf",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 5,
+      "origin": "2026-11-08",
+      "checkpoints": 5,
+      "file": "updated-paths/5-2026-11-08.npz",
+      "sha256": "a4cbf33eafb132835dfde9b9050dadca2de7c460501cf6b5fecf29d56b8a3dc2",
+      "frozen_file": "joint-paths/2026-11-08.npz",
+      "frozen_sha256": "9e3fd3e760857106fd870a2556a4a491bc5d175b91aa6c082adbf32d4535a323",
+      "frozen_model": "gjr_iv"
+    },
+    {
+      "horizon": 21,
+      "origin": "2025-12-01",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2025-12-01.npz",
+      "sha256": "ccad660bcd1a7238cef3f762282dcb5341bee2afbad2e7a06c3bd4c19bca76ee",
+      "frozen_file": "joint-paths/2025-12-01.npz",
+      "frozen_sha256": "e96aa6809bd4914995d7d25db7402f0bc188ff2b6c104a933ddb14fe647b6a23",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2025-12-02",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2025-12-02.npz",
+      "sha256": "2a63e94a3a7352a873b9b6d97b37e3f73002a59a3bc15dfc21329aff836c3848",
+      "frozen_file": "joint-paths/2025-12-02.npz",
+      "frozen_sha256": "eba451d96a39eb227df4e230bbb9495b8b86c6c87c6bf61a75272659ca48a59e",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2025-12-03",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2025-12-03.npz",
+      "sha256": "01a564680dd4c4a23aca739363cd8360f9139e63d077c3804f84482621ccc62f",
+      "frozen_file": "joint-paths/2025-12-03.npz",
+      "frozen_sha256": "58e4113f6920d3e4195a8cb729ad2c2617f13a88ff66b8df08ca5fcfb16e5847",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2025-12-04",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2025-12-04.npz",
+      "sha256": "5500aaf526289115f2c9c9311751c3be1f3e7731409eb293592d9deb9981ce4b",
+      "frozen_file": "joint-paths/2025-12-04.npz",
+      "frozen_sha256": "ea147ea0ce6b01f19e0ecaf275f9a8f939150c81491be6633134da3ee0b7769e",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2025-12-05",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2025-12-05.npz",
+      "sha256": "8ccd4e1b8e0e4ba8e386f5f72c32d035e0949fb03b8983c8029e162a3ed3eb78",
+      "frozen_file": "joint-paths/2025-12-05.npz",
+      "frozen_sha256": "8793331485e60be1044749a142450ed068d8ad5b2903101ddbf5bdedcf7946a0",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2025-12-08",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2025-12-08.npz",
+      "sha256": "f6d41e3734ec31dda7dd683b831cb5f1a7afe9e23a365f3bfee75457f834b734",
+      "frozen_file": "joint-paths/2025-12-08.npz",
+      "frozen_sha256": "691111fd7cdefa545612a851a88a809c63626108e96fc6f07973b316190aa170",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2025-12-09",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2025-12-09.npz",
+      "sha256": "1d2c3950e1c1dcf81e8bc9eb0ec8442940078c525e696494928b04eadb0be026",
+      "frozen_file": "joint-paths/2025-12-09.npz",
+      "frozen_sha256": "9310bcbf73d2a7b9de2ea4b6d5324841277c821c866deaa62260930929390e8c",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2025-12-10",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2025-12-10.npz",
+      "sha256": "8f152ca5e7032bddb7de632fd125b338d5428b06a55dd46deb76180ee7b4d259",
+      "frozen_file": "joint-paths/2025-12-10.npz",
+      "frozen_sha256": "ba7a230a54f778bab21afb0507221eadae67051e4fe56fd9d576bb3232cb478c",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2025-12-11",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2025-12-11.npz",
+      "sha256": "7c76779f68006e9e7411addc2ea6225adab4a1ccc4f82e445c9d77a3d1e33353",
+      "frozen_file": "joint-paths/2025-12-11.npz",
+      "frozen_sha256": "c9887941109a607ba242399ad85c3f611e0f5b5a6d13f13009db6a4c0dacbd53",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2025-12-12",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2025-12-12.npz",
+      "sha256": "a67a25f9370a8373dc6c1c17783e90c10c488bab4aa8a87bfd6a12d5b1328de8",
+      "frozen_file": "joint-paths/2025-12-12.npz",
+      "frozen_sha256": "2c6e7c74a2a1cae7f6f78f26c2f3ba85bbb514f6694f4860848f0692cfc14ff2",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2025-12-15",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2025-12-15.npz",
+      "sha256": "57b13f1acfcd2b3bfda553d4028949ab70a76c8a63daea97b8ea1028333bb474",
+      "frozen_file": "joint-paths/2025-12-15.npz",
+      "frozen_sha256": "6d7de0fa98db9957d52fb05e384ac76c3614ac5af98d15a342638157c11c55a8",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2025-12-16",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2025-12-16.npz",
+      "sha256": "7bfd2ae640da56628593aa43ee4b2f5cf8956981148963609dc8ad65053e4850",
+      "frozen_file": "joint-paths/2025-12-16.npz",
+      "frozen_sha256": "dcc9fe681f86ca7767345134d151fd0d189eeba000f7690fe6e5e3820417ab72",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2025-12-17",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2025-12-17.npz",
+      "sha256": "84ad24c6742192919ae6ff287192784059b8aa68e4873c96e1430e8f536669f2",
+      "frozen_file": "joint-paths/2025-12-17.npz",
+      "frozen_sha256": "1cc182744c75c1e623f5f26b796a0e7124d4bf63f68bf9cd951bbbdccbbd15d6",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2025-12-18",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2025-12-18.npz",
+      "sha256": "1061a5b739a35aa657218d3e761ff3700c00d586154043dfdf5f944a7a551df0",
+      "frozen_file": "joint-paths/2025-12-18.npz",
+      "frozen_sha256": "ca095010ebb60b97bcf0580902f5b35adada70974584fe7602a52ee13965c272",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2025-12-19",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2025-12-19.npz",
+      "sha256": "e8ba7ab786834a25c4e0c81f4d041cccb503a046b13473a55e836f659cc05983",
+      "frozen_file": "joint-paths/2025-12-19.npz",
+      "frozen_sha256": "0cf28f0f813560da2ee9c351ef5d00da3136ce92ce30f03a63babf7f4d023754",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2025-12-22",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2025-12-22.npz",
+      "sha256": "3f66868a0c4f77c62a2dc5f123ba0b2f87728e9c3efde7c2f093288175692f89",
+      "frozen_file": "joint-paths/2025-12-22.npz",
+      "frozen_sha256": "519d0351a4c0a5ef32779a4bc415fa6169869f79062d51c392556d7c09b5b843",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2025-12-23",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2025-12-23.npz",
+      "sha256": "26378f5f0eb505d7f296227192f89d7fadaade963c2bed2e22689797eb0dacbf",
+      "frozen_file": "joint-paths/2025-12-23.npz",
+      "frozen_sha256": "04079d74dfe3ffe7c9b77a5a0fbe828bbbcab4d833ddabd14ff31baa4d0a1ceb",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2025-12-24",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2025-12-24.npz",
+      "sha256": "07d478d54e081c44fb537a3d257eb9ec8b6e86c7d81d07dc1385fc5dd1ad846e",
+      "frozen_file": "joint-paths/2025-12-24.npz",
+      "frozen_sha256": "b447d8e004aa9b2b221cf8424b985a050e46f14df907f57736ba62ab50ad64e5",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2025-12-26",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2025-12-26.npz",
+      "sha256": "e29b939416affbe4b5060b7d2fb11c623d627b2a05b72d97c9d1da2395372409",
+      "frozen_file": "joint-paths/2025-12-26.npz",
+      "frozen_sha256": "5fc5d69fe4c3a29933e9caa6508f44241b45c933916ab6527a98f96c2bdfff46",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2025-12-29",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2025-12-29.npz",
+      "sha256": "f885b307c1c2ebf6e65c9f81f0df0f7e8221dfdbcc7950328c1410942273e4ec",
+      "frozen_file": "joint-paths/2025-12-29.npz",
+      "frozen_sha256": "43762fbd89a48cc2956aa0fdd2265c204ded2f317001ae8dca4b4a57f2bb2c0d",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2025-12-30",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2025-12-30.npz",
+      "sha256": "997eabeb0e76b3235d6f561e622875cd0d42019cb16a16e76f1110f194ef4b6d",
+      "frozen_file": "joint-paths/2025-12-30.npz",
+      "frozen_sha256": "03e54b8f5d9b754fe6973ae892190b906a092f1d983bf42ef3f55cd5d70df401",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2025-12-31",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2025-12-31.npz",
+      "sha256": "c9ccc9c777baeaa780a4de6ff7746fd015bd621ca8041e7867b8ac714dad25d7",
+      "frozen_file": "joint-paths/2025-12-31.npz",
+      "frozen_sha256": "ff70e619e7914c8bd1aafd542409509914973c116c36003d23d9aceefa49417d",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-01-01",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-01-01.npz",
+      "sha256": "b4c0cae85a8dcc3b6e4b02a32b114ece6bf68ee7fb4f71d133a33e5c420c8cba",
+      "frozen_file": "joint-paths/2026-01-01.npz",
+      "frozen_sha256": "7a0d2c2e455f256d76176154c72aa2b731f5265433bf635f9ffe41f77ea27bd5",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-01-02",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-01-02.npz",
+      "sha256": "ffaa2e475343fdcddf1cf2c3c255bb3181cc928d2ad7f83974181f4708e72e6e",
+      "frozen_file": "joint-paths/2026-01-02.npz",
+      "frozen_sha256": "4ba1d27a46bd84923b92a85b04a907035b0465e83a963f1f009bbb65ddb4a8bb",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-01-05",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-01-05.npz",
+      "sha256": "84529f71d02e94b92fc8ddaf74cedba6998164c8c2fbd7299e50bd701a63a776",
+      "frozen_file": "joint-paths/2026-01-05.npz",
+      "frozen_sha256": "1f23b956f5fa0f693f72eed59c0af3447f825a36d5201cd61edbf08d8c5e1762",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-01-06",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-01-06.npz",
+      "sha256": "a1dc060fc235d2853b00db766c1963f3bf6debd276933004957dac5e77108bd2",
+      "frozen_file": "joint-paths/2026-01-06.npz",
+      "frozen_sha256": "0d4fe5e12b592f26ba066dff583d2695dc2c68ad87349990a4c2e1315eeb94e6",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-01-07",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-01-07.npz",
+      "sha256": "e6cf5dfdffa0728419e8b56509e3e43bfdd46a95ee0a7dc3bdc127ed3e1f58b2",
+      "frozen_file": "joint-paths/2026-01-07.npz",
+      "frozen_sha256": "9434df72559a364e276575b71af0414065e06d984e0113b46e6ecdcf493bd824",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-01-08",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-01-08.npz",
+      "sha256": "76a00ffd90f733433ecccf782537e3412523a8f7df2060a9d2a0f1833ca029a5",
+      "frozen_file": "joint-paths/2026-01-08.npz",
+      "frozen_sha256": "c9e0e91c8b5ae527f577949a4bb52242f326c0045ebb7e062afae2c861c16b0b",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-01-09",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-01-09.npz",
+      "sha256": "23beaae5c0f019f36447bd43c046837f3df0d06d3113d543e67e7eefcc9347b5",
+      "frozen_file": "joint-paths/2026-01-09.npz",
+      "frozen_sha256": "e7c5aae3829f95f744db2542cd5e0e040302af40a7d8900e0fbe3e0c21211cef",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-01-12",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-01-12.npz",
+      "sha256": "a24018b2f5ff24ffa63a8653fb5629d45d4603096124e7bc56afa7bace234936",
+      "frozen_file": "joint-paths/2026-01-12.npz",
+      "frozen_sha256": "a901d1fc14c1c7bb72fac4c5ecbda9360af3e35aa778df7c15ec74bd6bba5274",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-01-13",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-01-13.npz",
+      "sha256": "6147d752cff4f0b61e35574f04e3a30bb3681a265c1fc1768b86d6f0b35c74f8",
+      "frozen_file": "joint-paths/2026-01-13.npz",
+      "frozen_sha256": "571836ad1bd2c9069745717d5ec49355d6c04feb2d0a36748e87659ed5c19927",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-01-14",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-01-14.npz",
+      "sha256": "d9949ad9bb6b5e30f91a0b75943c3560340de7b0fc0b717e737862b0107883dd",
+      "frozen_file": "joint-paths/2026-01-14.npz",
+      "frozen_sha256": "607efb2b4c7e583957a88f526fc496f6dc267fdc2082e7d9c564d721be9db5ce",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-01-16",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-01-16.npz",
+      "sha256": "8fae8f3fa200b1e9f6bdcbe0be3fe037f0f3c12825d94d9648f8530e90b43a20",
+      "frozen_file": "joint-paths/2026-01-16.npz",
+      "frozen_sha256": "9cb2d4a1bdb292ea1881ab1d49db8668fd61ce2cb2ef83c560e8fd812ffc0956",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-01-19",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-01-19.npz",
+      "sha256": "5403296c602d634b5c7812010d64e8a97904f869ad82c747307bc900f06d10e6",
+      "frozen_file": "joint-paths/2026-01-19.npz",
+      "frozen_sha256": "2fda107a7eb976b414c40041adc3a7606ee0032690233f17b2eb4df7edaf37cf",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-01-20",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-01-20.npz",
+      "sha256": "5bf60ee29abd6c9b878c04404b79d8fb509629f4d447f916d0fb0c6e6e1e9ce5",
+      "frozen_file": "joint-paths/2026-01-20.npz",
+      "frozen_sha256": "f4aeb28333f1a593d216d9d20d2838caf87055eaa7d67586815c0b299c22d1cc",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-01-21",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-01-21.npz",
+      "sha256": "8c2382a11b85120785385b1e84e81edeedf0796bc592814795a94d4a3948ff87",
+      "frozen_file": "joint-paths/2026-01-21.npz",
+      "frozen_sha256": "7ca67af93877c107a95be2d2610f1301ad469263e996540ed7e62edc9c4646c5",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-01-22",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-01-22.npz",
+      "sha256": "5a02ce95505f2e10f63b271c8559e22837227fbe3e7bbf0284b6c49c703d48b1",
+      "frozen_file": "joint-paths/2026-01-22.npz",
+      "frozen_sha256": "7d9ae67fac0a0ff21ef8fc6aebbe05ddf8f746bfb1294784669d6c27f34b7032",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-01-23",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-01-23.npz",
+      "sha256": "915968dfae026d23b9541df8a1f17d0db05bef3f11758fe285d4cd7a85788125",
+      "frozen_file": "joint-paths/2026-01-23.npz",
+      "frozen_sha256": "3cba2a6370677e489d08e6004c50e22c9a19ba2ba9818e26608c4e2814ff40e0",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-01-27",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-01-27.npz",
+      "sha256": "519c1e04699715e7314a54cf4068578c16fa96b8790b9bca367b782e9edeef7d",
+      "frozen_file": "joint-paths/2026-01-27.npz",
+      "frozen_sha256": "af3e3bd500f71228541c3ef5c9abd10189b3594502df0dac10ebf14a16194853",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-01-28",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-01-28.npz",
+      "sha256": "fab5c031ca678e0af0394bbe095631e0b56b4331133a42cf95aa77c222076253",
+      "frozen_file": "joint-paths/2026-01-28.npz",
+      "frozen_sha256": "17ddfb3cebeaa25b23bf1a52d37793792aed0cee17e876beee7e439c0e613527",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-01-29",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-01-29.npz",
+      "sha256": "2b7a95a4d32098b06bc475e728447cf5b2f87e0b2717448cba937905c8c76387",
+      "frozen_file": "joint-paths/2026-01-29.npz",
+      "frozen_sha256": "d0d3ceefbd47dcb35eabcbb15f13e35fd6be2ad79278339602dc9854d3c77623",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-01-30",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-01-30.npz",
+      "sha256": "5d32be8897e0adc02887c63f01900eae65a7464ace6923bb77f79bfa8e6adbb9",
+      "frozen_file": "joint-paths/2026-01-30.npz",
+      "frozen_sha256": "ae746711e8ca1f2e6d281a25822860dfc84ab7b1a5aaa4a93c65786232b48ffd",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-02-01",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-02-01.npz",
+      "sha256": "d0726ef15db743b024e2c69a936db0f9bfc0dae391a48e157efdab88e84f4692",
+      "frozen_file": "joint-paths/2026-02-01.npz",
+      "frozen_sha256": "394bd35dfb154a530e8af1726b76c69aa649f9e49b2621bbca1f314bb2603b1c",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-02-02",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-02-02.npz",
+      "sha256": "82727ec28a94dbb6b06247e19f981ef653f96b87de45e7b5b04798898b050972",
+      "frozen_file": "joint-paths/2026-02-02.npz",
+      "frozen_sha256": "88a44dfdf39087c1a3c0b4741213c03ea3d51131344e500a62a31e25f093bcfd",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-02-03",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-02-03.npz",
+      "sha256": "79a03e08f4052a92c4cb38cc3d06fb3d807aa9aab6464aafe599715a9a3eb0eb",
+      "frozen_file": "joint-paths/2026-02-03.npz",
+      "frozen_sha256": "6014aa69eb397b4a807a4312aed1765b42ae03abb0b964d32d297ddde288bb02",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-02-04",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-02-04.npz",
+      "sha256": "dd067bc2744d6afc96524bc45a764924be796f1f07c6327d7828fd7152cb9d9c",
+      "frozen_file": "joint-paths/2026-02-04.npz",
+      "frozen_sha256": "4b058538b13851bc0ee988ec3508c462a2e73e25cbbfc8869637ab74eb7ae6c6",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-02-05",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-02-05.npz",
+      "sha256": "89396f2b1c30b838af9da7a814831786361e67f262b64376912b1b7b74ea4b95",
+      "frozen_file": "joint-paths/2026-02-05.npz",
+      "frozen_sha256": "544ec18f6743aad7b36d57e737f60568742fca090a3a1538702190bede7e1f19",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-02-06",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-02-06.npz",
+      "sha256": "9ba9ab17ae3796b6ccec76c4fc72d92da95edec3bb1d5eeb10c8a468287c233e",
+      "frozen_file": "joint-paths/2026-02-06.npz",
+      "frozen_sha256": "2a78fe74fde2b437dc472704ee9be41d57447c69e213857cb50d84a6074bf08b",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-02-09",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-02-09.npz",
+      "sha256": "7d7fc0ff0daca1103228a515f5f7e44e54f751c5d77c312ee23ba388d1688446",
+      "frozen_file": "joint-paths/2026-02-09.npz",
+      "frozen_sha256": "ee7c35f9e4049620c4456b7bbc5da76b6a03dc958a56164145f1835ea643362f",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-02-10",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-02-10.npz",
+      "sha256": "f561b96788ed65310bb4f31fe0abe604ea3db32b59f9953ebdfae0cd85558143",
+      "frozen_file": "joint-paths/2026-02-10.npz",
+      "frozen_sha256": "18269a5c78acd94f2304bf33b70b89983e487f5fec84cf567510ac8d9330cecf",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-02-11",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-02-11.npz",
+      "sha256": "adfc76ac78af9a0695306574531142dea97bf2d060232fc4de8fb1fc35279a6a",
+      "frozen_file": "joint-paths/2026-02-11.npz",
+      "frozen_sha256": "101e6b18b37df51ed5ca408480e8fd9f43acbb81d7c745672e5a6461e2e8ccfe",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-02-12",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-02-12.npz",
+      "sha256": "e33351f98ef24ce30bc5e3f1055815cd7858c5c1ec8650be500960aadf189817",
+      "frozen_file": "joint-paths/2026-02-12.npz",
+      "frozen_sha256": "3c3605a211ddd7f27767887b223922db47d5a1d2f450d28e740e348e65be19e9",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-02-13",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-02-13.npz",
+      "sha256": "c538a5818615c22679e7a9e9b033362dedcd208dc080263084db1d100f1cec44",
+      "frozen_file": "joint-paths/2026-02-13.npz",
+      "frozen_sha256": "9d562484765dfca374b8df4b5df2cf3d6f4a8d96e934d1d6d69c399cb05b9068",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-02-16",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-02-16.npz",
+      "sha256": "95a17e0e00b1640ebb2db05ff325bd4646e39bb7a521be969694377831e0aac1",
+      "frozen_file": "joint-paths/2026-02-16.npz",
+      "frozen_sha256": "78c84e57df653125d3bdec8670523d08b64c7be96dcb990e92bb579301ea3e50",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-02-17",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-02-17.npz",
+      "sha256": "09557eecde68d34c034b98aff7049c8f35365fac6f6e3a5ad81fe8c6c06386ae",
+      "frozen_file": "joint-paths/2026-02-17.npz",
+      "frozen_sha256": "f394748c6073c5e6182b411d09929e4b7652c6b768a4275e555bd34f0931fc80",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-02-18",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-02-18.npz",
+      "sha256": "5d3003aa9b96421340c55dd843be7c5d2b1659cdb9521c2f071f43e2b09284a2",
+      "frozen_file": "joint-paths/2026-02-18.npz",
+      "frozen_sha256": "268ae9505ff52c44b89c512ae0165eb22727a895809868b85dd181c51603ffa6",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-02-19",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-02-19.npz",
+      "sha256": "831c6a1ec27b0029cafd871d62a3dc5e2975ad05e1fdd6687a23c90fb4e950a1",
+      "frozen_file": "joint-paths/2026-02-19.npz",
+      "frozen_sha256": "ed16a27a6b208e528eff1649e0bd6029f570f28d4dbd57cb8db59769ee32b2f4",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-02-20",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-02-20.npz",
+      "sha256": "8a779d1f7a7e8e5727ce098efe0c9f784ad0cc7c6bbc2e060167c5291173f212",
+      "frozen_file": "joint-paths/2026-02-20.npz",
+      "frozen_sha256": "3f481350545ccb56c973b0627ce860aba4c07e65afcaddab5bf11f85f2fcafc3",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-02-23",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-02-23.npz",
+      "sha256": "0714501af54c151dae461fc3ec36adcec9d5b881fc47f48d39b3a37be0e6895c",
+      "frozen_file": "joint-paths/2026-02-23.npz",
+      "frozen_sha256": "b0d3bb9654b1103863df9c6b5f9fa999f921883584e4b2e8ec3daea19d014f2e",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-02-24",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-02-24.npz",
+      "sha256": "54235813593de5b9e9eaf742fa6340ff76a53321c59f0467e6fa3856d5d62f6c",
+      "frozen_file": "joint-paths/2026-02-24.npz",
+      "frozen_sha256": "b5d165c711355f4df5985595947a53450e3b7fe2f9aeef56f6e29d727d2de4d4",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-02-25",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-02-25.npz",
+      "sha256": "13b0acd47a066f7e9d45d7450ced49070d33dc46a9dfcbcf93519896f9ec76cf",
+      "frozen_file": "joint-paths/2026-02-25.npz",
+      "frozen_sha256": "9c8b3ed6de368e15d6c65cd7127ced68c0a7ae57d40885d20247274f53fac424",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-02-26",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-02-26.npz",
+      "sha256": "a44f76eafdbdf7f2718df7a270eca09acda68e41fbf008099075d744bccdb840",
+      "frozen_file": "joint-paths/2026-02-26.npz",
+      "frozen_sha256": "4672cf3151d87935ff0f81ba7757af5a1af2b447e264f819fd5b3c5afba7f623",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-02-27",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-02-27.npz",
+      "sha256": "e9805acf578ccbe9077168bc62a7f50a22e7d3a5aafaf073f14c778e66011d17",
+      "frozen_file": "joint-paths/2026-02-27.npz",
+      "frozen_sha256": "904f5e8bd87b04f0b64af9c501891bae2fedbfe18d56580389b103edf6be71c0",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-03-02",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-03-02.npz",
+      "sha256": "6d5593d3726eec219420ddc8c1e5ecab137ea81c34bcd2d28ec4086065dd0900",
+      "frozen_file": "joint-paths/2026-03-02.npz",
+      "frozen_sha256": "f8dd2b74b4dbc191398166430f370c07ca9165fec5efba3f6470ded7bbb11339",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-03-04",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-03-04.npz",
+      "sha256": "672da4d51fb4e632b508ddb8e7d629b833e12625446252bd007ce719c944e154",
+      "frozen_file": "joint-paths/2026-03-04.npz",
+      "frozen_sha256": "86565004d47930e739943510c2175e32a7df78ad7df95ca0a276e76c6820c4f9",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-03-05",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-03-05.npz",
+      "sha256": "f1733cb346eb121298ad43f672e134d181a38e5bac33bc482ef0d0ba76705e1b",
+      "frozen_file": "joint-paths/2026-03-05.npz",
+      "frozen_sha256": "7b07e71be6679fc8352c0a06db63bcc7f7cfcbe1dfd643e3c2b2e4e25b448eb5",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-03-06",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-03-06.npz",
+      "sha256": "23f15b37c8f4fa4415f351a6ceb254b41f39615c64098ef70fa99883f07ee2f1",
+      "frozen_file": "joint-paths/2026-03-06.npz",
+      "frozen_sha256": "9a94b5ab4bd55d0bf7d388f9be7763a18cfa14a25fd6270b1346a139d0baf377",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-03-09",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-03-09.npz",
+      "sha256": "010de30dc945e2e8e2e89803cebb58f42fb72d4a04a031ef44411518355d6c87",
+      "frozen_file": "joint-paths/2026-03-09.npz",
+      "frozen_sha256": "800f29d7a30c251a3094c31541be389eb9b7806e5a30bc15ce55ee17838b980c",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-03-10",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-03-10.npz",
+      "sha256": "4f722979deb05ba4a0dbbde8014ad1ff60fa3af3a5d551a725e3726bc450e624",
+      "frozen_file": "joint-paths/2026-03-10.npz",
+      "frozen_sha256": "08c69056784462e08464b3ebe85b69cdab1a7ead0732c7c35592472a93095dcc",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-03-11",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-03-11.npz",
+      "sha256": "2b78b2f57e82765b1d0dd1473783264a1b16aee427740868275bdf269ee11f40",
+      "frozen_file": "joint-paths/2026-03-11.npz",
+      "frozen_sha256": "24ad213208a1889a351c3264508530fc3da323c2d9bf43015d4598281589d39c",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-03-12",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-03-12.npz",
+      "sha256": "e37b3de1c0df6927491b5188152fcfa53e3ba1e1deff48758167b6b22671bafd",
+      "frozen_file": "joint-paths/2026-03-12.npz",
+      "frozen_sha256": "131972b4b7860c255192104e7fa3ce9b39043c6f0701d3606a8298e525b9872f",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-03-13",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-03-13.npz",
+      "sha256": "bff8ee8102edb8d6dc4e12d6e53a0731ee19b4abcd6e6704ba9261f3ec22372c",
+      "frozen_file": "joint-paths/2026-03-13.npz",
+      "frozen_sha256": "78138283209ab8a0520a9628ce5e07232b3c3bb750881d3e0042740aecf29d21",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-03-16",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-03-16.npz",
+      "sha256": "9b18a78efd2266249cc7a0714b412fcc36dcc4ac2fde5f01c73829049511af7e",
+      "frozen_file": "joint-paths/2026-03-16.npz",
+      "frozen_sha256": "9665ae7da85f3908a827ad107507fd9b814298cff2ca6c8409ba0219875a2a7d",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-03-17",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-03-17.npz",
+      "sha256": "eea8d34d863015495136aa30de5090785d37501ac8aed21361bb633a02f8d6b4",
+      "frozen_file": "joint-paths/2026-03-17.npz",
+      "frozen_sha256": "75ebab7b0b04b863297ceaba61894e6e164344b62883555648de0f8574f2f4b7",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-03-18",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-03-18.npz",
+      "sha256": "033c07f318f26c29937a8c5c1343410ac053e84984397d9525a0c3c80b8dda40",
+      "frozen_file": "joint-paths/2026-03-18.npz",
+      "frozen_sha256": "26a263f42649137a267fff5327e98b49ece585804fb3171b655d136c26f50779",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-03-19",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-03-19.npz",
+      "sha256": "595dcf564fcc824a5d61861d3f5edfe1009f31111312844601ae629190e2e2a9",
+      "frozen_file": "joint-paths/2026-03-19.npz",
+      "frozen_sha256": "13f62117f0d7b122fe5fc476a57274562dc7330f71f364294bab5202557aad7a",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-03-20",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-03-20.npz",
+      "sha256": "e9c57c7ba897a9456a829018e4b5f540d74e2eedacbc8a241b839d394875cf4e",
+      "frozen_file": "joint-paths/2026-03-20.npz",
+      "frozen_sha256": "34539813d7f0aaf58cd084402058750fd52773b966802b68f311eae2c85068a2",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-03-23",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-03-23.npz",
+      "sha256": "d58a38ecbcb753b65acb5514bc4bde680f3ae3c1449a82b8cb6c1fcdce58cd00",
+      "frozen_file": "joint-paths/2026-03-23.npz",
+      "frozen_sha256": "fbc78ab42561019bbdceac93ecc7b633b5775614afd46fdf98cd6333acdef841",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-03-24",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-03-24.npz",
+      "sha256": "2004a96c3490c74aa1399445eb7a74b7a32102e5209991de058c6d8bf6e96b3e",
+      "frozen_file": "joint-paths/2026-03-24.npz",
+      "frozen_sha256": "aa99f0e982b80b2933ac5ff54b591f25e2291f73433bd624dfd4bba996620acb",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-03-25",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-03-25.npz",
+      "sha256": "e7f80592b2dfba493a6b30fb5c30fdaa9729bcaab101a2655e859a932a8f7e5b",
+      "frozen_file": "joint-paths/2026-03-25.npz",
+      "frozen_sha256": "19a162d760eeabc10d8cf03c938a93897c1a1432c6f073238ca2d065444183c6",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-03-27",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-03-27.npz",
+      "sha256": "f564d7f02633eaeaeef8471dfa67a4d65c72fe835d95650c8cab53e86f8d71f5",
+      "frozen_file": "joint-paths/2026-03-27.npz",
+      "frozen_sha256": "662b5985d1d0701c91bb1e1500be88d62ea714961d65eaa4e2493c49e9aac559",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-03-30",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-03-30.npz",
+      "sha256": "fdee665949e4643724f46c66a2f1b8a9e890c923e0f292e77bda365fa5aee896",
+      "frozen_file": "joint-paths/2026-03-30.npz",
+      "frozen_sha256": "421b7b3180c037fac58b3a93bf69bb575151a62fadff69a033b44cf10c37fc95",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-04-01",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-04-01.npz",
+      "sha256": "6e5f133e5cbcaae27e7d57aeb09fe4d9df828e1d1c0f31c480ee2b55e1a2b57e",
+      "frozen_file": "joint-paths/2026-04-01.npz",
+      "frozen_sha256": "119de622a6a9c131399890a34daef12f2a9bc819e9e4eec70b57b51a586437e4",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-04-02",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-04-02.npz",
+      "sha256": "75b88f38fe973adff4ac4951628a8e563176711f7c9c1739f0bbce4aac5ebc2d",
+      "frozen_file": "joint-paths/2026-04-02.npz",
+      "frozen_sha256": "f79d1eb8e937b6a8b05ac3c5edbb988e9d34e4636594e2e8b4906584feec68af",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-04-06",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-04-06.npz",
+      "sha256": "944dce07c1a77b2036022e06c309a696cc34a91105182cf5c8f48cb4d72787c2",
+      "frozen_file": "joint-paths/2026-04-06.npz",
+      "frozen_sha256": "8f7c8b84e62a7d40b51aa9a4698359f9c942178aa8db6b02a63a88be882b2fae",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-04-07",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-04-07.npz",
+      "sha256": "89b1e237654fde141fc5e03922e685aece1075692dc4fbab0f8aa39770d5c080",
+      "frozen_file": "joint-paths/2026-04-07.npz",
+      "frozen_sha256": "99d4457df13670c2d5b1f04c55262f228f876744c36cfa26c72d2a353445074c",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-04-08",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-04-08.npz",
+      "sha256": "a1d4917c761c0294aaf2265a00eab4d291619b2be70f813fe5907db3e2265147",
+      "frozen_file": "joint-paths/2026-04-08.npz",
+      "frozen_sha256": "ff4bd369ba7b1de1a37ff5c922711fc0c02f0dbdfbfcbb17583fd834bded5684",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-04-09",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-04-09.npz",
+      "sha256": "cc95d460d3503e7492a5d5981c1c9b6ee7391ac3facbec632f91501be476fd55",
+      "frozen_file": "joint-paths/2026-04-09.npz",
+      "frozen_sha256": "58b2a50f0eb12add5c811ce7ff6f0a3937d35530e754f176c20660f3775bde24",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-04-10",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-04-10.npz",
+      "sha256": "31255315a4a789f0f8ebdcec66d9546af800ed340e49fd0ef640b1ea31df67e0",
+      "frozen_file": "joint-paths/2026-04-10.npz",
+      "frozen_sha256": "9ba67a96f33c7c3dcbc39ca65329dd4be2ae97378a2eb29d02e075241fdf526b",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-04-13",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-04-13.npz",
+      "sha256": "b3a5772ef2d275bb739ce5eedd0f16d838a497056c373e63839bc803284a7abe",
+      "frozen_file": "joint-paths/2026-04-13.npz",
+      "frozen_sha256": "7cd050f4c2c0efa4b69a4140612dd1d86da626ed85e9f54e5bdabdd30a32d17a",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-04-15",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-04-15.npz",
+      "sha256": "05496cbf3a128ecd3122bc8112fe1427f88d537f232cab576e8d51fb54d402c1",
+      "frozen_file": "joint-paths/2026-04-15.npz",
+      "frozen_sha256": "1757cca408a1761b5decfecfce03959d9aa307a526837d19017a805445cec004",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-04-16",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-04-16.npz",
+      "sha256": "4d8cad7984eacda428e24023d605aff7887fb9469e32ed480d52a167ff463456",
+      "frozen_file": "joint-paths/2026-04-16.npz",
+      "frozen_sha256": "935254e862d79895ca74512a5be7600875c7873ee62bfd50597c75d1a344e5eb",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-04-17",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-04-17.npz",
+      "sha256": "3be5d9086b10d17d510e2b362141213536c3f3eb4a5509f4bf33ea23a6b8cbca",
+      "frozen_file": "joint-paths/2026-04-17.npz",
+      "frozen_sha256": "f75eec8224110081edf2e3436398327b535dcf39bf2b893c7c81f698138d2a65",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-04-20",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-04-20.npz",
+      "sha256": "8fb80c8e2f7d8bdb6aa5af5b45ccfd25439601625afd3d35b488db8b49d6a33b",
+      "frozen_file": "joint-paths/2026-04-20.npz",
+      "frozen_sha256": "5f593443784fbe251f08bb08a939f83eeb3d1529a43985a76cbf37ed651e556f",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-04-21",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-04-21.npz",
+      "sha256": "580ae6abd2a626c5f28bda12218600e5ba5f3fa70b0e6e4236bf880a4735ab7a",
+      "frozen_file": "joint-paths/2026-04-21.npz",
+      "frozen_sha256": "9e61a50648e4d0dd19b64468e3d580652e2287a21239d0bf122d71736a5f22f1",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-04-22",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-04-22.npz",
+      "sha256": "5d232ae4b7be365602e7ae92c83f5d850a31288ef79d28b7513ac1b5ceed5e0e",
+      "frozen_file": "joint-paths/2026-04-22.npz",
+      "frozen_sha256": "8d4368b873d39f281ca7cc3f88f2afeee446e789be69f86d32192fb93227fbf3",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-04-23",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-04-23.npz",
+      "sha256": "2000fbaa143108964e7b7030a0beaaa8f0d6e632ab3a932a65de964760ac3414",
+      "frozen_file": "joint-paths/2026-04-23.npz",
+      "frozen_sha256": "d4e5ee6f7346a85c58caf41bab12d8f9015900007327a796cfc39a3806d60d53",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-04-24",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-04-24.npz",
+      "sha256": "fe146a1974ea3b1af9d29ff08e6b3b48998d9ffdd54e052f722de0dd145005a7",
+      "frozen_file": "joint-paths/2026-04-24.npz",
+      "frozen_sha256": "856a5604d8632cab8323ccd7130d89f33147374a9d1e86603b501cdfbe08167c",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-04-27",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-04-27.npz",
+      "sha256": "acbe29e45c69e8cb93f14012f95fdc0148a58affaa1197097f4dd5e59d31a552",
+      "frozen_file": "joint-paths/2026-04-27.npz",
+      "frozen_sha256": "b503b1f057ff4e0b21948dacd74fa26c56d1f09c433156052214998e60ac9e1f",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-04-28",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-04-28.npz",
+      "sha256": "25fea56c3b528027d84b7ebe7a85069b696262259d2ba54da175c2859e43540a",
+      "frozen_file": "joint-paths/2026-04-28.npz",
+      "frozen_sha256": "6a7afda3b2b26f8a93886d2d6ca3070d7d4ad4acb122a333f4f825011806cc59",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-04-29",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-04-29.npz",
+      "sha256": "67460c586084020837e1dedab09aee2e76a96fa21dd885644c43b61c14d022b5",
+      "frozen_file": "joint-paths/2026-04-29.npz",
+      "frozen_sha256": "5c9da14f28b28df03c5e91786991b12ff312ab290cdcc95d8467a6f54a8df389",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-04-30",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-04-30.npz",
+      "sha256": "cb8d9e30fedad0cd02570afa6e8985fc9149b1aa84cb9f6ac0752512193c966f",
+      "frozen_file": "joint-paths/2026-04-30.npz",
+      "frozen_sha256": "11a424cea16c2b69b9b9a11dd57a5701426be411bce4e7d503e9b699402d284e",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-05-04",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-05-04.npz",
+      "sha256": "2870a2a3f25cc65b00984f7c4bcf199d58476249c0bfd860ed983d3717610752",
+      "frozen_file": "joint-paths/2026-05-04.npz",
+      "frozen_sha256": "f877bcad064f2fcb133e4323cca865d5b5a1ecfa1f549a33481bdd72c4e07233",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-05-05",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-05-05.npz",
+      "sha256": "6d157a396f4abe8a30f05b68bbbce75351015cabaa006f1c2fef5ef2e45424c2",
+      "frozen_file": "joint-paths/2026-05-05.npz",
+      "frozen_sha256": "52ef351e2a755ccde8964a33544aaadf7532bb7f4d6c83837bdf8fbb22f840ef",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-05-06",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-05-06.npz",
+      "sha256": "e2357e0a0a76038dfadb67a4f6faf33bd2604b14261b006017b815e2b991c5a4",
+      "frozen_file": "joint-paths/2026-05-06.npz",
+      "frozen_sha256": "f97793627d44024c08b5d6f29ddcb8fb5e7831f37be208374c14b9aa7f32ef8c",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-05-07",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-05-07.npz",
+      "sha256": "0160286e007d5ba248d6c6fe5925ad0f3ecea9f968b738093316e8939a35bb0c",
+      "frozen_file": "joint-paths/2026-05-07.npz",
+      "frozen_sha256": "537861c491a0c86ef92e542ee757d60e87aca6580dae68a4e1e24c7916eb892a",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-05-08",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-05-08.npz",
+      "sha256": "3f5abe08661cc7ca3f2080ef8589c76bfd828ca8270433b1dfbe61302515a472",
+      "frozen_file": "joint-paths/2026-05-08.npz",
+      "frozen_sha256": "b9c3a0b733c3fffb898e78c140268c10209ea786e95a05664772ba63bda9ed77",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-05-11",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-05-11.npz",
+      "sha256": "e5f035bb6c8df5a3a5917d43d581f6068f8bfc92f5507a2bbcd1b6c194f22524",
+      "frozen_file": "joint-paths/2026-05-11.npz",
+      "frozen_sha256": "f22212ef884cae9bbdf8ac05cae1fb9f87603d37a1a2c6e9ba668018eae76108",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-05-12",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-05-12.npz",
+      "sha256": "dd676ac0df6e3d601130560495064d0f9027985d65a37bc31df2e699bbae91d3",
+      "frozen_file": "joint-paths/2026-05-12.npz",
+      "frozen_sha256": "b70389c3be8ae1dadd09c6e1835e14ddc807bf98890cf182f169a999fb214365",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-05-13",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-05-13.npz",
+      "sha256": "542ecab174b19c92acdcb157dd89a91b1eba85eb4f468be10fee64bd999e0f1e",
+      "frozen_file": "joint-paths/2026-05-13.npz",
+      "frozen_sha256": "576ce4833d934ebeadfac9dbd3c0bcff6cb31764dc289b4a47abace4aa3038f2",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-05-14",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-05-14.npz",
+      "sha256": "b45267323412880828f696e3f0e3bb9b678eefce2d87d3a3a898ed1db0656f73",
+      "frozen_file": "joint-paths/2026-05-14.npz",
+      "frozen_sha256": "9de0f0240b9bae58fc9e551d02140c2cc63301de6cd8b21c91dcbf09c8cf5c3d",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-05-15",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-05-15.npz",
+      "sha256": "be1a5f708e830ccac2e9639649e3833b210779ad2aeb1073b07e106bc6e9332b",
+      "frozen_file": "joint-paths/2026-05-15.npz",
+      "frozen_sha256": "741d74a759b2f6f7f309b138dac90128bb5ce67be0a3247bf8e07c6b54a84057",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-05-18",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-05-18.npz",
+      "sha256": "04eac0990c45385456ee4c972b91adeaed76da371939ed270560ca93291c1531",
+      "frozen_file": "joint-paths/2026-05-18.npz",
+      "frozen_sha256": "3a293ff15b1e01f5ac9f33b3f031003d96ac96549329bbd886267e81b6120056",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-05-19",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-05-19.npz",
+      "sha256": "a30ddb831299ebc117869000ca8fb796035e7d5bbe9fed9e9092e59f70801e0b",
+      "frozen_file": "joint-paths/2026-05-19.npz",
+      "frozen_sha256": "cff4896884cadb56b94d6ffaffba290b6c15476dadff8dc16b0d8df622a04f99",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-05-20",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-05-20.npz",
+      "sha256": "9520a5e4af534088c43b54acf81329f4d64e5e65f33215602518e12bfd5ea032",
+      "frozen_file": "joint-paths/2026-05-20.npz",
+      "frozen_sha256": "9ca5539bd0e7cea4173de0747e3ad351d4f607d465dd684d0a237b7b31d09e00",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-05-21",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-05-21.npz",
+      "sha256": "3778a43e31b11c54c010891f33ed2d60b3f00709010c044c016231288e88369f",
+      "frozen_file": "joint-paths/2026-05-21.npz",
+      "frozen_sha256": "03537a7b84e21cb82fb6cd42ff57c3547149232862571facbed0b18c5d46959c",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-05-22",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-05-22.npz",
+      "sha256": "be36a95fb69002b2a959aea394d62960ba5ad329b4d57461007269205dd526b8",
+      "frozen_file": "joint-paths/2026-05-22.npz",
+      "frozen_sha256": "88ac9329e45bd979b418c8fc4e64d1f478470adda1e42576349fcfb21a342fff",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-05-25",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-05-25.npz",
+      "sha256": "b07b05db3851331c4279042ebdd2dfa924f6f95be4d5d950844e113ad19508cc",
+      "frozen_file": "joint-paths/2026-05-25.npz",
+      "frozen_sha256": "f2fd5988442006b897934253d3759826419a67715727bd496ba772f620c4a120",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-05-26",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-05-26.npz",
+      "sha256": "70feb1eb03b7d1c8d668f0656caa526b3866f940cbd1848247e497bc2b857a1f",
+      "frozen_file": "joint-paths/2026-05-26.npz",
+      "frozen_sha256": "e9d7528da20879e965eb76a9e9cf1b9698b86318eb70dc9c7e622826d06dd6b8",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-05-27",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-05-27.npz",
+      "sha256": "d8c0c453753405bf89bbbf0366c8b483d7517460815e29b8502b23703916f1a2",
+      "frozen_file": "joint-paths/2026-05-27.npz",
+      "frozen_sha256": "b2aa49f7d25915aaa2a6d865a35abdba1f43770f465d317948f35e4adea83bc2",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-05-29",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-05-29.npz",
+      "sha256": "0ad13c21225ed03c099b07fa7810bfbc148f2ee2dc0718983d294b133a266571",
+      "frozen_file": "joint-paths/2026-05-29.npz",
+      "frozen_sha256": "6c2aa75fae2ee0b234b0ccbb18a50e838f90d61803788b96a4da979771c5c434",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-06-01",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-06-01.npz",
+      "sha256": "bcb07fd2349e6f14c06efcec46639597be99106768f7b74d0aa387316082add5",
+      "frozen_file": "joint-paths/2026-06-01.npz",
+      "frozen_sha256": "0711298ed9a68b52df551f9df33637ead3b936d567a3775e70cd3f85275ec0ee",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-06-02",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-06-02.npz",
+      "sha256": "748d070b0fe1041e63a8e263e5ad89621127da0abf65cad9f4014d4292988875",
+      "frozen_file": "joint-paths/2026-06-02.npz",
+      "frozen_sha256": "3367be32008e1fcdb2f3ce4658754b33397e027ad3a36805ae50e97ea354a22e",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-06-03",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-06-03.npz",
+      "sha256": "10229bbbfa61f3f4b48a509f6de345015a958c769f209044b5601c3158b9cab4",
+      "frozen_file": "joint-paths/2026-06-03.npz",
+      "frozen_sha256": "532a653c8122074f95d1045a7d77cc853c613c949bbb824d3c7002171774e804",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-06-04",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-06-04.npz",
+      "sha256": "14963854391fc5edb6ebed0e68d6b499e97c886fa27a7f146d5ae9a1668b39c4",
+      "frozen_file": "joint-paths/2026-06-04.npz",
+      "frozen_sha256": "c3e1c3fe09311f0292e11f5886e2a9b20930cc1b7347202d9dd05451af36297d",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-06-05",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-06-05.npz",
+      "sha256": "f64e0942c9656bce63daeb83081cb8a76cf754b9e65616112a1bb7314d48797d",
+      "frozen_file": "joint-paths/2026-06-05.npz",
+      "frozen_sha256": "465897d9988ee4a02c064cc4f47276407d7ef448cc067bc9c6a94981a960a85d",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-06-08",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-06-08.npz",
+      "sha256": "7ee822b608c8bce98572f3797bf1e757b712798713a9f3c4060d05dc19d3dcdb",
+      "frozen_file": "joint-paths/2026-06-08.npz",
+      "frozen_sha256": "a4379f6860f44f8fc636c4d2b37908bea8bd04f8f3e4430dc97b604c2bfb3c1f",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-06-09",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-06-09.npz",
+      "sha256": "e17402607aa3525eec415ca65a8d45ffc7588aa37f2af47723f32345be2d1a4d",
+      "frozen_file": "joint-paths/2026-06-09.npz",
+      "frozen_sha256": "1e63877a98729ec1b0a5c6a40fd0e09ac06d0c2bf73c1e695886996f2c3cfbcb",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-06-10",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-06-10.npz",
+      "sha256": "11a00918e76c9a706e46e0d4791dd90572df346c43fa4919124d06ffeeb3e016",
+      "frozen_file": "joint-paths/2026-06-10.npz",
+      "frozen_sha256": "cf12e69f266db3ffd81c9a134db4d3c1f71b1e167b5e93430a6b4239e36c7c70",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-06-11",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-06-11.npz",
+      "sha256": "b98b9dbc1ff8d61ec9fd0b8aab96372e31d64c9f66ac40f41fda4d9e5426a399",
+      "frozen_file": "joint-paths/2026-06-11.npz",
+      "frozen_sha256": "0770c598a8a74c19ff2023fc624170dc67dbf162acc5014be6060a086c7cf014",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-06-12",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-06-12.npz",
+      "sha256": "6401ba7e3237e022b0903b55b4db723834e5b4df8796300e42a6eb133dd5f191",
+      "frozen_file": "joint-paths/2026-06-12.npz",
+      "frozen_sha256": "57f5b51a1e4c0730e16b8cd847a5b63e94235ae496616430dfabd4922355c083",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-06-15",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-06-15.npz",
+      "sha256": "40e3ca213130a409af591a2c9392079f913f615bf030d2a10fc8f406348c8da1",
+      "frozen_file": "joint-paths/2026-06-15.npz",
+      "frozen_sha256": "c5ec7280f617e8c623ff948a521d35a4cbce4f2001896ce631eedec720146593",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-06-16",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-06-16.npz",
+      "sha256": "90d9b94b892d46cad8fc2b67b05edcf6ca92b496ce287712f69304c3b4fd2a6f",
+      "frozen_file": "joint-paths/2026-06-16.npz",
+      "frozen_sha256": "7011bc56980f41478572e1bf1a64f64678cb043e0fc9e3d528770db3fcdfcd6c",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-06-17",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-06-17.npz",
+      "sha256": "c2f2448444a93eb51bf3fe6d900154469f29499ba60905d1ed7d0b33658d94a3",
+      "frozen_file": "joint-paths/2026-06-17.npz",
+      "frozen_sha256": "2f3cf293accd71bde82aa213966835e3b693c5421b54ac3aec151a34ad5c511d",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-06-18",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-06-18.npz",
+      "sha256": "ef5c6543f1974ecf77772052016146ca50d9db993bdac58ade36e03cb602f424",
+      "frozen_file": "joint-paths/2026-06-18.npz",
+      "frozen_sha256": "db2c8885f410c5ffdcc903c748cb631bd29d1c97e37382863fb4646b95b1d7f1",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-06-19",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-06-19.npz",
+      "sha256": "7b949116ba6a0c29ad8eb609800b41bcccc6785b57aa021413304a436bad79d2",
+      "frozen_file": "joint-paths/2026-06-19.npz",
+      "frozen_sha256": "6c72e2813a3bc4c01cac5a70933cc2a3c65f613332bb54bbfb9ce6f362bc5da1",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-06-22",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-06-22.npz",
+      "sha256": "01688d5bf71cb2636e83921b687111fe5a0cc094f2aa8fd670573254219291da",
+      "frozen_file": "joint-paths/2026-06-22.npz",
+      "frozen_sha256": "ab4dd55d4378a9e10e49c7f12babd06c8f76aaa6de3c561541666f3375daa1ce",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-06-23",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-06-23.npz",
+      "sha256": "50430caae5b0c39273581fd46126740f83ddbb480deb9c0140aa42a509d66882",
+      "frozen_file": "joint-paths/2026-06-23.npz",
+      "frozen_sha256": "b5948f091a628cbf38215af740fbeedf2e245b9b4b88809343d2d70d63f0c4ab",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-06-24",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-06-24.npz",
+      "sha256": "699d5a0b5ca71ed1093ee8ae181908ba773c01e54356ad9594879d7381cc3472",
+      "frozen_file": "joint-paths/2026-06-24.npz",
+      "frozen_sha256": "a563e5deafc7570dca95aec254149b45e39a1da9a156b64413b41d618372bc5b",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-06-25",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-06-25.npz",
+      "sha256": "c9f6f0efd62c9d0214978bac1e916da39174d50969d4ac01b45eb58f9736550f",
+      "frozen_file": "joint-paths/2026-06-25.npz",
+      "frozen_sha256": "e1661dd0f0c3726123438d329a1d5fad9d96cb63bf083833af558d1c3103e5eb",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-06-29",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-06-29.npz",
+      "sha256": "d341b61e34c87fd1d60514b5e29fcd1582cce371a68a3aa8bfc8d2c613d14920",
+      "frozen_file": "joint-paths/2026-06-29.npz",
+      "frozen_sha256": "33ce0e086d6613b9521a399e69544f0e5c20e576dfb5038174d4e3ab6f38d971",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-06-30",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-06-30.npz",
+      "sha256": "4e03f7a890d302a5dfd116781d71f90e2d04eab28ae8610eb5b42323ab6be9c7",
+      "frozen_file": "joint-paths/2026-06-30.npz",
+      "frozen_sha256": "caf2195d59434ef2ef028125e47fe8cd688c64a887d925d98997d8f2d16dc2fa",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-07-01",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-07-01.npz",
+      "sha256": "e18a67a33b62c8ad3d88cb94d7b60e58cb4f81c82aa70d802fba8d1b14d00d76",
+      "frozen_file": "joint-paths/2026-07-01.npz",
+      "frozen_sha256": "067737c1b1e110e7dcc84ceb10d65aebd892750506247cb7eebc9556e85dac52",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-07-02",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-07-02.npz",
+      "sha256": "e1a39b45f48fc1866821b6b1c3d27306786c83833bcd10cc7c9d7b4fb4d6f962",
+      "frozen_file": "joint-paths/2026-07-02.npz",
+      "frozen_sha256": "1a5f15dca515c9427443824efb87c1732d76410a90f386ed91d6b26f5007a2f8",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-07-03",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-07-03.npz",
+      "sha256": "3c951401aca96fa8ed37c0f39b614af80be3d83e683610896b6af11cf4445610",
+      "frozen_file": "joint-paths/2026-07-03.npz",
+      "frozen_sha256": "a0c627c5b0f77139f24ff4c4ab9991f29397e8a0515406bf9796b87a1eb99197",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-07-06",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-07-06.npz",
+      "sha256": "b8e9ed10e726281077796f13425d885b9408b372793de27d0e9300351caeed6e",
+      "frozen_file": "joint-paths/2026-07-06.npz",
+      "frozen_sha256": "af6ef80eaa572ce1b58f50129cc36999ce173ab71528997b3e5dc920326999d4",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-07-07",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-07-07.npz",
+      "sha256": "a975d41f42b438f4e351b0f1bbd4f03a5e59c6c14ca431e283b57595c94f5973",
+      "frozen_file": "joint-paths/2026-07-07.npz",
+      "frozen_sha256": "e2665b3e59335b46d851fd4ef0d747671925a6c4e522874c694c33dd239c3fa5",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-07-08",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-07-08.npz",
+      "sha256": "1442d4308ad7adca6eb9924d3df0dc5d921c860a0937f874595daf0cb85ed414",
+      "frozen_file": "joint-paths/2026-07-08.npz",
+      "frozen_sha256": "5dc98ca8497b2a53b039f3d24881b0cf0fbc3644c17249d44e3290374d122dc7",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-07-09",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-07-09.npz",
+      "sha256": "7f1827a913cc1f1a3727991f4fed85a4887a26393e5aba2ef9984941d0eee270",
+      "frozen_file": "joint-paths/2026-07-09.npz",
+      "frozen_sha256": "ae62a4ce8f80aa388735904c5b8ba0a96d9d9f71196288d5c6a75477fc7999cb",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-07-10",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-07-10.npz",
+      "sha256": "9ee4c68f89ee42d59f63c0226ea574ef9618d78e5f0650f7fce45ca3782ddcce",
+      "frozen_file": "joint-paths/2026-07-10.npz",
+      "frozen_sha256": "2f1382eb653c4dcf888afa100ae7b2be92046a6757fd259f58e7f7d78f4cedcc",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-07-13",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-07-13.npz",
+      "sha256": "66aeceee05c7f85472ec1aba9f132b7ca18bfc47676e665cfefcefdaa9b6211e",
+      "frozen_file": "joint-paths/2026-07-13.npz",
+      "frozen_sha256": "3cb077b0c02bd21959e0c118178082414fc059aed1805e4a82b13526328674b4",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-07-14",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-07-14.npz",
+      "sha256": "69c7cce669c027f9e52a8c8f13f481e044a9a1d0ec392d2b119568091463a43f",
+      "frozen_file": "joint-paths/2026-07-14.npz",
+      "frozen_sha256": "a9fad8a1d0960cec5cf0d313650f7be0c05e0645eda32d76ff641bce2b914f45",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-07-15",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-07-15.npz",
+      "sha256": "c30d1b932a6a2919b5a9c4a9c28bbd1b62a4f7d73327357eb0524013f7bac186",
+      "frozen_file": "joint-paths/2026-07-15.npz",
+      "frozen_sha256": "9e76650d65c2c123c85a7f010590ffdba77d3cb27001f9e954e74a33bec6b1c8",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-07-16",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-07-16.npz",
+      "sha256": "847d3aa5cde369a8467bb456b48997dcb6844279915f8ddfbaa7414069859a67",
+      "frozen_file": "joint-paths/2026-07-16.npz",
+      "frozen_sha256": "1f18c7b63c52814d7f158afe2c3e001841236dd531abea4267bcec0851f71db8",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-07-17",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-07-17.npz",
+      "sha256": "6f641fcb8add81d9e1a64d343aa2f41eb44157c3ee2563bf76d738c4a0faab75",
+      "frozen_file": "joint-paths/2026-07-17.npz",
+      "frozen_sha256": "b45d4a3989b5e6dbb468130755ad3034e5669b84a27be1948bad120c07bd1ddb",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-07-20",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-07-20.npz",
+      "sha256": "8049ff5625f5c0811630cba7338a898dce1e5c5617768ffac65802fea6c64d7f",
+      "frozen_file": "joint-paths/2026-07-20.npz",
+      "frozen_sha256": "03fc74dec55dda56a08e65adb00d7ca1865a50399032c82fc0d6b97417f0ce86",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-07-21",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-07-21.npz",
+      "sha256": "5523c86d4d1b4e4739dcdfe52611d306432226a72905c70f6621ce700b6107bf",
+      "frozen_file": "joint-paths/2026-07-21.npz",
+      "frozen_sha256": "f8fbc2ab5e6da9ae0f6590541a42c3a4dcecd00eaa38c91f8189acbd504554f1",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-07-22",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-07-22.npz",
+      "sha256": "f1d0730eb39dd2bbfe110ceebe8aaf99d1a1ff2e6301ec2cccbda75aea65baae",
+      "frozen_file": "joint-paths/2026-07-22.npz",
+      "frozen_sha256": "4172357f0544a5aa8b19d2a21ab2a5a4243d0fe8506cf0d6fc78d1d6c88091be",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-07-23",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-07-23.npz",
+      "sha256": "70bebefb401cf42e12524c4d08c5a10728e61c00522c4d8905ff1c279db3143c",
+      "frozen_file": "joint-paths/2026-07-23.npz",
+      "frozen_sha256": "be942f4707e302636e09a93315e5a49ce80328b371191122281ef721d0728cb6",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-07-24",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-07-24.npz",
+      "sha256": "3f26c0cce26cb5db3a15802c6f04eb39f3f46924afa6b3d671a1dc20f07914b5",
+      "frozen_file": "joint-paths/2026-07-24.npz",
+      "frozen_sha256": "49451be82681423e6d903cc81b674491de47185ade7bf504e93ef3edc21d58fe",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-07-27",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-07-27.npz",
+      "sha256": "1439154f8d2d79f521dfbeb825e2de5a70ab26ff02b11bae62f4eb67ca1e232c",
+      "frozen_file": "joint-paths/2026-07-27.npz",
+      "frozen_sha256": "6307ec385ed2f33210d5e787de73667d602500e29206aecffd6bfefb9aa391ba",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-07-28",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-07-28.npz",
+      "sha256": "265e7b2f3d1b89a8fafb1c9e1494d869b30ce60e6ffb786b980fe424d0ebab11",
+      "frozen_file": "joint-paths/2026-07-28.npz",
+      "frozen_sha256": "75662286861b5ea9db8ac5af976549a8b8857204dc9c66695f0182139809be1b",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-07-29",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-07-29.npz",
+      "sha256": "de7c751478141fe11cc94434c2ad2b832a8f08e3eeed2e339e98257af433219b",
+      "frozen_file": "joint-paths/2026-07-29.npz",
+      "frozen_sha256": "0519922c7f6edade17a990a8f83a1a2e0b1a3d1ebc453243c7c24f2a6b7fbcdb",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-07-30",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-07-30.npz",
+      "sha256": "a628a625c6f96a324e621fb8bec45a3758d97b027190d6c7d2d3b486b295ef04",
+      "frozen_file": "joint-paths/2026-07-30.npz",
+      "frozen_sha256": "27b519c78435f1cbc6d1bc10cd80a645f69f7f91ebfe5b5932e01150e0026b10",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-07-31",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-07-31.npz",
+      "sha256": "87a517cf518d0238c007f3978168ea5524b75f071c9fd0ab9a5e08ea23b3c5d1",
+      "frozen_file": "joint-paths/2026-07-31.npz",
+      "frozen_sha256": "5d482fc2fba438a529d3d5fe65c086588130771aa2499eaef275068fa147bd17",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-08-03",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-08-03.npz",
+      "sha256": "d96291f4fe802e98410a53be842dba99958dbf1f01d4ed5bbc6353d90ef0557f",
+      "frozen_file": "joint-paths/2026-08-03.npz",
+      "frozen_sha256": "5fb3676c9e8aae34ee2c1cfa5bff4ae9f3f09804b071ea173c09cd32c4032d30",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-08-04",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-08-04.npz",
+      "sha256": "a82243e4235fbad517bc075b9068bc0ef2a601dec3dfbac729bbd3f186cfbf51",
+      "frozen_file": "joint-paths/2026-08-04.npz",
+      "frozen_sha256": "06d8472fd679d8b55e93ef695691ab3596f49a170a1c8a0d934c88900e238e95",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-08-05",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-08-05.npz",
+      "sha256": "76c56533ca2d19439a3ba8c32904182ae49ac6483a2f9f06c9c5beb3ef6587ca",
+      "frozen_file": "joint-paths/2026-08-05.npz",
+      "frozen_sha256": "1e4061a4b4e207bea0e238e98dbe020500a639eca2da54402481e2cbabd53365",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-08-06",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-08-06.npz",
+      "sha256": "670cfdac8d01d272cc06ff8b36b3844b27b1e9d5002b27fd7da53ff23df535f9",
+      "frozen_file": "joint-paths/2026-08-06.npz",
+      "frozen_sha256": "9d69cbe04695936944df9e80daafd0a2270301b11066bd92c16f7ca6d39e9d7f",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-08-07",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-08-07.npz",
+      "sha256": "d9d822d347c87ad27b4eae682a5187e57873caa1b0f227b30e5284ac90ffb351",
+      "frozen_file": "joint-paths/2026-08-07.npz",
+      "frozen_sha256": "1ef26f22d0e97eb121eac36c1083756bbfbfdba60a94ad875bcb6842d9437980",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-08-10",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-08-10.npz",
+      "sha256": "c3db152ae2b713aaaaef8b42632efdfff812596e9e9fa1081be1e8670dbf07b2",
+      "frozen_file": "joint-paths/2026-08-10.npz",
+      "frozen_sha256": "4bf31f27357e7077762d0cfbb9e27b6e26affd410366f489c9b9e030bb5a1f8f",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-08-11",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-08-11.npz",
+      "sha256": "262ead03e22c19476bb58a12e6532b298a4f1cd439a0179d0a1a08bae65639d5",
+      "frozen_file": "joint-paths/2026-08-11.npz",
+      "frozen_sha256": "10b2f213f46482451dd8bbdc668216ae830dd30bcb0e298e179aea9cd418a5e3",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-08-12",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-08-12.npz",
+      "sha256": "1f73b4b0dba27ec85c16becf9c3bb70d6c0bae9834e4c1288b01cfe1a053c66f",
+      "frozen_file": "joint-paths/2026-08-12.npz",
+      "frozen_sha256": "771c6c0094d21d4416ddf3dea75bf14a245b71158e43e2c701b9e5259df89caa",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-08-13",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-08-13.npz",
+      "sha256": "9d733b1662abe6753bc693ce32d9a2e5910ea954c1261b6c0f0853bf1c4d6ac0",
+      "frozen_file": "joint-paths/2026-08-13.npz",
+      "frozen_sha256": "0058edf9acd9dc4ee53c0c610d966567bcc7690cd4532a7b17afc0785c0d4355",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-08-14",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-08-14.npz",
+      "sha256": "1081156b7ef37dde0ed6588b7d1a41a6095ac93f247c948fccec1c355def96eb",
+      "frozen_file": "joint-paths/2026-08-14.npz",
+      "frozen_sha256": "694f598f455ec9ea93ce9299addeacd32b3b81c14df152796bf971e17376ede9",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-08-17",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-08-17.npz",
+      "sha256": "e09cd714c2b2781f64cc364f1fb60c5423333c1486c3aff052254f8f0179a943",
+      "frozen_file": "joint-paths/2026-08-17.npz",
+      "frozen_sha256": "f383035e068e9324d3299876b09318403b2614086e58751f13ab430d8f088a9f",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-08-18",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-08-18.npz",
+      "sha256": "29f7141ad378f3a90475a62551b212971d7e90334acb2e2dafb364984327b060",
+      "frozen_file": "joint-paths/2026-08-18.npz",
+      "frozen_sha256": "5dcfd2e2fc127f901a423fc39b01617d3d5bb45c9eba9100c6b9c54eed1bde27",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-08-19",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-08-19.npz",
+      "sha256": "422731e435d3d315cc96c1980c56509bcabaee6d32112d1a29190e7f9e0edad2",
+      "frozen_file": "joint-paths/2026-08-19.npz",
+      "frozen_sha256": "56d8ebe4f10120357f3660d21683d3c5e7bc879bb02f026327691581ec1f53ea",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-08-20",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-08-20.npz",
+      "sha256": "c089feed7e5efef1cf77cd3bdd98a9a71ec4929586c67958120eac7dd769589e",
+      "frozen_file": "joint-paths/2026-08-20.npz",
+      "frozen_sha256": "951a5849d4cbdd23db16f4cf427db79e1a9a39d78d8a96a63354d696c033464e",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-08-21",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-08-21.npz",
+      "sha256": "b6ead39b656c8f125b33a5bea904537701562bbb0dcb906e4802dbac02625fd7",
+      "frozen_file": "joint-paths/2026-08-21.npz",
+      "frozen_sha256": "a8fedcd9c9309aad349377157f78479fc9246930cb2199785282e8c9a167b44b",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-08-24",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-08-24.npz",
+      "sha256": "e0ba7713720419c77349ae22780724dab7abe5b5fcc0ea8739c045a04d9832d1",
+      "frozen_file": "joint-paths/2026-08-24.npz",
+      "frozen_sha256": "b92bafc63b3de82012d588c9d4dcaf968ea6fea1ef8937b58e1c248c9ded1d78",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-08-25",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-08-25.npz",
+      "sha256": "b7d75271c4eb881972ffac218cc103fda8104bbea82fb4598c6ff0c81c2034f9",
+      "frozen_file": "joint-paths/2026-08-25.npz",
+      "frozen_sha256": "d1b64b5895c6339c3866c5bd391913e042a8df2e6c5b2dcbc52114fee2dc1c9f",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-08-26",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-08-26.npz",
+      "sha256": "65d683fb5d85abfd9a8a3e1093c8451f67a903a4639ad3a4620cf6fefa87f940",
+      "frozen_file": "joint-paths/2026-08-26.npz",
+      "frozen_sha256": "26e73fefa1afc57691d066707f5271272f4a3e0be57d7799964294b1aea62ddf",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-08-27",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-08-27.npz",
+      "sha256": "955859bb0db2c99c47a785c891d36cf948627b6bd251aaf1c127a6cc6b0aadc8",
+      "frozen_file": "joint-paths/2026-08-27.npz",
+      "frozen_sha256": "d201319157c60a3f21e089619162555c523c345690859605f3807f698763d4f7",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-08-28",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-08-28.npz",
+      "sha256": "87c7f84624def40e1101f237b20cb0f08c0d4c5757232022242976c8f8ae5e9c",
+      "frozen_file": "joint-paths/2026-08-28.npz",
+      "frozen_sha256": "64fee24b229721cfe87d911d3bbb8599b5206e09836e66214fad67d352a5b86a",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-08-31",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-08-31.npz",
+      "sha256": "ecd1bbc91506a848b1d5ff27cac7a06f4ffc4554b48be1db697bf6e8dd73fb38",
+      "frozen_file": "joint-paths/2026-08-31.npz",
+      "frozen_sha256": "7de7212c265482aa702157556fef92347164f1ab1154961147b30a52d7560900",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-09-01",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-09-01.npz",
+      "sha256": "85d6ce773e7bf6e460e987415d8d7dbccaede6f7b3e9882fb50a351715b4d832",
+      "frozen_file": "joint-paths/2026-09-01.npz",
+      "frozen_sha256": "29df41acf52f4544d9924fa84cb721fa786d0322ea4047b8ef15ef24f0f96ed7",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-09-02",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-09-02.npz",
+      "sha256": "b34b3d95a8f3c4803a53931f785078770ff364907ee5c4581d67977a03df2080",
+      "frozen_file": "joint-paths/2026-09-02.npz",
+      "frozen_sha256": "8293431db361d7bf5ae18b1eda2d6768126dd5ca26ff0a336f3e73b4476b4b66",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-09-03",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-09-03.npz",
+      "sha256": "5f04af49ca103977169f80b58b3797e7f74213c1de7bf856cb925e84cfa1df33",
+      "frozen_file": "joint-paths/2026-09-03.npz",
+      "frozen_sha256": "4d3bfe341879417996558bc2334435ab72efc1a00ae5e54d067925dfcc56472e",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-09-04",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-09-04.npz",
+      "sha256": "38fac5b34598ff71efa7691a3088b8f7c3d583e892d7fe1359b2649b544a83a1",
+      "frozen_file": "joint-paths/2026-09-04.npz",
+      "frozen_sha256": "3510e9508f74b862ab7c59385d3ecee1c872f7bd2beee92b4ac44f6a3469c70c",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-09-07",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-09-07.npz",
+      "sha256": "c98f5bf9e2d9149e953fc6f5fc3fd7b8cb0226558bcdac8cfa52a5f759acf249",
+      "frozen_file": "joint-paths/2026-09-07.npz",
+      "frozen_sha256": "044d8e4c423bf4a815e649130ae2f016430dcfef0af8c15ffc3d771c0c925362",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-09-08",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-09-08.npz",
+      "sha256": "916cb5a3bd0f159755d2ed0aa8f927bd78cc71f1d529629b48188f33b684a1d6",
+      "frozen_file": "joint-paths/2026-09-08.npz",
+      "frozen_sha256": "4b3a80b6e251e277a022501743ad75e984c59994501d9ccb74af3b2a7e092003",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-09-09",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-09-09.npz",
+      "sha256": "26e2a9fd070a309d97ea948d58d4921f3f81bf6d0ed8a7e627a115cd505bc3e5",
+      "frozen_file": "joint-paths/2026-09-09.npz",
+      "frozen_sha256": "cb5a862c343e99d275f379a5417f8a67a108a42b31f0589687b0ffb1451f3998",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-09-10",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-09-10.npz",
+      "sha256": "9d981303dc40c0e918d769401568dc0d72fb371540a959bde1e14ef022a9281e",
+      "frozen_file": "joint-paths/2026-09-10.npz",
+      "frozen_sha256": "e8d532cef18392519f34f521e08490de803d4ccb7f11e61a6111db01e5ecfaa5",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-09-11",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-09-11.npz",
+      "sha256": "f93d13ee5c602bc044949ebbf415c72160ff951a9db3daf52224c82772fc5588",
+      "frozen_file": "joint-paths/2026-09-11.npz",
+      "frozen_sha256": "b45e8918fc23a280a2bf76d8375fc8bad8b6e45c82b04148874c52cb60ad2fbc",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-09-15",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-09-15.npz",
+      "sha256": "27b703f8291043337887d301829cc254dabb20647be53904ae5ba3ef42c396a9",
+      "frozen_file": "joint-paths/2026-09-15.npz",
+      "frozen_sha256": "f84b512a89960212ce0baac7d52c9fe93a1688eb446bf44e2f8c9b0d37cdc11a",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-09-16",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-09-16.npz",
+      "sha256": "5e597870cf6535d24d6094f146e2cb42ef6661f86c8b186f0fa71335f4869d70",
+      "frozen_file": "joint-paths/2026-09-16.npz",
+      "frozen_sha256": "cfccd583d711dbc7ef5f0f6c32e66812d28bb83ec65e8be47bd6dba2b989ae6b",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-09-17",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-09-17.npz",
+      "sha256": "540788471ebc0315ceab3e4c2d0cac4117a56883f755f9dd0e6a7241728621f9",
+      "frozen_file": "joint-paths/2026-09-17.npz",
+      "frozen_sha256": "9ce464e61550679b6bd0d2f6b5d03b1781e5794412105b69dede84a01052304b",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-09-18",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-09-18.npz",
+      "sha256": "5e11a3b63060275cbc6e6e0930af8123f8538fb5bf3def51fe85e8e12783ee8b",
+      "frozen_file": "joint-paths/2026-09-18.npz",
+      "frozen_sha256": "f75dbada37e7ef167e5596c31a1c21358c292c3c6cc02eec992160578a31af68",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-09-21",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-09-21.npz",
+      "sha256": "c3e630b70a6d0ef6f945dba7193d2350a9e786901740495f864ea916b3dc705c",
+      "frozen_file": "joint-paths/2026-09-21.npz",
+      "frozen_sha256": "b093a5baab0a0f75925163b51868d65b1bde49224a9c350731cc81c14b0ec373",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-09-22",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-09-22.npz",
+      "sha256": "427c92381d1bc4489c2ac3a6242159e110ce8c654d10b0ba005a23243cfcb26f",
+      "frozen_file": "joint-paths/2026-09-22.npz",
+      "frozen_sha256": "8ebe4d67f849f16ca2856c124ea7873860c041e2da948637b437111fbaadd1b7",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-09-23",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-09-23.npz",
+      "sha256": "5ba9639fc2b522f7d82a161eb99364c810dfe5a829bd1fa019f095960a6ea4e5",
+      "frozen_file": "joint-paths/2026-09-23.npz",
+      "frozen_sha256": "f0d3e26fe64f52e1bc12184648df3bf80bf8298d66698c6b172742af79526e65",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-09-24",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-09-24.npz",
+      "sha256": "ac215e09cb603527bd248b006dbf0c62478beb90e8110416c7ac8530f0206b83",
+      "frozen_file": "joint-paths/2026-09-24.npz",
+      "frozen_sha256": "4e407cce7fcb933e657e542a0fb66daaaf5ed015451e132492061debcc12e857",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-09-25",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-09-25.npz",
+      "sha256": "8518c288d4586b1c8f3af51be81a516cc289c7a13dccb200c58e2737b0329fb1",
+      "frozen_file": "joint-paths/2026-09-25.npz",
+      "frozen_sha256": "0688abd9a0802c6083e11bf960bbe5aa72bbd2bfe5bbb33333eb0bfe7ccd4a3c",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-09-28",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-09-28.npz",
+      "sha256": "1161d010525378b42634c04a1041eea33c43ccc2fffa9310f70c9f6484fe7231",
+      "frozen_file": "joint-paths/2026-09-28.npz",
+      "frozen_sha256": "a03527704d5920a463d78fcf8238139bb86e87d75b725688c0cf4dc17789298c",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-09-29",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-09-29.npz",
+      "sha256": "eea04c32e19a60fe06c91cbf36a4cfeb9ab1d4c45e046c29f4585d7d3434f379",
+      "frozen_file": "joint-paths/2026-09-29.npz",
+      "frozen_sha256": "e9ed333fd0611e814c842cdc07ed7e73ac01f73e4fabf07b2a38e9848623a40b",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-09-30",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-09-30.npz",
+      "sha256": "f924062cd600de010ce9646227eb8f370236505f3d1d0c14b1200d65dd0fa484",
+      "frozen_file": "joint-paths/2026-09-30.npz",
+      "frozen_sha256": "abbc687656579a8290b1079688c9da8c2a5567cf5f9cbfe8f1bf18ad5c13a0cf",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-10-01",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-10-01.npz",
+      "sha256": "f1db9eee388be324f886eb71bbbfa885c6158dccbd300dddf9180b230291e53d",
+      "frozen_file": "joint-paths/2026-10-01.npz",
+      "frozen_sha256": "595949e9729b1cb11c5a1ba278426706dcf115dd7a721346efaaef8ec6ea85bc",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-10-05",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-10-05.npz",
+      "sha256": "cfbd1f0b10c35ab55d53c61ed4ab6ba198e89e08dbcec0d3c449ec9f2c2a00f6",
+      "frozen_file": "joint-paths/2026-10-05.npz",
+      "frozen_sha256": "f478fc3db6735a63c96f678e3aca02c8d3d3f730a801fdd72f32083fc86ef0f5",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-10-06",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-10-06.npz",
+      "sha256": "aa5ee1ca19ad344479e829637bcd430e980427448ca1dcdd156744b03dd8c668",
+      "frozen_file": "joint-paths/2026-10-06.npz",
+      "frozen_sha256": "a33671984fd900380318c03e8a43cf01e02e37fe7603f29469b0fd0060267b71",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-10-07",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-10-07.npz",
+      "sha256": "fa9afa8019141e5aebea430c3fae619fc35e7001ac919e7c7c0eb40f9dfffaea",
+      "frozen_file": "joint-paths/2026-10-07.npz",
+      "frozen_sha256": "88c23ddcdd2c900ef36ddf7a82bf5c0f3b6adb92f2141a479d5152b81f249902",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-10-08",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-10-08.npz",
+      "sha256": "f73a8ed8cc44f00e19a841d8e8168fa8a7d08855333b02e36ee5691a83506aaa",
+      "frozen_file": "joint-paths/2026-10-08.npz",
+      "frozen_sha256": "bbc1444482ca15c31d57773fdab7be556a3b1fcdaea30feebaf83e35aa2a77e9",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-10-09",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-10-09.npz",
+      "sha256": "d3b28e6f0eabb75a73c1ff084cfe893312503b06374a1a940187f6d21b09374b",
+      "frozen_file": "joint-paths/2026-10-09.npz",
+      "frozen_sha256": "c7620ecb87117a415c1721447fbb8688e5231e89ac5c126970b27742ef91921e",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-10-12",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-10-12.npz",
+      "sha256": "d6fb41ee2302f1b3706d26e55dcbe07e9f8fe530cb59357163048d5166e3cf67",
+      "frozen_file": "joint-paths/2026-10-12.npz",
+      "frozen_sha256": "ab0fdc24b73004b7b448bbd83e6e93cb4683ef4cd5d8b0e57534a732ca540d64",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-10-13",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-10-13.npz",
+      "sha256": "40d3de9cc1919232c429bb7b98f4387fcd547c3cf50828dc618fea5791f03175",
+      "frozen_file": "joint-paths/2026-10-13.npz",
+      "frozen_sha256": "9cd8eca261611c3b97692bd223f0ef9d833acefac2b65e4ec0ed5daf0aa5daaa",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-10-14",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-10-14.npz",
+      "sha256": "5c085a812bf11c6e4e4b8ba79c1e43fc922c956c7330f7fcf1740296b8997570",
+      "frozen_file": "joint-paths/2026-10-14.npz",
+      "frozen_sha256": "ec5ba0a4b3c3219572352fc65d5d3fe9488bae487f23b84c04200eacc189061c",
+      "frozen_model": "gjr_student"
+    },
+    {
+      "horizon": 21,
+      "origin": "2026-10-15",
+      "checkpoints": 21,
+      "file": "updated-paths/21-2026-10-15.npz",
+      "sha256": "9bc69a02be3c846eb7000ffb2480646b1193a3b29a4ef6ccd88634a5506dbd15",
+      "frozen_file": "joint-paths/2026-10-15.npz",
+      "frozen_sha256": "0d15bae8416f53db42800bd1b7862173aa199138f3a62693ec4ec30cf615e585",
+      "frozen_model": "gjr_student"
+    }
+  ],
+  "format": "kNN_model integer log OHLC prices relative to the current cash anchor. Equal path weights. Prepend exactly the observed OHLC prefix and preserve original reference. Frozen uses the exact V14 law cited per row."
+}

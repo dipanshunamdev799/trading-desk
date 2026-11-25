@@ -1,0 +1,22 @@
+{
+  "severe_record_count": 712,
+  "unique_windows": 108,
+  "scenarios": 8,
+  "descriptive_matches": [
+    {
+      "horizon": 5,
+      "n": 48,
+      "entire_box": 3,
+      "stress_maxima_cover": 21,
+      "typical_distance": 0.5794518234292747
+    },
+    {
+      "horizon": 21,
+      "n": 60,
+      "entire_box": 24,
+      "stress_maxima_cover": 27,
+      "typical_distance": 0.5877118892044678
+    }
+  ],
+  "scenario_priors": "Hypothetical relative OHLC paths. Descriptive severity and similarity only."
+}

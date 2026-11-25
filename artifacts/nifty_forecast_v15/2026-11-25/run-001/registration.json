@@ -1,0 +1,105 @@
+{
+  "timestamp": "2026-11-25T08:49:52.291581+05:30",
+  "historical_freeze": "2026-11-17",
+  "scope": [
+    "2025-01-01",
+    "2026-12-31"
+  ],
+  "seed": 151125,
+  "draws": 256,
+  "horizons": [
+    5,
+    21
+  ],
+  "reference_counts": {
+    "5": 265,
+    "21": 217
+  },
+  "all_daily": true,
+  "display_checkpoints": {
+    "5": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "21": [
+      0,
+      1,
+      5,
+      10,
+      15,
+      20
+    ]
+  },
+  "intraday_IST": {
+    "pre_open": "09:10",
+    "opening": "10:05",
+    "midday": "12:30",
+    "near_close": "15:10",
+    "completed": "17:00"
+  },
+  "barriers": [
+    0.005,
+    0.01,
+    0.02,
+    0.03,
+    0.05
+  ],
+  "expansion_multipliers": [
+    1.25,
+    1.5
+  ],
+  "contraction": 0.8,
+  "n_boot": 1500,
+  "block_lengths": [
+    5,
+    10,
+    21,
+    42
+  ],
+  "models": [
+    "frozen",
+    "zero_remaining",
+    "price_only",
+    "historical",
+    "iv_restart",
+    "gjr_restart",
+    "refit",
+    "incremental",
+    "domestic",
+    "domestic_stale",
+    "full",
+    "derivatives_first",
+    "full_stale_surface",
+    "full_stale_global",
+    "full_delayed",
+    "full_permuted",
+    "full_noise",
+    "particle",
+    "hybrid",
+    "vol_state",
+    "analogue",
+    "vol_only_shock",
+    "shock_persistence",
+    "sign_magnitude",
+    "heavy_tail",
+    "episode_tail"
+  ],
+  "prior_paths": {
+    "5": "gjr_iv",
+    "21": "gjr_student"
+  },
+  "targets": [
+    "endpoint return relative to original close",
+    "remaining endpoint return",
+    "whole and remaining range",
+    "whole and remaining realized volatility",
+    "extrema and drawdown",
+    "first-touch survival risk sets"
+  ],
+  "asof_rule": "Fixed original target identity. Hth observed trading-session labels remain frozen. Term features use only schedule known at the decision.",
+  "training": "strictly matured before each fit cutoff, training-only conditioning and transformations",
+  "choice": "Compare matched price-only, restart IV/GJR, and same-time historical controls. Use separate losses and target-window aggregation. Follow-up allowed for observed anomalies and calibration mechanisms only."
+}

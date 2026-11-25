@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "rows": {
+    "volatility": 3374,
+    "expansion": 964,
+    "path": 434,
+    "endpoint": 482,
+    "touch": 4820
+  },
+  "maximum_risk_delta": 0.0,
+  "maximum_expansion_delta": 0.0,
+  "fixed_touch": "V14 OHLC path and original root-relative thresholds independently re-scored",
+  "weekly_range": "V13 diffusion path atoms independently preserved in V14 benchmark-range-origins.csv; match V14 V13_diffusion_iv",
+  "probability_method": "Raw IV standard deviation sets the chi-square variance-tail reference. V14 historical is beta-smoothed frequency by matured monthly fit."
+}

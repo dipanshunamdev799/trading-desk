@@ -1,0 +1,477 @@
+{
+  "candle_files": {
+    "nifty": [
+      {
+        "file": "artifacts/nifty_forecast_v13/2026-11-25/run-001/sources/upstox/nifty-5m-2025-01-01.json",
+        "sha256": "3a9a8df838dddb36dbdf1824d65f821765e9e98ac0d6642fe7ae8201327e3c3f",
+        "bars": 1725
+      },
+      {
+        "file": "artifacts/nifty_forecast_v13/2026-11-25/run-001/sources/upstox/nifty-5m-2025-02-01.json",
+        "sha256": "23bc6167e576efb24c4c60bca58cf6bd5b93a562000982a02ad411c7d9cb5916",
+        "bars": 1500
+      },
+      {
+        "file": "artifacts/nifty_forecast_v13/2026-11-25/run-001/sources/upstox/nifty-5m-2025-03-01.json",
+        "sha256": "54a4afd98c5299f53c7887f76601c2e865f06e3d3d7d1393d995d4075da5dac2",
+        "bars": 1425
+      },
+      {
+        "file": "artifacts/nifty_forecast_v13/2026-11-25/run-001/sources/upstox/nifty-5m-2025-04-01.json",
+        "sha256": "551ba64172311a922422ae90c051018aee432e91c9061d47a1ca7b8fe7ca2261",
+        "bars": 1429
+      },
+      {
+        "file": "artifacts/nifty_forecast_v13/2026-11-25/run-001/sources/upstox/nifty-5m-2025-05-01.json",
+        "sha256": "dbc773e8b38305bbbeea37de011c524c8b8c9e98e37e5e8ca15154b4381b1794",
+        "bars": 1581
+      },
+      {
+        "file": "artifacts/nifty_forecast_v13/2026-11-25/run-001/sources/upstox/nifty-5m-2025-06-01.json",
+        "sha256": "7e53a7c831c7e6431f1148bc4992dafbb93bdeff59eb099c4fd3853e1cdf3dc6",
+        "bars": 1575
+      },
+      {
+        "file": "artifacts/nifty_forecast_v13/2026-11-25/run-001/sources/upstox/nifty-5m-2025-07-01.json",
+        "sha256": "0e3f47bf12bc6ac86513ab2fbea4cdff8a144f3b1593bb5b8bd7d5bb92202f9d",
+        "bars": 1725
+      },
+      {
+        "file": "artifacts/nifty_forecast_v13/2026-11-25/run-001/sources/upstox/nifty-5m-2025-08-01.json",
+        "sha256": "4d7f169197d353ed00b89007bcc84f218336f2923891e9c6b08d5d552bf5762b",
+        "bars": 1425
+      },
+      {
+        "file": "artifacts/nifty_forecast_v13/2026-11-25/run-001/sources/upstox/nifty-5m-2025-09-01.json",
+        "sha256": "29c49620d0dd60e556833d7c84a13b25482f631c09cf262c6c02920326f59e26",
+        "bars": 1650
+      },
+      {
+        "file": "artifacts/nifty_forecast_v13/2026-11-25/run-001/sources/upstox/nifty-5m-2025-10-01.json",
+        "sha256": "cadc017ce45411ed1b058d28363d04eeb6739db2259b102e297641c973da0d07",
+        "bars": 1512
+      },
+      {
+        "file": "artifacts/nifty_forecast_v13/2026-11-25/run-001/sources/upstox/nifty-5m-2025-11-01.json",
+        "sha256": "310cf2076b3ed72b47fed9564d9d37ccb6896029bfd74fdb39b97ecfc5ac9729",
+        "bars": 1425
+      },
+      {
+        "file": "artifacts/nifty_forecast_v13/2026-11-25/run-001/sources/upstox/nifty-5m-2025-12-01.json",
+        "sha256": "7314b8cf7b86bf82d845bb147301e4d7a9a662ec4fe63bba1f1017e353e94106",
+        "bars": 1650
+      },
+      {
+        "file": "artifacts/nifty_forecast_v13/2026-11-25/run-001/sources/upstox/nifty-5m-2026-01-01.json",
+        "sha256": "05ad48953f75b76418a78d64446044c4d360ea178e20ced22174bc1d820ef458",
+        "bars": 1500
+      },
+      {
+        "file": "artifacts/nifty_forecast_v13/2026-11-25/run-001/sources/upstox/nifty-5m-2026-02-01.json",
+        "sha256": "56b6c96ffd82172eb35fd2b6f91e780af53d044f603b9b7c399343f66a6c1b5d",
+        "bars": 1575
+      },
+      {
+        "file": "artifacts/nifty_forecast_v13/2026-11-25/run-001/sources/upstox/nifty-5m-2026-03-01.json",
+        "sha256": "dee440d78b9a562687c4618a046825bf44a93c6ce6585fa34e007bbb68ed6e4a",
+        "bars": 1425
+      },
+      {
+        "file": "artifacts/nifty_forecast_v13/2026-11-25/run-001/sources/upstox/nifty-5m-2026-04-01.json",
+        "sha256": "236b5001085e21944b7f6bcf2716fa366f595604758e614d908ad5e79086d411",
+        "bars": 1500
+      },
+      {
+        "file": "artifacts/nifty_forecast_v13/2026-11-25/run-001/sources/upstox/nifty-5m-2026-05-01.json",
+        "sha256": "243713432519b2b68eef813509cdb4f9bd349c3851b4daefc4e462d5897dc48e",
+        "bars": 1425
+      },
+      {
+        "file": "artifacts/nifty_forecast_v13/2026-11-25/run-001/sources/upstox/nifty-5m-2026-06-01.json",
+        "sha256": "2e070b6fadf2cc41065c4bb5ae06d746eea4e8dd491b20bd1004071191da4fd9",
+        "bars": 1575
+      },
+      {
+        "file": "artifacts/nifty_forecast_v13/2026-11-25/run-001/sources/upstox/nifty-5m-2026-07-01.json",
+        "sha256": "087854f5031a0877a6628c408a0ce2ceb62e7cb980ec90b4405e7771ebc4ca01",
+        "bars": 1725
+      },
+      {
+        "file": "artifacts/nifty_forecast_v13/2026-11-25/run-001/sources/upstox/nifty-5m-2026-08-01.json",
+        "sha256": "931c31410185086578a7abea6cf9e3cf1278248d08d6dacea69b8885cf81eb21",
+        "bars": 1575
+      },
+      {
+        "file": "artifacts/nifty_forecast_v13/2026-11-25/run-001/sources/upstox/nifty-5m-2026-09-01.json",
+        "sha256": "a23bbc0d4b0660f2d246addea0ba82b218d33ef573ad94dae6acd3bb95bcd941",
+        "bars": 1575
+      },
+      {
+        "file": "artifacts/nifty_forecast_v13/2026-11-25/run-001/sources/upstox/nifty-5m-2026-10-01.json",
+        "sha256": "1cb651503473f33d1b0ded93c8fdd0789514e0247764693d030ead9429418362",
+        "bars": 1500
+      },
+      {
+        "file": "artifacts/nifty_forecast_v13/2026-11-25/run-001/sources/upstox/nifty-5m-2026-11-01.json",
+        "sha256": "5e994bbc52940ef6d20893152eafa08cb1c7b6400131ab3230ea62439fffc46c",
+        "bars": 839
+      }
+    ],
+    "bank": [
+      {
+        "file": "artifacts/nifty_forecast_v10/2026-11-24/run-001/sources/intraday/bank-2025-01-01.json",
+        "sha256": "8225577eed485d35cb8f61becb3c7dbd53469c667656d0a1a00cd9246e4af4c7",
+        "bars": 930
+      },
+      {
+        "file": "artifacts/nifty_forecast_v10/2026-11-24/run-001/sources/intraday/bank-2025-04-01.json",
+        "sha256": "22ed5ea2863ebe0622680fb7ad5e5cac398ef32dfe3b6a027c49374b2c87dd5d",
+        "bars": 921
+      },
+      {
+        "file": "artifacts/nifty_forecast_v10/2026-11-24/run-001/sources/intraday/bank-2025-07-01.json",
+        "sha256": "56be6f7c64caa70ad89091ef1f4c2d8f664e404138cdb531951e86308ebeb901",
+        "bars": 960
+      },
+      {
+        "file": "artifacts/nifty_forecast_v10/2026-11-24/run-001/sources/intraday/bank-2025-10-01.json",
+        "sha256": "6be5c5c664f0f0325390db84481a49c26c74c8ca710fcd8888a2652ad9ce5e1f",
+        "bars": 918
+      },
+      {
+        "file": "artifacts/nifty_forecast_v10/2026-11-24/run-001/sources/intraday/bank-2026-01-01.json",
+        "sha256": "dc3f75858c98185f3ee3e980dd7d2a14d308ced7effa4b05e964d6821662d28b",
+        "bars": 900
+      },
+      {
+        "file": "artifacts/nifty_forecast_v10/2026-11-24/run-001/sources/intraday/bank-2026-04-01.json",
+        "sha256": "6c04e412194caf2b1cecb0110db37bc1014998d16fcc72781bf6423e2b540f86",
+        "bars": 900
+      },
+      {
+        "file": "artifacts/nifty_forecast_v10/2026-11-24/run-001/sources/intraday/bank-2026-07-01.json",
+        "sha256": "653c5da013869b474c5ae0ddfcb877ee9b24e79ecc7ed25febc58b570b33bf23",
+        "bars": 975
+      },
+      {
+        "file": "artifacts/nifty_forecast_v10/2026-11-24/run-001/sources/intraday/bank-2026-10-01.json",
+        "sha256": "fc1cc9f7ef839bb8727cae749354a07828136aacf3e95d6953bf065a8f3cff06",
+        "bars": 468
+      }
+    ],
+    "financial": [
+      {
+        "file": "artifacts/nifty_forecast_v10/2026-11-24/run-001/sources/intraday/financial-2025-01-01.json",
+        "sha256": "dc6a5c0d3fec30fdabdef70b66a39ecbd8a28f5380783512c7f61edf40bc3aea",
+        "bars": 930
+      },
+      {
+        "file": "artifacts/nifty_forecast_v10/2026-11-24/run-001/sources/intraday/financial-2025-04-01.json",
+        "sha256": "a2b57984ba4ceed9aadc43456b2588afd5defb9441f408ca748847eec478dff9",
+        "bars": 921
+      },
+      {
+        "file": "artifacts/nifty_forecast_v10/2026-11-24/run-001/sources/intraday/financial-2025-07-01.json",
+        "sha256": "85ce80089aa701531a99c99865601a5251018f81e3c3fb822b5afd0d2836bd02",
+        "bars": 960
+      },
+      {
+        "file": "artifacts/nifty_forecast_v10/2026-11-24/run-001/sources/intraday/financial-2025-10-01.json",
+        "sha256": "02ff97c73ef180308fc595438be279f1b0f296d8eefa23a0b9d5b1e26dcdd445",
+        "bars": 918
+      },
+      {
+        "file": "artifacts/nifty_forecast_v10/2026-11-24/run-001/sources/intraday/financial-2026-01-01.json",
+        "sha256": "b0ac381ff5d2aa8a9a3d41f06750adfefba27b182c6a61ca9b03c4df22d7b2ad",
+        "bars": 900
+      },
+      {
+        "file": "artifacts/nifty_forecast_v10/2026-11-24/run-001/sources/intraday/financial-2026-04-01.json",
+        "sha256": "d2f38d2a675d177dcad73170a73c63f108f906e3005b1604f1fb50df57066cad",
+        "bars": 900
+      },
+      {
+        "file": "artifacts/nifty_forecast_v10/2026-11-24/run-001/sources/intraday/financial-2026-07-01.json",
+        "sha256": "5d52c5d4f8dba3e1fc354fba443097fe56bc357670d6cce1fbaede377c862b58",
+        "bars": 975
+      },
+      {
+        "file": "artifacts/nifty_forecast_v10/2026-11-24/run-001/sources/intraday/financial-2026-10-01.json",
+        "sha256": "d873e831ea7beba91accf7ac58439b9fdb4b0df262ef68644c5513f01b5ef196",
+        "bars": 468
+      }
+    ],
+    "it": [
+      {
+        "file": "artifacts/nifty_forecast_v10/2026-11-24/run-001/sources/intraday/it-2025-01-01.json",
+        "sha256": "743c01b2f5df12f135d1cef6a4dd635000f681d37d72a4116efc5f5710c2c09c",
+        "bars": 930
+      },
+      {
+        "file": "artifacts/nifty_forecast_v10/2026-11-24/run-001/sources/intraday/it-2025-04-01.json",
+        "sha256": "b595312db3051f40ba86c1008cd78308d42a0cbb1a9ede35df0f85c5afa7f28d",
+        "bars": 921
+      },
+      {
+        "file": "artifacts/nifty_forecast_v10/2026-11-24/run-001/sources/intraday/it-2025-07-01.json",
+        "sha256": "ea708fba5efd979a2d6bef0fbabf62a3084816d13dca90f2c9230badee7047ed",
+        "bars": 960
+      },
+      {
+        "file": "artifacts/nifty_forecast_v10/2026-11-24/run-001/sources/intraday/it-2025-10-01.json",
+        "sha256": "6e15b78bda285b2fcdeb1940f66a5d4bd8d6717bbd571cdd90bc73bf47e77f89",
+        "bars": 918
+      },
+      {
+        "file": "artifacts/nifty_forecast_v10/2026-11-24/run-001/sources/intraday/it-2026-01-01.json",
+        "sha256": "f34a45ee8f6ea2af3cd1ce4fcbff3415bd8326f1c3637fa9ea82ed7a73a5057a",
+        "bars": 900
+      },
+      {
+        "file": "artifacts/nifty_forecast_v10/2026-11-24/run-001/sources/intraday/it-2026-04-01.json",
+        "sha256": "d60181f0b2977f41c18b911fd621ff67d5fc8883090a5ef2cebcda320859310e",
+        "bars": 900
+      },
+      {
+        "file": "artifacts/nifty_forecast_v10/2026-11-24/run-001/sources/intraday/it-2026-07-01.json",
+        "sha256": "987fe9e7d6f682901abc12094251f279d23f80de3c20806ffc231638bc7ce67b",
+        "bars": 975
+      },
+      {
+        "file": "artifacts/nifty_forecast_v10/2026-11-24/run-001/sources/intraday/it-2026-10-01.json",
+        "sha256": "c8c27a1a364b27f8534876ba084ac2fd87bd75e5eb9e3bc5497d3e70c3d8cdf7",
+        "bars": 468
+      }
+    ],
+    "auto": [
+      {
+        "file": "artifacts/nifty_forecast_v10/2026-11-24/run-001/sources/intraday/auto-2025-01-01.json",
+        "sha256": "8559358be1b6562fbc6958b921979b3c0c363254ef95131524eab23712fb8bac",
+        "bars": 930
+      },
+      {
+        "file": "artifacts/nifty_forecast_v10/2026-11-24/run-001/sources/intraday/auto-2025-04-01.json",
+        "sha256": "173835b9f96ad9776a2bd80f69d39e028b66448bed7e0bddd67996b466056e09",
+        "bars": 921
+      },
+      {
+        "file": "artifacts/nifty_forecast_v10/2026-11-24/run-001/sources/intraday/auto-2025-07-01.json",
+        "sha256": "e3fdfc2eb7786797ed3a1da532d2a4f59cf44455442156f98aa1fbe5ea77ca7a",
+        "bars": 960
+      },
+      {
+        "file": "artifacts/nifty_forecast_v10/2026-11-24/run-001/sources/intraday/auto-2025-10-01.json",
+        "sha256": "f80bddd8d88e7732c927e9ba865bcfa63747b491f679b64b46c74d9e75473a75",
+        "bars": 918
+      },
+      {
+        "file": "artifacts/nifty_forecast_v10/2026-11-24/run-001/sources/intraday/auto-2026-01-01.json",
+        "sha256": "70668f31def6f06fcb00ca90d1acdced92e9ec30effa12a9500c989aa736867d",
+        "bars": 900
+      },
+      {
+        "file": "artifacts/nifty_forecast_v10/2026-11-24/run-001/sources/intraday/auto-2026-04-01.json",
+        "sha256": "f90ddaa3aa30133d458700f337317e5983741cc9fe8d9bcc501b16af1917f0a0",
+        "bars": 900
+      },
+      {
+        "file": "artifacts/nifty_forecast_v10/2026-11-24/run-001/sources/intraday/auto-2026-07-01.json",
+        "sha256": "3a678eb1f3772bb922397dfe9892723e99c54c80b89fa0e282a860ab422fa7c0",
+        "bars": 975
+      },
+      {
+        "file": "artifacts/nifty_forecast_v10/2026-11-24/run-001/sources/intraday/auto-2026-10-01.json",
+        "sha256": "c4b7f4298da610daaf83f100615111681ed22d416696760e1c23391166f70f84",
+        "bars": 468
+      }
+    ],
+    "broad": [
+      {
+        "file": "artifacts/nifty_forecast_v15/2026-11-25/run-001/sources/market-intraday/broad-2025-01-01.json",
+        "sha256": "c70628bd6c50cbe26e06ea173daaa7e217ef76713a76e1e4e00648ab1c4d956a",
+        "bars": 930
+      },
+      {
+        "file": "artifacts/nifty_forecast_v15/2026-11-25/run-001/sources/market-intraday/broad-2025-04-01.json",
+        "sha256": "92f6f3093f67c32a31d6a12f3c999c924bec67df226cdb0bad4a8d3b3ba63630",
+        "bars": 921
+      },
+      {
+        "file": "artifacts/nifty_forecast_v15/2026-11-25/run-001/sources/market-intraday/broad-2025-07-01.json",
+        "sha256": "93bd954060eae2618f8edb375b5074b440acf6355c01e548d8cb8b716195ceab",
+        "bars": 960
+      },
+      {
+        "file": "artifacts/nifty_forecast_v15/2026-11-25/run-001/sources/market-intraday/broad-2025-10-01.json",
+        "sha256": "a6f88a5c119050d2a2a939325df882169019658eb9b2801b1a6bf24f53c11dfe",
+        "bars": 918
+      },
+      {
+        "file": "artifacts/nifty_forecast_v15/2026-11-25/run-001/sources/market-intraday/broad-2026-01-01.json",
+        "sha256": "ce39a7f699ba617caa318719d99fab8ed740ddfbd5b996cd4fc077cd7d7e49c0",
+        "bars": 900
+      },
+      {
+        "file": "artifacts/nifty_forecast_v15/2026-11-25/run-001/sources/market-intraday/broad-2026-04-01.json",
+        "sha256": "0ebeaa2751760cbd15d4db35c632383e90208739b30105fb31dba44d53616a2c",
+        "bars": 900
+      },
+      {
+        "file": "artifacts/nifty_forecast_v15/2026-11-25/run-001/sources/market-intraday/broad-2026-07-01.json",
+        "sha256": "3cb0f35f838b5a5c94f204a7e4a63170cdcd14aedc6847b54a11f646274b0f95",
+        "bars": 975
+      },
+      {
+        "file": "artifacts/nifty_forecast_v15/2026-11-25/run-001/sources/market-intraday/broad-2026-10-01.json",
+        "sha256": "26300dcadb0a007c60d8b37132b6fd9d15afbd91d060997b32a45cc3bbb66d8c",
+        "bars": 468
+      }
+    ],
+    "defensive": [
+      {
+        "file": "artifacts/nifty_forecast_v15/2026-11-25/run-001/sources/market-intraday/defensive-2025-01-01.json",
+        "sha256": "7c59917bf2dd026ea34ee87915d58a25dbd9542a6d4f76e1c6b7454c6eee0ae9",
+        "bars": 930
+      },
+      {
+        "file": "artifacts/nifty_forecast_v15/2026-11-25/run-001/sources/market-intraday/defensive-2025-04-01.json",
+        "sha256": "ca84ba82ea11855c46e00e2ba50d4177d266f04c4fd0743966fcf665dc7c6045",
+        "bars": 921
+      },
+      {
+        "file": "artifacts/nifty_forecast_v15/2026-11-25/run-001/sources/market-intraday/defensive-2025-07-01.json",
+        "sha256": "6e0a702baf7eaaf8f33486bff4b8af6fa0b00004b149f38cf003320a8230bf32",
+        "bars": 960
+      },
+      {
+        "file": "artifacts/nifty_forecast_v15/2026-11-25/run-001/sources/market-intraday/defensive-2025-10-01.json",
+        "sha256": "4fed0f069a1c82f2f70e746950112d1fe35de23f636d50a1114b9298189c2e15",
+        "bars": 918
+      },
+      {
+        "file": "artifacts/nifty_forecast_v15/2026-11-25/run-001/sources/market-intraday/defensive-2026-01-01.json",
+        "sha256": "23a92789d732f21a152b77d8d91a29b678c93123b6cf1bb3679992977a3f2a41",
+        "bars": 900
+      },
+      {
+        "file": "artifacts/nifty_forecast_v15/2026-11-25/run-001/sources/market-intraday/defensive-2026-04-01.json",
+        "sha256": "f094fdbe71ede87b64f1e2af6af955c75b32dda78060577e2100cc8f51eade81",
+        "bars": 900
+      },
+      {
+        "file": "artifacts/nifty_forecast_v15/2026-11-25/run-001/sources/market-intraday/defensive-2026-07-01.json",
+        "sha256": "3b93af570645503fde8ebfbf509c7ec77d469a6d2b925f72aa10f1337aaf836f",
+        "bars": 975
+      },
+      {
+        "file": "artifacts/nifty_forecast_v15/2026-11-25/run-001/sources/market-intraday/defensive-2026-10-01.json",
+        "sha256": "8779707026fca3211180bde3644ec26d39112d6220c843a55d9013239b7e77fc",
+        "bars": 468
+      }
+    ],
+    "etf": [
+      {
+        "file": "artifacts/nifty_forecast_v15/2026-11-25/run-001/sources/market-intraday/etf-2025-01-01.json",
+        "sha256": "222f93289f1253d65c84f2e21a88845ccf83159136d381a50496542498dd1e26",
+        "bars": 930
+      },
+      {
+        "file": "artifacts/nifty_forecast_v15/2026-11-25/run-001/sources/market-intraday/etf-2025-04-01.json",
+        "sha256": "ec286393b4b19452060588279d4e7e8ed59a554ebeda2cc2af18ad5eb4b89802",
+        "bars": 915
+      },
+      {
+        "file": "artifacts/nifty_forecast_v15/2026-11-25/run-001/sources/market-intraday/etf-2025-07-01.json",
+        "sha256": "2ed09580d8defea4eb36a07049ecaa114f60646c2fb9fb6fb3fe9624d6e9160a",
+        "bars": 960
+      },
+      {
+        "file": "artifacts/nifty_forecast_v15/2026-11-25/run-001/sources/market-intraday/etf-2025-10-01.json",
+        "sha256": "dbad16b1a9d3d51e74f093df9e863aa6f4495e1387bef31416f0459516b21d6e",
+        "bars": 918
+      },
+      {
+        "file": "artifacts/nifty_forecast_v15/2026-11-25/run-001/sources/market-intraday/etf-2026-01-01.json",
+        "sha256": "3d14b5c48aa6be1b55a27ae18d291c32fabfd28af795fe21565a4f82db1e8a51",
+        "bars": 900
+      },
+      {
+        "file": "artifacts/nifty_forecast_v15/2026-11-25/run-001/sources/market-intraday/etf-2026-04-01.json",
+        "sha256": "4df05455e20d7f446ffc458d0b32f6d92a5497d4ac0f4cf3fd33bbb1da03f096",
+        "bars": 900
+      },
+      {
+        "file": "artifacts/nifty_forecast_v15/2026-11-25/run-001/sources/market-intraday/etf-2026-07-01.json",
+        "sha256": "e5db67413d49993c4b14f6664d5395b3f260974632ab984b97333cf594857b3b",
+        "bars": 975
+      },
+      {
+        "file": "artifacts/nifty_forecast_v15/2026-11-25/run-001/sources/market-intraday/etf-2026-10-01.json",
+        "sha256": "10d4365d29bda70c4b0a0167bd04b90e96a8e73f7b51aeef40fc1a11a14ab9be",
+        "bars": 468
+      }
+    ]
+  },
+  "candle_conflicts": {
+    "nifty": 0,
+    "bank": 0,
+    "financial": 0,
+    "it": 0,
+    "auto": 0,
+    "broad": 0,
+    "defensive": 0,
+    "etf": 0
+  },
+  "global_files": {
+    "spx": {
+      "file": "artifacts/nifty_forecast_v5/2026-11-18/run-001/sources/g_^GSPC.json",
+      "sha256": "e5a22867403d59a94235106bb1288f5ed13f0a3bfa3531dd7c8e3f53ee5cb062",
+      "timezone": "America/New_York",
+      "assumed_local_close": "16:00",
+      "buffer_minutes": 60,
+      "reconstructable_end_of_day_marks": 489
+    },
+    "dow": {
+      "file": "artifacts/nifty_forecast_v5/2026-11-18/run-001/sources/g_^DJI.json",
+      "sha256": "c7da073334e3165c56fdc798c332ed0abf3ebfe95eb9605c3895462cd56c44d8",
+      "timezone": "America/New_York",
+      "assumed_local_close": "16:00",
+      "buffer_minutes": 60,
+      "reconstructable_end_of_day_marks": 474
+    },
+    "ftse": {
+      "file": "artifacts/nifty_forecast_v5/2026-11-18/run-001/sources/g_^FTSE.json",
+      "sha256": "ad1b31184f0f443cabde65735c43436688fb959160fd2f44611f78c928ca9395",
+      "timezone": "Europe/London",
+      "assumed_local_close": "16:35",
+      "buffer_minutes": 60,
+      "reconstructable_end_of_day_marks": 485
+    },
+    "dax": {
+      "file": "artifacts/nifty_forecast_v5/2026-11-18/run-001/sources/g_^GDAXI.json",
+      "sha256": "a1c7c30ab60857f308223c42994def29c36574f8531e08746c71c8480bec78d2",
+      "timezone": "Europe/Berlin",
+      "assumed_local_close": "17:40",
+      "buffer_minutes": 60,
+      "reconstructable_end_of_day_marks": 486
+    },
+    "nikkei": {
+      "file": "artifacts/nifty_forecast_v5/2026-11-18/run-001/sources/g_^N225.json",
+      "sha256": "09ba9cb648ca3af4d71145e604734f054a53d5161dc0fcb7382de13e0d898fd5",
+      "timezone": "Asia/Tokyo",
+      "assumed_local_close": "15:35",
+      "buffer_minutes": 60,
+      "reconstructable_end_of_day_marks": 378
+    },
+    "hsi": {
+      "file": "artifacts/nifty_forecast_v5/2026-11-18/run-001/sources/g_^HSI.json",
+      "sha256": "a123dd90a4ad7cc28f15897989d7da6a54f4dbccedd196d56bec30baa0fa15a7",
+      "timezone": "Asia/Hong_Kong",
+      "assumed_local_close": "16:15",
+      "buffer_minutes": 60,
+      "reconstructable_end_of_day_marks": 455
+    }
+  },
+  "source_rule": "Authentic historical candles, reconstruction diagnostic. Use end plus 5 minutes. Every foreign close uses its local calendar and DST plus one hour; FX, oil, global-vol use earlier audited V14 day labels. No intraday options or official intraday equal-weight.",
+  "receipt_rows": 2004
+}
