@@ -1,0 +1,245 @@
+{
+  "frozen_at": "2026-11-26T07:52:52.264606+05:30",
+  "study_day": "2026-11-26",
+  "calendar": "https://archives.nseindia.com/content/circulars/CMTR71775.pdf",
+  "origin_target_sessions": [
+    "2026-11-26",
+    "2026-11-27",
+    "2026-11-30",
+    "2026-12-01",
+    "2026-12-02",
+    "2026-12-03",
+    "2026-12-04",
+    "2026-12-07",
+    "2026-12-08",
+    "2026-12-09",
+    "2026-12-10",
+    "2026-12-11",
+    "2026-12-14",
+    "2026-12-15",
+    "2026-12-16",
+    "2026-12-17",
+    "2026-12-18",
+    "2026-12-21",
+    "2026-12-22",
+    "2026-12-23",
+    "2026-12-24"
+  ],
+  "preauction_processing_seconds": 75,
+  "native_processing_seconds": 75,
+  "configurations": [
+    {
+      "name": "exact_v14",
+      "horizon": 5,
+      "clock": "09:10",
+      "inherited_sha256": "dd942af7268021a64680a8d1bbbdd1fcc4a7a561a93e145e935f226f1bae4805",
+      "conditions": [
+        "eligible official reference and exact horizon target sessions",
+        "native V14 path state reconstructed with eligible newly completed domestic and option data"
+      ],
+      "status": "requires native V14 reconstruction and exact morning feature state; evaluate at cutoff"
+    },
+    {
+      "name": "v18_corporate_native",
+      "horizon": 5,
+      "clock": "09:10",
+      "inherited_sha256": "9cbfc0b0e60b2c2bedacadfcb401d3c21e3aca85aad8d719b1f4f964966b988c",
+      "conditions": [
+        "eligible official reference and exact horizon target sessions",
+        "native V14 path state reconstructed with eligible newly completed domestic and option data",
+        "V18 timestamp-qualified issuer releases and completed price reactions, or exact V20 training-window omission"
+      ],
+      "status": "requires native V14 reconstruction and exact morning feature state; evaluate at cutoff"
+    },
+    {
+      "name": "omit_latest_21_training_origins",
+      "horizon": 5,
+      "clock": "09:10",
+      "inherited_sha256": "36c643dc6d5bc5c695f08f12e2048b35172f514d813270f1957f10fccab5b0d1",
+      "conditions": [
+        "eligible official reference and exact horizon target sessions",
+        "native V14 path state reconstructed with eligible newly completed domestic and option data",
+        "V18 timestamp-qualified issuer releases and completed price reactions, or exact V20 training-window omission"
+      ],
+      "status": "requires native V14 reconstruction and exact morning feature state; evaluate at cutoff"
+    },
+    {
+      "name": "anchor_asymmetry",
+      "horizon": 5,
+      "clock": "09:10",
+      "inherited_sha256": "0cea6df4bf74edd7c8b4e65e4860f8510b94e3f8c1f338dcf0c584c534b57d46",
+      "conditions": [
+        "eligible official reference and exact horizon target sessions",
+        "native V14 path state reconstructed with eligible newly completed domestic and option data",
+        "V18 timestamp-qualified issuer releases and completed price reactions, or exact V20 training-window omission"
+      ],
+      "status": "requires native V14 reconstruction and exact morning feature state; evaluate at cutoff"
+    },
+    {
+      "name": "weekly_symmetric",
+      "horizon": 5,
+      "clock": "previous_1700",
+      "inherited_sha256": "ec000adf8b14b5bb0025e3fbeec7387080e906182d8655e9d0cfa82381e17002",
+      "conditions": [
+        "eligible official reference and exact horizon target sessions"
+      ],
+      "status": "existing genuine immutable issue guards the same target"
+    },
+    {
+      "name": "raw_iv",
+      "horizon": 5,
+      "clock": "08:55",
+      "inherited_sha256": "66ac419269f87fe4d6b7b7d3f70bf65a9171db3fde3c89d7d3d04dbc3f2778be",
+      "conditions": [
+        "eligible official reference and exact horizon target sessions",
+        "verified prior option IV or cash GJR state plus trailing realized volatility definition"
+      ],
+      "status": "observe eligibility, prefer genuine prior frozen risk references"
+    },
+    {
+      "name": "fixed_iv_rv",
+      "horizon": 5,
+      "clock": "08:55",
+      "inherited_sha256": "817c27e8d745297efa2e2241c7e9b417800fc4c18e17c88bdd17b357e7bbe082",
+      "conditions": [
+        "eligible official reference and exact horizon target sessions",
+        "verified prior option IV or cash GJR state plus trailing realized volatility definition"
+      ],
+      "status": "observe eligibility, prefer genuine prior frozen risk references"
+    },
+    {
+      "name": "exact_v14",
+      "horizon": 21,
+      "clock": "09:10",
+      "inherited_sha256": "8183c623de56f7757be0b2912c345cb667ded7996d7cbd4db22fabe368259203",
+      "conditions": [
+        "eligible official reference and exact horizon target sessions",
+        "native V14 path state reconstructed with eligible newly completed domestic and option data"
+      ],
+      "status": "requires native V14 reconstruction and exact morning feature state; evaluate at cutoff"
+    },
+    {
+      "name": "v19_position_native",
+      "horizon": 21,
+      "clock": "09:10",
+      "inherited_sha256": "b5a6b4dbcc25fe56de1f044a15665a762c4f4e431127065d335d11518cc996e5",
+      "conditions": [
+        "eligible official reference and exact horizon target sessions",
+        "native V14 path state reconstructed with eligible newly completed domestic and option data",
+        "08:55-eligible participant holdings history and exact prior-session smoothing"
+      ],
+      "status": "requires native V14 reconstruction and exact morning feature state; evaluate at cutoff"
+    },
+    {
+      "name": "smooth5",
+      "horizon": 21,
+      "clock": "09:10",
+      "inherited_sha256": "b60de09f9d583bbb8a0061b91706c5f655ed322ebbb3c9cc009b9ab3cb1a010a",
+      "conditions": [
+        "eligible official reference and exact horizon target sessions",
+        "native V14 path state reconstructed with eligible newly completed domestic and option data",
+        "08:55-eligible participant holdings history and exact prior-session smoothing"
+      ],
+      "status": "requires native V14 reconstruction and exact morning feature state; evaluate at cutoff"
+    },
+    {
+      "name": "anchor_aggregate_position",
+      "horizon": 21,
+      "clock": "09:10",
+      "inherited_sha256": "ffa9108eea2e0ebbb7bd0df3d825276b2522c367400e09e6d7d5cbc269bfecbf",
+      "conditions": [
+        "eligible official reference and exact horizon target sessions",
+        "native V14 path state reconstructed with eligible newly completed domestic and option data",
+        "08:55-eligible participant holdings history and exact prior-session smoothing"
+      ],
+      "status": "requires native V14 reconstruction and exact morning feature state; evaluate at cutoff"
+    },
+    {
+      "name": "monthly_neutral_reference",
+      "horizon": 21,
+      "clock": "previous_1700",
+      "inherited_sha256": "9f125777de2399af845f8e77b4a6969347c203e7ecc1a74b3a84a97afe810424",
+      "conditions": [
+        "eligible official reference and exact horizon target sessions"
+      ],
+      "status": "existing genuine immutable issue guards the same target"
+    },
+    {
+      "name": "GJR",
+      "horizon": 21,
+      "clock": "08:55",
+      "inherited_sha256": "3802c49053c5acadb0f26c86989f9e07e13d44b308323a8816bdc7940053d467",
+      "conditions": [
+        "eligible official reference and exact horizon target sessions",
+        "verified prior option IV or cash GJR state plus trailing realized volatility definition"
+      ],
+      "status": "observe eligibility, prefer genuine prior frozen risk references"
+    },
+    {
+      "name": "student_EGARCH",
+      "horizon": 21,
+      "clock": "08:55",
+      "inherited_sha256": "51f02979baa504e87ffacdaeaab59829337361ce676db50fc17b0622d3a910de",
+      "conditions": [
+        "eligible official reference and exact horizon target sessions",
+        "verified prior option IV or cash GJR state plus trailing realized volatility definition"
+      ],
+      "status": "observe eligibility, prefer genuine prior frozen risk references"
+    },
+    {
+      "name": "GIFT opening gap",
+      "horizon": 1,
+      "clock": "08:55",
+      "inherited_sha256": "5f2d34321bc31d9f94116fb0dd4ab7f2f4f162763e8e7cae5314682a4523b5f6",
+      "conditions": [
+        "eligible official reference and exact horizon target sessions",
+        "properly timestamped same-session GIFT bar and exact prior official close"
+      ],
+      "status": "observe eligibility, prefer genuine prior frozen risk references"
+    },
+    {
+      "name": "V22 domestic correction",
+      "horizon": 5,
+      "clock": "09:10",
+      "conditions": [
+        "New exact V14 and V21 laws",
+        "eligible corporate and market breadth inputs",
+        "frozen older errors"
+      ],
+      "status": "requires native parent"
+    },
+    {
+      "name": "V22 foreign-tail mixture",
+      "horizon": 21,
+      "clock": "09:10",
+      "conditions": [
+        "New exact V21 positioning parent",
+        "fully matured analogue donors"
+      ],
+      "status": "requires native parent"
+    },
+    {
+      "name": "V22_architecture_india_monthly_path",
+      "horizon": 21,
+      "clock": "08:55",
+      "conditions": [
+        "guarded domestic cash",
+        "frozen V19 GJR risk anchor",
+        "earlier observed donor paths"
+      ],
+      "status": "capture scheduled"
+    },
+    {
+      "name": "V22_architecture_mixed_monthly_path",
+      "horizon": 21,
+      "clock": "08:55",
+      "conditions": [
+        "guarded cash, foreign state, frozen GJR",
+        "earlier observed donor paths"
+      ],
+      "status": "capture scheduled"
+    }
+  ],
+  "implementation": "research/nifty_forecast_v23/forward.py",
+  "implementation_sha256": "fb5fd397fc68368ea3c17d138b617662b51185cb4d39c7e4a3e94b453bcf1f93"
+}

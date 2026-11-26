@@ -1,0 +1,50 @@
+{
+  "india_weighted_laws": 75891,
+  "india_sampled_complete_proper_score_replays": 1260,
+  "india_atom_weights": 13989408,
+  "primary_markets": 20,
+  "market_origins": 9361,
+  "target_tasks": 46805,
+  "international_forecast_cases": 646121,
+  "international_laws_sample_replays": 7500,
+  "by_horizon": {
+    "1": {
+      "case_count": 117280,
+      "fit_certificates": 12150,
+      "strict_reserved_cutoff": true
+    },
+    "3": {
+      "case_count": 116640,
+      "fit_certificates": 12150,
+      "strict_reserved_cutoff": true
+    },
+    "5": {
+      "case_count": 152250,
+      "fit_certificates": 12190,
+      "strict_reserved_cutoff": true
+    },
+    "10": {
+      "case_count": 114400,
+      "fit_certificates": 11925,
+      "strict_reserved_cutoff": true
+    },
+    "21": {
+      "case_count": 145551,
+      "fit_certificates": 11730,
+      "strict_reserved_cutoff": true
+    }
+  },
+  "analogue_laws": 6748,
+  "analogue_paths": 307992,
+  "risk_path_laws": 3374,
+  "v21_artifacts_verified": 234,
+  "v21_code_files_verified": 15,
+  "source_receipts": 69,
+  "forward_issue_count": 13,
+  "v22_new_forward_issues": 0,
+  "forward_foreign_marks": 102,
+  "verified_at": "2026-11-26T01:34:30.279432+05:30",
+  "reports": 17,
+  "figures": 2,
+  "local_links_verified": true
+}

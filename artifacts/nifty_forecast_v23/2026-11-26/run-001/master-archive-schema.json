@@ -1,0 +1,31 @@
+{
+  "archive": "Version-partitioned gzip CSV. Source file SHA-256 and zero-based source case row are original provenance keys.",
+  "files": [
+    "master-forecast-archive/v03.csv.gz",
+    "master-forecast-archive/v04.csv.gz",
+    "master-forecast-archive/v05.csv.gz",
+    "master-forecast-archive/v06.csv.gz",
+    "master-forecast-archive/v07.csv.gz",
+    "master-forecast-archive/v08.csv.gz",
+    "master-forecast-archive/v09.csv.gz",
+    "master-forecast-archive/v10.csv.gz",
+    "master-forecast-archive/v11.csv.gz",
+    "master-forecast-archive/v12.csv.gz",
+    "master-forecast-archive/v13.csv.gz",
+    "master-forecast-archive/v14.csv.gz",
+    "master-forecast-archive/v15.csv.gz",
+    "master-forecast-archive/v16.csv.gz",
+    "master-forecast-archive/v17.csv.gz",
+    "master-forecast-archive/v18.csv.gz",
+    "master-forecast-archive/v19.csv.gz",
+    "master-forecast-archive/v20.csv.gz",
+    "master-forecast-archive/v21.csv.gz",
+    "master-forecast-archive/v22.csv.gz"
+  ],
+  "historical_records": 5783318,
+  "discovered_distinct_version_model_ids": 2005,
+  "linked_law_pointers": 1089724,
+  "law_note": "Some laws are keyed, equal-weight or on log-return units; use companion layout and file receipt. Incomplete summaries cannot produce an exact law.",
+  "completeness": "The archive covers identified date-keyed forecast tables and a separate law inventory. Unmatched table conventions and V1\u2013V2 possible pre-2025 warm-ups are retained as provenance only.",
+  "identity": "Source case rows include overlapping experiments and predecessor duplicates. These are coverage counts, not independent predictions or distinct hypotheses."
+}

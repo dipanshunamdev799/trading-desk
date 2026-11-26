@@ -1,0 +1,26 @@
+{
+  "cutoff": "2026-11-26T08:55:00+05:30",
+  "checked_at": "2026-11-26T08:54:06.194358+05:30",
+  "attempts": [
+    {
+      "name": "gift-morning",
+      "url": "https://api.upstox.com/v3/historical-candle/intraday/GLOBAL_INDEX%7CSGX%20NIFTY/minutes/5",
+      "sent": "2026-11-26T08:54:06.020337+05:30",
+      "received": "2026-11-26T08:54:06.148224+05:30",
+      "status": 200,
+      "server_date": "Thu, 26 Nov 2026 03:24:06 GMT",
+      "file": "forward/raw/gift-morning-085406-148224.json",
+      "sha256": "24f8e0b36671f9eaebdea7eac04c83ac95a52a761feb2ba9f15897edd588b1e9",
+      "n": 60,
+      "eligible_previous": true,
+      "eligible_morning": true,
+      "selected_prior_bar_end": "2026-11-25T15:30:00+05:30",
+      "selected_prior_close": 25929.5,
+      "selected_morning_bar_end": "2026-11-26T08:50:00+05:30",
+      "selected_morning_model_availability": "2026-11-26T08:55:00+05:30",
+      "selected_morning_close": 26013.0,
+      "reference_official_close": 25819.25
+    }
+  ],
+  "errors": []
+}

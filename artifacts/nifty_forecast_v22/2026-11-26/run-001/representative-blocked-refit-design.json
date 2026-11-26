@@ -1,0 +1,34 @@
+[
+  {
+    "horizon": 5,
+    "base": "anchor_asymmetry",
+    "period_start": "2025-10-15",
+    "period_end": "2026-11-09",
+    "n": 265,
+    "active": 216,
+    "unpermuted": 1,
+    "chronologically_refitted_and_reselected_nulls": 24,
+    "variants": [
+      "domestic",
+      "international",
+      "beyond_gift",
+      "low_dimensional"
+    ]
+  },
+  {
+    "horizon": 21,
+    "base": "anchor_aggregate_position",
+    "period_start": "2025-12-02",
+    "period_end": "2026-10-16",
+    "n": 217,
+    "active": 152,
+    "unpermuted": 1,
+    "chronologically_refitted_and_reselected_nulls": 24,
+    "variants": [
+      "domestic",
+      "international",
+      "beyond_gift",
+      "low_dimensional"
+    ]
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "staged_at": "2026-11-26T07:53:02.453836+05:30",
+  "latest_cash": "2026-11-25",
+  "gift_key": "GLOBAL_INDEX|SGX NIFTY",
+  "previous_gift_receipt": {
+    "name": "gift-previous-cash",
+    "url": "https://api.upstox.com/v3/historical-candle/GLOBAL_INDEX%7CSGX%20NIFTY/minutes/5/2026-11-25/2026-11-25",
+    "sent": "2026-11-26T07:52:56.511900+05:30",
+    "received": "2026-11-26T07:52:56.584212+05:30",
+    "status": 200,
+    "server_date": "Thu, 26 Nov 2026 02:22:56 GMT",
+    "file": "forward/raw/gift-previous-cash-075256-584212.json",
+    "sha256": "8a85b9ab9a09696c0814d94e958cdc7108c99b05e22c723ea0efd7dd56bbae4a",
+    "n": 236
+  },
+  "prior_gift_rows": 236,
+  "available_foreign_rows": 114,
+  "has_authentication": true,
+  "authenticated_order_endpoints_used": 0,
+  "next_checkpoints": [
+    "2026-11-26T08:55:00+05:30",
+    "2026-11-26T09:10:00+05:30"
+  ]
+}

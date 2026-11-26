@@ -1,0 +1,191 @@
+{
+  "verified_at": "2026-11-26T07:39:53.091334+05:30",
+  "files": 249,
+  "code_files": 14,
+  "weighted_laws": 75891,
+  "complete_proper_score_replays": 3157,
+  "documents": [
+    {
+      "file": "NIFTY_V22_RESEARCH.md",
+      "sha256": "d01499444a18294f9ecc0c5d95d484d0cd4394da7b0dd6084adf82b35f8fb1fb",
+      "lines": 64,
+      "sections": [
+        "# NIFTY V22 research",
+        "## The 17 reports",
+        "## Primary artifacts",
+        "## Earlier versions"
+      ]
+    },
+    {
+      "file": "V22_COMPLETE_MODEL_COMPARISON.md",
+      "sha256": "73b04e83c822cb270be97a5df14d8261cef621d17f4ef67e91f6e24b709c91dd",
+      "lines": 55,
+      "sections": [
+        "# V22 Complete model comparison",
+        "## Evidence index",
+        "## Best in each retrospective clock and horizon"
+      ]
+    },
+    {
+      "file": "V22_CROSS_MARKET_STATE_TRANSITIONS.md",
+      "sha256": "1a5d0f6096acbb9405e293a5984d1a79f6424d30569b866f22be35b3914433a3",
+      "lines": 86,
+      "sections": [
+        "# V22 Cross-market state transitions",
+        "## Later equal-country transition results",
+        "## Matched date-level gains against the own-market ridge"
+      ]
+    },
+    {
+      "file": "V22_FINAL_RESEARCH_CONCLUSIONS.md",
+      "sha256": "df55bb2208de55b0f6be569b5e3f72c20a0a3232146254b4618716d003b4a710",
+      "lines": 30,
+      "sections": [
+        "# V22 Final research conclusions"
+      ]
+    },
+    {
+      "file": "V22_FORWARD_RESEARCH_LEDGER.md",
+      "sha256": "e3ac43a2802a4112b15c11bde6358c948b64df965f9ba2f7a8cd19d92459af73",
+      "lines": 66,
+      "sections": [
+        "# V22 Forward research ledger",
+        "## Issues retained and authoritative settlement",
+        "## Frozen operational panel"
+      ]
+    },
+    {
+      "file": "V22_GLOBAL_AND_COUNTRY_FACTOR_DECOMPOSITION.md",
+      "sha256": "7e43f48ce758e021d90d4341a516d71240d317fa01890024ce7e52eaf10841eb",
+      "lines": 51,
+      "sections": [
+        "# V22 Global and country factor decomposition",
+        "## Forward prediction of components"
+      ]
+    },
+    {
+      "file": "V22_HYPOTHESIS_REGISTRY.md",
+      "sha256": "5b926d23be6577df8deb241f77c097c215c6ea4af13cb1b60e304c682cc68313",
+      "lines": 32,
+      "sections": [
+        "# V22 Hypothesis registry"
+      ]
+    },
+    {
+      "file": "V22_INDIA_SPECIFIC_DOMAIN_ADAPTATION.md",
+      "sha256": "3ae545ae94d02c32b0cbf36986080749c2db6e9d07c302351dd2fa7def51b7b4",
+      "lines": 75,
+      "sections": [
+        "# V22 India-specific domain adaptation",
+        "## Domestic versus international residual attribution"
+      ]
+    },
+    {
+      "file": "V22_INTERNATIONAL_FORECAST_TASKS.md",
+      "sha256": "1257a59ea1d679ddb070cbac70a7b29c4ffcba238bf07e01fc0b6a9bfe837b10",
+      "lines": 36,
+      "sections": [
+        "# V22 International forecast tasks",
+        "## Outcome coverage in the canonical panel"
+      ]
+    },
+    {
+      "file": "V22_INTERNATIONAL_MARKET_ANALOGUES.md",
+      "sha256": "d52e778f9a143c9a4febc099246639b4dd606929b282e9ff1e99a6edd21454c6",
+      "lines": 108,
+      "sections": [
+        "# V22 International market analogues",
+        "## Analogue comparison across the original NIFTY dates",
+        "## Diversity and effective number of analogues"
+      ]
+    },
+    {
+      "file": "V22_INTERNATIONAL_MARKET_DATABASE.md",
+      "sha256": "ffbad95c1348a2af977dcc65156195b1ef278266b361560db282736514c8fb0c",
+      "lines": 104,
+      "sections": [
+        "# V22 International market database",
+        "## Primary price indices",
+        "## Return conventions and source comparison",
+        "## Other candidate series and proxies"
+      ]
+    },
+    {
+      "file": "V22_INTERNATIONAL_RISK_AND_TAIL_INTELLIGENCE.md",
+      "sha256": "e42a2819d20dd0b1cf15c60cffcc70d164f2a0ac62618b1ae7accfb0a991ea14",
+      "lines": 103,
+      "sections": [
+        "# V22 International risk and tail intelligence",
+        "## Point-risk leaderboard",
+        "## Complete risk paths at 08:55",
+        "## Broker disagreement sensitivity"
+      ]
+    },
+    {
+      "file": "V22_INTERNATIONALLY_INFORMED_NIFTY_FORECASTS.md",
+      "sha256": "4462800c16958c7893d9db902f40a05ffaa19d9c4863006cc7543c40c69d0652",
+      "lines": 109,
+      "sections": [
+        "# V22 Internationally informed NIFTY forecasts",
+        "## Best native candidates across Brier and CRPS",
+        "## Incremental skill against the protected V21 distribution parent"
+      ]
+    },
+    {
+      "file": "V22_NEXT_EXPERIMENTS.md",
+      "sha256": "74a6f49daa7f353fcb55cf71ab2c038e56c0a017d3fcfce009866bbcb66b8390",
+      "lines": 32,
+      "sections": [
+        "# V22 Next experiments",
+        "## One prospective monthly path comparison",
+        "## One small directional falsification",
+        "## Verify market venue agreement before expanding auxiliary supervision",
+        "## Improve sparse breadth and uncertainty evaluation"
+      ]
+    },
+    {
+      "file": "V22_REPRODUCTION_AND_TRANSFER_FORENSICS.md",
+      "sha256": "2ccbd429148068e74f712359dbdf1947fee2d172ca494d5cd531452c4c1b0412",
+      "lines": 56,
+      "sections": [
+        "# V22 Reproduction and transfer forensics",
+        "## Native reference scores",
+        "## Dated constituent reconstruction",
+        "## Transfer forensics"
+      ]
+    },
+    {
+      "file": "V22_SAMPLE_EFFICIENCY_AND_TRANSFER_LIMITS.md",
+      "sha256": "85a4b3e364847993be610a8a55450bb3503f905d3b748a763ba97c56aa004f19",
+      "lines": 98,
+      "sections": [
+        "# V22 Sample efficiency and transfer limits",
+        "## Controlled simulation"
+      ]
+    },
+    {
+      "file": "V22_TRANSFER_VALIDATION_AND_FALSIFICATION.md",
+      "sha256": "86cb19895e1cd418368aaf2f58936b34b29ff1f4a301dc9c3863272defbdc89a",
+      "lines": 73,
+      "sections": [
+        "# V22 Transfer validation and falsification",
+        "## Native 21-origin block bootstrap for selected claims",
+        "## Influence of the largest episodes",
+        "## Representative refit and reselection stress test"
+      ]
+    },
+    {
+      "file": "V22_TRANSFERABLE_MARKET_RELATIONSHIPS.md",
+      "sha256": "546113dd3582cb865bdf2768a4c3a69fa9ae2c62be2ca4419f0ced605abcf36a",
+      "lines": 106,
+      "sections": [
+        "# V22 Transferable market relationships",
+        "## Matched date-level contrasts against persistence",
+        "## Coefficient variation"
+      ]
+    }
+  ],
+  "manifest_sha256": "20d2f95c1a2e6585f345b43de6a88520e4667b6a47a8452b944bb37c116bbea5",
+  "audit": "The brief combined measures from two different domestic-only model IDs. Verified and archived separately; the native weekly Brier bar is never coupled with the other row\u2019s CRPS.",
+  "neutral": "Recovered V22 pre-auction monthly archived_same_clock law with exactly .5 positive mass. Native references retain their own cutoff."
+}

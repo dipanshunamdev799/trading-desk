@@ -1,0 +1,14 @@
+{
+  "budgets": [
+    256,
+    1024,
+    4096,
+    16384
+  ],
+  "seeds": 8,
+  "n_return_days": 24,
+  "n_path_days": 24,
+  "exact": "Weighted empirical atom evaluation and exact path event masses",
+  "draws": "Prefix common uniforms shared across compared models at each origin and independent seeds across repetitions. Range and first-side probability are summaries of the same sampled joint paths.",
+  "precision_scope": "This diagnostic measures resampling error conditional on the stored finite laws. It cannot quantify statistical error in the fitted market process."
+}

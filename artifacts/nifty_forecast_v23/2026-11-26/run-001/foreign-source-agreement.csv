@@ -1,0 +1,7 @@
+code,symbol,comparison,calendar_marks,broker_marks,paired,strict_dates,first_paired,last_paired,only_broker,only_primary,within_006,within_10bp_all_ohlc,median_close_bps,return_corr,scope
+us,^GSPC,full requested interval,471,489,470,0,2025-01-02,2026-11-17,19,1,0,0,31.219786241552935,0.9740375483556853,same local label; close-only FRED cannot independently validate excursions
+japan,^N225,full requested interval,455,456,364,37,2025-01-06,2026-11-17,92,91,6,37,68.54788984416811,0.21733487173608923,same local label; close-only FRED cannot independently validate excursions
+hong_kong,^HSI,full requested interval,462,460,447,360,2025-01-02,2026-11-17,13,15,362,360,0.003953427185227684,0.9563631123684717,same local label; close-only FRED cannot independently validate excursions
+uk,^FTSE,full requested interval,476,485,475,333,2025-01-02,2026-11-17,10,1,152,333,4.278436069486097,0.9753420638853196,same local label; close-only FRED cannot independently validate excursions
+france,^FCHI,full requested interval,480,482,479,211,2025-01-02,2026-11-17,3,1,225,211,1.124661287759854,0.9804435819711572,same local label; close-only FRED cannot independently validate excursions
+dax_total,^GDAXI,full requested interval,478,486,477,0,2025-01-02,2026-11-17,9,1,8,199,8.370309489225729,0.9786346620688753,same local label; close-only FRED cannot independently validate excursions

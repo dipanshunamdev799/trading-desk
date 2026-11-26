@@ -1,0 +1,31 @@
+{
+  "law_replays": [
+    {
+      "case_file": "v23-return-cases.csv.gz",
+      "laws": 49062,
+      "atoms": 55167170,
+      "sampled_crps_replays": 612
+    },
+    {
+      "case_file": "matched-expert-cases.csv.gz",
+      "laws": 27911,
+      "atoms": 5586600,
+      "sampled_crps_replays": 348
+    }
+  ],
+  "donor_memberships": 150384,
+  "scored_paths": 11086,
+  "saved_joint_laws": 96,
+  "higher_budget_cases": 5784,
+  "v22_hashed_files": 249,
+  "older_source_catalog_verified": 5338,
+  "archive_date_scoped_rows": 5783318,
+  "preserved_issues": 13,
+  "genuine_new_issues": 4,
+  "completed_foreign_forward_marks": 114,
+  "reports": 18,
+  "figures": 3,
+  "python_modules": 20,
+  "registered_hypotheses": 12,
+  "verified_at": "2026-11-26T09:11:34.201573+05:30"
+}

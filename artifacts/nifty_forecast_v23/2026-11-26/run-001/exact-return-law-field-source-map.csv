@@ -1,0 +1,51 @@
+version,path,encoding,n,sha256
+14,artifacts/nifty_forecast_v14/2026-11-25/run-001/standalone-endpoint-laws.npz,horizon/origin/model/target,3856,ed574e51c9c94fe7764514df26db7efac959cd1b1eec9185b189222a819e58e4
+11,artifacts/nifty_forecast_v11/2026-11-24/run-001/distribution-archive/breadth.npz,horizon/model/origin/target,15718,5f4829c0a702ea2178d9f3b88a696ea7f47f1ff96325b519d13472e700c7d73e
+11,artifacts/nifty_forecast_v11/2026-11-24/run-001/distribution-archive/disjoint.npz,horizon/model/origin/target,964,ea59682ca093755ff9f91c211c71e4bd9368c429e070d1fca4c350d931094332
+11,artifacts/nifty_forecast_v11/2026-11-24/run-001/distribution-archive/distribution.npz,horizon/model/origin/target,15900,d3910019faa658a6d77a0c932eadd50dedf223bfd25dbfd23250d5be876e8388
+11,artifacts/nifty_forecast_v11/2026-11-24/run-001/distribution-archive/international.npz,horizon/model/origin/target,2410,3acbd2b92fdeaff21a6c382df6f74605cea7b0caf49492a2cfe59a4c7e2f85ec
+11,artifacts/nifty_forecast_v11/2026-11-24/run-001/distribution-archive/memory.npz,horizon/model/origin/target,25769,bb5eeb73a329619a1bbaf942095f8667ed9af32f924b27af159b4bed57d0c913
+11,artifacts/nifty_forecast_v11/2026-11-24/run-001/distribution-archive/overlap.npz,horizon/model/origin/target,16388,4cce4a70f1e7f98dd4242810569e05b13c8ef535f46ea731dd75049a8da091fd
+12,artifacts/nifty_forecast_v12/2026-11-24/run-001/laws/ensemble.npz,horizon/model/origin/target,12924,d4616f1303bccdb4030f44c5bbd95e63b3d5245cb433210de2eb21c57c1326c7
+12,artifacts/nifty_forecast_v12/2026-11-24/run-001/laws/market.npz,horizon/model/origin/target,20675,ca8947f4a1cac3a286cd9f3a1b399bcd079ff54d00559d7af40dc743550fafb9
+12,artifacts/nifty_forecast_v12/2026-11-24/run-001/laws/phase.npz,horizon/model/origin/target,27090,7d01be8eb42436f49a305c9321d3ccb3d7f15fd36d3af43439de1cc162b411e7
+12,artifacts/nifty_forecast_v12/2026-11-24/run-001/laws/priced.npz,horizon/model/origin/target,9815,e5c38866b1c3309c1b7b2ad1c9448ffc549af638556538a741d7237fb60f849c
+12,artifacts/nifty_forecast_v12/2026-11-24/run-001/laws/aligned-Q.npz,horizon/model/origin/target,9116,4e99359c0c175de6a5ed033d881704b6195a6755b38e2f2503e3e7759f5790cf
+19,artifacts/nifty_forecast_v19/2026-11-25/run-001/native-mechanism-laws.npz,indexed case ID,2892,233c7bbdd1b6572f6362aaadca3db895ab162b58d28f25da50f0ea3b8d81eba4
+19,artifacts/nifty_forecast_v19/2026-11-25/run-001/native-residual-laws.npz,indexed case ID,1928,1298dc206e3d86a1f1c2e01fa5c75c84777e869c462a9ea286cea27876c9cfba
+20,artifacts/nifty_forecast_v20/2026-11-25/run-001/architecture-laws.npz,indexed case ID,5302,c91981c2df4201842e81239e784a044fed381f94650171bc839276497e50d864
+20,artifacts/nifty_forecast_v20/2026-11-25/run-001/native-mechanism-laws.npz,indexed case ID,17256,f2963638f3e50d76a5c1f58ffda5b35ce19c6db3e2e72144ec32b1ddbaedde0e
+21,artifacts/nifty_forecast_v21/2026-11-25/run-001/index-forecast-laws.npz,indexed case ID,26028,022e7a0f8e51cda6f90db77dbde90fb90b6f6dd2940c90a422b512f763e7f550
+21,artifacts/nifty_forecast_v21/2026-11-25/run-001/protected-return-laws.npz,indexed case ID,2892,5408386e77028526e24919b10a28692f13d8c4ce9f20af84797d06ddcba1c5bb
+22,artifacts/nifty_forecast_v22/2026-11-26/run-001/india-forecast-laws.npz,indexed case ID,75891,cc5f9e569bdcbf68b397fdd75c7038da27df15a0a4de99cdcbd70a16826f92e2
+22,artifacts/nifty_forecast_v22/2026-11-26/run-001/protected-india-return-laws.npz,indexed case ID,3591,eb3a235750235164d618e5b08a46173c8667b242707fdb958aa4970b60fc9fb6
+17,artifacts/nifty_forecast_v17/2026-11-25/run-001/original-clock-laws.npz,Indexed equal-weight log support transformed with expm1,8676,d459ac372391026bbf2c7feea58d5573cbe9015821a136f79d32845d513274f6
+17,artifacts/nifty_forecast_v17/2026-11-25/run-001/opening-laws.npz,Indexed equal-weight log support transformed with expm1,19658,0e6bdfacb91b1059758d41afd49340fe670f27973f867b04c5c08c7283e39687
+18,artifacts/nifty_forecast_v18/2026-11-25/run-001/original-event-laws.npz,Indexed equal-weight log support transformed with expm1,31812,c09784b58b4480cc838adbac5ed88a06fa46621fb772fa0382976fe37513ac61
+19,artifacts/nifty_forecast_v19/2026-11-25/run-001/endpoint-laws.npz,Indexed equal-weight log support transformed with expm1,49164,1f89318623690d7d28b041c37f8d536e43b0e9d06c8b3e052c2ad2559b891d09
+6,artifacts/nifty_forecast_v6/2026-11-19/run-001/prequential-laws.jsonl,original JSONL line and named atom/weight pair,964,2f29bdd43b554579b0dd9bcf17aeab8c4eb94213b4d20f40edd98010ef264d37
+7,artifacts/nifty_forecast_v7/2026-11-24/run-001/first-global-integration-attempt/integration-parent-laws.jsonl,original JSONL line and named atom/weight pair,336,e85e9e6dc3542d86ee4ea74501aa5f920803ceabe29db27b461ab512b7e8391d
+7,artifacts/nifty_forecast_v7/2026-11-24/run-001/integration-parent-laws.jsonl,original JSONL line and named atom/weight pair,964,5e8c775cf1b8fd4ae3f61d1b05caef5d720d1e272a8da4ad18620a66b7d11d5c
+7,artifacts/nifty_forecast_v7/2026-11-24/run-001/retained-endpoint-laws.jsonl,original JSONL line and named atom/weight pair,276,091b5768e9c341d8aa6e6e3b83bcac530769efacde0c73db417ddd2c087c6477
+8,artifacts/nifty_forecast_v8/2026-11-24/run-001/integration-before-gate-purge/integration-parent-laws.jsonl,original JSONL line and named atom/weight pair,964,dcd0fa023c42ecdc9397c1b2d63e5554bdabaaaca420ec4f90fee4fb7dbe597a
+8,artifacts/nifty_forecast_v8/2026-11-24/run-001/integration-parent-laws.jsonl,exact file alias to artifacts/nifty_forecast_v8/2026-11-24/run-001/integration-before-gate-purge/integration-parent-laws.jsonl,0,dcd0fa023c42ecdc9397c1b2d63e5554bdabaaaca420ec4f90fee4fb7dbe597a
+8,artifacts/nifty_forecast_v8/2026-11-24/run-001/reproduced-endpoint-laws.jsonl,original JSONL line and named atom/weight pair,644,6e80385d83a61c073a52f7f43b9206a40793488516d821cbc0260c45b5c02877
+8,artifacts/nifty_forecast_v8/2026-11-24/run-001/retained-endpoint-laws.jsonl,original JSONL line and named atom/weight pair,352,28da9779dc5b1f2b2e51a8918a3f1b07163c0e1aa3b72526e4a39eb9687ec1e7
+9,artifacts/nifty_forecast_v9/2026-11-24/run-001/expert-laws.jsonl,original JSONL line and named atom/weight pair,4338,ace44634e878a53da852ab102e76f11fea90270fe16a56f3e10f5930773281fd
+9,artifacts/nifty_forecast_v9/2026-11-24/run-001/legacy-replay/reproduced-endpoint-laws.jsonl,exact file alias to artifacts/nifty_forecast_v8/2026-11-24/run-001/reproduced-endpoint-laws.jsonl,0,6e80385d83a61c073a52f7f43b9206a40793488516d821cbc0260c45b5c02877
+10,artifacts/nifty_forecast_v10/2026-11-24/run-001/base-laws.jsonl,original JSONL line and named atom/weight pair,3856,f330e3c7de7d5cb4d6247fca3827acc4cee6ef2768570450bed794cd439a2c61
+10,artifacts/nifty_forecast_v10/2026-11-24/run-001/composition-laws.jsonl,original JSONL line and named atom/weight pair,482,77b1de38db061a50892a4042d38d12e8a6cdf85b8e60a7817566cc5b8ded0442
+10,artifacts/nifty_forecast_v10/2026-11-24/run-001/finalcurve-laws.jsonl,original JSONL line and named atom/weight pair,7460,eb41d94aaa572e91f3d14aba088ec4c81b14014514955f0a51d11b85a927d43a
+10,artifacts/nifty_forecast_v10/2026-11-24/run-001/informationlaws-laws.jsonl,original JSONL line and named atom/weight pair,2700,23f647707ca34d9937e4609f26b4a83d9529769abe8b77d40005c31324da97ed
+10,artifacts/nifty_forecast_v10/2026-11-24/run-001/mixture-laws.jsonl,original JSONL line and named atom/weight pair,2410,9bd0624088f1d0566e35949f23f9b4f80aa17703c30e72c08bd43e2f40f567de
+10,artifacts/nifty_forecast_v10/2026-11-24/run-001/overlap-laws.jsonl,original JSONL line and named atom/weight pair,964,1c3b5eb53b1718eed77729874a4ce3e108831b052d40c29e41e413d4a06b0957
+10,artifacts/nifty_forecast_v10/2026-11-24/run-001/structure-laws.jsonl,original JSONL line and named atom/weight pair,482,bb1bbfa6a6ff0f4ac86b9058614349c6e548e92f97f5588a536ad2e49d378cd9
+10,artifacts/nifty_forecast_v10/2026-11-24/run-001/target-laws.jsonl,original JSONL line and named atom/weight pair,5302,0bf058ba897327165877a1d064517154103efb33a93d9584f7deee67af9475a1
+10,artifacts/nifty_forecast_v10/2026-11-24/run-001/transfer-laws.jsonl,original JSONL line and named atom/weight pair,1446,6a4fd314239e91a6ccd7ebb5b485ce94601a71d9db305b4dd8ab297c6537412a
+11,artifacts/nifty_forecast_v11/2026-11-24/run-001/ensemble-exact-laws.jsonl,original JSONL line and named atom/weight pair,964,759ae2112a52709c53e2426242622cc4ef9351c90885a574e3325db5f41d5967
+11,artifacts/nifty_forecast_v11/2026-11-24/run-001/ensemble-laws.jsonl,original JSONL line and named atom/weight pair,9158,deea5667821c9872623bb55618a35b0c80d2315ae27191cf3332ea1568e4c649
+11,artifacts/nifty_forecast_v11/2026-11-24/run-001/legacy-laws.jsonl,original JSONL line and named atom/weight pair,1874,9798627709b5fa55b46dcc1b89fac49bd9bc27069c3212b5ee22508c9a92f3ad
+11,artifacts/nifty_forecast_v11/2026-11-24/run-001/replay/transfer/transfer-laws.jsonl,exact file alias to artifacts/nifty_forecast_v10/2026-11-24/run-001/transfer-laws.jsonl,0,6a4fd314239e91a6ccd7ebb5b485ce94601a71d9db305b4dd8ab297c6537412a
+11,artifacts/nifty_forecast_v11/2026-11-24/run-001/replay/v10/base-laws.jsonl,original JSONL line and named atom/weight pair,9158,03e6fbe2c4169ea8e6131058d3f3d3109b2f1533de0c076e4d1ac57e02f1fa3c
+13,artifacts/nifty_forecast_v13/2026-11-25/run-001/joint-path-target-atoms-5.npz,exact equal-support endpoint from indexed joint-target scenario,1325,49cd46482b62c05ccb35f3059ae5fa35a9360964ae5726e447d451c9c19b1b43
+13,artifacts/nifty_forecast_v13/2026-11-25/run-001/joint-path-target-atoms-21.npz,exact equal-support endpoint from indexed joint-target scenario,1085,ba33316a706b931482df5977ea246ab2e4af7f3759824f9ce521008b60206c47

@@ -1,0 +1,5 @@
+horizon,parent,model,metric,lo,hi,omitted_gain,remaining_gain,n
+5,anchor_asymmetry,secondary_location_beyond_gift,brier,2026-03-13,2026-04-16,0.057255439296389335,-0.002759771679544457,265
+5,anchor_asymmetry,secondary_location_beyond_gift,crps,2026-03-13,2026-04-16,0.0020315083231063893,-0.00018892601319413997,265
+21,anchor_aggregate_position,parent_mixture_foreign_tail,brier,2026-08-28,2026-09-28,0.05274104786333421,-0.005221771464689296,217
+21,anchor_aggregate_position,parent_mixture_foreign_tail,crps,2026-02-04,2026-03-05,0.002722521690917104,-0.0002804838973871508,217

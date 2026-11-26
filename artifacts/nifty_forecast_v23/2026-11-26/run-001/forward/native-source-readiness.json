@@ -1,0 +1,200 @@
+{
+  "checked_at": "2026-11-26T08:10:58.634139+05:30",
+  "calendar": "https://archives.nseindia.com/content/circulars/CMTR71775.pdf",
+  "authenticated_options": [
+    {
+      "day": "2026-11-18",
+      "reference": 25227.95,
+      "sent_at": "2026-11-26T08:10:56.311783+05:30",
+      "url": "https://nsearchives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20261118_F_0000.csv.zip",
+      "status": 200,
+      "received_at": "2026-11-26T08:10:56.544778+05:30",
+      "server_date": "Thu, 26 Nov 2026 02:40:56 GMT",
+      "file": "forward/native-inputs/NIFTY-FO-2026-11-18.csv.gz",
+      "sha256": "d87d2e038ac1bceb97cf02949c5a4e4bae9ad95478fb16210c41e208646f110a",
+      "response_sha256": "ec1a2fdad59b8e9804ee6da81bf7f1879a44c01446e5d10862491668ce34e771",
+      "rows": 1514,
+      "options": 1512,
+      "near_atm_matched_expiries": 6,
+      "near_atm_dates": [
+        "2026-11-23",
+        "2026-12-01",
+        "2026-12-08",
+        "2026-12-15",
+        "2026-12-22",
+        "2026-12-29"
+      ],
+      "lapsed_identity_missing": false,
+      "published_session": "2026-11-18"
+    },
+    {
+      "day": "2026-11-19",
+      "reference": 25514.3,
+      "sent_at": "2026-11-26T08:10:56.313609+05:30",
+      "url": "https://nsearchives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20261119_F_0000.csv.zip",
+      "status": 200,
+      "received_at": "2026-11-26T08:10:57.697119+05:30",
+      "server_date": "Thu, 26 Nov 2026 02:40:56 GMT",
+      "file": "forward/native-inputs/NIFTY-FO-2026-11-19.csv.gz",
+      "sha256": "dfdda069f0d96c9ef5ea1af643e4122719f6a9af528a345b7e79eb42c0475c10",
+      "response_sha256": "4bc9834a61dbc0ad73559df1d12aa59cd6193e0ae491eff7e67ab625510e0ce7",
+      "rows": 1520,
+      "options": 1518,
+      "near_atm_matched_expiries": 6,
+      "near_atm_dates": [
+        "2026-11-23",
+        "2026-12-01",
+        "2026-12-08",
+        "2026-12-15",
+        "2026-12-22",
+        "2026-12-29"
+      ],
+      "lapsed_identity_missing": false,
+      "published_session": "2026-11-19"
+    },
+    {
+      "day": "2026-11-20",
+      "reference": 25800.6,
+      "sent_at": "2026-11-26T08:10:56.319090+05:30",
+      "url": "https://nsearchives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20261120_F_0000.csv.zip",
+      "status": 200,
+      "received_at": "2026-11-26T08:10:56.744002+05:30",
+      "server_date": "Thu, 26 Nov 2026 02:40:56 GMT",
+      "file": "forward/native-inputs/NIFTY-FO-2026-11-20.csv.gz",
+      "sha256": "e41b14b58bdea8bd93fa7b46c472054d1f5df17c6a050eb23ba6fdcd1a6e6e05",
+      "response_sha256": "becc894692f4877071bcd9fa9dc1c91b09ea6274e830f8b299e8e4f43dfc4c6b",
+      "rows": 1524,
+      "options": 1522,
+      "near_atm_matched_expiries": 6,
+      "near_atm_dates": [
+        "2026-11-23",
+        "2026-12-01",
+        "2026-12-08",
+        "2026-12-15",
+        "2026-12-22",
+        "2026-12-29"
+      ],
+      "lapsed_identity_missing": false,
+      "published_session": "2026-11-20"
+    },
+    {
+      "day": "2026-11-23",
+      "reference": 25349.65,
+      "sent_at": "2026-11-26T08:10:56.321713+05:30",
+      "url": "https://nsearchives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20261123_F_0000.csv.zip",
+      "status": 200,
+      "received_at": "2026-11-26T08:10:58.381276+05:30",
+      "server_date": "Thu, 26 Nov 2026 02:40:56 GMT",
+      "file": "forward/native-inputs/NIFTY-FO-2026-11-23.csv.gz",
+      "sha256": "4e3b6ecc31119d3f7703f7a6abe7a1cd60d2c44192c142413af868f826a358ce",
+      "response_sha256": "103861e74b2103f8226f4f408dd0a25af45bf24412c12b6d7c8ac43605b4d487",
+      "rows": 1580,
+      "options": 1578,
+      "near_atm_matched_expiries": 6,
+      "near_atm_dates": [
+        "2026-11-23",
+        "2026-12-01",
+        "2026-12-08",
+        "2026-12-15",
+        "2026-12-22",
+        "2026-12-29"
+      ],
+      "lapsed_identity_missing": false,
+      "published_session": "2026-11-23"
+    },
+    {
+      "day": "2026-11-25",
+      "reference": 25819.25,
+      "sent_at": "2026-11-26T08:10:56.323424+05:30",
+      "url": "https://nsearchives.nseindia.com/content/fo/BhavCopy_NSE_FO_0_0_0_20261125_F_0000.csv.zip",
+      "status": 200,
+      "received_at": "2026-11-26T08:10:56.511739+05:30",
+      "server_date": "Thu, 26 Nov 2026 02:40:56 GMT",
+      "file": "forward/native-inputs/NIFTY-FO-2026-11-25.csv.gz",
+      "sha256": "09463ffca4d8794480c59a817277fc521e35214f0c40c47f06e432ae08dc431a",
+      "response_sha256": "a7b925423e14081586c3ea70f65fcd2fb88c5a6e71c6c179954b7a2e4c524924",
+      "rows": 1345,
+      "options": 1344,
+      "near_atm_matched_expiries": 5,
+      "near_atm_dates": [
+        "2026-12-01",
+        "2026-12-08",
+        "2026-12-15",
+        "2026-12-22",
+        "2026-12-29"
+      ],
+      "lapsed_identity_missing": false,
+      "published_session": "2026-11-25"
+    }
+  ],
+  "source_code": [
+    {
+      "version": 12,
+      "path": "research/nifty_forecast_v12/ensemble.py",
+      "sha256": "4a14247b9264b32d3923ef9bfaeea0eb749e2c9ca6f9426597ad9fa91a3a450a"
+    },
+    {
+      "version": 12,
+      "path": "research/nifty_forecast_v12/alignment.py",
+      "sha256": "e2f4eb07099c79cb13314bf0e35530c37008534002b68b26680fcb99752c2d28"
+    },
+    {
+      "version": 13,
+      "path": "research/nifty_forecast_v13/evaluate.py",
+      "sha256": "51613735e6345823548d31a46f57678744b5bfda52d50debe2b40311da3f0b62"
+    },
+    {
+      "version": 14,
+      "path": "research/nifty_forecast_v14/endpoint.py",
+      "sha256": "4292f49f1f3a182147233a809d3a308ce968cf6f0c2d7cdb6d56298ef5c264a1"
+    },
+    {
+      "version": 14,
+      "path": "research/nifty_forecast_v14/volatility.py",
+      "sha256": "fffe7b72517b50a9d44124165fcc903cd0c7993eae71314150db4cce1aad904c"
+    },
+    {
+      "version": 18,
+      "path": "research/nifty_forecast_v18/forecast.py",
+      "sha256": "2924d754c933cb33e273a40fbc267db3e12dfffa61785fea4ea8ce93098891b7"
+    },
+    {
+      "version": 20,
+      "path": "research/nifty_forecast_v20/native.py",
+      "sha256": "1030894a9a8220d0c41b91f1b7ba8fbae332b3af226f6267b4c77f5a4868ff63"
+    },
+    {
+      "version": 21,
+      "path": "research/nifty_forecast_v21/reconstruction.py",
+      "sha256": "67623f4ef9dafd2d592c7a4ff3ca4cad84e21e2807e225855905aeef5532bc5d"
+    },
+    {
+      "version": 22,
+      "path": "research/nifty_forecast_v22/india.py",
+      "sha256": "c00968ad99bdfa05cb010c5f4f8882dc0fcf51f454a0f1e960562ef634d7d83f"
+    }
+  ],
+  "dependencies": [
+    {
+      "family": "Weekly V14 return law",
+      "requirements": "V12 native phase mixture and group-balanced density, fresh V13 09:10-clipped snapshot, local V14 GJR and implied curve."
+    },
+    {
+      "family": "Monthly V14 return law",
+      "requirements": "Exact V12 neutral input, V14 178-origin domestic design, earlier ATM/term/relative sector design and fitted GJR state."
+    },
+    {
+      "family": "V18 and V20 weekly overlays",
+      "requirements": "Fresh exact V14 law and timestamped issuer events with eligible cash reactions and matching feature transformations."
+    },
+    {
+      "family": "V19, V20, V21 monthly positioning",
+      "requirements": "Fresh exact V14 parent and verifiable earlier NSE participant features through the declared release lag."
+    },
+    {
+      "family": "V22 domestic and foreign-tail laws",
+      "requirements": "Fresh exact V21 distribution parent, with the corresponding domestic and international ingredients."
+    }
+  ],
+  "qualification": "Qualified raw option-source dates are upstream evidence. Native candidate issuance also requires an exact newly dated V12\u2013V14 state replay and corresponding overlay snapshot."
+}

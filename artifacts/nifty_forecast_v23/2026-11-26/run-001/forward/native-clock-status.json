@@ -1,0 +1,99 @@
+{
+  "checked_at": "2026-11-26T09:10:00.001082+05:30",
+  "clock": "2026-11-26T09:10:00+05:30",
+  "rows": [
+    {
+      "model": "exact_v14",
+      "horizon": 5,
+      "earliest": "2026-11-26T09:10:00+05:30",
+      "status": "native issue blocked",
+      "reasons": [
+        "Newly dated exact V12 phase/neutral and V13 predictive laws are unavailable in the verified forward book. The native V14 return features and complete V18/V20/V21/V22 overlay inputs have not passed exact replay."
+      ]
+    },
+    {
+      "model": "v18_corporate_native",
+      "horizon": 5,
+      "earliest": "2026-11-26T09:10:00+05:30",
+      "status": "native issue blocked",
+      "reasons": [
+        "Newly dated exact V12 phase/neutral and V13 predictive laws are unavailable in the verified forward book. The native V14 return features and complete V18/V20/V21/V22 overlay inputs have not passed exact replay."
+      ]
+    },
+    {
+      "model": "omit_latest_21_training_origins",
+      "horizon": 5,
+      "earliest": "2026-11-26T09:10:00+05:30",
+      "status": "native issue blocked",
+      "reasons": [
+        "Newly dated exact V12 phase/neutral and V13 predictive laws are unavailable in the verified forward book. The native V14 return features and complete V18/V20/V21/V22 overlay inputs have not passed exact replay."
+      ]
+    },
+    {
+      "model": "anchor_asymmetry",
+      "horizon": 5,
+      "earliest": "2026-11-26T09:10:00+05:30",
+      "status": "native issue blocked",
+      "reasons": [
+        "Newly dated exact V12 phase/neutral and V13 predictive laws are unavailable in the verified forward book. The native V14 return features and complete V18/V20/V21/V22 overlay inputs have not passed exact replay."
+      ]
+    },
+    {
+      "model": "exact_v14",
+      "horizon": 21,
+      "earliest": "2026-11-26T09:10:00+05:30",
+      "status": "native issue blocked",
+      "reasons": [
+        "Newly dated exact V12 phase/neutral and V13 predictive laws are unavailable in the verified forward book. The native V14 return features and complete V18/V20/V21/V22 overlay inputs have not passed exact replay."
+      ]
+    },
+    {
+      "model": "v19_position_native",
+      "horizon": 21,
+      "earliest": "2026-11-26T09:10:00+05:30",
+      "status": "native issue blocked",
+      "reasons": [
+        "Newly dated exact V12 phase/neutral and V13 predictive laws are unavailable in the verified forward book. The native V14 return features and complete V18/V20/V21/V22 overlay inputs have not passed exact replay."
+      ]
+    },
+    {
+      "model": "smooth5",
+      "horizon": 21,
+      "earliest": "2026-11-26T09:10:00+05:30",
+      "status": "native issue blocked",
+      "reasons": [
+        "Newly dated exact V12 phase/neutral and V13 predictive laws are unavailable in the verified forward book. The native V14 return features and complete V18/V20/V21/V22 overlay inputs have not passed exact replay."
+      ]
+    },
+    {
+      "model": "anchor_aggregate_position",
+      "horizon": 21,
+      "earliest": "2026-11-26T09:10:00+05:30",
+      "status": "native issue blocked",
+      "reasons": [
+        "Newly dated exact V12 phase/neutral and V13 predictive laws are unavailable in the verified forward book. The native V14 return features and complete V18/V20/V21/V22 overlay inputs have not passed exact replay."
+      ]
+    },
+    {
+      "model": "V22 domestic correction",
+      "horizon": 5,
+      "earliest": "2026-11-26T09:10:00+05:30",
+      "status": "native issue blocked",
+      "reasons": [
+        "Newly dated exact V12 phase/neutral and V13 predictive laws are unavailable in the verified forward book. The native V14 return features and complete V18/V20/V21/V22 overlay inputs have not passed exact replay."
+      ]
+    },
+    {
+      "model": "V22 foreign-tail mixture",
+      "horizon": 21,
+      "earliest": "2026-11-26T09:10:00+05:30",
+      "status": "native issue blocked",
+      "reasons": [
+        "Newly dated exact V12 phase/neutral and V13 predictive laws are unavailable in the verified forward book. The native V14 return features and complete V18/V20/V21/V22 overlay inputs have not passed exact replay."
+      ]
+    }
+  ],
+  "verified_option_books": 5,
+  "verified_cash_risk_state": true,
+  "verified_native_return_laws": 0
+}

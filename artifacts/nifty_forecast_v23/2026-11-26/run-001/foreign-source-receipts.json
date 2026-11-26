@@ -1,0 +1,142 @@
+{
+  "captured_at": "2026-11-26T07:37:25.527208+05:30",
+  "sources": [
+    {
+      "code": "us",
+      "vendor": "Upstox",
+      "symbol": "^GSPC",
+      "sent_at": "2026-11-26T07:37:06.913659+05:30",
+      "requested": [
+        "2025-01-01",
+        "2026-11-17"
+      ],
+      "url": "https://api.upstox.com/v3/historical-candle/GLOBAL_INDEX%7C%5EGSPC/days/1/2026-11-17/2025-01-01",
+      "status": 200,
+      "received_at": "2026-11-26T07:37:07.114807+05:30",
+      "server_date": "Thu, 26 Nov 2026 02:07:07 GMT",
+      "rows": 489,
+      "duplicate_labels": 0,
+      "file": "sources/foreign-broker/us.json",
+      "sha256": "b9954f7cfefae9041eb283dce1c1d054657ebafd0dc2448737a08a8684c75d2c"
+    },
+    {
+      "code": "japan",
+      "vendor": "Upstox",
+      "symbol": "^N225",
+      "sent_at": "2026-11-26T07:37:06.914109+05:30",
+      "requested": [
+        "2025-01-01",
+        "2026-11-17"
+      ],
+      "url": "https://api.upstox.com/v3/historical-candle/GLOBAL_INDEX%7C%5EN225/days/1/2026-11-17/2025-01-01",
+      "status": 200,
+      "received_at": "2026-11-26T07:37:07.116007+05:30",
+      "server_date": "Thu, 26 Nov 2026 02:07:07 GMT",
+      "rows": 456,
+      "duplicate_labels": 0,
+      "file": "sources/foreign-broker/japan.json",
+      "sha256": "75378918b49dbf5c76e94e10ec3749b45f0745712ea68ce60ec2d8c7e9ce1ab1"
+    },
+    {
+      "code": "hong_kong",
+      "vendor": "Upstox",
+      "symbol": "^HSI",
+      "sent_at": "2026-11-26T07:37:06.913842+05:30",
+      "requested": [
+        "2025-01-01",
+        "2026-11-17"
+      ],
+      "url": "https://api.upstox.com/v3/historical-candle/GLOBAL_INDEX%7C%5EHSI/days/1/2026-11-17/2025-01-01",
+      "status": 200,
+      "received_at": "2026-11-26T07:37:07.112779+05:30",
+      "server_date": "Thu, 26 Nov 2026 02:07:07 GMT",
+      "rows": 460,
+      "duplicate_labels": 0,
+      "file": "sources/foreign-broker/hong_kong.json",
+      "sha256": "7fc0aa567a9343e8a33549c78e88b811c89b23900680d84dc5d01434ea728a4b"
+    },
+    {
+      "code": "uk",
+      "vendor": "Upstox",
+      "symbol": "^FTSE",
+      "sent_at": "2026-11-26T07:37:06.914290+05:30",
+      "requested": [
+        "2025-01-01",
+        "2026-11-17"
+      ],
+      "url": "https://api.upstox.com/v3/historical-candle/GLOBAL_INDEX%7C%5EFTSE/days/1/2026-11-17/2025-01-01",
+      "status": 200,
+      "received_at": "2026-11-26T07:37:07.113740+05:30",
+      "server_date": "Thu, 26 Nov 2026 02:07:07 GMT",
+      "rows": 485,
+      "duplicate_labels": 0,
+      "file": "sources/foreign-broker/uk.json",
+      "sha256": "77030280d15cb4d32925bd275c9858d2a58de8d897c5e7ceb629c8d273fd57a5"
+    },
+    {
+      "code": "france",
+      "vendor": "Upstox",
+      "symbol": "^FCHI",
+      "sent_at": "2026-11-26T07:37:06.914570+05:30",
+      "requested": [
+        "2025-01-01",
+        "2026-11-17"
+      ],
+      "url": "https://api.upstox.com/v3/historical-candle/GLOBAL_INDEX%7C%5EFCHI/days/1/2026-11-17/2025-01-01",
+      "status": 200,
+      "received_at": "2026-11-26T07:37:07.111223+05:30",
+      "server_date": "Thu, 26 Nov 2026 02:07:07 GMT",
+      "rows": 482,
+      "duplicate_labels": 0,
+      "file": "sources/foreign-broker/france.json",
+      "sha256": "b37a39c6404339d493a8aa025fd148ea4a998ac6436f3b7828bb7effd7d75028"
+    },
+    {
+      "code": "dax_total",
+      "vendor": "Upstox",
+      "symbol": "^GDAXI",
+      "sent_at": "2026-11-26T07:37:06.915381+05:30",
+      "requested": [
+        "2025-01-01",
+        "2026-11-17"
+      ],
+      "url": "https://api.upstox.com/v3/historical-candle/GLOBAL_INDEX%7C%5EGDAXI/days/1/2026-11-17/2025-01-01",
+      "status": 200,
+      "received_at": "2026-11-26T07:37:07.109982+05:30",
+      "server_date": "Thu, 26 Nov 2026 02:07:07 GMT",
+      "rows": 486,
+      "duplicate_labels": 0,
+      "file": "sources/foreign-broker/dax_total.json",
+      "sha256": "9f893ff038b3f5d7b27d217bd3a80d0dc55d4cc92edb49b6898217a3af11c58b"
+    },
+    {
+      "code": "us",
+      "vendor": "Federal Reserve Bank of St. Louis",
+      "symbol": "SP500",
+      "sent_at": "2026-11-26T07:37:07.195937+05:30",
+      "requested": [
+        "2025-01-01",
+        "2026-11-17"
+      ],
+      "error": "ReadTimeout"
+    },
+    {
+      "code": "japan",
+      "vendor": "Federal Reserve Bank of St. Louis",
+      "symbol": "NIKKEI225",
+      "sent_at": "2026-11-26T07:37:07.196129+05:30",
+      "requested": [
+        "2025-01-01",
+        "2026-11-17"
+      ],
+      "error": "ReadTimeout"
+    }
+  ],
+  "strict": "Same bounded local price-index session. All four marks within 10 basis points. Every mark in a donor window must qualify, including its cash reference. A close-only check never verifies a high or low.",
+  "engineering": "Unresolved currency, price versus total return, and clock differences remain exclusions. Published date labels are joined without fitting an apparent lag.",
+  "docs": [
+    "https://upstox.com/developer/api-documentation/v3/get-historical-candle-data/",
+    "https://fred.stlouisfed.org/series/SP500",
+    "https://fred.stlouisfed.org/series/NIKKEI225"
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "registered_at": "2026-11-26T07:36:02.611763+05:30",
+  "seed": 231126,
+  "historical_bounds": [
+    "2025-01-01",
+    "2026-11-17"
+  ],
+  "final_forward_year": 2026,
+  "original_cohorts": {
+    "5": [
+      173,
+      92,
+      53
+    ],
+    "21": [
+      141,
+      76,
+      11
+    ]
+  },
+  "historical_exposure": "Forecast model selection remains research-exposed",
+  "hypotheses": [
+    {
+      "mechanism": "Forecast-family redundancy",
+      "proposal": "Shared inputs and parents yield correlated losses and nearly equal laws",
+      "target": "Original returns",
+      "strong_parent": "Best archived model at each clock",
+      "primary_metric": "Loss effective rank and quantile distance",
+      "negative_control": "Exact copies, affine signatures and independent simulation draws",
+      "computational_budget": "One full-sample diagnostic and one mature-distance training family",
+      "cutoff": "Original archived cutoff. New paths use 08:55 IST with strictly earlier outcomes."
+    },
+    {
+      "mechanism": "Component-level distributions",
+      "proposal": "Location, scale, sign, skew and tails may come from distinct models",
+      "target": "Original returns and terminal tails",
+      "strong_parent": "V22 Brier and CRPS leaders separately",
+      "primary_metric": "CRPS, Brier and quantile scores",
+      "negative_control": "Individually isolated transforms, fixed historical mixtures",
+      "computational_budget": "One staged transform per component and one complete transformed law per clock",
+      "cutoff": "Original archived cutoff. New paths use 08:55 IST with strictly earlier outcomes."
+    },
+    {
+      "mechanism": "Robust aggregation",
+      "proposal": "Family balancing and bounded weights reduce concentrated model risk",
+      "target": "Original returns",
+      "strong_parent": "Best archive, equal family and equal model",
+      "primary_metric": "CRPS and worst cohort",
+      "negative_control": "Zero weight, exact duplicate, near copy, randomized fixed weights",
+      "computational_budget": "One robust scheme per mechanism, fixed 120-row memory, 36 minimum",
+      "cutoff": "Original archived cutoff. New paths use 08:55 IST with strictly earlier outcomes."
+    },
+    {
+      "mechanism": "Uncertainty and disagreement",
+      "proposal": "Between-family variance may forecast loss beyond IV and historical risk",
+      "target": "Errors, expansion, range and tails",
+      "strong_parent": "ATM IV, rolling volatility, ordinary dispersion",
+      "primary_metric": "MAE and calibrated Brier",
+      "negative_control": "Delayed disagreement and centered null features",
+      "computational_budget": "Four response heads, past-only base and augmented fits with equal penalties",
+      "cutoff": "Original archived cutoff. New paths use 08:55 IST with strictly earlier outcomes."
+    },
+    {
+      "mechanism": "Stable coefficients",
+      "proposal": "Small robust adaptations may survive changes in market state and training mix",
+      "target": "Original returns",
+      "strong_parent": "Ordinary ridge on identical origins",
+      "primary_metric": "Paired loss, worst cohort and coefficient spread",
+      "negative_control": "Delayed features, blocked residual permutation, earlier/later contrast",
+      "computational_budget": "One Huber, environment, hierarchical and conservative-group variant",
+      "cutoff": "Original archived cutoff. New paths use 08:55 IST with strictly earlier outcomes."
+    },
+    {
+      "mechanism": "Historical path shape",
+      "proposal": "At the same risk anchor, continuous episodes may better represent ranges and drawdowns",
+      "target": "Original risk, range and path",
+      "strong_parent": "08:55 protected IV and GJR paths",
+      "primary_metric": "Range CRPS and drawdown CRPS",
+      "negative_control": "Diffusion, Student GJR, shuffled chronology, IID days, constant scenario risk, widened scale",
+      "computational_budget": "One fixed structural ablation per mechanism at two horizons",
+      "cutoff": "Original archived cutoff. New paths use 08:55 IST with strictly earlier outcomes."
+    },
+    {
+      "mechanism": "International paths beyond India",
+      "proposal": "A modest foreign contribution improves shape beyond a domestic library",
+      "target": "Mainly monthly range and tails",
+      "strong_parent": "Equal India episodes and same GJR scale",
+      "primary_metric": "Range CRPS, upper tail, drawdown and expansion",
+      "negative_control": "Equal counts, random foreign, broad versus strict source, region and episode exclusions",
+      "computational_budget": "24 episodes and 25% target foreign replacement, no tuning to outcomes",
+      "cutoff": "Original archived cutoff. New paths use 08:55 IST with strictly earlier outcomes."
+    },
+    {
+      "mechanism": "Forecast calibration",
+      "proposal": "Conservative calibration can improve reliability without sacrificing resolution",
+      "target": "Original sign, PIT and tail events",
+      "strong_parent": "Same-clock unmodified parent and fixed shrinkage",
+      "primary_metric": "Log loss, Brier and interval score",
+      "negative_control": "Training-only maps, fixed shrinkage, block permutation",
+      "computational_budget": "One probability map and one monotone empirical PIT law per source",
+      "cutoff": "Original archived cutoff. New paths use 08:55 IST with strictly earlier outcomes."
+    },
+    {
+      "mechanism": "Simulation precision",
+      "proposal": "Sampling uncertainty can dominate small historical score gains",
+      "target": "Sign, expected return, interval, range, barriers",
+      "strong_parent": "Exact finite weighted law",
+      "primary_metric": "Absolute draw error and seed RMSE",
+      "negative_control": "Common random prefixes and independent seeds",
+      "computational_budget": "256, 1024, 4096 and 16384 draws, eight seeds on stratified cases",
+      "cutoff": "Original archived cutoff. New paths use 08:55 IST with strictly earlier outcomes."
+    },
+    {
+      "mechanism": "Cumulative search exposure",
+      "proposal": "Repeated selection can produce a favorable retrospective winner under null information",
+      "target": "Original return and scale loss",
+      "strong_parent": "Strongest archived model at its clock",
+      "primary_metric": "Best refitted and reselected paired gain",
+      "negative_control": "Null features, blocked residuals and randomized weights",
+      "computational_budget": "39 representative replicates per horizon with a bounded mechanism family",
+      "cutoff": "Original archived cutoff. New paths use 08:55 IST with strictly earlier outcomes."
+    },
+    {
+      "mechanism": "Archive validity and chronology",
+      "proposal": "Provenance and explicit time matching preserve exact admissibility",
+      "target": "All archived original targets",
+      "strong_parent": "V22 verified law archive",
+      "primary_metric": "Exact score differences and coverage",
+      "negative_control": "Future timestamp poison and invalid date/window sentinels",
+      "computational_budget": "Audit all recoverable source table schemas and case links plus dated archive replay",
+      "cutoff": "Original archived cutoff. New paths use 08:55 IST with strictly earlier outcomes."
+    },
+    {
+      "mechanism": "Authentic prospective research",
+      "proposal": "A small frozen panel can be staged with verifiable calendar and published inputs",
+      "target": "The original return and risk targets",
+      "strong_parent": "Prior immutable issues and frozen native models",
+      "primary_metric": "Valid issue, sources, complete law and settlement",
+      "negative_control": "No backdating, incomplete-source gate and unchanged hashes",
+      "computational_budget": "One due morning census, a bounded retry and separate settlement checks",
+      "cutoff": "Original archived cutoff. New paths use 08:55 IST with strictly earlier outcomes."
+    }
+  ]
+}

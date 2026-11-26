@@ -1,0 +1,29 @@
+{
+  "assembled_at": "2026-11-26T08:19:12.064360+05:30",
+  "information_cutoff": "2026-11-26T08:55:00+05:30",
+  "reference_close": 25819.24999999999,
+  "comparison_foreign_marks": 19,
+  "input_fields": {
+    "mom3": 0.59721644036315,
+    "mom5": 0.6567374587931137,
+    "mom21": 2.401692103746343,
+    "vol_level": -1.7019089565572014,
+    "vol_ratio": 0.17678931849859275,
+    "drawdown": 0.0,
+    "trend_efficiency": 0.33612389173617746,
+    "relative5": 1.3918675820489286,
+    "cross_dispersion": 1.3751902495604833,
+    "synchronization": 0.05263157894736842,
+    "global_vix": 3.3425084176757003,
+    "global5": -0.01888075176320116,
+    "local_innovation5": 1.2068415566928048,
+    "local_breadth": -0.4678258254592371,
+    "local_sector": 0.2272377514526292,
+    "down_share": 0.1431263089622926,
+    "mom10": 0.8386125309301479
+  },
+  "gjr_anchor": 0.14308019522973964,
+  "source_law": "forward/gjr-risk-21.npz",
+  "law_sha256": "74be7d5eb37476b7cb28e4f4c993f59fea32a04027d2acf5658603466da41ce1",
+  "local_trailing_rv": 0.18233512178979522
+}

@@ -1,0 +1,57 @@
+code,market,region,ticker,role,exchange,zone,currency,convention,eligible_close,expected_sessions,valid_ohlc,missing_close,off_calendar_rows,first,last,modeled_guard_minutes,utc_offsets,primary_eligible
+india,India,South Asia,NIFTY 50,primary,NSE,Asia/Kolkata,INR,local price index,466,466,466,0,0,2025-01-01,2026-11-17,60,+0530,True
+us,United States,North America,^GSPC,primary,XNYS,America/New_York,USD,local price index,471,471,471,0,0,2025-01-02,2026-11-17,60,"-0400,-0500",True
+canada,Canada,North America,^GSPTSE,primary,XTSE,America/Toronto,CAD,local price index,472,472,472,0,0,2025-01-02,2026-11-17,60,"-0400,-0500",True
+mexico,Mexico,North America,^MXX,primary,XMEX,America/Mexico_City,MXN,local price index,471,471,471,0,0,2025-01-02,2026-11-17,60,-0600,True
+uk,United Kingdom,Europe,^FTSE,primary,XLON,Europe/London,GBP,local price index,476,476,476,0,0,2025-01-02,2026-11-17,60,"+0000,+0100",True
+france,France,Europe,^FCHI,primary,XPAR,Europe/Paris,EUR,local price index,480,480,480,0,0,2025-01-02,2026-11-17,60,"+0100,+0200",True
+germany,Germany,Europe,^GDAXIP,primary,XETR,Europe/Berlin,EUR,local price index,478,478,478,0,0,2025-01-02,2026-11-17,60,"+0100,+0200",True
+spain,Spain,Europe,^IBEX,primary,XMAD,Europe/Madrid,EUR,local price index,480,480,480,0,0,2025-01-02,2026-11-17,60,"+0100,+0200",True
+italy,Italy,Europe,FTSEMIB.MI,primary,XMIL,Europe/Rome,EUR,local price index,477,477,477,0,0,2025-01-02,2026-11-17,60,"+0100,+0200",True
+swiss,Switzerland,Europe,^SSMI,primary,XSWX,Europe/Zurich,CHF,local price index,471,471,471,0,0,2025-01-03,2026-11-17,60,"+0100,+0200",True
+netherlands,Netherlands,Europe,^AEX,primary,XAMS,Europe/Amsterdam,EUR,local price index,480,480,480,0,0,2025-01-02,2026-11-17,60,"+0100,+0200",True
+japan,Japan,Asia Pacific,^N225,primary,XTKS,Asia/Tokyo,JPY,local price index,455,455,455,0,0,2025-01-06,2026-11-17,60,+0900,True
+hong_kong,Hong Kong,Asia Pacific,^HSI,primary,XHKG,Asia/Hong_Kong,HKD,local price index,462,462,462,0,0,2025-01-02,2026-11-17,60,+0800,True
+china,Mainland China,Asia Pacific,000001.SS,primary,XSHG,Asia/Shanghai,CNY,local price index,453,453,453,0,0,2025-01-02,2026-11-17,60,+0800,True
+korea,South Korea,Asia Pacific,^KS11,primary,XKRX,Asia/Seoul,KRW,local price index,456,457,456,1,0,2025-01-02,2026-11-17,60,+0900,True
+taiwan,Taiwan,Asia Pacific,^TWII,primary,XTAI,Asia/Taipei,TWD,local price index,453,455,453,2,0,2025-01-02,2026-11-17,60,+0800,True
+singapore,Singapore,Asia Pacific,^STI,primary,XSES,Asia/Singapore,SGD,local price index,472,472,472,0,0,2025-01-02,2026-11-17,60,+0800,True
+australia,Australia,Asia Pacific,^AXJO,primary,XASX,Australia/Sydney,AUD,local price index,477,477,477,0,0,2025-01-02,2026-11-17,60,"+1000,+1100",True
+indonesia,Indonesia,Asia Pacific,^JKSE,primary,XIDX,Asia/Jakarta,IDR,local price index,446,447,446,1,0,2025-01-02,2026-11-17,60,+0700,True
+malaysia,Malaysia,Asia Pacific,^KLSE,primary,XKLS,Asia/Kuala_Lumpur,MYR,local price index,458,461,458,3,0,2025-01-02,2026-11-17,60,+0800,True
+thailand,Thailand,Asia Pacific,^SET.BK,primary,XBKK,Asia/Bangkok,THB,local price index,0,455,0,455,0,2025-01-02,2026-11-17,60,+0700,False
+brazil,Brazil,Latin America,^BVSP,sensitivity,BVMF,America/Sao_Paulo,BRL,local total-return index,469,469,469,0,0,2025-01-02,2026-11-17,60,-0300,False
+dax_total,Germany,Europe,^GDAXI,context,XETR,Europe/Berlin,EUR,local gross total-return index,478,478,478,0,0,2025-01-02,2026-11-17,60,"+0100,+0200",False
+euro50,Eurozone,Europe,^STOXX50E,context,XETR,Europe/Berlin,EUR,local price index,471,478,471,7,0,2025-01-02,2026-11-17,60,"+0100,+0200",False
+ndx,United States,North America,^NDX,context,XNAS,America/New_York,USD,local price index,471,471,471,0,0,2025-01-02,2026-11-17,60,"-0400,-0500",False
+dow,United States,North America,^DJI,context,XNYS,America/New_York,USD,local price index,471,471,471,0,0,2025-01-02,2026-11-17,60,"-0400,-0500",False
+russell,United States,North America,^RUT,context,XNYS,America/New_York,USD,local price index,471,471,471,0,0,2025-01-02,2026-11-17,60,"-0400,-0500",False
+us_equal,United States,North America,RSP,context,XNYS,America/New_York,USD,ETF raw price,471,471,471,0,0,2025-01-02,2026-11-17,60,"-0400,-0500",False
+us_finance,United States,North America,XLF,context,XNYS,America/New_York,USD,ETF raw price,471,471,471,0,0,2025-01-02,2026-11-17,60,"-0400,-0500",False
+us_technology,United States,North America,XLK,context,XNYS,America/New_York,USD,ETF raw price,471,471,471,0,0,2025-01-02,2026-11-17,60,"-0400,-0500",False
+uk_mid,United Kingdom,Europe,^FTMC,context,XLON,Europe/London,GBP,local price index,476,476,476,0,0,2025-01-02,2026-11-17,60,"+0000,+0100",False
+topix,Japan,Asia Pacific,^TOPX,context,XTKS,Asia/Tokyo,JPY,local price index,0,455,0,455,0,2025-01-06,2026-11-17,60,+0900,False
+topix_etf,Japan,Asia Pacific,1306.T,context,XTKS,Asia/Tokyo,JPY,ETF raw price,455,455,455,0,0,2025-01-06,2026-11-17,60,+0900,False
+china300,Mainland China,Asia Pacific,000300.SS,context,XSHG,Asia/Shanghai,CNY,local price index,0,453,0,453,0,2025-01-02,2026-11-17,60,+0800,False
+aus_finance,Australia,Asia Pacific,^AXFJ,context,XASX,Australia/Sydney,AUD,local price index,477,477,477,0,0,2025-01-02,2026-11-17,60,"+1000,+1100",False
+vix,United States,North America,^VIX,context,XNYS,America/New_York,USD,implied risk index,471,471,471,0,18,2025-01-02,2026-11-17,90,"-0400,-0500",False
+us10y,United States,North America,^TNX,context,XNYS,America/New_York,USD,yield level,471,471,471,0,0,2025-01-02,2026-11-17,120,"-0400,-0500",False
+brent,Global,Global,BZ=F,context,,America/New_York,USD,vendor continuous commodity front,473,475,473,2,0,2025-01-02,2026-11-17,1440,+0000,False
+dollar,Global,Global,DX-Y.NYB,context,,America/New_York,USD,USD basket,473,573,473,100,0,2025-01-02,2026-11-17,1440,+0000,False
+fx_eur,EUR,FX,EURUSD=X,context,,UTC,EUR,USD per local currency after conversion,485,489,467,4,0,2025-01-02,2026-11-17,720,+0000,False
+fx_gbp,GBP,FX,GBPUSD=X,context,,UTC,GBP,USD per local currency after conversion,485,489,473,4,0,2025-01-02,2026-11-17,720,+0000,False
+fx_aud,AUD,FX,AUDUSD=X,context,,UTC,AUD,USD per local currency after conversion,485,489,462,4,0,2025-01-02,2026-11-17,720,+0000,False
+fx_cad,CAD,FX,CAD=X,context,,UTC,CAD,USD per local currency after conversion,485,489,471,4,0,2025-01-02,2026-11-17,720,+0000,False
+fx_jpy,JPY,FX,JPY=X,context,,UTC,JPY,USD per local currency after conversion,485,489,457,4,0,2025-01-02,2026-11-17,720,+0000,False
+fx_hkd,HKD,FX,HKD=X,context,,UTC,HKD,USD per local currency after conversion,485,489,463,4,0,2025-01-02,2026-11-17,720,+0000,False
+fx_cny,CNY,FX,CNY=X,context,,UTC,CNY,USD per local currency after conversion,485,489,472,4,0,2025-01-02,2026-11-17,720,+0000,False
+fx_krw,KRW,FX,KRW=X,context,,UTC,KRW,USD per local currency after conversion,485,489,416,4,0,2025-01-02,2026-11-17,720,+0000,False
+fx_twd,TWD,FX,TWD=X,context,,UTC,TWD,USD per local currency after conversion,485,489,464,4,0,2025-01-02,2026-11-17,720,+0000,False
+fx_sgd,SGD,FX,SGD=X,context,,UTC,SGD,USD per local currency after conversion,485,489,467,4,0,2025-01-02,2026-11-17,720,+0000,False
+fx_inr,INR,FX,INR=X,context,,UTC,INR,USD per local currency after conversion,485,489,474,4,0,2025-01-02,2026-11-17,720,+0000,False
+fx_chf,CHF,FX,CHF=X,context,,UTC,CHF,USD per local currency after conversion,485,489,469,4,0,2025-01-02,2026-11-17,720,+0000,False
+fx_mxn,MXN,FX,MXN=X,context,,UTC,MXN,USD per local currency after conversion,485,489,478,4,0,2025-01-02,2026-11-17,720,+0000,False
+fx_idr,IDR,FX,IDR=X,context,,UTC,IDR,USD per local currency after conversion,485,489,445,4,0,2025-01-02,2026-11-17,720,+0000,False
+fx_myr,MYR,FX,MYR=X,context,,UTC,MYR,USD per local currency after conversion,485,489,331,4,0,2025-01-02,2026-11-17,720,+0000,False
+fx_thb,THB,FX,THB=X,context,,UTC,THB,USD per local currency after conversion,485,489,469,4,0,2025-01-02,2026-11-17,720,+0000,False
+fx_brl,BRL,FX,BRL=X,context,,UTC,BRL,USD per local currency after conversion,485,489,483,4,0,2025-01-02,2026-11-17,720,+0000,False

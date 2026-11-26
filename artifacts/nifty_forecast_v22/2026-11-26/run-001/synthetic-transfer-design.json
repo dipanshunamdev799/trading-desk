@@ -1,0 +1,23 @@
+{
+  "replicates_per_cell": 240,
+  "study_cells": 72,
+  "aggregate_replicates": 17280,
+  "seed": 221187,
+  "models": [
+    "india_only",
+    "foreign_only",
+    "partially_pooled",
+    "ordinary_zero_shrink"
+  ],
+  "domains": [
+    1,
+    8,
+    19
+  ],
+  "synthetic_only": true,
+  "global_residual_variance_share": 0.46,
+  "input_common_variance_share": 0.32,
+  "return_error": "Gaussian overlapping 5/21-session sums, date-common and country-specific shocks. Evaluation draws are disjoint.",
+  "association": "Three causal standardized inputs. Stable slopes [.20, -.14, .10]. Two independent-local budgets 60 and 120 consecutive origins.",
+  "effects": "Country heterogeneity, zero conditional mean, temporary shrink to zero, post-train sign reversal, or a separate zero-slope India."
+}

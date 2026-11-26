@@ -1,0 +1,213 @@
+{
+  "registered_at": "2026-11-26T00:52:59.700997+05:30",
+  "scope": [
+    "2025-01-01",
+    "2026-11-17"
+  ],
+  "forward_limit": "2026-12-31",
+  "seed": 221126,
+  "horizons": [
+    1,
+    3,
+    5,
+    10,
+    21
+  ],
+  "historical_exposure": "All historical periods remain research-exposed",
+  "cohorts": {
+    "5": [
+      173,
+      92,
+      53
+    ],
+    "21": [
+      141,
+      76,
+      11
+    ]
+  },
+  "hypotheses": [
+    {
+      "name": "Comparable markets",
+      "mechanism": "One broad local price index per market can support harmonized tasks",
+      "markets": "Official India, verified vendor/FRED global",
+      "horizon": "1, 3, 5, 10, 21 local sessions",
+      "strong_parent": "Cash OHLC and calendar",
+      "metric": "Coverage and agreement",
+      "negative_control": "Reject total-return series from primary, audit duplicates",
+      "eligibility": "At least 360 close marks, explicit local clock",
+      "budget": "Fixed country inventory",
+      "follow_up": "Retain eligibility only if a valid tenor can be audited",
+      "cutoff": "Own exchange pre-open, original India 08:55 or native 09:10 with guarded inputs"
+    },
+    {
+      "name": "Global vs local risk",
+      "mechanism": "Date-balanced global exposures can remove duplicated market shocks",
+      "markets": "Leave-India-out global and regional equity states",
+      "horizon": "Daily and original 5/21",
+      "strong_parent": "Local cash return",
+      "metric": "Realized residual variance and predictive CRPS",
+      "negative_control": "Region exclusion and training-only PCA",
+      "eligibility": "At least 70 earlier paired dates",
+      "budget": "Economic factors and one PCA reference",
+      "follow_up": "Compare residual forecast beyond already visible GIFT",
+      "cutoff": "Own exchange pre-open, original India 08:55 or native 09:10 with guarded inputs"
+    },
+    {
+      "name": "Repeated predictive mechanisms",
+      "mechanism": "Direction and volatility laws may share slopes across markets",
+      "markets": "One broad index per country or market jurisdiction",
+      "horizon": "All local horizons",
+      "strong_parent": "Own-market ridge",
+      "metric": "Brier, CRPS, risk MAE",
+      "negative_control": "Country alignment permutation, shifted inputs",
+      "eligibility": "At least 45 matured past dates per target",
+      "budget": "Single ridge family plus measured country deviations",
+      "follow_up": "Require agreement beyond local and shift controls",
+      "cutoff": "Own exchange pre-open, original India 08:55 or native 09:10 with guarded inputs"
+    },
+    {
+      "name": "Country and region generalization",
+      "mechanism": "Country success may depend on exposure to its own region",
+      "markets": "Chronological global panel",
+      "horizon": "All local horizons",
+      "strong_parent": "Own-market ridge",
+      "metric": "Negative transfer and paired CRPS",
+      "negative_control": "Hold out entire country or region",
+      "eligibility": "Matured timestamps before the local issue",
+      "budget": "One walk-forward held-region design",
+      "follow_up": "Inspect dependence and failures by regime",
+      "cutoff": "Own exchange pre-open, original India 08:55 or native 09:10 with guarded inputs"
+    },
+    {
+      "name": "International analogue distributions",
+      "mechanism": "Comparable risk states may recur outside India",
+      "markets": "Broad markets and same-date domestic states",
+      "horizon": "Original 5/21 and risk",
+      "strong_parent": "Historical India, V21",
+      "metric": "NIFTY CRPS, interval and tail scores",
+      "negative_control": "Random windows, volatility conditioning, unconstrained neighbours",
+      "eligibility": "45 mature windows, usable volatility and date caps",
+      "budget": "Nearest, Mahalanobis, ridge-metric and path baselines",
+      "follow_up": "Advance only with diversity and a matched advantage",
+      "cutoff": "Own exchange pre-open, original India 08:55 or native 09:10 with guarded inputs"
+    },
+    {
+      "name": "Global episode diversification",
+      "mechanism": "Simultaneous crises should not dominate analogue weights",
+      "markets": "Observed weekly UTC episodes and region",
+      "horizon": "Original 5/21",
+      "strong_parent": "Unrestricted international ancestors",
+      "metric": "Kish effective count and forecasting loss",
+      "negative_control": "Uncapped versus fixed episode and regional weights",
+      "eligibility": "At least five represented episodes",
+      "budget": "Fixed cap and date weights",
+      "follow_up": "Preserve the multiplicity diagnostics",
+      "cutoff": "Own exchange pre-open, original India 08:55 or native 09:10 with guarded inputs"
+    },
+    {
+      "name": "Transferable transitions",
+      "mechanism": "Risk transitions may generalize better than directional ones",
+      "markets": "Local cash returns and prior ex-India state",
+      "horizon": "1/3/5/10/21 risk, range and state transitions",
+      "strong_parent": "Local persistence and conditioned frequency",
+      "metric": "Expansion/contraction Brier, realized MAE",
+      "negative_control": "Date-aligned random labels, market-state-only baseline",
+      "eligibility": "Earlier filtered states, no smoothed regimes",
+      "budget": "One shared conditional law and one partially pooled transition",
+      "follow_up": "Advance stable risk effects with calibrated comparisons",
+      "cutoff": "Own exchange pre-open, original India 08:55 or native 09:10 with guarded inputs"
+    },
+    {
+      "name": "India parameter prior",
+      "mechanism": "International coefficients may help at a fixed India training budget",
+      "markets": "Matched local dates; imported global coefficients",
+      "horizon": "Original 5/21",
+      "strong_parent": "V21, zero and historical priors",
+      "metric": "Brier and CRPS",
+      "negative_control": "Same India sample, ordinary ridge, random/shifted country targets",
+      "eligibility": "45 or 60/120 fully matured local rows",
+      "budget": "Two training budgets and one hierarchical ridge",
+      "follow_up": "Require a benefit beyond coefficient shrinkage",
+      "cutoff": "Own exchange pre-open, original India 08:55 or native 09:10 with guarded inputs"
+    },
+    {
+      "name": "Domestic complement",
+      "mechanism": "Indian corporate and positioning states can complement transferred information",
+      "markets": "V20 domestic snapshot and V21 constituent events, plus foreign factors",
+      "horizon": "Original 5/21",
+      "strong_parent": "V20/V21 native laws",
+      "metric": "Brier, CRPS and conditional calibration",
+      "negative_control": "Matched domestic-only regime fit",
+      "eligibility": "Certified dated input or parent fallback",
+      "budget": "One domestic overlay and one external addition",
+      "follow_up": "Check early/later stability and source clock",
+      "cutoff": "Own exchange pre-open, original India 08:55 or native 09:10 with guarded inputs"
+    },
+    {
+      "name": "Strong-parent residual",
+      "mechanism": "Chronological errors of V21 may be predictable beyond baseline",
+      "markets": "Exact native V21 law and pooled or analogue estimates",
+      "horizon": "Original 5/21",
+      "strong_parent": "Archived same-clock V20/V21",
+      "metric": "CRPS/Brier",
+      "negative_control": "Bias, ordinary regularization, phase-paired nulls",
+      "eligibility": "At least 45 previously frozen forecast errors",
+      "budget": "Location, scale, asymmetry, sign and fixed mixtures",
+      "follow_up": "Inspect score component and omit favorable weeks",
+      "cutoff": "Own exchange pre-open, original India 08:55 or native 09:10 with guarded inputs"
+    },
+    {
+      "name": "International risk laws",
+      "mechanism": "Transferred dispersion and risk tails may improve IV or GJR",
+      "markets": "Global normalized OHLC innovations and Indian IV/GJR",
+      "horizon": "Original 5/21",
+      "strong_parent": "Protected point/transition/range anchors",
+      "metric": "Risk MAE, QLIKE, range CRPS and tails",
+      "negative_control": "Pure local history and fixed risk scale",
+      "eligibility": "Coherent OHLC, separated risk/terminal point targets",
+      "budget": "Empirical paths and compact heavy-tail and EWMA shrinkage",
+      "follow_up": "Require matched risk and tail calibration",
+      "cutoff": "Own exchange pre-open, original India 08:55 or native 09:10 with guarded inputs"
+    },
+    {
+      "name": "Shared previous failure mechanisms",
+      "mechanism": "Duplicated global factors and complex pooling can cause misleading gains",
+      "markets": "V5, V9, V10, V18, V21",
+      "horizon": "Historical replay",
+      "strong_parent": "Archived controls",
+      "metric": "Exact reproduction and residual scores",
+      "negative_control": "Clock checks, synthetic negative transfer",
+      "eligibility": "Verified archives with fixed score definitions",
+      "budget": "One archive replay per prior transfer family",
+      "follow_up": "Document which mechanisms are newly tested",
+      "cutoff": "Own exchange pre-open, original India 08:55 or native 09:10 with guarded inputs"
+    },
+    {
+      "name": "Sample and power",
+      "mechanism": "More markets improve parameter estimates if relationships are stable",
+      "markets": "Synthetic shared and country-specific outcomes, real date clusters",
+      "horizon": "Original 5/21 and all source markets",
+      "strong_parent": "India-only and no-signal controls",
+      "metric": "Parameter RMSE, gain and effective size",
+      "negative_control": "Global shock, instability and India exclusion",
+      "eligibility": "Expose assumptions and original cohort counts",
+      "budget": "240 replications per declared design",
+      "follow_up": "Separate simulated gains from market evidence",
+      "cutoff": "Own exchange pre-open, original India 08:55 or native 09:10 with guarded inputs"
+    },
+    {
+      "name": "Prospective eligibility",
+      "mechanism": "A forward forecast requires native live inputs and a genuine timestamp",
+      "markets": "Official NSE, eligible Upstox, archived risk and directional laws",
+      "horizon": "Original 5 and 21, opening and risk",
+      "strong_parent": "V4\u2013V21 archived issues",
+      "metric": "Legitimate maturity and source audit",
+      "negative_control": "Original issuance hash and exact date list",
+      "eligibility": "Actual cutoff, complete local calendar; no 2027 targets",
+      "budget": "One staged research panel and live guarded execution where feasible",
+      "follow_up": "Issue only feasible, reproducible laws",
+      "cutoff": "Own exchange pre-open, original India 08:55 or native 09:10 with guarded inputs"
+    }
+  ]
+}

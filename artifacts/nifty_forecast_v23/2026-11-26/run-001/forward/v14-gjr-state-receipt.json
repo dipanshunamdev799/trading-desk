@@ -1,0 +1,96 @@
+{
+  "captured_at": "2026-11-26T08:19:12.224959+05:30",
+  "fit_start": "2025-08-14",
+  "fit_end": "2026-11-02",
+  "origin": "2026-11-25",
+  "mature_forward_cash_sessions": [
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20",
+    "2026-11-23",
+    "2026-11-25"
+  ],
+  "original_process_hash": "f8805b870444c738f41f714f936dba26f3c1980a494bf8e180aaabee2fd4af35",
+  "historical_case_reproductions": [
+    {
+      "day": "2026-11-02",
+      "next_variance": 0.4176498918374972,
+      "max_21_session_variance_diff": 0.0
+    },
+    {
+      "day": "2026-11-03",
+      "next_variance": 0.39716253251023265,
+      "max_21_session_variance_diff": 0.0
+    },
+    {
+      "day": "2026-11-04",
+      "next_variance": 0.3790044575567141,
+      "max_21_session_variance_diff": 0.0
+    },
+    {
+      "day": "2026-11-05",
+      "next_variance": 0.3631942754343992,
+      "max_21_session_variance_diff": 0.0
+    },
+    {
+      "day": "2026-11-06",
+      "next_variance": 0.3491782579902882,
+      "max_21_session_variance_diff": 0.0
+    },
+    {
+      "day": "2026-11-08",
+      "next_variance": 0.3399510481275697,
+      "max_21_session_variance_diff": 0.0
+    }
+  ],
+  "preserved_parameters": {
+    "form": "gjr",
+    "distribution": "student",
+    "omega": 0.02858091454331226,
+    "alpha": 4.005536311357785e-05,
+    "beta": 0.8822780855197853,
+    "gamma": 0.10673711613841429,
+    "xi": 3.748229858968496e-18,
+    "nu": 17.36397953204141,
+    "skew": 0.0,
+    "exog": "none",
+    "initial": 0.2587088264101851,
+    "ok": true,
+    "objective": 1.111614482465616,
+    "raw_parameters": [
+      -3.555016107576282,
+      -5.0,
+      5.0,
+      2.88786165689466,
+      -15.0,
+      17.36397953204141,
+      0.0
+    ],
+    "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+  },
+  "log_variance_curve_percent_squared": [
+    0.6028937067680842,
+    0.5927005368481398,
+    0.5831629233338893,
+    0.5742387052288592,
+    0.5658884330494349,
+    0.5580751944385178,
+    0.5507644509945437,
+    0.5439238855945658,
+    0.5375232595364945,
+    0.5315342788689909,
+    0.5259304693181265,
+    0.5206870592579219,
+    0.5157808702074368,
+    0.5111902143703534,
+    0.5068947987641277,
+    0.502875635514911,
+    0.49911495792170174,
+    0.4955961419186886,
+    0.49230363258860943,
+    0.4892228754022786,
+    0.48634025188032776
+  ],
+  "updated_next_variance": 0.6028937067680842,
+  "ingredient": "The V14 monthly cached fit is held fixed. Only published post-freeze cash returns update the exact GJR filtering state."
+}

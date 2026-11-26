@@ -12,3 +12,4 @@ artifacts/nifty_forecast_v11/2026-11-24/run-001/replay/v10/base-laws.jsonl filte
 artifacts/nifty_forecast_v12/2026-11-24/run-001/laws/market.npz filter=lfs diff=lfs merge=lfs -text
 artifacts/nifty_forecast_v15/2026-11-25/run-001/sequential-scores.csv.gz filter=lfs diff=lfs merge=lfs -text
 artifacts/nifty_forecast_v18/2026-11-25/run-001/corporate-information.sqlite filter=lfs diff=lfs merge=lfs -text
+artifacts/nifty_forecast_v23/2026-11-26/run-001/v23-return-laws.npz filter=lfs diff=lfs merge=lfs -text

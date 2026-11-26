@@ -1,0 +1,17 @@
+[
+  {
+    "path": "artifacts/nifty_forecast_v10/2026-11-24/run-001/duplicate-replay/invariance-effects.csv",
+    "sha256": "b9bd66b220b37afc55ba2d2aaf412bd0e0088be57c1b1bcc574f9b7035b2dc16",
+    "required_tests": 110
+  },
+  {
+    "path": "artifacts/nifty_forecast_v10/2026-11-24/run-001/duplicate-replay/sector-alias-effects.csv",
+    "sha256": "b16cd666ac9450828e86ae49526b71ffae00b9f3e5b39d3ad6eb56b1b5fe302d",
+    "required_tests": 15
+  },
+  {
+    "path": "artifacts/nifty_forecast_v11/2026-11-24/run-001/invariance-and-sentinel.csv",
+    "sha256": "e377080f48a1889eba30b956fd3dac39f88da217920be60c4e5ec8c30e4ad40a",
+    "required_tests": 24
+  }
+]

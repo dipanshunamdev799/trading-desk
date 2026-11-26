@@ -1,0 +1,126 @@
+{
+  "fields": [
+    "shock",
+    "mom3",
+    "mom5",
+    "mom10",
+    "mom21",
+    "vol_level",
+    "vol_ratio",
+    "drawdown",
+    "trend_efficiency",
+    "down_share",
+    "global1",
+    "global5",
+    "regional1",
+    "regional5",
+    "relative5",
+    "cross_dispersion",
+    "synchronization",
+    "fx5",
+    "global_vix",
+    "tech_lead",
+    "global_finance",
+    "oil5",
+    "rates5",
+    "local_breadth",
+    "local_sector",
+    "pc_global",
+    "local_innovation5"
+  ],
+  "local": [
+    "shock",
+    "mom3",
+    "mom5",
+    "mom10",
+    "mom21",
+    "vol_level",
+    "vol_ratio",
+    "drawdown",
+    "trend_efficiency",
+    "down_share",
+    "fx5",
+    "local_breadth",
+    "local_sector",
+    "local_innovation5"
+  ],
+  "global_fields": [
+    "global1",
+    "global5",
+    "regional1",
+    "regional5",
+    "cross_dispersion",
+    "synchronization",
+    "global_vix",
+    "tech_lead",
+    "global_finance",
+    "oil5",
+    "rates5",
+    "pc_global"
+  ],
+  "mechanisms": {
+    "momentum_reversal": [
+      "shock",
+      "mom3",
+      "mom5",
+      "mom10",
+      "mom21",
+      "trend_efficiency"
+    ],
+    "drawdown_recovery": [
+      "drawdown",
+      "mom3",
+      "mom21",
+      "trend_efficiency"
+    ],
+    "volatility_clustering": [
+      "vol_level",
+      "vol_ratio",
+      "down_share",
+      "global_vix"
+    ],
+    "synchronization_relative": [
+      "relative5",
+      "local_innovation5",
+      "global5",
+      "regional5",
+      "cross_dispersion",
+      "synchronization"
+    ],
+    "breadth_leadership": [
+      "local_breadth",
+      "local_sector",
+      "tech_lead",
+      "global_finance"
+    ]
+  },
+  "state": [
+    "mom3",
+    "mom5",
+    "mom21",
+    "vol_level",
+    "vol_ratio",
+    "drawdown",
+    "trend_efficiency",
+    "relative5",
+    "cross_dispersion",
+    "synchronization",
+    "global_vix",
+    "global5",
+    "local_innovation5"
+  ],
+  "scale": "Earlier 21 local close-return root mean square \u00d7 square root of horizon. Up to 21 matured bars with minimum 16 to construct the state.",
+  "horizons": [
+    1,
+    3,
+    5,
+    10,
+    21
+  ],
+  "paths": "Anchor prior official close. All future local O/H/L/C log-relative marks retained with missingness. Risk/range/tail are not direction.",
+  "global_components": "One broad price index per market. Leave India and the current market out. Compare available log-price movement over local UTC label interval, used as subsequent targets only.",
+  "country_exposure": "Last 116 paired daily local and foreign observations admitted strictly before local decision. Shrunk global and regional-relative coefficients.",
+  "usdfx": "Separately mapped USD-per-local conversion using last eligible FX levels. Conservative UTC end-of-day plus 12 hours. Never replaces primary local price labels.",
+  "gaps": "Expected local exchange days remain in the series. An unknown open-session price prevents OHLC-path targets from jumping that gap.",
+  "models": "The statistical state excludes India mechanically and uses only earlier globally settled dates. Date-cluster rank is a descriptive dependence diagnostic."
+}

@@ -1,0 +1,12 @@
+{
+  "horizons": [
+    5,
+    21
+  ],
+  "refitted_draws": 39,
+  "primary_loss": "Brier",
+  "arms_reselected": 8,
+  "weight_control": "Fixed random weights on existing honest expert probability forecasts. The averaged probability is the sign mass of an actual linear pool.",
+  "blocked_control": "Only completely matured labels shuffled in training blocks. Test features preserved.",
+  "scope": "Representative refit and selection exercise, no estimate of full V1\u2013V23 adaptive search bias."
+}
